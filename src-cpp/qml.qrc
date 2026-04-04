@@ -1,0 +1,13 @@
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource>
+    <file>main.qml</file>
+    <file>HomeScreen.qml</file>
+    <file>OplManager.qml</file>
+    <file alias="app_icon.png">../assets/applogo/icon_512x512.png</file>
+    <file alias="assets/consoles/ps2.png">../assets/consoles/ps2.png</file>
+    <file alias="assets/consoles/gamecube.png">../assets/consoles/gamecube.png</file>
+    <file alias="assets/consoles/dreamcast.png">../assets/consoles/dreamcast.png</file>
+    <file alias="assets/consoles/saturn.png">../assets/consoles/saturn.png</file>
+    <file alias="assets/consoles/ps1.png">../assets/consoles/ps1.png</file>
+</qresource>
+</RCC>

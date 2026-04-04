@@ -1,0 +1,57 @@
+name: Build native installers
+
+on:
+  push:
+    branches: [ "main", "master" ]
+  pull_request:
+    branches: [ "main", "master" ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: Build on ${{ matrix.os }}
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        include:
+          - os: ubuntu-latest
+            artifact_name: OdeRelic-Linux.deb
+          - os: macos-latest
+            artifact_name: OdeRelic-MacOS.dmg
+          - os: windows-latest
+            artifact_name: OdeRelic-Windows.zip
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Install Qt
+      uses: jurplel/install-qt-action@v3
+      with:
+        version: '6.5.0'
+        target: 'desktop'
+
+    - name: Prepare build environment
+      run: mkdir build
+
+    - name: Configure CMake
+      run: cmake -B build -S . -DCMAKE_BUILD_TYPE=Release
+
+    - name: Build
+      run: cmake --build build --config Release
+
+    - name: Run automated native tests
+      working-directory: ./build
+      run: ctest --output-on-failure -C Release
+
+    - name: Generate installers native payload via CPack
+      working-directory: ./build
+      run: cpack -C Release
+
+    - name: Upload artifact payloads
+      uses: actions/upload-artifact@v4
+      with:
+        name: ${{ matrix.artifact_name }}
+        path: |
+          build/*.deb
+          build/*.dmg
+          build/*.zip

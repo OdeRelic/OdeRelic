@@ -1,0 +1,86 @@
+cmake_minimum_required(VERSION 3.16)
+project(OdeRelic VERSION 0.1.0 LANGUAGES CXX)
+
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+set(CMAKE_AUTOMOC ON)
+set(CMAKE_AUTORCC ON)
+set(CMAKE_AUTOUIC ON)
+
+find_package(Qt6 COMPONENTS Core Gui Qml Quick Network Test LinguistTools REQUIRED)
+
+enable_testing()
+
+qt_add_executable(OdeRelic WIN32
+    src-cpp/main.cpp
+    src-cpp/core/opl_library_service.cpp
+    src-cpp/core/opl_library_service.h
+    src-cpp/core/translation_manager.cpp
+    src-cpp/core/translation_manager.h
+    src-cpp/qml.qrc
+    src-cpp/HomeScreen.qml
+    src-cpp/OplManager.qml
+)
+
+qt_add_translations(OdeRelic
+    TS_FILES
+        i18n/OdeRelic_en.ts
+        i18n/OdeRelic_pt_BR.ts
+        i18n/OdeRelic_de.ts
+        i18n/OdeRelic_ja.ts
+    RESOURCE_PREFIX "/i18n"
+)
+
+target_link_libraries(OdeRelic PRIVATE
+    Qt6::Core
+    Qt6::Gui
+    Qt6::Qml
+    Qt6::Quick
+    Qt6::Network
+)
+
+# Application metadata
+if(APPLE)
+    set_target_properties(OdeRelic PROPERTIES
+        MACOSX_BUNDLE TRUE
+        MACOSX_BUNDLE_GUI_IDENTIFIER com.oderelic.app
+        MACOSX_BUNDLE_BUNDLE_NAME "OdeRelic"
+        MACOSX_BUNDLE_BUNDLE_VERSION ${PROJECT_VERSION}
+        MACOSX_BUNDLE_SHORT_VERSION_STRING ${PROJECT_VERSION}
+        MACOSX_BUNDLE_ICON_FILE "icon_512x512.icns"
+    )
+    set(app_icon_macos "${CMAKE_CURRENT_SOURCE_DIR}/assets/applogo/icon_512x512.icns")
+    set_source_files_properties(${app_icon_macos} PROPERTIES MACOSX_PACKAGE_LOCATION "Resources")
+    target_sources(OdeRelic PRIVATE ${app_icon_macos})
+elseif(WIN32)
+    target_sources(OdeRelic PRIVATE "${CMAKE_CURRENT_SOURCE_DIR}/assets/applogo/app_icon.rc")
+endif()
+
+add_subdirectory(tests)
+
+# --- Installation and CPack Directives ---
+
+install(TARGETS OdeRelic
+    BUNDLE DESTINATION .
+    RUNTIME DESTINATION bin
+)
+
+set(CPACK_PACKAGE_NAME "OdeRelic")
+set(CPACK_PACKAGE_VENDOR "Luden02")
+set(CPACK_PACKAGE_DESCRIPTION_SUMMARY "OdeRelic native runtime")
+set(CPACK_PACKAGE_VERSION_MAJOR ${PROJECT_VERSION_MAJOR})
+set(CPACK_PACKAGE_VERSION_MINOR ${PROJECT_VERSION_MINOR})
+set(CPACK_PACKAGE_VERSION_PATCH ${PROJECT_VERSION_PATCH})
+
+if(WIN32)
+    set(CPACK_GENERATOR "ZIP") # Safe, frictionless fallback generating native zip on Windows without needing NSIS natively installed on base github actions runners
+elseif(APPLE)
+    set(CPACK_GENERATOR "DragNDrop")
+else()
+    set(CPACK_GENERATOR "DEB")
+    set(CPACK_DEBIAN_PACKAGE_DEPENDS "libqt6core6, libqt6gui6, libqt6qml6, libqt6quick6, libqt6network6, qml6-module-qtquick, qml6-module-qtquick-controls, qml6-module-qtquick-layouts, qml6-module-qtquick-window")
+    set(CPACK_DEBIAN_PACKAGE_MAINTAINER "Luden02")
+endif()
+
+include(CPack)
