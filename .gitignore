@@ -39,3 +39,62 @@
 
 # debug information files
 *.dwo
+
+# MacOS / Windows / OS X
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# CMake
+CMakeCache.txt
+CMakeFiles
+CMakeScripts
+Testing
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps
+CMakeUserPresets.json
+
+# Qt
+CMakeLists.txt.user
+*.pro.user
+*.pro.user.*
+*.moc
+moc_*.cpp
+qrc_*.cpp
+ui_*.h
+qmakeCache.*
+*.qmlc
+*.jsc
+*.qm
+*.stash
+
+# Build directories
+build/
+build-*/
+out/
+bin/
+lib/
+*.app/
+*.exe
+*.dylib
+*.so
+*.dll
+*.o
+*.obj
+*.a
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
