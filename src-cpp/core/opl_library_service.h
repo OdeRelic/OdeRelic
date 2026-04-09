@@ -15,17 +15,33 @@ public:
     Q_INVOKABLE void startGetGamesFilesAsync(const QString &dirPath);
     Q_INVOKABLE QVariantMap getArtFolder(const QString &dirPath);
     Q_INVOKABLE QVariantMap tryDetermineGameIdFromHex(const QString &filepath);
+    Q_INVOKABLE QString urlToLocalFile(const QString &urlStr);
     
     Q_INVOKABLE QVariantMap renameGamefile(const QString &dirpath, const QString &targetLibraryRoot, const QString &gameId, const QString &gameName, bool forceCD = false);
+
     Q_INVOKABLE QVariantMap moveFile(const QString &sourcePath, const QString &destPath);
     Q_INVOKABLE QVariantMap deleteFileAndCue(const QString &sourceRawPath);
-    // Concurrency Conversion API
+
+    // Concurrency Conversion API (PS2)
     Q_INVOKABLE void startConvertBinToIso(const QString &sourceBinPath, const QString &destIsoPath);
     Q_INVOKABLE void startImportIsoAsync(const QString &sourceIsoPath, const QString &targetLibraryRoot, const QString &gameId, const QString &gameName, bool forceCD = false);
     Q_INVOKABLE void startDownloadArtAsync(const QString &dirPath, const QString &gameId, const QString &callbackSourceKey);
     Q_INVOKABLE QVariantList getExternalGameFilesData(const QStringList &fileUrls);
+    Q_INVOKABLE void scanExternalFilesAsync(const QStringList &fileUrls, bool isPs1);
+
+    // ── PS1 / POPStarter API ──────────────────────────────────────────────────
+    Q_INVOKABLE void startGetPs1GamesAsync(const QString &dirPath);
+    Q_INVOKABLE QVariantMap tryDeterminePs1GameIdFromHex(const QString &filepath);
+    Q_INVOKABLE void startConvertBinToVcd(const QString &sourcePath, const QString &destVcdPath);
+    Q_INVOKABLE void startImportVcdAsync(const QString &sourceVcdPath, const QString &targetLibraryRoot, const QString &gameId, const QString &gameName);
+    Q_INVOKABLE void startDownloadPs1ArtAsync(const QString &dirPath, const QString &gameId, const QString &callbackSourceKey);
+    Q_INVOKABLE QVariantList getExternalPs1FilesData(const QStringList &fileUrls);
+    Q_INVOKABLE QVariantMap checkPopsFolder(const QString &libraryRoot);
+    Q_INVOKABLE QVariantMap copyFileToPopsFolder(const QString &sourcePath, const QString &libraryRoot);
 
 signals:
+    // PS2 signals
+    void libraryScanProgress(int current, int total);
     void conversionFinished(QString sourcePath, bool success, QString newPath, QString message);
     void conversionProgress(QString sourcePath, int percent);
     void importIsoFinished(QString sourcePath, bool success, QString destIsoPath, QString message);
@@ -33,6 +49,18 @@ signals:
     void artDownloadFinished(QString sourcePath, bool success, QString message);
     void artDownloadProgress(QString sourcePath, int percent);
     void gamesFilesLoaded(QString dirPath, QVariantMap data);
+
+    // PS1 signals
+    void ps1ConversionFinished(QString sourcePath, bool success, QString destVcdPath, QString gameId, QString message);
+    void ps1ConversionProgress(QString sourcePath, int percent);
+    void ps1ImportFinished(QString sourcePath, bool success, QString destVcdPath, QString gameId, QString message);
+    void ps1ImportProgress(QString sourcePath, int percent);
+    void ps1ArtDownloadFinished(QString sourcePath, bool success, QString message);
+    void ps1ArtDownloadProgress(QString sourcePath, int percent);
+    void ps1GamesLoaded(QString dirPath, QVariantMap data);
+
+    void externalFilesScanFinished(bool isPs1, QVariantList files);
+    void externalFilesScanProgress(int currentFolder, int totalFolders);
 
 private:
     QNetworkAccessManager m_networkManager;

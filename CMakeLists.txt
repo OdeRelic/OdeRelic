@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.16)
-project(OdeRelic VERSION 0.1.0 LANGUAGES CXX)
+project(OdeRelic VERSION 0.2.0 LANGUAGES CXX)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
@@ -14,6 +14,8 @@ enable_testing()
 
 qt_add_executable(OdeRelic WIN32
     src-cpp/main.cpp
+    src-cpp/core/filesystem_cache.cpp
+    src-cpp/core/filesystem_cache.h
     src-cpp/core/opl_library_service.cpp
     src-cpp/core/opl_library_service.h
     src-cpp/core/translation_manager.cpp
@@ -67,11 +69,17 @@ install(TARGETS OdeRelic
 )
 
 set(CPACK_PACKAGE_NAME "OdeRelic")
-set(CPACK_PACKAGE_VENDOR "Luden02")
+set(CPACK_PACKAGE_VENDOR "OdeRelic")
 set(CPACK_PACKAGE_DESCRIPTION_SUMMARY "OdeRelic native runtime")
 set(CPACK_PACKAGE_VERSION_MAJOR ${PROJECT_VERSION_MAJOR})
 set(CPACK_PACKAGE_VERSION_MINOR ${PROJECT_VERSION_MINOR})
 set(CPACK_PACKAGE_VERSION_PATCH ${PROJECT_VERSION_PATCH})
+
+if(GIT_COMMIT_HASH)
+    set(CPACK_PACKAGE_FILE_NAME "${CPACK_PACKAGE_NAME}-v${PROJECT_VERSION}-${GIT_COMMIT_HASH}-${CMAKE_SYSTEM_NAME}")
+else()
+    set(CPACK_PACKAGE_FILE_NAME "${CPACK_PACKAGE_NAME}-v${PROJECT_VERSION}-${CMAKE_SYSTEM_NAME}")
+endif()
 
 if(WIN32)
     set(CPACK_GENERATOR "ZIP") # Safe, frictionless fallback generating native zip on Windows without needing NSIS natively installed on base github actions runners
@@ -80,7 +88,7 @@ elseif(APPLE)
 else()
     set(CPACK_GENERATOR "DEB")
     set(CPACK_DEBIAN_PACKAGE_DEPENDS "libqt6core6, libqt6gui6, libqt6qml6, libqt6quick6, libqt6network6, qml6-module-qtquick, qml6-module-qtquick-controls, qml6-module-qtquick-layouts, qml6-module-qtquick-window")
-    set(CPACK_DEBIAN_PACKAGE_MAINTAINER "Luden02")
+    set(CPACK_DEBIAN_PACKAGE_MAINTAINER "OdeRelic")
 endif()
 
 include(CPack)
