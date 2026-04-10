@@ -1,0 +1,14 @@
+FBBP
+Mach Rider
+
+Unlimited Shot/Ammo [Crapulecorp]
+003BA65F 00000050
+
+Unlimited Energy [Crapulecorp]
+023BA65D 00000214
+*Energy appears to go down but refills every 4 meter blocks*
+*Code ported from Sharkbyte Ntsc Usa Version*
+
+Unlimited Lives [Crapulecorp]
+003BA663 00000005
+*Code ported from Sharkbyte Ntsc Usa Version*

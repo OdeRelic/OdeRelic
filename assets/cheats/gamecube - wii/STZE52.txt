@@ -1,0 +1,29 @@
+STZE52
+Transformers: Dark of the Moon - Stealth Force Edition
+
+Max Stealth Force [Thomas83Lin]
+C2C12494 00000002
+83E3004C 93E30048
+83E1000C 00000000
+
+Inf Rockets [Thomas83Lin]
+04C3FDA0 38030000
+
+Inf Health [Thomas83Lin]
+C2C12264 00000002
+83E3004C 93E30048
+83E1000C 00000000
+
+Temp Unlock All Mission [Thomas83Lin]
+04BF47DC 38000011
+04BF481C 38000011
+*Don't go out of bounds left or right in Co-op Menu or it will freeze*
+*Defeat Megaton once for a 100% and to permanently unlock all levels*
+
+Universal Codes for Transformers: Dark Side Of The Moon
+
+Infinite Stealth Force [Seth@WiiPlaza]
+04B43DC8 60000000
+
+Button Activator [Seth@WiiPlaza]
+283C7940 xxxxxxxx

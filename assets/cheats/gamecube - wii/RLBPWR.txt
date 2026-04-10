@@ -1,0 +1,78 @@
+RLBPWR
+LEGO Batman: The Video Game
+
+Player 1 In-Game Coins [BoxNinja]
+0453BB18 3B9AC9FF
+
+Player 2 In-Game Coins [BoxNinja]
+0453BB28 3B9AC9FF
+
+Bonus Level Coins [BoxNinja]
+045954B4 000F423F
+*collect 1 coin to win
+*works in Wayne Manor and Arkham Asylum
+
+Activate In-Game Extras (No Purchase Necessary)
+
+Adaptive Difficultly [BoxNinja]
+043F9514 01FF0000
+
+Silhouettes [BoxNinja]
+043F9530 01FF0000
+
+Beep Beep [BoxNinja]
+043F954C 01FF0000
+
+Ice Rink [BoxNinja]
+043F9568 01FF0000
+
+Disguise [BoxNinja]
+043F9584 01FF0000
+
+Extra Toggle [BoxNinja]
+043F95A0 01FF0000
+
+Score x2 [BoxNinja]
+043F95BC 010F0000
+
+Score x4 [BoxNinja]
+043F95D8 01100000
+
+Score x6 [BoxNinja]
+043F95F4 01110000
+
+Score x8 [BoxNinja]
+043F9610 01120000
+
+Score x10 [BoxNinja]
+043F962C 01130000
+
+Stud Magnet [BoxNinja]
+043F9648 01140000
+
+Character Studs [BoxNinja]
+043F9664 01150000
+
+Minikit Detector [BoxNinja]
+043F9680 01160000
+
+Power Brick Detector [BoxNinja]
+043F969C 01170000
+
+Always Score Multiply [BoxNinja]
+043F96B8 01180000
+
+Fast Build [BoxNinja]
+043F96D4 01190000
+
+Immune to Freeze [BoxNinja]
+043F96F0 011A0000
+
+Regenerate Hearts [BoxNinja]
+043F970C 011B0000
+
+Extra Hearts [BoxNinja]
+043F9728 011C0000
+
+Invincibility [BoxNinja]
+043F9744 011D0000

@@ -1,0 +1,16 @@
+RBTP8P
+Sega Bass Fishing
+
+Time Doesn't Decrease [Crapulecorp]
+04073198 D05C0060
+*Ported From ZiT*
+
+Time Doesn't Increase (Except Catch Bonus) [Crapulecorp]
+040730D0 D03C0050
+*Ported From ZiT*
+
+If Increase Max Total Weight [Crapulecorp]
+C207A4DC 00000002
+3E004B19 3A109680
+92030150 00000000
+*Ported From ZiT*

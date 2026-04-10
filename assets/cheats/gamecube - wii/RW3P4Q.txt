@@ -1,0 +1,28 @@
+RW3P4Q
+Pirates Of The Caribbean: At World's End
+
+Infinite Flintlocks [BoxNinja]
+04A40780 000003E7
+
+Infinite Chicken [BoxNinja]
+04A40810 000003E7
+
+Infinite Bombs [BoxNinja]
+04A40770 000003E7
+
+Universal Codes for Pirates of the Caribbean At World's End
+
+Inf Health [Thomas83Lin]
+F6000001 80008100
+C03E03A8 C01E0AB4
+D2000000 00000002
+C03E03AC D03E03A8
+60000000 00000000
+E0000000 80008000
+
+Inf Weapon Usage [Thomas83Lin]
+F6000001 80008100
+7C002840 40810008
+14000000 7CA02B78
+14000004 60000000
+E0000000 80008000

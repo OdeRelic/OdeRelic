@@ -1,0 +1,22 @@
+WSRE
+Space Trek
+
+Inf Ammo [Thomas83Lin]
+0405C618 B0640004
+0405C688 60000000
+
+Inf Shield [Thomas83Lin]
+0405DA00 60000000
+
+Inf Health [Thomas83Lin]
+0405DA44 60000000
+
+Rescue All Survivors [Thomas83Lin]
+C205ACF8 00000002
+38A00063 90AD9630
+60000000 00000000
+*After Rescuing just one*
+
+Destroy Max Enemies [Thomas83Lin]
+04061A44 908D9634
+*After Destroying just one*

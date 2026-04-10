@@ -1,0 +1,37 @@
+SFQE8P
+Captain America: Super Soldier
+
+Inf Hp [Skiller]
+040C7F08 40810018
+
+Quick Upgrades/Gain lots EXP [Skiller]
+040D9508 3C0003E8
+
+View Upgrades to get all Upgrades [Skiller]
+C213C51C 00000003
+38C00001 7CC401AE
+38C00000 7C0400AE
+60000000 00000000
+
+Extras Secton Codes
+
+Have All Characters [Skiller]
+C2022344 00000003
+39C00001 99C30250
+39C00000 88630250
+60000000 00000000
+Note: Must Move threw the list and it unlocks them 1 by 1 as u see them..
+
+Have All Costumes [Skiller]
+C2022354 00000003
+39C00001 99C30269
+39C00000 88630269
+60000000 00000000
+Note: Just go into the Costumes section and u will gain them all
+
+Have All Concept Art [Skiller]
+C213D08C 00000003
+39C0008F 91C302FC
+39C00000 800302FC
+60000000 00000000
+Note: Just Go into the concept art section ..

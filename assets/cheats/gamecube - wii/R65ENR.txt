@@ -1,0 +1,14 @@
+R65ENR
+Buck Fever
+
+Profile Points 99999 [savage]
+04662D58 0001869F
+04662DF8 0001869F
+04662CB8 0001869F
+04662E98 0001869F
+04662F38 0001869F
+profiles 1-5
+
+Inf Ammo/No reload [savage]
+040576A4 38030000
+you never lose ammo

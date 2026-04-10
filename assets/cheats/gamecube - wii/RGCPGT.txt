@@ -1,0 +1,24 @@
+RGCPGT
+Radio Helicopter
+
+Unlimited Health [Crapulecorp]
+0401D5E8 38030000
+
+Time Stop [Crapulecorp]
+040482B0 38030000
+
+Unlimited Battery [Crapulecorp]
+0401E52C 60000000
+
+If Increase Max Score [Crapulecorp]
+C2063930 00000002
+3C00000F 6000423F
+90030170 00000000
+
+Gold Not Decrease In Store [Crapulecorp]
+0406D360 60000000
+
+If Decrease Max Gold In Store [Crapulecorp]
+C206D364 00000002
+3C0005F5 6000E0FF
+90030014 00000000

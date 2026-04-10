@@ -1,0 +1,19 @@
+FC6P
+Star Tropics
+
+Unlimited Health [Crapulecorp]
+0042EB91 00000016
+0042EB92 0000002C
+*Code ported from GMO Ntsc Usa Version*
+
+Unlimited Lives [Crapulecorp]
+0042EB97 00000009
+
+Have Torch + Unlimited Ammo [Crapulecorp]
+0042EBA8 00000001
+0042EBA9 00000063
+*Code ported from GMO Ntsc Usa Version*
+
+Max Score [Crapulecorp]
+0242EB94 00009999
+*Code ported from GMO Ntsc Usa Version*

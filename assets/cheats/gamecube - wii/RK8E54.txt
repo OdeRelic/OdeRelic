@@ -1,0 +1,42 @@
+RK8E54
+Major League Baseball 2k8
+
+All codes require VBI Hook and a Button Activator
+
+Button Activator [Seth@WiiPlaza]
+206ED3FC 0000XXXX
+
+AWESOME Ball Gravity Mod [Seth@WiiPlaza]
+206ED3FC 00000C00
+046AA1B8 42000000
+CC000000 00000000
+046AA1B8 3F800000
+E0000000 80008000
+*effcts not only throwing, but hitting
+*press and hold A+B to toggle on/off
+*hook must be VBI
+
+Infinite Pre-Game Edge Points [Seth@WiiPlaza]
+206ED3FC 0000XXXX
+42000000 90000000
+0024201C 000000FF
+00260B54 000000FF
+00273043 000000FF
+0117FD6B 000000FF
+E0000000 80008000
+*X= Button activator
+*demo screen shot - http://goo.gl/47MN9
+*hook must be VBI
+
+Invisible Bats [Seth@WiiPlaza]
+044AAAD0 CCCCCCCC
+
+Blank Pitch Types [Seth@WiiPlaza]
+02674E20 0000C280
+
+No Spiral Around Pitch Indicator [Seth@WiiPlaza]
+04F51BD8 CA003A32
+04F51C18 CA003A32
+04F51C50 CA003A32
+04F51C64 CA003A32
+*no yellow arrow around the ball indicator

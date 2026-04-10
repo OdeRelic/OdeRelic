@@ -1,0 +1,64 @@
+JD9M
+Super Bonk
+
+Unlimited Lives [Crapulecorp]
+0045F886 00000063
+
+Unlimited Health [Crapulecorp]
+0045F884 0000001E
+0045F885 0000001E
+Code ported from GMO Ntsc Usa Version*
+
+Invincible [Crapulecorp]
+0045F89E 00000060
+Code ported from GMO Ntsc Usa Version*
+
+Unlimited Smileys [Crapulecorp]
+0045F88A 000000FF
+Code ported from GMO Ntsc Usa Version*
+
+Unlimited Time [Crapulecorp]
+0046B8FE 00000063
+*Code ported from Unknown Snes Action Replay Pro Version*
+
+Bonk Modifier [Crapulecorp]
+0045F86F 000000XX
+*Replace XX for :
+00 - Normal Bonk
+01 - Tiny Bonk
+02 - Giant Bonk
+04 - Crab Bonk
+05 - Tiny Crab Bonk
+06 - Giant Crab Bonk
+*Code ported from Unknown Snes Action Replay Pro Version*
+
+Normal Aggression Bonk [Crapulecorp]
+0045F871 00000000
+0045FE1E 00000000
+0045FE1F 00000000
+*Code ported from Unknown Snes Action Replay Pro Version*
+
+Angry Monster Type Bonk [Crapulecorp]
+0045F871 00000001
+0045FE1E 00000001
+0045FE1F 00000001
+*Code ported from Unknown Snes Action Replay Pro Version*
+
+Bird Type Aggression Bonk [Crapulecorp]
+0045F871 00000002
+0045FE1E 00000002
+0045FE1F 00000002
+*Code ported from Unknown Snes Action Replay Pro Version*
+
+Float To The Top [Crapulecorp]
+0045E982 000000FF
+*Code ported from jeffsback2223 Snes Action Replay Pro Version*
+
+Infinite Fly [Crapulecorp]
+0045F874 0000000C
+*Code ported from Unknown Snes Action Replay Pro Version*
+
+Boutton Activator
+
+Classic Controller [Crapulecorp]
+28174262 YYYYZZZZ

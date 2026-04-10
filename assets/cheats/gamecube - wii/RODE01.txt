@@ -1,0 +1,13 @@
+RODE01
+WarioWare: Smooth Moves
+
+Never Fail A Mini Game [Seth@WiiPlaza]
+04A68E58 00200A00
+
+unlimited lives [stevenhill627]
+4A000000 92000000
+14205F5F 00000004
+286492C0 00000200
+14205F5F 00000001
+E0000000 80008000
+(hold 1 and lose a mini game to die)

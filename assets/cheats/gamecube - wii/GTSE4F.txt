@@ -1,0 +1,299 @@
+GTSE4F
+TimeSplitters 2
+
+Air Walk (Moon Jump v2.9b) [James0x57]
+04401BB8 3D88888D
+04401BBC BD88888D
+04051558 483B05C4
+04401B1C 3DE08040
+04401B20 61EF1BC0
+04401B24 906F0008
+04401B28 80630000
+04401B2C 3FA08030
+04401B30 63BD8423
+04401B34 1DC30084
+04401B38 7DDD70AE
+04401B3C 280E0040
+04401B40 40820024
+04401B44 C38FFFF8
+04401B48 48000008
+04401B4C C38FFFFC
+04401B50 7DC379AE
+04401B54 806F0008
+04401B58 C3A300F4
+04401B5C FC1DE02A
+04401B60 4800003C
+04401B64 280E0080
+04401B68 4182FFE4
+04401B6C 280E0020
+04401B70 40820008
+04401B74 7DC379AE
+04401B78 7DCF18AE
+04401B7C 2C0E0040
+04401B80 4182000C
+04401B84 2C0E0080
+04401B88 40820008
+04401B8C 48000014
+04401B90 806F0008
+04401B94 D00300F4
+04401B98 48000014
+04401B9C D00300F4
+04401BA0 806F0008
+04401BA4 81CF000C
+04401BA8 91C30158
+04401BAC 4BC4F9B0
+Notes: A=rise, B=fall, X=Normal **Players must be plugged into corresponding
+controller ports.** Rising and falling automaticly locks your Z coordinate
+to wherever you stop. Pressing X will return you to the ground and unlock
+the Z coordinate therefore, restoring normality. You'll have fun with it. ^_^
+
+Plasma Autorifle and Minigun don't overheat p1 [James0x57]
+2A308422 FF000000
+48000000 804013C8
+DE000000 80008180
+120004DC 00003F44
+E2000002 80008000
+Note: Player 1 must use a controller plugged into the
+first controller port on the GameCube.
+
+Plasma Autorifle and Minigun don't overheat p2 [James0x57]
+2A3084A6 FF000000
+48000000 804013CC
+DE000000 80008180
+120004DC 00003F44
+E2000002 80008000
+Note: Player 2 must use a controller plugged into the
+second controller port on the GameCube.
+
+Plasma Autorifle and Minigun don't overheat p3 [James0x57]
+2A30852A FF000000
+48000000 804013D0
+DE000000 80008180
+120004DC 00003F44
+E2000002 80008000
+Note: Player 3 must use a controller plugged into the
+third controller port on the GameCube.
+
+Plasma Autorifle and Minigun don't overheat p4 [James0x57]
+2A3085AE FF000000
+48000000 804013D4
+DE000000 80008180
+120004DC 00003F44
+E2000002 80008000
+Note: Player 4 must use a controller plugged into the
+fourth controller port on the GameCube.
+
+Can Select The Gothic Tileset (4) [James0x57]
+042C0074 00000004
+The Gothic Tileset in MapMaker is called 4.
+
+All Guns In All Modes [James0x57]
+04124550 48000004
+0404DD50 60000000
+C22791F0 0000000A
+3CC08040 60C613C8
+3926000C 80A60000
+2C050000 41820034
+38A50A3F 38E000FF
+3905006C 7C054000
+41820010 38A50004
+98E50000 4BFFFFF0
+7C064800 4182000C
+38C60004 4BFFFFC4
+4E800020 00000000
+Freezes if you pull out a gun that's not loaded in story mode.
+
+Mission Complete codes by Jay007 and James0x57:
+
+Mission 1 - Siberia [James0x57]
+082CB0DF 00000005
+000A0024 00000000
+
+Mission 2 - Chicago [James0x57]
+082FE917 00000005
+000B0024 00000000
+
+Mission 3 - Notre Dame [James0x57]
+082FAC87 00000005
+00070024 00000000
+
+Mission 4 - Return To Planet X [James0x57]
+082DC6CF 00000005
+00070024 00000000
+002DC6DB 00000005
+
+Mission 5 - Neo Tokyo [James0x57]
+082F68F7 00000005
+00090024 00000000
+
+Mission 6 - Wild West [James0x57]
+082D3717 00000005
+00070024 00000000
+
+Mission 7 - Atom Smasher [James0x57]
+082C572B 00000005
+00060024 00000000
+
+Mission 8 - Aztec Ruins [James0x57]
+082F317F 00000005
+00040024 00000000
+
+Mission 9 - Robot Factory [James0x57]
+082E5E6F 00000005
+00070024 00000000
+
+Mission 10 - Space Station (Collect Crystal) [James0x57]
+082C0D57 00000005
+00040024 00000000
+
+Loaded Player Size Mods:
+
+1st Loaded Player [James0x57]
+48000000 804013C8
+DE000000 80008180
+12001338 0000XXXX
+E2000001 80008000
+
+2nd Loaded Player [James0x57]
+48000000 804013CC
+DE000000 80008180
+12001338 0000XXXX
+E2000001 80008000
+
+3rd Loaded Player [James0x57]
+48000000 804013D0
+DE000000 80008180
+12001338 0000XXXX
+E2000001 80008000
+
+4th Loaded Player [James0x57]
+48000000 804013D4
+DE000000 80008180
+12001338 0000XXXX
+E2000001 80008000
+
+5th Loaded Player [James0x57]
+48000000 804013D8
+DE000000 80008180
+12001338 0000XXXX
+E2000001 80008000
+
+6th Loaded Player [James0x57]
+48000000 804013DC
+DE000000 80008180
+12001338 0000XXXX
+E2000001 80008000
+
+7th Loaded Player [James0x57]
+48000000 804013E0
+DE000000 80008180
+12001338 0000XXXX
+E2000001 80008000
+
+8th Loaded Player [James0x57]
+48000000 804013E4
+DE000000 80008180
+12001338 0000XXXX
+E2000001 80008000
+
+9th Loaded Player [James0x57]
+48000000 804013E8
+DE000000 80008180
+12001338 0000XXXX
+E2000001 80008000
+
+10th Loaded Player [James0x57]
+48000000 804013EC
+DE000000 80008180
+12001338 0000XXXX
+E2000001 80008000
+
+11th Loaded Player [James0x57]
+48000000 804013F0
+DE000000 80008180
+12001338 0000XXXX
+E2000001 80008000
+
+12th Loaded Player [James0x57]
+48000000 804013F4
+DE000000 80008180
+12001338 0000XXXX
+E2000001 80008000
+
+13th Loaded Player [James0x57]
+48000000 804013F8
+DE000000 80008180
+12001338 0000XXXX
+E2000001 80008000
+
+14th Loaded Player [James0x57]
+48000000 804013FC
+DE000000 80008180
+12001338 0000XXXX
+E2000001 80008000
+
+Loaded Player Size Mod Values
+3F00 - .5x
+3F80 - 1x
+4000 - 2x
+4080 - 4x
+40C0 - 6x
+4100 - 8x
+4120 - 10x
+Eye level doesn't change. If you're trying to kill a large enemy, aim for the gut as it's the only vulnerable spot. Don't write values much smaller than half else it will freeze. The values are not exactly 1x size or 10x size but they are close to that approximation. '2nd player loaded' means if player 2 is not present and player 1 is, the first enemy will be the specified size.
+
+Start Demo [James0x57]
+283B7AF8 00000404
+043ECEB4 00000000
+E2000001 80008000
+Hold X + D-pad down while entering the 1st game menu. (the number of players menu)
+
+97% of Environment/Items Textures Not Loaded [James0x57]
+043EE6CC 00000000
+
+Most In Game Textures Replaced With Ammo From Guns [James0x57]
+0424AC34 60000000
+Using more than one texture mod yields different results.
+
+Menu & Text Textures Are Different [James0x57]
+04223EAC 60000000
+Using more than one texture mod yields different results.
+
+Infinite Ammo/No Reloads [Codejunkies]
+04122D9C 60000000
+04122D70 60000000
+
+Infinite Health Story/Challenge [Codejunkies]
+0401E5C8 2C1E0000
+0401E5CC 4082005C
+0401E5D0 60000000
+0401E5D4 FC200090
+
+Infinite Health Arcade Mode [Codejunkies]
+0401F6E4 2C1F0000
+0401F6E8 4082005C
+0401F6EC 60000000
+
+All Cut Scenes [Codejunkies]
+0461435C FFFFFFFF
+
+All Story Levels [Codejunkies]
+04614360 FFFFFFFF
+
+All Challenge Levels [Codejunkies]
+04614378 FFFFFFFF
+
+Full Gallery [Codejunkies]
+04614364 FFFFFFFF
+02614388 0005FFFF
+02614398 0003FFFF
+
+R+A To Freeze Timer [Codejunkies]
+283B7AF8 00000120
+041504E0 60000000
+E2000001 80008000
+
+R+B To Restart Timer [Codejunkies]
+283B7AF8 00000220
+041504E0 7C030214
+E2000001 80008000

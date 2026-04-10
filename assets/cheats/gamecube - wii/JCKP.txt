@@ -1,0 +1,10 @@
+JCKP
+Space Invaders The Original Game
+
+Unlimited Lives [Crapulecorp]
+00445B7D 0000000A
+*Code ported from ZiT Ntsc Jap Version*
+
+Invaders Frieze [Crapulecorp]
+00445BBD 00000000
+*Code ported from ZiT Ntsc Jap Version*

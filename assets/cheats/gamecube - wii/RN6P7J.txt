@@ -1,0 +1,8 @@
+RN6P7J
+North American Hunting Extravaganza
+
+No Reload [Crapulecorp]
+002BB897 00000003
+
+Unlimited/Max Money [Crapulecorp]
+042C2E80 0001869F

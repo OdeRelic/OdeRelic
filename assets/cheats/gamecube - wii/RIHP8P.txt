@@ -1,0 +1,19 @@
+RIHP8P
+Incredible Hulk
+
+Put the Canisters to 99 [Patedj]
+20635582 00001000
+016BFBC3 00000063
+016BF8E3 00000063
+E0000000 80008000
+Pressing - will add 99 red and green canisters.
+
+Rage Maxed [Patedj]
+0558D7A8 000005DC
+0558D7Ac 000005DC
+This will keep the Rage to it's maximum capacity.
+
+Health Maxed [Patedj]
+0558D7A0 000007D0
+0558D7A4 000007D0
+This will keep the Health to it's maximum capacity.

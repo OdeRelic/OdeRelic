@@ -1,0 +1,43 @@
+LAIP
+Enduro Racer
+
+Time Stop [Crapulecorp]
+00D51E31 00000000
+*Code ported from ZiT Ntsc Usa Version*
+
+No Damage [Crapulecorp]
+00D51E36 00000000
+
+Invincible [Crapulecorp]
+00D51EB6 00000022
+*Code ported from ZiT Ntsc Usa Version*
+
+Bike Remodeled [Crapulecorp]
+00D51E30 0000001F
+*Code ported from ZiT Ntsc Usa Version*
+
+Point MAX [Crapulecorp]
+02D51E3A 00009999
+*Code ported from ZiT Ntsc Usa Version*
+
+Speed Up (Press B) [Crapulecorp]
+281BCE82 FBFF0400
+02D51DC2 00000700
+E0000000 80008000
+*WiiMote*
+*Code ported from ZiT Ntsc Usa Version*
+
+Speed Up (Press X) [Crapulecorp]
+281BCEE2 FFF70008
+02D51DC2 00000700
+E0000000 80008000
+*Classic Controller*
+*Code ported from ZiT Ntsc Usa Version*
+
+Button Activator
+
+WiiMote [Crapulecorp]
+281BCE82 YYYYZZZZ
+
+Classic Controller [Crapulecorp]
+281BCEE2 YYYYZZZZ

@@ -1,0 +1,8 @@
+RVREFS
+Rebel Raiders Operation Nighthawk
+
+Max Gun [memorris]
+04E2655E 000003E7
+
+Max Missiles [memorris]
+04E25D4E 000003E7

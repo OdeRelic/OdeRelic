@@ -1,0 +1,93 @@
+MCYP
+Shinobi II - The Revenge of Shinobi
+
+Lives x9 [Crapulecorp]
+01316621 0000000B
+
+Invincible [Crapulecorp]
+0131451F 00000022
+*Code ported from Zit Ntsc-Jap Version*
+
+Unlimited Shurikens [Crapulecorp]
+0331661E 000003E7
+
+Shurikens Power Up [Crapulecorp]
+013164EC 00000001
+*Code ported from Zit Ntsc-Jap Version*
+
+Infinite Super Power [Crapulecorp]
+01316625 00000001
+*Code ported from Zit Ntsc-Jap Version*
+
+Moonjump [Crapulecorp]
+284338C2 FEFF0100
+033144FC 0000FFFB
+E0000000 80008000
+*WiiMote*
+*Code ported from Zit Ntsc-Jap Version*
+
+Moonjump [Crapulecorp]
+281A7142 FFEF0010
+033144FC 0000FFFB
+E0000000 80008000
+*Classic Controller*
+*Code ported from Zit Ntsc-Jap Version*
+
+Moonjump [Crapulecorp]
+284337AE FBFF0400
+033144FC 0000FFFB
+E0000000 80008000
+*GameCube Controller*
+*Code ported from Zit Ntsc-Jap Version*
+
+Speed Up [Crapulecorp]
+284338C2 FFFB0004
+033144F8 0000000A
+E0000000 80008000
+284338C2 FFF70008
+033144F8 0000FFF5
+E0000000 80008000
+*WiiMote*
+*Code ported from Zit Ntsc-Jap Version*
+
+Speed Up [Crapulecorp]
+281A7142 FFFE0001
+033144F8 0000000A
+E0000000 80008000
+281A7142 BFFF4000
+033144F8 0000FFF5
+E0000000 80008000
+*Classic Controller*
+*Code ported from Zit Ntsc-Jap Version*
+
+Speed Up [Crapulecorp]
+284337AE FFFE0001
+033144F8 0000000A
+E0000000 80008000
+284337AE FFFD0002
+033144F8 0000FFF5
+E0000000 80008000
+*GameCube Controller*
+*Code ported from Zit Ntsc-Jap Version*
+
+WiiMote Activator [Crapulecorp]
+284338C2 YYYYZZZZ
+
+Classic Controller Activator [Crapulecorp]
+281A7142 YYYYZZZZ
+
+GameCube Controller Activator [Crapulecorp]
+284337AE YYYYZZZZ
+
+Unlimited Health [GMO]
+012D9E9B 00000010
+012DBC87 00000010
+
+Unlimited Dirk [GMO]
+032D9E9E 000003E7
+
+Unlimited Lives [GMO]
+012D9EA1 00000009
+
+Unlimited Ninjitsu [GMO]
+012D9EA5 00000001

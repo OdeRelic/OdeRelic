@@ -1,0 +1,27 @@
+JBPP
+Donkey Kong Country 3
+
+Bananas x99 [Crapulecorp]
+0043CA9B 00000099
+
+Lives x99 [Crapulecorp]
+0043CA9F 00000063
+
+Invincible [Crapulecorp]
+0043C5E4 00000022
+*Code ported from goemon_guy Ntsc Usa Version*
+
+Always Switch Buddy When Be Hit [Crapulecorp]
+0043B6FE 00000064
+*Code ported from goemon_guy Ntsc Usa Version*
+
+Moonjump (Dixie & Kiddie) [Crapulecorp]
+0043B9FE 00000001
+0043BA6C 00000001
+*Code ported from goemon_guy Ntsc Usa Version*
+
+Infinite Time in Bonus Stage [Crapulecorp]
+0043BB04 00000014
+
+DK Coins x 50 [Crapulecorp]
+0043B71D 00000032

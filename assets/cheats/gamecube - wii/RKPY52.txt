@@ -1,0 +1,23 @@
+RKPY52
+Kung Fu Panda
+
+Important : Use WiiPad Hook or KPad Hook
+
+Unlimited Health (Red Bar) [Crapulecorp]
+C20E03AC 00000004
+2C000000 40820014
+2C060002 4080000C
+D3DE07F8 48000008
+D03E07F8 00000000
+*Ported From ZiT*
+
+Unlimited Power (Blue Bar) [Crapulecorp]
+04288250 60000000
+
+If Increase Max Coin [Crapulecorp]
+C226637C 00000002
+3E0005F6 3810E0FF
+90030000 00000000
+
+Unlimited Time [Crapulecorp]
+0418F7A0 60000000

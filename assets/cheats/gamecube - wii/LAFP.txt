@@ -1,0 +1,9 @@
+LAFP
+Secret Commando
+
+Infinite Lives [Crapulecorp]
+0127E4DF 00000009
+
+Infinite Bow [Crapulecorp]
+0127E4E1 00000009
+*Code ported from ZiT Ntsc Jap Version*

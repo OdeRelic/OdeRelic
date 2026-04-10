@@ -1,0 +1,11 @@
+RZREGT
+The Destiny of Zorro
+
+1 Hit Max Bravado [savage]
+42000000 90000000
+05B3F2E4 42C80000
+E0000000 80008000
+
+Button actvater [Ropers]
+2863C1EA 0000XXXX
+x values of button

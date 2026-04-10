@@ -1,0 +1,16 @@
+WHFE
+Heavy Fire: Special Operations
+
+Inf Health [Thomas83Lin]
+0406EDDC 90640030
+
+Inf Ammo [Thomas83Lin]
+0409BDF0 9064002C
+
+Receive 10000 Points Per Stage [Thomas83Lin]
+C2078864 00000002
+38002710 90030000
+9001000C 00000000
+
+Rapid Fire with pistol [Thomas83Lin]
+0046D0EC 00000000

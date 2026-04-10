@@ -1,0 +1,16 @@
+GWLE6L
+Wallace & Gromit in Project Zoo 
+
+Infinite Health
+040C317C 60000000
+
+Quick Nuts And Bolts Gain
+0410DB8C 392003E7
+
+Infinite Bananas
+0420B574 60000000
+
+Infinite Time: Timed Stuff
+04064438 60000000
+040FE19C 60000000
+040FE1A8 60000000

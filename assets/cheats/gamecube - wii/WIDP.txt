@@ -1,0 +1,34 @@
+WIDP
+Dracula Undead Awakening
+
+Unlimited Health [Crapulecorp]
+0223EF8C 000042C8
+*Code ported from GMO Ntsc Usa Version*
+
+Unlimited Pistol Ammo [Crapulecorp]
+0223EFFA 0000270F
+*Code ported from GMO Ntsc Usa Version*
+
+Unlimited Shotgun Ammo [Crapulecorp]
+0023EFFF 000000FF
+*Code ported from GMO Ntsc Usa Version*
+
+Unlimited Crossbow Ammo [Crapulecorp]
+0023F003 000000FF
+*Code ported from GMO Ntsc Usa Version*
+
+Unlimited Grenade Launcher [Crapulecorp]
+0023F007 000000FF
+*Code ported from GMO Ntsc Usa Version*
+
+Unlimited Mini-Chain Gun [Crapulecorp]
+0223F00A 000003E7
+*Code ported from GMO Ntsc Usa Version*
+
+Unlimited Flame Thrower [Crapulecorp]
+0023F00F 000000FF
+*Code ported from GMO Ntsc Usa Version*
+
+Unlimited Rocket Launcher [Crapulecorp]
+0023F013 00000014
+*Code ported from GMO Ntsc Usa Version*

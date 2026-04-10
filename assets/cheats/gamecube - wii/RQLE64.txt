@@ -1,0 +1,23 @@
+RQLE64
+Star Wars The Clone Wars: Republic Heroes
+
+Gecko Hook: AXNextFrame
+
+Unlock all Missions [TNTkryzt]
+083CF368 00000001
+20270008 00000000
+
+Database Completed [TNTkryzt]
+040D8BB8 3C000001
+040D8BBC 900303FC
+
+All Shop Items Purchased [TNTkryzt]
+083CF794 FFFFFFFF
+20030004 00000000
+
+1000 Points Per Kill [TNTkryzt]
+040FA088 388003E8
+
+Infinite Health [TNTkryzt]
+0410EF1C 60000000
+0415A410 60000000

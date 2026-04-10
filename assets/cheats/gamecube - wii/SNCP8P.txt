@@ -1,0 +1,150 @@
+SNCP8P
+Sonic Colours
+
+Brightness Modifier [CosmoCortney]
+028F5408 0000XXXX
+3F00 = Default
+
+attack vortex size modifier [CosmoCortney]
+028F2E3C 0000XXXX
+3F00 = Default
+
+Tunnel View Effect (distant camera) [CosmoCortney]
+028FC018 00003FA0
+Don't use it together with the "Upside Down Mode"-code
+
+Upside Down Mode [CosmoCortney]
+028FC018 0000BF00
+Don't use it together with the "Tunnel View Effect (distant camera)"-code
+
+Load US-Sonic Colors Logo instead of EU-Sonic Colours Logo [CosmoCortney]
+077FFD70 00000008
+2CD8EF32 059B9800
+
+Unlock All Worlds+Levels+Gold Sonic [Thomas83Lin]
+0415ED20 3880FFFF
+*Non Permanent*
+
+Unlock All Worlds+Levels+Gold Sonic [Thomas83Lin]
+C215ED1C 00000003
+7C862A14 3860FFFF
+90640010 38600001
+60000000 00000000
+*Permanent if Saved*
+
+9999 Rings [Thomas83Lin]
+C2055E90 00000002
+38A0270F 90BF0008
+60000000 00000000
+
+9999 Rings Sonic Simulator [Thomas83Lin]
+C2055DC8 00000002
+38A0270F 90BE0008
+60000000 00000000
+
+Infinite boost [Thomas83Lin]
+C2055E5C 00000002
+C3BE0014 D3BE0008
+60000000 00000000
+
+Infinite Boost Sonic Simulator [Thomas83Lin]
+C2055DA4 00000002
+C01F0014 D01F0008
+60000000 00000000
+
+Unlock Just Gold Sonic [Thomas83Lin]
+C227E744 00000002
+38000001 981F0120
+60000000 00000000
+*Non Permanent*
+
+Moon Jump [Thomas83Lin]
+0404E270 E023000C
+2881090A FEFF0100
+C204E270 00000003
+3D8042D9 618C6A3F
+91830010 E023000C
+60000000 00000000
+E0000000 80008000
+*WiiMote*
+
+Moon Jump [Thomas83Lin]
+0404E270 E023000C
+2881090A F7FF0800
+C204E270 00000003
+3D8042D9 618C6A3F
+91830010 E023000C
+60000000 00000000
+E0000000 80008000
+*WiiMote + NunChuck*
+
+Moon Jump [Thomas83Lin]
+0404E270 E023000C
+2881096A FFEF0010
+C204E270 00000003
+3D8042D9 618C6A3F
+91830010 E023000C
+60000000 00000000
+E0000000 80008000
+*Classic Controller*
+
+Moon Jump [Thomas83Lin]
+0404E270 E023000C
+287C6512 FFFE0001
+C204E270 00000003
+3D8042D9 618C6A3F
+91830010 E023000C
+60000000 00000000
+E0000000 80008000
+*GC Controller*
+
+Low Time [Thomas83Lin]
+0401CEA4 60000000
+
+Inf Lives [Thomas83Lin]
+0401BE60 38040000
+0424CBB0 38030000
+
+Invincibility [Thomas83Lin]
+C204E24C 00000002
+39800002 999F0013
+809F0014 00000000
+
+Swim Everywhere [Thomas83Lin]
+C20381C4 00000002
+3980000A 99830012
+80030010 00000000
+0408877C 60000000
+*May Contain Bugs*
+*Must Pound Drive Finish's inorder to finish level*
+
+Universal Codes for Sonic Colors Universal
+
+No Sound [CosmoCortney]
+047D652C 00000000
+
+No HUD [CosmoCortney]
+04748F3C 42000000
+Removes many things from the screen like the displayed number of rings, lives and so on. In the Game Menu, too. It is a bit difficulty to navigate on the planet selection screen
+
+Insane Fast Jumps [CosmoCortney]
+048F65E4 42500000
+do a double jump (pressing A for 2 times) to get an insane fast boost. It's required to hold the main stick in the direction you want to move to
+
+Giant Red Robot [CosmoCortney]
+048F5EF4 41000000
+
+Small Red Robots [CosmoCortney]
+048F5EF4 3E000000
+
+Confetti Size modifier (Tropical Resort only) [CosmoCortney]
+047473A4 42000000
+0474739C 42000000
+04747398 42000000
+04747390 42000000
+047434C4 42000000
+
+Sonic Size Modifier [CosmoCortney]
+04747C28 40000000
+0474782C 3F900000
+These 2 lines Modifie all 3 axis, but the sizes always change a bit

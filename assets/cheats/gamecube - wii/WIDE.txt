@@ -1,0 +1,26 @@
+WIDE
+Dracula: Undead Awakening
+
+Unlimited Health [GMO]
+0223EB0C 000042C8
+
+Unlimited Pistol Ammo [GMO]
+0223EB7A 0000270F
+
+Unlimited Shotgun Ammo [GMO]
+0023EB7F 000000FF
+
+Unlimited Crossbow Ammo [GMO]
+0023EB83 000000FF
+
+Unlimited Grenade Launcher [GMO]
+0023EB87 000000FF
+
+Unlimited Mini-Chain Gun [GMO]
+0223EB8A 000003E7
+
+Unlimited Flame Thrower [GMO]
+0023EB8F 000000FF
+
+Unlimited Rocket Launcher [GMO]
+0023EB93 00000014

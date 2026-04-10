@@ -1,0 +1,11 @@
+MABE
+Columns
+
+WiiMote Pad1 [GMO]
+281C509A XXXXXXXX
+
+P1 Max Score [GMO]
+02E5C9E0 99999999
+
+P1 Max Jewels Collected [GMO]
+04E5C9EA 00009999

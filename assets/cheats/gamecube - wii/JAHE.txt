@@ -1,0 +1,11 @@
+JAHE
+R-Type 3
+
+Inf Lives (Ported from Zit) [Thomas83Lin]
+008B07DF 00000009
+
+Quick Beam Charge (Ported from Zit) [Thomas83Lin]
+028B0804 0000D928
+
+Invincible (Ported from Zit) [Thomas83Lin]
+008B156C 00000080

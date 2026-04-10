@@ -1,0 +1,98 @@
+RB7P54
+Bully
+
+Infinite Tickets [Thirdphaze]
+12635866 0000270F
+Tickets Also Capped At 9,999
+
+Lifetime Carnival Admission [Thirdphaze]
+10635827 00000001
+
+Unlimited Chocolates [Thirdphaze]
+14635820 0000000A
+
+Unlimited Flowers [Thirdphaze]
+14635814 0000000A
+
+Have Chem-Ex Silo Key Card [Thirdphaze]
+14635828 00000001
+
+Have Tad's Gate Key [Thirdphaze]
+14635860 00000001
+
+Time Warp [Thirdphaze]
+286BA7C2 9FF76008
+146EADA8 0C000000
+E0000000 80008000
+286BA7C2 9FFB6004
+146EADA8 00000000
+E0000000 80008000
+286BA7C2 9FFE6001
+146EADA8 09000000
+E0000000 80008000
+286BA7C2 9FFD6002
+146EADA8 0F000000
+E0000000 80008000
+Press C+Z+Left To Make It 9:00AM
+Press C+Z+Up To Make It 12:00PM
+Press C+Z+Right To Make It 3:00PM
+Press C+Z+Down To Make It 12:00AM
+Original Pal Time Code Created By Panda
+Added Mine Mainly As A Means To Make The Time Code
+Easier To Manipulate.
+
+Acid Effect [Thirdphaze]
+286BA7C2 00006100
+146EADA8 18000000
+E0000000 80008000
+Press C+Z+2 To Turn On.
+To Deactivate Use My Time Warp Code.
+This Code Has No Real Purpose.
+Also Contains Pal Time Code From Panda
+
+Inf $$$ [Panda]
+055D130C 000F423F
+
+Inf Items [Panda]
+C2144224 00000002
+3800000C B01D0000
+60000000 00000000
+Stink Bombs, Fire Crackers, Eggs etc
+
+Freeze Time [Panda]
+046EADA8 09010000
+09010000 = 09:01am, 0B230000 = 11:35am
+
+Inf Art Pencils [Panda]
+C227718C 00000002
+38000009 901C0490
+60000000 00000000
+
+Infinite Health [Romaap]
+055D1324 43480000
+
+Never Wanted [Romaap]
+055D13B0 00000000
+
+1-Hit KO [Romaap]
+055D1340 7F000000
+
+Fly mode [Romaap]
+0418A830 60000000
+Use this for the Fly Up and Fly Down
+
+Fly Up [Romaap]
+206BACA4 00001000
+82200000 92B614A8
+86000000 000AAAAA
+84200000 92B614A8
+E0000000 80008000
+Press + on the second wiimote to go up
+
+Fly Down [Romaap]
+206BACA4 00000010
+82200000 92B614A8
+86000000 FFFAAAAA
+84200000 92B614A8
+E0000000 80008000
+Press - on the second wiimote to go down

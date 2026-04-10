@@ -1,0 +1,14 @@
+WVOJ
+Rock N Roll Climber
+
+Right Hand Doesn't Become Numb [ZiT]
+040398E0 60000000
+
+Left Hand Doesn't Become Numb [ZiT]
+04039B4C 60000000
+
+Foot Doesn't Become Numb [ZiT]
+04036B24 907E00E0
+
+Time Stop [ZiT]
+040454B0 90A30048

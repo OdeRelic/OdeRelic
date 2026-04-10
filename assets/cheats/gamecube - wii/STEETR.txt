@@ -1,0 +1,41 @@
+STEETR
+Tetris Party Deluxe
+
+Delete Blocks Press B [Skiller]
+C206C8E8 00000004
+3CE08063 60E7F900
+54E7056B 4182000C
+38E00000 90E50010
+80E50010 00000000
+Hold B and u can KEEP Incoming Blocks blanks . for Free Points .. Dont use with Full Block Code. Thanks g6flavor For the info
+
+Full Blocks Press B [Skiller]
+C206C8E8 00000004
+3CE08063 60E7F900
+54E7056B 4182000C
+38E00008 90E50010
+80E50010 00000000
+Press B when your Block is at the Bottom of the Screen .. This will give u a full Screen Clear. Dont Use with Delete Blocks code. Thanks g6flavor For the info
+
+Stop Block From Moving (- Button) [ZiT]
+02291AE0 00008806
+28567602 00001000
+040D9450 D03A0010
+E0000000 80008000
+
+Block Back To Top (B Button) [ZiT]
+02291AEC 00008806
+28567602 00000400
+040D9450 D35A0010
+E0000000 80008000
+
+Blocks Move Fast (B and Up Button) [ZiT]
+02291AF4 00008806
+28567602 00000402
+040D9450 D33A0010
+E0000000 80008000
+
+Indispensability Code [ZiT]
+28567602 00000000
+040D9450 D01A0010
+E0000000 80008000

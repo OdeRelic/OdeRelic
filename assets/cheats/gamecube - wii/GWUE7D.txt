@@ -1,0 +1,11 @@
+GWUE7D
+Whirl Tour 
+
+Infinite Health
+0401C85C 60000000
+
+1 Hit And You Die
+04114FC4 42C80000
+
+Never Score Points
+04018A5C 60000000

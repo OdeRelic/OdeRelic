@@ -1,0 +1,14 @@
+GRUE78
+Power Rangers Dino Thunder 
+
+Infinite Health
+04069830 38000004
+
+Quick Dino Bolts
+00318043 00000063
+
+Max Special Attacks
+00318045 00000063
+
+Max Turbo Charges
+00318047 00000063

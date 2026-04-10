@@ -1,0 +1,12 @@
+JDJP
+Super Star Wars The Empire Strikes Back
+
+Max Lives [Crapulecorp]
+00448154 00000063
+
+Unlimited Hero Health [Crapulecorp]
+00448C9E 00000020
+*Code ported from bGMO/b Ntsc Usa Version*
+
+Unlimited Tauntaun Health [Crapulecorp]
+00448CA0 00000040

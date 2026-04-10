@@ -1,0 +1,409 @@
+R2DEEB
+Dokapon Kingdom
+
+---Player 3 Codes---
+
+Item Slot Modifier P3 Slot 1 [Damien Blade]
+04552A94 XX000000
+
+Item Slot Modifier P3 Slot 2 [Damien Blade]
+04552AA0 XX000000
+
+Item Slot Modifier P3 Slot 3 [Damien Blade]
+04552AAC XX000000
+
+Item Slot Modifier P3 Slot 4 [Damien Blade]
+04552AB8 XX000000
+
+Item Slot Modifier P3 Slot 5 [Damien Blade]
+04552AC4 XX000000
+
+Item Slot Modifier P3 Slot 6 [Damien Blade]
+04552AD0 XX000000
+
+Item Slot Modifier P3 Slot 7 [Damien Blade]
+04552ADC XX000000
+
+Item Slot Modifier P3 Slot 8 [Damien Blade]
+04552AE8 XX000000
+
+Infinte Gold P3 D.A.B. [Damien Blade]
+04552BCC 3B9AC9FF
+
+Max Exp P3 D.A.B. [Damien Blade]
+04552BB8 05F5E0FF
+
+9999 HP P3 D.A.B. [Damien Blade]
+02552A0C 0000270F
+04552A1C 270F0000
+
+25 AT/DF/MG/SP P3 D.A.B. [Damien Blade]
+04552A14 00190019
+04552A18 00190019
+
+50 AT/DF/MG/SP P3 D.A.B. [Damien Blade]
+04552A14 00320032
+04552A18 00320032
+
+100 AT/DF/MG/SP P3 D.A.B. [Damien Blade]
+04552A14 00640064
+04552A18 00640064
+
+250 AT/DF/MG/SP P3 D.A.B. [Damien Blade]
+04552A14 00FB00FB
+04552A18 00FB00FB
+
+500 AT/DF/MG/SP P3 D.A.B. [Damien Blade]
+04552A14 01F401F4
+04552A18 01F401F4
+
+999 AT/DF/MG/SP P3 D.A.B. [Damien Blade]
+04552A14 270F270F
+04552A18 270F270F
+
+Set Your Own AT/DF/MG/SP P3 D.A.B. [Damien Blade]
+04552A14 xxxxxxxx
+04552A18 xxxxxxxx
+1rst Line/1rst 4 Digits AT
+1rst Line/2nd 4 Digits DF
+2nd Line/1rst 4 Digits MG
+2nd Line/2nd 4 Digits SP
+
+---Player 4 Codes---
+
+Item Slot Modifier P4 Slot 1 [Damien Blade]
+04552D64 XX000000
+
+Item Slot Modifier P4 Slot 2 [Damien Blade]
+04552D70 XX000000
+
+Item Slot Modifier P4 Slot 3 [Damien Blade]
+04552D7C XX000000
+
+Item Slot Modifier P4 Slot 4 [Damien Blade]
+04552D88 XX000000
+
+Item Slot Modifier P4 Slot 5 [Damien Blade]
+04552D94 XX000000
+
+Item Slot Modifier P4 Slot 6 [Damien Blade]
+04552DA0 XX000000
+
+Item Slot Modifier P4 Slot 7 [Damien Blade]
+04552DAC XX000000
+
+Item Slot Modifier P4 Slot 8 [Damien Blade]
+04552DB8 XX000000
+
+Infinte Gold P4 D.A.B. [Damien Blade]
+04552B9C 3B9AC9FF
+
+Max Exp P4 D.A.B. [Damien Blade]
+04552E88 05F5E0FF
+
+9999 HP P4 D.A.B. [Damien Blade]
+02552CDC 0000270F
+04552CEC 270F0000
+
+25 AT/DF/MG/SP P4 D.A.B. [Damien Blade]
+04552CE4 00190019
+04552CE8 00190019
+
+50 AT/DF/MG/SP P4 D.A.B. [Damien Blade]
+04552CE4 00320032
+04552CE8 00320032
+
+100 AT/DF/MG/SP P4 D.A.B. [Damien Blade]
+04552CE4 00640064
+04552CE8 00640064
+
+250 AT/DF/MG/SP P4 D.A.B. [Damien Blade]
+04552CE4 00FB00FB
+04552CE8 00FB00FB
+
+500 AT/DF/MG/SP P4 D.A.B. [Damien Blade]
+04552CE4 01F401F4
+04552CE8 01F401F4
+
+999 AT/DF/MG/SP P4 D.A.B. [Damien Blade]
+04552CE4 270F270F
+04552CE8 270F270F
+
+Set Your Own AT/DF/MG/SP P4 D.A.B. [Damien Blade]
+04552CE4 xxxxxxxx
+04552CE8 xxxxxxxx
+1rst Line/1rst 4 Digits AT
+1rst Line/2nd 4 Digits DF
+2nd Line/1rst 4 Digits MG
+2nd Line/2nd 4 Digits SP
+
+R2DEEB
+Dokapon Kingdom
+
+-Codes By Damien A. Blade-
+
+!!!Stats Note!!!
+Stats Are Permenant. Save & Reset With Them Off Or Your Stats Won't Increase With Level Up.
+
+!!!HP Note!!!
+The HP Code Gives You Max & Infinite HP Inside & Outside Of Battle. If You Are Hit With 9999 You May Die.
+
+!!!Item Mod Values!!!
+XX =
+01 - 1 Crystal
+02 - 2 Crystal
+03 - 3 Crystal
+04 - 4 Crystal
+05 - 5 Crystal
+06 - 6 Crystal
+07 - Multi Crystal
+08 - 2 Spinner
+09 - 3 Spinner
+0A - 4 Spinner
+0B - 5 Spinner
+0C - Super Spinner
+0D - Town Warp
+0E - Store Warp
+0F - Guided Warp
+10 - Field Warp
+11 - Potion
+12 - Elixir
+13 - Revival
+14 - Panacea
+15 - Soul Mop
+16 - Miracle Serum
+17 - Stl-Bru
+18 - Phyoose
+19 - Invigorade
+1A - Jesta
+1B - Magic Medicine
+1C - Trap Dodger
+1D - Reveal
+1E - Vanish
+1F - Deathblock
+20 - Magic Key
+21 - Skeleton Key
+22 - Magic Mirror
+23 - Mattock
+24 - Roadblock Rock
+25 - Rock Costume
+26 - Trap
+27 - Item Trickster
+28 - Money Trickster
+29 - Charm Potion
+2A - White Arrow
+2B - Gold Bug
+2C - Cunning Disguise
+2D - Contract
+2E - Angel Wings
+2F - Show Ticket
+30 - Lost Technology
+31 - Hero License
+32 - Blackmail
+33 - Big Bug
+34 - Nitroglycerin
+35 - Passport
+36 - Antidote
+37 - Royal Ring
+38 - Dokapon Orb
+39 - Piggy Bank
+3A - Wabbit
+3B - ---- (seems to be nothing)
+3C - Salamander Bug
+3D - ---- (seems to be nothing)
+3E - Monroe Flower
+3F - Fashion Mag #1
+40 - Fashion Mag #2
+41 - Fashion Mag #3
+42 - Fashion Mag #4
+43 - Fashion Mag #5
+44 - Fashion Mag #6
+45 - Fashion Mag #7
+46 - Fashion Mag #8
+47 - Khan's Dog
+48 - Rhine Dog
+49 - Yukon Dog
+4A - Cusco Dog
+4B - Strom Dog
+4C - Kalar Dog
+4D - Bathur Dog
+4E - Dried Kusaya
+4F - Ningyoyaki
+50 - Natto
+51 - Xishan Duck
+52 - Shark Fin Soup
+53 - Kinchi
+54 - Dolsot Bibinbap
+55 - Dried Mango
+56 - Khan Combo
+57 - Potato Juice
+58 - Caviar
+59 - Beef Stroganoff
+5A - Borscht
+5B - Kebab
+5C - Pierogi
+5D - Holy Curry
+5E - Garonne Wine
+5F - Cerdo Loco
+60 - Truffles
+61 - Pizza
+62 - Tiramisu
+63 - Foie Gras
+64 - Bleu Cheese
+65 - Pistachip
+66 - Sachertorte
+67 - Bagel
+68 - Frankfurters
+69 - Roast Beef
+6A - Pickled Herring
+6B - Seward Salmon
+6C - Raw Oysters
+6D - King's Burger
+6E - 5th Steet Bun
+6F - Corn on the Cob
+70 - Hot Dog
+
+---Player 1 Codes---
+
+Item Slot Modifier P1 Slot 1 [Damien Blade]
+045524F4 XX000000
+
+Item Slot Modifier P1 Slot 2 [Damien Blade]
+04552500 XX000000
+
+Item Slot Modifier P1 Slot 3 [Damien Blade]
+0455250C XX000000
+
+Item Slot Modifier P1 Slot 4 [Damien Blade]
+04552518 XX000000
+
+Item Slot Modifier P1 Slot 5 [Damien Blade]
+04552524 XX000000
+
+Item Slot Modifier P1 Slot 6 [Damien Blade]
+04552530 XX000000
+
+Item Slot Modifier P1 Slot 7 [Damien Blade]
+0455253C XX000000
+
+Item Slot Modifier P1 Slot 8 [Damien Blade]
+04552548 XX000000
+
+Infinite Gold P1 D.A.B. [Damien Blade]
+0455262C 3B9AC9FF
+
+Max Exp P1 D.A.B. [Damien Blade]
+04552638 05F5E0FF
+
+9999 HP P1 D.A.B. [Damien Blade]
+0255246C 0000270F
+0455247C 270F0000
+
+25 AT/DF/MG/SP P1 D.A.B. [Damien Blade]
+04552474 00190019
+04552478 00190019
+
+50 AT/DF/MG/SP P1 D.A.B. [Damien Blade]
+04552474 00320032
+04552478 00320032
+
+100 AT/DF/MG/SP P1 D.A.B. [Damien Blade]
+04552474 00640064
+04552478 00640064
+
+250 AT/DF/MG/SP P1 D.A.B. [Damien Blade]
+04552474 00FB00FB
+04552478 00FB00FB
+
+500 AT/DF/MG/SP P1 D.A.B. [Damien Blade]
+04552474 01F401F4
+04552478 01F401F4
+
+999 AT/DF/MG/SP P1 D.A.B. [Damien Blade]
+04552474 270F270F
+04552478 270F270F
+
+Set Your Own AT/DF/MG/SP P1 D.A.B. [Damien Blade]
+04552474 xxxxxxxx
+04552478 xxxxxxxx
+1rst Line/1rst 4 Digits AT
+1rst Line/2nd 4 Digits DF
+2nd Line/1rst 4 Digits MG
+2nd Line/2nd 4 Digits SP
+
+---Player 2 Codes---
+
+Item Slot Modifier P2 Slot 1 [Damien Blade]
+045527C4 XX000000
+
+Item Slot Modifier P2 Slot 2 [Damien Blade]
+045527D0 XX000000
+
+Item Slot Modifier P2 Slot 3 [Damien Blade]
+045527DC XX000000
+
+Item Slot Modifier P2 Slot 4 [Damien Blade]
+045527E8 XX000000
+
+Item Slot Modifier P2 Slot 5 [Damien Blade]
+045527F4 XX000000
+
+Item Slot Modifier P2 Slot 6 [Damien Blade]
+04552800 XX000000
+
+Item Slot Modifier P2 Slot 7 [Damien Blade]
+0455280C XX000000
+
+Item Slot Modifier P2 Slot 8 [Damien Blade]
+04552818 XX000000
+
+Infinte Gold P2 D.A.B. [Damien Blade]
+045528FC 3B9AC9FF
+
+Max Exp P2 D.A.B. [Damien Blade]
+045528E8 05F5E0FF
+
+9999 HP P2 D.A.B. [Damien Blade]
+0255273C 0000270F
+0455274C 270F0000
+
+25 AT/DF/MG/SP P2 D.A.B. [Damien Blade]
+04552744 00190019
+04552748 00190019
+
+50 AT/DF/MG/SP P2 D.A.B. [Damien Blade]
+04552744 00320032
+04552748 00320032
+
+100 AT/DF/MG/SP P2 D.A.B. [Damien Blade]
+04552744 00640064
+04552748 00640064
+
+250 AT/DF/MG/SP P2 D.A.B. [Damien Blade]
+04552744 00FB00FB
+04552748 00FB00FB
+
+500 AT/DF/MG/SP P2 D.A.B. [Damien Blade]
+04552744 01F401F4
+04552748 01F401F4
+
+999 AT/DF/MG/SP P2 D.A.B. [Damien Blade]
+04552744 270F270F
+04552748 270F270F
+
+Set Your Own AT/DF/MG/SP P2 D.A.B. [Damien Blade]
+04552744 xxxxxxxx
+04552748 xxxxxxxx
+1rst Line/1rst 4 Digits AT
+1rst Line/2nd 4 Digits DF
+2nd Line/1rst 4 Digits MG
+2nd Line/2nd 4 Digits SP
+
+Max Gold [GMO]
+0455262C 3B9AC9FF
+
+Infinite Skill Up Points [GMO]
+2881E500 00001000
+8057C827 000000FF
+E0000000 80008000
+Press -; Must Level Up at least Once

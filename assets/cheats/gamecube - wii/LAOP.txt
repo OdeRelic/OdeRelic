@@ -1,0 +1,8 @@
+LAOP
+R-Type
+
+Unlimited Lives [GMO]
+00C80C41 00000009
+
+Auto Charged Attack [GMO]
+00C80C49 0000001E

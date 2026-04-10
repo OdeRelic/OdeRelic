@@ -1,0 +1,29 @@
+GLWE51
+Legends Of Wrestling I 
+
+Open all wrestlers and arenas
+04313124 FFFFFFFF
+
+Infinite health for player in slot 1
+0428E018 00000898
+
+Infinite health for player in slot 2
+0428E01C 00000898
+
+Infinite health for player in slot 3
+0428E020 00000898
+
+Infinite health for player in slot 4
+0428E024 00000898
+
+0 health for player in slot 1
+0428E018 00000000
+
+0 health for player in slot 2
+0428E01C 00000000
+
+0 health for player in slot 3
+0428E020 00000000
+
+0 health for player in slot 4
+0428E024 00000000

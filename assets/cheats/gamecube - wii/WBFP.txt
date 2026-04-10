@@ -1,0 +1,7 @@
+WBFP
+Bit.Trip Fate
+
+If Score Increase, MAX [Crapulecorp]
+C2070368 00000002
+3C803B9B 3884CA00
+9083CAE8 00000000

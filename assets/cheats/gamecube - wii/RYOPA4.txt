@@ -1,0 +1,195 @@
+RYOPA4
+Yu-Gi-Oh! 5D's Wheelie Breakers
+
+Button Activator [Bully@Wiiplaza]
+283C2622 YYYYZZZZ
+
+One Shot Button Activator [Bully@Wiiplaza]
+283C2626 YYYYZZZZ
+
+Infinite Money [Bully@Wiiplaza]
+040CB180 60000000
+040CBD08 48000008
+*Video: http://www.youtube.com/watch?v=J-S2ROM9uio
+
+Have All Cards x3 [Bully@Wiiplaza]
+C20B560C 00000002
+39800003 9183000C
+8063000C 00000000
+
+Bypass Deck Size Restrictions [Bully@Wiiplaza]
+040D0794 48000018
+040D07B8 48000018
+040CEB38 60000000
+040D050C 48000020
+*Video: http://www.youtube.com/watch?v=fzF-ZDUhTzs
+
+No Card Amount Restrictions [Bully@Wiiplaza]
+040D0544 60000000
+040B57F8 60000000
+040B56A4 60000000
+C20B5740 00000003
+3804FFFF 2C00FFFF
+40820008 38000000
+60000000 00000000
+*Video: http://www.youtube.com/watch?v=7JTUmrvhI9E
+
+Profile Name Modifier [Bully@Wiiplaza]
+4A000000 807581C4
+1600PPPP 0000001C
+IIIIIIII IIIIIIII
+IIIIIIII IIIIIIII
+IIIIIIII IIIIIIII
+IIIIIIII 00000000
+E0000000 80008000
+*II = ASCII*
+*PPPP Values*
+0000 = Profile 1
+0A00 = Profile 2
+1400 = Profile 3
+1E00 = Profile 4
+2800 = Profile 5
+*Video: http://www.youtube.com/watch?v=Q6n7Y1U-bUc
+
+Profile Duel Runner Name Modifier [Bully@Wiiplaza]
+4A000000 807581E4
+1600PPPP 00000020
+IIIIIIII IIIIIIII
+IIIIIIII IIIIIIII
+IIIIIIII IIIIIIII
+IIIIIIII IIIIIIII
+E0000000 80008000
+*XX = ASCII*
+*PPPP Values*
+0000 = Profile 1
+0A00 = Profile 2
+1400 = Profile 3
+1E00 = Profile 4
+2800 = Profile 5
+
+All Duel Runners Unlocked [Bully@Wiiplaza]
+4A000000 8075820C
+1400PPPP FFFFFFFF
+E0000000 80008000
+*XX = ASCII*
+*PPPP Values*
+0000 = Profile 1
+0A00 = Profile 2
+1400 = Profile 3
+1E00 = Profile 4
+2800 = Profile 5
+
+Story Mode Stage Modifier [Bully@Wiiplaza]
+C20EC0C8 00000002
+3980000S 91830988
+A8030988 00000000
+*S Values*
+0 = Stage 1 Follow your Dream: A First Taste of Battle
+1 = Stage 1 The Road to Freedom: A Brand New Fight
+2 = Stage 2 The Miniature Duelist: Leo
+3 = Stage 3 The Emperor of the Facility: Facility Chief
+4 = Stage 4 The Relentless Tracker: Officer Tetsu Trudge
+5 = Stage 5 The Black Rose Witch: Akiza Izinski
+6 = Stage 5 The Duel Fairy: Luna
+7 = Stage 6 The Fiery Avenger: Hunter Pace
+8 = Stage 6 The Resurgent Pro Duelist: Bolt Tanner
+9 = Stage 7 The Blast of Darkness: Greiger
+A = Stage 8 The Friend of Destiny: Yusei Fudo
+B = Stage 8 The King of Pride: Jack Atlas
+
+All Card Shop Cards Unlocked [Bully@Wiiplaza]
+C20CA03C 00000002
+3800FFFF 90060884
+60000000 00000000
+
+All CPU Opponents Unlocked [Bully@Wiiplaza]
+C20C6A00 00000002
+38A0FFFF 90A308A0
+60000000 00000000
+*Video: http://www.youtube.com/watch?v=zPHGSgcUUso
+
+All Courses Unlocked [Bully@Wiiplaza]
+C20BA844 00000002
+3880FFFF 9083089C
+60000000 00000000
+
+P1 Codes
+
+Infinite Life Points [Bully@Wiiplaza]
+48000000 802C67B0
+DE000000 90009340
+12001522 0000270F
+E0000000 80008000
+*Video: http://www.youtube.com/watch?v=8GIUx3EnGFw
+
+Infinite Action Points [Bully@Wiiplaza]
+48000000 802C67B0
+DE000000 90009340
+12001526 0000000C
+E0000000 80008000
+
+Finish Instantly [Bully@Wiiplaza]
+48000000 8063E998
+DE000000 80008180
+58010000 00000044
+DE000000 90009340
+10003F47 00000004
+E0000000 80008000
+*Video: http://www.youtube.com/watch?v=LBUyV4paoAU
+
+All Players Codes
+
+Infinite Action Points [Bully@Wiiplaza]
+C20367C4 00000002
+3980000C B19F0126
+A87F0124 00000000
+
+Infinite Life Points [Bully@Wiiplaza]
+C203EA10 00000002
+3980270F B19C0124
+A81C0126 00000000
+
+Damage Eliminate Life Points Instantly [Bully@Wiiplaza]
+04040284 38000000
+
+Starting Life Points Modifier [Bully@Wiiplaza]
+04036124 3800XXXX
+*XXXX = HEX*
+*Video: http://www.youtube.com/watch?v=kTd-liARRRU
+
+Revival Life Points Modifier [Bully@Wiiplaza]
+0403A794 38A0XXXX
+*XXXX = HEX*
+
+No Action Points Increase [Bully@Wiiplaza]
+04036AA4 60000000
+0403B564 60000000
+0403B57C 60000000
+
+Attacking Doesn´t Consume Action Points [Bully@Wiiplaza]
+0403F6A8 60000000
+
+Summoning Doesn´t Consume Action Points [Bully@Wiiplaza]
+0403F564 60000000
+
+Attack Always ON [Bully@Wiiplaza]
+0403E930 60000000
+
+No Scrolling Card Info Text [Bully@Wiiplaza]
+04073728 60000000
+
+No Full Hand Notification [Bully@Wiiplaza]
+0403CEC8 48000028
+
+Timer Modifiers
+
+Timer Speed Multiplier [Bully@Wiiplaza]
+040565BC 3803XXXX
+*XXXX = HEX*
+
+Time Stop [Bully@Wiiplaza]
+040565C0 60000000
+
+Maximum Time [Bully@Wiiplaza]
+040565BC 60000000
+*99:59:99*

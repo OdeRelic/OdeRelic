@@ -1,0 +1,35 @@
+SUYDRV
+Schlag den Raab - Das 3. Spiel
+
+Knopf Auslöser [Bully@Wiiplaza]
+285C684A YYYYZZZZ
+
+Herausforderer Gewinnt Immer [Bully@Wiiplaza]
+C208B134 00000002
+38007FFF 9003002C
+60000000 00000000
+*Nicht gleichzeitig mit "Herausforderer Gewinnt Nie" benutzen*
+
+Herausforderer Gewinnt Nie [Bully@Wiiplaza]
+C208B134 00000002
+38000000 9003002C
+60000000 00000000
+*Nicht gleichzeitig mit "Herausforderer Gewinnt Immer" benutzen*
+
+Stefan Gewinnt Immer [Bully@Wiiplaza]
+C208B138 00000002
+39807FFF 9184002C
+8084002C 00000000
+*Nicht gleichzeitig mit "Stefan Gewinnt Nie" benutzen*
+
+Stefan Gewinnt Nie [Bully@Wiiplaza]
+C208B138 00000002
+39800000 9184002C
+8084002C 00000000
+*Nicht gleichzeitig mit "Stefan Gewinnt Immer" benutzen*
+
+500.000 Credits [Bully@Wiiplaza]
+C2041B8C 00000003
+3D800007 618CA120
+918300EC 806300EC
+60000000 00000000

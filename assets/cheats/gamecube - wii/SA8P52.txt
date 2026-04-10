@@ -1,0 +1,17 @@
+SA8P52
+The Amazing Spiderman
+
+Infinite Tech Upgrade Points [Seth@WiiPlaza]
+0522EAF8 00000258
+05246294 00000258
+
+Infinite Health (All levels) [Seth@WiiPlaza]
+48000000 8124A1C8
+DE000000 80008180
+14000EC8 00002710
+E0000000 80008000
+
+If Decrease Unlimited Tech Upgrade Points [Crapulecorp]
+C2CF7070 00000002
+3FC00258 93DD008C
+60000000 00000000

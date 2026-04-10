@@ -1,0 +1,198 @@
+RHMP99
+Harvest Moon: magical melody
+
+unlimited money [naed]
+12AB264A 0000FFFF
+
+unlimited stamina [naed]
+10AB41F3 000000FF
+
+Backpack Item Modifier
+
+item slot 1 [naed]
+284C2753 00000200
+02AB2742 0000XXXX
+E0000000 80008000
+
+item slot 2 [naed]
+284C2753 00000200
+02AB2748 0000XXXX
+E0000000 80008000
+
+item slot 3 [naed]
+284C2753 00000200
+02AB274E 0000XXXX
+E0000000 80008000
+
+item slot 4 [naed]
+284C2753 00000200
+02AB2754 0000XXXX
+E0000000 80008000
+
+item slot 5 [naed]
+284C2753 00000200
+02AB275A 0000XXXX
+E0000000 80008000
+
+item slot 6 [naed]
+284C2753 00000200
+02AB2760 0000XXXX
+E0000000 80008000
+
+item slot 7 [naed]
+284C2753 00000200
+02AB2766 0000XXXX
+E0000000 80008000
+
+item slot 8 [naed]
+284C2753 00000200
+02AB276C 0000XXXX
+E0000000 80008000
+
+item slot 9 [naed]
+284C2753 00000200
+02AB2772 0000XXXX
+E0000000 80008000
+
+item slot 10 [naed]
+284C2753 00000200
+02AB2778 0000XXXX
+E0000000 80008000
+
+item slot 11 [naed]
+284C2753 00000200
+02AB277E 0000XXXX
+E0000000 80008000
+
+item slot 12 [naed]
+284C2753 00000200
+02AB2784 0000XXXX
+E0000000 80008000
+
+item slot 13 [naed]
+284C2753 00000200
+02AB278A 0000XXXX
+E0000000 80008000
+
+item slot 14 [naed]
+284C2753 00000200
+02AB2790 0000XXXX
+E0000000 80008000
+
+item slot 15 [naed]
+284C2753 00000200
+02AB2796 0000XXXX
+E0000000 80008000
+
+Press 1 to change items
+Must already have item in slot for the new item to overwrite
+must have similar item in slot to work correctly
+for example - replace a tool with a tool or it will not be able to be used
+
+xxxx =
+0000 = nothing
+0001 = nothing (-1 star but does nothing)
+0002 = nothing (-1 star but does nothing)
+0003 = nothing (-1 star but does nothing)
+0004 = nothing (-1 star but does nothing)
+0005 = nothing (-1 star but does nothing)
+0006 = nothing (-1 star but does nothing)
+0007 = nothing (a weed when outside)
+0008 = iron sickle
+0009 = copper sickle
+000A = Silver sickle
+000B = gold sickle
+000C = goddess sickle
+000D = iron hoe
+000E = copper hoe
+000F = silver hoe
+0010 = gold hoe
+0011 = goddess hoe
+0012 = iron axe
+0013 = copper axe
+0014 = silver axe
+0015 = gold axe
+0016 = goddess axe
+0017 = iron hammer
+0018 = copper hammer
+0019 = silver hammer
+001A = gold hammer
+001B = goddess hammer
+001C = iron watering can
+001D = copper watering can
+001E = silver watering can
+001F = gold watering can
+0020 = goddess watering can
+0021 = iron fishing rod
+0022 = copper fishing rod
+0023 = silver fishing rod
+0024 = gold fishing rod
+0025 = goddess fishing rod
+0026 = nothing
+0027 = brush
+0028 = milker
+0029 = clippers
+002A = bell
+002B = dog disk
+002C = pedometor
+002D = rattle
+002E = picture book
+002F = turnip seed
+0030 = potatoe seed
+0031 = strawberry seed
+0032 = cabbage seed
+0033 = breadfruit seed
+0034 = tomato seed
+0035 = corn seed
+0036 = good clay
+0037 = cocoa seed
+0038 = eggplant seed
+0039 = pumpkin seed
+003A = yam seed
+003B = gold ore
+003C = carrot seed
+003D = spinich seed
+003E = grass seed
+003F = fertilizer
+0040 = sapphire
+0041 = summer seed pouch
+0042 = fall seed pouch
+0043 = moondrop flower seed
+0044 = pinkcat flower seed
+0045 = nothing (large coin does nothing)
+0046 = orange herb seed
+0047 = mora seedling (i think can't read my handwriting)
+0048 = chestnut seedling
+0049 = orange seedling
+004A = grape seedling
+004B = apple seedling
+004C = evergreen seedling
+004D = animal medicin
+004E = nothing
+004F = Bonfire set
+0050 = reins
+0051 = cow miricle potion
+0052 = sheep miricle potion
+0053 = horse miricle potion
+
+00FF = very berry
+00FE = red herb
+00FD = purple herb
+00FC = blue mist flower
+00FB = orange herb
+00FA = green herb
+00F9 = pinkcat flower
+00F8 = moondrop flower
+00F7 = nothing (picture of hay)
+00F6 = spinach
+00F5 = spinach
+00F4 = spinach
+00F3 = carrot
+
+then from 0101 it seems to go up in in 2's
+so
+0101
+0103
+0105
+0107
+etc...

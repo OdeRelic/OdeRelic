@@ -1,0 +1,18 @@
+R3BP8P
+Samba de Amigo
+
+If Increase Max Score [Crapulecorp]
+04146CC4 900301F8
+*Ported From ZiT's Ntsc Jap Version*
+
+Infinite Samba Gauge [Crapulecorp]
+C2146E20 00000002
+8003020C 90030208
+60000000 00000000
+*Ported From ZiT's Ntsc Jap Version*
+
+RATE 100% [Crapulecorp]
+C2146A48 00000002
+38000064 901F0200
+60000000 00000000
+*Ported From ZiT's Ntsc Jap Version*

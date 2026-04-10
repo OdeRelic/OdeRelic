@@ -1,0 +1,22 @@
+RGWX41
+Rabbids Go Home
+
+Press 1 to have xx meters v1.01 (fix big bug) [ardemii]
+2860980C 00000200
+04CE085B XXXXXXXX
+04B12A2C 38610044
+E0000000 80008000
+I recommend 000001EF (496),if you have more 500 meters,the game freeze when you give the objects at the rabbid and you cannot have more 500 meters.
+
+Infinite Health [Dr.Cleo]
+04B3057C 60000000
+
+Trumpet Rabbid haves all stuff [Dr.Cleo]
+80CE1032 00000190
+
+Press 1 to have 5/5 Red Pipes [Dr.Cleo]
+2860980C 00000200
+0477AAE8 00000005
+E0000000 80008000
+If you used this code. There will stand that you have 1/5 pipes.
+Just ignore it.

@@ -1,0 +1,13 @@
+WSUJ
+Shootanto Kakohen
+
+If Point Increase, MAX [ZiT]
+C20978BC 00000002
+3D8005F6 380CE0FF
+901601BC 00000000
+
+If Lives Decrease, MAX [ZiT]
+0408C1C0 38000063
+
+If Sub Weapon Decrease, MAX [ZiT]
+0409151C 38000005

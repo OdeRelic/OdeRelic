@@ -1,0 +1,47 @@
+JALE
+Contra 3: The Alien Wars
+
+Player 1 inf Shield [Thomas83Lin]
+008B7291 00000001
+
+Player 1 Weapon Modifier [Thomas83Lin]
+008B728C 0000000x
+x=
+0=Machine Gun
+1=Spread
+2=Rocket
+3=Seeker Rockets
+4=Fire
+5=Laser
+
+Player 2 Weapon Modifier [Thomas83Lin]
+008B72CC 0000000x
+x=
+0=Machine Gun
+1=Spread
+2=Rocket
+3=Seeker Rockets
+4=Fire
+5=Laser
+
+Player 1+2 Invincibility [Thomas83Lin]
+008B551E 00000003
+008B555E 00000003
+
+P1 Moon Jump [Thomas83Lin]
+281B23FA FFBF0040
+028B5526 0000FBFF
+E0000000 80008000
+*Classic Controller*
+
+P2 Moon Jump [Thomas83Lin]
+281B27FA FFBF0040
+028B5566 0000FBFF
+E0000000 80008000
+*Classic Controller*
+
+Player 1 Infinite Lives [GMO]
+008B7292 00000064
+
+Player 1 Infinite Special Items [GMO]
+008B7294 00000009

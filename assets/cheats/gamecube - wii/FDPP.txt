@@ -1,0 +1,10 @@
+FDPP
+Blades of Steel
+
+Player 1 Total Score 99 [Crapulecorp]
+0044AA25 00000099
+*Code ported from GMO Ntsc Usa Version*
+
+Player 2/CPU Total Score 0 [Crapulecorp]
+0044AA29 00000000
+*Code ported from GMO Ntsc Usa Version*

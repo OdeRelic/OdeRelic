@@ -1,0 +1,161 @@
+SQVX69
+Fifa 15
+
+Miscellaneous
+
+Wii Remote/Nunchuk Button Activator [Bully@Wiiplaza]
+28135400 YYYYZZZZ
+http://geckocodes.org/index.php?arsenal=2
+
+Profile Modifiers
+
+All Overall Bonuses Completed [Bully@Wiiplaza]
+C21A0C48 00000007
+2C1B0001 40820028
+38600005 907F63D8
+38600014 907F1398
+907F4D98 3860001E
+907F0038 38600023
+907F2798 807F0038
+60000000 00000000
+
+City Population Modifier [Bully@Wiiplaza]
+C21E4C1C 00000003
+3FA0XXXX 63BDXXXX
+93A4A8EC 93A4A8F0
+60000000 00000000
+
+Stadium Match
+
+Home Team: Goals Modifier [Bully@Wiiplaza]
+C228CA44 00000002
+3800XXXX 90046F3C
+60000000 00000000
+
+Away Team: Goals Modifier [Bully@Wiiplaza]
+C241D648 00000002
+3800XXXX 90037294
+60000000 00000000
+
+Goals Multiplier [Bully@Wiiplaza]
+045EBFC8 3805XXXX
+Sets the amount of goals added to a team's score after scoring
+
+Home Team: Players Amount Modifier [Bully@Wiiplaza]
+C22683CC 00000003
+2C1F0000 4082000C
+3980000X 918300C8
+800300C8 00000000
+
+Away Team: Players Amount Modifier [Bully@Wiiplaza]
+C22683D0 00000003
+2C1F0001 4082000C
+3980000X 918300C8
+7C1E0000 00000000
+Video: http://www.youtube.com/watch?v=TpJSQfBfT00
+
+Red Cards Don't Count [Bully@Wiiplaza]
+047360B0 60000000
+Players are not sent off the court for getting red cards
+
+Players Sent Off Amount Modifier [Bully@Wiiplaza]
+047360AC 3803XXXX
+FFFF = Default (- 1)
+The amount of players which have to leave the field when someone of the team receives a red card
+
+Time Control [Bully@Wiiplaza]
+046CA5A0 38040001
+046CA544 7C00E214
+046CA5A8 60000000
+046CA548 60000000
+28135400 F9FF0600
+046CA5A0 3800270F
+046CA544 3800270F
+046CA5A8 901D0008
+046CA548 901D000C
+E0000000 80008000
+Press 1 + B to finish half time, otherwise the match timer is frozen
+Video: http://www.youtube.com/watch?v=ijBVrSAf3W8
+
+Timer Speed Modifier [Bully@Wiiplaza]
+046CA5A0 3804000X
+Don't use with "Time Control"
+
+Manager Mode
+
+Infinite Transfer Points [Bully@Wiiplaza]
+C2385004 00000002
+39800063 91830000
+80630000 00000000
+
+Infinite Budget [Bully@Wiiplaza]
+C2385024 00000002
+3D807FFF 91830004
+80630004 00000000
+
+Maximum Club Upgrades [Bully@Wiiplaza]
+C23513C0 00000003
+38800012 908304E0
+908304E8 908304EC
+908304F0 00000000
+Video: http://www.youtube.com/watch?v=AGngjDdmcJs
+
+Streets to Stadiums
+
+Infinite Experience Points [Bully@Wiiplaza]
+C2397B34 00000002
+38000066 9016004C
+60000000 00000000
+Allows you to level up your player as much as you want
+
+All Attributes Maxed Out [Bully@Wiiplaza]
+04397AC4 38000063
+Enter "attribute" screen and confirm without doing anything to save the modified stats (it will have taken effect the next time you check)
+Video: http://www.youtube.com/watch?v=S6V1CMhBla4
+
+Hit the Streets
+
+Home Team: Power-Up Meter Modifier [Bully@Wiiplaza]
+C25F12D0 00000003
+2C1EFFFF 4082000C
+3D80LLLL 918371CC
+C02371CC 00000000
+
+Away Team: Power-Up Meter Modifier [Bully@Wiiplaza]
+C24884E0 00000003
+2C1E0001 4082000C
+3D80LLLL 918371CC
+901D003C 00000000
+
+Power-Ups Last Forever [Bully@Wiiplaza]
+04005F0E 60000000
+
+Power-Up Meter Never Decreases [Bully@Wiiplaza]
+045F1174 60000000
+045F0E84 60000000
+045F0EA4 60000000
+
+Placeholders
+
+*YYYY & ZZZZ Values*
+Button mask & button values
+Button calculator:
+http://www.geckocodes.org/index.php?arsenal=2
+
+*SS Values*
+ASCII letters converted to hexadecimal
+
+*X Values*
+Decimal converted to hexadecimal
+
+*LLLL Values*
+Decimal with places from 0 to 1 converted to Float
+
+*PPPPPPPP Values*
+00000015 = Power Shot
+00000016 = Super Speed
+00000017 = Side Shot
+00000018 = Sliding Tackle
+00000019 = Super Shoulder
+0000001A = Gladly Big
+0000001B = Shock Wave

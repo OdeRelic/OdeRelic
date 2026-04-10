@@ -1,0 +1,12 @@
+JBCP
+Kirby's Dream Course
+
+Unlimited Lives [Crapulecorp]
+008CA3DC 00000009
+
+Always 1st Shot/Hole-In-One Player 1 [Crapulecorp]
+008CA59A 00000001
+*Code ported from GMO Ntsc Usa Version*
+
+Unlimited Shots/Tomatoes [Crapulecorp]
+008CA3D8 00000004

@@ -1,0 +1,93 @@
+NABP
+Mario Kart 64
+
+46 points Mario [Sharkbyte]
+010FF9A8 0000002D
+
+46 points Luigi [Sharkbyte]
+010FF9A9 0000002D
+
+46 points Yoshi [Sharkbyte]
+010FF9AA 0000002D
+
+46 points Toad [Sharkbyte]
+010FF9AB 0000002D
+
+46 points Donkey Kong [Sharkbyte]
+010FF9AC 0000002D
+
+46 points Wario [Sharkbyte]
+010FF9AD 0000002D
+
+46 points Peach [Sharkbyte]
+010FF9AE 0000002D
+
+46 points Bowser [Sharkbyte]
+010FF9AF 0000002D
+
+P1 weapon modifier [Sharkbyte]
+010D7F3D 000000XX
+010D7F6A 000000XX
+Only works in P1 & P2 modes
+Must have first XX value equal same as 2nd
+
+P2 weapon modifier [Sharkbyte]
+010D801D 000000XX
+010D804A 000000XX
+Only works in P1 & P2 modes
+Must have first XX value equal same as 2nd
+Weapon Modifier Values
+00 - Nothing
+01 - Single Banana
+02 - Multi Bananas
+03 - Single Green Shell
+04 - 3 Green Shells
+05 - Single Red Shell
+06 - 3 Red Shells
+07 - Blue Shell
+08 - Lightning Bolt
+09 - Upside Down '?'
+0A - Star
+0B - Ghost
+0C - Single Mushroom
+0D - 2 Mushrooms
+0E - 3 Mushrooms
+0F - Gold Mushroom
+
+Unlimited Ballons P1 [Sharkbyte]
+030FF8A0 00000002
+
+Unlimited Ballons P2 [Sharkbyte]
+030FF8A2 00000002
+
+Unlimited Ballons P3 [Sharkbyte]
+030FF8A4 00000002
+
+Unlimited Ballons P4 [Sharkbyte]
+030FF8A6 00000002
+
+Turbo speed (press A) [Sharkbyte]
+289F3538 00000100
+030689F0 000045FF
+E0000000 80008000
+
+Press R for moon jump [Sharkbyte]
+289F3538 FFDF0020
+030689A8 00004000
+E0000000 80008000
+
+P1 no laps to race [Sharkbyte]
+030D6370 00000000
+030D6372 00000002
+
+P2 no laps to race [Sharkbyte]
+030D6374 00000000
+030D6376 00000002
+
+P3 no laps to race [Sharkbyte]
+030D6378 00000000
+030D637A 00000002
+
+P4 no laps to race [Sharkbyte]
+030D637C 00000000
+030D637F 00000002

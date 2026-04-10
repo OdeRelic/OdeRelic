@@ -1,0 +1,10 @@
+RC4JD9
+Crayon Shin-Chan Saikyou Kazoku Kasukabe King Wii
+
+Infinite TIME [ZiT]
+04035988 60000000
+
+TIME0 ("1"button) [ZiT]
+2831E67A 00000200
+04035988 92070004
+E0000000 80008000

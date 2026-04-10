@@ -1,0 +1,73 @@
+MBTP
+Alien Soldier
+
+Time Stop [Crapulecorp]
+02FF1450 00000999
+*Code ported from ZiT Ntsc Jap Version*
+
+Unlimited Stage Time [Crapulecorp]
+00FF1451 00000060
+*Code ported from GMO Ntsc Usa Version*
+
+Unlimited Health [Crapulecorp]
+02FF13F6 000001FF
+*Code ported from ZiT Ntsc Jap Version*
+
+Invincible [Crapulecorp]
+02FF163E 00000017
+*Code ported from ZiT Ntsc Jap Version*
+
+Unlimited Ammo [Crapulecorp]
+08FF1440 000003E8
+10070002 00000000
+*Code ported from ZiT Ntsc Jap Version*
+
+MoonJump
+
+MoonJump [Crapulecorp]
+281EA75A FEFF0100
+02FF15FC 0000FFFA
+E0000000 80008000
+*WiiMote*
+*Code ported from ZiT Ntsc Jap Version*
+
+MoonJump [Crapulecorp]
+281EA7BA FFEF0010
+02FF15FC 0000FFFA
+E0000000 80008000
+*Classic Controller*
+*Code ported from ZiT Ntsc Jap Version*
+
+Speed Up + Remodeling
+
+Speed Up + Remodeling [Crapulecorp]
+281EA75A FFFB0004
+04FF15F8 000F0000
+281EA75B FFF70008
+04FF15F8 FFF00000
+281EA75B 00000000
+04FF15F8 00000000
+E0000000 80008000
+*WiiMote*
+*Arms can be shot while walking*
+*Code ported from ZiT Ntsc Jap Version*
+
+Speed Up + Remodeling [Crapulecorp]
+281EA7BA 7FFF8000
+04FF15F8 000F0000
+281EA7BB FFFD0002
+04FF15F8 FFF00000
+281EA7BB 00000000
+04FF15F8 00000000
+E0000000 80008000
+*Classic Controller*
+*Arms can be shot while walking*
+*Code ported from ZiT Ntsc Jap Version*
+
+Button Activator
+
+WiiMote [Crapulecorp]
+281EA75A YYYYZZZZ
+
+Classic Controller [Crapulecorp]
+281EA7BA YYYYZZZZ

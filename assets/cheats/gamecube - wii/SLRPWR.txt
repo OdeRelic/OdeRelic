@@ -1,0 +1,73 @@
+SLRPWR
+LEGO Lord of the Rings
+
+Player 1 Coins (In-Level) [BoxNinja]
+04D5708C 0098967F
+
+Player 2 Coins (In-Level) [BoxNinja]
+04D570A4 0098967F
+
+Total Coins [BoxNinja]
+04FED364 3B9AC9FF
+
+Extras
+
+8-Bit Music On [BoxNinja]
+00C56336 00000001
+
+Action Assist On [BoxNinja]
+00C5643E 00000001
+
+Attract Studs On [BoxNinja]
+00C56426 00000001
+
+Boss Disguises On [BoxNinja]
+00C5631E 00000001
+
+Character Studs On [BoxNinja]
+00C5640E 00000001
+
+Disguises On [BoxNinja]
+00C56306 00000001
+
+Fall Rescue On [BoxNinja]
+00C5646E 00000001
+
+Fast Build On [BoxNinja]
+00C56456 00000001
+
+Minikit Chest Finder On [BoxNinja]
+00C563DE 00000001
+
+Mithril Brick Finder On [BoxNinja]
+00C563F6 00000001
+
+Mithril Hearts On [BoxNinja]
+00C56486 00000001
+
+Poo Studs On [BoxNinja]
+00C562EE 00000001
+
+Quest Finder On [BoxNinja]
+00C563C6 00000001
+
+Regenerate Hearts On [BoxNinja]
+00C5649E 00000001
+
+Studs x2 On [BoxNinja]
+00C5634E 00000001
+
+Studs x4 On [BoxNinja]
+00C56366 00000001
+
+Studs x6 On [BoxNinja]
+00C5637E 00000001
+
+Studs x8 On [BoxNinja]
+00C56396 00000001
+
+Studs x10 On [BoxNinja]
+00C563AE 00000001
+
+Invincibility On [BoxNinja]
+00C564B6 00000001

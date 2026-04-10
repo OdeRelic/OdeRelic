@@ -1,0 +1,377 @@
+S2LP01
+PokéPark 2: Wonders Beyond
+
+Infinite Berries [Bully@Wiiplaza]
+C2179B40 00000002
+3B20270F 93231474
+60000000 00000000
+*Thanks to Crapulecorp for sharing his RAM Dump*
+
+Universal Codes for PokéPark Wii 2
+
+Button Activator Mastercode [Bully@Wiiplaza]
+F6000001 80008100
+801D00EC 901A00FC
+D2000014 00000002
+801A0010 3D808000
+900C1600 00000000
+E0000000 80008000
+*Must be on to use any button activated code*
+
+Button Activator [Bully@Wiiplaza]
+28001602 YYYYZZZZ
+
+All Attractions Codes
+
+Frozen Timer [Bully@Wiiplaza]
+F6000001 80008100
+80830E58 2C040000
+28001602 YYYYZZZZ
+1400000C 38040000
+CC000000 00000000
+1400000C 3804FFFF
+E0000000 80008000
+*Must use the button activator mastercode with this one*
+*Press your button(s) to toggle ON/OFF*
+
+Highscore Modifier [Bully@Wiiplaza]
+F6000001 80008100
+80830048 7C64C214
+D2000008 00000002
+3800000Y 900310E0
+60000000 00000000
+D20000CC 00000004
+2C170000 40820010
+3C00XXXX 6000XXXX
+900310E4 800310E4
+60000000 00000000
+E0000000 80008000
+*XXXX = New Highscore in HEX*
+*Y = Record Holder*
+0 = Pikachu
+1 = Oshawott
+2 = Snivy
+3 = Tepig
+4 = Nobody
+
+Cake Contraption
+
+Infinite Score [Bully@Wiiplaza]
+F6000001 80008100
+7F83E378 7CA40214
+1400000C 3C807FFF
+E0000000 80008000
+
+Dance Inferno
+
+Infinite Score [Bully@Wiiplaza]
+F6000001 80008100
+7CF8BA14 7F23CB78
+140002BC 3C807FFF
+E0000000 80008000
+
+Flight of Fancy
+
+Infinite Score [Bully@Wiiplaza]
+F6000001 80008100
+7FC3F378 7C1BD1D6
+140000DC 3C807FFF
+E0000000 80008000
+
+Power Bash
+
+Infinite Score [Bully@Wiiplaza]
+F6000001 80008100
+7C85FE70 912101CC
+14000008 3C807FFF
+E0000000 80008000
+
+Targets Absolved Modifier [Bully@Wiiplaza]
+F6000001 80008100
+2C000001 7C041A14
+14000014 3800XXXX
+E0000000 80008000
+*XXXX = HEX*
+
+Combo Lasts Forever [Bully@Wiiplaza]
+F6000001 80008100
+387D12AC 38800001
+14000060 60000000
+14001708 60000000
+E0000000 80008000
+
+Combo Modifier [Bully@Wiiplaza]
+F6000001 80008100
+387D12AC 38800001
+14000014 388000XX
+E0000000 80008000
+*XXXX = HEX*
+*Do not go higher than 99 converted to HEX*
+
+Misc Codes
+
+Maniac Runner [Bully@Wiiplaza]
+F6000001 80008100
+C05B0018 C0028A5C
+F4000004 02FFC502
+3D803FC0 91828A5C
+C0028A5C 00000000
+E0000000 80008000
+*Originally hacked by Codejunkies for Action Replay Wii*
+
+Music Distortion [Bully@Wiiplaza]
+F6000001 80008100
+807A0010 7C80EA14
+14000014 60000000
+E0000000 80008000
+*This messes up the music and also does other fun things*
+
+Friend Power Bar Always Full [Bully@Wiiplaza]
+F6000001 80008100
+5400103A 807E0004
+D2000008 00000004
+3D80FFFF 618CFE90
+7C0C0000 4082000C
+39800078 7D84012E
+7C04002E 00000000
+D2000084 00000004
+3D80FFFF 618CFE88
+7C0C1800 40820008
+38007FFF 7C04192E
+60000000 00000000
+E0000000 80008000
+*May not work for all portals*
+
+Choose From All Pals [Bully@Wiiplaza]
+F6000001 80008100
+7C80C214 38040001
+14000008 3860000F
+F6000001 80008100
+7C600038 980514A8
+1400001C 3860000F
+E0000000 80008000
+*Non-permanent*
+*This does not require you to have them unlocked*
+*Simply press A on Wiimote to choose from Pikachu, Oshawott, Snivy and Tepig*
+*Use with caution, may freeze if you interact with a pal that you aren´t supposed to have yet*
+
+Battle/ Chasing Codes
+
+Invincibility [Bully@Wiiplaza]
+F6000001 80008100
+C0230020 4E800020
+D20000C8 00000002
+7D8903A6 39600001
+91630030 00000000
+E0000000 80008000
+*You can´t be hit/damaged*
+*Video: http://www.youtube.com/watch?v=KGxgkTEII9Y
+
+Enemies Have No Invincibility Time [Bully@Wiiplaza]
+F6000001 80008100
+7F85E378 5406043E
+14000B04 38A00000
+E0000000 80008000
+*If you beat up a Pokémon, it won´t have it´s invincibility time which is indicated by white flicking*
+
+Call Infinite Support Pokémon [Bully@Wiiplaza]
+F6000001 80008100
+38000001 9803048F
+D2000010 00000006
+3D808170 816C0000
+2C0B0000 40820010
+81430008 914C0000
+4800000C 816C0000
+91630008 80630008
+60000000 00000000
+E0000000 80008000
+*Earn your support Pokémon once to activate code*
+*Press A to call in your helper as often as you want*
+*If your helper changes for whatever reason restart your Wii or else you´ll freeze when trying to call someone*
+*Video: http://www.youtube.com/watch?v=haiUAJndWFg
+
+Infinite Health [Bully@Wiiplaza]
+F6000001 80008100
+818C0064 EC2007F2
+140002B0 FC20E890
+E0000000 80008000
+*Video: http://www.youtube.com/watch?v=KO-76byPr-4
+
+Frozen Timer [Bully@Wiiplaza]
+F6000001 80008100
+7FE3FB78 818C0054
+D2000218 00000002
+81830000 D2C30250
+60000000 00000000
+E0000000 80008000
+
+One Hit Kill [Bully@Wiiplaza]
+F6000001 80008100
+DBE10018 DBC10010
+14000054 FC20F890
+E0000000 80008000
+*Video: http://www.youtube.com/watch?v=yWN5PkV4dSY
+
+Super Speed [Bully@Wiiplaza]
+F6000001 80008100
+881F0078 28000001
+D200001C 00000002
+3D804100 919F0028
+C05F0028 00000000
+E0000000 80008000
+*Sprint to speed up*
+*Video: http://www.youtube.com/watch?v=BleRRQsklEU
+
+Teleporter [Bully@Wiiplaza]
+F6000001 80008100
+987A07D8 901A07D0
+D20000D0 0000000B
+3D408000 614A1602
+A14A0000 3D608000
+2C0A0401 4082001C
+81830000 918B1500
+81830004 918B1504
+81830008 918B1508
+2C0A0408 4082001C
+818B1500 91830000
+818B1504 91830004
+818B1508 91830008
+C0030000 00000000
+E0000000 80008000
+*Must use the button activator mastercode with this one*
+*Press B + D-PAD_LEFT to store coordinates*
+*Press B + D-PAD_UP to teleport*
+
+Moon Jump [Bully@Wiiplaza]
+F6000001 80008100
+D083002C D0A30030
+D200002C 00000004
+3D808000 A18C1602
+718C0100 4182000C
+3D803F00 91830020
+C0230020 00000000
+E0000000 80008000
+*Must use the button activator mastercode with this one*
+*Press and hold 2*
+
+Disable Special Moves [Bully@Wiiplaza]
+F6000001 80008100
+EFBF082A FC1DF040
+14000028 38A00000
+14000054 FC20E090
+E0000000 80008000
+*You will no longer be able to use a special move with the 1 button*
+
+Instant Special Moves [Bully@Wiiplaza]
+F6000001 80008100
+3880401B 818C0074
+D200036C 00000004
+3D608000 A16B1602
+716BZZZZ 4182000C
+FC20F090 48000008
+C0228CC0 00000000
+E0000000 80008000
+*Must use the button activator mastercode with this one*
+*ZZZZ = Button for executing a Pokémon special move*
+*Best used with "Disable Special Moves" if you prefer to remap this function to a different button*
+
+Special Move Auto Spam [Bully@Wiiplaza]
+F6000001 80008100
+3880401B 818C0074
+28001602 YYYYZZZZ
+1400036C FC20F090
+CC000000 00000000
+1400036C C0228CC0
+E0000000 80008000
+*Must use the button activator mastercode with this one*
+*When enabled you´ll keep using your special move automatically*
+*Press your button(s) to toggle ON/OFF*
+
+Permanent Unlockers (Use with caution!)
+
+Pals Modifier [Bully@Wiiplaza]
+F6000001 80008100
+7EE01830 807F0048
+D2000008 00000002
+886314A8 398000XX
+998314A8 00000000
+E0000000 80008000
+*XX Values*
+00 = No Pals except for Pikachu
+03 = Pikachu & Ochawott
+07 = Pikachu, Ochawott & Snivy
+0F = Pikachu, Ochawott, Snivy & Tepig
+
+Have All 194 Friends [Bully@Wiiplaza]
+F6000001 80008100
+54641838 7C602214
+D2000008 00000002
+380000C8 B0030028
+60000000 00000000
+E0000000 80008000
+*Video: http://www.youtube.com/watch?v=bQIuL8bzpMc
+
+Have Empty Friend List [Bully@Wiiplaza]
+F6000001 80008100
+54641838 7C602214
+D2000008 00000002
+38000000 B0030028
+60000000 00000000
+E0000000 80008000
+
+Have All 40 White Quills [Bully@Wiiplaza]
+F6000001 80008100
+7C790214 80030010
+D2000004 00000002
+3C00FFFF 6000FFFF
+90030010 00000000
+E0000000 80008000
+*Requested by mystiko81*
+
+Have No White Quills [Bully@Wiiplaza]
+F6000001 80008100
+7C790214 80030010
+D2000004 00000002
+3C000000 60000000
+90030010 00000000
+E0000000 80008000
+
+Have All Collection Items x99 [Bully@Wiiplaza]
+F6000001 80008100
+801F0048 7C60EA14
+D200001C 00000002
+38006301 B0031070
+88031070 00000000
+E0000000 80008000
+
+Have No Collection Items [Bully@Wiiplaza]
+F6000001 80008100
+801F0048 7C60EA14
+D200001C 00000002
+38000000 B0031070
+88031070 00000000
+E0000000 80008000
+
+All Pal Training Stats MAX [Bully@Wiiplaza]
+F6000001 80008100
+7F43D378 88EB1491
+D2000004 00000003
+3D803030 618C3030
+918B1491 88EB1491
+60000000 00000000
+D2000024 00000002
+38000003 980B1495
+60000000 00000000
+E0000000 80008000
+
+All Pal Training Stats Emptied [Bully@Wiiplaza]
+F6000001 80008100
+7F43D378 88EB1491
+D2000004 00000003
+3D800000 618C0000
+918B1491 88EB1491
+60000000 00000000
+D2000024 00000002
+38000000 980B1495
+60000000 00000000
+E0000000 80008000

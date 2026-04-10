@@ -1,0 +1,73 @@
+LAKP
+Wonder Boy II - Wonder Boy In Monster Land
+
+Infinite Life (Press ZL ON/OFF) [Crapulecorp]
+281A20A2 FF7F0080
+CC000000 00000000
+0129865C 00000028
+0129865D 0000000A
+E0000000 80008000
+*Classic Controller*
+*Code ported from ZiT Ntsc Jap codes*
+
+Infinite Life (Hold B and Press 1 ON/OFF) [Crapulecorp]
+281A2042 F9FF0600
+CC000000 00000000
+0129865C 00000028
+0129865D 0000000A
+E0000000 80008000
+*WiiMote*
+*Code ported from ZiT Ntsc Jap codes*
+
+Invincible [Crapulecorp]
+03298760 000001A9
+*Code ported from ZiT Ntsc Jap codes*
+
+Unlimited Gold [Crapulecorp]
+01298659 00000099
+0129865A 00000099
+*Code ported from ZiT Ntsc Jap codes*
+
+Moon Jump (Press Y) [Crapulecorp]
+281A20A2 FFDF0020
+012989B1 000000FC
+E0000000 80008000
+*Classic Controller*
+*Code ported from ZiT Ntsc Jap codes*
+
+Moon Jump (Press 2) [Crapulecorp]
+281A2042 FEFF0100
+012989B1 000000FC
+E0000000 80008000
+*WiiMote*
+*Code ported from ZiT Ntsc Jap codes*
+
+Time Stop [Crapulecorp]
+0129873B 00000000
+0129873C 00000000
+*Code ported from ZiT Ntsc Jap codes*
+
+Speed Up [Crapulecorp]
+052989C4 FD000003
+*Code ported from ZiT Ntsc Jap codes*
+
+Button Activator
+
+Classic Controller [Crapulecorp]
+281A20A2 YYYYZZZZ
+
+WiiMote [Crapulecorp]
+281A2042 YYYYZZZZ
+
+Invincible [GMO]
+0125BFE1 000000B1
+
+Press B to Refill Health [GMO]
+0125BEDD 0000000A
+281A2042 00000400
+0125BEDC 00000028
+E0000000 80008000
+
+Max Gold [GMO]
+0125BED9 00000099
+0125BEDA 00000099

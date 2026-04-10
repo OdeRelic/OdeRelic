@@ -1,0 +1,14 @@
+R3KP6N
+SkyScraper
+
+Inf Ammo [Thomas83Lin]
+041A6C3C 38040000
+
+Inf pill time [Thomas83Lin]
+0411B0A4 60000000
+
+InfCircuitBoxTimer [Thomas83Lin]
+04654AF8 4312FFFF
+
+MatchGame Inf Lives [Thomas83Lin]
+0410A884 38030000

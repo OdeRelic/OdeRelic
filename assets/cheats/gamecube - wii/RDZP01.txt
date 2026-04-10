@@ -1,0 +1,67 @@
+RDZP01
+Disaster - Day of Crisis
+
+Infinite/Max Items [lindtec]
+04616518 00100010
+0461651C 00100010
+
+Infinite/Max HP/SP [lindtec]
+046292A4 000F423F
+0462929C 000F423F
+
+Infinite Health [lindtec]
+04104038 60000000
+
+Infinite Stamina [lindtec]
+041045A8 60000000
+
+Infinite Ammo (Ingame and Shooting Range) [lindtec]
+0412682C 60000000
+
+Infinite Running [lindtec]
+0410438C 60000000
+
+Lungs always clean [lindtec]
+041044CC 60000000
+
+Infinite Rescue Health [lindtec]
+040A24B8 60000000
+
+Shooting Range Time wont go up (or down) [lindtec]
+0406CC6C 60000000
+225CEC5C 00000000
+0406CC6C D05F0004
+E0000000 80008000
+22616558 00000000
+0406CC6C D05F0004
+E0000000 80008000
+
+Infinite Car Health [lindtec]
+040E4524 60000000
+
+Take no Damage [lindtec]
+0420C5E0 60000000
+This is for the Statistic-Screen only.
+
+Max Fightpoints [lindtec]
+046294A4 0001869F
+045EADC0 0001869F
+This is for the Statistic-Screen only. It will set your Fightpoints to 99.999.
+
+Perfect Accuracy [lindtec]
+0420B880 38040000
+0420B87C 38800001
+You have to hit an enemy at least once, to get an accuracy of 100%.
+This won't work in Shooting Ranges.
+
+Infinite Breath under Water [lindtec]
+041041C0 60000000
+
+One-Hit-Finish in Shooting Ranges [lindtec]
+225CF7BC 00000000
+0418DD64 8006C308
+E0000000 80008000
+205CF7BC 00000000
+0418DD64 38050001
+E0000000 80008000
+This works in all Shooting Ranges, except the one, where you throw the stones and the Aracade-Shooter. You have to destroy at least one target. If you use just the second line, you will finish each fight (except bosses) with a single kill too.

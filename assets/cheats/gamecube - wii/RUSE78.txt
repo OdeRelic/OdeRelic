@@ -1,0 +1,11 @@
+RUSE78
+Spongebob Squarepants Globs of Doom
+
+Button Activator [T.B.W]
+283D1F4A 0000XXXX
+
+Infinite Health [T.B.W]
+04A153E4 FFFFFFFF
+
+Third Person View [T.B.W]
+04D43554 41200000

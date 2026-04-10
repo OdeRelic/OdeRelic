@@ -1,0 +1,7 @@
+SXBP52
+Guitar Hero: Metallica
+
+Maxed Guitar Rock Meter [Patedj]
+42000000 90000000
+04084920 40000000
+E0000000 80008000

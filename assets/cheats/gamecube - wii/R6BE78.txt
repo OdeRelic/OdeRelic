@@ -1,0 +1,31 @@
+R6BE78
+De Blob
+
+TIME STOP [ZiT]
+04140674 60000000
+
+TIME STOP2 [ZiT]
+0418BC8C 60000000
+
+TIME START(1Button) [ZiT]
+284C2302 00000200
+0418BC8C D03F0014
+04140674 D05F0008
+E0000000 80008000
+
+If Paint Points Increase, MAX [ZiT]
+C2141CD8 00000002
+3E80000F 3814423F
+901F0010 00000000
+
+If Paint Increase, 100 [ZiT]
+C222E778 00000002
+38800064 90830414
+60000000 00000000
+
+Infinite Paint [ZiT]
+0422E8C0 907E0414
+
+True Invincibility [hetoan2]
+1453F188 01000000
+Nothing even affects you. Ink will not turn you black, enemies do no damage, and you can move through stage traps.

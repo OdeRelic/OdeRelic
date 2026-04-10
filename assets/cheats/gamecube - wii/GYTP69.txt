@@ -1,0 +1,34 @@
+GYTP69
+TY The Tasmanian Tiger 2
+
+Master Code
+
+Codehandler fix (Master Code) [-Ozelot-]
+0425560C 4BDAC29C
+Only tested with GCOS 1.06d
+
+Game Codes
+
+Ty Moon Jump (Normal) [-Ozelot-]
+C20309CC 00000005
+3D808034 618C4F44
+A18C0000 718CKKKK
+41820010 3D8044A0
+91830000 C0230000
+60000000 00000000
+KKKK=GCN Button Value
+
+Inf. Health [-Ozelot-]
+0408ED24 60000000
+
+Battle Bunyip Moon Jump [-Ozelot-]
+C2173754 00000005
+3D808034 618C4F44
+A18C0000 718CKKKK
+41820010 3D8044A0
+919D054C C03D054C
+60000000 00000000
+KKKK=GCN Button Value
+
+Battle Bunyip Bar always full [-Ozelot-]
+0417FF58 60000000

@@ -1,0 +1,71 @@
+GWQE52
+Wreckless 
+
+Infinite Missiles
+0028D803 0000000F
+
+Infinite Adrenaline
+0028D7FF 00000003
+
+Low Time
+0428CF0C 00000000
+
+Infinite Timer
+0428CF14 000025FF
+
+Low Friction
+020F5910 00000001
+
+High Friction
+020F5918 00000001
+
+Back Slide Out
+020F5920 00000001
+
+Super Speed
+020F5928 00000001
+
+Low Gravity
+020F5930 00000001
+
+High Gravity
+020F5940 00000001
+
+Very Solid Car
+020F5938 00000001
+
+Grand Theft Auto Mode
+020F5948 00000001
+
+Unstable Suspension
+020F5980 00000001
+
+No Collisions With Cars
+020F5958 00000001
+
+No Traffic
+020F5950 00000001
+
+Giant Pedestrians
+020F5960 00000001
+
+Mirrored Map
+020F5968 00000001
+
+Super Steering
+020F5988 00000001
+
+Other Cars Slower
+020F5998 00000001
+
+Other Cars Faster
+020F59A0 00000001
+
+Unusual Camera
+020F59A8 00000001
+
+Max Objects Hit
+0228D12A 0000270F
+
+Max Cars Hit
+0228D128 0000270F

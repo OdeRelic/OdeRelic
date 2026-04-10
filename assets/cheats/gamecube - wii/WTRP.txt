@@ -1,0 +1,20 @@
+WTRP
+Bit.Trip Beat
+
+If Score Increase, MAX [Crapulecorp]
+C202CE3C 00000002
+3C603B9B 3863CA00
+906D8F44 00000000
+*The Ntsc Jap codes from ZiT works with the Pal Version*
+
+No Damage (Hyper Gauge & Nether Gauge always Empty) [Crapulecorp]
+0025D9BF 00000000
+0025DBBF 00000000
+
+Mega Gauge Always Full [Crapulecorp]
+0025DB4F 00000064
+*Code ported from BoxNinja Ntsc Usa Version*
+
+Multi + Gauge Always Full [Crapulecorp]
+0025D94F 0000001E
+*Code ported from BoxNinja Ntsc Usa Version*

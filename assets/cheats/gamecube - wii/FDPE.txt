@@ -1,0 +1,8 @@
+FDPE
+Blades of Steel
+
+Player 1 Total Score 99 [GMO]
+00449845 00000099
+
+Player 2/CPU Total Score 0 [GMO]
+00449849 00000000

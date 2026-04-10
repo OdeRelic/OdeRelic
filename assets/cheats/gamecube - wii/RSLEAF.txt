@@ -1,0 +1,23 @@
+RSLEAF
+Soul Calibur Legends
+
+Max Combo [AlexWong]
+04066690 60000000
+
+Max Damage [AlexWong]
+040666B0 60000000
+
+Time Stop [AlexWong]
+0405D968 38050000
+
+P1 Infinite Energy [schmake]
+0240718A 000003E8
+
+P1 Infinite Soul Power [schmake]
+0240FB06 000004B0
+
+P2 Infinite Energy [schmake]
+0240FB98 000003E8
+
+P2 Infinite Soul Power [schmake]
+02418516 000004B0

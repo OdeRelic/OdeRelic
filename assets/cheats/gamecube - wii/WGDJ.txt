@@ -1,0 +1,20 @@
+WGDJ
+Gradius Rebirth: Updated
+
+Inf Lives (Ported from g6flavor) [Thomas83Lin]
+04078FF0 60000000
+*For Version 1.2 Only*
+
+Unlimited Use of Konami Code (Ported from g6flavor) [Thomas83Lin]
+04074380 60000000
+*For Version 1.2 Only*
+
+Inf Shield Ship Type A,C,D (Ported from g6flavor) [Thomas83Lin]
+04027454 60000000
+*After You Get Shield*
+*For Version 1.2 Only*
+
+Inf Shield(Invincibly) Ship type B (Ported from g6flavor) [Thomas83Lin]
+04028028 60000000
+*After you get Shield*
+*For Version 1.2 Only*

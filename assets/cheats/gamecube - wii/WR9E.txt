@@ -1,0 +1,49 @@
+WR9E
+MegaMan 9
+
+Invincible [GMO]
+00313F40 0000004E
+
+Refill Health [GMO]
+20319DA8 00000402
+00313F4F 0000001C
+E0000000 80008000
+Hold B and Press Right on D-Pad
+To avoid game freezing from fall to death
+Original Health Code By hetoan2
+
+1 Hit Kill Bosses [GMO]
+20319DA8 00000401
+00311BC7 00000001
+E0000000 80008000
+Hold B and Press Left on D-Pad
+
+Infinite Items [hetoan2]
+00D4101E 00050009
+
+Infinite Lives [hetoan2]
+00313FE4 00050009
+
+Infinite Ammo [hetoan2]
+02313FE4 000B1C00
+
+Infinite Screws [hetoan2]
+0231631E 000003E7
+
+Infinite HP [hetoan2]
+00313F4F 0000001C
+
+Moon Jump (Wiimote) [hetoan2]
+20319DA8 00000100
+04313F04 FFFFF000
+E0000000 80008000
+
+Fast Fall (b button wiimote) [hetoan2]
+20319DA8 00000400
+04313F04 00000FFF
+E0000000 80008000
+
+Moon jump (Classic Controller) [hetoan2]
+28319E0A FFEF0010
+04313F04 FFFFFA00
+E0000000 80008000

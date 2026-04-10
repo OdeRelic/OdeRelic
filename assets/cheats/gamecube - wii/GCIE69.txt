@@ -1,0 +1,9 @@
+GCIE69
+The Sims 1 
+
+Adjust Stats For Max
+040119C4 3800000A
+
+Max/Infinite Money
+0416EDE8 3D20000F
+0416EE30 3D60000F

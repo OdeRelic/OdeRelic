@@ -1,0 +1,12 @@
+WHPP
+Sexy Poker
+
+Unlimited Money (Poker Mode) [Crapulecorp]
+C205B4C0 00000002
+3C80000F 6084423F
+908D91B0 00000000
+
+Unlimited Money (BlackJack Mode) [Crapulecorp]
+C2044E5C 00000002
+3C60000F 6063423F
+906D90A8 00000000

@@ -1,0 +1,59 @@
+MAVP
+Wonder Boy in Monster World
+
+Unlimited Gold [Crapulecorp]
+04DBFCCC 000F423F
+
+Unlimited Life [Crapulecorp]
+02DC40A0 00000AA0
+*Code ported from ZiT Ntsc Usa Version*
+
+Invincible [Crapulecorp]
+00DC05AA 00000023
+*Code ported from ZiT Ntsc Usa Version*
+
+MoonJump
+
+Moon Jump [Crapulecorp]
+281ED07A FFEF0010
+02DC30A2 0000FC00
+E0000000 80008000
+*Classic Controller*
+*Code ported from ZiT Ntsc Usa Version*
+
+MoonJump [Crapulecorp]
+28BD86EA FEFF0100
+02DC30A2 0000FC00
+E0000000 80008000
+*GameCube Controller*
+*Code ported from ZiT Ntsc Usa Version*
+
+Speed UP
+
+Speed Up (Press Up/Down) [Crapulecorp]
+02DC30A0 00000A00
+281ED07A BFFF4000
+02DC30A0 00000A00
+281ED07B FFFE0001
+02DC30A0 0000F500
+E0000000 80008000
+*Classic Controller*
+*Code ported from ZiT Ntsc Usa Version*
+
+Speed Up (Press Up/Down) [Crapulecorp]
+02DC30A0 00000A00
+28BD86EA FFFB0004
+02DC30A0 00000A00
+28BD86EB FFF70008
+02DC30A0 0000F500
+E0000000 80008000
+*GameCube Controller*
+*Code ported from ZiT Ntsc Usa Version*
+
+Button Activator
+
+Classic Controller [Crapulecorp]
+28BD67A2 YYYYZZZZ
+
+GameCube Controller [Crapulecorp]
+28BD66EA YYYYZZZZ

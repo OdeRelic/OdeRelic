@@ -1,0 +1,11 @@
+GRNE52
+Lost Kingdoms 
+
+Infinite Health
+0218777E 00000063
+
+Always 10 Magic Stones
+001877CF 0000000A
+
+Have Lots Of Cash
+04139804 0000270F

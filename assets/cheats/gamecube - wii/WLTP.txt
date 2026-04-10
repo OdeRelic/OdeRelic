@@ -1,0 +1,22 @@
+WLTP
+LIT
+
+Unlimited Flash Light [Crapulecorp]
+0400CA64 60000000
+*Code ported from ZiT Ntsc Usa Version*
+
+Unlimited Slingshot Pellets [Crapulecorp]
+001B6297 0000000A
+*Code ported from GMO Ntsc Usa Version*
+
+TV Remote Control [Crapulecorp]
+001B6295 00000001
+*Code ported from ZiT Ntsc Jap Version*
+
+Unlimited Bomb [Crapulecorp]
+001B6293 0000000A
+*Code ported from ZiT Ntsc Jap Version*
+
+Unlimited Smoke Candle [Crapulecorp]
+001B6291 0000000A
+*Code ported from ZiT Ntsc Jap Version*

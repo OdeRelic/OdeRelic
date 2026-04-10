@@ -1,0 +1,133 @@
+RY8EFS
+Bass Pro Shops: The Strike
+
+Millionaire [Patedj]
+04574EDC 49742400
+This code makes you a millionaire.
+
+Reputation points [Patedj]
+04574F17 000000xx
+045ABE07 000000xx
+Replace xx with the reputation needed for the map.
+
+Unlockables
+
+Maps unlocked (Thanks to Jackal) [Patedj]
+005750F4 00130001
+This unlocks all of the maps.
+
+Last boat unlocked and equipped [Patedj]
+05204EE4 00000000
+05204EEC FFFFFFFF
+05204F84 00000001
+05204F88 00000001
+05204F8C 00000001
+Equips the best boat.
+
+Fish Magnet
+
+Fish Magnet except for the last map (Thanks to James0x57) [Patedj]
+2861621B BFFFF400
+04CB2DDC 01599999
+04CB2DD8 3F599999
+E0000000 80008000
+This can influence the fish to attack the lure faster than usual and for further distances when you press/hold B.
+
+Fish Magnet for the Last map [Patedj]
+2861621B BFFF4000
+04C5BA78 3F599999
+04C5BA7C 01599999
+E0000000 80008000
+Same as above but for the last map. Sometimes this code doesn't work for the last map.
+
+Timers (Warning, do not activate during leisure fishing. Exiting will freeze the game)
+
+Lake Amistad timer/on [Patedj]
+2061621A 00000C00
+04A8E100 000004B1
+E0000000 80008000
+Pressing (A) + (B) will reset the timer to 20 mins
+
+Lake Amistad timer/off [Patedj]
+2061621A 00001400
+04A8E100 00000000
+E0000000 80008000
+Pressing (-) + (B) will stop the tournament. If done right away, you will win the tournament. When you press it away from the dock this will put you in penalty.
+
+Lake Ouachita/Fork timer/on [Patedj]
+2061621A 00000C00
+04A8E0FC 000004B1
+E0000000 80008000
+Same as above but for the second lake
+
+Lake Ouachita/Fork timer/off [Patedj]
+2061621A 00001400
+04A8E0FC 00000000
+E0000000 80008000
+Same as above but for the second and third lake.
+
+Lake Wiley/Oneida timer/on [Patedj]
+2061621A 00000C00
+04A8E0F8 000004B1
+E0000000 80008000
+Same as above but for the forth and seventh lake.
+
+Lake Wiley/Oneida timer/off [Patedj]
+2061621A 00001400
+04A8E0F8 00000000
+E0000000 80008000
+Same as above but for the forth and seventh lake.
+
+Lake Guntersville/Champlain/Pickwick/Toho timer/on [Patedj]
+2061621A 00000C00
+04A8E0F4 000004B1
+E0000000 80008000
+Same as above but for the fifth, sixth, eighth, and ninth lake.
+
+Lake Guntersville/Champlain/Pickwick/Toho timer/off [Patedj]
+2061621A 00001400
+04A8E0F4 00000000
+E0000000 80008000
+Same as above but for the fifth, sixth, eighth, and ninth lake.
+
+Lake Table Rock/on [Patedj]
+2061621A 00000C00
+04A8E104 000004B1
+E0000000 80008000
+
+Lake Table Rock/off [Patedj]
+2061621A 00001400
+04A8E104 00000000
+E0000000 80008000
+
+Penalty Time STOP for Lake Amistad [Patedj]
+04A8E10C FFFFFFFF
+This will keep the timer at 0:00 and will stop any Lbs to be taken off your total.
+
+Penalty Time STOP for Lake Ouachita/Fork [Patedj]
+04A8E108 FFFFFFFF
+Same as above but for the second and third lake
+
+Penalty Time STOP for Lake Wiley/Oneida [Patedj]
+04A8E104 FFFFFFFF
+Same as above but for the forth and seventh lake
+
+Penalty Time STOP for Lake Guntersville/Champlain/Pickwick/Toho [Patedj]
+04A8E100 FFFFFFFF
+Same as above but for the fifth, sixth, eighth, and ninth lake.
+
+Penalty Time STOP for Lake Table Rock [Patedj]
+04A8E110 FFFFFFFF
+Same as above but for the last lake
+
+ASM
+
+Fish Magnet except for the last map (Thanks to dcx2 for correcting the ASM) [Patedj]
+041DB468 C07F73D8
+2861621A BFFF4000
+C21DB468 00000003
+3D803F59 618C9999
+919F73D8 C07F73D8
+60000000 00000000
+E0000000 80008000
+Pressing B will trigger the hook, attracting the fish.

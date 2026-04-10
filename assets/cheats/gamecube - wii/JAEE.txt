@@ -1,0 +1,29 @@
+JAEE
+Donkey Kong Country
+
+Max Lives [GMO]
+008B099F 00000063
+
+Max Bananas [GMO]
+008B09A3 00000063
+
+Have KONG Completed [GMO]
+008B09A7 00000010
+
+Always Have Buddy [GMO]
+008B09A1 00000001
+
+1Token for Expresso the Ostrich Mini-Game [GMO]
+008B099A 00000002
+
+1Token for Rambi the Rhino Mini-Game [GMO]
+008B099B 00000002
+
+1Token for Enguarde the SwordFish Mini-Game [GMO]
+008B099C 00000002
+
+Add More Time For Bonus Game [GMO]
+2817EB28 00000010
+008B181B 00000099
+E0000000 80008000
+Press Z(Right)

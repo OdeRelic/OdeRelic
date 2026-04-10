@@ -1,0 +1,23 @@
+RTDE6K
+Monkey King - The Legend Begins
+
+Infinite Lives [eric]
+001E440B 00000063
+
+Infinite Health [eric]
+0403420C 38A00014
+
+Maximum Power [eric]
+001E441B 00000006
+
+Maximum Speed [eric]
+001E4419 00000007
+
+Score x10 Multiplier [eric]
+0400C208 1C83000A
+
+MAX SCORE [memorris]
+041E440C 3B9AC9FF
+
+Invincability [memorris]
+041E4414 00000016

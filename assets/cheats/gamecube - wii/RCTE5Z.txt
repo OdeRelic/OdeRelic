@@ -1,0 +1,11 @@
+RCTE5Z
+Counter Force
+
+gold5x99 [savage]
+04189618 000F423F
+
+max points [savage]
+04189620 0098967F
+
+99bombs [savage]
+0418961C 000003E7

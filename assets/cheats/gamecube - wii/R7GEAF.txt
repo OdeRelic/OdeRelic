@@ -1,0 +1,47 @@
+R7GEAF
+Dragon Ball Z King piccolo's revenge
+
+inf hp DR4GON [xcoopa]
+C241AFD4 00000001
+60000000 00000000
+
+inf ki DR4GON [xcoopa]
+C244BEC0 00000001
+60000000 00000000
+
+inf shield DR4GON [xcoopa]
+C244BECC 00000001
+60000000 00000000
+
+insta round win [DR4G0N]
+283E749A 00000200
+0441B10C 00000FA0
+E0000000 80008000
+*press 1 to instantly win the round (tournament)
+
+tournament mode
+
+always 9999999 zeniDragon [xcoopa]
+0445FD60 00FFFFFF
+
+inf hpDragon [xcoopa]
+0441AFD4 0FFFFFFF
+
+inf ki (powermoves) Dragon & Xcoopa [xcoopa]
+0444BEC0 0FFFFFFF
+
+inf shield (tournament mode) Dragon [xcoopa]
+0444BECC 03E803E8
+
+moon jump & underground - to activate B jump C to go under ground [xcoopa]
+283E749A 00001000
+CC000000 00000001
+283E749A 00000400
+0441B014 42B00000
+E0000000 80008000
+282FDA00 00001000
+CC000000 00000001
+E0000000 80008000
+283E749A 00004000
+CC000000 80008000
+0441B014 41000000

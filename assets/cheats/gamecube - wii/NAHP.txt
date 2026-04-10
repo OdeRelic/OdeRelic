@@ -1,0 +1,55 @@
+NAHP
+Yoshi's Story
+
+Unlimited Yoshi Eggs [Crapulecorp]
+013B3EB8 00000006
+*Code ported from GMO Ntsc Usa Version*
+
+Refill 6 Yoshi Eggs (Press L) [Crapulecorp]
+281F8952 DFFF2000
+013B3EB8 00000006
+E0000000 80008000
+*Classic Controller*
+
+Health Codes
+
+Unlimited Health (All Yoshi's) [Crapulecorp]
+0922838F 00000008
+00070004 00000000
+*Code ported from GMO Ntsc Usa Version*
+
+Unlimited Health (Green Yoshi) [Crapulecorp]
+0122838F 00000008
+
+Unlimited Health (Red Yoshi) [Crapulecorp]
+01228393 00000008
+*Code ported from farjo08 Ntsc Usa Version*
+
+Unlimited Health (Yellow Yoshi) [Crapulecorp]
+01228397 00000008
+*Code ported from farjo08 Ntsc Usa Version*
+
+Unlimited Health (Dark Blue Yoshi) [Crapulecorp]
+0122839B 00000008
+*Code ported from farjo08 Ntsc Usa Version*
+
+Unlimited Health (Light Blue Yoshi) [Crapulecorp]
+0122839F 00000008
+*Code ported from farjo08 Ntsc Usa Version*
+
+Unlimited Health (Pink Yoshi) [Crapulecorp]
+012283A3 00000008
+*Code ported from farjo08 Ntsc Usa Version*
+
+Unlimited Health (White Yoshi) [Crapulecorp]
+012283A7 00000008
+*Code ported from farjo08 Ntsc Usa Version*
+
+Unlimited Health (Black Yoshi) [Crapulecorp]
+012283AB 00000008
+*Code ported from farjo08 Ntsc Usa Version*
+
+Button Activator
+
+Classic Controller [Crapulecorp]
+281F8952 YYYYZZZZ

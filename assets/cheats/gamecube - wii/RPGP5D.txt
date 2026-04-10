@@ -1,0 +1,125 @@
+RPGP5D
+Rampage: Total Destruction
+
+Important : Use GxFlush Hook
+
+100,000 Points Left Player
+
+100,000 Points Left Player [Crapulecorp]
+04334D58 000186A0
+*Code ported from savage Ntsc Usa Version*
+
+100,000 Points Left Player (Press -) [Crapulecorp]
+28407982 EFFF1000
+04334D58 000186A0
+E0000000 80008000
+*WiiMote-NunChuck*
+
+100,000 Points Left Player (Press - ON/OFF) [Crapulecorp]
+28407982 EFFF1000
+CC000000 00000000
+04334D58 000186A0
+E0000000 80008000
+*WiiMote-NunChuck*
+
+Unlimited Health Left Player
+
+Unlimited Health Left Player [Crapulecorp]
+029463A0 0000447A
+*Code ported from savage Ntsc Usa Version*
+
+Refill Health Left Player (Press 1) [Crapulecorp]
+28407982 FDFF0200
+029463A0 0000447A
+E0000000 80008000
+*WiiMote-NunChuck*
+
+Unlimited Health Left Player (Press 1 ON/OFF) [Crapulecorp]
+28407982 FDFF0200
+CC000000 00000000
+029463A0 0000447A
+E0000000 80008000
+*WiiMote-NunChuck*
+
+Full Rampage Left Player
+
+Full Rampage Left Player [Crapulecorp]
+029463A4 000044FA
+*Code ported from savage Ntsc Usa Version*
+
+Refill Full Rampage Left Player (Press 2) [Crapulecorp]
+28407982 FEFF0100
+029463A4 000044FA
+E0000000 80008000
+*WiiMote-NunChuck*
+
+Unlimited Full Rampage Left Player (Press 2 ON/OFF) [Crapulecorp]
+28407982 FEFF0100
+CC000000 00000000
+029463A4 000044FA
+E0000000 80008000
+*WiiMote-NunChuck*
+
+100,000 Points Right Player
+
+100,000 Points Right Player [Crapulecorp]
+04334DB8 000186A0
+*Code ported from savage Ntsc Usa Version*
+
+100,000 Points Right Player (Press -) [Crapulecorp]
+28407D82 EFFF1000
+04334DB8 000186A0
+E0000000 80008000
+*WiiMote-NunChuck*
+
+100,000 Points Right Player (Press - ON/OFF) [Crapulecorp]
+28407D82 EFFF1000
+CC000000 00000000
+04334DB8 000186A0
+E0000000 80008000
+*WiiMote-NunChuck*
+
+Unlimited Health Right Player
+
+Unlimited Health Right Player [Crapulecorp]
+02952CA0 0000447A
+*Code ported from savage Ntsc Usa Version*
+
+Refill Health Right Player (Press 1) [Crapulecorp]
+28407D82 FDFF0200
+02952CA0 0000447A
+E0000000 80008000
+*WiiMote-NunChuck*
+
+Unlimited Health Right Player (Press 1 ON/OFF) [Crapulecorp]
+28407D82 FDFF0200
+CC000000 00000000
+02952CA0 0000447A
+E0000000 80008000
+*WiiMote-NunChuck*
+
+Full Rampage Right Player
+
+Full Rampage Right Player [Crapulecorp]
+02952CA4 0000447A
+
+Refill Full Rampage Right Player (Press 2) [Crapulecorp]
+28407D82 FEFF0100
+02952CA4 0000447A
+E0000000 80008000
+*WiiMote-NunChuck*
+
+Unlimited Full Rampage Right Player (Press 2 ON/OFF) [Crapulecorp]
+28407D82 FEFF0100
+CC000000 00000000
+02952CA4 0000447A
+E0000000 80008000
+*WiiMote-NunChuck*
+
+Button Activator
+
+WiiMote-NunChuck Left PLayer [Crapulecorp]
+28407982 YYYYZZZZ
+
+WiiMote-NunChuck Right PLayer [Crapulecorp]
+28407D82 YYYYZZZZ

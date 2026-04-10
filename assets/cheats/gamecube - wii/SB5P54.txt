@@ -1,0 +1,30 @@
+SB5P54
+NBA 2K11
+
+999999 Skill Points (My Player Mode) [Crapulecorp]
+C2BA83D0 00000002
+3C80000F 6084423F
+9083000C 00000000
+
+Max Stats (My Player Mode) [Crapulecorp]
+0256FE88 0000EC63
+00544EC0 002F00FF
+*A big thanks to Deathwolf And dcx2 who helped me for this code*
+
+Always A+ (My Player Mode) [Crapulecorp]
+034A8458 000042C8
+
+Difficulty Level (My Player Mode) [Crapulecorp]
+0049AB07 000000XX
+*Replace XX for :
+00 Rookie
+01 Pro
+02 All Star
+03 Superstar
+04 Hall Of Fame*
+
+Difficulty Level is Rookie (My Player Mode) [Crapulecorp]
+C2BBB978 00000002
+38600000 90640004
+60000000 00000000
+*ASM Codes So you have to change the difficulty and that will automaticaly be set to Rookie*

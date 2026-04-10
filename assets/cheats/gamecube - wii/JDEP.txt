@@ -1,0 +1,199 @@
+JDEP
+Final Fight 3
+
+Player 1
+
+Unlimited Lives Player 1 [Crapulecorp]
+00446C7D 00000009
+
+Unlimited Health Player 1 [Crapulecorp]
+00446CC0 0000007F
+*Code ported from ZiT Ntsc Jap Version*
+
+Unlimited Super Player 1 [Crapulecorp]
+00446C7E 00000067
+*Code ported from ZiT Ntsc Jap Version*
+
+Hold Enemy Forever Player 1 [Crapulecorp]
+00446CE8 000000FF
+*Code ported from Vandal Snes Action Replay Version*
+
+MoonJump Player 1 [Crapulecorp]
+2815E822 FFBF0040
+02446CA6 00005400
+E0000000 80008000
+2815E822 FFEF0010
+02446CA6 00005400
+E0000000 80008000
+*Classic Controller*
+*Code ported from ZiT Ntsc Jap Version*
+
+MoonJump Player 1 [Crapulecorp]
+2816E774 FDFF0200
+02446CA6 00005400
+E0000000 80008000
+*GameCube Controller*
+*Code ported from ZiT Ntsc Jap Version*
+
+Character Modifier Player 1 [Crapulecorp]
+0044867D 0000000X
+*Replace X for :
+1 - Guy
+2 - Hagger
+3 - Lucia
+4 - Dean*
+*Code ported from Fangs Snes Action Replay Version*
+
+Weapon Modifier Player 1 [Crapulecorp]
+00446C7C 0000000X
+*Replace X for :
+0 - Nothing
+1 - Pipe
+2 - Nun-Chucks
+3 - Small Pipe
+4 - Sledge Hammer*
+*Code ported from Fangs Snes Action Replay Version*
+
+Player 2
+
+Unlimited Lives Player 2 [Crapulecorp]
+00446D7D 00000009
+*Code ported from Fangs Snes Action Replay Version*
+
+Unlimited Health Player 2 [Crapulecorp]
+00446DC0 0000007F
+*Code ported from Fangs Snes Action Replay Version*
+
+Unlimited Super Player 2 [Crapulecorp]
+00446D7E 00000067
+*Code ported from Fangs Snes Action Replay Version*
+
+Hold Enemy Forever Player 2 [Crapulecorp]
+0044767E 000000FF
+*Code ported from Vandal Snes Action Replay Version*
+
+Character Modifier Player 2 [Crapulecorp]
+0044767E 0000000X
+*Replace X for :
+1 - Guy
+2 - Hagger
+3 - Lucia
+4 - Dean*
+*Code ported from Fangs Snes Action Replay Version*
+
+Weapon Modifier Player 2 [Crapulecorp]
+00446D7C 0000000X
+*Replace X for :
+0 - Nothing
+1 - Pipe
+2 - Nun-Chucks
+3 - Small Pipe
+4 - Sledge Hammer*
+*Code ported from Fangs Snes Action Replay Version*
+
+1 Hit Kill All Enemies
+
+1 Hit Kill All Enemies [Crapulecorp]
+00446EC0 00000000
+00446FC0 00000000
+004470C0 00000000
+004471C0 00000000
+*Code ported from ventuz Snes Action Replay Version*
+
+1 Hit Kill All Enemies Player 1 (Press L ON/OFF) [Crapulecorp]
+2815E822 DFFF2000
+CC000000 00000000
+00446EC0 00000000
+00446FC0 00000000
+004470C0 00000000
+004471C0 00000000
+E0000000 80008000
+*Classic Controller*
+*Code ported from ventuz Snes Action Replay Version*
+
+1 Hit Kill All Enemies Player 1 (Press L ON/OFF) [Crapulecorp]
+2816E774 FFBF0040
+CC000000 00000000
+00446EC0 00000000
+00446FC0 00000000
+004470C0 00000000
+004471C0 00000000
+E0000000 80008000
+*GameCube Controller*
+*Code ported from ventuz Snes Action Replay Version*
+
+1 Hit Kill All Enemies Player 2 (Press L ON/OFF) [Crapulecorp]
+2815E82A DFFF2000
+CC000000 00000000
+00446EC0 00000000
+00446FC0 00000000
+004470C0 00000000
+004471C0 00000000
+E0000000 80008000
+*Classic Controller*
+*Code ported from ventuz Snes Action Replay Version*
+
+1 Hit Kill All Enemies Player 2 (Press L ON/OFF) [Crapulecorp]
+2816E792 FFBF0040
+CC000000 00000000
+00446EC0 00000000
+00446FC0 00000000
+004470C0 00000000
+004471C0 00000000
+E0000000 80008000
+*GameCube Controller*
+*Code ported from ventuz Snes Action Replay Version*
+
+Time Stop
+
+Time Stop Player 1 (Press ZL + ZR ON/OFF) [Crapulecorp]
+2815E822 00000084
+CC000000 00000000
+00446B6C 00000000
+E0000000 80008000
+*Classic Controller*
+*Code ported from ZiT Ntsc Jap Version*
+
+Time Stop Player 1 (Press Z ON/OFF) [Crapulecorp]
+2816E774 FFEF0010
+CC000000 00000000
+00446B6C 00000000
+E0000000 80008000
+*GameCube Controller*
+*Code ported from ZiT Ntsc Jap Version*
+
+Time Stop Player 2 (Press ZL + ZR ON/OFF) [Crapulecorp]
+2815E82A 00000084
+CC000000 00000000
+00446B6C 00000000
+E0000000 80008000
+*Classic Controller*
+*Code ported from ZiT Ntsc Jap Version*
+
+Time Stop Player 2 (Press Z ON/OFF) [Crapulecorp]
+2816E792 FFEF0010
+CC000000 00000000
+00446B6C 00000000
+E0000000 80008000
+*GameCube Controller*
+*Code ported from ZiT Ntsc Jap Version*
+
+Button Activator
+
+Classic Controller Player 1 [Crapulecorp]
+2815E822 YYYYZZZZ
+
+GameCube Controller Player 1 [Crapulecorp]
+2816E774 YYYYZZZZ
+
+Classic Controller Player 2 [Crapulecorp]
+2815E82A YYYYZZZZ
+
+GameCube Controller Player 2 [Crapulecorp]
+2816E792 YYYYZZZZ
+
+Time Stop Player 1
+
+Moonjump Player 1
+
+Button Activator Player 1

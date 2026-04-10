@@ -1,0 +1,233 @@
+RJZP7U
+SNK Arcade Classics Volume 1
+
+World Heroes
+
+World Heroes Infinite Energy P1 [Blaster99]
+20001808 0000000F
+0272A24A 00000068
+0472A26C 00000068
+E0000000 80008000
+
+World Heroes Infinite Time [Blaster99]
+20001808 0000000F
+0072F249 00000099
+E0000000 80008000
+
+Art of Fighting
+
+Art of Fighting Infinite Energy P1 [Blaster99]
+20001808 00000000
+0272E70C 00006000
+E0000000 80008000
+
+Burning Fight
+
+Burning Fight Infinite Energy P1 [Blaster99]
+20001808 00000002
+02720E60 0000FF00
+E0000000 80008000
+
+Fatal Fury
+
+Fatal Fury Infinite Time [Blaster99]
+20001808 00000003
+04724F30 00009900
+E0000000 80008000
+
+Fatal Fury Infinite Energy P1 [Blaster99]
+20001808 00000003
+04720FF8 60600000
+E0000000 80008000
+
+King of Monsters
+
+King of Monsters Energy P1 [Blaster99]
+20001808 00000004
+02722CAA 00003C00
+E0000000 80008000
+
+Last Resort
+
+Last Resort Infinite Lives P1 [Blaster99]
+20001808 00000005
+02728C70 00000009
+E0000000 80008000
+
+Samurai Showdown
+
+Samurai Showdown Infinite Time [Blaster99]
+20001808 00000009
+02826BC8 00000099
+E0000000 80008000
+
+Sengoku
+
+Sengoku Infinite Energy P1 [Blaster99]
+20001808 0000000A
+02720F44 00000600
+E0000000 80008000
+
+Sengoku Infinite Lives P1 [Blaster99]
+20001808 0000000A
+02720CF2 00000900
+E0000000 80008000
+
+Sengoku Infinite Change Time P1 [Blaster99]
+20001808 0000000A
+04720FA4 59005900
+04720FA8 59005900
+E0000000 80008000
+
+Super Sidekicks 3
+
+Super Sidekicks 3 99 Goals Player [Blaster99]
+20001808 0000000C
+0283602A 00000063
+E0000000 80008000
+
+Super Sidekicks 3 0 Goals Opponent [Blaster99]
+20001808 0000000C
+0283602E 00000000
+E0000000 80008000
+
+King of Fighters 94
+
+King of Fighters 94 Infinite Energy P1 [Blaster99]
+20001808 0000000D
+0283CE60 0000CF00
+E0000000 80008000
+
+Must always be enabled!
+
+GR Menu Code (must be enabled!) [Blaster99]
+48000000 803F2D24
+4A100000 00000078
+DE000000 80508060
+92210000 00000000
+E0000000 80008000
+
+Magician Lord
+
+Magician Lord Inf Lives [Blaster99]
+00724741 00000009
+
+Magician Lord Max Power [Blaster99]
+00724745 00000002
+
+Magician Lord Inf Energy [Blaster99]
+00724746 00000005
+Credits for these codes to schmake. Ported from US-Version.
+
+Shock Troopers
+
+Shock Troopers P1 Inf Health [Blaster99]
+00B4BDF4 00000080
+
+Shock Troopers P1 Inf Ammo [Blaster99]
+00B549FA 000000C8
+
+Shock Troopers P1 Inf Grenades [Blaster99]
+00B54A02 00000063
+
+Shock Troopers P1 Always Have Gun [Blaster99]
+00B549F8 000000XX
+*Always have gun XX codes:
+20 Hyper
+1C Missile
+18 Rocket
+14 Flame
+10 Buster
+0C 3Way
+08 Vulcan
+04 Heavy
+
+Shock Troopers P2 Inf Health [Blaster99]
+00B4DDF4 00000080
+
+Shock Troopers P2 Inf Ammo [Blaster99]
+00B54BFA 000000C8
+
+Shock Troopers P2 Inf Grenades [Blaster99]
+00B54C02 00000063
+
+Shock Troopers P2 Always Have Gun [Blaster99]
+00B54BF8 00000022
+*Always have gun XX codes:
+20 Hyper
+1C Missile
+18 Rocket
+14 Flame
+10 Buster
+0C 3Way
+08 Vulcan
+04 Heavy
+
+Shock Troopers Infinite Time [Blaster99]
+00B54940 00000099
+Credits for these codes to schmake. Ported from US-Version.
+
+Metal Slug
+
+Metal Slug Infinite Time [Blaster99]
+0083BAD2 00000063
+
+Metal Slug Inf Health Slug [Blaster99]
+00835226 00000030
+
+Metal Slug P1 Inf Lives [Blaster99]
+00822E0A 00000039
+00834FB6 00000009
+
+Metal Slug P1 Inf Grenades [Blaster99]
+00835101 00000063
+
+Metal Slug P1 Inf Ammo [Blaster99]
+00835102 000000C8
+
+Metal Slug P1 Always Have Gun [Blaster99]
+008350F0 00000004
+*Always have gun codes:
+1 Shotgun
+2 Flamethrower
+3 Missile
+4 Heavy Machine Gun
+
+Metal Slug P2 Inf Lives [Blaster99]
+0082350A 00000039
+00835056 00000009
+
+Metal Slug P2 Inf Grenades [Blaster99]
+008351A1 00000063
+
+Metal Slug P2 Inf Ammo [Blaster99]
+008351A2 000000C8
+
+Metal Slug P2 Always Have Gun [Blaster99]
+00835190 00000004
+*Always have gun codes:
+1 Shotgun
+2 Flamethrower
+3 Missile
+4 Heavy Machine Gun
+Credits for these codes to schmake. Ported from US-Version.
+
+Top Hunter
+
+Top Hunter Infinite Time [Blaster99]
+0082F503 00000099
+
+Top Hunter P1 Inf NRG [Blaster99]
+00826D40 00000040
+
+Top Hunter P1 Inf Lives [Blaster99]
+0082F55C 00000009
+
+Top Hunter P2 Inf NRG [Blaster99]
+00827940 00000040
+
+Top Hunter P2 Inf Lives [Blaster99]
+0082F560 00000009
+Credits for these codes to schmake. Ported from US-Version.
+
+Credits to schmake for creating these codes. Ported from US-Version.

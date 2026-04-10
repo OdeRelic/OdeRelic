@@ -1,0 +1,11 @@
+WOYP
+Bit Boy
+
+Unlimited Attack [Romaap]
+040173D4 3860000A
+
+Finish Level [Romaap]
+20478000 00001800
+0468C7BC 00000000
+E0000000 80008000
+Press - and A to finish the level

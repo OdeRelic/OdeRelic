@@ -1,0 +1,50 @@
+GXEE8P
+Sonic Riders
+
+Infinite Air (All Players) [Link Master]
+04411CBC 60000000
+
+Infinite Rings (Position 1) [Link Master]
+00609FDB 00000064
+
+Infinite Rings (Position 2) [Link Master]
+0060B05B 00000064
+
+Infinite Rings (Position 3) [Link Master]
+0060C0DB 00000064
+
+Infinite Rings (Position 4) [Link Master]
+0060D15B 00000064
+
+How these codes work is not by the controller port you're plugged
+into, but by the position you're in on the race. For example, if
+four people are playing, then position 1 is player 1, position 2
+is player 2, and so on. But if only three people are playing, and
+no one is plugged into controller port 1, then position 1 is
+player 2, position 2 is player 3, and position 3 is player 4.
+If there are only two people playing, and they're plugged into
+controller ports 3 and 4, then position 1 is player 3, and
+position 2 is player 4. Also note that these codes will affect
+computer players, which is why they are seperate codes rather than
+combined into one code.
+
+Character Modifier (Player 1) [Link Master]
+006094FA 000000XX
+
+00 - Sonic (Speed)
+01 - Tails (Fly)
+02 - Knuckles (Power)
+03 - Amy (Speed)
+04 - Jet (Speed)
+05 - Storm (Power)
+06 - Wave (Fly)
+07 - Eggman (Power)
+08 - Cream (Fly)
+09 - Rogue (Fly)
+0A - Shadow (Speed)
+0B - Super Sonic (All) (Freezes)
+0C - Nights (Fly)
+0D - AiAi (Power)
+0E - Ulala (Speed)
+0F - E10000G (Power)
+10 - E10000R (Speed)

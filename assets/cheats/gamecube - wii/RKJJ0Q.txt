@@ -1,0 +1,8 @@
+RKJJ0Q
+250 Mannin no Kanken Wii de Tokoton Kanji Nou (JP)
+
+TIME STOP [ZiT]
+04035868 60000000
+
+Correct answer point 100 [ZiT]
+040358CC 60000000

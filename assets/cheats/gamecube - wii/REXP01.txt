@@ -1,0 +1,40 @@
+REXP01
+Excite Truck
+
+All these codes do is alter the on screen values
+
+turbo power max [memorris]
+0459283C 00000009
+
+speed power max [memorris]
+04592834 00000009
+
+Handling Slow [memorris]
+0459284C 00000001
+
+Handling Quick [memorris]
+0459284C 00000009
+
+Handling Med [memorris]
+0459284C 00000005
+
+Grip power max [memorris]
+04592854 00000009
+
+Air power max [memorris]
+04592844 00000009
+
+All these codes do is alter the on screen values.
+
+Time 0.0 [ZiT]
+0415264C D05B0F34
+
+SCORE MAX [ZiT]
+C214B4D8 00000002
+3E40461D 3A523C00
+92550014 00000000
+
+Infinite Turbo [ZiT]
+04187434 D03B25A0
+
+Special Thanks memorris!!

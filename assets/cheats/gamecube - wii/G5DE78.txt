@@ -1,0 +1,74 @@
+G5DE78
+Scooby Doo Unmasked 
+
+Max Health
+045598FC 0000000C
+
+Infinite Health
+04559900 0000000C
+
+99 Scooby Snacks
+04559904 00000063
+
+99 Mubber
+04559910 00000063
+
+Infinite Cabbage
+04559930 00000063
+
+Infinite Carrots
+04559934 00000063
+
+Infinite Cheese
+04559938 00000063
+
+Infinite Chips
+0455993C 00000063
+
+Infinite Chocolate
+04559940 00000063
+
+Infinite Cotton Candy
+04559944 00000063
+
+Infinite Eggplant
+04559948 00000063
+
+Infinite Fish
+0455994C 00000063
+
+Infinite Ham
+04559950 00000063
+
+Infinite Steak
+04559954 00000063
+
+Infinite Jalapeno
+04559958 00000063
+
+Infinite Ice Cream
+0455995C 00000063
+
+Infinite Lobster
+04559960 00000063
+
+Infinite Marshmallow
+04559964 00000063
+
+Infinite Onions
+04559968 00000063
+
+Infinite Pepperoni
+0455996C 00000063
+
+Infinite Pickles
+04559970 00000063
+
+Infinite Popcorn
+04559974 00000063
+
+Infinite Sausage
+04559978 00000063
+
+Infinite Shrimp
+0455997C 00000063

@@ -1,0 +1,9 @@
+FBRP
+Galaga
+
+Unlimited Lives [Crapulecorp]
+003B1667 00000009
+
+Invincible [Crapulecorp]
+003B1259 00000001
+*Code ported from ZiT Ntsc Jap Version*

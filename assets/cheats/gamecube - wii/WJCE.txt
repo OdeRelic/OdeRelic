@@ -1,0 +1,20 @@
+WJCE
+JellyCar 2
+
+Infinite Inflate [BoxNinja]
+043CFDD4 3F800000
+
+Long Jump Score [BoxNinja]
+043CFDA0 497423FE
+*Doesn't change during the jump
+*only after when the final score is displayed
+
+Time Freeze [BoxNinja]
+043CFDAC 00000000
+*Displays as 0.02, but when the level ends it will be 0.00
+
+Always Have Magnets [BoxNinja]
+043CFDB0 41F00000
+
+Always Have Balloon [BoxNinja]
+043CFDB8 41F00000

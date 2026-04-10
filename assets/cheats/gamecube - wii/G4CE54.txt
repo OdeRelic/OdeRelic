@@ -1,0 +1,9 @@
+G4CE54
+Charlie and The Chocolate Factory 
+
+Enable Debug Menu (Unlock All Levels)
+044637B4 00000001
+
+Infinite Health/Candy Power
+04276134 C3AD00A8
+042763D4 C01D000C

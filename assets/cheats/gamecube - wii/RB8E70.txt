@@ -1,0 +1,45 @@
+RB8E70
+Backyard Baseball '09
+
+Button Activator [BoxNinja]
+202DD398 XXXXXXXX
+
+Toggle Regular Stat Edit Points [BoxNinja]
+202DD398 00000100
+042E5698 000003E7
+CC000000 00000001
+042E5698 00000000
+E0000000 80008000
+*Hit 2 to toggle between 999 and 0 points
+*Edit your player's stats, then hit 2 when you are finished
+
+Toggle Pitching Stat Edit Points [BoxNinja]
+202DD398 00000100
+042E5694 000003E7
+CC000000 00000001
+042E5694 00000000
+E0000000 80008000
+*Hit 2 to toggle between 999 and 0 points
+*Edit your player's stats, then hit 2 when you are finished
+
+Toggle Strikes,Balls, and Outs [BoxNinja]
+202DD398 00000100
+042E5860 00000002
+042E5864 00000002
+042E5868 00000003
+CC000000 00000001
+042E5860 00000000
+042E5864 00000000
+042E5868 00000000
+E0000000 80008000
+*Hit 2 to toggle between 2 strikes, 3 balls, 2 outs
+*and 0 strikes, 0 balls, 0 outs
+
+Always Have X Strikes [BoxNinja]
+042E5864 0000000X
+
+Always Have X Balls [BoxNinja]
+042E5868 0000000X
+
+Always Have X Outs [BoxNinja]
+042E5860 0000000X

@@ -1,0 +1,60 @@
+WPFJ
+Pokémon Fushigi no Dungeon: Susume! Honoo no Boukendan
+
+Max Coins [Glitch]
+04475D18 0001869F
+
+Max Coins in Bank [Glitch]
+04477340 0098967F
+
+Max Adventure Rank [Glitch]
+04471998 000186A0
+
+Max Rank Points [Glitch]
+040E5AC0 60000000
+
+Max smartness from eating gummy [Glitch]
+0407DBA4 60000000
+04168ED4 60000000
+
+See Items Location [Glitch]
+0406C2CC 380000FF
+
+See Pokemon Location [Glitch]
+0406C2C4 380000FF
+
+See Stairs Location [Glitch]
+0406C344 380000FF
+
+Wild Pokemon Encounter Modifier [Glitch]
+040BDCA4 38000xxx
+In order by ID: 000 - Bulbasaur (M) - 219 - Arceus
+359 - Bulbasaur (F) etc
+
+Never get hungry [Glitch]
+0405CDA0 38A00064
+
+Infinite HP [Glitch]
+C208FA0C 00000004
+2C130000 40820010
+AB590012 38000000
+48000008 80150000
+60000000 00000000
+
+Infinite HP & 1HKO [Glitch]
+C208FA0C 00000004
+2C130000 40820010
+AB590012 38000000
+48000008 A8190012
+60000000 00000000
+
+Exp Modifier x [Glitch]
+C20938D0 00000002
+1C84xxxx 7C632214
+60000000 00000000
+xxxx=0002 = x2 - 7FFF = x32767
+
+Max EXP [Glitch]
+C20938D0 00000002
+3C600098 3863967F
+60000000 00000000

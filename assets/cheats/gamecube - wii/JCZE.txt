@@ -1,0 +1,11 @@
+JCZE
+Genghis Khan 2 Clan of the Gray Wolf
+
+WiiMote Pad1 [GMO]
+28174382 0000XXXX
+
+Classic Pad1 [GMO]
+281743E2 0000XXXX
+
+Unlimited Turns [GMO]
+0044C87A 00000099

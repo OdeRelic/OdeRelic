@@ -1,0 +1,9 @@
+FFEP
+A Boy and His Blob
+
+Unlimited Lives [Crapulecorp]
+003A1422 00000009
+
+Unlimited Jellybeans (Gives secret Jellybeans too) [Crapulecorp]
+023A163C 00100099
+*Code ported from goemon_guy Ntsc Usa Version*

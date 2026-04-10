@@ -1,0 +1,102 @@
+EAHP
+Baseball Stars 2
+
+Player 1 Codes
+
+Score Max Player 1 [Crapulecorp]
+002540E2 00000099
+
+Score Max Player 1 (Press ZR) [Crapulecorp]
+2821EECA FFFB0004
+002540E2 00000099
+E0000000 80008000
+*Classic Controller*
+
+Score Max Player 1 (Press ZR ON/OFF) [Crapulecorp]
+2821EECA FFFB0004
+CC000000 00000000
+002540E2 00000099
+E0000000 80008000
+*Classic Controller*
+
+Pow Max Player 1 [Crapulecorp]
+00254112 00000063
+
+Pow Max Player 1 (Press ZL) [Crapulecorp]
+2821EECA FF7F0080
+00254112 00000063
+E0000000 80008000
+*Classic Controller*
+
+Pow Max Player 1 (Press ZL ON/OFF) [Crapulecorp]
+2821EECA FF7F0080
+CC000000 00000000
+00254112 00000063
+E0000000 80008000
+*Classic Controller*
+
+Set Strikes To 0 (Press L And Down) [Crapulecorp]
+2821EECA 9FFF6000
+0025411C 00000000
+E0000000 80008000
+*Classic Controller*
+
+Set Strikes To 2 (Press L And UP) [Crapulecorp]
+2821EECA DFFE2001
+0025411C 00000002
+E0000000 80008000
+*Classic Controller*
+
+Set Balls To 0 (Press R And Down) [Crapulecorp]
+2821EECA BDFF4200
+0025411D 00000000
+E0000000 80008000
+*Classic Controller*
+
+Set Balls To 3 (Press R And UP) [Crapulecorp]
+2821EECA FDFE0201
+0025411D 00000003
+E0000000 80008000
+*Classic Controller*
+
+Set Outs To 0 (Press L and Left) [Crapulecorp]
+2821EECA DFFD2002
+0025411B 00000000
+E0000000 80008000
+*Classic Controller*
+
+Set Outs To 2 (Press L and Right) [Crapulecorp]
+2821EECA 5FFFA000
+0025411B 00000002
+E0000000 80008000
+*Classic Controller*
+
+Player 2 Codes
+
+Score Max Player 2 [Crapulecorp]
+002540E3 00000099
+
+Pow Max Player 2 [Crapulecorp]
+00254113 00000063
+
+Misc Codes
+
+Unlimited Time [Crapulecorp]
+00253EC8 00000059
+
+Unlimited Total Outs [Crapulecorp]
+0024FCFD 00000016
+
+Unlimited Strikes [Crapulecorp]
+0025411C 00000000
+
+Unlimited Balls [Crapulecorp]
+0025411D 00000000
+
+Unlimited Outs [Crapulecorp]
+0025411B 00000000
+
+Button Activator
+
+Classic Controller Player 1 [Crapulecorp]
+2821EECA YYYYZZZZ

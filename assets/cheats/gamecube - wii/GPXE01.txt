@@ -1,0 +1,12 @@
+GPXE01
+Pokemon Box
+
+(Must be On) [goemon_guy]
+C613A48C 800018A8
+04000030 8023F3E0
+04005B54 3C608024
+04005B58 3863D3E0
+04005B70 3C608024
+04005B74 3863DDE0
+04003194 48000028
+This code must be on for any WiiRd/Gecko debugging to occur.

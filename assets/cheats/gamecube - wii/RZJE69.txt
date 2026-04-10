@@ -1,0 +1,15 @@
+RZJE69
+Dead Space - Extraction
+
+Inf Health [BoxNinja]
+044B8CA0 3F800000
+044B8BBC 3F800000
+
+Inf. Ammo(69 Bullets) [ellijah!]
+C223BA2C 00000002
+38000045 901E0090
+60000000 00000000
+
+Button Activator(Wiimote) [ellijah!]
+2850DCDA 0000XXXX
+Fill the X's with the Wiimote button values.

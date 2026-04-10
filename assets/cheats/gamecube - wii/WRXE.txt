@@ -1,0 +1,181 @@
+WRXE
+Mega Man 10
+
+Play Hard Mode [hetoan2]
+0050D678 00000003
+Disables the requirement that you need to beat Normal Mode first and lets you play hard mode right away.
+
+Moonjump [hetoan2]
+2845348A FEFF0100
+045334D8 FFFFFC60
+E0000000 80008000
+Press and Hold the 2 button to continue jumping
+
+Rapid Fire [hetoan2]
+045336B8 00000000
+
+Current Power Modifier [hetoan2]
+0053357C 000000XX
+Set to 00 for MegaBuster Only Values Range from 00 to 0D all others will freeze
+
+Autofire [hetoan2]
+0053355F 00000003
+
+Autofire M. Buster ONLY (goes through walls) : [hetoan2]
+0053355F 00000004
+Do not use with above code.
+
+Auto Shoot V2 [hetoan2]
+2853357C 000000FF
+0053355F 00000004
+2A53357C 000000FF
+0053355F 00000003
+E0000000 80008000
+Automatically chooses correct ammo type
+
+Stage Modifier [hetoan2]
+005359E3 000000XX
+01 Blade Man
+02 Pump Man
+03 Chill Man
+04 Commando Man
+05 Sheep Man
+06 Strike Man
+07 Nitro Man
+08 Solar Man
+09 Wiley Castle 1
+0A Wiley Castle 2
+0B Wiley Castle 3
+0C Wiley Castle 4
+0D Wiley Castle 5
+
+Allow Pick of Difficulty [hetoan2]
+040F5330 38000002
+
+1 hit Kills (Enemys+bosses) [Skiller]
+C2058984 00000003
+2C000000 41820008
+38000000 B01E0030
+60000000 00000000
+
+Have all weapons [Skiller]
+02535A7E 0000FFFF
+
+Jump to wily's castle(Hold 1 and press Right on D-Pad) [Skiller]
+2845348A 00000202
+02535AEA 000001FF
+E0000000 80008000
+Note from the Stage select press - to goto the save menu then go back to the stage select and bam
+
+Character Select Open [Skiller]
+040F5CDC 38800004
+040F5CE8 38800003
+
+Gain 999 Screws (On pickup) [Skiller]
+040744D4 40810004
+
+Allow hard mode [Skiller]
+025A0A42 0000A006
+
+Invincible [GMO]
+00533514 0000002E
+
+Have 9 Lives [GMO]
+00535A5C 00000009
+
+Unlimited Health [GMO]
+00533525 0000001C
+
+Refill Health and Ammo [GMO]
+2845348A 00000202
+00533525 0000001C
+085335C0 0000001C
+000D0002 00000000
+E0000000 80008000
+Hold 1 and press Right on D-Pad
+
+1-Hit Boss Kill [GMO]
+2845348A 00000201
+005300FD 00000001
+E0000000 80008000
+Hold 1 and press Left on D-Pad
+Doesn't work on some Sub-Bosses in Wiley's Castle
+
+Always Have Charged Attack [GMO]
+2845348A FDFF0200
+0253357E 00000060
+E0000000 80008000
+
+999 Screws [GMO]
+0251067A 000003E7
+
+Have All Items [GMO]
+04535B14 01090109
+04535B18 03090109
+
+Individual Ammo Codes
+
+Unlimited T.Blade Ammo [GMO]
+005335C0 0000001C
+
+Unlimited W.Shield Ammo [GMO]
+005335C2 0000001C
+
+Unlimited C.Bomb Ammo [GMO]
+005335C4 0000001C
+
+Unlimited C.Spike Ammo [GMO]
+005335C6 0000001C
+
+Unlimited T.Wool Ammo [GMO]
+005335C8 0000001C
+
+Unlimited R.Striker Ammo [GMO]
+005335CA 0000001C
+
+Unlimited W.Cutter Ammo [GMO]
+005335CC 0000001C
+
+Unlimited S.Blaze Ammo [GMO]
+005335CE 0000001C
+
+Unlimited R.Coil [GMO]
+005335D0 0000001C
+
+Unlimited R.Jet [GMO]
+005335D2 0000001C
+
+Unlimited Mirror B. [GMO]
+005335D4 0000001C
+
+Unlimited S.Crusher Ammo [GMO]
+005335D6 0000001C
+
+Unlimited B.Cracker Ammo [GMO]
+005335D8 0000001C
+
+Have Individual Items
+
+Have 9 Energy Tanks [GMO]
+00535B15 00000009
+
+Have 9 Weapon Tanks [GMO]
+00535B17 00000009
+
+Have Mystery Tank [GMO]
+00535B16 00000001
+
+Have Guard Power [GMO]
+00535B1A 00000001
+
+Have Eddie Call [GMO]
+00535B18 00000003
+
+Have Beat Call [GMO]
+00535B19 00000009
+
+Have Shock Guard [GMO]
+00535B1B 00000009
+
+Book of Hairstyles & Energy Balancer [GMO]
+00535B0C 0000000A

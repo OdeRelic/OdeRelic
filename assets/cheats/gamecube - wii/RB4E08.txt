@@ -1,0 +1,235 @@
+RB4E08
+Resident Evil 4
+
+Walk fast [Sharkbyte]
+48000000 8032E274
+DE000000 80008180
+14000228 42000000
+E0000000 80008000
+
+Invincible (leon and ashley) [Sharkbyte]
+48000000 8032E274
+DE000000 80008180
+12000328 00009D9D
+E0000000 80008000
+
+Walk through walls [Sharkbyte]
+48000000 8032E274
+DE000000 80008180
+120002C0 0000C3C8
+E0000000 80008000
+
+Leon size modifier [Sharkbyte]
+48000000 8032E274
+DE000000 80008180
+120000AC 0000XXXX
+120000B0 0000XXXX
+120000B4 0000XXXX
+E0000000 80008000
+XXXX=3F80 normal
+XXXX=3F8C big
+XXXX=3F84 small
+
+Levitate/Descend [Sharkbyte]
+2832FF1A FFF70008
+48000000 8032E274
+92210000 00000098
+86000000 00200000
+48000000 8032E274
+94210000 00000098
+E0000000 80008000
+2832FF1A FFFB0004
+48000000 8032E274
+92210000 00000098
+86000000 FFE00000
+48000000 8032E274
+94210000 00000098
+E0000000 80008000
+2832FF1A FFFE0001
+48000000 8032E274
+DE000000 80008180
+14000098 BD000000
+E0000000 80008000
+2832FF1A FFFD0002
+48000000 8032E274
+DE000000 80008180
+14000098 3D000000
+E0000000 80008000
+48000000 8032E274
+DE000000 80008180
+140002CC 00000000
+E0000000 80008000
+code based on zits
+Right- set execution for levitate
+Left- set execution for descend
+Up- execute
+down- return
+small bug- don't use with walk through walls
+there is already a walk through walls code inside this code
+
+Heads spin horizontal dcx2 and [Sharkbyte]
+C2099104 00000006
+4800000D 3DCCCCCD
+3F8E38E3 7D8802A6
+C00C0000 C04C0004
+C03E06F8 EC2100BA
+D03E06F8 819E0008
+60000000 00000000
+this code was more of a team effort with the help of dcx2
+
+Heads spin vertical dcx2 and [Sharkbyte]
+C2099104 00000006
+4800000D 3DCCCCCD
+3F8E38E3 7D8802A6
+C00C0000 C04C0004
+C03E06F4 EC2100BA
+D03E06F4 819E0008
+60000000 00000000
+this code was more of a team effort with the help of dcx2
+
+31,999 max for any item in the inventory [dcx2]
+04036CD8 38607CFF
+0413FD3C 3BA07CFF
+C2035410 00000003
+7C1DF000 40820008
+38600003 5460063E
+60000000 00000000
+includes eggs, grenades, herbs, ammo, etc. Just a wee bit glitchy...will only show 999, the other 31,000 are still there. When mixing herbs, it looks like they disappear, but they just end up outside the inventory after you re-open it (you'll see a notification, "would you like to discard things outside the inventory"). Try to move an item around and you'll see the mixed herb outside the case.
+
+Press 1 + 2 for 31,999 of every item in the inventory [dcx2]
+C27721F8 00000005
+3D808032 618CFF1A
+A18C0000 2C0C0300
+4082000C 39807CFF
+B1960002 28000001
+60000000 00000000
+Must be in the inventory screen to activate
+
+255 (max) ammo per gun [dcx2]
+04036B84 386000FF
+
+Sniper rifle doesn't shake when aiming [dcx2]
+C20875F8 00000003
+38A00000 90A40000
+90A40004 7C651B78
+60000000 00000000
+
+Hold Z to run 2x faster [dcx2]
+C211CF3C 00000006
+3D808032 618CFF1A
+A18C0000 718C2000
+4182000C 3D804000
+48000008 3D803F80
+919F0298 80030044
+60000000 00000000
+
+Enemies are slowed down to 1/8th speed [dcx2]
+C21518F8 00000003
+2C000000 3D803E00
+41810008 3D803F80
+91830298 00000000
+It's fun to check out the character models when they move in super slow mo. This might get a button activator soon, too.
+
+Shoot through helmets [dcx2]
+C209FB18 00000003
+800303CC 540005EA
+900303CC 3C004330
+60000000 00000000
+
+One Shot Kills [dcx2]
+0409FFC0 60000000
+
+Damage Divider [dcx2]
+C209FF98 00000002
+83C10024 380000xx
+7FDE03D6 00000000
+xx = the hex value you want to divide or multiply by (xx=03 if you want 3, xx=0A if you want 10, xx=10 if you want 16, etc)
+
+Damage Multiplier [dcx2]
+C209FF98 00000002
+83C10024 1FDE00xx
+60000000 00000000
+xx = the hex value you want to divide or multiply by (xx=03 if you want 3, xx=0A if you want 10, xx=10 if you want 16, etc)
+
+Prevent shooting if you wouldn't hit anything [dcx2]
+C220BDDC 00000004
+800D97FC 2C000001
+40820010 801D0000
+7000F7FF 901D0000
+800100C4 00000000
+(it won't shoot until the target becomes red, and it stops shooting if the target becomes green. if you move the pointer very quickly it's still possible to miss)
+
+TMP and Red9 always have stock without equipping it [dcx2]
+C2036C7C 00000005
+A0630010 2C030025
+4082000C 38600026
+48000010 2C030030
+40820008 38600032
+60000000 00000000
+
+misses don't reduce accuracy [dcx2]
+C2139640 00000003
+90048478 90048474
+90048470 9004846C
+60000000 00000000
+
+Crosshair Color Modifier - Aiming at a valid target (normally red) [dcx2]
+04091000 3C60rrgg
+04091004 6063bbaa
+04091008 907F00EC
+
+Crosshair Color Modifier - Aiming at nothing (normally green) [dcx2]
+04091018 3C60rrgg
+0409101C 6063bbaa
+04091020 907F00EC
+
+Crosshair Color Modifier - Not aiming (normally grey) [dcx2]
+0409102C 3C60rrgg
+04091030 6063bbaa
+04091034 907F00EC
+rr is red, gg is green, bb is blue, aa is alpha (transparency). Values range from 0x00 to 0xFF
+
+Hold Z To Aim, A To Run, Press B To Shoot [brkirch]
+040870E8 540005EF
+042D8610 00000020
+042D8618 00000100
+042D861C 00000200
+
+Infinite Health - Leon [schmake]
+2A32FF1A EFEF1010
+04337F24 09600960
+E0000000 80008000
+
+Infinite Health - Ashley [schmake]
+2A32FF1A EFEF1010
+04337F28 03C003C0
+E0000000 80008000
+
+Kill Yourself [schmake]
+2832FF1A 9FFB6004
+04337F24 00000960
+E0000000 80008000
+* Use this if caught in a situation where you can't die
+* Press Z, C and Down on the D-Pad to commit suicide
+
+Max Pitas [schmake]
+04337F18 05F5E0FF
+
+Infinite ammo all weapons [lemmayoshi]
+04035E34 38800063
+
+Mercenaries Score Modifier [lemmayoshi]
+0431F6E4 00XXXXXX
+Replace XXXXXX with any number 000000 to FFFFFF
+
+Mercenaries time mod [lemmayoshi]
+20332E8C 44040010
+043295C8 00FFFFFF
+E2000001 00000000
+20332E8C 48040010
+043295C8 00000001
+E2000001 00000000
+Press B+Right on the DPAD for basically unlimited time, B+Left to stop the game.
+
+Infinite Grenades, Rockets, and Arrows [lemmayoshi]
+04034DFC 60000000

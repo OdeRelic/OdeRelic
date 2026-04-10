@@ -1,0 +1,8 @@
+GANE7U
+Animaniacs The Great Edgar Hunt 
+
+Infinite Health
+002141A4 0000001B
+
+Max Health
+002141A5 0000001B

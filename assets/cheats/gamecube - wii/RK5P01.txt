@@ -1,0 +1,35 @@
+RK5P01
+Kirby's Epic Yarn
+
+Streak Maxed [Patedj]
+C20E345C 00000002
+3880270F 90830028
+60000000 00000000
+
+Gems Maxed [Patedj]
+041FFA78 380003E7
+
+Invincible v2 [Patedj]
+0408929C 3880270F
+Works after being hit once
+
+Moon Jump V1.1 [Patedj]
+0408A840 EC220828
+288FFF42 FEFF0100
+0408A840 EC22082A
+E0000000 80008000
+Unfortunately, Player 1's jump works on both players.
+
+Moon Jumps (for now it affects both players. Player 2 has no control. Reviewing codes)
+
+Moon Jump v1.1 [Patedj]
+0408A848 D03F05E0
+288FFF42 FEFF0100
+0408A848 D05F05E0
+E0000000 80008000
+
+Alt. Moon Jump [Patedj]
+0408A840 EC220828
+288FFF42 FEFF0100
+0408A840 EC22082A
+E0000000 80008000

@@ -1,0 +1,10 @@
+SA7ESZ
+Gummy Bears Magical Medallion
+
+Max/Unlimited Health [Crapulecorp]
+00CAAC13 00000014
+
+Max Coins/Objects on Pickup [Crapulecorp]
+C20390E4 00000002
+38000063 90040380
+60000000 00000000

@@ -1,0 +1,14 @@
+FTIP
+Dragon Warrior 3
+
+Quick Level Up [GMO]
+00467C3D 000000FF
+
+Infinite Gold [GMO]
+0246839C 0000FFFF
+
+Infinite Health [GMO]
+004682FC 000000FF
+
+Infinite Magic [GMO]
+004682FD 000000FF

@@ -1,0 +1,213 @@
+JEHP
+Mega Man X2
+
+Health Codes
+
+Refill Health (Press ZL) [Crapulecorp]
+2822C6E2 FF7F0080
+00518AE7 00000020
+E0000000 80008000
+*Classic Controller*
+*Code ported from GMO Ntsc Usa Version*
+
+Refill Health (Press Z) [Crapulecorp]
+28229810 FFEF0010
+00518AE7 00000020
+E0000000 80008000
+*GameCube Controller*
+*Code ported from GMO Ntsc Usa Version*
+
+Unlimited Health (Press ZL ON/OFF) [Crapulecorp]
+2822C6E2 FF7F0080
+CC000000 00000000
+00518AE7 00000020
+E0000000 80008000
+*Classic Controller*
+*Code ported from GMO Ntsc Usa Version*
+
+Unlimited Health (Press Z ON/OFF) [Crapulecorp]
+28229810 FFEF0010
+CC000000 00000000
+00518AE7 00000020
+E0000000 80008000
+*GameCube Controller*
+*Code ported from GMO Ntsc Usa Version*
+
+1-Hit Kill Bosses (Press ZR) [Crapulecorp]
+2822C6E2 00000004
+00518E27 00000001
+00518E67 00000001
+00518EA7 00000001
+00518FE7 00000001
+E0000000 80008000
+*Classic Controller*
+*Code ported from GMO Ntsc Usa Version*
+
+1-Hit Kill Bosses (Press R) [Crapulecorp]
+28229810 00000020
+00518E27 00000001
+00518E67 00000001
+00518EA7 00000001
+00518FE7 00000001
+E0000000 80008000
+*GameCube Controller*
+*Code ported from GMO Ntsc Usa Version*
+
+Misc. Codes
+
+Invincible (Press - ON/OFF) [Crapulecorp]
+2822C6E2 EFFF1000
+CC000000 00000000
+00518B2B 00000019
+E0000000 80008000
+*Classic Controller*
+*Code ported from GMO Ntsc Usa Version*
+
+Invincible (Press L ON/OFF) [Crapulecorp]
+28229810 FFBF0040
+CC000000 00000000
+00518B2B 00000019
+E0000000 80008000
+*GameCube Controller*
+*Code ported from GMO Ntsc Usa Version*
+
+Unlimited Lives [Crapulecorp]
+0051A09B 00000009
+
+Stage Modifier [Crapulecorp]
+0051A095 000000XX
+*Replace XX for:
+00 Intro stage
+01 Morph Moth
+02 Wire Sponge
+03 Bubble Crab
+04 Flame Stag
+05 Magna Centipede
+06 Crystal Snail
+07 Overdrive Ostrich
+08 Wheel Gator
+09 X Hunter Stage 1
+0A X Hunter Stage 2
+0B X Hunter Stage 3
+0C X Hunter Stage 4*
+*Code ported from GMO Ntsc Usa Version*
+
+Have Armor Upgrades [Crapulecorp]
+0051A0B8 000000FF
+*Code ported from GMO Ntsc Usa Version*
+
+Have Health Upgrade [Crapulecorp]
+0051A0B9 00000020
+*Code ported from GMO Ntsc Usa Version*
+
+Infinite Dash [Crapulecorp]
+00518B12 00000018
+*Code ported from Helder Snes Pro Action Replay Version*
+
+Rapid Fire [Crapulecorp]
+005191F0 00000000
+*Code ported from flamestar666 Snes Pro Action Replay Version*
+
+Hyper Mega Man [Crapulecorp]
+00518AF7 00000000
+*Code ported from flamestar666 Snes Pro Action Replay Version*
+
+Infinite Air Dashing [Crapulecorp]
+00518B1D 00000001
+*Code ported from Helder Snes Pro Action Replay Version*
+
+Can Fire More Charged Shots [Crapulecorp]
+00518B3D 00000000
+*Code ported from xMrNx Snes Pro Action Replay Version*
+
+Have Dragon Punch Angry [Crapulecorp]
+0051A099 00000080
+*Code ported from Helder Snes Pro Action Replay Version*
+
+Continuously Fire A Half-Charged Shot [Crapulecorp]
+00518B18 00000004
+*Code ported from Fangs Snes Pro Action Replay Version*
+
+Continuously Fire A Charged Shot [Crapulecorp]
+00518B18 00000006
+*Code ported from Fangs Snes Pro Action Replay Version*
+
+Have Individual Items
+
+Have Sub-Tank 1 [Crapulecorp]
+0051A09E 00000080
+*Code ported from GMO Ntsc Usa Version*
+
+Have Sub-Tank 2 [Crapulecorp]
+0051A09F 00000080
+*Code ported from GMO Ntsc Usa Version*
+
+Have Sub-Tank 3 [Crapulecorp]
+0051A0A0 00000080
+*Code ported from GMO Ntsc Usa Version*
+
+Have Sub-Tank 4 [Crapulecorp]
+0051A0A1 00000080
+*Code ported from GMO Ntsc Usa Version*
+
+Have Zer0's Legs [Crapulecorp]
+0051A0BE 00000080
+*Code ported from GMO Ntsc Usa Version*
+
+Have Zer0's Head [Crapulecorp]
+0051A0BF 00000080
+*Code ported from GMO Ntsc Usa Version*
+
+Have Zer0's Body [Crapulecorp]
+0051A0C0 00000080
+*Code ported from GMO Ntsc Usa Version*
+
+Individual Have/Unlimited Ammo
+
+Crystal.H [Crapulecorp]
+0051A0A3 000000DC
+*Code ported from GMO Ntsc Usa Version*
+
+Bubble.S [Crapulecorp]
+0051A0A5 000000DC
+*Code ported from GMO Ntsc Usa Version*
+
+Silk.S [Crapulecorp]
+0051A0A7 000000DC
+*Code ported from GMO Ntsc Usa Version*
+
+S.Wheel [Crapulecorp]
+0051A0A9 000000DC
+*Code ported from GMO Ntsc Usa Version*
+
+S.Slicer [Crapulecorp]
+0051A0AB 000000DC
+*Code ported from GMO Ntsc Usa Version*
+
+S.Chain [Crapulecorp]
+0051A0AD 000000DC
+*Code ported from GMO Ntsc Usa Version*
+
+Magnet.M [Crapulecorp]
+0051A0AF 000000DC
+*Code ported from GMO Ntsc Usa Version*
+
+S.Burner [Crapulecorp]
+0051A0B1 000000DC
+*Code ported from GMO Ntsc Usa Version*
+
+G.Crush [Crapulecorp]
+0051A0B3 000000DC
+*Code ported from GMO Ntsc Usa Version*
+
+L.Tracer [Crapulecorp]
+0051A0B5 000000DC
+*Code ported from GMO Ntsc Usa Version*
+
+Button Activator
+
+Classic Controller [Crapulecorp]
+2822C6E2 YYYYZZZZ
+
+GameCube Controller [Crapulecorp]
+28229810 YYYYZZZZ

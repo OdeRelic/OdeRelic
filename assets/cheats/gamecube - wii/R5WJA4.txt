@@ -1,0 +1,21 @@
+R5WJA4
+SILENT HILL -SHATTERED MEMORIES-
+
+Infinite HP [ZiT]
+04067244 D0371470
+04063F84 D03E1470
+
+Infinite Warning flare [ZiT]
+04148A9C EC420028
+
+Super Warning flare [ZiT]
+04BA7414 42C80000
+
+Ported From wiiztec
+
+Speed Up (C Button) [ZiT]
+28459BCA BFFF4000
+42000000 90000000
+042A7784 41000000
+E0000000 80008000
+※A button when you do not use action.

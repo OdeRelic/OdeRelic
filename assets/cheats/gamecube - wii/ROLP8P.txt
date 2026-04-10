@@ -1,0 +1,186 @@
+ROLP8P
+Mario and Sonic at the Olympic Winter Games
+
+Universal Sports Codes
+
+Force Next Item [Bully@Wiiplaza]
+C21115D4 00000002
+3BC0000X 93DD007C
+60000000 00000000
+*X Values*
+0 = No Item Mode
+2 = Green Shell
+3 = Red Shell
+4 = Star
+5 = Fake Box
+6 = Lightning
+8 = Sonic Sprinting Shoes
+9 = Barrier
+A = Bomb
+B = B Special Move Button
+
+Mogul Piste
+
+22/22 Curves Caught [Bully@Wiiplaza]
+C364E294 00000002
+38600015 9064044C
+60000000 00000000
+
+Snowboardcross (Dream)
+
+Rings Modifier [Bully@Wiiplaza]
+C214CE88 00000002
+38E0000X 90E30084
+60000000 00000000
+*X Values = HEX*
+*Do not go higher than 5*
+
+Snowball Fight (Dream)
+
+Inf. Snowballs [Bully@Wiiplaza]
+C36868FC 00000002
+38600065 907E0340
+60000000 00000000
+
+Own Team Score Modifier [Bully@Wiiplaza]
+C3647AFC 00000002
+3880XXXX 908306C0
+60000000 00000000
+*X Value = HEX*
+
+Enemy Team Score Modifier [Bully@Wiiplaza]
+C3647B6C 00000002
+3880XXXX 908306C0
+60000000 00000000
+*X Value = HEX*
+
+Alpine Skiing
+
+Amount of Goals Caught Modifier [Bully@Wiiplaza]
+C363D4D4 00000002
+398000XX 91854CD8
+80A54CD8 00000000
+*X Value = HEX*
+
+Ski Jumping (Normal & Dream)
+
+Figure Skating
+
+Points Modifier [Bully@Wiiplaza]
+C21796E4 00000002
+3D80XXXX 919DXXXX
+C03D0000 00000000
+*X Value = Float*
+
+Gliding Flight (Dream)
+
+Player 1 Score Modifier [Bully@Wiiplaza]
+C36560E0 00000003
+2C070001 40820008
+3800XXXX 90030068
+60000000 00000000
+*X Value = HEX*
+
+Party Mode: Balloon Attack
+
+Balls Modifier [Bully@Wiiplaza]
+C3645594 00000003
+2C1C000Y 4082000C
+3800XXXX 901F0004
+801F0004 00000000
+*X Value = HEX*
+*Y Values*
+00 = P1
+01 = P2
+02 = P3
+03 = P4
+
+Score Modifier [Bully@Wiiplaza]
+C36456AC 00000003
+2C1A000Y 4082000C
+3800XXXX 901F0000
+801F0000 00000000
+*X Value = HEX*
+*Y Values*
+00 = P1
+01 = P2
+02 = P3
+03 = P4
+
+Other Codes
+
+Speed modifier (all characters) [CosmoCortney]
+288342DA 00004000
+046221C8 3F800000
+E0000000 80008000
+288342DA 00001000
+046221C8 BF800000
+E0000000 80008000
+288342DA 00002000
+046221C8 40000000
+E0000000 80008000
+288342DA 00000200
+046221C8 40800000
+E0000000 80008000
+288342DA 00000100
+046221C8 41000000
+E0000000 80008000
+Z = 2 x faster
+1 = 3 x faster
+2 = 4 x faster
+- = Backwards
+C = normal
+
+Sonic', Amy's, Tails' and Silver's spike animation speed modifier [CosmoCortney]
+0462E730 40500000
+
+No HUD [CosmoCortney]
+288342DA 00000004
+046376B0 00000000
+04655964 41000000
+e0000000 80008000
+288342DA 00000008
+046376B0 3f800000
+04655964 3f800000
+e0000000 80008000
+dPad down = off
+dPad up = on
+
+a lot of giant objects [CosmoCortney]
+046559F8 40600000
+
+Sonic, Amy, Silver and Tails have messed up spikes [CosmoCortney]
+04655D70 40300000
+
+giant flags [CosmoCortney]
+046566F4 41000000
+
+seizure time! [CosmoCortney]
+0465677C 40E00000
+
+Button Activator [Bully@Wiiplaza]
+288342DA YYYYZZZZ
+
+Starpoints Modifier [Bully@Wiiplaza]
+C36A645C 00000002
+3800XXXX 90030C24
+60000000 00000000
+*X Value = HEX*
+
+Festival Score Modifier [Bully@Wiiplaza]
+C36389A0 00000002
+38A0XXXX 90A30070
+60000000 00000000
+*X Value = HEX*
+
+Take screenshot [Bully@Wiiplaza]
+28834414 YYYYZZZZ
+0438F2E8 60000000
+E2100000 00000000
+0438F2E8 90030000
+E0000000 80008000
+*Press your button activator to capture the screen (seems like the game was frozen, but it is only the screen). Go back the main menu, you will have the captured screen as background (until the game was restarted)*
+
+Infinite Star Point Cards [Jose_Gallardo]
+0421E744 901F0C24
+Your current point cards must increase/decrease for the code to take effect (ASM). Either buy something, or earn SP Cards for max.

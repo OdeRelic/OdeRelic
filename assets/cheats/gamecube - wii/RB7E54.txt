@@ -1,0 +1,329 @@
+RB7E54
+Bully Scholarship Edition
+
+Mission Objects
+
+Unlimited Newspapers [Bully@Wiiplaza]
+046357DC 0000000A
+*Video: https://www.youtube.com/watch?v=oA8j48uyooc
+
+Have Beatrice's Diary [Bully@Wiiplaza]
+046357F4 00000001
+
+Have Panties [Bully@Wiiplaza]
+046357F8 00000005
+
+Have Orderly Uniform [Bully@Wiiplaza]
+04635860 00000001
+
+Have Beatrice' Diary (2) [Bully@Wiiplaza]
+04635800 00000001
+
+Have Boltcutters [Bully@Wiiplaza]
+04635804 00000001
+
+Have Bottle of Perfume [Bully@Wiiplaza]
+04635810 00000001
+
+Have Ms. Philips' Pearl Necklace [Bully@Wiiplaza]
+04635814 00000001
+
+Have Lab Notes [Bully@Wiiplaza]
+04635808 00000001
+
+Have Ms. Philip's Red Dress [Bully@Wiiplaza]
+04635818 00000001
+
+Have Harrington House Foyer Key [Bully@Wiiplaza]
+0463581C 00000001
+
+Have Lola's Keys [Bully@Wiiplaza]
+04635828 00000001
+
+Have "G&G" Character Sheet [Bully@Wiiplaza]
+0463582C 00000004
+
+Have Textbook [Bully@Wiiplaza]
+04635830 00000001
+
+Have Edna's Razor [Bully@Wiiplaza]
+04635834 00000001
+
+Have Unnamed [Bully@Wiiplaza]
+0463583C 00000001
+
+Have Comic Book [Bully@Wiiplaza]
+04635848 00000001
+
+Have Dossier [Bully@Wiiplaza]
+0463584C 00000001
+
+Have Bag of Laundry [Bully@Wiiplaza]
+04635854 00000001
+
+Lola's Lipstick [Bully@Wiiplaza]
+04635858 00000001
+
+Have Lola's Address Book [Bully@Wiiplaza]
+0463585C 00000001
+
+Have Scooter [Bully@Wiiplaza]
+04635864 0000000A
+
+Have Rock Band Poster [Bully@Wiiplaza]
+04635868 0000000A
+
+Have Girly / Car Poster [Bully@Wiiplaza]
+0463586C 0000000A
+
+Have Photos [Bully@Wiiplaza]
+046358A0 00000001
+
+Have Edna's Meat [Bully@Wiiplaza]
+046358A8 00000001
+
+Gifts
+
+Have Panties [Bully@Wiiplaza]
+04635874 00000001
+
+Have Package [Bully@Wiiplaza]
+0463588C 00000001
+
+Have Crab [Bully@Wiiplaza]
+04635894 00000006
+
+Have Algies's Jacket [Bully@Wiiplaza]
+04635898 00000001
+
+Have Galloway's Bottle [Bully@Wiiplaza]
+046358AC 00000004
+
+Miscellaneous
+
+Always Display Money [Bully@Wiiplaza]
+04344D8C C01F002C
+
+Time Freeze [Bully@Wiiplaza]
+0410E028 60000000
+*Credits to Thirdphaze for his "Time Warp" address*
+
+Never Wanted [Bully@Wiiplaza]
+0417F4F0 60000000
+*Credits to Thirdphaze*
+*Video: http://www.youtube.com/watch?v=t7BPaJ9vy_s
+
+Delicts Never Prescribe [Bully@Wiiplaza]
+041ABC18 60000000
+*Credits to Thirdphaze*
+*Wanted bar does not empty itself*
+*Video: http://www.youtube.com/watch?v=ev6T43UBeU0
+
+One Hit Kill [Bully@Wiiplaza]
+C21814B4 00000003
+3D608000 3D804CBE
+918B1500 C00B1500
+60000000 00000000
+*Credits to Thirdphaze for his "Instant KO" address*
+*Non-permanent*
+*Video: http://www.youtube.com/watch?v=eXgS5YbM-9A
+
+Teleporter [Bully@Wiiplaza]
+48000000 806251C4
+DE000000 90009400
+286BA782 BFFB4004
+92210001 00000030
+92210002 00000034
+92210003 00000038
+286BA783 BFFE4001
+94210001 00000030
+94210002 00000034
+94210003 00000038
+E0000000 80008000
+*Press C + D-PAD_DOWN to save position*
+*Press C + D-PAD_LEFT to teleport*
+*Video: http://www.youtube.com/watch?v=_g-Ilc4mN58
+
+Moon Jump [Bully@Wiiplaza]
+48000000 806251C4
+DE000000 90009400
+286BA782 FFFB0004
+0418A748 60000000
+0416ECA0 60000000
+92210003 00000038
+86900003 3E99999A
+94210003 00000038
+E2100000 00000000
+0418A748 D0030008
+0416ECA0 D0030008
+E0000000 80008000
+*Working by foot and while skateboarding*
+*Press and hold D-PAD_DOWN*
+*Video: http://www.youtube.com/watch?v=tGR7R6coqLQ
+
+Inventory Weapons Modifier [Bully@Wiiplaza]
+4A000000 92B79780
+14000000 MMMMWWWW
+14000028 MMMMWWWW
+14000050 MMMMWWWW
+14000078 MMMMWWWW
+140000A0 MMMMWWWW
+140000C8 MMMMWWWW
+140000F0 MMMMWWWW
+14000118 MMMMWWWW
+14000140 MMMMWWWW
+14000168 MMMMWWWW
+14000190 MMMMWWWW
+E0000000 80008000
+*MMMMWWWW values*
+0005012D = Firecracker
+0001012F = Slingshot
+00010132 = Super Slingshot
+00050135 = Stink Bombs
+000C0138 = Carton of Eggs
+001E0140 = Newspapers
+000C0141 = Spray Paint
+00010145 = Rubber Band Ball
+00010148 = Camera
+0005015D = Bag of Marbles
+0005018A = Itching Powder
+000101AA = Digital Camera
+000101A4 = Flashlight
+000101B5 = Skateboard
+*Video: http://www.youtube.com/watch?v=sd_NY9FHg5s
+
+Goods Cost Nothing [Bully@Wiiplaza]
+0418B77C 60000000
+
+Darker People [Bully@Wiiplaza]
+04390D7C FC00F890
+*Only working inside of buildings*
+
+People / Vehicle Color Modifier [Bully@Wiiplaza]
+C239260C 00000002
+3D80XXXX 919D0064
+C01D0064 00000000
+*Only working outside of buildings*
+*XXXX values*
+0000 = Black
+4040 = Green
+4060 = Red
+4080 = Blue
+4400 = Rainbow flashing
+7F00 = White
+...
+*Video: https://www.youtube.com/watch?v=YjV2W_jQsPo
+
+No Inventory Weapons [Bully@Wiiplaza]
+04143860 38000000
+*Non-permanent*
+
+No Bad Action Notification [Anarion]
+286BA782 00004800
+041B96BC 90030000
+041B9168 981D002C
+CC000000 00000000
+041B96BC 60000000
+041B9168 60000000
+E0000000 80008000
+Press C&A to turn on and off.
+
+Hide Clock [Anarion]
+0410E228 60000000
+006EAD62 00000001
+
+Viewing Camera Angle Modifier [Anarion]
+0414DC14 60000000
+286BA782 00000008
+00624837 0000000X
+CC000000 00000000
+00624837 00000001
+E0000000 80008000
+Modifies the D-Pad UP cam angle.
+Press D-Pad UP to turn on&off.
+X Values=Cam Angle
+2- 1st person POV
+D- Default d-pad UP angle
+4- Kiss Cam angle
+0- Frozen Camera
+
+all weapons infinite ammo [wiiztec]
+C214413C 00000002
+3800000C B01D0000
+60000000 00000000
+C208F8F8 00000003
+2C040004 40820008
+38000001 7C05212E
+60000000 00000000
+no reloading or cocking
+
+levitate mode [wiiztec]
+286BA782 00006C00
+CC000000 00000001
+055CF5B0 3C5C5D63
+286BA782 DFFF2000
+055CF5B0 3DCCCCCC
+E0000000 80008000
+286BA782 BFFF4000
+055CF5B0 BDE85879
+E0000000 80008000
+press A+B+C+Z to activate/deactivate
+while activated press Z to go up and C to go down
+
+Infinite Tickets [Thirdphaze]
+12635826 0000270F
+
+Infinite Money [Thirdphaze]
+055D12CC 00989680
+Your Money Is Also Capped At $100,000.00
+
+Never Wanted [Thirdphaze]
+055D1370 00000000
+
+Instant KO [Thirdphaze]
+055D1300 42A00000
+Warning: This Code Saves To Your Save File.
+
+Lifetime Carnival Admission [Thirdphaze]
+106357E7 00000001
+
+Unlimited Chocolates [Thirdphaze]
+146357E0 0000000A
+
+Unlimited Flowers [Thirdphaze]
+146357D4 0000000A
+
+Have Chem-Ex Silo Key Card [Thirdphaze]
+146357E8 00000001
+
+Have Tad's Gate Key [Thirdphaze]
+14635820 00000001
+
+Time Warp [Thirdphaze]
+286BA782 9FF76008
+146EAD68 0C000000
+E0000000 80008000
+286BA782 9FFB6004
+146EAD68 00000000
+E0000000 80008000
+286BA782 9FFE6001
+146EAD68 09000000
+E0000000 80008000
+286BA782 9FFD6002
+146EAD68 0F000000
+E0000000 80008000
+Press C+Z+Left To Make It 9:00AM
+Press C+Z+Up To Make It 12:00PM
+Press C+Z+Right To Make It 3:00PM
+Press C+Z+Down To Make It 12:00AM
+
+Acid Effect [Thirdphaze]
+286BA782 00006100
+146EAD68 18000000
+E0000000 80008000
+Press C+Z+2 To Turn On.
+To Deactivate Use My Time Warp Code.
+This Code Has No Real Purpose.
+
+Infinite Health [the_dave]
+055D12E4 447A0000

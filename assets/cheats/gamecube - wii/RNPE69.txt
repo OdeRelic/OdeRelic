@@ -1,0 +1,165 @@
+RNPE69
+Need For Speed: Pro Street
+
+Brakes always on [sLoddir]
+08D23B5C 427C0000
+20030034 00000000
+*Brake lights always on
+*Drive super slow
+*Lots of smoke comes out when attempting to drive
+
+Button Activator [777eThOd*]
+2861F732 0000XXXX
+
+Inf.Money [777eThOd*]
+04EDE580 2E5BF271
+
+Inf.Nitrous [777eThOd*]
+056F99CC 00000309
+
+N20 Increased Speed [777eThOd*]
+056F99C4 5C000000
+
+N20 Always Activated [777eThOd*]
+056F99C0 3F800000
+
+N20 Instant Refill [777eThOd*]
+056F99C8 00000000
+
+Audi S4 Value Modifier [777eThOd*]
+04E0360C XXXXXXXX
+
+Audi S3 Value Modifier [777eThOd*]
+04E0362C XXXXXXXX
+
+BMW M3 E46 Value Modifier [777eThOd*]
+04E0364C XXXXXXXX
+
+BMW M3 E92 Value Modifier [777eThOd*]
+04E0366C XXXXXXXX
+
+Cadillac CTS-V Value Modifier [777eThOd*]
+04E0368C XXXXXXXX
+
+Chevrolet Camaro SS Value Modifier [777eThOd*]
+04E036AC XXXXXXXX
+
+Chevrolet Chevelle SS Value Modifier [777eThOd*]
+04E036CC XXXXXXXX
+
+Chevrolet Cobalt SS Value Modifier [777eThOd*]
+04E036EC XXXXXXXX
+
+Chevrolet Corvette C6 Value Modifier [777eThOd*]
+04E0370C XXXXXXXX
+
+Chevrolet Corvette Z06 Value Modifier [777eThOd*]
+04E0372C XXXXXXXX
+
+Dodge Viper SRT10 Value Modifier [777eThOd*]
+04E0374C XXXXXXXX
+
+Dodge Challenger R/T Value Modifier [777eThOd*]
+04E0376C XXXXXXXX
+
+Dodge Charger R/T Value Modifier [777eThOd*]
+04E0378C XXXXXXXX
+
+Shelby GT500 Value Modifier [777eThOd*]
+04E037AC XXXXXXXX
+
+Ford Mustang GT Value Modifier [777eThOd*]
+04E037CC XXXXXXXX
+
+Ford Escort RS Cosworth Value Modifier [777eThOd*]
+04E037EC XXXXXXXX
+
+Ford Focus ST Value Modifier [777eThOd*]
+04E0380C XXXXXXXX
+
+Ford GT Value Modifier [777eThOd*]
+04E0382C XXXXXXXX
+
+Honda Civic Value Modifier [777eThOd*]
+04E0384C XXXXXXXX
+
+Infiniti G35 Value Modifier [777eThOd*]
+04E0386C XXXXXXXX
+
+Lamborgini Murcielago LP640 Value Modifier [777eThOd*]
+04E0388C XXXXXXXX
+
+Lotus Elise Value Modifier [777eThOd*]
+04E038AC XXXXXXXX
+
+Mazda RX-7 Value Modifier [777eThOd*]
+04E038CC XXXXXXXX
+
+Mazda MazdaSpeed 3 Value Modifier [777eThOd*]
+04E038EC XXXXXXXX
+
+Mazda RX-8 Value Modifier [777eThOd*]
+04E0390C XXXXXXXX
+
+Mitsubishi Eclipse Value Modifier [777eThOd*]
+04E0392C XXXXXXXX
+
+Lancer Evolution Value Modifier [777eThOd*]
+04E0394C XXXXXXXX
+
+Lancer Evolution IX Value Modifier [777eThOd*]
+04E0396C XXXXXXXX
+
+Nissan GT-R Proto Value Modifier [777eThOd*]
+04E0398C XXXXXXXX
+
+Nissan Silvia Value Modifier [777eThOd*]
+04E039AC XXXXXXXX
+
+Nissan Skyline GT-R Value Modifier [777eThOd*]
+04E039CC XXXXXXXX
+
+Nissan GT-R Value Modifier [777eThOd*]
+04E039EC XXXXXXXX
+
+Nissan 350Z Value Modifier [777eThOd*]
+04E03A0C XXXXXXXX
+
+Nissan 240SX Value Modifier [777eThOd*]
+04E03A2C XXXXXXXX
+
+Pagani Zonda F Value Modifier [777eThOd*]
+04E03A4C XXXXXXXX
+
+Plymouth Hemi Cuda Value Modifier [777eThOd*]
+04E03A6C XXXXXXXX
+
+Pontiac GTO '65 Value Modifier [777eThOd*]
+04E03A8C XXXXXXXX
+
+Pontiac GTO Value Modifier [777eThOd*]
+04E03AAC XXXXXXXX
+
+Porsche Cayman S Value Modifier [777eThOd*]
+04E03ACC XXXXXXXX
+
+Porsche 911 Turbo Value Modifier [777eThOd*]
+04E03AEC XXXXXXXX
+
+Shelby GT500 '67 Value Modifier [777eThOd*]
+04E03B0C XXXXXXXX
+
+Subaru Impreza WRX STI Value Modifier [777eThOd*]
+04E03B2C XXXXXXXX
+
+Toyota Corolla GTS Value Modifier [777eThOd*]
+04E03B4C XXXXXXXX
+
+Toyota Supra Value Modifier [777eThOd*]
+04E03B6C XXXXXXXX
+
+Volkswagen R32 Value Modifier [777eThOd*]
+04E03B8C XXXXXXXX
+
+Volkswagen Golf GTI Value Modifier [777eThOd*]
+04E03BAC XXXXXXXX

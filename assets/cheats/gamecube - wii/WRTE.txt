@@ -1,0 +1,16 @@
+WRTE
+Robox
+
+Invincible all the time [Patedj]
+C2068764 00000002
+3D8042B4 919A0268
+60000000 00000000
+
+Invincible after 1 hit [Patedj]
+0406A324 EC00102A
+
+Health adds if damaged [Patedj]
+0406504C 38040001
+
+Inf Propulsion (multi-jump) [Patedj]
+0406DA04 3BA00000

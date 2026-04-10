@@ -1,0 +1,10 @@
+SU9E4Q
+Disney Planes
+
+If Increase Max Score [Crapulecorp]
+C2A0C308 00000002
+3C00270F 90030004
+60000000 00000000
+
+Time Stopped [Crapulecorp]
+049CFF78 60000000

@@ -1,0 +1,14 @@
+MCTP
+Clay Fighters
+
+P1 Refill Health [GMO]
+281BB682 00000402
+02ED6642 00006868
+E0000000 80008000
+Hold B and press Right on D-Pad
+
+P1 Easy Win [GMO]
+281BB682 00000401
+02ED66BA 00000000
+E0000000 80008000
+Hold B and press Left on D-Pad

@@ -1,0 +1,103 @@
+JAJP
+Street Fighter II
+
+P1 Unlimited Health [Crapulecorp]
+008B1133 000000B0
+008B113D 000000B0
+*Code ported from GMO Ntsc Usa Version*
+
+Disable Timer [Crapulecorp]
+008B1FCF 00000002
+*Code ported from GMO Ntsc Usa Version*
+
+Press ZL for More Time [Crapulecorp]
+281B0E3A FF7F0080
+008B1FD0 00000099
+E0000000 80008000
+*Classic Controller*
+*Code ported from GMO Ntsc Usa Version*
+
+Press Z for More Time [Crapulecorp]
+2818E658 FFEF0010
+008B1FD0 00000099
+E0000000 80008000
+*GameCube Controller*
+*Code ported from GMO Ntsc Usa Version*
+
+Vital Bonus [Crapulecorp]
+028B1662 00000300
+*Code ported from GMO Ntsc Usa Version*
+
+Time Bonus [Crapulecorp]
+008B1664 00000099
+*Code ported from GMO Ntsc Usa Version*
+
+Play As Same Character [Crapulecorp]
+008B10FA 00000020
+Original code by Hacc ported by lee4
+
+1-Hit Kill (Press ZR) [Crapulecorp]
+281B0E3A FFFB0004
+008B1333 00000001
+E0000000 80008000
+*Classic Controller*
+*Hacked By Lee4*
+
+1-Hit Kill (Press L And R) [Crapulecorp]
+2818E658 FF9F0060
+008B1333 00000001
+E0000000 80008000
+*GameCube Controller*
+*Hacked By Lee4*
+
+P1 Can Do Special Moves In Air [Crapulecorp]
+008B11BA 00000000
+Original code by Hacc ported by lee4
+
+P2 Can Do Special Moves In Air [Crapulecorp]
+008B13BA 00000000
+Original code by Hacc ported by lee4
+
+P1 Character Modifer [Crapulecorp]
+008B11D9 000000XX
+*Replace XX for :
+00 - Ryu
+01 - E. Honda
+02 - Blanka
+03 - Guile
+04 - Ken
+05 - Chun Li
+06 - Zangief
+07 - Dhalsim
+08 - M. Bison (P2 Can Only Be M. Bison In 1P Mode)
+09 - Sagat (P2 Can Only Be Sagat In 1P Mode)
+0A - Balrog (P2 Can Only Be Balrog In 1P Mode)
+0B - Vega (P2 Can Only Be Vega In 1P Mode)*
+*Code ported from GMO Ntsc Usa Version*
+
+P2 Character Modifier [Crapulecorp]
+008B13D9 000000XX
+*Replace XX for :
+00 - Ryu
+01 - E. Honda
+02 - Blanka
+03 - Guile
+04 - Ken
+05 - Chun Li
+06 - Zangief
+07 - Dhalsim
+08 - M. Bison (P2 Can Only Be M. Bison In 1P Mode)
+09 - Sagat (P2 Can Only Be Sagat In 1P Mode)
+0A - Balrog (P2 Can Only Be Balrog In 1P Mode)
+0B - Vega (P2 Can Only Be Vega In 1P Mode)*
+*Code ported from GMO Ntsc Usa Version*
+
+Activator
+
+Player 1 [Crapulecorp]
+281B0E3A YYYYZZZZ
+*Classic Controller*
+
+Player 1 [Crapulecorp]
+2818E658 YYYYZZZZ
+*GameCube Controller*

@@ -1,0 +1,296 @@
+JCBJ
+Super Mario RPG
+
+Miscellaneous Codes
+
+WiiMote Pad 1 [GMO]
+28690390 YYYYZZZZ
+
+Classic Controller Pad1 [GMO]
+286903BA YYYYZZZZ
+
+Unlimited Flowers [GMO]
+00873CF9 00000063
+
+Max Flowers [GMO]
+00873CFA 00000063
+
+Max Coins (9999) [GMO]
+00873CF7 0000000F
+00873CF8 00000027
+
+Max Frog Coins (9999) [GMO]
+00873CFB 0000000F
+00873CFC 00000027
+
+Quick EXP & Gold After Battle (Hold ZL)* [GMO]
+286903BA 00000080
+02863E4A 0000E703
+02863E4C 0000E703
+E0000000 80008000
+BA Added to prevent Status Screen glitch and World Map Freeze (Black Screen)
+
+Unlimited Special Moves [GMO]
+00863E54 00000014
+
+Max Special Moves [GMO]
+00863E55 00000014
+
+255 Extra Coins (Midas River) [GMO]
+00877D54 000000FF
+
+255 Points/Cookies [GMO]
+00877CA4 000000FF
+Goomba Thumping/Yoshi Races
+
+Item Modifiers
+
+Item Modifier Slot 1 [GMO]
+00873CCA 000000??
+
+Item Modifier Slot 2 [GMO]
+00873CCB 000000??
+
+Item Modifier Slot 3 [GMO]
+00873CCC 000000??
+
+Item Modifier Slot 4 [GMO]
+00873CCD 000000??
+
+Item Modifier Slot 5 [GMO]
+00873CCE 000000??
+
+Item Modifier Slot 6 [GMO]
+00873CCF 000000??
+
+Item Modifier Slot 7 [GMO]
+00873CD0 000000??
+
+Item Modifier Slot 8 [GMO]
+00873CD1 000000??
+
+Item Modifier Slot 9 [GMO]
+00873CD2 000000??
+
+Item Modifier Slot 10 [GMO]
+00873CD3 000000??
+
+Item Modifier Slot 11 [GMO]
+00873CD4 000000??
+
+Item Modifier Slot 12 [GMO]
+00873CD5 000000??
+
+Item Modifier Slot 13 [GMO]
+00873CD6 000000??
+
+Item Modifier Slot 14 [GMO]
+00873CD7 000000??
+
+Item Modifier Slot 15 [GMO]
+00873CD8 000000??
+
+Item Modifier Slot 16 [GMO]
+00873CD9 000000??
+
+Item Modifier Slot 17 [GMO]
+00873CDA 000000??
+
+Item Modifier Slot 18 [GMO]
+00873CDB 000000??
+
+Item Modifier Slot 19 [GMO]
+00873CDC 000000??
+
+Item Modifier Slot 20 [GMO]
+00873CDD 000000??
+
+Item Modifier Slot 21 [GMO]
+00873CDE 000000??
+
+Item Modifier Slot 22 [GMO]
+00873CDF 000000??
+
+Item Modifier Slot 23 [GMO]
+00873CE0 000000??
+
+Item Modifier Slot 24 [GMO]
+00873CE1 000000??
+
+Item Modifier Slot 25 [GMO]
+00873CE2 000000??
+
+Item Modifier Slot 26 [GMO]
+00873CE3 000000??
+
+Item Modifier Slot 27 [GMO]
+00873CE4 000000??
+
+Item Modifier Slot 28 [GMO]
+00873CE5 000000??
+
+Item Modifier Slot 29 [GMO]
+00873CE6 000000??
+
+Item Modifier Slot 30 [GMO]
+00873CE7 000000??
+
+Item Modifier Value (Original List by The Phantom)
+
+FF - Nothing
+05 - Hammer
+06 - Froggie Stick
+07 - Nok Nok Shell
+08 - Punch Glove
+09 - Finger Shot
+0A - Cymbals
+0B - Chomp
+0C - Masher
+0D - Chomp Shell
+0E - Super Hammer
+0F - Hand Gun
+10 - Whomp Glove
+11 - Slap Glove
+12 - Troopa Shell
+13 - Parasol
+14 - Hurly Glove
+15 - Double Punch
+16 - Ribbit Stick
+17 - Spiked Link
+18 - Mega Glove
+19 - War Fan
+1A - Hand Cannon
+1B - Sticky Glove
+1C - Ultra Hammer
+1D - Super Slap
+1E - Drill Claw
+1F - Star Gun
+20 - Sonic Cymbal
+21 - Lazy Shell
+22 - Frying Pan
+25 - Shirt
+26 - Pants
+27 - Thick Shirt
+28 - Thick Pants
+29 - Mega Shirt
+2A - Mega Pants
+2B - Work Pants
+2C - Mega Cape
+2D - Happy Shirt
+2E - Happy Pants
+2F - Happy Cape
+30 - Happy Shell
+31 - Polka Dress
+32 - Sailor Shirt
+33 - Sailor Pants
+34 - Sailor Cape
+35 - Nautical Dress
+36 - Courage Shell
+37 - Fuzzy Shirt
+38 - Fuzzy Pants
+39 - Fuzzy Cape
+3A - Fuzzy Dress
+3B - Fire Shirt
+3C - Fire Pants
+3D - Fire Cape
+3E - Fire Shell
+3F - Fire Dress
+40 - Hero Shirt
+41 - Prince Pants
+42 - Star Cape
+43 - Heal Shell
+44 - Royal Dress
+45 - Super Shirt
+46 - Lazy Shell
+4A - Zoom Shoes
+4B - Safety Badge
+4C - Jump Shoes
+4D - Safety Ring
+4E - Amulet
+4F - Scrooge Ring
+50 - Exp Booster
+51 - Attack Scarf
+52 - Rare Scarf
+53 - B'Tub Ring
+54 - Antidote Pin
+55 - Wake Up Pin
+56 - Fearless Pin
+57 - Trueform Pin
+58 - Coin Trick
+59 - Ghost Medal
+5A - Jinx Belt
+5B - Feather
+5C - Troopa Pin
+5D - Signal Ring
+5E - Quartz Charm
+60 - Mushroom
+61 - Mid Mushroom
+62 - Max Mushroom
+63 - Honey Syrup
+64 - Maple Syrup
+65 - Royal Syrup
+66 - Pick Me Up
+67 - Able Juice
+68 - Bracer
+69 - Energizer
+6A - Yoshi-Ade
+6B - Red Essence
+6C - KeroKero Cola
+6D - Yoshi Cookie
+6E - Pure Water
+6F - Sleepy Bomb
+70 - Bad Mushroom
+71 - Fire Bomb
+72 - Ice Bomb
+73 - Flower Tab
+74 - Flower Jar
+75 - Flower Box
+76 - Yoshi Candy
+77 - Froggie Drink
+78 - Muku Cookie
+79 - Elixer
+7A - Megaelixer
+7B - See Ya
+7C - Temple Key
+7D - Goodie Bag
+7E - Earlier Times
+7F - Freshen Up
+80 - Rare Frog Coin
+81 - Wallet
+82 - Cricket Pie
+83 - Rock Candy
+84 - Castle Key 1
+86 - Castle Key 2
+87 - Bambino Bomb
+88 - Sheep Attack
+89 - Carbo Cookie
+8A - Shiny Stone
+8C - Room Key
+8D - Elder Key
+8E - Shed Key
+8F - Lamb's Lure
+90 - Fright Bomb
+91 - Mystery Egg
+92 - Beetle Box
+93 - Beetle Box
+94 - Luck Jewel
+96 - Soprano Card
+97 - Alto Card
+98 - Tenor Card
+99 - Cystalline
+9A - Power Blast
+9B - Wilted Shroom
+9C - Rotten Mush
+9D - Moldy Mush
+9E - Seed
+9F - Fertilizer
+A0 - Waste Basket
+A1 - Big Boo Flag
+A2 - Dry Bones Flag
+A3 - Greaper Flag
+A4 - Secret Game
+A6 - Cricket Jam
+AC - Fireworks
+AE - Bright Card
+AF - Mushroom
+B0 - Star Egg

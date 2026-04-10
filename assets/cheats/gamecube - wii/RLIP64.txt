@@ -1,0 +1,63 @@
+RLIP64
+LEGO Indiana Jones
+
+MAX Coins [C|T]
+4A000000 80000000
+045A8E02 EE6B2800
+E0000000 80008000
+Maximum Coins in Game
+
+MAX Coins in School Hall [C|T]
+4A000000 80000000
+145B0E12 EE6B2800
+E0000000 80008000
+Maximum Coins in School
+
+MAX/Inf Health 1st Charakter (Indiana Jones) [C|T]
+4A000000 90000000
+123D1F72 00001B1B
+E0000000 80008000
+Maximum & Infinite Health
+
+MAX Health 1st Charakter (Indiana Jones) [C|T]
+4A000000 90000000
+103D1F72 0000001B
+E0000000 80008000
+Maximum Health
+
+Inf Health 1st Charakter (Indiana Jones) [C|T]
+4A000000 90000000
+103D1F73 0000001B
+E0000000 80008000
+Infinite Health
+
+MAX/Inf Health 2nd Charakter [C|T]
+4A000000 90000000
+123D35D2 00001B1B
+E0000000 80008000
+Maximum & Infinite Health
+
+MAX Health 2nd Charakter [C|T]
+4A000000 90000000
+103D35D2 0000001B
+E0000000 80008000
+Maximum Health
+
+Inf Health 2nd Charakter [C|T]
+4A000000 90000000
+103D35D3 0000001B
+E0000000 80008000
+Infinite Health
+
+Multi Jump 1st Charakter (Indiana Jones) [C|T]
+4A000000 90000000
+143D1F49 00FF0000
+E0000000 80008000
+if You Stand and Press A for a Jump,you can press it again to go higher
+
+Second Jump MOD x3 (Indiana Jones) [C|T]
+4A000000 90000000
+143D1F1C 40400000
+E0000000 80008000
+This works for the X Jump,after the first Jump
+if you press "A" twice the second Jump is 3 times so far as Normal.

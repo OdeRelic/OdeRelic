@@ -1,0 +1,25 @@
+WGDE
+Gradius Rebirth
+
+Full Invincibility [Thomas83Lin]
+04024CAC 38000001
+04024110 38000001
+
+Inf Lives (Ported from g6flavor) [Thomas83Lin]
+04079110 60000000
+*Works for Version 1.2*
+
+Unlimited Use of Konami Code (Ported from g6flavor) [Thomas83Lin]
+040744A0 60000000
+*Works for Version 1.2*
+
+Inf Shield Ship Type A,C,D (Ported from g6flavor) [Thomas83Lin]
+040275C4 60000000
+Works for Version 1.2 After you get Shield*
+
+Inf Shield(Invincibly) Ship type B (Ported from g6flavor) [Thomas83Lin]
+04028198 60000000
+Works for Version 1.2 After you get Shield*
+
+Unlimited Lives [GMO]
+00B1FA93 0000000A

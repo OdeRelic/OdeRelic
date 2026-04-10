@@ -1,0 +1,16 @@
+JD7P
+Super Adventure Island
+
+Unlimited Lives [Crapulecorp]
+004672F5 00000005
+
+Unlimited Time [Crapulecorp]
+00467D54 00000011
+
+Disable Timer [Crapulecorp]
+00467D55 00000000
+*Code ported from GMO Ntsc Usa Version*
+
+Have Max Weapon Upgrades [Crapulecorp]
+00467D64 00000004
+*Code ported from GMO Ntsc Usa Version*

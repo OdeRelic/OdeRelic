@@ -1,0 +1,1438 @@
+GFZJ8P
+F-Zero AX
+
+Button Activator [CosmoCortney]
+2037DABC XXXXXXXX
+* for XXXXXXXX
+10000000 = start
+08000000 = Y
+02000000 = L
+01000000 = R
+00000200 = A
+00000100 = B
+00040000 = dPAD Left
+00080000 = dPAD Right
+00010000 = dPAD Up
+00020000 = dPAD Down
+
+Stage 90 Collision Data Fix [CosmoCortney]
+283CD60C 005A0000
+077EABA8 00000008
+11AEA114 0000EC07
+E0000000 80008000
+223CD60C 005A0000
+077EABA8 00000008
+11A01F68 000065C1
+E0000000 80008000
+
+Stage 72 Collision Data Fix [CosmoCortney]
+283CD60C 00480000
+077EABA8 00000008
+11B804B8 00013364
+E0000000 80008000
+223CD60C 00480000
+077EABA8 00000008
+11A01F68 000065C1
+E0000000 80008000
+
+Access Beta All Cups [CosmoCortney]
+043CD608 00000000
+* you can select 111 Stages (listed from 00 to 110)
+beside the GX, AX and Story mode tracks, you can access 2 (or more) totally unknown tracks, beta versions of story mode-, AX- and GX- tracks and tracks without textures or models.
+recommanded to use with the F-Zero GX menu code.
+
+No Reverse [CosmoCortney]
+2041C120 801DDA6C
+04C43FBC 00000000
+0444320C 00000000
+043B2DA0 00000000
+E0000000 80008000
+* announcer never says: "You're going the wrong way!"
+* no yellow arrows appear
+* no Reverse Logo appears
+
+access title sequence instead of the test menu [CosmoCortney]
+077E85D4 00000008
+006B4384 00023814
+
+access GX-like menu instead of the test menu [CosmoCortney]
+077E85D4 00000008
+005A27C8 0004F734
+
+Load GX-like menu (Wii Quadforce related) [CosmoCortney]
+077E85E0 00000008
+005A27C8 0004F734
+
+Press Start + R to Offcourse on Command [CosmoCortney]
+2837DABC 00001100
+04C43300 80000C07
+E0000000 80008000
+
+Access Debug Menu instead of the Story Mode (AX's GX Menu related) [CosmoCortney]
+2061FE60 00040000
+077E85B0 00000008
+006F7C4C 0002B55C
+E0000000 80008000
+2061FE60 00040000
+077E85C4 00000008
+00624800 00018308
+E0000000 80008000
+* (blackscreen before motor initialization fix)
+it offers following features:
+- 「ディップスイッチ」 DIP switch = en/disable several functions, like Autodrive, No Damage, No death and much more
+- 「パッド入力」 PAD input = test out the Controller Buttons
+- 「モーション再生」 Motion Playback = Load all Characters' Models and choose its animations and load the different LOD (highest res, high res, low res, lowest res models)
+- 「ビットマップ」 Bitmap = browse many images and scale their sizes
+- 「ARAM フォント」 ARAM FONT = browse all fonts (the game crashes at ""FONT_ASC_24x24" ORIGINAL 0/5")
+- 「ステージチェック」 Stage Check = load all stages and check out its textures, models and submodels with animations (the game can suddenly lag alot or freeze)
+- 「くるまチェック C カラー, Y しょぼ, X ふつうしゃ」 Car Check C Color, Y Manual Book (?), X Default Car Size (?) = check out the vehicles
+- 「モデルテスト」 Model Test = Test out all models and textures
+- 「シーンプレイテスト」 Scene play test (not available in F-Zero GX) = causes a blackscreen
+- 「サウンドテスト」 Soundtest = Listen to all songs, SFX and voices
+- 「ぶつりテスト」 Physics Test = ?
+- 「フォトンマッピング」 Photon mapping (not available in F-Zero GX) = 2 spheres appear.. Don't really know what it's supposed to be..
+- 「ぬのテスト」 Cloth Test = gives you a blackscreen. press START/PAUSE to go back to the debug menu
+- 「パーツくるまチェック」 - Vehicle Parts Check = create costum vehicles and choose the LOD
+- 「ネームエントリー」 Name Entry = Enter your name (probably overwrites the name(?))
+- 「テスト走行」 Test Run = select parts for a costum machine and select a stage (Lightning - Thunder Road, Mute City - Twist Road or Mute City - Sonic Oval) to test it
+
+Boot Into Test Menu [CosmoCortney]
+2037DABC 00010000
+077E85E0 00000008
+005F5CE8 00009994
+E0000000 80008000
+2037DABC 00010000
+077E85D4 00000008
+006B4384 00023814
+E0000000 80008000
+2037DABC 08000000
+077E85E0 00000008
+006B4384 00023814
+E0000000 80008000
+2037DABC 08000000
+077E85D4 00000008
+005F5CE8 00009994
+E0000000 80008000
+* Note: during the Motor Initializiing press dPAD up. Now you will land into the Test Mode instead of the Title Sequence.
+The controls behave differently to the Quadforce based controls in AX. dPad left moves the down, dPad right moves the courser up Y to accept. Service and Test Buttons are not defined.
+
+Vehicle Modifier [CosmoCortney]
+2837DABC 00001000
+043CD588 000000XX
+E0000000 80008000
+* press start button in the vehicle selection menu, and the vehicle whose ID you entered in the code will be loaded. If you want to choose a regular vehicle, select them with A and do not press Start untill a stage is loaded.
+Vehicle IDs:
+00 - Red Gazelle
+01 - White Cat
+02 - Golden Fox
+03 - Iron Tiger
+04 - Fire Stingray
+05 - Wild Goose
+06 - Blue Falcon
+07 - Deep Claw
+08 - Great Star
+09 - Little Wyvern
+0A - Mad Wolf
+0B - Super Piranha
+0C - Death Anchor
+0D - Astro Robin
+0E - Big Fang
+0F - Sonic Phantom
+10 - Green Panther
+11 - Hyper Speeder
+12 - Space Angler
+13 - King Meteor
+14 - Queen Meteor
+15 - Twin Noritta
+16 - Night Thunder
+17 - Wild Boar
+18 - Blood Hawk
+19 - Wonder Wasp
+1A - Mighty Typhoon
+1B - Mighty Hurricane
+1C - Crazy Bear
+1D - Black Bull
+1E - Dark Schneider
+1F - Fat Shark
+20 - Cosmic Dolphin
+21 - Pink Spider
+22 - Magic Seagull
+23 - Silver Rat
+24 - Spark Moon
+25 - Bunny Flash
+26 - Groovy Taxi
+27 - Rolling Turtle
+28 - Rainbow Pheonix
+
+Manual Course Modifier [CosmoCortney]
+2837DABC 00001000
+043CD60C 00XX0000
+0037C344 00000003
+E0000000 80008000
+203CD60C 004D0000
+0037C344 00000001
+E0000000 80008000
+203CD60C 00260000
+0037C344 00000001
+E0000000 80008000
+203CD60C 00280000
+0037C344 00000001
+E0000000 80008000
+203CD60C 00290000
+0037C344 00000001
+E0000000 80008000
+203CD60C 002A0000
+0037C344 00000001
+E0000000 80008000
+203CD60C 005B0000
+0037C344 00000001
+E0000000 80008000
+203CD60C 005D0000
+0037C344 00000001
+E0000000 80008000
+203CD60C 005E0000
+0037C344 00000001
+E0000000 80008000
+203CD60C 005F0000
+0037C344 00000001
+E0000000 80008000
+00000000 00000000
+* Press Start in the Course Selection Menu
+for XX = Course ID
+can cause crashes in AX-Mode.
+recommanded to use the GX-Like menu code as well
+Course IDs:
+00: Sand Ocean - Screw Drive
+01: Mute City - Twist Road
+03: Mute City - Serial Gaps
+05: Aeropolis Multiplex
+07: Port Town - Aero Dive
+08: Lightning - Loop Cross
+09: Lightning - Half Pipe
+0A: Green Plant - Intersection
+0B: Green Plant - Mobius Ring
+0D: Port Town - Long Pipe
+0E: Big Blue - Drift Highway
+0F: Fire - Cylinder Knot
+10: Vegas Palace - Split Oval
+11: Fire - Undulation
+15: Aeropolis - Dragon Slope
+18: Elevator - Trident
+19: Sand Ocean - Lateral Shift
+1A: Sand Ocean - Surface Slide
+1B: Big Blue - Ordeal
+1C: Rainbow Road - Slim-Line Slits
+1D: Vegas Palace - Double Branches
+1E: Sand Ocean - ---
+1F: Aeropolis - Screw Drive
+20: Outer Space - Meteor Stream
+21: Port Town - Cylinder Wave
+22: Lightning - Thunder Road
+23: Green Plant - Spiral
+24: Mute City - Sonic Oval
+25: Mute City - Sonic Oval Story Mode Track of Chapter 1
+26: Sand Ocean (Red Canyon) - --- Story Mode Chapter 2
+27: Vegas Palace - Story Mode Chapter 3
+28: Bug Blue - --- Story Mode Chapter 4
+29: Lighning - --- Story Mode Chapter 5
+2A: Port Town - --- Story Mode Chapter 6
+2B: Mute City - --- Story Mode Chapter 7
+2C: Fire - --- Story Mode Chapter 8
+2D: Rainbow Road - --- Story Mode Chapter 9
+31: Mute City - Sonic Oval Interview Stadium
+32: Mute City - Sonic Oval Winner Ceremony Stage
+48: NULL - --- // odd Surface Slide (Recommanded to use the Stage_72 Fix Code)
+4D: NULL - --- // Short Stribe
+56: NULL - --- // Outer Space - Meteor Stream Beta Track
+57: NULL - --- // Port Town - Cylinder Wave Beta Track
+5A: NULL - --- // Port Town - Long Pipe Beta Track (recommanded to use the Stage 90 Fix)
+5B: NULL - --- // Chapter 2 Beta Track
+5C: NULL - --- // Chapter 3 Beta Track
+5D: NULL - --- // Chapter 4 Beta Track
+5E: NULL - --- // Chapter 5 Beta Track
+5F: NULL - --- // Chapter 6 Beta Track
+60: NULL - --- // Chapter 7 Beta Track
+61: NULL - --- // Chapter 8 Beta Track
+62: NULL - --- // Chapter 9 Beta Track
+65: NULL - --- // Mute City - Twist Road Beta Track with extra bend.
+66: NULL - --- // Mute City - Twist Road Beta Track
+67: NULL - --- // Aeropolis - Multiplex Beta Track
+68: NULL - --- // Green Plant - Intersection Beta Track
+69: NULL - --- // Fire Field - Undulation Beta Track
+6A: NULL - --- // Big Blue - Drift Highway Beta Track
+6C: NULL - --- // Port Town - Aero Dive Beta Track
+6E: NULL - --- // Sand Ocean - Lateral Shift Beta Track
+
+DIP Switch (EXPERIMENTAL!!!) [CosmoCortney]
+044430F4 XXXXXXXX
+00000001 = Enable Debugging デブッグを有効にする
+00000002 = Display Debugging
+00000004 = Performance Monitor
+00000008 = No Performance Monitor
+00000010 = Display Collisions
+00000020 = Display Lap Time
+00000040 = Display Vehicle Number
+00000080 = Display Enemy Line (?)
+00000100 = Display Line
+00000200 = No Race Sequence
+00000400 = No Dead
+00000800 = No Damage
+00001000 = Autodrive
+00002000 = No Background
+00004000 = No Screen Effects
+00008000 = MAX Effect
+00010000 = MAX CPU
+00020000 = Use Emblems (?)
+00040000 = ???
+00080000 = No Effect
+00100000 = No Font
+00200000 = Sprite Display Off
+00400000 = Car LOD
+00800000 = Don't Display Cars (?)
+01000000 = Load Vehicles in MAX Size (?)
+02000000 = Display MIPMAPS
+04000000 = MIPMAP Mask
+08000000 = Physics Debug
+10000000 = Don't Display Physic Debugging (?)
+20000000 = Go into Developing Selector (GX-Like Menu?)
+40000000 = CAM Control from 2nd Player's Controller
+80000000 = PUB DIP (?)
+* Values can be added together to combine them
+
+Course Name Changer
+
+MUTE CITY [CosmoCortney]
+0621DE54 0000000B
+XXXXXXXX XXXXXXXX
+XXXXXX00 00000000
+
+PORT TOWN [CosmoCortney]
+0621DE60 0000000B
+XXXXXXXX XXXXXXXX
+XXXXXX00 00000000
+
+BIG BLUE [CosmoCortney]
+0621DE6C 0000000B
+XXXXXXXX XXXXXXXX
+XXXXXX00 00000000
+
+LIGHTNING [CosmoCortney]
+0621DE78 0000000B
+XXXXXXXX XXXXXXXX
+XXXXXX00 00000000
+
+SAND OCEAN [CosmoCortney]
+0621DE84 0000000B
+XXXXXXXX XXXXXXXX
+XXXXXX00 00000000
+
+GREEN PLANT [CosmoCortney]
+0621DE90 0000000B
+XXXXXXXX XXXXXXXX
+XXXXXX00 00000000
+
+Vegas Palace [CosmoCortney]
+0621DE9C 0000000F
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXX00
+
+OUTER SPACE [CosmoCortney]
+0621DEAC 0000000B
+XXXXXXXX XXXXXXXX
+XXXXXX00 00000000
+
+AEROPOLIS [CosmoCortney]
+0621DEB8 0000000B
+XXXXXXXX XXXXXXXX
+XXXXXX00 00000000
+
+ELEVATOR [CosmoCortney]
+0621DEC4 0000000B
+XXXXXXXX XXXXXXXX
+XXXXXX00 00000000
+
+RAINBOW ROAD [CosmoCortney]
+0621DED0 0000000F
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXX00
+_________________________________________
+
+Twist Road [CosmoCortney]
+0621E474 0000000B
+XXXXXXXX XXXXXXXX
+XXXXXX00 00000000
+
+Serial Gaps [CosmoCortney]
+0621E480 0000000B
+XXXXXXXX XXXXXXXX
+XXXXXX00 00000000
+
+Multiplex [CosmoCortney]
+0621E48C 0000000B
+XXXXXXXX XXXXXXXX
+XXXXXX00 00000000
+
+Aero Dive [CosmoCortney]
+0621E498 0000000B
+XXXXXXXX XXXXXXXX
+XXXXXX00 00000000
+
+Loop Cross [CosmoCortney]
+0621E4A4 0000000B
+XXXXXXXX XXXXXXXX
+XXXXXX00 00000000
+
+Half Pipe
+0621E4B0 00000000B
+XXXXXXXX XXXXXXXXX
+XXXXXX00 000000000
+
+Intersection
+0621E4BC 00000000F
+XXXXXXXX XXXXXXXXX
+XXXXXXXX XXXXXXX00
+
+Mobius Ring
+0621E4CC 00000000B
+XXXXXXXX XXXXXXXXX
+XXXXXX00 000000000
+
+Long Pipe
+0621E4D8 00000000B
+XXXXXXXX XXXXXXXXX
+XXXXXX00 000000000
+
+Drift Highway
+0621E4E4 00000000F
+XXXXXXXX XXXXXXXXX
+XXXXXXXX XXXXXXX00
+
+Cylinder Knot
+Drift Highway
+0621E4F4 00000000F
+XXXXXXXX XXXXXXXXX
+XXXXXXXX XXXXXXX00
+
+Split Oval
+0621E504 00000000B
+XXXXXXXX XXXXXXXXX
+XXXXXX00 000000000
+
+Undulation
+0621E510 00000000B
+XXXXXXXX XXXXXXXXX
+XXXXXX00 000000000
+
+Dragon SLope
+0621E51C 00000000F
+XXXXXXXX XXXXXXXXX
+XXXXXXXX XXXXXXX00
+
+Lateral Shift
+0621E52C 00000000F
+XXXXXXXX XXXXXXXXX
+XXXXXXXX XXXXXXX00
+
+Surface Slide
+0621E53C 00000000F
+XXXXXXXX XXXXXXXXX
+XXXXXXXX XXXXXXX00
+
+Slim-line Slits
+0621E54C 00000000F
+XXXXXXXX XXXXXXXXX
+XXXXXXXX XXXXXXX00
+
+Double Branches
+0621E55C 00000000F
+XXXXXXXX XXXXXXXXX
+XXXXXXXX XXXXXXX00
+
+Screw Drive
+0621E56C 00000000B
+XXXXXXXX XXXXXXXXX
+XXXXXX00 000000000
+
+Meteor Stream
+0621E578 00000000F
+XXXXXXXX XXXXXXXXX
+XXXXXXXX XXXXXXX00
+
+Cylinder Wave
+0621E588 00000000F
+XXXXXXXX XXXXXXXXX
+XXXXXXXX XXXXXXX00
+
+Thunder Road
+0621E598 00000000F
+XXXXXXXX XXXXXXXXX
+XXXXXXXX XXXXXXX00
+
+Sonic Oval
+0621E5A8 00000000B
+XXXXXXXX XXXXXXXXX
+XXXXXX00 000000000
+
+Pilots Name Changer
+
+MIGHTY GAZELLE [CosmoCortney]
+0624F90C 0000000F
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXX00
+
+JUDY SUMMER [CosmoCortney]
+0624F91C 0000000B
+XXXXXXXX XXXXXXXX
+XXXXXX00 00000000
+
+DR. STEWART [CosmoCortney]
+0624F928 0000000B
+XXXXXXXX XXXXXXXX
+XXXXXX00 00000000
+
+SAMURAI GORŌ [CosmoCortney]
+0624F934 0000000F
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXX00
+
+CAPTAIN FALCON [CosmoCortney]
+0624F944 0000000F
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXX00
+
+JAMES McCLOUD [CosmoCortney]
+0624F954 0000000F
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXX00
+
+KATEALEN [CosmoCortney]
+0624F964 0000000B
+XXXXXXXX XXXXXXXX
+XXXXXX00 00000000
+
+JACK LEVIN [CosmoCortney]
+0624F970 0000000B
+XXXXXXXX XXXXXXXX
+XXXXXX00 00000000
+
+THE SKULL [CosmoCortney]
+0624F97C 0000000B
+XXXXXXXX XXXXXXXX
+XXXXXX00 00000000
+
+ANTONIO GUSTER [CosmoCortney]
+0624F988 0000000F
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXX00
+
+SUPER ARROW [CosmoCortney]
+0624F998 0000000B
+XXXXXXXX XXXXXXXX
+XXXXXX00 00000000
+
+Mrs. ARROW [CosmoCortney]
+0624F9A4 0000000B
+XXXXXXXX XXXXXXXX
+XXXXXX00 00000000
+
+GOMAR & SHIŌ [CosmoCortney]
+0624F9B0 0000000F
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXX00
+
+SILVER NEELSEN [CosmoCortney]
+0624F9C0 0000000F
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXX00
+
+MICHAEL CHAIN [CosmoCortney]
+0624F9D0 0000000F
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXX00
+
+BLOOD FALCON [CosmoCortney]
+0624F9E0 0000000F
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXX00
+
+JOHN TANAKA [CosmoCortney]
+0624F9F0 0000000B
+XXXXXXXX XXXXXXXX
+XXXXXX00 00000000
+
+ROGER BUSTER [CosmoCortney]
+0624F9FC 0000000F
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXX00
+
+Dr. CLASH [CosmoCortney]
+0624FA08 0000000B
+XXXXXXXX XXXXXXXX
+XXXXXX00 00000000
+
+BLACK SHADOW [CosmoCortney]
+0624FA18 0000000F
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXX00
+
+DEATHBORN [CosmoCortney]
+0624FA28 0000000B
+XXXXXXXX XXXXXXXX
+XXXXXX00 00000000
+
+DON GENIE [CosmoCortney]
+0624FA34 0000000B
+XXXXXXXX XXXXXXXX
+XXXXXX00 00000000
+
+DIGI-BOY [CosmoCortney]
+0624FA40 0000000B
+XXXXXXXX XXXXXXXX
+XXXXXX00 00000000
+
+DAI DAN GEN [CosmoCortney]
+0624FA4C 0000000B
+XXXXXXXX XXXXXXXX
+XXXXXX00 00000000
+
+OCTOMAN [CosmoCortney]
+06441BC0 00000007
+XXXXXXXX XXXXXX00
+
+Mr. EAD [CosmoCortney]
+06441BC8 00000007
+XXXXXXXX XXXXXX00
+
+BIO REX [CosmoCortney]
+06441BD0 00000007
+XXXXXXXX XXXXXX00
+
+PRINCIA [CosmoCortney]
+06441BD8 00000007
+XXXXXXXX XXXXXX00
+
+PHOENIX [CosmoCortney]
+06441BE0 00000007
+XXXXXXXX XXXXXX00
+
+ZODA [CosmoCortney]
+06441984 00000007
+XXXXXXXX XXXXXX00
+
+BILLY [CosmoCortney]
+06441974 00000007
+XXXXXXXX XXXXXX00
+
+BABA [CosmoCortney]
+06441940 00000007
+XXXXXXXX XXXXXX00
+
+PICO [CosmoCortney]
+06441950 00000007
+XXXXXXXX XXXXXX00
+
+DRAQ [CosmoCortney]
+064419E4 00000007
+XXXXXXXX XXXXXX00
+
+SPADE [CosmoCortney]
+06441A1C 00000007
+XXXXXXXX XXXXXX00
+
+LILY [CosmoCortney]
+06441A2C 00000007
+XXXXXXXX XXXXXX00
+
+PJ [CosmoCortney]
+04441A34 XXXXXX00
+
+QQQ [CosmoCortney]
+04441A38 XXXXXX00
+
+LEON [CosmoCortney]
+064419A8 00000007
+XXXXXXXX XXXXXX00
+
+BEASTMAN [CosmoCortney]
+0624F438 0000000B
+XXXXXXXX XXXXXXXX
+XXXXXX00 00000000
+
+DAIGORŌ [CosmoCortney]
+0624F444 0000000B
+XXXXXXXX XXXXXXXX
+XXXXXX00 00000000
+
+How to use them:
+Use ASCII-hex values for XX. Unused Bytes must be filled with Zeros (0)
+
+Time Attack Mode Related
+
+Press Start + L to Fix the Camera on last Spawning Point. Start to restore the Cam [CosmoCortney]
+2837DABC 00001200
+04F8B604 80F39720
+04F8B608 80F39720
+04F8B644 80F39720
+04F8B648 80F39720
+04F8C4B8 00050000
+04F8C4E8 00030000
+E0000000 80008000
+2837DABC 00001000
+04F8B604 00000000
+04F8B608 00000000
+04F8B644 00000000
+04F8B648 00000000
+04F8C4B8 00000000
+04F8C4E8 00000000
+E0000000 80008000
+
+Camera Follows your Vehicle when Offcourse [CosmoCortney]
+2237DABC 00000000
+04F8B604 00000000
+04F8B608 00000000
+04F8B644 00000000
+04F8B648 00000000
+04F8C4B8 00000000
+04F8C4E8 00000000
+E0000000 80008000
+* dont press any button when offcourse
+
+Audio Modifiers
+
+SFX Speed modifier [CosmoCortney]
+022FC3F0 0000XXXX
+022FC580 0000XXXX
+022FC4CC 0000XXXX
+* allmost all SFX will be changed in its speed and pitch
+for XXXX:
+3F20 = very slow
+3F80 = default
+3FF0 = Very fast (chipmunk announcer)
+
+Announcer Never Says: "OFFCOURSE!" [CosmoCortney]
+2041C120 801DDA6C
+04C437B0 00000001
+04C43904 8083086C
+E0000000 80008000
+
+Announcer Never Says: "You're Going The Wrong Way!" [CosmoCortney]
+2041C120 801DDA6C
+04C43FBC 00000000
+E0000000 80008000
+
+Music Swap Codes [CosmoCortney]
+RRRRRRRR 00000008
+XXXXXXXX XXXXXXXX
+* For RRRRRRRR the Address of the song you want to have to be replaced. (don't forget to write 00000008 behind the Address!)
+* For XXXXXXXX XXXXXXXX the value of the song you want to have playing instead of the former one.
+* Title Sequence Song (adv_ac.adx): Address: 077EA938; Value: 0C833EF4 00197412
+Big Blue's Theme (bblue.adx): Address: 077EA944; Value: 0C9CB308 004FF000
+Card Check Menu's Theme (cardcheck.adx):Address: 077EA950; Value: 0CECA308 00171800
+Course Preview's Theme (course_view_ac.adx): Address: 077EA95C; Value: 0D03BB08 0005A44A
+Green Plant's Theme: (forest.adx): Address: 077EA968; Value: 0D095F54 003A8000
+Green Plant's Final Lap Theme: (forest_b.adx): Address: 077EA974; Value: 0D43DF54 00197800
+Garage's Theme (garage.adx): Address: 077EA980: Value: 0D5D5754 001C9000
+Song after finishing a Race (goal.adx): Address: 077EA98C; Value: 0D79E754 0027F000
+Winner Ceremony's (Captain Falcon's) Theme (hyosho_ac.adx): Address: 077EA998; Value: 0DA1D754 003C86B2
+Interview Stage's (F-Zero TV's) Theme: (interview.adx): Address: 077EA9A4; Value: 0DDE5E08 00147800
+Lightning's Theme (lightning.adx): Address: 077EA9B0; Value: 0DF2D608 00529800
+Lightning's Final Lap Theme (lightning_b.adx): Address: 077EA9BC; Value: 0E456E08 000E3000
+Outer Space's Theme (meteor.adx): Address: 077EA9C8; Value: 0E539E08 00614800
+Outer Space's Final Lap Theme (meteor_b.adx): Address: 077EA9D4; Value: 0EB4E608 00180000
+Mute City's Theme (mutecity.adx): Address: 077EA9E0; Value: 0ECCE608 003AF800
+Mute City's Final Lap Theme (mutecity_b.adx): Address: 077EA9EC; Value: 0F07DE08 00170000
+Flags Open Theme (openflag.adx): Address: 077EA9F8; Value: 0F1EDE08 00115000
+Pilot Points Menu's Theme (point.adx): Address: 077EAA04; Value: 0F302E08 001B9800
+Port Town's Theme (ptown.adx): Address: 077EAA10; Value: 0F4BC608 0072B000
+Port Town's Final Lap Theme (ptown_b.adx): Address: 077EAA1C; Value: 0FBE7608 001A0000
+Retire/Game Over Jingle (retire.adx): Address: 077EAA28; Value: 0FD87608 000584EE
+Mute City's Secret Theme (secret_mc.adx): Address: 077EAA34; Value: 0FDDFAF8 00247000
+Main Menu's Theme (selector.adx): Address: 077EAA40; Value: 10026AF8 00301000
+Aeropolis' Theme (tower.adx): Address: 077EAA4C; Value: 10327AF8 00758800
+Aeropolis' Final Lap Theme (tower_b.adx): Address: 077EAA58; Value: 10A802F8 00189000
+Tutorial's Theme (tutorial.adx): Address: 077EAA64; Value: 10C092F8 0028A800
+An Example: we want to have Big Blue's theme playing instead of Mute City's theme.
+077EA9E0 00000008 // Mute City's song's Address & 00000008 next to it
+0C9CB308 004FF000 // Big Blue's Song's Value
+
+AX-Mode related
+
+Race Mode Difficulty Modifier [CosmoCortney]
+0461FE60 000B0000
+003CD587 0000000X
+* looks like that Time Attack Mode is selected, because this mode is hidden right next to it.
+* for X
+0 = Novice
+1 = Advanced
+2 = Expert
+3 = Master
+
+Battle with Staff Ghosts in Time Attack Mode [CosmoCortney]
+2061FE60 000A0000
+043CD618 00050032
+E0000000 80008000
+
+Disable Countdown Timers [CosmoCortney]
+0423759C 40200000
+042375D4 40200000
+023CD6A2 00000000
+024431EE 00000000
+0423736C 00000000
+04237334 00000000
+* credits to dj_skual
+
+Vehicle Model Modifiers
+
+P1 Beta Vehicle [CosmoCortney]
+2837DABC 00000100
+0037B2FB 00000000
+0037B300 00000011
+0037B305 00000010
+E0000000 80008000
+2837DABC 00000200
+0037B2FB 00000001
+0037B300 00000011
+0037B305 00000010
+E0000000 80008000
+* Press L During the Course Preview to load the Cevil Vehicle, Press R to load the Bus.
+
+Beta Vehicles for COM #01 to COM #29 [CosmoCortney]
+2837DABC 00000100
+0837B31B 00000000
+001C0020 00000000
+0837B320 00000011
+001C0020 00000000
+0837B325 00000010
+001C0020 00000000
+E0000000 80008000
+2837DABC 00000200
+0837B31B 00000001
+001C0020 00000000
+0837B320 00000011
+001C0020 00000000
+0837B325 00000010
+001C0020 00000000
+E0000000 80008000
+* Press L During the Course Preview to load the Cevil Vehicle, Press R to load the Bus.
+
+Vehicle Model Modifier for P1 [CosmoCortney]
+0037B2FB 000000XX
+
+Vehicle Model Modifier for COM #01 [CosmoCortney]
+0037B31B 000000XX
+
+Vehicle Model Modifier for COM #02 [CosmoCortney]
+0037B33B 000000XX
+
+Vehicle Model Modifier for COM #03 [CosmoCortney]
+0037B35B 000000XX
+
+Vehicle Model Modifier for COM #04 [CosmoCortney]
+0037B37B 000000XX
+
+Vehicle Model Modifier for COM #05 [CosmoCortney]
+0037B39B 000000XX
+
+Vehicle Model Modifier for COM #06 [CosmoCortney]
+0037B3BB 000000XX
+
+Vehicle Model Modifier for COM #07 [CosmoCortney]
+0037B3DB 000000XX
+
+Vehicle Model Modifier for COM #08 [CosmoCortney]
+0037B3FB 000000XX
+
+Vehicle Model Modifier for COM #09 [CosmoCortney]
+0037B41B 000000XX
+
+Vehicle Model Modifier for COM #10 [CosmoCortney]
+0037B43B 000000XX
+
+Vehicle Model Modifier for COM #11 [CosmoCortney]
+0037B45B 000000XX
+
+Vehicle Model Modifier for COM #12 [CosmoCortney]
+0037B47B 000000XX
+
+Vehicle Model Modifier for COM #13 [CosmoCortney]
+0037B49B 000000XX
+
+Vehicle Model Modifier for COM #14 [CosmoCortney]
+0037B4BB 000000XX
+
+Vehicle Model Modifier for COM #15 [CosmoCortney]
+0037B4DB 000000XX
+
+Vehicle Model Modifier for COM #16 [CosmoCortney]
+0037B4FB 000000XX
+
+Vehicle Model Modifier for COM #17 [CosmoCortney]
+0037B51B 000000XX
+
+Vehicle Model Modifier for COM #18 [CosmoCortney]
+0037B53B 000000XX
+
+Vehicle Model Modifier for COM #19 [CosmoCortney]
+0037B55B 000000XX
+
+Vehicle Model Modifier for COM #20 [CosmoCortney]
+0037B57B 000000XX
+
+Vehicle Model Modifier for COM #21 [CosmoCortney]
+0037B59B 000000XX
+
+Vehicle Model Modifier for COM #22 [CosmoCortney]
+0037B5BB 000000XX
+
+Vehicle Model Modifier for COM #23 [CosmoCortney]
+0037B5DB 000000XX
+
+Vehicle Model Modifier for COM #24 [CosmoCortney]
+0037B5FB 000000XX
+
+Vehicle Model Modifier for COM #25 [CosmoCortney]
+0037B61B 000000XX
+
+Vehicle Model Modifier for COM #26 [CosmoCortney]
+0037B63B 000000XX
+
+Vehicle Model Modifier for COM #27 [CosmoCortney]
+0037B65B 000000XX
+
+Vehicle Model Modifier for COM #28 [CosmoCortney]
+0037B67B 000000XX
+
+Vehicle Model Modifier for COM #29 [CosmoCortney]
+0037B67B 000000XX
+* replace XX with a Vehicle ID
+________________________________________________
+
+P1 Vehicle Color Modifier [CosmoCortney]
+0037B300 000000XX
+
+COM #01 Color Modifier [CosmoCortney]
+0037B320 000000XX
+
+COM #02 Color Modifier [CosmoCortney]
+0037B340 000000XX
+
+COM #03 Color Modifier [CosmoCortney]
+0037B360 000000XX
+
+COM #04 Color Modifier [CosmoCortney]
+0037B380 000000XX
+
+COM #05 Color Modifier [CosmoCortney]
+0037B3A0 000000XX
+
+COM #06 Color Modifier [CosmoCortney]
+0037B3C0 000000XX
+
+COM #07 Color Modifier [CosmoCortney]
+0037B3E0 000000XX
+
+COM #08 Color Modifier [CosmoCortney]
+0037B400 000000XX
+
+COM #09 Color Modifier [CosmoCortney]
+0037B420 000000XX
+
+COM #10 Color Modifier [CosmoCortney]
+0037B440 000000XX
+
+COM #11 Color Modifier [CosmoCortney]
+0037B460 000000XX
+
+COM #12 Color Modifier [CosmoCortney]
+0037B480 000000XX
+
+COM #13 Color Modifier [CosmoCortney]
+0037B4A0 000000XX
+
+COM #14 Color Modifier [CosmoCortney]
+0037B4C0 000000XX
+
+COM #15 Color Modifier [CosmoCortney]
+0037B4E0 000000XX
+
+COM #16 Color Modifier [CosmoCortney]
+0037B500 000000XX
+
+COM #17 Color Modifier [CosmoCortney]
+0037B520 000000XX
+
+COM #18 Color Modifier [CosmoCortney]
+0037B540 000000XX
+
+COM #19 Color Modifier [CosmoCortney]
+0037B560 000000XX
+
+COM #20 Color Modifier [CosmoCortney]
+0037B580 000000XX
+
+COM #21 Color Modifier [CosmoCortney]
+0037B5A0 000000XX
+
+COM #22 Color Modifier [CosmoCortney]
+0037B320 000000XX
+
+COM #23 Color Modifier [CosmoCortney]
+0037B5C0 000000XX
+
+COM #24 Color Modifier [CosmoCortney]
+0037B5E0 000000XX
+
+COM #25 Color Modifier [CosmoCortney]
+0037B600 000000XX
+
+COM #26 Color Modifier [CosmoCortney]
+0037B620 000000XX
+
+COM #27 Color Modifier [CosmoCortney]
+0037B640 000000XX
+
+COM #28 Color Modifier [CosmoCortney]
+0037B660 000000XX
+
+COM #29 Color Modifier [CosmoCortney]
+0037B680 000000XX
+* for XX
+no texture : 00
+color 1 (default): 10
+color 2 : 08
+color 6 : 04
+color 4 : 02
+
+Color Modifier for ALL [CosmoCortney]
+2837DABC 00000100
+0837B300 000000XX
+001D0020 00000000
+E0000000 80008000
+* Press R during the course preview
+* For XX
+no texture : 00
+color 1 (default): 10
+color 2 : 08
+color 6 : 04
+color 4 : 02
+
+Visual and Graphical Modifications
+
+16:9 Screen Ratio [CosmoCortney]
+04445C34 3FE40000
+
+Upside Down Mode [CosmoCortney]
+044483E0 BF000000
+* everything is upside down except the HUD
+
+Green Meteors in Meteor Stream [CosmoCortney]
+04446E40 3E300000
+
+insane drift effect [CosmoCortney]
+04444C2C 3F400000
+
+Alpha Blending Modifier [CosmoCortney]
+04445BF4 00000000
+
+Inverted Object Rendering [CosmoCortney]
+04444498 BF800000
+
+Scary Pilots & Invisible Vehicles [CosmoCortney]
+04444504 00000000
+
+HUD on/off [CosmoCortney]
+2837DABC 00001200
+044483D4 40000000
+E0000000 80008000
+2837DABC 00001800
+044483D4 00000000
+E0000000 80008000
+* Start + L = ON
+Start + Y = OFF
+
+Yellow Direction Arrows never appear [CosmoCortney]
+2041C120 801DDA6C
+0444320C 00000000
+E0000000 80008000
+
+P1 Symbol appears over your machine [CosmoCortney]
+2041C120 801DDA6C
+00C43775 00000010
+E0000000 80008000
+
+Vehicle Rotation X-Axis (p1) [CosmoCortney]
+04C437E4 XXXXXXXX
+* for XXXXXXXX
+00000000 = 0°
+45E00000 = 90°
+46480000 = 180°
+46980000 = 270°
+values are based on Blue Falcon. there's a tolerance of about +/- 45° to all others
+
+Vehicle Rotation Y-Axis (p1) [CosmoCortney]
+04C437E8 XXXXXXXX
+* for XXXXXXXX
+00000000 = 0°
+45B00000 = 90°
+46300000 = 180° (backwards)
+46860000 = 270°
+values are based on Blue Falcon. there's a tolerance of about +/- 45° to all others
+
+Vehicle Rotation Z-Axis (p1) [CosmoCortney]
+04C437EC XXXXXXXX
+* for XXXXXXXX
+00000000 = 0°
+45BC0000 = 90°
+46480000 = 180°
+46960000 = 270°
+values are based on Blue Falcon. there's a tolerance of about +/- 45° to all others
+
+Vehicle Rotation X-Axis (Enemies) [CosmoCortney]
+2124E864 8124C840
+08C43DA4 XXXXXXXX
+201C05C0 00000000
+E0000000 80008000
+* for XXXXXXXX
+00000000 = 0°
+45E00000 = 90°
+46480000 = 180°
+46980000 = 270°
+values are based on Blue Falcon. there's a tolerance of about +/- 45° to all others
+
+Vehicle Rotation Y-Axis (Enemies) [CosmoCortney]
+2124E864 8124C840
+08C43DA8 XXXXXXXX
+201C05C0 00000000
+E0000000 80008000
+* for XXXXXXXX
+00000000 = 0°
+45B00000 = 90°
+46300000 = 180° (backwards)
+46860000 = 270°
+values are based on Blue Falcon. there's a tolerance of about +/- 45° to all others
+
+Vehicle Rotation Z-Axis (Enemies) [CosmoCortney]
+2124E864 8124C840
+08C43DAC XXXXXXXX
+201C05C0 00000000
+E0000000 80008000
+* for XXXXXXXX
+00000000 = 0°
+45BC0000 = 90°
+46480000 = 180°
+46960000 = 270°
+values are based on Blue Falcon. there's a tolerance of about +/- 45° to all others
+
+Reverse Logo Never Appearse [CosmoCortney]
+043B2DA0 00000000
+
+Tutorial's DRIFT TURN Instruction text fix [CosmoCortney]
+005ABCCD 0000000A
+
+Track & Background Modifier [CosmoCortney]
+0244433C 0000XXXX
+* for XXXX
+4080 = Background is brightener and some alpha-areas look odd
+3F80 = default
+3F00 = Transparent Track
+0000 = only vehicles, buildings and Dash Plates are visible
+
+2-dimensional Engine Fire Size Modifier [CosmoCortney]
+02444398 0000XXXX
+BF80 = Inverted
+
+4000 = giant
+3F80 = Default
+3F00 = mini
+
+Messing around with Textures and LODs [CosmoCortney]
+02444498 0000XXXX
+0000 = Transparent track, low vehicle LOD, Vehicles can become invisible, messed up building and BG textures
+3E00 = Vehicles have low LOD
+3E40 = Vehicles have middle LOD
+3F00 = Engine Sound Disabled & LOD becomes lower when driving fast
+3F80 = Default
+4000 = Many missing textures (looks kinda awesome)
+BF80 = Like 0x0000, but the vehicle doesn't become invisible
+8000 = Like 0x0000 + inverted object rendering
+
+Effect Modifier [CosmoCortney]
+0244496C 00004082
+
+Multipled Effects [CosmoCortney]
+02445C84 00004100
+
+Camera does not do any horizontal movements [CosmoCortney]
+044483B8 3f000000
+
+Tunnel view effect (Ultra distant camera) [CosmoCortney]
+044483D0 3e000000
+
+Energy Charger Effect, Boost- & Drift Effect color modifier [CosmoCortney]
+02444C30 0000XXXX
+* for XXXX
+0000 = Boost is light green, energy charging effect has purple alpha areas
+3F80 = default
+4110 = energy charging effect has blue alpha areas and blinks alot
+
+Booster is Yellow [CosmoCortney]
+02444C2C 00000000
+
+Booster & Drift Effect Color modifier [CosmoCortney]
+02444C10 0000XXXX
+* for XXXX
+0000 = Blue Boost and Cyan Blue Drift Effect
+3E00 = Cyan blue Drift Effect and Boost
+C000 = strange red drift effect, Yellow energy charging effect -6 no boost effect
+
+Gameplay Modifiers
+
+Speed Modifier (Press Y) [CosmoCortney]
+2837DABC 00000800
+04C43524 41XX0000
+E0000000 80008000
+* for XX = 00 ~ 1600km/h
+XX = FF ~ 5300km/h
+
+Speed Modifier without button activation (recommanded to use with the Enemies Speed Modifier) [CosmoCortney]
+04C43524 41XX0000
+* for XX = 00 ~ 1600km/h
+XX = FF ~ 5300km/h
+
+Jump (press start) [CosmoCortney]
+2837DABC 00001000
+04C43380 43300000
+
+Press Start + Y for Instant Finish - Time Attack Mode [CosmoCortney]
+2837DABC 00001800
+00C43FC3 00000081
+
+Press Start + Y for Instant Finish - Race Mode [CosmoCortney]
+2837DABC 00001800
+00c4e683 00000081
+
+infinite energy [CosmoCortney]
+04C43484 42C80000
+
+999 Seconds in Races [CosmoCortney]
+0437C3E4 EA000000
+
+enemies speed modifier [CosmoCortney]
+2124E864 8124C840
+08C43AE4 41XX0000
+201C05C0 00000000
+E0000000 80008000
+* for XX = 00 ~ 1600km/h
+XX = FF ~ 5300km/h
+
+One Hit Kills [CosmoCortney]
+2124E864 8124C840
+08C43A44 00000000
+201C05C0 00000000
+E0000000 80008000
+
+AX-Mode Lap Modifiers
+
+Lap Modifier for Mute City - Sonic Oval [CosmoCortney]
+00216C68 000000XX
+
+Lap Modifier for Aeropolis - Screw Drive [CosmoCortney]
+00216C6E 000000XX
+
+Lap Modifier for Outer Space - Meteor Stream [CosmoCortney]
+00216C74 000000XX
+
+Lap Modifier for Port Town - Cylinder Wave [CosmoCortney]
+00216C7A 000000XX
+
+Lap Modifier for Lightning - Thunder Road [CosmoCortney]
+00216C80 000000XX
+
+Lap Modifier for Green Plant - Spiral [CosmoCortney]
+00216C86 000000XX
+
+AX-Mode Course Modifiers
+
+Ruby Cup in AX-Mode [CosmoCortney]
+06212BAC 0000000C
+00010010 001A0008
+00050031 00000000
+E0000000 80008000
+02216C68 00000006
+203CD60C 00010000
+0037C344 00000008
+E0000000 80008000
+203CD60C 00100000
+0037C344 00000008
+E0000000 80008000
+203CD60C 001A0000
+0037C344 00000005
+E0000000 80008000
+203CD60C 00080000
+0037C344 00000004
+E0000000 80008000
+203CD60C 00050000
+0037C344 00000004
+E0000000 80008000
+
+Sapphire Cup in AX-Mode [CosmoCortney]
+06212BAC 0000000C
+000E0007 000B000D
+00030031 00000000
+E0000000 80008000
+02216C68 00000006
+203CD60C 000E0000
+0037C344 00000007
+E0000000 80008000
+203CD60C 00070000
+0037C344 00000003
+E0000000 80008000
+203CD60C 000B0000
+0037C344 00000004
+E0000000 80008000
+203CD60C 000D0000
+0037C344 00000003
+E0000000 80008000
+203CD60C 00030000
+0037C344 00000004
+E0000000 80008000
+
+Emerald Cup in AX-Mode [CosmoCortney]
+06212BAC 0000000C
+000F000A 001D0009
+001B0031 00000000
+E0000000 80008000
+02216C68 00000006
+203CD60C 000F0000
+0037C344 00000003
+E0000000 80008000
+203CD60C 000A0000
+0037C344 00000003
+E0000000 80008000
+203CD60C 001D0000
+0037C344 00000003
+E0000000 80008000
+203CD60C 00090000
+0037C344 00000003
+E0000000 80008000
+203CD60C 001B0000
+0037C344 00000003
+E0000000 80008000
+
+Diamond Cup in AX-Mode [CosmoCortney]
+06212BAC 0000000C
+00180019 00110015
+001C0031 00000000
+E0000000 80008000
+02216C68 00000006
+203CD60C 00180000
+0037C344 00000003
+E0000000 80008000
+203CD60C 00190000
+0037C344 00000003
+E0000000 80008000
+203CD60C 00110000
+0037C344 00000005
+E0000000 80008000
+203CD60C 00150000
+0037C344 00000003
+E0000000 80008000
+203CD60C 001C0000
+0037C344 00000003
+E0000000 80008000
+
+First 6 Story Mode Courses in AX-Mode [CosmoCortney]
+06212BAC 0000000C
+00250026 00270028
+0029002A 00000000
+E0000000 80008000
+02216C68 00000006
+203CD60C 00250000
+0037C344 00000008
+E0000000 80008000
+203CD60C 00260000
+0037C344 00000001
+E0000000 80008000
+203CD60C 00270000
+0037C344 00000005
+E0000000 80008000
+203CD60C 00280000
+0037C344 00000001
+E0000000 80008000
+203CD60C 00290000
+0037C344 00000001
+E0000000 80008000
+203CD60C 002A0000
+0037C344 00000001
+E0000000 80008000
+
+Last 3 Story Mode Courses + Winner Ceremony Stage + Sand Ocean Screw Drive in AX-Mode [CosmoCortney]
+06212BAC 0000000C
+002B002C 002D0000
+00320048 00000000
+E0000000 80008000
+02216C68 00000006
+203CD60C 002B0000
+0037C344 00000005
+E0000000 80008000
+203CD60C 002C0000
+0037C344 00000004
+E0000000 80008000
+203CD60C 002D0000
+0037C344 00000004
+E0000000 80008000
+203CD60C 00000000
+0037C344 00000006
+E0000000 80008000
+203CD60C 00320000
+0037C344 00000004
+E0000000 80008000
+203CD60C 00480000
+0037C344 00000004
+E0000000 80008000
+
+First 6 Story Mode Beta Courses in AX-Mode [CosmoCortney]
+06212BAC 0000000C
+005B005C 005D005E
+005F0060 00000000
+E0000000 80008000
+02216C68 00000006
+203CD60C 00600000
+0037C344 00000005
+E0000000 80008000
+203CD60C 005B0000
+0037C344 00000001
+E0000000 80008000
+203CD60C 005C0000
+0037C344 00000005
+E0000000 80008000
+203CD60C 005D0000
+0037C344 00000001
+E0000000 80008000
+203CD60C 005E0000
+0037C344 00000001
+E0000000 80008000
+203CD60C 005F0000
+0037C344 00000001
+E0000000 80008000
+* nothing is displayed where you usually see the minimaps and course names. if you do not press the main stick to left or right, you will play on 2nd Chapter's Beta Track. Press Main Stick right for one time to select 3rd Chapter's Beta Track. 2 times right for 4th Chapter's Beta Track. 3 times right for 5th Chapters Beta Track. 4 times right for 6th Chapter's Beta Track. 5 times right for 7th Chapters Beta Track.
+Chapter one has no Beta Track.
+
+Last 2 Story Mode Beta Courses in AX-Mode [CosmoCortney]
+06212BAC 0000000C
+00610062 006E0066
+0067006C 00000000
+E0000000 80008000
+02216C68 00000006
+203CD60C 00610000
+0037C344 00000004
+E0000000 80008000
+203CD60C 00620000
+0037C344 00000004
+E0000000 80008000
+203CD60C 00660000
+0037C344 00000006
+E0000000 80008000
+* nothing is displayed where you usually see the minimaps and course names. if you do not press the main stick to left or right, you will play on 28th Chapter's Beta Track. Press Main Stick right for one time to select 9th Chapter's Beta Track. 2 times right for a Beta Track of Mute City Twist Road.
+Chapter one has no Beta Track.
+* Note for All AX-Cup Modifiers: The Tracks are changed by editing its LUT. This way is used to define the number of laps aswell. But if a Course's value in the LUT is changed, the game sets the number of laps to 128. So i had to modify the number of laps by if-conditionals. Luckilly it works flawless. Unfortunetly the timer is totally messed up, because the static value for the timer is stored in a LUT, too and won't be loaded aswell. So i recommand you to use the infinite time cheat! I hope this can be fixed somehow.

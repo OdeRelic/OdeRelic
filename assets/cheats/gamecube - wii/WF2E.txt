@@ -1,0 +1,33 @@
+WF2E
+Final Fantasy Crystal Chronicles My Life as a Darklord
+
+Hold B and Press Up on D-Pad for +5000 NP [GMO]
+2834CC3C 00000408
+02C12878 00001388
+E0000000 80008000
+
+Max NP [GMO]
+02C249E2 0000270F
+DLC Add-on Content
+
+5000+ Karma After Battle (Defeat Bonus) [GMO]
+02C6AFC2 00001388
+
+5000+ Karma After Battle (Defeat Bonus) [GMO]
+02C7D12A 00001388
+DLC Add-On Content
+
+Max NP [Skiller]
+28C12878 00000000
+04C12878 0000270F
+E0000000 00000000
+
+Max Karma [Skiller]
+28C12878 00000000
+04C12870 0000270F
+E0000000 00000000
+
+First Hero Always Enters [Skiller]
+045DB558 00000001
+04C6AFA0 00000001
+Work with Orignal With No DLC added

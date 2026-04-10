@@ -1,0 +1,45 @@
+FESP
+Clu Clu Land
+
+Unlimited Lives [Crapulecorp]
+0036A480 00000009
+
+Time Stop (Press B ON/OFF) [Crapulecorp]
+281AEF0A FBFF0400
+CC000000 00000000
+0236A42E 0000099A
+E0000000 80008000
+*WiiMote*
+*Code ported from ZiT Ntsc Jap Version*
+
+Invincible (Press - Button ON/OFF) [Crapulecorp]
+281AEF0A EFFF1000
+CC000000 00000000
+0036A490 00000000
+E0000000 80008000
+*WiiMote*
+*Code ported from ZiT Ntsc Jap Version*
+
+Time Stop (Press ZL ON/OFF) [Crapulecorp]
+281AEF6A FF7F0080
+CC000000 00000000
+0236A42E 0000099A
+E0000000 80008000
+*Classic Controller*
+*Code ported from ZiT Ntsc Jap Version*
+
+Invincible (Press ZR ON/OFF) [Crapulecorp]
+281AEF6A FFFB0004
+CC000000 00000000
+0036A490 00000000
+E0000000 80008000
+*Classic Controller*
+*Code ported from ZiT Ntsc Jap Version*
+
+Button Activator
+
+WiiMote [Crapulecorp]
+281AEF0A YYYYZZZZ
+
+Classic Controller [Crapulecorp]
+281AEF6A YYYYZZZZ

@@ -1,0 +1,11 @@
+GDFE5D
+Defender 
+
+Infinite Credits
+04358E48 000F423F
+
+Infinite Lives
+02358E46 00000063
+
+All Space Ships
+04358DE0 0000003F

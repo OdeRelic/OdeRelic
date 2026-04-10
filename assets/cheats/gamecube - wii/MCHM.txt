@@ -1,0 +1,11 @@
+MCHM
+MUSHA
+
+Have 3 way Gun [GMO]
+00EE0C89 00000059
+
+Unlimited Shield [GMO]
+02EE0C8E 00000302
+
+Unlimited Lives [GMO]
+00EE0C93 00000063

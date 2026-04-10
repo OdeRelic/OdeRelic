@@ -1,0 +1,57 @@
+GR9E6L
+Reign of Fire
+
+Have Award Mods
+
+Bullfight [Hells Guardian]
+001A96BB 0000000X
+
+Ashes To Ashes [Hells Guardian]
+001A96BF 0000000X
+
+London’s Burning [Hells Guardian]
+001A96B7 0000000X
+
+Storm Front [Hells Guardian]
+001A96AF 0000000X
+
+Origin Of Species [Hells Guardian]
+001A96B3 0000000X
+
+Firefight [Hells Guardian]
+001A96AB 0000000X
+
+Fallen Angels [Hells Guardian]
+001A96A7 0000000X
+
+Into The Breach [Hells Guardian]
+001A96A3 0000000X
+
+Basic Training [Hells Guardian]
+001A969F 0000000X
+
+Apocalypse [Hells Guardian]
+001A96DF 0000000X
+
+Bitter Harvest [Hells Guardian]
+001A96D7 0000000X
+
+Slipping The Net [Hells Guardian]
+001A96D3 0000000X
+
+Retribution [Hells Guardian]
+001A96CF 0000000X
+
+Terminus [Hells Guardian]
+001A96CB 0000000X
+
+The Tower [Hells Guardian]
+001A96C7 0000000X
+
+Proving Grounds [Hells Guardian]
+001A96C3 0000000X
+
+Miscellaneous Codes
+
+Open All Missions [Hells Guardian]
+041A958C 0002FFFF

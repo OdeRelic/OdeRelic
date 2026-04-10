@@ -1,0 +1,35 @@
+GUNE5D
+Gauntlet Dark Legacy 
+
+Player 1 health 9999
+04277374 461C3C00
+
+Player 1 infinite keys
+04277378 00000063
+
+Player 1 tons of cash
+04277384 461C3C00
+
+Player 2 health 9999
+0427A6D0 461C3C00
+
+Player 2 infinite keys
+0427A6D4 00000063
+
+Player 2 tons of cash
+0427A6E0 461C3C00
+
+Player 3 health 9999
+0427DA2C 461C3C00
+
+Player 3 infinite keys
+0427DA30 00000063
+
+Player 3 tons of cash
+0427DA3C 461C3C00
+
+Player 4 health 9999
+04280D88 461C3C00
+
+Player 4 infinite keys
+04280D8C 00000063

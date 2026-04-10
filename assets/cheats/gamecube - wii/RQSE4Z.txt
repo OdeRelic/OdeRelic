@@ -1,0 +1,17 @@
+RQSE4Z
+Pinball Hall of Fame
+
+Infinite balls [Sharkbyte]
+282CC840 00000001
+001A77D7 00000002
+E0000000 80008000
+press left to add more
+
+100 tokens [Sharkbyte]
+041AA78C 00000064
+
+score modifier [Sharkbyte]
+041A77C4 000XXXXX
+XXXXX = Score Value
+(ex 7A120 = 500,000)
+(ex F423F = 999,999)

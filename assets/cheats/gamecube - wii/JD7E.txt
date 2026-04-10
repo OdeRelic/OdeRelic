@@ -1,0 +1,14 @@
+JD7E
+Super Adventure Island
+
+Unlimited Lives [GMO]
+00467435 00000005
+
+Unlimited Time [GMO]
+00467E94 00000010
+
+Disable Timer [GMO]
+00467E95 00000000
+
+Have Max Weapon Upgrades [GMO]
+00467EA4 00000004

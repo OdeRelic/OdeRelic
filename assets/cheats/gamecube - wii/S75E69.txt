@@ -1,0 +1,40 @@
+S75E69
+Monopoly Streets
+
+Player 1 Lots of Money [Skiller]
+C2187534 00000004
+2D1B0000 408A0010
+3DC005F5 61CEE0FF
+91C309C8 83E309C8
+60000000 00000000
+Take note that i can mod the first code to any character .. by changing this line 2D1B00?? (00 = P1 , 04 = P2, 08 = P3, 0C = P4)
+
+Give All other Players 0 Money [Skiller]
+C2019FB0 00000005
+81C309C8 2D8E0000
+418E0018 2D1B0000
+418A0010 3DC00000
+61CE0000 91C309C8
+806309C8 00000000
+
+Goto Store to Get Max Profile Money [Skiller]
+C20C98D0 00000002
+3C0005F5 6000E0FF
+9003444C 00000000
+
+Spending Profile Money (Gain) [Skiller]
+040C9930 7C002214
+
+Player 1 Always Doubles . (6+6) [Skiller]
+C20F52D0 00000003
+2D1A0000 408A000C
+38A00006 38800006
+90A30008 00000000
+Code can Be changed to other players By changing 2D1A00?? (00 - P1, 01 - P2, 02 - P3, 03 - P4)
+
+Player 1 Dont Lose/Goto Jail with to many doubles [Skiller]
+C2188BC0 00000003
+2D1B0000 408A000C
+38000000 900309F4
+900309C4 00000000
+Code can Be changed to other players By changing 2D1B00?? (00 - P1, 01 - P2, 02 - P3, 03 - P4)

@@ -1,0 +1,71 @@
+R42E69
+The Sims 2: Castaway
+
+Enable all Plans [TNTkryzt]
+005D7B74 00000001
+
+Maximum Motives [TNTkryzt]
+0412306C 40810004
+0415580C 60000000
+0412301C 40810004
+040C9080 60000000
+04123044 40810004
+041558B4 60000000
+04155E08 60000000
+
+Max Item Upon Pickup [TNTkryzt]
+0411DCF8 60000000
+
+Craft Items From Nothing [TNTkryzt]
+041EE898 38800000
+041EE8A4 93590008
+
+Maximum Relationship [TNTkryzt]
+077FCF18 00000010
+7C6B1B78 38600064
+906B0000 4A8DA6FC
+040D761C 497258FC
+
+Maximize Skill/Personality Enable Code [TNTkryzt]
+077FCF00 00000018
+5480083C 7C630214
+396003E8 B163006C
+A863006C 4E800020
+(Use with Skills/Personality codes)
+
+Skills: (Use with Maximize Skill/Personality Enable Code)
+
+Cooking [TNTkryzt]
+041A4320 49658BE1
+
+Body [TNTkryzt]
+041A42CC 49658C35
+
+Mechanical [TNTkryzt]
+041A43C0 49658B41
+
+Logic [TNTkryzt]
+041A4398 49658B69
+
+Charisma [TNTkryzt]
+041A42F8 49658C09
+
+Creativity [TNTkryzt]
+041A4370 49658B91
+
+Personality: (Use with Maximize Skill/Personality Enable Code)
+
+Neat [TNTkryzt]
+041A44D0 49658A31
+
+Outgoing [TNTkryzt]
+041A4494 49658A6D
+
+Active [TNTkryzt]
+041A44E4 49658A1D
+
+Playful [TNTkryzt]
+041A44BC 49658A45
+
+Nice [TNTkryzt]
+041A44A8 49658A59

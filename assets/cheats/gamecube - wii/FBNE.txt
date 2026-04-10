@@ -1,0 +1,45 @@
+FBNE
+Ninja Gaiden
+
+Miscellaneous Codes
+
+Invincible [GMO]
+003F06B5 00000025
+Need to be Hit 1 time to activate
+
+1-Hit Kill (Bosses) [GMO]
+003F0AB7 00000000
+
+Disable Timer [GMO]
+003F0682 00000020
+
+Special Item Modifier [GMO]
+003F06E9 000000??
+
+00 Nothing
+81 Throwing Star
+80 Fire Wheel
+82 Windwill Throwing Star
+83 Time Freeze (Icon)
+84 Fire Shield (Add BA to constantly use)
+85 Hack & Slash Technique
+
+Press Z(Right) to Refill Health & Specials [GMO]
+281E0D32 00000004
+003F0684 00000063
+003F0685 00000010
+E0000000 80008000
+
+Press (-) to Refill Health & Specials [GMO]
+281E0D32 00001000
+003F0684 00000063
+003F0685 00000010
+E0000000 80008000
+
+Time @ 150 Seconds [Arudo]
+003F0683 00000096
+
+99 Lives [Arudo]
+003F0696 00000063
+
+Make sure you turn off the Ninja Power and Time codes when you beat a boss... or the game will go on infinitely.

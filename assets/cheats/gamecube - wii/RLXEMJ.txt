@@ -1,0 +1,19 @@
+RLXEMJ
+Luxor: Pharaoh's Challenge
+
+Score 999,999 [farjo08]
+043BE8D8 000F423F
+
+100% Accuracy [farjo08]
+043BE8E0 42C80000
+
+Bonus 100,000 [farjo08]
+043be8de 000186A0
+
+99 Coins [farjo08]
+023BE912 00000063
+
+99 Ankhs [farjo08]
+023BE916 00000063
+
+Note: The values for score, bonus, coins and ankhs can be changed to whatever you like. These are in hex, so make sure to use a decimal to hex calculator if you plan on modifying those codes. Also, the score, ankhs and coins will reset to the code values at the beginning of each new level. When you bring up the stats screen during a level, it doesn't read the memory addresses, so it appears to be storing / caching that information somewhere else. But if any increase, you will then see them increase.

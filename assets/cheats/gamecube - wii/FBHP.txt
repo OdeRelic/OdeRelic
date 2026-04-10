@@ -1,0 +1,11 @@
+FBHP
+Castlevania
+
+99 Hearts [ninjor]
+003C7291 00000063
+
+max Whip [ninjor]
+003C7290 00000002
+
+infinite Health [ninjor]
+023C7264 00004040

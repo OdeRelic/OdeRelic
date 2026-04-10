@@ -1,0 +1,8 @@
+EAKE
+Burning Fight
+
+Unlimited Time [GMO]
+002229EA 00000060
+
+P1 Unlimited Health [GMO]
+00215C09 000000FF

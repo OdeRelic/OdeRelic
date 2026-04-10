@@ -1,0 +1,8 @@
+GGRE41
+Ghost Recon 1 
+
+Infinite Ammo
+04178B2C 38030000
+
+Great Accuracy While Shooting
+043678A4 60000000

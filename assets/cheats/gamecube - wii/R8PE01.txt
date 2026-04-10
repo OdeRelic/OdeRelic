@@ -1,0 +1,866 @@
+R8PE01
+Super Paper Mario
+
+Speed mod [Clay10]
+044CD5BC 41000000
+Default is 3F800000
+
+Giant people [Clay10]
+044CD514 400000FF
+044CD518 400000FF
+
+No pixels [Clay10]
+084CD0B4 00000000
+20010004 00000000
+084CD400 00000000
+20010004 00000000
+
+Invincible enemies [zeldazelda]
+041C6160 38000002
+
+Enemies die in one hit. [zeldazelda]
+041C6160 38000000
+
+Invincible Mario: [zeldazelda]
+044CD4A0 441C0000
+
+Infinite mega star time: [zeldazelda]
+044CD840 441C0000
+
+Unlimited 3D Gauge [GMO]
+C214C500 00000002
+3860000A 907F0014
+60000000 00000000
+
+Unlimited Coins [GMO]
+C214CAAC 00000002
+380003E7 9004001C
+60000000 00000000
+
+Free Shop Items [GMO]
+007B68CB 00000000
+
+Hover in Mid Air [Mathew_Wi]
+284E966E FBFF0400
+044CD4B8 4348199A
+E0000000 80008000
+Hold B to hover at a specific height
+Currently in testing
+Change 4348199A to something larger to hover at a higher height
+
+Unlock All Cards [Full Metal Kirby]
+084CED50 FFFFFFFF
+20070004 00000000
+Use with the Have 255 of Every Card code.
+
+Have 255 of Every Card [Full Metal Kirby]
+084CEB34 FFFFFFFF
+203F0004 00000000
+
+Have All Recipies [Full Metal Kirby]
+084ced44 FFFFFFFF
+20020004 00000000
+
+Have All Maps [Full Metal Kirby]
+044CED34 FFFFFFFF
+024CED3A 0000FFFF
+
+Activate Merlee's Item Roulette Spell at Will [Full Metal Kirby]
+284E5FB6 00000600
+004CED77 00000000
+E0000000 80008000
+Press B and 1 to activate.
+Might activate twice if held too long.
+
+File 1: Name Modifier [Full Metal Kirby]
+04AA3AE8 ssttuuvv
+04AA3AEC wwxxyyzz
+ss = Letter 1
+tt = Letter 2
+etc
+
+File 2: Name Modifier [Full Metal Kirby]
+04AA60A0 ssttuuvv
+04AA60A4 wwxxyyzz
+ss = Letter 1
+tt = Letter 2
+etc
+
+File 3: Name Modifier [Full Metal Kirby]
+04AA8658 ssttuuvv
+04AA865C wwxxyyzz
+ss = Letter 1
+tt = Letter 2
+etc
+
+File 4: Name Modifier [Full Metal Kirby]
+04AAAC10 ssttuuvv
+04AAAC14 wwxxyyzz
+ss = Letter 1
+tt = Letter 2
+etc
+
+New Name Modifier [Full Metal Kirby]
+044D0698 ssttuuvv
+044D069C wwxxyyzz
+ss = Letter 1
+tt = Letter 2
+etc
+
+Infinite Time In 3D Mode [shark2003]
+044CEA3E 0000000A
+
+Infinite Time in 100 Trials [shark2003]
+044D0E08 000000FF
+
+Key Item Modifier
+
+Key Item 1 Modifier [Full Metal Kirby]
+024CEA48 00000xxx
+<!--!include:Key Item List-->
+
+Key Item 2 Modifier [Full Metal Kirby]
+024CEA4A 00000xxx
+<!--!include:Key Item List-->
+
+Key Item 3 Modifier [Full Metal Kirby]
+024CEA4C 00000xxx
+<!--!include:Key Item List-->
+
+Key Item 4 Modifier [Full Metal Kirby]
+024CEA4E 00000xxx
+<!--!include:Key Item List-->
+
+Key Item 5 Modifier [Full Metal Kirby]
+024CEA50 00000xxx
+<!--!include:Key Item List-->
+
+Key Item 6 Modifier [Full Metal Kirby]
+024CEA52 00000xxx
+<!--!include:Key Item List-->
+
+Key Item 7 Modifier [Full Metal Kirby]
+024CEA54 00000xxx
+<!--!include:Key Item List-->
+
+Key Item 8 Modifier [Full Metal Kirby]
+024CEA56 00000xxx
+<!--!include:Key Item List-->
+
+Key Item 9 Modifier [Full Metal Kirby]
+024CEA58 00000xxx
+<!--!include:Key Item List-->
+
+Key Item 10 Modifier [Full Metal Kirby]
+024CEA5A 00000xxx
+<!--!include:Key Item List-->
+
+Key Item 11 Modifier [Full Metal Kirby]
+024CEA5C 00000xxx
+<!--!include:Key Item List-->
+
+Key Item 12 Modifier [Full Metal Kirby]
+024CEA5E 00000xxx
+<!--!include:Key Item List-->
+
+Key Item 13 Modifier [Full Metal Kirby]
+024CEA60 00000xxx
+<!--!include:Key Item List-->
+
+Key Item 14 Modifier [Full Metal Kirby]
+024CEA62 00000xxx
+<!--!include:Key Item List-->
+
+Key Item 15 Modifier [Full Metal Kirby]
+024CEA64 00000xxx
+<!--!include:Key Item List-->
+
+Key Item 16 Modifier [Full Metal Kirby]
+024CEA66 00000xxx
+<!--!include:Key Item List-->
+
+Key Item 17 Modifier [Full Metal Kirby]
+024CEA68 00000xxx
+<!--!include:Key Item List-->
+
+Key Item 18 Modifier [Full Metal Kirby]
+024CEA6A 00000xxx
+<!--!include:Key Item List-->
+
+Key Item 19 Modifier [Full Metal Kirby]
+024CEA6C 00000xxx
+<!--!include:Key Item List-->
+
+Key Item 20 Modifier [Full Metal Kirby]
+024CEA6E 00000xxx
+<!--!include:Key Item List-->
+
+Key Item 21 Modifier [Full Metal Kirby]
+024CEA70 00000xxx
+<!--!include:Key Item List-->
+
+Key Item 22 Modifier [Full Metal Kirby]
+024CEA72 00000xxx
+<!--!include:Key Item List-->
+
+Key Item 23 Modifier [Full Metal Kirby]
+024CEA74 00000xxx
+<!--!include:Key Item List-->
+
+Key Item 24 Modifier [Full Metal Kirby]
+024CEA76 00000xxx
+<!--!include:Key Item List-->
+
+Key Item 25 Modifier [Full Metal Kirby]
+024CEA78 00000xxx
+<!--!include:Key Item List-->
+
+Key Item 26 Modifier [Full Metal Kirby]
+024CEA7A 00000xxx
+<!--!include:Key Item List-->
+
+Key Item 27 Modifier [Full Metal Kirby]
+024CEA7C 00000xxx
+<!--!include:Key Item List-->
+
+Key Item 28 Modifier [Full Metal Kirby]
+024CEA7E 00000xxx
+<!--!include:Key Item List-->
+
+Key Item 29 Modifier [Full Metal Kirby]
+024CEA80 00000xxx
+<!--!include:Key Item List-->
+
+Key Item 30 Modifier [Full Metal Kirby]
+024CEA82 00000xxx
+<!--!include:Key Item List-->
+
+Key Item 31 Modifier [Full Metal Kirby]
+024CEA84 00000xxx
+<!--!include:Key Item List-->
+
+Key Item 32 Modifier [Full Metal Kirby]
+024CEA86 00000xxx
+<!--!include:Key Item List-->
+
+Item Modifier
+
+Item 1 Modifier [Full Metal Kirby]
+024CEA88 00000xxx
+<!--!include:Normal Item List-->
+
+Item 2 Modifier [Full Metal Kirby]
+024CEA8A 00000xxx
+<!--!include:Normal Item List-->
+
+Item 3 Modifier [Full Metal Kirby]
+024CEA8C 00000xxx
+<!--!include:Normal Item List-->
+
+Item 4 Modifier [Full Metal Kirby]
+024CEA8E 00000xxx
+<!--!include:Normal Item List-->
+
+Item 5 Modifier [Full Metal Kirby]
+024CEA90 00000xxx
+<!--!include:Normal Item List-->
+
+Item 6 Modifier [Full Metal Kirby]
+024CEA92 00000xxx
+<!--!include:Normal Item List-->
+
+Item 7 Modifier [Full Metal Kirby]
+024CEA94 00000xxx
+<!--!include:Normal Item List-->
+
+Item 8 Modifier [Full Metal Kirby]
+024CEA96 00000xxx
+<!--!include:Normal Item List-->
+
+Item 9 Modifier [Full Metal Kirby]
+024CEA98 00000xxx
+<!--!include:Normal Item List-->
+
+Item 10 Modifier [Full Metal Kirby]
+024CEA9A 00000xxx
+<!--!include:Normal Item List-->
+
+Stored Item Modifier
+
+Stored Item 1 Modifier [Full Metal Kirby]
+024CEA9C 00000xxx
+<!--!include:Normal Item List-->
+
+Stored Item 2 Modifier [Full Metal Kirby]
+024CEA9E 00000xxx
+<!--!include:Normal Item List-->
+
+Stored Item 3 Modifier [Full Metal Kirby]
+024CEAA0 00000xxx
+<!--!include:Normal Item List-->
+
+Stored Item 4 Modifier [Full Metal Kirby]
+024CEAA2 00000xxx
+<!--!include:Normal Item List-->
+
+Stored Item 5 Modifier [Full Metal Kirby]
+024CEAA4 00000xxx
+<!--!include:Normal Item List-->
+
+Stored Item 6 Modifier [Full Metal Kirby]
+024CEAA6 00000xxx
+<!--!include:Normal Item List-->
+
+Stored Item 7 Modifier [Full Metal Kirby]
+024CEAA8 00000xxx
+<!--!include:Normal Item List-->
+
+Stored Item 8 Modifier [Full Metal Kirby]
+024CEAAA 00000xxx
+<!--!include:Normal Item List-->
+
+Stored Item 9 Modifier [Full Metal Kirby]
+024CEAAC 00000xxx
+<!--!include:Normal Item List-->
+
+Stored Item 10 Modifier [Full Metal Kirby]
+024CEAAE 00000xxx
+<!--!include:Normal Item List-->
+
+Stored Item 11 Modifier [Full Metal Kirby]
+024CEAB0 00000xxx
+<!--!include:Normal Item List-->
+
+Stored Item 12 Modifier [Full Metal Kirby]
+024CEAB2 00000xxx
+<!--!include:Normal Item List-->
+
+Stored Item 13 Modifier [Full Metal Kirby]
+024CEAB4 00000xxx
+<!--!include:Normal Item List-->
+
+Stored Item 14 Modifier [Full Metal Kirby]
+024CEAB6 00000xxx
+<!--!include:Normal Item List-->
+
+Stored Item 15 Modifier [Full Metal Kirby]
+024CEAB8 00000xxx
+<!--!include:Normal Item List-->
+
+Stored Item 16 Modifier [Full Metal Kirby]
+024CEABA 00000xxx
+<!--!include:Normal Item List-->
+
+Stored Item 17 Modifier [Full Metal Kirby]
+024CEABC 00000xxx
+<!--!include:Normal Item List-->
+
+Stored Item 18 Modifier [Full Metal Kirby]
+024CEABE 00000xxx
+<!--!include:Normal Item List-->
+
+Stored Item 19 Modifier [Full Metal Kirby]
+024CEAC0 00000xxx
+<!--!include:Normal Item List-->
+
+Stored Item 20 Modifier [Full Metal Kirby]
+024CEAC2 00000xxx
+<!--!include:Normal Item List-->
+
+Stored Item 21 Modifier [Full Metal Kirby]
+024CEAC4 00000xxx
+<!--!include:Normal Item List-->
+
+Stored Item 22 Modifier [Full Metal Kirby]
+024CEAC6 00000xxx
+<!--!include:Normal Item List-->
+
+Stored Item 23 Modifier [Full Metal Kirby]
+024CEAC8 00000xxx
+<!--!include:Normal Item List-->
+
+Stored Item 24 Modifier [Full Metal Kirby]
+024CEACA 00000xxx
+<!--!include:Normal Item List-->
+
+Stored Item 25 Modifier [Full Metal Kirby]
+024CEACC 00000xxx
+<!--!include:Normal Item List-->
+
+Stored Item 26 Modifier [Full Metal Kirby]
+024CEACE 00000xxx
+<!--!include:Normal Item List-->
+
+Stored Item 27 Modifier [Full Metal Kirby]
+024CEAD0 00000xxx
+<!--!include:Normal Item List-->
+
+Stored Item 28 Modifier [Full Metal Kirby]
+024CEAD2 00000xxx
+<!--!include:Normal Item List-->
+
+Stored Item 29 Modifier [Full Metal Kirby]
+024CEAD4 00000xxx
+<!--!include:Normal Item List-->
+
+Stored Item 30 Modifier [Full Metal Kirby]
+024CEAD6 00000xxx
+<!--!include:Normal Item List-->
+
+Stored Item 31 Modifier [Full Metal Kirby]
+024CEAD8 00000xxx
+<!--!include:Normal Item List-->
+
+Stored Item 32 Modifier [Full Metal Kirby]
+024CEADA 00000xxx
+<!--!include:Normal Item List-->
+
+Character Modifier
+
+Character 1 Modifier [Full Metal Kirby]
+024CEADE 00000xxx
+<!--!include:Character List-->
+
+Character 2 Modifier [Full Metal Kirby]
+024CEAE2 00000xxx
+<!--!include:Character List-->
+
+Character 3 Modifier [Full Metal Kirby]
+024CEAE6 00000xxx
+<!--!include:Character List-->
+
+Character 4 Modifier [Full Metal Kirby]
+024CEAEA 00000xxx
+<!--!include:Character List-->
+
+Pixl Modifier
+
+Pixel 1 Modifier [Full Metal Kirby]
+044CEAEE 01000xxx
+<!--!include:Pixl List-->
+
+Pixl 2 Modifier [Full Metal Kirby]
+044CEAF2 01000xxx
+<!--!include:Pixl List-->
+
+Pixl 3 Modifier [Full Metal Kirby]
+044CEAF6 01000xxx
+<!--!include:Pixl List-->
+
+Pixl 4 Modifier [Full Metal Kirby]
+044CEAFA 01000xxx
+<!--!include:Pixl List-->
+
+Pixl 5 Modifier [Full Metal Kirby]
+044CEAFE 01000xxx
+<!--!include:Pixl List-->
+
+Pixl 6 Modifier [Full Metal Kirby]
+044CEB02 01000xxx
+<!--!include:Pixl List-->
+
+Pixl 7 Modifier [Full Metal Kirby]
+044CEB06 01000xxx
+<!--!include:Pixl List-->
+
+Pixl 8 Modifier [Full Metal Kirby]
+044CEB0A 01000xxx
+<!--!include:Pixl List-->
+
+Pixl 9 Modifier [Full Metal Kirby]
+044CEB0E 01000xxx
+<!--!include:Pixl List-->
+
+Pixl 10 Modifier [Full Metal Kirby]
+044CEB12 01000xxx
+<!--!include:Pixl List-->
+
+Pixl 11 Modifier [Full Metal Kirby]
+044CEB16 01000xxx
+<!--!include:Pixl List-->
+
+Pixl 12 Modifier (Unused Pixl Spot) [Full Metal Kirby]
+044CEB16 01000xxx
+<!--!include:Pixl List-->
+
+Pixl 13 Modifier (Unused Pixl Spot) [Full Metal Kirby]
+044CEB16 01000xxx
+<!--!include:Pixl List-->
+
+Pixl 14 Modifier (Unused Pixl Spot) [Full Metal Kirby]
+044CEB16 01000xxx
+<!--!include:Pixl List-->
+
+Pixl 15 Modifier (Unused Pixl Spot) [Full Metal Kirby]
+044CEB16 01000xxx
+<!--!include:Pixl List-->
+
+Pixl 16 Modifier (Unused Pixl Spot) [Full Metal Kirby]
+044CEB16 01000xxx
+<!--!include:Pixl List-->
+
+Comment Area (No More Codes)
+
+Key Item List
+--- Replace xxx with a following value(s) ---
++ Cooking Disks
+03C - Cooking Disk B
+03D - Cooking Disk G
+03F - Cooking Disk PI
+03E - Cooking Disk PU
+039 - Cooking Disk R
+03B - Cooking Disk Y
+03A - Cooking Disk W
+-
++ Keys
+02E - Castle Bleck Key
+021 - Cave Key
+022 - Cave Key
+023 - Card Key
+01B - Dimension Key
+01C - Dimension Key
+01D - Dimension Key
+011 - Door Key
+01A - Door Key
+025 - Door Key
+026 - Door Key
+028 - Door Key
+031 - Door Key
+013 - Fort Key
+014 - Fort Key
+015 - Fort Key
+012 - House Key
+02F - Old Key
+02C - Pit Key
+030 - Pit Key
+038 - Random House Key
+010 - Ruins Key
+-
++ Orbs
+029 - Blue Orb
+02B - Red Orb
+02A - Yellow Orb
+-
++ Other
+019 - Ancient Clue
+037 - Autograph
+033 - Crystal Ball
+027 - Diet Book
+024 - Floro Sprout
+040 - Golden Card
+016 - Goldfish Bowl (With Goldfish)
+017 - Goldfish Bowl
+018 - Helmet
+036 - Paper
+034 - Training Machine
+032 - Return Pipe
+035 - You-Know-What
+-
++ Tablets
+020 - Fire Tablet
+01F - Stone Tablet
+01E - Water Tablet
+
+Unavailable Item List
+--- Replace xxx with a following value(s) ---
+001 - Picture of a Coin
+--- Does nothing
+002 - Picture of a Coin
+--- Does nothing
+003 - Picture of a Red Flower
+--- Gives 1000 Points
+004 - Picture of a Blue Flower
+--- Gives 1000 Points
+005 - Picture of a FP Flower
+--- Gives 1000 Points
+006 - Picture of a Mushroom
+--- Gives 10 HP and 1000 Points
+007 - Picture of a Blue Mushroom
+--- Gives 20 HP and 1000 Points
+008 - Picture of a Green Mushroom
+--- Gives 50 HP and 1000 Points
+009 - Picture of Mario Buddies
+--- Gives 1000 Points
+00A - Picture of a Starman
+--- Gives 1000 Points
+00B - Picture of a Yellow Candy Bar
+--- Does nothing
+00C - Picture of a Red Candy Bar
+--- Does nothing
+00D - Picture of a Green Candy Bar
+--- Does nothing
+00E - Picture of a Purple Candy Bar
+--- Does nothing
+00F - Picture of a Blue Candy Bar
+--- Does nothing
+02D - Picture of a Peach
+--- Does nothing
+0E8 - Picture of Pointer Finger
+--- Does nothing
+0E9 - Card Bag
+--- Does nothing?
+
+Normal Item List
+--- Replace xxx with a following value(s) ---
++ Apple Items
+05F - Black Apple
+05B - Blue Apply
+05E - Pink Apple
+05D - Red Apple
+05C - Yellow Apple
+-
++ Battle Items
+049 - Block Block
+0CE - Block Meal
+04A - Courage Shell
+0A0 - Egg Bomb
+097 - Electro Pop
+041 - Fire Burst
+042 - Ice Storm
+0D6 - Megaton Dinner
+0A3 - Meteor Meal
+04B - Mighty Tonic
+045 - POW Block
+046 - Shell Shock
+044 - Shooting Star
+04E - Sleepy Sleep
+043 - Thunder Rage
+-
++ Cake/Pastry Items
+069 - Cake Mix
+086 - Chocolate Cake
+091 - Couple's Cake
+0CA - Fruity Cake
+0B4 - Gingerbread House
+087 - Heartful Cake
+08A - Horsetail Tart
+088 - Mousse
+084 - Mushroom Crepe
+089 - Peach Tart
+08B - Sweet Cookie Snack
+-
++ Chocolate Items
+0C3 - Choco Pasta Dish
+07A - Golden Choco-bar
+0D7 - Lovely Chocolate
+077 - Mild Cocoa Bean
+0C9 - Standard Chocolate
+078 - Sweet Choco-bar
+0B1 - Warm Cocoa
+-
++ DoNotWant Items
+0AD - Dangerous Delight
+0AF - Mistake
+0B0 - Mistake (Sleep Sheep)
+0AE - Trial Stew
+-
++ Drink Items
+0CC - Fruity Punch
+098 - Herb Tea
+099 - Koopa Tea
+0D2 - Mango Juice
+0D4 - Mixed Shake
+0C8 - Peach Juice
+0C1 - Sky Juice
+0C2 - Stamina Juice
+-
++ Dyllis Items
+0BF - Dyllis Breakfast
+0AA - Dyllis Deluxe
+0A8 - Dyllis Dinner
+0A1 - Dyllis Dynamite
+0C0 - Dyllis Lunch
+0A9 - Dyllis Special
+-
++ Fruit/Veggie Items
+072 - Fresh Veggie
+067 - Golden Leaf
+0A7 - Healthy Salad
+065 - Keel Mango
+064 - Peachy Peach
+066 - Primordial Fruit
+073 - Smelly Herb
+068 - Turtley Leaf
+0CF - Veggie Set
+-
++ General Food Items
+0D1 - Awesome Snack
+076 - Big Egg
+071 - Bone-In Cut
+07C - Dayzee Syrup
+0AC - Emergency Ration
+06C - Fresh Pasta Bunch
+09F - Fried Egg
+092 - Fruit Parfait
+0CB - Fruity Hamburger
+0BB - Gorgeous Steak
+07B - Gradual Syrup
+0C7 - Hamburger
+096 - Honey Candy
+074 - Honey Jar
+082 - Honey Super
+06B - Horsetail
+0A6 - Hot Dog
+06D - Hot Sauce
+06E - Inky Sauce
+0B3 - Inky Soup
+08C - Koopa Dumpling
+0B6 - Koopa Pilaf
+055 - Long-Last Shake
+090 - Love Pudding
+0BD - Luxurious Set
+08F - Mango Pudding
+075 - Power Steak
+0C5 - Roast Horsetail
+0BE - Roast Whacka Bump
+08D - Sap Muffin
+070 - Sap Soup
+0C6 - Sap Syrup
+0AB - Space Food
+0A5 - Spicy Soup
+0A2 - Spit Roast
+08E - Town Special
+-
++ Meal Items
+0BC - Golden Meal
+0B9 - Heavy Meal
+09C - Ink Pasta Dish
+09D - Koopasta Dish
+09E - Love Noodle Dish
+0D3 - Meat Pasta Dish
+0D5 - Miracle Dinner
+0B2 - Odd Dinner
+0A4 - Omelette Plate
+0BA - Primordial Dinner
+09A - Spaghetti Plate
+0B7 - Spicy Dinner
+09B - Spicy Pasta Dish
+-
++ Other Items
+057 - Catch Card
+058 - Catch Card SP
+06F - Dayzee Tear
+047 - Gold Bar
+048 - Gold Bar x3
+061 - Gold Medal
+059 - HP Plus
+056 - Mystery Box
+05A - Power Plus
+07D - Slimy Extract
+060 - Star Medal
+04F - Stop Watch
+0D0 - Weird Extract
+06A - Whacka Bump
+-
++ Shroom Items
+053 - Dried Shroom
+07E - Fried Shroom Plate
+0CD - Fruity Shroom
+04D - Ghost Shroom
+081 - Honey Shroom
+054 - Life Shroom
+062 - Poison Shroom
+07F - Roast Shroom Dish
+083 - Shroom Broth
+085 - Shroom Cake
+079 - Shroom Choco-bar
+0C4 - Shroom Delicacy
+0B8 - Shroom Pudding
+050 - Shroom Shake
+080 - Shroom Steak
+063 - Slimy Shroom
+051 - Super Shroom Shake
+0B5 - Volcano Shroom
+04C - Volt Shroom
+052 - Ultra Shroom Shake
+-
++ Snow Items
+095 - Berry Snow Bunny
+093 - Snow Cone
+094 - Snow Bunny
+
+Character List
+--- Replace xxx with a following value(s) ---
+0D8 - Mario
+0D9 - Peach
+0DA - Bowser
+0DB - Luigi
+
+Pixl List
+--- Replace xxx with a following value(s) ---
+0E6 - Barry
+0DE - Boomer
+0E1 - Carrie
+0E3 - Cudge
+0E7 - Dashell
+0E4 - Dottie
+0E2 - Fleep
+0E5 - Piccolo
+0DF - Slim
+0DD - Thoreau
+0E0 - Thudley
+0DC - Tippi
+
+Map List
+--- Replace xxx with a following value(s) ---
+0EA - Map 1
+0EB - Map 2
+0EC - Map 3
+0ED - Map 4
+0EE - Map 5
+0EF - Map 6
+0F0 - Map 7
+0F1 - Map 8
+0F2 - Map 9
+0F3 - Map 10
+0F4 - Map 11
+0F5 - Map 12
+0F6 - Map 13
+0F7 - Map 14
+0F8 - Map 15
+0F9 - Map 16
+0FA - Map 17
+0FB - Map 18
+0FC - Map 19
+0FD - Map 20
+0FE - Map 21
+0FF - Map 22
+100 - Map 23
+101 - Map 24
+102 - Map 25
+103 - Map 26
+104 - Map 27
+105 - Map 28
+106 - Map 29
+107 - Map 30
+108 - Map 31
+109 - Map 32
+10A - Map 33
+10B - Map 34
+10C - Map 35
+10D - Map 36
+10E - Map 37
+10F - Map 38
+110 - Map 39
+111 - Map 40
+112 - Map 41
+113 - Map 42
+114 - Map 43
+115 - Map 44
+116 - Map 45
+117 - Map 46
+118 - Map 47
+119 - Map 48
+
+Health [PizzaBoy]
+024CEA36 000003E7
+024CEA3A 000003E7
+
+Coins [PizzaBoy]
+024CEA46 000003E7
+
+Exp / Max Level [PizzaBoy]
+044CEA40 05F5E0FF
+
+255 Attack [PizzaBoy]
+004CEA33 000000FF

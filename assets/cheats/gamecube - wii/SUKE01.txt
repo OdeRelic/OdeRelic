@@ -1,0 +1,595 @@
+SUKE01
+Kirby's Return to Dreamland
+
+The following codes *require* Metafortress protection fix (gameconfig.txt)
+
+Disable Metafortress protection
+*This is a gameconfig.txt file which holds "all" patches to disable the Metafortress protection. (subgames/normal mode/ending/sound test/theatre are 100% playable, there MIGHT be missed checks in extra mode/arenaex)
+*Please do NOT rehost this file since I will update it overtime if some offsets were missed (or were false hits).
+*http://crediar.no-ip.com/krtdcd.txt
+
+No Music [Stuff]
+0577B5A4 00000000
+
+Invisible Players [Stuff]
+044EB33C 48000028
+
+Warps are Visible(multiplayer) [Stuff]
+045324D8 60000000
+might not work with invisible players
+
+Infinite lvl3 Mic [Stuff]
+044D2178 60000000
+
+Infinite Hammer Throw [Stuff]
+0458A054 48000014
+
+Infinite Crash [Stuff]
+0459E4D8 48000018
+
+Sleepy Head [Stuff]
+0456F114 60000000
+Have to get hit or exit stage to loose sleep
+
+Can't lose Powers [Stuff]
+044DF564 60000000
+
+Can't drop Powers [Stuff]
+044D1EAC 60000000
+
+Keep Power at Black Star [Stuff]
+0453F6A8 60000000
+
+Guard Powers [Stuff]
+044D1BC0 4BFFF2B1
+2880D08A F7FF0800
+044D1BC0 60000000
+E0000000 80008000
+Hold A to prevent losing your power(Guard is now useful :D).
+Can also be used to to duplicate powers(Hold A and "release" power). This is very amusing.
+
+Infinite Stars [Seth@WiiPlaza]
+0450B4DC 328C0000
+
+Go Swimming (Press Minus) [Thomas83Lin]
+2880D08A EFFF1000
+041BDB70 88030001
+CC000000 00000001
+041BDB70 38000038
+E0000000 80008000
+*Changing 38000038 to 38000000 does the opposite No Swimming*
+
+Instant Invincibility v.2 [Thomas83Lin]
+C2502A54 00000002
+3BE00001 B3E3EFFC
+7C7F1B78 00000000
+*1-4 Player*
+
+All Level Emblems Collected [Bully@Wiiplaza]
+046DEC20 60000000
+*Non Permanent*
+*Credits to Thomas83Lin*
+
+All Level Emblems Collected [Bully@Wiiplaza]
+C26DEC18 00000002
+38000001 98030004
+60000000 00000000
+*Permanent*
+*Credits to Thomas83Lin*
+
+All Spheres Collected [Bully@Wiiplaza]
+04706E1C 60000000
+*Non Permanent*
+*Credits to Thomas83Lin*
+
+All Spheres Collected [Bully@Wiiplaza]
+C2706E14 00000002
+38000001 98030009
+60000000 00000000
+*Permanent*
+*Credits to Thomas83Lin*
+
+All Worlds Unlocked [Bully@Wiiplaza]
+C26E704C 00000002
+38000003 900300F4
+60000000 00000000
+*Permanent*
+*Credits to Thomas83Lin*
+
+All Worlds Unlocked [Bully@Wiiplaza]
+046E7054 60000000
+*Non Permanent*
+*Credits to Thomas83Lin*
+
+All Levels Unlocked [Bully@Wiiplaza]
+C2243A98 00000002
+39800001 99830008
+88630008 00000000
+*Permanent*
+*Credits to Thomas83Lin*
+
+Inf. Health [Bully@Wiiplaza]
+04502BD0 38800000
+044EB5F8 38800000
+
+Emo Kirby [Bully@Wiiplaza]
+C21E2230 00000002
+7FE3FB78 39800001
+B183000B 00000000
+*move and you get hit*
+
+Hardened Mode [Bully@Wiiplaza]
+04502BE0 38800000
+*No invulnerability time after hits*
+
+Daredevil Run [Bully@Wiiplaza]
+04502BD0 38807FFF
+*Get hit twice and you die*
+
+Instant Kill Bosses [Bully@Wiiplaza]
+04259C90 38807FFF
+
+Instant Invincibility [Bully@Wiiplaza]
+C21E2230 00000002
+7FE3FB78 39800001
+B183000C 00000000
+041E2284 60000000
+*Credits to Thomas83Lin*
+
+Time Stop #1 [Bully@Wiiplaza]
+0434A868 60000000
+*Challenge Mode Only*
+
+Time Stop #2 [Bully@Wiiplaza]
+041F0D74 60000000
+*Arena Mode*
+
+MAX Time [Bully@Wiiplaza]
+041F0D70 60000000
+*Arena Mode*
+*Sets clock to 99:59:99*
+
+Character Modifier [Bully@Wiiplaza]
+044E5954 3800000X
+*1-4 Players*
+*X Values*
+0=Pink Kirby
+1=yellow Kirby
+2=Blue Kirby
+3=Green Kirby
+4=Meta Knight
+5=King Dedede
+6=Waddle Dee
+*Credits to Thomas83Lin/Deathwolf*
+
+Inf. Lives [Bully@Wiiplaza]
+0450B39C 38800063
+
+Inf. Stars [Bully@Wiiplaza]
+0450B4D8 38000064
+
+Instant 1 Ups [Bully@Wiiplaza]
+0450B4E4 60000000
+
+Speed Modifier [Bully@Wiiplaza]
+041A31A0 3D80XXXX
+041A31A4 919F0010
+*XXXX = First 16 bits of a float*
+*Credits to Deathwolf*
+
+Inf. Super Abilities [Bully@Wiiplaza]
+044D2380 60000000
+
+Super Star Spew [Bully@Wiiplaza]
+04605F54 3800000A
+*Max sized super star will be spit out each time an enemy was absorbed*
+*Credits to g6flavor*
+
+Spit Inf. Super Stars [Bully@Wiiplaza]
+04606050 3800000A
+*Must absorb one enemy to take effect until area is switched*
+*For use with caution, may get stuck in a level because your mouth is filled*
+*Credits to g6flavor*
+
+Inf. Candy Power [Bully@Wiiplaza]
+044F06B4 38030000
+*Must collect a candy power item to take effect*
+
+Always Load Candy Power [Bully@Wiiplaza]
+C24F0550 00000003
+39800001 999F0011
+999F0014 881F0011
+60000000 00000000
+*Credits to g6flavor*
+
+Load Candy Power [Bully@Wiiplaza]
+C24F0550 00000005
+3D808080 618CD08A
+A18C0000 2C0CXXXX
+40820010 39800001
+999F0011 999F0014
+881F0011 00000000
+*Press your XXXX button activator before entering a new area to take effect*
+*Credits to g6flavor*
+
+Disable Wiimote Shaking [Bully@Wiiplaza]
+0406B194 60000000
+*Credits to Deathwolf*
+
+The following codes can be used *without* Metafortress protection fix
+
+P1 Character Modifier [Thomas83Lin]
+48000000 809ED104
+DE000000 81008180
+14000068 0000000x
+E0000000 80008000
+*Some Credits to Deathwolf*
+*X=1-6*
+
+P1 Character Roller [Thomas83Lin]
+4E00000C 00000000
+2880D08A F7EF0810
+CC000000 00000001
+14000000 00000003
+48000000 809ED104
+DE000000 81008180
+92210001 00000068
+86000001 00000001
+94210001 00000068
+34000068 00000006
+14000068 00000000
+E0000000 80008000
+*Some Credits to Deathwolf*
+*Hold A and Press Plus to Roll once*
+*Requires a Level Reload*
+*Uses Gecko Register 1*
+
+Instant Invincibility [Thomas83Lin]
+48000000 80DC6DF4
+DE000000 81008180
+5A010000 FFFFF944
+12000000 00000001
+E0000000 80008000
+
+Invincibility [Thomas83Lin]
+48000000 80DC6DF4
+DE000000 81008180
+14000998 00000056
+E0000000 80008000
+*Some Credits to Deathwolf and wiiztec*
+*Requires getting hit*
+
+Mouth Item Roller (Press B) [Thomas83Lin]
+4E00000C 00000000
+2880D08A FBFF0400
+CC000000 00000001
+14000000 00000003
+48000000 80DC6DF4
+DE000000 81008180
+14000AF4 00000001
+14001340 00000001
+92210000 00001344
+86000000 00000001
+94210000 00001344
+34001344 0000001D
+14001344 00000000
+E0000000 80008000
+*Press B to roll Item Press D-pad Down to Receive*
+
+Mouth Item Roller Excluded Items (Press B) [Thomas83Lin]
+4E00000C 00000000
+2880D08A FBFF0400
+CC000000 00000001
+14000000 00000003
+48000000 80DC6DF4
+DE000000 81008180
+14000AF4 00000001
+14001340 00000001
+92210000 00001344
+86000000 00000001
+94210000 00001344
+34001344 0000001D
+14001344 00000000
+30001345 0000000A
+14001344 0000000B
+30001345 00000018
+14001344 00000019
+E0000000 80008000
+*Press B to roll Item Press D-pad Down to Receive*
+*Skips Sleep and Landia*
+
+Reload Last Mouth Item Rolled for Excluded (Press Minus) [Thomas83Lin]
+2880D08A EFFF1000
+48000000 80DC6DF4
+DE000000 81008180
+14000AF4 00000001
+14001340 00000001
+94210000 00001344
+34001344 0000001D
+14001344 00000000
+30001345 0000000A
+14001344 0000000B
+30001345 00000018
+14001344 00000019
+E0000000 80008000
+*For Use when using the Mouth Item Roller when you have lost your Item*
+*Keeps from having to Roll through all items to get the one you lost.
+*Remove all lines expect the terminator past line 14001344 00000000 when using Non Excluded Item Roller*
+
+Mouth Item Modifier (Press B) [Thomas83Lin]
+2880D08A FBFF0400
+48000000 80DC6DF4
+DE000000 81008180
+14000AF4 00000001
+14001340 00000001
+14001344 0000000x
+E0000000 80008000
+*Replace X with Item*
+*After Activating with B Press D-Pad Down to Receive Item*
+
+Complete all Levels+All Spheres & Challenges [Thomas83Lin]
+0173A35C 00DB0001
+0973A44B 00000003
+00060008 00000000
+0973A44C 00000001
+00040008 00000000
+0173A488 001B0001
+*Save Slot 1*
+*Makes permanent changes Backup Save*
+
+Round Modifier [Bully@Wiiplaza]
+049EE20C 0000000X
+*Arena Mode*
+*X = HEX*
+*Note that you will always play round x + 1 instead of round x*
+
+Challenge Score Modifier (9900 Points) [Bully@Wiiplaza]
+22D50C24 7FBFFFFF
+04D50C24 00390039
+E0000000 80008000
+
+Level Rusher (forwards) [Bully@Wiiplaza]
+2880D08A YYYYZZZZ
+48000000 80C6954C
+DE000000 80008180
+14000088 3F000000
+E0000000 80008000
+*Hold your favorite button to keep rushing to the right*
+
+Level Rusher (backwards) [Bully@Wiiplaza]
+2880D08A YYYYZZZZ
+48000000 80C6954C
+DE000000 80008180
+14000088 BF000000
+E0000000 80008000
+*Hold your favorite button to keep rushing to the left*
+
+Teleporter [Bully@Wiiplaza]
+48000000 80C6954C
+DE000000 80008180
+2880D08A YYYYZZZZ
+92210000 00000050
+92210001 00000054
+2880D08B YYYYZZZZ
+94210000 00000050
+94210001 00000054
+E0000000 80008000
+*First button activator is for saving position, second for teleporting*
+
+Inf. Starpower Invincibility [Bully@Wiiplaza]
+48000000 808EC59C
+DE000000 80008180
+10001285 00000010
+E0000000 80008000
+*instant, not affected by damage & kills enemies at touch*
+
+Infinite Super Abilities [Bully@Wiiplaza]
+48000000 80DC6DF4
+DE000000 80008180
+14000A74 00038270
+E0000000 80008000
+
+Mouth Item Roller Super Abilities (Press B) Thomas83Lin [Bully@Wiiplaza]
+4E00000C 00000000
+2880D08A FBFF0400
+CC000000 00000001
+14000000 00000003
+48000000 80DC6DF4
+DE000000 81008180
+14000AF4 00000001
+14001340 00000001
+92210000 00001344
+86000000 00000001
+94210000 00001344
+30001345 00000001
+14001344 00000019
+30001345 0000001E
+14001344 00000019
+E0000000 80008000
+*modded by me, will only apply super ability characters and skips the others*
+
+Classic Controller (requires MF patch) [crediar]
+C206BA44 00000023
+7C0802A6 80B50060
+48000041 80950000
+7CA52378 90B50000
+80B50064 4800002D
+80950004 7CA52378
+90B50004 80B50068
+48000019 80950008
+7CA52378 90B50008
+7C0803A6 4E800020
+38C00000 70A40800
+2C040000 41820008
+60C68000 70A42000
+2C040000 41820008
+60C60800 70A40200
+2C040000 41820008
+60C60800 70A40020
+2C040000 41820008
+60C60200 70A40040
+2C040000 41820008
+60C60100 70A40010
+2C040000 41820008
+60C61000 70A40001
+2C040000 41820008
+60C60002 70A40002
+2C040000 41820008
+60C60008 70A48000
+2C040000 41820008
+60C60004 70A44000
+2C040000 41820008
+60C60001 70A40400
+2C040000 41820008
+60C60010 70A41000
+2C040000 41820008
+60C61000 7CC53378
+4E800020 00000000
+041ABD10 60000000
+041ABD84 38600000
+*Default kirby layout, L/R:block, A:drop power Y:inhale/power B:jump
+
+Superstar Attack B+Right [g6flavor]
+2880D08A 00000404
+48000000 80DC6DF4
+DE000000 80008180
+14000AF4 00000010
+E0000000 80008000
+
+Roulette or Random Normal PowerUps* push AB to activate [g6flavor]
+2880D08A 00000C00
+48000000 80DC6DF4
+DE000000 80008180
+14001398 00000003
+E0000000 80008000
+*push 1 to choose PowerUp during Roulette or let timer expire
+
+Invincibility [g6flavor]
+48000000 808EC59C
+DE000000 80008180
+12000224 00000001
+E0000000 80008000
+
+Infinite Super Ability Meter [g6flavor]
+48000000 80DC6DF4
+DE000000 80008180
+14000A7C 00000001
+E0000000 80008000
+
+infinite health [wiiztec]
+48000000 80DC6DF4
+DE000000 80008180
+14001434 00000030
+E0000000 80008000
+
+Infinite Lives [Glitch]
+48000000 809ED0E0
+DE000000 80008180
+4A100000 000000C8
+14000000 00000064
+E0000000 80008000
+Credit to Deathwolf as well.
+
+Universal Codes for Kirby's Return to Dreamland
+
+Important Player 1 Universal Button Activator [Thomas83Lin]
+F6000001 80008100
+90030000 552A043E
+D2000000 00000004
+2C190000 40820010
+3D408000 614A3200
+900A0000 90030000
+60000000 00000000
+E0000000 80008000
+*Required for Most of my Universal codes*
+
+Mouth Item Roller Excluded Items + Reload Last Item v.2 [Thomas83Lin]
+F6000001 80008100
+80630000 38630030
+D2000048 00000018
+2C1E0000 4182000C
+80630000 480000B0
+9421FFB0 BDC10008
+4800000D 00000000
+00000000 7DC802A6
+80630000 81EE0000
+824E0004 3E008000
+62103200 A2100002
+72111000 41820018
+3A600001 92630AF4
+92631340 92431344
+4800005C 7DEF8278
+920E0000 71EF0400
+4182004C 72100400
+41820044 3A600001
+92630AF4 92631340
+824E0004 3A520001
+2C12001D 40810008
+3A400000 2C12000A
+40820008 3A40000B
+2C120018 40820008
+3A400019 92431344
+924E0004 B9C10008
+38210050 00000000
+E0000000 80008000
+*Requires Player 1 Universal Button Activator*
+*Player 1 with Kirby Only*
+*Press B to roll Item Press D-pad Down to Receive*
+*Press Minus to Reload Lost\Last Item
+*Skips Sleep and Landia*
+
+Mouth Item Roller + Reload Last Item v.2 [Thomas83Lin]
+F6000001 80008100
+80630000 38630030
+D2000048 00000015
+2C1E0000 4182000C
+80630000 48000098
+9421FFB0 BDC10008
+4800000D 00000000
+00000000 7DC802A6
+80630000 81EE0000
+824E0004 3E008000
+62103200 A2100002
+72111000 41820018
+3A600001 92630AF4
+92631340 92431344
+48000044 7DEF8278
+920E0000 71EF0400
+41820034 72100400
+4182002C 3A600001
+92630AF4 92631340
+824E0004 3A520001
+2C12001D 40810008
+3A400000 92431344
+924E0004 B9C10008
+38210050 00000000
+E0000000 80008000
+*Requires Player 1 Universal Button Activator*
+*Player 1 with Kirby Only*
+*Press B to roll Item Press D-pad Down to Receive*
+*Press Minus to Reload Lost\Last Item*
+
+Automatic Power-Up Roulette (Press Minus + A) [Thomas83Lin]
+F6000001 80008100
+80630000 38630030
+D200004C 00000007
+2C1E0000 4082002C
+3D808000 A18C3202
+718C1800 2C0C1800
+40820018 39800001
+91830AF4 91831340
+39800003 91831398
+38630058 00000000
+E0000000 80008000
+*Requires Player 1 Universal Button Activator*
+*Credits to g6flavor for the Roulette address*
+*Player 1 Kirby Only*
+*Normal Power Ups*
+
+Slow + Infinite Power-Up Roulette [Thomas83Lin]
+F6000002 80008100
+80830008 38040001
+90030008 8803001C
+14000004 38000000
+140002B4 380000FF
+E0000000 80008000

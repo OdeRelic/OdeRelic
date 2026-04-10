@@ -1,0 +1,72 @@
+JDIP
+Super Star Wars
+
+Unlimited Shield [GMO]
+0044892F 000000FF
+
+Unlimited Fuel [GMO]
+0044881A 00000030
+
+Unlimited Thermal Detonators [GMO]
+00448920 00000001
+
+8x Point Bonus [GMO]
+00448921 00000003
+
+Need Zer0 Jawas [GMO]
+00448816 00000000
+Tatoonie Levels
+
+99 Continues [GMO]
+004480BC 00000063
+
+Gun Modifier [GMO]
+0044892D 000000??
+00 Blaster
+01 Flame
+02 Seeker
+03 Rapid Ion
+04 Plasma
+
+Unlimited Lives [Crapulecorp]
+004488A3 00000063
+
+Unlimited Health [Crapulecorp]
+00448A21 00000020
+*Code ported from GMO Ntsc Usa Version*
+
+Rewind Time to 400 (Press ZL) [Crapulecorp]
+281743A2 FF7F0080
+02448916 00000090
+E0000000 80008000
+*Classic Controller*
+*Code ported from GMO Ntsc Usa Version*
+
+Rewind Time to 400 (Press L) [Crapulecorp]
+28170418 FFBF0040
+02448916 00000090
+E0000000 80008000
+*GameCube Controller*
+*Code ported from GMO Ntsc Usa Version*
+
+Easy Boss Kill (Press ZR) [Crapulecorp]
+281743A2 FFFB0004
+02448A22 00000001
+E0000000 80008000
+*Classic Controller*
+*Code ported from GMO Ntsc Usa Version*
+
+Easy Boss Kill (Press R) [Crapulecorp]
+28170418 FFDF0020
+02448A22 00000001
+E0000000 80008000
+*GameCube Controller*
+*Code ported from GMO Ntsc Usa Version*
+
+Button Activator
+
+Classic Controller [Crapulecorp]
+281743A2 YYYYZZZZ
+
+GameCube Controller [Crapulecorp]
+28170418 YYYYZZZZ

@@ -1,0 +1,19 @@
+WKQK
+Kentei TV Wii
+
+Count Down Stop [ZiT]
+0401AA20 60000000
+
+Minnade kentei Quiz Show!
+
+Score MAX 1P [ZiT]
+0429D9AC 0000270F
+
+Score 2P [ZiT]
+0429D9D8 0000xxxx
+
+Score 3P [ZiT]
+0429DA04 0000xxxx
+
+Score 4P [ZiT]
+0429DA30 0000xxxx

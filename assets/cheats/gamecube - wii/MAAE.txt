@@ -1,0 +1,14 @@
+MAAE
+Altered Beast
+
+P1 Max Lives [GMO]
+00E5B320 00000005
+
+P1 Unlimited Health [GMO]
+00E5D110 0000000C
+
+P2 Max Lives [GMO]
+00E5B326 00000005
+
+P2 Unlimited Health [GMO]
+00E5D150 0000000C

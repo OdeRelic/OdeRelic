@@ -1,0 +1,119 @@
+JDZE
+Final Fantasy - Mystic Quest
+
+Button Activators
+
+WiiMote Pad1 [GMO]
+2818C922 YYYYZZZZ
+
+Classic Controller Pad1 [GMO]
+2818C982 YYYYZZZZ
+
+Miscellaneous Codes
+
+Max Gold [GMO]
+0445EF2C 3F420F00
+
+HERO Unlimited Bombs [GMO]
+0045F0D8 00000063
+
+Unlimited Auto Attack [GMO]
+0045F158 00000063
+
+99 Cure Potions [GMO]
+0245EF46 00001063
+
+99 Heal Potions [GMO]
+0245EF48 00001163
+
+99 Seeds [GMO]
+0245EF4A 00001263
+
+99 Refreshers [GMO]
+0245EF4C 00001363
+
+All Items (No Key Items) [GMO]
+0045EF4E 000000FF
+
+All Items & Key Items [GMO]
+0245EF4E 0000FFFF
+
+1-Hit Kill Enemy Slot 1 [GMO]
+0245F1BC 00000000
+
+1-Hit Kill Enemy Slot 2 [GMO]
+0245F23C 00000000
+
+1-Hit Kill Enemy Slot 3 [GMO]
+0245F2BC 00000000
+
+After Battle Codes
+
+Quick EXP Gain After Battle [GMO]
+0245E548 0000FFFF
+
+Quick Gold Gain After Battle [GMO]
+0245E54A 0000FFFF
+
+Hero Codes
+
+Max Infinite Health (Hero) [GMO]
+0445F0BC 68066806
+
+Status Always Normal [GMO]
+0045F0C9 00000000
+
+Have All Weapons [GMO]
+0245F0DA 0000FFF0
+
+Have All Armors, Accessories, Helmets, & Shield [GMO]
+0445F0DC 00FF3B80
+
+Have All Black & White Spells [GMO]
+0245F0E0 0000FFFF
+
+Unlimited White Magic Usage [GMO]
+0045F0C0 00000063
+
+Unlimited Black Magic Usage [GMO]
+0045F0C1 00000063
+
+Unlimited Wizard Magic Usage [GMO]
+0045F0C2 00000063
+
+Max Defense [GMO]
+0045F0CB 000000FF
+
+Max Speed [GMO]
+0045F0CC 000000FF
+
+Max Magic [GMO]
+0045F0CD 000000FF
+
+Max Accuracy [GMO]
+0045F0E8 00000063
+
+Max Evade [GMO]
+0045F0E9 00000063
+
+Partner Codes
+
+Max Infinite Health (Partner) [GMO]
+0445F13C 68066806
+
+Status Always Normal [GMO]
+0045F149 00000000
+
+Have All Black & White Spells [GMO]
+0245F160 0000FFFF
+
+Unlimited White Magic Usage [GMO]
+0045F140 00000063
+
+Unlimited Black Magic Usage [GMO]
+0045F141 00000063
+
+Unlimited Wizard Magic Usage [GMO]
+0045F142 00000063
+
+Item Codes

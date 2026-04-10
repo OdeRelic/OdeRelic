@@ -1,0 +1,30 @@
+RH8P4F
+Tomb Raider Underworld
+
+Air Velocity [Patedj]
+0405FB68 900400F4
+28617A42 00000800
+C205FB68 00000002
+3C00C290 900400F4
+60000000 00000000
+E0000000 80008000
+#use with moon jump
+
+Infinite LIFE [Blaster99]
+0416FC18 60000000
+0416FC60 60000000
+
+Moon Jump (A Button) [Blaster99]
+28617A42 00000800
+C205FB74 00000002
+3C604200 906400F8
+60000000 00000000
+E0000000 80008000
+20617A40 00000000
+0405FB74 906400F8
+E0000000 80008000 [Blaster99]
+Infinite Dynamite
+04127764 B0780078
+Credits for Moon Jump and Infinite Dynamite to ZiT, just ported from USA to PAL. Important: Use other method than VI-hook else codes will not work.
+
+Credits for Moon Jump and Infinite Dynamite to ZiT, just ported from USA to PAL.

@@ -1,0 +1,71 @@
+MB3L
+Monster World IV
+
+Infinite Crystal [Crapulecorp]
+00D3003D 00000063
+
+Infinite Money [Crapulecorp]
+02D3003E 0000000F
+02D30040 0000423F
+*Code ported from ZiT Ntsc Jap Version*
+
+Infinite Heart [Crapulecorp]
+00D30037 0000001E
+00D30039 0000000F
+00D3003B 0000000F
+*Code ported from ZiT Ntsc Jap Version*
+
+MoonJump [Crapulecorp]
+281FC9C2 FEFF0100
+00D2C9F0 000000FA
+E0000000 80008000
+*WiiMote*
+*Code ported from ZiT Ntsc Jap Version*
+
+MoonJUmp (Press X) [Crapulecorp]
+281FCA22 FFF70008
+00D2C9F0 000000FA
+E0000000 80008000
+*Classic Controller*
+*Code ported from ZiT Ntsc Jap Version*
+
+Speed Up [Crapulecorp]
+281FC9C2 FFFB0004
+02D2C9EE 00000500
+281FC9C3 FFF70008
+02D2C9EE 0000FA00
+281FC9C3 00000000
+02D2C9EE 00000000
+E0000000 80008000
+*WiiMote*
+*Code ported from ZiT Ntsc Jap Version*
+
+Speed Up [Crapulecorp]
+281FCA22 7FFF8000
+02D2C9EE 00000500
+281FCA23 FFFD0002
+02D2C9EE 0000FA00
+281FCA23 00000000
+02D2C9EE 00000000
+E0000000 80008000
+*Classic Controller*
+*Code ported from ZiT Ntsc Jap Version*
+
+Speed Up (Press L or R) [Crapulecorp]
+281FCA22 FDFF0200
+02D2C9EE 00000500
+281FCA23 DFFF2000
+02D2C9EE 0000FA00
+281FCA23 00000000
+02D2C9EE 00000000
+E0000000 80008000
+*Classic Controller*
+*Code ported from ZiT Ntsc Jap Version*
+
+Button Activator
+
+WiiMote [Crapulecorp]
+281FC9C2 YYYYZZZZ
+
+Classic Controller [Crapulecorp]
+281FCA22 YYYYZZZZ

@@ -1,0 +1,24 @@
+RGHJ52
+Guitar Hero 3 Legends of Rock
+
+Full/Infinite Star Power (1P) [ZiT]
+42000000 90000000
+02E2F594 00003FFF
+02E43AE0 000042C8
+E0000000 80008000
+
+Full/Infinite Star Power (2P) [ZiT]
+42000000 90000000
+02E2FC14 00003FFF
+02E43AE0 000042C8
+E0000000 80008000
+
+FULL TIMES MULTIPLIER [ZiT]
+4A000000 90000000
+14ECA274 00000FFF
+E0000000 80008000
+
+This cord referred to a code of the caitsith2 and stevenhill627.
+Thank You caitsith2 and stevenhill627!!
+
+RGHJ52

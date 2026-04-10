@@ -1,0 +1,11 @@
+MAJP
+Toejam & Earl
+
+Unlimited Lives Player 1 [Crapulecorp]
+00DA7168 00000008
+00DA7176 00000008
+
+Unlimited Health Player1 [Crapulecorp]
+00DA7172 00000017
+00DA7174 00000017
+*Code ported from GMO Ntsc Usa Version*

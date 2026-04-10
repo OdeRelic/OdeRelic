@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.16)
-project(OdeRelic VERSION 0.2.0 LANGUAGES CXX)
+project(OdeRelic VERSION 0.3.0 LANGUAGES CXX)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
@@ -18,11 +18,14 @@ qt_add_executable(OdeRelic WIN32
     src-cpp/core/filesystem_cache.h
     src-cpp/core/opl_library_service.cpp
     src-cpp/core/opl_library_service.h
+    src-cpp/core/swiss_library_service.cpp
+    src-cpp/core/swiss_library_service.h
     src-cpp/core/translation_manager.cpp
     src-cpp/core/translation_manager.h
     src-cpp/qml.qrc
     src-cpp/HomeScreen.qml
     src-cpp/OplManager.qml
+    src-cpp/SwissManager.qml
 )
 
 qt_add_translations(OdeRelic

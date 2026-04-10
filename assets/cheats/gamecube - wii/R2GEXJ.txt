@@ -1,0 +1,273 @@
+R2GEXJ
+Fragile Dreams - Farewell Ruins of the Moon
+
+Max Money [Arudo]
+04410C88 0098967F
+
+Instant Max Level after one kill [Arudo]
+04314E1C 0006D8BC
+
+Inf HP Player/ 1 hit kill enemy [Skiller]
+C2081AD4 00000006
+826339F8 3EE0456E
+62F7656D 7C179800
+41820010 80033A0C
+2C000001 48000008
+2C007FFF 90033A08
+60000000 00000000
+
+Have all Briefcase [Skiller]
+083A5178 01010101
+20430004 00000000
+083A5290 01010101
+20060004 00000000
+023A52B8 00000101
+Note: U can change the amount it you change the ??01??01 sections.
+
+Items only take 1 On Hand Slot [Skiller]
+C213E134 00000002
+39200000 9923000A
+8923000A 00000000
+Note: Once Used make sure to keep using may Messup On Hand Slots if not used.
+
+ON level Up Have Max STR [Skiller]
+C2078210 00000002
+3C805F5E 6084E0FF
+90833A10 00000000
+
+Max Str [Skiller]
+0430CE90 05F5E0FF
+
+Exp Multiplyer x?? [Skiller]
+C20DAF9C 00000002
+1F9C00?? 7FDC1A14
+60000000 00000000
+Fill In ?? with what ever u want to x it by
+
+Digits for Exp Multiplyer
+01 = Normal
+02 = x2
+03 = x3
+0A = x10
+
+Press 1+2 to give your self Item
+
+Have Item in Slot 1 [Skiller]
+2839BF76 00000300
+043A52D0 0000????
+043A52D4 FFFFFFFF
+043A530C FFFFFFFF
+E0000000 80008000
+
+Have Item in Slot 2 [Skiller]
+2839BF76 00000300
+043A52EC 0000????
+043A52F0 FFFFFFFF
+043A5328 FFFFFFFF
+E0000000 80008000
+
+Have Item in Slot 3 [Skiller]
+2839BF76 00000300
+043A5308 0000????
+043A530C FFFFFFFF
+043A5344 FFFFFFFF
+E0000000 80008000
+
+Have Item in Slot 4 [Skiller]
+2839BF76 00000300
+043A5324 0000????
+043A5328 FFFFFFFF
+043A5360 FFFFFFFF
+E0000000 80008000
+
+Have Item in Slot 5 [Skiller]
+2839BF76 00000300
+043A5340 0000????
+043A5344 FFFFFFFF
+043A537C FFFFFFFF
+E0000000 80008000
+
+Have Item in Slot 6 [Skiller]
+2839BF76 00000300
+043A535C 0000????
+043A5360 FFFFFFFF
+043A5398 FFFFFFFF
+E0000000 80008000
+
+Have Item in Slot 7 [Skiller]
+2839BF76 00000300
+043A5378 0000????
+043A537C FFFFFFFF
+043A53B4 FFFFFFFF
+E0000000 80008000
+
+Have Item in Slot 8 [Skiller]
+2839BF76 00000300
+043A5394 0000????
+043A5398 FFFFFFFF
+043A53D0 FFFFFFFF
+E0000000 80008000
+
+Have Item in Slot 9 [Skiller]
+2839BF76 00000300
+043A53B0 0000????
+043A53B4 FFFFFFFF
+043A53EC FFFFFFFF
+E0000000 80008000
+
+Have Item in Slot 10 [Skiller]
+2839BF76 00000300
+043A53CC 0000????
+043A53D0 FFFFFFFF
+043A5408 FFFFFFFF
+E0000000 80008000
+
+Have Item in Slot 11 [Skiller]
+2839BF76 00000300
+043A53E8 0000????
+043A53EC FFFFFFFF
+043A5424 FFFFFFFF
+E0000000 80008000
+
+Have Item in Slot 12 [Skiller]
+2839BF76 00000300
+043A5404 0000????
+043A5408 FFFFFFFF
+043A5440 FFFFFFFF
+E0000000 80008000
+
+Items Digits
+0001 = a Stick
+0002 = a Bamboo Sword
+0003 = a Golf Club
+0004 = a Katana
+0005 = a Cat Toy
+0006 = a Mallet
+0007 = an Ax
+0008 = a Hammer
+0009 = a Broom
+000A = a Butterfly Net
+000B = a Pole
+000C = a Spear
+000D = an Iron Pipe
+000E = a Slingshot
+000F = a Bow
+0010 = a Longbow
+0011 = a Crossbow
+0012 = a Broken Stick
+0013 = a Broken Bamboo Sword
+0014 = a Broken Golf Club
+0015 = a Broken Katana
+0016 = a Broken Cat Toy
+0017 = a Broken Mallet
+0018 = a Broken Ax
+0019 = a Broken Hammer
+001A = a Broken Broom
+001B = a Broken Butterfly Net
+001C = a Broken Pole
+001D = a Broken Spear
+001E = a Broken Iron Pipe
+001F = a Broken Slingshot
+0020 = a Broken Bow
+0021 = a Broken Longbow
+0022 = a Broken Crossbow
+0029 = a Flashlight
+002A = a Hi-Beam Flashlight
+002B = a Flash Bulb
+002C = a Special Flashlight
+002D = a Metal Detector
+002E = a Broken Flashlight
+0033 = a Healing Candy Drop
+0034 = an Old Instant Lunch
+0035 = an Emergency Kit
+0036 = Vitamins
+0037 = Tuna
+0038 = Water
+0039 = an Energy Drink
+003A = a Ration Pack
+003B = an Oxygen Cylinder
+003C = a Strange Blue Drink
+003D = a Strange Red Drink
+0047 = Old Man's Letter
+0048 = a Strange Blue Stone
+0049 = PF's Screw
+004A = Pirate Isle
+004B = a Toy
+004C = a Paper Crane
+004D = Mother's Shoe
+004E = a Shutter Key
+004F = the Key to Underground Mall
+0050 = the Storage Key
+0051 = the Photo of Grandpa?
+0052 = a Skull Ring
+0053 = the Key to Old Mall
+0054 = the Key to Roller Coaster
+0055 = the Key to Room 301
+0056 = the Master Key
+0057 = the Star
+0058 = the Moon
+0059 = the Silver Ring
+005A = the Yellow Flower Brooch
+005B = a Bird Plushie
+005C = the Key to the Chapel
+005D = a Ring Pillow
+005E = Dad's Ring
+005F = a Wedding Bouquet
+0060 = a Compass
+0061 = a Secret Map
+0062 = a Glittering Stone
+0063 = a Cookie Tin
+0064 = a Scientist's Mug
+0065 = a Journal
+0066 = an Assistant's Mug
+0067 = a Sedative
+0068 = a Guitar
+0069 = a Tailored Jacket
+006A = a Cracked Milk Bottle
+006B = a Pen
+006C = a Cell Phone
+006D = a Diary
+006E = a Torn Letter
+006F = a Pendant
+0070 = a Baby Sock
+0071 = a Dog Collar
+0072 = a Game Cartridge
+0073 = a Self-Help Book
+0074 = a Dirty Shoe
+0075 = a Worn-Out Collar
+0076 = a Class Photo
+0077 = a Soda Bottle
+0078 = a Daily Planner
+0079 = a Radio
+007A = a Dictionary
+007B = a Mug
+007C = a Deflated Balloon
+007D = a Broken Bomb Detonator
+008C = a Torn Picture 1
+008D = a Torn Picture 2
+008E = a Torn Picture 3
+008F = a Torn Picture 4
+0090 = a Withered Plant
+0091 = the Seven Colored Bells
+0092 = Red Bell Anri
+0093 = Blue Bell Fleur
+0094 = Purple Bell Silvia
+0095 = Yellow Bell Lotte
+0096 = Orange Bell Bisque
+0097 = Silver Bell Chris
+0098 = Pink Bell Maria 1
+0099 = Pink Bell Maria 2
+009A = Pink Bell Maria 3
+009E = a Small Bag
+009F = a Large Bag
+00A0 = Cat Food
+00A1 = the Crystal Fragment
+00A2 = the Fluorite
+00A3 = the Large Crystal
+00A4 = the Onyx
+00A5 = the Galena
+00A6 = the Gold
+00A7 = the Dappled Stone
+00A8 = the Sun Stone
+00A9 = the Light Stone
+00AA = Cash

@@ -1,0 +1,54 @@
+GP5E01
+Mario Party 5
+
+Profile 1 Renamer [Nutmeg]
+0623B118 00000008
+XXXXXXXX XXXXXXXX
+*X = new name in ASCII*
+ASCII converter: http://www.mikezilla.com/exp0012.html
+
+Profile 2 Renamer [Nutmeg]
+062385B8 00000008
+XXXXXXXX XXXXXXXX
+*X = new name in ASCII*
+ASCII converter: http://www.mikezilla.com/exp0012.html
+
+Profile 3 Renamer [Nutmeg]
+0622A768 00000008
+XXXXXXXX XXXXXXXX
+*X = new name in ASCII*
+ASCII converter: http://www.mikezilla.com/exp0012.html
+
+P1 Party Mode Coins Modifier [Nutmeg]
+0222A090 00000XXX
+*It may freeze over 999*
+
+P2 Party Mode Coins Modifier [Nutmeg]
+0222A198 00000XXX
+*It may freeze over 999*
+
+P3 Party Mode Coins Modifier [Nutmeg]
+0222A2A0 00000XXX
+*It may freeze over 999*
+
+P4 Party Mode Coins Modifier [Nutmeg]
+0222A3A8 00000XXX
+*It may freeze over 999*
+
+P1 Party Mode Stars Modifier [Nutmeg]
+0222A0A4 000000XX
+*May Freeze over 999*
+
+P2 Party Mode Stars Modifier [Nutmeg]
+0222A1AC 000000XX
+*May Freeze over 999*
+
+P3 Party Mode Stars Modifier [Nutmeg]
+0222A2B4 000000XX
+*May Freeze over 999*
+
+P4 Party Mode Stars Modifier [Nutmeg]
+0222A3BC 000000XX
+*May Freeze over 999*
+
+PLEASE NOTE: for all of the Profile renaming codes, you will be alerted that your saved data has been corupted and that it will be fixed. The game will correct your name (before you hacked it). Return to the *Press Start* screen and re-enter the Profile Selection Screen. You should have your new name!

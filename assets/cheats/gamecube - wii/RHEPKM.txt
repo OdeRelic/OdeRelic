@@ -1,0 +1,26 @@
+RHEPKM
+Professor Heinz Wolff's GRAVITY
+
+Inf Balls (up and down) [STRiiK3R]
+044AF994 60000000
+
+Points Modifier (up and down) [STRiiK3R]
+044AF998 XXXXXXXX
+
+Inf Balls (clear The Decks) [STRiiK3R]
+044AFAAC 60000000
+
+Points Modifier (Clear The Decks) [STRiiK3R]
+044AFAB0 XXXXXXXX
+
+Balls Used (tower topple) [STRiiK3R]
+044AFA24 00000001
+
+999 Hints Points Save one [memorris]
+04710BEC 000003E7
+
+999 Hints Points Save two [memorris]
+04710C20 000003E7
+
+999 Hints Points Save three [memorris]
+04710C54 000003E7

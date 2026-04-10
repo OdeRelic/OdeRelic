@@ -1,0 +1,11 @@
+JCJJ
+Super Punch Out
+
+Infinite HP [ZiT]
+00453BE7 00000060
+
+Infinite SP [ZiT]
+00453BE4 00000050
+
+Time Stop [ZiT]
+04453E6C 00000000

@@ -1,0 +1,64 @@
+FEQE
+Castlevania 3: Dracula's Curse
+
+Unlimited Lives [GMO]
+003BB875 00000009
+
+Invincible [GMO]
+28180EA8 FBFF0400
+003BB8C0 00000010
+CC000000 00000000
+003BB8C0 00000000
+E0000000 80008000
+Hold B
+Turn off to go passed doors
+Cannot ride some platforms
+Can Walk on Spikes
+You will fall through the turning spiked platforms
+
+Add More Health, Max Hearts, and Time [GMO]
+28180EA8 FDFF0200
+003BB8C4 00000099
+003BB87C 00000040
+023BB8BE 00000010
+E0000000 80008000
+Press 1
+
+Moon Jump [GMO]
+28180EA8 FEFF0100
+003BBE18 00000010
+E0000000 80008000
+Press 2
+
+You cannot fly
+After you jump Hold 2 again to slow fall
+Avoid walking on top of screen,you can get stuck
+
+1-Hit Kill Bosses [GMO]
+003BB87D 00000001
+
+Freeze Game Timer [GMO]
+003BB8BE 00000099
+
+Special Item Modifier [GMO]
+003BB8C5 000000??
+00 Empty
+01 Axe
+02 Cross
+03 Sword
+04 Holy Water
+05 Fire Ball
+06 Leaf
+07 II Block
+
+Have Upgraded Whip [GMO]
+003BB8CE 00000002
+
+Infinite Lives [farjo08]
+003BB875 00000099
+
+Infinite Health [farjo08]
+003BB8C4 00000099
+
+Infinite Hearts [farjo08]
+003BB87C 00000040

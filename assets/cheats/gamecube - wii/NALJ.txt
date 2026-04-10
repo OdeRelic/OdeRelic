@@ -1,0 +1,107 @@
+NALJ
+Super Smash Bros.
+
+0% P1 [hetoan2]
+031C7D16 00000000
+
+0% P2 [hetoan2]
+031C7D8A 00000000
+
+No % Increase [hetoan2]
+04C6C5F4 60000000
+
+1 Target Causes win [hetoan2]
+2A1C6B8A 00000000
+CC000000 00000000
+01253F6C 00000001
+E0000000 80008000
+
+1 Platform Causes win [hetoan2]
+2A1C6B8C 00000000
+CC000000 00000000
+01253F70 00000001
+E0000000 80008000
+
+Character Modifier P1 [hetoan2]
+011C7CCB 000000XX
+
+Character Modifier P2 [hetoan2]
+011C7D3F 000000XX
+
+Character Modifier P3 [hetoan2]
+011C7DB3 000000XX
+
+Character Modifier P4 [hetoan2]
+011C7E27 000000XX
+00 Mario
+01 Fox
+02 DK
+03 Samus
+04 Luigi
+05 Link
+06 Yoshi
+07 C. Falcon
+08 Kirby
+09 Pikachu
+0A Jigglypuff
+0B Ness
+0C Master Hand
+0D Metal Mario
+0E Polygon Mario
+10 Polygon DK
+13 Polygon Link
+14 Polygon Yoshi
+15 Polygon Samus
+18 Polygon Kirby
+1A Giant Donkey Kong
+
+Plus and Minus to end game, otherwise freeze timer [hetoan2]
+281C6B8A 10001400
+CC000000 00000000
+051C7CBC 00000000
+281C6B8A 00001000
+051C7CBC 00000001
+E0000000 80008000
+
+Score Modifier (Single Player) [hetoan2]
+05257E58 0XXXXXXX
+
+Character Modifier P1 (Single Player) [hetoan2]
+011C7ADB 000000XX
+
+P1 Computer controlled (Single Player) [hetoan2]
+011C7ADA 00000001
+
+Computer #2 character mod (Single Player) [hetoan2]
+011C7B4F 000000XX
+
+Infinite Lives In Single Player Mode [hetoan2]
+011C7AE3 00000004
+
+Safron City Pokemon are Crazy [hetoan2]
+05253F7C 01000001
+
+Level is... (single player) [hetoan2]
+011C7A87 000000XX
+XX values
+00 - Link on Hyrule (first in single player)
+... - All values in between just go in the order of the stages
+0D - Master Hand Battle
+0E - Luigi Unlock Level
+0F - Ness Unlock Level
+10 - Jigglypuff Unlock Level
+11 - Captain Falcon Unlock Level
+
+Press Dpad down (classic controller) for Item [hetoan2]
+281C6B8A 00004000
+032AF9F2 00000001
+E0000000 80008000
+
+Stage Select is on X by default [hetoan2]
+011C7AB1 000000XX
+If XX = 08 then it will be over Mushroom Kingdom, even if you don't have it.
+For random XX = DE?
+
+Menu Is XXXX [hetoan2]
+031C7A70 0000XXXX
+XXXX = 0004 or 0003 for debug menu

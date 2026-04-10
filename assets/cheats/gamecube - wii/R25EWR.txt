@@ -1,0 +1,160 @@
+R25EWR
+LEGO Harry Potter Years 1-4
+
+Weird Graphics [BoxNinja]
+04761E38 310001FF
+*Before and after Home Menu http://prntscr.com/76o2q
+*Before and after Leaky Cauldron http://prntscr.com/76o3a
+*Before and after Diagon Ally http://prntscr.com/76o48
+
+Unlock All Red Brick In-Game Extras (Available For Purchase)
+
+Carrot Wands [GMO]
+026CBFC0 0000FFFF
+
+Singing Mandrake [GMO]
+026CBFD4 0000FFFF
+
+Character Token Detector [GMO]
+026CBFE8 0000FFFF
+
+Fall Rescue [GMO]
+026CBFFC 0000FFFF
+
+Character Studs [GMO]
+026CC010 0000FFFF
+
+Score x2 [GMO]
+026CC024 0000FFFF
+
+Score x4 [GMO]
+026CC038 0000FFFF
+
+Score x6 [GMO]
+026CC04C 0000FFFF
+
+Score x8 [GMO]
+026CC060 0000FFFF
+
+Score x10 [GMO]
+026CC074 0000FFFF
+
+Stud Magnet [GMO]
+026CC088 0000FFFF
+
+Regenerate Hearts [GMO]
+026CC09C 0000FFFF
+
+Extra Hearts [GMO]
+026CC0B0 0000FFFF
+
+Invincibilty [GMO]
+026CC0C4 0000FFFF
+
+Red Brick Dectector [GMO]
+026CC0D8 0000FFFF
+
+Hogwarts Crest Dectector [GMO]
+026CC0EC 0000FFFF
+
+Gold Brick Dectector [GMO]
+026CC100 0000FFFF
+
+Christmas [GMO]
+026CC114 0000FFFF
+
+Collect Ghost Studs [GMO]
+026CC128 0000FFFF
+
+Fast Magic [GMO]
+026CC13C 0000FFFF
+
+Fast Dig [GMO]
+026CC150 0000FFFF
+
+Activate In-Game Extras (No Purchase Required)
+
+Silhouettes [GMO]
+006CBF86 00000001
+
+Ice Rink [GMO]
+006CBF9A 00000001
+
+Disguise [GMO]
+006CBFAE 00000001
+
+Carrot Wands [GMO]
+006CBFC2 00000001
+
+Singing Mandrake [GMO]
+006CBFD6 00000001
+
+Character Token Detector [GMO]
+006CBFEA 00000001
+
+Fall Rescue [GMO]
+006CBFFE 00000001
+
+Character Studs [GMO]
+006CC012 00000001
+
+Score x2 [GMO]
+006CC024 00000001
+
+Score x4 [GMO]
+006CC03A 00000001
+
+Score x6 [GMO]
+006CC04E 00000001
+
+Score x8 [GMO]
+006CC062 00000001
+
+Score x10 [GMO]
+006CC076 00000001
+
+Stud Magnet [GMO]
+006CC08A 00000001
+
+Regenerate Hearts [GMO]
+006CC09E 00000001
+
+Extra Hearts [GMO]
+006CC0B2 00000001
+
+Invincibilty [GMO]
+006CC0C6 00000001
+
+Red Brick Dectector [GMO]
+006CC0DA 00000001
+
+Hogwarts Crest Dectector [GMO]
+006CC0EE 00000001
+
+Gold Brick Dectector [GMO]
+006CC102 00000001
+
+Christmas [GMO]
+006CC116 00000001
+
+Collect Ghost Studs [GMO]
+006CC12A 00000001
+
+Fast Magic [GMO]
+006CC13E 00000001
+
+Fast Dig [GMO]
+006CC152 00000001
+
+Misc Codes
+
+MAX Coins [ZiT]
+04851F3C EE6B2800
+04851F54 EE6B2800
+
+Infinite Health [ZiT]
+42000000 90000000
+020FA52A 00000A0A
+020F8E2A 00000A0A
+020F772A 00000A0A
+E0000000 80008000

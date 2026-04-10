@@ -1,0 +1,15 @@
+WCIE
+Crystal Defenders R1
+
+Place Defenders Anywhere and Move Enemies with 1 button : [hetoan2]
+201B1214 00000400
+021DB9F0 33F8FFFF
+201E21E0 FFFF0000
+021C48F0 00060000
+E0000000 80008000
+Press B to activate.
+Sets score to 0.
+Freezes Enemies and only Dragoons can attack when frozen.
+
+Max Gil [GMO]
+041C48F8 0001869F

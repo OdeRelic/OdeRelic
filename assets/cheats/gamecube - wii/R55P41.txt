@@ -1,0 +1,38 @@
+R55P41
+Who Wants to be a Millionaire?
+
+Button Activator [Bully@Wiiplaza]
+2825F282 YYYYZZZZ
+
+P1 Codes
+
+Infinite Jokers [Bully@Wiiplaza]
+42000000 90000000
+0435BFA0 FFFFFFFF
+0435BFC0 FFFFFFFF
+0435BFE0 FFFFFFFF
+E0000000 80008000
+*Video: http://www.youtube.com/watch?v=gg_IC1rmJmY
+
+Start At Desired Question [Bully@Wiiplaza]
+42000000 90000000
+2035C020 00000000
+0435C020 0000000X
+E0000000 80008000
+*X Values*
+0 = 50 £
+1 = 100 £
+2 = 200 £
+3 = 300 £
+4 = 500 £
+5 = 1.000 £
+6 = 2.000 £
+7 = 4.000 £
+8 = 8.000 £
+9 = 16.000 £
+A = 32.000 £
+B = 64.000 £
+C = 250.000 £
+D = 500.000 £
+E = 1.000.000 £
+*Video: http://www.youtube.com/watch?v=vGQlpzJ8HJc

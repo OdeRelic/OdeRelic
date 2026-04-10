@@ -1,0 +1,13 @@
+R39PNK
+Shimano Extreme Fishing
+
+Unlimited Health (Harpoon) [Crapulecorp]
+0402F514 38050000
+
+If Increase 999999 Score [Crapulecorp]
+C202E710 00000002
+3C00000F 6000423F
+901F0004 00000000
+
+If Increase 9999 Chain (Fishing Rod) [Crapulecorp]
+0402CFD0 3804270F

@@ -1,0 +1,14 @@
+JAIP
+Super Castlevania 4
+
+Max Hearts [GMO]
+008BAF9A 00000099
+
+Freeze Game Timer [GMO]
+008BAF98 00000099
+
+infinite Health [ninjor]
+008BAF9C 00000010
+
+infinite Lives [ninjor]
+008B9C24 00000005

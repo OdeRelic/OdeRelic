@@ -1,0 +1,57 @@
+RFOE52
+Spiderman: Friend or Foe
+
+A lot of Upgrade Tokens [Coldfire202]
+043E8400 05F5E0FF
+E0000000 80008000
+
+999 D-pad down items [Coldfire202]
+0559BAC0 000003E7
+E0000000 80008000
+*the counter will constantly spin, that's because it only goes up to 9
+
+999 D-pad right items [Coldfire202]
+0559BA68 000003E7
+E0000000 80008000
+*the counter will constantly spin, that's because it only goes up to 9
+
+999 D-pad left items [Coldfire202]
+0559BA10 000003E7
+E0000000 80008000
+*the counter will constantly spin, that's because it only goes up to 9
+
+Player 1(Spiderman) Tokens(in game) [Coldfire202]
+043E9180 xxxxxxxx
+E0000000 80008000
+*put however many tokens you want in a level
+*It will count up from 0, so don't put to high of a number in
+
+Player 2 Tokens(in game) [Coldfire202]
+043E9184 xxxxxxxx
+E0000000 80008000
+*put however many tokens you want in a level
+*It will count up from 0, so don't put to high of a number in
+
+Infinite Tokens [Glitch]
+043E8400 000F423F
+E0000000 80008000
+This is for upgrade lab.
+
+Spiderman and Partner have Max Tokens Ingame [Glitch]
+023E9182 0000FFFF
+E0000000 80008000
+023E9186 0000FFFF
+E0000000 80008000
+After you beat the level you have to wait a while until the coins get to 131070.
+
+Infinite D-Pad Items [Glitch]
+003E84F0 00000001
+003E84EB 00000003
+003E84E7 00000003
+003E84EF 00000005
+E0000000 80008000
+
+Infinite Health for Spidey and Partner [Glitch]
+02AB9F80 0000440F
+02A82A98 0000440F
+E0000000 80008000

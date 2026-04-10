@@ -1,0 +1,582 @@
+RT4PAF
+Tales of Symphonia Dawn of the New World
+
+LP + TP Modifiers
+
+Life + TP Modifier Emil [Xylon]
+0467D2AC XXXXYYYY
+0467D2A8 PPPP0000
+0467D2B0 0027TTTT
+Values:
+X=KP Maximum
+Y=TP Value
+P=KP Value
+T=TP Maximum
+
+Life + TP Modifier Marta [Xylon]
+0467D394 XXXXYYYY
+0467D390 PPPP0000
+0467D398 0159TTTT
+Values:
+X=KP Maximum
+Y=TP Value
+P=KP Value
+T=TP Maximum
+
+Life + TP Modifier Lloyd [Xylon]
+0467CB6C XXXXYYYY
+0467CB68 PPPP1405
+0467CB70 01BCTTTT
+Values:
+X=KP Maximum
+Y=TP Value
+P=KP Value
+T=TP Maximum
+
+Life + TP Modifier Colette [Xylon]
+0467CC54 XXXXYYYY
+0467CC50 PPPP0F83
+0467CC58 01E3TTTT
+Values:
+X=KP Maximum
+Y=TP Value
+P=KP Value
+T=TP Maximum
+
+Life + TP Modifier Raine [Xylon]
+0467CE24 XXXXYYYY
+0467CE20 PPPP100F
+0467CE28 021DTTTT
+Values:
+X=KP Maximum
+Y=TP Value
+P=KP Value
+T=TP Maximum
+
+Life + TP Modifier Sheena [Xylon]
+0467CF0C XXXXYYYY
+0467CF08 PPPP0F19
+0467CF10 01DCTTTT
+Values:
+X=KP Maximum
+Y=TP Value
+P=KP Value
+T=TP Maximum
+
+Life + TP Modifier Regal [Xylon]
+0467D1C4 XXXXYYYY
+0467D1C0 PPPP147E
+0467D1C8 017CTTTT
+Values:
+X=KP Maximum
+Y=TP Value
+P=KP Value
+T=TP Maximum
+
+Life + TP Modifier Genis [Xylon]
+0467CD3C XXXXYYYY
+0467CD38 PPPP0ECB
+0467CD40 022DTTTT
+Values:
+X=KP Maximum
+Y=TP Value
+P=KP Value
+T=TP Maximum
+
+Life + TP Modifier Zelos [Xylon]
+0467CFF4 XXXXYYYY
+0467CFF0 PPPP1249
+0467CFF8 01B0TTTT
+Values:
+X=KP Maximum
+Y=TP Value
+P=KP Value
+T=TP Maximum
+
+Life + TP Modifier Presea [Xylon]
+0467D0DC XXXXYYYY
+0467D0D8 PPPP1512
+0467D0E0 012DTTTT
+Values:
+X=KP Maximum
+Y=TP Value
+P=KP Value
+T=TP Maximum
+
+Life + TP Modifier 1st Monster [Xylon]
+0467D564 XXXXYYYY
+0467D560 PPPP0153
+0467D568 0007TTTT
+Values:
+X=KP Maximum
+Y=TP Value
+P=KP Value
+T=TP Maximum
+
+Life + TP Modifier 2nd Monster [Xylon]
+0467D64C XXXXYYYY
+0467D648 PPPP0000
+0467D650 000FTTTT
+Values:
+X=KP Maximum
+Y=TP Value
+P=KP Value
+T=TP Maximum
+
+Level Modifiers
+
+Level Modifier Marta [Xylon]
+0467D380 XX000001
+X Value = Level in Hex.
+
+Level Modifier Emil [Xylon]
+0467D298 XX000001
+X Value = Level in Hex.
+
+Level Modifier Lloyd [Xylon]
+0467CB58 XX000001
+X Value = Level in Hex.
+
+Level Modifier Colette [Xylon]
+0467CC40 XX000001
+X Value = Level in Hex.
+
+Level Modifier Raine [Xylon]
+0467CE10 XX000001
+X Value = Level in Hex.
+
+Level Modifier Sheena [Xylon]
+0467CEF8 XX000001
+X Value = Level in Hex.
+
+Level Modifier Regal [Xylon]
+0467D1B0 XX000001
+X Value = Level in Hex.
+
+Level Modifier Richter [Xylon]
+0467D468 XX000001
+X Value = Level in Hex.
+
+Level Modifier Presea [Xylon]
+0467D0C8 XX000001
+X Value = Level in Hex.
+
+Level Modifier Genis [Xylon]
+0467CD28 XX000001
+X Value = Level in Hex.
+
+Level Modifier Zelos [Xylon]
+0467CFE0 XX000001
+X Value = Level in Hex.
+
+Level Modifier 1st Monster [Xylon]
+0467D554 XX000001
+X Value = Level in Hex.
+
+Level Modifier 2nd Monster [Xylon]
+0467D638 XX000001
+X Value = Level in Hex.
+
+Level Modifier 3rd Monster [Xylon]
+0467D808 XX000001
+X Value = Level in Hex.
+
+Level Modifier 4th Monster [Xylon]
+0467D9D8 XX000001
+X Value = Level in Hex.
+
+Name Changers
+
+Emil Name Changer [Xylon]
+0667D286 000000YY
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+XXXX0008 00000000
+X Value = Name in Hex
+Y Value = X number in Hex
+If there is more place than values then change to 0's. Note that the 6th adress changes the level aswell.
+Name change program: http://www.mediafire.com/?3auoiloa0b2axit
+
+Marta Name Changer [Xylon]
+0667D36E 000900YY
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+XXXX0008 00000000
+X Value = Name in Hex
+Y Value = X number in Hex
+http://www.mediafire.com/?3auoiloa0b2axit
+
+Lloyd Name Changer [Xylon]
+0667CB46 000000YY
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+XXXX0000 00000000
+X Value = Name in Hex
+Y Value = X number in Hex
+http://www.mediafire.com/?3auoiloa0b2axit
+
+Colette Name Changer [Xylon]
+0667CC2E 000000YY
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+XXXX0001 00000000
+X Value = Name in Hex
+Y Value = X number in Hex
+http://www.mediafire.com/?3auoiloa0b2axit
+
+Raine Name Changer [Xylon]
+0667CDFE 000000YY
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+XXXX0003 00000000
+X Value = Name in Hex
+Y Value = X number in Hex
+http://www.mediafire.com/?3auoiloa0b2axit
+
+Sheena Name Changer [Xylon]
+0667CEE6 000000YY
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+XXXX0004 00000000
+X Value = Name in Hex
+Y Value = X number in Hex
+http://www.mediafire.com/?3auoiloa0b2axit
+
+Regal Name Changer [Xylon]
+0667D19E 000000YY
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+XXXX0007 00000000
+X Value = Name in Hex
+Y Value = X number in Hex
+http://www.mediafire.com/?3auoiloa0b2axit
+
+Richter Name Changer [Xylon]
+0667D456 000000YY
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+XXXX000A 00000000
+X Value = Name in Hex
+Y Value = X number in Hex
+http://www.mediafire.com/?3auoiloa0b2axit
+
+Presea Name Changer [Xylon]
+0667D0B6 000000YY
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+XXXX0006 00000000
+X Value = Name in Hex
+Y Value = X number in Hex
+
+Genis Name Changer [Xylon]
+0667CD16 000000YY
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+XXXX0002 00000000
+X Value = Name in Hex
+Y Value = X number in Hex
+
+Zelos Name Changer [Xylon]
+0667CFCE 000000YY
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+XXXX0005 00000000
+X Value = Name in Hex
+Y Value = X number in Hex
+
+1st Monster's Name Changer [Xylon]
+0667D53E 000000YY
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+XXXX00D1 00000000
+X Value = Name in Hex
+Y Value = X number in Hex
+
+2nd Monster's Name Changer [Xylon]
+0667D626 000000YY
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+XXXX001F 00000000
+X Value = Name in Hex
+Y Value = X number in Hex
+
+3rd Monster's Name Changer [Xylon]
+0667D7F6 000000YY
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+XXXX0088 00000000
+X Value = Name in Hex
+Y Value = X number in Hex
+
+4th Monster's Name Changer [Xylon]
+0667D9C6 000000YY
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+XXXX0108 00000000
+X Value = Name in Hex
+Y Value = X number in Hex
+
+Main Codes
+
+Full skill mana bar [Xylon]
+286D28E2 00001000
+42000000 90000000
+919AA95C 42C80000
+E0000000 80008000
+*press button to activate*
+
+Hits Modifier 9999 [Xylon]
+0468E5E4 0300270F
+
+Fight count Modifier 9999 [Xylon]
+0468E5DC 270F0000
+
+Button Activator [CosmoCortney]
+286D28E2 0000XXXX
+
+Emil Size Modifier [CosmoCortney]
+286D28E2 00001000
+04B5CF5C 3F800000
+04B5CF60 3F800000
+04B5CF64 3F800000
+E0000000 80008000
+286D28E2 00000001
+04B5CF5C 40000000
+04B5CF60 40000000
+04B5CF64 40000000
+E0000000 80008000
+286D28E2 00000002
+04B5CF5C 40800000
+04B5CF60 40800000
+04B5CF64 40800000
+E0000000 80008000
+286D28E2 00000004
+04B5CF5C 3F000000
+04B5CF60 3F000000
+04B5CF64 3F000000
+E0000000 80008000
+286D28E2 00000008
+04B5CF5C 3E800000
+04B5CF60 3E800000
+04B5CF64 3E800000
+E0000000 80008000
+286D28E2 00002000
+04B5CF5C BF800000
+04B5CF60 3F800000
+04B5CF64 3F800000
+E0000000 80008000
+286D28E2 00004000
+04B5CF5C 3F800000
+04B5CF60 BF800000
+04B5CF64 3F800000
+E0000000 80008000
+dPad left = x2 Size
+dPad right = x3 Size
+dPad down = x0.5 size
+dPad up = x0.33 Size
+(-) = Normal
+C = Upside down
+Z = Back-Front inverted
+Doesn't Work in most Cutscenes
+
+All Characters Size Modifier (except Emil) [CosmoCortney]
+286D28E2 00000001
+08B5DF4C 40000000
+20060FF0 00000000
+08B5DF50 40000000
+20060FF0 00000000
+08B5DF54 40000000
+20050FF0 00000000
+E0000000 80008000
+286D28E2 00000002
+08B5DF4C 40800000
+20060FF0 00000000
+08B5DF50 40800000
+20060FF0 00000000
+08B5DF54 40800000
+20050FF0 00000000
+E0000000 80008000
+286D28E2 00000004
+08B5DF4C 3F000000
+20060FF0 00000000
+08B5DF50 3F000000
+20060FF0 00000000
+08B5DF54 3F000000
+20050FF0 00000000
+E0000000 80008000
+286D28E2 00000008
+08B5DF4C 3E800000
+20060FF0 00000000
+08B5DF50 3E800000
+20060FF0 00000000
+08B5DF54 3E800000
+20050FF0 00000000
+E0000000 80008000
+286D28E2 00004000
+08B5DF4C BF800000
+20060FF0 00000000
+08B5DF50 3F800000
+20060FF0 00000000
+08B5DF54 3F800000
+20050FF0 00000000
+E0000000 80008000
+286D28E2 00002000
+08B5DF4C 3F800000
+20060FF0 00000000
+08B5DF50 BF800000
+20060FF0 00000000
+08B5DF54 3F800000
+20050FF0 00000000
+E0000000 80008000
+286D28E2 00001000
+08B5DF4C 3F800000
+20060FF0 00000000
+08B5DF50 3F800000
+20060FF0 00000000
+08B5DF54 3F800000
+20050FF0 00000000
+E0000000 80008000
+dPad left = x2 Size
+dPad right = x3 Size
+dPad down = x0.5 size
+dPad up = x0.33 Size
+(-) = Normal
+C = Upside down
+Z = Back-Front inverted
+
+Creepy Characters [CosmoCortney]
+044B19FC Bf880000
+Some houses look wierd from its inside
+
+Character's Animation Speed [CosmoCortney]
+286D28E2 00000001
+047914C8 40000000
+E0000000 80008000
+286D28E2 00000002
+047914C8 41000000
+E0000000 80008000
+286D28E2 00000004
+047914C8 3F000000
+E0000000 80008000
+286D28E2 00000008
+047914C8 3E000000
+E0000000 80008000
+286D28E2 00001000
+047914C8 3F800000
+E0000000 80008000
+286D28E2 00002000
+047914C8 BF800000
+E0000000 80008000
+286D28E2 00004000
+047914C8 00000000
+E0000000 80008000
+(-) = normal Speed
+dPAD left = x2 Speed
+dPAD right = x4 Speed
+dPAD down = x0.5 Speed
+dPAD up = x0.25 Speed
+Z = Inverted
+C = Freezed animation
+Pretty fun in cutscenes. If you use it as inverted, fights will not load before you press dPad up, down, left, right or (-). Characters may freeze if you accelerate the animation in cutscenes after a non-repeating animation has ended. But the cutscene will end as usual. No need to be afraid about that the game freezed!
+you can use it in combination od the Seizure Time!-Code and freeze the characters by pressing C. Insane hilariouse ;)
+
+Seizure Time! [CosmoCortney]
+0479AD4C 41100000
+
+Characters have Anorexia [CosmoCortney]
+0479AEEC 3F000000
+
+Audio Modifiers
+
+SFX Speed [CosmoCortney]
+286D28E2 00004000
+0479B038 40000000
+E0000000 80008000
+286D28E2 00002000
+0479B038 3F000000
+E0000000 80008000
+286D28E2 00001000
+0479B038 3F800000
+E0000000 80008000
+C = Fast
+Z = Slow
+(-) = Normal
+
+no music [CosmoCortney]
+286D28E2 00000200
+044B40B4 3F800000
+E0000000 80008000
+286D28E2 00000100
+044B40B4 00000000
+E0000000 80008000
+2 Button = off
+1 Button = on
+
+Music and Voices Speed [CosmoCortney]
+286D28E2 00001000
+0479B040 3F800000
+E0000000 80008000
+286D28E2 00002000
+0479B040 3F500000
+E0000000 80008000
+286D28E2 00004000
+0479B040 3FA00000
+E0000000 80008000
+C = Fast
+Z = Slow
+(-) = Normal
+Recommanded to use it with the code to switch the music on or off. Very funny in cutscenes without music!
+
+Stats maximiser [Patedj]
+C204B194 00000003
+3980270F 618C270F
+B18301AA B18301C0
+60000000 00000000
+Equipping or using an item will maximise certain stats. Use different item/equipment to maximise the other stats
+
+Have 1 million gold [Romaap]
+0467C9C0 000F4240
+
+Infinite TP [Romaap]
+041731C0 60000000
+
+Infinite Health [Romaap]
+041730A8 60000000
+
+Debug Menu when loading save (ported from Aesteval's code) [Romaap]
+0468E860 00000001
+
+All Recipes (ported from Aesteval's code) [Romaap]
+0268EAEA 00007FFF
+
+Have all non-key Item's (ported from Aesteval's code) [Romaap]
+0068EB8D 0009000A
+0068EB98 0024000A
+0068EBC0 0000000A
+0068EBC2 0027000A
+0068EC22 0148000A
+0068EDAA 002F000A
+0068EDDC 0009000A
+
+All Artes (Emil and Marta) (Ported from Aesteval's code) [Romaap]
+0467D2DC 010FFFFF
+0467D3C4 010FFFFF
+
+All Titles (Emil and Marta) (Ported from Aesteval's code) [Romaap]
+0467D2A6 0007FFFF
+0467D38C 00007FFF

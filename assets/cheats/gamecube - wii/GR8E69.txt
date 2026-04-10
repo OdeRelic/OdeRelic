@@ -1,0 +1,11 @@
+Infinite Ammo
+0414C974 392003E7
+
+Unlock All Missions
+0200F05E 0000FFFF
+
+Have All Bonuses
+0200F06E 0000FFFF
+
+Bouncy Ball Mode
+0429F040 3E8001CE

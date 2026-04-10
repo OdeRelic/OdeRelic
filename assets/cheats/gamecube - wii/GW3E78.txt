@@ -1,0 +1,66 @@
+GW3E78
+WrestleMania X8 
+
+Create player slot 1 max abilities
+04229770 AAAAAAAA
+04229774 AAAAAAAA
+
+Create player slot 2 max abilities
+04229938 AAAAAAAA
+0422993C AAAAAAAA
+
+Create player slot 3 max abilities
+04229B00 AAAAAAAA
+04229B04 AAAAAAAA
+
+Create player slot 4 max abilities
+04229CC8 AAAAAAAA
+04229CCC AAAAAAAA
+
+Create player slot 5 max abilities
+04229E90 AAAAAAAA
+04229E94 AAAAAAAA
+
+Create player slot 6 max abilities
+0422A058 AAAAAAAA
+0422A05C AAAAAAAA
+
+Create player slot 7 max abilities
+0422A220 AAAAAAAA
+0422A224 AAAAAAAA
+
+Create player slot 8 max abilities
+0422A3E8 AAAAAAAA
+0422A3EC AAAAAAAA
+
+Create player slot 9 max abilities
+0422A5B0 AAAAAAAA
+0422A5B4 AAAAAAAA
+
+Create player slot 10 max abilities
+0422A778 AAAAAAAA
+0422A77C AAAAAAAA
+
+Create player slot 11 max abilities
+0422A940 AAAAAAAA
+0422A944 AAAAAAAA
+
+Create player slot 12 max abilities
+0422AB08 AAAAAAAA
+0422AB0C AAAAAAAA
+
+Create player slot 13 max abilities
+0422ACD0 AAAAAAAA
+0422ACD4 AAAAAAAA
+
+Create player slot 14 max abilities
+0422AE98 AAAAAAAA
+0422AE9C AAAAAAAA
+
+Create player slot 15 max abilities
+0422B060 AAAAAAAA
+0422B064 AAAAAAAA
+
+Create player slot 16 max abilities
+0422B228 AAAAAAAA
+0422B22C AAAAAAAA

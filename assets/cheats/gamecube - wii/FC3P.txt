@@ -1,0 +1,53 @@
+FC3P
+Bubble Bobble
+
+Unlimited Lives [Crapulecorp]
+0043564E 0000000A
+
+Invincible [Crapulecorp]
+0043565F 00000003
+*Code ported from ZiT Ntsc Jap Version*
+
+Bubble Thunder&lt;&gt;Fire (Press B ON/OFF) [Crapulecorp]
+2825F912 FBFF0400
+00435650 00000045
+CC000000 00000000
+00435A2C 00000010
+E0000000 80008000
+*WiiMote*
+*Code ported from ZiT Ntsc Jap Version*
+
+Bubble Thunder&lt;&gt;Fire (Press ZL ON/OFF) [Crapulecorp]
+2825F972 FF7F0080
+00435650 00000045
+CC000000 00000000
+00435A2C 00000010
+E0000000 80008000
+*Classic Controller*
+*Code ported from ZiT Ntsc Jap Version*
+
+MoonJump [Crapulecorp]
+2825F912 FEFF0100
+00435652 00000011
+E0000000 80008000
+*WiiMote*
+*Code ported from ZiT Ntsc Jap Version*
+
+MoonJump [Crapulecorp]
+2825F972 FFF70008
+00435652 00000011
+E0000000 80008000
+*Classic Controller*
+*Code ported from ZiT Ntsc Jap Version*
+
+Always Have Electric/Long Bubble & Shoes [Crapulecorp]
+00435650 00000047
+*Code ported from funkamatic Ntsc Usa Version*
+
+Button Activator
+
+WiiMote [Crapulecorp]
+2825F912 YYYYZZZZ
+
+Classic Controller [Crapulecorp]
+2825F972 YYYYZZZZ

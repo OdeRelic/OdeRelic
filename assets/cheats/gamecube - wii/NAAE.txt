@@ -1,0 +1,1780 @@
+NAAE
+Super Mario 64
+
+Teleporter [Anarion]
+282085EA 00000002
+92210000 011A532C
+92210001 011A5330
+92210002 011A5334
+E0000000 80008000
+282085EA 00008000
+94210000 011A532C
+94210001 011A5330
+94210002 011A5334
+E0000000 80008000
+Classic Controller:
+Press D-Pad LEFT to save current position.
+Press D-Pad RIGHT to return to saved position.
+
+Shell Skating Mario [Anarion]
+282085EA 00000008
+CC000000 00000000
+051A52FC 20810446
+E0000000 80008000
+CCP: Press x to Activate & press x again to deactivate by pressing L,R,or Z or by crashing into a wall.
+If activated while Mario is on air, you can move across the air!
+
+Shell Swimming Mario [Anarion]
+282085EA 00000020
+CC000000 00000000
+051A52FC 300024D6
+E0000000 80008000
+CCP: Press y to Activate & press y again to deactivate by crashing into a wall or going to land.
+
+Underwater- No Low Health Beeping [Anarion]
+051CC5CC 020900FF
+011A53E7 00000008
+Will remove all life meter beeps.
+
+Freeze Chain Chomp [Anarion]
+011A9FB8 00000001
+On Bob-omb Battlefield.
+
+Mario Stands Crooked [Sharkbyte]
+02ECA1D6 00000214
+
+Mario's left hand waves [Sharkbyte]
+02ECA212 000000ED
+
+Mario's left arm is broken when standing still [Sharkbyte]
+02ECA21A 0000075B
+
+Mario's right leg is bent when running [Sharkbyte]
+02ECA2C2 00000A85
+
+Debug Mode [Sharkbyte]
+01197718 00000001
+ported from the gameshark code
+
+Mario runs like a dog [Sharkbyte]
+011A553C 00000050
+ported from the gameshark code
+
+Mario's right hand is huge [Sharkbyte]
+011A553B 00000010
+ported from the gameshark code
+
+Mario runs fast [Sharkbyte]
+031A5344 00004320
+ported from the gameshark code
+
+big bomb-omb depth modifier [Sharkbyte]
+291B827E 0000E15C
+031B829C 0000XXXX
+E0000000 80008000
+default 3F80
+
+big bomb-omb height modifier [Sharkbyte]
+291B827E 0000E15C
+031B8298 0000XXXX
+E0000000 80008000
+default 3F80
+
+big bomb-omb width modifier [Sharkbyte]
+291B827E 0000E15C
+031B8294 0000XXXX
+E0000000 80008000
+default 3F80
+
+big bomb-omb health modifier [Sharkbyte]
+291B827E 0000E15C
+011B83EF 000000XX
+E0000000 80008000
+
+height big bomb omb throws you modifier [Sharkbyte]
+031137B8 00003C1B
+031137BA 0000XXXX
+031137C4 0000AD9B
+default 4248
+
+distance big bomb omb throws you modifier [Sharkbyte]
+031137A8 00003C1B
+031137AA 0000XXXX
+031137B4 0000AD7B
+default 4248
+
+able to get away when grabbed by big bomb omb [Sharkbyte]
+030B99FC 00002400
+
+can't be grabbed by big bomb omb [Sharkbyte]
+030B9F44 00002400
+
+cannon sight X/Z coordinate modifier [Sharkbyte]
+031A531E 0000XXXX
+
+cannon sight Y coordinate modifier [Sharkbyte]
+031A531C 0000XXXX
+
+cannons can point lower [Sharkbyte]
+030CA010 00001000
+
+cannons can pointer higher [Sharkbyte]
+030C9FF4 00001000
+
+cannons can rotate 360 degrees [Sharkbyte]
+030CA02C 00001000
+030CA04C 00001000
+
+always look like metal mario [Sharkbyte]
+030BE750 00002400
+
+chain chomp and bubble bombs can't touch you [Sharkbyte]
+030B9308 00002400
+
+play as bowser key [Sharkbyte]
+031A5656 00009A9C
+
+play as... [Sharkbyte]
+031A5656 0000XXXX
+butterfly 9160
+Fish 8FBC
+sign 8C4C
+star 8B9C
+collected star 8C00
+more play as character codes hopefully coming soon!
+
+Play as Lakitu [Sharkbyte]
+291B5A1E 00000860
+031B5A1C 00008019
+E0000000 80008000
+291B5A1E 00000860
+031B5A1E 000054A0
+E0000000 80008000
+outside of castle
+
+play as Mips (rabbit) [Sharkbyte]
+291B5A1E 00000860
+031B5A1C 00008019
+E0000000 80008000
+291B5A1E 00000860
+031B5A1E 000051AC
+E0000000 80008000
+
+play as Yoshi [Sharkbyte]
+291B5A1E 00000860
+031B5A1C 00008019
+E0000000 80008000
+291B5A1E 00000860
+031B5A1E 00004E28
+E0000000 80008000
+
+stepping blocks last forever [Sharkbyte]
+0311BA7C 00002400
+0311BA84 00001000
+
+8 red coins on rainbow road [Sharkbyte]
+011B40DF 00000008
+
+8 red coins on tick tock clock [Sharkbyte]
+011B7C3F 00000008
+
+8 red coins on tiny-huge island [Sharkbyte]
+011ABBDF 00000008
+
+8 red coins on tall tall mountain [Sharkbyte]
+011B1D3F 00000008
+
+8 red coins on wet-dry world [Sharkbyte]
+011AB71F 00000008
+
+8 red coins on snowmans land [Sharkbyte]
+011B0A3F 00000008
+
+8 red coins on dire dire docks [Sharkbyte]
+011B245F 00000008
+
+8 red coins on lethal lava land and sand land [Sharkbyte]
+011AF27F 00000008
+
+8 red coins on hazy maze cave [Sharkbyte]
+011B647F 00000008
+
+8 red coins on big boos haunt [Sharkbyte]
+011B07DF 00000008
+
+8 red coins on cool cool mountain [Sharkbyte]
+011B031F 00000008
+
+8 red coins on jolly roger bay [Sharkbyte]
+011B0C9F 00000008
+
+8 red coins on bomb omb battlefield [Sharkbyte]
+011B80FF 00000008
+
+8 red coins on whomps fortress [Sharkbyte]
+011AEDBF 00000008
+
+8 red coins on cavern of vanish cap [Sharkbyte]
+011AD13F 00000008
+
+8 red coins on cavern of metal cap [Sharkbyte]
+011AAFFF 00000008
+
+8 red coins on tower of the wing cap [Sharkbyte]
+011AF01F 00000008
+
+8 red coins on the secret aqarium [Sharkbyte]
+011A9F5F 00000008
+
+8 red coins on rings over the rainbow [Sharkbyte]
+011AB4BF 00000008
+
+yellow coin worth modifier [Sharkbyte]
+0119A379 000000XX
+default=01
+
+red coin worth modifier [Sharkbyte]
+0119C919 000000XX
+default=02
+
+blue coins worth modifier (from ghosts) [Sharkbyte]
+0111629F 000000XX
+default=05
+
+blue coin modifier (timed blocks) [Sharkbyte]
+01F578A3 000000XX
+default=05
+
+have 175 stars and maxed out coin records profile B [Sharkbyte]
+090718FC 0000FFFF
+10140002 00000000
+
+have all normal 120 stars profile D [Sharkbyte]
+010719EB 000000FF
+030719EC 0000FF01
+090719DC 0000007F
+000F0001 00000000
+
+have all 7 stars bomb omb battlefield profile D [Sharkbyte]
+010719DC 000000FF
+
+moon jump (gamecube) [Sharkbyte]
+289F38B8 FEFF0100
+031A533C 000041B0
+E0000000 80008000
+
+Advanced codes-have only one advanced code on at a time or else it may freeze!
+
+starman mario [Sharkbyte]
+031A7560 00003C04
+031A7562 00008008
+031A7564 00009485
+031A7566 0000EC20
+031A7568 000024A5
+031A756A 000000C0
+031A756C 0000A485
+031A756E 0000EC20
+031A7570 0000A485
+031A7572 0000EC24
+031A7574 0000A485
+031A7576 0000EC28
+031A7578 0000A485
+031A757A 0000EC2C
+031A757C 0000A485
+031A757E 0000EC38
+031A7580 0000A485
+031A7582 0000EC3C
+031A7584 0000A485
+031A7586 0000EC40
+031A7588 0000A485
+031A758A 0000EC44
+031A758C 0000A485
+031A758E 0000EC50
+031A7590 0000A485
+031A7592 0000EC54
+031A7594 0000A485
+031A7596 0000EC58
+031A7598 0000A485
+031A759A 0000EC5C
+031A759C 0000A485
+031A759E 0000EC68
+031A75A0 0000A485
+031A75A2 0000EC6C
+031A75A4 0000A485
+031A75A6 0000EC70
+031A75A8 0000A485
+031A75AA 0000EC74
+031A75AC 000003E0
+031A75AE 00000008
+02F581E0 00008033
+02F581E2 0000D3E0
+030B94F4 00002400
+02F581F0 0000802B
+02F581F2 0000D680
+030BA5B0 00002819
+030BA5B2 00000001
+talk to this guy for code support http://www.youtube.com/user/yoshielectron
+
+change goomba head to peachs head (press Z) [Sharkbyte]
+031A7450 00003C04
+031A7452 00008034
+031A7454 0000948A
+031A7456 0000AFA2
+031A7458 00002408
+031A745A 00002000
+031A745C 0000150A
+031A745E 0000000A
+031A7460 00003C02
+031A7462 00008034
+031A7464 00008C44
+031A7466 0000D3D0
+031A7468 00008C45
+031A746A 0000D3E0
+031A746C 00008C46
+031A746E 0000D3F0
+031A7470 00008082
+031A7472 00000000
+031A7474 0000A0C2
+031A7476 00000000
+031A7478 00002484
+031A747A 00000001
+031A747C 000024C6
+031A747E 00000001
+031A7480 00001485
+031A7482 0000FFFB
+031A7484 00000000
+031A7486 00000000
+031A7488 000003E0
+031A748A 00000008
+02F581E0 00008033
+02F581E2 0000D2D0
+031A7550 00008012
+031A7552 0000CC40
+031A7560 00008015
+031A7562 00000E40
+031A7570 00008040
+031A7572 00000000
+291A5120 00000800
+031A5594 00000040
+E0000000 80008000
+291A5120 00000800
+031A5596 00000000
+E0000000 80008000
+291A5120 00000800
+03FF748C 00000500
+E0000000 80008000
+291A5120 00000800
+03FF748E 00005E40
+E0000000 80008000
+291A5120 00000800
+03FF74AC 00000500
+E0000000 80008000
+291A5120 00000800
+03FF74AE 00005F48
+E0000000 80008000
+press z while outside the castle, then go to bomb omb battlefield and press up on D-pad
+talk to this guy for code support http://www.youtube.com/user/yoshielectron
+
+spawn objects [Sharkbyte]
+031A745E 00000001
+0119B014 00000003
+0313544C 00008724
+0313544E 00002448
+03135438 00003C0B
+0313543A 00008034
+0313543C 00008D6C
+0313543E 0000D3D0
+03135440 0000856B
+03135442 0000D3D4
+03135426 00002000
+03135464 00002404
+03135466 00000090
+03135468 00002405
+0313546A 00000008
+0313546C 00003C06
+0313546E 00008034
+03135470 00000C0B
+03135472 000059B0
+03135474 000024C6
+03135476 0000D3E0
+031A7560 00005945
+03135478 00001000
+0313547A 00000022
+press Z to spawn
+value list hopefully coming soon!
+currently it is set to the first koopa that you race at the beginning
+use code with codes below! spawn behavior, spawn behavior offset, spawn GFX ID, and spawn extra value.
+talk to this guy for code support http://www.youtube.com/user/yoshielectron
+
+spawn behavior [Sharkbyte]
+031A7550 00001300
+talk to this guy for code support http://www.youtube.com/user/yoshielectron
+
+spawn behavoir offset [Sharkbyte]
+031A7552 00004580
+talk to this guy for code support http://www.youtube.com/user/yoshielectron
+
+spawn GFX ID [Sharkbyte]
+031A7554 00000068
+talk to this guy for code support http://www.youtube.com/user/yoshielectron
+
+spawn extra value [Sharkbyte]
+031A7558 00000002
+usually 02
+talk to this guy for code support http://www.youtube.com/user/yoshielectron
+
+Screen shakes when Mario ground pounds [Sharkbyte]
+031A7450 000027BD
+031A7452 0000FFE8
+031A7454 0000AFBF
+031A7456 00000014
+031A7458 00003C04
+031A745A 00008034
+031A745C 00009084
+031A745E 0000B179
+031A7460 00000C0A
+031A7462 0000943F
+031A7464 00000004
+031A7466 00002040
+031A7468 00008FBF
+031A746A 00000014
+031A746C 000027BD
+031A746E 00000018
+031A7470 000003E0
+031A7472 00000008
+02F581E0 00008033
+02F581E2 0000D2D0
+talk to this guy for code support http://www.youtube.com/user/yoshielectron
+
+D-pad tree remote control [Sharkbyte]
+031A7450 00003C09
+031A7452 00008036
+031A7454 00008D29
+031A7456 00001160
+031A7458 0000C520
+031A745A 000000A0
+031A745C 0000C526
+031A745E 000000A4
+031A7460 0000C524
+031A7462 000000A8
+031A7464 00003C08
+031A7466 00004200
+031A7468 00004488
+031A746A 00001000
+031A746C 00003C0A
+031A746E 00008034
+031A7470 0000814A
+031A7472 0000AFA0
+031A7474 00002408
+031A7476 00000001
+031A7478 00001148
+031A747A 0000000D
+031A747C 00002408
+031A747E 00000002
+031A7480 00001148
+031A7482 0000000A
+031A7484 00002408
+031A7486 00000008
+031A7488 00001148
+031A748A 0000000C
+031A748C 00002408
+031A748E 00000004
+031A7490 00001148
+031A7492 0000000B
+031A7494 00002408
+031A7496 00000006
+031A7498 00001148
+031A749A 0000000C
+031A749C 00002408
+031A749E 00000009
+031A74A0 00001148
+031A74A2 0000000B
+031A74A4 00000000
+031A74A6 00000000
+031A74A8 000003E0
+031A74AA 00000008
+031A74AC 00004600
+031A74AE 00001087
+031A74B0 00004602
+031A74B2 00000000
+031A74B4 0000E520
+031A74B6 000000A0
+031A74B8 000003E0
+031A74BA 00000008
+031A74BC 00004600
+031A74BE 00001087
+031A74C0 00004602
+031A74C2 00002100
+031A74C4 0000E524
+031A74C6 000000A8
+031A74C8 000003E0
+031A74CA 00000008
+031A74CC 00004600
+031A74CE 00001087
+031A74D0 00004602
+031A74D2 00003180
+031A74D4 0000E526
+031A74D6 000000A4
+031A74D8 000003E0
+031A74DA 00000008
+02F57DC8 00008033
+02F57DCA 0000D2D0
+D-pad left/right moves the trees horizontally, up/down moves the trees back and forward and by pressing D-pad right and up or D-pad left and down you can move the trees up and down.
+talk to this guy for code support http://www.youtube.com/user/yoshielectron
+
+Screen shakes whenever Mario moves [Sharkbyte]
+031A7450 000027BD
+031A7452 0000FFE8
+031A7454 0000AFBF
+031A7456 00000014
+031A7458 00003C04
+031A745A 00008034
+031A745C 00000C0A
+031A745E 0000943F
+031A7460 00009084
+031A7462 0000B18B
+031A7464 00008FBF
+031A7466 00000014
+031A7468 000027BD
+031A746A 00000018
+031A746C 000003E0
+031A746E 00000008
+02F581E0 00008033
+02F581E2 0000D2D0
+trippy!
+talk to this guy for code support http://www.youtube.com/user/yoshielectron
+
+mysterious scrolling message (easter egg) [Sharkbyte]
+031A7450 000027BD
+031A7452 0000FFE8
+031A7454 0000AFBF
+031A7456 00000014
+031A7458 00003C06
+031A745A 00008034
+031A745C 000090C4
+031A745E 0000D3D0
+031A7460 00002484
+031A7462 00000001
+031A7464 0000A0C4
+031A7466 0000D3D0
+031A7468 00002405
+031A746A 00000010
+031A746C 00000C0B
+031A746E 000059B0
+031A7470 000024C6
+031A7472 0000D3E0
+031A7474 00008FBF
+031A7476 00000014
+031A7478 000027BD
+031A747A 00000018
+031A747C 000003E0
+031A747E 00000008
+02F581E0 00008033
+02F581E2 0000D2D0
+031A7560 0000436F
+031A7562 00006465
+031A7564 00007320
+031A7566 0000706F
+031A7568 00007274
+031A756A 00006564
+031A756C 00002062
+031A756E 00007920
+031A7570 00005368
+031A7572 00006172
+031A7574 00006B62
+031A7576 00007974
+031A7578 00006521
+talk to this guy for code support http://www.youtube.com/user/yoshielectron
+
+Attack of the Goomba Shy guy [Sharkbyte]
+031AC21C 00008019
+031AC21E 000036AC
+031AC244 00008018
+031AC246 000073A4
+031AC296 00002049
+031AC3DE 0000F8A0
+talk to this guy for code support http://www.youtube.com/user/yoshielectron
+
+Freeze/unfreeze the camera [Sharkbyte]
+291A5120 00000100
+011A5385 00000001
+E0000000 80008000
+291A5120 00000200
+011A5385 00000033
+E0000000 80008000
+This will work for any level; press camera-right button to stop the camera from moving and then camera-left to get it moving again.
+
+2-player modified spawn debug mode [Sharkbyte]
+0119B014 00000003
+031A745E 00000001
+0313541E 0000D5E8
+0313546A 0000D5E8
+031354B6 0000D5E8
+0313543E 00003068
+03135442 00000074
+0313548A 00003174
+0313548E 000000BC
+031354D6 00001AA4
+031354DA 00000090
+Using the second controller, press D-pad right for a yellow coin, D-pad left for a Bob-omb (can be spawned in most levels) and D-pad down for a red flame. Each item will be placed in front of Mario so the second player can help out or make things worse.
+talk to this guy for code support http://www.youtube.com/user/yoshielectron
+
+Second modified spawn debug mode [Sharkbyte]
+0119B014 00000003
+031A745E 00000001
+0313543E 00003068
+03135442 00000074
+03135456 00000164
+0313545A 00000000
+0313548A 00003EAC
+0313548E 000000D7
+031354A2 00000164
+031354A6 00000000
+031354D6 00000830
+031354DA 00000076
+031354EE 00000164
+031354F2 00000000
+This code enables the debug spawn mode but also changes what items you can spawn with the D-pad. Press D-pad right for a yellow coin, D-pad left for a red coin (you'll have to jump to get it) and D-pad down for a blue coin.
+talk to this guy for code support http://www.youtube.com/user/yoshielectron
+
+Modified spawn debug mode [Sharkbyte]
+0119B014 00000003
+031A745E 00000001
+0313543E 00003068
+03135442 00000074
+03135456 00000164
+0313545A 00000000
+0313548A 00003FDC
+0313548E 000000D4
+031354A2 00000164
+031354A6 00000000
+031354D6 00003DB8
+031354DA 00000087
+031354EE 00000164
+031354F2 00000000
+This code enables the debug spawn mode but also changes what items you can spawn with the D-pad. Press D-pad right for a yellow coin, D-pad left for a slowing moving 1-up mushroom and D-pad down for a wing cap. Each object will fall from above Mario.
+talk to this guy for code support http://www.youtube.com/user/yoshielectron
+
+Spawn debug mode [Sharkbyte]
+0119B014 00000003
+031A745E 00000001
+Using this code you can access the spawn debug mode that Nintendo used to test the game. Press D-pad right for a normal Koopa shell, D-pad left for a bouncing box and D-pad down for a water Koopa shell (spawn it in the water). If you try to spawn an object in levels such as inside the castle the game will crash because the graphics aren't available.
+talk to this guy for code support http://www.youtube.com/user/yoshielectron
+
+Debug display 1 [Sharkbyte]
+01197718 00000001
+
+Debug display 2 [Sharkbyte]
+011A73E3 00000001
+291A5120 00000800
+0119B014 00000001
+E0000000 80008000
+291A5120 00000100
+0119B014 00000002
+E0000000 80008000
+291A5120 00000400
+0119B014 00000003
+E0000000 80008000
+291A5120 00000200
+0119B014 00000004
+E0000000 80008000
+291A5120 00002000
+0119B014 00000005
+E0000000 80008000
+This code allows you to activate one of several debug displays that Nintendo used to test the game, using the D-pad and shoulder L button whenever the game is not paused. Note: Before pressing a D-pad direction or the shoulder L button only the object number will be shown. enable with debug mode 1
+talk to this guy for code support http://www.youtube.com/user/yoshielectron
+
+sound display [Sharkbyte]
+01197714 00000001
+enable with debug mode 1 and 2
+
+mario explodes after time limit [Sharkbyte]
+031A7450 000027BD
+031A7452 0000FFE8
+031A7454 0000AFBF
+031A7456 00000014
+031A7458 00003C02
+031A745A 00008034
+031A745C 00008C44
+031A745E 0000D3D0
+031A7460 00002484
+031A7462 00000001
+031A7464 0000AC44
+031A7466 0000D3D0
+031A7468 00002C85
+031A746A 000005C6
+031A746C 000014A0
+031A746E 00000003
+031A7470 00000000
+031A7472 00000000
+031A7474 00000C0B
+031A7476 00009ABE
+031A7478 00000000
+031A747A 00000000
+031A747C 00008FBF
+031A747E 00000014
+031A7480 000027BD
+031A7482 00000018
+031A7484 000003E0
+031A7486 00000008
+02F581E0 00008033
+02F581E2 0000D2D0
+the line at 031A746A 000005C6 can be modified XXXX to change the time example: 04C6 would make mario blow up faster and 06C6 would make it take longer to blow up.
+warning! funny joke to play on others!
+talk to this guy for code support http://www.youtube.com/user/yoshielectron
+
+Press Z to make Mario explode [Sharkbyte]
+031A7550 000027BD
+031A7552 0000FFE8
+031A7554 0000AFBF
+031A7556 00000014
+031A7558 00003C04
+031A755A 00008034
+031A755C 0000948A
+031A755E 0000AFA0
+031A7560 00002408
+031A7562 00002000
+031A7564 0000150A
+031A7566 00000003
+031A7568 00000000
+031A756A 00000000
+031A756C 00000C0B
+031A756E 00009ABE
+031A7570 00000000
+031A7572 00000000
+031A7574 00008FBF
+031A7576 00000014
+031A7578 000027BD
+031A757A 00000018
+031A757C 000003E0
+031A757E 00000008
+02F581E0 00008033
+02F581E2 0000D3D0
+Any time you want Mario to blow up like a Bob-omb just press the shoulder L button. If Mario is not moving when you make him explode and you are in a level like Bob-omb battlefield you can exit the course and Mario will return.
+talk to this guy for code support http://www.youtube.com/user/yoshielectron
+
+Mario thinks he's a Bomb omb [Sharkbyte]
+02F581E0 0000802E
+02F581E2 0000742C
+when you touch another object mario will blow up and you have to restart
+talk to this guy for code support http://www.youtube.com/user/yoshielectron
+
+bomb ombs have bigger explosions [Sharkbyte]
+01154C67 00000089
+
+run too fast and you will blow up! [Sharkbyte]
+031A7550 000027BD
+031A7552 0000FFE8
+031A7554 0000AFBF
+031A7556 00000014
+031A7558 00003C04
+031A755A 00008034
+031A755C 0000948A
+031A755E 0000B1C4
+031A7560 00002D44
+031A7562 000041D0
+031A7564 00001C80
+031A7566 00000003
+031A7568 00000000
+031A756A 00000000
+031A756C 00000C0B
+031A756E 00009ABE
+031A7570 00000000
+031A7572 00000000
+031A7574 00008FBF
+031A7576 00000014
+031A7578 000027BD
+031A757A 00000018
+031A757C 000003E0
+031A757E 00000008
+02F581E0 00008033
+02F581E2 0000D3D0
+funny joke!
+talk to this guy for code support http://www.youtube.com/user/yoshielectron
+
+Press Z to go past the trapdoors inside the castle [Sharkbyte]
+291A5120 00002000
+031A532C 0000C5D6
+E0000000 80008000
+291A5120 00002000
+031A5334 0000C5AF
+E0000000 80008000
+talk to this guy for code support http://www.youtube.com/user/yoshielectron
+
+freeze time [Sharkbyte]
+031079CE 0000FFFF
+291A5120 00000800
+011A7603 00000040
+E0000000 80008000
+291A5120 00000400
+021A7603 00000000
+E0000000 80008000
+d-pad up= freeze time d-pad down= resume time
+
+Spawn Mario [Sharkbyte]
+291A5120 00000800
+011A53C8 00000001
+E0000000 80008000
+291A5120 00000400
+011A53C8 00000002
+E0000000 80008000
+In any course press the D-pad up button to restart the level and spawn another Mario at the original Mario's position. You can do this many times but the original Mario will move faster and be glitchy as will be the other Marios, although you can't move them. To get rid of the extra Marios as well as restarting the level, press the D-pad down button.
+too many spawns will freeze the game!
+
+move X amount of objects' coordinate modifiers [Sharkbyte]
+291A5120 00000800
+82200000 811AA3C8
+86000000 FFFC0000
+600000XX 00000001
+94210000 011AA3C8
+4A100000 00000260
+62000000 00000001
+E0000000 80008000
+291A5120 00000400
+82200000 811AA3C8
+86000000 00040000
+600000XX 00000001
+94210000 011AA3C8
+4A100000 00000260
+62000000 00000001
+E0000000 80008000
+291A5120 00000100
+82200000 811AA3D0
+86000000 00004000
+600000XX 00000001
+94210000 011AA3D0
+4A100000 00000260
+62000000 00000001
+E0000000 80008000
+291A5120 00000200
+82200000 811AA3D0
+86000000 FFFC0000
+600000XX 00000001
+94210000 011AA3D0
+4A100000 00000260
+62000000 00000001
+E0000000 80008000
+291A5120 00002800
+82200000 811AA3CC
+86000000 00200000
+600000XX 00000001
+94210000 011AA3CC
+4A100000 00000260
+62000000 00000001
+E0000000 80008000
+291A5120 00002400
+82200000 811AA3CC
+86000000 FFDF0000
+600000XX 00000001
+94210000 011AA3CC
+4A100000 00000260
+62000000 00000001
+E0000000 80008000
+press D-pad up for forward
+D-pad down for back
+D-pad left for left
+D-pad right for right
+Z+dpad up for up
+Z+dpad down for down
+must have XX value the same
+putting in values more that 40 can freeze the game!
+
+speed up X amount of objects' speed mod [Sharkbyte]
+291A5120 00000800
+82200000 811AA3E0
+86900000 3FC00000
+600000XX 00000001
+94210000 011AA3E0
+4A100000 00000260
+62000000 00000001
+E0000000 80008000
+291A5120 00000400
+82200000 811AA3E0
+86900000 BFC00000
+600000XX 00000001
+94210000 011AA3E0
+4A100000 00000260
+62000000 00000001
+E0000000 80008000
+up for fast
+down for slow down
+
+moon jump X amount of objects [Sharkbyte]
+291A5120 00000800
+82200000 811AA3D8
+86900000 40A00000
+600000XX 00000001
+94210000 011AA3D8
+4A100000 00000260
+62000000 00000001
+E0000000 80008000
+291A5120 00000400
+82200000 811AA3D8
+86900000 C0A00000
+600000XX 00000001
+94210000 011AA3D8
+4A100000 00000260
+62000000 00000001
+E0000000 80008000
+don't have this code on with speed up X amount of objects
+up=faster
+down=slower
+code only has testing on first level
+more levels will be enabled soon to work universal everywhere!
+
+judgement day [Sharkbyte]
+0315EAEC 000027BD
+0315EAEE 0000FFD8
+0315EAF0 0000AFBF
+0315EAF2 0000001C
+0315EAF4 00000C0E
+0315EAF6 0000119E
+0315EAF8 00000000
+0315EAFA 00000000
+0315EAFC 00003C03
+0315EAFE 00008036
+0315EB00 00002463
+0315EB02 00001160
+0315EB04 00008C67
+0315EB06 00000000
+0315EB08 00008CE3
+0315EB0A 00000014
+0315EB0C 00001060
+0315EB0E 00000058
+0315EB10 00008FBF
+0315EB12 0000001C
+0315EB14 00003C03
+0315EB16 00008036
+0315EB18 00002463
+0315EB1A 00001158
+0315EB1C 00008C66
+0315EB1E 00000000
+0315EB20 000010E6
+0315EB22 00000053
+0315EB24 00003C03
+0315EB26 00008034
+0315EB28 00002463
+0315EB2A 0000D3E0
+0315EB2C 00008C66
+0315EB2E 00000000
+0315EB30 000010C0
+0315EB32 0000004F
+0315EB34 00000000
+0315EB36 00000000
+0315EB38 00001000
+0315EB3A 0000001E
+0315EB3C 00000000
+0315EB3E 00000000
+0315E178 00000000
+0315E17A 00000000
+031F5B60 0000802F
+031F5B62 0000496C
+291A5120 00000800
+011A7563 00000001
+E0000000 80008000
+291A5120 00000400
+011A7563 00000000
+E0000000 80008000
+D-pad up=code on
+D-pad down= code off
+everything attacks mario!
+talk to this guy for code support http://www.youtube.com/user/yoshielectron
+
+walk on water, lava, sand, and hills [Sharkbyte]
+030BF610 00001000
+030BF8AC 00001000
+030BF8AE 00000031
+030BAA80 00001000
+031EB8E4 00000800
+031EB8E6 00000024
+02E6A210 00003C04
+02E6A212 00008034
+02E6A214 00008484
+02E6A216 0000B1E6
+02E6A218 00004484
+02E6A21A 00003000
+02E6A220 00004680
+02E6A222 00003120
+030BDD70 00002400
+030CED3C 00001000
+02E6A224 00004604
+02E6A226 0000903C
+02E6A22C 00004500
+02E6A22E 00000002
+02E6A234 00004600
+02E6A236 00002486
+02E6A238 0000080E
+02E6A23A 000005DB
+02E6A23C 0000E712
+
+objects, enemies and others are turned to a mario look alike [Sharkbyte]
+291A5120 00000200
+091AA33C 800F0860
+20140260 00000000
+E0000000 80008000
+press Left
+
+memory debugger V1.1 part 1 [Sharkbyte]
+031A7450 000027BD
+031A7452 0000FFE8
+031A7454 0000AFBF
+031A7456 00000014
+031A7458 00003C09
+031A745A 00000010
+031A745C 00003C10
+031A745E 00008034
+031A7460 00009E07
+031A7462 0000D3F0
+031A7464 000000E0
+031A7466 0000E025
+031A7468 00003C05
+031A746A 00008000
+031A746C 00000385
+031A746E 0000E025
+031A7470 00009384
+031A7472 00000000
+031A7474 0000960A
+031A7476 0000AFA0
+031A7478 00002408
+031A747A 00002100
+031A747C 00001148
+031A747E 00000022
+031A7480 00002408
+031A7482 00002200
+031A7484 00001148
+031A7486 00000023
+031A7488 00002408
+031A748A 00000800
+031A748C 00001148
+031A748E 00000018
+031A7490 00002408
+031A7492 00000400
+031A7494 00001148
+031A7496 00000019
+031A7498 00002408
+031A749A 00000100
+031A749C 00001148
+031A749E 0000000E
+031A74A0 00002408
+031A74A2 00000200
+031A74A4 00001148
+031A74A6 0000000F
+031A74A8 00002408
+031A74AA 00002800
+031A74AC 00001148
+031A74AE 00000005
+031A74B0 00002408
+031A74B2 00002400
+031A74B4 00001148
+031A74B6 00000006
+031A74B8 00000000
+031A74BA 00000000
+031A74BC 00001000
+031A74BE 00000018
+031A74C0 00000000
+031A74C2 00000000
+031A74C4 000000E9
+031A74C6 00003821
+031A74C8 00001000
+031A74CA 00000014
+031A74CC 00000000
+031A74CE 00000000
+031A74D0 000000E9
+031A74D2 00003823
+031A74D4 00001000
+031A74D6 00000011
+This code is ground-breaking; first code example of debugging without a usb gecko!
+use with part 2
+code was not made by me, just ported
+talk to this guy for code support http://www.youtube.com/user/yoshielectron
+
+memory debugger V1.1 part 2 [Sharkbyte]
+031A74D8 000024E7
+031A74DA 00000100
+031A74DC 00001000
+031A74DE 0000000F
+031A74E0 00000000
+031A74E2 00000000
+031A74E4 000024E7
+031A74E6 0000FF00
+031A74E8 00001000
+031A74EA 0000000C
+031A74EC 00000000
+031A74EE 00000000
+031A74F0 000024E7
+031A74F2 00000001
+031A74F4 00001000
+031A74F6 00000009
+031A74F8 00000000
+031A74FA 00000000
+031A74FC 000024E7
+031A74FE 0000FFFF
+031A7500 00001000
+031A7502 00000006
+031A7504 00000000
+031A7506 00000000
+031A7508 00002484
+031A750A 00000001
+031A750C 00001000
+031A750E 00000002
+031A7510 00000000
+031A7512 00000000
+031A7514 00002484
+031A7516 0000FFFF
+031A7518 0000A384
+031A751A 00000000
+031A751C 0000AE07
+031A751E 0000D3F0
+031A7520 00002404
+031A7522 00000010
+031A7524 00002405
+031A7526 00000010
+031A7528 00000C0B
+031A752A 000058B6
+031A752C 00002606
+031A752E 0000D3E0
+031A7530 00002404
+031A7532 00000080
+031A7534 00002405
+031A7536 00000010
+031A7538 00002606
+031A753A 0000D3E8
+031A753C 00009E07
+031A753E 0000D3F0
+031A7540 00000C0B
+031A7542 000058B6
+031A7544 00009387
+031A7546 00000000
+031A7548 00008FBF
+031A754A 00000014
+031A754C 000027BD
+031A754E 00000018
+031A7550 000003E0
+031A7552 00000008
+031A7560 00003830
+031A7562 00002530
+031A7564 00003678
+031A7568 00005945
+031A756A 00002025
+031A756C 00003032
+011A756E 00000078
+030BD74C 00000C0C
+use with part 1
+code was not made by me, just ported
+These are the controls:
+D-pad up/down go to next/previous address.
+D-pad right/left go to +0x100/-0x100 address.
+Z and right/left increase/decrease the byte.
+Z and up/down go to +0x00100000/-0x00100000 address.
+talk to this guy for code support http://www.youtube.com/user/yoshielectron
+
+profile A have all 7 stars
+
+bomb omb battlefield [Sharkbyte]
+0107188C 000000FF
+
+whomps fortress [Sharkbyte]
+0107188D 000000FF
+
+jolly roger bay [Sharkbyte]
+0107188E 000000FF
+
+cool cool mountain [Sharkbyte]
+0107188F 000000FF
+
+big boos haunt [Sharkbyte]
+01071890 000000FF
+
+hazy maze cave [Sharkbyte]
+01071891 000000FF
+
+lethal lava land [Sharkbyte]
+01071892 000000FF
+
+shifting sand land [Sharkbyte]
+01071893 000000FF
+
+dire dire docks [Sharkbyte]
+01071894 000000FF
+
+snowmans land [Sharkbyte]
+01071895 000000FF
+
+wet dry land [Sharkbyte]
+01071896 000000FF
+
+tall tall mountain [Sharkbyte]
+01071897 000000FF
+
+tiny-huge island [Sharkbyte]
+01071898 000000FF
+
+tick tock clock [Sharkbyte]
+01071899 000000FF
+
+rainbow ride [Sharkbyte]
+0107189A 000000FF
+
+1st secret star [Sharkbyte]
+0107189B 000000FF
+
+2nd secret star [Sharkbyte]
+0107189C 000000FF
+
+3rd secret star [Sharkbyte]
+0107189D 000000FF
+
+4th secret star [Sharkbyte]
+0107189E 000000FF
+
+5th secret star [Sharkbyte]
+0107189F 000000FF
+
+6th secret star [Sharkbyte]
+010718A0 000000FF
+
+7th secret star [Sharkbyte]
+010718A1 000000FF
+
+8th secret star [Sharkbyte]
+010718A2 000000FF
+
+9th secret star [Sharkbyte]
+010718A3 000000FF
+
+10th secret star [Sharkbyte]
+010718A4 000000FF
+
+have all normal stars (120) [Sharkbyte]
+0307188C 0000FFFF
+0307188E 0000FFFF
+03071890 0000FFFF
+03071892 0000FFFF
+03071894 0000FFFF
+03071896 0000FFFF
+03071898 0000FFFF
+0107189A 000000FF
+0107189B 000000FF
+0307189C 000001FF
+*fixed
+This code has been fixed because viper187 had incorrect values and the code originally gave the player 169 stars
+
+profile B have all 7 stars
+
+bomb omb battlefield [Sharkbyte]
+010718FC 000000FF
+
+whomps fortress [Sharkbyte]
+010718FD 000000FF
+
+jolly roger bay [Sharkbyte]
+010718FE 000000FF
+
+cool cool mountain [Sharkbyte]
+010718FF 000000FF
+
+big boos haunt [Sharkbyte]
+01071900 000000FF
+
+hazy maze cave [Sharkbyte]
+01071901 000000FF
+
+lethal lava land [Sharkbyte]
+01071902 000000FF
+
+shifting sand land [Sharkbyte]
+01071903 000000FF
+
+dire dire docks [Sharkbyte]
+01071904 000000FF
+
+snowmans land [Sharkbyte]
+01071905 000000FF
+
+wet dry world [Sharkbyte]
+01071906 000000FF
+
+tall tall mountain [Sharkbyte]
+01071907 000000FF
+
+tiny huge island [Sharkbyte]
+01071908 000000FF
+
+tick tock clock [Sharkbyte]
+01071909 000000FF
+
+rainbow ride [Sharkbyte]
+0107190A 000000FF
+
+1st secret star [Sharkbyte]
+0107190B 000000FF
+
+2nd secret star [Sharkbyte]
+0107190C 000000FF
+
+3rd secret star [Sharkbyte]
+0107190D 000000FF
+
+4th secret star [Sharkbyte]
+0107190E 000000FF
+
+5th secret star [Sharkbyte]
+0107190F 000000FF
+
+6th secret star [Sharkbyte]
+01071910 000000FF
+
+7th secret star [Sharkbyte]
+01071911 000000FF
+
+8th secret star [Sharkbyte]
+01071912 000000FF
+
+9th secret star [Sharkbyte]
+01071913 000000FF
+
+10th secret star [Sharkbyte]
+01071914 000000FF
+
+have all normal stars (120) [Sharkbyte]
+030718FC 0000FFFF
+030718FE 0000FFFF
+03071900 0000FFFF
+03071902 0000FFFF
+03071904 0000FFFF
+03071906 0000FFFF
+03071908 0000FFFF
+0107190A 000000FF
+0107190B 000000FF
+0307190C 000001FF
+*fixed
+
+profile C have all 7 stars
+
+bomb omb battlefield [Sharkbyte]
+0107196C 000000FF
+
+whomps fortress [Sharkbyte]
+0107196D 000000FF
+
+jolly roger bay [Sharkbyte]
+0107196E 000000FF
+
+cool cool mountain [Sharkbyte]
+0107196F 000000FF
+
+big boos haunt [Sharkbyte]
+01071970 000000FF
+
+hazy maze cave [Sharkbyte]
+01071971 000000FF
+
+lethal lava land [Sharkbyte]
+01071972 000000FF
+
+shifting sand land [Sharkbyte]
+01071973 000000FF
+
+dire dire docks [Sharkbyte]
+01071974 000000FF
+
+snowmans land [Sharkbyte]
+01071975 000000FF
+
+wet dry world [Sharkbyte]
+01071976 000000FF
+
+tall tall mountain [Sharkbyte]
+01071977 000000FF
+
+tiny huge island [Sharkbyte]
+01071978 000000FF
+
+tick tock clock [Sharkbyte]
+01071979 000000FF
+
+rainbow ride [Sharkbyte]
+0107197A 000000FF
+
+1st secret star [Sharkbyte]
+0107197B 000000FF
+
+2nd secret star [Sharkbyte]
+0107197C 000000FF
+
+3rd secret star [Sharkbyte]
+0107197D 000000FF
+
+4th secret star [Sharkbyte]
+0107197E 000000FF
+
+5th secret star [Sharkbyte]
+0107197F 000000FF
+
+6th secret star [Sharkbyte]
+01071980 000000FF
+
+7th secret star [Sharkbyte]
+01071981 000000FF
+
+8th secret star [Sharkbyte]
+01071982 000000FF
+
+9th secret star [Sharkbyte]
+01071983 000000FF
+
+10th secret star [Sharkbyte]
+01071984 000000FF
+
+have all normal stars (120) [Sharkbyte]
+0307196C 0000FFFF
+0307196E 0000FFFF
+03071970 0000FFFF
+03071972 0000FFFF
+03071974 0000FFFF
+03071976 0000FFFF
+03071978 0000FFFF
+0107197A 000000FF
+0107197B 000000FF
+0107197C 000001FF
+
+profile D have all 7 stars
+
+bomb omb battlefield [Sharkbyte]
+010719DC 000000FF
+
+whomps fortress [Sharkbyte]
+010719DD 000000FF
+
+jolly roger bay [Sharkbyte]
+010719DE 000000FF
+
+cool cool mountain [Sharkbyte]
+010719DF 000000FF
+
+big boos haunt [Sharkbyte]
+010719E0 000000FF
+
+hazy maze cave [Sharkbyte]
+010719E1 000000FF
+
+lethal lava land [Sharkbyte]
+010719E2 000000FF
+
+shifting sand land [Sharkbyte]
+010719E3 000000FF
+
+dire dire docks [Sharkbyte]
+010719E4 000000FF
+
+snowmans land [Sharkbyte]
+010719E5 000000FF
+
+wet dry world [Sharkbyte]
+010719E6 000000FF
+
+tall tall mountain [Sharkbyte]
+010719E7 000000FF
+
+tiny huge island [Sharkbyte]
+010719E8 000000FF
+
+tick tock clock [Sharkbyte]
+010719E9 000000FF
+
+rainbow ride [Sharkbyte]
+010719EA 000000FF
+
+1st secret star [Sharkbyte]
+010719EB 000000FF
+
+2nd secret star [Sharkbyte]
+010719EC 000000FF
+
+3rd secret star [Sharkbyte]
+010719ED 000000FF
+
+4th secret star [Sharkbyte]
+010719EE 000000FF
+
+5th secret star [Sharkbyte]
+010719EF 000000FF
+
+6th secret star [Sharkbyte]
+010719F0 000000FF
+
+7th secret star [Sharkbyte]
+010719F1 000000FF
+
+8th secret star [Sharkbyte]
+010719F2 000000FF
+
+9th secret star [Sharkbyte]
+010719F3 000000FF
+
+10th secret star [Sharkbyte]
+010719F4 000000FF
+
+have all normal stars [Sharkbyte]
+030719DC 0000FFFF
+030719DE 0000FFFF
+030719E0 0000FFFF
+030719E2 0000FFFF
+030719E4 0000FFFF
+030719E6 0000FFFF
+030719E8 0000FFFF
+010719EA 000000FF
+010719EB 000000FF
+030719EC 000001FF
+*fixed
+
+orange greenish mario [Sharkbyte]
+02EE8DB8 0000007F
+02EE8DC0 000000FF
+
+mario on drugs
+-Removed-
+
+Bouncing Box First Jump Height Modifier [Sharkbyte]
+030D70FA 0000XXXX
+(Default 4234)
+
+bouncing box first jump distance modifier [Sharkbyte]
+030D710A 0000XXXX
+default 4200
+
+bouncing box second jump height modifier [Sharkbyte]
+030D7122 0000XXXX
+default 4270
+
+bouncing box second jump distance modifier [Sharkbyte]
+030D7132 0000XXXX
+default 4210
+
+bouncing box third jump height modifier [Sharkbyte]
+030D714A 0000XXXX
+default 42C8
+
+bouncing box third jump distance modifier [Sharkbyte]
+030D715A 0000XXXX
+default 4240
+
+Metal Mario Underwater Jump Distance Modifier [Sharkbyte]
+030BCD78 00003C1B
+030BCD7A 0000XXXX
+030BCD80 0000AC9B
+030BCD82 00000054
+
+Long Jump Distance Modifer [Sharkbyte]
+030BCAA4 00002400
+030BCAAE 0000XXXX
+default 4240
+
+wall kick distance modifier [Sharkbyte]
+030BC912 0000XXXX
+default 41C0
+
+drunk mario [Sharkbyte]
+031A530E 00000099
+
+quiet mode [Sharkbyte]
+011A52CA 00000006
+warning! may freeze your game after 10 seconds!
+
+music speed mod [Sharkbyte]
+0108C7A2 000000XX
+15 normal
+0A drunk slow
+1F panic fast
+
+speed hack! [Sharkbyte]
+031A5344 0000XXXX
+3F80 - Nearly stopped spd=1
+4000 - Extremely slow spd=2
+4080 - Somewhat slow spd=4
+4100 - Slow spd=8
+4180 - Medium spd=16
+4200 - Running spd=32
+4280 - Fast spd=64
+4300 - Really Fast spd=128
+4380 - Extremely fast but only when running, can go across Bob-omb Battlefield in 1 jump spd=256
+4400 - Uncontrollable when not running spd=512
+4480 - 2x 4400 spd=1024
+4500 - 4x 4400 spd=2048
+BF80 - Completely stopped spd=-1
+C000 - 4000 but backwards
+C080 - 4080 but backwards
+and so on until
+C500 - 4500 but backwards
+
+"Mips" The Rabbit Is Always There Even After Caught [Sharkbyte]
+031626A6 0000FFEF
+031626B4 00002400
+
+number of stars to make rabbit appear the first time [Sharkbyte]
+0316264A 0000XXXX
+default 000F
+
+first rabbit speed hack! [Sharkbyte]
+03162672 0000XXXX
+default 4220
+
+second rabbit speed hack! [Sharkbyte]
+031626CE 0000XXXX
+default 4234
+
+mario size mod [Sharkbyte]
+02F5AA10 0000XXXX
+default 3E80
+
+camera X coordinates [Sharkbyte]
+031A6818 0000XXXX
+031A681A 0000XXXX
+
+camera Y coordinates [Sharkbyte]
+031A681C 0000XXXX
+031A681E 0000XXXX
+
+camera Z coordinates [Sharkbyte]
+031A6820 0000XXXX
+031A6822 0000XXXX
+
+goombas don't stop chasing you [Sharkbyte]
+03169928 00002400
+
+get 1ups instead of coins [Sharkbyte]
+030B7CD6 000000AD
+
+flashing invincible [Sharkbyte]
+031A5316 00000070
+
+koopa is 2x faster [Sharkbyte]
+02F5989C 00003200
+02F5989E 00000096
+02F598A0 00000C00
+02F598A2 00000000
+02F598A4 0000802F
+02F598A6 0000BC4C
+02F598A8 00000800
+02F598AA 00000000
+02F598AC 00000C00
+02F598AE 00000000
+02F598B0 0000802F
+02F598B2 0000D7F8
+02F598B4 00000C00
+02F598B6 00000000
+02F598B8 0000802F
+02F598BA 0000D7F8
+02F598BC 00000900
+02F598BE 00000000
+
+walk on lava [Sharkbyte]
+030BAA80 00001000
+
+instant triple jump
+-Removed-
+
+jesus mode [Sharkbyte]
+031EB8E4 00000800
+031EB8E6 00000024
+02E6A210 00003C04
+02E6A212 00008034
+02E6A214 00008484
+02E6A216 0000B1E6
+02E6A218 00004484
+02E6A21A 00003000
+02E6A220 00004680
+02E6A222 00003120
+02E6A224 00004604
+02E6A226 0000903C
+02E6A22C 00004500
+02E6A22E 00000002
+02E6A234 00004600
+02E6A236 00002486
+02E6A238 0000080E
+02E6A23A 000005DB
+02E6A23C 0000E712
+code ported
+original by Parasyte
+
+Metal Mario Underwater Jump Height Modifier [Sharkbyte]
+030BCD72 0000XXXX
+default 4200
+
+level select [Sharkbyte]
+0119770C 00000001
+
+MoonJump [Thomas83Lin]
+2820864A FFEF0010
+051A533C 42080000
+E0000000 80008000
+*Classic Controller*
+
+Invincible [Thomas83Lin]
+011A5317 00000002
+*Doesn't help on high falls*
+
+Infinite HP [hetoan2]
+011A539E 00000008
+
+Infinite Lives [hetoan2]
+011A539D 00000005
+
+Coin Modifier [hetoan2]
+031A5398 000000XX
+63 will give you a star on every coin
+
+Hat Modifier [hetoan2]
+031A52F6 000001XY
+X values:
+0 = no hat
+1 = hat on
+2 = holding hat
+3 = holding hat w/ hat on
+A = invisible
+B = invisible holding hat?
+Y Values:
+1 = default
+2 = see through mario (for holding hat)
+3 = see through mario (for holding hat w/ hat on)
+4 = metal mario
+9 = flying mario
+just add bites together to combine effects.
+
+Hover Mario [hetoan2]
+051A53A0 01FF0000
+
+Time how long it takes to get a star V1.1 (JS) GameShark converted by [mdmwii]
+050B3808 A03BB25E
+050B7DFC A1A000EE
+010B5317 00000040
+050B3810 00000000
+291A5120 00006010
+031A53EC 00000000
+*Push L + R + B on gamecube controller to reset timer*
+
+Walk on Quicksand [goemon_guy]
+030BF610 00001000
+030BF8AC 00001000
+010BF8AE 00000031
+
+Quick Coin Gain (256) [GMO]
+011A5398 00000001
+
+99 Coins [GMO]
+011A5399 00000063
+
+Quick Star Gain (256) [GMO]
+011A539A 00000001
+
+Max Stars [GMO]
+011A539B 00000063
+
+Max Lives [GMO]
+011A539D 00000064
+
+Unlimited Health [GMO]
+011A539E 00000008
+
+Normal Status (Flat State) [GMO]
+011A53A4 00000000

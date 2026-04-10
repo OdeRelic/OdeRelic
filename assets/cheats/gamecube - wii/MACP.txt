@@ -1,0 +1,59 @@
+MACP
+Dr. Robotnik's Mean Bean Machine
+
+Player 1 Max Score [Crapulecorp]
+02DAAF0A 000005F5
+02DAAF0C 0000E0FF
+
+Player 1 - Next Falling Bean Color Modifier (Top Bean) [Crapulecorp]
+00DAB067 000000XX
+*00 - Red*
+*01 - Yellow*
+*02 - Glitch*
+*03 - Green*
+*04 - Purple*
+*05 - Blue*
+*06 - Unbreakable Bean*
+*Code ported from MegamanX's Action Replay Code*
+
+Player 1 - Next Falling Bean Color Modifier (Bottom Bean) [Crapulecorp]
+00DAB066 000000XX
+*00 - Red*
+*01 - Yellow*
+*02 - Glitch*
+*03 - Green*
+*04 - Purple*
+*05 - Blue*
+*06 - Unbreakable Bean*
+*Code ported from MegamanX's Action Replay Code*
+
+Player 2 - Next Falling Bean Color Modifier (Top Bean) [Crapulecorp]
+00DAB127 000000XX
+*00 - Red*
+*01 - Yellow*
+*02 - Glitch*
+*03 - Green*
+*04 - Purple*
+*05 - Blue*
+*06 - Unbreakable Bean*
+*Code ported from MegamanX's Action Replay Code*
+
+Player 2 - Falling Bean Color Modifier (Bottom Bean) [Crapulecorp]
+00DAB126 000000XX
+*00 - Red*
+*01 - Yellow*
+*02 - Glitch*
+*03 - Green*
+*04 - Purple*
+*05 - Blue*
+*06 - Unbreakable Bean*
+*Code ported from MegamanX's Action Replay Code*
+
+You Can Drop Clear/Refugee Beans On The CPU, But The CPU Can't Drop Them On You [Crapulecorp]
+02DAAF14 00000000
+*Code ported from Tony Hedstrom's Action Replay Code*
+
+Button Activator
+
+Player 1 WiiMote [Crapulecorp]
+281DD4DA YYYYZZZZ

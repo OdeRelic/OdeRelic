@@ -1,0 +1,10 @@
+GTDE52
+Tony Hawks Underground 1 
+
+Massive Score in Challenges
+0491E60C 3B9AC9FF
+
+Moon Jump (Hold DPad Up)
+282E6554 00000008
+0491DC0C 440001CE
+E2000001 80008000

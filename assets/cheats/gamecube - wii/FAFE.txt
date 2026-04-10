@@ -1,0 +1,9 @@
+FAFE
+Mario Bros.
+
+Press and Hold B to stay in air longer [Sharkbyte]
+201DC310 00000200
+003ABD21 00000030
+
+Unlimited Lives Mario [GMO]
+003ABA68 00000003

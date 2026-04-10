@@ -1,0 +1,10 @@
+RTVE64
+Thrillville 2 Off The Rails
+
+Have Lots of Money [Skiller]
+0436DF2C 3C0005E0
+May Need to Gain Or Lose Money
+
+Always Max Power [Skiller]
+0438ACB8 3C000000
+After Buying/Selling (Power Always Green)

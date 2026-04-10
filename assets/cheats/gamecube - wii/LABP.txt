@@ -1,0 +1,29 @@
+LABP
+Fantasy Zone
+
+Infinite Lives [Crapulecorp]
+00D53FC5 0000000A
+
+$ MAX [Crapulecorp]
+02D53FC6 00009999
+00D53FC8 00000099
+*Code ported from ZiT Ntsc Usa Version*
+
+Shot Modify [Crapulecorp]
+00D53FFC 000000XX
+*Replace XX= 45 to 48*
+*Code ported from ZiT Ntsc Usa Version*
+
+Bomb Modify [Crapulecorp]
+00D53FFD 000000XX
+*Replace XX = 89 to 8D*
+*Code ported from ZiT Ntsc Usa Version*
+
+Engine Modify [Crapulecorp]
+00D53FFB 0000000X
+*Replace X = 00 to 04*
+*Code ported from ZiT Ntsc Usa Version*
+
+Infinite Bomb [Crapulecorp]
+04D5402C 99999999
+*Code ported from ZiT Ntsc Usa Version*

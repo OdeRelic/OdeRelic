@@ -1,0 +1,89 @@
+LAJP
+Sonic The Hedgehog 2
+
+Max Lives [Crapulecorp]
+00D53198 00000009
+
+Invincible [Crapulecorp]
+00D532A9 0000006A
+*Code ported from GMO Ntsc Usa Version*
+
+Inf. H²O underwater [Crapulecorp]
+00D53368 0000000A
+*Code ported from -Ozelot- Ntsc Usa Version*
+
+Refill Coins/Health
+
+Refill Coins/Health (Press L) [Crapulecorp]
+281BCE82 DFFF2000
+00D53199 00000099
+E0000000 80008000
+*Classic Controller*
+*Code ported from GMO Ntsc Usa Version*
+
+Refill Coins/Health (Hold B and Press Right) [Crapulecorp]
+281BCE82 FBFD0402
+00D53199 00000099
+E0000000 80008000
+*WiiMote*
+*Code ported from GMO Ntsc Usa Version*
+
+MoonJump
+
+MoonJump (Press A) [Crapulecorp]
+281BCEE2 FFEF0010
+00D53419 000000FB
+E0000000 80008000
+*Classic Controller*
+*Code ported from -Ozelot- Ntsc Usa Version*
+
+Moon Jump [Crapulecorp]
+281BCE82 FFFD0002
+00D53419 000000FB
+E0000000 80008000
+*WiiMote*
+*Code ported from -Ozelot- Ntsc Usa Version*
+
+Level Select Menu
+
+Level Select Menu (Press ZL) [Crapulecorp]
+28D51DCE FF7F0080
+04D5302C 0D01000C
+E0000000 80008000
+*Classic Controller*
+*Press in Title Screen*
+*Code ported from GMO Ntsc Usa Version*
+
+Level Select Menu (Press 1 and 2) [Crapulecorp]
+281BCE82 FCFF0300
+04D5302C 0D01000C
+E0000000 80008000
+*WiiMote*
+*Press in Title Screen*
+*Code ported from GMO Ntsc Usa Version*
+
+Low Game Time
+
+Low Game Time (Press ZR) [Crapulecorp]
+281BCE82 FFFB0004
+00D531B9 00000001
+00D531BA 00000000
+E0000000 80008000
+*Classic Controller*
+*Code ported from GMO Ntsc Usa Version*
+
+Low Game Time (Hold B and Press Left) [Crapulecorp]
+281BCE82 FBFE0401
+00D531B9 00000001
+00D531BA 00000000
+E0000000 80008000
+*WiiMote*
+*Code ported from GMO Ntsc Usa Version*
+
+Button Activator
+
+Classic Controller [Crapulecorp]
+281BCEE2 YYYYZZZZ
+
+WiiMote [Crapulecorp]
+281BCE82 YYYYZZZZ

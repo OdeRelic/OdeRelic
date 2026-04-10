@@ -1,0 +1,17 @@
+RFOX52
+Spider-Man: Friend or Foe
+
+Unlimited Health For SpiderMan And Partner [Crapulecorp]
+02A82A98 0000440F
+02AB9F80 0000440F
+*Same Adresses from Glitch's Ntsc Usa Version*
+
+Unlimited D-Pad Items [Crapulecorp]
+003E84E7 00000003
+003E84EB 00000003
+003E84EF 00000005
+003E84F0 00000001
+*Same Adresses from Glitch's Ntsc Usa Version*
+
+Unlimited Upgrade Tokens [Crapulecorp]
+043E8400 0098967F

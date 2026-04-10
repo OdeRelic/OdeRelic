@@ -1,0 +1,15 @@
+GM2E8P
+Super Monkey Ball 2
+
+Bowling: Access All Special Mode Levels [biolizard89]
+208F7500 41820018
+048F7500 48000018
+E2000001 80008000
+
+Debug Menu (Press Z To Activate) [Jay007]
+28145120 FFEF0010
+005BC473 00000003
+E2000001 80008000
+While on the main start screen press A to bring up the debug menu. While in mid game hold L, and press start to bring up the game debug menu. Hold R, and press start for debug pause, press z to advance frames. Hold Z, and press start to bring up mini mode. Not all debug options will work.
+
+In the dipswitch menu, dont turn off Dip-Debug, or Dip-Disp, or you can't get the debug menu back. If you find you can't follow this, use the Debug Menu (Alternate) code and press Z when you want the debug option to be reactivated.

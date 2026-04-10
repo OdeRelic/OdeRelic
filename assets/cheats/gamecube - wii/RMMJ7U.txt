@@ -1,0 +1,5 @@
+RMMJ7U
+Tama Run
+
+Time Stop [ZiT]
+04063F60 60000000

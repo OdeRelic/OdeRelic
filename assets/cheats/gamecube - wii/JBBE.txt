@@ -1,0 +1,62 @@
+JBBE
+Super Street Fighter II The New Challengers
+
+Disable Countdown [GMO]
+0049E3D0 00000000
+
+Add Time Press Z-Right [GMO]
+28196FA0 FFFB0004
+0049E3D1 00000099
+E0000000 80008000
+
+P1 Unlimited Health [GMO]
+0249CFD8 0000B0B0
+
+1-Hit Kill (P2 Life Mod) [GMO]
+2849D218 0000B0B0
+0249D218 00000001
+E0000000 80008000
+
+Win 1 Round To Win Match [GMO]
+0049D078 00000002
+
+P1 Character Modifier [GMO]
+0049D079 000000??
+
+P2 Character Modifier [GMO]
+0049D2B9 0000????
+
+Character Modifier Values
+
+00 Ryu
+01 E.Honda
+02 Blanka
+03 Guile
+04 Ken
+05 Chun Li
+06 Zangief
+07 Dhalsim
+08 M.Bison
+09 Sagat
+0A Balrog
+0B Vega
+0C Camay
+0D T.Hawk
+0E Fei Long
+0F Dee Jay
+
+Air Moves [g6flavor]
+0049D092 00000000
+
+Invincible [g6flavor]
+0049D0DF 000000FF
+
+Guile Easy Sonic Boom,Flash Kick [g6flavor]
+2849D078 00000003
+0049D148 00000006
+0049D160 00000006
+E0000000 80008000
+2849D078 00000103
+0049D148 00000006
+0049D160 00000006
+E0000000 80008000

@@ -1,0 +1,30 @@
+SOJP41
+Rayman Origins
+
+Inf Health [Thomas83Lin]
+C21557DC 00000002
+38000002 900300D4
+60000000 00000000
+*Change 38000002 to 38000001 to remove the heart*
+
+Moon Jump (Jump and Press B) [Thomas83Lin]
+C240FFCC 00000005
+3D80806E 618C8A20
+A18C0000 718C0400
+41820010 3D80411D
+91840004 48000008
+D0840004 00000000
+*Wiimote Horizontal*
+*Change 0400 to Change Button Activator*
+
+Stop Timer on\off (Press Minus) [Thomas83Lin]
+286E8A20 EFFF1000
+043A7970 D01F1064
+CC000000 00000000
+043A7970 60000000
+E0000000 80008000
+*Wiimote Horizontal*
+
+X Bees [Jedi HaCk]
+057F8430 XXXXXXXX
+*Just convert dec to hex.

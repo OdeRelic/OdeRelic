@@ -1,0 +1,989 @@
+WRUE
+Bit.Trip Runner
+
+Button Activator [BoxNinja]
+203B8CF0 0000XXXX
+
+Max Score [BoxNinja]
+04493890 XXXXXXXX
+*Change X to score
+
+Collect All Coins v1 [BoxNinja]
+203B8CF0 00000100
+A8000000 00000001
+82200001 80493894
+84200001 80493898
+E0000000 80008000
+*Hit 2 before every level
+*Collect 1 coin to activate
+
+Collect All Coins v2 [BoxNinja]
+C0000000 00000004
+3D608049 616B3894
+3D808049 618C3898
+814B0000 914C0000
+4E800020 4E800020
+*Collect 1 coin to activate
+
+Moon Jump v1 [BoxNinja]
+203B8CF0 00000100
+0431E740 35C42543
+E0000000 80008000
+*Hold 2 to fly
+
+Moon Jump v2 [BoxNinja]
+C0000000 00000009
+9421FFB0 BDC10008
+3D80803B 618C8CF0
+818C0000 280C0100
+41820008 4800001C
+3DE08031 61EFE740
+3DC035C4 61CE2543
+91CF0000 48000004
+B9C10008 38210050
+4E800020 00000000
+*Hold 2 to fly
+
+Auto Initials [BoxNinja]
+04304CB8 XXYYZZ00
+*XX = 1st initial
+*YY = 2nd initial
+*ZZ = 3rd initial
+
+High Score Mods
+
+Zone 1.1 High Score Mods
+
+1.1 Slot 1 Score [BoxNinja]
+043E8164 XXXXXXXX
+*Change X to score
+
+1.1 Slot 2 Score [BoxNinja]
+043E8174 XXXXXXXX
+*Change X to score
+
+1.1 Slot 3 Score [BoxNinja]
+043E8184 XXXXXXXX
+*Change X to score
+
+1.1 Slot 1 Name Mod [BoxNinja]
+043E8168 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+1.1 Slot 2 Name Mod [BoxNinja]
+043E8170 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+1.1 Slot 3 Name Mod [BoxNinja]
+043E8178 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+Zone 1.2 High Score Mods
+
+1.2 Slot 1 Score [BoxNinja]
+043E8180 XXXXXXXX
+*Change X to score
+
+1.2 Slot 2 Score [BoxNinja]
+043E8188 XXXXXXXX
+*Change X to score
+
+1.2 Slot 3 Score [BoxNinja]
+043E8190 XXXXXXXX
+*Change X to score
+
+1.2 Slot 1 Name Mod [BoxNinja]
+043E8184 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+1.2 Slot 2 Name Mod [BoxNinja]
+043E818C 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+1.2 Slot 3 Name Mod [BoxNinja]
+043E8194 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+Zone 1.3 High Score Mods
+
+1.3 Slot 1 Score [BoxNinja]
+043E819C XXXXXXXX
+*Change X to score
+
+1.3 Slot 2 Score [BoxNinja]
+043E81A4 XXXXXXXX
+*Change X to score
+
+1.3 Slot 3 Score [BoxNinja]
+043E81AC XXXXXXXX
+*Change X to score
+
+1.3 Slot 1 Name Mod [BoxNinja]
+043E81A0 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+1.3 Slot 2 Name Mod [BoxNinja]
+043E81A8 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+1.3 Slot 3 Name Mod [BoxNinja]
+043E81B0 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+Zone 1.4 High Score Mods
+
+1.4 Slot 1 Score [BoxNinja]
+043E81B8 XXXXXXXX
+*Change X to score
+
+1.4 Slot 2 Score [BoxNinja]
+043E81C0 XXXXXXXX
+*Change X to score
+
+1.4 Slot 3 Score [BoxNinja]
+043E81C8 XXXXXXXX
+*Change X to score
+
+1.4 Slot 1 Name Mod [BoxNinja]
+043E81BC 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+1.4 Slot 2 Name Mod [BoxNinja]
+043E81C4 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+1.4 Slot 3 Name Mod [BoxNinja]
+043E81CC 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+Zone 1.5 High Score Mods
+
+1.5 Slot 1 Score [BoxNinja]
+043E81D4 XXXXXXXX
+*Change X to score
+
+1.5 Slot 2 Score [BoxNinja]
+043E81DC XXXXXXXX
+*Change X to score
+
+1.5 Slot 3 Score [BoxNinja]
+043E81E4 XXXXXXXX
+*Change X to score
+
+1.5 Slot 1 Name Mod [BoxNinja]
+043E81D8 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+1.5 Slot 2 Name Mod [BoxNinja]
+043E81E0 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+1.5 Slot 3 Name Mod [BoxNinja]
+043E81E8 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+Zone 1.6 High Score Mods
+
+1.6 Slot 1 Score [BoxNinja]
+043E81F0 XXXXXXXX
+*Change X to score
+
+1.6 Slot 2 Score [BoxNinja]
+043E81F8 XXXXXXXX
+*Change X to score
+
+1.6 Slot 3 Score [BoxNinja]
+043E8200 XXXXXXXX
+*Change X to score
+
+1.6 Slot 1 Name Mod [BoxNinja]
+043E81F4 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+1.6 Slot 2 Name Mod [BoxNinja]
+043E81FC 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+1.6 Slot 3 Name Mod [BoxNinja]
+043E8204 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+Zone 1.7 High Score Mods
+
+1.7 Slot 1 Score [BoxNinja]
+043E820C XXXXXXXX
+*Change X to score
+
+1.7 Slot 2 Score [BoxNinja]
+043E8214 XXXXXXXX
+*Change X to score
+
+1.7 Slot 3 Score [BoxNinja]
+043E821C XXXXXXXX
+*Change X to score
+
+1.7 Slot 1 Name Mod [BoxNinja]
+043E8210 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+1.7 Slot 2 Name Mod [BoxNinja]
+043E8218 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+1.7 Slot 3 Name Mod [BoxNinja]
+043E8220 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+Zone 1.8 High Score Mods
+
+1.8 Slot 1 Score [BoxNinja]
+043E8228 XXXXXXXX
+*Change X to score
+
+1.8 Slot 2 Score [BoxNinja]
+043E8230 XXXXXXXX
+*Change X to score
+
+1.8 Slot 3 Score [BoxNinja]
+043E8238 XXXXXXXX
+*Change X to score
+
+1.8 Slot 1 Name Mod [BoxNinja]
+043E822C 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+1.8 Slot 2 Name Mod [BoxNinja]
+043E8234 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+1.8 Slot 3 Name Mod [BoxNinja]
+043E823C 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+Zone 1.9 High Score Mods
+
+1.9 Slot 1 Score [BoxNinja]
+043E8244 XXXXXXXX
+*Change X to score
+
+1.9 Slot 2 Score [BoxNinja]
+043E824C XXXXXXXX
+*Change X to score
+
+1.9 Slot 3 Score [BoxNinja]
+043E8254 XXXXXXXX
+*Change X to score
+
+1.9 Slot 1 Name Mod [BoxNinja]
+043E8248 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+1.9 Slot 2 Name Mod [BoxNinja]
+043E8250 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+1.9 Slot 3 Name Mod [BoxNinja]
+043E8258 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+Zone 1.10 High Score Mods
+
+1.10 Slot 1 Score [BoxNinja]
+043E8260 XXXXXXXX
+*Change X to score
+
+1.10 Slot 2 Score [BoxNinja]
+043E8268 XXXXXXXX
+*Change X to score
+
+1.10 Slot 3 Score [BoxNinja]
+043E8270 XXXXXXXX
+*Change X to score
+
+1.10 Slot 1 Name Mod [BoxNinja]
+043E8264 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+1.10 Slot 2 Name Mod [BoxNinja]
+043E826C 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+Zone 1.11 High Score Mods
+
+1.11 Slot 1 Score [BoxNinja]
+043E827C XXXXXXXX
+*Change X to score
+
+1.11 Slot 2 Score [BoxNinja]
+043E8284 XXXXXXXX
+*Change X to score
+
+1.11 Slot 3 Score [BoxNinja]
+043E828C XXXXXXXX
+*Change X to score
+
+1.11 Slot 1 Name Mod [BoxNinja]
+043E8280 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+1.11 Slot 2 Name Mod [BoxNinja]
+043E8288 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+1.11 Slot 3 Name Mod [BoxNinja]
+043E8290 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+1.10 Slot 3 Name Mod [BoxNinja]
+043E8274 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+Zone 1.Boss High Score Mods
+
+1.Boss Slot 1 Score [BoxNinja]
+043E8298 XXXXXXXX
+*Change X to score
+
+1.Boss Slot 2 Score [BoxNinja]
+043E82A0 XXXXXXXX
+*Change X to score
+
+1.Boss Slot 3 Score [BoxNinja]
+043E82A8 XXXXXXXX
+*Change X to score
+
+1.Boss Slot 1 Name Mod [BoxNinja]
+043E829C 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+1.Boss Slot 2 Name Mod [BoxNinja]
+043E82A4 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+1.Boss Slot 3 Name Mod [BoxNinja]
+043E82AC 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+Zone 2.1 High Score Mods
+
+2.1 Slot 1 Score [BoxNinja]
+043E82B4 XXXXXXXX
+*Change X to score
+
+2.1 Slot 2 Score [BoxNinja]
+043E82BC XXXXXXXX
+*Change X to score
+
+2.1 Slot 3 Score [BoxNinja]
+043E82C4 XXXXXXXX
+*Change X to score
+
+2.1 Slot 1 Name Mod [BoxNinja]
+043E82B8 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+2.1 Slot 2 Name Mod [BoxNinja]
+043E82C0 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+2.1 Slot 3 Name Mod [BoxNinja]
+043E82C8 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+Zone 2.2 High Score Mods
+
+2.2 Slot 1 Score [BoxNinja]
+043E82D0 XXXXXXXX
+*Change X to score
+
+2.2 Slot 2 Score [BoxNinja]
+043E82D8 XXXXXXXX
+*Change X to score
+
+2.2 Slot 3 Score [BoxNinja]
+043E82E0 XXXXXXXX
+*Change X to score
+
+2.2 Slot 1 Name Mod [BoxNinja]
+043E82D4 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+2.2 Slot 2 Name Mod [BoxNinja]
+043E82DC 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+2.2 Slot 3 Name Mod [BoxNinja]
+043E82E4 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+Zone 2.3 High Score Mods
+
+2.3 Slot 1 Score [BoxNinja]
+043E82EC XXXXXXXX
+*Change X to score
+
+2.3 Slot 2 Score [BoxNinja]
+043E82F4 XXXXXXXX
+*Change X to score
+
+2.3 Slot 3 Score [BoxNinja]
+043E82FC XXXXXXXX
+*Change X to score
+
+2.3 Slot 1 Name Mod [BoxNinja]
+043E82F0 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+2.3 Slot 2 Name Mod [BoxNinja]
+043E82F8 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+2.3 Slot 3 Name Mod [BoxNinja]
+043E8300 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+Zone 2.4 High Score Mods
+
+2.4 Slot 1 Score [BoxNinja]
+043E8308 XXXXXXXX
+*Change X to score
+
+2.4 Slot 2 Score [BoxNinja]
+043E8310 XXXXXXXX
+*Change X to score
+
+2.4 Slot 3 Score [BoxNinja]
+043E8318 XXXXXXXX
+*Change X to score
+
+2.4 Slot 1 Name Mod [BoxNinja]
+043E830C 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+2.4 Slot 2 Name Mod [BoxNinja]
+043E8314 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+2.4 Slot 3 Name Mod [BoxNinja]
+043E831C 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+Zone 2.5 High Score Mods
+
+2.5 Slot 1 Score [BoxNinja]
+043E8324 XXXXXXXX
+*Change X to score
+
+2.5 Slot 2 Score [BoxNinja]
+043E832C XXXXXXXX
+*Change X to score
+
+2.5 Slot 3 Score [BoxNinja]
+043E8334 XXXXXXXX
+*Change X to score
+
+2.5 Slot 1 Name Mod [BoxNinja]
+043E8328 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+2.5 Slot 2 Name Mod [BoxNinja]
+043E8330 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+2.5 Slot 3 Name Mod [BoxNinja]
+043E8338 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+Zone 2.6 High Score Mods
+
+2.6 Slot 1 Score [BoxNinja]
+043E8340 XXXXXXXX
+*Change X to score
+
+2.6 Slot 2 Score [BoxNinja]
+043E8348 XXXXXXXX
+*Change X to score
+
+2.6 Slot 3 Score [BoxNinja]
+043E8350 XXXXXXXX
+*Change X to score
+
+2.6 Slot 1 Name Mod [BoxNinja]
+043E8344 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+2.6 Slot 2 Name Mod [BoxNinja]
+043E834C 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+2.6 Slot 3 Name Mod [BoxNinja]
+043E8354 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+Zone 2.7 High Score Mods
+
+2.7 Slot 1 Score [BoxNinja]
+043E835C XXXXXXXX
+*Change X to score
+
+2.7 Slot 2 Score [BoxNinja]
+043E8364 XXXXXXXX
+*Change X to score
+
+2.7 Slot 3 Score [BoxNinja]
+043E836C XXXXXXXX
+*Change X to score
+
+2.7 Slot 1 Name Mod [BoxNinja]
+043E8360 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+2.7 Slot 2 Name Mod [BoxNinja]
+043E8368 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+2.7 Slot 3 Name Mod [BoxNinja]
+043E8370 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+Zone 2.8 High Score Mods
+
+2.8 Slot 1 Score [BoxNinja]
+043E8378 XXXXXXXX
+*Change X to score
+
+2.8 Slot 2 Score [BoxNinja]
+043E8380 XXXXXXXX
+*Change X to score
+
+2.8 Slot 3 Score [BoxNinja]
+043E8388 XXXXXXXX
+*Change X to score
+
+2.8 Slot 1 Name Mod [BoxNinja]
+043E837C 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+2.8 Slot 2 Name Mod [BoxNinja]
+043E8384 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+2.8 Slot 3 Name Mod [BoxNinja]
+043E838C 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+Zone 2.9 High Score Mods
+
+2.9 Slot 1 Score [BoxNinja]
+043E8394 XXXXXXXX
+*Change X to score
+
+2.9 Slot 2 Score [BoxNinja]
+043E839C XXXXXXXX
+*Change X to score
+
+2.9 Slot 3 Score [BoxNinja]
+043E83A4 XXXXXXXX
+*Change X to score
+
+2.9 Slot 1 Name Mod [BoxNinja]
+043E8398 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+2.9 Slot 2 Name Mod [BoxNinja]
+043E83A0 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+2.9 Slot 3 Name Mod [BoxNinja]
+043E83A8 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+Zone 2.10 High Score Mods
+
+2.10 Slot 1 Score [BoxNinja]
+043E83B0 XXXXXXXX
+*Change X to score
+
+2.10 Slot 2 Score [BoxNinja]
+043E83B8 XXXXXXXX
+*Change X to score
+
+2.10 Slot 3 Score [BoxNinja]
+043E83C0 XXXXXXXX
+*Change X to score
+
+2.10 Slot 1 Name Mod [BoxNinja]
+043E83B4 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+2.10 Slot 2 Name Mod [BoxNinja]
+043E83BC 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+2.10 Slot 3 Name Mod [BoxNinja]
+043E83C4 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+Zone 2.11 High Score Mods
+
+2.11 Slot 1 Score [BoxNinja]
+043E83CC XXXXXXXX
+*Change X to score
+
+2.11 Slot 2 Score [BoxNinja]
+043E83D4 XXXXXXXX
+*Change X to score
+
+2.11 Slot 3 Score [BoxNinja]
+043E83DC XXXXXXXX
+*Change X to score
+
+2.11 Slot 1 Name Mod [BoxNinja]
+043E83D0 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+2.11 Slot 2 Name Mod [BoxNinja]
+043E83D8 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+Zone 2.Boss High Score Mods
+
+2.Boss Slot 1 Score [BoxNinja]
+043E83E8 XXXXXXXX
+*Change X to score
+
+2.Boss Slot 2 Score [BoxNinja]
+043E83F0 XXXXXXXX
+*Change X to score
+
+2.Boss Slot 3 Score [BoxNinja]
+043E83F8 XXXXXXXX
+*Change X to score
+
+2.Boss Slot 1 Name Mod [BoxNinja]
+043E83EC 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+2.Boss Slot 2 Name Mod [BoxNinja]
+043E83F4 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+2.Boss Slot 3 Name Mod [BoxNinja]
+043E83FC 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+2.11 Slot 3 Name Mod [BoxNinja]
+043E83E0 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+Zone 3.1 High Score Mods
+
+3.1 Slot 1 Score [BoxNinja]
+043E8404 XXXXXXXX
+*Change X to score
+
+3.1 Slot 2 Score [BoxNinja]
+043E840C XXXXXXXX
+*Change X to score
+
+3.1 Slot 3 Score [BoxNinja]
+043E8414 XXXXXXXX
+*Change X to score
+
+3.1 Slot 1 Name Mod [BoxNinja]
+043E8408 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+3.1 Slot 2 Name Mod [BoxNinja]
+043E8410 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+3.1 Slot 3 Name Mod [BoxNinja]
+043E8418 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+Zone 3.2 High Score Mods
+
+3.2 Slot 1 Score [BoxNinja]
+043E8420 XXXXXXXX
+*Change X to score
+
+3.2 Slot 2 Score [BoxNinja]
+043E8428 XXXXXXXX
+*Change X to score
+
+3.2 Slot 3 Score [BoxNinja]
+043E8430 XXXXXXXX
+*Change X to score
+
+3.2 Slot 1 Name Mod [BoxNinja]
+043E8424 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+3.2 Slot 2 Name Mod [BoxNinja]
+043E842C 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+3.2 Slot 3 Name Mod [BoxNinja]
+043E8434 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+Zone 3.3 High Score Mods
+
+3.3 Slot 1 Score [BoxNinja]
+043E843C XXXXXXXX
+*Change X to score
+
+3.3 Slot 2 Score [BoxNinja]
+043E8444 XXXXXXXX
+*Change X to score
+
+3.3 Slot 3 Score [BoxNinja]
+043E844C XXXXXXXX
+*Change X to score
+
+3.3 Slot 1 Name Mod [BoxNinja]
+043E8440 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+3.3 Slot 2 Name Mod [BoxNinja]
+043E8448 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+3.3 Slot 3 Name Mod [BoxNinja]
+043E8450 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+Zone 3.4 High Score Mods
+
+3.4 Slot 1 Score [BoxNinja]
+043E8458 XXXXXXXX
+*Change X to score
+
+3.4 Slot 2 Score [BoxNinja]
+043E8460 XXXXXXXX
+*Change X to score
+
+3.4 Slot 3 Score [BoxNinja]
+043E8468 XXXXXXXX
+*Change X to score
+
+3.4 Slot 1 Name Mod [BoxNinja]
+043E845C 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+3.4 Slot 2 Name Mod [BoxNinja]
+043E8464 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+3.4 Slot 3 Name Mod [BoxNinja]
+043E846C 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+Zone 3.5 High Score Mods
+
+3.5 Slot 1 Score [BoxNinja]
+043E8474 XXXXXXXX
+*Change X to score
+
+3.5 Slot 2 Score [BoxNinja]
+043E847C XXXXXXXX
+*Change X to score
+
+3.5 Slot 3 Score [BoxNinja]
+043E8484 XXXXXXXX
+*Change X to score
+
+3.5 Slot 1 Name Mod [BoxNinja]
+043E8478 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+3.5 Slot 2 Name Mod [BoxNinja]
+043E8480 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+3.5 Slot 3 Name Mod [BoxNinja]
+043E8488 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+Zone 3.6 High Score Mods
+
+3.6 Slot 1 Score [BoxNinja]
+043E8490 XXXXXXXX
+*Change X to score
+
+3.6 Slot 2 Score [BoxNinja]
+043E8498 XXXXXXXX
+*Change X to score
+
+3.6 Slot 3 Score [BoxNinja]
+043E84A0 XXXXXXXX
+*Change X to score
+
+3.6 Slot 1 Name Mod [BoxNinja]
+043E8494 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+3.6 Slot 2 Name Mod [BoxNinja]
+043E849C 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+3.6 Slot 3 Name Mod [BoxNinja]
+043E84A4 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+Zone 3.7 High Score Mods
+
+3.7 Slot 1 Score [BoxNinja]
+043E84AC XXXXXXXX
+*Change X to score
+
+3.7 Slot 2 Score [BoxNinja]
+043E84B4 XXXXXXXX
+*Change X to score
+
+3.7 Slot 3 Score [BoxNinja]
+043E84BC XXXXXXXX
+*Change X to score
+
+3.7 Slot 1 Name Mod [BoxNinja]
+043E84B0 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+3.7 Slot 2 Name Mod [BoxNinja]
+043E84B8 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+3.7 Slot 3 Name Mod [BoxNinja]
+043E84C0 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+Zone 3.8 High Score Mods
+
+3.8 Slot 1 Score [BoxNinja]
+043E84C8 XXXXXXXX
+*Change X to score
+
+3.8 Slot 2 Score [BoxNinja]
+043E84D0 XXXXXXXX
+*Change X to score
+
+3.8 Slot 3 Score [BoxNinja]
+043E84D8 XXXXXXXX
+*Change X to score
+
+3.8 Slot 1 Name Mod [BoxNinja]
+043E84CC 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+3.8 Slot 2 Name Mod [BoxNinja]
+043E84D4 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+3.8 Slot 3 Name Mod
+0433E84DC 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+Zone 3.9 High Score Mods
+
+3.9 Slot 1 Score [BoxNinja]
+043E84E4 XXXXXXXX
+*Change X to score
+
+3.9 Slot 2 Score [BoxNinja]
+043E84EC XXXXXXXX
+*Change X to score
+
+3.9 Slot 3 Score [BoxNinja]
+043E84F4 XXXXXXXX
+*Change X to score
+
+3.9 Slot 1 Name Mod [BoxNinja]
+043E84E8 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+3.9 Slot 2 Name Mod [BoxNinja]
+043E84F0 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+3.9 Slot 3 Name Mod [BoxNinja]
+043E84F8 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+Zone 3.10 High Score Mods
+
+3.10 Slot 1 Score [BoxNinja]
+043E8500 XXXXXXXX
+*Change X to score
+
+3.10 Slot 2 Score [BoxNinja]
+043E8508 XXXXXXXX
+*Change X to score
+
+3.10 Slot 3 Score [BoxNinja]
+043E8510 XXXXXXXX
+*Change X to score
+
+3.10 Slot 1 Name Mod [BoxNinja]
+043E8504 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+3.10 Slot 2 Name Mod [BoxNinja]
+043E850C 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+3.10 Slot 3 Name Mod [BoxNinja]
+043E8514 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+Zone 3.11 High Score Mods
+
+3.11 Slot 1 Score [BoxNinja]
+043E851C XXXXXXXX
+*Change X to score
+
+3.11 Slot 2 Score [BoxNinja]
+043E8524 XXXXXXXX
+*Change X to score
+
+3.11 Slot 3 Score [BoxNinja]
+043E852C XXXXXXXX
+*Change X to score
+
+3.11 Slot 1 Name Mod [BoxNinja]
+043E8520 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+3.11 Slot 2 Name Mod [BoxNinja]
+043E8528 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+3.11 Slot 3 Name Mod [BoxNinja]
+043E8530 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+Zone 3.Boss High Score Mods
+
+3.Boss Slot 1 Score [BoxNinja]
+043E8538 XXXXXXXX
+*Change X to score
+
+3.Boss Slot 2 Score [BoxNinja]
+043E8540 XXXXXXXX
+*Change X to score
+
+3.Boss Slot 3 Score [BoxNinja]
+043E8548 XXXXXXXX
+*Change X to score
+
+3.Boss Slot 1 Name Mod [BoxNinja]
+043E853C 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+3.Boss Slot 2 Name Mod [BoxNinja]
+043E8544 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+3.Boss Slot 3 Name Mod [BoxNinja]
+043E854C 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial

@@ -1,0 +1,36 @@
+MAKP
+Shadow Dancer
+
+Invincibility [Thomas83Lin]
+04D89348 00800000
+
+Go To Stage Start Press B [Thomas83Lin]
+201DA440 00000400
+04D88C58 00000400
+E0000000 80008000
+*Press B on Wiimote*
+
+Inf Magic Weapon [Thomas83Lin]
+00D89384 00000003
+
+Powered up ninja stars [Thomas83Lin]
+20D8935C 00000000
+00D8935D 00000001
+E0000000 80008000
+
+Disable Timer [GMO]
+00D88EA4 00000000
+
+Unlimited Lives [GMO]
+00D8937E 00000099
+
+No Saving People Required To Move On [GMO]
+281DA442 00000401
+00D8937F 00000000
+E0000000 80008000
+Hold B and Press Left
+
+Moon Jump (Hold2) [GMO]
+281DA442 FEFF0100
+02D89314 0000FC00
+E0000000 80008000

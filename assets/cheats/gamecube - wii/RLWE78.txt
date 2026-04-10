@@ -1,0 +1,13 @@
+RLWE78
+Ratatouille
+
+Unlock all Shop Items [eric]
+041C14DC 38000001
+041C14E4 98140000
+
+Unlock all Secrets [eric]
+041C3344 38000001
+041C334C 98150000
+
+Have 30,000 Gusteau Points [eric]
+041B64D4 38607530

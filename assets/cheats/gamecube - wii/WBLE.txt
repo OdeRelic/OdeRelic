@@ -1,0 +1,14 @@
+WBLE
+Bubble Bobble Plus!
+
+Unlimited Lives [GMO]
+0039E2B0 00000002
+
+Max Score [GMO]
+043A8894 0098967F
+
+Inf Lives [Skiller]
+0201E1EA 00000000
+
+Gain life when Die [Skiller]
+0201E1EA 00000001

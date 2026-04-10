@@ -1,0 +1,10 @@
+W2GJ
+Gyakuten Saiban 2
+
+Infinite Impression [ZiT]
+0405DE80 60000000
+
+Unlock all Story [ZiT]
+42000000 90000000
+011CB126 000000FF
+E0000000 80008000

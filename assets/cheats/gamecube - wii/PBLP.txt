@@ -1,0 +1,82 @@
+PBLP
+Samurai Ghost
+
+Unlimited Health [Crapulecorp]
+42000000 90000000
+02620F4C 00004040
+E0000000 80008000
+*Code ported from GMO Ntsc Usa Version*
+
+1-Hit Boss Kill
+
+1-Hit Boss Kill [Crapulecorp]
+42000000 90000000
+02620F4E 00000101
+E0000000 80008000
+*Code ported from GMO Ntsc Usa Version*
+
+1-Hit Boss Kill (Hold B and Press Left) [Crapulecorp]
+2814A132 FBFE0401
+42000000 90000000
+02620F4E 00000101
+E0000000 80008000
+*WiiMote*
+*Code ported from GMO Ntsc Usa Version*
+
+1-Hit Boss Kill (Hold B and Press Left ON/OFF) [Crapulecorp]
+2814A132 FBFE0401
+CC000000 00000000
+42000000 90000000
+02620F4E 00000101
+E0000000 80008000
+*WiiMote*
+*Code ported from GMO Ntsc Usa Version*
+
+1-Hit Boss Kill (Press ZL) [Crapulecorp]
+2814A192 FF7F0080
+42000000 90000000
+02620F4E 00000101
+E0000000 80008000
+*Classic Controller*
+*Code ported from GMO Ntsc Usa Version*
+
+1-Hit Boss Kill (Press ZL ON/OFF) [Crapulecorp]
+2814A192 FF7F0080
+CC000000 00000000
+42000000 90000000
+02620F4E 00000101
+E0000000 80008000
+*Classic Controller*
+*Code ported from GMO Ntsc Usa Version*
+
+Quick Coin Gain
+
+Quick Coin Gain [Crapulecorp]
+42000000 90000000
+00620F1D 00000090
+E0000000 80008000
+*Code ported from GMO Ntsc Usa Version*
+
+Quick Coin Gain (Hold B and Press Right) [Crapulecorp]
+2814A132 FBFD0402
+42000000 90000000
+00620F1D 00000090
+E0000000 80008000
+*WiiMote*
+*Code ported from GMO Ntsc Usa Version*
+
+Quick Coin Gain (Press ZR) [Crapulecorp]
+2814A192 FFFB0004
+42000000 90000000
+00620F1D 00000090
+E0000000 80008000
+*Classic Controller*
+*Code ported from GMO Ntsc Usa Version*
+
+Button Activator
+
+WiiMote [Crapulecorp]
+2814A132 YYYYZZZZ
+
+Classic Controller [Crapulecorp]
+2814A192 YYYYZZZZ

@@ -1,0 +1,11 @@
+XAEJ
+Space Manbow
+
+Infinite Lives [ZiT]
+000F2E3B 00000099
+
+Invincible [ZiT]
+040F2D6C 01000000
+
+Infinite Power [ZiT]
+000F2E34 00000011

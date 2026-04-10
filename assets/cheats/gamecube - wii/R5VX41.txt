@@ -1,0 +1,13 @@
+R5VX41
+James Cameron's Avatar - The Game
+
+Never Loose Eywa [Crapulecorp]
+04067B30 60000000
+*Ported From Thomas83Lin*
+
+Unlimited Health Self [Crapulecorp]
+04A8E16C 41C00000
+*Ported From Thomas83Lin*
+
+Have 9.999 Eywa Spirits [ninjor]
+029FDDE6 0000270F

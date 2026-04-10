@@ -1,0 +1,706 @@
+JC8E
+Final Fantasy 2
+
+Miscellaneous Codes
+
+Save Anywhere [GMO]
+004EEBCA 00000008
+
+Unlimited Money [GMO]
+024EE868 0000FFFF
+
+Unlimited Items Upon Pickup [GMO]
+084EE609 00000062
+102E0002 00000000
+
+Quick EXP Gain After Battle [GMO]
+024F0759 0000FFFF
+
+Unlimited Health Character Slot 1 [GMO]
+004EF251 0000000F
+004EF252 00000027
+004EF24F 0000000F
+004EF250 00000027
+
+Unlimited Health Character Slot 2 [GMO]
+004EF1CF 0000000F
+004EF1D0 00000027
+004EF1D1 0000000F
+004EF1D2 00000027
+
+Chartacter Position 1 (Menu)
+
+Normal Status [GMO]
+004EE28B 00000000
+
+Current HP [GMO]
+004EE28F 000000E7
+004EE290 00000003
+
+Max HP [GMO]
+004EE291 000000E7
+004EE292 00000003
+
+Current MP [GMO]
+004EE293 000000E7
+004EE294 00000003
+
+Max MP [GMO]
+004EE295 000000E7
+004EE296 00000003
+
+Max Strength [GMO]
+004EE29C 00000063
+
+Max Agility [GMO]
+004EE29D 00000063
+
+Max Vitality [GMO]
+004EE29E 00000063
+
+Max Wisdom [GMO]
+004EE29F 00000063
+
+Max Will [GMO]
+004EE2A0 00000063
+
+Character Position 2 (Menu)
+
+Normal Status [GMO]
+004EE1CB 00000000
+
+Current HP [GMO]
+004EE1CF 000000E7
+004EE1D0 00000003
+
+Max HP [GMO]
+004EE1D1 000000E7
+004EE1D2 00000003
+
+Current MP [GMO]
+004EE1D3 000000E7
+004EE1D4 00000003
+
+Max MP [GMO]
+004EE1D5 000000E7
+004EE1D6 00000003
+
+Max Strength [GMO]
+004EE1DC 00000063
+
+Max Agility [GMO]
+004EE1DD 00000063
+
+Max Vitality [GMO]
+004EE1DE 00000063
+
+Max Wisdom [GMO]
+004EE1DF 00000063
+
+Max Will [GMO]
+004EE1E0 00000063
+
+Character Position 3 (Menu)
+
+Normal Status [GMO]
+004EE2CB 00000000
+
+Current HP [GMO]
+004EE2CF 000000E7
+004EE2D0 00000003
+
+Max HP [GMO]
+004EE2D1 000000E7
+004EE2D2 00000003
+
+Current MP [GMO]
+004EE2D3 000000E7
+004EE2D4 00000003
+
+Max MP [GMO]
+004EE2D5 000000E7
+004EE2D6 00000003
+
+Max Strength [GMO]
+004EE2DC 00000063
+
+Max Agility [GMO]
+004EE2DD 00000063
+
+Max Vitality [GMO]
+004EE2DE 00000063
+
+Max Wisdom [GMO]
+004EE2DF 00000063
+
+Max Will [GMO]
+004EE2E0 00000063
+
+Character Position 4 (Menu)
+
+Normal Status [GMO]
+004EE24B 00000000
+
+Current HP [GMO]
+004EE24F 000000E7
+004EE250 00000003
+
+Max HP [GMO]
+004EE251 000000E7
+004EE252 00000003
+
+Current MP [GMO]
+004EE253 000000E7
+004EE254 00000003
+
+Max MP [GMO]
+004EE255 000000E7
+004EE256 00000003
+
+Max Strength [GMO]
+004EE25C 00000063
+
+Max Agility [GMO]
+004EE25D 00000063
+
+Max Vitality [GMO]
+004EE25E 00000063
+
+Max Wisdom [GMO]
+004EE25F 00000063
+
+Max Will [GMO]
+004EE260 00000063
+
+Max Item Slots
+
+Max Item Slot 1 [GMO]
+004EE609 00000062
+
+Max Item Slot 2 [GMO]
+004EE60B 00000062
+
+Max Item Slot 3 [GMO]
+004EE60D 00000062
+
+Max Item Slot 4 [GMO]
+004EE60F 00000062
+
+Max Item Slot 5 [GMO]
+004EE611 00000062
+
+Max Item Slot 6 [GMO]
+004EE613 00000062
+
+Max Item Slot 7 [GMO]
+004EE615 00000062
+
+Max Item Slot 8 [GMO]
+004EE617 00000062
+
+Max Item Slot 9 [GMO]
+004EE619 00000062
+
+Max Item Slot 10 [GMO]
+004EE61B 00000062
+
+Max Item Slot 11 [GMO]
+004EE61D 00000062
+
+Max Item Slot 12 [GMO]
+004EE61F 00000062
+
+Max Item Slot 13 [GMO]
+004EE621 00000062
+
+Max Item Slot 14 [GMO]
+004EE623 00000062
+
+Max Item Slot 15 [GMO]
+004EE625 00000062
+
+Max Item Slot 16 [GMO]
+004EE627 00000062
+
+Max Item Slot 17 [GMO]
+004EE629 00000062
+
+Max Item Slot 18 [GMO]
+004EE62B 00000062
+
+Max Item Slot 19 [GMO]
+004EE62D 00000062
+
+Max Item Slot 20 [GMO]
+004EE62F 00000062
+
+Max Item Slot 21 [GMO]
+004EE631 00000062
+
+Max Item Slot 22 [GMO]
+004EE633 00000062
+
+Max Item Slot 23 [GMO]
+004EE635 00000062
+
+Max Item Slot 24 [GMO]
+004EE637 00000062
+
+Max Item Slot 25 [GMO]
+004EE639 00000062
+
+Max Item Slot 26 [GMO]
+004EE63B 00000062
+
+Max Item Slot 27 [GMO]
+004EE63D 00000062
+
+Max Item Slot 28 [GMO]
+004EE63F 00000062
+
+Max Item Slot 29 [GMO]
+004EE641 00000062
+
+Max Item Slot 30 [GMO]
+004EE643 00000062
+
+Max Item Slot 31 [GMO]
+004EE645 00000062
+
+Max Item Slot 32 [GMO]
+004EE647 00000062
+
+Max Item Slot 33 [GMO]
+004EE649 00000062
+
+Max Item Slot 34 [GMO]
+004EE64B 00000062
+
+Max Item Slot 35 [GMO]
+004EE64D 00000062
+
+Max Item Slot 36 [GMO]
+004EE64F 00000062
+
+Max Item Slot 37 [GMO]
+004EE651 00000062
+
+Max Item Slot 38 [GMO]
+004EE653 00000062
+
+Max Item Slot 39 [GMO]
+004EE655 00000062
+
+Max Item Slot 40 [GMO]
+004EE657 00000062
+
+Max Item Slot 41 [GMO]
+004EE659 00000062
+
+Max Item Slot 42 [GMO]
+004EE65B 00000062
+
+Max Item Slot 43 [GMO]
+004EE65D 00000062
+
+Max Item Slot 44 [GMO]
+004EE65F 00000062
+
+Max Item Slot 45 [GMO]
+004EE661 00000062
+
+Max Item Slot 46 [GMO]
+004EE663 00000062
+
+Item Cycler [goemon_guy]
+82000000 804EE608
+282151B4 00000010
+A8000000 F0000000
+86000000 00000001
+84000000 804EE608
+E0000000 80008000
+82000000 804EE608
+282151B4 00000080
+A8000000 F0000000
+86000000 0000FFFF
+84000000 804EE608
+E0000000 80008000
+82000000 804EE609
+282151B4 00000020
+A8000000 F0000000
+86000000 00000005
+84000000 804EE609
+E0000000 80008000
+82000000 804EE609
+282151B4 00000040
+A8000000 F0000000
+86000000 0000FFFA
+84000000 804EE609
+E0000000 80008000
+82000000 804EE609
+282151B4 00001000
+A8000000 F0000000
+86000000 00000001
+84000000 804EE609
+E0000000 80008000
+82000000 804EE609
+282151B4 00004000
+A8000000 F0000000
+86000000 0000FFFF
+84000000 804EE609
+E0000000 80008000
+For use with the Classic Controller.
+To cycle through items, press ZR to cycle up, or ZL to cycle down.
+To change the quantity of the items by 1, press + and -.
+To change the quantity of the items by 5, press L to decrease, and R to increase.
+
+Individual Item Modifiers...
+
+Item Modifier Slot 1 [GMO]
+004EE608 000000??
+
+Item Modifier Slot 2 [GMO]
+004EE60A 000000??
+
+Item Modifier Slot 2 [GMO]
+004EE60C 000000??
+
+Item Modifier Slot 3 [GMO]
+004EE60E 000000??
+
+Item Modifier Slot 4 [GMO]
+004EE610 000000??
+
+Item Modifier Slot 5 [GMO]
+004EE612 000000??
+
+Item Modifier Slot 6 [GMO]
+004EE614 000000??
+
+Item Modifier Slot 7 [GMO]
+004EE616 000000??
+
+Item Modifier Slot 8 [GMO]
+004EE618 000000??
+
+Item Modifier Slot 9 [GMO]
+004EE61A 000000??
+
+Item Modifier Slot 10 [GMO]
+004EE61C 000000??
+
+Item Modifier Slot 11 [GMO]
+004EE61E 000000??
+
+Item Modifier Slot 12 [GMO]
+004EE620 000000??
+
+Item Modifier Slot 13 [GMO]
+004EE622 000000??
+
+Item Modifier Slot 14 [GMO]
+004EE624 000000??
+
+Item Modifier Slot 15 [GMO]
+004EE626 000000??
+
+Item Modifier Slot 16 [GMO]
+004EE628 000000??
+
+Item Modifier Slot 17 [GMO]
+004EE62A 000000??
+
+Item Modifier Slot 18 [GMO]
+004EE62C 000000??
+
+Item Modifier Slot 19 [GMO]
+004EE62E 000000??
+
+Item Modifier Slot 20 [GMO]
+004EE630 000000??
+
+Item Modifier Slot 21 [GMO]
+004EE632 000000??
+
+Item Modifier Slot 22 [GMO]
+004EE634 000000??
+
+Item Modifier Slot 23 [GMO]
+004EE636 000000??
+
+Item Modifier Slot 24 [GMO]
+004EE638 000000??
+
+Item Modifier Slot 25 [GMO]
+004EE63A 000000??
+
+Item Modifier Slot 26 [GMO]
+004EE63C 000000??
+
+Item Modifier Slot 27 [GMO]
+004EE63E 000000??
+
+Item Modifier Slot 28 [GMO]
+004EE640 000000??
+
+Item Modifier Slot 29 [GMO]
+004EE642 000000??
+
+Item Modifier Slot 30 [GMO]
+004EE644 000000??
+
+Item Modifier Slot 31 [GMO]
+004EE646 000000??
+
+Item Modifier Slot 32 [GMO]
+004EE648 000000??
+
+Item Modifier Slot 33 [GMO]
+004EE64A 000000??
+
+Item Modifier Slot 34 [GMO]
+004EE64C 000000??
+
+Item Modifier Slot 35 [GMO]
+004EE64E 000000??
+
+Item Modifier Slot 36 [GMO]
+004EE650 000000??
+
+Item Modifier Slot 37 [GMO]
+004EE652 000000??
+
+Item Modifier Slot 38 [GMO]
+004EE654 000000??
+
+Item Modifier Slot 39 [GMO]
+004EE656 000000??
+
+Item Modifier Slot 40 [GMO]
+004EE658 000000??
+
+Item Modifier Slot 41 [GMO]
+004EE65A 000000??
+
+Item Modifier Slot 42 [GMO]
+004EE65C 000000??
+
+Item Modifier Slot 43 [GMO]
+004EE65E 000000??
+
+Item Modifier Slot 44 [GMO]
+004EE660 000000??
+
+Item Modifier Slot 45 [GMO]
+004EE662 000000??
+
+Item Modifier Slot 46 [GMO]
+004EE664 000000??
+
+Item Modifier Values
+
+00 Nothing
+01 Fire Claw
+02 Ice Claw
+03 Thunder Claw
+04 Charm Claw
+05 Poison Claw
+06 Cat Claw
+07 Rod
+08 Ice Rod
+09 Flame Rod
+0A Thunder Rod
+0B Change Rod
+0C Charm Rod
+0D Stardust (Rod)
+0E Lilith (Rod)
+0F Staff
+10 Cure Staff
+11 Silver Staff
+12 Power Staff
+13 Lunar Staff
+14 Life Staff
+15 Silence Staff
+16 Shadow (Dark Sword)
+17 Darkness (Dark Sword)
+18 Black (Dark Sword)
+19 Legend (Sword)
+1A Light Sword
+1B Excalbur (Sword)
+1C Fire Knives
+1D IceBrand Knives
+1E Defense Knives
+1F Drain Knives
+20 Ancient Knives
+21 Slumber Knives
+22 Medusa Knives
+23 Spear
+24 Wind Spear
+25 Flame Spear
+26 Blizzard Spear
+27 Dragoon Spear
+28 White Spear
+29 Drain Spear
+2A Gungnir Spear
+2B Short
+2C MiddleSword
+2D Long Sword
+2E Ninja Sword
+2F Murasame Sword (Short Sword)
+30 Masamune Sword (Short Sword)
+31 Assasin
+32 Mute Knife
+3B Silver Knife
+3C Dancing KNife
+33 Whip
+34 Chain Whip
+35 Blitz Whip
+36 Flame Whip
+37 Dragon Whip
+38 Hand Axe
+39 Dwarf Axe
+3A Ogre Axe
+3D Silver Knives
+3E Spoon
+3F Crystal Sword (Short Sword)
+40 Shuriken
+41 Ninja Star
+42 Boomerang
+43 Fullmoon (Boomerang)
+44 Dreamer Harp
+45 Charm Harp
+47 Poison Harp
+48 Rune Axe
+49 Silver Tools
+4A Earth Tools
+4B Wooden Toola
+4C Avenger Knives
+4D Short Bow
+4E Cross Bow
+4F Great Bow
+50 Archer Bow
+51 Elven Bow
+52 Samurai Bow
+53 Artemis Bow
+54 Iron Arrows
+55 White Arrows
+56 Fire Arrows
+57 Ice Arrows
+58 Lit Arrows
+59 Darkness Arrows
+5A Poison Arrows
+5B Mute Arrows
+5C Charm Arrows
+5D Samurai Arrows
+5E Medusa Arrows
+5F Artemis Arrows
+61 Iron Shield
+62 Shadow Shield
+63 Black Shield
+64 Paladin Shield
+65 Silver Shield
+66 Fire Shield
+67 Ice Shield
+68 Diamond Shield
+69 Aegis Shield
+6A Samurai Shield
+6B Dragoon Shield
+6C Crystal Shield
+6D Iron Helmet
+6E Shadow Helmet
+6F Darkness Helmet
+70 Black Helmet
+71 Paladin Helmet
+72 Silver Helmet
+73 Diamond Helmet
+74 Samurai Helmet
+75 Dragoon Helmet
+76 Crystal Helmet
+77 Cap
+78 Leather Helmet
+79 Gaea Helmet
+7A Wizard Hood
+7B Tiara
+7C Ribbon
+7D Headband
+7E Bandana
+7F Ninja
+80 Glass Helmet
+81 Iron Armor
+82 Shadow Armor
+83 Darkness Armor
+84 Black Armor
+85 Paladin Armor
+86 Silver Armor
+87 Fire Armor
+88 Ice Armor
+89 Diamond Armor
+8A Samurai Armor
+8B Dragoon Armor
+8C CrystalArmor
+9A Adamant Armor
+8D Cloth (Dress/Robe)
+8E Leather (Dress/Robe)
+8F Gaia (Dress/Robe)
+90 Wizard (Dress/Robe)
+91 Black (Dress/Robe)
+92 Sorcerer (Dress/Robe)
+93 White (Dress/Robe)
+94 Power (Dress/Robe)
+95 Heroine (Dress/Robe)
+96 Prisoner (Dress/Robe)
+97 Bard (Dress/Robe)
+98 Karate (Dress/Robe)
+99 Bl.Belt (Gi)
+9B Ninja (Dress/Robe)
+9C Iron (Gauntlet)
+9D Shadow (Gauntlet)
+9E Darkness (Gauntlet)
+9F Black (Gauntlet)
+A0 Paladin (Gauntlet)
+A1 Silver (Gauntlet)
+A2 Diamond (Gauntlet)
+A3 Zeus (Gauntlet)
+A4 Samurai (Gauntlet)
+A5 Dragoon (Gauntlet)
+A6 Crystal (Gauntlet)
+A7 Iron Ring
+A8 Ruby Ring
+A9 Silver (Ring)
+AA Strength (Ring)
+AB Rune (Ring)
+AC Crystal (Ring)
+AD Diamond (Ring)
+AE Protect (Ring)
+AF Cursed
+C8 Crystal
+CE Cure1
+CF Cure2
+D0 Cure3
+D1 Ether1
+D2 Ether2
+D3 Elixer
+D4 Life
+DD Heal
+ED Whistle
+E2 Tent
+E3 Cabin
+E7 Imp
+E8 Bomb
+E9 Dummy
+EA Mage
+EB Carrot
+EC Pass
+EE Package
+EF Baron(Key)
+F0 Sand Ruby
+F1 Earth(Crystal)
+F2 Magma(Key)
+F3 Luca(Key)
+F4 TwinHarp(Harp)
+F5 Darkness(Crystal)
+F6 Rat(Tail)
+F7 Adamant
+F8 Pan
+F9 Pink (Tail)
+FA Tower(Key)

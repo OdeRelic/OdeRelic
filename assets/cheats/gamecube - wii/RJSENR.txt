@@ -1,0 +1,23 @@
+RJSENR
+Kawasaki Jet Ski
+
+Infinite Nitro [eric]
+0403679c 38600003
+
+One Lap Race [eric]
+040343b0 38030003
+
+5000 Points per Stunt [eric]
+0401e764 38601388
+
+Yellow Balloons x5 Points [eric]
+0402c668 38a50005
+
+Pink Ballons x5 Points [eric]
+0402c728 38a50005
+
+Red Balloons x5 Points [eric]
+0402c6cc 38a50005
+
+Green Balloons x5 Points [eric]
+0402c770 38a50005

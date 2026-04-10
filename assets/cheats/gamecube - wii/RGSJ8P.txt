@@ -1,0 +1,21 @@
+RGSJ8P
+GHOST SQUAD (JP)
+
+The Following Code SCORE 0
+
+Infinite LIFE [ZiT]
+04033E24 900300B0
+
+The Number of Infinite Ammo & Blaze Infinity [ZiT]
+04087904 907F000C
+04088A9C 907E030C
+044F92D0 00000000
+
+Blaze is Infinite with any Kind of Weapon [ZiT]
+0408F0FC 4BF74104
+04003200 38000004
+04003204 901E0020
+04003208 4808BEF8
+040888D4 90BF0020
+Usually:90BF0020-909F0020
+It does not Support a Weapon Causing Overheat.

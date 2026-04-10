@@ -1,0 +1,29 @@
+SH4PNK
+Heavy Fire: Afghanistan
+
+No ReloadUnlimited Ammo [Crapulecorp]
+04129BF0 38030000
+
+No ReloadUnlimited Ammo (Press - ONOFF) [Crapulecorp]
+28320282 EFFF1000
+04129BF0 38030000
+CC000000 00000000
+04129BF0 3803FFFF
+E0000000 80008000
+*WiiMote*
+
+No Overheat [Crapulecorp]
+0255BD20 00000000
+
+Armory Points x12 [Crapulecorp]
+0055BFAF 0000000C
+
+Armory Points x12 (Press 2) [Crapulecorp]
+28320282 FEFF0100
+0055BFAF 0000000C
+E0000000 80008000
+*WiiMote*
+
+Button Activator [Crapulecorp]
+28320282 YYYYZZZZ
+*WiiMote*

@@ -1,0 +1,65 @@
+WKTE
+Contra ReBirth
+
+P1 Ammo 1 Modifier [GMO]
+00461663 000000??
+
+P1 Ammo 2 Modifier [GMO]
+00461667 000000??
+
+P1 Unlimited Lives [GMO]
+0046166F 00000064
+
+P2 Ammo 1 Modifier [GMO]
+004616A3 000000??
+
+P2 Ammo 2 Modifier [GMO]
+004616A7 000000??
+
+P2 Unlimited Lives [GMO]
+004616AF 00000064
+
+Ammo Modifier Values
+
+00 Regular
+01 Five-Shot
+02 Laser
+03 Homing
+
+Button Activators
+
+WiiMote Pad1 [GMO]
+2829FC00 YYYYZZZZ
+
+Classic Pad1 [GMO]
+2829FC8A YYYYZZZZ
+
+WiiMote Pad2 [GMO]
+282A05C0 YYYYZZZZ
+
+Classic Pad2 [GMO]
+282A05EA YYYYZZZZ
+
+Infinite Lives [g6flavor]
+04009D30 60000000
+
+Invincible [g6flavor]
+00461740 00000001
+
+Unlock BR-Wa [g6flavor]
+004616FB 00000001
+
+Unlock Plissken [g6flavor]
+004616F7 00000001
+
+Unlock Nightmare Difficulty [g6flavor]
+004616F3 00000001
+
+Begin with 99 Lives [g6flavor]
+004616EF 00000063
+
+Super Rapid Fire for All Weapons [g6flavor]
+0404C2BC 60000000
+0404C4E0 60000000
+0404C550 60000000
+0404C5C0 60000000

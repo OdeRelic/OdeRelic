@@ -1,0 +1,9 @@
+EA5P
+Fatal Fury 3
+
+P1 Unlimited Credits [GMO]
+00228D2C 00000009
+
+P1 Unlimited Health [GMO]
+0021B1B1 00000060
+0021B1B2 00000060

@@ -1,0 +1,47 @@
+FA8E
+Kirby's Adventure
+
+Invincible [GMO]
+004681D9 00000050
+
+Infinite/Max Lives [Full Metal Kirby]
+00468179 00000063
+
+Infinite/Max Health [Full Metal Kirby]
+00468177 0000002F
+
+Massive Score [Full Metal Kirby]
+02468174 0000FFFF
+04468170 FFFFFFFF
+
+Ability Modifier [Full Metal Kirby]
+024681C2 0000wwxx
+ww should be FF for all except Mike/etc
+xx values:
+00 - Fire
+01 - Spark
+02 - Cutter
+03 - Sword
+04 - Fireball
+05 - Laser
+06 - Mike
+07 - Wheel
+08 - Hammer
+09 - Parasol
+0A - Sleep
+0B - Needle
+0C - Ice
+0D - Freeze
+0E - Hi-Jump
+0F - Beam
+10 - Stone
+11 - Ball
+12 - Tornado
+13 - Crash
+14 - Light
+15 - Back Drop
+16 - Throw
+17 - U.F.O.
+18 - Starrod
+19 - "ByeBye"
+1A+ - Normal

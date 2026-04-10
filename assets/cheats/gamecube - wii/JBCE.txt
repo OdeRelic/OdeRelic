@@ -1,0 +1,8 @@
+JBCE
+Kirby's Dream Course
+
+Unlimited Lives Player 1 [GMO]
+008AB573 00000009
+
+Always 1st Shot/Hole-In-One Player 1 [GMO]
+008CA33A 00000001

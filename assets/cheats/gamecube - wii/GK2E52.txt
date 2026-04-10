@@ -1,0 +1,12 @@
+GK2E52
+Spider-Man 2
+
+Freeze Challenge Timer [Link Master]
+042789B0 60000000
+
+Freeze Mission Timer [Link Master]
+042789CC 60000000
+
+Freeze Timer [Link Master]
+042789B0 60000000
+042789CC 60000000

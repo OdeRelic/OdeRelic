@@ -1,0 +1,194 @@
+MARP
+The Story of Thor
+
+Unlimited/Max Health [Crapulecorp]
+02FF5FD0 000003E7
+02FF5FD2 000003E7
+
+Unlimited/Max Magic [Crapulecorp]
+02FF5FD4 000003E7
+02FF5FD6 000003E7
+
+Max Rank (Attack) [Crapulecorp]
+02FF5FDF 000003E7
+*Code ported from helder Mega Drive Action Replay Version*
+
+Max Sp [Crapulecorp]
+02FF5FD5 000003E7
+*Code ported from helder Mega Drive Action Replay Version*
+
+Max Kills [Crapulecorp]
+02FF5FDD 0000FFFF
+*Code ported from helder Mega Drive Action Replay Version*
+
+Weapons Codes
+
+Weapon Modifier Slot 1 [Crapulecorp]
+00FF52E0 0000XXFF
+*Code ported from helder Mega Drive Action Replay Version*
+
+Weapon Modifier Slot 2 [Crapulecorp]
+00FF52E2 0000XXFF
+*Code ported from helder Mega Drive Action Replay Version*
+
+Weapon Modifier Slot 3 [Crapulecorp]
+00FF52E4 0000XXFF
+*Code ported from helder Mega Drive Action Replay Version*
+
+Weapon Modifier Slot 4 [Crapulecorp]
+00FF52E6 0000XXFF
+*Code ported from helder Mega Drive Action Replay Version*
+
+Weapon Modifier Slot 5 [Crapulecorp]
+00FF52E8 0000XXFF
+*Code ported from helder Mega Drive Action Replay Version*
+
+Weapon Modifier Slot 6 [Crapulecorp]
+00FF52EA 0000XXFF
+*Code ported from helder Mega Drive Action Replay Version*
+
+Weapon Modifier Slot 7 [Crapulecorp]
+00FF52EC 0000XXFF
+*Code ported from helder Mega Drive Action Replay Version*
+
+Weapon Modifier Slot 8 [Crapulecorp]
+00FF52EE 0000XXFF
+*Code ported from helder Mega Drive Action Replay Version*
+
+Weapon Modifier Values
+*Replace XX for:
+01 - Alt Knife
+02 - Sword
+03 - Broad Sword
+04 - Death Sword
+05 - Omega Sword
+06 - Bow
+07 - Fire Bow
+08 - Metal Bow
+09 - Bomb
+0A - Power Bomb
+0B - Hyper Bomb
+0C - ATM Bow*
+
+Infinite Weapon Uses (Slot 1) [Crapulecorp]
+00FF52E1 000000FF
+*Code ported from Phil The Hammer Mega Drive Action Replay Version*
+
+Infinite Weapon Uses (Slot 2) [Crapulecorp]
+00FF52E3 000000FF
+*Code ported from Phil The Hammer Mega Drive Action Replay Version*
+
+Item Codes
+
+Always Have Red Key [Crapulecorp]
+00FF5312 00000001
+*Code ported from Phil The Hammer Mega Drive Action Replay Version*
+
+Always Have Blue Key [Crapulecorp]
+00FF5313 00000001
+*Code ported from Phil The Hammer Mega Drive Action Replay Version*
+
+Always Have Green Key [Crapulecorp]
+00FF5314 00000001
+*Code ported from Phil The Hammer Mega Drive Action Replay Version*
+
+Always Have Gold Key [Crapulecorp]
+00FF5315 00000001
+*Code ported from Phil The Hammer Mega Drive Action Replay Version*
+
+Item Modifier Slot 1 [Crapulecorp]
+02FF52F0 0000XX01
+*Code ported from helder Mega Drive Action Replay Version*
+
+Item Modifier Slot 2 [Crapulecorp]
+02FF52F2 0000XX01
+*Code ported from helder Mega Drive Action Replay Version*
+
+Item Modifier Slot 3 [Crapulecorp]
+02FF52F4 0000XX01
+*Code ported from helder Mega Drive Action Replay Version*
+
+Item Modifier Slot 4 [Crapulecorp]
+02FF52F6 0000XX01
+*Code ported from helder Mega Drive Action Replay Version*
+
+Item Modifier Slot 5 [Crapulecorp]
+02FF52F8 0000XX01
+*Code ported from helder Mega Drive Action Replay Version*
+
+Item Modifier Slot 6 [Crapulecorp]
+02FF52FA 0000XX01
+*Code ported from helder Mega Drive Action Replay Version*
+
+Item Modifier Slot 7 [Crapulecorp]
+02FF52FC 0000XX01
+*Code ported from helder Mega Drive Action Replay Version*
+
+Item Modifier Slot 8 [Crapulecorp]
+02FF52FE 0000XX01
+*Code ported from helder Mega Drive Action Replay Version*
+
+Item Modifier Slot 9 [Crapulecorp]
+02FF5300 0000XX01
+*Code ported from helder Mega Drive Action Replay Version*
+
+Item Modifier Slot 10 [Crapulecorp]
+02FF5302 0000XX01
+*Code ported from helder Mega Drive Action Replay Version*
+
+Item Modifier Slot 11 [Crapulecorp]
+02FF5304 0000XX01
+*Code ported from helder Mega Drive Action Replay Version*
+
+Item Modifier Slot 12 [Crapulecorp]
+02FF5306 0000XX01
+*Code ported from helder Mega Drive Action Replay Version*
+
+Item Modifier Slot 13 [Crapulecorp]
+02FF5308 0000XX01
+*Code ported from helder Mega Drive Action Replay Version*
+
+Item Modifier Slot 14 [Crapulecorp]
+02FF530A 0000XX01
+*Code ported from helder Mega Drive Action Replay Version*
+
+Item Modifier Slot 15 [Crapulecorp]
+02FF530C 0000XX01
+*Code ported from helder Mega Drive Action Replay Version*
+
+Item Modifier Slot 16 [Crapulecorp]
+02FF530E 0000XX01
+*Code ported from helder Mega Drive Action Replay Version*
+
+Item Modifier Values
+*Replace XX for:
+0D - Red Key
+0E - Blue Key
+0F - Green Key
+10 - Wood Key
+11 - HP Up
+12 - Water ST
+13 - Fire ST
+14 - Shadow ST
+15 - Wood ST
+16 - HP Heal
+17 - Booster
+18 - SP Heal
+19 - Special
+1A - DYT Call
+1B - EFR Call
+1C - SHD Call
+1D - BOW Call
+1E - Cheese (HP + 1/4)
+1F - Fish (HP + 1/2)
+20 - Meat (HP + 3/4)
+21 - Roast (HP + Max)
+22 - Orange (SP + 1/4)
+23 - Apple (SP + 1/2)
+24 - Pappya (SP + 3/4)
+25 - Grapes (SP + Max)
+26 - Small Mushroom (HP SP + 1/4)
+27 - Lettuce (HP SP + 1/2)
+28 - Onion (HP SP + 3/4)
+29 - Big Mushroom (HP SP + Max)
+2A - Elixir*

@@ -1,0 +1,11 @@
+EAWP
+Fatal Fury Special
+
+Unlimited Time [GMO]
+00220492 00000099
+
+P1 Unlimited Credits [GMO]
+0022DBBA 00000009
+
+P1 Unlimited Health [GMO]
+02220002 00006060

@@ -1,0 +1,339 @@
+FFAE
+Final Fantasy
+
+World Map Movement Code [goemon_guy]
+82000000 803A3507
+28164A92 0000A200
+86000000 00000001
+84000000 803A3507
+E0000000 80008000
+82000000 803A3507
+28164A92 00002202
+86000000 0000FFFE
+84000000 803A3507
+E0000000 80008000
+82000000 803A3508
+28164A92 00006200
+86000000 00000001
+84000000 803A3508
+E0000000 80008000
+82000000 803A3508
+28164A92 00002201
+86000000 0000FFFE
+84000000 803A3508
+E0000000 80008000
+L+R+DIRECTIONAL PAD to move in that direction.
+You will move quickly. Best to use a map, if you're confused.
+When you want to check where you are, open the menu.
+*Classic Controller*
+
+Ultimate Airship Code [goemon_guy]
+28164A68 00000400
+003A3526 00000008
+E0000000 80008000
+28164A68 00000800
+003A3526 00000001
+E0000000 80008000
+Allows you to spawn an airship whenever on the world map.
+Press B (Wiimote) to turn into an airship, and A to turn into the player.
+(Try not to press "A" while on the boat!)
+
+Warp to a specific spot on the world map (B Wii remote) [goemon_guy]
+28164A68 00000400
+023A3507 0000XXXX
+Replace XXXX with one of the values below:
+Castle of Ordeals 7b27
+Cave of Ice beb1
+Gurgu Volcano b6c6
+Pravoka cb8f
+Coneria 929c
+Matoya's Cave a16f
+Castle of Fiends 7b75
+Melmond 4b9a
+Dwarf Cave 5d95
+Elfland 81d7
+Crescent Lake d4d2
+Lufein e45d
+Mirage Tower bb34
+Dragon Caves* 5d33
+
+Onrac 3634
+Gaia d616
+Earth Cave 3ab4
+Titan Cave 23a8
+Old Man Cave (ROD)17b8
+Marsh Cave 5fe4
+Castle 60b4
+*Only access with Airship
+
+Have all ORBS revived [goemon_guy]
+044E70B2 01010101
+
+Item Codes
+
+Have Lute, Crown, Crystal and Herb [goemon_guy]
+044E70A1 01010101
+
+Have Key, Adamant, TNT and Slab [goemon_guy]
+044E70A5 01010101
+
+Have Ruby, Rod, Floater and Chime [goemon_guy]
+044E70A9 01010101
+
+Have Tail, Cube, Bottle and Oxyale [goemon_guy]
+044E70AD 01010101
+
+Have Canoe [goemon_guy]
+004E70B1 00000001
+
+Have ALL Key Items [goemon_guy]
+004E70A1 00100001
+
+Have 99 Tent, Cabin, House and Heal [goemon_guy]
+044E70B6 63636363
+
+Have 99 Pure and Soft [goemon_guy]
+024E70BA 00006363
+
+Have 99 of All Items [goemon_guy]
+004E70B6 00060063
+
+Have ALL Items [goemon_guy]
+004E70A1 001B0063
+
+Class and HP Modifiers
+
+Class Modifier P1 [goemon_guy]
+004E7180 0000000X
+
+Class Modifier P2 [goemon_guy]
+004E71C0 0000000X
+
+Class Modifier P3 [goemon_guy]
+004E7200 0000000X
+
+Class Modifier P4 [goemon_guy]
+004E7240 0000000X
+
+Infinite/Max HP P1 [goemon_guy]
+024E718A 0001e703
+
+Infinite/Max HP P2 [goemon_guy]
+024E71CA 0001e703
+
+Infinite/Max HP P3 [goemon_guy]
+024E720A 0001e703
+
+Infinite/Max HP P4 [goemon_guy]
+024E724A 0001e703
+
+Max Stats Codes
+
+Max Stats P1 [goemon_guy]
+004E7190 00040063
+004E71A0 00030063
+
+Max Stats P2 [goemon_guy]
+004E71D0 00040063
+004E71E0 00030063
+
+Max Stats P3 [goemon_guy]
+004E7210 00040063
+004E7220 00030063
+
+Max Stats P4 [goemon_guy]
+004E7250 00040063
+004E7260 00030063
+
+Weapon/Armor Modifiers
+
+Weapon Modifier P1 [goemon_guy]
+044E7198 VVXXYYZZ
+See Note Below
+
+Weapon Modifier P2 [goemon_guy]
+044E71D8 VVXXYYZZ
+See Note Below
+
+Weapon Modifier P3 [goemon_guy]
+044E7218 VVXXYYZZ
+See Note Below
+
+Weapon Modifier P4 [goemon_guy]
+044E7258 VVXXYYZZ
+See Note Below
+
+Armor Modifier P1 [goemon_guy]
+044E719C VVXXYYZZ
+See Note Below
+
+Armor Modifier P2 [goemon_guy]
+044E71DC VVXXYYZZ
+See Note Below
+
+Armor Modifier P3 [goemon_guy]
+044E721C VVXXYYZZ
+See Note Below
+
+Armor Modifier P4 [goemon_guy]
+044E725C VVXXYYZZ
+See Note Below
+
+Magic Codes
+
+Infinite/Max Magic Pts P1 [goemon_guy]
+024E73A0 00070909
+
+Infinite/Max Magic Pts P2 [goemon_guy]
+024E73E0 00070909
+
+Infinite/Max Magic Pts P3 [goemon_guy]
+024E7420 00070909
+
+Infinite/Max Magic Pts P4 [goemon_guy]
+024E7460 00070909
+
+Values
+
+WEAPONS.
+Add "8" to the first digit of the value to auto-equip the weapon. (Equip Scimtar-88)
+
+00=None
+01=Wooden (Nunchucks) [goemon_guy]
+02=Small (Dagger)
+03=Wooden (Staff)
+04=Rapier
+05=Iron (Hammer)
+06=Short (Longsword)
+07=Hand (Ax)
+08=Scimtar
+09=Iron (Nunchucks)
+0A=Large (Longsword)
+0B=Iron (Staff)
+0C=Sabre
+0D=Long (Longsword)
+0E=Great (Ax)
+0F=Falchon
+10=Silver (Dagger)
+11=Silver (Longsword)
+12=Silver (Hammer)
+13=Silver (Ax)
+14=Flame (Longsword)
+15=Ice (Longsword)
+16=Dragon (Longsword)
+17=Giant (Longsword)
+18=Sun (Longsword)
+19=Coral (Longsword)
+1a=Were (Longsword)
+1b=Rune (Longsword)
+1c=Power (Staff)
+1d=Light(Ax)
+1e=Heal (Staff)
+1f=Mage (Staff)
+20=Defense
+21=Wizard (Staff)
+22=Vorpal
+23=CatClaw
+24=Thor (Hammer)
+25=Bane (Longsword)
+26=Katana
+27=XCalber
+28=Masmune
+
+ARMOR.
+Add "8" to the first digit of the value to auto-equip the weapon.
+01=Cloth
+02=Wooden (Armor)
+
+03=Chain (Armor)
+04=Iron (Armor)
+05=Steel (Armor)
+06=Silver (Armor)
+07=Flame (Armor)
+08=Ice (Armor)
+09=Opal (Armor)
+0a=Dragon (Armor)
+0b=Copper (Circlet)
+0c=Silver (Circlet)
+0d=Gold (Circlet)
+0e=Opal (Circlet)
+0f=White (Shirt)
+10=Black (Shirt)
+11=Wooden (Shield)
+12=Iron (Shield)
+13=Silver (Shield) [goemon_guy]
+14=Flame (Shield)
+15=Ice (Shield)
+16=Opal (Shield) [goemon_guy]
+17=Aegis (Shield)
+18=Buckler
+19=Procape
+1a=Cap
+1b=Wooden (Helmet)
+1c=Iron (Helmet)
+1d=Silver (Helmet)
+1e=Opal (Helmet)
+1f=Heal (Helmet)
+20=Ribbon
+21=Gloves
+22=Copper (Gloves)
+23=Iron (Gloves)
+24=Silver (Gloves)
+25=Zeus (Gloves) [goemon_guy]
+26=Power (Gloves)
+27=Opal (Gloves)
+28=ProRing
+
+CLASSES
+00-Fighter
+01-Thief
+02-Black Belt
+03-Red Mage
+04-White Mage
+05-Black Mage
+06-Knight
+07-Ninja
+08-Master
+09-Red Wizard
+0a-White Wizard
+0b-Black Wizard
+
+Shop Haggler [GMO]
+28164A68 00000408
+003A37EE 00000000
+E0000000 80008000
+28164A68 00000404
+003A37EE 000000FF
+E0000000 80008000
+Hold B and Press Up for Free Item
+Hold B and Press Down to Sell Item for 255G
+
+255G After Battle [GMO]
+004E78F6 000000FF
+
+255 EXP Up After Battle [GMO]
+004E78F8 000000FF
+
+Character 1 Current Health [GMO]
+004E718A 000000FF
+
+Character 1 Max Health [GMO]
+004E718C 000000FF
+
+Character 2 Current Health [GMO]
+004E71CA 000000FF
+
+Character 2 Max Health [GMO]
+004E71CC 000000FF
+
+Character 3 Current Health [GMO]
+004E720A 000000FF
+
+Character 3 Max Health [GMO]
+004E720C 000000FF
+
+Character 4 Current Health [GMO]
+004E724A 000000FF
+
+Character 4 Max Health [GMO]
+004E724C 000000FF

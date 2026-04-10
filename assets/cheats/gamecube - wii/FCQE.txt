@@ -1,0 +1,35 @@
+FCQE
+Ninja Gaiden II
+
+Invincible [GMO]
+003EDBE8 00000070
+
+Disable Timer [GMO]
+003EDC30 00000020
+
+1-Hit Kill (Bosses) [GMO]
+2818F3E8 00001000
+003EDC01 00000001
+E0000000 80008000
+
+Moon Jump (Press 2) [Sharkbyte]
+28217F52 FEFF0100
+043EE100 1A31371F
+
+Super Jump (Press 2) [Sharkbyte]
+28217F52 FEFF0100
+003EE160 000000FB
+If holding 2 for too long on Super Jump, you will fly above the screen and you will die, so be careful.
+Do NOT have both codes on at same time.
+
+Infinite Lives [funkamatic]
+003EDC25 00000009
+
+Infinite ninja power [funkamatic]
+003EDC2E 0000003C
+
+Infinite health [funkamatic]
+003EDC00 00000010
+
+Infinite Time [funkamatic]
+003EDC31 0000001C

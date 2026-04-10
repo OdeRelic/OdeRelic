@@ -1,0 +1,2997 @@
+RZDE01
+Legend of Zelda: Twilight Princess
+
+Remote Explosives [Anarion]
+04F3DE58 38600FFF
+04F6D028 38600001
+2844BB66 00002004
+04F3DE58 38600001
+04F6D028 38600000
+E0000000 80008000
+All bomb types & bomb arrows have an infinite timer. And you can detonate them on command! Press Z&DPad DOWN to detonate bombs.
+
+Provinces Cleansed From Twilight [Anarion]
+C2038ACC 00000003
+3D80FFFF 618CFFFF
+91830008 80030008
+60000000 00000000
+This code is mainly to unlock all Twilight portals at once, but it sets your progress in each province to 100%. My "Have All Tears of Light" code is recommended with use of this.
+
+Infinite Sword [Anarion]
+C20A2B24 00000002
+38000002 981E0587
+801E0584 00000000
+
+DeathWolf [Anarion]
+C20A205C 00000002
+38000002 98030587
+80030584 00000000
+
+Midna-Instant B Attack&Diameter Modifier [Anarion]
+0412A44C 60000000
+C20A94A0 00000003
+3D80XXXX 618CXXXX
+919F34D4 C01F34D4
+60000000 00000000
+X Values:
+44098000 -default diameter
+45000000 -large
+You can modify X to any value you'd like.
+
+Teleporter [Anarion]
+2844BB66 00002001
+48000000 8044B5CC
+DE000000 80008180
+92210000 00000000
+92210001 00000004
+92210002 00000008
+E0000000 80008000
+2844BB66 00002002
+48000000 8044B5CC
+DE000000 80008180
+94210000 00000000
+94210001 00000004
+94210002 00000008
+E0000000 80008000
+Press Z&D-Pad LEFT to save current position.
+Press Z&D-Pad RIGHT to return to saved position.
+
+Epona- Teleporter [Anarion]
+2844BB66 00002100
+48000000 804812AC
+DE000000 80008180
+92210003 0000049C
+92210004 000004A0
+92210005 000004A4
+E0000000 80008000
+2844BB66 00002004
+48000000 804812AC
+DE000000 80008180
+94210003 0000049C
+94210004 000004A0
+94210005 000004A4
+E0000000 80008000
+Press Z&2 to save current position.
+Press Z&D-Pad DOWN to return to saved position.
+
+Epona- Speed Modifier [Anarion]
+2844BB66 00002000
+CC000000 00000000
+48000000 8047E7A0
+DE000000 80008180
+2244BBC8 00000000
+14000454 XXXX0000
+2044BBC8 00000000
+14000454 00000000
+E0000000 00000000
+Press Z to turn on and off
+X Values:
+4228 - default top speed
+4300 - recommended speed
+4500 - highest recommended speed to use, higher will be uncontrollable
+
+Epona- Moon Jump [Anarion]
+2844BB66 00000004
+48000000 804986F0
+DE000000 80008180
+140004FC XXXX0000
+E0000000 80008000
+This will only affect Epona.
+Press DOWN to use.
+X:
+4280 -recommended value to use
+4300
+4400
+4500 -highest possible value
+
+Fishing Lure Modifier-Hena's Fishing Hole [Anarion]
+04F5C08C 3800000X
+0 - Frog lure
+1 - Swimmer lure
+2 - Popper lure
+3 - Spinner lure
+4 - Sinking lure
+
+Season Modifier-H.F.H [Anarion]
+004BA74A 000000X0
+0- Autumn&gt;Winter
+1- Spring
+2- Summer
+3- Autumn
+4- Winter
+
+No Season Change-HFH [Anarion]
+04245E48 60000000
+
+Fishing Boat Moon Jump-HFH [Anarion]
+2844BB66 00000004
+04F60F38 60000000
+04EFAA58 XXXXXXXX
+CC000000 00000000
+04F60F38 D01A04D4
+04EFAA58 00000000
+E0000000 80008000
+Press D-Pad DOWN to turn on&off.
+Fixed levitation.
+X Values:
+Anything from 40000000 to 47000000 yields results.
+
+Fishing Boat Teleporter-HFH [Anarion]
+2844BB66 00000001
+92210006 00EFAA54
+92210007 00EFAA58
+92210008 00EFAA5C
+E0000000 80008000
+2844BB66 00000002
+94210006 00EFAA54
+94210007 00EFAA58
+94210008 00EFAA5C
+E0000000 80008000
+Press D-pad LEFT to save current position.
+Press D-pad RIGHT to return to saved position.
+
+Invisible Boat-HFH [Anarion]
+04EFAA98 45000000
+
+Epona Teleports To Link [Anarion]
+2844BB66 00000801
+48000000 8044B5CC
+DE000000 80008180
+92210006 00000000
+92210007 00000004
+92210008 00000008
+E0000000 80008000
+2844BB66 00000802
+48000000 804812AC
+DE000000 80008180
+94210006 0000049C
+94210007 000004A0
+94210008 000004A4
+E0000000 80008000
+This is not an "instant Epona Call". As long as you both are in the same field, code will have effect.
+Press A&D-Pad LEFT to save Link's position. Press A&D-Pad RIGHT to return Epona there.
+
+Instant Sword Change [Anarion]
+04148FD8 380000XX
+28- Ordon sword
+29- Master sword
+
+Enemy Moon Jump [Anarion]
+C20200EC 00000003
+3D804280 618C0000
+918304FC C04304FC
+60000000 00000000
+C2FB66B0 00000003
+3D804280 618C0000
+918F04FC C02F04FC
+60000000 00000000
+C2FBBE74 00000003
+3D804280 618C0000
+918F04FC C02F04FC
+60000000 00000000
+C2FA23CC 00000003
+3D804280 618C0000
+919704FC C03704FC
+60000000 00000000
+This will affect all enemies on all Hyrule provinces except Kargaroks and skeleton dogs. Use zeldazelda's Kargarok replacement code: 043FB984 XXXXFF00 to get rid of the most annoying enemies once and for all. Browse this page for his X values.
+I will try to create other enemy moon jumps for other fields.
+**The top code this code has uses an address that may affect Epona and some people as well since it is the opposite of the 'People Moon Jump'
+
+Moon Jump+ [Anarion]
+2844BB66 00002002
+04074DC0 C0230004
+CC000000 00000000
+C2074DC0 00000005
+9421FFF0 91610008
+3D60XXXX 616B0000
+91630004 81610008
+38210010 C0230004
+60000000 00000000
+E0000000 80008000
+Press Z & RIGHT to turn on and off.
+X-how fast you want the enemy to fly into the air.
+4280- recommended value to use
+4300
+4400- highest recommended value to use
+4500- highest value
+This will activate when annoying common enemies like tektites, goblins, guays, kargaroks, etc notice you or are attacked. + because on certain fields, it will affect Link and Epona as well. Its a MoonJump that affects all people and enemies.
+
+Rapid Action [Anarion]
+2844BB66 00000001
+041484E0 38000001
+E0000000 80008000
+2844BB66 00000002
+041484E0 38000000
+E0000000 80008000
+Press LEFT to turn on, RIGHT to turn off.
+Allows you to button mash for rapid action. While code is active, you can only do whatever it is that you want to do. Ex. Sword is out. You can only swing. Bow is out, only shoot, etc. Can't take out sword or other item. Rapid fire for Bow and Slingshot!
+
+Bomb Gravity Modifier [Anarion]
+2844BB66 00002000
+040D94CC 3863XXXX
+CC000000 00000000
+040D94CC 386348B0
+E0000000 00000000
+Press Z to turn on and off. X Values:
+3A98 - bomb levitates slowly at medium height when thrown.
+2970 - bomb floats in a straight line.
+3140 - bomb falls straight into ground when thrown.
+4650 - bomb floats straight at high height.
+5C38 - bomb floats up at fast speed.
+7B78 - bomb floats straight up instantly.
+48B0 - Default value. Will have normal gravity effect on bombs. Do not use.
+
+No Spin Attack Delay [Anarion]
+040CAA90 60000000
+won't have to wait for sword to charge for next spin attack
+
+Link Runs Backwards [Anarion]
+2844BB66 00006100
+040AABF4 EC00E828
+CC000000 00000000
+040AABF4 EC00E82A
+E0000000 80008000
+Nunchuck controls are reversed. Link will pick up speed.
+Press C,Z,2 to turn code on and off.
+
+Multicolor Link [Anarion]
+2844BB66 00006100
+04259A1C 60000000
+04259A2C 60000000
+CC000000 00000000
+04259A1C C0030000
+04259A2C C0630000
+E0000000 80008000
+While the code is on, Link will change colors with every step.
+When the code is off, the code effect will still linger. Link will change color slowly.
+Press C,Z,2 to turn code on and off.
+
+Freeze Navi Cursor Wings [Anarion]
+04013E60 D0250004
+
+Visible Poes&Twilight Insects [Anarion]
+C225931C 00000004
+2C1E0001 40820014
+7C1E8000 41A2000C
+3C00437F D0030000
+C0030000 00000000
+Visible without wolf sense.
+
+No Animation+ [Anarion]
+2844BB66 00006100
+04332C50 60000000
+CC000000 00000000
+04332C50 D0A30010
+E0000000 80008000
+Press C,Z,2 to turn code on and off.
+Infinite glide if roll is used. Have to turn off code to stop moving and to attack.
+People, Gorons, Zoras, enemies, etc. will have no animation. Freezes Epona completely. Will freeze red and blue goblins.
+Code goes hand in hand with code below.
+
+Stop Enemy Movement [Anarion]
+2844BB66 00006100
+04259358 60000000
+CC000000 00000000
+04259358 D0030000
+E0000000 80008000
+Press C,Z,2 to activate and deactivate.
+Stops common enemies from moving.
+
+Have All Tears of Light [Anarion]
+2844BB66 00006100
+04492A3C 10101010
+E0000000 80008000
+Press C,Z,2
+Go through an area that loads to end the process. Ex. Walking into a house or out of one. I recommend for you to kill the Twilight beasts that open portals before using this code otherwise the portal won't open.
+
+Full Speed Epona Start [Anarion]
+04259A38 EC64082A
+
+Gliding Epona [Anarion]
+2844BB66 00006100
+041484B8 60000000
+CC000000 00000000
+041484B8 D023000C
+E0000000 80008000
+Will glide, won't gallop, when dash is used.
+Press C,Z,2 to turn code on and off.
+
+Wild Epona [Anarion]
+2844BB66 00006100
+04F81500 60000000
+CC000000 00000000
+04F81500 C05D052C
+E0000000 80008000
+Epona will run in place when you are not on her.
+Epona will not move its feet when you are on her. You can still "run" across the field.
+Press C,Z,2 to turn code on and off.
+
+Hide Epona Strike Meter [Anarion]
+2844BB66 00006100
+04241860 60000000
+CC000000 00000000
+04241860 980300B0
+E0000000 80008000
+Press C,Z,2 to turn code on and off.
+
+Stand Still Levitation [Anarion]
+2844BB66 00006100
+04358A60 60000000
+CC000000 00000000
+04358A60 CBE10028
+E0000000 80008000
+Press C,Z,2 to activate and deactivate.
+Only when you stand still, you will levitate slowly.
+
+People Moon Jump [Anarion]
+C2020098 00000005
+3DE08044 61EFBB66
+A1EF0000 2C0FXXXX
+4082000C 3D804280
+618C0000 918304FC
+C00304FC 00000000
+2844BB66 00000000
+04020098 C00304FC
+E0000000 80008000
+X=Button to activate. Use 0800 if you want to use A button. Use 0002 if you want to use RIGHT button.
+This MoonJump used to be used for Epona but it is mainly a MoonJump that controls all people with some enemies included.
+
+Load Twilight Effect [Anarion]
+2844BB66 00006100
+044BA38C 3FXXXXXX
+E0000000 80008000
+Press C,Z,2
+Not the actual textures but the bright twilight glow everything has.
+Twilight spirits effect:
+After using your wolf sense & turning it off, the spirits will either still remain visible or invisible depending on the X value you chose.
+X VALUES: (anything from 1999FF to 800000)
+1999FF -can listen to the spirits but you won't be able to see them nor see green spirit orbs after wolf sense was turned on/off.
+333334 -ideal value to use. loads effect just enough for you to keep spirits visible.
+800000 -loads full twilight effect.
+
+Mute Rupee Meter [Anarion]
+0420D7C4 60000000
+Increasing/decreasing sound. Good when using magic armor & infinite rupees code.
+
+Black & White [Anarion]
+2844BB66 00006800
+04006EF4 60000000
+CC000000 00000000
+04006EF4 88040003
+E0000000 80008000
+Press C,Z,A to activate and deactivate
+Makes everything black and white.
+Pretty cool code. If used and you enter/exit an area/place, Link will become completely invisible and will remain invisible even after code deactivation. Sword is the only thing still visible. People's clothes become invisible.
+
+Full Zoom Hawkeye [Anarion]
+04F04638 3F800000
+You can't zoom out.
+
+Stop Time Flow [Anarion]
+2844BB66 00006100
+041903DC 60000000
+CC000000 00000000
+041903DC D0230034
+E0000000 80008000
+Press C,Z,2 to activate and deactivate.
+
+2D Link 1 [Anarion]
+2844BB66 00006100
+04358B50 60000000
+CC000000 00000000
+04358B50 F0840018
+E0000000 80008000
+Press C,Z,2 to activate and deactivate.
+Link will be visible from front and back.
+
+2D Link 2 [Anarion]
+2844BB66 00006200
+04358B2C 60000000
+CC000000 00000000
+04358B2C F1448020
+E0000000 80008000
+Press C,Z,1 to activate and deactivate.
+Link will be visible from the sides.
+Both codes above don't work for Wolf Link.
+
+Airwalk [Anarion]
+2844BB66 00006100
+04258AF8 60000000
+CC000000 00000000
+04358AF8 C043001C
+E0000000 80008000
+Press C,Z,2 to activate and deactivate.
+This positions Link at the center of the camera. So, it looks like he is walking on air. But you can't actually walk on air the way you can with hover boots. :P
+
+Dark World [Anarion]
+2644BB66 00006200
+04358AF0 60000000
+CC000000 00000000
+04358AF0 C023000C
+E0000000 80008000
+Press C,Z,1 to activate and deactivate.
+This just turns the sky pitch black. And depending on how you move, you may teleport.
+
+Link Name Changer [Anarion]
+04492ADC XXXXXXXX
+04492AE0 XXXXXXXX
+The first line will be for the first 4 letters of the name.
+The second line will be for the last 4 letters of the name.
+
+Epona Name Changer [Anarion]
+04492AEC 00XXXXXX
+04492AF0 XXXXXXXX
+00492AF4 000000XX
+The first line will be for the first 3 letters of the name.
+The second line will be for the next 4 letters of the name.
+The last line will be for the last letter of the name.
+FOR BOTH CODES ABOVE:
+For letter X values, go to:|| http://www.mikezilla.com/exp0012.html
+Type name in ASCII box and click encode. Your X hex values will be on the middle box. Don't use the percentage symbol in place of an X value.
+Both Link and Epona can have longer names than the game's default 8 characters. Link can have 16 characters while Epona can have a 32 characters. If you want a longer name, contact me.
+
+Epona-Moon Jump v2 (old) [Anarion]
+2844BB66 00000004
+C2F890E4 00000003
+3D8042C0 618C0000
+919D04FC C3FD04FC
+E0000000 80008000
+2844BB66 00000001
+04F890E4 C3FD04FC
+E0000000 80008000
+Do not use. Use the one at the top.
+
+Load Hawkeye Vision [Anarion]
+040B9408 60000000
+2844BB66 00004000
+C20B9428 00000002
+3C600020 6063X020
+90655F28 00000000
+CC000000 00000000
+040B9428 90655F28
+E0000000 80008000
+X: 3- target cross reticule, 2- no target cross reticule
+Won't need to use Hawkeye item with this.
+Replaces C-button vision.
+
+Equipment Modifier [goemon_guy]
+024929F9 0000XXXX
+These can be added together to get different combos of equipment.
+X values:
+0001=Ordon Sword
+0002=Master Sword
+0004=Ordon Shield
+0008=Wooden Shield (Takes priority over the Ordon Shield)
+0010=Hylian Shield
+0080=Hero's Clothes
+0100=Magic Armor
+0200=Zora Armor
+
+Have all equipment [goemon_guy]
+024929F9 00000397
+
+Master Sword Status [goemon_guy]
+004929FE 000000XX
+00=Normal
+8F=Embued with Twilight light
+
+Add Magic Armor to Equipment (Press 2) [goemon_guy]
+2844BB6A 00000100
+82100000 804929F9
+86000000 00000100
+84100000 804929F9
+E0000000 80008000
+note: ONLY PRESS THE COMBINATION ONCE.
+You will likely screw something up if you do.
+Save the game immediately after the change is made and turn off the code.
+
+Change Menu Screen Music [toonlink444]
+077E7E48 00000008
+xxxxxxxx xxxxxxxx
+X's = Music Value
+-------------------------------------------------------------------
+Music Values
+automata = 327500B9 00181C60
+automata03 = 327B07D1 00134560
+BoomBoss_d01 = 327FD929 00088CC0
+BoomBoss_d02 = 3281FC59 000A4140
+Bossbaba_d01 = 32848CA9 0005A3E0
+BossDeath_d01 = 3285F5A1 004EF6A0
+BossDeath_d02 = 3299B349 004CAC20
+BossDeath_d03 = 32ACDE51 00579D60
+BossDeath_d04 = 32C2C5A9 0046D540
+BossDeath_d05 = 32D47AF9 004275C0
+BossDeath_d06 = 32E51869 003A7200
+BossDeath_d07 = 32F3B4E9 004B9B40
+cargogame_It_temp = 33069BB9 0027F6C0
+church_d01 = 33109969 000E8500
+d_lv09_01 = 36EB2299 002F4F40
+demo01_01 = 33143AA9 005A09E0
+stageselect_e3_2006 (Hyrule Field?) = 381BD231 00542180
+-------------------------------------------------------------------
+To hear music go here -&gt; http://www.youtube.com/watch?v=RDnDLj7dZrY
+More Music Swap Codes and Values to Come
+
+Twilight Realm Story Modifier [Jack Walker]
+04492958 XXXXXXXX
+00000000 - No areas purified.
+FFFFFFFF - All areas purified. Midna will be in a ill state if you have not met Zelda for a second time.
+This code affects what areas the player has purified from Twilight. Affects will vary based on how far the player is in the story.
+
+30 points on canoe minigame [matt123337]
+004A425C 0000001E
+This code is for v2 of the game
+
+10,000 in plum's minigame [matt123337]
+20F5E5E0 901D0008
+04F5E5C8 38802710
+E0000000 80008000
+This code is for v2 of the game
+Collect 1 fruit for code to activate
+
+always have 30 points on canoe minigame [wiiztec]
+004BCC34 0000001E
+
+Link Doesn't Change Into A Wolf When Warping (only for v1 USA) [brkirch]
+0409E10C 60000000
+0409E114 48000060
+C222B6A8 00000003
+3CA0800C 3C806000
+9085E258 38800003
+60000000 00000000
+C209E110 00000003
+3F004182 3B180010
+3C80800C 9304E258
+60000000 00000000
+
+Instant Form Change (C+A) [brkirch]
+0410A094 9421FFE0
+2044BB64 00004800
+0410A094 4BFB40FC
+E0000000 80008000
+This code works even before you get the Master Sword. If you transform from a human to a wolf before you get the Master Sword, Midna will not be on your back.
+
+No Notification The First Time You Collect A Rupee [brkirch]
+04147194 48000010
+
+Mirrored Mode [brkirch]
+0400CEC0 60000000
+0401A878 FF800890
+042457E8 38600000
+C20409C4 00000005
+48000009 00000000
+7C8802A6 80840000
+FC602050 2C040000
+4082000C FC601850
+FC802050 00000000
+C21E191C 00000003
+981F0146 48000005
+7FE802A6 38000001
+901FFFCC 00000000
+C21E1A20 00000003
+981F0146 48000005
+7FE802A6 901FFFAC
+60000000 00000000
+C21E1A78 00000003
+981F0146 48000005
+7FE802A6 38000001
+901FFF8C 00000000
+C21E1BC4 00000003
+981F0146 48000005
+7FE802A6 901FFF6C
+60000000 00000000
+Known issues:
+-The maps are not mirrored on the map screen
+-Link is not mirrored on the collection screen
+-Any game dialogs that tell you to move the control stick right or left (e.g. in shops) are not changed to match the mirrored controls
+
+Put on Ranch Clothes,Ordon Shield,and Wooden Sword Anywhere [ukuneko]
+04194DC4 48000014
+040334D4 60000000
+0420B024 7FE3FB78
+0420B0C0 7FE3FB78
+0420B144 7FE3FB78
+3844BB66 00000800
+040334D4 98640013
+E0000000 80008000
+2C44BB66 00002000
+040334D4 98640013
+0420B024 3860002E
+0420B0C0 3860003F
+0420B144 3860002A
+E0000000 80008000
+2C44BB66 00006000
+0420B0C0 386000FF
+0420B144 386000FF
+E0000000 80008000
+*Change Ranch Clothes,Ordon Shield,and Wooden Sword while Holding Z.
+*NoShield, Sword while Holding (Z+C).
+*This requires (Have All Swords/Shields/Tunics) by James0x57.
+*044929F8 FFFFFFFF
+
+Infinite Wolf Dash Time: [zeldazelda]
+040BFA20 38030000
+
+Infinite epona Dash time [zeldazelda]
+20F862B0 3804FFFF
+04F862B0 38040000
+20F8BC51 3804FFFF
+04F8BC50 38040000
+E0000000 00000000
+(doesn't work everywhere.) if someone would kindly tell me where it doesn't work and I will fix it. (now works in the northeast part.)
+
+Forest Temple: Refight Miniboss and Diababa [zeldazelda]
+00492D2A 00000007
+04492D54 03470000
+
+Goron Mines: Refight Big goron miniboss and Fyrus [zeldazelda]
+04492D54 34700000
+00492D42 00000002
+
+Water Temple: Refight frog miniboss and Morpheel. [zeldazelda]
+00492D63 00000002
+04492D74 03470000
+
+Sand Temple: Refight Death Sword and Stallord. [zeldazelda]
+00492D80 000000C0
+04492D94 03470000
+
+Ice temple: Refight Miniboss and Blizzeta [zeldazelda]
+04492DB4 03070000
+
+Temple of Time: Refight Darknut Miniboss and ArmoGohma [zeldazelda]
+04492DD4 03470000
+00492DC2 00000040
+
+Sky Temple: Refight Arlfoe Miniboss and Argorok [zeldazelda]
+04492DF4 03470000
+00492DE1 0000004E
+
+Replace horse grass with XXXX [zeldazelda]
+043FB5DC XXXXFF00
+
+Replace Pumpkins with XXXX [zeldazelda]
+043FB894 XXXXFF00
+
+Replace Stones with XXXX [zeldazelda]
+043FAA54 XXXXFF00
+
+Replace Big Stones with XXXX [zeldazelda]
+043FAA60 0000FF00
+
+Replace Grass with XXXX [zeldazelda]
+043FA67C XXXXFF00
+
+Replace hand in twilight tower guarding orb with XXXX [zeldazelda]
+043FBD44 XXXXFF00
+
+Replace frezzards with XXXX [zeldazelda]
+043FBD08 XXXXFF00
+
+Replace poe's with XXXX [zeldazelda]
+043FBD38 XXXXFF00
+
+Replace lizafoes with XXXX [zeldazelda]
+043FB93C XXXXFF00
+
+Replace little running thingies with XXXX [zeldazelda]
+043FB9C0 XXXXFF00
+
+Replace fire slugs with XXXX [zeldazelda]
+043FB9FC XXXXFF00
+
+Replace what the actor that gohma spawns wtih XXXX [zeldazelda]
+043FBCC0 XXXXFF00
+
+Replace skeleton dogs with XXXX [zeldazelda]
+043FBA44 XXXXFF00
+
+Replace chu chus with XXXX [zeldazelda]
+043FBAA4 XXXXFF00
+
+Replace bats with XXXX [zeldazelda]
+043FBBB8 XXXXFF00
+
+Replace flying skulls with XXXX [zeldazelda]
+043FBBC4 XXXXFF00
+
+Replace Bobliken Spawner to XXXX [zeldazelda]
+043FBE1C XXXXFF00
+
+Replace plants that die in one hit with XXXX [zeldazelda]
+043FBE34 XXXXFF00
+
+Replace plants that don't die in one hit with XXXX [zeldazelda]
+043FBA2C XXXXFF00
+
+Replace door in acient grove to temple of time with XXXX [zeldazelda]
+043FBF60 XXXXFF00
+
+Replace rats with XXXX [zeldazelda]
+043FBF90 XXXXFF00
+
+replace twilight bats to XXXX [zeldazelda]
+043FBFC0 XXXXFF00
+
+Replace twilight flying kargrokes with XXXX [zeldazelda]
+043FBFCC XXXXFF00
+
+Replace twilight rats with XXXX [zeldazelda]
+043FBFD8 XXXXFF00
+
+Replace fire lizards to XXXX [zeldazelda]
+043FC008 XXXXFF00
+
+Replace Giant Circle platform to XXXX [zeldazelda]
+043FC08C XXXXFF00
+
+Replace twilight man eating plants that die in one hit with XXXX [zeldazelda]
+043FC098 XXXXFF00
+
+Replace twilight man eating plants with XXXX [zeldazelda]
+043FC0A4 XXXXFF00
+
+Replace remains of twilight plant eating thing to XXXX [zeldazelda]
+043FD0A0 XXXXFF00
+
+Replace remains of plant eating thing with XXXX [zeldazelda]
+043FD0AC XXXXFF00
+
+Replace remains of plant eating thing that dies in one hit with XXXX [zeldazelda]
+043FD0B8 XXXXFF00
+
+Replace bobliken spawner with XXXX [zeldazelda]
+043FD0C4 XXXXFF00
+
+Replace statues that shoot lazers in the forest temple with XXXX [zeldazelda]
+043FAA48 XXXXFF00
+
+Replace Green Enemies with XXXX [zeldazelda]
+043FB90C XXXXFF00
+
+Replace Twilight (above) with XXXX [zeldazelda]
+043FB924 0000FF00
+
+Replace stallchildren with XXXX [zeldazelda]
+043FBA74 XXXXFF00
+
+Replace Guays with XXXX [zeldazelda]
+043FBBDC XXXXFF00
+
+Replace Tektikes with XXXX [zeldazelda]
+043FBC6C XXXXFF00
+
+Replace Troll like enemies with XXXX [zeldazelda]
+043FBC3C XXXXFF00
+
+Replace Statues that hurt you with XXXX [zeldazelda]
+043FBBAC XXXXFF00
+
+Replace helmaserues with XXXX [zeldazelda]
+043FBCF0 XXXXFF00
+
+Replace wild pigs with XXXX [zeldazelda]
+043FB900 XXXXFF00
+
+Replace Death Sword with XXXX [zeldazelda]
+043FBC84 XXXXFF00
+
+Replace Sand Creatures with XXXX [zeldazelda]
+043FBBD0 XXXXFF00
+
+Replace Kargrokes with XXXX [zeldazelda]
+043FB984 XXXXFF00
+
+Replace Epona with XXXX [zeldazelda]
+043FC2A8 XXXXFF00
+
+Replace Midna with XXXX [zeldazelda]
+043FD040 XXXXFF00
+
+Replace flowers (I think) with XXXX [zeldazelda]
+043FA6AC XXXXFF00
+
+Replace Scarcrows with XXXX [zeldazelda]
+043FAF10 XXXX0000
+
+Replace Tree's (I think) with XXXX [zeldazelda]
+043FB954 XXXXFF00
+
+Replace The Big green guy boss with XXXX [zeldazelda]
+043FB918 XXXXFF00
+
+Replace Frog MiniBoss with XXXX [zeldazelda]
+043FBC48 XXXXFF00
+
+Replace weed with XXXX [zeldazelda]
+043FB5D0 0000FF00
+
+Replace Statue in goron mines to XXXX [zeldazelda]
+043FAA30 0000FF00
+
+Replace Big square boxes with XXXX [zeldazelda]
+043FBA68 0000FF00
+
+Replace Pots hanging from web with XXXX [zeldazelda]
+043FBCE4 0000FF00
+
+Replace webbing that blocks your path with XXXX [zeldazelda]
+043FBD98 0000FF00
+
+Replace webbing that blocks the floor with XXXX [zeldazelda]
+043FBDA4 0000FF00
+
+Replace stones that fall of edges of platforms with XXXX [zeldazelda]
+043FBDB0 0000FF00
+
+Replace burning wood fire with XXXX [zeldazelda]
+043FBDBC 0000FF00
+
+Replace Water Wheel with XXXX [zeldazelda]
+043FBEA0 0000FF00
+
+Replace Tiny Little Sticks in the ground or wall or whatever with XXXX [zeldazelda]
+043FBEC4 0000FF00
+
+Replace Goat doors in the ranch with XXXX [zeldazelda]
+043FBED0 0000FF00
+
+Replace wooden sign with XXXX [zeldazelda]
+043FBEE8 0000FF00
+
+Replace chains on locked door with XXXX [zeldazelda]
+043FBEF4 0000FF00
+
+Replace stone plateform in goron mines miniboss room with XXXX [zeldazelda]
+043FBFA8 0000FF00
+
+Replace goron door handprint thingy with XXXX [zeldazelda]
+043FBFE4 0000FF00
+
+Replace Thingies holding pig over fire (this includes the pig) with XXXX [zeldazelda]
+043FC014 0000FF00
+
+Replace the plant that only holds a pellets wtih XXXX [zeldazelda]
+043FA8F8 0000FF00
+
+Replace wind that blows you away a little with XXXX [zeldazelda]
+043FA910 0000FF00
+
+Replace other half of goat door with XXXX [zeldazelda]
+043FA928 0000FF00
+
+Replace Thingies that spin when hit by the gale boomerang with XXXX [zeldazelda]
+043FA934 0000FF00
+
+Replace Some Wooden Gate with XXXX [zeldazelda]
+043FA94C 0000FF00
+
+Replace Little Fence covered in vines with XXXX [zeldazelda]
+043FA958 0000FF00
+
+Replace IDK (some wood thingy???) with XXXX [zeldazelda]
+043FA9D0 0000FF00
+
+Replace volcano effect (including rocks falling) with XXXX [zeldazelda]
+043FA9DC 0000FF00
+
+Replace falling cabnit with XXXX [zeldazelda]
+043FAA18 0000FF00
+
+Replace block that moves on ice with XXXX [zeldazelda]
+043FAAD8 0000FF00
+
+Replace weird sword things with XXXX [zeldazelda]
+043FAACC 0000FF00
+
+Replace Regular Door with XXXX [zeldazelda]
+043FAB38 0000FF00
+
+Replace one half of the gate that protects the ranch at night with XXXX [zeldazelda]
+043FAB80 0000FF00
+
+Replace Little Fires that don't hurt you with XXXX [zeldazelda]
+043FAC28 0000FF00
+
+Replace goats with XXXX [zeldazelda]
+043FAC34 0000FF00
+
+Replace Switches that only go down with the iron boots on with XXXX [zeldazelda]
+043FACAC 0000FF00
+
+Values for actor modifiers:
+
+Here are the values for XXXX
+phantom gannons face enemies
+01E1
+Frezzards
+01DC
+big Frezzards
+01E3
+IceMen
+01DE
+Poe's
+01DF
+poe from the sand temple
+01D8
+enemies that look like floor tiles
+01FA
+spiders on wall
+01FB
+those enemies that look like trols
+01FC
+frog mini boss
+01FE
+water bomb enemies
+0200
+tektikes
+0204
+Jellyfish
+0205
+twilight mummy
+0208
+forest temple monkey miniboss
+01DA
+helmaseures
+01DB zeldazelda ukuneko mugwhump brkirch wiiztec matt123337 Jack Walker toonlink444 goemon_guy [Anarion]
+Twilight Monsters
+01B2
+wild pigs
+00ED
+the green things that hurt lili
+01D2
+twilight(above)
+01D4
+Darbus
+01D5
+lizafoes
+01B1
+dinofoes
+01B3
+big spiders
+01BD
+replace intersting
+01CE
+or this
+01CF
+ice temple miniboss
+01C0
+little running thingies that drob little bombs and when they die they leave a worm
+01C1
+flowers that eat you when jumped on
+01B8
+those thingies that comeout when that imp
+blows his thingy
+01D6
+those clams in the water that bite you
+01BF
+fires slugs
+01CD
+what gannon call's while he is on his horse
+01E4
+imp (DON'T USE IF NOT IN FOREST IT WILL
+FREZZE WHEN YOU HIT HIM!!!)
+01D7
+plants that try to eat you
+01C3
+big versions of what gohma spawns
+01ED
+skeleton dogs
+01B7
+little frog thingies in bubbles
+01BB
+chuchus
+01BC
+beta statues
+01EC
+statues that attack you
+01AD
+bats
+01E8
+flying skulls
+01E9
+guays
+01F0
+invisible bug thatcontains tears
+01F2
+THE MOTHER OF ALL BUGS THAT CONTAIN's TEARS
+01F4
+somthing that makes enemy music start
+01D1
+bobliken spawner
+0302
+plants that try to eat you but die when stem is cut
+01C7
+Diababa
+020A
+butterfiles
+01C5
+freklishly huge plant found in forest temple and sky temple
+01C6
+rats
+01E5
+fire temple miniboss
+01AF
+twilight bats
+01F7
+twilight flying kargrokes
+01F8
+twilight rats
+01F9
+Morpheel
+00F1
+fire lizards
+01B0
+big twilight monsters
+00F3
+Stallord
+00F4
+mayby agrok
+00F5
+arlfoes
+0212
+somthing that frezzes game
+020F
+darknuts
+0211
+phantom gannon face enemies that shoot from a distance at link from where he is standing
+00F7
+somthing that frezzes game
+00F6
+giant circle platform
+007B
+twlilight man eating plants that die in one hit
+01CA
+twilight man eating plants
+01CB
+Gannon Bull Hog
+0214
+somthing that frezzes game
+020C
+remains of at twilight plant eating thing
+01CC
+remains of plant eating thing
+01C4
+remains of plant eating that that dies in one hit
+01C8
+bobliken spawner
+0303
+some piller thing
+006A
+statue's that shoot a lazer at you in the forest temple
+008C
+sol guarder hand
+01E0
+Stallchild
+01B5
+death sword
+0206
+Sand creatures
+01EF
+Kargarokues
+01EE
+Epona
+00EC
+Beta Bomb Flower
+02BD
+Midna
+00FD
+BurningBox???
+00DA
+Big green guy thing boss
+01D3
+Troll Thingy
+01FC
+Statues in goron mines
+0082
+Beta Tree ???
+010F
+Baby Cradle
+02F9
+Big Square Boxes
+02ED
+Pots hanging from web
+002C
+Webbing that blockes your path
+0026
+Webbing that blcokes the floor
+0027
+stones that fall of edges of platforms
+0028
+Burning wood fire
+0029
+beta plant
+02FC
+Water Wheel
+011B
+Tiny Little Sticks in the ground or wall or whatever
+0126
+Door holding goats in (in the ranch) (Right half)
+0127
+Could someone tell me what this is???
+0128
+Wooden Sign
+0119
+The chains on a locked door
+0112
+Stone plateform in goron mines miniboss room
+0079
+Goron door handprint thingy
+0024
+Thingies holding pig over fire (this includes the pig)
+021E
+plant that only holds a pellets
+02BE
+Wind that blows you away a little
+015A
+Door holding goats in (in the ranch) (left half)
+005B
+Thingies that spin when hit by the gale boomerang
+005C
+Some wooden Gate
+005D
+Little Fence covered in vines
+005F
+Fire that dies then comes back to life!!! (can only see fire in
+certain areas)
+015C
+Could someone tell me what this is???
+0162
+volcano effect (including rocks falling)
+00DE
+Some pillars
+006C
+Falling Cabnit
+0081
+Beta Statue that shoots a red lazer when you get close to it. (looks
+like its from the windwaker)
+008B
+Block that moves on ice
+00DD
+Replace weird sword things with XXXX
+016E
+Zora Garments
+0176
+Regular Door
+00B2
+Ordan sword (can pick up to aquire)
+01AA
+Half of gat that blocks ranch at night
+0060
+What???
+00E1
+Little Fires that are on torchas.
+0103
+Goats
+0104
+Switches that only go down with the iron boots on
+0016
+Little Oockoo JR.
+0274
+
+Change 1st Save File Name [toonlink444]
+0514A894 XXXXXXXX
+0514A898 XXXXXXXX
+E0000000 80008000
+Change the X's via ASCII - Hex converter
+
+Can't Change Sword [Jack Walker]
+04033594 60000000
+This code will prevent the player from changing their sword from the equipment menu. Credit to James0x57 for the "Link has X in hand" codes.
+
+3-Heart Challenge [hawkeye2777]
+2C49292A 0000000C
+0049292B 0000000C
+E0000000 80008000
+This code will give you the same effect as a 3-heart challenge by ingoring the number of Heart Containers you have. That way, you can still collect all of the heart pieces without getting more health. If your health ever tries to go over 3 full hearts, this code will overwrite your health to 3 hearts. Health address credit to James0x57.
+
+Daredevil Challenge [hawkeye2777]
+2C49292A 00000001
+0049292B 00000001
+E0000000 80008000
+This code is very similar to the code above, except that when you get hit, you automatically die. You can never get more than 1/4 of a heart with this code on. Need a challenge? Play through the game without dieing once while using this code. Health address credit to James0x57.
+
+Kill yourself (Press C, Z, B, and A) [hawkeye2777]
+2844BB66 00006C00
+0049292B 00000000
+E0000000 80008000
+Health address credit to James0x57.
+
+Time Modifier [hawkeye2777]
+2844BB66 00000208
+024929BC 00004248
+E0000000 80008000
+2844BB66 00000202
+024929BC 000042C8
+E0000000 80008000
+2844BB66 00000204
+024929BC 00004316
+E0000000 80008000
+2844BB66 00000201
+024929BC 00004387
+E0000000 80008000
+1 + D-pad up - Night
+1 + D-pad right - Morning
+1 + D-pad down - Day
+1 + D-pad left - Evening
+Time addresses and values credited to James0x57.
+
+Infinite Epona Strikes [hawkeye2777]
+48000000 8047E7A0
+DE000000 80008180
+1000162D 00000006
+E0000000 80008000
+
+Epona Strikes (Graphical stuff) [hawkeye2777]
+48000000 804988F4
+DE000000 80008180
+1000BC9D 0000000x
+E0000000 80008000
+This is mostly for fun, and it doesn't really do anything special as it's a "graphical code" and not one you can use to gain an advantage (or disadvantage). Replace X with 0-6, basically, the results can be like this or this. Play around with this if you want.
+
+One Circle in Strike Meter [hawkeye2777]
+041F43E8 60000000
+This is also a graphic effecting code. All this does is remove all but one of the circles in Epona's strike meter. Use it if you'd like.
+
+Increase/Decrease Health [hawkeye2777]
+2844BB66 00004100
+2E49292A 00000050
+C0000000 00000004
+3E008049 82302928
+3A31FFFF 3A310002
+92302928 4E800020
+60000000 00000000
+E0000000 80008000
+2844BB66 00004200
+2C49292A 00000001
+C0000000 00000004
+3E008049 82302928
+3A310001 3A31FFFE
+92302928 4E800020
+60000000 00000000
+E0000000 80008000
+Press C and 2 to increase your health, or press C and 1 to decrease it. Depending on how long you hold the button combo, you'll lose different amounts (hold it shorter, it'll change less; hold it longer, it'll change more). Health address is credit to James0x57.
+
+Speed Modifier (Press C, Z, and 2 to turn off/on) [hawkeye2777]
+2844BB66 00006100
+CC000000 00000000
+48000000 8044B5CC
+DE000000 80008180
+2244BBC8 00000000
+14002F0C xxxxxxxx
+2044BBC8 00000000
+14002F0C 00000000
+E0000000 80008000
+Possible values for xxxxxxxxx (Floating Point):
+x0.5 - 4180CCCD (Normal indoor walking speed)
+x1.0 - 41B80000 (Normal running speed)
+x1.5 - 420A0000
+x2.0 - 42380000
+x3.0 - 428A0000
+x4.0 - 42B80000
+x5.0 - 42E60000
+You can replace those values with others if you like. Just be warned, you can go out of the stage if you set the values too high. Also, the indoor walking speed is faster than x0.5, but I think that is slow enough (the actual x0.5 is very slow). When the code is on, you run immediately once you press the analog stick. To stop, either turn the code off (C,Z,2) or let go of the analog stick. There is a slight delay in slowing down as well.
+
+Unlimited Number of Bombs Out [hawkeye2777]
+C20B7A64 00000002
+38000000 901D2FAA
+60000000 00000000
+C20BF924 00000002
+38600000 907A2FD6
+60000000 00000000
+Bomblings are affected as well. This code does NOT work with James0x57's Infinite Bomb code.
+
+Alt Infinite Bombs [hawkeye2777]
+00492A15 00020087
+Works with Unlimited Number of Bombs Out
+
+Moon Jump (Press C and A) [hawkeye2777]
+2844BB66 B7FF4800
+48000000 8044B5CC
+1400002C 42600000
+E0000000 80008000
+Original made by Lunar (PAL), ported by hawkeye2777.
+
+Iron Boots don't make noise [hawkeye2777]
+042A5C88 60000000
+
+Heart Meter is muted [hawkeye2777]
+042A5BCC 60000000
+The noise that occurs when you have low health is muted.
+
+Link is Invincible [hawkeye2777]
+C20BF2DC 00000002
+38000002 901A056E
+60000000 00000000
+The Link Color Modifier will not work if this is on. You still will take damage from falls, but nothing else. Do NOT use with 'Link Color does not Flash when Hit'.
+
+Always Dripping Wet [hawkeye2777]
+48000000 80497FE4
+DE000000 80008180
+140032A0 60000000
+140032A4 60000000
+140032C8 FFFFFFFF
+E0000000 80008000
+
+Never Dripping Wet [hawkeye2777]
+48000000 80497FE4
+DE000000 80008180
+140032A0 60000000
+140032A4 60000000
+140032C8 00000000
+E0000000 80008000
+
+Frozen Link [hawkeye2777]
+48000000 80497FE4
+DE000000 80008180
+28492946 00000000
+10000578 00000040
+28492947 00000100
+10000578 00000042
+E0000000 80008000
+
+Shadow Link [hawkeye2777]
+48000000 80497FE4
+DE000000 80008180
+38000574 00000000
+10000574 00000008
+38000575 00000200
+10000574 0000000A
+E0000000 80008000
+
+Infinite Spin Attacks [hawkeye2777]
+040CAA90 60000000
+040E7048 60000000
+0412C894 60000000
+
+Remove Z Targeting Black Bars [hawkeye2777]
+224986A4 00000000
+04053670 60000000
+04053678 60000000
+E0000000 80008000
+These just remove the black bars that appear at the top and bottom of your screen when using Z Targeting.
+
+Maximum Blast Radius [hawkeye2777]
+043E48D0 43610000
+2844BB66 00002000
+043E48D0 70000000
+E0000000 80008000
+Hold Z. The explosion will hit everything (including you) in the area.
+Ported from original made by ukuneko (NTSC-J).
+
+Lantern Color Mod [hawkeye2777]
+003E4901 000000RR
+003E4903 000000GG
+003E4905 000000BB
+RR/GG/BB: any value from 0x00-0xFF (0-255)
+Ported from original made by ukuneko (NTSC-J).
+
+Lantern Always Illuminated [hawkeye2777]
+48000000 80497FE4
+DE000000 80008180
+1200057E 00000001
+E0000000 80008000
+Ported from original made by ukuneko (NTSC-J).
+
+Any Sword Glows with Light Anywhere [hawkeye2777]
+040C719C 60000000
+040C71C4 4800001C
+Ported from original made by ukuneko (NTSC-J).
+
+Select Ranch Clothes, Ordon Shield, or Wooden Sword [hawkeye2777]
+04194DC4 48000014
+040334D4 60000000
+0420B024 7FE3FB78
+0420B0C0 7FE3FB78
+0420B144 7FE3FB78
+2844BB66 00000800
+040334D4 98640013
+2844BB67 DFFF2000
+040334D4 98640013
+0420B024 3860002E
+0420B0C0 3860003F
+0420B144 3860002A
+E0000000 80008000
+Hold Z while changing your shield, sword, or tunic.
+Ported from original made by ukuneko (NTSC-J).
+
+Chicken Glide [hawkeye2777]
+040D9CD0 38600000
+2844BB66 00000800
+040D9CD0 38600001
+E0000000 80008000
+Hold A when jumping to glide (as if you were holding a chicken).
+Ported from original made by ukuneko (NTSC-J).
+
+Weather is Rain [hawkeye2777]
+004BA2CF 000000FA
+Ported from original made by ukuneko (NTSC-J).
+
+Weather is Snow [hawkeye2777]
+024BA2CA 000001AA
+Ported from original made by ukuneko (NTSC-J).
+
+Walk Through Walls [hawkeye2777]
+0207DD9C 00004181
+0407435C 40800028
+2844BB66 00000800
+0207DD9C 00004200
+0407435C 60000000
+E0000000 80008000
+Hold A while walking. Note that you will often walk off the map into an abyss.
+Ported from original made by ukuneko (NTSC-J).
+
+Bomb Explosion Time [hawkeye2777]
+000D94C3 000000XX
+Original Value for XX: A0
+Ported from original made by ukuneko (NTSC-J).
+
+Hard Mode Codes
+
+Multiply rupees obtained by X/Y [mugwhump]
+28001832 00000000
+82100002 8049292C
+84100002 80001832
+E0000000 80008000
+8000000E 80001832
+80000003 8000182E
+0200182E 00000001
+82100000 80001832
+82100001 8049292C
+A449292C EF000000
+84100000 8049292C
+86400000 FFFFFFFF
+86000000 00000001
+88000001 00000000
+86100001 0000000X
+80000004 0000000Y
+84100001 8000182C
+80000000 00000000
+80000002 00000000
+60000000 00000000
+86000000 00000001
+88000002 00000004
+84100002 8000182E
+A400182C 3F000000
+64000000 00000000
+E2000001 00000000
+86400001 FFFFFFFF
+86000001 00000001
+88000002 00000001
+86400002 FFFFFFFF
+86000002 00000001
+88000002 00000004
+82100003 80001830
+88000003 00000002
+84100003 80001830
+2E001830 0000000Y
+86000000 FFFFFFFF
+E2100000 00000000
+86400004 FFFFFFFF
+86000004 00000001
+88000003 00000004
+84100003 80001830
+E2000001 00000000
+82100002 8049292C
+88000002 00000000
+84100002 8049292C
+E0000000 80008000
+82100002 8049292C
+84100002 80001832
+The fractional portion of the rupee is stored in memory and given to the player later.
+
+Multiply Damage Taken by X [hawkeye2777]
+C220C7FC 00000007
+A0040002 7C05F800
+41820024 7C050000
+4080001C 7CA50050
+1CA5000X 7CA50050
+2C050000 40800008
+38A00000 B0A40002
+60000000 00000000
+
+Multiply Rupees Lost by X [hawkeye2777]
+C220D608 00000007
+A0030004 7C062800
+41820024 7C060000
+4080001C 7CC60050
+1CC6000X 7CC60050
+2C060000 40800008
+38C00000 38000000
+B0C30004 00000000
+
+Multiply Arrows Lost by X [hawkeye2777]
+C22119D4 00000007
+886500EC 7C040000
+41820024 7C041800
+4080001C 7C841850
+1C84000X 7C841850
+2C040000 40800008
+38800000 988500EC
+60000000 00000000
+
+Multiply Bombs Lost by X [hawkeye2777]
+C203831C 00000006
+88030001 7C050000
+4080001C 7CA50050
+1CA5000X 7CA50050
+2C050000 40800008
+38A00000 98A30001
+60000000 00000000
+
+Multiply Slingshot Seeds Lost by X [hawkeye2777]
+C2211DB4 00000007
+88E500F4 7C030000
+41820024 7C033800
+4080001C 7C633850
+1C63000X 7C633850
+2C030000 40800008
+38600000 38E00000
+986500F4 00000000
+
+Multiply Lantern Oil Lost by X [hawkeye2777]
+C220CB9C 00000007
+A0850008 7C064000
+41820024 7C062000
+4080001C 7CC62050
+1CC6000X 7CC62050
+2C060000 40800008
+38C00000 38800000
+B0C50008 00000000
+
+Color Modifiers
+
+Note
+Lunar and I worked on these together. He as well as brkirch helped me out in one place (specifically mentioning what pointer I should have been using), while I helped Lunar find the addresses for PAL.
+
+Must be on for Color Mods [hawkeye2777]
+0411759C 60000000
+041175AC 60000000
+041175BC 60000000
+041176B0 60000000
+041176C8 60000000
+041176E0 60000000
+
+Darker Hero's Clothes [hawkeye2777]
+48000000 80497FE4
+DE000000 80008180
+120032A8 0002FFF0
+120032B0 0002FFF0
+E0000000 80008000
+This is slightly darker than when your tunic is usually wet.
+
+Hero's Clothes are Red [hawkeye2777]
+48000000 80497FE4
+DE000000 80008180
+140032A8 00140000
+120032AC 00000000
+140032B0 00140000
+120032B4 00000000
+E0000000 80008000
+
+Hero's Clothes are Red (Glowing) [hawkeye2777]
+48000000 80497FE4
+DE000000 80008180
+140032A8 00800000
+120032AC 00000000
+140032B0 00800000
+120032B4 00000000
+E0000000 80008000
+
+Hero's Clothes are Blue [hawkeye2777]
+48000000 80497FE4
+DE000000 80008180
+140032A8 00000000
+120032AC 00000014
+140032B0 00000000
+120032B4 00000014
+E0000000 80008000
+
+Hero's Clothes are Blue (Glowing) [hawkeye2777]
+48000000 80497FE4
+DE000000 80008180
+140032A8 00000000
+120032AC 00000080
+140032B0 00000000
+120032B4 00000080
+E0000000 80008000
+
+Hero's Clothes are Yellow [hawkeye2777]
+48000000 80497FE4
+DE000000 80008180
+140032A8 00140014
+120032AC 00000000
+140032B0 00140014
+120032B4 00000000
+E0000000 80008000
+
+Hero's Clothes are Yellow (Glowing) [hawkeye2777]
+48000000 80497FE4
+DE000000 80008180
+140032A8 00800080
+120032AC 00000000
+140032B0 00800080
+120032B4 00000000
+E0000000 80008000
+
+Hero's Clothes are White [hawkeye2777]
+48000000 80497FE4
+DE000000 80008180
+120032A8 00020014
+140032B0 00020014
+E0000000 80008000
+
+Hero's Clothes are White (Glowing) [hawkeye2777]
+48000000 80497FE4
+DE000000 80008180
+120032A8 00020080
+120032B0 00020080
+E0000000 80008000
+
+Hero's Clothes are Black [hawkeye2777]
+48000000 80497FE4
+DE000000 80008180
+120032A8 0002EEEE
+120032B0 0002EEEE
+E0000000 80008000
+
+Hero's Clothes Color Modifier [hawkeye2777]
+48000000 80497FE4
+DE000000 80008180
+140032A8 RRRRGGGG
+120032AC 0000BBBB
+140032B0 RRRRGGGG
+120032B4 0000BBBB
+E0000000 80008000
+RGB Values:
+0000-00FF (0 to 255)
+FF00-FFFF (-256 to -1)
+The first block is the Torso (lines 3 and 4), and the second block is the Legs (lines 5 and 6).
+
+Link Color is Red [hawkeye2777]
+48000000 80497FE4
+DE000000 80008180
+140032B8 00FF0000
+120032BC 00000000
+140032C0 00FF0000
+120032C4 00000000
+E0000000 80008000
+
+Link Color is Yellow [hawkeye2777]
+48000000 80497FE4
+DE000000 80008180
+140032B8 00FF00FF
+120032BC 00000000
+140032C0 00FF00FF
+120032C4 00000000
+E0000000 80008000
+
+Link Color is White [hawkeye2777]
+48000000 80497FE4
+DE000000 80008180
+120032B8 000200FF
+120032C0 000200FF
+E0000000 80008000
+
+Link Color is Black [hawkeye2777]
+48000000 80497FE4
+DE000000 80008180
+120032B8 0002FF00
+120032C0 0002FF00
+E0000000 80008000
+
+Link Color Modifier [hawkeye2777]
+48000000 80497FE4
+DE000000 80008180
+140032B8 RRRRGGGG
+120032BC 0000BBBB
+140032C0 RRRRGGGG
+120032C4 0000BBBB
+E0000000 80008000
+This also works on Wolf Link, but will NOT work when used with 'Link is Invincible'. If you do not use the 'Link is Invincible' code, turn on 'Link Color does not Flash when Hit' for an added effect.
+
+Link Color does not Flash when Hit [hawkeye2777]
+040CDCE8 60000000
+When using this code, you no longer flash to your original colors when hit. Do NOT use with 'Link is Invincible'.
+
+v2 Codes
+
+Important Note
+Use these codes if the code on the underside of your TP disc reads "RVL-RZDE-0A-2 USA". These codes can be used on Gecko OS without the v2 master code (ones made by me on this page).
+
+Multiply damage taken by X [mugwhump]
+8000000E 8000182A
+82100000 8000182A
+82000001 80479F33
+A6479F32 EF000000
+84000000 80479F33
+86400001 FFFFFFFF
+86000001 00000001
+88000000 00000001
+86100000 0000000X
+82000001 80479F33
+86400000 FFFFFFFF
+86000000 00000001
+88000001 00000000
+84100001 80479F32
+2C479F32 00000050
+02479F32 00000000
+E0000000 80008000
+82000000 80479F33
+84100000 8000182A
+
+Multiply rupees obtained by X, then divide by Y [mugwhump]
+28001832 00000000
+2800182E 00000000
+82100002 80479F34
+84100002 80001832
+E0000000 80008000
+8000000E 80001832
+80000003 8000182E
+0200182E 00000001
+82100000 80001832
+82100001 80479F34
+A4479F34 EF000000
+84100000 80479F34
+86400000 FFFFFFFF
+86000000 00000001
+88000001 00000000
+86100001 0000000X
+80000004 0000000Y
+84100001 8000182C
+80000000 00000000
+80000002 00000000
+60000000 00000000
+86000000 00000001
+88000002 00000004
+84100002 8000182E
+A400182C 3F000000
+64000000 00000000
+E2000001 00000000
+86400001 FFFFFFFF
+86000001 00000001
+88000002 00000001
+86400002 FFFFFFFF
+86000002 00000001
+88000002 00000004
+82100003 80001830
+88000003 00000002
+84100003 80001830
+2E001830 0000000Y
+86000000 FFFFFFFF
+E2100000 00000000
+86400004 FFFFFFFF
+86000004 00000001
+88000003 00000004
+84100003 80001830
+E2000001 00000000
+82100002 80479F34
+88000002 00000000
+84100002 80479F34
+E0000000 80008000
+82100002 80479F34
+84100002 80001832
+The fractional portion of the rupee is stored in memory and given to the player later.
+
+3-Heart Challenge *v2 ONLY* [hawkeye2777]
+2C479F32 0000000C
+00479F33 0000000C
+E0000000 80008000
+This code will give you the same effect as a 3-heart challenge by ingoring the number of Heart Containers you have. That way, you can still collect all of the heart pieces without getting more health. If your health ever tries to go over 3 full hearts, this code will overwrite your health to 3 hearts.
+
+Daredevil Challenge *v2 ONLY* [hawkeye2777]
+2C479F32 00000001
+00479F33 00000001
+E0000000 80008000
+This code is very similar to the code above, except that when you get hit, you automatically die. You can never get more than 1/4 of a heart with this code on. Need a challenge? Play through the game without dieing once while using this code.
+
+Kill yourself (Press C, Z, B, and A) *v2 ONLY* [hawkeye2777]
+2843316E 00006C00
+00479F33 00000000
+E0000000 80008000
+
+Time Modifier *v2 ONLY* [hawkeye2777]
+2843316E 00000208
+02479FC4 00004248
+2843316F 00000202
+02479FC4 000042C8
+2843316F 00000204
+02479FC4 00004316
+2843316F 00000201
+02479FC4 00004387
+E0000000 80008000
+1 + D-pad up - Night
+1 + D-pad right - Morning
+1 + D-pad down - Day
+1 + D-pad left - Evening
+
+Infinite Epona Strikes *v2 ONLY* [hawkeye2777]
+48000000 80465DA8
+DE000000 80008180
+1000162D 00000006
+E0000000 80008000
+
+Epona Strikes (Graphical stuff) *v2 ONLY* [hawkeye2777]
+48000000 8047FEFC
+DE000000 80008180
+1000BC9D 0000000x
+E0000000 80008000
+This is mostly for fun, and it doesn't really do anything special as it's a "graphical code" and not one you can use to gain an advantage (or disadvantage). Replace X with 0-6, basically, the results can be like this or this. Play around with this if you want.
+
+One Circle in Strike Meter *v2 ONLY* [hawkeye2777]
+041F3B58 60000000
+This is also a graphic effecting code. All this does is remove all but one of the circles in Epona's strike meter. Use it if you'd like.
+
+Speed Modifier (Press C, Z, and 2 to turn off/on) *v2 ONLY* [hawkeye2777]
+2843316E 00006100
+CC000000 00000000
+48000000 80432BD0
+DE000000 80008180
+224331D0 00000000
+14002F0C xxxxxxxx
+204331D0 00000000
+14002F0C 00000000
+E0000000 80008000
+Possible values for xxxxxxxxx (Floating Point):
+x0.5 - 4180CCCD (Normal indoor walking speed)
+x1.0 - 41B80000 (Normal running speed)
+x1.5 - 420A0000
+x2.0 - 42380000
+x3.0 - 428A0000
+x4.0 - 42B80000
+x5.0 - 42E60000
+You can replace those values with others if you like. Just be warned, you can go out of the stage if you set the values too high. Also, the indoor walking speed is faster than x0.5, but I think that is slow enough (the actual x0.5 is very slow). When the code is on, you run immediately once you press the analog stick. To stop, either turn the code off (C,Z,2) or let go of the analog stick. There is a slight delay in slowing down as well.
+
+Unlimited Number of Bombs Out *v2 ONLY* [hawkeye2777]
+C20B7ECC 00000002
+38000000 901D2FAA
+60000000 00000000
+C20BFDE4 00000002
+38600000 907A2FD6
+60000000 00000000
+Bomblings are affected as well. This code does NOT work with James0x57's Infinite Bomb code.
+
+Alt Infinite Bombs *v2 ONLY* [hawkeye2777]
+0047A01D 00020087
+Works with Unlimited Number of Bombs Out.
+
+Moon Jump (Press C and A) *v2 ONLY* [hawkeye2777]
+2843316E B7FF4800
+48000000 80432BD0
+1400002C 42600000
+E0000000 80008000
+Original made by Lunar (PAL), ported by hawkeye2777.
+
+Iron Boots don't make noise *v2 ONLY* [hawkeye2777]
+042A55EC 60000000
+
+Heart Meter is muted *v2 ONLY* [hawkeye2777]
+042A5530 60000000
+The noise that occurs when you have low health is muted.
+
+Link is Invincible *v2 ONLY* [hawkeye2777]
+C20BF79C 00000002
+38000002 901A056E
+60000000 00000000
+The Link Color Modifier will not work if this is on. You still will take damage from falls, but nothing else. Do NOT use with 'Link Color does not Flash when Hit'.
+
+Always Dripping Wet *v2 ONLY* [hawkeye2777]
+48000000 8047F5EC
+DE000000 80008180
+140032A0 60000000
+140032A4 60000000
+140032C8 FFFFFFFF
+E0000000 80008000
+
+Never Dripping Wet *v2 ONLY* [hawkeye2777]
+48000000 8047F5EC
+DE000000 80008180
+140032A0 60000000
+140032A4 60000000
+140032C8 00000000
+E0000000 80008000
+
+Frozen Link *v2 ONLY* [hawkeye2777]
+48000000 8047F5EC
+DE000000 80008180
+28479F4E 00000000
+10000578 00000040
+28479F4F 00000100
+10000578 00000042
+E0000000 80008000
+
+Shadow Link *v2 ONLY* [hawkeye2777]
+48000000 8047F5EC
+DE000000 80008180
+38000574 00000000
+10000574 00000008
+38000575 00000200
+10000574 0000000A
+E0000000 80008000
+
+Have Dungeon Map/Compass/Boss Key *v2 Only* [legoagk101]
+0047A8A5 00000007
+
+Color Modifiers
+
+Note
+Lunar and I worked on these together. He as well as brkirch helped me out in one place (specifically mentioning what pointer I should have been using), while I helped Lunar find the addresses for PAL.
+
+Must be on for Color Mods *v2 ONLY* [hawkeye2777]
+04117CCC 60000000
+04117CDC 60000000
+04117CEC 60000000
+04117DE0 60000000
+04117DF8 60000000
+04117E10 60000000
+
+Darker Hero's Clothes *v2 ONLY* [hawkeye2777]
+48000000 8047F5EC
+DE000000 80008180
+120032A8 0002FFF0
+120032B0 0002FFF0
+E0000000 80008000
+This is slightly darker than when your tunic is usually wet.
+
+Hero's Clothes are Red *v2 ONLY* [hawkeye2777]
+48000000 8047F5EC
+DE000000 80008180
+140032A8 00140000
+120032AC 00000000
+140032B0 00140000
+120032B4 00000000
+E0000000 80008000
+
+Hero's Clothes are Red (Glowing) *v2 ONLY* [hawkeye2777]
+48000000 8047F5EC
+DE000000 80008180
+140032A8 00800000
+120032AC 00000000
+140032B0 00800000
+120032B4 00000000
+E0000000 80008000
+
+Hero's Clothes are Blue *v2 ONLY* [hawkeye2777]
+48000000 8047F5EC
+DE000000 80008180
+140032A8 00000000
+120032AC 00000014
+140032B0 00000000
+120032B4 00000014
+E0000000 80008000
+
+Hero's Clothes are Blue (Glowing) *v2 ONLY* [hawkeye2777]
+48000000 8047F5EC
+DE000000 80008180
+140032A8 00000000
+120032AC 00000080
+140032B0 00000000
+120032B4 00000080
+E0000000 80008000
+
+Hero's Clothes are Yellow *v2 ONLY* [hawkeye2777]
+48000000 8047F5EC
+DE000000 80008180
+140032A8 00140014
+120032AC 00000000
+140032B0 00140014
+120032B4 00000000
+E0000000 80008000
+
+Hero's Clothes are Yellow (Glowing) *v2 ONLY* [hawkeye2777]
+48000000 8047F5EC
+DE000000 80008180
+140032A8 00800080
+120032AC 00000000
+140032B0 00800080
+120032B4 00000000
+E0000000 80008000
+
+Hero's Clothes are White *v2 ONLY* [hawkeye2777]
+48000000 8047F5EC
+DE000000 80008180
+120032A8 00020014
+140032B0 00020014
+E0000000 80008000
+
+Hero's Clothes are White (Glowing) *v2 ONLY* [hawkeye2777]
+48000000 8047F5EC
+DE000000 80008180
+120032A8 00020080
+120032B0 00020080
+E0000000 80008000
+
+Hero's Clothes are Black *v2 ONLY* [hawkeye2777]
+48000000 8047F5EC
+DE000000 80008180
+120032A8 0002EEEE
+120032B0 0002EEEE
+E0000000 80008000
+
+Hero's Clothes Color Modifier *v2 ONLY* [hawkeye2777]
+48000000 8047F5EC
+DE000000 80008180
+140032A8 RRRRGGGG
+120032AC 0000BBBB
+140032B0 RRRRGGGG
+120032B4 0000BBBB
+E0000000 80008000
+RGB Values:
+0000-00FF (0 to 255)
+FF00-FFFF (-256 to -1)
+The first block is the Torso (lines 3 and 4), and the second block is the Legs (lines 5 and 6).
+
+Link Color is Red *v2 ONLY* [hawkeye2777]
+48000000 8047F5EC
+DE000000 80008180
+140032B8 00FF0000
+120032BC 00000000
+140032C0 00FF0000
+120032C4 00000000
+E0000000 80008000
+
+Link Color is Yellow *v2 ONLY* [hawkeye2777]
+48000000 8047F5EC
+DE000000 80008180
+140032B8 00FF00FF
+120032BC 00000000
+140032C0 00FF00FF
+120032C4 00000000
+E0000000 80008000
+
+Link Color is White *v2 ONLY* [hawkeye2777]
+48000000 8047F5EC
+DE000000 80008180
+120032B8 000200FF
+120032C0 000200FF
+E0000000 80008000
+
+Link Color is Black *v2 ONLY* [hawkeye2777]
+48000000 8047F5EC
+DE000000 80008180
+120032B8 0002FF00
+120032C0 0002FF00
+E0000000 80008000
+
+Link Color Modifier *v2 ONLY* [hawkeye2777]
+48000000 8047F5EC
+DE000000 80008180
+140032B8 RRRRGGGG
+120032BC 0000BBBB
+140032C0 RRRRGGGG
+120032C4 0000BBBB
+E0000000 80008000
+This also works on Wolf Link, but will NOT work when used with 'Link is Invincible'. If you do not use the 'Link is Invincible' code, turn on 'Link Color does not Flash when Hit' for an added effect.
+
+Link Color does not Flash when Hit *v2 ONLY* [hawkeye2777]
+040CE210 60000000
+When using this code, you no longer flash to your original colors when hit. Do NOT use with 'Link is Invincible'.
+
+Have Infinite Small Keys (Works in Hyrule Field Also) [shark2003]
+0049329C 00000003
+
+Must Be On for Zelda TP v2 USA [James0x57]
+2000283C 92700000
+C0000000 00000010
+3E008000 62102850
+3E20F000 3E400001
+3A100008 82700000
+82900004 7C138800
+40820010 3E200000
+7C148800 41820050
+8A900001 2C14003E
+4082000C 62524D00
+48000030 2C140044
+4082000C 625289F8
+48000020 2C140049
+4082000C 625289F8
+48000010 2C1400F4
+4082FFA0 3A400260
+7E729850 92700000
+4BFFFF90 4E800020
+0400283C 60000000
+E2000001 80008000
+If the bottom of your Twilight Princess DVD says "RVL-RZDE-0A-2 USA" then you must have this code at the top of the list!
+If this is not the first code in the file then it will not work!!
+With this code enabled, all of the codes here should now work. =)
+Huge thanks to Full Metal Kirby for his mulitple tests!
+
+Infinite All Bombs [James0x57]
+04038328 38600087
+Do not use with v2 USA
+
+Infinite All Bombs for Zelda v2 USA [James0x57]
+04038440 38600087
+
+Always Have Full Wallet [James0x57]
+0420D680 B0A40004
+The ONLY Rupee Code you need, works perfectly for everything.
+Do not use with v2 USA
+
+Always Have Full Wallet for Zelda v2 USA [James0x57]
+0420CE44 B0A40004
+
+Infinite Rupees [James0x57]
+0249292C 000012B3
+
+Have All Swords/Shields/Tunics [James0x57]
+044929F8 FFFFFFFF
+Ported from CodeJunkies GCN code.
+
+Infinite Slingshot Seeds [James0x57]
+04211D8C 38000032
+Do not use with v2 USA
+
+Infinite Slingshot Seeds for Zelda v2 USA [James0x57]
+04211688 38000032
+
+Infinite Arrows [James0x57]
+00492A14 00000087
+
+Infinite Lantern Oil [James0x57]
+02492930 00005640
+
+All Hearts and Infinite Health [James0x57]
+04492928 00640050
+
+Infinite Breath Underwater [James0x57]
+0249871A 00000258
+
+Form Switch C+Z+(L/R = Link/Wolf) [James0x57]
+2844BB66 00006002
+00492946 00000001
+2844BB67 00006001
+00492946 00000000
+E0000000 80008000
+Press C+Z+Left to play as Wolf or C+Z+Right to play as Human the next time you pass through an area that loads. Use with caution. And don't use to enter houses, many make you have to reset.
+
+Matrix 'A' Roll (slow animation) [James0x57]
+043E395C 3F000000
+
+Fast Recover for Hit Wall on Roll [James0x57]
+043E3970 4F000000
+043E3974 4F000000
+
+Roll Farther and Faster [James0x57]
+043E39A0 40400000
+
+Climb onto things really fast [James0x57]
+043E432C 40870000
+043E4334 40870000
+043E4340 40870000
+
+Really fast on ladders [James0x57]
+083E4D50 41200000
+20030008 00000000
+043E4D74 42AE0000
+
+Can climb onto really high things [James0x57]
+043E43A4 47A9EC00
+
+Walk Under Water [James0x57]
+043E4F28 7F878787
+
+Swim (stick forward) Fast [James0x57]
+043E4F30 42087000
+
+Swim (A) Fast [James0x57]
+043E4FB4 42087000
+
+Wolf Fast Dash [James0x57]
+043E508C 42AE0000
+
+Always Start of Night ("press start" screen's color) [James0x57]
+0249295C 00004387
+
+Always Mid-Night [James0x57]
+0249295C 00004248
+
+Always Early Morning [James0x57]
+0249295C 000042C8
+
+Always Mid-day [James0x57]
+0249295C 00004316
+
+Four Rendering Options Use only 1
+
+poor rendering [James0x57]
+04498694 36000000
+
+foggy [James0x57]
+04498694 3F800587
+
+heavy fog [James0x57]
+04498694 3F801087
+
+distant places are clear [James0x57]
+04498694 3F600000
+
+Equipment Codes
+
+Link has the Ordon Sword in hand [James0x57]
+0049293C 00000028
+
+Link has the Master Sword in hand [James0x57]
+0049293C 00000029
+
+Link has the Master Sword (light restored) in hand [James0x57]
+0049293C 00000049
+
+Link has the Wooden Sword in hand [James0x57]
+0049293C 0000003F
+
+Link has the Ordon Shield On [James0x57]
+0049293D 0000002A
+
+Link has the Wooden Shield On [James0x57]
+0049293D 0000002B
+May only work after becoming a Wolf
+
+Link has the Hylian Shield On [James0x57]
+0049293D 0000002C
+May only work after becoming a Wolf
+
+Link has the Scent of Ilia [James0x57]
+0049293E 000000B0
+
+Link has the Poe Scent [James0x57]
+0049293E 000000B2
+
+Link has the Reekfish Scent [James0x57]
+0049293E 000000B3
+
+Link has the Youths' Scent [James0x57]
+0049293E 000000B4
+
+Link has the Medicine Scent [James0x57]
+0049293E 000000B5
+
+Have 60 Poes Souls [James0x57]
+00492A34 0000003C
+
+All Bugs Found [James0x57]
+04492A0C FFFFFFFF
+
+Have Quiver [James0x57]
+00492A20 0000001E
+
+Have Big Quiver [James0x57]
+00492A20 0000003C
+
+Have Giant Quiver [James0x57]
+00492A20 00000064
+
+Have Wallet [James0x57]
+00492941 00000000
+
+Have Big Wallet [James0x57]
+00492941 00000001
+
+Have Giant Wallet [James0x57]
+00492941 00000002
+
+Shards/Shadows - Use One
+
+Have 1 Fused Shadow [James0x57]
+00492A31 00000001
+
+Have 2 Fused Shadows [James0x57]
+00492A31 00000003
+
+Have 3 Fused Shadows [James0x57]
+00492A31 00000007
+
+Have 1 Mirror Shard [James0x57]
+00492A32 00000001
+
+Have 2 Mirror Shards [James0x57]
+00492A32 00000003
+
+Have 3 Mirror Shards [James0x57]
+00492A32 00000007
+
+Have all 4 Mirror Shards [James0x57]
+00492A32 0000000F
+
+Have all 4 Fused Shadows [James0x57]
+00492A31 0000000F
+This includes the part Midna already has.
+
+Items Codes
+
+Use most items under water [James0x57]
+040B733C 48000018
+Do not use with v2 USA
+
+Use most items under water for Zelda v2 USA [James0x57]
+040B77A4 48000018
+
+Super Clawshot(s) [James0x57]
+043E4BA4 47870000
+043E4BA8 45336000
+043E4BAC 45336000
+043E4BB0 43FA0000
+040FCDE8 3C600004
+Clawshot(s) will shoot as far as you need them to and return in a mater of seconds (it's max distance happens when shot into the sky and causes the game to lag while it's launching, if let it go max distance it will take 7 seconds to go out and come back due to lag). The best part (and hardest to hack) is the fact that it will attach to anything. Point, shoot, and you're there. (Sacred Grove, anyone?)
+Do not use with v2USA
+
+Super Clawshot(s) for Zelda v2 USA [James0x57]
+043E4BA4 47870000
+043E4BA8 45336000
+043E4BAC 45336000
+043E4BB0 43FA0000
+040FD364 3C600004
+
+TS's Super Spinner [James0x57]
+043E4BE4 08700870
+04F45824 3EC04300
+04F45828 92D9052C
+04F43FD8 EC22082A
+2844BB66 F3FF0400
+04F43FD8 EC220828
+2844BB67 3FFF4000
+04F43FD8 FC20B090
+2C44BB79 0000BE80
+04F45824 3EC041D0
+2C44BB79 0000BF28
+04F45824 3EC03F00
+E0000000 80008000
+Hold B to rise. Hold C to lock your current height. Rotate the top of the face of the Wii Remote towards yourself to slow down. Rotate further to hold still. Enjoy!
+
+Open all 24 Item Slots [James0x57]
+084929DC 00000000
+00170001 00000001
+MUST BE ON For next items codes! When you save and restart without the codes on, the empty slots will go away and the items will auto-arrange to the correct order.
+
+Have all items and 5 extra slots (final) [James0x57]
+044929C4 40484145
+024929C8 0000433E
+004929CA 00000042
+004929CC 00000046
+024929CE 0000476C
+044929D0 6C777372
+024929D4 00007170
+024929D8 00005C84
+004929DB 0000004B
+Can still use the "Open Slots" for extra items of your choise.
+
+Have Gale Boomerang [James0x57]
+004929C4 00000040
+
+Have Lantern [James0x57]
+004929C5 00000048
+
+Have Spinner [James0x57]
+004929C6 00000041
+
+Have Iron Boots [James0x57]
+004929C7 00000045
+
+Have Hero's Bow [James0x57]
+004929C8 00000043
+
+Have Hawkeye [James0x57]
+004929C9 0000003E
+
+Have Ball and Chain [James0x57]
+004929CA 00000042
+
+Open Slot [James0x57]
+004929CB 000000xx
+
+Have Dominion Rod (powerless state) [James0x57]
+004929CC 00000046
+
+Open Slot [James0x57]
+004929CD 000000xx
+
+Have Clawshot [James0x57]
+004929CE 00000044
+
+Have Double Clawshots [James0x57]
+004929CE 00000047
+
+Bottle #1 is empty bottle [James0x57]
+004929CF 00000060
+
+Bottle #1 is Red Potion [James0x57]
+004929CF 00000061
+
+Bottle #1 is Magic Potion (no description!) [James0x57]
+004929CF 00000062
+
+Bottle #1 is Blue Potion (all hearts) [James0x57]
+004929CF 00000063
+
+Bottle #1 is Milk [James0x57]
+004929CF 00000064
+
+Bottle #1 is Milk (1/2) [James0x57]
+004929CF 00000065
+
+Bottle #1 is Lantern Oil [James0x57]
+004929CF 00000066
+
+Bottle #1 is Water [James0x57]
+004929CF 00000067
+
+Bottle #1 is Lantern Oil [James0x57]
+004929CF 00000068
+
+Bottle #1 is RedPotion [James0x57]
+004929CF 00000069
+
+Bottle #1 is Nasty Soup [James0x57]
+004929CF 0000006A
+
+Bottle #1 is Hot Springwater [James0x57]
+004929CF 0000006B
+
+Bottle #1 is Fairy [James0x57]
+004929CF 0000006C
+
+Bottle #1 is Hot Springwater [James0x57]
+004929CF 0000006D
+
+Bottle #1 is Fairy's Tears [James0x57]
+004929CF 00000073
+
+Bottle #1 is Worm [James0x57]
+004929CF 00000074
+
+Bottle #1 is Bee Larva [James0x57]
+004929CF 00000076
+
+Bottle #1 is Rare Chu Jelly [James0x57]
+004929CF 00000077
+
+Bottle #1 is Red Chu Jelly [James0x57]
+004929CF 00000078
+
+Bottle #1 is Blue Chu Jelly [James0x57]
+004929CF 00000079
+
+Bottle #1 is Green Chu Jelly (no info) [James0x57]
+004929CF 0000007A
+
+Bottle #1 is Yellow Chu Jelly [James0x57]
+004929CF 0000007B
+
+Bottle #1 is Purple Chu Jelly [James0x57]
+004929CF 0000007C
+
+Bottle #1 is Simple Soup [James0x57]
+004929CF 0000007D
+
+Bottle #1 is Good Soup [James0x57]
+004929CF 0000007E
+
+Bottle #1 is Superb Soup [James0x57]
+004929CF 0000007F
+
+Bottle #2 is empty bottle [James0x57]
+004929D0 00000060
+
+Bottle #2 is Red Potion [James0x57]
+004929D0 00000061
+
+Bottle #2 is Magic Potion (no description!) [James0x57]
+004929D0 00000062
+
+Bottle #2 is Blue Potion (all hearts) [James0x57]
+004929D0 00000063
+
+Bottle #2 is Milk [James0x57]
+004929D0 00000064
+
+Bottle #2 is Milk (1/2) [James0x57]
+004929D0 00000065
+
+Bottle #2 is Lantern Oil [James0x57]
+004929D0 00000066
+
+Bottle #2 is Water [James0x57]
+004929D0 00000067
+
+Bottle #2 is Lantern Oil [James0x57]
+004929D0 00000068
+
+Bottle #2 is RedPotion [James0x57]
+004929D0 00000069
+
+Bottle #2 is Nasty Soup [James0x57]
+004929D0 0000006A
+
+Bottle #2 is Hot Springwater [James0x57]
+004929D0 0000006B
+
+Bottle #2 is Fairy [James0x57]
+004929D0 0000006C
+
+Bottle #2 is Hot Springwater [James0x57]
+004929D0 0000006D
+
+Bottle #2 is Fairy's Tears [James0x57]
+004929D0 00000073
+
+Bottle #2 is Worm [James0x57]
+004929D0 00000074
+
+Bottle #2 is Bee Larva [James0x57]
+004929D0 00000076
+
+Bottle #2 is Rare Chu Jelly [James0x57]
+004929D0 00000077
+
+Bottle #2 is Red Chu Jelly [James0x57]
+004929D0 00000078
+
+Bottle #2 is Blue Chu Jelly [James0x57]
+004929D0 00000079
+
+Bottle #2 is Green Chu Jelly (no info) [James0x57]
+004929D0 0000007A
+
+Bottle #2 is Yellow Chu Jelly [James0x57]
+004929D0 0000007B
+
+Bottle #2 is Purple Chu Jelly [James0x57]
+004929D0 0000007C
+
+Bottle #2 is Simple Soup [James0x57]
+004929D0 0000007D
+
+Bottle #2 is Good Soup [James0x57]
+004929D0 0000007E
+
+Bottle #2 is Superb Soup [James0x57]
+004929D0 0000007F
+
+Bottle #3 is empty bottle [James0x57]
+004929D1 00000060
+
+Bottle #3 is Red Potion [James0x57]
+004929D1 00000061
+
+Bottle #3 is Magic Potion (no description!) [James0x57]
+004929D1 00000062
+
+Bottle #3 is Blue Potion (all hearts) [James0x57]
+004929D1 00000063
+
+Bottle #3 is Milk [James0x57]
+004929D1 00000064
+
+Bottle #3 is Milk (1/2) [James0x57]
+004929D1 00000065
+
+Bottle #3 is Lantern Oil [James0x57]
+004929D1 00000066
+
+Bottle #3 is Water [James0x57]
+004929D1 00000067
+
+Bottle #3 is Lantern Oil [James0x57]
+004929D1 00000068
+
+Bottle #3 is RedPotion [James0x57]
+004929D1 00000069
+
+Bottle #3 is Nasty Soup [James0x57]
+004929D1 0000006A
+
+Bottle #3 is Hot Springwater [James0x57]
+004929D1 0000006B
+
+Bottle #3 is Fairy [James0x57]
+004929D1 0000006C
+
+Bottle #3 is Hot Springwater [James0x57]
+004929D1 0000006D
+
+Bottle #3 is Fairy's Tears [James0x57]
+004929D1 00000073
+
+Bottle #3 is Worm [James0x57]
+004929D1 00000074
+
+Bottle #3 is Bee Larva [James0x57]
+004929D1 00000076
+
+Bottle #3 is Rare Chu Jelly [James0x57]
+004929D1 00000077
+
+Bottle #3 is Red Chu Jelly [James0x57]
+004929D1 00000078
+
+Bottle #3 is Blue Chu Jelly [James0x57]
+004929D1 00000079
+
+Bottle #3 is Green Chu Jelly (no info) [James0x57]
+004929D1 0000007A
+
+Bottle #3 is Yellow Chu Jelly [James0x57]
+004929D1 0000007B
+
+Bottle #3 is Purple Chu Jelly [James0x57]
+004929D1 0000007C
+
+Bottle #3 is Simple Soup [James0x57]
+004929D1 0000007D
+
+Bottle #3 is Good Soup [James0x57]
+004929D1 0000007E
+
+Bottle #3 is Superb Soup [James0x57]
+004929D1 0000007F
+
+Bottle #4 is empty bottle [James0x57]
+004929D2 00000060
+
+Bottle #4 is Red Potion [James0x57]
+004929D2 00000061
+
+Bottle #4 is Magic Potion (no description!) [James0x57]
+004929D2 00000062
+
+Bottle #4 is Blue Potion (all hearts) [James0x57]
+004929D2 00000063
+
+Bottle #4 is Milk [James0x57]
+004929D2 00000064
+
+Bottle #4 is Milk (1/2) [James0x57]
+004929D2 00000065
+
+Bottle #4 is Lantern Oil [James0x57]
+004929D2 00000066
+
+Bottle #4 is Water [James0x57]
+004929D2 00000067
+
+Bottle #4 is Lantern Oil [James0x57]
+004929D2 00000068
+
+Bottle #4 is RedPotion [James0x57]
+004929D2 00000069
+
+Bottle #4 is Nasty Soup [James0x57]
+004929D2 0000006A
+
+Bottle #4 is Hot Springwater [James0x57]
+004929D2 0000006B
+
+Bottle #4 is Fairy [James0x57]
+004929D2 0000006C
+
+Bottle #4 is Hot Springwater [James0x57]
+004929D2 0000006D
+
+Bottle #4 is Fairy's Tears [James0x57]
+004929D2 00000073
+
+Bottle #4 is Worm [James0x57]
+004929D2 00000074
+
+Bottle #4 is Bee Larva [James0x57]
+004929D2 00000076
+
+Bottle #4 is Rare Chu Jelly [James0x57]
+004929D2 00000077
+
+Bottle #4 is Red Chu Jelly [James0x57]
+004929D2 00000078
+
+Bottle #4 is Blue Chu Jelly [James0x57]
+004929D2 00000079
+
+Bottle #4 is Green Chu Jelly (no info) [James0x57]
+004929D2 0000007A
+
+Bottle #4 is Yellow Chu Jelly [James0x57]
+004929D2 0000007B
+
+Bottle #4 is Purple Chu Jelly [James0x57]
+004929D2 0000007C
+
+Bottle #4 is Simple Soup [James0x57]
+004929D2 0000007D
+
+Bottle #4 is Good Soup [James0x57]
+004929D2 0000007E
+
+Bottle #4 is Superb Soup [James0x57]
+004929D2 0000007F
+
+Have Bomblings [James0x57]
+004929D3 00000072
+
+Have Water Bombs [James0x57]
+004929D4 00000071
+
+Have Bombs [James0x57]
+004929D5 00000070
+
+Open Slot [James0x57]
+004929D6 000000xx
+
+Open Slot [James0x57]
+004929D7 000000xx
+
+Fishing Rod (norm) [James0x57]
+004929D8 0000004A
+
+Fishing Rod (with bee larva) [James0x57]
+004929D8 0000005B
+
+Fishing Rod + Earring [James0x57]
+004929D8 0000005C
+
+Fishing Rod (with worm) [James0x57]
+004929D8 0000005D
+
+Fishing Rod + Earring (with bee larva) [James0x57]
+004929D8 0000005E
+
+Fishing Rod + Earring (with worm) [James0x57]
+004929D8 0000005F
+
+Have Horse Call [James0x57]
+004929D9 00000084
+
+Open Slot [James0x57]
+004929DA 000000xx
+
+Have Slingshot [James0x57]
+004929DB 0000004B
+
+Item Values for xx or XX
+00 (img of black rupee)
+01 (img of green rupee)
+02 (img of blue rupee)
+03 (img of yellow rupee)
+04 (img of red rupee)
+05 (img of purple rupee)
+06 (img of orange rupee)
+07 (img of silver rupee)
+08 Lent Bomb Bag (img of black rupee)
+09 (img of black rupee with text about a bomb bag)
+0A-0D (img of a bomb)
+0E-11 (img of arrows)
+12 (img of ring of seeds)
+13-15 (img of black rupee)
+16-19 (img of water bombs)
+1A-1D (img of walking bomb)
+1E Fairy (img of black rupee)
+1F (img of black rupee)
+20 Small Key
+21 Pieces of Heart
+22 Heart Container
+23 Dungeon Map
+24 Compass
+25 Ooccoo (pull out for random? game text! this is the actual item)
+26 Big Key
+27 Ooccoo Jr. (same as Ooccoo25!)
+28 Ordon Sword
+29 Master Sword
+2A Ordon Shield
+2B Wooden Shield
+2C Hylian Shield
+2D Ooccoo's Note
+2E Ranch Clothes
+2F Hero's Clothes
+30 Magic Armor
+31 Zora Armor
+32 Shadow Crystal
+33 Ooccoo (does nothing)
+34 Wallet
+35 Big Wallet
+36 Giant Wallet
+37-3A (image of hear piece)
+3B (different image of Ordon Sword)
+3C (img of a black rupee)
+3D Coral Earring
+3E Hawkeye
+3F Wooden Sword
+40 Gale Boomerang
+41 Spinner
+42 Ball and Chain
+43 Hero's Bow
+44 Clawshot
+45 Iron Boots
+46 Dominion Rod (powerless state)
+47 Double Clawshots
+48 Lantern
+49 Master Sword
+4A Fishing Pole
+4B Slingshot
+4C Dominion Rod (powered stage, doesn't work)
+4D (img of black rupee, info == info46)
+4E (img of black rupee)
+4F Giant Bomb Bag
+50 Bomb Bag (has Number?)
+51 Bag and Bombs
+52 (img of giant bomb bag)
+53 Fire Arrow (has number, info is blank)
+54 Quiver
+55 Big Quiver
+56 Giant Quiver
+57 (img of black rupee)
+58 (img of a fishing rod w/sinker?)
+59 Hero's Bow (img has bomb arrows, no info)
+5A (all same as 59 but is with hawkeye)
+5B Fishing Rod (with bee larva)
+5C Fishing Rod + Earring
+5D Fishing Rod (with worm)
+5E Fishing Rod + Earring (with bee larva)
+5F Fishing Rod + Earring (with worm)
+60 empty bottle
+61 Red Potion
+62 Magic Potion (no description!)
+63 Blue Potion (all hearts)
+64 Milk
+65 Milk (1/2)
+66 Lantern Oil
+67 Water
+68 Lantern Oil
+69 RedPotion
+6A Nasty Soup
+6B Hot Springwater
+6C Fairy
+6D Hot Springwater
+6E Lantern Oil (fake, no info)
+6F Lantern Oil (fake, no info)
+70 Bombs
+71 Water Bombs
+72 Bomblings
+73 Fairy's Tears
+74 Worm
+75 Great Fairy's Tears (don't work)
+76 Bee Larva
+77 Rare Chu Jelly
+78 Red Chu Jelly
+79 Blue Chu Jelly
+7A Green Chu Jelly (no info)
+7B Yellow Chu Jelly
+7C Purple Chu Jelly
+7D Simple Soup
+7E Good Soup
+7F Superb Soup
+80 Renado's Letter
+81 Invoice
+82 Wooden Statue
+83 Ilia's Charm
+84 Horse Call
+85-8F (pic of black rupee)
+90 Auru's Memo
+91 Ashei's Sketch
+92-9B (pic of black rupee)
+9C (pic of Lantern)
+9D Lantern Oil (fake)
+9E Bee Larva (no info, fake)
+9F Black Chu Jelly
+A0 Tear of Light (pic. black rup.)
+A1-A3 Vessel of Light (has info does nothing)
+A4 Vessel of Light (no info does nothing)
+A5-A7 Mirror Shards (has info)
+A8-AF (pic of black rupee)
+B0 Scent of Ilia
+B1 (pic of black rupee)
+B2 Poe Scent
+B3 Reekfish Scent
+B4 Youths' Scent
+B5 Medicine Scent
+B6-BE (pic of black rupee)
+BF (img of an empty glass?)
+C0 M beetle
+C1 F beetle
+C2 M butterfly
+C3 F butterfly
+C4 M stag beetle
+C5 F stag beetle
+C6 M grasshopper
+C7 F grasshopper
+C8 M phasmid
+C9 F phasmid
+CA M pill bug
+CB F pill bug
+CC M mantis
+CD F mantis
+CE M ladybug
+CF F ladybug
+D0 M snail
+D1 F snail
+D2 M dragonfly
+D3 F dragonfly
+D4 M ant
+D5 F ant
+D6 M dayfly
+D7 F dayfly
+D8-DF (pic of black rupee)
+F0-F2 (img of blue fire in a bottle)
+F3 Gate Key
+F4 Ordon Pumpkin
+F5 Ordon Cheese
+F6 Bedroom Key (from snowpeak)
+F7 Surf Leaf (img of Hylian shield)
+F8 Lantern
+F9 Key Shard (1)
+FA Key Shard (2)
+FB Key Shard (3)
+FC (img of key)
+FD Big key (from key shards)
+FE Small Key
+FF Empty Slot
+
+Universal Codes for Legend of Zelda: Twilight Princess
+
+Instant Form Change (C+A) [brkirch]
+F6000001 80308040
+7C083A78 7D060038
+F4000010 F8EEB104
+48000005 7CA802A6
+90030008 80630000
+90650014 48000008
+00000000 00000000
+F6000001 80008010
+801F0618 28000029
+F6000001 80108020
+38A10010 38E10008
+F4000030 06D7CA07
+7C0802A6 48000005
+7D6802A6 7C0803A6
+808BFFC8 2C044800
+40820014 808BFFD4
+38840064 7C8903A6
+4E800420 9421FFE0
+60000000 00000000
+E0000000 80008000
+
+No Notification The First Time You Collect A Rupee [brkirch]
+F6000001 80108020
+4800003C 887D092E
+14000014 48000010
+E0000000 80008000
+
+Bombs Never Explode [brkirch]
+F6000001 80008010
+281F0008 41820008
+F40000E8 00000004
+48000005 7C8802A6
+93440010 7F43D378
+48000008 00000000
+60000000 00000000
+C0000000 00000001
+820FFFEC 4E800020
+DE000000 80008180
+F6000001 80E08100
+540005EF 3803FFFF
+F4000008 FC961301
+60000000 00000000
+E0000000 80008000
+
+Unlimited Number of Bombs [brkirch]
+F6000001 80068012
+281F0071 40820010
+14000008 38000000
+E0000000 80008000

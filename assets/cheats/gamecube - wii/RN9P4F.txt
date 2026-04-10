@@ -1,0 +1,41 @@
+RN9P4F
+Escape From Bug Island
+
+Infinite Throwing Weapons [Yamishira]
+0402DBB8 38040000
+
+Infinite Orange [Yamishira]
+004676D3 00000063
+
+Infinite Mango [Yamishira]
+004676D4 00000063
+
+Infinite Red Mushroom [Yamishira]
+004676D6 00000063
+
+Infinite Brown Mushroom [Yamishira]
+004676D7 00000063
+
+Infinite Can of Food [Yamishira]
+004676D9 00000063
+
+Infinite Heart Mushroom [Yamishira]
+004676F5 00000063
+
+Items Dont Decrease When Used [Yamishira]
+0409A8C4 38030000
+
+Infinite Health [Yamishira]
+0402FF2C 60000000
+
+Infinite Purple Orbs [Yamishira]
+02467A2C 0000270F
+
+Have All Weapons [Yamishira]
+04467700 01010101
+04467704 01010101
+02467709 00000101
+0246770D 00000101
+0046770F 00000001
+02467712 00000101
+00467714 00000001

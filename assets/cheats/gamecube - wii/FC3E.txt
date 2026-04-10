@@ -1,0 +1,8 @@
+FC3E
+Bubble Bobble
+
+inf/max lives [funkamatic]
+0043552E 0000000A
+
+always have electric/long bubble & shoes [funkamatic]
+00435530 00000047

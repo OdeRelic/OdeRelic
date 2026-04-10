@@ -1,0 +1,3560 @@
+RT4EAF
+Tales of Symphonia Dawn of the New World
+
+Unlock Lloyd & Co. for leveling [dcx2]
+C209F828 00000003
+2C030000 4082000C
+38600001 7C7FF1AE
+80010024 00000000
+Changes to levels are permanent, but if you don't use the code they won't level anymore
+
+Prevent Stat Changes for Lloyd & Co [dcx2]
+0404BE6C 4E800020
+based on Shadow's "Prevent Stat Resets for Lloyd & Co", condensed into one line. This may also prevent items from being changed as the plot progresses.
+
+Encounter Roller v2 (with display!) [dcx2]
+C20BB9B4 00000006
+7D4802A6 48000005
+7D8802A6 A18C0012
+280C8000 4181000C
+3800FFFF 90030000
+7D4803A6 80030000
+60000000 00000000
+C201C088 00000014
+A0841C1C 3D80804D
+618C755A A14C0000
+71402000 41820088
+48000005 7D2802A6
+A089FFC6 28048000
+7C8400D0 41800008
+808D89A8 A10C0004
+71001310 4082000C
+71404000 41820058
+A109FFC6 280A2200
+40820008 7D0800D0
+28088000 4080003C
+280A2010 4182000C
+280A6010 40820010
+2C0804EA 40800008
+39080001 280A3000
+4182000C 280A7000
+40820010 2C080001
+40810008 3908FFFF
+B109FFC6 00000000
+C201C888 00000004
+80031B5C 3D80804D
+A18C755A 718C2000
+41820008 38000001
+60000000 00000000
+C201C8D8 0000000C
+A0631B62 2C140003
+41810050 3D80804D
+A18C755A 718C2000
+41820040 48000005
+7D2802A6 A8C9FEF2
+28068000 41800008
+80CD89A8 2C06FFFF
+41810008 38C00000
+3CA0802F 38A5DCF8
+1C06001A 7CA50214
+1C140002 7C65022E
+60000000 00000000
+Huge thanks to Frubam for pointing me at the encounter table! This code is a bit complicated. Go to the menu screen (Artes, Equip, Item, Status, etc). Hold Z. Look at the Encounters; you will see the number for the last encounter you had (if you have not had an encounter yet, it shows -1, which can be confusing). While holding Z, pressing 1 will toggle the Encounter Roller. When the Encounter Roller is enabled, the Encounters number will be negative, and it will force you to enter that encounter. If you press 1 while holding Z again, it will disable the encounter roller, and the number will be positive once again, which shows you the last encounter you had, and allows you to enter encounters normally.
+.
+While the Encounter Roller is enabled, you can hold Z and press + or - to roll the encounter number. You can choose any encounter from 1 to 1258, which is the last encounter I could find. If you hold both C and Z, the + or - will make it scroll quickly. If the number doesn't roll, then the code is disabled.
+.
+v2: When you hold Z, you will also see the types of enemies that you would encounter in that battle
+
+Can Always Escape [dcx2]
+040BB9AC 38600000
+Escape from battle quest fails you. Escape from boss battle...?
+
+Faster Enemy Respawn [dcx2]
+040303F8 3AE0003C
+0401E360 3800003C
+0x3C = 60 = the number of frames until an enemy respawns. They won't spawn if you're in the immediate vicinity. The respawn timer is about 1 second.
+
+Prevent Enemy Respawn (zhome toggle) (off by default) [dcx2]
+040304B0 3803FFFF
+284D755A 0000A000
+CC000000 00000001
+040304B0 7C601B78
+E0000000 80008000
+disabled by default. hold home and then press Z to enable. Like the Orkin Man; kill them and they stay gone. Press home and z again to disable. The home menu will come up; that's okay. This needs a particularly awkward activator because it is not tied to a menu.
+
+First quest is always Twilight Palace [dcx2]
+04493580 000000C8
+02493590 00000141
+Works on any chapter
+
+Don't consume quests v2 [dcx2]
+0402474C 4800007C
+04024810 4800007C
+0402496C 4800007C
+The quests stay on the menu even after playing them. Use Quest Randomizer to get the quest type that you want. Then, you can use the Quest Rank Roller to make it S-rank. Then, Don't consume quests will allow you to keep playing the same quest over and over. Now you can cancel a dungeon quest at the katz, or escape/fail a battle quest, and keep the quest on the list.
+
+Always have quests [dcx2]
+0249357E 00000007
+This will give you quests even if you've completed them all, but a given quest will disappear from the list after it has been beaten. Use "Don't consume quests" to keep quests from disappearing from the menu if you want to play the same quest multiple times.
+
+Quest Randomizer [dcx2]
+C20675BC 00000008
+3D80804D 618C755A
+A16C0004 716B0300
+41820028 A16C0000
+2C0B0300 4082001C
+3C608049 A063357C
+3D808006 618C6260
+7D8903A6 4E800421
+38610038 00000000
+At the quest screen, press 1 and 2 to randomly generate a new set of quests. If you don't like the quests that you've got, just keep randomizing until you get one you want. This will choose from quests that are appropriate for the chapter you are in
+
+Quest Roller [dcx2]
+C206759C 00000019
+3D80804D 618C755A
+A16C0004 716B1310
+418200AC A1661EF8
+A00C0000 3D808000
+2C001000 40820010
+2C0B0004 40800008
+396B0001 2C000010
+40820010 2C0B0000
+40810008 396BFFFF
+B1661EF8 A1661EFA
+2C004010 40820014
+2C0B00C9 4080000C
+396B0001 B16C1824
+2C005000 40820014
+2C0B0000 4081000C
+396BFFFF B16C1824
+B1661EFA A1661F08
+2C004200 40820014
+2C0B015B 4080000C
+396B0001 B16C1824
+2C004100 40820014
+2C0B0000 4081000C
+396BFFFF B16C1824
+B1661F08 A0061EF8
+60000000 00000000
++ or - will roll rank. c + or c - will roll type. c 1 or c 2 will roll location. You will see the value roll in real-time, but you have to exit and enter the Katz menu to get the changes acknowledged (i.e. to get the reward to change). If you make changes and then save, I think the changes will be permanent. Be careful when rolling type and location, because you can get stuck. Just reload your save from the menu if you get stuck.
+
+Display Quest Location/Type as Recommended Level [dcx2]
+C20675B0 00000005
+7CA5002E 3D80804D
+618C755A A18C0000
+718C4000 4182000C
+3D808000 A0AC1824
+60000000 00000000
+For use with the Quest Roller. You need to hold c to roll type and rank. While holding c, whatever you just changed will be displayed as the recommended level.
+
+Open all areas [dcx2]
+0403BA80 2C08FFFF
+Based on Shadow's All Areas Open code. Does not require pre-loading any saves.
+
+Grade Multiplier (float) [dcx2]
+C211026C 00000003
+48000009 3F800000
+7D8802A6 C3EC0000
+EC3E07F2 00000000
+Replace 3F800000 with any float (e.g. 40000000 = 2.0, 3F000000 = 0.5, etc)
+
+Bonus EXP Multiplier (float) [dcx2]
+C20B9460 00000004
+48000009 3F800000
+7D8802A6 C00C0000
+EFE007F2 3FA0804E
+60000000 00000000
+You can use this to compensate for the massive bonus EXP in Unknown Mode. Replace 3F800000 with any float (e.g. 40000000 = 2.0, 3F000000 = 0.5, etc)
+
+EXP Multiplier (integer) [dcx2]
+C20B9294 00000002
+1C630001 9061000C
+3C608048 00000000
+Use this to adjust the base EXP gained (bonus EXP is calculated separately, but base EXP is a factor). Change the last four digits of 1C630001 to change the multiplier. 1C63000A would be 10x EXP. 1C630064 would be 100x EXP
+
+EXP Divider (integer) [dcx2]
+C20B9294 00000003
+39800001 7C6363D6
+9061000C 3C608048
+60000000 00000000
+Use this to adjust the base EXP gained (bonus EXP is calculated separately, but base EXP is a factor). Change the last four digits of 39800001 to change the divider. 3980000A would be EXP / 10. 39800064 would be EXP / 100.
+
+All monsters can reach level 200 [dcx2]
+082D60BC 00C80000
+20040010 00000000
+082D60D4 802D5D78
+20030010 00000000
+This code is naturally incompatible with the code below. It points all monsters at the tier-200 level monster EXP table. tier-100 and tier-50 monsters may need some extra EXP to catch up to the appropriate level, unless you use the code EXP code below.
+
+Everyone can reach level 255 [dcx2]
+082D60BC 00FF0000
+20040010 00000000
+082D60C4 802D5788
+20040010 00000000
+082D5AAC 0099967E
+20370004 0000FFFF
+082D60C0 00D09647
+20040010 00000000
+0409F8FC 3C6000D0
+0409F900 60609647
+This code modifies the "Experience needed to level up" table. I tried to follow the general pattern that was used to make the Emil/Marta table from levels 70-200 in order to continue the other 55 levels; each level requires an additional 65535 EXP to reach the next level. Everyone's level maxes out at 255, which means your EXP now maxes out at 13,662,139 instead of 9,999,999. Stats continue to increase for the remaining 55 levels. Monsters will require a great deal of additional experience to catch up to Emil/Marta for a given level, unless you use the EXP code below
+
+Prevent being behind more than one level worth of EXP [dcx2]
+C201CC08 00000009
+7C691B78 3884FFFF
+3D808009 618CF75C
+7D8903A6 4E800421
+81520014 7C0A1840
+40800008 90720014
+7D234B78 8892001C
+3D808009 618CF75C
+7D8903A6 4E800421
+60000000 00000000
+This is activated by just opening the menu. This is useful if you use either of the codes above that raise the level cap. It automatically gives the EXP needed to have just reached the current level. e.g. if Lloyd is level 31 when you activate this code for the first time, he will be given the minimum EXP needed to be level 31.
+
+Assign monster artes to shortcuts [dcx2]
+040C6B40 60000000
+040CD0C0 60000000
+0405B464 38000000
+C20594B4 00000003
+888300E0 2C04000C
+41800008 38A00001
+60000000 00000000
+C2083A60 00000005
+3D808000 7C086000
+40800008 39000000
+3D808180 2C08000C
+41800008 39000000
+90010024 00000000
+This is just a little glitchy. When you pick the shortcut, you won't see the name in the slot. But when you hover over that slot, you will see it. You can use these shortcuts in battle.
+
+Party Roller [dcx2]
+C205C88C 0000000C
+3D80804D 618C755A
+A14C0004 714A000C
+41820048 A1431B62
+2C0A000B 4181003C
+A18C0000 2C0C2008
+40820010 2C0A000B
+40800008 394A0001
+2C0C2004 40820010
+2C0A0001 40810008
+394AFFFF B1431B62
+394AFFFF B1431B60
+A0631B62 00000000
+Based on Aesteval's Party Mod code (in turn based on YCAT21's Party Mod). Go to the Status screen for the slot of interest. Hold Z. Press down and up to change the character (non-monsters only). This changes both portrait data and the stats data. You can't mix and match character data with this code.
+
+Arte Roller [dcx2]
+C2059288 00000011
+A9E300C8 3C80804D
+6084755A A8C40000
+70C70010 4182000C
+39EF0001 48000034
+70C71000 4182000C
+39EFFFFF 48000024
+A8C40004 70C70002
+4182000C 39EF0001
+48000010 70C70001
+4182003C 39EFFFFF
+2C0F007D 40820008
+39E00000 2C0F0020
+40820008 39E00041
+2C0F0040 40820008
+39E0001F 2C0F0000
+40800008 39E0007C
+B1E300C8 00000000
+Based on Shadow's Arte Mod. To use: Go to the Artes menu of your desired character (in or out of battle). Press left or right to change the Arte by one for each press. Hold + or - to scroll through all Artes at 30 Artes/second. It skips the values that cause freezing (0x20 through 0x40).
+
+Name Roller [dcx2]
+C205CAD4 00000010
+48000009 00000000
+7D8802A6 3C80804D
+6084755A A8640004
+7063030C 4182005C
+806C0000 A8840000
+2C044200 40820010
+2C030011 40800008
+38630001 2C044100
+40820010 2C030000
+40810008 3863FFFF
+906C0000 38630186
+7D5D18AE 2C044008
+40820008 394A0001
+2C044004 40820008
+394AFFFF 7D5D19AE
+2C000000 00000000
+You must be at the Status screen for a character, and you must hold C to activate this. While holding C, press the up or down arrow to change a letter of the name. You may have to press up and down a lot to get to the letter you want. To move to the next letter, hold C and press 1. To move to the previous letter, hold C and press 2. There are a max of 18 letters. Move one letter at a time from the left. Changes to the name should be permanent once the file is saved.
+
+Use manuscripts on anyone (v2) [dcx2]
+04055A14 38000001
+040571F0 60000000
+040571D4 4800000C
+
+Massively reduced casting time [dcx2]
+0410A7A4 60000000
+0410A7A8 3BC0000A
+(barely enough time for launching a Mystic Arte)
+
+Replace Add Combo 1 with Add Combo 112 [dcx2]
+C210A1EC 00000004
+38000080 7C001800
+4082000C 38600070
+48000008 886400B0
+60000000 00000000
+(must have Add Combo 1 skill activated)
+
+Always surprise enemies [dcx2]
+04012BBC 38000002
+(Change 3800000x to 2 for you always surprise enemies, 1 for enemies always surprise you, and 0 for no one ever surprises anyone)
+
+99.99 grade after each battle [dcx2]
+04110264 60000000
+
+spellbind -up on -down off [dcx2]
+040B1000 38600000
+4E00FFF4 00000000
+284D755A 00001008
+14000000 38600001
+284D755B 00001004
+14000000 38600000
+E0000000 80008000
+"Spellbind" means you have a chance to forge a pact. It does not mean always succeed at pacts. The code starts off with "never spellbind". Hold - and press up to change the code to Always Spellbind; you can let go once you press the buttons and it will remember to keep spellbinding. Hold - and press down to change the code to Never Spellbind. The game pauses while you hold -. You can only forge a pact with one monster per fight, so if you spellbind multiple monsters, the one you get to pact with is random (i.e. never the one you wanted). Try to turn Always Spellbind on ONLY when you are about to kill a monster that you want to capture. Or leave it on all the time if you don't care what monsters you pact with.
+
+Pacts are always successful [dcx2]
+040B9D6C 48000028
+
+skills cost 0 SP [dcx2]
+04050010 38000000
+04050014 98110009
+
+Keep minor elements after they change the major element [dcx2]
+040B0EE8 7CC03378
+
+Unison attacks don't clear the minor elements from the grid [dcx2]
+040B0F80 48000014
+
+Unison attacks and Mystic Artes don't consume any unison gauge [dcx2]
+040FDF8C 60000000
+
+Monsters always launch Third Movement Unison attack if their element is on the grid [dcx2]
+040EE2C0 38000005
+
+Unison gauge doesn't get cut in half after battle [dcx2]
+040FDAB8 60000000
+
+Using items doesnt consume them [dcx2]
+04054A0C 38800000
+This works in the menu, don't know if it works in battle or during synthesis, does not work for feeding
+
+anything adds 9.9 million exp [dcx2]
+0409F85C 64BB0098
+This includes manuscripts and, as it turns out, battles
+
+all stats max on level up, green save, or herb [dcx2]
+C204B998 00000006
+6407270F 90E30024
+B0030028 390003E7
+B103002A B103002C
+B103002E 90E30030
+90E30034 90E30038
+60000000 00000000
+Useful for keeping any new monsters maxed out, especially the ones you capture with my Pacts are always successful
+
+Feeding doesn't use food [dcx2]
+0404B020 7FC0F378
+
+feeding boosts stats like they never ate [dcx2]
+040688DC 38000001
+This tricks the game into thinking that all your monsters have never been fed
+
+can always feed any monster [dcx2]
+0406ADF8 60000000
+0406ADC0 60000000
+0406AE30 60000000
+0406AE68 60000000
+Feed any monster at any time, even if they're level 1. WARNING you will have to scroll through a lot of monsters!
+
+Dont need statues to evolve monsters [dcx2]
+040689B8 7CC53378
+
+Can always evolve monsters [dcx2]
+04068970 7CC53378
+Using the previous three codes together, you can evolve monsters as many times as you want without leaving the cooking screen!
+
+Enemies can't chase you [dcx2]
+04030860 38000000
+04030864 90150080
+If you've ever held out the Sorcerer's Ring while an enemy is trying to run into you, you may have noticed that they stutter. Enemies now always stutter when they see you, so they essentially cannot give chase. If they don't see you, they walk like normal. I can try to freeze enemies all the time if the community would like that instead but I'm afraid some enemies might get stuck in your way.
+
+Synch Roller; Change monster synchs (Hold CZ, press up or down) [dcx2]
+C205CADC 0000000C
+887D01DB 2C030000
+4182004C 3C80804D
+6084755A A8040004
+7000000C 41820038
+A8840000 2C046008
+40820014 38630001
+7063000F 40820008
+38600001 2C046004
+40820014 3863FFFF
+7063000F 40820008
+3860000F 987D01DB
+60000000 00000000
+Go to the Menu -&gt; Status screen, select your monster, while viewing their stats hold C and Z first, then press up or down to change synchs
+
+Grid Roller; - and left/right to change grid during battle [dcx2]
+C20AD4FC 00000019
+5480043E 2C001F4C
+408200B8 7C6802A6
+5463043E 7C600734
+2C00896C 408200A4
+3C608000 60631828
+90A30010 3CA0804D
+60A5755A A8050004
+70001000 41820010
+A804002A B003000E
+48000018 A8050008
+70001000 4182000C
+A803000E B004002A
+A8050000 70001000
+41820054 8803000C
+B004002A A8050004
+70000003 41820040
+2C000002 40820018
+88A3000C 70A50007
+38A50001 98A3000C
+48000024 2C000001
+4082001C 88A3000C
+38A5FFFF 2C050000
+40820008 38A00008
+98A3000C 80A30010
+A864002A 00000000
+C20B24A8 00000005
+3C808000 60841828
+8804000C 90030580
+90030584 90030588
+9003058C 90030590
+38000000 00000000
+It's a little complicated to use. You must use Emil in battle. This code uses a few Gecko registers, not sure which but it's like gr3, gr4, and/or gr5 I think (depends on which version of Gecko OS you use). While battling, hold down the - key. Watch Emil's TP; it will change to the current grid element's number while - is pressed. Don't worry, when you release -, Emil's TP goes back to normal, and battle pauses while you hold -. While holding -, press left and right to change the current grid element's number. Once you've picked the value that you want, let go of minus and go cast a spell or do something that tickles the grid and you'll see everything change to match the number of the element you set.
+
+Equipment/Item Roller [dcx2]
+C205129C 00000010
+A8A30048 3C80804D
+6084755A A8C40000
+70C72000 4182005C
+70C70010 4182000C
+38A50001 48000034
+70C71000 4182000C
+38A5FFFF 48000024
+A8C40004 70C70002
+4182000C 38A50001
+48000010 70C70001
+4182000C 38A5FFFF
+2C050259 40810008
+38A00000 2C050000
+40800008 38A00259
+B0A30048 7CA32B78
+60000000 00000000
+Go to the Equipment screen and highlight the item you want to change. While holding Z, press left or right to change the item by one, and hold + or - to scroll through 60 items per second (takes about 10 seconds to scroll through all items). Using this code you can put any item anywhere - an apple gel for Emil's weapon, or Sol and Mani (Richter's axe and sword) for Marta's ribbon, etc. If you go to the accessory and there's no accessory equipped, you can bring one into existence, and then use C to de-equip the accessory into your inventory. You can then create any rare items you want, as many as you want!
+
+Warp to Floor 10 of Gladsheim [ShadowX39]
+044941C0 0000000A
+Whenever you warp in the maze you'll go straight to floor 10 with the boss in the middle.
+
+All Areas Open [ShadowX39]
+044622C4 00000020
+This will open up all the areas on the map to go to whenever you want, even during the start. They will appear only if you load a save with all of them open already. Otherwise it will just be a big list of the same map over and over.
+
+Prevent Stat Resets for Lloyd & Co. [ShadowX39]
+0404BEE8 60000000
+0404BEF4 60000000
+0404BF00 60000000
+0404BF0C 60000000
+0404BF14 60000000
+0404BF1C 60000000
+0404BF2C 60000000
+0404BF34 60000000
+0404BF3C 60000000
+0404BF40 60000000
+0404BF44 60000000
+0404BF48 60000000
+0404BF4C 60000000
+0404BF50 60000000
+0404BF54 60000000
+0404BF58 60000000
+0404BF5C 60000000
+0404BF60 60000000
+0404BF64 60000000
+0404BF68 60000000
+040A04E8 60000000
+040A04F4 60000000
+040A04FC 60000000
+040A0508 60000000
+040A0574 60000000
+This will stop the game from resetting Richter + Lloyd and crew's data, it should make changes you did to their stats permanent.
+
+Maximum Number of Possession of 99 Items [AlexWong]
+00493273 00000063
+Hacked by RITZ for NTSC-JP, ported by AlexWong to NTSC-U/C.
+
+Save Anywhere [AlexWong]
+0401D62C 4800000C
+Hacked by RITZ for NTSC-JP, ported by AlexWong to NTSC-U/C.
+
+Infinite TP [AlexWong]
+04057DEC 60000000
+040AD8A4 60000000
+Hacked by RITZ for NTSC-JP, ported by AlexWong to NTSC-U/C.
+
+Release Limit of SP [AlexWong]
+04050E48 380003E7
+04050EF8 380003E7
+Hacked by RITZ for NTSC-JP, ported by AlexWong to NTSC-U/C.
+
+Unison Gauge Up To Max [AlexWong]
+040FDF30 C022CFA8
+Hacked by YCAT21 for NTSC-JP, ported by AlexWong to NTSC-U/C.
+
+Gain Exp Multiplier [AlexWong]
+040B924C 4800003C
+040B928C 1C6300XX
+XX=
+02 x2
+05 x5
+0A x10
+32 x50
+64 x100
+Hacked by RITZ for NTSC-JP, ported by AlexWong to NTSC-U/C.
+
+Monster Directory [AlexWong]
+004932C4 013B0007
+Hacked by YCAT21 for NTSC-JP, ported by AlexWong to NTSC-U/C.
+
+Unknown Mode [AlexWong]
+004934D4 00000003
+Hacked by YCAT21 for NTSC-JP, ported by AlexWong to NTSC-U/C.
+
+6 Star Clear Unknown Mode To Use [AlexWong]
+00493271 00000006
+004B3E68 00000004
+Hacked by YCAT21 for NTSC-JP, ported by AlexWong to NTSC-U/C.
+
+"Cracks" Color Modifier [hawkeye2777]
+064E43B0 00000006
+00RR00GG 00BB0000
+RGB Values:
+00-FF: 0 to 255
+
+No "Cannot use Item Time" [hawkeye2777]
+C20B8320 00000005
+9421FFF0 91610008
+3D60BC83 616BAB9F
+917D0050 81610008
+38210010 C03D0050
+60000000 00000000
+This code nullifies the time limit on using items, so you can use several items at once.
+
+Elemental Grid Modifier [hawkeye2777]
+C20B24D8 00000002
+3CC00000 60C6000x
+90C30580 00000000
+C20B24F0 00000002
+3CC00000 60C6000x
+90C30584 00000000
+C20B2508 00000002
+3CC00000 60C6000x
+90C30588 00000000
+C20B2520 00000002
+3CC00000 60C6000x
+90C3058C 00000000
+C20B2538 00000002
+3CC00000 60C6000x
+90C30590 00000000
+Values for x:
+0 - Nothing
+1 - Fire
+2 - Water
+3 - Wind
+4 - Earth
+5 - Lightning
+6 - Ice
+7 - Light
+8 - Darkness
+The codes go in the (clockwise) order of the Grid, so the 1st x is the element farthest to the left and so on. If you make 4 or 5 of the x's be the same element, you will always have a chance to recruit a monster to your party. This does not modify the field element.
+
+All Recipes [hawkeye2777]
+024937B2 00007FFF
+Original by YCAT21 (JPN), ported by hawkeye2777.
+
+Load any save for instant game over [Aesteval]
+0049352B 00000005
+
+Load debug menu when loading any save [Aesteval]
+0049352B 00000001
+
+Infinite Gald [Aesteval]
+04481688 0098967F
+
+Have 10 of all items except for key items [Aesteval]
+00493855 0009000A
+00493860 0024000A
+00493888 0000000A
+0049388A 0027000A
+004938EA 0184000A
+00493A72 002F000A
+00493AA4 0009000A
+
+Emil Infinite HP [Aesteval]
+02481F70 0002270F
+
+Emil Infinite TP [Aesteval]
+02481F76 000203E7
+
+Emil 999 P.Atk, P.Def, A.Atk, A.Def, Dex, and Luck [Aesteval]
+02481F7C 000503E7
+
+Emil has all titles [Aesteval]
+04481F6E 0007FFFF
+
+Emil 9999 SP [Aesteval]
+02481FA0 0000270F
+
+Emil Extra Artes (may or may not be all artes) [Aesteval]
+04481FA4 010FFFFF
+
+Marta Infinite HP [Aesteval]
+02482058 0002270F
+
+Marta Infinite TP [Aesteval]
+0248205E 000203E7
+
+Marta 999 P.Atk, P.Def, A.Atk, A.Def, Dex, and Luck [Aesteval]
+02482064 000503E7
+
+Marta has all titles [Aesteval]
+04482054 00007FFF
+
+Marta 9999 SP [Aesteval]
+02482088 0000270F
+
+Richter Infinite HP [Aesteval]
+02482140 0002270F
+
+Richter Infinite TP [Aesteval]
+02482146 000203E7
+
+Richter 999 P.Atk, P.Def, A.Atk, A.Def, Dex, and Luck [Aesteval]
+0248214C 000503E7
+
+Richter 9999 SP [Aesteval]
+02482170 0000270F
+
+Colette Infinite HP [Aesteval]
+02481918 0002270F
+
+Colette Infinite TP [Aesteval]
+0248191E 000203E7
+
+Colette 999 P.Atk, P.Def, A.Atk, A.Def, Dex, and Luck [Aesteval]
+02481924 000503E7
+
+Colette 9999 SP [Aesteval]
+02481948 0000270F
+
+Lloyd Infinite HP [Aesteval]
+02481830 0002270F
+
+Lloyd Infinite TP [Aesteval]
+02481836 000203E7
+
+Lloyd 999 P.Atk, P.Def, A.Atk, A.Def, Dex, and Luck [Aesteval]
+0248183C 000503E7
+
+Lloyd 9999 SP [Aesteval]
+02481860 0000270F
+
+Genis Infinite HP [Aesteval]
+02481A00 0002270F
+
+Genis Infinite TP [Aesteval]
+02481A06 000203E7
+
+Genis 999 P.Atk, P.Def, A.Atk, A.Def, Dex, and Luck [Aesteval]
+02481A0C 000503E7
+
+Genis 9999 SP [Aesteval]
+02481A30 0000270F
+
+Raine Infinite HP [Aesteval]
+02481AE8 0002270F
+
+Raine Infinite TP [Aesteval]
+02481AEE 000203E7
+
+Raine 999 P.Atk, P.Def, A.Atk, A.Def, Dex, and Luck [Aesteval]
+02481AF4 000503E7
+
+Raine 9999 SP [Aesteval]
+02481B18 0000270F
+
+Sheena Infinite HP [Aesteval]
+02481BD0 0002270F
+
+Sheena Infinite TP [Aesteval]
+02481BD6 000203E7
+
+Sheena 999 P.Atk, P.Def, A.Atk, A.Def, Dex, and Luck [Aesteval]
+02481BDC 000503E7
+
+Sheena 9999 SP [Aesteval]
+02481C00 0000270F
+
+Zelos Infinite HP [Aesteval]
+02481CB8 0002270F
+
+Zelos Infinite TP [Aesteval]
+02481CBE 000203E7
+
+Zelos 999 P.Atk, P.Def, A.Atk, A.Def, Dex, and Luck [Aesteval]
+02481CC4 000503E7
+
+Zelos 9999 SP [Aesteval]
+02481CE8 0000270F
+
+Presea Infinite HP [Aesteval]
+02481DA0 0002270F
+
+Presea Infinite TP [Aesteval]
+02481DA6 000203E7
+
+Presea 999 P.Atk, P.Def, A.Atk, A.Def, Dex, and Luck [Aesteval]
+02481DAC 000503E7
+
+Presea 9999 SP [Aesteval]
+02481DD0 0000270F
+
+Regal Infinite HP [Aesteval]
+02481E88 0002270F
+
+Regal Infinite TP [Aesteval]
+02481E8E 000203E7
+
+Regal 999 P.Atk, P.Def, A.Atk, A.Def, Dex, and Luck [Aesteval]
+02481E94 000503E7
+
+Regal 9999 SP [Aesteval]
+02481EB8 0000270F
+
+Monster 1 Infinite HP [Aesteval]
+02482228 0002270F
+
+Monster 1 Infinite TP [Aesteval]
+0248222E 000203E7
+
+Monster 1 999 P.Atk, P.Def, A.Atk, A.Def, Dex, and Luck [Aesteval]
+02482234 000503E7
+
+Monster 1 9999 SP [Aesteval]
+02482258 0000270F
+
+Monster 2 Infinite HP [Aesteval]
+02482310 0002270F
+
+Monster 2 Infinite TP [Aesteval]
+02482316 000203E7
+
+Monster 2 999 P.Atk, P.Def, A.Atk, A.Def, Dex, and Luck [Aesteval]
+0248231C 000503E7
+
+Monster 2 9999 SP [Aesteval]
+02482340 0000270F
+
+Monster 3 Infinite HP [Aesteval]
+024823F8 0002270F
+
+Monster 3 Infinite TP [Aesteval]
+024823FE 000203E7
+
+Monster 3 999 P.Atk, P.Def, A.Atk, A.Def, Dex, and Luck [Aesteval]
+02482404 000503E7
+
+Monster 3 9999 SP [Aesteval]
+02482428 0000270F
+
+Monster 4 Infinite HP [Aesteval]
+024824E0 0002270F
+
+Monster 4 Infinite TP [Aesteval]
+024824E6 000203E7
+
+Monster 4 999 P.Atk, P.Def, A.Atk, A.Def, Dex, and Luck [Aesteval]
+024824EC 000503E7
+
+Monster 4 9999 SP [Aesteval]
+02482510 0000270F
+<!--!include:Monster Mod Note-->
+
+Monster Mod Note
+Add E8 to memory addresses for each monster after 4 to modify the next monster (5 - ???)
+
+Equipment Modifier
+
+Lloyd Weapon [Aesteval]
+02481854 0000ZZZZ
+
+Lloyd Body [Aesteval]
+02481856 0000ZZZZ
+
+Lloyd Head [Aesteval]
+02481858 0000ZZZZ
+
+Lloyd Arm [Aesteval]
+0248185A 0000ZZZZ
+
+Lloyd Other 1 [Aesteval]
+0248185C 0000ZZZZ
+
+Lloyd Other 2 [Aesteval]
+0248185E 0000ZZZZ
+
+Colette Weapon [Aesteval]
+0248193C 0000ZZZZ
+
+Colette Body [Aesteval]
+0248193E 0000ZZZZ
+
+Colette Head [Aesteval]
+02481940 0000ZZZZ
+
+Colette Arm [Aesteval]
+02481942 0000ZZZZ
+
+Colette Other 1 [Aesteval]
+02481944 0000ZZZZ
+
+Colette Other 2 [Aesteval]
+02481946 0000ZZZZ
+
+Genis Weapon [Aesteval]
+02481A24 0000ZZZZ
+
+Genis Body [Aesteval]
+02481A26 0000ZZZZ
+
+Genis Head [Aesteval]
+02481A28 0000ZZZZ
+
+Genis Arm [Aesteval]
+02481A2A 0000ZZZZ
+
+Genis Other 1 [Aesteval]
+02481A2C 0000ZZZZ
+
+Genis Other 2 [Aesteval]
+02481A2E 0000ZZZZ
+
+Raine Weapon [Aesteval]
+02481B0C 0000ZZZZ
+
+Raine Body [Aesteval]
+02481B0E 0000ZZZZ
+
+Raine Head [Aesteval]
+02481B10 0000ZZZZ
+
+Raine Arm [Aesteval]
+02481B12 0000ZZZZ
+
+Raine Other 1 [Aesteval]
+02481B14 0000ZZZZ
+
+Raine Other 2 [Aesteval]
+02481B16 0000ZZZZ
+
+Sheena Weapon [Aesteval]
+02481BF4 0000ZZZZ
+
+Sheena Body [Aesteval]
+02481BF6 0000ZZZZ
+
+Sheena Head [Aesteval]
+02481BF8 0000ZZZZ
+
+Sheena Arm [Aesteval]
+02481BFA 0000ZZZZ
+
+Sheena Other 1 [Aesteval]
+02481BFC 0000ZZZZ
+
+Sheena Other 2 [Aesteval]
+02481BFE 0000ZZZZ
+
+Zelos Weapon [Aesteval]
+02481CDC 0000ZZZZ
+
+Zelos Body [Aesteval]
+02481CDE 0000ZZZZ
+
+Zelos Head [Aesteval]
+02481CE0 0000ZZZZ
+
+Zelos Arm [Aesteval]
+02481CE2 0000ZZZZ
+
+Zelos Other 1 [Aesteval]
+02481CE4 0000ZZZZ
+
+Zelos Other 2 [Aesteval]
+02481CE6 0000ZZZZ
+
+Presea Weapon [Aesteval]
+02481DC4 0000ZZZZ
+
+Presea Body [Aesteval]
+02481DC6 0000ZZZZ
+
+Presea Head [Aesteval]
+02481DC8 0000ZZZZ
+
+Presea Arm [Aesteval]
+02481DCA 0000ZZZZ
+
+Presea Other 1 [Aesteval]
+02481DCC 0000ZZZZ
+
+Presea Other 2 [Aesteval]
+02481DCE 0000ZZZZ
+
+Regal Weapon [Aesteval]
+02481EAC 0000ZZZZ
+
+Regal Body [Aesteval]
+02481EAE 0000ZZZZ
+
+Regal Head [Aesteval]
+02481EB0 0000ZZZZ
+
+Regal Arm [Aesteval]
+02481EB2 0000ZZZZ
+
+Regal Other 1 [Aesteval]
+02481EB4 0000ZZZZ
+
+Regal Other 2 [Aesteval]
+02481EB6 0000ZZZZ
+
+Emil Weapon [Aesteval]
+02481F94 0000ZZZZ
+
+Emil Body [Aesteval]
+02481F96 0000ZZZZ
+
+Emil Head [Aesteval]
+02481F98 0000ZZZZ
+
+Emil Arm [Aesteval]
+02481F9A 0000ZZZZ
+
+Emil Other 1 [Aesteval]
+02481F9C 0000ZZZZ
+
+Emil Other 2 [Aesteval]
+02481F9E 0000ZZZZ
+
+Marta Weapon [Aesteval]
+0248207C 0000ZZZZ
+
+Marta Body [Aesteval]
+0248207E 0000ZZZZ
+
+Marta Head [Aesteval]
+02482080 0000ZZZZ
+
+Marta Arm [Aesteval]
+02482082 0000ZZZZ
+
+Marta Other 1 [Aesteval]
+02482084 0000ZZZZ
+
+Marta Other 2 [Aesteval]
+02482086 0000ZZZZ
+
+Richter Weapon [Aesteval]
+02482164 0000ZZZZ
+
+Richter Body [Aesteval]
+02482166 0000ZZZZ
+
+Richter Head [Aesteval]
+02482168 0000ZZZZ
+
+Richter Arm [Aesteval]
+0248216A 0000ZZZZ
+
+Richter Other 1 [Aesteval]
+0248216C 0000ZZZZ
+
+Richter Other 2 [Aesteval]
+0248216E 0000ZZZZ
+
+Monster 1 Weapon [Aesteval]
+0248224C 0000ZZZZ
+
+Monster 1 Body [Aesteval]
+0248224E 0000ZZZZ
+
+Monster 1 Head [Aesteval]
+02482250 0000ZZZZ
+
+Monster 1 Arm [Aesteval]
+02482252 0000ZZZZ
+
+Monster 1 Other 1 [Aesteval]
+02482254 0000ZZZZ
+
+Monster 1 Other 2 [Aesteval]
+02482256 0000ZZZZ
+
+Monster 2 Weapon [Aesteval]
+02482334 0000ZZZZ
+
+Monster 2 Body [Aesteval]
+02482336 0000ZZZZ
+
+Monster 2 Head [Aesteval]
+02482338 0000ZZZZ
+
+Monster 2 Arm [Aesteval]
+0248233A 0000ZZZZ
+
+Monster 2 Other 1 [Aesteval]
+0248233C 0000ZZZZ
+
+Monster 2 Other 2 [Aesteval]
+0248233E 0000ZZZZ
+
+Monster 3 Weapon [Aesteval]
+0248241C 0000ZZZZ
+
+Monster 3 Body [Aesteval]
+0248241E 0000ZZZZ
+
+Monster 3 Head [Aesteval]
+02482420 0000ZZZZ
+
+Monster 3 Arm [Aesteval]
+02482422 0000ZZZZ
+
+Monster 3 Other 1 [Aesteval]
+02482424 0000ZZZZ
+
+Monster 3 Other 2 [Aesteval]
+02482426 0000ZZZZ
+
+Monster 4 Weapon [Aesteval]
+02482504 0000ZZZZ
+
+Monster 4 Body [Aesteval]
+02482506 0000ZZZZ
+
+Monster 4 Head [Aesteval]
+02482508 0000ZZZZ
+
+Monster 4 Arm [Aesteval]
+0248250A 0000ZZZZ
+
+Monster 4 Other 1 [Aesteval]
+0248250C 0000ZZZZ
+
+Monster 4 Other 2 [Aesteval]
+0248250E 0000ZZZZ
+<!--!include:Monster Mod Note-->
+
+Monster Mod Note
+Add E8 to memory addresses for each monster after 4 to modify the next monster (5 - ???)
+
+Hex values for Equipment (Replace ZZZZ with these:)
+0000	Empty
+0001	Apple Gel
+0002	Orange Gel
+0003	Melange Gel
+0004	Lemon Gel
+0005	Pineapple Gel
+0006	Miracle Gel
+0007	Specific
+0008	Treat
+0009	Special Gel
+000A	Lottery Gel
+000B	Jelly Gel (Dummy)
+000C	Nectar Bottle
+000D	Cure Bottle
+000E	Dark Bottle
+000F	Dinei Bottle
+0010	Holy Bottle
+0011	Life Bottle
+0012	Syrup Bottle
+0013	Panacea Bottle
+0014	Paralysis Bottle
+0015	Poison Bottle
+0016	Seal Bottle
+0017	Shock Bottle
+0018	Stone Bottle
+0019	Virus Bottle
+001A	Weak Bottle
+001B	Wing Bottle
+001C	Sage
+001D	Savory
+001E	Lavender
+001F	Verbena
+0020	Chamomile
+0021	Basil
+0022	Saffron
+0023	Blue Sage
+0024	Blue Savory
+0025	Blue Lavender
+0026	Blue Verbena
+0027	Blue Chamomile
+0028	Blue Basil
+0029	Blue saffron
+002A	Red Sage
+002B	Red Savory
+002C	Red Lavender
+002D	Red Verbena
+002E	Red Chamomile
+002F	Red Basil
+0030	Red Saffron
+0031	Rosemary (Dummy)
+0032	Blue Rosemary (Dummy)
+0033	Red Rosemary (Dummy)
+0034	All-Divide
+0035	Hourglass (Dummy)
+0036	Grey Manuscript
+0037	White Manuscript
+0038	Yellow Manuscript
+0039	Peach Manuscript
+003A	Scarlet Manuscript
+003B	Azure Manuscript
+003C	Purple Manuscript
+003D	Silver Manuscript
+003E	Gold Manuscript
+003F	Rainbow Manuscript
+0040	Message: Near Death
+0041	Message: Fatal Blow
+0042	Message: Strength
+0043	Message: Mental
+0044	Message: Warlord
+0045	Message: Sage
+0046	Message: Artist
+0047	Message: Stronghold
+0048	Message: Fortress
+0049	Message: Hawkeye
+004A	Undine's Whisper
+004B	Volt's Whim
+004C	Undine's Affection
+004D	Efreet's Help
+004E	Undine's Charity
+004F	Gnome's Dust
+0050	Shadow's Language
+0051	Aska's Embrace
+0052	Sylph's Circle
+0053	Gnome's Flip Out
+0054	Efreet's Hammer
+0055	Gnome's Dance
+0056	Undine's Tears
+0057	Sylph's Mischief
+0058	Celsius Sigh
+0059	Volt's Melancholy
+005A	Shadow's Walk
+005B	Gnome's Frustration
+005C	Luna's Punishment
+005D	Efreet's Anger
+005E	Tenebrae's Core
+005F	Tenebrae
+0060	Aqua's Core
+0061	Aqua
+0062	Glacies' Core
+0063	Glacies
+0064	Tonitrus' Core (Dummy)
+0065	Tonitrus
+0066	Lumen's Core (Dummy)
+0067	Lumen
+0068	Solum's Core (Dummy)
+0069	Solum
+006A	Ventus' Core (Dummy)
+006B	Ventus
+006C	Ignis' Core (Dummy)
+006D	Ignis
+006E	Eau de Seduction
+006F	Lloyd's Mask 1
+0070	Lloyd's Mask 2
+0071	Lloyd's Mask 3
+0072	Lloyd's Card 1
+0073	Lloyd's Card 2
+0074	Seafood Gel
+0075	Research Notes 1
+0076	Research Notes 2
+0077	Presea's Iron Maiden (Dummy)
+0078	Marta's Wood (Dummy)
+0079	High-Speed Transport
+007A	Rheaird
+007B	Sorcerer's Ring
+007C	Baby Winged Dragon
+007D	Stone Dais Key
+007E	Maiden's Cane
+007F	Bartek
+0080	Rosemary
+0081	Jellyfish
+0082	Letter of Passage
+0083	Card Key 1
+0084	Card Key
+0085	Elevator Key
+0086	Card Key 2
+0087	Card Key 3
+0088	Pass Card
+0089	Pass Card A
+008A	Pass Card B
+008B	Pass Card C
+008C	Pass Card D
+008D	Training Manual
+008E	Journal
+008F	Balacruf Symbol
+0090	Balacruf Tombstone
+0091	Angelatops
+0092	Pendant
+0093	Special Bait
+0094	Water Spider
+0095	Lloyd's Mask 4
+0096	Pasta
+0097	Rice
+0098	Flour
+0099	Bread
+009A	Roll
+009B	Barley Rice
+009C	Juicy Meat
+009D	Beef
+009E	Chicken
+009F	Pork
+00A0	Beef Strips
+00A1	Konjac
+00A2	Tofu
+00A3	Snapper
+00A4	Squid
+00A5	Cod
+00A6	Tuna
+00A7	Shellfish
+00A8	Octopus
+00A9	Shrimp
+00AA	Bell Pepper
+00AB	Lettuce
+00AC	Cucumber
+00AD	Onion
+00AE	Radish
+00AF	Tomato
+00B0	Carrot
+00B1	Mushroom
+00B2	Cabbage
+00B3	Potato
+00B4	Amango
+00B5	Kirima
+00B6	Melon
+00B7	Pineapple
+00B8	Strawberry
+00B9	Grapes
+00BA	Peach
+00BB	Pear
+00BC	Banana
+00BD	Apple
+00BE	Lemon
+00BF	Purple Satay
+00C0	Black Satay
+00C1	White Satay
+00C2	Red Satay
+00C3	Cheese
+00C4	Miso
+00C5	Kelp
+00C6	Seaweed
+00C7	Egg
+00C8	Milk
+00C9	Plant Vine
+00CA	Thick Leaf
+00CB	Flower Petals
+00CC	Leaf Mold
+00CD	Tree Sap
+00CE	Lumber
+00CF	Treant Bulb
+00D0	Charcoal
+00D1	Beautiful Flower
+00D2	Moss
+00D3	Slime Mold
+00D4	Fragrant Wood
+00D5	Small Fang
+00D6	Fluffy Fur
+00D7	Sharp Claw
+00D8	Slough
+00D9	Mane
+00DA	Lizard Tail
+00DB	Wolf Fur
+00DC	Rabbit Tail
+00DD	Bear Skin
+00DE	Lizard Skin
+00DF	Ogre's Blood
+00E0	Evil Eye
+00E1	Horn
+00E2	Insect's Wing
+00E3	Cocoon
+00E4	Stinger
+00E5	Crawler's Silk
+00E6	Elastic Leather
+00E7	Twisted Horn
+00E8	Insect Fluid
+00E9	Deadly Poison
+00EA	Spider's Net
+00EB	Ore
+00EC	Large Scythe
+00ED	Bird Feather
+00EE	Beak
+00EF	Spoiled Meat
+00F0	Roc's Feather
+00F1	Chicken Bones
+00F2	Bat Wing
+00F3	Rough Leather
+00F4	Phoenix's Wing
+00F5	Hawk's Eye
+00F6	Harpy's Feather
+00F7	Bat Fang
+00F8	Bird Egg
+00F9	Turtle Shell
+00FA	Ink
+00FB	Fish Scale
+00FC	Seashell
+00FD	Frog Eggs
+00FE	Spongy Skin
+00FF	Quality Shell
+0100	Jar Fragment
+0101	Quality Scale
+0102	Coral
+0103	Large Shell
+0104	Frog Oil
+0105	Yellow Fluid
+0106	Black Fluid
+0107	Red Fluid
+0108	Blue Fluid
+0109	Pebble
+010A	Roper Feeler
+010B	Slime Oil
+010C	Pure Silver
+010D	Glittering Sand
+010E	Monster Extract
+010F	Saliva
+0110	Philosopher's Stone
+0111	Imp's Wing
+0112	Demon's Wing
+0113	Imp's Tail
+0114	Lamia's Tail
+0115	Demon's Horn
+0116	Lamia's Hair Tie
+0117	Knife
+0118	Hunting Horn
+0119	Pointed Horn
+011A	Devil's Blood
+011B	Lamia's Bracelet
+011C	Musk
+011D	Wyvern's Scale
+011E	Wyvern's Wing
+011F	Wyvern's Skin
+0120	Dragon's Scale
+0121	Dragon's Claw
+0122	Dragon's Fang
+0123	Large Scale
+0124	Dragon's Bone
+0125	Dragon's Blood
+0126	Dragon's Anger
+0127	Dragon's Skull
+0128	Dragon's Horn
+0129	Scattered Bones
+012A	Femur
+012B	Old Coin
+012C	Broken Armor
+012D	Bloody Cloth
+012E	Skull
+012F	Strong Bone
+0130	Ashes
+0131	Broken Sword
+0132	Ghost's Cloth
+0133	Anima
+0134	Animus
+0135	Stone Block
+0136	Golem Fragment
+0137	Weapon Fragment
+0138	Mimic Fragment
+0139	Statue Fragment
+013A	Elemental Fragment
+013B	Mythril
+013C	Steel Ball
+013D	Damascus
+013E	Orichalcum
+013F	Electrum
+0140	Quality Stone
+0141	Bronze Sword
+0142	Iron Sword
+0143	Small Sword
+0144	Long Sword
+0145	Broadsword
+0146	Hunting Sword
+0147	Great Sword
+0148	Gold Sword
+0149	Black Sword
+014A	Bastard Sword
+014B	Knight's Sword
+014C	Mythril Sword
+014D	Riot Spike
+014E	Echo Tracer
+014F	Vile Requiem
+0150	Soul Blast
+0151	Mind Slicer
+0152	Mesmeric Trance
+0153	Demonic Torment
+0154	Nether Traitor
+0155	Bronze Spinner
+0156	Iron Spinner
+0157	Ivory Spinner
+0158	Gothic Spinner
+0159	Silver Spinner
+015A	Coral Spinner
+015B	Demonic Spinner
+015C	Gold Spinner
+015D	Black Spinner
+015E	Dragon Spinner
+015F	Unicorn Spinner
+0160	Mythril Spinner
+0161	Millstone
+0162	War Chariot
+0163	Retribution
+0164	Clock Spinner
+0165	Dark Sphere
+0166	Energy Arc
+0167	Trick Bind
+0168	Kismet
+0169	Rapier
+016A	Gagnrad
+016B	Chakram
+016C	Angel's Halo
+016D	Nova
+016E	One World
+016F	Rod
+0170	Crystal Rod
+0171	Spell Card
+0172	Divine Judgement
+0173	Silver Sword
+0174	Last Fencer
+0175	Francesca
+0176	Gaia Cleaver
+0177	Leather Greaves
+0178	Dynast
+0179	Sol and Mani
+017A	Leather Plate
+017B	Iron Plate
+017C	Chain Plate
+017D	Scale Plate
+017E	Silver Plate
+017F	Half Plate
+0180	Battle Plate
+0181	Light Plate
+0182	Black Plate
+0183	Royal Plate
+0184	Rare Plate
+0185	Mythril Plate
+0186	Blood Lust
+0187	Incinerator
+0188	Lawful Light
+0189	Lion Heart
+018A	Pain Killer
+018B	Power Drive
+018C	Solitude
+018D	Strange Blue
+018E	Cloak
+018F	Feather Cloak
+0190	Silk Cloak
+0191	White Cloak
+0192	Silver Cloak
+0193	Mage Cloak
+0194	Mystic Cloak
+0195	Holy Cloak
+0196	Witch Cloak
+0197	Mirage Cloak
+0198	Elder Cloak
+0199	Mythril Cloak
+019A	Angel Dust
+019B	Anthem
+019C	Fairy Tale
+019D	Moon Luminance
+019E	Phantom Lord
+019F	Prime Evil
+01A0	Rain Maker
+01A1	Windmill
+01A2	Bandanna
+01A3	Leather Bandanna
+01A4	Custom Bandanna
+01A5	Sturdy Bandanna
+01A6	Plate Bandanna
+01A7	Quill Bandanna
+01A8	Studded Bandanna
+01A9	Martial Bandanna
+01AA	Light Bandanna
+01AB	Noble Bandanna
+01AC	Thick Bandanna
+01AD	Dusk Bandanna
+01AE	Fencer's Bandanna
+01AF	Warrior's Bandanna
+01B0	Rogue's Bandanna
+01B1	Red Ribbon
+01B2	Blue Ribbon
+01B3	Orange Ribbon
+01B4	Green Ribbon
+01B5	White Ribbon
+01B6	Black Ribbon
+01B7	Purple Ribbon
+01B8	Yellow Ribbon
+01B9	Plaid Ribbon
+01BA	Striped Ribbon
+01BB	Pretty Ribbon
+01BC	Elemental Ribbon
+01BD	Puppet's Ribbon
+01BE	Wizard's Ribbon
+01BF	Healer's Ribbon
+01C0	Leather Gauntlets
+01C1	Iron Gauntlets
+01C2	Chain Gauntlets
+01C3	Scale Gauntlets
+01C4	Silver Gauntlets
+01C5	Half Gauntlets
+01C6	Battle Gauntlets
+01C7	Light Gauntlets
+01C8	Black Gauntlets
+01C9	Royal Gauntlets
+01CA	Rare Gauntlets
+01CB	Mythril Gauntlets
+01CC	Dark Passage
+01CD	Soul Forge
+01CE	Star Breaker
+01CF	Mittens
+01D0	Feather Mittens
+01D1	Silk Mittens
+01D2	White Mittens
+01D3	Silver Mittens
+01D4	Mage Mittens
+01D5	Mystic Mittens
+01D6	Holy Mittens
+01D7	Witch Mittens
+01D8	Mirage Mittens
+01D9	Elder Mittens
+01DA	Mythril Mittens
+01DB	Crossroad
+01DC	Fortune Teller
+01DD	Master Mind
+01DE	Splint Mail
+01DF	Mumbane
+01E0	Golden Armor
+01E1	Iron Guard
+01E2	Solar Guard
+01E3	Prism Protector
+01E4	Magic Cloak
+01E5	Druid Cloak
+01E6	Queen Cloak
+01E7	Amber Robe
+01E8	Carnelian Robe
+01E9	Cerulean Robe
+01EA	Viridian Robe
+01EB	Duel Helm
+01EC	Golden Helm
+01ED	Rare Circlet
+01EE	Elemental Crest
+01EF	Aifread's Hat
+01F0	Ancient Ribbon
+01F1	Magical Ribbon
+01F2	Rare Bracelet
+01F3	Angel Bracelet
+01F4	Kaiser Bracelet
+01F5	Draupnir
+01F6	Snow Mittens
+01F7	Queen Mittens
+01F8	Sea Fire
+01F9	Dual Blaze
+01FA	Flambeau
+01FB	Virus Charm
+01FC	Stone Charm
+01FD	Poison Charm
+01FE	Seal Charm
+01FF	Paralysis Charm
+0200	Shock Charm
+0201	Weak Charm
+0202	Sleep Charm
+0203	Virus Periapt
+0204	Stone Periapt
+0205	Poison Periapt
+0206	Seal Periapt
+0207	Paralysis Periapt
+0208	Shock Periapt
+0209	Weak Periapt
+020A	Sleep Periapt
+020B	Amulet
+020C	Talisman
+020D	Blue Amulet
+020E	Blue Talisman
+020F	Garnet Ring
+0210	Ruby Ring
+0211	Aquamarine Ring
+0212	Opal Ring
+0213	Sapphire Ring
+0214	Sardonyx Ring
+0215	Topaz Ring
+0216	Amethyst Ring
+0217	Electrum Ring
+0218	Platinum Ring
+0219	Mythril Ring
+021A	Orichalcum Ring
+021B	Ring 13 (Dummy)
+021C	Ring 14 (Dummy)
+021D	Ring 15 (Dummy)
+021E	Heal Mark
+021F	Holy Mark
+0220	Mystic Mark
+0221	Spirit Mark
+0222	Mana Mark
+0223	Heal Symbol
+0224	Holy Symbol
+0225	Mystic Symbol
+0226	Spirit Symbol
+0227	Mana Symbol
+0228	Fire Cape
+0229	Earth Cape
+022A	Water Cape
+022B	Wind Cape
+022C	Ice Cape
+022D	Thunder Cape
+022E	Light Cape
+022F	Dark Cape
+0230	Cape
+0231	Leather Cape
+0232	Thief's Cape
+0233	Elven Cape
+0234	Surtr's Cape
+0235	Freyja's Cape
+0236	Aegir's Cape
+0237	Forseti's Cape
+0238	Ymir's Cape
+0239	Thor's Cape
+023A	Baldr's Cape
+023B	Woden's Cape
+023C	Boots
+023D	Leather Boots
+023E	Long Boots
+023F	Heavy Boots
+0240	Sturdy Boots
+0241	Feather Boots
+0242	Combat Boots
+0243	Studded Boots
+0244	Seven League Boots
+0245	Persian Boots
+0246	Garnet
+0247	Ruby
+0248	Aquamarine
+0249	Opal
+024A	Sapphire
+024B	Sardonyx
+024C	Topaz
+024D	Amethyst
+024E	Jewel 9 (Dummy)
+024F	Jewel 10 (Dummy)
+0250	Ground Breaker
+0251	Feral Shadow
+0252	Edge Walker
+0253	Arcanum Wings
+0254	Innocent Blood
+0255	Damnation
+0256	Lord of Chaos
+0257	Bright Flame
+0258	Heart Warden
+0259	Jihad
+
+Party Modification
+
+Spot 1 [Aesteval]
+004931E7 0000000X
+044931E8 AAAABBBB
+
+Spot 2 [Aesteval]
+004931EF 0000000X
+044931F0 AAAABBBB
+
+Spot 3 [Aesteval]
+004931F7 0000000X
+044931F8 AAAABBBB
+
+Spot 4 [Aesteval]
+004931FF 0000000X
+04493200 AAAABBBB
+
+Spot 5 [Aesteval]
+00493207 0000000X
+04493208 AAAABBBB
+
+Spot 6 [Aesteval]
+0049320F 0000000X
+04493210 AAAABBBB
+
+Spot 7 [Aesteval]
+00493217 0000000X
+04493218 AAAABBBB
+
+Spot 8 [Aesteval]
+0049321F 0000000X
+04493220 AAAABBBB
+
+Spot 9 [Aesteval]
+00493227 0000000X
+04493228 AAAABBBB
+
+Spot 10 [Aesteval]
+0049322F 0000000X
+04493230 AAAABBBB
+<!--!include:Party Mod Note-->
+
+Party Mod Note
+Based off of YCAT21's Party Mod code on the Japanese version. See Japanese version for valid data for AAAABBBB.
+X = 0/1 Character/Monster - designating a monster as a character can crash the game in certain circumstances
+AAAA = Some character data
+BBBB = Portrait and some other character data
+AAAABBBB can mix data from two separate characters. IE, you could have Richter's data with Presea's portrait and title in the menu.
+May not be able to access all party slots if there isn't already a character present in it.
+
+Artes Modifier
+
+Lloyd Artes Modifier [ShadowX39]
+044818D4 00XX00XX
+044818D8 00XX00XX
+You choose 4 Artes you want anyone to have and then you can choose between them in-battle. The character specific artes only have values for them alone sadly. All Misc artes should work with everyone, if it doesn't send me a message please.
+
+Colette Artes Modifier [ShadowX39]
+044819BC 00XX00XX
+044819C0 00XX00XX
+
+Genis Artes Modifier [ShadowX39]
+04481AA4 00XX00XX
+04481AA8 00XX00XX
+
+Raine Artes Modifier [ShadowX39]
+04481B8C 00XX00XX
+04481B90 00XX00XX
+
+Sheena Artes Modifier [ShadowX39]
+04481C74 00XX00XX
+04481C78 00XX00XX
+
+Zelos Artes Modifier [ShadowX39]
+04481D5C 00XX00XX
+04481D60 00XX00XX
+
+Presea Artes Modifier [ShadowX39]
+04481E44 00XX00XX
+04481E48 00XX00XX
+
+Regal Artes Modifier [ShadowX39]
+04481F2C 00XX00XX
+04481F30 00XX00XX
+Regal's Destroying Army Arte takes a while to finish and does few damage from what I remember. Obviously a beta!
+
+Emil Artes Modifier [ShadowX39]
+04482014 00XX00XX
+04482018 00XX00XX
+
+Marta Artes Modifier [ShadowX39]
+044820FC 00XX00XX
+04482100 00XX00XX
+
+Richter Artes Modifier [ShadowX39]
+044821E4 00XX00XX
+044821E8 00XX00XX
+Richter's Eternal Recurrence will make the screen white once it's finished until you win the battle.. you can do the Arte again and it will return to normal during the animation, then back to white.
+
+ARTES:
+Lloyd
+01 Demon Fang
+02 Double Demon Fang
+03 Tiger Blade
+04 Tiger Rage
+05 Sonic Thrust
+06 Sword Rain
+07 Tempest
+08 Beast
+09 Raging Beast
+0A Rising Falcon
+0B Divine Justice
+0C Sword Rain: Alpha
+0D Demonic Tiger Blade
+0E Raging Tiger Blade
+0F Blazing Tempest
+10 Rising Phoenix
+11 Auto Item
+
+Colette
+01 Pow Hammer
+02 Pow Pow Hammer
+03 Item Thief
+04 Ray Thrust
+05 Triple Ray Thrust
+06 Ring Whirlwind
+07 Whirlwind Rush
+08 Grand Chariot
+09 Stardust Cross
+0A Holy Judgment
+0B Auto Item
+
+Genis
+01 Indignation
+02 Auto Item
+
+Raine
+01 Sacred Shine
+02 Auto Item
+
+Sheena
+01 Pyre Seal
+02 Power Seal
+03 Serpent Seal
+04 Mirage Seal
+05 Life Seal
+06 Spirit Seal
+07 Demon Seal
+08 Cyclone Seal
+09 Quasi Seal
+0A Auto Item
+
+Zelos
+01 Demon Fang
+02 Hell Pyre
+03 Sonic Thrust
+04 Lightning Blade
+05 Light Spear
+06 Severing Wind
+07 Light Spear Cannon
+08 Demon Spear
+09 Shining Bind
+0A Auto Item
+
+Presea
+01 Destruction
+02 Punishment
+03 Dual Punishment
+04 Rising Punishment
+05 Infliction
+06 Resolute Infliction
+07 Devastation
+08 Mass Devastation
+09 Infinite Devastation
+0A Punishing Beast
+0B Eternal Damnation
+0C Infernal Ruin
+0D Crimson Devastation
+0E Auto Item
+
+Regal
+01 Triple Kick
+02 White Wolf
+03 Dragon Claws
+04 Crescent Moon
+05 Swallow Dance
+06 Dragon Surge
+07 Eagle Dive
+08 Triple Rage Kick
+09 Heavenly Dragon
+0A Heaven's Charge
+0B Roaring Havoc
+0C Coil
+0D Final Fury: Hungry Wolf
+0E Final Fury: Destroying Army
+0F Auto Item
+
+Emil
+01 Demon Fang
+02 Ravaging Tiger
+03 Savage Reaper
+04 Blade Fury
+05 Fiend Fusion
+06 Havoc Strike
+07 Phoenix Rush
+08 Raining Fangs
+09 Quake Assault
+0A Raging Thrust
+0B Heavenly Tempest
+0C Sword Rain: Alpha
+0D Light Spear Cannon
+0E Swallow Fury
+0F Dark Radiance
+10 Dual Death
+11 Converging Fury
+12 Raging Heaven
+13 Demon's Rage
+14 Roaring Tiger
+15 Devil's Maw
+16 Devil's Hellfire
+17 Ars Nova
+18 Ain Soph Aur
+19 Auto Item
+
+Marta
+01 Crescent Dance
+02 Dancing Swallow
+03 Swallow Waltz
+04 Roaring Phoenix
+05 Radiant Gale
+06 Tempest Swallow
+07 Remnant Strike
+08 Steel
+09 Ars Nova
+0A Radiant Roar
+0B Auto Item
+
+Richter
+01 Mortal Spring
+02 Mortal Autumn
+03 Enduring Spring
+04 Enduring Summer
+05 Mortal Winter
+06 Mortal Equinox
+07 Enduring Equinox
+08 Enduring Winter
+09 Mortal Summer
+0A Enduring Autumn
+0B Aqua Edge
+0C Eternal Recurrence
+0D Taunt
+
+Misc
+41 Fire Ball
+42 Stone Blast
+43 Aqua Edge
+44 Wind Blade
+45 Ice Needles
+46 Lightning
+47 Eruption
+48 Stalagmite
+49 Splash
+4A Turbulence
+4B Icicle Rain
+4C Thunder Blade
+4D Photon
+4E Negative Gate
+4F Explode
+50 Ground Dasher
+51 Blessed Drops
+52 Flare Tornado
+53 Absolute
+54 Indignation
+55 Divine Saber
+56 Bloody Howling
+57 Gravity Well
+58 Prism Sword
+59 Meteor Storm
+5A First Aid
+5B Dispel
+5C Charge
+5D Heal
+5E Healing Circle
+5F Recover
+60 Sharpness
+61 Barrier
+62 Enhance Cast
+63 Resist
+64 Cure
+65 Revitalize
+66 Resurrection
+67 Revive
+68 Holy Song
+69 Judgment
+6A Grand Cross
+6B Tidal Wave
+6C Cyclone
+6D Healing Wind
+6E Life
+6F Healer
+70 Sacred Shine
+71 Blazing Hearts
+72 Scare Shot
+73 Wild Fire
+74 Maelstrom
+75 Hurricane
+76 Catastrophe
+77 Final Punishment
+78 Avalanche
+79 Wrath of God
+7A Obliterate
+7B Radiant Roar
+7C Judgment
+
+Model Modifier
+
+Colette-In-Battle Models [ShadowX39]
+0579FDFC 089A7D45
+0579FE00 001D1400
+These are all in-battle models. It's possible to replace enemy/boss models with others. It loads that specific model's enemy/boss stats and you will fight them. You can also model swap any monster with anyone, including people like Alice with no freezes! You can make your own challenges by model swapping enemies you know will appear, like in the Battle Arena at Meltokio. These changes will also affect your own monsters, so you're free to use any of these characters yourself.
+
+Emil(Ratatosk) [ShadowX39]
+0579FE50 08A22845
+0579FE54 00336320
+
+Emil [ShadowX39]
+0579FE5C 08AF010D
+0579FE60 00336220
+
+Emil(Starting Outfit) [ShadowX39]
+0579FEE0 08BCA935
+0579FEE4 001098C0
+
+Genis [ShadowX39]
+0579FF64 08C19F05
+0579FF68 0015AEC0
+
+Lloyd [ShadowX39]
+0579FFB8 08C781D5
+0579FFBC 00181A60
+
+Marta [ShadowX39]
+057A000C 08CE1A2D
+057A0010 001E9220
+
+Presea [ShadowX39]
+057A0090 08D68AD5
+057A0094 00196800
+
+Raine [ShadowX39]
+057A00E4 08DD5BB5
+057A00E8 00137600
+
+Regal(Prisoner Outfit) [ShadowX39]
+057A0138 08E2BA55
+057A013C 001D0360
+
+Regal [ShadowX39]
+057A0144 08E9FB2D
+057A0148 001D3B40
+
+Richter [ShadowX39]
+057A01E0 08F1F23D
+057A01E4 00205CA0
+
+Sheena [ShadowX39]
+057A0234 08FA9BE5
+057A0238 0017B500
+
+Zelos [ShadowX39]
+057A0288 09012745
+057A028C 001BACE0
+
+Alice(1st) [ShadowX39]
+057A02F4 09091215
+057A02F8 001D0900
+This model is used for the first fight against her.
+
+Alice(2nd) [ShadowX39]
+057A0300 09105455
+057A0304 001D0900
+This second model might of been a planned but cut match.
+
+Alice(3rd) [ShadowX39]
+057A030C 09179695
+057A0310 001D0900
+This model is used for the last fight against her and Decus.
+
+Slime [ShadowX39]
+057A0318 091ED8D5
+057A031C 00046740
+
+Mousse [ShadowX39]
+057A0324 091FF2A5
+057A0328 000466A0
+
+Jelly [ShadowX39]
+057A0330 09210C4D
+057A0334 00046700
+
+Ooze [ShadowX39]
+057A033C 0922260D
+057A0340 000466C0
+
+Pudding [ShadowX39]
+057A0348 09233FBD
+057A034C 000477C0
+
+Slime Mold [ShadowX39]
+057A0354 09245DAD
+057A0358 00047900
+
+Giant Slime [ShadowX39]
+057A0360 09257BED
+057A0364 00048D60
+
+Ligeia [ShadowX39]
+057A036C 09269F45
+057A0370 0005F1E0
+
+Leech [ShadowX39]
+057A0378 09281BBD
+057A037C 00045AE0
+
+Poison Leech [ShadowX39]
+057A0384 09293275
+057A0388 00046A40
+
+Giant Leech [ShadowX39]
+057A0390 092A4D05
+057A0394 00064FE0
+
+Leech King [ShadowX39]
+057A039C 092BE0FD
+057A03A0 0004A5A0
+
+Blood Sucker [ShadowX39]
+057A03A8 092D0A65
+057A03AC 00046A20
+
+Blood Bound [ShadowX39]
+057A03B4 092E24ED
+057A03B8 00046FA0
+
+Gamat [ShadowX39]
+057A03C0 092F40D5
+057A03C4 0006F240
+
+Anemone [ShadowX39]
+057A03CC 0930FD65
+057A03D0 0006FA60
+
+Lunantisidhe [ShadowX39]
+057A03D8 0932BBFD
+057A03DC 00058B80
+
+Blue Rose [ShadowX39]
+057A03E4 09341EDD
+057A03E8 000574C0
+
+Incognito [ShadowX39]
+057A03F0 09357C0D
+057A03F4 00063500
+
+Tortoise [ShadowX39]
+057A03FC 0937094D
+057A0400 00089920
+
+Archelon [ShadowX39]
+057A0408 09392F95
+057A040C 00097400
+
+Megalith [ShadowX39]
+057A0414 093B8C95
+057A0418 0008A900
+
+Dark Steel [ShadowX39]
+057A0420 093DB6D5
+057A0424 0009CE80
+
+Zaratan [ShadowX39]
+057A042C 09402A75
+057A0430 00089E60
+
+Aspidoceleon [ShadowX39]
+057A0438 0942520D
+057A043C 0009AC00
+
+Sea Monk [ShadowX39]
+057A0444 0944BD0D
+057A0448 0009E520
+
+Kraken [ShadowX39]
+057A0450 09473655
+057A0454 0009E480
+
+Sea Bishop [ShadowX39]
+057A045C 0949AF75
+057A0460 0009E500
+
+Charybdis [ShadowX39]
+057A0468 094C28B5
+057A046C 0009E5E0
+
+Lusca [ShadowX39]
+057A0474 094EA22D
+057A0478 000A64C0
+
+Killer Fish [ShadowX39]
+057A0480 09513B5D
+057A0484 0003D360
+
+Giant Killer Fish [ShadowX39]
+057A048C 09523035
+057A0490 00051700
+
+Remora [ShadowX39]
+057A0498 095375F5
+057A049C 000B0F80
+
+Echeneis [ShadowX39]
+057A04A4 095639D5
+057A04A8 000B1480
+
+Barracuda [ShadowX39]
+057A04B0 0958FEF5
+057A04B4 000B8540
+
+Sea Hog [ShadowX39]
+057A04BC 095BE045
+057A04C0 000572C0
+
+Orca [ShadowX39]
+057A04C8 095D3CF5
+057A04CC 00056000
+
+Jasconius [ShadowX39]
+057A04D4 095E94F5
+057A04D8 0009DD40
+
+Merrow [ShadowX39]
+057A04E0 09610C45
+057A04E4 00078300
+
+Nixie [ShadowX39]
+057A04EC 0962ED05
+057A04F0 000780A0
+
+Selkie [ShadowX39]
+057A04F8 0964CD2D
+057A04FC 0007BC20
+
+Nereis [ShadowX39]
+057A0504 0966BC35
+057A0508 000A1FC0
+
+Asrai [ShadowX39]
+057A0510 09694425
+057A0514 00077900
+
+Rusalka [ShadowX39]
+057A051C 096B2265
+057A0520 00080DE0
+
+Siren(Aqua's Monster) [ShadowX39]
+057A0528 096D25DD
+057A052C 000747E0
+
+Polwigle [ShadowX39]
+057A0534 096EF7D5
+057A0538 00034B00
+
+Grindylow [ShadowX39]
+057A0540 096FCA95
+057A0544 000355C0
+
+Poseideon(Giant Polwigle) [ShadowX39]
+057A054C 0970A005
+057A0550 00047520
+
+Bullfrog [ShadowX39]
+057A0558 0971BD4D
+057A055C 000699E0
+
+Oannes [ShadowX39]
+057A0564 097363C5
+057A0568 0006C7E0
+
+Baal [ShadowX39]
+057A0570 097515BD
+057A0574 0006B540
+
+Heqet [ShadowX39]
+057A057C 0976C30D
+057A0580 000AB760
+
+Nazdrovie(Izoold Boss) [ShadowX39]
+057A0588 097970E5
+057A058C 0007E700
+
+Clay Golem [ShadowX39]
+057A0594 097B6AA5
+057A0598 00075360
+
+Golem [ShadowX39]
+057A05A0 097D3F7D
+057A05A4 00083D40
+
+Rock Golem [ShadowX39]
+057A05AC 097F4ECD
+057A05B0 00078860
+
+Mythril Golem [ShadowX39]
+057A05B8 098130E5
+057A05BC 00076320
+
+Talos [ShadowX39]
+057A05C4 098309AD
+057A05C8 000764A0
+
+Ice Titan [ShadowX39]
+057A05D0 0984E2D5
+057A05D4 00085C40
+
+Aramis(Alice's Pet) [ShadowX39]
+057A05DC 0986F9E5
+057A05E0 000811C0
+
+Poltergeist [ShadowX39]
+057A05E8 0988FE55
+057A05EC 0003E580
+
+Living Sword [ShadowX39]
+057A05F4 0989F7B5
+057A05F8 00045F20
+
+Machina [ShadowX39]
+057A0600 098B0F7D
+057A0604 00045180
+
+Mournblade [ShadowX39]
+057A060C 098C23DD
+057A0610 0007A9E0
+
+Made in Heaven [ShadowX39]
+057A0618 098E0E55
+057A061C 0005DCE0
+
+Automaton [ShadowX39]
+057A0624 098F858D
+057A0628 0004AFE0
+
+Colossus [ShadowX39]
+057A0630 0990B185
+057A0634 0009E1E0
+
+Goliath [ShadowX39]
+057A063C 099329FD
+057A0640 0009B040
+
+Gargoyle [ShadowX39]
+057A0648 0995960D
+057A064C 000915C0
+
+Epitaph [ShadowX39]
+057A0654 0997DB7D
+057A0658 0008F160
+
+Mimic [ShadowX39]
+057A0660 099A17D5
+057A0664 00093740
+
+Pandora [ShadowX39]
+057A066C 099C65A5
+057A0670 000941C0
+
+Shape Shifter [ShadowX39]
+057A0678 099EB615
+057A067C 000934E0
+
+Jaw Breaker [ShadowX39]
+057A0684 09A1034D
+057A0688 0005B200
+
+Igniter [ShadowX39]
+057A0690 09A26FCD
+057A0694 000612A0
+
+Muzzler [ShadowX39]
+057A069C 09A3F475
+057A06A0 00062100
+
+Enforcer [ShadowX39]
+057A06A8 09A57CB5
+057A06AC 0006D080
+
+Liberator [ShadowX39]
+057A06B4 09A730D5
+057A06B8 0006FDC0
+
+Thinker [ShadowX39]
+057A06C0 09A8F045
+057A06C4 0006ECA0
+
+Punisher [ShadowX39]
+057A06CC 09AAAB6D
+057A06D0 0006F820
+
+Vortex(Aqua's Monster) [ShadowX39]
+057A06D8 09AC6975
+057A06DC 0006C260
+
+Purger [ShadowX39]
+057A06E4 09AE1A0D
+057A06E8 00071BE0
+
+Awakner [ShadowX39]
+057A06F0 09AFE105
+057A06F4 000749E0
+
+Wind Master Prime(Wind Temple Boss) [ShadowX39]
+057A06FC 09B1B37D
+057A0700 00172100
+
+Brute [ShadowX39]
+057A0708 09B77BBD
+057A070C 001F92E0
+
+Wolf [ShadowX39]
+057A0714 09BF6075
+057A0718 000639C0
+
+Black Wolf [ShadowX39]
+057A0720 09C0EEE5
+057A0724 00063A40
+
+Hell Hound [ShadowX39]
+057A072C 09C27D75
+057A0730 00096C00
+
+Padfoot [ShadowX39]
+057A0738 09C4D875
+057A073C 000C7900
+
+Athos(Alice's Pet) [ShadowX39]
+057A0744 09C7F6B5
+057A0748 000C8480
+
+Fenrir [ShadowX39]
+057A0750 09CB17D5
+057A0754 000DC060
+
+Orion [ShadowX39]
+057A075C 09CE87ED
+057A0760 000DBDE0
+
+Cerberus [ShadowX39]
+057A0768 09D1F765
+057A076C 000AD600
+
+Bear [ShadowX39]
+057A0774 09D4ACE5
+057A0778 000978A0
+
+Grisley [ShadowX39]
+057A0780 09D70B0D
+057A0784 00097880
+
+Cave Bear [ShadowX39]
+057A078C 09D9692D
+057A0790 000978A0
+
+Lucrezia(First Fight) [ShadowX39]
+057A0798 09DBC755
+057A079C 00094DC0
+
+Were Bear [ShadowX39]
+057A07A4 09DE1AC5
+057A07A8 000C67E0
+
+Wolf Heddin [ShadowX39]
+057A07B0 09E134BD
+057A07B4 000C7B40
+
+Galf Beast [ShadowX39]
+057A07BC 09E4538D
+057A07C0 00097E80
+
+Wild Rabbit [ShadowX39]
+057A07C8 09E6B32D
+057A07CC 000BF820
+
+Cotton Tail [ShadowX39]
+057A07D4 09E9B135
+057A07D8 000C0920
+
+Carbuncle [ShadowX39]
+057A07E0 09ECB37D
+057A07E4 000C0F20
+
+Vorpal Bunny [ShadowX39]
+057A07EC 09EFB745
+057A07F0 000BF7C0
+
+Micasa [ShadowX39]
+057A07F8 09F2B535
+057A07FC 000C0D40
+
+Porthos(Alice's Pet) [ShadowX39]
+057A0804 09F5B885
+057A0808 000BD140
+
+Peallaidh [ShadowX39]
+057A0810 09F8ACD5
+057A0814 0009F6C0
+
+Gunna [ShadowX39]
+057A081C 09FB2A85
+057A0820 000A1720
+
+Ogre [ShadowX39]
+057A0828 09FDB04D
+057A082C 000F9BC0
+
+Red Ogre [ShadowX39]
+057A0834 0A01973D
+057A0838 000F8F20
+
+Yeti [ShadowX39]
+057A0840 0A057B05
+057A0844 000F8760
+
+Mirka(Ice Temple Boss) [ShadowX39]
+057A084C 0A095CDD
+057A0850 0015A100
+
+Firbolg [ShadowX39]
+057A0858 0A0EC51D
+057A085C 0009E5E0
+
+Titan [ShadowX39]
+057A0864 0A113E95
+057A0868 000A2820
+
+Serpent [ShadowX39]
+057A0870 0A13C89D
+057A0874 00079680
+
+Viper [ShadowX39]
+057A087C 0A15AE3D
+057A0880 0007F9A0
+
+Kosh [ShadowX39]
+057A0888 0A17ACA5
+057A088C 00071320
+
+Lizard [ShadowX39]
+057A0894 0A19716D
+057A0898 000A2FE0
+
+Basilisk [ShadowX39]
+057A08A0 0A1BFD65
+057A08A4 00075FA0
+
+Salamander [ShadowX39]
+057A08AC 0A1DD54D
+057A08B0 0007CA20
+
+Chimera [ShadowX39]
+057A08B8 0A1FC7D5
+057A08BC 0009D300
+
+Kitty Kat [ShadowX39]
+057A08C4 0A223C95
+057A08C8 0009F4A0
+
+Elaphebolion(Giant Chimera) [ShadowX39]
+057A08D0 0A24B9BD
+057A08D4 000A1220
+
+Manticore [ShadowX39]
+057A08DC 0A273E45
+057A08E0 000E1560
+
+Sphinx [ShadowX39]
+057A08E8 0A2AC39D
+057A08EC 000DBCA0
+
+Griffin [ShadowX39]
+057A08F4 0A2E32C5
+057A08F8 00099D20
+
+Hippogryph [ShadowX39]
+057A0900 0A309A0D
+057A0904 00080F60
+
+Helion(Alice's Pet) [ShadowX39]
+057A090C 0A329DE5
+057A0910 000AA820
+
+Colette [ShadowX39]
+057A0918 0A3547ED
+057A091C 001EFA60
+It seems Colette was planned to be a boss/enemy but got cut.
+
+Magnar(1st) [ShadowX39]
+057A0924 0A3D0685
+057A0928 000B9BA0
+This is used the first time you fight him.
+
+Imp [ShadowX39]
+057A0930 0A3FED6D
+057A0934 00078440
+
+Pit Fiend [ShadowX39]
+057A093C 0A41CE7D
+057A0940 000769A0
+
+Cacodemon [ShadowX39]
+057A0948 0A43A8E5
+057A094C 00076D00
+
+Pied Piper [ShadowX39]
+057A0954 0A458425
+057A0958 0007A560
+
+Gremlin [ShadowX39]
+057A0960 0A476D7D
+057A0964 00077EA0
+
+Skirophorion(Giant Imp) [ShadowX39]
+057A096C 0A494D25
+057A0970 000779A0
+
+Demon [ShadowX39]
+057A0978 0A4B2B8D
+057A097C 000A3D20
+
+Archdemon [ShadowX39]
+057A0984 0A4DBAD5
+057A0988 000A7820
+
+Vroom [ShadowX39]
+057A0990 0A5058DD
+057A0994 000A8C00
+
+Corduroy(Lightning Temple Boss) [ShadowX39]
+057A099C 0A52FBDD
+057A09A0 000A86E0
+
+Lamina [ShadowX39]
+057A09A8 0A559D95
+057A09AC 00081380
+
+Graeae [ShadowX39]
+057A09B4 0A57A275
+057A09B8 00085080
+
+Erinyes [ShadowX39]
+057A09C0 0A59B695
+057A09C4 00077260
+
+Gorgon [ShadowX39]
+057A09CC 0A5B932D
+057A09D0 00083780
+
+Echidna [ShadowX39]
+057A09D8 0A5DA10D
+057A09DC 00075120
+
+Moirae [ShadowX39]
+057A09E4 0A5F7555
+057A09E8 00083DC0
+
+Ruby Dear [ShadowX39]
+057A09F0 0A6184C5
+057A09F4 000882E0
+
+Decus(1st) [ShadowX39]
+057A09FC 0A63A57D
+057A0A00 002356A0
+This model is used for the first fight against him.
+
+Decus(2nd) [ShadowX39]
+057A0A08 0A6C7B25
+057A0A0C 002356C0
+This model is used for the last fight against him and Alice.
+
+Fire Drake [ShadowX39]
+057A0A14 0A7550D5
+057A0A18 00071A60
+
+Wyvern [ShadowX39]
+057A0A20 0A77176D
+057A0A24 0006F900
+
+Sea Wyvern [ShadowX39]
+057A0A2C 0A78D5AD
+057A0A30 00072EC0
+
+Wyvern Lord [ShadowX39]
+057A0A38 0A7AA15D
+057A0A3C 00072E80
+
+Vouivre [ShadowX39]
+057A0A44 0A7C6CFD
+057A0A48 00071A20
+
+Ishrantu [ShadowX39]
+057A0A50 0A7E3385
+057A0A54 00074AA0
+
+Bakunawa [ShadowX39]
+057A0A5C 0A80062D
+057A0A60 00077920
+
+Were Dragon [ShadowX39]
+057A0A68 0A81E475
+057A0A6C 000CB940
+
+Elder Dragon [ShadowX39]
+057A0A74 0A8512C5
+057A0A78 000CB3A0
+
+Tiamat [ShadowX39]
+057A0A80 0A883FAD
+057A0A84 000CC6C0
+
+Blade Rex [ShadowX39]
+057A0A8C 0A8B715D
+057A0A90 000CBB00
+
+Schizos(Fought with Richter) [ShadowX39]
+057A0A98 0A8EA01D
+057A0A9C 000C6BA0
+
+Shadow Dragon [ShadowX39]
+057A0AA4 0A91BB05
+057A0AA8 000E1FC0
+
+Wyrm [ShadowX39]
+057A0AB0 0A9542F5
+057A0AB4 000C5D00
+
+Fafnir [ShadowX39]
+057A0ABC 0A985A35
+057A0AC0 000E95C0
+
+Jormungandr [ShadowX39]
+057A0AC8 0A9BFFA5
+057A0ACC 000AE540
+
+Hydra [ShadowX39]
+057A0AD4 0A9EB8F5
+057A0AD8 000A2F20
+
+Ladon(Aqua's Monster) [ShadowX39]
+057A0AE0 0AA144BD
+057A0AE4 000A40E0
+
+Ratatosk(Final Fight) [ShadowX39]
+057A0AEC 0AA3D4F5
+057A0AF0 0034E660
+
+Chirpee [ShadowX39]
+057A0AF8 0AB10E8D
+057A0AFC 00046560
+
+Jabber [ShadowX39]
+057A0B04 0AB227E5
+057A0B08 0003FF00
+
+Peepit [ShadowX39]
+057A0B10 0AB327A5
+057A0B14 00046EC0
+
+Thargelion(Giant Chirpee) [ShadowX39]
+057A0B1C 0AB44355
+057A0B20 0003AFC0
+
+Raven [ShadowX39]
+057A0B28 0AB52F45
+057A0B2C 000572E0
+
+Phoenix [ShadowX39]
+057A0B34 0AB68BFD
+057A0B38 00057F60
+
+Izimbra [ShadowX39]
+057A0B40 0AB7EBD5
+057A0B44 0006BA80
+
+Garuda(Asgard Boss) [ShadowX39]
+057A0B4C 0AB99A75
+057A0B50 000699C0
+
+Simurgh [ShadowX39]
+057A0B58 0ABB40E5
+057A0B5C 00098700
+
+Axe Beak [ShadowX39]
+057A0B64 0ABDA2A5
+057A0B68 000A2800
+
+Aepyornis [ShadowX39]
+057A0B70 0AC02CA5
+057A0B74 000A3B60
+
+Dodo [ShadowX39]
+057A0B7C 0AC2BB7D
+057A0B80 000A2BE0
+
+Cockatrice [ShadowX39]
+057A0B88 0AC54675
+057A0B8C 000A36E0
+
+Moon Rocks [ShadowX39]
+057A0B94 0AC7D42D
+057A0B98 00088CC0
+
+Roc [ShadowX39]
+057A0BA0 0AC9F75D
+057A0BA4 000707E0
+
+Harpy [ShadowX39]
+057A0BAC 0ACBB955
+057A0BB0 000DC800
+
+Furie [ShadowX39]
+057A0BB8 0ACF2B55
+057A0BBC 000DC6E0
+
+Seiren [ShadowX39]
+057A0BC4 0AD29D0D
+057A0BC8 000DC2E0
+
+Aello [ShadowX39]
+057A0BD0 0AD60DC5
+057A0BD4 000DDAE0
+
+Fenia [ShadowX39]
+057A0BDC 0AD9847D
+057A0BE0 0007FCE0
+
+Black Bat [ShadowX39]
+057A0BE8 0ADB83B5
+057A0BEC 000777A0
+
+Light Wing [ShadowX39]
+057A0BF4 0ADD619D
+057A0BF8 00077DE0
+
+Were Bat [ShadowX39]
+057A0C00 0ADF4115
+057A0C04 000782A0
+
+Maimakterion(Giant Black Bat) [ShadowX39]
+057A0C0C 0AE121BD
+057A0C10 0007F660
+
+Dire Bat [ShadowX39]
+057A0C18 0AE31F55
+057A0C1C 00078480
+
+Dogma [ShadowX39]
+057A0C24 0AE50075
+057A0C28 0009A1C0
+
+Genis [ShadowX39]
+057A0C30 0AE768E5
+057A0C34 001A2520
+More possible boss/enemy data but was cut. Works fine though.
+
+Zombie [ShadowX39]
+057A0C3C 0AEDF22D
+057A0C40 0014D5A0
+
+Corpse [ShadowX39]
+057A0C48 0AF32795
+057A0C4C 0014E640
+
+Ghoul [ShadowX39]
+057A0C54 0AF86125
+057A0C58 0014D7E0
+
+Skeleton [ShadowX39]
+057A0C60 0AFD971D
+057A0C64 000C2FC0
+
+Cross Bone [ShadowX39]
+057A0C6C 0B00A30D
+057A0C70 000C2B60
+
+Bastiage [ShadowX39]
+057A0C78 0B03ADE5
+057A0C7C 00157C80
+
+Dullahan [ShadowX39]
+057A0C84 0B090D05
+057A0C88 00071F00
+
+Night Stalker [ShadowX39]
+057A0C90 0B0AD4C5
+057A0C94 00079320
+
+Crusader [ShadowX39]
+057A0C9C 0B0CB98D
+057A0CA0 00072C60
+
+Dark Rider [ShadowX39]
+057A0CA8 0B0E84A5
+057A0CAC 000CB260
+
+Pale Rider [ShadowX39]
+057A0CB4 0B11B13D
+057A0CB8 000CB9C0
+
+Sword Dancer [ShadowX39]
+057A0CC0 0B14DFAD
+057A0CC4 000E5F00
+
+Ghost [ShadowX39]
+057A0CCC 0B18776D
+057A0CD0 0005D200
+
+Haunt [ShadowX39]
+057A0CD8 0B19EBED
+057A0CDC 0005CB80
+
+Banshee [ShadowX39]
+057A0CE4 0B1B5ECD
+057A0CE8 0005CE60
+
+Boedromion(Giant Ghost) [ShadowX39]
+057A0CF0 0B1CD265
+057A0CF4 00062D20
+
+Phantom [ShadowX39]
+057A0CFC 0B1E5DAD
+057A0D00 00134380
+
+Wraith [ShadowX39]
+057A0D08 0B232E8D
+057A0D0C 00110420
+
+Undertaker [ShadowX39]
+057A0D14 0B276F95
+057A0D18 00085520
+
+Grave Digger [ShadowX39]
+057A0D20 0B2984DD
+057A0D24 0008BA80
+
+Ravenous [ShadowX39]
+057A0D2C 0B2BB37D
+057A0D30 0008CEC0
+
+Hawk(1st) [ShadowX39]
+057A0D38 0B2DE72D
+057A0D3C 0011E600
+First time you fight him.
+
+Hawk(2nd) [ShadowX39]
+057A0D44 0B3260AD
+057A0D48 0011E600
+Last time you fight him.
+
+Bumble Bee [ShadowX39]
+057A0D50 0B36DA2D
+057A0D54 00048180
+
+Killer Bee [ShadowX39]
+057A0D5C 0B37FA8D
+057A0D60 00048320
+
+Hornet [ShadowX39]
+057A0D68 0B391B55
+057A0D6C 00049460
+
+Queen [ShadowX39]
+057A0D74 0B3A406D
+057A0D78 0004BE80
+
+Scorpion [ShadowX39]
+057A0D80 0B3B700D
+057A0D84 000801C0
+
+Antares [ShadowX39]
+057A0D8C 0B3D707D
+057A0D90 0007FE80
+
+Girtablili [ShadowX39]
+057A0D98 0B3F701D
+057A0D9C 00088020
+
+Killer Mantis [ShadowX39]
+057A0DA4 0B419025
+057A0DA8 0008CC00
+
+Lumber Jack [ShadowX39]
+057A0DB0 0B43C325
+057A0DB4 0008BA40
+
+Popsickle [ShadowX39]
+057A0DBC 0B45F1B5
+057A0DC0 0008BB60
+
+Crawler [ShadowX39]
+057A0DC8 0B48208D
+057A0DCC 000C2380
+
+Caterpillar [ShadowX39]
+057A0DD4 0B4B296D
+057A0DD8 000C24C0
+
+Embryo [ShadowX39]
+057A0DE0 0B4E329D
+057A0DE4 000C2460
+
+Habetrot [ShadowX39]
+057A0DEC 0B513BB5
+057A0DF0 000C2360
+
+Neurotica [ShadowX39]
+057A0DF8 0B54448D
+057A0DFC 000C96E0
+
+Lookin(Earth Temple Boss) [ShadowX39]
+057A0E04 0B576A45
+057A0E08 000CC880
+
+Giant Crawler [ShadowX39]
+057A0E10 0B5A9C65
+057A0E14 000C8280
+
+Stone Eater [ShadowX39]
+057A0E1C 0B5DBD05
+057A0E20 000A68A0
+
+Rock Eater [ShadowX39]
+057A0E28 0B60572D
+057A0E2C 000A4FA0
+
+Island Worm [ShadowX39]
+057A0E34 0B62EB15
+057A0E38 000A0FE0
+
+Earth Eater [ShadowX39]
+057A0E40 0B656F0D
+057A0E44 0009F400
+
+Mia Culpa [ShadowX39]
+057A0E4C 0B67EC0D
+057A0E50 000A00A0
+
+Manitou(Water Temple Boss) [ShadowX39]
+057A0E58 0B6A6C35
+057A0E5C 000B5280
+
+Spider [ShadowX39]
+057A0E64 0B6D40D5
+057A0E68 00092DA0
+
+Tarantula [ShadowX39]
+057A0E70 0B6F8C3D
+057A0E74 00092D40
+
+Pit Spider [ShadowX39]
+057A0E7C 0B71D78D
+057A0E80 00090620
+
+Arachne [ShadowX39]
+057A0E88 0B741915
+057A0E8C 00090600
+
+Simoriah [ShadowX39]
+057A0E94 0B765A95
+057A0E98 000A2C80
+
+Lloyd [ShadowX39]
+057A0EA0 0B78E5B5
+057A0EA4 0018B860
+This is used whenever you fight him.
+
+Magnar(2nd) [ShadowX39]
+057A0EAC 0B7F13CD
+057A0EB0 0011AD40
+Either you fight him 3 times or this was a left out match.
+
+Magnar(3rd) [ShadowX39]
+057A0EB8 0B837F1D
+057A0EBC 0011ADE0
+This is used the last time you fight him.
+
+Marta [ShadowX39]
+057A0EC4 0B87EA95
+057A0EC8 001EC800
+Used for the fight against her and Lloyd.
+
+Album Atrum(Twilight Palace Boss) [ShadowX39]
+057A0ED0 0B8F9C95
+057A0ED4 001D5060
+
+Album Atrum(Gladsheim Boss) [ShadowX39]
+057A0EDC 0B96F0AD
+057A0EE0 001D5060
+
+Martel Knights(1st) [ShadowX39]
+057A0EE8 0B9E44C5
+057A0EEC 0005EDA0
+Might be of the Church of Martel.
+
+Martel Knights(2nd) [ShadowX39]
+057A0EF4 0B9FC02D
+057A0EF8 0005F5A0
+Looks like the sidequest one.
+
+Swordsman(Froos) [ShadowX39]
+057A0F00 0BA13D95
+057A0F04 0005AC20
+Sidequest character. ShadowX39
+
+A Mercenary(Sasaki) [ShadowX39]
+057A0F0C 0BA2A89D
+057A0F10 0005E420
+Sidequest character.
+
+City Watch [ShadowX39]
+057A0F18 0BA421A5
+057A0F1C 0006A7E0
+Sidequest character.
+
+Civilian [ShadowX39]
+057A0F24 0BA5CB9D
+057A0F28 0005E760
+Sidequest character.
+
+Vanguard(1st) [ShadowX39]
+057A0F30 0BA74575
+057A0F34 00064D00
+
+Vanguard(2nd) [ShadowX39]
+057A0F3C 0BA8D8B5
+057A0F40 00064B00
+
+Thief [ShadowX39]
+057A0F48 0BAA6B75
+057A0F4C 00066B80
+Sidequest character, the nice guy.
+
+Christopher [ShadowX39]
+057A0F54 0BAC0655
+057A0F58 00062E80
+Sidequest character, one of the group.
+
+Vanguard(3rd) [ShadowX39]
+057A0F60 0BAD91F5
+057A0F64 00060BC0
+
+Vanguard(4th) [ShadowX39]
+057A0F6C 0BAF14E5
+057A0F70 00060C40
+
+Female Vanguard(1st) [ShadowX39]
+057A0F78 0BB097F5
+057A0F7C 000660E0
+
+Female Vanguard(2nd) [ShadowX39]
+057A0F84 0BB2302D
+057A0F88 00065EE0
+
+Female Vanguard(3rd) [ShadowX39]
+057A0F90 0BB3C7E5
+057A0F94 00063E00
+
+Female Vanguard(4th) [ShadowX39]
+057A0F9C 0BB55765
+057A0FA0 00063F00
+
+Melissa [ShadowX39]
+057A0FA8 0BB6E725
+057A0FAC 00062580
+Sidequest character, the girl of the group.
+
+Filifolia [ShadowX39]
+057A0FB4 0BB87085
+057A0FB8 000591E0
+
+Caerurea [ShadowX39]
+057A0FC0 0BB9D4FD
+057A0FC4 00059240
+
+Pyanopsion(Giant Filifolia) [ShadowX39]
+057A0FCC 0BBB398D
+057A0FD0 0005FF80
+
+Orcrot [ShadowX39]
+057A0FD8 0BBCB96D
+057A0FDC 00092DA0
+
+Bartek(Fire Temple Boss) [ShadowX39]
+057A0FE4 0BBF04D5
+057A0FE8 0008E840
+
+Treant [ShadowX39]
+057A0FF0 0BC13EE5
+057A0FF4 000736E0
+
+Mandocello [ShadowX39]
+057A0FFC 0BC30C9D
+057A1000 0008DA20
+
+Gerichtslinde(Iselia Human Ranch Boss) [ShadowX39]
+057A1008 0BC54325
+057A100C 000898A0
+
+Fungus [ShadowX39]
+057A1014 0BC7694D
+057A1018 00069D40
+
+Marcoid [ShadowX39]
+057A1020 0BC9109D
+057A1024 00069DE0
+
+Stinkhorn [ShadowX39]
+057A102C 0BCAB815
+057A1030 0006B200
+
+Giant Fungus [ShadowX39]
+057A1038 0BCC6495
+057A103C 0006B3C0
+
+Toadstool [ShadowX39]
+057A1044 0BCE1185
+057A1048 00081720
+
+Vaudeville [ShadowX39]
+057A1050 0BD0174D
+057A1054 0008E5A0
+
+Amanita(Camberto Caves Boss) [ShadowX39]
+057A105C 0BD250B5
+057A1060 000856A0
+
+Etheliana [ShadowX39]
+057A1068 0BD4665D
+057A106C 0004ADC0
+
+Gracilis [ShadowX39]
+057A1074 0BD591CD
+057A1078 0004B060
+
+Shallow Grave [ShadowX39]
+057A1080 0BD6BDE5
+057A1084 00061360
+
+Hirsuta(Iselia Human Ranch Boss) [ShadowX39]
+057A108C 0BD842BD
+057A1090 0005E360
+
+Truncata [ShadowX39]
+057A1098 0BD9BB95
+057A109C 000BADE0
+
+Dionaea [ShadowX39]
+057A10A4 0BDCA70D
+057A10A8 000B6BE0
+
+Mandragora [ShadowX39]
+057A10B0 0BDF8205
+057A10B4 00073440
+
+Alraune [ShadowX39]
+057A10BC 0BE14F15
+057A10C0 00083DC0
+
+Korrigan [ShadowX39]
+057A10C8 0BE35E85
+057A10CC 00083B40
+
+Hamadryad [ShadowX39]
+057A10D4 0BE56D55
+057A10D8 000665C0
+
+Puck [ShadowX39]
+057A10E0 0BE706C5
+057A10E4 00065760
+
+Lailah [ShadowX39]
+057A10EC 0BE89C9D
+057A10F0 0006D0A0
+
+Presea [ShadowX39]
+057A10F8 0BEA50C5
+057A10FC 001C3D80
+Another possible enemy/boss data left out, works though.
+
+Raine [ShadowX39]
+057A1104 0BF16025
+057A1108 0013BE60
+
+Regal [ShadowX39]
+057A1110 0BF64FBD
+057A1114 001FAF20
+
+Richter(1st) [ShadowX39]
+057A111C 0BFE3B85
+057A1120 0021FEC0
+First fight against him.
+
+Richter(Final Boss) [ShadowX39]
+057A1128 0C06BB35
+057A112C 00217580
+
+Richter(2nd) [ShadowX39]
+057A1134 0C0F1895
+057A1138 0021FFA0
+Second fight against him.
+
+Sheena [ShadowX39]
+057A1140 0C17987D
+057A1144 001872E0
+
+Zelos [ShadowX39]
+057A114C 0C1DB535
+057A1150 001BD5A0
+
+Alice-On Map+Cutscene Models [ShadowX39]
+057A1CA4 0C6B554C
+057A1CA8 000458BF
+057A1CB0 0C6C6B7C
+057A1CB4 00000468
+Starting from here are on-map+cutscene models.
+
+Decus [ShadowX39]
+057A1D10 0C70AC9C
+057A1D14 0005BFD7
+057A1D1C 0C721C92
+057A1D20 00000150
+
+Brute [ShadowX39]
+057A1CEC 0C6EAAA5
+057A1CF0 00040C51
+057A1CF8 0C6FADBA
+057A1CFC 00000D60
+
+Yuan Ka-Fai [ShadowX39]
+057A2064 0CACD422
+057A2068 00018C47
+057A2070 0CAD3734
+057A2074 0000065C
+
+Emil [ShadowX39]
+057A1C8C 0011E000
+057A1C90 000AD2C3
+057A1C98 001494B1
+057A1C9C 000005CC
+
+Emil(Starting Outfit) [ShadowX39]
+057A3510 00217EAB
+057A3514 000735DB
+057A351C 00234C22
+057A3520 00000150
+
+Emil(Aster Suit) [ShadowX39]
+057A1CD4 0C6D7BF4
+057A1CD8 0004B48D
+057A1CE0 0C6EA918
+057A1CE4 00000634
+
+Marta [ShadowX39]
+057A2880 00149624
+057A2884 0006345E
+057A288C 0016233C
+057A2890 00000620
+
+Lloyd [ShadowX39]
+057A2850 001624C4
+057A2854 0003CCEE
+057A285C 00171800
+057A2860 00000028
+
+Lloyd(Fake One) [ShadowX39]
+057A354C 00250FB9
+057A3550 0003A4A3
+057A3558 0025F8E2
+057A355C 00000028
+
+Colette [ShadowX39]
+057A1AA0 0017180A
+057A1AA4 00058F0B
+057A1AAC 00187BCD
+057A1AB0 000004EC
+
+Genis [ShadowX39]
+057A21C0 00187D08
+057A21C4 0004F35B
+057A21CC 0019B9DF
+057A21D0 000003F0
+
+Raine [ShadowX39]
+057A3750 0019BADB
+057A3754 00041B41
+057A375C 001AC1AC
+057A3760 000004F8
+
+Sheena [ShadowX39]
+057A37A4 001CA369
+057A37A8 00043C6B
+057A37B0 001DB284
+057A37B4 00000150
+
+Zelos [ShadowX39]
+057A3834 001DB2D8
+057A3838 00047E36
+057A3840 001ED266
+057A3844 000004DC
+
+Presea [ShadowX39]
+057A3738 001BB97A
+057A373C 0003A419
+057A3744 001CA281
+057A3748 000003A0
+
+Regal [ShadowX39]
+057A3768 001AC2EA
+057A376C 0003D7E0
+057A3774 001BB8E2
+057A3778 00000260
+
+Regal(Suit) [ShadowX39]
+057A35A0 001ED39D
+057A35A4 0003D57F
+057A35AC 001FC8FD
+057A35B0 000002A8
+
+Richter [ShadowX39]
+057A3780 001FCB6A
+057A3784 0004EAC2
+057A378C 001FC9A7
+057A3790 0000070C
+
+Richter(Used in Scenes) [ShadowX39]
+057A201C 0CAAAD59
+057A2020 00053C75
+057A2028 0CABFC77
+057A202C 0000070C
+
+Richter(Last Boss) [ShadowX39]
+057A2034 0CABFE3A
+057A2038 000354DF
+057A2040 0CACD372
+057A2044 000002C0
+
+Aqua [ShadowX39]
+057A1CBC 0C6C6C96
+057A1CC0 00043B4D
+057A1CC8 0C6D7B6A
+057A1CCC 00000228
+You will be able to swap models with others using these codes. Code Example below.
+
+Marta is Colette [ShadowX39]
+057A000C 089A7D45
+057A0010 001D1400
+057A2880 0017180A
+057A2884 00058F0B
+057A288C 00187BCD
+057A2890 000004EC
+This will make Marta look and battle like Colette but with her stats and skills intact. Remove the first 2 lines of the code to remove that feature and only have it so Marta will be switched with Colette on the field and in cut scenes. One note for in-battle swapping.. special victory poses will cause freezing, only swapping Presea's in-battle model happens to be freeze free completely. The on-map and cut scene models should all be freeze free.
+
+Name Modifier
+
+Rename Emil [Aesteval]
+02481F4E 0000AABB
+04481F50 CCDDEEFF
+04481F54 GGHHIIJJ
+04481F58 KKLLMMNN
+04481F5C OOPPQQRR
+
+Rename Marta [Aesteval]
+02482036 0000AABB
+04482038 CCDDEEFF
+0448203C GGHHIIJJ
+04482040 KKLLMMNN
+04482044 OOPPQQRR
+
+Rename Richter [Aesteval]
+0248211E 0000AABB
+04482120 CCDDEEFF
+04482124 GGHHIIJJ
+04482128 KKLLMMNN
+0448212C OOPPQQRR
+
+Rename Colette [Aesteval]
+024818F6 0000AABB
+044818F8 CCDDEEFF
+044818FC GGHHIIJJ
+04481900 KKLLMMNN
+04481904 OOPPQQRR
+
+Rename Lloyd [Aesteval]
+0248180E 0000AABB
+04481810 CCDDEEFF
+04481814 GGHHIIJJ
+04481818 KKLLMMNN
+0448181C OOPPQQRR
+
+Rename Genis [Aesteval]
+024819DE 0000AABB
+044819E0 CCDDEEFF
+044819E4 GGHHIIJJ
+044819E8 KKLLMMNN
+044819EC OOPPQQRR
+
+Rename Raine [Aesteval]
+02481AC6 0000AABB
+04481AC8 CCDDEEFF
+04481ACC GGHHIIJJ
+04481AD0 KKLLMMNN
+04481AD4 OOPPQQRR
+
+Rename Sheena [Aesteval]
+02481BAE 0000AABB
+04481BB0 CCDDEEFF
+04481BB4 GGHHIIJJ
+04481BB8 KKLLMMNN
+04481BBC OOPPQQRR
+
+Rename Zelos [Aesteval]
+02481C96 0000AABB
+04481C98 CCDDEEFF
+04481C9C GGHHIIJJ
+04481CA0 KKLLMMNN
+04481CA4 OOPPQQRR
+
+Rename Presea [Aesteval]
+02481D7E 0000AABB
+04481D80 CCDDEEFF
+04481D84 GGHHIIJJ
+04481D88 KKLLMMNN
+04481D8C OOPPQQRR
+
+Rename Regal [Aesteval]
+02481E66 0000AABB
+04481E68 CCDDEEFF
+04481E6C GGHHIIJJ
+04481E70 KKLLMMNN
+04481E74 OOPPQQRR
+
+Rename Monster 1 [Aesteval]
+02482206 0000AABB
+04482208 CCDDEEFF
+0448220C GGHHIIJJ
+04482210 KKLLMMNN
+04482214 OOPPQQRR
+
+Rename Monster 2 [Aesteval]
+024822EE 0000AABB
+044822F0 CCDDEEFF
+044822F4 GGHHIIJJ
+044822F8 KKLLMMNN
+044822FC OOPPQQRR
+
+Rename Monster 3 [Aesteval]
+024823D6 0000AABB
+044823D8 CCDDEEFF
+044823DC GGHHIIJJ
+044823E0 KKLLMMNN
+044823E4 OOPPQQRR
+
+Rename Monster 4 [Aesteval]
+024824BE 0000AABB
+044824C0 CCDDEEFF
+044824C4 GGHHIIJJ
+044824C8 KKLLMMNN
+044824CC OOPPQQRR
+<!--!include:Name Mod Note-->
+
+Name Mod Note
+For AA, BB, etc.: Convert letters into numeric ascii values and then convert the numeric ascii values into hex; or type name into a basic barebones text file, open the text file in a hex editor, and copy the hex values. Leave values as 00 for null/blank/empty positions.

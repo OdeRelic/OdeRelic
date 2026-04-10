@@ -1,0 +1,421 @@
+STQP01
+Inazuma Eleven Strikers
+
+Button Activator [Bully@Wiiplaza]
+286663DA YYYYZZZZ
+
+Time Control [Bully@Wiiplaza]
+0405457C 7C040214
+04054580 60000000
+286663DA F9FF0600
+0405457C 3C007FFF
+04054580 90050004
+E0000000 80008000
+*Press 1 + B to end half time, otherwise you can play forever*
+*Video: http://www.youtube.com/watch?v=80KINu7PDag
+
+Home Team: Goals Modifier [Bully@Wiiplaza]
+C204EDAC 00000003
+2C170000 4082000C
+3AC0XXXX 9AC30000
+56E3063E 00000000
+
+Away Team: Goals Modifier [Bully@Wiiplaza]
+C204EDA8 00000003
+2C170001 4082000C
+3AC0XXXX 9AC30000
+8AC30000 00000000
+*XXXX = HEX*
+*Don´t go too high else you´ll need to click forever to get past pages telling about 5 "Own Goals" each at the end of a match*
+
+Home Team: Fire Bar Modifier [Bully@Wiiplaza]
+C204EE34 00000003
+2C170001 4082000C
+3D80XXXX 919CA994
+C01CA994 00000000
+
+Away Team: Fire Bar Modifier [Bully@Wiiplaza]
+C204EE28 00000003
+2C170000 4082000C
+3D80XXXX 919CA994
+C01CA994 00000000
+*XXXX Values*
+0000 = Emtpy
+4348 = Full
+
+TP Modifier [Bully@Wiiplaza]
+C204D548 00000002
+3860XXXX 9064A794
+60000000 00000000
+*XXXX = HEX*
+
+Charged Modifier [Bully@Wiiplaza]
+C204DEB0 00000002
+3980TTTT 9183A790
+8063A790 00000000
+*TTTT Values*
+0000 = Not charged
+00C8 = Fully charged
+
+Infinite Special Abilities [Bully@Wiiplaza]
+C204D2AC 00000002
+3D804396 9183A79C
+C023A79C 00000000
+*Video: http://www.youtube.com/watch?v=5Wse8PQDW5k
+
+Empty Fire Bars [Bully@Wiiplaza]
+0404EE30 60000000
+
+Full Fire Bars [Bully@Wiiplaza]
+0404EE2C FC00D890
+
+All Minigame Medals Earned [Bully@Wiiplaza]
+C2137728 00000002
+3BA0000F 9BA3438C
+60000000 00000000
+*Video: http://www.youtube.com/watch?v=cm_4Y54idpw
+
+Infinite Inazuma Points [Bully@Wiiplaza]
+C216D9A4 00000002
+3D807FFF 9183013C
+8063013C 00000000
+*Credits to Skiller/Crapulecorp*
+
+All Items Held x99 [Bully@Wiiplaza]
+C216D9DC 00000002
+39800063 99830140
+88630140 00000000
+
+All Kits Unlocked/Purchased [Bully@Wiiplaza]
+C216D928 00000002
+3800FFFF 9003001C
+60000000 00000000
+*Video: http://www.youtube.com/watch?v=WDwYFUFEqQA
+
+Current TP Modifier [Bully@Wiiplaza]
+C212E610 00000002
+38A0XXXX 90A30004
+60000000 00000000
+*XXXX = HEX*
+*View a player´s stats to take effect*
+
+Max TP Modifier [Bully@Wiiplaza]
+C212E620 00000002
+3800XXXX 90030008
+60000000 00000000
+*XXXX = HEX*
+*Video: http://www.youtube.com/watch?v=9L-MD10NMwc
+
+Kick Stat Maxed Out [Bully@Wiiplaza]
+C212E630 00000002
+38000064 90030010
+60000000 00000000
+
+Catch Stat Maxed Out [Bully@Wiiplaza]
+C212E680 00000002
+38000064 90030018
+60000000 00000000
+
+Body Stat Maxed Out [Bully@Wiiplaza]
+C212E640 00000002
+38000064 90030020
+60000000 00000000
+
+Guard Stat Maxed Out [Bully@Wiiplaza]
+C212E660 00000002
+38000064 90030028
+60000000 00000000
+
+Control Stat Maxed Out [Bully@Wiiplaza]
+C212E650 00000002
+38000064 90030030
+60000000 00000000
+
+Speed Stat Maxed Out [Bully@Wiiplaza]
+C212E670 00000002
+38000064 90030038
+60000000 00000000
+
+100% Friendship Bonds [Bully@Wiiplaza]
+C21A3170 00000002
+39800064 B184858C
+A804858C 00000000
+*Video: http://www.youtube.com/watch?v=kDFgzsWavmw
+*Go to training and play one match to unlock all moves also*
+
+All Competitions Unlocked [Bully@Wiiplaza]
+C214A63C 00000002
+38600003 987A043F
+60000000 00000000
+
+All Teams Unlocked [Bully@Wiiplaza]
+C216C9B8 00000002
+3800FFFF 9003001C
+60000000 00000000
+*Video: http://www.youtube.com/watch?v=RoQjtFjwobc
+
+All Secret Characters Scouted/Unlocked [Bully@Wiiplaza]
+C216D6D0 00000002
+3800FFFF 9003001C
+60000000 00000000
+*Video: http://www.youtube.com/watch?v=a2Jun0S7LKI
+
+Competition Opponent Modifier [Bully@Wiiplaza]
+C214A360 00000003
+38C000HH 98DA0441
+38C000KK 98DA0440
+88DA0440 00000000
+*HH & KK Values*
+00 & 00 = 1st Competition 1st Match (Royal Academy)
+01 & 00 = 1st Competition 2nd Match (Zeus Academy)
+02 & 00 = 1st Competition 3rd Match (Team Ogre)
+00 & 01 = 2nd Competition 1st Match (Chaos)
+01 & 01 = 2nd Competition 2nd Match (Alius Academy)
+02 & 01 = 2nd Competition 3rd Match (Dark Emperors)
+00 & 02 = 3rd Competition 1st Match (Neo National)
+01 & 02 = 3rd Competition 2nd Match (Int´L Allstars)
+02 & 02 = 3rd Competition 3rd Match (Dark Angles)
+00 & 03 = Choose 1st, 2nd, 3rd or 4th Competition to be played (completely)
+
+Last Time Played 00:00 O'Clock [Bully@Wiiplaza]
+0416ED04 38000000
+
+Play Time 00:00 [Bully@Wiiplaza]
+0416C4FC 38000000
+*Video: http://www.youtube.com/watch?v=WOUYupld18k
+
+Tyre Punch!
+
+Score Modifier [Bully@Wiiplaza]
+C20F684C 00000003
+2C1B000P 4082000C
+38A0XXXX 90BD5D38
+80BD5D38 00000000
+*XXXX = HEX*
+*P Values*
+0 = P1
+1 = P2/COM
+2 = P3
+3 = P4
+
+Always Add X Points [Bully@Wiiplaza]
+040F7FC4 3AA0XXXX
+*XXXX = HEX*
+
+Time Control [Bully@Wiiplaza]
+040F6A0C 60000000
+040F6A08 7C030051
+286663DA F9FF0600
+040F6A08 3C007FFF
+040F6A0C 901F5D34
+E0000000 80008000
+*Press 1 + B to end minigame, otherwise you can play forever*
+
+Timer Speed Modifier [Bully@Wiiplaza]
+040F6A04 3860TTTT
+*TTTT Values*
+*0020 = Slow
+*0040 = Default
+*0080 = Fast
+
+Tyres Immediately Smashed [Bully@Wiiplaza]
+040F7D94 38000000
+
+Strikes Always Fully Charged [Bully@Wiiplaza]
+040F7B64 38000780
+*Video: http://www.youtube.com/watch?v=QzuF_MASsdU
+
+Tyre Pushing Always Fully Charged [Bully@Wiiplaza]
+040F8174 38000500
+
+1P High Score Modifier [Bully@Wiiplaza]
+044F0E1C XXXXXXXX
+*XXXXXXXX = HEX*
+*Video: http://www.youtube.com/watch?v=sawKeqy5POw
+
+2P High Score Modifier [Bully@Wiiplaza]
+044F0E6C XXXXXXXX
+
+3P High Score Modifier [Bully@Wiiplaza]
+044F0EBC XXXXXXXX
+
+4P High Score Modifier [Bully@Wiiplaza]
+044F0F0C XXXXXXXX
+
+Volley!
+
+Score Modifier [Bully@Wiiplaza]
+C20F91E0 00000003
+2C1D000P 4082000C
+38A0XXXX 90BE5D50
+80BE5D50 00000000
+*XXXX = HEX*
+*P Values*
+0 = P1
+1 = P2/COM
+2 = P3
+3 = P4
+
+Time Control [Bully@Wiiplaza]
+040F9750 60000000
+040F974C 7C030051
+286663DA F9FF0600
+040F974C 3C007FFF
+040F9750 901F5D38
+E0000000 80008000
+*Press 1 + B to end minigame, otherwise you can play forever*
+
+Combo Modifier [Bully@Wiiplaza]
+040FA918 3800XXXX
+*XXXX = HEX*
+
+Always Add X Score [Bully@Wiiplaza]
+040FAA00 38C0XXXX
+*XXXX = HEX*
+
+Infinite Balls [Bully@Wiiplaza]
+040F96CC 60000000
+
+Ball Drop = Finish [Bully@Wiiplaza]
+040F96AC 38000000
+
+Combo Counter Always Visible/Never Ends [Bully@Wiiplaza]
+040FAC68 60000000
+040F96C4 60000000
+040F97BC 60000000
+040FA928 60000000
+*Video: http://www.youtube.com/watch?v=KGF_Rx26OEc
+
+1P High Score Modifier [Bully@Wiiplaza]
+044F0F5C XXXXXXXX
+*XXXXXXXX = HEX*
+
+2P High Score Modifier [Bully@Wiiplaza]
+044F0FAC XXXXXXXX
+
+3P High Score Modifier [Bully@Wiiplaza]
+044F0FFC XXXXXXXX
+
+4P High Score Modifier [Bully@Wiiplaza]
+044F104C XXXXXXXX
+
+Tyre Dash!
+
+Time Stop [Bully@Wiiplaza]
+286663DA EFFF1000
+040FC1F8 60000000
+CC000000 00000000
+040FC1F8 901F5D38
+E0000000 80008000
+*Press minus on Wiimote to toggle ON/OFF*
+
+Instant Super Sprint [Bully@Wiiplaza]
+040FCF04 38000E42
+*Video: http://www.youtube.com/watch?v=l9wD_sVvoTY
+
+1P High Score Modifier [Bully@Wiiplaza]
+044F109C XXXXXXXX
+*XXXXXXXX = HEX (assume the score doesn´t have a comma while conversion)*
+
+2P High Score Modifier [Bully@Wiiplaza]
+044F10EC XXXXXXXX
+
+3P High Score Modifier [Bully@Wiiplaza]
+044F113C XXXXXXXX
+
+4P High Score Modifier [Bully@Wiiplaza]
+044F118C XXXXXXXX
+
+Bungee Shot!
+
+Score Modifier [Bully@Wiiplaza]
+C21208C4 00000003
+2C1D000P 4082000C
+38A0XXXX 90BE5D34
+80BE5D34 00000000
+*XXXX = HEX*
+*P Values*
+0 = P1
+1 = P2/COM
+2 = P3
+3 = P4
+
+Time Control [Bully@Wiiplaza]
+04120BA8 7CA30051
+04120BAC 60000000
+286663DA F9FF0600
+04120BA8 38A00000
+04120BAC 90BF5D30
+E0000000 80008000
+*Press 1 + B to end minigame, otherwise you can play forever*
+
+Always Add X Grams [Bully@Wiiplaza]
+C2121510 00000002
+3860XXXX 7C001A14
+60000000 00000000
+*XXXX = HEX*
+
+Super Sprint Power [Bully@Wiiplaza]
+04121C60 380004FF
+*Video: http://www.youtube.com/watch?v=vUquFSSl3oo
+
+1P High Score Modifier [Bully@Wiiplaza]
+044F11DC XXXXXXXX
+*XXXXXXXX = HEX*
+
+2P High Score Modifier [Bully@Wiiplaza]
+044F122C XXXXXXXX
+
+3P High Score Modifier [Bully@Wiiplaza]
+044F127C XXXXXXXX
+
+4P High Score Modifier [Bully@Wiiplaza]
+044F12CC XXXXXXXX
+
+Bus Pull!
+
+HP Modifier [Bully@Wiiplaza]
+C20FE2F8 00000003
+2C1D000P 4082000C
+38A0XXXX 90BE5DDC
+80BE5DDC 00000000
+*XXXX = HEX*
+*P Values*
+0 = P1
+1 = P2/COM
+2 = P3
+3 = P4
+
+Always Add X HP [Bully@Wiiplaza]
+040FF010 3803XXXX
+*XXXX = HEX*
+
+Time Control [Bully@Wiiplaza]
+040FE508 60000000
+040FE504 7C030051
+286663DA F9FF0600
+040FE504 38000000
+040FE508 901F5D34
+E0000000 80008000
+*Press 1 + B to end minigame, otherwise you can play forever*
+
+1P High Score Modifier [Bully@Wiiplaza]
+044F0CDC XXXXXXXX
+*XXXXXXXX = HEX*
+
+2P High Score Modifier [Bully@Wiiplaza]
+044F0D2C XXXXXXXX
+
+3P High Score Modifier [Bully@Wiiplaza]
+044F0D7C XXXXXXXX
+
+4P High Score Modifier [Bully@Wiiplaza]
+044F0DCC XXXXXXXX
+
+Money Don't Decrease On Buying Item [Crapulecorp]
+0416D994 90030104
+*Code ported from Skiller's Ntsc Japan Version*
+
+Max/Unlimited Money [Crapulecorp]
+044BD0CC 05F5E0FF
+*Code ported from Skiller's Ntsc Japan Version*

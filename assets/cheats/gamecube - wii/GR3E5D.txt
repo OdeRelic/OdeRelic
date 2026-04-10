@@ -1,0 +1,26 @@
+GR3E5D
+Redcard 2003 
+
+Home team: big score in 1st half
+00255477 000000FF
+
+Home team: big score in 2nd half
+0025547B 000000FF
+
+Away team: big score in 1st half
+0025548B 000000FF
+
+Away team: big score in 2nd half
+0025548F 000000FF
+
+Home team: 0 score in 1st half
+00255477 00000000
+
+Home team: 0 score in 2nd half
+0025547B 00000000
+
+Away team: 0 score in 1st half
+0025548B 00000000
+
+Away team: 0 score in 2nd half
+0025548F 00000000

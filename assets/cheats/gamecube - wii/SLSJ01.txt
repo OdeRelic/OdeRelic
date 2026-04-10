@@ -1,0 +1,15 @@
+SLSJ01
+The Last Story
+
+Button Activator (Wii Remote + Nunchuck) [NinARM1]
+2882D6DA YYYYZZZZ
+
+Button Activator (Classic Controller) [NinARM1]
+2882D73A YYYYZZZZ
+List of values: http://geckocodes.org/index.php?arsenal=2
+
+Fake HP All Characters [NinARM1]
+C23EC650 00000002
+90780038 3860270F
+60000000 00000000
+Makes everyone's HP bar super long, but otherwise no effect

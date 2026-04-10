@@ -1,0 +1,39 @@
+FFUP
+Adventure Island 2
+
+Unlimited Lives [Crapulecorp]
+003B8532 00000009
+
+Refill Time (Press B) [Crapulecorp]
+2820064A FF7F0080
+003B8533 00000010
+E0000000 80008000
+*WiiMote*
+
+Unlimited Time (Press B ON/OFF) [Crapulecorp]
+2820064A FF7F0080
+CC000000 00000000
+003B8533 00000010
+E0000000 80008000
+*WiiMote*
+
+Refill Time (Press ZL) [Crapulecorp]
+282006AA FF7F0080
+003B8533 00000010
+E0000000 80008000
+*Classic Controller*
+
+Unlimited Time (Press ZL ON/OFF) [Crapulecorp]
+282006AA FF7F0080
+CC000000 00000000
+003B8533 00000010
+E0000000 80008000
+*Classic Controller*
+
+Button Activator
+
+WiiMote [Crapulecorp]
+2820064A YYYYZZZZ
+
+Classic Controller [Crapulecorp]
+282006AA YYYYZZZZ

@@ -1,0 +1,10 @@
+WANP
+Ant Nation
+
+Unlimited Gold [Crapulecorp]
+0240E23A 0000270F
+*Code ported from GMO Ntsc Usa Version*
+
+Unlimited Mission Time [Crapulecorp]
+0040E44D 0000003D
+*Code ported from GMO Ntsc Usa Version*

@@ -1,0 +1,159 @@
+NADE
+Star Fox 64
+
+1st GC Controller- Buttor Activator [Anarion]
+28A9BFA0 YYYYZZZZ
+
+1st Classic Controller- Button Activator [Anarion]
+281EE6EA YYYYZZZZ
+*Add E0000000 80008000 at the very bottom of each code if a button activator is used.
+
+Maximum Destroyed Enemies [Anarion]
+0316B77A 000003E7
+
+1HP Boss Health [Anarion]
+01178E51 00000001
+*Most bosses will be destroyed with 1 hit.
+
+Maximum Game Score [Anarion]
+0516B3F4 XXXXXXXX
+X Values:
+3B9AC9FF - 999999999 points. This is the highest visible number.
+FFFFFFFF - highest amount possible.
+
+Barrel Roll Shield [Anarion]
+0114628F 00000001
+
+All Range Mode [Anarion]
+0114628F 00000002
+
+Double Health Meter [Anarion]
+0116B413 00000002
+
+No Character Prompts [Anarion]
+05181A18 00000000
+05181A30 00000000
+05181F7C 00000000
+You can still hear the voices.
+
+Bomb Explosion Diameter Modifier [Anarion]
+0517E404 XXXXXXXX
+X=size 45000000-4C000000 recommended.
+
+Arwing&Landmaster Speed [Anarion]
+09146180 XXXX0000
+20012EE0 00000000
+4220- default
+
+Arwing&Landmaster Boost Speed [Anarion]
+231461C0 00000000
+091461C0 XXXX0000
+20012EE0 00000000
+E0000000 80008000
+41F0- default
+
+Charged A-Blast [Anarion]
+011816AB 00000015
+Replace 15 for never charged A.
+
+0HP-StarWolf Team Health [Anarion]
+0916E95F 00000000
+000302F4 00000000
+
+Instant Mission Accomplished [Anarion]
+281EE6EA 00001000
+0914627B 0000000X
+00012EE0 00000000
+E0000000 80008000
+X: 6-instant finish || 7-normal finish|| 8-lightspeed finish
+Press - to use, only once a mission has started.
+
+Force Pause [Anarion]
+281EE6EA 00001000
+01181537 00000064
+E0000000 80008000
+Press -
+
+Return to Title Screen Instantly [Anarion]
+281EE6EA 00001000
+01181517 00000002
+0118157B 00000001
+01182E0C 00000064
+E0000000 80008000
+03181698 00004334
+031820F2 00000320
+Press -
+
+No Rob64 [Anarion]
+0116B373 00000000
+
+Planet Select [Anarion]
+091D7637 0000000X
+00010004 00000000
+X Values:(Skip General Pepper's talk in the beginning by pressing START otherwise you will freeze)
+0- meteo asteroid field
+1- area 6
+2- bolse satellite
+3- sector z
+4- sector x
+5- sector y
+6- katina
+7- macbeth train
+8- zoness
+9- corneria
+A- titania desert
+B- aquas ocean
+C- fortuna
+D- venom
+E- solar
+
+Planets Visited [Anarion]
+09181870 0000000X
+00060004 00000000
+planets played on timeline. Same values as above
+
+Second Path [Anarion]
+03181B62 000003E7
+
+Invincibility [Anarion]
+091462A4 00000000
+20012EE0 00000000
+091462D4 00000000
+20012EE0 00000000
+091462D0 00000000
+20012EE0 00000000
+09181A20 00000000
+20010018 00000000
+
+Infinite Health (Fox) [hawkeye2777]
+051491F4 0000017F
+05146314 0000017F
+
+Infinite Health (Falco) [hawkeye2777]
+05181594 000000FF
+
+Infinite Health (Slippy) [hawkeye2777]
+05181598 000000FF
+
+Infinite Health (Peppy) [hawkeye2777]
+0518159C 000000FF
+
+Infinite Smart Bombs [hawkeye2777]
+01181A83 00000009
+
+Infinite Lives [hawkeye2777]
+0116B781 00000063
+
+Laser Mod [hawkeye2777]
+0116B78B 0000000x
+0 - Normal
+1 - Twin
+2 - Hyper
+
+Infinite Boost [hawkeye2777]
+0514924C 00000000
+0514636C 00000000
+
+Wings Never Break [hawkeye2777]
+05181A08 0000003C
+051819F0 0000003C

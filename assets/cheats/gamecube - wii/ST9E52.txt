@@ -1,0 +1,8 @@
+ST9E52
+Top Shot Arcade
+
+Inf Bulllet [Jackal]
+0418CF78 7C601B78
+
+No Reload [Jackal]
+0418CB70 7C601B78

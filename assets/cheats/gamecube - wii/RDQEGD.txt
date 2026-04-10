@@ -1,0 +1,357 @@
+RDQEGD
+Dragon Quest Swords:  The Masked Queen and the Tower of Mirrors
+
+Always Have 100 Mini-Medals [Jose_Gallardo]
+0436B687 00000064
+
+999999 GP [Aesteval]
+48000000 80368868
+DE000000 80008180
+1400007C 000F423F
+E0000000 80008000
+
+Infinite Hero HP [Aesteval]
+48000000 80368868
+DE000000 80008180
+14000528 4479C000
+E0000000 80008000
+
+Hero Max HP 999 [Aesteval]
+48000000 80368868
+DE000000 80008180
+1400052C 4479C000
+E0000000 80008000
+
+Master Stroke Gauge Stays at 100% [Aesteval]
+48000000 80368868
+DE000000 80008180
+14000548 42C80000
+E0000000 80008000
+
+Infinite Partner HP [Aesteval]
+48000000 8036886C
+DE000000 80008180
+14000528 4479C000
+E0000000 80008000
+
+Partner Max HP 999 [Aesteval]
+48000000 8036886C
+DE000000 80008180
+1400052C 4479C000
+E0000000 80008000
+
+Infinite Partner MP [Aesteval]
+48000000 8036886C
+DE000000 80008180
+14000538 4479C000
+E0000000 80008000
+
+Partner Max MP 999 [Aesteval]
+48000000 8036886C
+DE000000 80008180
+1400053C 4479C000
+E0000000 80008000
+
+999999 Exp Hero [Aesteval]
+48000000 80368868
+DE000000 80008180
+14000044 000F423F
+E0000000 80008000
+
+9999999 Exp Hero [Aesteval]
+48000000 80368868
+DE000000 80008180
+14000044 0098967F
+E0000000 80008000
+
+999999 Exp Partner [Aesteval]
+48000000 8036886C
+DE000000 80008180
+14000044 000F423F
+E0000000 80008000
+
+9999999 Exp Partner [Aesteval]
+48000000 8036886C
+DE000000 80008180
+14000044 0098967F
+E0000000 80008000
+
+99 Monster Bones [Aesteval]
+0436E250 00000063
+
+99 Iron Ore [Aesteval]
+0436E24C 00000063
+
+99 Lava Lump [Aesteval]
+0436E254 00000063
+
+99 Ice Crystal [Aesteval]
+0436E258 00000063
+
+99 Thunderball [Aesteval]
+0436E25C 00000063
+
+99 Gold Bar [Aesteval]
+0436E260 00000063
+
+99 Orichalcum [Aesteval]
+0436E264 00000063
+
+99 Noble Metal [Aesteval]
+0436E268 00000063
+
+Button Activated Code Enabler [Aesteval]
+283392EA YYYYXXXX
+ZZZZZZZZ ZZZZZZZZ
+E0000000 80008000
+<!--!include:Button Code Note-->
+
+Button Code Note
+See the forums (http://www.usbgecko.com/forums/showthread.php?t=53) for how to define desired button usage in spots YYYYXXXX
+Input desired code in place of ZZZZZZZZ ZZZZZZZZ
+
+Item Bag Modifiers
+
+Slot 1 [Aesteval]
+0436B028 00000XXX
+0436B02C YY000000
+
+Slot 2 [Aesteval]
+0436B030 00000XXX
+0436B034 YY000000
+
+Slot 3 [Aesteval]
+0436B038 00000XXX
+0436B03C YY000000
+
+Slot 4 [Aesteval]
+0436B040 00000XXX
+0436B044 YY000000
+
+Slot 5 [Aesteval]
+0436B048 00000XXX
+0436B04C YY000000
+
+Slot 6 [Aesteval]
+0436B050 00000XXX
+0436B054 YY000000
+
+Slot 7 [Aesteval]
+0436B058 00000XXX
+0436B05C YY000000
+
+Slot 8 [Aesteval]
+0436B060 00000XXX
+0436B064 YY000000
+<!--!include:Item Mod Note-->
+
+Item Mod Note
+More slots can be accessed by following the shown pattern
+Replace YY with desired quantity in hex
+Replace XXX with values from the following list:
+
+Item Bag Digits
+
+3E9 Medicinal Herb
+3EA Antidotal Herb
+3EB Strong Medicine
+3EC Special Medicine
+3ED Yggdrasil Leaf
+3EE Magic Water
+3EF Yggdrasil Dew
+3F0 Loyalty Card
+3F1 Replenishield Powder
+3F2 Tombola Ticket
+3F3 Boulderdasher
+
+Equipment Bag Modifiers
+
+Slot 1 [Aesteval]
+0436B28C 00000XXX
+0436B290 000000YY
+
+Slot 2 [Aesteval]
+0436B294 00000XXX
+0436B298 000000YY
+
+Slot 3 [Aesteval]
+0436B29C 00000XXX
+0436B2A0 000000YY
+
+Slot 4 [Aesteval]
+0436B2A4 00000XXX
+0436B2A8 000000YY
+
+Slot 5 [Aesteval]
+0436B2AC 00000XXX
+0436B2B0 000000YY
+
+Slot 6 [Aesteval]
+0436B2B4 00000XXX
+0436B2B8 000000YY
+
+Slot 7 [Aesteval]
+0436B2BC 00000XXX
+0436B2C0 000000YY
+
+Slot 8 [Aesteval]
+0436B2C4 00000XXX
+0436B2C8 000000YY
+
+Slot 9 [Aesteval]
+0436B2CC 00000XXX
+0436B2D0 000000YY
+
+Slot 10 [Aesteval]
+0436B2D4 00000XXX
+0436B2D8 000000YY
+
+Slot 11 [Aesteval]
+0436B2DC 00000XXX
+0436B2E0 000000YY
+
+Slot 12 [Aesteval]
+0436B2E4 00000XXX
+0436B2E8 000000YY
+
+Slot 13 [Aesteval]
+0436B2EC 00000XXX
+0436B2F0 000000YY
+
+Slot 14 [Aesteval]
+0436B2F4 00000XXX
+0436B2F8 000000YY
+<!--!include:Equipment Mod Note-->
+
+Equipment Mod Note
+More slots can be accessed by following the shown pattern
+Replace YY with desired quantity in hex
+Replace XXX with values from the following lists:
+
+Weapon Digits
+
+001 Steel Broadsword
+002 Fire Blade
+003 Blazing Blade
+004 Wrath of Helios
+005 Frost Blade
+006 Wrath of Boreas
+007 Lightning Blade
+008 Thunderbolt Blade
+009 Wrath of Zeus
+00A Rednusadner
+00B Aurora Blade
+00C Sword of Kings
+00D Dragovian King Sword
+00E Blizzard Blade
+00F Rusty Old Sword
+010 Metal King Sword
+011 Orichalcum Stick
+012 Dragon Warrior's Sword
+013 Copper Sword
+014 Kitten Claw
+015 Puppy Paw
+016 Astraea's Abacus
+017 Zenithian Sword
+018 Poison Needle
+019 Deathbringer
+01A Deathbringer's Shade
+
+Shield Digits
+
+0C9 Leather Shield
+0CA Iron Shield
+0CB Platinum Shield
+0CC Ogre Shield
+0CD Orichalcum Teaspoon
+0CE Hero's Shield
+0CF Liquid Metal Shield
+0D0 Kitty Shield
+0D1 Doggy Shield
+0D2 Pot Lid
+0D3 Dartboard
+
+Armor Digits
+
+191 Wayfarer's Clothes
+192 Leather Armor
+193 Iron Armor
+194 Full Plate Armor
+195 Magic Armour
+196 Platinum Mail
+197 Dragon Mail
+198 Auroral Armor
+199 Liquid Metal Armor
+19A Purr Coat
+19B Dog's Body Armor
+19C Boxer Shorts
+
+Headgear Digits
+
+259 Leather Hat
+25A Hardwood Headwear
+25B Iron Helmet
+25C Iron Mask
+25D Platinum Headgear
+25E Great Helm
+25F Happy Hat
+260 Metal King Helm
+261 Eggshelm
+
+Accessory Digits
+
+321 Band of Bravery
+322 Strength Ring
+323 Strength Ring +1
+324 Strength Ring +2
+325 Strength Ring +3
+326 Strength Ring +4
+327 Uber Strength Ring
+328 ACCE08 - Dummy Item (Strength Ring)
+329 Ring of Immunity
+32A Ruby of Protection
+32B Ruby of Protection +1
+32C Uber Ruby of Protection
+32D ACCE13 - Dummy Item (Ruby of Protection)
+32E Life Ring
+32F Life Ring +1
+330 Life Ring +2
+331 Life Ring +3
+332 Life Ring +4
+333 Uber Life Ring
+334 ACCE20 - Dummy Item (Life Ring)
+335 Gold Bracer
+336 Ring of Protection
+337 Ring of Protection +1
+338 Uber Ring of Protection
+339 ACCE25 - Dummy Item (Ring of Protection)
+33A Life Bracer
+33B Life Bracer +1
+33C Life Bracer +2
+33D Life Bracer +3
+33E Life Bracer +4
+33F Uber Life Bracer
+340 ACCE32 - Dummy Item (Life Bracer)
+341 Mighty Armlet
+342 Mighty Armlet +1
+343 Mighty Armlet +2
+344 Mighty Armlet +3
+345 Mighty Armlet +4
+346 Uber Mighty Armlet
+347 ACCE39 - Dummy Item (Mighty Armlet)
+348 Elevating Shoes
+349 Elevating Shoes +1
+34A Elevating Shoes +2
+34B Elevating Shoes +3
+34C Elevating Shoes +4
+34D Uber Elevating Shoes
+34E ACCE46 - Dummy Item (Elevating Shoes)
+34F Tough Guy Tatoo
+350 Tough Guy Tatoo +1
+351 Tough Guy Tatoo +2
+352 Tough Guy Tatoo +3
+353 Tough Guy Tatoo +4
+354 Uber Tough Guy Tatoo
+355 ACCE53 - Dummy Item (Tough Guy Tatoo)
+356 Military Tatoo
+357 Bunny Tail

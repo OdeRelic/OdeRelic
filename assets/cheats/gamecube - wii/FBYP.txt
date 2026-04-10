@@ -1,0 +1,103 @@
+FBYP
+Super Mario Bros. 2
+
+Unlimited Lives [Crapulecorp]
+003F0D2D 00000064
+*Code ported from GMO & farjo08 Ntsc Usa Version*
+
+Unlimited Health [Crapulecorp]
+003F0D02 0000002F
+*Code ported from GMO Ntsc Usa Version*
+
+MoonJump (Press B) [Crapulecorp]
+2821ABD2 FBFF0400
+003F0886 000000D8
+E0000000 80008000
+*Wiimote*
+*Code ported from Thomas83Lin Ntsc Usa Version*
+
+Moon Jump (Press X) [Crapulecorp]
+2821AC32 FFF70008
+003F0886 000000D8
+E0000000 80008000
+*Classic Controller*
+*Code ported from Thomas83Lin Ntsc Usa Version*
+
+Instant Charge (Super Jump) [Crapulecorp]
+003F0D0A 0000003C
+*Code ported from GMO Ntsc Usa Version*
+
+Jump Height Modifier [Crapulecorp]
+003F0D95 00000000
+*0= No Limit on Height*
+*Code ported from Thomas83Lin Ntsc Usa Version*
+
+Unlimited Floating GMO [Crapulecorp]
+003F0D09 0000003C
+*Code ported from GMO Ntsc Usa Version*
+
+Freeze Time Press (Press -) [Crapulecorp]
+2821ABD2 EFFF1000
+003F0D3E 00000000
+CC000000 00000000
+003F0D3E 00000002
+2A3F0D3E 00000000
+003F0D3F 00000002
+E0000000 80008000
+*Wiimote*
+*Code ported from Thomas83Lin Ntsc Usa Version*
+
+Freeze Time Press (Press -) [Crapulecorp]
+2821AC32 EFFF1000
+003F0D3E 00000000
+CC000000 00000000
+003F0D3E 00000002
+2A3F0D3E 00000000
+003F0D3F 00000002
+E0000000 80008000
+*Classic Controller*
+*Code ported from Thomas83Lin Ntsc Usa Version*
+
+Change Character Press (A) [Crapulecorp]
+4E00000C 00000000
+2821ABD2 F7FF0800
+CC000000 00000001
+14000000 00000003
+82000000 803F08CF
+86000000 00000001
+84000000 803F08CF
+E0000000 80008000
+2C3F08CF 00000003
+003F08CF 00000000
+E0000000 80008000
+*Press A then Pause/Un-Pause to take effect*
+*Characters keep your selected Character's attributes and color*
+*Wiimote*
+*Code ported from Thomas83Lin Ntsc Usa Version*
+
+Change Character (Press ZL) [Crapulecorp]
+4E00000C 00000000
+2821AC32 FF7F0080
+CC000000 00000001
+14000000 00000003
+82000000 803F08CF
+86000000 00000001
+84000000 803F08CF
+E0000000 80008000
+2C3F08CF 00000003
+003F08CF 00000000
+E0000000 80008000
+*Press ZL then Pause/Un-Pause to take effect*
+*Characters keep your selected Character's attributes and color*
+*Classic Controller*
+*Code ported from Thomas83Lin Ntsc Usa Version*
+
+Button Activator
+
+WiiMote [Crapulecorp]
+2821ABD2 YYYYZZZZ
+
+Classic Controller [Crapulecorp]
+2821AC32 YYYYZZZZ
+
+Button Activator: 2819F780 XXXXYYYY

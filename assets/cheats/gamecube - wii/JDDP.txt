@@ -1,0 +1,246 @@
+JDDP
+Final Fight 2
+
+Player 1
+
+Unlimited Lives Player 1 [Crapulecorp]
+0044890A 00000009
+*Code ported from Fangs Snes Action Replay version*
+
+Unlimited Health Player 1 [Crapulecorp]
+004488D5 0000008D
+*Code ported from Thomas83Lin Ntsc Usa Version*
+
+Hold enemy forever Player 1 [Crapulecorp]
+00448901 000000FF
+*Code ported from Vandal Snes Action Replay version*
+
+Character Modifier Player 1 [Crapulecorp]
+0044886B 0000000X
+*Replace X for :
+0 - Maki
+1 - Haggar
+2 - Carlos*
+*Code ported from Rune Snes Action Replay version*
+
+Weapon Modifier Player 1 [Crapulecorp]
+00448919 0000000X
+*Replace X for :
+0 - Knife
+1 - Cop Stick
+2 - 2x4*
+*Code ported from Megaman Snes Action Replay version*
+
+Player 2
+
+Unlimited Lives Player 2 [Crapulecorp]
+004489C2 00000009
+*Code ported from Fangs Snes Action Replay version*
+
+Unlimited Health Player 2 [Crapulecorp]
+0044898D 0000008D
+*Code ported from Thomas83Lin Ntsc Usa Version*
+
+Hold Enemy Forever Player 2 [Crapulecorp]
+004489B9 000000FF
+*Code ported from Vandal Snes Action Replay version*
+
+Character Modifier Player 2 [Crapulecorp]
+00448923 0000000X
+*Replace X for :
+0 - Maki
+1 - Haggar
+2 - Carlos*
+*Code ported from Rune Snes Action Replay version*
+
+Weapon Modifier Player 2 [Crapulecorp]
+004489D1 0000000X
+*Replace X for :
+0 - Knife
+1 - Cop Stick
+2 - 2x4*
+*Code ported from Megaman Snes Action Replay version*
+
+Reset Time
+
+Reset Time Player 1 (Press ZL) [Crapulecorp]
+2815F922 FF7F0080
+004550CC 00000099
+E0000000 80008000
+*Classic Controller*
+
+Reset Time Player 1 (Press Z) [Crapulecorp]
+2815F922 FFEF0010
+004550CC 00000099
+E0000000 80008000
+*GameCube Controller*
+
+Reset Time Player 2 (Press ZL) [Crapulecorp]
+2815F92A FF7F0080
+004550CC 00000099
+E0000000 80008000
+*Classic Controller*
+
+Reset Time Player 2 (Press Z) [Crapulecorp]
+2816F892 FFEF0010
+004550CC 00000099
+E0000000 80008000
+*GameCube Controller*
+
+1 Hit kill Most Enemies
+
+1 Hit kill Most Enemies [Crapulecorp]
+00448A45 00000000
+00448AFC 00000000
+00449222 00000000
+004492D9 00000000
+0044916B 00000000
+0044798A 00000000
+00448DD8 00000000
+0044798C 00000000
+00449390 00000000
+00448D21 00000000
+00448BB3 00000000
+00448C6A 00000000
+00448F46 00000000
+00448E8F 00000000
+*Code ported from Rune Snes Action Replay version*
+
+1 Hit kill Most Enemies Player 1 (Press L ON/OFF) [Crapulecorp]
+2815F922 DFFF2000
+CC000000 00000000
+00448A45 00000000
+00448AFC 00000000
+00449222 00000000
+004492D9 00000000
+0044916B 00000000
+0044798A 00000000
+00448DD8 00000000
+0044798C 00000000
+00449390 00000000
+00448D21 00000000
+00448BB3 00000000
+00448C6A 00000000
+00448F46 00000000
+00448E8F 00000000
+E0000000 80008000
+*Classic Controller*
+*Code ported from Rune Snes Action Replay version*
+
+1 Hit kill Most Enemies Player 1 (Press L ON/OFF) [Crapulecorp]
+2816F874 FFBF0040
+CC000000 00000000
+00448A45 00000000
+00448AFC 00000000
+00449222 00000000
+004492D9 00000000
+0044916B 00000000
+0044798A 00000000
+00448DD8 00000000
+0044798C 00000000
+00449390 00000000
+00448D21 00000000
+00448BB3 00000000
+00448C6A 00000000
+00448F46 00000000
+00448E8F 00000000
+E0000000 80008000
+*GameCube Controller*
+*Code ported from Rune Snes Action Replay version*
+
+1 Hit kill Most Enemies Player 2 (Press L ON/OFF) [Crapulecorp]
+2815F92A DFFF2000
+CC000000 00000000
+00448A45 00000000
+00448AFC 00000000
+00449222 00000000
+004492D9 00000000
+0044916B 00000000
+0044798A 00000000
+00448DD8 00000000
+0044798C 00000000
+00449390 00000000
+00448D21 00000000
+00448BB3 00000000
+00448C6A 00000000
+00448F46 00000000
+00448E8F 00000000
+E0000000 80008000
+*Classic Controller*
+*Code ported from Rune Snes Action Replay version*
+
+1 Hit kill Most Enemies Player 2 (Press L ON/OFF) [Crapulecorp]
+2816F892 FFBF0040
+CC000000 00000000
+00448A45 00000000
+00448AFC 00000000
+00449222 00000000
+004492D9 00000000
+0044916B 00000000
+0044798A 00000000
+00448DD8 00000000
+0044798C 00000000
+00449390 00000000
+00448D21 00000000
+00448BB3 00000000
+00448C6A 00000000
+00448F46 00000000
+00448E8F 00000000
+E0000000 80008000
+*GameCube Controller*
+*Code ported from Rune Snes Action Replay version*
+
+1 Hit kill Boss
+
+1 Hit kill Boss [Crapulecorp]
+00448FFD 00000000
+Seems to affect all bosses and even the car in the bonus stage!
+*Code ported from Rune Snes Action Replay version*
+
+1 Hit kill Boss Player 1 (Press R ON/OFF) [Crapulecorp]
+2815F922 FDFF0200
+CC000000 00000000
+00448FFD 00000000
+E0000000 80008000
+*Classic Controller*
+*Code ported from Rune Snes Action Replay version*
+
+1 Hit kill Boss Player 1 (Press R ON/OFF) [Crapulecorp]
+2815F922 FFDF0020
+CC000000 00000000
+00448FFD 00000000
+E0000000 80008000
+*GameCube Controller*
+*Code ported from Rune Snes Action Replay version*
+
+1 Hit kill Boss Player 2 (Press R ON/OFF) [Crapulecorp]
+2815F92A FDFF0200
+CC000000 00000000
+00448FFD 00000000
+E0000000 80008000
+*Classic Controller*
+*Code ported from Rune Snes Action Replay version*
+
+1 Hit kill Boss Player 2 (Press R ON/OFF) [Crapulecorp]
+2816F892 FFDF0020
+CC000000 00000000
+00448FFD 00000000
+E0000000 80008000
+*GameCube Controller*
+*Code ported from Rune Snes Action Replay version*
+
+Button Activator
+
+Classic Controller Player 1 [Crapulecorp]
+2815F922 YYYYZZZZ
+
+GameCube Controller Player 1 [Crapulecorp]
+2816F874 YYYYZZZZ
+
+Classic Controller Player 2 [Crapulecorp]
+2815F92A YYYYZZZZ
+
+GameCube Controller Player 2 [Crapulecorp]
+2816F892 YYYYZZZZ
+
+Activator Player 1

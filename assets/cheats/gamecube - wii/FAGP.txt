@@ -1,0 +1,31 @@
+FAGP
+Super Mario Bros.
+
+Invincible [GMO]
+003B08BE 00000008
+
+Coins worth 99 Coins [GMO]
+003B087E 00000063
+
+Unlimited Star Power [GMO]
+003B08BF 00000020
+
+Start on Browser's Castle [GMO]
+003B087F 00000007
+003B0880 00000002
+
+Always Big Fire Mario [Panda]
+003B0874 00000000
+003B0876 00000002
+
+Inf Lives [Panda]
+003B087A 00000008
+
+Inf Time [Panda]
+003B091A 0000000A
+
+End Level (A Button) [Panda]
+20157554 00000010
+043B0918 00000000
+E0000000 80008000
+Last code sets time to 0 so you can get past the countdown of time to score at the end of each level

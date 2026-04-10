@@ -1,0 +1,14 @@
+SOIEEB
+101-in-1 Sports Party Megamix
+
+Player 1 Max Points on pickup [Skiller]
+C230B3D0 00000003
+2D040000 408A000C
+3C0005F5 6000E0FF
+90030018 00000000
+Note: Seems to work on all games .. u can make this work for other Players if your not controlling player 1 by changing 2D04000? to 0-3...
+
+Unlock All Games [Skiller]
+C23244C8 00000002
+38000001 901E0024
+801E0024 00000000

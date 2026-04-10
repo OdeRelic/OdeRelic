@@ -1,0 +1,56 @@
+FCWP
+Super Mario Bros. 3
+
+Have always 99 lives [ardemii]
+0046E0B6 00000063
+
+Stop game [ardemii]
+2820F068 00000200
+04010240 60000000
+E0000000 80008000
+2820F068 00001000
+04010240 7C9F39AE
+E0000000 80008000
+Press 1 for stop the game and press to for restart the game
+
+Time Stop [ardemii]
+0246DF70 0000000A
+Original by Zit, ported by ardemii
+
+Moon jump [ardemii]
+2820F068 FEFF0100
+0046DA4F 000000D0
+E0000000 80008000
+Original by Zit, ported by ardemii
+
+Mario Suit Modifier [ardemii]
+0046DA6D 000000??
+Original by GMO, ported by ardemii
+00 Small Mario
+01 Big Mario
+02 Fireball Mario
+03 Leaf Mario
+04 Frog Suit
+05 Raccoon Suit
+06 Hammer Bro Suit
+
+Speed Mario [ardemii]
+2820F068 FFFB0004
+0046DA3D 0000007F
+E0000000 80008000
+2820F068 FFF70008
+0046DA3D 00000080
+E0000000 80008000
+2820F068 00000000
+0046DA3D 00000000
+E0000000 80008000
+Original by Zit, ported by ardemii
+
+Card block is always [ardemii]
+0046DFEF 0000000?
+0 = mushroom
+1 = flower
+2 = star
+
+Max Cash [ardemii]
+005B32C2 00000063

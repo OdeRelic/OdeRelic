@@ -1,0 +1,20 @@
+JXZY
+Super Mario RPG
+
+Unlimited Health (Character 1) [GMO]
+808640D9 000000FF
+
+Max Health (Character 1) [GMO]
+808640DB 000000FF
+
+Max Coins [GMO]
+00873EF7 000000FF
+
+Max Frog Coins [GMO]
+00873EFB 000000FF
+
+Unlimited Flowers [GMO]
+00873EF9 000000FF
+
+Max Flowers [GMO]
+00873EFA 000000FF

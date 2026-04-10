@@ -1,0 +1,15 @@
+GFOE78
+Fairly Odd Parents Shadow Showdown 
+
+Infinite Health
+040CA8F8 39200003
+040CA904 91230360
+
+Max Coins
+025B53D6 0000270F
+
+Infinite Dash
+0406FCE0 60000000
+
+Infinite Double Jumps
+0406F004 38000000

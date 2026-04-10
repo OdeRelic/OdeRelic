@@ -1,0 +1,54 @@
+JDLE
+Super Star Wars Return of the Jedi
+
+Miscellaneous Codes
+
+Unlimited Health [GMO]
+004498E0 000000FF
+
+Unlimited Lives
+00448E3A 0000000063
+
+1Up Per Rebel Coin [GMO]
+00448E42 00000063
+
+1-Hit Kill (Bosses) [GMO]
+084498E2 00000000
+000E0001 00000000
+
+Zer0 Scounts Needed (Speedster) [GMO]
+00449731 00000000
+
+Unlimited Thermal Detonators [GMO]
+004497D2 00000001
+
+Unlimited Spin (Chewie) [GMO]
+00448E40 00000020
+
+Unlimited Spin (Slave Leia) [GMO]
+00448EB2 00000020
+
+Unlimited Bombs (Han Solo) [GMO]
+00448EB3 00000063
+
+Unlimited Force (Luke Skywalker) [GMO]
+00448EB4 000000FF
+
+Unlimited Double Jumps (Luke/Leia) [GMO]
+00449723 00000000
+
+Character Modifier [GMO]
+00448E20 000000??
+
+Character Modifier Values
+
+04 Luke Skywalker
+06 Han Solo
+08 Chewie
+0A Wicket the Ewok
+0C Leia (Slave)
+0E Leia (Boushh)
+10 Leia (Rebel)
+
+Unlimited Lives
+00448E3A 0000000063

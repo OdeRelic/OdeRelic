@@ -1,0 +1,206 @@
+RDHP78
+Destroy All Humans - Big Willy Unleashed
+
+Game Time 00:00:01 [memorris]
+0541620C 00000001
+
+Missions Attempted 1 [memorris]
+054161F0 00000001
+
+Max Cryptosporidium Clones Created [memorris]
+05416200 7FFFFFFF
+
+Max Willy Recharges [memorris]
+054161F8 7FFFFFFF
+
+Max Altitude Using Jetpack [memorris]
+05416210 7FFFFFFF
+
+Longest Single Jetpack Flight [memorris]
+05416214 7FFFFFFF
+
+Saucers Totaled 1 [memorris]
+05416220 00000001
+
+Longest Single Willy Rampage [memorris]
+05416218 00000001
+
+Quickest Single Willy Rampage 1 [memorris]
+0541621C 00000001
+
+Max Humans Hypnotized [memorris]
+05416204 7FFFFFFF
+
+Max Regurg-A-Tron Kills [memorris]
+054161E8 7FFFFFFF
+
+Max Combatants Killed [memorris]
+05416178 7FFFFFFF
+
+Max Zombies Created [memorris]
+0541617C 7FFFFFFF
+
+Max Military Vehicles Destroyed [memorris]
+05416180 7FFFFFFF
+
+Max Moving Civilian Vehicles Destroyed [memorris]
+05416184 7FFFFFFF
+
+Max Damage Caused [memorris]
+05416188 7FFFFFFF
+
+Max Ball Lightning Kills [memorris]
+054161B0 7FFFFFFF
+
+Max Zap-O-Matic Kills [memorris]
+0541619C 7FFFFFFF
+
+Longest Zap-O-Matic Chain [memorris]
+054161A0 7FFFFFFF
+
+Max Anal Probe Kills [memorris]
+054161A4 7FFFFFFF
+
+Max Disintegrator Kill [memorris]
+054161A8 7FFFFFFF
+
+Max Ion Detonator Kills [memorris]
+054161AC 7FFFFFFF
+
+Max Shrink Ray Kills [memorris]
+054161B4 7FFFFFFF
+
+Max Zombie Gun Kills [memorris]
+054161B8 7FFFFFFF
+
+Max Humans Abducted [memorris]
+054161BC 7FFFFFFF
+
+Max Death Ray Kills [memorris]
+054161C0 7FFFFFFF
+
+Max Sonic Boom Kills [memorris]
+054161C4 7FFFFFFF
+
+Max Quantum Deconstructors Kills [memorris]
+054161C8 7FFFFFFF
+
+Max Electro-cone Kills [memorris]
+054161CC 7FFFFFFF
+
+Max Vehicles Drained [memorris]
+054161D0 7FFFFFFF
+
+Max Boddies Snatched [memorris]
+05416194 7FFFFFFF
+
+Total Time Snatched 1 [memorris]
+05416198 00000001
+
+Max Total Weight PK Carried [memorris]
+05416190 7FFFFFFF
+
+Max Boddysnatch Mortality Rate [memorris]
+05416208 7FFFFFFF
+
+Max Roller Girls Kills [memorris]
+05416264 7FFFFFFF
+
+Max Civilians Killed [memorris]
+05416294 7FFFFFFF
+
+Max Patty's Radicals Killed [memorris]
+054162C4 7FFFFFFF
+
+Max Police Killed [memorris]
+05416324 7FFFFFFF
+
+Max Humans Eaten [memorris]
+054161D8 7FFFFFFF
+
+Max Humans Stunned [memorris]
+054161DC 7FFFFFFF
+
+Max Heat Beam Eyes Kills [memorris]
+054161E0 7FFFFFFF
+
+Max Windbreaker Kills [memorris]
+054161E4 7FFFFFFF
+
+Max Kluckin' Crew Killed [memorris]
+05416384 7FFFFFFF
+
+Max Soldiers Killed [memorris]
+05416354 7FFFFFFF
+
+Max Total DNA [memorris]
+054161FC 7FFFFFFF
+
+Fantasy Atoll Story Missions Completed [memorris]
+054164F4 00000006
+
+Fantasy Atoll Odd Jobs Completed [memorris]
+054164F8 00000003
+
+Fantasy Atoll Energy Cells Collected [memorris]
+054164FC 0000001F
+
+Fantasy Atoll Datacores Recovered [memorris]
+05416500 00000006
+
+Fairfield Energy Cells Collected [memorris]
+054164D4 00000027
+
+Fairfield Datacores Recoverd [memorris]
+054164D8 00000005
+
+Fairfield Odd Jobs Completed [memorris]
+054164D0 00000005
+
+Fairfield Story Missions Completed [memorris]
+054164CC 00000005
+
+Vietmahl Story Missions Completed [memorris]
+054164E0 00000006
+
+Vietmahl Odd Jobs Completed [memorris]
+054164E4 00000004
+
+Vietmahl Energy Cells Collected [memorris]
+054164E8 00000025
+
+Vietmahl Datacores Recovered [memorris]
+054164EC 00000006
+
+Harbor City Data Cores Recovered [memorris]
+054164C4 00000006
+
+Harbor City Energy Cells Collected [memorris]
+054164C0 00000025
+
+Harbor City Odd Jobs Completed [memorris]
+054164BC 00000005
+
+Harbor City Story Missions Completed [memorris]
+054164B8 00000006
+
+Data Cores Recovered [memorris]
+054164B0 00000017
+
+Energy Cells Colleted [memorris]
+054164AC 00000090
+
+Odd Jobes Completed [memorris]
+054164A8 00000011
+
+Story Missions Completed [memorris]
+054164A4 00000017
+
+Max Komeer Beige Killed [memorris]
+05416414 7FFFFFFF
+
+Max Resort Staff Killed [memorris]
+05416474 7FFFFFFF
+
+Max Electricity Bill [memorris]
+05416230 7FFFFFFF

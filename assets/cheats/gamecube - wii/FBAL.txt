@@ -1,0 +1,28 @@
+FBAL
+Smash Table Tennis
+
+COM Score 0 [Crapulecorp]
+003AAC78 00000000
+
+COM Score 0 (Press ONOFF) [Crapulecorp]
+281EF74A F7FF0800
+CC000000 00000000
+003AAC78 00000000
+E0000000 80008000
+*WiiMote*
+
+Player 1 (YOU) Instant Win [Crapulecorp]
+003AAC77 00000011
+
+Player 1 (YOU) Instant Win (Press B ONOFF) [Crapulecorp]
+281EF74A FBFF0400
+CC000000 00000000
+003AAC77 00000011
+E0000000 80008000
+*WiiMote*
+
+Button Activator
+
+Player 1 [Crapulecorp]
+281EF74A YYYYZZZZ
+*WiiMote*

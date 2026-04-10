@@ -1,0 +1,12 @@
+WGOE
+World of Goo
+
+Triple Collected Goos [BoxNinja]
+04056018 38040003
+*Ported from mdmwii's code
+*https://youtu.be/Y5y_FBYT_SQ
+
+999 Collected Goos [BoxNinja]
+C205601C 00000002
+380003E7 901A00A0
+60000000 00000000

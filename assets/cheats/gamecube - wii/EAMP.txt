@@ -1,0 +1,8 @@
+EAMP
+Ninja Combat
+
+P1 Unlimited Health [GMO]
+0021601A 00000014
+
+P1 Unlimited Lives [GMO]
+00217DEA 0000000A

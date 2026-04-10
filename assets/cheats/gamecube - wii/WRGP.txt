@@ -1,0 +1,15 @@
+WRGP
+Rage of the Gladiator
+
+Enemy Hits add health instead of subtract [Patedj]
+04073F54 EC21F02A
+
+Special bar is full [Patedj]
+C206A4C0 00000002
+3D8042C8 919E0054
+60000000 00000000
+
+Unlimited Skill Points [GMO]
+C2097E9C 00000002
+38000063 90030014
+60000000 00000000

@@ -1,0 +1,59 @@
+R92P01
+Pikmin 2
+
+Ultra Spicy Spray (Red Spray) x99 [Crapulecorp]
+42000000 90000000
+01A61447 00000063
+E0000000 80008000
+
+Ultra Bitter Spray (Purple Spray) x99 [Crapulecorp]
+42000000 90000000
+01A6144B 00000063
+E0000000 80008000
+
+pitch music [CosmoCortney]
+04539D80 3FX00000
+0453A200 3FX00000
+X = 8 = normal speed
+X &lt; 8 = deep pitch
+X &gt; 8 = high pitch
+
+awesome glowing objects (pikmin leafs, Antennas) [CosmoCortney]
+0466F8E8 41000000
+0466F890 3FB00000
+
+Instant Kill (Z & 2) [Panda]
+286303C2 00002100
+0419A6B4 D3E30200
+0419B28C D3E30200
+CC000000 00000000
+0419A6B4 D0030200
+0419B28C D0230200
+E0000000 80008000
+The health bar has to be visible for it to work, some enemies don't die until you hit them once as health is hidden initially.
+
+Electric Damage [Panda]
+041D87AC 60000000
+This adds inf health against electric fences.
+
+Always 100 Pikmins in Base [Blaster99]
+4A000000 91000000
+14A61598 00000064
+E0000000 80008000
+
+Time Stop (1 Button=on/off) [Blaster99]
+286303C2 00000200
+041BAFFC 60000000
+CC000000 00000000
+041BAFFC D0230208
+E0000000 80008000
+Building and destructing bridges/walls will make no progress if enabled.
+
+Infinite Health [Blaster99]
+041D85A4 60000000
+
+ALL Pikmin 9998 (ZiT-Style) [Blaster99]
+C2209C40 00000002
+38C0270E 90C30000
+60000000 00000000
+Credits for all codes unless the first one to ZiT, just ported to PAL.

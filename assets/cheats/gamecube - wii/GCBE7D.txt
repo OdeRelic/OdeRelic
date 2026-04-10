@@ -1,0 +1,100 @@
+GCBE7D
+Crash Bandicoot The Wrath of Cortex 
+
+Infinite Lives
+003D4459 00000063
+003D445B 00000063
+
+Always Have Shield
+0031902B 00000002
+
+Max Fruit
+003D447D 00000063
+003D447F 00000063
+
+All Levels/Bosses Open
+023023F4 000BFFFF
+
+All Powers
+003027EA 000000FF
+
+All Crystals
+003027E4 00000019
+
+All Relics
+003027E5 00000019
+
+Level 1 Complete
+023024D0 000000FF
+
+Level 2 Complete
+02302578 000000FF
+
+Level 3 Complete
+02302540 000000FF
+
+Level 4 Complete
+023025E8 000000FF
+
+Level 5 Complete
+0230247C 000000FF
+
+Level 6 Complete
+023024EC 000000FF
+
+Level 7 Complete
+023027C4 000000FF
+
+Level 8 Complete
+0230255C 000000FF
+
+Level 9 Complete
+02302604 000000FF
+
+Level 10 Complete
+02302444 000000FF
+
+Level 11 Complete
+02302524 000000FF
+
+Level 12 Complete
+02302594 000000FF
+
+Level 13 Complete
+02302460 000000FF
+
+Level 14 Complete
+0230240C 000000FF
+
+Level 15 Complete
+023025B0 000000FF
+
+Level 16 Complete
+02302498 000000FF
+
+Level 17 Complete
+0230263C 000000FF
+
+Level 18 Complete
+023026E4 000000FF
+
+Level 19 Complete
+023024B4 000000FF
+
+Level 20 Complete
+02302754 000000FF
+
+Level 21 Complete
+02302428 000000FF
+
+Level 22 Complete
+02302620 000000FF
+
+Level 23 Complete
+023025CC 000000FF
+
+Level 24 Complete
+02302770 000000FF
+
+Level 25 Complete
+023027A8 000000FF

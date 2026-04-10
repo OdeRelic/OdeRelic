@@ -1,0 +1,11 @@
+EAOE
+King of Monsters
+
+Unlimited Time [GMO]
+0021799E 000000FF
+
+P1 Unlimited Health [GMO]
+00217A53 0000003C
+
+P1 Easy Win [GMO]
+00217C53 00000000

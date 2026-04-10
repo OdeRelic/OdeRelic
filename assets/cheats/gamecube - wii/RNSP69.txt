@@ -1,0 +1,53 @@
+RNSP69
+Need For Speed Carbon
+
+Infinite Nos [BoxNinja]
+056EB240 3F800000
+
+Infinite Speed Breaker [BoxNinja]
+049A7388 3F800000
+
+Inf Money : [777eThOd*]
+04E946E8 2E5BF271
+
+300C SRT8 Value Modifier [777eThOd*]
+04DC6100 XXXXXXXX
+X Values
+0 = 00000000
+1,000 = 000003E8
+5,000 = 00001388
+
+Mazda 3 Value Modifier [777eThOd*]
+04DC6E58 XXXXXXXX
+X Values
+0 = 00000000
+1,000 = 000003E8
+5,000 = 00001388
+
+Camaro SS Value Modifier [777eThOd*]
+04DC7140 XXXXXXXX
+X Values
+0 = 00000000
+1,000 = 000003E8
+5,000 = 00001388
+
+Alfa Brera Value Modifier [777eThOd*]
+04DC71BC XXXXXXXX
+X Values
+0 = 00000000
+1,000 = 000003E8
+5,000 = 00001388
+
+CLK 500 Value Modifier [777eThOd*]
+04DC59C0 XXXXXXXX
+X Values
+0 = 00000000
+1,000 = 000003E8
+5,000 = 00001388
+
+RX-8 Value Modifier [777eThOd*]
+04DC6008 XXXXXXXX
+X Values
+0 = 00000000
+1,000 = 000003E8
+5,000 = 00001388

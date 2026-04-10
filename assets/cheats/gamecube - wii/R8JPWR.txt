@@ -1,0 +1,24 @@
+R8JPWR
+Lord of the Rings - Aragorns Quest
+
+Inf Coins [C|T]
+4A000000 90000000
+1454EFC2 0001869F
+E0000000 80008000
+Infinite/Unlimited Cash
+
+Inf/MAX Silver Coins *credit Skiller* [C|T]
+C21AF754 00000002
+3860270F 9064003C
+60000000 00000000
+Gain/Loose money get Max
+
+Inf/MAX Bow Arrows [C|T]
+C2236564 00000002
+38000063 B01D0078
+60000000 00000000
+MAX Bow Ammo if shoot
+
+Inf Sword Power [C|T]
+14218C94 60000000
+Swordpower is not reduced

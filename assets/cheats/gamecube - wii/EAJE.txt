@@ -1,0 +1,14 @@
+EAJE
+Metal Slug
+
+Unlimited Time [GMO]
+0021C5BB 00000063
+
+P1 Unlimited Ammo (ARMS) [GMO]
+02215BEA 000003E7
+
+P1 Unlimited Bombs [GMO]
+00215BE8 00000063
+
+P1 Unlimited Credits [GMO]
+0021D8E7 00000063

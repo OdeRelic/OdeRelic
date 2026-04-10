@@ -1,0 +1,13 @@
+MADE
+Ecco The Dolphin
+
+Unlimited Health [GMO]
+00EDCAF5 00000038
+
+Unlimited Oxygen [GMO]
+02EDCAF6 00000380
+
+Press B for Temporary Invincibility [GMO]
+281C509A 00000400
+00EDCAFF 00000020
+E0000000 80008000

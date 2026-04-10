@@ -1,0 +1,22 @@
+SUXEA4
+Pro Evolution Soccer 2010
+
+Button Activator [T.B.W]
+28318F82 0000XXXX
+
+Home Team Score Modifier [T.B.W]
+00F0F009 000000XX
+
+Away Team Score Modifier [T.B.W]
+00F0F2FD 000000XX
+
+Home Team has 99 Goals [T.B.W]
+C2A76FAC 00000002
+3800000A 90A70008
+60000000 00000000
+
+Away Team has 99 goals [T.B.W]
+C2A76FB4 00000002
+3800000A 90A702FC
+60000000 00000000
+http://i44.tinypic.com/v4s591.png

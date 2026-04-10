@@ -1,0 +1,25 @@
+RS4EXS
+Castle of Shikigami 3
+
+Unlimited Health [GMO]
+013A3C67 00000003
+
+Unlimited Bombs [GMO]
+013A3CAF 00000005
+
+Hold 2 For Auto Fire [GMO]
+28520092 FEFF0100
+053A3CB8 FFFFFFFF
+E0000000 80008000
+Disables Charged Attack
+
+Free Play [g6flavor]
+0048Eb0B 000000FF
+
+Infinite Bombs [g6flavor]
+041B1EE8 60000000
+041B2378 60000000
+
+Infinite Lives [g6flavor]
+041C7B74 60000000
+041ABB64 60000000

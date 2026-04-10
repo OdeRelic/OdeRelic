@@ -1,0 +1,25 @@
+SSNPHY
+Sniper Elite
+
+Never Reload [Crapulecorp]
+042F7D0C 38030000
+*Code ported from Thomas83Lin (NTSC-US) Version*
+
+Rapid Fire [Crapulecorp]
+042F7C88 60000000
+042F7CE4 60000000
+*Code ported from Thomas83Lin (NTSC-US) Version*
+
+Inf Health [Crapulecorp]
+040C1928 60000000
+*Code ported from Thomas83Lin (NTSC-US) Version*
+
+Button Activator [Bully@Wiiplaza]
+28525BFA YYYYZZZZ
+
+Infinite Ammo [Bully@Wiiplaza]
+C21DF5A0 00000004
+9421FFF0 91610008
+396003E7 91630018
+81610008 38210010
+80630018 00000000

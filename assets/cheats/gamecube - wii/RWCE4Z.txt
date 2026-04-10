@@ -1,0 +1,15 @@
+RWCE4Z
+Williams Pinball Hall Of Fame
+
+Reset Balls - Press "C" (resets back to the first ball of 3) [farjo08]
+2836d060 bfff4000
+0420d96c 00000002
+e0000000 80008000
+
+10 Million Score [farjo08]
+0420d95c 00989680
+
+999 Credits [farjo08]
+04212c77 000003e7
+
+For the 10 million score and 999 credits, those are just examples I provided. You can change the actual values to anything you would like. If you are not sure of the proper value, use a decimal to hex calculator (windows calculator does this) - enter the desired value in decimal, convert to hex, and replace my values (00989690 (score) and 000003e7 (credits) respectively).

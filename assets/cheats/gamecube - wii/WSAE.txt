@@ -1,0 +1,57 @@
+WSAE
+Onslaught
+
+Infinite Ammo AR-xxxx [farjo08]
+0224438A 0000003C
+
+Infinite Ammo S-xxxx [farjo08]
+0224438C 0000000F
+
+Infinite Ammo RL-xxxx [farjo08]
+0224438E 0000000F
+
+Infinite Ammo SG-xxxx [farjo08]
+02244388 00000078
+
+Infinite Ammo G-xxxx [farjo08]
+02244390 0000000A
+
+Infinite Ammo BW-xxxx [farjo08]
+02244392 0000000A
+
+Infinite Ammo BKD-G9 [farjo08]
+02244394 000004B0
+
+Full Combo Meter [farjo08]
+02353F9A 0000FFFF
+
+Infinite Health (Player) [farjo08]
+046C0FF0 00000BB8
+
+Infinite Health (Base) [farjo08]
+046C14B0 00001450
+
+Infinite Health (Supplies) [farjo08]
+046C1204 000037DC
+
+Infinite Health (BKD-G9) [farjo08]
+046C10D4 00000BB8
+
+Infinite Health (Ship) [farjo08]
+046C1548 00003CF0
+
+Time Modifier [farjo08]
+04353EBC XXXXXXXX
+
+Score Modifier [farjo08]
+0424313C XXXXXXXX
+
+Notes:
+
+1) For Time and Score Modifier, replace XXXXXXXX with a hex value. Keep in mind that the time for each mission is different and some require the time limit to run out - so be sure you know what you are doing if using that code and/or use it through WiiRD so you can enable/disable as needed.
+
+2) The ammo codes will work for all levels of weapons. The current values were set to the level 1 maximum but these will give infinite ammo / no reload.
+
+3) For all health codes except player (i.e. base, ship, etc) I would advise only using when playing a mission where they are applicable. I did play through the entire campaign on different difficulties and while the addresses remain static I have run across a rare enemy or hive that could not be destroyed until I disabled those codes (it appears that game may use the same memory address for different things depending on the level).
+
+If anyone wants to make modifiers (enablers/disablers, etc) to these codes feel free to do so. I'm done with hacking this game and covered pretty much everything (I was unable to determine how the weapon upgrades unlock - that's about the only thing missing at this point).

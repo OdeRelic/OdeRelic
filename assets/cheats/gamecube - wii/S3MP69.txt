@@ -1,0 +1,22 @@
+S3MP69
+The Sims 3
+
+Infinite Maxed out Money [Patedj]
+C2131C3C 00000002
+3C60000F 6063FFFF
+60000000 00000000
+Start with 999 999$
+
+Happy Code (ukuneko helped) [Patedj]
+04003C00 42C80000
+C221F504 00000003
+3DC08000 61CE3C00
+C00E0000 D0030000
+60000000 00000000
+Stats are always full
+
+Automatically skilled. [Patedj]
+C221E5EC 00000002
+3DC046EF 91DD000C
+60000000 00000000
+As soon as your skill rises it maxes out

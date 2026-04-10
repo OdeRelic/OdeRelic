@@ -1,0 +1,14 @@
+WZPP
+Zombie Panic in Wonderland
+
+Infinite Lives [matt123337]
+C247D6E8 00000002
+3800270F 900300C0
+60000000 00000000
+Will become 9999 as soon as you die.
+
+Unlimited Ammo [GMO]
+C24CBFF4 00000002
+3860270F 907F0000
+60000000 00000000
+Switch Weapons For Effect

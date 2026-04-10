@@ -1,0 +1,14 @@
+GWWE01
+Wario World 
+
+Max/Infinite Cash
+041CE3A4 3B9AC9FF
+
+Super Max Health
+041C5840 000000FE
+
+Tons Of Enemies Killed
+001CE3AB 000000FF
+
+All Keys/Levels/Boss Stamps
+041CE3AC FFFFFFFF

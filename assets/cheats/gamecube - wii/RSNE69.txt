@@ -1,0 +1,38 @@
+RSNE69
+The Simpsons Game
+
+Inf. Ammo for Bart [Nutmeg]
+C229AE34 00000002
+39000063 910300EC
+806300EC 00000000
+
+Moon Jump [Mathew_Wi]
+C20FA934 00000006
+3D208086 81294080
+2C090800 4082001C
+3CC08000 3D20C10D
+39293314 912601C0
+C06601C0 FC001890
+D0180088 00000000
+Causes enemies/partners to jump as well.
+
+Unlimited Jumps v1 (Hold Z) [Mathew_Wi]
+285D30A0 D7FF2800
+48000000 806487EC
+DE000000 80008180
+140000BC 128A1DA0
+05007418 128A1DA0
+E0000000 80008000
+Code only works when in the first area of a level
+Don't use with Ghost Mode
+
+Ghost Mode v1 (Hold B) [Mathew_Wi]
+285D30A0 FBFF0400
+48000000 806487EC
+DE000000 80008180
+140000BC 10000000
+05007418 10000000
+E0000000 80008000
+Code only works when in the first area of a level
+This allows you to go through objects/walls but disables jumping
+Don't use with Unlimited Jumps

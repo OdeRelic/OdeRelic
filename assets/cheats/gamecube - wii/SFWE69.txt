@@ -1,0 +1,59 @@
+SFWE69
+2010 FIFA World Cup South Africa
+
+Home Team Score Modifier [T.B.W]
+04A7A618 000000XX
+
+Away Team Score Modifier [T.B.W]
+04A8044C 000000XX
+http://i39.tinypic.com/oqhlqh.png
+
+No Music Plays [T.B.W]
+041CC6D0 00000000
+
+Home Team Player Amount Modifier [T.B.W]
+04AE536C 0000000X
+
+Away Team Player Amount Modifier [T.B.W]
+04AE548C 0000000X
+http://i43.tinypic.com/2mpndk8.png
+
+Button Activator [T.B.W]
+281598C0 0000XXXX
+
+Home team has no name on scoreboard [T.B.W]
+04A74A88 00000000
+
+Away team has no name on scoreboard [T.B.W]
+04A7A8BC 00000000
+http://i42.tinypic.com/oiwrom.png
+
+Cant resume game once Paused [T.B.W]
+048F151C 00000000
+
+Away team Icon Changer [T.B.W]
+04A7A884 00000XXX
+
+Home team Icon Changer [T.B.W]
+04A74A50 00000XXX
+Spain= 552
+Portugal= 54A
+Germany= 526
+England= 539
+France= 537
+US= 56B
+http://i40.tinypic.com/6i4jgl.png
+
+Home 99 - Away00 (- Button) [ZiT]
+281598C0 00001000
+04A7A618 00000063
+04A8044C 00000000
+E0000000 80008000
+04026270 88860000
+
+Home 00 - Away 99 (2 Button) [ZiT]
+281598C0 00000100
+04A7A618 00000000
+04A8044C 00000063
+E0000000 80008000
+04026280 88860001

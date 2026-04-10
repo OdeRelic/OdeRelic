@@ -1,0 +1,99 @@
+JAAE
+Super Mario World
+
+Button Activators
+
+Classic Controller Pad1 [GMO]
+2818E69A YYYYZZZZ
+
+Palace Switch Codes
+
+Green Switch Activated [GMO]
+008B234F 00000001
+Do Not Enter Palace if code is on
+
+Yellow Switch Activated [GMO]
+008B2350 00000001
+Do Not Enter Palace if code is on
+
+Blue Switch Activated [GMO]
+008B2350 00000001
+Do Not Enter Palace if code is on
+
+Red Switch Activated [GMO]
+008B2352 00000001
+Do Not Enter Palace if code is on
+
+Time Codes
+
+Disable Timer [GMO]
+008B1358 00000010
+
+Unlimited Purple P Button Time [GMO]
+008B18D5 000000FF
+
+Unlimited Silver P Button Time [GMO]
+008B18D6 000000FF
+
+Miscellaneous Codes
+
+Enable Special Road Extras [GMO]
+028B23BA 00008383
+048B23BC 83830183
+048B23C0 83838303
+
+Invincible (Mario-Luigi Only) [GMO]
+008B18BF 00000045
+
+Unlimited Star Power [GMO]
+008B18B8 000000FF
+
+Unlimited Lives (Stage+World) [GMO]
+028B133E 00000909
+008B11E5 00000009
+008B11E6 00000009
+
+Easy 1Up (10 Coins Per 1Up) [GMO]
+008B133B 00000009
+
+1 Yoshi Coin for 1Up [GMO]
+008B1848 00000005
+
+Select Box Power Modifier [GMO]
+008B11EA 000000??
+01 Mushroom
+02 Fire Flower
+03 Star Power
+04 Feather
+
+Mario-Luigi Power Modifier [GMO]
+008B0441 000000??
+00 Small
+01 Big
+02 Cape
+03 Fireball
+
+Eat 1 Thing To Grow (Baby Yoshi) [GMO]
+008B19A0 00000004
+
+Always Get To Play Bonus Game [GMO]
+008B1370 00000064
+Does not require you to get score at goal
+
+Moon Jump [GMO]
+2818E69A FFBF0040
+008B04A5 000000C8
+E0000000 80008000
+Code Ported from ZiT
+
+Always Floating Falls [GMO]
+008B18CD 000000FF
+
+Flying Head [Hamster35000vr]
+86000003 FFFFFFFE
+84000003 808B0739
+86000004 FFFFFFFE
+82000004 808B073D
+Mario's head will go up the screen forever (even in the overworld)!
+
+01 Big

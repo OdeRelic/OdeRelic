@@ -1,0 +1,20 @@
+RELSAB
+Mario Kart Grand Prix 2
+
+Button Activator for A and B Buttons [CosmoCortney]
+28858D2A 0000XXXX
+A Button = 6000
+B Button = 0400
+A + B = 6400
+
+Button Activator for L and R Trigger [CosmoCortney]
+28858D32 0000XXXX
+L = 0200
+R = 0100
+L + R = 0300
+
+Infinite Time in Races [CosmoCortney]
+046D0F8C 447A0000
+
+65535 Mario Coins [CosmoCortney]
+025D2396 0000FFFF

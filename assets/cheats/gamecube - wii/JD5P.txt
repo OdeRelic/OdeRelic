@@ -1,0 +1,33 @@
+JD5P
+Brawl Brothers
+
+Unlimited Lives Player 1 [Crapulecorp]
+0046022E 00000009
+
+Unlimited Health Player 1 [Crapulecorp]
+0046020C 0000004F
+
+1-Hit Kill (Bosses) [GMO]
+004603AC 00000000
+
+P1 Character Modifier [GMO]
+00460208 000000??
+00 Hack
+02 Slash
+04 Lord J
+06 Kazan
+08 Wendy
+
+P2 Character Modifier [GMO]
+004602D8 000000??
+
+P2 Unlimited Health [GMO]
+004602DC 0000004F
+00 Hack
+02 Slash
+04 Lord J
+06 Kazan
+08 Wendy
+
+P2 Unlimited Lives [GMO]
+004602FE 00000009

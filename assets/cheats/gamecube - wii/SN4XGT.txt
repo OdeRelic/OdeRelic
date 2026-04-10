@@ -1,0 +1,18 @@
+SN4XGT
+Naruto Shippuden: Dragon Blade Chronicles
+
+Unlimited & Max Health [Crapulecorp]
+C20817AC 00000004
+8A1D0003 2C10000F
+4182000C 907D0024
+48000008 90DD0024
+60000000 00000000
+*Ported From ZiT's Ntsc Usa Version*
+
+Unlimited & Max SP [Crapulecorp]
+04081D38 90DE0040
+*Ported From ZiT's Ntsc Usa Version*
+
+Unlimited Companion [Crapulecorp]
+040822E0 90DF0048
+*Ported From ZiT's Ntsc Usa Version*

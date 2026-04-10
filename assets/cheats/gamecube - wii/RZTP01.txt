@@ -1,0 +1,266 @@
+RZTP01
+Wii Sports Resort
+
+Button activator P1 [ardemii]
+2086E454 0000ZZZZ
+
+Button activator P2 [ardemii]
+2086FFD0 0000ZZZZ
+ZZZZ:
+Left=0001
+Right=0002
+Down=0004
+up=0008
++=0010
+-=1000
+2=0100
+1=0200
+B=0400
+A=0800
+Z=2000
+c=4000
+Home=8000
+
+Wakeboarding
+
+Time Control [Bully@Wiiplaza]
+045817B8 38800000
+2886E456 EFFF1000
+045817B8 3C807FFF
+E0000000 80008000
+*Press - to finish*
+
+Jetski Training
+
+Infinite Time [Bully@Wiiplaza]
+2886E45A FEFF0100
+04582224 38000000
+CC000000 00000000
+04582224 801B0050
+E0000000 80008000
+*Press 2 to toggle ON/ OFF*
+
+Basketball
+
+Basketball 3 Pt Contest Have XX Points(Press 1+2 on P1 Wiimote) [ardemii]
+2086E454 00000300
+04D16298 000000XX
+E0000000 80008000
+Original by REDSOXROX, ported by ardemii
+XX= Points in HEX
+Max value: 1F, any greater value will freeze game
+Visible score does not immediately change
+Do not shoot any more baskets once you reach 31 Points
+
+Infinite Time in 3 Point Throw [AsatanuKain]
+02D103FA 00000EFF
+
+Golf
+
+Control P1 Golf Ball (P1 Wiimote) [ardemii]
+2086E454 00000002
+82210000 00CFC0A0
+86900000 3F800000
+84210000 00CFC0A0
+E0000000 80008000
+2086E454 00000001
+82210000 00CFC0A0
+86900000 BF800000
+84210000 00CFC0A0
+E0000000 80008000
+2086E454 00000200
+82210000 00CFC0A4
+86900000 3F800000
+84210000 00CFC0A4
+E0000000 80008000
+2086E454 00000100
+82210000 00CFC0A4
+86900000 BF800000
+84210000 00CFC0A4
+E0000000 80008000
+2086E454 00000004
+82210000 00CFC0A8
+86900000 3F800000
+84210000 00CFC0A8
+E0000000 80008000
+2086E454 00000008
+82210000 00CFC0A8
+86900000 BF800000
+84210000 00CFC0A8
+E0000000 80008000
+Original by Mal1t1a, ported by ardemii
+Controls:
+Up=Move-Forward
+Down=Move-Backward
+Left=Move-Left
+Right=Move-Right
+1=Move-Up
+2=Move-Down
+
+Always at first swing [AsatanuKain]
+2086E726 00000100
+04D0468B 00000001
+E0000000 80008000
+(Press 2 after you shoot and hold it until next swing is announced)
+
+Frisbee Golf
+
+Always at first throw [AsatanuKain]
+2086E726 00000100
+04CFB0FF 00000001
+04D2ECD7 00000001
+04D2ECDB 00000001
+E0000000 80008000
+(Press 2 after you shoot and hold it until next swing is announced)
+
+Note! [Romaap]
+00000000 00000000
+Some users experienced problems with the codes, apparently they work best when you use one code at a time.
+
+Island vs
+
+Always have xx points P1 [ardemii]
+04D72EBB XXXXXXXX
+XXXXXXXX must be 00000000 (00) to FFFFFFFF (4294967295)
+
+Always have xx points P2 [ardemii]
+04DB4078 XXXXXXXX
+XXXXXXXX must be from 00000000 (00) to FFFFFFFF (4294967295)
+
+Have xx points (When you press the button activator) P1 [ardemii]
+2086E454 0000ZZZZ
+04D72EBB XXXXXXXX
+E0000000 80008000
+XXXXXXXX must be from 00000000 (00) to FFFFFFFF (4294967295)
+ZZZZ is button activator
+
+Have xx points (When you push button activator) P2 [ardemii]
+2086FFD0 0000ZZZZ
+04D72EBB XXXXXXXX
+E0000000 80008000
+XXXXXXXX must be from 00000000 (00) to FFFFFFFF (4294967295)
+ZZZZ is button activator
+
+Island Flyover
+
+Collect All 240 i-Points (80 i-Points for each day, evening, and night fly) [ardemii]
+2086E454 00000400
+42000000 90000000
+0016CBFF 00000050
+0016CEE7 00000050
+0816CEE8 00000000
+004F0001 00000001
+0816CF38 00000007
+004F0001 00000000
+00161097 00000050
+0016137F 00000050
+08161380 00000000
+004F0001 00000001
+081613D0 00000007
+004F0001 00000000
+E0000000 80008000
+Original by conanac, ported by ardemii
+(push B into the dock)
+
+Island Flyover Teleporter [ardemii]
+2086E454 00000100
+82210001 00D2E194
+82210002 00D2E198
+82210003 00D2E19C
+E0000000 80008000
+2086E454 00001000
+84210001 00D2E194
+84210002 00D2E198
+84210003 00D2E19C
+E0000000 80008000
+Original by Mal1t1a, ported by ardemii
+Press 2 on P1 Wiimote to save your position, and press Minus to teleport to the saved position.
+
+Flytime [Romaap]
+04428250 60000000
+04428244 38004650
+2086E454 00000700
+04428244 38000000
+E0000000 80008000
+You have unlimited Flytime, Press 1+2+B to Finish
+Credits for this code goes to caitsith2 (even though the time address is the same, I searched for it myself :P)
+
+Swordplay and Table Tennis
+
+Make Table Tennis and Swordplay Level 4095 [ardemii]
+2086E454 00000200
+42000000 90000000
+0416C834 000000FF
+0216C838 0000FFFF
+0416C4B0 000000FF
+0216C4B4 0000FFFF
+E0000000 80008000
+Original by conanac, ported by ardemii
+
+Table Tennis
+
+CPU Never Scores [Bully@Wiiplaza]
+C24713E0 00000002
+2C040001 41820008
+901C0020 00000000
+
+P1 Wins Immediately [Bully@Wiiplaza]
+C24713DC 00000003
+2C040000 4082000C
+38000006 41820008
+38050001 00000000
+
+Make Zero and Match Point in Table Tennis Match [AsatanuKain]
+2086E726 00001000
+05275783 00000000
+0527599F 00000000
+05276A7F 00000000
+E0000000 80008000
+2086E726 00000100
+0527577F 00000016
+0527599B 00000016
+05276A7B 00000016
+E0000000 80008000
+(Push Minus button during the match to make zero point for Wii, and push 2 button during the match to keep matchpoint to your benefit)
+(Ported from conanacÂ´s NTSC Code)
+
+Return Challenge - Score Multiplier [Romaap]
+C2482084 00000002
+1C8400xx 7C002214
+60000000 00000000
+Replace xx with how many times the score you will get have to be multiplied.
+
+Return Challenge - Get the "Can Do" Stamp [Romaap]
+05276EB0 00000064
+With this code the game will think you hit 100 cans, so you'll get the Can Do stamp.
+
+Swordplay Showdown
+
+Unlimited Health + 1 Hit KO [Romaap]
+012C6903 00000005
+0463B530 2C000003
+
+Cycling Road Race
+
+Cycling Always 1st Place [ardemii]
+12D2AB9E 00000001
+Original by aj00200, ported by ardemii
+
+Unlimited Stamina [Romaap]
+043AFA40 60000000
+
+Archery
+
+P1 always have XX points [ardemii]
+04DA6B83 XXXXXXXX
+XXXXXXXX must be from 00000000 (00) to 00FFFFFF (16777215)
+
+P2 always have XX points [ardemii]
+04DA6B87 XXXXXXXX
+XXXXXXXX must be from 00000000 (00) to 00FFFFFF (16777215)
+
+Score Multiplier [Romaap]
+C2573498 00000002
+1C6300xx 7C641A14
+60000000 00000000
+Replace xx with how many times the score you will get have to be multiplied.

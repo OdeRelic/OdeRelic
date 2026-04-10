@@ -1,0 +1,17 @@
+SCAP18
+Calling
+
+Unlock All Galleries [Yamishira]
+0031B004 000000FF
+0231B00A 0000FFFF
+0231B00C 0003FFFF
+0231B01C 0003FFFF
+0431B03C FFFFFFFF
+0231B048 0003FFFF
+0231B054 0009FFFF
+I advise backing up your save incase it causes any unforseen problems ingame.
+
+Walkthrough Walls [Yamishira]
+0407F1EC 60000000
+0407F1D4 60000000
+Some rooms maynot load completely unless you open the door first

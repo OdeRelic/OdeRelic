@@ -1,0 +1,171 @@
+RTNP41
+Tenchu Shadow Assassin
+
+Infinite NINJA ITEM [ZiT]
+0415A294 60000000
+
+NINJA ITEM
+
+Slot1 [ZiT]
+C214F960 00000002
+380000xx 901C0018
+60000000 00000000
+
+Slot2 [ZiT]
+C214F964 00000002
+380000xx 901C001C
+60000000 00000000
+
+Slot3 [ZiT]
+C214F968 00000002
+380000xx 901C0020
+60000000 00000000
+
+xx=Item
+00:Shuriken
+01:Ninjato (Sword)
+02:Rock
+03:Kunai
+04:Bamboo Tube
+05:Kasugai
+06:Smoke Bomb
+07:Chostmaker
+08:Fishing Rod
+09:Poison
+0A:shinobi Cat
+0B: Ninja Veil
+38:Izayoi
+39:Onibi
+3A:Burning Shuriken
+3B:Ninja Tabi '08
+3C:Hayate Pill
+3D:Devil's Mask
+
+ALL NINJA ITEM & ITEM (Keys) Possession & Number MAX [ZiT]
+0414F94C 907E0160
+0414F950 989E0168
+
+Not found by the enemy [ZiT]
+C209C7B0 00000004
+2C050001 4182000C
+90030A70 4800000C
+3C008A00 90030A70
+60000000 00000000
+04081B04 D2030FF4
+
+Moon Jump (C button) [ZiT]
+2877A96A 00004000
+C22CB940 00000004
+82030078 2C100000
+4182000C D0430014
+4800000C 3E204200
+92230014 00000000
+E0000000 80008000
+2877A96A 00000000
+042CB940 D0430014
+E0000000 80008000
+
+SPEED UP [ZiT]
+C21BD9E4 00000002
+3EA04000 92BE0588
+60000000 00000000
+
+Walk Through Walls (- Button) [ZiT]
+2877A96A 00001000
+C21BEB04 00000002
+38000022 981C05A1
+60000000 00000000
+E0000000 80008000
+2877A96A 00000000
+041BEB04 981C05A1
+E0000000 80008000
+
+Character Change [ZiT]
+C201ABC0 00000002
+3B2000xx 93230A7C
+60000000 00000000
+
+xx=
+00=力丸 ◎
+01=彩女 ◎
+02=浪人 ○
+03=侍 ○
+04=侍2 ○
+05=鎧武者 ○
+06=東紫雲斎 ○
+07=橘百兵衛 ○
+08=悪徳商人 ○
+09=郷田松之信 ○
+0A=関谷直忠 ○
+0B=殿 ○
+0C=殿2 ○
+0D=菊姫 ○
+0E=鬼陰 ○
+0F=女 ○
+10=凛姿 ×
+11=偽力丸 ○
+12=大男 ○
+13=忍者 ○
+14= -
+15=女 ○
+16= -
+17= 鬼陰(オカマVer) ○
+18= -
+19=侍 ○
+1A=侍2 ○
+1B=侍3 ○
+1C=彩女 ×
+1D=菊姫 ○
+1E=鬼陰 ◎
+1F=力丸 ◎
+20=彩女 ◎
+21=浪人 ○
+22=侍 ○
+23=侍2 ○
+24=鎧武者 ○
+25=東紫雲斎 ○
+26=橘百兵衛 ○
+27=悪徳商人 ○
+28=郷田松之信 ○
+29=関谷直忠 ○
+2A=殿 ○
+2B=殿2 ○
+2C=菊姫 ○
+2D=鬼陰 ○
+2E=女 ○
+2F=凛姿 ×
+30=偽力丸 ○
+31=大男 ○
+32=忍者 ○
+33= -
+34=女 ○
+35= -
+36=鬼陰(オカマVer) ○
+37= -
+38=侍 ○
+39=侍2 ○
+3A=侍3 ○
+3B=彩女 ×
+3C=菊姫 ○
+3D=鬼陰 ◎
+3E= -
+3F= -
+40= -
+
+Fight Scene
+
+Enemy Single Blow [ZiT]
+040EFA28 931E0080
+
+If TENCHU Gauge Increase, MAX [ZiT]
+C20F08E8 00000002
+3E8042C8 929E0058
+60000000 00000000
+
+Infinite TENCHU Gauge [ZiT]
+040EEC18 D01D0058
+
+SIDE MISSION
+
+TIME STOP [ZiT]
+04253CCC D003007C

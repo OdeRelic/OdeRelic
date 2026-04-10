@@ -1,0 +1,17 @@
+LAMP
+Sonic Chaos
+
+Invincible [GMO]
+00D515B1 0000006A
+
+Max Lives [GMO]
+00D51499 00000099
+
+Refill Rings-Health [GMO]
+281BB682 00000402
+00D5149A 00000099
+E0000000 80008000
+Hold B and Press Right on D-Pad
+
+Disable Timer [GMO]
+00D514C2 00000000

@@ -1,0 +1,257 @@
+R3MP01
+Metroid Prime Trilogy
+
+Metroid Prime 1
+
+Difficulty Modifier (MP1) (Press left) [Sharkbyte]
+2852E52A 00000001
+CE000000 80008180
+047E3CC8 0000000X
+E0000000 80008000
+0= normal 1= veteran 2= hypermode
+
+Moon Jump (B) [Sharkbyte]
+2852E52A FBFF0400
+044D7CA8 41200000
+E0000000 80008000
+
+Max Energy Tanks and Infinite Energy (C+Z+1) [Apache81]
+2852E52A 9DFF6200
+CC000000 00000001
+48000000 804C3C14
+DE000000 80008180
+140000F0 0000000E
+1400000C 44BB6000
+E0000000 80008000
+Press C+Z+1 to switch on/off the code (NOTE THAT THE ENERGY TANKS WILL REMAIN).
+Thanks to Romaap and OneUp for the help.
+
+Infinite Energy (C+Z+1) [Apache81]
+2852E52A 9DFF6200
+CC000000 00000001
+48000000 804C3C14
+DE000000 80008180
+1400000C 44BB6000
+E0000000 80008000
+Press C+Z+1 to switch on/off the code.
+ATTENTION: this code will replenish your energy for full also if you haven't obtained all the energy tanks. So if you turn off the code you need to lost all your surplus energy, to go in a save station or to take an energy bonus to have the normal quantity of energy displayed in the GUI.
+Thanks to Romaap and OneUp for the help.
+
+Infinite Missiles (C+Z+1) [Apache81]
+2852E52A 9DFF6200
+CC000000 00000001
+48000000 804C3C14
+DE000000 80008180
+92210000 00000050
+94210000 0000004C
+E0000000 80008000
+Press C+Z+1 to switch the cheat on/off.
+Thanks to Romaap and OneUp for the help.
+
+Infinite Morphball Bombs (C+Z+1) [Apache81]
+2852E52A 9DFF6200
+CC000000 00000001
+0418D8A0 38050000
+E2100000 00000000
+0418D8A0 3805FFFF
+E0000000 80008000
+Press C+Z+1 to switch the cheat on/off.
+
+Infinite Power Bombs (C+Z+1) [Apache81]
+2852E52A 9DFF6200
+CC000000 00000001
+48000000 804C3C14
+DE000000 80008180
+92210000 00000068
+94210000 00000064
+E0000000 80008000
+Press C+Z+1 to switch the cheat on/off.
+
+Have All Logbook Entries (C+Z+1) [Apache81]
+2852E52A 9DFF6200
+48000000 807EEB3C
+DE000000 80008180
+30000000 003ED6A3
+18000004 3F800000
+234D0008 00000000
+E0000000 80008000
+Press C+Z+1 to activate the cheat.
+ATTENTION: You can't go back !!!
+
+Metroid Prime 2
+
+Moon Jump (MP2) [Sharkbyte]
+F6000001 80008020
+D00301A8 D0A10008
+2853A5EA FBFF0400
+D2000000 00000003
+3D804120 918301A8
+C00301A8 D00301A8
+60000000 00000000
+E0000000 80008000
+F6000001 80108020
+EC430032 D02301A4
+2853A5EA 00000000
+D2000008 00000001
+D00301A8 00000000
+E0000000 80008000
+official instructions
+press B to activate
+only press B once MP2 has started
+code should work for both versions of MPT
+
+Difficulty Modifier (MP2) [Sharkbyte]
+2853A5EA 00000001
+047AFCE0 0000000X
+E0000000 80008000
+press left
+0= normal 1 = veteran 2=hypermode
+
+Max Energy Tanks and Infinite Energy (C+Z+2) [Apache81]
+2853A5EA 9EFF6100
+CC000000 00000001
+48000000 804EFC3C
+DE000000 80008180
+14000254 0000000E
+14000014 44BB6000
+E0000000 80008000
+Press C+Z+2 to switch on/off the code (NOTE THAT THE ENERGY TANKS WILL REMAIN).
+Thanks to Romaap and OneUp for the help.
+
+Infinite Energy (C+Z+2) [Apache81]
+2853A5EA 9EFF6100
+CC000000 00000001
+48000000 804EFC3C
+DE000000 80008180
+14000014 44BB6000
+E0000000 80008000
+Press C+Z+2 to switch on/off the code.
+ATTENTION: this code will replenish your energy for full also if you haven't obtained all the energy tanks. So if you turn off the code you need to lost all your surplus energy, to go in a save station or to take an energy bonus to have the normal quantity of energy displayed in the GUI.
+Thanks to Romaap and OneUp for the help.
+
+Infinite Missiles (C+Z+2) [Apache81]
+2853A5EA 9EFF6100
+CC000000 00000001
+48000000 804EFC3C
+DE000000 80008180
+92210000 0000026C
+94210000 00000268
+E0000000 80008000
+Press C+Z+2 to switch the cheat on/off.
+Thanks to Romaap and OneUp for the help.
+
+Infinite Dark Beam Ammunitions (C+Z+2) [Apache81]
+2853A5EA 9EFF6100
+CC000000 00000001
+48000000 804EFC3C
+DE000000 80008180
+92210000 00000278
+94210000 00000274
+E0000000 80008000
+Press C+Z+2 to switch the cheat on/off.
+ATTENTION: this will works only if you already get the dark beam.
+
+Infinite Light Beam Ammunitions (C+Z+2) [Apache81]
+2853A5EA 9EFF6100
+CC000000 00000001
+48000000 804EFC3C
+DE000000 80008180
+92210000 00000284
+94210000 00000280
+E0000000 80008000
+Press C+Z+2 to switch the cheat on/off.
+ATTENTION: this will works only if you already get the light beam.
+
+Infinite Morphball Bombs (C+Z+2) [Apache81]
+2853A5EA 9EFF6100
+CC000000 00000001
+041924E4 38050000
+E2100000 00000000
+201924E4 38050000
+041924E4 3805FFFF
+E0000000 80008000
+Press C+Z+2 to switch the cheat on/off.
+
+Infinite Power Bombs (C+Z+2) [Apache81]
+2853A5EA 9EFF6100
+CC000000 00000001
+48000000 804EFC3C
+DE000000 80008180
+92210000 00000260
+94210000 0000025C
+E0000000 80008000
+Press C+Z+2 to switch the cheat on/off.
+
+Metroid Prime 3
+
+Moon Jump (MP3) [Sharkbyte]
+F6000001 80008020
+C0040008 D0430178
+285FA72A FBFF0400
+D200000C 00000003
+3D804120 91830180
+C0030180 D00301A8
+60000000 00000000
+E0000000 80008000
+F6000001 80008020
+C0240004 93E1001C
+285FA72A 00000000
+D2000018 00000001
+D00301A8 00000000
+E0000000 80008000
+currently has very little testing!
+
+Invincible on Phaze (C+Z+Plus) [ninjor]
+285FA72A 9FEF6010
+041500F8 60000000
+0415CE70 60000000
+E0000000 80008000
+285FA72A 9FEF7000
+041500F8 D01F096C
+0415CE70 D01F096C
+E0000000 80008000
+Press C+Z+Plus to activate cheat. Thanks to brkirch for the made MP3 codes
+!Do not activate before Coruption runs, or game restarts!
+
+Invincible (C+Z+Plus) [Apache81]
+285FA72A 9FEF6010
+CC000000 00000001
+04271B48 EF9CE028
+E2100000 00000000
+04271B48 EF9C0028
+E0000000 80008000
+Press C+Z+Plus to switch the cheat on/off.
+
+Infinite Missiles (C+Z+Plus) [Apache81]
+285FA72A 9FEF6010
+CC000000 00000001
+0418BBDC 7FDE0051
+E2100000 00000000
+0418BBDC 7C1E0051
+E0000000 80008000
+Press C+Z+Plus to switch the cheat on/off.
+
+Infinite Morphball Bombs (C+Z+Plus) [Apache81]
+285FA72A 9FEF6010
+CC000000 00000001
+0415A094 38030000
+E2100000 00000000
+0415A094 3803FFFF
+E0000000 80008000
+Press C+Z+Plus to switch the cheat on/off.
+
+Commons
+
+Give 99 of each Coins and Vouchers (C+Z) [Apache81]
+285AC6AA 9FFF6000
+0491B244 00000063
+0491B248 00000063
+0491B24C 00000063
+0491B250 00000063
+0491B254 00000063
+0491B258 00000063
+0491B25C 00000063
+0491B260 00000063
+E0000000 80008000
+Press C+Z to have 99 coins for each color and 99 Friends Vouchers.
+IMPORTANT: use this only when you are into the Extra menu'.

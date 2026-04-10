@@ -1,0 +1,17 @@
+FCZE
+King's Knight
+
+Unlimited Health [GMO]
+003608FA 0000000C
+
+Max Power [GMO]
+003608F8 0000000F
+Ported from ZiT
+
+Max Shot [GMO]
+003608FB 00000007
+Ported from ZiT
+
+Max Speed [GMO]
+003608FD 00000007
+Ported from ZiT

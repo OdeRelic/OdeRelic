@@ -1,0 +1,51 @@
+RDGPA4
+Castlevania Judgment
+
+Main Codes
+
+Round ends immediately [Xylon]
+055CDC3C D0000001
+You win after the 3rd round
+
+Have 99 Hearts (Castle Mode) [Xylon]
+0432A108 00000063
+
+Freeze yourself [Xylon]
+42000000 92000000
+04AFFC9C 00000001
+04AFFB98 00401400
+04AFFB9C 00000000
+E0000000 80008000
+Extremely funny, sometimes it can happen that your character fly. I recommend an deactivator.
+http://postimg.org/image/j9lfez9kj/
+
+Hearts 99 [Xylon]
+42000000 92000000
+04AFFB84 00000063
+04AFFB88 00000063
+E0000000 80008000
+
+Enemy Hearts [Xylon]
+42000000 92000000
+04F54FA4 00000000
+04F54FA8 00000000
+E0000000 80008000
+
+Infinite Life [Xylon]
+04B1A948 31000000
+04B1A958 31000000
+42000000 92000000
+04AFFC00 3F80068D
+04AFFBE8 BF800000
+04AFFBDC BF800000
+04AFFB60 00002710
+
+Time Codes
+
+Time Freeze [Xylon]
+055CDC3C 3F000000
+
+Time reloads [Xylon]
+055CDC3C 00002618
+055CDC3E 0000A018
+055CDC4A 0000A618

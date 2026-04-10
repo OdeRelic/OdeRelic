@@ -1,0 +1,23 @@
+RRUJJF
+Winter Sports 2009 The Next Challenge
+
+Alpine skiing
+
+Time Stop [ZiT]
+040EA574 60000000
+040EAA6C 60000000
+040EAC40 60000000
+
+No Penalty [ZiT]
+040EA544 9077002C
+
+Speed Skating
+
+Time Stop [ZiT]
+040C9290 60000000
+040C9240 60000000
+
+Bobsleigh,Luge,Skeleton
+
+Time Stop [ZiT]
+040BE2CC 60000000

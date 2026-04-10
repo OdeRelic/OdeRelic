@@ -1,0 +1,403 @@
+SB4P01
+Super Mario Galaxy 2
+
+Super Speed Mario [CosmoCortney]
+047E5080 3F960000
+
+Crazy HUD [CosmoCortney]
+047E7DC8 40400000
+
+Giant Dust and Stardust [CosmoCortney]
+047E7048 40200000
+
+Mario's Body bends while running [CosmoCortney]
+047E5518 3F900000
+
+Shiny Starbits [Seth@WiiPlaza]
+0470BE54 00000000
+*demo pic - http://goo.gl/MpVv1
+*Demo video - http://youtu.be/0tIEeKr17bw
+
+Moon Jump [Seth@WiiPlaza]
+28756102 00000800
+0472F3C0 00000000
+CC000000 00000001
+0072F3C0 0000003F
+E0000000 80008000
+*press A To moon jump then again to fall back down
+*Demo video - http://youtu.be/0tIEeKr17bw
+
+Speed Hack/Character Always Sprinting [Seth@WiiPlaza]
+026C8BD4 00004000
+*your player runs fast/sprints always
+*Demo video - http://youtu.be/0tIEeKr17bw
+
+2D Mario [Seth@WiiPlaza]
+04664048 00000000
+*Demo Pic - http://goo.gl/K549G
+*Demo video - http://youtu.be/0tIEeKr17bw
+
+If button is pressed Increase/decrease coins [ardemii]
+28756102 00000200
+00A7B402 00000063
+E0000000 80008000
+28756102 00000100
+02A7B402 00000000
+E0000000 80008000
+Press 1 for increase and 2 for decrease.
+
+If button is pressed Increase/decrease starbits [ardemii]
+28756102 00000200
+00A7B3FA 00000063
+E0000000 80008000
+28756102 00000100
+02A7B3FA 00000000
+E0000000 80008000
+Press 1 for increase and 2 for decrease.
+
+If button is pressed Increase/decrease starbits (Starship) [ardemii]
+28756102 00000200
+00E4655A 00000063
+E0000000 80008000
+28756102 00000100
+02E4655A 00000000
+E0000000 80008000
+Press 1 for increase and 2 for decrease.
+
+If button is pressed Increase/decrease coins (Starship) [ardemii]
+28756102 00000200
+00E4655C 00000063
+E0000000 80008000
+28756102 00000100
+02E4655C 00000000
+E0000000 80008000
+Press 1 for increase and 2 for decrease.
+
+If button is pressed Increase/decrease lives [ardemii]
+28756102 00000200
+00E46558 00000063
+E0000000 80008000
+28756102 00000100
+02E46558 00000000
+E0000000 80008000
+Press 1 for increase and 2 for decrease.
+
+cloud mario/luigi starts with 16 clouds instead of 3 toggle A+B+Z [ardemii]
+28756102 00002C00
+0430B0FC 4180FF90
+CC000000 00000001
+0430B0FC 4BFFFF90
+E0000000 80008000
+off by default
+All credits goes to wiiztec
+
+invisible mario/luigi toggle ++- A+B+C [ardemii]
+28756102 00004C00
+04384DC4 8005000C
+CC000000 00000001
+04384DC4 38000001
+E0000000 80008000
+off by default
+ALL credits goes to wiiztec
+
+Speed up (press Down) [ardemii]
+28756102 FFFB0004
+C23AEC9C 00000003
+3D808000 818C2FFC
+9181FFFC C001FFFC
+D01D0278 00000000
+26002FFC 40000000
+86900002 3B449BA5
+84200002 80002FFC
+E2000002 00000000
+2A756102 FFFB0004
+043AEC9C D01D0278
+80000002 3F800000
+84200002 80002FFC
+E0000000 80008000
+Credit goes to Zit and wiiztec
+
+Moon Jump [ardemii]
+C23A2FE0 00000007
+48000005 7C8802A6
+807F02D4 90640024
+807F02D8 90640028
+807F02DC 9064002C
+3C80806C 48000010
+00000000 00000000
+00000000 00000000
+C2388E44 00000007
+3C808075 80846100
+54840529 41820024
+48000005 7C8802A6
+8064FFD4 907F02D4
+8064FFD8 907F02D8
+8064FFDC 907F02DC
+7FE3FB78 00000000
+Credit goes to bkirch
+
+boulder mario/luigi rolls until he hits something [ardemii]
+0443F018 60000000
+28756102 00004004
+0443F018 386000B3
+E0000000 80008000
+press C+down to stop rolling if you can't hit anything
+All credits goes to wiiztec
+
+no spin recharge time [ardemii]
+48000000 807F2608
+DE000000 80008180
+10000E3F 00000000
+E0000000 80008000
+Original by wiiztec, ported by ardemii
+
+Switch between spinn and fly V2 [ardemii]
+48000000 807F2608
+DE000000 80008180
+10000E3F 00000000
+E0000000 80008000
+28756102 00000100
+043EE754 A06306F8
+CC000000 00000001
+043EE754 38600007
+E0000000 80008000
+Press 2 button
+Code based on port of bkirch fly when spin used and wiiztec no spin recharge time.Thanks to Bamsen
+
+Switch between spinn and fly V3 [ardemii]
+48000000 807F2608
+DE000000 80008180
+10000E3F 00000000
+E0000000 80008000
+28756102 00000100
+043EE754 A06306F8
+CC000000 00000001
+043EE754 38600007
+C23EB034 00000002
+3FC08000 C03E2FF4
+60000000 00000000
+28756102 FFFB0004
+86900009 3CF5C28F
+84200009 80002FF4
+28756103 FFFB0000
+24002FF4 40200000
+26002FF4 A0000000
+86900009 BCF5C28F
+84200009 80002FF4
+E2000003 00000000
+28756102 F7FF0800
+80000009 40200000
+84200009 80002FF4
+E0000000 80008000
+Press 2 button for switch
+hold down to accelerate while flying
+Code based on port of bkirch fly when spin used and wiiztec no spin recharge time and default flying speed is 2.5 times faster + hold down to accelerate while flying.Thanks to Bamsen
+
+default flying speed is 2.5 times faster + hold down to accelerate while flying [ardemii]
+C23EB034 00000002
+3FC08000 C03E2FF4
+60000000 00000000
+28756102 FFFB0004
+86900009 3CF5C28F
+84200009 80002FF4
+28756103 FFFB0000
+24002FF4 40200000
+26002FF4 A0000000
+86900009 BCF5C28F
+84200009 80002FF4
+E2000003 00000000
+28756102 F7FF0800
+80000009 40200000
+84200009 80002FF4
+E0000000 80008000
+default flying speed is 40200000 (2.5 times normal)if you want to change it use this site http://babbage.cs.qc.edu/IEEE-754/Decimal.html (change both)
+All credits goes to wiiztec
+
+Mario Size [ardemii]
+28756102 00000200
+48000000 807F2608
+DE000000 80008180
+4A100000 0000002C
+14000000 xxxx0000
+14000004 xxxx0000
+14000008 xxxx0000
+E0000000 80008000
+Original by Zit, ported by ardemii
+press 1
+-Size=xxxx
+-3E80=:4
+-3F00=:2
+-3F80=Normal
+-3FC0=x1.5
+-4000=x2
+-4020=x2.5
+-4040=x3
+-4060=x3.5
+-4080=x4
+-40A0=x5
+-40C0=x6
+-4100=x8
+-4120=x10
+-4180=x16
+-41A0=x20
+-4200=x32
+-4234=x45
+-4280=x64
+-42B4=x90
+-4307=x135
+-4334=x180
+-4361=x225
+-4387=x270
+-43B4=x360
+
+Second jump is third jump [ardemii]
+48000000 807F2608
+DE000000 80008180
+10003E7F 00000001
+E0000000 80008000
+if you continue to jump,it's always third jump
+
+Switch between spinn and fly V4 [ardemii]
+48000000 807F2608
+DE000000 80008180
+10000E3F 00000000
+10003E7F 00000001
+E0000000 80008000
+28756102 00000100
+043EE754 A06306F8
+CC000000 00000001
+043EE754 38600007
+C23EB034 00000002
+3FC08000 C03E2FF4
+60000000 00000000
+28756102 FFFB0004
+86900009 3CF5C28F
+84200009 80002FF4
+28756103 FFFB0000
+24002FF4 40200000
+26002FF4 A0000000
+86900009 BCF5C28F
+84200009 80002FF4
+E2000003 00000000
+28756102 F7FF0800
+80000009 40200000
+84200009 80002FF4
+E0000000 80008000
+Press 2 button for switch
+hold down to accelerate while flying
+No spin time recharge
+Second jump is third jump
+Code based on port of bkirch fly when spin used and wiiztec no spin recharge time and default flying speed is 2.5 times faster + hold down to accelerate while flying and ardemii Second jump is third jump.Thanks to Bamsen
+
+Initial jump is third jump [ardemii]
+043C2C94 38000002
+Original by dcx2, ported by ardemii
+
+Invincible [Dr.Cleo]
+043CA24C 60000000
+
+Infinite Lives [Dr.Cleo]
+48000000 807DB4A0
+DE000000 80008180
+100002AC 00000063
+E0000000 80008000
+V1.1
+Works now on all languages.
+
+Infinite Star Bits [Dr.Cleo]
+02A7B3FA 000003E7
+
+Infinite Coins [Dr.Cleo]
+02A7B402 000003E7
+
+Infinite Star Bits (Starship) [Dr.Cleo]
+48000000 807DB4A0
+DE000000 80008180
+120002AE 0000270F
+E0000000 80008000
+V1.1
+Works now on all languages.
+
+Infinite Coins (Starship) [Dr.Cleo]
+48000000 807DB4A0
+DE000000 80008180
+120002B0 0000270F
+E0000000 80008000
+V1.1
+Works now on all languages.
+
+Infinite Air [Dr.Cleo]
+04400310 60000000
+
+Universal Codes for Super Mario Galaxy 2
+
+Planets: Gain Max Coins on pickup Planets [Skiller]
+044C90B8 90BF0054
+
+Planets: 1 Up every SrarBit Pickup/Use [Skiller]
+044C905C 41810004
+
+Dissable Yellow Time Limits [hetoan2]
+044A3AAC 60000000
+these are for speedster comets and the like
+
+Infinite Air [hetoan2]
+04400310 60000000
+
+Powers Last Forever [hetoan2]
+043CBC9C 60000000
+
+RGBA Modifier [hetoan2]
+0414CB5C 90E30000
+0414CB50 3CE0RRGG
+0414CB54 60E7XXYY
+Modifies the RGB and the Alpha values for effects. RGB is just the hex values (#RRGGXX) for color like #FFFFFF for white. The Alpha "YY" value is a % visibility value. Just convert your % to a hex ratio. FF is 100% visibility and 00 is 0%.
+
+Infinite Bee Mario Flight [hetoan2]
+0438D6E0 60000000
+
+All 242 Stars [Thomas83Lin]
+044DCFB0 48000004
+044DCFB4 38000005
+*Permanent Per Save Slot if Saved*
+
+All Gold Medals [Thomas83Lin]
+044DD314 48000004
+044DD318 38000001
+*Permanent Per Save Slot if Saved*
+
+World Map Bypass [Thomas83Lin]
+044EC054 2C060001
+*Ability to travel anywhere on World Map*
+*Can Skip Levels\StarBlocks\Boss's*
+
+All Star Blocks cost 0 Stars [Thomas83Lin]
+C24E5A74 00000002
+3B800000 939A0094
+60000000 00000000
+*Not permanent *
+
+ballon yoshi infinite air [wiiztec]
+04414C48 60000000
+04414BFC 60000000
+
+light yoshi lasts forever [wiiztec]
+042C4FA4 60000000
+
+unlimited time to remount yoshi [wiiztec]
+044129E0 60000000
+
+infinite extra lives [wiiztec]
+044DE058 60000000
+
+infinite health [wiiztec]
+043CA24C 60000000
+
+Fire Yoshi Last Forever [ardemii]
+0440CA58 60000000
+
+Fire Mario Last Forever [ardemii]
+043CBC9C 60000000
+
+Rainbow Mario Last Forever [ardemii]
+04527F3C 60000000

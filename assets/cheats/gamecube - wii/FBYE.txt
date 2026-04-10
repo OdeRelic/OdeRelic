@@ -1,0 +1,56 @@
+FBYE
+Super Mario Bros. 2
+
+Moon Jump Press (B) [Thomas83Lin]
+28192228 FBFF0400
+003F0A46 000000D8
+E0000000 80008000
+*Wiimote*
+
+Freeze Time Press (Minus) [Thomas83Lin]
+28192228 EFFF1000
+003F0EFE 00000000
+CC000000 00000000
+003F0EFE 00000002
+2A3F0EFE 00000000
+003F0EFF 00000002
+E0000000 80008000
+*Wiimote*
+
+Change Character Press (A) [Thomas83Lin]
+4E00000C 00000000
+28192228 F7FF0800
+CC000000 00000001
+14000000 00000003
+82000000 803F0A8F
+86000000 00000001
+84000000 803F0A8F
+E0000000 80008000
+2C3F0A8F 00000003
+003F0A8F 00000000
+E0000000 80008000
+*Press A then PauseUn-Pause to take effect*
+*Characters keep your selected Character's attributes and color*
+*Wiimote*
+
+Jump height Modifier [Thomas83Lin]
+003F0F55 00000000
+*0= No Limit on Height*
+
+Infinite Lives [farjo08]
+003F0EED 00000064
+
+Infinite Health [farjo08]
+003FBF96 0000002C
+
+Unlimited Health [GMO]
+003F0EC2 0000002F
+
+Unlimited Floating [GMO]
+003F0EC9 0000003C
+
+Instant Charge (Super Jump) [GMO]
+003F0ECA 0000003C
+
+Unlimited Lives [GMO]
+003F0EED 00000009

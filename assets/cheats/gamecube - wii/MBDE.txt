@@ -1,0 +1,38 @@
+MBDE
+Golden Axe II
+
+Infinite Lives [ZiT]
+00F372A0 00000003
+
+Infinite Health [ZiT]
+00F3725E 00000005
+
+Infinite Magic [ZiT]
+00F372A2 00000004
+
+Moon Jump [ZiT]
+281DF55A FEFF0100
+02F37238 000003C0
+E0000000 80008000
+
+Invincible [ZiT]
+00F372A9 00000023
+
+Player 1 Unlimited Health [GMO]
+02E3647E 00000510
+
+Player 1 Unlimited Lives [GMO]
+02E364C0 00000404
+
+Player 1 Unlimited Magic [GMO]
+02E364C2 00000404
+0404 Dwarf
+0505 Male Warrior
+0909 Female Warrior
+Set button Activators or keep at default to prevent the game from crashing
+
+Classic Controller Pad1 [GMO]
+281DF5BA 0000XXXX
+
+Wiimote Controller Pad1 [GMO]
+281DF668 0000XXXX

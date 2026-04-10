@@ -1,0 +1,14 @@
+JDWP
+Aero the Acrobat
+
+Unlimited Health [Crapulecorp]
+0045C772 0000006A
+*Code ported from GMO Ntsc Usa Version*
+
+Invincible [Crapulecorp]
+0045C72C 00000077
+*Code ported from GMO Ntsc Usa Version*
+
+Disable Stage Timer [Crapulecorp]
+0045C768 00000000
+*Code ported from GMO Ntsc Usa Version*

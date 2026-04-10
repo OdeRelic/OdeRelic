@@ -1,0 +1,43 @@
+SSVE52
+Wipeout 3
+
+Miscellaneous
+
+Infinite Coins [Seth@WiiPlaza]
+04C2F640 00A2C727
+*demo picture- http://prntscr.com/ic9i2
+
+God Mode/Infinite Health/No Damage [Seth@WiiPlaza]
+204F3ADC 04000100
+04510430 FFF00000
+CC000000 00000000
+04510430 40000001
+E0000000 80008000
+*press 2 to Toggle on/off
+
+Invisible Player [Seth@WiiPlaza]
+043D662C 00000000
+
+Speed Hack [Seth@WiiPlaza]
+204F3ADC 04004000
+00647068 00000042
+CC000000 00000000
+00647068 0000003F
+E0000000 80008000
+*WARNING - will speed up the clock
+*press C to activate/deactivate
+
+Equipment
+
+Fruit Basket Costs $0 [Seth@WiiPlaza]
+04B668EC 00000000
+
+Goldfish Gloves costs $0 [Seth@WiiPlaza]
+04B34130 800F0000
+04B661EC 00000000
+
+Steel Greaves Cost $0 [Seth@WiiPlaza]
+04B6656C 00000000
+
+Unicorn Boots Cost $0 [Seth@WiiPlaza]
+04B664EC 00000000

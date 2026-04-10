@@ -1,0 +1,18 @@
+F41E
+Mike Tyson's Punch Out!!
+
+Unlimited Health [Crapulecorp]
+023ED990 00006060
+
+Unlimited Hearts [Crapulecorp]
+023ED923 00000909
+*Hearts counter say 0 but Mac will never tire out*
+*Code ported from Sharkbyte Punch-Out! FBIE Ntsc Usa Version*
+
+Unlimited Stars [Crapulecorp]
+003ED941 00000004
+*Code ported from Sharkbyte Punch-Out! FBIE Ntsc Usa Version*
+
+1 hit K.O (Enemy has no health) [Crapulecorp]
+023ED997 00000000
+*Code ported from Sharkbyte Punch-Out! FBIE Ntsc Usa Version*

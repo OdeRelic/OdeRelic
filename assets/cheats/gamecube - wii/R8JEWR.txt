@@ -1,0 +1,80 @@
+R8JEWR
+The Lord of the Rings: Aragorn's Quest
+
+Infinite Sword Meter [Anarion]
+C2193B60 00000003
+3D8042C8 618C0000
+919C0064 C05C0064
+60000000 00000000
+04218DC8 60000000
+Aragorn.
+
+Infinite Sword Meter (old) [Anarion]
+C215FB98 00000003
+3C000000 60000000
+D0030014 C0030014
+60000000 00000000
+Aragorn. Meter is full even though it will show empty.
+
+Full Health [Anarion]
+2861DEDA 00000008
+C20F4618 00000003
+3C004550 60000000
+D01F0008 C01F0008
+60000000 00000000
+E0000000 80008000
+2861DEDA 00000000
+040F4618 C01F0008
+E0000000 80008000
+Press D-pad UP to have full health again.
+Sadly, this works for certain enemies as well.
+
+Arrow Count Modifier [Anarion]
+04236690 3860XXXX
+
+Shooting Arrows Increases Arrow Amount By: [Anarion]
+04236694 3803XXXX
+X Values for 3 codes above:
+0002 - 1
+000B - 10
+0065 - 100
+FFFF - 65535-max amount
+
+Infinite Arrows [Anarion]
+04236698 B01D007A
+
+Aragorn Sword Meter 1/2 Infinite [Anarion]
+C2193778 00000003
+3C0042C8 60000000
+D0030060 C0030060
+60000000 00000000
+Shown at 1/2 full.
+
+Invisibility & Walk Through Walls {Patedj} [Anarion]
+2861DEDA 00000100
+044045C0 60000000
+CC000000 00000000
+044045C0 D0030044
+E0000000 80008000
+**Ported from Patedj's PAL code.
+Press 2 to turn code on&off.
+
+Frodo Gamgee- Teleporter [Anarion]
+2861DEDA 00004000
+82200000 814B0C78
+82200001 814B0C7C
+82200002 814B0C80
+E0000000 80008000
+2861DEDA 00000200
+84200000 814B0C78
+84200001 814B0C7C
+84200002 814B0C80
+E0000000 80008000
+Press C to save FG's current position.
+Hold 1 to return FG to saved position.
+
+9999 silver coins [DR4G0N]
+C21AF7FC 00000002
+3860270F 9064003C
+60000000 00000000
+*you need to earn something to get 9999

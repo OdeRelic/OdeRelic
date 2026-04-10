@@ -1,0 +1,52 @@
+RP4P69
+My Sims Party
+
+Mini-Game's
+
+Player1 win Score 999 [memorris]
+0429A0B0 000003E7
+
+Player2 win Score 999 [memorris]
+0429A143 000003E7
+
+Player3 win Score 999 [memorris]
+0429A1D0 000003E7
+
+Player4 win Score 999 [memorris]
+0429A260 000003E7
+
+Player1 win Paper Panic! [memorris]
+0445BDEB 00000062
+
+Player2 win Paper Panic! [memorris]
+0445BE60 00000062
+
+Player3 win Paper Panic! [memorris]
+0445BEDB 00000062
+
+Player4 win Paper Panic! memorris [memorris]
+0445BF53 00000062
+
+player1 win Bell Hopscotch [memorris]
+0445AE18 2C00FFFF
+
+player2 win Bell Hopscotch [memorris]
+0445AE74 38000000
+
+player3 win Bell Hopscotch [memorris]
+0445AED0 3FC08037
+
+player4 win Bell Hopscotch [memorris]
+0445AF2C 3C809175
+
+Player1 win Blooin' Blossoms [memorris]
+04461950 00000062
+
+Player2 win Blooin' Blossoms [memorris]
+044619D0 00000062
+
+Player3 win Blooin' Blossoms [memorris]
+04461A50 00000062
+
+Player4 win Blooin' Blossoms [memorris]
+04461AD0 00000062

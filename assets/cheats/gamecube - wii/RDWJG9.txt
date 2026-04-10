@@ -1,0 +1,25 @@
+RDWJG9
+Dragon Blade Wrath of Fire (JP)
+
+Infinite LIFE [ZiT]
+040A7264 90030110
+
+LIFE MAX [ZiT]
+04777BAC 00000003
+
+Infinite Power of the Flame [ZiT]
+040A73A4 80030110
+
+Power of the Flame MAX [ZiT]
+04777BB4 00000003
+
+Armament LEVEL MAX [ZiT]
+04777BCC 000000xx
+xx=04 MAX
+xx=05 Transparence
+
+Arm MAX [ZiT]
+04777BC4 00000005
+
+Steal [ZiT]
+04777BC8 00000000

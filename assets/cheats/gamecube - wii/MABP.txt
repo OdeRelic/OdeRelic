@@ -1,0 +1,8 @@
+MABP
+Columms
+
+Max Score Player 1 [Crapulecorp]
+04DA96E0 99999999
+
+Max Jewels Collected Player 1 [Crapulecorp]
+00DA96EB 00000099

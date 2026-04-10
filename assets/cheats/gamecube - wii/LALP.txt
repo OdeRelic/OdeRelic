@@ -1,0 +1,44 @@
+LALP
+Fantasy Zone II - The Tears of Opa Opa
+
+Infinite Lives [Crapulecorp]
+0129E443 00000005
+
+Infinite Power [Crapulecorp]
+0329E44A 00003030
+*Code ported from ZiT Ntsc Jap Version*
+
+$ MAX [Crapulecorp]
+0329E458 00009999
+0129E45A 00000099
+*Code ported from ZiT Ntsc Jap Version*
+
+Invincible [Crapulecorp]
+0129E5BB 00000022
+*Code ported from ZiT Ntsc Jap Version*
+
+Infinite Shot [Crapulecorp]
+0129E451 00000099
+*Code ported from ZiT Ntsc Jap Version*
+
+Shot Modify [Crapulecorp]
+0129E456 0000000X
+*Replace X=01 to 05*
+*Code ported from ZiT Ntsc Jap Version*
+
+Infinite Bomb [Crapulecorp]
+0129E452 00000099
+*Code ported from ZiT Ntsc Jap Version*
+
+Bomb Modify [Crapulecorp]
+0129E457 0000000X
+*Replace X=01 to 06*
+*Code ported from ZiT Ntsc Jap Version*
+
+Engine Modify [Crapulecorp]
+0129E455 0000000X
+*Replace X=01 to 05*
+*Code ported from ZiT Ntsc Jap Version*
+
+Unlimited Lives [GMO]
+01261CC3 00000003

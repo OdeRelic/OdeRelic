@@ -1,0 +1,2196 @@
+RFSEEB
+Shiren The Wanderer
+
+Inf Current HP [Skiller]
+C20C440C 00000002
+A9430002 B1430000
+A8630004 00000000
+
+Max Hp [Skiller]
+C20C43BC 00000003
+394001F4 B1430002
+B1430000 A8630002
+60000000 00000000
+
+Lots of Money 999999 [Skiller]
+C21AA6CC 00000003
+3C00000F 6000423F
+90100100 80100100
+60000000 00000000
+*Might Have to Equip Something
+
+Max Money On Pickup [Skiller]
+C20C3D18 00000002
+3C00000F 6000423F
+90030100 00000000
+
+Level 99 After 1 Battle [Skiller]
+040C586C 7C030378
+
+Item Slot 1 Mod Codes
+
+Item Mod [Skiller]
+02C91A18 000000??
+
+Item skill slot 1 [Skiller]
+00C91A20 000000??
+
+Item skill slot 2 [Skiller]
+00C91A21 000000??
+
+Item skill slot 3 [Skiller]
+00C91A22 000000??
+
+Item skill slot 4 [Skiller]
+00C91A23 000000??
+
+Item skill slot 5 [Skiller]
+00C91A24 000000??
+
+Item skill slot 6 [Skiller]
+00C91A25 000000??
+
+Item skill slot 7 [Skiller]
+00C91A26 000000??
+
+Item skill slot 8 [Skiller]
+00C91A27 000000??
+
+Item skill slot 9 [Skiller]
+00C91A28 000000??
+
+Item skill slot 10 [Skiller]
+00C91A29 000000??
+
+Item skill slot 11 [Skiller]
+00C91A2A 000000??
+
+Item skill slot 12 [Skiller]
+00C91A2B 000000??
+
+Item skill Alots Amount Max [Skiller]
+00C91A2D 0000000C
+
+Item Max: + [Skiller]
+00C91A2C 0000000C
+
+Item + Points [Skiller]
+02C91A40 0000????
+
+Item Slot 2 Mod Codes
+
+Item Mod [Skiller]
+02C91BA0 000000??
+
+Item skill slot 1 [Skiller]
+00C91BA8 000000??
+
+Item skill slot 2 [Skiller]
+00C91BA9 000000??
+
+Item skill slot 3 [Skiller]
+00C91BAA 000000??
+
+Item skill slot 4 [Skiller]
+00C91BAB 000000??
+
+Item skill slot 5 [Skiller]
+00C91BAC 000000??
+
+Item skill slot 6 [Skiller]
+00C91BAD 000000??
+
+Item skill slot 7 [Skiller]
+00C91BAE 000000??
+
+Item skill slot 8 [Skiller]
+00C91BAF 000000??
+
+Item skill slot 9 [Skiller]
+00C91BB0 000000??
+
+Item skill slot 10 [Skiller]
+00C91BB1 000000??
+
+Item skill slot 11 [Skiller]
+00C91BB2 000000??
+
+Item skill slot 12 [Skiller]
+00C91BB3 000000??
+
+Item skill Alots Amount Max [Skiller]
+00C91BB5 0000000C
+
+Item Max: + [Skiller]
+00C91BB4 0000000C
+
+Item + Points [Skiller]
+02C91BC8 0000????
+
+Item Slot 3 Mod Codes
+
+Item Mod [Skiller]
+02C91D28 000000??
+
+Item skill slot 1 [Skiller]
+00C91D30 000000??
+
+Item skill slot 2 [Skiller]
+00C91D31 000000??
+
+Item skill slot 3 [Skiller]
+00C91D32 000000??
+
+Item skill slot 4 [Skiller]
+00C91D33 000000??
+
+Item skill slot 5 [Skiller]
+00C91D34 000000??
+
+Item skill slot 6 [Skiller]
+00C91D35 000000??
+
+Item skill slot 7 [Skiller]
+00C91D36 000000??
+
+Item skill slot 8 [Skiller]
+00C91D37 000000??
+
+Item skill slot 9 [Skiller]
+00C91D38 000000??
+
+Item skill slot 10 [Skiller]
+00C91D39 000000??
+
+Item skill slot 11 [Skiller]
+00C91D3A 000000??
+
+Item skill slot 12 [Skiller]
+00C91D3B 000000??
+
+Item skill Alots Amount Max [Skiller]
+00C91D3D 0000000C
+
+Item Max: + [Skiller]
+00C91D3C 0000000C
+
+Item + Points [Skiller]
+02C91D50 0000????
+
+Item Slot 4 Mod Codes
+
+Item Mod [Skiller]
+02C91EB0 000000??
+
+Item skill slot 1 [Skiller]
+00C91EB8 000000??
+
+Item skill slot 2 [Skiller]
+00C91EB9 000000??
+
+Item skill slot 3 [Skiller]
+00C91EBA 000000??
+
+Item skill slot 4 [Skiller]
+00C91EBB 000000??
+
+Item skill slot 5 [Skiller]
+00C91EBC 000000??
+
+Item skill slot 6 [Skiller]
+00C91EBD 000000??
+
+Item skill slot 7 [Skiller]
+00C91EBE 000000??
+
+Item skill slot 8 [Skiller]
+00C91EBF 000000??
+
+Item skill slot 9 [Skiller]
+00C91EC0 000000??
+
+Item skill slot 10 [Skiller]
+00C91EC1 000000??
+
+Item skill slot 11 [Skiller]
+00C91EC2 000000??
+
+Item skill slot 12 [Skiller]
+00C91EC3 000000??
+
+Item skill Alots Amount Max [Skiller]
+00C91EC5 0000000C
+
+Item Max: + [Skiller]
+00C91EC4 0000000C
+
+Item + Points [Skiller]
+02C91ED8 0000????
+
+Item Slot 5 Mod Codes
+
+Item Mod [Skiller]
+02C92038 000000??
+
+Item skill slot 1 [Skiller]
+00C92040 000000??
+
+Item skill slot 2 [Skiller]
+00C92041 000000??
+
+Item skill slot 3 [Skiller]
+00C92042 000000??
+
+Item skill slot 4 [Skiller]
+00C92043 000000??
+
+Item skill slot 5 [Skiller]
+00C92044 000000??
+
+Item skill slot 6 [Skiller]
+00C92045 000000??
+
+Item skill slot 7 [Skiller]
+00C92046 000000??
+
+Item skill slot 8 [Skiller]
+00C92047 000000??
+
+Item skill slot 9 [Skiller]
+00C92048 000000??
+
+Item skill slot 10 [Skiller]
+00C92049 000000??
+
+Item skill slot 11 [Skiller]
+00C9204A 000000??
+
+Item skill slot 12 [Skiller]
+00C9204B 000000??
+
+Item skill Alots Amount Max [Skiller]
+00C9204D 0000000C
+
+Item Max: + [Skiller]
+00C9204C 0000000C
+
+Item + Points [Skiller]
+02C92060 0000????
+
+Item Slot 6 Mod Codes
+
+Item Mod [Skiller]
+02C921C0 000000??
+
+Item skill slot 1 [Skiller]
+00C921C8 000000??
+
+Item skill slot 2 [Skiller]
+00C921C9 000000??
+
+Item skill slot 3 [Skiller]
+00C921CA 000000??
+
+Item skill slot 4 [Skiller]
+00C921CB 000000??
+
+Item skill slot 5 [Skiller]
+00C921CC 000000??
+
+Item skill slot 6 [Skiller]
+00C921CD 000000??
+
+Item skill slot 7 [Skiller]
+00C921CE 000000??
+
+Item skill slot 8 [Skiller]
+00C921CF 000000??
+
+Item skill slot 9 [Skiller]
+00C921D0 000000??
+
+Item skill slot 10 [Skiller]
+00C921D1 000000??
+
+Item skill slot 11 [Skiller]
+00C921D2 000000??
+
+Item skill slot 12 [Skiller]
+00C921D3 000000??
+
+Item skill Alots Amount Max [Skiller]
+00C921D5 0000000C
+
+Item Max: + [Skiller]
+00C921D4 0000000C
+
+Item + Points [Skiller]
+02C921E8 0000????
+
+Item Slot 7 Mod Codes
+
+Item Mod [Skiller]
+02C92348 000000??
+
+Item skill slot 1 [Skiller]
+00C92350 000000??
+
+Item skill slot 2 [Skiller]
+00C92351 000000??
+
+Item skill slot 3 [Skiller]
+00C92352 000000??
+
+Item skill slot 4 [Skiller]
+00C92353 000000??
+
+Item skill slot 5 [Skiller]
+00C92354 000000??
+
+Item skill slot 6 [Skiller]
+00C92355 000000??
+
+Item skill slot 7 [Skiller]
+00C92356 000000??
+
+Item skill slot 8 [Skiller]
+00C92357 000000??
+
+Item skill slot 9 [Skiller]
+00C92358 000000??
+
+Item skill slot 10 [Skiller]
+00C92359 000000??
+
+Item skill slot 11 [Skiller]
+00C9235A 000000??
+
+Item skill slot 12 [Skiller]
+00C9235B 000000??
+
+Item skill Alots Amount Max [Skiller]
+00C9235D 0000000C
+
+Item Max: + [Skiller]
+00C9235C 0000000C
+
+Item + Points [Skiller]
+02C92370 0000????
+
+Item Slot 8 Mod Codes
+
+Item Mod [Skiller]
+02C924D0 000000??
+
+Item skill slot 1 [Skiller]
+00C924D8 000000??
+
+Item skill slot 2 [Skiller]
+00C924D9 000000??
+
+Item skill slot 3 [Skiller]
+00C924DA 000000??
+
+Item skill slot 4 [Skiller]
+00C924DB 000000??
+
+Item skill slot 5 [Skiller]
+00C924DC 000000??
+
+Item skill slot 6 [Skiller]
+00C924DD 000000??
+
+Item skill slot 7 [Skiller]
+00C924DE 000000??
+
+Item skill slot 8 [Skiller]
+00C924DF 000000??
+
+Item skill slot 9 [Skiller]
+00C924E0 000000??
+
+Item skill slot 10 [Skiller]
+00C924E1 000000??
+
+Item skill slot 11 [Skiller]
+00C924E2 000000??
+
+Item skill slot 12 [Skiller]
+00C924E3 000000??
+
+Item skill Alots Amount Max [Skiller]
+00C924E5 0000000C
+
+Item Max: + [Skiller]
+00C924E4 0000000C
+
+Item + Points [Skiller]
+02C924F8 0000????
+
+Item Slot 9 Mod Codes
+
+Item Mod [Skiller]
+02C92658 000000??
+
+Item skill slot 1 [Skiller]
+00C92660 000000??
+
+Item skill slot 2 [Skiller]
+00C92661 000000??
+
+Item skill slot 3 [Skiller]
+00C92662 000000??
+
+Item skill slot 4 [Skiller]
+00C92663 000000??
+
+Item skill slot 5 [Skiller]
+00C92664 000000??
+
+Item skill slot 6 [Skiller]
+00C92665 000000??
+
+Item skill slot 7 [Skiller]
+00C92666 000000??
+
+Item skill slot 8 [Skiller]
+00C92667 000000??
+
+Item skill slot 9 [Skiller]
+00C92668 000000??
+
+Item skill slot 10 [Skiller]
+00C92669 000000??
+
+Item skill slot 11 [Skiller]
+00C9266A 000000??
+
+Item skill slot 12 [Skiller]
+00C9266B 000000??
+
+Item skill Alots Amount Max [Skiller]
+00C9266D 0000000C
+
+Item Max: + [Skiller]
+00C9266C 0000000C
+
+Item + Points [Skiller]
+02C92680 0000????
+
+Item Slot 10 Mod Codes
+
+Item Mod [Skiller]
+02C927E0 000000??
+
+Item skill slot 1 [Skiller]
+00C927E8 000000??
+
+Item skill slot 2 [Skiller]
+00C927E9 000000??
+
+Item skill slot 3 [Skiller]
+00C927EA 000000??
+
+Item skill slot 4 [Skiller]
+00C927EB 000000??
+
+Item skill slot 5 [Skiller]
+00C927EC 000000??
+
+Item skill slot 6 [Skiller]
+00C927ED 000000??
+
+Item skill slot 7 [Skiller]
+00C927EE 000000??
+
+Item skill slot 8 [Skiller]
+00C927EF 000000??
+
+Item skill slot 9 [Skiller]
+00C927F0 000000??
+
+Item skill slot 10 [Skiller]
+00C927F1 000000??
+
+Item skill slot 11 [Skiller]
+00C927F2 000000??
+
+Item skill slot 12 [Skiller]
+00C927F3 000000??
+
+Item skill Alots Amount Max [Skiller]
+00C927F5 0000000C
+
+Item Max: + [Skiller]
+00C927F4 0000000C
+
+Item + Points [Skiller]
+02C92808 0000????
+
+Item Slot 11 Mod Codes
+
+Item Mod [Skiller]
+02C92968 000000??
+
+Item skill slot 1 [Skiller]
+00C92970 000000??
+
+Item skill slot 2 [Skiller]
+00C92971 000000??
+
+Item skill slot 3 [Skiller]
+00C92972 000000??
+
+Item skill slot 4 [Skiller]
+00C92973 000000??
+
+Item skill slot 5 [Skiller]
+00C92974 000000??
+
+Item skill slot 6 [Skiller]
+00C92975 000000??
+
+Item skill slot 7 [Skiller]
+00C92976 000000??
+
+Item skill slot 8 [Skiller]
+00C92977 000000??
+
+Item skill slot 9 [Skiller]
+00C92978 000000??
+
+Item skill slot 10 [Skiller]
+00C92979 000000??
+
+Item skill slot 11 [Skiller]
+00C9297A 000000??
+
+Item skill slot 12 [Skiller]
+00C9297B 000000??
+
+Item skill Alots Amount Max [Skiller]
+00C9297D 0000000C
+
+Item Max: + [Skiller]
+00C9297C 0000000C
+
+Item + Points [Skiller]
+02C92990 0000????
+
+Item Slot 12 Mod Codes
+
+Item Mod [Skiller]
+02C92AF0 000000??
+
+Item skill slot 1 [Skiller]
+00C92AF8 000000??
+
+Item skill slot 2 [Skiller]
+00C92AF9 000000??
+
+Item skill slot 3 [Skiller]
+00C92AFA 000000??
+
+Item skill slot 4 [Skiller]
+00C92AFB 000000??
+
+Item skill slot 5 [Skiller]
+00C92AFC 000000??
+
+Item skill slot 6 [Skiller]
+00C92AFD 000000??
+
+Item skill slot 7 [Skiller]
+00C92AFE 000000??
+
+Item skill slot 8 [Skiller]
+00C92AFF 000000??
+
+Item skill slot 9 [Skiller]
+00C92B00 000000??
+
+Item skill slot 10 [Skiller]
+00C92B01 000000??
+
+Item skill slot 11 [Skiller]
+00C92B02 000000??
+
+Item skill slot 12 [Skiller]
+00C92B03 000000??
+
+Item skill Alots Amount Max [Skiller]
+00C92B05 0000000C
+
+Item Max: + [Skiller]
+00C92B04 0000000C
+
+Item + Points [Skiller]
+02C92B18 0000????
+
+Item Slot 13 Mod Codes
+
+Item Mod [Skiller]
+02C92C78 000000??
+
+Item skill slot 1 [Skiller]
+00C92C80 000000??
+
+Item skill slot 2 [Skiller]
+00C92C81 000000??
+
+Item skill slot 3 [Skiller]
+00C92C82 000000??
+
+Item skill slot 4 [Skiller]
+00C92C83 000000??
+
+Item skill slot 5 [Skiller]
+00C92C84 000000??
+
+Item skill slot 6 [Skiller]
+00C92C85 000000??
+
+Item skill slot 7 [Skiller]
+00C92C86 000000??
+
+Item skill slot 8 [Skiller]
+00C92C87 000000??
+
+Item skill slot 9 [Skiller]
+00C92C88 000000??
+
+Item skill slot 10 [Skiller]
+00C92C89 000000??
+
+Item skill slot 11 [Skiller]
+00C92C8A 000000??
+
+Item skill slot 12 [Skiller]
+00C92C8B 000000??
+
+Item skill Alots Amount Max [Skiller]
+00C92C8D 0000000C
+
+Item Max: + [Skiller]
+00C92C8C 0000000C
+
+Item + Points [Skiller]
+02C92CA0 0000????
+
+Item Slot 14 Mod Codes
+
+Item Mod [Skiller]
+02C92E00 000000??
+
+Item skill slot 1 [Skiller]
+00C92E08 000000??
+
+Item skill slot 2 [Skiller]
+00C92E09 000000??
+
+Item skill slot 3 [Skiller]
+00C92E0A 000000??
+
+Item skill slot 4 [Skiller]
+00C92E0B 000000??
+
+Item skill slot 5 [Skiller]
+00C92E0C 000000??
+
+Item skill slot 6 [Skiller]
+00C92E0D 000000??
+
+Item skill slot 7 [Skiller]
+00C92E0E 000000??
+
+Item skill slot 8 [Skiller]
+00C92E0F 000000??
+
+Item skill slot 9 [Skiller]
+00C92E10 000000??
+
+Item skill slot 10 [Skiller]
+00C92E11 000000??
+
+Item skill slot 11 [Skiller]
+00C92E12 000000??
+
+Item skill slot 12 [Skiller]
+00C92E13 000000??
+
+Item skill Alots Amount Max [Skiller]
+00C92E15 0000000C
+
+Item Max: + [Skiller]
+00C92E14 0000000C
+
+Item + Points [Skiller]
+02C92E28 0000????
+
+Item Slot 15 Mod Codes
+
+Item Mod [Skiller]
+02C92F88 000000??
+
+Item skill slot 1 [Skiller]
+00C92F90 000000??
+
+Item skill slot 2 [Skiller]
+00C92F91 000000??
+
+Item skill slot 3 [Skiller]
+00C92F92 000000??
+
+Item skill slot 4 [Skiller]
+00C92F93 000000??
+
+Item skill slot 5 [Skiller]
+00C92F94 000000??
+
+Item skill slot 6 [Skiller]
+00C92F95 000000??
+
+Item skill slot 7 [Skiller]
+00C92F96 000000??
+
+Item skill slot 8 [Skiller]
+00C92F97 000000??
+
+Item skill slot 9 [Skiller]
+00C92F98 000000??
+
+Item skill slot 10 [Skiller]
+00C92F99 000000??
+
+Item skill slot 11 [Skiller]
+00C92F9A 000000??
+
+Item skill slot 12 [Skiller]
+00C92F9B 000000??
+
+Item skill Alots Amount Max [Skiller]
+00C92F9D 0000000C
+
+Item Max: + [Skiller]
+00C92F9C 0000000C
+
+Item + Points [Skiller]
+02C92FB0 0000????
+
+Item Slot 16 Mod Codes
+
+Item Mod [Skiller]
+02C93110 000000??
+
+Item skill slot 1 [Skiller]
+00C93118 000000??
+
+Item skill slot 2 [Skiller]
+00C93119 000000??
+
+Item skill slot 3 [Skiller]
+00C9311A 000000??
+
+Item skill slot 4 [Skiller]
+00C9311B 000000??
+
+Item skill slot 5 [Skiller]
+00C9311C 000000??
+
+Item skill slot 6 [Skiller]
+00C9311D 000000??
+
+Item skill slot 7 [Skiller]
+00C9311E 000000??
+
+Item skill slot 8 [Skiller]
+00C9311F 000000??
+
+Item skill slot 9 [Skiller]
+00C93120 000000??
+
+Item skill slot 10 [Skiller]
+00C93121 000000??
+
+Item skill slot 11 [Skiller]
+00C93122 000000??
+
+Item skill slot 12 [Skiller]
+00C93123 000000??
+
+Item skill Alots Amount Max [Skiller]
+00C93125 0000000C
+
+Item Max: + [Skiller]
+00C93124 0000000C
+
+Item + Points [Skiller]
+02C93138 0000????
+
+Item Slot 17 Mod Codes
+
+Item Mod [Skiller]
+02C93298 000000??
+
+Item skill slot 1 [Skiller]
+00C932A0 000000??
+
+Item skill slot 2 [Skiller]
+00C932A1 000000??
+
+Item skill slot 3 [Skiller]
+00C932A2 000000??
+
+Item skill slot 4 [Skiller]
+00C932A3 000000??
+
+Item skill slot 5 [Skiller]
+00C932A4 000000??
+
+Item skill slot 6 [Skiller]
+00C932A5 000000??
+
+Item skill slot 7 [Skiller]
+00C932A6 000000??
+
+Item skill slot 8 [Skiller]
+00C932A7 000000??
+
+Item skill slot 9 [Skiller]
+00C932A8 000000??
+
+Item skill slot 10 [Skiller]
+00C932A9 000000??
+
+Item skill slot 11 [Skiller]
+00C932AA 000000??
+
+Item skill slot 12 [Skiller]
+00C932AB 000000??
+
+Item skill Alots Amount Max [Skiller]
+00C932AD 0000000C
+
+Item Max: + [Skiller]
+00C932AC 0000000C
+
+Item + Points [Skiller]
+02C932C0 0000????
+
+Item Slot 18 Mod Codes
+
+Item Mod [Skiller]
+02C93420 000000??
+
+Item skill slot 1 [Skiller]
+00C93428 000000??
+
+Item skill slot 2 [Skiller]
+00C93429 000000??
+
+Item skill slot 3 [Skiller]
+00C9342A 000000??
+
+Item skill slot 4 [Skiller]
+00C9342B 000000??
+
+Item skill slot 5 [Skiller]
+00C9342C 000000??
+
+Item skill slot 6 [Skiller]
+00C9342D 000000??
+
+Item skill slot 7 [Skiller]
+00C9342E 000000??
+
+Item skill slot 8 [Skiller]
+00C9342F 000000??
+
+Item skill slot 9 [Skiller]
+00C93430 000000??
+
+Item skill slot 10 [Skiller]
+00C93431 000000??
+
+Item skill slot 11 [Skiller]
+00C93432 000000??
+
+Item skill slot 12 [Skiller]
+00C93433 000000??
+
+Item skill Alots Amount Max [Skiller]
+00C93435 0000000C
+
+Item Max: + [Skiller]
+00C93434 0000000C
+
+Item + Points [Skiller]
+02C93448 0000????
+
+Item Slot 19 Mod Codes
+
+Item Mod [Skiller]
+02C935A8 000000??
+
+Item skill slot 1 [Skiller]
+00C935B0 000000??
+
+Item skill slot 2 [Skiller]
+00C935B1 000000??
+
+Item skill slot 3 [Skiller]
+00C935B2 000000??
+
+Item skill slot 4 [Skiller]
+00C935B3 000000??
+
+Item skill slot 5 [Skiller]
+00C935B4 000000??
+
+Item skill slot 6 [Skiller]
+00C935B5 000000??
+
+Item skill slot 7 [Skiller]
+00C935B6 000000??
+
+Item skill slot 8 [Skiller]
+00C935B7 000000??
+
+Item skill slot 9 [Skiller]
+00C935B8 000000??
+
+Item skill slot 10 [Skiller]
+00C935B9 000000??
+
+Item skill slot 11 [Skiller]
+00C935BA 000000??
+
+Item skill slot 12 [Skiller]
+00C935BB 000000??
+
+Item skill Alots Amount Max [Skiller]
+00C935BD 0000000C
+
+Item Max: + [Skiller]
+00C935BC 0000000C
+
+Item + Points [Skiller]
+02C935D0 0000????
+
+Item Slot 20 Mod Codes
+
+Item Mod [Skiller]
+02C93730 000000??
+
+Item skill slot 1 [Skiller]
+00C93738 000000??
+
+Item skill slot 2 [Skiller]
+00C93739 000000??
+
+Item skill slot 3 [Skiller]
+00C9373A 000000??
+
+Item skill slot 4 [Skiller]
+00C9373B 000000??
+
+Item skill slot 5 [Skiller]
+00C9373C 000000??
+
+Item skill slot 6 [Skiller]
+00C9373D 000000??
+
+Item skill slot 7 [Skiller]
+00C9373E 000000??
+
+Item skill slot 8 [Skiller]
+00C9373F 000000??
+
+Item skill slot 9 [Skiller]
+00C93740 000000??
+
+Item skill slot 10 [Skiller]
+00C93741 000000??
+
+Item skill slot 11 [Skiller]
+00C93742 000000??
+
+Item skill slot 12 [Skiller]
+00C93743 000000??
+
+Item skill Alots Amount Max [Skiller]
+00C93745 0000000C
+
+Item Max: + [Skiller]
+00C93744 0000000C
+
+Item + Points [Skiller]
+02C93758 0000????
+
+Item Slot 21 Mod Codes
+
+Item Mod [Skiller]
+02C938B8 000000??
+
+Item skill slot 1 [Skiller]
+00C938C0 000000??
+
+Item skill slot 2 [Skiller]
+00C938C1 000000??
+
+Item skill slot 3 [Skiller]
+00C938C2 000000??
+
+Item skill slot 4 [Skiller]
+00C938C3 000000??
+
+Item skill slot 5 [Skiller]
+00C938C4 000000??
+
+Item skill slot 6 [Skiller]
+00C938C5 000000??
+
+Item skill slot 7 [Skiller]
+00C938C6 000000??
+
+Item skill slot 8 [Skiller]
+00C938C7 000000??
+
+Item skill slot 9 [Skiller]
+00C938C8 000000??
+
+Item skill slot 10 [Skiller]
+00C938C9 000000??
+
+Item skill slot 11 [Skiller]
+00C938CA 000000??
+
+Item skill slot 12 [Skiller]
+00C938CB 000000??
+
+Item skill Alots Amount Max [Skiller]
+00C938CD 0000000C
+
+Item Max: + [Skiller]
+00C938CC 0000000C
+
+Item + Points [Skiller]
+02C938E0 0000????
+
+Item Slot 22 Mod Codes
+
+Item Mod [Skiller]
+02C93A40 000000??
+
+Item skill slot 1 [Skiller]
+00C93A48 000000??
+
+Item skill slot 2 [Skiller]
+00C93A49 000000??
+
+Item skill slot 3 [Skiller]
+00C93A4A 000000??
+
+Item skill slot 4 [Skiller]
+00C93A4B 000000??
+
+Item skill slot 5 [Skiller]
+00C93A4C 000000??
+
+Item skill slot 6 [Skiller]
+00C93A4D 000000??
+
+Item skill slot 7 [Skiller]
+00C93A4E 000000??
+
+Item skill slot 8 [Skiller]
+00C93A4F 000000??
+
+Item skill slot 9 [Skiller]
+00C93A50 000000??
+
+Item skill slot 10 [Skiller]
+00C93A51 000000??
+
+Item skill slot 11 [Skiller]
+00C93A52 000000??
+
+Item skill slot 12 [Skiller]
+00C93A53 000000??
+
+Item skill Alots Amount Max [Skiller]
+00C93A55 0000000C
+
+Item Max: + [Skiller]
+00C93A54 0000000C
+
+Item + Points [Skiller]
+02C93A68 0000????
+
+Item Slot 23 Mod Codes
+
+Item Mod [Skiller]
+02C93BC8 000000??
+
+Item skill slot 1 [Skiller]
+00C93BD0 000000??
+
+Item skill slot 2 [Skiller]
+00C93BD1 000000??
+
+Item skill slot 3 [Skiller]
+00C93BD2 000000??
+
+Item skill slot 4 [Skiller]
+00C93BD3 000000??
+
+Item skill slot 5 [Skiller]
+00C93BD4 000000??
+
+Item skill slot 6 [Skiller]
+00C93BD5 000000??
+
+Item skill slot 7 [Skiller]
+00C93BD6 000000??
+
+Item skill slot 8 [Skiller]
+00C93BD7 000000??
+
+Item skill slot 9 [Skiller]
+00C93BD8 000000??
+
+Item skill slot 10 [Skiller]
+00C93BD9 000000??
+
+Item skill slot 11 [Skiller]
+00C93BDA 000000??
+
+Item skill slot 12 [Skiller]
+00C93BDB 000000??
+
+Item skill Alots Amount Max [Skiller]
+00C93BDD 0000000C
+
+Item Max: + [Skiller]
+00C93BDC 0000000C
+
+Item + Points [Skiller]
+02C93BF0 0000????
+
+Item Slot 24 Mod Codes
+
+Item Mod [Skiller]
+02C93D50 000000??
+
+Item skill slot 1 [Skiller]
+00C93D58 000000??
+
+Item skill slot 2 [Skiller]
+00C93D59 000000??
+
+Item skill slot 3 [Skiller]
+00C93D5A 000000??
+
+Item skill slot 4 [Skiller]
+00C93D5B 000000??
+
+Item skill slot 5 [Skiller]
+00C93D5C 000000??
+
+Item skill slot 6 [Skiller]
+00C93D5D 000000??
+
+Item skill slot 7 [Skiller]
+00C93D5E 000000??
+
+Item skill slot 8 [Skiller]
+00C93D5F 000000??
+
+Item skill slot 9 [Skiller]
+00C93D60 000000??
+
+Item skill slot 10 [Skiller]
+00C93D61 000000??
+
+Item skill slot 11 [Skiller]
+00C93D62 000000??
+
+Item skill slot 12 [Skiller]
+00C93D63 000000??
+
+Item skill Alots Amount Max [Skiller]
+00C93D65 0000000C
+
+Item Max: + [Skiller]
+00C93D64 0000000C
+
+Item + Points [Skiller]
+02C93D78 0000????
+
+Item Slot 25 Mod Codes
+
+Item Mod [Skiller]
+02C93ED8 000000??
+
+Item skill slot 1 [Skiller]
+00C93EE0 000000??
+
+Item skill slot 2 [Skiller]
+00C93EE1 000000??
+
+Item skill slot 3 [Skiller]
+00C93EE2 000000??
+
+Item skill slot 4 [Skiller]
+00C93EE3 000000??
+
+Item skill slot 5 [Skiller]
+00C93EE4 000000??
+
+Item skill slot 6 [Skiller]
+00C93EE5 000000??
+
+Item skill slot 7 [Skiller]
+00C93EE6 000000??
+
+Item skill slot 8 [Skiller]
+00C93EE7 000000??
+
+Item skill slot 9 [Skiller]
+00C93EE8 000000??
+
+Item skill slot 10 [Skiller]
+00C93EE9 000000??
+
+Item skill slot 11 [Skiller]
+00C93EEA 000000??
+
+Item skill slot 12 [Skiller]
+00C93EEB 000000??
+
+Item skill Alots Amount Max [Skiller]
+00C93EED 0000000C
+
+Item Max: + [Skiller]
+00C93EEC 0000000C
+
+Item + Points [Skiller]
+02C93F00 0000????
+
+Item Slot 26 Mod Codes
+
+Item Mod [Skiller]
+02C94060 000000??
+
+Item skill slot 1 [Skiller]
+00C94068 000000??
+
+Item skill slot 2 [Skiller]
+00C94069 000000??
+
+Item skill slot 3 [Skiller]
+00C9406A 000000??
+
+Item skill slot 4 [Skiller]
+00C9406B 000000??
+
+Item skill slot 5 [Skiller]
+00C9406C 000000??
+
+Item skill slot 6 [Skiller]
+00C9406D 000000??
+
+Item skill slot 7 [Skiller]
+00C9406E 000000??
+
+Item skill slot 8 [Skiller]
+00C9406F 000000??
+
+Item skill slot 9 [Skiller]
+00C94070 000000??
+
+Item skill slot 10 [Skiller]
+00C94071 000000??
+
+Item skill slot 11 [Skiller]
+00C94072 000000??
+
+Item skill slot 12 [Skiller]
+00C94073 000000??
+
+Item skill Alots Amount Max [Skiller]
+00C94075 0000000C
+
+Item Max: + [Skiller]
+00C94074 0000000C
+
+Item + Points [Skiller]
+02C94088 0000????
+
+Item Slot 27 Mod Codes
+
+Item Mod [Skiller]
+02C941E8 000000??
+
+Item skill slot 1 [Skiller]
+00C941F0 000000??
+
+Item skill slot 2 [Skiller]
+00C941F1 000000??
+
+Item skill slot 3 [Skiller]
+00C941F2 000000??
+
+Item skill slot 4 [Skiller]
+00C941F3 000000??
+
+Item skill slot 5 [Skiller]
+00C941F4 000000??
+
+Item skill slot 6 [Skiller]
+00C941F5 000000??
+
+Item skill slot 7 [Skiller]
+00C941F6 000000??
+
+Item skill slot 8 [Skiller]
+00C941F7 000000??
+
+Item skill slot 9 [Skiller]
+00C941F8 000000??
+
+Item skill slot 10 [Skiller]
+00C941F9 000000??
+
+Item skill slot 11 [Skiller]
+00C941FA 000000??
+
+Item skill slot 12 [Skiller]
+00C941FB 000000??
+
+Item skill Alots Amount Max [Skiller]
+00C941FD 0000000C
+
+Item Max: + [Skiller]
+00C941FC 0000000C
+
+Item + Points [Skiller]
+02C94210 0000????
+
+Item Slot 28 Mod Codes
+
+Item Mod [Skiller]
+02C94370 000000??
+
+Item skill slot 1 [Skiller]
+00C94378 000000??
+
+Item skill slot 2 [Skiller]
+00C94379 000000??
+
+Item skill slot 3 [Skiller]
+00C9437A 000000??
+
+Item skill slot 4 [Skiller]
+00C9437B 000000??
+
+Item skill slot 5 [Skiller]
+00C9437C 000000??
+
+Item skill slot 6 [Skiller]
+00C9437D 000000??
+
+Item skill slot 7 [Skiller]
+00C9437E 000000??
+
+Item skill slot 8 [Skiller]
+00C9437F 000000??
+
+Item skill slot 9 [Skiller]
+00C94380 000000??
+
+Item skill slot 10 [Skiller]
+00C94381 000000??
+
+Item skill slot 11 [Skiller]
+00C94382 000000??
+
+Item skill slot 12 [Skiller]
+00C94383 000000??
+
+Item skill Alots Amount Max [Skiller]
+00C94385 0000000C
+
+Item Max: + [Skiller]
+00C94384 0000000C
+
+Item + Points [Skiller]
+02C94398 0000????
+
+Item Slot 29 Mod Codes
+
+Item Mod [Skiller]
+02C944F8 000000??
+
+Item skill slot 1 [Skiller]
+00C94500 000000??
+
+Item skill slot 2 [Skiller]
+00C94501 000000??
+
+Item skill slot 3 [Skiller]
+00C94502 000000??
+
+Item skill slot 4 [Skiller]
+00C94503 000000??
+
+Item skill slot 5 [Skiller]
+00C94504 000000??
+
+Item skill slot 6 [Skiller]
+00C94505 000000??
+
+Item skill slot 7 [Skiller]
+00C94506 000000??
+
+Item skill slot 8 [Skiller]
+00C94507 000000??
+
+Item skill slot 9 [Skiller]
+00C94508 000000??
+
+Item skill slot 10 [Skiller]
+00C94509 000000??
+
+Item skill slot 11 [Skiller]
+00C9450A 000000??
+
+Item skill slot 12 [Skiller]
+00C9450B 000000??
+
+Item skill Alots Amount Max [Skiller]
+00C9450D 0000000C
+
+Item Max: + [Skiller]
+00C9450C 0000000C
+
+Item + Points [Skiller]
+02C94520 0000????
+
+Item Slot 30 Mod Codes
+
+Item Mod [Skiller]
+02C94680 000000??
+
+Item skill slot 1 [Skiller]
+00C94688 000000??
+
+Item skill slot 2 [Skiller]
+00C94689 000000??
+
+Item skill slot 3 [Skiller]
+00C9468A 000000??
+
+Item skill slot 4 [Skiller]
+00C9468B 000000??
+
+Item skill slot 5 [Skiller]
+00C9468C 000000??
+
+Item skill slot 6 [Skiller]
+00C9468D 000000??
+
+Item skill slot 7 [Skiller]
+00C9468E 000000??
+
+Item skill slot 8 [Skiller]
+00C9468F 000000??
+
+Item skill slot 9 [Skiller]
+00C94690 000000??
+
+Item skill slot 10 [Skiller]
+00C94691 000000??
+
+Item skill slot 11 [Skiller]
+00C94692 000000??
+
+Item skill slot 12 [Skiller]
+00C94693 000000??
+
+Item skill Alots Amount Max [Skiller]
+00C94695 0000000C
+
+Item Max: + [Skiller]
+00C94694 0000000C
+
+Item + Points [Skiller]
+02C946A8 0000????
+
+Item Digits ..
+
+0000 = Nothing
+0001 = Strengthening Jar
+0002 = Melding Jar
+0003 = Identity Jar
+0004 = Weakening Jar
+0005 = Chiropractic Jar
+0006 = Storehouse Jar
+0007 = Bottomless Jar
+0008 = Walrus Jar
+0009 = Change Jar
+000A = Holding Jar
+000B = Monster Jar
+000C = Hiding Jar
+000D = Unbreakable Jar
+000E = Anger Jar
+000F = Sticky Jar
+0010 = Water Jar
+0011 = Cash Jar
+0012 = Cursed Jar
+0013 = Purifying Jar
+0014 = Jar Fregment
+0015 = Blessed Jar
+0016 = Regular Jar
+0017 = Sending Jar
+0018 = Receiving Jar
+001E = Pain Share Staff
+001F = Exile Staff
+0020 = Illusion Staff
+0021 = Paralysis Staff
+0022 = Challenge Staff
+0023 = Switching Staff
+0024 = Nullify Staff
+0025 = Knockback Staff
+0026 = Misfortune Staff
+0027 = Bufu's Staff
+0028 = Decoy Staff
+0029 = Haste Staff
+002A = Sloth Staff
+002B = Recovery Staff
+002C = Balance Staff
+002D = Whiff Staff
+002E = Shadowbind Staff
+002F = Invisible Staff
+0030 = Tunnel Staff
+0031 = Leaping Staff
+0032 = Raging Staff
+0033 = Raging Fury Staff
+0034 = Change Staff
+0035 = Absorb Staff
+0036 = Trap Killer Staff
+0037 = Ordinary Staff
+0038 = Steel Staff
+0039 = Alloy Staff
+003A = Adamant Staff
+003B = Fire Staff
+003C = Blaze Staff
+003D = Inferno Staff
+003E = Shadow Staff
+003F = Onyx Staff
+0040 = Midnight Staff
+0041 = Ice Staff
+0042 = Icicle Staff
+0043 = Hail Staff
+0044 = Tree Staff
+0045 = Forest Staff
+0046 = Nature Staff
+0047 = Bolt Staff
+0048 = Thunder Staff
+0049 = Lightning Staff
+004A = Mud Staff
+004B = Earth Staff
+004C = Gaia Staff
+004D = Spirit Stadd
+004E = Wraith Staff
+004F = Phantom Staff
+0050 = Magician Staff
+0051 = Wizard Staff
+0052 = Sorcerer Staff
+005D = Light Scroll
+005F = Blessing Scroll
+0060 = Silence Scroll
+0061 = Distress Scroll
+0062 = Confusion Scroll
+0064 = Identity Scroll
+0065 = Explosion Scroll
+0066 = Extraction Scroll
+0067 = Jar Growth Scroll
+0068 = Soil Bless Scroll
+0069 = Air bless Scroll
+006A = Haste Scroll
+006B = Blank Scroll
+006C = Sleep Scroll
+006D = Overloaded Scroll
+006E = Wandering Scroll
+006F = Platining Scroll
+0070 = Monster Scroll
+0071 = Traps Scroll
+0072 = Sanctuary Scroll
+0073 = Destroyer Scroll
+0074 = Trap Killer Scroll
+0075 = Riceball Scroll
+0076 = Soaked Scroll
+0077 = Lightning Scroll
+0078 = Ice Scroll
+0079 = Drought Scroll
+007A = Paranoia Scroll
+007B = EScape Scroll
+007C = Barrier Scroll
+007D = Lost Arts Scroll
+007E = Nullify Scroll
+007F = Healing Scroll
+0080 = Curing Scroll
+0081 = Dragon Orb Scroll
+0082 = Scroll of Victory
+0086 = Weeds
+0087 = Medicinal Herb
+0088 = Restorative Herb
+0089 = Life Herb
+008A = Big Belly Seed
+008B = Litle Belly Seed
+008C = Bitter Herb
+008D = Misfortune Seed
+008E = Ill Luck Seed
+008F = Joyous Herb
+0090 = Angel Seed
+0091 = Antidote Herb
+0092 = Poison Herb
+0093 = Strength Herb
+0094 = Confusion Herb
+0095 = Sleeping Herb
+0096 = Dragon Herb
+0097 = Revival Herb
+0098 = Victory Herb
+0099 = Eye Salve Herb
+009A = Invisible Herb
+009B = Amnesia Herb
+009C = Hast Herb
+009D = Warp Herb
+009E = Hercules Herb
+009F = Rage Seed
+00A0 = Dark Fire Herb
+00A1 = Millennium Pill
+00A2 = Healing Herb
+00A3 = Curative Herb
+00A8 = Pitcher's Armband
+00A9 = Critical Armband
+00AA = Recovery Armband
+00AB = Armband of Calm
+00AC = Rustless Armband
+00AD = Happy Armband
+00AE = Analyzer Armband
+00AF = Armband of the Loss
+00B0 = Gerridae Armband
+00B1 = Armband of the Regret
+00B2 = Armband of Sight
+00B3 = Discount Armband
+00B4 = Curseless Armband
+00B5 = Anti-Hani Armband
+00B6 = Sleepless Armband
+00B7 = Antidote Armband
+00B8 = Defense Armband
+00B9 = Arching Armband
+00BA = Kappa Armband
+00BB = Hercules Armband
+00BC = Escapist Armband
+00BD = Warp Armband
+00BE = Explosive Armband
+00BF = Loud Armband
+00C0 = Clinging Armband
+00C2 = Shinobi Armband
+00C3 = Shield Armband
+00C4 = Alleyway Armband
+00C6 = FireWard Armband
+00C7 = Convert Armband
+00C8 = Security Armband
+00C9 = Spirited Armband
+00CA = Regular Armband
+00CB = Trap Armband
+00CC = Nullify Armband
+00D6 = Cudgel
+00D7 = Polearm
+00D8 = Katana
+00D9 = Firebrand
+00DA = Mastersword
+00DB = Kabra's Blade
+00DC = Kabra's Reborn
+00DD = Bronze Sword
+00DE = Demon Slayer
+00DF = Pickaxe
+00E0 = Adamant pickaxe
+00E1 = Dragon Killer
+00E2 = Sickle Slayer
+00E3 = Homing Blade
+00E4 = War God's Axe
+00E5 = Razor Wind
+00E6 = Cyclops Killer
+00E7 = Drain Buster
+00E8 = Bufu's Cleaver
+00E9 = Crescent Arm
+00EA = Fragile Edge
+00EB = Hydra Sword
+00EC = Life Sword
+00ED = Spark Sword
+00EE = Wooden Mallet
+00EF = Iron Hammer
+00F0 = Falme Sword
+00F1 = Aura Spear
+00F2 = Tornado Sickle
+00F3 = Circuit Breaker
+00F4 = Air Slayer
+00F5 = Steel Fan
+00F6 = Paralysis Pike
+00F7 = Senkakon
+00F8 = Charged Rod
+00F9 = Giant Herisen
+00FA = Axe of Pursuit
+00FB = Naginata
+00FC = Confusion Blade
+00FD = Slumber Sword
+00FE = ShadowBind Blade
+00FF = Sealing Sword
+0100 = Jitte
+0101 = Shadow Blade
+0102 = Shield Cleaver
+0103 = Blade Cleaver
+0104 = Niibviw Swird
+0105 = Cekestuak Swird
+0106 = Unchigatana Issen
+0107 = Houken Blade
+0108 = Nodachi
+0109 = Golden Blade
+010A = Perfect Blade
+010B = Double Sword
+010C = Watou
+010D = Fang Sword
+010E = Pyrite Sword
+010F = Genseki Sword
+0110 = Iridescent Sword
+0111 = Meteorite Blade
+0112 = Cerulean Blade
+0113 = Crimson Blade
+0114 = Zabimaru
+0115 = Sacred Sword
+0127 = Wood Shield
+0128 = Bronzeward
+0129 = Iron Shield
+012A = Wind Shield
+012B = StormWard
+012C = Demon Shield
+012D = Savage Shield
+012E = Ration Shield
+012F = Dragonward
+0130 = Spikeward
+0131 = Bulky Shield
+0132 = Evasive Shield
+0133 = Fragile Shield
+0134 = Blast Shield
+0135 = Walrus Shield
+0136 = Prism Shield
+0137 = Gaze Shield
+0138 = Satori Shield
+0139 = Missil Shield
+013A = Bowl Shield
+013B = Heavy Shield
+013C = Festival Shield
+013D = Century Shield
+013E = Tree Shield
+013F = Firefly Shield
+0140 = Pickpocket Shield
+0141 = Exchange Shield
+0142 = Karakuroid Shield
+0143 = Gold Shield
+0144 = Lucky Shield
+0145 = Beast King Shield
+0146 = Pyrite Shield
+0147 = Gebseki Shield
+0148 = Iridescent Shield
+0149 = Mereorite Shield
+014A = Cerulean Shield
+014B = Crimson Chield
+014C = Sacred Shield
+0151 = Riceball
+0152 = Big Rice
+0153 = Giant Riceball
+0154 = Rotten Riceball
+0155 = Toasted Riceball
+0156 = Special Riceball
+015B = Rotten Meat
+015C = Mamel Meat
+015D = Pit Mamel Meat
+015E = Cave Mamel Meat
+015F = Gitan Mamel Meat
+0160 = mouse minion Meat
+0161 = Mouse Thug Meat
+0162 = Mouse Boss Meat
+0163 = Mouse Don Meat
+0164 = Chintala Meat
+0165 = Mid Chintala Meat
+0166 = Big Chintala meat
+0167 = Fat Chintala Meat
+0168 = Mini Robber Meat
+0169 = Robber Meat
+016A = Robber Chief Meat
+016B = Robber Lord Meat
+016C = Drizzly Meat
+016D = Rainy Meat
+016E = Stormy Meat
+016F = Mr.Monsoon Meat
+0170 = Spearfish Meat
+0171 = Lt.Spearfish Meat
+0172 = Cap.Spearfish Meat
+0173 = Adm.Spearfish meat
+0174 = Evil Soldier Meat
+0175 = Evil Veteran Meat
+0176 = Evil Genetal Meat
+0177 = Evil Shogun Meat
+0178 = Kengo Meat
+0179 = Lai Meat
+017A = Shihan Meat
+017B = Tatsujin Meat
+017C = Armordillo MEat
+017D = Megadillo meat
+017E = Superdillo Meat
+017F = Gigadillo Meat
+0180 = Bowboy Meat
+0181 = Crossbowboy Meat
+0182 = Arbalestboy Meat
+0183 = Ballistaboy Meat
+0184 = Baby Tank Meat
+0185 = Mini Tank Meat
+0186 = Sabotank Meat
+0187 = Tunnel Tank Meat
+0188 = Piggy Meat
+0189 = Piggo Meat
+018A = piggora Meat
+018B = Piggaron Meat
+018C = Tiger Uho Meat
+018D = Tiger Uhoho Meat
+018E = Tiger Uhon Meat
+018F = Tiger Uboho Meat
+0190 = Bored Kappa Meat
+0191 = Meh Kappa Meat
+0192 = Lazy Kappa Meat
+0193 = Sloth Kappa Meat
+0194 = Rice Baby Meat
+0195 = Rice Changer Meat
+0196 = Rice Boss Meat
+0197 = Rice Master Meat
+0198 = Mixer Meat
+0199 = Fuser Meat
+019A = Combiner Meat
+019B = Reactor Meat
+019C = Voodummy Meat
+019D = Voodoofus Meat
+019E = Voodork Meat
+019F = VooDad Meat
+01A0 = Inferno Meat
+01A1 = Mecharoid Meat
+01A2 = Steamroid Meat
+01A3 = Electroid Meat
+01A4 = Bioroid Meat
+01A5 = Pickpocket Meat
+01A6 = Thief Meat
+01A7 = Burglar Meat
+01A8 = Kleptomaniac Meat
+01A9 = Thifwalrus Meat
+01AA = Greenwalrus Meat
+01AB = Ironwalrus Meat
+01AC = Roguewalrus Meat
+01AD = Twisty Hani Meat
+01AE = Floppy Hani Meat
+01AF = Droopu Hani Meat
+01B0 = Wrinkly Hani Meat
+01B1 = Popster Tank Meat
+01B2 = Dadster Tank Meat
+01B3 = Grissled Tank Meat
+01B4 = Oldster Tank Meat
+01B5 = Ghost Radish Meat
+01B6 = Daze Radish Meat
+01B7 = Sleep Meat
+01B8 = Fear Meat
+01B9 = Dead Soldier Meat
+01BA = Dead Veteran Meat
+01BB = Dead General Meat
+01BC = Dead Shogun Meat
+01BD = Skull Mage Meat
+01BE = Skull Wizard Meat
+01BF = Skull Wraith Meat
+01C0 = Skull Demon meat
+01C1 = Death Reaper Meat
+01C2 = Hell Reaper Meat
+01C3 = Death Angel Meat
+01C4 = Death Master Meat
+01C5 = Gaze Meat Meat
+01C6 = Super Gaze Meat
+01C7 = Hyper Gaze Meat
+01C8 = Ultra Gaze Meat
+01C9 = Firepuff Meat
+01CA = FlamePuff Meat
+01CB = Blazwpuff Meat
+01CC = Infernopuff Meat
+01CD = Dragon Head Meat
+01CE = Sky Dragon Meat
+01CF = Ark Dragon Meat
+01D0 = Hell Dragon Meat
+01D1 = Bani Meat
+01D2 = Bonni Meat
+01D3 = Bunni Meat
+01D4 = Clyde Meat
+01D5 = Lil'Billy Meat
+01D6 = Billy
+01D7 = Bill
+01D8 = Williams
+01D9 = Viral Shroom
+01DA = Toxic Shroom
+01DB = Skullcap
+01DC = Deathcap
+01DD = Dry lantern
+01DE = Fire Lantern
+01DF = Fury Lantern
+01E0 = Immolanter
+01E1 = Fire Daruma
+01E2 = Flame Daruma
+01E3 = Spirit Garuma
+01E4 = Hell Daruma
+01E5 = Splitter
+01E6 = Sivider
+01E7 = Cloner
+01E8 = Replicator
+01E9 = Rusty Haniwa
+01EA = Steel Haniwa
+01EB = Fire Haniwa
+01EC = Bolt Haniwa
+01ED = Gougasha
+01EE = Asogi
+01EF = Nayuta
+01F0 = Fukashigi
+01F1 = Ghost Komuso
+01F2 = Dark Komuso
+01F3 = Loyal Komuso
+01F4 = Noble Komuso
+01F5 = New Shurkat
+01F6 = Shurkat
+01F7 = Lone Shurkat
+01F8 = High Shurkat
+01F9 = Shunrai-sama
+01FA = Raimei-sama
+01FB = Inazuma-Sama
+01FC = Kanrai-Sama
+01FD = Cistern Frog
+01FE = Pot Frog
+01FF = Inkwell Frog
+0200 = Hot Pot Frog
+0201 = Crowminion Meat
+0202 = Crow Thief Meat
+0203 = Crow Robber Meat
+0204 = Crowminal Meat
+0205 = Belly Boy Meat
+0206 = Chime Child Meat
+0207 = Riniging Runt Meat
+0208 = Kalaxon Kid Meat
+0209 = Giras Meat
+020A = Gyoros Meat
+020B = Girogos Meat
+020C = Ginzas Meat
+020D = Herb Haters Meat
+020E = Scroll Hater Meat
+020F = Staff Hater Meat
+0210 = Pot Hater Meat
+0211 = Dagger Bee Meat
+0212 = Blade Bee Meat
+0213 = Katana Bee Meat
+0214 = Claymore Bee Meat
+0215 = Sumo Zombark Meat
+0216 = Seki Zombark Meat
+0217 = Zeki Zombark Meat
+0218 = Zuna Zombark Meat
+0219 = Dodgy Mole Meat
+0257 = Cooked Meat
+0258 = Iron Ball
+0259 = ShapeShifter
+025A = Bu
+025B = Gitan
+025C = Wooden Arrows
+025D = Iron Arrows
+025E = Silver Arrows
+025F = Critical Arrows
+0260 = Gale Arrows
+0261 = Poison Arrows
+0262 = Confusion Arrows
+0263 = Knockback Arrows
+0264 = Moon Stones
+0265 = ShadowBind Arrows
+0266 = Bullsey Arrows
+0267 = Lightning Arrows
+0268 = Vitality Arrows
+0269 = Fatal Arrows
+026E = Stones
+026F = Piggy Stones
+0270 = Cannon Balls
+0271 = Tank Ammo
+0272 = Poison Spell
+0273 = Confusion Spell
+0274 = Sleep Spell
+0275 = Slumber Spell
+0276 = Paranoia Spell
+0277 = Pain Share Spell
+0278 = Dream Spell
+0279 = Seal Spell
+027A = Clone Spell
+027B = Slow Spell
+027C = Whiff Spell
+0282 = Gouha-Reppa
+0283 = Pot of Oil
+0284 = Spikes
+0285 = Water
+0286 = Flames
+0287 = Skull Staff
+0288 = Flames
+
+Digits for Skill Slot mods
+
+00 = Nothing
+01 = Rusty Ward
+02 = Dragon Slayer
+03 = Ghost Slayer
+04 = Cyclops Slayer
+05 = Drainer Slayer
+06 = Bomb Slayer
+07 = Aqua Slayer
+08 = Gadget Slayer
+09 = Floater Slayer
+0A = Excavator
+0B = Disarm
+0C = Sturdy
+0D = Homing
+0E = Critical
+
+0F = Trident
+10 = Impale
+11 = Thrust
+12 = Splash
+13 = Tornado
+14 = Butcher
+15 = Grand Paralyze
+16 = Push
+17 = Hinder
+18 = Sleep
+19 = Confuse
+1A = Immobilize
+1B = Seal
+1C = Darkness
+1D = Weaken
+1E = Feeble
+1F = Degrader
+20 = Leech
+21 = Trifecta
+22 = Dragon
+23 = Fortify
+24 = Rust Proof
+25 = Security
+26 = BlastProof
+27 = Nimble
+28 = FireProof
+29 = Diet
+2A = Binge
+2B = Salubrious
+2C = Satisfied
+2D = Counter
+2E = Shoddy
+2F = Genius
+30 = Prism
+31 = Resistant
+32 = Deflect
+33 = Metabolize
+34 = Anchor
+35 = Chivalry
+36 = Steady
+37 = Compensation
+38 = Investor
+39 = Elusive
+3A = Hyper
+3B = Prodigy
+3C = WallMaster
+3D = Unsinkable
+3E = Scout
+3F = Perforate
+40 = Hurler
+41 = Chucker
+42 = Exertion
+43 = Devastate
+44 = Appraisal
+45 = Maladroit
+46 = Drifter
+47 = Combustion
+48 = Perilous
+49 = Defender
+4A = Unyielding
+4B = Guardian
+4C = Maintenance
+4D = Aura
+4E = Shrewd
+4F = Clarity
+50 = Resistant
+51 = Vigor
+52 = Secured
+53 = Cling
+54 = Extinguisher
+55 = Power
+56 = Loud
+57 = Tiptoe
+58 = Perceptive
+5A = Defiant
+5C = Perforate
+5D = Gourmand
+5E = Chef
+5F = Stupifier
+60 = Stimulant
+61 = Vitalizer
+62 = Invigorant
+63 = QUality
+64 = High Quality
+65 = Dented
+66 = Contorted
+67 = Mangled
+68 = Hallucinate
+69 = Freeze
+6A = True Sight
+6B = Lost Art
+
+6C = Lost Art (Defensive)
+6D = Chi
+6E = Cautious
+6F = Negotiator
+70 = Ferocity
+71 = Steel
+72 = Fire
+73 = Shadow
+74 = Water
+75 = Nature
+76 = Thunder
+77 = Earth
+78 = Spirit
+79 = Illusion
+7A = Steel (Reduce Damage)
+7B = Fire (Reduce Damage)
+7C = Shadow (Reduce Damage)
+7D = Water (Reduce Damage)
+7E = Nature (Reduce Damage)
+7F = Thunder (Reduce Damage)
+80 = Earth (Reduce Damage)
+81 = Spirit (Reduce Damage)
+82 = Illusion (Reduce Damage)
+83 = Steel Void (Clear Icon)
+84 = Fire Void
+
+85 = Shadow Void
+86 = Water Void
+87 = Nature Void
+88 = Thunder Void
+89 = Earth Void
+8A = Spirit Void
+8B = Illusion Void
+8C = Elemental Void
+8D = Parry

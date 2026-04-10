@@ -1,0 +1,29 @@
+SERE4Q
+Epic Mickey 2 - The Power of Two
+
+infinite jumps [wiiztec]
+04BF6834 60000000
+
+infinite health [wiiztec]
+C2C104AC 00000003
+39800005 7C006000
+40800008 909E0038
+60000000 00000000
+
+Gravity Height Increaser/ Walk Thru Walls [Seth@WiiPlaza]
+208F47C0 00000010
+023C46DA 00000000
+CC000000 00000000
+023C46DA 00000001
+E0000000 80008000
+*press + to activate code and walk thru walls
+*press A to Increase Level from ground, then press + to come back down.
+*demo video - http://youtu.be/IXKddfUSyxU
+
+Grey Mickey Skin [Seth@WiiPlaza]
+048361CC 4FF00000
+*demo video - http://youtu.be/IXKddfUSyxU
+*demo pic- http://goo.gl/l2VHw
+
+Button Activator [Seth@WiiPlaza]
+208F47C0 0000XXXX

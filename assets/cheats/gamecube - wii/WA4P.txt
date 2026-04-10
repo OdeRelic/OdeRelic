@@ -1,0 +1,15 @@
+WA4P
+WarioWare Do It Yourself: Showcase
+
+Never Loose Lives (Press - ON/OFF) [Crapulecorp]
+041A6008 3803FFFF
+2826718A EFFF1000
+CC000000 00000000
+041A6008 38030000
+E0000000 80008000
+*WiiMote*
+
+Button Activator
+
+WiiMote [Crapulecorp]
+2826718A YYYYZZZZ

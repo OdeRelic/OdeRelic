@@ -1,0 +1,2155 @@
+SOUE01
+The Legend of Zelda: Skyward Sword
+
+infinite stamina/air [wiiztec]
+041C5E58 60000000
+
+no stamina/air meter [wiiztec]
+04B7FD1C 00000000
+
+hold left on dpad to walk through walls & on air [wiiztec]
+043407D8 4BFFF669
+0434081C 4BFFB735
+0433F9EC 4BFE7945
+28599D0C FFFE0001
+043407D8 60000000
+0434081C 60000000
+0433F9EC 60000000
+E0000000 80008000
+
+no shield meter [wiiztec]
+04B92684 42F20000
+040D7458 38800003
+
+no shield meter or rupee display [wiiztec]
+02B926E2 00000000
+
+moonjump right on dpad [wiiztec]
+28599D0C FFFD0002
+04B76680 42700000
+E0000000 80008000
+also works when spinning out of water
+
+always fly at boost ring speed [wiiztec]
+48000000 80B79D38
+DE000000 80008180
+36000FA0 43480001
+28599D0C BFFF4000
+90010005 00000FA0
+86A10005 3F700000
+E2100000 00000000
+14000FA0 43480000
+E0000000 80008000
+hold C to slow down
+credit to daijoda for finding pointer
+
+skyward strike charges instantly [wiiztec]
+041C6FD8 38600037
+
+force required to swing sword modifier [wiiztec]
+C22F2BA8 00000002
+3D808000 C00C182C
+60000000 00000000
+0400182C XXXXXXXX
+X is a floating point value
+3F800000 is default more is less force less is more force
+
+no weapon usage instructions [wiiztec]
+48000000 80575468
+DE000000 80008180
+14000104 C0C00000
+E0000000 80008000
+
+skyward strike is always charged toggle HOME [wiiztec]
+28599D0C 00008000
+0423EAC0 80780348
+CC000000 00000000
+C223EAC0 00000005
+2C070023 4182001C
+3D80A000 618C0080
+7C076000 4182000C
+80780348 48000008
+3C600030 00000000
+E0000000 80008000
+the visual effect can't always keep up with your sword swings
+change 3C600030 to 3C600040 for supercharged sword
+on by default
+
+fire skyward strikes at full health *fixed* [wiiztec]
+C223EAC0 00000008
+3D808096 A86CA766
+A98CA76A 7C0C1840
+4180001C 2C070023
+4182001C 3D80A000
+618C0080 7C076000
+4182000C 80780348
+48000008 3C600030
+60000000 00000000
+credit to mugwhump and stuff for the health check
+
+guardians can't attack toggle ++- [wiiztec]
+28599D0C 00001010
+04449194 4800174D
+CC000000 00000000
+04449194 60000000
+E0000000 80008000
+on by default
+
+have fireshield earrings [wiiztec]
+00955E57 00000030
+change 30 to 10 to remove them
+
+have stone of trials [wiiztec]
+00955E5A 0000001F
+allows early access to the final dungeon
+
+invincibility toggle Z+1 [wiiztec]
+28599D0C 00002200
+04244B78 4BFC7309
+CC000000 00000001
+04244B78 60000000
+E0000000 80008000
+off by default
+
+permanent bomb knockback radius toggle A+2 [wiiztec]
+28599D0C 00000900
+0425AA74 A8830A44
+CC000000 00000000
+0425AA74 38800000
+E0000000 80008000
+after a bomb blows up the knockback radius will remain where it blew up until you toggle the code off or exit the room
+
+bomb blows up on command, up on dpad [wiiztec]
+04259C10 A81F0A44
+28599D0C FFF70008
+04259C10 38000000
+E0000000 80008000
+
+link clothes color selector [wiiztec]
+C21DC044 00000002
+3D808000 C06C1830
+60000000 00000000
+82200004 80001830
+28599D0C 00000001
+86900004 BD99999A
+28599D0D 00000002
+86900004 3D99999A
+E2000001 00000000
+84200004 80001830
+E0000000 80008000
+use right and left on dpad to adjust color
+
+hyper link toggle Z+HOME [wiiztec]
+28599D0C 0000A000
+0457B68C 3F800000
+CC000000 00000001
+0457B68C 3FC00000
+E0000000 80008000
+
+make day dark toggle 2 [wiiztec]
+28599D0C 00000100
+041A223C A1D12DA0
+CC000000 00000000
+041A223C 39C00001
+E0000000 80008000
+pseudo fly at night
+
+lighting selector toggle A+1 [wiiztec]
+4E00001C 00000000
+28599D0C 00000A00
+041A223C A1D12DA0
+CC000000 00000001
+041A223C 39C00000
+9211000E 00000002
+28599D0C 00002001
+A8000008 00000002
+8600000E 0000FFFF
+2C001842 0000FFFE
+8000000E 00000015
+E2000001 00000000
+9411000E 00000002
+E2000002 00000000
+28599D0C 00002002
+A8000008 00000002
+8600000E 00000001
+2C001842 00000015
+8000000E 00000000
+E2000001 00000000
+9411000E 00000002
+E0000000 80008000
+when on press Z+right to go up & Z+left to go down one value
+
+walk on air toggle 1+2 [wiiztec]
+28599D0C 00000300
+0433F9EC 4BFE7945
+CC000000 00000001
+0433F9EC 60000000
+E0000000 80008000
+off by default
+
+mine cart speed control [wiiztec]
+207E466C C0230144
+C27E466C 00000003
+3D808000 81630144
+916C1838 C02C183C
+60000000 00000000
+28599D0D 00002000
+8690000D 40000000
+E2000002 00000000
+28599D0C DFFF0000
+4E000010 00000000
+9421000C 00000004
+9421000C 00000014
+2400183C 00000000
+8690000D C0000000
+2600183D 00000000
+8420000C 8000183C
+E0000000 80008000
+hold Z to gain speed
+
+hold up on dpad to fall through the ground [wiiztec]
+04244C84 480FB80D
+28599D0C 00000008
+04244C84 60000000
+E0000000 80008000
+
+no stamina/air meter
+
+* 04B7FD1C 00000000
+
+Bomb Arrows [Anarion]
+C2260400 00000003
+81DF00C0 81FF00C4
+825F00C8 C05F00C0
+60000000 00000000
+285FC88A 00002100
+C225B094 00000003
+91DC00C0 91FC00C4
+925C00C8 C03C00C0
+60000000 00000000
+CC000000 00000000
+0425B094 C03C00C0
+E0000000 80008000
+Press Z&2 to turn on& off.
+When code is on, take out or pick up a bomb then take out bow & draw to have bomb arrows! "Remote Bombs/Detonate Bombs on Command" recommended for use if you need more time to set up bombs arrows and for bomb detonation. Works with slingshot too.
+
+Easy Bug&Bird Catching [Anarion]
+2895A812 00000800
+00B7B137 00000003
+E0000000 80008000
+No need for remote swing.
+
+Have Items In Silent Realm [Anarion]
+005B3886 00000000
+You can walk on water without waking the guardians, and guardians can attack you without ending your trial. Replace last zero with 1 for silent realm mode. No items.
+
+Magic Sword [Anarion]
+0457AB74 XXXXXXXX
+40000000 -default value.
+This gives your sword and some items visual effects depending on the value used for X. 4C000000 -recommended, most useful value. When using a slingshot, wherever your ammo hits, a beacon of light will appear.
+
+Loftwing Levitation & Speed Modifier [Anarion]
+48000000 805A12B0
+DE000000 80008180
+14000FA0 xxxx0000
+285FC88A 00000002
+14000FB8 XXXX0000
+E0000000 80008000
+x= loftwing speed.
+X= levitation speed. 4220-default. Any value less than 4300 recommended.
+Useful if you do not want to have to shake wiimote upward to make loftwing fly higher. Press DPad RIGHT to levitate.
+
+Fi Size Modifier [Anarion]
+48000000 81730544
+DE000000 80008180
+58010000 000000F8
+DE000000 80008180
+180000CC XXXX0000
+20020004 00000000
+E0000000 80008000
+X=Size. 3F80-default size.
+
+Indoor Sprint Speed Modifier [Anarion]
+0257BA04 0000XXXX
+
+Sprint Speed Modifier [Anarion]
+C223DAC0 00000005
+89FD034B 2C0F0041
+41800014 2C0F0044
+41A1000C 3D80XXXX
+919D0144 C3BD0144
+60000000 00000000
+X=sprint speed. Anything higher than 4240, less than 4300 recommended. Works indoors.
+
+No High Fall Damage [Anarion]
+285FC88A 00006000
+CC000000 00000000
+04B76890 00000002
+E0000000 80008000
+Press Z&C to turn on & off.
+While code is active you will be unable to do certain things.
+
+Instant Harp Songs Played [Anarion]
+28FDF482 00000000
+00FDF483 0000000B
+E0000000 80008000
+*minimal wiimote movement is required
+
+Infinite Silent Realm Time [Anarion]
+285FC88A 00002800
+040C7B1C 60000000
+040C7988 60000000
+040C79C4 38C00020
+040C7AA0 60000000
+CC000000 00000000
+040C7B1C 9083000C
+040C7988 90E3000C
+040C79C4 8086000C
+040C7AA0 9003000C
+E0000000 80008000
+Press Z&A to turn on&off if you experience poe/waking water loop.
+
+Silent Realm State Modifier [Anarion]
+040C7A2C 3800000X
+X: 0= silent mode || 1= woken mode
+may only work after you pick up a tear
+
+Silent Realm Color Modifier [Anarion]
+C22D7978 00000003
+3D80YYYY 618CZZZZ
+919E0310 C3E30310
+60000000 00000000
+042D74BC 60000000
+042D74F0 60000000
+042D7924 60000000
+042D74E4 60000000
+YYYY ZZZZ Values:
+0000 0000 - Silent Realm 'Sleep Mode' color
+3F80 0000 - Silent Realm 'Woken Mode' color
+4000 0000 - Lavender colors
+4100 0000 - Crimson sea
+4080 0000 - Crimson sky&white land
+4020 0000 - Pink & Blue pastels
+3F91 BE19 - "Dark World"
+40C7 0000 - "Twilight Realm"
+Higher value results in different color. Change value if you'd like.
+
+Burning Link [Anarion]
+285FC88A 00000002
+02B7A918 0000XXXX
+E0000000 80008000
+Press Dpad RIGHT to use. you won't lose health.
+
+Electric Link [Anarion]
+285FC88A 00000008
+02B7A91E 0000XXXX
+E0000000 80008000
+Press Dpad UP to use.
+
+Cursed Link [Anarion]
+285FC88A 00000001
+02B7A91C 0000XXXX
+E0000000 80008000
+Press Dpad LEFT to use.
+X Values for three codes above:
+FFFF - maximum effect duration
+01C0 - default duration
+
+No Zombie-blin Curse Effect [Anarion]
+0420D41C 60000000
+
+Current Sword Modifier [Anarion]
+00955D48 000000XX
+X Values
+01 -Goddess Sword
+03 -Goddess Longsword
+05 -Master Sword
+FF -True Master Sword
+You must already have a sword. Permanent effect if saved & may interfere with your playthrough's progress. May not work on a Hero Mode save.
+
+Disable Fi's Dowsing Reminder [Anarion]
+00955DA0 00000000
+02955D88 00000000
+
+Sleeping Guardians v1. [Anarion]
+285FDE0A 00002800
+042D75DC 38000000
+042D7C68 38000000
+040C7970 60000000
+C20C79F0 00000002
+3C800000 60840001
+90830010 00000000
+CC000000 00000000
+042D75DC 800302D0
+042D7C68 801E02D0
+040C7970 90030010
+040C79F0 90830010
+E0000000 80008000
+press Z&A to turn on&off if you experience an infinite loop problem when stepping on waking water or caught by poes.
+
+Unaware Guardians [Anarion]
+00955EC5 0000000F
+They will only wake up if called by the poes or if you step on waking water.
+
+Loftwing- Specific Location Teleporter (Sky) [Anarion]
+285FC88A 00006000
+04AF0FB8 00440000
+04AF0FBC 449DA788
+04AF0FC0 457091EB
+04AF0FC4 4580B26E
+E0000000 80008000
+285FC88A 00002001
+04AF0FB8 00650000
+04AF0FBC 470FB6E4
+04AF0FC0 C63165F9
+04AF0FC4 471110A8
+E0000000 80008000
+285FC88A 00002008
+04AF0FB8 01180000
+04AF0FBC 46C7C082
+04AF0FC0 C62AB484
+04AF0FC4 C79592A6
+E0000000 80008000
+285FC88A 00000002
+04AF0FB8 FF430000
+04AF0FBC C772AC9C
+04AF0FC0 C6256FE6
+04AF0FC4 4778FA86
+E0000000 80008000
+285FC88A 00004001
+04AF0FB8 EE090000
+04AF0FBC 47C8F50E
+04AF0FC0 C61CC1A1
+04AF0FC4 471CE202
+E0000000 80008000
+285FC88A 00004008
+04AF0FB8 01580000
+04AF0FBC C75FCB71
+04AF0FC0 4526A399
+04AF0FC4 C716C17A
+E0000000 80008000
+For those of us who dislike slow flying:
+Hold Z&C to teleport loftwing over SKYLOFT PLAZA
+Hold Z&Dpad-LEFT to teleport loftwing over FARON LIGHT COLUMN
+Hold Z&Dpad-UP to teleport loftwing over ELDIN LIGHT COLUMN
+Hold Z&Dpad-RIGHT to teleport loftwing over LANAYRU LIGHT COLUMN
+Hold C&Dpad-LEFT to teleport loftwing over LUMPY PUMPKIN
+Hold C&Dpad-UP to teleport loftwing directly into THUNDERHEAD CLOUD
+
+Loftwing Teleporter [Anarion]
+285FC88A 00000002
+48000000 805A12B0
+DE000000 80008180
+92210000 000000C0
+92210001 000000C4
+92210002 000000C8
+92210003 000000BC
+E0000000 80008000
+285FC88A 00000008
+48000000 805A12B0
+DE000000 80008180
+94210000 000000C0
+94210001 000000C4
+94210002 000000C8
+94210003 000000BC
+E0000000 80008000
+Press D-pad RIGHT to save Loftwing's current position.
+Hold D-pad LEFT to return Loftwing to saved position.
+
+Loftwing- Specific Location Teleporter (Thunderhead Cloud) [Anarion]
+285FC88A 00006008
+04B4D3FC 02620000
+04B4D400 C82731BB
+04B4D404 4695E86D
+04B4D408 C7477513
+E0000000 80008000
+285FC88A 00006002
+04B4D3FC 08190000
+04B4D400 C7DAEC59
+04B4D404 C44181FC
+04B4D408 C7AEEA05
+E0000000 80008000
+285FC88A 00006001
+04B4D3FC FCD40000
+04B4D400 C8040B55
+04B4D404 4662D040
+04B4D408 C7C8C617
+E0000000 80008000
+285FC88A 00006C00
+04B4D3FC FF9A0000
+04B4D400 C79A6B3F
+04B4D404 453E7D61
+04B4D408 C7077D11
+E0000000 80008000
+Hold C&Z&Dpad-LEFT to teleport loftwing to ISLE OF SONGS
+Hold C&Z&Dpad-UP to teleport loftwing to BUG ISLAND
+Hold C&Z&Dpad-RIGHT to teleport loftwing to RAINBOW ISLE
+Hold C&Z&A&B to directly exit Thunderhead cloud
+
+Link Teleporter [Anarion]
+285FC88A 00000001
+82200000 80B765EC
+82200001 80B765F0
+82200002 80B765F4
+82200003 80B765E4
+E0000000 80008000
+285FC88A 00000002
+84200000 80B765EC
+84200001 80B765F0
+84200002 80B765F4
+84200003 80B765E4
+E0000000 80008000
+Press D-pad LEFT to save Link's current position.
+Hold D-pad RIGHT to return Link to saved position.
+
+Sword Status Modifier [Anarion]
+285FC88A 00000001
+041C6344 3C8000XX
+CC000000 809D0348
+E0000000 80008000
+Press Dpad LEFT to turn on&off.
+X Values:
+10 - Skyward Strike ready (with "Sting hum")
+30 - Skyward Strike ready (without hum)
+20 - Invisible blade (cannot use skyward strikes)
+50 - Lightning Strike ready (with hum)
+40 - Lightning Strike ready (without hum)
+While code is active, you won't be able to aim as your cursor will always be centered.
+
+All Light Surface Columns Active [Anarion]
+04955D54 FFFFFFFF
+
+Light Tower Active [Anarion]
+04955D5C FFFFFFFF
+04955D7C FFFFFFFF
+
+Lanayru Mining Facility Active [Anarion]
+04956F38 FFFFFFFF
+04956F3C FFFFFFFF
+Use button activation on the first line with 00000000 to rise&submerge the facility on command if you want. :P
+
+Lanayru Province Active [Anarion]
+04956F40 FFFFFFFF
+04956F44 FFFFFFFF
+All timeshift lands active. Things that need activation will not work unless you activate the timeshift crystal that controls that area.
+
+All Goddess Cubes/Chests Active [Anarion]
+00955D62 000000FF
+04955D64 FFFFFFFF
+all but one cube activated
+
+Fi Has Complete Dowsing Power [Anarion]
+00955D4E 000000FF
+The other circles won't be visible but you can still select and dowse for them.
+
+No Black Bars [Anarion]
+04B74694 00000000
+prevents Z-target, cutscene bars from showing.
+
+No Black Bars v2 [Anarion]
+0019DA03 00000080
+This is the better of the black bar removal codes since it completely prevents black bars from wanting to show at all. Thanks to Bully for shortening tip.
+
+HUD Modifier [Anarion]
+00955E36 000000X0
+X: 0 -standard || 2 -light || 4 -pro
+
+Name Changer [Anarion]
+06955D38 00000010
+00XX00XX 00XX00XX
+00XX00XX 00XX00XX
+Changes your current profile's name and will be saved permanently if you save on a bird statue.
+X= letter/number hexadecimal value going from left to right.
+Go to mikezilla.com/exp0012.html for converting letters/numbers to hexadecimal.
+
+Instant Ground Teleporter [Anarion]
+285FC88A 00002001
+04B76648 48000000
+E0000000 80008000
+285FC88A 00002002
+04B76648 44000000
+E0000000 80008000
+Above: Z&D-pad LEFT || Below: Z&D-Pad RIGHT
+Allows you to be place right on top/bottom of another floor, or whatever physical structure is above/below you.
+
+Have Everything [Anarion]
+04955D98 FFFFFFFF
+08955E48 FFFFFFFF
+201D0004 00000000
+All item upgrades, Gear & Collection menu full (excluding Beedle's Beetle Sidequest icon).
+Permanent effect if you save.
+
+Maximum Gratitude Crystals [Anarion]
+04955EB4 FFFFFFFF
+Also included in code above
+
+Have All Adventure Pouches [Anarion]
+04955EB4 FFFFFFFF
+Also included in 'Have Everything'
+
+Heart Piece Modifier [Anarion]
+00955EBF 0000000X
+X: 1 -1 piece | 2- 2 pieces | 3 -3 pieces | 4 -4 pieces
+Useless. Only useful if you want to have a full heart shown on your 'Gear' menu.
+
+Remove Fi+Link Clothes Modifier [Anarion]
+285FC88A 00000100
+00955D4D 0000000F
+CC000000 00000000
+00955D5D 000000FF
+E0000000 80008000
+Press 2 to switch on & off.
+When code is activated, you will not have Fi, which means you can complete temples without ever being annoyed by her IF YOU ACTIVATE THE CODE BEFORE YOU ENTER A TEMPLE. Code is not recommended for use elsewhere. If code is activated on Skyloft, the current day will be set to the day of the Goddess Ceremony which means you can do the sky race again. If on Skyloft, press 2 to turn code off, enter a house to have Skyloft reset to its current day. If you have the code active and you head off for the sky, you may get stuck on the Ceremony Race and will be unable to go to your desired destination even if the code is deactivated. Use my "Loftwing-Specific Location Teleporter" to be placed over Skyloft where you can land and have the code turn off.
+
+Have Shield With Cursed Medal [Anarion]
+0400B688 60000000
+if you have a shield equipped before you carry the cursed medal, you'll still have it equipped.
+
+No Dowsing Purple Border [Anarion]
+041C0B9C 60000000
+
+Dowsing Purple Border On [Anarion]
+041C0BB0 38800005
+041C0BC0 60000000
+always on
+
+Instant Guardian Potion [Anarion]
+285FC88A 00004800
+0295A760 0000XXXX
+E0000000 80008000
+Press C&A to use.
+
+Instant Guardian Potion+ [Anarion]
+285FC88A 00002800
+0295A762 0000XXXX
+E0000000 80008000
+Press Z&A to use.
+
+Instant Air Potion [Anarion]
+285FC88A 00004800
+0295A758 0000XXXX
+E0000000 80008000
+Press C&A to use.
+
+Instant Air Potion+ [Anarion]
+285FC88A 00002800
+0295A75A 0000XXXX
+E0000000 80008000
+Press Z&A to use.
+
+Instant Stamina Potion [Anarion]
+285FC88A 00004800
+0295A75C 0000XXXX
+E0000000 80008000
+Press C&A to use.
+
+Instant Stamina Potion+ [Anarion]
+285FC88A 00002800
+0295A75E 0000XXXX
+E0000000 80008000
+Press Z&A to use.
+X Values for potion codes above:
+1500 - normal potion effect limit
+FFFF - maximum limit possible
+! +Potions keeps your stamina/air at an infinite amount until the effect wears off. Normal potions make your stamina/air decrease half slower than normal loss.
+
+Miscellaneous Codes
+
+Friendly Cat Things [Anarion]
+005B3885 00000000
+Those things are friendly at night even if you have not cleansed Skyloft by helping Batreaux. Instead of the moon being visible at night, the sun will be. If you replace the last zero with 1, moon will be visible and things will be evil.
+
+Natural Day & Night Cycle [Anarion]
+2496CD64 00000010
+005B3885 00000001
+E2100000 00000000
+005B3885 00000000
+E0000000 80008000
+2096CD64 00000000
+04591FC4 00000000
+E0000000 80008000
+2096CD64 00000001
+04591FC4 3D2AAAAC
+E0000000 80008000
+2096CD64 00000002
+04591FC4 3DAAAAAC
+E0000000 80008000
+2096CD64 00000003
+04591FC4 3E000000
+E0000000 80008000
+2096CD64 00000004
+04591FC4 3E2AAAAC
+E0000000 80008000
+2096CD64 00000005
+04591FC4 3E555555
+E0000000 80008000
+2096CD64 00000006
+04591FC4 3E800000
+E0000000 80008000
+2096CD64 00000007
+04591FC4 3E955555
+E0000000 80008000
+2096CD64 00000008
+04591FC4 3EAAAAAC
+E0000000 80008000
+2096CD64 00000009
+04591FC4 3EC00000
+E0000000 80008000
+2096CD64 0000000A
+04591FC4 3ED55555
+E0000000 80008000
+2096CD64 0000000B
+04591FC4 3EEAAAAC
+E0000000 80008000
+2096CD64 0000000C
+04591FC4 3F000000
+E0000000 80008000
+2096CD64 0000000D
+04591FC4 3F0AAAAA
+E0000000 80008000
+2096CD64 0000000E
+04591FC4 3F155555
+E0000000 80008000
+2096CD64 0000000F
+04591FC4 3F200000
+E0000000 80008000
+2096CD64 00000010
+04591FC4 3F2AAAAC
+E0000000 80008000
+2096CD64 00000011
+04591FC4 3F355555
+E0000000 80008000
+2096CD64 00000012
+04591FC4 3F400000
+E0000000 80008000
+2096CD64 00000013
+04591FC4 3F4AAAAC
+E0000000 80008000
+2096CD64 00000014
+04591FC4 3F555555
+E0000000 80008000
+2096CD64 00000015
+04591FC4 3F600000
+E0000000 80008000
+2096CD64 00000016
+04591FC4 3F6AAAAC
+E0000000 80008000
+2096CD64 00000017
+04591FC4 3F755555
+E0000000 80008000
+2096CD64 00000018
+04591FC4 3F800000
+E0000000 80008000
+This will make the day darken naturally, depending on your "time played". After 24 minutes of real life playtime, the day will be fully dark. At the moment, I cannot make this be a looping day & night cycle so that the day keeps resetting, so the cycle will occur once and the day will stay dark after 24 minutes of playtime. I will update this code later.
+
+No 2 Button Instructions [Anarion]
+2097BB6C 809812D0
+0497BB6C 80596FE4
+E0000000 80008000
+
+Pause Game [Anarion]
+285FC88A 00000100
+005750CB 00000001
+CC000000 00000000
+005750CB 00000000
+E0000000 80008000
+Pauses game similar to a WiiRD/GDN pause. Press 2.
+
+No Clouds [Anarion]
+0457B294 00000000
+0457B164 00000000
+Removes moving clouds in sky & skyloft.
+
+Backdrop Cycle Speed [Anarion]
+0457B560 XXXXXXXX
+40400000=default speed
+
+Cloud Size & Speed Modifier [Anarion]
+0457B2B0 XXXXXXXX
+0457B4D0 ZZZZZZZZ
+X-speed.
+Z-size. 3F933333=default size
+
+Art Style Intensity Modifier [Anarion]
+0257A350 0000XXXX
+3F80-default. A lower value results in increased intensity. Skyward Sword will look more like an impressionist/watercolor painting. 3F00=highest visible effect.
+This code interferes with your ability to see where you are walking, so button activation is recommended.
+
+Impressionism Filter Amount Modifier [Anarion]
+C2023EE0 00000003
+3C20XXXX 60210000
+D03D01F4 D03D01F8
+D03D01FC 00000000
+Modifies the filter amount that gives Skyward Sword its unique art style. Center of screen has no filter effect.
+3F00 =highest amount.
+4100 =lowest amount. No filter.
+
+Natural Sword Carry [Anarion]
+C223B24C 00000005
+89DF034B 8A5F0345
+2C120004 41810014
+2C0E0010 41A2000C
+38000100 B01F0368
+801F0368 00000000
+When walking with sword in hand, Link will swing his arm instead of holding the sword steady in whatever direction your wiimote is pointing. You will be unable to create Skyward Strikes normally, so use of wiiztec's "skyward strike is always charged" recommended with use of this.
+
+Lower Beedle's Shop Rope [Anarion]
+285FC88A 00002002
+04860A0C 60000000
+E0000000 80008000
+Press Z&Dpad RIGHT
+
+Gloomy Skyloft [Anarion]
+0457B0FC 00000000
+
+Gloomy Skyloft v2 [Anarion]
+089AAF80 00000000
+207F0004 00000000
+089A8740 00000000
+207F0004 00000000
+089A7328 00000000
+207F0004 00000000
+Sky isn't gloomy
+
+Transparency Modifier [Anarion]
+0457AF50 XXXXXXXX
+Better of the two.
+
+Transparency Modifier v2 [Anarion]
+04B74698 XXXXXXXX
+X= Floating Point Value
+3F800000 = default value
+
+Dowsing Cursor Size [Anarion]
+0257B5C4 0000XXXX
+4040=default
+
+END of Miscellaneous Codes
+
+21:9 Screen Ratio [CosmoCortney]
+04576880 3FD00000
+E0000000 80008000
+gives you REAL 21:9 ratio in 21:9 screens!
+
+Bird Speed Modifier [CosmoCortney]
+285FC88A 00004000
+04AF1040 44722672
+E0000000 80008000
+285FC88A 00002000
+04AF1040 4213AD96
+E0000000 80008000
+Press C to accelerate and Z to deccelerate. (If you dont accelerate, slow down by pressing B first)
+
+Skyward Strike becomes Lightning Strike [goemon_guy]
+041C7068 64840040
+when you charge your sword, you will charge it with lightning
+
+Fledge's Pumpkin Minigame
+
+Points Multiplier [goemon_guy]
+F2843CA0 04DE4E02
+1C84XXXX 7C862214
+60000000 00000000
+XXXX is the multiplier
+
+Have 600 points [goemon_guy]
+02AAEA66 00000258
+automatically receive a piece of when time runs out
+
+Time Stopper (Toggle with d-left) [goemon_guy]
+28599D0C 00000001
+040C7B1C 60000000
+CC000000 00000000
+040C7B1C 9083000C
+E0000000 80008000
+
+Bamboo Minigame
+
+Points Multiplier [goemon_guy]
+F27B71F8 04BCC201
+3804XXXX 00000000
+XXXX is how many points each slice is worth
+
+Thrill Digger Minigame
+
+Rupee Score Modifier [goemon_guy]
+02B6FFE2 0000XXXX
+
+All Rupee Spaces have a Value of 300 (Even Rupoors) [goemon_guy]
+F27B295C 04C63701
+3803012C 00000000
+F27B297C 04C61701
+3803012C 00000000
+F27B299C 04C6F701
+3803012C 00000000
+F27B29BC 04C6D701
+3803012C 00000000
+F27B29FC 04CE1701
+3803012C 00000000
+unfortunately, bombs are still a threat
+
+Loftwing Spiral Charge Minigame
+
+Time Stopper (Toggle with d-left) [goemon_guy]
+28599D0C 00000001
+040C7B1C 60000000
+CC000000 00000000
+040C7B1C 9083000C
+E0000000 80008000
+
+Points Multiplier [goemon_guy]
+F280A420 10E1CF01
+380400XX 00000000
+XX is how much each target is worth
+set it to 0A if you want to win with one target
+
+Lumpy Pumpkin Harp mini-game Easy mode [spunit262]
+043925BC 60000000
+You still need to strum, but you don't have to be in sync.
+
+Waterfall cave leads to Sky Keep v0 [spunit262]
+205B388C 44303030
+045B388C 44303033
+045B3890 5F340000
+E0000000 80008000
+Somewhat based on a Codejunkies' code for Wind Waker.
+Makes getting your bird back at the beginning of the game impossible, because it replace waterfall cave.
+Exiting Sky Keep will cause you to fall infinitely if you already beat Sky Keep (there's no land where you spawn) don't know what happens if you haven't unlocked it.
+Doesn't put you at the entrance because the game insists on using the north door the entrance doesn't have.
+
+Always Goddess Wall [Stuff]
+48000000 8079499C
+DE000000 80008100
+14005A4C 480000D4
+1400667C 60000000
+14005810 60000000
+E0000000 80008000
+
+No Notification The First Time You Collect A Bug Or Treasure [brkirch]
+042541C4 60000000
+
+Disable Low Health Alarm [brkirch]
+0420AC88 48000028
+
+Disable Fi's Low Health Warning [brkirch]
+0416C700 4800003C
+
+Disable Fi's Low Shield Gauge Warning [brkirch]
+0416C684 4800003C
+
+Disable Fi's Low Battery Warning [brkirch]
+0416C744 48000070
+
+Text Speed Modifier (XXXX Times Normal Text Speed) [brkirch]
+C2115A00 0000000A
+48000009 00000001
+7C6802A6 80830000
+28040001 4081002C
+3884FFFF 90830000
+3C60800B 606324A0
+7C6903A6 807F0720
+38800000 38A00001
+4E800421 4BFFFFC4
+3880XXXX 90830000
+807F0720 00000000
+
+Instant Text (160x Normal Text Speed) [brkirch]
+C2115A00 0000000A
+48000009 000000A0
+7C6802A6 80830000
+28040001 4081002C
+3884FFFF 90830000
+3C60800B 606324A0
+7C6903A6 807F0720
+38800000 38A00001
+4E800421 4BFFFFC4
+388000A0 90830000
+807F0720 00000000
+
+A Button Text Speed Modifier (XXXX Times Text Speed) [brkirch]
+C2115A40 0000000A
+48000009 00000002
+7C6802A6 80830000
+28040001 40810020
+3884FFFF 90830000
+3C608011 60635A00
+7C6903A6 7FE3FB78
+4E800420 3880XXXX
+90830000 3C608011
+60635A50 7C6903A6
+4E800420 00000000
+
+Sword Modifier [Thomas83Lin]
+0405C11C 3860000x
+*Replace x with 0-5*
+*ported from Crediar*
+
+Tunic Modifier [Thomas83Lin]
+04239378 60000000
+0423937C 3800000x
+*X=00=Green Tunic\01=Skyloft Tunic*
+*Non Permanent*
+
+No Need for Arrows [Thomas83Lin]
+04209AF0 60000000
+*Still shoots at 0*
+
+No Need for SlingShot Nuts [Thomas83Lin]
+04208DC0 60000000
+*Still shoots at 0*
+
+Using Slingshot Ammo adds 1 [Thomas83Lin]
+04208DFC 38800001
+
+Using Bow Ammo adds 1 [Thomas83Lin]
+0420A394 38800001
+
+Using Bombs adds 1 [Thomas83Lin]
+041E6B1C 38800001
+
+Walk on Lava [Thomas83Lin]
+04241D84 38000000
+
+Walk Knee High Slowly in Quick Sand [Thomas83Lin]
+041DB338 60000000
+041DB2D0 4182013C
+
+Walk Knee High Normal Speed in Quick Sand [Thomas83Lin]
+041DB338 60000000
+041DB2D0 4182013C
+0423F768 38000000
+0423DA90 38600000
+0423F108 38000000
+
+Walk on Quick Sand [Thomas83Lin]
+0423F768 38000000
+041DB264 38600000
+0423DA90 38600000
+0423F108 38000000
+
+Use Bombs on Quick Sand [Thomas83Lin]
+04202D90 38000000
+04203E68 38000000
+04244AA4 38000000
+
+Inf Health [Thomas83Lin]
+041E3500 2C000000
+041E3514 60000000
+*Stores Base to Current when hit or Pickup*
+
+Clawshot Any Surface [Thomas83Lin]
+0433BF20 38600001
+
+Clawshot Shoots to almost any Distance [Thomas83Lin]
+06577780 00000010
+47870000 45336000
+45336000 43FA0000
+*Ported from James0x57*
+
+Temp Unlock All Weaponsv.2 [Thomas83Lin]
+041E31C4 3BE00001
+040D5A6C 48000098
+040F0060 48000070
+*First Line Ported from Crediar*
+
+Upgrade SlingShot to ScatterShot [Thomas83Lin]
+0405C1E8 60000000
+*Use with Temp Unlock All Weapons if you don't have it*
+
+Upgrade Beetle to Tough Beetle [Thomas83Lin]
+0405C288 60000000
+*Use with Temp Unlock All Weapons if you don't have it*
+
+Upgrade Bow to Sacred Bow [Thomas83Lin]
+0405C308 60000000
+*Use with Temp Unlock All Weapons if you don't have it*
+
+Unlock Tycoon Wallet [Thomas83Lin]
+00955E53 000000FF
+*Makes Permanent Changes*
+
+99 Inf Bug+Materials [Thomas83Lin]
+08955E98 31E331E3
+20060004 00000000
+
+Change Save into Hero Save [Thomas83Lin]
+00955D62 000000F8
+*Enter Save With code on then save and quit*
+*Receive Double Damage exec*
+
+Multiply damage taken by X [mugwhump]
+8000000E 8000182A
+82100000 8000182A
+82100001 8095A76A
+A695A76A EF000000
+84100000 8095A76A
+86400001 FFFFFFFF
+86000001 00000001
+88000000 00000001
+86100000 0000000X
+82100001 8095A76A
+86400000 FFFFFFFF
+86000000 00000001
+88000001 00000000
+84100001 8095A76A
+2C95A76A 00000050
+0295A76A 00000000
+E0000000 80008000
+Needs "Post-health-modifier code" after.
+
+Health increases multiplied by X/Y (rounded up) [mugwhump]
+2800182A 00000000
+2800182E 00000000
+82100002 8095A76A
+84100002 8000182A
+E0000000 80008000
+8000000E 8000182A
+80000003 8000182E
+82100000 8000182A
+82100001 8095A76A
+A495A76A EF000000
+2A00182A 00000000
+84100000 8095A76A
+86400000 FFFFFFFF
+86000000 00000001
+88000001 00000000
+86100001 0000000X
+84100001 8000182C
+80000000 00000000
+80000002 00000000
+60000000 00000000
+86000000 00000001
+86000002 0000000Y
+84100002 8000182E
+A400182C 3F000000
+64000000 00000000
+E2000001 00000000
+82100002 8095A76A
+88000002 00000000
+84100002 8095A76A
+E0000000 80008000
+Needs "Post-health-modifier code" after. If you want your starting health (normally 6 hearts) to be multiplied by X/Y, remove the line "2A00182A 00000000"
+
+Post-health-modifier code (REQUIRED after either of the 2 above codes) [mugwhump]
+82100000 8095A76A
+84100000 8000182A
+
+Walk Speed Modifier [hetoan2]
+05700000 XXXXXXXX
+043F0498 60000000
+043F049C 60000000
+C23F0494 00000006
+9421FFB0 BDC10008
+3F208170 C2590000
+EC120032 D01F0000
+EC1E1024 EC120032
+D01F0004 B9C10008
+38210050 00000000
+X's are a floating point, Recommended: 3FB33333
+
+Faster Stamina Regain [hetoan2]
+041C6330 38647FFF
+
+Hardcore Stamina Mode [hetoan2]
+041C6330 38640000
+Stamina Doesn't Regenerate on it's own, requires fruit.
+
+Regain Stamina Instantly When Empty [hetoan2]
+041C6250 60000000
+
+3 Heart Run [hetoan2]
+0095A767 0000000C
+
+All Pieces of Heart [hetoan2]
+0095A767 00000050
+
+No Time Limit on Beetle Flight [hetoan2]
+04263680 38000320
+
+Super Beetle (WIP) [hetoan2]
+04263680 38000320
+28599D0C BFFF4000
+04263680 38000383
+E0000000 80008000
+00955E4F 00000018
+Upgrades Beetle to Tough Beetle. Hold C to lock current flight angle.
+
+Infinite Bombs [hetoan2]
+02955EC6 00003180
+
+Infinite All Items (hopefully only that) [hetoan2]
+C20BF0E8 00000004
+2C03007B 41800014
+2C030083 4181000C
+38603180 48000008
+7C7F1A2E 00000000
+
+Infinite All Items + Small Keys [hetoan2]
+C20BF0E8 00000007
+2C030002 41820018
+2C03007B 41800020
+2C030083 41810018
+4800000C 38600001
+48000010 38603180
+48000008 7C7F1A2E
+60000000 00000000
+
+Big Bug Net Upgrade [hetoan2]
+0405C238 60000000
+Won't let you use it if you haven't unlocked. Unless you want to add this line: 00955E4C 00000057
+
+Hold 900 Extra Rupees [hetoan2]
+02955EC6 0000C180
+
+Double Chop at Bamboo Island Minigame [hetoan2]
+207B71F4 808500C4
+047B71F4 38800062
+E0000000 80008000
+
+Bamboo Minigame Score of 99 [hetoan2]
+207B71F4 808500C4
+047B71F4 38800062
+E0000000 80008000
+
+Infinite Flight Charge [hetoan2]
+2083AD7C 3804FFFF
+0483AD7C 38000003
+E0000000 80008000
+Fixed Assembly Crash Issues.
+
+Other Character Codes
+
+Beedle's Ground Shop [Anarion]
+20574058 0000000E
+088609F8 60000000
+20020004 00000000
+08860BC4 60000000
+20020004 00000000
+088610A0 60000000
+20020004 00000000
+048613A8 60000000
+04861670 60000000
+04AA21E8 0000C0E0
+04AA21F0 C48EA1B7
+04AA21F4 4130A3D7
+04AA21F8 4584CCF3
+E0000000 80008000
+Shop is placed on Skyloft Plaza by the wooden sheds.
+
+Fledge Moon Jump (Day) [Anarion]
+285FC88A 00002000
+04A8145C 42000000
+E0000000 80008000
+
+Kukiel's Dad Moon Jump (Night) [Anarion]
+285FC88A 00002000
+04A80158 42000000
+E0000000 80008000
+
+Orielle Moon Jump (Day) [Anarion]
+285FC88A 00002000
+04A95EBC 42000000
+E0000000 80008000
+
+Orielle Moon Jump (Night) [Anarion]
+285FC88A 00002000
+04B6018C 42000000
+E0000000 80008000
+
+Parrow Moon Jump (Day) [Anarion]
+285FC88A 00002000
+04A970F4 42000000
+E0000000 80008000
+
+Parrow Moon Jump (Night) [Anarion]
+285FC88A 00002000
+04A7F0C8 42000000
+E0000000 80008000
+
+Piper Moon Jump (Day) [Anarion]
+285FC88A 00002000
+04A9EA00 42000000
+E0000000 80008000
+
+Piper Moon Jump (Night) [Anarion]
+285FC88A 00002000
+04B6AB40 42000000
+E0000000 80008000
+
+Pipit Moon Jump (Night) [Anarion]
+285FC88A 00002000
+04AAAF90 42000000
+E0000000 80008000
+
+Rupin Moon Jump (Bazaar) [Anarion]
+285FC88A 00002000
+04B0DFCC 42000000
+E0000000 80008000
+
+Zelda Moon Jump (Day) [Anarion]
+285FC88A 00002000
+04AA3820 42000000
+E0000000 80008000
+*only works for Zelda on bird retrieval sidequest.
+For Moon Jump codes above: Hold Z to use.
+
+Fledge Speed Modifier (Day) [Anarion]
+04A8144C XXXXXXXX
+
+Kukiel's Dad Speed Modifier (Night) [Anarion]
+04A80148 XXXXXXXX
+
+Orielle Speed Modifier (Day) [Anarion]
+04A95EAC XXXXXXXX
+
+Orielle Speed Modifier (Night) [Anarion]
+04B6017C XXXXXXXX
+
+Parrow Speed Modifier (Day) [Anarion]
+04A970E4 XXXXXXXX
+
+Parrow Speed Modifier (Night) [Anarion]
+04A7F0B8 XXXXXXXX
+
+Piper Speed Modifier (Day) [Anarion]
+04A9E9F0 XXXXXXXX
+
+Piper Speed Modifier (Night) [Anarion]
+04B6AB30 XXXXXXXX
+
+Pipit Speed Modifier (Night) [Anarion]
+04AAAF80 XXXXXXXX
+
+Rupin Speed Modifier (Bazaar) [Anarion]
+04B0DFBC XXXXXXXX
+
+Zelda Speed Modifier (Day) [Anarion]
+04AA3810 XXXXXXXX
+*only works for Zelda on bird retrieval sidequest.
+For Speed Modifier codes above: X=floating point value.
+40800000 = default speed. Use higher value for faster moving speed.
+
+Batreaux (Human-Night) [Anarion]
+285FC88A 00000001
+82200012 80B765E4
+82200013 80B765EC
+82200014 80B765F0
+82200015 80B765F4
+E0000000 80008000
+285FC88A 00000002
+84200012 80A7CB24
+84200013 80A7CB2C
+84200014 80A7CB30
+84200015 80A7CB34
+E0000000 80008000
+
+Fledge Teleporter (Day) [Anarion]
+285FC88A 00000001
+82200012 80B765E4
+82200013 80B765EC
+82200014 80B765F0
+82200015 80B765F4
+E0000000 80008000
+285FC88A 00000002
+84200012 80A813C0
+84200013 80A813C8
+84200014 80A813CC
+84200015 80A813D0
+E0000000 80008000
+
+Kukiel's Dad Teleporter (Night) [Anarion]
+285FC88A 00000001
+82200012 80B765E4
+82200013 80B765EC
+82200014 80B765F0
+82200015 80B765F4
+E0000000 80008000
+285FC88A 00000002
+84200012 80A800BC
+84200013 80A800C4
+84200014 80A800C8
+84200015 80A800CC
+E0000000 80008000
+
+Orielle Teleporter (Day) [Anarion]
+285FC88A 00000001
+82200012 80B765E4
+82200013 80B765EC
+82200014 80B765F0
+82200015 80B765F4
+E0000000 80008000
+285FC88A 00000002
+84200012 80A95E20
+84200013 80A95E28
+84200014 80A95E2C
+84200015 80A95E30
+E0000000 80008000
+
+Orielle Teleporter (Night) [Anarion]
+285FC88A 00000001
+82200012 80B765E4
+82200013 80B765EC
+82200014 80B765F0
+82200015 80B765F4
+E0000000 80008000
+285FC88A 00000002
+84200012 80B600F0
+84200013 80B600F8
+84200014 80B600FC
+84200015 80B60100
+E0000000 80008000
+
+Parrow Teleporter (Day) [Anarion]
+285FC88A 00000001
+82200012 80B765E4
+82200013 80B765EC
+82200014 80B765F0
+82200015 80B765F4
+E0000000 80008000
+285FC88A 00000002
+84200012 80A90758
+84200013 80A97060
+84200014 80A97064
+84200015 80A97068
+E0000000 80008000
+
+Parrow Teleporter (Night) [Anarion]
+285FC88A 00000001
+82200012 80B765E4
+82200013 80B765EC
+82200014 80B765F0
+82200015 80B765F4
+E0000000 80008000
+285FC88A 00000002
+84200012 80A7F02C
+84200013 80A7F034
+84200014 80A7F038
+84200015 80A7F03C
+E0000000 80008000
+
+Piper Teleporter (Day) [Anarion]
+285FC88A 00000001
+82200012 80B765E4
+82200013 80B765EC
+82200014 80B765F0
+82200015 80B765F4
+E0000000 80008000
+285FC88A 00000002
+84200012 80A9E964
+84200013 80A9E96C
+84200014 80A97070
+84200015 80A97074
+E0000000 80008000
+
+Piper Teleporter (Night) [Anarion]
+285FC88A 00000001
+82200012 80B765E4
+82200013 80B765EC
+82200014 80B765F0
+82200015 80B765F4
+E0000000 80008000
+285FC88A 00000002
+84200012 80B6AAA4
+84200013 80B6AAAC
+84200014 80B6AAB0
+84200015 80B6AAB4
+E0000000 80008000
+
+Pipit Teleporter (Night) [Anarion]
+285FC88A 00000001
+82200012 80B765E4
+82200013 80B765EC
+82200014 80B765F0
+82200015 80B765F4
+E0000000 80008000
+285FC88A 00000002
+84200012 80AAAEF4
+84200013 80AAAEFC
+84200014 80AAAF00
+84200015 80AAAF04
+E0000000 80008000
+
+Rupin Teleporter (Bazaar) [Anarion]
+285FC88A 00000001
+82200012 80B765E4
+82200013 80B765EC
+82200014 80B765F0
+82200015 80B765F4
+E0000000 80008000
+285FC88A 00000002
+84200012 80B0DF30
+84200013 80B0DF38
+84200014 80B0DF3C
+84200015 80B0DF40
+E0000000 80008000
+
+Zelda Teleporter (Day) [Anarion]
+285FC88A 00000001
+82200012 80B765E4
+82200013 80B765EC
+82200014 80B765F0
+82200015 80B765F4
+E0000000 80008000
+285FC88A 00000002
+84200012 80AA3784
+84200013 80AA378C
+84200014 80AA3790
+84200015 80AA3794
+E0000000 80008000
+*only works for Zelda on loftwing retrieval sidequest.
+For Teleporter codes above: press Dpad LEFT to save Link position. Hold Dpad RIGHT to return character to Link's last saved position.
+
+Item Check: Item Slot Modifiers
+
+IC:Pg.1- Item Slot 1 [Anarion]
+04955C44 XXXXYYYY
+
+IC:Pg.1- Item Slot 2 [Anarion]
+04955C48 XXXXYYYY
+
+IC:Pg.1- Item Slot 3 [Anarion]
+04955C4C XXXXYYYY
+
+IC:Pg.1- Item Slot 4 [Anarion]
+04955C50 XXXXYYYY
+
+IC:Pg.1- Item Slot 5 [Anarion]
+04955C54 XXXXYYYY
+
+IC:Pg.1- Item Slot 6 [Anarion]
+04955C58 XXXXYYYY
+
+IC:Pg.1- Item Slot 7 [Anarion]
+04955C5C XXXXYYYY
+
+IC:Pg.1- Item Slot 8 [Anarion]
+04955C60 XXXXYYYY
+
+IC:Pg.1- Item Slot 9 [Anarion]
+04955C64 XXXXYYYY
+
+IC:Pg.1- Item Slot 10 [Anarion]
+04955C68 XXXXYYYY
+
+IC:Pg.1- Item Slot 11 [Anarion]
+04955C6C XXXXYYYY
+
+IC:Pg.1- Item Slot 12 [Anarion]
+04955C70 XXXXYYYY
+
+IC:Pg.2- Item Slot 1 [Anarion]
+04955C74 XXXXYYYY
+
+IC:Pg.2- Item Slot 2 [Anarion]
+04955C78 XXXXYYYY
+
+IC:Pg.2- Item Slot 3 [Anarion]
+04955C7C XXXXYYYY
+
+IC:Pg.2- Item Slot 4 [Anarion]
+04955C80 XXXXYYYY
+
+IC:Pg.2- Item Slot 5 [Anarion]
+04955C84 XXXXYYYY
+
+IC:Pg.2- Item Slot 6 [Anarion]
+04955C88 XXXXYYYY
+
+IC:Pg.2- Item Slot 7 [Anarion]
+04955C8C XXXXYYYY
+
+IC:Pg.2- Item Slot 8 [Anarion]
+04955C90 XXXXYYYY
+
+IC:Pg.2- Item Slot 9 [Anarion]
+04955C94 XXXXYYYY
+
+IC:Pg.2- Item Slot 10 [Anarion]
+04955C98 XXXXYYYY
+
+IC:Pg.2- Item Slot 11 [Anarion]
+04955C9C XXXXYYYY
+
+IC:Pg.2- Item Slot 12 [Anarion]
+04955CA0 XXXXYYYY
+
+IC:Pg.3- Item Slot 1 [Anarion]
+04955CA4 XXXXYYYY
+
+IC:Pg.3- Item Slot 2 [Anarion]
+04955CA8 XXXXYYYY
+
+IC:Pg.3- Item Slot 3 [Anarion]
+04955CAC XXXXYYYY
+
+IC:Pg.3- Item Slot 4 [Anarion]
+04955CB0 XXXXYYYY
+
+IC:Pg.3- Item Slot 5 [Anarion]
+04955CB4 XXXXYYYY
+
+IC:Pg.3- Item Slot 6 [Anarion]
+04955CB8 XXXXYYYY
+
+IC:Pg.3- Item Slot 7 [Anarion]
+04955CBC XXXXYYYY
+
+IC:Pg.3- Item Slot 8 [Anarion]
+04955CC0 XXXXYYYY
+
+IC:Pg.3- Item Slot 9 [Anarion]
+04955CC4 XXXXYYYY
+
+IC:Pg.3- Item Slot 10 [Anarion]
+04955CC8 XXXXYYYY
+
+IC:Pg.3- Item Slot 11 [Anarion]
+04955CCC XXXXYYYY
+
+IC:Pg.3- Item Slot 12 [Anarion]
+04955CD0 XXXXYYYY
+
+IC:Pg.4- Item Slot 1 [Anarion]
+04955CD4 XXXXYYYY
+
+IC:Pg.4- Item Slot 2 [Anarion]
+04955CD8 XXXXYYYY
+
+IC:Pg.4- Item Slot 3 [Anarion]
+04955CDC XXXXYYYY
+
+IC:Pg.4- Item Slot 4 [Anarion]
+04955CE0 XXXXYYYY
+
+IC:Pg.4- Item Slot 5 [Anarion]
+04955CE4 XXXXYYYY
+
+IC:Pg.4- Item Slot 6 [Anarion]
+04955CE8 XXXXYYYY
+
+IC:Pg.4- Item Slot 7 [Anarion]
+04955CEC XXXXYYYY
+
+IC:Pg.4- Item Slot 8 [Anarion]
+04955CF0 XXXXYYYY
+
+IC:Pg.4- Item Slot 9 [Anarion]
+04955CF4 XXXXYYYY
+
+IC:Pg.4- Item Slot 10 [Anarion]
+04955CF8 XXXXYYYY
+
+IC:Pg.4- Item Slot 11 [Anarion]
+04955CFC XXXXYYYY
+
+IC:Pg.4- Item Slot 12 [Anarion]
+04955D00 XXXXYYYY
+
+IC:Pg.5- Item Slot 1 [Anarion]
+04955D04 XXXXYYYY
+
+IC:Pg.5- Item Slot 2 [Anarion]
+04955D08 XXXXYYYY
+
+IC:Pg.5- Item Slot 3 [Anarion]
+04955D0C XXXXYYYY
+
+IC:Pg.5- Item Slot 4 [Anarion]
+04955D10 XXXXYYYY
+
+IC:Pg.5- Item Slot 5 [Anarion]
+04955D14 XXXXYYYY
+
+IC:Pg.5- Item Slot 6 [Anarion]
+04955D18 XXXXYYYY
+
+IC:Pg.5- Item Slot 7 [Anarion]
+04955D1C XXXXYYYY
+
+IC:Pg.5- Item Slot 8 [Anarion]
+04955D20 XXXXYYYY
+
+IC:Pg.5- Item Slot 9 [Anarion]
+04955D24 XXXXYYYY
+
+IC:Pg.5- Item Slot 10 [Anarion]
+04955D28 XXXXYYYY
+
+IC:Pg.5- Item Slot 11 [Anarion]
+04955D2C XXXXYYYY
+
+IC:Pg.5- Item Slot 12 [Anarion]
+04955D30 XXXXYYYY
+
+X&Y Placeholders:
+Use as explained by hetoan2 on his "Item Slot Modifier" codes.
+
+Item Slot Modifiers
+
+Volume Modifier [Glitch]
+044FA664 XXXXXXXX
+the default: 3F800000
+
+Infinite Slingshot Nuts [Glitch]
+00955EC4 0000000A
+
+Infinite Arrows [Glitch]
+00955EC7 00000014
+
+Infinite Shield Health [Glitch]
+02955C28 0000000F
+E0000000 80008000
+Only tried for Wooden shield on Slot-2
+
+Infinite Charge (Flying) [Glitch]
+02AFEAFE 00000003
+02AF1E8A 00000003
+E0000000 80008000
+
+Infinite Sprint [Glitch]
+02B7A9C4 0000000F
+
+Infinite Rupees [Glitch]
+02955EC2 0000270F
+
+All Heart Containers [Glitch]
+0095A767 00000050
+
+Infinite Health [Glitch]
+0295A76A 00000050
+E0000000 80008000
+
+Have Fully Charged Hylian Shield in Slot 1 [hetoan2]
+04955C24 0030007D
+
+Slot 1 Modifier [hetoan2]
+04955C24 XXXXYYYY
+
+Slot 2 Modifier [hetoan2]
+04955C28 XXXXYYYY
+
+Slot 3 Modifier [hetoan2]
+04955C2C XXXXYYYY
+
+Slot 4 Modifier [hetoan2]
+04955C30 XXXXYYYY
+
+Slot 5 Modifier [hetoan2]
+04955C34 XXXXYYYY
+Will not work without corresponding pouch unlock.
+
+Slot 6 Modifier [hetoan2]
+04955C38 XXXXYYYY
+Will not work without corresponding pouch unlock.
+
+Slot 7 Modifier [hetoan2]
+04955C3C XXXXYYYY
+Will not work without corresponding pouch unlock.
+
+Slot 8 Modifier [hetoan2]
+04955C40 XXXXYYYY
+Will not work without corresponding pouch unlock.
+
+X's are secondary values like shield health, fullness (bottles), etc.
+Some Y values:
+0099 - Empty Bottle
+0068 - Cursed Medal (Higher rupee turnout, can't open bag)
+007D - Hylian Shield
+007C - Goddess Shield
+- many shields in between -
+0074 - Wooden Shield
+00C3 - Hot Pumpkin Soup (X values must be set over 0000 in order for it not to turn into Cold Soup!)
+00C4 - Cold Pumpkin Soup
+0065 - Stamina Potion Plus
+0057 - Air Potion Plus
+004F - Heart Potion Plus
+007F - Revitalizing Potion Plus
+0042 - Guardian Potion Plus
+*note subtract 1 from a Plus potion to get regular version.
+0058 - Fairy
+004A - Sacred Water
+0036 - Bottled Water
+0080 - Small Seed Satchel
+0083 - Small Quiver
+0086 - Small Bomb Bag
+add 1 or 2 to increase size from small to medium or large.
+
+Universal Codes for The Legend of Zelda: Skyward Sword
+
+Master Button Activator [Bully@Wiiplaza]
+F6000001 80008100
+B0A305F4 B00305F6
+F4000014 02EF3F02
+81230000 3D808000
+912C150C 00000000
+E0000000 80008000
+
+Button Activator [Bully@Wiiplaza]
+2800150E YYYYZZZZ
+*Requires the "Master Button Activator" code*
+
+Free Fly [Bully@Wiiplaza]
+F6000001 80008100
+C03F00C4 2C05007B
+F4000008 0296670F
+C05F00C0 C15F00C4
+C17F00C8 3D808000
+A14C150E 3D604250
+916C1600 C18C1600
+2C0A0002 40820008
+EC42602A 2C0A0001
+40820008 EC426028
+2C0A2002 40820008
+ED6B602A 2C0A2001
+40820008 ED6B6028
+2C0A2008 40820008
+ED4A6028 2C0A0008
+40820008 ED4A602A
+D05F00C0 D15F00C4
+D17F00C8 00000000
+E0000000 80008000
+*Don´t use with "Link Teleporter"*
+*Requires the "Master Button Activator" code*
+*Best used with "Total Position Lock" to have perfect control over Link*
+*Video: http://www.youtube.com/watch?v=jnoriTWJo4A
+*Press D-PAD_UP to move up*
+*Press D-PAD_LEFT to move left*
+*Press D-PAD_RIGHT to move right*
+*Press Z + D-PAD_LEFT to move forth*
+*Press Z + D-PAD_RIGHT to move back*
+*Press Z + D-PAD_UP to move down*
+
+Total Position Lock [Bully@Wiiplaza]
+F6000001 80008100
+C03D00C8 C01D0158
+2800150E FEFF0100
+1400003C 60000000
+14000044 60000000
+14000048 60000000
+CC000000 00000000
+1400003C D09D00C0
+14000044 D05D00C4
+14000048 D01D00C8
+E0000000 80008000
+*Requires the "Master Button Activator" code*
+*Press 2 to toggle Total Position Lock ON/OFF*
+
+Link Teleporter [Bully@Wiiplaza]
+F6000001 80008100
+C03F00C4 2C05007B
+D2000008 0000000D
+9421FFB0 BDC10008
+3DC08000 61CE150E
+A1CE0000 3DE08000
+2C0E0001 4082001C
+821F00C0 823F00C4
+825F00C8 920F1500
+922F1504 924F1508
+2C0E0002 4082001C
+826F1500 828F1504
+82AF1508 927F00C0
+929F00C4 92BF00C8
+81C10008 38210050
+C05F00C0 00000000
+E0000000 80008000
+*Don´t use with "Free Fly"*
+*Requires the "Master Button Activator" code*
+*Press D-PAD Left to Store Position*
+*Press D-PAD Right to Teleport*
+
+No Screen Minimize While Z-Targeting [Bully@Wiiplaza]
+F6000001 80008100
+EC02002A D01E028C
+14000004 60000000
+E0000000 80008000
+
+Dowsing Purple Border On [Bully@Wiiplaza]
+F6000001 80008100
+38050001 900300D4
+14000018 38800005
+14000028 60000000
+E0000000 80008000
+*Credits to Anarion*
+
+No Dowsing Purple Border [Bully@Wiiplaza]
+F6000001 80008100
+88040040 7C050040
+14000010 60000000
+E0000000 80008000
+*Credits to Anarion*
+
+Sleeping Guardians [Bully@Wiiplaza]
+F6000001 80008100
+80040340 540006F7
+1400000C 38000000
+14000698 38000000
+E0000000 80008000
+*Credits to Anarion*
+
+Sleeping Guardians ON/OFF Version [Bully@Wiiplaza]
+F6000001 80008100
+B0A305F4 B00305F6
+D2000014 00000002
+81230000 3D808000
+912C150C 00000000
+F6000001 80008100
+80040340 540006F7
+2800150E YYYYZZZZ
+1400000C 38000000
+14000698 38000000
+CC000000 00000000
+1400000C 800302D0
+14000698 801E02D0
+E0000000 80008000
+*Requires the "Master Button Activator" code*
+*Press your button(s) to toggle ON/OFF*
+*Credits to Anarion*
+
+No Notification The First Time You Collect A Bug Or Treasure [Bully@Wiiplaza]
+F6000001 80008100
+819E08B8 387E08B8
+14003A2C 60000000
+E0000000 80008000
+*Credits to brkirch*
+
+Disable Fi's Low Battery Warning [Bully@Wiiplaza]
+F6000001 80008100
+3BE01901 2C030000
+1400001C 48000070
+E0000000 80008000
+*Credits to brkirch*
+
+Disable Fi's Low Health Warning [Bully@Wiiplaza]
+F6000001 80008100
+5460043E 2800000C
+14000008 4800003C
+E0000000 80008000
+*Credits to brkirch*
+
+Disable Low Health Alarm [Bully@Wiiplaza]
+F6000001 80008100
+A80300BA B0034426
+140020B4 48000028
+E0000000 80008000
+*Credits to brkirch*
+
+Disable Fi's Low Shield Gauge Warning [Bully@Wiiplaza]
+F6000001 80008100
+3C640001 C04333FC
+14000014 4800003C
+E0000000 80008000
+*Credits to brkirch*
+
+Perform Skyward Strikes At Full Health [Bully@Wiiplaza]
+F6000001 80008100
+80180364 540003DF
+D2000030 00000008
+3D808096 A86CA766
+A98CA76A 7C0C1840
+4180001C 2C070023
+4182001C 3D80A000
+618C0080 7C076000
+4182000C 80780348
+48000008 3C600030
+60000000 00000000
+E0000000 80008000
+*Credits to wiiztec*
+
+Guardians Can´t Attack [Bully@Wiiplaza]
+F6000001 80008100
+7FA4032E 3BBD0001
+14000020 60000000
+E0000000 80008000
+*Credits to wiiztec*
+
+Jesus Mode [Bully@Wiiplaza]
+F6000001 80008100
+C05D00B0 C03D00A8
+D2000004 00000008
+9421FFB0 BDC10008
+3E008000 7C1C8040
+40800020 C1DDDB5C
+FC0E0840 40810014
+C1F03200 EDEE03F2
+FC007890 FC407890
+C03D00A8 B9C10008
+38210050 00000000
+60000000 00000000
+E0000000 80008000
+*Credits to ukuneko*
+
+Invincibility [Bully@Wiiplaza]
+02B7A8FC 0000001E
+F6000001 80008100
+B01F43D0 A01F43D0
+1400000C 41820024
+1403A520 4800000C
+E0000000 80008000
+*Credits to ukuneko*
+
+Inf. Stamina [Bully@Wiiplaza]
+F6000001 80008100
+7C1C0050 901B4498
+14000004 60000000
+E0000000 80008000
+*Credits to Glitch*
+
+Climb Any Wall [Bully@Wiiplaza]
+F6000001 80008100
+38650008 1C000014
+D2000010 00000002
+5403C73F 40820008
+38600001 00000000
+E0000000 80008000
+*Credits to Y.S.*
+*Picture: http://dl.dropbox.com/u/28040539/SOUJ01-009.png
+
+Instant Arrow Draws [Bully@Wiiplaza]
+F6000001 80008100
+3803FFFF B01F4C0A
+14000000 38000000
+E0000000 80008000
+*Credits to ukuneko*
+
+No Bomb Explosion [Bully@Wiiplaza]
+F6000001 80008100
+801F0A3C A87F0A44
+1400000C 38030000
+E0000000 80008000
+*Credits to ukuneko*
+
+Inf. Bombs/Arrows/Slingshots [Bully@Wiiplaza]
+F6000001 80008100
+7C600630 7C830038
+D2000008 00000005
+2C1F01F2 41820014
+2C1F01F3 4182000C
+2C1F01ED 40820008
+38600001 80010024
+60000000 00000000
+E0000000 80008000
+*Credits to ukuneko*
+
+Skyward Strike Charges Instantly [Bully@Wiiplaza]
+F6000001 80008100
+887E4387 889E1218
+14000000 38600037
+E0000000 80008000
+*Credits to wiiztec*
+
+No Time Limit on Beetle Flight [Bully@Wiiplaza]
+F6000001 80008100
+3803FFFF B01B08CA
+14000000 38000320
+E0000000 80008000
+*Credits to hetoan2*
+
+Inf. Max Health [Bully@Wiiplaza]
+F6000001 80008100
+7F23CB78 388001B6
+14000058 2C000000
+1400006C 60000000
+E0000000 80008000
+*Credits to Thomas83Lin*
+
+Walk Under Water [Bully@Wiiplaza]
+F6000001 80008100
+389E0088 38BC0018
+14000014 40820014
+14006E70 40820030
+E0000000 80008000
+*Credits to ukuneko*
+
+Walk on Lava [Bully@Wiiplaza]
+F6000001 80008100
+801E036C 2C00005A
+1400002C 38000000
+E0000000 80008000
+*Credits to Thomas83Lin*
+
+One Hit Kill [Bully@Wiiplaza]
+F6000001 80008100
+8B7E0039 A07F0342
+1400001C 7C601B78
+E0000000 80008000
+*Credits to ukuneko*
+
+Bamboo Minigame Points Multiplier (press left during the minigame once) [goemon_guy]
+2800150E 00000001
+F6000002 80708080
+38040001 900500C4
+2C030000 4D820020
+F4000000 04BCC201
+3804XXXX 00000000
+E0000000 80008000
+XXXX is how many points each slice is worth
+*requires the regionfree button activator master code*
+
+Bypass and Correct Wrong Region Save Protection [Thomas83Lin]
+F6000001 80008100
+88650003 88040003
+D2000004 00000002
+88040003 98050003
+7C030378 00000000
+E0000000 80008000
+*Correction is Permanent*
+*Useful with apps like Fstoolbox or similar*
+
+Super Clawshoot [Thomas83Lin]
+F6000002 80008100
+44FA0000 42C80000
+43160000 42700000
+16000000 00000010
+47870000 45336000
+45336000 43FA0000
+E0000000 80008000
+F6000001 80008100
+81830004 818C008C
+14000018 38600001
+E0000000 80008000
+*Partial Credit to James0x57*
+
+Tunic Modifier [Thomas83Lin]
+F6000001 80008100
+38000001 981E120B
+5A010000 FFFFFFF0
+14000000 60000000
+14000004 3800000x
+E0000000 80008000
+*X=00=Green Tunic\01=Skyloft Tunic*
+*Non Permanent*
+
+Game Breaking Bug Glitch Fixv.2 [Thomas83Lin]
+C0000000 00000005
+3D808095 896C5D52
+2C0B003F 40810014
+556BE006 556B273E
+396B0011 996C5D52
+4E800020 00000000
+*Only Activate if experiencing the hero of song glitch*
+*Dolphin is not compatible with this code*
+
+No Zombie-blin Curse Effect [Anarion]
+F6000001 80008100
+A00343CA B08343F0
+14000004 60000000
+E0000000 80008000
+
+No Black Bars [Anarion]
+F6000001 80008100
+C3E30020 C03E0290
+D2000004 00000003
+3D800000 618C0000
+919E0290 C03E0290
+60000000 00000000
+E0000000 80008000
+
+Have Shield With Curse Medal [Anarion]
+F6000001 80008100
+9BE353B1 83E1000C
+14000000 60000000
+E0000000 80008000
+
+E0000000 80008000
+
+E0000000 80008000

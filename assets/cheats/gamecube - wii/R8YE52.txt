@@ -1,0 +1,10 @@
+R8YE52
+Cabela's Big Game Hunter 2010
+
+No Reload [Thomas83Lin]
+0427FC28 38040000
+
+Unlock All Missions [Thomas83Lin]
+C2021678 00000002
+3C800000 6084FFFF
+90830000 00000000

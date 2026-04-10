@@ -1,0 +1,12 @@
+FBBE
+Mach Rider
+
+Unlimited Shot/Ammo [Sharkbyte]
+003BAA3F 00000050
+
+Infinite Energy [Sharkbyte]
+023BAA3D 00000214
+Energy appears to go down but refills every 4 meter blocks.
+
+Unlimited Lives [Sharkbyte]
+003BAA43 00000005

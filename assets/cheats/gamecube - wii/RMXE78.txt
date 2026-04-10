@@ -1,0 +1,121 @@
+RMXE78
+MXvsATV Untamed
+
+Infinite Score/Score Multiplier [Seth@WiiPlaza]
+00145347 00000001
+*drive around in circles to gather most score
+*Demo Pic - http://goo.gl/oZBPS
+*Demo video - http://youtu.be/0tIEeKr17bw
+*working online/non-host
+
+Never Crash/Fall Off Bike (God Mode) [Seth@WiiPlaza]
+0413D98C 380000E2
+0413E128 380000E2
+0413E14C 380000E2
+*working online non-host
+*Demo video - http://youtu.be/0tIEeKr17bw
+
+Bail From Bike [Seth@WiiPlaza]
+2054ED38 00001000
+041407C0 38A00000
+CC000000 00000000
+041407C0 2C000000
+E0000000 80008000
+*press - to bail from bike, after you fall off press - again so you dont keep on falling off
+*Demo video - http://youtu.be/0tIEeKr17bw
+
+Players Ride Above Bike [Seth@WiiPlaza]
+0415F400 38A00001
+*Demo video - http://youtu.be/0tIEeKr17bw
+* demo pic -http://img195.imageshack.us/img195/8176/57d6515b7a9c4c2e8354a23.png
+
+Invisible Bike [Seth@WiiPlaza]
+04148044 38000000
+*Demo video - http://youtu.be/0tIEeKr17bw
+
+No Friction [Seth@WiiPlaza]
+2054ED38 00000010
+04167250 38000001
+E0000000 80008000
+*press + to disable friction
+
+Ragdoll Thrower [Seth@WiiPlaza]
+2054ED38 00000C00
+0483A614 42C4ACA1
+0483A634 42C4ACA2
+0483A654 42C4ACA3
+0483A674 42C4ACA4
+0483A694 42C4ACA5
+0483A6B4 42C4ACA6
+E0000000 80008000
+2054ED38 00000400
+0483A614 3F800000
+0483A634 3F800000
+0483A654 3F800000
+0483A674 3F800000
+0483A694 3F800000
+0483A6B4 3F800000
+E0000000 80008000
+*press A and B to throw ragdolls
+* press B to reset
+
+All Players Bikes Are Sideways [Seth@WiiPlaza]
+04620DA8 40000000
+*all players
+
+All Players "Geddan" Mode [Seth@WiiPlaza]
+04620EE8 42000000
+
+All Players Body Wobbles [Seth@WiiPlaza]
+04620EE8 40000000
+
+Body Is Attached To Bike Upon Crash [Seth@WiiPlaza]
+04164B7C 3800000A
+
+Button Activator [Seth@WiiPlaza]
+2054ED38 0000XXXX
+
+Spawn All Players Above Map [Seth@WiiPlaza]
+043C6570 88100200
+043C6574 88100200
+043C6578 88100200
+043C657C 88100200
+043C658C 88100200
+
+Ossleepthread Hook
+
+Max Speed Modifier [Thomas83Lin]
+C215DC90 00000006
+C01F00B4 3D80817F
+618CFFFC D00C0000
+A18C0000 2C0C3F80
+40820010 3D804500
+618C0000 919F00B4
+60000000 00000000
+*Change 4500 to increase Power Speed 3F8=1.0*
+
+Freeze CPU [Thomas83Lin]
+C213C814 00000002
+3D800000 618C0000
+918400B4 00000000
+
+Cpu Always on First Lap [Thomas83Lin]
+C20D2024 00000003
+3D800000 39800ABC
+919D0000 809D002C
+60000000 00000000
+C21914EC 00000003
+81990000 2C0C0ABC
+40820008 D0190020
+60000000 00000000
+
+Low Lap Times [Thomas83Lin]
+C219172C 00000002
+3D800000 618C0001
+919900AC 00000000
+C219170C 00000002
+3D800FA0 618C0001
+919900A8 00000000
+
+Out of Bounds Inf Time [Thomas83Lin]
+041915E4 60000000

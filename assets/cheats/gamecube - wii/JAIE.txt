@@ -1,0 +1,35 @@
+JAIE
+Super Castlevania 4
+
+Max Lives [GMO]
+008B0424 0000009A
+
+Invincible [GMO]
+008B0464 0000004E
+
+Special Item Modifier [GMO]
+008B0436 000000??
+01 Dagger
+02 Axe
+03 Holy Water
+04 Boomerang
+05 Watch
+
+Press ZL to Add +500 secs & 99 Hearts [GMO]
+2818E61A FF7F0080
+008B179A 00000005
+E0000000 80008000
+
+Unlimited Health [GMO]
+008B179C 00000010
+
+Press ZR for 1 Hit Kill Bosses [GMO]
+2818E61A 00000004
+008B179E 00000000
+E0000000 80008000
+
+Infinite Lives [farjo08]
+008B0424 0000009A
+
+Infinite Health [farjo08]
+008B179C 00000010

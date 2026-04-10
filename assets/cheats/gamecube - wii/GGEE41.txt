@@ -1,0 +1,23 @@
+GGEE41
+Beyond Good and Evil 
+
+Infinite Health: Jade
+04873228 42A00000
+
+Infinite Health: Piggie
+04873208 42A00000
+
+Max/Infinite Credits
+04873238 05F5E0FF
+
+Have Max/Infinite Starkos
+00873A13 00000063
+
+Have Max/Infinite Super Attack
+00873A17 00000063
+
+Have Digital Zoom
+00874034 000000FF
+
+Have All MDisks
+048747EC FFFFFFFF

@@ -1,0 +1,39 @@
+JCCP
+Kirby Super Star
+
+Unlimited Health [Crapulecorp]
+0087363C 00000046
+0087363F 00000046
+*Code ported from ZiT Ntsc Jap Version*
+
+Lives MAX [Crapulecorp]
+0087363A 00000063
+
+Speed Up [Crapulecorp]
+00873788 00000005
+0087378A 00000005
+*Code ported from ZiT Ntsc Jap Version*
+
+Moonjump
+
+Moon Jump [Crapulecorp]
+28569AE6 FFBF0040
+02872EAA 00009CFD
+E0000000 80008000
+*Classic Controller*
+*Code ported from ZiT Ntsc Jap Version*
+
+Moon Jump [Crapulecorp]
+28568898 FDFF0200
+02872EAA 00009CFD
+E0000000 80008000
+*GameCube Controller*
+*Code ported from ZiT Ntsc Jap Version*
+
+Button Activator
+
+Classic Controller [Crapulecorp]
+28569AE6 YYYYZZZZ
+
+GameCube Controller [Crapulecorp]
+28568898 YYYYZZZZ

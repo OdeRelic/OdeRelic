@@ -1,0 +1,12 @@
+MBFP
+Shinobi III - Return of the Ninja Master
+
+Unlimited Lives [GMO]
+00FBA6E0 00000009
+
+Unlimited Ammo [GMO]
+00FBA6E3 00000063
+00FBA6E6 00000009
+
+Unlimited Life [GMO]
+02FBA6E8 00001414

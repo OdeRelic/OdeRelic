@@ -1,0 +1,22 @@
+MCSP
+Wonder Boy III: Monster Lair
+
+Unlimited Lives [Crapulecorp]
+00EDEF06 00000009
+
+Unlimited Health [Crapulecorp]
+00EDB73D 0000000D
+00EDB745 00000001
+*Code ported from ZiT Ntsc Jap Version*
+
+Invincible [Crapulecorp]
+00EDE708 00000023
+00EDE799 00000023
+*Code ported from ZiT Ntsc Jap Version*
+
+Arms MAX [Crapulecorp]
+00EDB860 00000006
+00EDB85F 000000FF
+00EDB890 00000006
+00EDB88F 000000FF
+*Code ported from ZiT Ntsc Jap Version*

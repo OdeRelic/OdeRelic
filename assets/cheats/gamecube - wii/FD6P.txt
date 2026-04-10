@@ -1,0 +1,8 @@
+FD6P
+Adventure of Lolo 2
+
+Unlimited Lives [Crapulecorp]
+003609BC 00000009
+
+Unlimited Beam [Crapulecorp]
+003609BF 00000063

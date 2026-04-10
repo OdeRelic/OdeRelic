@@ -1,0 +1,38 @@
+R5TE69
+EA Sports Grand Slam Tennis
+
+Any profile all stars, abilities, clothing and gear [joecamel]
+42000000 92000000
+00A5A017 0000000A
+08A5A18C FFFFFFFF
+200D0004 00000000
+E0000000 80008000
+After loading profile, go back to main menu and reload profile.
+
+Reset cpu score to zero - press 1 [joecamel]
+28279DC0 FDFF0200
+48000000 8028D1F8
+DE000000 90009340
+14000094 00000000
+E0000000 80008000
+
+Give player match point - press 2 [joecamel]
+28279DC0 FEFF0100
+48000000 8028D1F8
+DE000000 90009340
+14000090 00000003
+140000A0 00000005
+E0000000 80008000
+This is for one set per match, if you want more sets use custom code below
+
+Custom give player match point - press 2 [joecamel]
+28279DC0 FEFF0100
+48000000 8028D1F8
+DE000000 90009340
+14000090 00000003
+140000A0 00000005
+140000F0 0000000X
+E0000000 80008000
+If sets per match = 1, X should = 0
+If sets per match = 3, X should = 1
+If sets per match = 5, X should = 2

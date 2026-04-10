@@ -1,0 +1,73 @@
+JDCE
+Street Fighter Alpha 2
+
+Button Activators
+
+WiiMote Pad1 [GMO]
+28174942 YYYYZZZZ
+
+Classic Pad1 [GMO]
+281749A2 YYYYZZZZ
+
+Miscellaneous Codes
+
+Add Time Press Z-Right [GMO]
+281749A2 FFFB0004
+0044A12D 00000099
+E0000000 80008000
+
+Disable Timer [GMO]
+0044A12E 00000020
+
+Unlimited Continue Time [GMO]
+0044A274 00000009
+
+P1 Unlimited Health [GMO]
+00448CEE 00000090
+00448CF0 00000090
+
+P1 Max Special [GMO]
+00448D6E 00000090
+
+CPU 1-Hit Kill (P2 Life Mod) [GMO]
+00448F6E 00000000
+
+P1 Play as Shin Akuma (ZL+Up) [GMO]
+2815FDE2 00000081
+0044A1D7 00000014
+E0000000 80008000
+
+P1 Play as Classic Chun Li (ZL+Down) [GMO]
+2815FDE2 00004080
+0044A1D7 00000012
+E0000000 80008000
+
+Character Shadow Trails Enabled [GMO]
+0044869F 00000003
+Original code by Hacc, Ported by Lee4
+
+P1 Character Modifier [GMO]
+0044A1D7 000000??
+
+Character Values
+
+00 Ryu
+01 Adon
+02 Chun Li
+03 Guy
+04 Ken
+05 Dhalsim
+06 Gen
+07 Sakura
+08 Rolento
+09 Zangief
+0A Charlie
+0B Birdie
+0C Rose
+0D Katana
+0E Sagat
+0F Akuma
+10 M.Bison
+11 Dan
+12 Classic Chun Li
+14 Shin Akuma

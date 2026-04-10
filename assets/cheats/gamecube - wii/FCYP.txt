@@ -1,0 +1,30 @@
+FCYP
+Yoshi’s Cookie
+
+Round Modifier [Crapulecorp]
+00390D0B 000000XX
+
+Stage Modifier [Crapulecorp]
+00390D0C 000000XX
+
+Time Modifier P1 (In VS Mode) [Crapulecorp]
+00390E40 000000XX
+*27 - Lots of Time*
+*00 - Automatic Loss*
+*Code ported from Rune's FCE Ultra Debug Code*
+
+Time Modifier P2 (In VS Mode) [Crapulecorp]
+00390E41 000000XX
+*27 - Lots of Time*
+*00 - Automatic Loss*
+*Code ported from Rune's FCE Ultra Debug Code*
+
+P1 Always Wins Matches (In VS Mode) [Crapulecorp]
+00390EB0 00000003
+*Ignore not having 3 Yoshi's. You will automatically win all matches*
+*Code ported from Rune's FCE Ultra Debug Code*
+
+P2 Always Wins Matches (In VS Mode) [Crapulecorp]
+00390EB3 00000003
+*Ignore not having 3 Yoshi's. You will automatically win all matches*
+*Code ported from Rune's FCE Ultra Debug Code*

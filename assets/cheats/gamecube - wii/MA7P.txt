@@ -1,0 +1,14 @@
+MA7P
+Shining Darkness
+
+Max Gold [Crapulecorp]
+02EB7806 0000FFFF
+*GMO's Code for the Ntsc version is working for the Pal too*
+
+Shop Items Cost 1G [Crapulecorp]
+02EB9D66 00000001
+*GMO's Code for the Ntsc version is working for the Pal too*
+
+Shop Items are FREE [Crapulecorp]
+02EB9D66 00000000
+*GMO's Code for the Ntsc version is working for the Pal too*

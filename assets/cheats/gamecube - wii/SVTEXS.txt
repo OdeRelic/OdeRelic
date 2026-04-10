@@ -1,0 +1,158 @@
+SVTEXS
+Bit.Trip Complete
+
+Button Activator [BoxNinja]
+288F3602 0000XXXX
+
+Bit.Trip Core
+
+Max Score [BoxNinja]
+04A17C8C XXXXXXXX
+*Change X to score
+
+Error Gauge Never Fills [BoxNinja]
+04A1F1CC 00000000
+*I dont know what to call this, but its the
+*gauge in the bottom right hand corner that fills when you miss stuff
+
+Bomb Gauge Always Full [BoxNinja]
+04A1F190 00000064
+
+Bit.Trip Beat
+
+Max Score [BoxNinja]
+04A27B40 XXXXXXXX
+*Change X to score
+
+Mega Gauge Always Full [BoxNinja]
+04A25D90 00000064
+
+Mutli Gauge Always Full [BoxNinja]
+04A25B78 0000001E
+
+Consecutive Bonus [BoxNinja]
+04A27B48 000003E7
+*This is the +XX when you hit the squares consecutively
+
+Nether Gauge Always Empty [BoxNinja]
+04A25E0C 00000000
+
+Hyper Gauge Always Empty [BoxNinja]
+04A25BF4 00000000
+
+Bit.Trip Runner
+
+Menu Background Cycler [BoxNinja]
+A8000008 00000010
+80000000 80A283E4
+86010000 00000001
+24A283E4 00000005
+04A283E4 00000000
+E2000001 00000000
+
+Max Score [BoxNinja]
+04A5EF10 XXXXXXXX
+*Replace X with score
+*Collect 1 coin for it to change
+
+Collect All Coins v1 [BoxNinja]
+288F3602 00000100
+82200001 80A5EF14
+84200001 80A5EF18
+E0000000 80008000
+*Hit 2 after the count down
+*Collect 1 coin for it to activate
+
+Collect All Coins v2 [BoxNinja]
+C0000000 00000004
+3D6080A5 616BEF14
+3D8080A5 618CEF18
+814B0000 914C0000
+4E800020 4E800020
+*Collect 1 coin for it to activate
+
+Moon Jump v1 [BoxNinja]
+208F3600 00000100
+04A78220 35C4251A
+E0000000 80008000
+*Hold 2 to fly
+
+Moon Jump v2 [BoxNinja]
+C0000000 00000009
+9421FFB0 BDC10008
+3D80808F 618C3600
+818C0000 280C0100
+41820008 4800001C
+3DE080A7 61EF8220
+3DC035C4 61CE251A
+91CF0000 48000004
+B9C10008 38210050
+4E800020 00000000
+*Hold 2 to fly
+
+Auto Initials [BoxNinja]
+04A409C8 XXYYZZ00
+*XX = 1st initial
+*YY = 2nd initial
+*ZZ = 3rd initial
+
+Always Max Power-Up [BoxNinja]
+042330B0 60000000
+04812320 00000005
+*Don't use with any of the other Power-Up codes
+
+Disable Power-Ups [BoxNinja]
+042330B0 60000000
+*Don't use with any of the other Power-Up codes
+
+Power-Up Cycler [BoxNinja]
+042330B0 60000000
+288F3602 00000010
+A8000008 00000010
+80000000 80812320
+86010000 00000001
+24812320 00000005
+04812320 00000001
+E0000000 80008000
+*Hold (+) to cycle
+*Don't use with any of the other Power-Up codes
+
+Bit.Trip Fate
+
+Max Score [BoxNinja]
+0495CDC8 XXXXXXXX
+*Change X to score
+
+Bit.Trip Flux
+
+Max Score [BoxNinja]
+04AA8408 XXXXXXXX
+*Change X to score
+
+Consecutive Bonus [BoxNinja]
+04AA840C 000003E6
+*This is the +XX when you hit the squares consecutively
+
+Bit.Trip Void
+
+Max Score [BoxNinja]
+04A0C190 XXXXXXXX
+*Change X to score
+
+Consecutive Bonus [BoxNinja]
+04A0C198 000003E6
+*This is the +XX when you hit the squares consecutively
+
+Size Mod [BoxNinja]
+04A14B88 000000XX
+*change XX To size in hex
+
+Size Toggle [BoxNinja]
+208F3600 00000008
+04A14B88 00000030
+CC000000 00000001
+04A14B88 00000000
+E0000000 80008000
+*toggles between small and HUGE
+*hit up on wiimote to toggle
+*Collect one black for it to activate

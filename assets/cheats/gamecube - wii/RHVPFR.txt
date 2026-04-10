@@ -1,0 +1,11 @@
+RHVPFR
+Crazy Chicken Tales
+
+If Coin Increase, MAX [ZiT]
+04514204 3800270F
+
+If Lives Increase, MAX [ZiT]
+045141F8 3800270F
+
+Infinite Lives [ZiT]
+04514218 7C007A14

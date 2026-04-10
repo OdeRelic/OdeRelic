@@ -1,0 +1,17 @@
+RB6J18
+Bomberman
+
+This Cord does not work in "Wi-Fi".
+
+This Cord Story mode Only.
+
+If CRYSTAL Increase, MAX [ZiT]
+C21E3014 00000002
+3E00000F 3810423F
+90030210 00000000
+
+Infinite CRYSTAL [ZiT]
+04130728 60000000
+
+Infinite LIFE [ZiT]
+0418CF14 60000000

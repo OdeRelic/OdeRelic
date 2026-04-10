@@ -1,0 +1,15 @@
+RZPE01
+Link's Crossbow Training
+
+Ultimate Score Multiplier [Corey64]
+04364B38 0001869F
+
+Full on Automatic Crossbow &gt;created by *Nuke* posted by [funkamatic]
+4A000000 80000000
+043648D8 00027512
+
+99999 Score &gt;created by *James0x57* posted by [funkamatic]
+043648C7 0001869F
+
+Open all Levels &gt;created by *James0x57* posted by [funkamatic]
+0435B02C 00000009

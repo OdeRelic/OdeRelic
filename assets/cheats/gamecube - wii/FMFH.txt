@@ -1,0 +1,8 @@
+FMFH
+Bionic Commando
+
+Unlimited Lives [Crapulecorp]
+00470D0A 00000003
+
+Unlimited Health [Crapulecorp]
+00471439 00000005

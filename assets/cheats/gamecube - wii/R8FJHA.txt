@@ -1,0 +1,17 @@
+R8FJHA
+Takumi Restaurant ha Daihanjou!
+
+Time Stop [ZiT]
+0405491C D0030008
+
+Help Time Stop [ZiT]
+0409F230 60000000
+
+OK 999 [ZiT]
+04055680 380003E7
+
+Good 999 [ZiT]
+04055700 380003E7
+
+Great 999 [ZiT]
+04055734 380003E7

@@ -1,0 +1,25 @@
+SMAPGN
+MARINES Modern Urban Combat
+
+Inf/MAX Ammo - No Reload [C|T]
+C21FA9CC 00000002
+380003E7 90040440
+60000000 00000000
+Infinite Ammo if you shoot
+
+Inf/MAX Magazine Ammo [C|T]
+C2093584 00000002
+380003E7 9005093C
+60000000 00000000
+(Infinite MAX Magazine Ammo if you Reload)
+NOTE: use this Code & Grenades will not go up to 1000000
+
+Inf Health [C|T]
+140AA758 60000000
+(Infinite Health Player and Team)
+
+Inf Health against Bullets -Player 1 only [C|T]
+C2077B10 00000002
+38000064 9007091C
+8007091C 00000000
+(Player 1 unlimited Health against Bullets)

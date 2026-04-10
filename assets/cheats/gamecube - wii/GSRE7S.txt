@@ -1,0 +1,21 @@
+GSRE7S
+Smuggler's Run Warzones
+
+All Vehicles [Codejunkies]
+043CDDA8 0000FFFF
+
+All Countermeasures [Codejunkies]
+043CDDA0 0000FFFF
+043CDDAC 0000FFFF
+
+Show Frames Per Second [Codejunkies]
+000DE5F3 00000001
+
+Hyper Mode [Codejunkies]
+042856D8 40400000
+
+Super Slow Mode [Codejunkies]
+042856D8 3E800000
+
+PS2 Screen Mode [Codejunkies]
+0429D028 3FE00000

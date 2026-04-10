@@ -1,0 +1,14 @@
+SM5PAF
+Power Rangers Samurai
+
+Unlimited Health [Crapulecorp]
+C21D3468 00000002
+ABE30012 B3E30010
+A8630012 00000000
+*Code ported from Thomas83Lin Ntsc Usa Version*
+
+Unlimited Power [Crapulecorp]
+C21D3684 00000002
+ABE30016 B3E30014
+A8630016 00000000
+*Code ported from Thomas83Lin Ntsc Usa Version*

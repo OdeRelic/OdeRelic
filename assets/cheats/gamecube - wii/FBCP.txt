@@ -1,0 +1,71 @@
+FBCP
+Excitebike
+
+Time Stop [Crapulecorp]
+043B1308 00000000
+*Code ported from ZiT Ntsc Jap Version*
+
+No Fall [Crapulecorp]
+003B1338 00000000
+*Code ported from ZiT Ntsc Jap Version*
+
+No Overheat [Crapulecorp]
+003B1656 00000000
+*Code ported from ZiT Ntsc Jap Version*
+
+Speed Up
+
+Speed Up (Press B) [Crapulecorp]
+281E1B52 FBFF0400
+003B1334 00000007
+E0000000 80008000
+*WiiMote*
+*Code ported from ZiT Ntsc Jap Version*
+
+Speed Up (Press A) [Crapulecorp]
+281E1BB2 FFEF0010
+003B1334 00000007
+E0000000 80008000
+*Classic Controller*
+*Code ported from ZiT Ntsc Jap Version*
+
+Speed Up (Press X) [Crapulecorp]
+2815891E FFBF0040
+003B1334 00000007
+E0000000 80008000
+*GameCube Controller*
+*Code ported from ZiT Ntsc Jap Version*
+
+MoonJump
+
+Moon Jump (Press A When The Motorcycle is Jumping) [Crapulecorp]
+281E1B52 F7FF0800
+003B1624 00000001
+E0000000 80008000
+*WiiMote*
+*Code ported from ZiT Ntsc Jap Version*
+
+Moon Jump (Press R When The Motorcycle is Jumping) [Crapulecorp]
+281E1BB2 FDFF0200
+003B1624 00000001
+E0000000 80008000
+*Classic Controller*
+*Code ported from ZiT Ntsc Jap Version*
+
+Moon Jump (Press B When The Motorcycle is Jumping) [Crapulecorp]
+2815891E FFDF0020
+003B1624 00000001
+E0000000 80008000
+*GameCube Controller*
+*Code ported from ZiT Ntsc Jap Version*
+
+Button Activator
+
+WiiMote [Crapulecorp]
+281E1B52 YYYYZZZZ
+
+Classic Controller [Crapulecorp]
+281E1BB2 YYYYZZZZ
+
+GameCube Controller [Crapulecorp]
+2815891E YYYYZZZZ

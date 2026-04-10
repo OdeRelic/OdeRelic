@@ -1,0 +1,14 @@
+SGCE20
+Glacier 2
+
+Inf Weapon 1 (Guns) [Skiller]
+040CF314 38030000
+
+Inf Weapon 2 (Bombs) [Skiller]
+040CF618 38030000
+
+Inf Weapon 3 (Missiles) [Skiller]
+040CF4BC 38030000
+
+Timer Does not Move [Skiller]
+0415F5C4 D3700060

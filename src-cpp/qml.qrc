@@ -3,6 +3,7 @@
     <file>main.qml</file>
     <file>HomeScreen.qml</file>
     <file>OplManager.qml</file>
+    <file>SwissManager.qml</file>
     <file alias="app_icon.png">../assets/applogo/icon_512x512.png</file>
     <file alias="assets/consoles/ps2.png">../assets/consoles/ps2.png</file>
     <file alias="assets/consoles/gamecube.png">../assets/consoles/gamecube.png</file>

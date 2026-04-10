@@ -1,0 +1,16 @@
+FEMN
+Bio Miracle Bokutte Upa
+
+Unlimited Lives [GMO]
+00376392 00000063
+
+Unlimited Life [GMO]
+003763EA 00000004
+
+Invincible [GMO]
+0037641A 0000000A
+
+Press B to Add More Time [GMO]
+2813DBD6 00000400
+003763B8 00000099
+E0000000 80008000

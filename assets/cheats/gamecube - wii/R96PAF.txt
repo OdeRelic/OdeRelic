@@ -1,0 +1,22 @@
+R96PAF
+Klonoa
+
+Infinite Health [Romaap]
+041152B4 60000000
+
+Green Gems are worth X gems [Romaap]
+C2112974 00000002
+1CA500XX 7C832A14
+60000000 00000000
+
+Need 10 gems for 1 life [Romaap]
+04112980 2804000A
+04112990 3804FFF6
+
+Need 50 gems for 1 life [Romaap]
+04112980 28040032
+04112990 3804FFCE
+
+Need 250 gems for 1 life [Romaap]
+04112980 280400FA
+04112990 3804FF06

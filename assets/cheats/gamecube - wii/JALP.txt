@@ -1,0 +1,43 @@
+JALP
+Super Probotector Alien Rebels
+
+Unlimited Lives Player 1 [Crapulecorp]
+00441D72 00000063
+
+Unlimited Bombs Super Bombs Player 1 [Crapulecorp]
+00441D74 00000063
+
+Invincible Player 1 [Crapulecorp]
+0044000C 00000035
+*Code ported from ZiT Ntsc Jap Version*
+
+Infinite Shield Player 1 [Crapulecorp]
+00441D71 00000001
+*Code ported from Thomas83Lin Ntsc Usa Version*
+
+Weapon Modifier Player 1 [Crapulecorp]
+00441D6C 0000000X
+*Replace X for :
+0=Machine Gun
+1=Spread
+2=Rocket
+3=Seeker Rockets
+4=Fire
+5=Laser*
+*Code ported from Thomas83Lin Ntsc Usa Version*
+
+Weapon Modifier Player 2 [Crapulecorp]
+00441DAC 0000000X
+*Replace X for :
+0=Machine Gun
+1=Spread
+2=Rocket
+3=Seeker Rockets
+4=Fire
+5=Laser*
+*Code ported from Thomas83Lin Ntsc Usa Version*
+
+Invincibility (Player 1 & 2) [Crapulecorp]
+0043FFFE 00000003
+0044003E 00000003
+*Code ported from Thomas83Lin Ntsc Usa Version*

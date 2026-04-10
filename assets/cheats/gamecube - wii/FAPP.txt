@@ -1,0 +1,16 @@
+FAPP
+Nes Open Tournament Golf
+
+Hole in One [Crapulecorp]
+003F019F 00000001
+
+Shot Count [Crapulecorp]
+003F019F 000000XX
+*Par 3 01=Hole in One 02=Birdie 03=Par 04=Bogey 05=Double Bogey
+Par 4 01=Hole in One 02=Eagle 03=Birdie 04=Par 05=Bogey 06=Double Bogey
+Par 5 01=Hole in One 02=Albatross 03=Eagle 04=Birdie 05=Par 06=Bogey 07= Double Bogey*
+*Code ported from Sharkbyte Ntsc Usa Version*
+
+Have All Golf Club [Crapulecorp]
+003F0704 00000001
+*Code ported from ZiT Ntsc Jap Version*

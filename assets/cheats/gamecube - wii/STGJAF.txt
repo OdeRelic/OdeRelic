@@ -1,0 +1,53 @@
+STGJAF
+Tales of Graces
+
+Play Time Modifier [Bully@Wiiplaza]
+04171E10 3800XXXX
+04171EA8 3860YYYY
+*XXXX & YYYY = Milliseconds converted to HEX*
+*First code line is for the first play time stat, second for the second play time stat*
+
+Battles Fought Modifier [Bully@Wiiplaza]
+C2193FA4 00000002
+3980XXXX 91837E4C
+80637E4C 00000000
+*XXXX = HEX*
+
+Max. Combo Modifier [Bully@Wiiplaza]
+C2194118 00000002
+3980XXXX B1837E6C
+A8637E6C 00000000
+*XXXX = HEX*
+
+Infinite Money [Bully@Wiiplaza]
+C2171D30 00000002
+3D807FFF 91834E08
+80634E08 00000000
+
+Infinite Battle HP [Bully@Wiiplaza]
+C0000000 00000006
+3D809151 39400000
+39200000 6129A970
+2C0A000X 41820018
+816C894C 916C8948
+7D8C4A14 394A0001
+4BFFFFE8 4E800020
+*X = Amount of friendly players to affect*
+
+Sig. Modifier [Bully@Wiiplaza]
+C21FE1FC 00000002
+3980XXXX 91850024
+80A50024 00000000
+*XXXX = HEX*
+
+EXP Modifier [Bully@Wiiplaza]
+C21FE290 00000002
+3980XXXX 91850020
+80A50020 00000000
+*XXXX = HEX*
+
+Level Modifier [Bully@Wiiplaza]
+C21FDE98 00000002
+38A0XXXX B0A40028
+60000000 00000000
+*XXXX = HEX*

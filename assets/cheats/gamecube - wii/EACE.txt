@@ -1,0 +1,18 @@
+EACE
+Magician Lord
+
+Level3 Pow [g6flavor]
+2825245A 0000007F
+00252C34 00000002
+E0000000 80008000
+
+Death Bringer (Big Creature) Doesn't Appear [g6flavor]
+2825245A 0000007F
+00252C3C 00000001
+E0000000 80008000
+
+Unlimited Lives [GMO]
+00252E30 00000009
+
+Invincible [GMO]
+00252E39 00000035

@@ -1,0 +1,9 @@
+FFPP
+Ufouria the Saga
+
+Unlimited Life [Crapulecorp]
+003CFFE5 00000099
+
+Invincible [Crapulecorp]
+003D001C 00000060
+*Code ported from GMO FFPB Version*

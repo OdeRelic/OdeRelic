@@ -1,0 +1,60 @@
+MAMP
+Sword of Vermilion
+
+Max Kim(Money) [Crapulecorp]
+02DA0B82 00009990
+
+Current HP [Crapulecorp]
+02DA0B8C 0000270F
+*Code ported from GMO Ntsc Usa Version*
+
+Max HP [Crapulecorp]
+02DA0B8E 0000270F
+*Code ported from GMO Ntsc Usa Version*
+
+Inf Max HP [Crapulecorp]
+04DA0B8C 270F270F
+*Code ported from GMO Ntsc Usa Version*
+
+Current MHP [Crapulecorp]
+02DA0B90 0000270F
+*Code ported from GMO Ntsc Usa Version*
+
+Max MHP [Crapulecorp]
+02DA0B92 0000270F
+*Code ported from GMO Ntsc Usa Version*
+
+Inf Max MHP [Crapulecorp]
+04DA0B90 270F270F
+*Code ported from GMO Ntsc Usa Version*
+
+Max STR [Crapulecorp]
+02DA0B94 000003E7
+*Code ported from GMO Ntsc Usa Version*
+
+Max AC [Crapulecorp]
+02DA0B96 000003E7
+*Code ported from GMO Ntsc Usa Version*
+
+Max INT [Crapulecorp]
+02DA0B98 000003E7
+*Code ported from GMO Ntsc Usa Version*
+
+Max DEX [Crapulecorp]
+02DA0B9A 000003E7
+*Code ported from GMO Ntsc Usa Version*
+
+Max LUK [Crapulecorp]
+02DA0B9C 000003E7
+*Code ported from GMO Ntsc Usa Version*
+
+Max Stats [Crapulecorp]
+04DA0B94 03E703E7
+04DA0B98 03E703E7
+02DA0B9C 000003E7
+*Code ported from GMO Ntsc Usa Version*
+
+Max Stats [Crapulecorp]
+08DA0B94 000003E7
+00040002 00000000
+*Code ported from GMO Ntsc Usa Version*

@@ -1,0 +1,23 @@
+RBUE08
+Resident Evil The Umbrella Chronicles
+
+Unlimited Ammo/Grenades/F.Aid Spray [GMO]
+C21BCFFC 00000002
+3800270F B0035064
+60000000 00000000
+
+No Reload (Sub-Machine Gun Only) [GMO]
+02E4C5B6 0000270F
+Wont allow you to reload any other weapons
+
+9999 Stars [GMO]
+024C77C6 0000270F
+
+Infinite Machine Gun Bullets [schooluser]
+0456F343 000000FF
+
+Unlimited Stars [schooluser]
+044C77C7 0000FFFF
+
+Infinite Grenades [schooluser]
+0456F338 00000009

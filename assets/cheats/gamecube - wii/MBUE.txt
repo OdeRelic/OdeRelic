@@ -1,0 +1,8 @@
+MBUE
+Sonic 3D Blast
+
+Max Rings/Health [GMO]
+011E4ED7 00000099
+
+Max Lives [GMO]
+011E4B01 00000009

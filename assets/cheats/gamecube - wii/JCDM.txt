@@ -1,0 +1,98 @@
+JCDM
+Kirby's Dream Land 3
+
+Unlimited Lives [Crapulecorp]
+0087080F 00000064
+
+Unlimited Health [Crapulecorp]
+00870811 0000000A
+00870813 00000008
+*Code ported from ZiT Ntsc Jap Version*
+
+Always Have Invincibility [Crapulecorp]
+008722F2 00000001
+*Makes it so you kill most enemies on contact, break blocks on contact, and take no damage*
+*Code ported from Ugetab Snes Action Replay Pro Version*
+
+MoonJump [Crapulecorp]
+2856463A FFBF0040
+0286EBE2 000000FD
+E0000000 80008000
+*Classic Controller*
+*Code ported from ZiT Ntsc Jap Version*
+
+MoonJump [Crapulecorp]
+285745D4 FDFF0200
+0286EBE2 000000FD
+E0000000 80008000
+*GameCube Controller*
+*Code ported from ZiT Ntsc Jap Version*
+
+Ability Modifier [Crapulecorp]
+008722E9 0000000X
+*Replace X to
+1 - Fire
+2 - Rock
+3 - Ice
+4 - Spike
+5 - Broom
+6 - Parasol
+7 - Thunder
+8 - Cutter*
+*Code ported from goemon_guy Ntsc Usa Version*
+
+Ability Selector (Press L or R) [Crapulecorp]
+4E00000C 00000000
+2856463A FDFF0200
+CC000000 00000001
+14000000 00000003
+82000000 808722E9
+86000000 00000001
+84000000 808722E9
+288722E9 FFF0000F
+008722E9 00000000
+E0000000 80008000
+4E00000C 00000000
+2856463A DFFF2000
+CC000000 00000001
+14000000 00000003
+82000000 808722E9
+86000000 000000FF
+84000000 808722E9
+E0000000 80008000
+288722E9 FF0000FF
+008722E9 0000000E
+E0000000 80008000
+*Classic Controller*
+
+Ability Selector (Press L or R) [Crapulecorp]
+4E00000C 00000000
+285745D4 FFBF0040
+CC000000 00000001
+14000000 00000003
+82000000 808722E9
+86000000 00000001
+84000000 808722E9
+288722E9 FFF0000F
+008722E9 00000000
+E0000000 80008000
+4E00000C 00000000
+285745D4 FFDF0020
+CC000000 00000001
+14000000 00000003
+82000000 808722E9
+86000000 000000FF
+84000000 808722E9
+E0000000 80008000
+288722E9 FF0000FF
+008722E9 0000000E
+E0000000 80008000
+*GameCube Controller*
+
+Button Activator
+
+Classic Controller [Crapulecorp]
+2856463A YYYYZZZZ
+
+GameCube Controller [Crapulecorp]
+285745D4 YYYYZZZZ

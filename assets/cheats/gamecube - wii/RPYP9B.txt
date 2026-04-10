@@ -1,0 +1,33 @@
+RPYP9B
+Pangya! Golf with Style
+
+If Decrease Unlimited & Max Pang Points In Store [Crapulecorp]
+C209FC90 00000003
+3D8005F6 38ACE0FF
+90BD0044 80BD0044
+60000000 00000000
+*Ported From ZiT's Ntsc Jap Version*
+
+Hole In One (Single Play) [Crapulecorp]
+C21BDCE4 00000004
+81840004 2C0C0000
+4182000C 38030002
+48000008 38000001
+98040028 00000000
+*Ported From ZiT's Ntsc Jap Version*
+
+CPU Shot Count Is 96 (Press UP ON/OFF) [Crapulecorp]
+286C200A FFF70008
+041BDCE0 38030060
+CC000000 00000000
+041BDCE0 38030001
+E0000000 80008000
+*Swith ON when You Are Playing*
+*Switch OFF When the CPU Is Playing*
+*WiiMote*
+
+Button Activator
+
+Player 1 [Crapulecorp]
+286C200A YYYYZZZZ
+*WiiMote*

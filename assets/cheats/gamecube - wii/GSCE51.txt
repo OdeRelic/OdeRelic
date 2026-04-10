@@ -1,0 +1,50 @@
+GSCE51
+Jeremy McGrath Supercross World 
+
+Unlock 125 Cool Hawk Motorbike
+001B25C0 00000001
+
+Unlock 400 Wolfhound Motorbike
+001B25BF 00000001
+
+Unlock 250 GK Raven Motorbike
+001B25BE 00000001
+
+Unlock 250 Rand H Motorbike
+001B25BD 00000001
+
+Unlock Stephens Estate
+001B2597 00000001
+
+Unlock Barkley Bluff
+001B2598 00000001
+
+Unlock Devil Downs
+001B25A3 00000001
+
+Unlock Snorkel Dome
+001B25A2 00000001
+
+Unlock Sportsground Arena
+001B25A1 00000001
+
+Unlock Monument Stadium
+001B25A0 00000001
+
+Unlock Sunset Run
+001B25A4 00000001
+
+Unlock Byers Mountain
+001B25A9 00000001
+
+Unlock Doghead
+001B25AA 00000001
+
+Unlock Steelrock Canyon
+001B25AB 00000001
+
+Unlock Hunter Hill
+001B25AF 00000001
+
+Unlock Kilbourn Yard
+001B25AE 00000001

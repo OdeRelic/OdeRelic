@@ -1,0 +1,23 @@
+S3IXA4
+Pro Evolution Soccer 2013
+
+Button Activator [Bully@Wiiplaza]
+2834B9E2 YYYYZZZZ
+
+Infinite Heart Points [Bully@Wiiplaza]
+F26465AC 027FAE02
+3D807FFF 91834378
+80634378 00000000
+*Video: http://www.youtube.com/watch?v=-GR2gyu8dn8
+
+Home Team: Goals Modifier [Bully@Wiiplaza]
+F2AC2848 02B09202
+38A0XXXX B0A70008
+60000000 00000000
+*XXXX = HEX*
+
+Away Team: Goals Modifier [Bully@Wiiplaza]
+F2AC2850 02B09E02
+38A0XXXX B0A702FC
+60000000 00000000
+*XXXX = HEX*

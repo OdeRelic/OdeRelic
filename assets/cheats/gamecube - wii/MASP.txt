@@ -1,0 +1,19 @@
+MASP
+Vectorman
+
+Infinite Life [Crapulecorp]
+04F02D58 000B000A
+*Code ported from ZiT Ntsc Usa Version*
+
+Infinite Lives [Crapulecorp]
+00F02D5D 00000064
+
+Invincible [Crapulecorp]
+00F0294C 00000023
+*Code ported from ZiT Ntsc Usa Version*
+
+Time Stop [Crapulecorp]
+00F02D72 00000001
+*Code ported from ZiT Ntsc Usa Version*
+
+Invincible

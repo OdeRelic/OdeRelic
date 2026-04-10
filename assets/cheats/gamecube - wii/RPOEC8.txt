@@ -1,0 +1,768 @@
+RPOEC8
+Opoona
+
+Infinite HP Opoona [Aesteval]
+042CA234 000000FF
+042CA238 000000FF
+
+Infinite FP Opoona [Aesteval]
+042CA23C 000000FF
+042CA240 000000FF
+
+Infinite Savings [Aesteval]
+042D0670 0000FFFF
+
+Infinite Wallet [Aesteval]
+042D0668 0000FFFF
+
+Infinite Shop Points [Aesteval]
+042D0678 0000FFFF
+
+Delete All Items Except for OMP [Aesteval]
+002D0682 00FD0000
+
+One of All Items Including Dummy Items [Aesteval]
+002D0681 00FE0001
+
+Infinite Healing Party Items [Aesteval]
+002D0682 00130032
+002D0698 00010032
+002D06BB 00000032
+
+Infinite Offense Party Items [Aesteval]
+002D0696 00010032
+002D069B 00010032
+002D069F 00040032
+002D06AC 00010032
+002D06AF 00000032
+002D06B2 00010032
+002D06B6 00000032
+002D06B8 00000032
+
+Infinite Special Party Items [Aesteval]
+002D069A 00000032
+002D069D 00010032
+002D06A4 00020032
+002D06AA 00010032
+002D06AE 00000032
+002D06B0 00010032
+002D06B4 00010032
+002D06B7 00000032
+002D06B9 00000032
+002D06BA 00000032
+002D070D 00000032
+
+Infinite Bonbon Parts Party Items [Aesteval]
+002D06BC 00240032
+002D06E2 00080032
+002D06EC 00040032
+
+Infinite Character Pocket Items
+
+Infinite Item Opoona Pockets [Aesteval]
+022D15B0 0000XXXX
+022D15B2 0000XXXX
+022D15B4 0000XXXX
+022D15B6 0000XXXX
+022D15B8 0000XXXX
+022D15BA 0000XXXX
+022D15BC 0000XXXX
+022D15BE 0000XXXX
+022D15C0 0000XXXX
+022D15C2 0000XXXX
+022D15C4 0000XXXX
+022D15C6 0000XXXX
+022D15C8 0000XXXX
+022D15CA 0000XXXX
+022D15CC 0000XXXX
+022D15CE 0000XXXX
+022D15D0 0000XXXX
+022D15D2 0000XXXX
+
+Pocket Digits (consumable items only - use in place of XXXX)
+0203 Mineral Water
+0403 Canteen
+0503 Canteen 4oz
+0603 Canteen 2oz
+0703 Vegetable Juice
+0803 Tea
+0903 Teapot
+0A03 Teapot 4oz
+0B03 Teapot 2oz
+0E03 Calory Cube
+0F03 Battle Drink
+1003 Battle Drink 4oz
+1103 Battle Drink 2oz
+1303 Popcorn
+1403 Popcorn Pieces
+1503 Popcorn Kernal
+1604 Popcorn Shower
+1704 Golem Block
+1B04 Rainbow Bomb
+1C04 Noisy Horn
+1F04 Needle Gum
+2004 Bomb Gum
+2104 Fireworks
+2204 Snowworks
+2304 Windworks
+2C04 Paintball
+2D04 Haunted Mist
+2F04 Dust Hole
+3204 Crazy Doll
+3304 Micro Patrol
+3604 Maze Box
+3804 Thirsty Razor
+1A05 Angel Dice
+1D05 Healing Tea
+1E05 Spice Gum
+2A05 Adrenaline Burst
+2B05 Multi Vaccine
+3005 Air Wash
+3105 Eye Drops
+3505 Force Carpet
+3705 Balloon Gum
+A506 Doll Rock
+D406 Dancing Cactus
+D606 Flame Flower
+
+Infinite/Max Healing (Potion Icon) Party Items
+
+Mineral Water [Aesteval]
+002D0682 00000063
+
+Cereal [Aesteval]
+002D0683 00000063
+
+Canteen [Aesteval]
+002D0684 00000063
+
+Canteen 4oz [Aesteval]
+002D0685 00000063
+
+Canteen 2oz [Aesteval]
+002D0686 00000063
+
+Vegetable Juice [Aesteval]
+002D0687 00000063
+
+Tea [Aesteval]
+002D0688 00000063
+
+Teapot [Aesteval]
+002D0689 00000063
+
+Teapot 4oz [Aesteval]
+002D068A 00000063
+
+Teapot 2oz [Aesteval]
+002D068B 00000063
+
+Minestrone [Aesteval]
+002D068C 00000063
+
+BLT [Aesteval]
+002D068D 00000063
+
+Calory Cube [Aesteval]
+002D068E 00000063
+
+Battle Drink [Aesteval]
+002D068F 00000063
+
+Battle Drink 4oz [Aesteval]
+002D0690 00000063
+
+Battle Drink 2oz [Aesteval]
+002D0691 00000063
+
+Eel Rice [Aesteval]
+002D0692 00000063
+
+Popcorn [Aesteval]
+002D0693 00000063
+
+Popcorn Pieces [Aesteval]
+002D0694 00000063
+
+Popcorn Kernal [Aesteval]
+002D0695 00000063
+
+Fortune Pie [Aesteval]
+002D0698 00000063
+
+Roulette Pizza [Aesteval]
+002D0699 00000063
+
+Sushi [Aesteval]
+002D06BB 00000063
+
+Infinite/Max Offensive (Burst Icon) Party Items
+
+Popcorn Shower [Aesteval]
+002D0696 00000063
+
+Golem Block [Aesteval]
+002D0697 00000063
+
+Rainbow Bomb [Aesteval]
+002D069B 00000063
+
+Noisy Horn [Aesteval]
+002D069C 00000063
+
+Needle Gum [Aesteval]
+002D069F 00000063
+
+Bomb Gum [Aesteval]
+002D06A0 00000063
+
+Fireworks [Aesteval]
+002D06A1 00000063
+
+Snowworks [Aesteval]
+002D06A2 00000063
+
+Windworks [Aesteval]
+002D06A3 00000063
+
+Paintball [Aesteval]
+002D06AC 00000063
+
+Haunted Mist [Aesteval]
+002D06AD 00000063
+
+Dust Hole [Aesteval]
+002D06AF 00000063
+
+Crazy Doll [Aesteval]
+002D06B2 00000063
+
+Micro Patrol [Aesteval]
+002D06B3 00000063
+
+Maze Box [Aesteval]
+002D06B6 00000063
+
+Thirsty Razor [Aesteval]
+002D06B8 00000063
+
+Infinite/Max Key (Star Icon) Party Items
+
+OMP [Aesteval]
+002D0681 00000063
+
+Pet Gauge [Aesteval]
+002D06A7 00000063
+
+Bonbite X [Aesteval]
+002D06F3 00000063
+
+Bonbite [Aesteval]
+002D06F4 00000063
+
+Airtank [Aesteval]
+002D06F5 00000063
+
+Custom Rod [Aesteval]
+002D06F6 00000063
+
+Fishing Rod [Aesteval]
+002D06F7 00000063
+
+Hover Board [Aesteval]
+002D06F8 00000063
+
+Hover Jet [Aesteval]
+002D06F9 00000063
+
+Vacuum Hose [Aesteval]
+002D06FA 00000063
+
+Rock Drill [Aesteval]
+002D06FB 00000063
+
+Electric Bulb [Aesteval]
+002D070C 00000063
+
+Red Firefly Herb [Aesteval]
+002D0710 00000063
+
+Blue Firefly Herb [Aesteval]
+002D0711 00000063
+
+Shouprieme [Aesteval]
+002D0712 00000063
+
+Electron Cuffs [Aesteval]
+002D0714 00000063
+
+Storage Key [Aesteval]
+002D0715 00000063
+
+Rogue Egg [Aesteval]
+002D0716 00000063
+
+Breakfast Ticket [Aesteval]
+002D0717 00000063
+
+Com-Panel [Aesteval]
+002D0718 00000063
+
+Sand Weasel [Aesteval]
+002D0719 00000063
+
+Flight Log [Aesteval]
+002D071A 00000063
+
+Gold Strap [Aesteval]
+002D071B 00000063
+
+Mac's Tool Kit [Aesteval]
+002D071C 00000063
+
+Museum Pass [Aesteval]
+002D071D 00000063
+
+Transformation Capsule [Aesteval]
+002D071E 00000063
+
+Elevator Key A [Aesteval]
+002D071F 00000063
+
+Elevator Key B [Aesteval]
+002D0720 00000063
+
+Spirit Poem [Aesteval]
+002D0721 00000063
+
+Spirit Paper [Aesteval]
+002D0722 00000063
+
+Letter of Introduction [Aesteval]
+002D0723 00000063
+
+Ukulele [Aesteval]
+002D0724 00000063
+
+Worldrock Fragment [Aesteval]
+002D0726 00000063
+
+Dolphin Rock [Aesteval]
+002D0727 00000063
+
+Mock Rock [Aesteval]
+002D0728 00000063
+
+Suntan Nuts [Aesteval]
+002D072B 00000063
+
+Suntan Nuts Half [Aesteval]
+002D072C 00000063
+
+Mysterious Package [Aesteval]
+002D072D 00000063
+
+Letter of Gratitude [Aesteval]
+002D072E 00000063
+
+Rosas Gift [Aesteval]
+002D072F 00000063
+
+Brookes Evidence [Aesteval]
+002D0731 00000063
+
+Selenas Evidence [Aesteval]
+002D0732 00000063
+
+Barnes Evidence [Aesteval]
+002D0733 00000063
+
+Meditation Tower Key [Aesteval]
+002D0744 00000063
+
+Mineral [Aesteval]
+002D0748 00000063
+
+Prism Gem [Aesteval]
+002D0749 00000063
+
+Diamond [Aesteval]
+002D074A 00000063
+
+Roid Radar [Aesteval]
+002D0758 00000063
+
+Wallpaper 1 Blue [Aesteval]
+002D0760 00000063
+
+Fish [Aesteval]
+002D0766 00000063
+
+Piranhan [Aesteval]
+002D0767 00000063
+
+Swimming Head [Aesteval]
+002D0768 00000063
+
+Blue Bill [Aesteval]
+002D0769 00000063
+
+Sea Matia [Aesteval]
+002D076A 00000063
+
+Stone Fish [Aesteval]
+002D076B 00000063
+
+Lantern [Aesteval]
+002D076C 00000063
+
+Legend [Aesteval]
+002D076D 00000063
+
+Wallpaper 2 Grape [Aesteval]
+002D076E 00000063
+
+Wallpaper 3 Muscat [Aesteval]
+002D076F 00000063
+
+Wallpaper 4 Lavendar [Aesteval]
+002D0770 00000063
+
+Wallpaper 5 Orange [Aesteval]
+002D0771 00000063
+
+Wallpaper 6 Light Blue [Aesteval]
+002D0772 00000063
+
+Wallpaper 7 Wine [Aesteval]
+002D0773 00000063
+
+Wallpaper 8 Gray [Aesteval]
+002D0774 00000063
+
+Wallpaper 9 Mint [Aesteval]
+002D0775 00000063
+
+Wallpaper 10 Black [Aesteval]
+002D0776 00000063
+
+GPS Card [Aesteval]
+002D0777 00000063
+
+Term Dictionary [Aesteval]
+002D0778 00000063
+
+Rogue Book [Aesteval]
+002D0779 00000063
+
+Catalogue d'Arts [Aesteval]
+002D077A 00000063
+
+Infinite/Max Other (Question Mark Icon) Party Items
+
+Word Box [Aesteval]
+002D06A8 00000063
+
+Masao's Sculpture [Aesteval]
+002D070E 00000063
+
+Masao's Album [Aesteval]
+002D070F 00000063
+
+Doll Rock [Aesteval]
+002D0725 00000063
+
+Written Request [Aesteval]
+002D072A 00000063
+
+Mysterious Writing [Aesteval]
+002D0730 00000063
+
+Stacker No. 1 [Aesteval]
+002D0734 00000063
+
+Stacker No. 2 [Aesteval]
+002D0735 00000063
+
+Stacker No. 3 [Aesteval]
+002D0736 00000063
+
+Stacker No. 4 [Aesteval]
+002D0737 00000063
+
+Stacker No. 5 [Aesteval]
+002D0738 00000063
+
+Sho-Gi King [Aesteval]
+002D0739 00000063
+
+Sho-Gi Dragon [Aesteval]
+002D073A 00000063
+
+Sho-Gi Unicorn [Aesteval]
+002D073B 00000063
+
+Sho-Gi Miser [Aesteval]
+002D073C 00000063
+
+Sho-Gi Samurai [Aesteval]
+002D073D 00000063
+
+Sho-Gi Wife [Aesteval]
+002D073E 00000063
+
+Sho-Gi Spy [Aesteval]
+002D073F 00000063
+
+World Snake [Aesteval]
+002D0740 00000063
+
+World Turtle [Aesteval]
+002D0741 00000063
+
+World Elephant [Aesteval]
+002D0742 00000063
+
+Baby World Elephant [Aesteval]
+002D0743 00000063
+
+Smile Seed [Aesteval]
+002D0752 00000063
+
+Flower Flower [Aesteval]
+002D0753 00000063
+
+Dancing Cactus [Aesteval]
+002D0754 00000063
+
+Rafflesia [Aesteval]
+002D0755 00000063
+
+Flame Flower [Aesteval]
+002D0756 00000063
+
+Wild Grass [Aesteval]
+002D0757 00000063
+
+Aluminum Medal [Aesteval]
+002D0761 00000063
+
+Copper Medal [Aesteval]
+002D0762 00000063
+
+Silver Medal [Aesteval]
+002D0763 00000063
+
+Gold Medal [Aesteval]
+002D0764 00000063
+
+Platinum Medal [Aesteval]
+002D0765 00000063
+
+Infinite/Max Special (Cube Icon) Party Items
+
+Angel Dice [Aesteval]
+002D069A 00000063
+
+Healing Tea [Aesteval]
+002D069D 00000063
+
+Spice Gum [Aesteval]
+002D069E 00000063
+
+Pocket Tent [Aesteval]
+002D06A4 00000063
+
+Pocket Taxi [Aesteval]
+002D06A5 00000063
+
+Echo Radar [Aesteval]
+002D06A6 00000063
+
+Adrenaline Burst [Aesteval]
+002D06AA 00000063
+
+Multi Vaccine [Aesteval]
+002D06AB 00000063
+
+Cloak Mist [Aesteval]
+002D06AE 00000063
+
+Air Wash [Aesteval]
+002D06B0 00000063
+
+Eye Drops [Aesteval]
+002D06B1 00000063
+
+Honey [Aesteval]
+002D06B4 00000063
+
+Force Carpet [Aesteval]
+002D06B5 00000063
+
+Balloon Gum [Aesteval]
+002D06B7 00000063
+
+Heart Cookie [Aesteval]
+002D06B9 00000063
+
+White Chocolate [Aesteval]
+002D06BA 00000063
+
+Dragon Horn [Aesteval]
+002D070D 00000063
+
+Infinite/Max Bonbon Parts Party Items
+
+Power Plus [Aesteval]
+002D06BC 00000063
+
+Weight Plus [Aesteval]
+002D06BD 00000063
+
+Super Weight Plus [Aesteval]
+002D06BE 00000063
+
+MAX Weight Plus [Aesteval]
+002D06BF 00000063
+
+Solid Plus [Aesteval]
+002D06C0 00000063
+
+Super Solid [Aesteval]
+002D06C1 00000063
+
+MAx Solid [Aesteval]
+002D06C2 00000063
+
+Shine Plus [Aesteval]
+002D06C3 00000063
+
+Super Shine [Aesteval]
+002D06C4 00000063
+
+MAX Shine [Aesteval]
+002D06C5 00000063
+
+Mass Plus [Aesteval]
+002D06C6 00000063
+
+Super Mass [Aesteval]
+002D06C7 00000063
+
+MAX Mass [Aesteval]
+002D06C8 00000063
+
+Star Sapphire [Aesteval]
+002D06C9 00000063
+
+Regen Stone [Aesteval]
+002D06CA 00000063
+
+Random Hearts [Aesteval]
+002D06CB 00000063
+
+Booster Pack [Aesteval]
+002D06CC 00000063
+
+Shield Pack [Aesteval]
+002D06CD 00000063
+
+Poison Shell [Aesteval]
+002D06CE 00000063
+
+Electric Shell [Aesteval]
+002D06CF 00000063
+
+Homing Chip [Aesteval]
+002D06D0 00000063
+
+Airbag Capsule [Aesteval]
+002D06D1 00000063
+
+Point Chip [Aesteval]
+002D06D2 00000063
+
+Sonic Attack [Aesteval]
+002D06D3 00000063
+
+Nitro Shell [Aesteval]
+002D06D4 00000063
+
+Vamp Shell [Aesteval]
+002D06D5 00000063
+
+Energy Pack [Aesteval]
+002D06D6 00000063
+
+Amino Ring [Aesteval]
+002D06D7 00000063
+
+UFO Ring [Aesteval]
+002D06D8 00000063
+
+Spike Seed [Aesteval]
+002D06D9 00000063
+
+Green Seed [Aesteval]
+002D06DA 00000063
+
+Talisman Ring [Aesteval]
+002D06DB 00000063
+
+Ghost Ring [Aesteval]
+002D06DC 00000063
+
+Jet Ring [Aesteval]
+002D06DD 00000063
+
+Golem Ring [Aesteval]
+002D06DE 00000063
+
+Multi Shell [Aesteval]
+002D06DF 00000063
+
+Multi Shell X [Aesteval]
+002D06E0 00000063
+
+Sleep Stone [Aesteval]
+002D06E2 00000063
+
+Angel Chip [Aesteval]
+002D06E3 00000063
+
+Fire Coat [Aesteval]
+002D06E4 00000063
+
+Solar Coat [Aesteval]
+002D06E5 00000063
+
+Battle Monger Coat [Aesteval]
+002D06E6 00000063
+
+Ice Coat [Aesteval]
+002D06E7 00000063
+
+Frozen Coat [Aesteval]
+002D06E8 00000063
+
+Plasma Coat [Aesteval]
+002D06E9 00000063
+
+Thunder Coat [Aesteval]
+002D06EA 00000063
+
+Tentacle Coat [Aesteval]
+002D06EC 00000063
+
+Parasite Coat [Aesteval]
+002D06ED 00000063
+
+Laser Coat [Aesteval]
+002D06EE 00000063
+
+Nature Coat [Aesteval]
+002D06EF 00000063
+
+Legend Scale [Aesteval]
+002D06F0 00000063

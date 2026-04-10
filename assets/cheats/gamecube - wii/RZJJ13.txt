@@ -1,0 +1,17 @@
+RZJJ13
+Dead Space Extraction
+
+Infinite Ammo [ZiT]
+0421BF08 60000000
+
+Rapid Fire [ZiT]
+0423B8EC 9A050000
+
+inf health [xtatu]
+040DEE90 60000000
+
+speed game [xtatu]
+0460500C XXXX0000
+
+3f80 normal
+4080 2x

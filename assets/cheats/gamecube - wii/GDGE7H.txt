@@ -1,0 +1,14 @@
+GDGE7H
+Dragons Lair 3D 
+
+Stop Timer
+0411C934 60000000
+
+Infinite Steel Arrows
+04141EC0 80030008
+
+Infinite Flame Arrows
+04141DB0 8003000C
+
+Infinite Magic Arrows
+04141E48 80030010

@@ -1,0 +1,8 @@
+MAHP
+Sonic The Hedgehog
+
+Unlimited Rings [GMO]
+02DACD80 000003E7
+
+Disable Timer [GMO]
+00DACD85 00000000

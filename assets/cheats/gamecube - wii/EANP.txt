@@ -1,0 +1,11 @@
+EANP
+Fatal Fury 2
+
+Unlimited Time [GMO]
+00216052 00000099
+
+P1 Unlimited Credits [GMO]
+0022377A 00000009
+
+P1 Unlimited Health [GMO]
+00215AF5 00000060

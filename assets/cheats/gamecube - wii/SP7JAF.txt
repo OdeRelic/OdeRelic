@@ -1,0 +1,8 @@
+SP7JAF
+PacMan Party
+
+Player Super Cookie x9 [Glitch]
+04925D08 00000009
+
+Max Cookies [Glitch]
+04925D04 00018696

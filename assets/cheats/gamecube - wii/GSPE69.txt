@@ -1,0 +1,14 @@
+GSPE69
+Simpsons Road Rage 
+
+Max Score and win game
+0424D600 05F5E0FF
+
+Freeze passenger timer at 99
+0428C69C 42C60000
+
+Freeze mission timer
+0424DC64 0000DD79
+
+Open all missions
+0424D6AC 000000FF

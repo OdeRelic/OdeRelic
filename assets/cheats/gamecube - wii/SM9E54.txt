@@ -1,0 +1,77 @@
+SM9E54
+Major League BaseBall 2K12
+
+Downloadable Content (DLC EXPANSION PACKS)
+
+Tutorial here
+http://www.youtube.com/watch?v=ZokYozjqcLM
+
+Codes
+
+Always Have X Amount Of Balls (Both Teams) [Seth@WiiPlaza]
+2061686C 00000001
+48000000 8062B360
+DE000000 80008180
+14000B3B 0000000X
+E0000000 80008000
+x=0-3
+this code is very helpful, it works for you and the cpu, but the cpu never throws balls. a good code to try and get batters to swing at bad pitchs
+
+Away Team Has X Amount Of Runs [Seth@WiiPlaza]
+2061686C 00000001
+48000000 803F0E30
+DE000000 80008180
+14000320 000X0000
+E0000000 80008000
+
+Home Team Has X Amount Of Runs [Seth@WiiPlaza]
+2061686C 00000001
+48000000 800027D0
+DE000000 80008180
+140001bc 000X0000
+E0000000 80008000
+x=0-9 or A-F
+
+Always Have X Amount Of Outs (Both Teams) [Seth@WiiPlaza]
+2061686C 00000001
+48000000 803E4CB0
+DE000000 80008180
+1400030c 0000000X
+E0000000 80008000
+X= 0-3
+
+Infinite Pre-Game Inside Edge Points [Seth@WiiPlaza]
+207D50FC E0000000
+48000000 80672DA0
+DE000000 80008180
+140006EA 60000000
+E0000000 80008000
+*no button activators
+*http://img857.imageshack.us/img857/6980/e550739da7f649059b97647.png
+*to get to this screen press 2 before a match and click inside edge and you will have infinite points
+*when you buy inside edge points from players you will be able to see their hot/cold strikezones
+
+Batter Has Delayed Swing On Moon Ball [Seth@WiiPlaza]
+C22D3100 00000002
+38A00000 90A4024C
+60000000 00000000
+*tutorial video+explanation here http://youtu.be/bF1QsA5BdYY
+
+Button Activator [Seth@WiiPlaza]
+2875B4C0 0000YYYY
+
+Infinite Tokens In Skybox [Seth@WiiPlaza]
+42000000 90000000
+05058404 00008FFF
+E0000000 80008000
+*for the "Unlockables" section
+*this is what it looks like with code enabled www.goo.gl/6ogHO
+
+DOWNLOADABLE CONTENT (DLC)
+*coming soon* epic expansion pack(s)
+
+DOWNLOADABLE CONTENT (DLC)
+
+*coming soon*
+
+infinite pregame inside edge points is currently under construction

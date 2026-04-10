@@ -1,0 +1,14 @@
+RWWP78
+WWE smackdown vs raw 2008
+
+max stats [naed]
+153EC320 50505050
+113EC324 00000050
+153EC328 50505050
+113EC32C 00000050
+
+max stamina [naed]
+113EC33F 00000000
+
+inf stat points [naed]
+133EC37E 0000FFFF

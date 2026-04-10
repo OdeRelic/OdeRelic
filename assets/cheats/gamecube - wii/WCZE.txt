@@ -1,0 +1,8 @@
+WCZE
+ColorZ
+
+WiiMote Pad1 [GMO]
+2824BC5A YYYYZZZZ
+
+Unlimited Lives [GMO]
+015BF42B 00000063

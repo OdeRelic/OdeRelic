@@ -1,0 +1,68 @@
+LAEE
+Alex Kidd in Miracle World
+
+Button Activator
+
+WiiMote Pad1 [GMO]
+281C4C42 0000????
+
+Miscellaneous Codes
+
+Unlimited Lives [GMO]
+00D57565 00000099
+
+Invincible [GMO]
+00D5759B 00000004
+Teleport Powder Mod - Unlimited Once Item Is Used
+
+Invincible [GMO]
+80D57594 00000002
+80D5759A 00000021
+Code Ported from Zit's LAEJ
+
+Max Money [GMO]
+02D57570 00009999
+00D57570 00000099
+
+Max Money (Alt) [GMO]
+08D57570 00000099
+00030001 00000000
+
+Have All Items [GMO]
+02D57586 00000101
+04D57588 01010101
+02D5758C 00000101
+00D5758E 00000001
+
+Have All Items (Alt) [GMO]
+08D57586 00000001
+00090001 00000000
+
+Have Individual Items
+
+Magic Capsule A [GMO]
+00D57586 00000001
+
+Magic Capsule B [GMO]
+00D57587 00000001
+
+Telepathy Ball [GMO]
+00D57588 00000001
+
+Cane of Flight [GMO]
+00D57589 00000001
+
+Teleport Powder [GMO]
+00D5758A 00000001
+
+Moonlight Stone Medallion [GMO]
+00D5758B 00000001
+
+Letter to Kingdom of Nibana [GMO]
+00D5758C 00000001
+
+Power Bracelet [GMO]
+00D5758D 00000001
+
+Hirotta Stone [GMO]
+00D5758E 00000001

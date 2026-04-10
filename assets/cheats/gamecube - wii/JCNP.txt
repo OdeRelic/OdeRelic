@@ -1,0 +1,90 @@
+JCNP
+Prince Of Persia
+
+Infinite Time [Crapulecorp]
+00460895 00000000
+*Code proted from Parasyte SNES Action Replay Version*
+
+Have Sword From Start [Crapulecorp]
+0046089A 00000001
+*Code proted from Unknown SNES Action Replay Version*
+
+Level Modifier [Crapulecorp]
+004608AC 000000XX
+*Code proted from Unknown SNES Action Replay Version*
+
+Health Codes
+
+Refill Health (Press ZL) [Crapulecorp]
+28174D62 FF7F0080
+00460870 00000010
+E0000000 80008000
+*Code proted from Parasyte SNES Action Replay Version*
+*Classic Controller*
+
+Infinite Health (Press ZL ON/OFF) [Crapulecorp]
+28174D62 FF7F0080
+CC000000 00000000
+00460870 00000010
+E0000000 80008000
+*Code proted from Parasyte SNES Action Replay Version*
+*Classic Controller*
+
+Refill Health (Press X) [Crapulecorp]
+28171EB8 FBFF0400
+00460870 00000010
+E0000000 80008000
+*Code proted from Parasyte SNES Action Replay Version*
+*GameCube Controller*
+
+Infinite Health (Press X ON/OFF) [Crapulecorp]
+28171EB8 FBFF0400
+CC000000 00000000
+00460870 00000010
+E0000000 80008000
+*Code proted from Parasyte SNES Action Replay Version*
+*GameCube Controller*
+
+Kill Yourself Codes
+
+Kill Yourself (Hold L And Press R) [Crapulecorp]
+28174D62 DDFF2200
+00460870 00000000
+E0000000 80008000
+*Code proted from Parasyte SNES Action Replay Version*
+*Classic Controller*
+
+Kill Yourself (Press Y) [Crapulecorp]
+28171EB8 F7FF0800
+00460870 00000000
+E0000000 80008000
+*Code proted from Parasyte SNES Action Replay Version*
+*GameCube Controller*
+
+Enemies Drop Dead Immediately Codes
+
+Enemies Drop Dead Immediately [Crapulecorp]
+00460873 00000000
+*Code proted from Unknown SNES Action Replay Version*
+
+Enemies Drop Dead Immediately (Press ZR) [Crapulecorp]
+28174D62 FFFB0004
+00460873 00000000
+E0000000 80008000
+*Code proted from Unknown SNES Action Replay Version
+*Classic Controller*
+
+Enemies Drop Dead Immediately (Press R) [Crapulecorp]
+28171EB8 FFDF0020
+00460873 00000000
+E0000000 80008000
+*Code proted from Unknown SNES Action Replay Version
+*GameCube Controller*
+
+Button Activator
+
+Classic Controller [Crapulecorp]
+28174D62 YYYYZZZZ
+
+GameCube Controller [Crapulecorp]
+28171EB8 YYYYZZZZ

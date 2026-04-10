@@ -1,0 +1,57 @@
+SQDE8P
+Gunblade NY & LA Machineguns: Arcade Hits Pack
+
+Gunblade NY
+
+Life x6 [Crapulecorp]
+007285E7 00000007
+
+Life x6 (Push 1) [Crapulecorp]
+2835E832 FDFF0200
+007285E7 00000007
+E0000000 80008000
+*WiiMote-NunChuk*
+
+Time Rewind Back To 0 (Push 2) [Crapulecorp]
+2835E832 FEFF0100
+047286F0 00000000
+E0000000 80008000
+*WiiMote-NunChuk*
+
+Mode Attack Classic Time Rewind Back To 60 (Push 1 and 2) [Crapulecorp]
+2835E832 00000300
+04734394 00000E10
+E0000000 80008000
+*WiiMote-NunChuk*
+
+Mode Attack Classic Time Rewind Back To 60 (Push Down) [Crapulecorp]
+2835E832 FFFB0004
+04734394 00000E10
+E0000000 80008000
+*WiiMote-NunChuk*
+
+L.A Machinegun
+
+Life x4 [Crapulecorp]
+006EBFDF 00000004
+
+Life x4 (Push 1) [Crapulecorp]
+2835E832 FDFF0200
+006EBFDF 00000004
+E0000000 80008000
+*WiiMote-NunChuk*
+
+Time x240 [Crapulecorp]
+046EBF70 00000000
+
+Time x240 (Push 2) [Crapulecorp]
+2835E832 FEFF0100
+046EBF70 00000000
+E0000000 80008000
+*WiiMote-NunChuk*
+
+Button Activator
+
+Button Activator [Crapulecorp]
+2835E832 YYYYZZZZ
+*WiiMote-NunChuk*

@@ -1,0 +1,203 @@
+S72J01
+Kirby 20th Anniversary Special Collection
+
+Kirby 64
+
+Infinite Lives
+0125B87B　00000064
+
+Infinite Health
+0125B87F　00000006
+
+Invincible
+28276F0A　00000804
+0126C693　000000FF
+E0000000　80008000
+Press A+Down
+
+PowerUp Ability
+28276F0A　00000204
+0125B883　000000XX [Glitch]
+012B3183 000000XX
+E0000000 80008000
+Change Button Activator and you use as many times as you want!
+This Code is 1+Down
+Thanks goemon_guy for the value list
+XX values:
+00=Empty
+01=Fire
+02=Rock
+03=Ice Breath
+04=Spikes
+05=Bomb
+06=Lightning
+07=Boomerang
+08=Fire & Fire
+09=Fire & Rock
+0A=Fire & Ice Breath
+0B=Fire & Spikes
+0C=Fire & Bomb
+0D=Fire & Lightning
+0E=Fire & Boomerang
+0F=Rock & Rock
+10=Rock & Ice Breath
+11=Rock & Spikes
+12=Rock & Bomb
+13=Rock & Lightning
+14=Rock & Boomerang
+15=Ice Breath & Ice Breath
+16=Ice Breath & Spikes
+17=Ice Breath & Bomb
+18=Ice Breath & Lightning
+19=Ice Breath & Boomerang
+1A=Spikes & Spikes
+1B=Spikes & Bomb
+1C=Spikes & Lightning
+1D=Spikes & Boomerang
+1E=Bomb & Bomb
+1F=Bomb & Lightning
+20=Bomb & Boomerang
+21=Lightning & Lightning
+22=Lightning & Boomerang
+23=Boomerang & Boomerang
+24=Ribbon
+25=Ribbon and Crystal Shooter
+
+Kirby 3 (SNES)
+
+Infinite Health
+008989F1　0000000A
+
+Infinite Lives
+008989EF　00000064
+
+Invincible
+00895942　0000000C
+0089A53D　00000001
+
+Powerup Ability
+2859346A　FBFF0100
+0089A513　0000000x
+0089A50D　00000002
+E0000000　80008000
+1=Burning
+2=Stone
+3=Ice
+4=Needle
+5=Normal
+6=Parasol
+7=Electric
+8=Cutter
+Press 1 button swallow in air
+
+Kirby Super Star Deluxe(SNES)
+
+Infinite Health [Glitch]
+0489361C 60000000
+
+Infinite Lives [Glitch]
+0089361A 00000063
+
+Score [Glitch]
+02893616 00003F42
+00893618 0000000F
+
+Invincible [Glitch]
+00892075 00000008
+00892079 000000FF
+
+PowerUp [Glitch]
+00893707 00000001
+0089370F 000000xx
+01=Cutter
+02=Beam
+03=YoYo
+04=Ninja
+05=Wings
+06=Fighter
+07=Jet
+08=Sword
+09=Fire
+0A=Stone
+0B=Bomb
+0C=Laser
+0D=Wheel
+0E=Ice
+0F=Mirror
+10=Copy
+11=Suplex
+12=Hammer
+13=Parasol
+14=Microphone
+15=Sleep
+16=Paint
+17=Cook
+18=Crash
+Swallow in air
+
+Kirby 2 (Gameboy)
+
+Infinite Health [Glitch]
+00CF06CC 0000000C
+
+Infinite Lives [Glitch]
+00CF0704 00000099
+
+Max Score [Glitch]
+02CEE33A 00009999
+00CEE33C 00000099
+
+PowerUp [Glitch]
+00CF06D8 0000000X
+0=Fire, 1=Parasol, 2=Stone, 3=Cutter, 4=Needle, 5=Electric, 6=Ice
+Swallow in the Air
+
+Invincible [Glitch]
+00CF06D4 00000080
+
+Challenges
+
+Max Score [Glitch]
+096C86A4 000F423F
+20180024 00000000
+
+Infinite Time [Glitch]
+04266B10 7C802378
+
+Keep coins on enemy hit [Glitch]
+04265E78 48000014
+
+Infinite Health [Glitch]
+C226BD2C 00000002
+80030004　90030000 [Glitch]
+80030000 00000000
+
+Kirby (Gameboy)
+
+Infinite Lives [Glitch]
+00CAD4E9 0000000A
+
+Infinite Health [Glitch]
+00CAD4E6 00000006
+
+Invincible [Glitch]
+00CAD855 000000FF
+
+Max Score [Glitch]
+00CAD4EB 0000009F
+02CAD4EC 00008601
+
+Kirby: The Story of the Fountain of Dreams (NES)
+
+Infinite Health [Glitch]
+00573217 0000002F
+
+Infinite Lives [Glitch]
+00573219 00000063
+
+Invincible [Glitch]
+00573279 00000014
+
+Max Score [Glitch]
+00573213 0000003F
+02573214 0000420F

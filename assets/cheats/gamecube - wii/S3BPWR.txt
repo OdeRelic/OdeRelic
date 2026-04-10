@@ -1,0 +1,65 @@
+S3BPWR
+Batman: The Brave and the Bold
+
+Infinite Health [Crapulecorp]
+C21BB274 00000002
+80A600D4 90A600D0
+60000000 00000000
+*Code ported from ZiT Ntsc Usa Version*
+
+Infinite SP [Crapulecorp]
+0401C660 60000000
+
+Infinite Ammo [Crapulecorp]
+0402A6B0 60000000
+0402A6D8 60000000
+*Code ported from ZiT Ntsc Usa Version*
+
+Max Coins on Pickup [Crapulecorp]
+C202EFB0 00000002
+3C000001 6000869F
+60000000 00000000
+*Code ported from Skiller Ntsc Usa Version*
+
+Have Max Cash in Batcave [Crapulecorp]
+0483A868 0001869F
+*Code ported from Skiller Ntsc Usa Version*
+
+Unlock Medieval Batman costume
+0083A7CF 0000000
+*Code ported from Skiller Ntsc Usa Version*
+
+All Gadgets Unlocked and Upgraded [Crapulecorp]
+0283A7DE 00000404
+0483A7E0 04040404
+0483A7E4 04040404
+0483A7E8 04040404
+0483A7EC 04040404
+0283A7F0 00000404
+0083A7F2 00000004
+*Code ported from Skiller Ntsc Usa Version*
+
+All Jump-In Characters Unlocked [Crapulecorp]
+0483A85C 01010101
+0483A860 01010101
+0483A864 00000101
+0083A866 00000001
+*Code ported from Skiller Ntsc Usa Version*
+
+Allow Locked In game cheats
+
+Lets Clean Up Crime! [Crapulecorp]
+04529A4C 00000000
+*Code ported from Skiller Ntsc Usa Version*
+
+Gadgets Unlocked and Upgraded! [Crapulecorp]
+04529A5C 00000000
+*Code ported from Skiller Ntsc Usa Version*
+
+All Levels Unlocked! [Crapulecorp]
+04529A6C 00000000
+*Code ported from Skiller Ntsc Usa Version*
+
+Jumpins Unlocked [Crapulecorp]
+04529A7C 00000000
+*Code ported from Skiller Ntsc Usa Version*

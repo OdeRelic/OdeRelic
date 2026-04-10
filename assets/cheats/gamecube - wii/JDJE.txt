@@ -1,0 +1,27 @@
+JDJE
+Super Star Wars The Empire Strikes Back
+
+Unlimited Lives [GMO]
+00447E94 00000063
+
+Unlimited Continues [GMO]
+00447E7E 00000063
+
+Unlimited Health [GMO]
+004489DE 000000FF
+
+Unlimited Health (Tauntaun) [GMO]
+00447E98 00000041
+004489E0 00000041
+
+Unlimited Specials [GMO]
+00447E9C 00000020
+00447FF9 00000020
+
+Unlimited Thermal Detonators [GMO]
+0044888C 00000001
+
+Press Z-Right for Easy Boss Kill [GMO]
+281740E0 00000004
+004489E2 00000001
+E0000000 80008000

@@ -1,0 +1,78 @@
+PAVP
+Vigilante
+
+Unlimited Lives [Crapulecorp]
+42000000 90000000
+0058FD99 00000009
+E0000000 80008000
+*Code ported from GMO Ntsc Usa Version*
+
+Unlimited Life
+
+Unlimited Life (Hold B And Press Up ON/OFF) [Crapulecorp]
+281428EA FBF70408
+CC000000 00000000
+42000000 90000000
+0058FE0D 00000080
+E0000000 80008000
+*WiiMote*
+*Code ported from GMO Ntsc Usa Version*
+
+Unlimited Life (Press ZL ON/OFF) [Crapulecorp]
+2814294A FF7F0080
+CC000000 00000000
+42000000 90000000
+0058FE0D 00000080
+E0000000 80008000
+*Classic Controller*
+*Code ported from GMO Ntsc Usa Version*
+
+Invincible
+
+Invincible (Hold B And Press Right ON/OFF) [Crapulecorp]
+281428EA FBFD0402
+CC000000 00000000
+42000000 90000000
+08590054 23232323
+200E0004 00000000
+E0000000 80008000
+*WiiMote*
+*Code ported from GMO Ntsc Usa Version*
+
+Invincible (Press ZR ON/OFF) [Crapulecorp]
+2814294A FFFB0004
+CC000000 00000000
+42000000 90000000
+08590054 23232323
+200E0004 00000000
+E0000000 80008000
+*Classic Controller*
+*Code ported from GMO Ntsc Usa Version*
+
+Time Stop
+
+Time Stop (Hold B And Press Down ON/OFF) [Crapulecorp]
+281428EA FBFB0404
+CC000000 00000000
+42000000 90000000
+0058FD53 00000099
+E0000000 80008000
+*WiiMote*
+*Code ported from GMO Ntsc Usa Version*
+
+Time Stop (Press L ON/OFF) [Crapulecorp]
+2814294A DFFF2000
+CC000000 00000000
+42000000 90000000
+0058FD53 00000099
+E0000000 80008000
+*Classic Controller*
+*Code ported from GMO Ntsc Usa Version*
+
+Button Activator
+
+WiiMote [Crapulecorp]
+281428EA YYYYZZZZ
+
+Classic Controller [Crapulecorp]
+2814294A YYYYZZZZ

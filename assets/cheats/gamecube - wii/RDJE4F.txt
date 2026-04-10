@@ -1,0 +1,31 @@
+RDJE4F
+Death Jr.: Root of Evil
+
+Unlock all Levels [eric]
+022A3E32 0000FFFF
+002A3E34 000000FF
+
+Unlock Movie Select [eric]
+002A3EB0 00000001
+
+Have all Melee Moves [eric]
+0228EE7E 0000FFFF
+0228F032 0000FFFF
+
+Have all Weapons [eric]
+0428EEF4 17FFFFFF
+0428F0A8 17FFFFFF
+
+Infinite Health [eric]
+0404DE0C 60000000
+
+Infinite Ammo [eric]
+040135A0 60000000
+
+Walk on Air (1) [eric]
+282D1532 00000001
+4A000000 802A5DD4
+48000000 802A5DD4
+80000000 00000000
+94210000 000003D0
+Note 1. Hold A when jumping to pause descend. Tap A quickly to sprint.

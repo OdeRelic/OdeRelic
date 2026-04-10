@@ -1,0 +1,18 @@
+RO8P7D
+Spyro - Dawn of the Dragon
+
+Infinite/Max Energy Spyro [Blaster99]
+047DF094 00000E00
+047DF098 00000E00
+
+Infinite/Max Mana Spyro [Blaster99]
+047DF0AC 00000E00
+047DF0B0 00000E00
+
+Infinite/Max Energy Cynder [Blaster99]
+047DF09C 00000E00
+047DF0A0 00000E00
+
+Infinite/Max Mana Cynder [Blaster99]
+047DF0B4 00000E00
+047DF0B8 00000E00

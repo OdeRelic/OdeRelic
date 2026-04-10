@@ -1,0 +1,841 @@
+JBKP
+Breath of Fire 2
+
+Miscellaneous Codes
+
+Max Z (Money) [GMO]
+028BEBD2 00003F42
+008BEBD4 0000000F
+
+Unlimited Items Upon Pick-Up [GMO]
+088BEBE9 00000009
+10300002 00000000
+
+Character Position 1 Codes
+
+Character Position 1 Current HP [GMO]
+028BABD0 0000E703
+
+Character Position 1 Max HP [GMO]
+028BABD2 0000E703
+
+Character Position 1 Current AP [GMO]
+028BABD4 0000E703
+
+Character Position 1 Max AP [GMO]
+028BABD6 0000E703
+
+Character Position 1 Quick Level Up [GMO]
+028BED96 00007F96
+008BED98 00000098
+
+Max Strength [GMO]
+008BED79 000000FF
+
+Max Stamina [GMO]
+008BED7A 000000FF
+
+Max Agility [GMO]
+008BED7B 000000E7
+008BED7C 00000003
+
+Max Offense [GMO]
+028BED8A 0000E703
+
+Max Vigor [GMO]
+028BED8E 0000E703
+
+Max Defense [GMO]
+028BED8C 0000E703
+
+Max Wisdom [GMO]
+008BED90 000000FF
+
+Max Luck [GMO]
+008BED91 000000FF
+
+Character Position 2 Codes
+
+Character Position 2 Current HP [GMO]
+028BAC70 0000E703
+
+Character Position 2 Max HP [GMO]
+028BAC72 0000E703
+
+Character Position 2 Current AP [GMO]
+028BAC74 0000E703
+
+Character Position 2 Max AP [GMO]
+028BAC76 0000E703
+
+Character Position 2 Quick Level Up [GMO]
+028BEDD6 00007F96
+008BEDD8 00000098
+
+Character Position 3 Codes
+
+Character Position 3 Current HP [GMO]
+028BEDF0 0000E703
+
+Character Position 3 Max HP [GMO]
+028BEDF2 0000E703
+
+Character Position 3 Current AP [GMO]
+028BEDF4 0000E703
+
+Character Position 3 Max AP [GMO]
+028BEDF6 0000E703
+
+Character Position 3 Quick Level Up [GMO]
+028BEE16 00007F96
+008BEE18 00000098
+
+Character Position 4 Codes
+
+Character Position 4 Current HP [GMO]
+028BEE30 0000E703
+
+Character Position 4 Max HP [GMO]
+028BEE32 0000E703
+
+Character Position 4 Current AP [GMO]
+028BEE34 0000E703
+
+Character Position 4 Max AP [GMO]
+028BEE36 0000E703
+
+Character Position 4 Quick Level Up [GMO]
+028BEE56 00007F96
+008BEE58 00000098
+
+Max Item Slots
+
+Item Modifiers
+
+Item Modifier Slot 1 [GMO]
+008BEBE8 000000??
+
+Item Modifier Slot 2 [GMO]
+008BEBEA 000000??
+
+Item Modifier Slot 3 [GMO]
+008BEBEC 000000??
+
+Item Modifier Slot 4 [GMO]
+008BEBEE 000000??
+
+Item Modifier Slot 5 [GMO]
+008BEBF0 000000??
+
+Item Modifier Slot 6 [GMO]
+008BEBF2 000000??
+
+Item Modifier Slot 7 [GMO]
+008BEBF4 000000??
+
+Item Modifier Slot 8 [GMO]
+008BEBF6 000000??
+
+Item Modifier Slot 9 [GMO]
+008BEBF8 000000??
+
+Item Modifier Slot 10 [GMO]
+008BEBFA 000000??
+
+Item Modifier Slot 11 [GMO]
+008BEBFC 000000??
+
+Item Modifier Slot 12 [GMO]
+008BEBFE 000000??
+
+Item Modifier Slot 13 [GMO]
+008BEC00 000000??
+
+Item Modifier Slot 14 [GMO]
+008BEC02 000000??
+
+Item Modifier Slot 15 [GMO]
+008BEC04 000000??
+
+Item Modifier Slot 16 [GMO]
+008BEC06 000000??
+
+Item Modifier Slot 17 [GMO]
+008BEC08 000000??
+
+Item Modifier Slot 18 [GMO]
+008BEC0A 000000??
+
+Item Modifier Slot 19 [GMO]
+008BEC0C 000000??
+
+Item Modifier Slot 20 [GMO]
+008BEC0E 000000??
+
+Item Modifier Slot 21 [GMO]
+008BEC10 000000??
+
+Item Modifier Slot 22 [GMO]
+008BEC12 000000??
+
+Item Modifier Slot 23 [GMO]
+008BEC14 000000??
+
+Item Modifier Slot 24 [GMO]
+008BEC16 000000??
+
+Item Modifier Slot 25 [GMO]
+008BEC18 000000??
+
+Item Modifier Slot 26 [GMO]
+008BEC1A 000000??
+
+Item Modifier Slot 27 [GMO]
+008BEC1C 000000??
+
+Item Modifier Slot 28 [GMO]
+008BEC1E 000000??
+
+Item Modifier Slot 29 [GMO]
+008BEC20 000000??
+
+Item Modifier Slot 30 [GMO]
+008BEC22 000000??
+
+Item Modifier Slot 31 [GMO]
+008BEC24 000000??
+
+Item Modifier Slot 32 [GMO]
+008BEC26 000000??
+
+Item Modifier Slot 33 [GMO]
+008BEC28 000000??
+
+Item Modifier Slot 34 [GMO]
+008BEC2A 000000??
+
+Item Modifier Slot 35 [GMO]
+008BEC2C 000000??
+
+Item Modifier Slot 36 [GMO]
+008BEC2E 000000??
+
+Item Modifier Slot 37 [GMO]
+008BEC30 000000??
+
+Item Modifier Slot 38 [GMO]
+008BEC32 000000??
+
+Item Modifier Slot 39 [GMO]
+008BEC34 000000??
+
+Item Modifier Slot 40 [GMO]
+008BEC36 000000??
+
+Item Modifier Slot 41 [GMO]
+008BEC38 000000??
+
+Item Modifier Slot 42 [GMO]
+008BEC3A 000000??
+
+Item Modifier Slot 43 [GMO]
+008BEC3C 000000??
+
+Item Modifier Slot 44 [GMO]
+008BEC3E 000000??
+
+Item Modifier Slot 45 [GMO]
+008BEC40 000000??
+
+Item Modifier Slot 46 [GMO]
+008BEC42 000000??
+
+Item Modifier Slot 47 [GMO]
+008BEC44 000000??
+
+Item Modifier Slot 48 [GMO]
+008BEC46 000000??
+
+Max Item Slots
+
+Max Item Slot 1 [GMO]
+008BEBE9 00000009
+
+Max Item Slot 2 [GMO]
+008BEBEB 00000009
+
+Max Item Slot 3 [GMO]
+008BEBED 00000009
+
+Max Item Slot 4 [GMO]
+008BEBEF 00000009
+
+Max Item Slot 5 [GMO]
+008BEBF1 00000009
+
+Max Item Slot 6 [GMO]
+008BEBF3 00000009
+
+Max Item Slot 7 [GMO]
+008BEBF5 00000009
+
+Max Item Slot 8 [GMO]
+008BEBF7 00000009
+
+Max Item Slot 9 [GMO]
+008BEBF9 00000009
+
+Max Item Slot 10 [GMO]
+008BEBFB 00000009
+
+Max Item Slot 11 [GMO]
+008BEBFD 00000009
+
+Max Item Slot 12 [GMO]
+008BEBFF 00000009
+
+Max Item Slot 13 [GMO]
+008BEC01 00000009
+
+Max Item Slot 14 [GMO]
+008BEC03 00000009
+
+Max Item Slot 15 [GMO]
+008BEC05 00000009
+
+Max Item Slot 16 [GMO]
+008BEC07 00000009
+
+Max Item Slot 17 [GMO]
+008BEC09 00000009
+
+Max Item Slot 18 [GMO]
+008BEC0B 00000009
+
+Max Item Slot 19 [GMO]
+008BEC0D 00000009
+
+Max Item Slot 20 [GMO]
+008BEC0F 00000009
+
+Max Item Slot 21 [GMO]
+008BEC11 00000009
+
+Max Item Slot 22 [GMO]
+008BEC13 00000009
+
+Max Item Slot 23 [GMO]
+008BEC15 00000009
+
+Max Item Slot 24 [GMO]
+008BEC17 00000009
+
+Max Item Slot 25 [GMO]
+008BEC19 00000009
+
+Max Item Slot 26 [GMO]
+008BEC1B 00000009
+
+Max Item Slot 27 [GMO]
+008BEC1D 00000009
+
+Max Item Slot 28 [GMO]
+008BEC1F 00000009
+
+Max Item Slot 29 [GMO]
+008BEC21 00000009
+
+Max Item Slot 30 [GMO]
+008BEC23 00000009
+
+Max Item Slot 31 [GMO]
+008BEC25 00000009
+
+Max Item Slot 32 [GMO]
+008BEC27 00000009
+
+Max Item Slot 33 [GMO]
+008BEC29 00000009
+
+Max Item Slot 34 [GMO]
+008BEC2B 00000009
+
+Max Item Slot 35 [GMO]
+008BEC2D 00000009
+
+Max Item Slot 36 [GMO]
+008BEC2F 00000009
+
+Max Item Slot 37 [GMO]
+008BEC31 00000009
+
+Max Item Slot 38 [GMO]
+008BEC33 00000009
+
+Max Item Slot 39 [GMO]
+008BEC35 00000009
+
+Max Item Slot 40 [GMO]
+008BEC37 00000009
+
+Max Item Slot 41 [GMO]
+008BEC39 00000009
+
+Max Item Slot 42 [GMO]
+008BEC3B 00000009
+
+Max Item Slot 43 [GMO]
+008BEC3D 00000009
+
+Max Item Slot 44 [GMO]
+008BEC3F 00000009
+
+Max Item Slot 45 [GMO]
+008BEC41 00000009
+
+Max Item Slot 46 [GMO]
+008BEC43 00000009
+
+Max Item Slot 47 [GMO]
+008BEC45 00000009
+
+Max Item Slot 48 [GMO]
+008BEC47 00000009
+
+Storage Item Modifiers
+
+Storage Item 01 Modifier [GMO]
+008BEC58 000000??
+
+Storage Item 01 Quanity [GMO]
+008BEC59 000000??
+
+Storage Item 02 Modifier [GMO]
+008BEC5A 000000??
+
+Storage Item 02 Quanity [GMO]
+008BEC5B 000000??
+
+Storage Item 03 Modifier [GMO]
+008BEC5C 000000??
+
+Storage Item 03 Quanity [GMO]
+008BEC5D 000000??
+
+Storage Item 04 Modifier [GMO]
+008BEC5E 000000??
+
+Storage Item 04 Quanity [GMO]
+008BEC5F 000000??
+
+Storage Item 05 Modifier [GMO]
+008BEC60 000000??
+
+Storage Item 05 Quanity [GMO]
+008BEC61 000000??
+
+Storage Item 06 Modifier [GMO]
+008BEC62 000000??
+
+Storage Item 06 Quanity [GMO]
+008BEC63 000000??
+
+Storage Item 07 Modifier [GMO]
+008BEC64 000000??
+
+Storage Item 07 Quanity [GMO]
+008BEC65 000000??
+
+Storage Item 08 Modifier [GMO]
+008BEC66 000000??
+
+Storage Item 08 Quanity [GMO]
+008BEC67 000000??
+
+Storage Item 09 Modifier [GMO]
+008BEC68 000000??
+
+Storage Item 09 Quanity [GMO]
+008BEC69 000000??
+
+Storage Item 10 Modifier [GMO]
+008BEC6A 000000??
+
+Storage Item 10 Quanity [GMO]
+008BEC6B 000000??
+
+Storage Item 11 Modifier [GMO]
+008BEC6C 000000??
+
+Storage Item 11 Quanity [GMO]
+008BEC6D 000000??
+
+Storage Item 12 Modifier [GMO]
+008BEC6E 000000??
+
+Storage Item 12 Quanity [GMO]
+008BEC6F 000000??
+
+Storage Item 13 Modifier [GMO]
+008BEC70 000000??
+
+Storage Item 13 Quanity [GMO]
+008BEC71 000000??
+
+Storage Item 14 Modifier [GMO]
+008BEC72 000000??
+
+Storage Item 14 Quanity [GMO]
+008BEC73 000000??
+
+Storage Item 15 Modifier [GMO]
+008BEC74 000000??
+
+Storage Item 15 Quanity [GMO]
+008BEC75 000000??
+
+Storage Item 16 Modifier [GMO]
+008BEC76 000000??
+
+Storage Item 16 Quanity [GMO]
+008BEC77 000000??
+
+Storage Item 17 Modifier [GMO]
+008BEC78 000000??
+
+Storage Item 17 Quanity [GMO]
+008BEC79 000000??
+
+Storage Item 18 Modifier [GMO]
+008BEC7A 000000??
+
+Storage Item 18 Quanity [GMO]
+008BEC7B 000000??
+
+Storage Item 19 Modifier [GMO]
+008BEC7C 000000??
+
+Storage Item 19 Quanity [GMO]
+008BEC7D 000000??
+
+Storage Item 20 Modifier [GMO]
+008BEC7E 000000??
+
+Storage Item 20 Quanity [GMO]
+008BEC7F 000000??
+
+Storage Item 21 Modifier [GMO]
+008BEC80 000000??
+
+Storage Item 21 Quanity [GMO]
+008BEC81 000000??
+
+Storage Item 22 Modifier [GMO]
+008BEC82 000000??
+
+Storage Item 22 Quanity [GMO]
+008BEC83 000000??
+
+Storage Item 23 Modifier [GMO]
+008BEC84 000000??
+
+Storage Item 23 Quanity [GMO]
+008BEC85 000000??
+
+Storage Item 24 Modifier [GMO]
+008BEC86 000000??
+
+Storage Item 24 Quanity [GMO]
+008BEC87 000000??
+
+Storage Item 25 Modifier [GMO]
+008BEC88 000000??
+
+Storage Item 25 Quanity [GMO]
+008BEC89 000000??
+
+Storage Item 26 Modifier [GMO]
+008BEC8A 000000??
+
+Storage Item 26 Quanity [GMO]
+008BEC8B 000000??
+
+Storage Item 27 Modifier [GMO]
+008BEC8C 000000??
+
+Storage Item 27 Quanity [GMO]
+008BEC8D 000000??
+
+Storage Item 28 Modifier [GMO]
+008BEC8E 000000??
+
+Storage Item 28 Quanity [GMO]
+008BEC8F 000000??
+
+Storage Item 29 Modifier [GMO]
+008BEC90 000000??
+
+Storage Item 29 Quanity [GMO]
+008BEC91 000000??
+
+Storage Item 30 Modifier [GMO]
+008BEC92 000000??
+
+Storage Item 30 Quanity [GMO]
+008BEC93 000000??
+
+Item Modifier Values (Big thanks to Ugetab for the values)
+
+00 Empty Slot
+01 Herb
+02 HelpBL
+03 Extract
+04 Van.Ext
+05 LifePl
+06 Moon Drop
+07 Antidote
+08 WFruit
+09 Vitmin
+0A TearDr
+0B CureAl
+0C WiseBL
+0D Stamina
+0E LuckyCndy
+0F PwrFood
+10 Dinker
+11 MisoSoup
+12 GutsBL
+13 Con.Up
+14 F.Spice
+15 ShaveIce
+16 Frizbee
+17 Medicate
+18 Gold
+19 Smoke
+1A DivideBL
+1B TreePole
+1C StickRod
+1D DluxPole
+1E CharmRod
+1F Worm
+20 Shrimp
+21 Urchin
+22 G8Bait
+23 Srdine
+24 Mckrl
+25 Bait
+26 Tuna
+27 Minnow
+28 Unagi
+29 Snper
+2A PileWm
+2B Chkn
+2C Meat
+2D Tendon
+2E Beef
+2F Liver
+30 Roast
+31 Egg
+32 SprRib
+33 Charcoal
+34 DeadSoup
+35 P.Pourri
+36 Biscuit
+37 Octopus
+38 PanPizza
+39 GoldBar
+3A FireRock
+3B KmikzeBL
+3C Shaker
+3D IceChunk
+3E Tolen
+3F HeroBT
+40 FastShoe
+41 DmndBR
+42 SkullBR
+43 WiseHoop
+44 Collar
+45 HolySF
+46 WindBR
+47 LoveBR
+48 GutsBT
+49 KramerBR
+4A D.Earing
+4B LifeBR
+4C IronBR
+4D Charm
+4E ShinyBR
+50 DreamBR
+58 Owl Fruit
+59 Cake
+5B Mirror
+5C BoyDR
+5D Short Bow
+5E Bronze (Sword)
+5F Flase Bow
+60 TreeST
+61 HexadS
+62 RevetK
+63 IvyWP
+64 SilverDR
+65 MagicR
+66 KingSD
+67 LongRP
+68 LongSD
+69 Buster
+6A CrossB
+6B TwinBW
+6C Bronze
+6D Quartr
+6E Iron Knuckle
+6F Burn Knuckle
+70 Wizard
+71 FireRG
+72 Wooden
+73 MothDR
+74 NinjaDR
+75 ShortR
+76 Stock Sword
+77 Flame Sword
+78 Starr Sword
+79 Damage Sword
+7A BReak Sword
+7B Dragon Warrior Sword
+7C King of Sword
+7D Goblin Sword
+7E Empire Sword
+7F ElmoreSD (Rapier)
+80 Fire Bow
+81 Auto Bow
+82 Ice Bow
+83 Buster Bow
+84 Death Bow
+85 Wonder Rapier
+86 SnakeST (Dancer)
+87 HeatST (Dancer)
+88 BirchST (Dancer)
+89 ThunderST (Dancer)
+8A RiotST (Dancer)
+8B MeowST (Dancer)
+8C Cloak Knuckles
+8D Blast Knuckles
+8E Kaiser Knuckles
+8F Final Knuckles
+90 HushRG
+91 StormR
+92 Amber
+93 Imortl
+94 GradeD
+95 NorthD
+96 ChuckD
+97 Banana (Short Blade)
+98 Shadow
+99 DemonD
+9A Pierce
+9B ThndrR
+9C Emblem
+9D Thorn Whip
+9E Wac Whip
+9F Double Whip
+A0 Nature Whip
+A1 9-Tail Whip
+A2 NoTwinRP
+A3 BrassS
+A4 CrsntS
+A5 HolyRP
+A6 TIgerS
+A7 Slicer
+A8 SoleSD
+A9 Hand Knuckle
+AA FlaseR
+AB WorthR
+AC BrassR
+AD GlassR
+AE LopOff
+AF Fork
+B3 Bum's Clothes
+B4 Holy Robe
+B5 LeoTard
+B6 Suede Armor
+B7 Ranger
+B8 Soklet
+B9 Mystry
+BA SaladB
+BB RistBa
+BC Steel Armor
+BD SilkGR
+BE Bronze (Shield)
+BF Iron Shield
+C0 Shorts
+C1 Backla
+C2 CharmS
+C3 GuardS
+C4 Bronze (Helmet)
+C5 GlassR
+C6 Knight (Helmet)
+C7 Crimson (Helmet)
+C8 Royal Helmet
+C9 Nation Helmet
+CA MoonMa
+CB ChainM
+CC IronAR
+CD WiseRB
+CE IronML
+CF QuickC
+D0 BreathAR
+D1 OceanR
+D2 Silver Armor
+D3 Frozen
+D4 MagmaA
+
+D5 WindRB
+D6 EarthA
+D7 BraveA
+D8 Bandana
+D9 Blnded
+DA Rainbow
+DB Sacred SHield
+DC Crimson Armor
+DD Dragon
+DE LifeAR
+DF NinjaM
+E0 Mamoth Armor
+E1 MotherRB
+E2 JahAR
+E3 HeroAR
+E4 Noe'sRB
+E5 WisdomRB
+E6 WhiteS
+E7 FlameS
+E8 Ice SHield
+E9 Blnded Shield
+EA Blnded Shield
+EB Giant Shield
+EC Star Shield
+ED Holy SHield
+EE Dragon
+EF Element Shield
+F0 Medusa Shield
+F1 Shiny Helmet
+F2 SunMask
+F3 Silver Helmet
+F4 Dragon Helmet
+F5 King Helmet
+F6 Spirit Robe
+F7 Stone Armor
+F8 SlashG Shield
+F9 Thunder Shield
+FA ArmyGL
+FB GoldAR
+FC Mighty Armor
+FD Demon SHield
+FE Napkin
+FF Plate Shield
+
+Unlimited Z Money [Crapulecorp]
+028BEBD2 0000FFFF
+
+Infinite Items Slots 1-40 [Crapulecorp]
+088BEBE9 00000009
+00270002 00000000
+*Code ported from GMO Ntsc Usa Version*

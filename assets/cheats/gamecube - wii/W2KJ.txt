@@ -1,0 +1,29 @@
+W2KJ
+Lets Catch
+
+Story Mode
+
+If Score Increase, MAX [ZiT]
+0405FD34 901C0014
+0405F884 801B0014
+0405FD40 901C000C
+
+Infinite Ball [ZiT]
+0405F75C 909B0034
+
+Speed Catch Mode
+
+Infinite Ball [ZiT]
+04068204 907C0034
+
+Nine Trial Mode
+
+Time Stop [ZiT]
+0407CA74 60000000
+
+Bonnbar Catch Mode
+
+Infinite Heart [ZiT]
+C2072BE8 00000002
+807F1030 3D804040
+919F1034 00000000

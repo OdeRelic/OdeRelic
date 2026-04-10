@@ -1,0 +1,17 @@
+WFFJ
+Fun! Fun! MiniGolf
+
+Shot Count 1 (1 Button) [ZiT]
+2825E01A 00000200
+4E000018 00000000
+14000000 F6000002
+14000004 81208130
+E0000000 80008000
+F6000002 81208130
+00000000 00000001
+00000000 55440000
+14000000 00000000
+E0000000 80008000
+-Please push the button after the course starts.
+
+-Please push the button before it strikes it.

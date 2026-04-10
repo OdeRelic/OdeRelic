@@ -1,0 +1,22 @@
+FBCJ
+Excitebike
+
+Time Stop [ZiT]
+044B2128 00000000
+
+No Fall [ZiT]
+004B2158 00000000
+
+No Overheat [ZiT]
+004B2476 00000000
+
+Speed Up (B Button) [ZiT]
+281E1B92 FBFF0400
+004B2154 00000007
+E0000000 80008000
+
+Moon Jump (1 Button) [ZiT]
+281E1B92 FEFF0100
+004B2444 00000001
+E0000000 80008000
+-This Code Becomes Effective While The Motorcycle is Jumping.

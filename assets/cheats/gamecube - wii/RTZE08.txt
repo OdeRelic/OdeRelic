@@ -1,0 +1,35 @@
+RTZE08
+Zack & Wiki - Quest for Barbaros' Treasure
+
+Speed Hack [Seth@WiiPlaza]
+2062778C 00001000
+006EE314 00000011
+E0000000 80008000
+*press minus to enable the speed hack
+
+Landscape Effects [Seth@WiiPlaza]
+026EEA38 00004000
+*effects water,clouds ect. and makes them epic :D
+
+Rofl Copter [Seth@WiiPlaza]
+026EEA68 00004000
+*pic- http://goo.gl/ZQvua
+*makes helicopter tail spin rapidly
+
+Epic Graphics Mod [Seth@WiiPlaza]
+0034D71B 00000000
+* code adds color to random things
+
+Graphics Modifier 2 [Seth@WiiPlaza]
+0034D7AB 00000000
+*demo pic - http://goo.gl/rJjh3
+
+Black Smoke/Steam [Seth@WiiPlaza]
+003812D3 00000000
+00388D8B 00000000
+
+Thick Smoke/Shinier Items [Seth@WiiPlaza]
+00388D8B 00000000
+
+No Logs/Boards Behind Selectable Items [Seth@WiiPlaza]
+0436108C 60000000

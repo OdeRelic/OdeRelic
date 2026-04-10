@@ -1,0 +1,97 @@
+RQ5X5G
+Mad Dog Mac Cree Gunslinger Pack
+
+Player 1
+
+Life x3 [Crapulecorp]
+003B1603 00000003
+
+Life x3 (Push C) [Crapulecorp]
+28331882 BFFF4000
+003B1601 00000003
+E0000000 80008000
+*WiiMote-NunChuk*
+
+Score Max [Crapulecorp]
+04334C58 0001869F
+
+Score Max (Push 1) [Crapulecorp]
+28331882 FDFF0200
+04334C58 0001869F
+E0000000 80008000
+*WiiMote-NunChuk*
+
+Ammo x 6 [Crapulecorp]
+003B15F9 00000006
+
+Ammo x 6 (Push Z) [Crapulecorp]
+28331882 DFFF2000
+003B15F9 00000006
+E0000000 80008000
+*WiiMote-NunChuk*
+
+Ammo x 12 (Push Z) [Crapulecorp]
+28331882 DFFF2000
+003B15F9 0000000C
+E0000000 80008000
+*WiiMote-NunChuk*
+
+Bonus Tireur D'Elite x9999 [Crapulecorp]
+023B1174 0000270F
+
+Bonus Tireur D'Elite x9999 (Push 2) [Crapulecorp]
+28331882 FEFF0100
+023B1174 0000270F
+E0000000 80008000
+*WiiMote-NunChuk*
+
+Player 2
+
+Life x3 [Crapulecorp]
+003B1603 00000003
+
+Life x3 (Push C) [Crapulecorp]
+28332382 BFFF4000
+003B1603 00000003
+E0000000 80008000
+*WiiMote-NunChuk*
+
+Ammo x 6 [Crapulecorp]
+003B15FB 00000006
+
+Ammo x 6 (Push Z) [Crapulecorp]
+28332382 DFFF2000
+003B15FB 00000006
+E0000000 80008000
+*WiiMote-NunChuk*
+
+Ammo x 12 (Push Z) [Crapulecorp]
+28332382 DFFF2000
+003B15FB 0000000C
+E0000000 80008000
+*WiiMote-NunChuk*
+
+Score Max [Crapulecorp]
+04334C5C 0001869F
+
+Score Max (Push 1) [Crapulecorp]
+28332382 FDFF0200
+04334C5C 0001869F
+E0000000 80008000
+*WiiMote-NunChuk*
+
+Bonus Tireur D'Elite x9999 (Push 2) [Crapulecorp]
+28332382 FEFF0100
+023B1174 0000270F
+E0000000 80008000
+*WiiMote-NunChuk*
+
+Button Activator
+
+Player 1 [Crapulecorp]
+28331882 YYYYZZZZ
+*WiiMote-NunChuk*
+
+Player 2 [Crapulecorp]
+28332382 YYYYZZZZ
+*WiiMote-NunChuk*

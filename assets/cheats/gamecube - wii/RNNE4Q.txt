@@ -1,0 +1,21 @@
+RNNE4Q
+Narnia Prince Caspian
+
+Infinite Keys [eric]
+045E1E30 00630063
+
+Infinite Health [eric]
+0426682c 60000000
+
+Infinite Armor [eric]
+042667A4 C03E05D4
+
+Have all Bonus Levels, Art & Footage [eric]
+42000000 80000000
+085E1E34 FFFFFFFF
+20040004 00000000
+
+Have all Game Clips [eric]
+42000000 80000000
+085E1E44 FFFFFFFF
+20050004 00000000

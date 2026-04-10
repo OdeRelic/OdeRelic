@@ -1,0 +1,9 @@
+JC7E
+The Combatribes
+
+P1 Unlimited Health [GMO]
+0044967C 000000F0
+
+1-Hit Kill (Enemies+Bosses) [GMO]
+04449680 00000000
+04449684 00000000

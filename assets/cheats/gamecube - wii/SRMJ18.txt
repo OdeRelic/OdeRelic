@@ -1,0 +1,53 @@
+SRMJ18
+Rooms Fushigi na Ugoku Hey
+
+Doesn't Die Even if it Hits the Bomb [ZiT]
+04071AF4 9BBB0004
+
+Time Stop [ZiT]
+040AAF60 D0230040
+04073048 D03F013C
+
+Item (Only in the stage) (B Button) [ZiT]
+2835C9BA 00000400
+48000000 8057A750
+DE000000 90009380
+4A100000 FFFF9E54
+14000000 000000xx
+14000004 000000xx
+14000008 000000xx
+1400000C 000000xx
+E0000000 80008000
+
+Item list=xx
+00=Golden Key
+01=Silver key
+02=Copper Key
+03=Fishbowl
+04=Mobile phone
+05=Candles
+
+Unlock all Mode [ZiT]
+011F5F2A 000000FF
+
+Unlock All Trophy [ZiT]
+011F5F2B 000000FF
+
+Unlock All Mission [ZiT]
+011F5F44 00000004
+
+All Stage Clear (Story Mode) [ZiT]
+091F5ED4 FFFFFFFF
+200A0004 00000000
+
+All Stage Clear (Timelimit Mode) [ZiT]
+091F5F00 FFFFFFFF
+20040004 00000000
+
+All Stage Clear (Challenge Mode) [ZiT]
+091F5F14 FFFFFFFF
+20040004 00000000
+
+Count doesn't Decrease (Challenge Mode) [ZiT]
+040730D8 9BA3008C
+0407308C 60000000

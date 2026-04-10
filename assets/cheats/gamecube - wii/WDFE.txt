@@ -1,0 +1,31 @@
+WDFE
+Defend Your Castle
+
+Unlimited Health [Romaap]
+0408D85C 60000000
+0408700C 60000000
+04087AB8 60000000
+04085CB4 60000000
+040616A0 60000000
+
+Instant finish [Romaap]
+04075F48 FC010040
+201C47A0 00000300
+04075F48 FC010840
+Press 1+2
+
+Buy to max your money [Romaap]
+040A0A04 7C002114
+
+Get one slave for Unlimited Slaves [Romaap]
+0406A6F4 3800000A
+0406A5D0 60000000
+
+Get one wizard/archer/builder for Unlimited Wizards/Archers/Builders [Romaap]
+0406A7E8 38847FFF
+
+Level 99999 [Romaap]
+04065594 3C000002
+
+More enemies on screen [Romaap]
+0407594C 60000000

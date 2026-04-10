@@ -1,0 +1,11 @@
+JDXE
+Aero the Acrobat 2
+
+Unlimited Lives [GMO]
+0045F19F 00000099
+
+Invincible [GMO]
+0045F1A1 00000077
+
+Unlimited Health [GMO]
+0045F219 00000003

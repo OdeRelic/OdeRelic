@@ -1,0 +1,14 @@
+GGTE01
+Chibi-Robo 
+
+Max Battery Energy
+0438F74C 4479C000
+
+Infinite Battery Energy
+0438F748 4479C000
+
+Max/Infinite Money
+0438F750 0001869F
+
+Max Happy Points
+0438F73C 0001869F

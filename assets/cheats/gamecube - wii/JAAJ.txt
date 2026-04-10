@@ -1,0 +1,153 @@
+JAAJ
+Super Mario World
+
+Button Activators
+
+WiiMote Pad1 [GMO]
+281AFFDA YYYYZZZZ
+
+Classic Pad1 [GMO]
+281B003A YYYYZZZZ
+
+WiiMote Pad2 [GMO]
+281B03DA YYYYZZZZ
+
+Classic Pad2 [GMO]
+281B043A YYYYZZZZ
+
+Palace Switch Codes
+
+Green Switch Activated [GMO]
+008B160F 00000001
+Do Not Enter Palace if code is on
+
+Yellow Switch Activated [GMO]
+008B1610 00000001
+Do Not Enter Palace if code is on
+
+Blue Switch Activated [GMO]
+008B1610 00000001
+Do Not Enter Palace if code is on
+
+Red Switch Activated [GMO]
+008B1612 00000001
+Do Not Enter Palace if code is on
+
+Time Codes
+
+Disable Timer [GMO]
+008B0618 00000010
+
+Unlimited Purple P Button Time [GMO]
+008B0B95 000000FF
+
+Unlimited Silver P Button Time [GMO]
+008B0B96 000000FF
+
+Miscellaneous Codes
+
+Enable Special Road Extras [GMO]
+028B167A 00008383
+048B167C 83830183
+048B1680 83838303
+
+Invincible (Mario-Luigi Only) [GMO]
+008B0B7F 00000045
+
+Unlimited Star Power [GMO]
+008B0B78 000000FF
+
+Unlimited Lives (Stage+World) [GMO]
+028B05FE 00000909
+008B04A5 00000009
+008B04A6 00000009
+
+Easy 1Up (10 Coins Per 1Up) [GMO]
+008B05FB 00000009
+
+1 Yoshi Coin for 1Up [GMO]
+008B0B08 00000005
+
+Select Box Power Modifier [GMO]
+008B04AA 000000??
+01 Mushroom
+02 Fire Flower
+03 Star Power
+04 Feather
+
+Item Modifier (Classic) [GMO]
+281B003A 00002001
+008B04AA 00000001
+E0000000 80008000
+281B003A 00006000
+008B04AA 00000002
+E0000000 80008000
+281B003A 00002002
+008B04AA 00000003
+E0000000 80008000
+281B003A 0000A000
+008B04AA 00000004
+E0000000 80008000
+Press L+Up for Mushroom
+Press L+Down for Fire Flower
+
+Press L+Left for Star
+Press L+Right for Feather
+
+Mario-Luigi Power Modifier [GMO]
+008AF701 000000??
+00 Small
+01 Big
+02 Cape
+03 Fireball
+
+Eat 1 Thing To Grow (Baby Yoshi) [GMO]
+008B0C60 00000004
+
+Always Get To Play Bonus Game [GMO]
+008B0630 00000064
+Does not require you to get score at goal
+
+Always Floating Falls [GMO]
+008B0B8D 000000FF
+
+Mario 99 [ZiT]
+008B04A6 00000063
+
+Time Stop [ZiT]
+048B0618 00090909
+
+Infinite Star Power [ZiT]
+008B0B78 000000FF
+
+Invincible [ZiT]
+008B0B7F 00000011
+
+Moon Jump [ZiT]
+281B0150 FFBF0040
+008AF765 000000C8
+E0000000 80008000
+
+Walk Through Walls [ZiT]
+281B0150 7FFF8000
+008AF763 00000070
+E0000000 80008000
+281B0150 FFFD0002
+008AF763 00000080
+E0000000 80008000
+281B0150 00000000
+008AF763 00000000
+E0000000 80008000
+
+99 Coins [Mathew_Wi]
+008B04A7 00000063
+
+Fall Through Floors (L+R) [Mathew_Wi]
+286FE10C FF9F0060
+048B0F60 00000100
+E0000000 80008000
+Must be standing on the ground
+
+Infinite Time [Mathew_Wi]
+028B060E 00000909
+028B061A 00000909

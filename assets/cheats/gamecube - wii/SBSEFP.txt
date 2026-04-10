@@ -1,0 +1,10 @@
+SBSEFP
+Remington Super Slam Hunting North America
+
+Infinte Ammo [savage]
+0405BE9C 38030000
+0405BEB4 60000000
+
+Inf Chain [savage]
+04060174 60000000
+the chain will break if you shoot the wrong animals

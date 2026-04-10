@@ -1,0 +1,53 @@
+WR5E
+Retro City Rampage
+
+Swat + Cops Always Chase You [Glitch]
+04398478 000000FF
+FF can be changed to anything.
+Lower it to have it easier
+
+Cops Always Chase You [Glitch]
+04398478 00000004
+
+Cops Never Chase You [Glitch]
+04398478 00000000
+
+Infinite Health [Glitch]
+043A4BC4 046464BB
+
+No Car Damage [Glitch]
+48000000 80278C68
+DE000000 80008180
+1400001C 0BFAFFFF
+E0000000 80008000
+Credits to CosmoCortney
+
+Max Money [Glitch]
+0438D114 3B9AC9FF
+0438C49C 3B9AC9FF
+
+Max Score [Glitch]
+0438C4A8 00000918
+0438C4AC 4E729FFF
+0438C4B0 00000918
+0438C4B4 4E729FFF
+
+Infinite Ammo + Have All Weapons [Glitch]
+0838C54D 00000063
+00160001 00000000
+
+Car always has X [caitsith2]
+48000000 80278C68
+DE000000 80008180
+100002E7 0000000X
+100002E8 00000063
+E0000000 80008000
+Credits to Glitch, CosmoCortney
+0 = Horn
+1 = Bike Bell
+2 = Siren (For all intents and purposes, 0-2 are cosmetic, and only do what the vehicle is meant to do for its horn/siren/bell.)
+3 = Nitro Boost
+4 = Tank Cannon
+5 = Single Turret
+6 = Double Turret
+7 = News papers.

@@ -1,0 +1,23 @@
+R2AE7D
+Ice Age 2: The Meltdown
+
+Acorns worth 50 Points [eric]
+0405668C 38A00032
+
+Have all Walnuts [eric]
+041345C0 38800000
+041345C4 989F00F2
+
+Infinite Petals [eric]
+040FBE74 60000000
+
+Infinite Energy [eric]
+040E0768 C0030530
+040E076C D0030514
+
+Infinite Oxygen [eric]
+0410B880 C0030530
+
+Infinite Pebbles [eric]
+040F6080 38000019
+040F10A4 38000019

@@ -1,0 +1,14 @@
+LAGP
+Sonic The Hedgehog
+
+Unlimited Lives [GMO]
+00D52D06 00000009
+
+Refill Rings-Health [GMO]
+281BCE42 00000402
+00D52D6A 00000099
+E0000000 80008000
+Hold B and Press Right on D-Pad
+
+Disable Timer [GMO]
+00D52D90 00000000

@@ -1,0 +1,52 @@
+FRJV
+Final Fantasy
+
+Shop Haggler [GMO]
+281FAA72 00000080
+0040776E 00000001
+281FAA72 00000004
+0040776E 000000FF
+E0000000 80008000
+Hold Z (Left) to Buy Item for 1G
+HOld Z (Right) to Sell Item for 255G
+Not Visual on screen, but visual on your coin sack
+
+Inf Max Health (All Players) [GMO]
+0854B10A 000000FF
+00030040 00000000
+0854B10C 000000FF
+00030040 00000000
+
+Infinite HP Player 1 [GMO]
+0054B10A 000000FF
+
+Max HP Player 1 [GMO]
+0054B10C 000000FF
+
+Infinite HP Player 2 [GMO]
+0054B14A 000000FF
+
+Max HP Player 2 [GMO]
+0054B14C 000000FF
+
+Infinite HP Player 3 [GMO]
+0054B18A 000000FF
+
+Max HP Player 3 [GMO]
+0054B18C 000000FF
+
+Infinite HP Player 4 [GMO]
+0054B1CA 000000FF
+
+Max HP Player 4 [GMO]
+0054B1CC 000000FF
+
+Shop Haggler
+(Not Visual on screen, but visual on your coin sack!) [GMO]
+281FAA72 00000080
+0040776E 00000001
+281FAA72 00000004
+0040776E 000000FF
+E0000000 80008000
+Hold Z (Left) to Buy Item for 1G
+HOld Z (Right) to Sell Item for 255G

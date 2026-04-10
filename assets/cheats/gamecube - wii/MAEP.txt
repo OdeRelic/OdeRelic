@@ -1,0 +1,20 @@
+MAEP
+Golden Axe
+
+P1 Unlimited Lives [GMO]
+02DACD7C 00000303
+
+P1 Unlimited Health [GMO]
+02DACD7E 00005050
+
+P1 Unlimited Magic Bottles [GMO]
+02DACD80 00000404
+
+P2 Unlimited Lives [GMO]
+02DACD8C 00000303
+
+P2 Unlimited Health [GMO]
+02DACD8E 00005050
+
+P2 Unlimited Magic Bottles [GMO]
+02DACD90 00000404

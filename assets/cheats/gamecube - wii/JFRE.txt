@@ -1,0 +1,15 @@
+JFRE
+Super mario all stars plus world
+
+*super mario world codes*
+
+always power up modifier [12201]
+008BC430 0000000X
+
+small mario = 0
+big marrio = 1
+cape mario =2
+fire mario = 3
+after that its just a bunch of difrent texturs
+
+look like luigi sorta =5

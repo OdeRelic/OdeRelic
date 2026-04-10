@@ -1,0 +1,24 @@
+SANEFS
+Bass Pro Shops: The Hunt - Trophy Showdown
+
+Unlimited Ammo [Crapulecorp]
+C20A6110 00000002
+398003E7 9184487C
+60000000 00000000
+
+No Reload [Crapulecorp]
+040BC9F0 38030000
+*Use it with Unlimited Ammo*
+
+Time Stop (Hold C And Press A ON/OFF) [Crapulecorp]
+040C8E04 60000000
+287D352A B7FF4800
+CC000000 00000000
+040C8E04 D01C0030
+E0000000 80008000
+*WiiMote-NunChuck*
+
+Button Activator
+
+WiiMote-NunChuck [Crapulecorp]
+287D352A YYYYZZZZ

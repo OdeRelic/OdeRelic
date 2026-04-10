@@ -1,0 +1,20 @@
+MAZP
+Toejam & Earl 2: Panic On Funkotron
+
+Unlimited Health Toejam Player 1 [Crapulecorp]
+00FC094B 00000010
+
+Unlimited Health Earl PLayer 1 [Crapulecorp]
+00FC094D 00000010
+
+Unlimited Specials Player 1 [Crapulecorp]
+00FC0949 00000063
+*Code ported from GMO Ntsc Usa Version*
+
+Unlimited Coins Player 1 [Crapulecorp]
+00FC0943 00000063
+*Code ported from GMO Ntsc Usa Version*
+
+Stop Timers [Crapulecorp]
+00FC094F 00000032
+*Code ported from GMO Ntsc Usa Version*

@@ -1,0 +1,15 @@
+RBME5G
+Bust-a-Move Bash!
+
+If Increase Max Score [Crapulecorp]
+C202AD5C 00000002
+3C600098 6063967F
+90640044 00000000
+
+If Increase Max Jewels (Endless Mode) [Crapulecorp]
+C200DB18 00000002
+3C000098 6000967F
+9010004C 00000000
+
+If Increase Chain Multiplier (Shooting Mode) [Crapulecorp]
+040092C8 3803370F

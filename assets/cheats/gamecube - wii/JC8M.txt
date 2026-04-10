@@ -1,0 +1,512 @@
+JC8M
+Final Fantasy II
+
+Miscellaneous Codes
+
+Unlimited Items Upon Pickup [GMO]
+08503829 00000062
+102E0002 00000000
+
+Max Item Slots
+
+Max Item Slot 1 [GMO]
+00503829 00000062
+
+Max Item Slot 2 [GMO]
+0050382B 00000062
+
+Max Item Slot 3 [GMO]
+0050382D 00000062
+
+Max Item Slot 4 [GMO]
+0050382F 00000062
+
+Max Item Slot 5 [GMO]
+00503831 00000062
+
+Max Item Slot 6 [GMO]
+00503833 00000062
+
+Max Item Slot 7 [GMO]
+00503835 00000062
+
+Max Item Slot 8 [GMO]
+00503837 00000062
+
+Max Item Slot 9 [GMO]
+00503839 00000062
+
+Max Item Slot 10 [GMO]
+0050383B 00000062
+
+Max Item Slot 11 [GMO]
+0050383D 00000062
+
+Max Item Slot 12 [GMO]
+0050383F 00000062
+
+Max Item Slot 13 [GMO]
+00503841 00000062
+
+Max Item Slot 14 [GMO]
+00503843 00000062
+
+Max Item Slot 15 [GMO]
+00503845 00000062
+
+Max Item Slot 16 [GMO]
+00503847 00000062
+
+Max Item Slot 17 [GMO]
+00503849 00000062
+
+Max Item Slot 18 [GMO]
+0050384B 00000062
+
+Max Item Slot 19 [GMO]
+0050384D 00000062
+
+Max Item Slot 20 [GMO]
+0050384F 00000062
+
+Max Item Slot 21 [GMO]
+00503851 00000062
+
+Max Item Slot 22 [GMO]
+00503853 00000062
+
+Max Item Slot 23 [GMO]
+00503855 00000062
+
+Max Item Slot 24 [GMO]
+00503857 00000062
+
+Max Item Slot 25 [GMO]
+00503859 00000062
+
+Max Item Slot 26 [GMO]
+0050385B 00000062
+
+Max Item Slot 27 [GMO]
+0050385D 00000062
+
+Max Item Slot 28 [GMO]
+0050385F 00000062
+
+Max Item Slot 29 [GMO]
+00503861 00000062
+
+Max Item Slot 30 [GMO]
+00503863 00000062
+
+Max Item Slot 31 [GMO]
+00503865 00000062
+
+Max Item Slot 32 [GMO]
+00503867 00000062
+
+Max Item Slot 33 [GMO]
+00503869 00000062
+
+Max Item Slot 34 [GMO]
+0050386B 00000062
+
+Max Item Slot 35 [GMO]
+0050386D 00000062
+
+Max Item Slot 36 [GMO]
+0050386F 00000062
+
+Max Item Slot 37 [GMO]
+00503871 00000062
+
+Max Item Slot 38 [GMO]
+00503873 00000062
+
+Max Item Slot 39 [GMO]
+00503875 00000062
+
+Max Item Slot 40 [GMO]
+00503877 00000062
+
+Max Item Slot 41 [GMO]
+00503879 00000062
+
+Max Item Slot 42 [GMO]
+0050387B 00000062
+
+Max Item Slot 43 [GMO]
+0050387D 00000062
+
+Max Item Slot 44 [GMO]
+0050387F 00000062
+
+Max Item Slot 45 [GMO]
+00503881 00000062
+
+Max Item Slot 46 [GMO]
+00503883 00000062
+
+Item Modifiers
+
+Item Modifier Slot 1 [GMO]
+00503828 000000??
+
+Item Modifier Slot 2 [GMO]
+0050382A 000000??
+
+Item Modifier Slot 2 [GMO]
+0050382C 000000??
+
+Item Modifier Slot 3 [GMO]
+0050382E 000000??
+
+Item Modifier Slot 4 [GMO]
+00503830 000000??
+
+Item Modifier Slot 5 [GMO]
+00503832 000000??
+
+Item Modifier Slot 6 [GMO]
+00503834 000000??
+
+Item Modifier Slot 7 [GMO]
+00503836 000000??
+
+Item Modifier Slot 8 [GMO]
+00503838 000000??
+
+Item Modifier Slot 9 [GMO]
+0050383A 000000??
+
+Item Modifier Slot 10 [GMO]
+0050383C 000000??
+
+Item Modifier Slot 11 [GMO]
+0050383E 000000??
+
+Item Modifier Slot 12 [GMO]
+00503840 000000??
+
+Item Modifier Slot 13 [GMO]
+00503842 000000??
+
+Item Modifier Slot 14 [GMO]
+00503844 000000??
+
+Item Modifier Slot 15 [GMO]
+00503846 000000??
+
+Item Modifier Slot 16 [GMO]
+00503848 000000??
+
+Item Modifier Slot 17 [GMO]
+0050384A 000000??
+
+Item Modifier Slot 18 [GMO]
+0050384C 000000??
+
+Item Modifier Slot 19 [GMO]
+0050384E 000000??
+
+Item Modifier Slot 20 [GMO]
+00503850 000000??
+
+Item Modifier Slot 21 [GMO]
+00503852 000000??
+
+Item Modifier Slot 22 [GMO]
+00503854 000000??
+
+Item Modifier Slot 23 [GMO]
+00503856 000000??
+
+Item Modifier Slot 24 [GMO]
+00503858 000000??
+
+Item Modifier Slot 25 [GMO]
+0050385A 000000??
+
+Item Modifier Slot 26 [GMO]
+0050385C 000000??
+
+Item Modifier Slot 27 [GMO]
+0050385E 000000??
+
+Item Modifier Slot 28 [GMO]
+00503860 000000??
+
+Item Modifier Slot 29 [GMO]
+00503862 000000??
+
+Item Modifier Slot 30 [GMO]
+00503864 000000??
+
+Item Modifier Slot 31 [GMO]
+00503866 000000??
+
+Item Modifier Slot 32 [GMO]
+00503868 000000??
+
+Item Modifier Slot 33 [GMO]
+0050386A 000000??
+
+Item Modifier Slot 34 [GMO]
+0050386C 000000??
+
+Item Modifier Slot 35 [GMO]
+0050386E 000000??
+
+Item Modifier Slot 36 [GMO]
+00503870 000000??
+
+Item Modifier Slot 37 [GMO]
+00503872 000000??
+
+Item Modifier Slot 38 [GMO]
+00503874 000000??
+
+Item Modifier Slot 39 [GMO]
+00503876 000000??
+
+Item Modifier Slot 40 [GMO]
+00503878 000000??
+
+Item Modifier Slot 41 [GMO]
+0050387A 000000??
+
+Item Modifier Slot 42 [GMO]
+0050387C 000000??
+
+Item Modifier Slot 43 [GMO]
+0050387E 000000??
+
+Item Modifier Slot 44 [GMO]
+00503880 000000??
+
+Item Modifier Slot 45 [GMO]
+00503882 000000??
+
+Item Modifier Slot 46 [GMO]
+00503884 000000??
+
+Item Modifier Values
+
+00 Nothing
+01 Fire Claw
+02 Ice Claw
+03 Thunder Claw
+04 Charm Claw
+05 Poison Claw
+06 Cat Claw
+07 Rod
+08 Ice Rod
+09 Flame Rod
+0A Thunder Rod
+0B Change Rod
+0C Charm Rod
+0D Stardust (Rod)
+0E Lilith (Rod)
+0F Staff
+10 Cure Staff
+11 Silver Staff
+12 Power Staff
+13 Lunar Staff
+14 Life Staff
+15 Silence Staff
+16 Shadow (Dark Sword)
+17 Darkness (Dark Sword)
+18 Black (Dark Sword)
+19 Legend (Sword)
+1A Light Sword
+1B Excalbur (Sword)
+1C Fire Knives
+1D IceBrand Knives
+1E Defense Knives
+1F Drain Knives
+20 Ancient Knives
+21 Slumber Knives
+22 Medusa Knives
+23 Spear
+24 Wind Spear
+25 Flame Spear
+26 Blizzard Spear
+27 Dragoon Spear
+28 White Spear
+29 Drain Spear
+2A Gungnir Spear
+2B Short
+2C MiddleSword
+2D Long Sword
+2E Ninja Sword
+2F Murasame Sword (Short Sword)
+30 Masamune Sword (Short Sword)
+31 Assasin
+32 Mute Knife
+3B Silver Knife
+3C Dancing KNife
+33 Whip
+34 Chain Whip
+35 Blitz Whip
+36 Flame Whip
+37 Dragon Whip
+38 Hand Axe
+39 Dwarf Axe
+3A Ogre Axe
+3D Silver Knives
+3E Spoon
+3F Crystal Sword (Short Sword)
+40 Shuriken
+41 Ninja Star
+42 Boomerang
+43 Fullmoon (Boomerang)
+44 Dreamer Harp
+45 Charm Harp
+47 Poison Harp
+48 Rune Axe
+49 Silver Tools
+4A Earth Tools
+4B Wooden Toola
+4C Avenger Knives
+4D Short Bow
+4E Cross Bow
+4F Great Bow
+50 Archer Bow
+51 Elven Bow
+52 Samurai Bow
+53 Artemis Bow
+54 Iron Arrows
+55 White Arrows
+56 Fire Arrows
+57 Ice Arrows
+58 Lit Arrows
+59 Darkness Arrows
+5A Poison Arrows
+5B Mute Arrows
+5C Charm Arrows
+5D Samurai Arrows
+5E Medusa Arrows
+5F Artemis Arrows
+61 Iron Shield
+62 Shadow Shield
+63 Black Shield
+64 Paladin Shield
+65 Silver Shield
+66 Fire Shield
+67 Ice Shield
+68 Diamond Shield
+69 Aegis Shield
+6A Samurai Shield
+6B Dragoon Shield
+6C Crystal Shield
+6D Iron Helmet
+6E Shadow Helmet
+6F Darkness Helmet
+70 Black Helmet
+71 Paladin Helmet
+72 Silver Helmet
+73 Diamond Helmet
+74 Samurai Helmet
+75 Dragoon Helmet
+76 Crystal Helmet
+77 Cap
+78 Leather Helmet
+79 Gaea Helmet
+7A Wizard Hood
+7B Tiara
+7C Ribbon
+7D Headband
+7E Bandana
+7F Ninja
+80 Glass Helmet
+81 Iron Armor
+82 Shadow Armor
+83 Darkness Armor
+84 Black Armor
+85 Paladin Armor
+86 Silver Armor
+87 Fire Armor
+88 Ice Armor
+89 Diamond Armor
+8A Samurai Armor
+8B Dragoon Armor
+8C CrystalArmor
+9A Adamant Armor
+8D Cloth (Dress/Robe)
+8E Leather (Dress/Robe)
+8F Gaia (Dress/Robe)
+90 Wizard (Dress/Robe)
+91 Black (Dress/Robe)
+92 Sorcerer (Dress/Robe)
+93 White (Dress/Robe)
+94 Power (Dress/Robe)
+95 Heroine (Dress/Robe)
+96 Prisoner (Dress/Robe)
+97 Bard (Dress/Robe)
+98 Karate (Dress/Robe)
+99 Bl.Belt (Gi)
+9B Ninja (Dress/Robe)
+9C Iron (Gauntlet)
+9D Shadow (Gauntlet)
+9E Darkness (Gauntlet)
+9F Black (Gauntlet)
+A0 Paladin (Gauntlet)
+A1 Silver (Gauntlet)
+A2 Diamond (Gauntlet)
+A3 Zeus (Gauntlet)
+A4 Samurai (Gauntlet)
+A5 Dragoon (Gauntlet)
+A6 Crystal (Gauntlet)
+A7 Iron Ring
+A8 Ruby Ring
+A9 Silver (Ring)
+AA Strength (Ring)
+AB Rune (Ring)
+AC Crystal (Ring)
+AD Diamond (Ring)
+AE Protect (Ring)
+AF Cursed
+C8 Crystal
+CE Cure1
+CF Cure2
+D0 Cure3
+D1 Ether1
+D2 Ether2
+D3 Elixer
+D4 Life
+DD Heal
+ED Whistle
+E2 Tent
+E3 Cabin
+E7 Imp
+E8 Bomb
+E9 Dummy
+EA Mage
+EB Carrot
+EC Pass
+EE Package
+EF Baron(Key)
+F0 Sand Ruby
+F1 Earth(Crystal)
+F2 Magma(Key)
+F3 Luca(Key)
+F4 TwinHarp(Harp)
+F5 Darkness(Crystal)
+F6 Rat(Tail)
+F7 Adamant
+F8 Pan
+F9 Pink (Tail)
+FA Tower(Key)
+
+quick Level gain [ninjor]
+04505979 00FFFF4F
+
+max Gil [ninjor]
+02503A88 0000FFFF
+
+best Equip. [ninjor]
+0450382C 6C016B02
+04503830 800C9A0B
+04503834 AC0C5F63
+04503838 5F635F63
+0450383C 5F63F901

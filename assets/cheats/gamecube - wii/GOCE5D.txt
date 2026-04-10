@@ -1,0 +1,161 @@
+GOCE5D
+RoadKill
+
+No Tires Spin [James0x57]
+040852AC 60000000
+04085320 60000000
+0408517C 60000000
+040851F8 60000000
+
+Very Few Collisions On/Off (R/L+D-pad Down) [James0x57]
+2859DC14 00000024
+040F8718 60000000
+040F8724 60000000
+040F872C 60000000
+E0000000 80008000
+2859DC14 00000044
+040F8718 D01F0024
+040F8724 D01F0028
+040F872C D01F002C
+E0000000 80008000
+
+Player 1 Infinite Health [James0x57]
+0431EA80 40000000
+
+Player 2 Infinite Health [James0x57]
+04321730 40000000
+
+Player 3 Infinite Health [James0x57]
+043243E0 40000000
+
+Player 4 Infinite Health [James0x57]
+04327090 40000000
+
+Player 1 Infinite Ammo [James0x57]
+0834C0E0 00000FFF
+20120001 00000000
+
+Player 2 Infinite Ammo [James0x57]
+0834D940 00000FFF
+20120001 00000000
+
+Player 3 Infinite Ammo [James0x57]
+0834F1A0 00000FFF
+20120001 00000000
+
+Player 4 Infinite Ammo [James0x57]
+08350A00 00000FFF
+20120001 00000000
+
+Player 1 Infinite Turbo [James0x57]
+0431EB28 41200000
+
+Player 2 Infinite Turbo [James0x57]
+043217D8 41200000
+
+Player 3 Infinite Turbo [James0x57]
+04324488 41200000
+
+Player 4 Infinite Turbo [James0x57]
+04327138 41200000
+
+Player 1 Joker
+
+8059DC14
+
+Player 2 Joker
+
+8059DC20
+
+Player 3 Joker
+
+8059DC2C
+
+Player 4 Joker
+
+8059DC38
+
+Player 1 Primary Weapons Modifier [James0x57]
+0434C0D0 XXXXXXXX
+0434C0D4 XXXXXXXX
+0434C0D8 XXXXXXXX
+
+Player 1 Secondary Weapon Modifier [James0x57]
+0434C0DC XXXXXXXX
+
+Player 2 Primary Weapons Modifier [James0x57]
+0434D930 XXXXXXXX
+0434D934 XXXXXXXX
+0434D938 XXXXXXXX
+
+Player 2 Secondary Weapon Modifier [James0x57]
+0434D93C XXXXXXXX
+
+Player 3 Primary Weapons Modifier [James0x57]
+0434F190 XXXXXXXX
+0434F194 XXXXXXXX
+0434F198 XXXXXXXX
+
+Player 3 Secondary Weapon Modifier [James0x57]
+0434F19C XXXXXXXX
+
+Player 4 Primary Weapons Modifier [James0x57]
+043509F0 XXXXXXXX
+043509F4 XXXXXXXX
+043509F8 XXXXXXXX
+
+Player 4 Secondary Weapon Modifier [James0x57]
+043509FC XXXXXXXX
+
+Selected Car in Car Garage [James0x57]
+043BE584 000000XX
+
+Player 1 Car Modifier [James0x57]
+044E8030 000000XX
+
+Player 2 Car Modifier [James0x57]
+044E8048 000000XX
+
+Player 3 Car Modifier [James0x57]
+044E8060 000000XX
+
+Player 4 Car Modifier [James0x57]
+044E8078 000000XX
+
+Multiplayer Level Modifier Lava Falls (Says Amusement Park) [James0x57]
+044E802C 00000000
+
+Multiplayer Level Modifier Blister Canyon [James0x57]
+044E802C 0000000C
+
+Multiplayer Level Modifier Paradice City [James0x57]
+044E802C 0000000B
+
+Normal Weather (A+D-pad Down) [James0x57]
+2859DC14 00000104
+04586E88 00000001
+04586E48 32000000
+E2000001 80008000
+
+Lightning & Thunder Weather (B+D-pad Up) [James0x57]
+2859DC14 00000208
+04586E88 0000000E
+04586E48 32000000
+E2000001 80008000
+
+Tornado Weather (B+D-pad Down) [James0x57]
+2859DC14 00000204
+04586E88 00000011
+04586E48 32000000
+E2000001 80008000
+
+Thunder Storm Weather (A+D-pad Up) [James0x57]
+2859DC14 00000108
+04586E88 00000005
+04586E48 32000000
+E2000001 80008000
+
+Cycle Weather Events (A+B) [James0x57]
+2859DC14 00000300
+04586E48 32000000
+E2000001 80008000

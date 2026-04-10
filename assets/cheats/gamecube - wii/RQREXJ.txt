@@ -1,0 +1,39 @@
+RQREXJ
+The Sky Crawlers Innocent Aces
+
+Infinite ammo (original by ZiT) [joecamel]
+04049D0C B07B0004
+0404AA60 B0780004
+
+Invincible (original by ZiT) [joecamel]
+04027B80 B08300F4
+
+No time limit [joecamel]
+040BD3E8 7C035800
+
+Instant reload [joecamel]
+0404AA54 D3B80000
+04049CF4 D3BB0000
+
+Arms don't overheat (original by ZiT) [joecamel]
+04049358 D21A001C
+
+Infinite maneuver lv 3 (original by ZiT) [joecamel]
+040CDE60 D0030000
+
+Zero TMC kills [joecamel]
+023002CC 00000000
+
+Mission clear time always zero [joecamel]
+223002A0 00000000
+043002E8 00000000
+E2000001 00000000
+
+No manual maneuver delay [joecamel]
+04098B9C D1CD9008
+
+Unlock missions, aircraft, weapons, colors and add ons (original by ZiT) [joecamel]
+0435D370 FFFFFFFF
+0835D404 01FFFFFF
+20170008 00000000
+0435D3DC FFFFFFFF

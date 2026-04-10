@@ -1,0 +1,8 @@
+C9RP
+International Karate
+
+Unlimited Time [Crapulecorp]
+002EF97C 00000030
+
+Player 1 (White) Score x9999 [Crapulecorp]
+022EF974 00009999

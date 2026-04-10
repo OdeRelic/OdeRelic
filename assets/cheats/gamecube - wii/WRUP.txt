@@ -1,0 +1,27 @@
+WRUP
+Bit.Trip Runner
+
+Button Activator [BoxNinja]
+203B8CF0 0000XXXX
+
+Max Score [BoxNinja]
+04493890 XXXXXXXX
+*Change X to score in hex
+
+Collect All Coins [BoxNinja]
+203B8CF0 00000100
+A8000000 00000001
+82200001 80493894
+84200001 80493898
+E0000000 80008000
+*Hit 2 before every level and collect 1 coin to activate
+
+Moon Jump [BoxNinja]
+203B8CF0 00000100
+0431E740 35C42543
+E0000000 80008000
+*Hold 2 to fly
+
+Auto Initials [BoxNinja]
+04304CB8 XXYYZZ00
+*replace XX with the first initial, YY with the 2nd, and ZZ with the 3rd

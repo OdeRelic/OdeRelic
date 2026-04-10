@@ -1,0 +1,16 @@
+JAZE
+Legend of the Mystical Ninja
+
+Player 1 Unlimited Health [GMO]
+008BB89A 00000008
+
+Player 1 Unlimited Lives [GMO]
+008BB898 00000004
+
+Unlimited Money [GMO]
+048BB894 99999999
+
+Press Z(Right) For More Time [GMO]
+28184EAE 00000004
+028B9E7E 00009999
+E0000000 80008000

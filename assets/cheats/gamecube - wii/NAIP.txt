@@ -1,0 +1,17 @@
+NAIP
+Wave Race 64
+
+Unlimited Misses Player 1 [Crapulecorp]
+012E61BF 00000000
+*Ported from Sharkbyte Ntsc Usa Version*
+
+Maximum Power Player 1 [Crapulecorp]
+012E61B7 00000005
+*Ported from Sharkbyte Ntsc Usa Version*
+
+Always First and Final Lap [Crapulecorp]
+012E6097 00000000
+
+99 Championship Points [Crapulecorp]
+012EF073 00000063
+*Ported from Sharkbyte Ntsc Usa Version*

@@ -1,0 +1,57 @@
+MAFE
+Gunstar Heroes
+
+MAFE
+Gunstar Heroes
+
+Press Minus&Plus for Max Vitality (player 1) [funkamatic]
+281C509A 00001010
+00EFD865 000000FF
+E0000000 80008000
+
+Press Minus&Plus for Max Vitality (player 2) [funkamatic]
+281C549A 00001010
+00EFDA65 000000FF
+E0000000 80008000
+
+Press Minus+A to set 1st weapon (preselect weapon) (player 1) [funkamatic]
+281C509A 00001800
+00EFD8AF 000000XX
+E0000000 80008000
+XX= weapon
+04= Force
+08= Lightning
+0C= Chaser
+10= Fire
+
+Press Minus+A to set 1st weapon (preselect weapon) (player 2) [funkamatic]
+281C509A 00001800
+00EFDAAF 000000XX
+E0000000 80008000
+XX= weapon
+04= Force
+08= Lightning
+0C= Chaser
+10= Fire
+
+Press Minus+B to set 2nd weapon (preselect weapon) (player 1) [funkamatic]
+281C509A 00001400
+00EFD8B1 000000XX
+E0000000 80008000
+XX= weapon
+04= Force
+08= Lightning
+0C= Chaser
+10= Fire
+
+Press Minus+B to set 2nd weapon (preselect weapon) (player 2) [funkamatic]
+281C509A 00001400
+00EFDAB1 000000XX
+E0000000 80008000
+XX= weapon
+04= Force
+08= Lightning
+0C= Chaser
+10= Fire
+
+NOTE: these codes only work with the Wii remote (both players)

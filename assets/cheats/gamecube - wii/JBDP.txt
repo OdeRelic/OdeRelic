@@ -1,0 +1,159 @@
+JBDP
+Donkey Kong Country 2: Diddy Kong's Quest
+
+99 Lives [Crapulecorp]
+008BBD68 00000063
+*Code ported from GMO Ntsc Usa Version*
+
+99 Bananas [Crapulecorp]
+008BBE15 00000099
+*Code ported from GMO Ntsc Usa Version*
+
+99 DK Coins [Crapulecorp]
+008BBD76 00000063
+*Code ported from Hacc Snes Action Replay Version*
+
+99 Krem Coins [Crapulecorp]
+008BBD74 00000063
+*Code ported from Hacc Snes Action Replay Version*
+
+99 Banans Coins [Crapulecorp]
+008BBD72 00000063
+*Code ported from Hacc Snes Action Replay Version*
+
+Invincible [Crapulecorp]
+008BCB97 00000002
+008BCB70 00000002
+*Code ported from Thomas83Lin Ntsc Usa Version*
+
+Animal Modifier (Press L ON/OFF) [Crapulecorp]
+2819679A DFFF2000
+048BB514 xxxxxxxx
+CC000000 00000000
+048BB514 xxxxxxxx
+E0000000 80008000
+*Buggy*
+*Replace xxxxxxxx for :
+5A0F9C01 Rhino
+00009401 Snake
+FC0EA001 sword fish
+00009801 Bird*
+*Code ported from Thomas83Lin Ntsc Usa Version*
+
+MoonJump [Crapulecorp]
+28186B6E FFBF0040
+048BC2AC 000098FA
+048BC30C 98FA0000
+E0000000 80008000
+*Classic Controller*
+*Code ported from Mathew_Wi Ntsc Usa Version*
+
+Moonjump [Crapulecorp]
+2870A348 FDFF0200
+048BC2AC 000098FA
+048BC30C 98FA0000
+E0000000 80008000
+*GameCube Controller*
+*Code ported from Mathew_Wi Ntsc Usa Version*
+
+Always Have Buddy [Crapulecorp]
+008BBD6B 00000050
+*Code ported from Mathew_Wi Ntsc Usa Version*
+
+Start At Half Way Point (Hold L) [Crapulecorp]
+28186B6E DFFF2000
+008BBD4E 00000001
+E0000000 80008000
+*Classic Controller*
+*Hold L while loading a level.*
+*Might break if you use on a boss.*
+*Code ported from Mathew_Wi Ntsc Usa Version*
+
+Start At Half Way Point (Hold L) [Crapulecorp]
+2870A348 FFBF0040
+008BBD4E 00000001
+E0000000 80008000
+*GameCube Controller*
+*Hold L while loading a level.*
+*Might break if you use on a boss.*
+*Code ported from Mathew_Wi Ntsc Usa Version*
+
+Start At The End (Hold R) [Crapulecorp]
+28186B6E FDFF0200
+008BBD4E 0000000F
+E0000000 80008000
+*Classic Controller*
+*Hold R while loading a level.*
+*Might break if you use on a boss.*
+*Starts you at the end of the level.*
+*Code ported from Mathew_Wi Ntsc Usa Version*
+
+Start At The End (Hold R) [Crapulecorp]
+2870A348 FFDF0020
+008BBD4E 0000000F
+E0000000 80008000
+*GameCube Controller*
+*Hold R while loading a level.*
+*Might break if you use on a boss.*
+*Starts you at the end of the level.*
+*Code ported from Mathew_Wi Ntsc Usa Version*
+
+Press Z(Right) For More Time [Crapulecorp]
+28186B6E FFFB0004
+008BC38C 00000032
+E0000000 80008000
+*Classic Controller*
+*Code ported from GMO Ntsc Usa Version*
+
+Press Z For More Time [Crapulecorp]
+2870A348 FFEF0010
+008BC38C 00000032
+E0000000 80008000
+*GameCube Controller*
+*Code ported from GMO Ntsc Usa Version*
+
+Infinite Time (Find the Token! Game) [Crapulecorp]
+008BC38C 0000000A
+*Code ported from Hacc Snes Action Replay Version*
+
+All Enemies Defeated In Rickety Race Level [Crapulecorp]
+008BC204 00000000
+*Code ported from Hacc Snes Action Replay Version*
+
+102% Completion [Crapulecorp]
+068C0E18 00000030
+0000AA2A 98669699
+A96A6A15 6666A466
+A9856A69 AA555600
+80595A5A 5A5A0A40
+0000FFFF FFFFEFDF
+FFFDFF03 8CFF3FF8
+068C0E58 00000008
+00000022 00100200
+068C0E64 00000010
+00000B80 FFFFFE3F
+BE61FFFF FF3F0F00
+068C0E78 00000008
+0000BEDD FB0338F3
+068C0E84 00000010
+00000478 00000180
+40060000 00000000
+068C0E98 00000008
+0000BEFF FB033AF3
+068C0EA4 00000010
+00000F78 00000180
+40060000 00000000
+008BBD76 00000028
+028BBDA2 00007C5F
+008BBD78 00000063
+*Code ported from Thomas83Lin Ntsc Usa Version*
+
+Activator Player 1
+
+Classic Controller [Crapulecorp]
+28186B6E YYYYZZZZ
+
+GameCube Controller [Crapulecorp]
+2870A348 YYYYZZZZ
+
+Activator Player 1

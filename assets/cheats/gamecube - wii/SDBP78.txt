@@ -1,0 +1,35 @@
+SDBP78
+de Blob 2
+
+Pink infinit ammo [Patedj]
+042ABE34 38000063
+
+Paint (-) to add or sub [Patedj]
+2866589A 00001000
+0423540C 7C062A14
+CC000000 00000001
+0423540C 7C053050
+E0000000 80008000
+
+Inspire adds instead of subs [Patedj]
+042879F0 7C001A14
+
+Timers (Special Thanks to DCX2)
+
+Stop and start the timer [Patedj]
+2866589A 00001000
+0414DA24 60000000
+CC000000 00000000
+0414DA24 D01F0008
+E0000000 80008000
+Pressing - will stop the timer
+
+Time Adds instead of subtracts [Patedj]
+0414DA1C EC1FF02A
+
+Zoom Timer (B)+(-) to add or subtract [Patedj]
+2866589A 00001400
+0418CCC8 EC02F82A
+CC000000 00000001
+0418CCC8 EC02F828
+E0000000 80008000

@@ -1,0 +1,58 @@
+RSZPGT
+Legend Of Sayuki
+
+Player 1
+
+Lives x5 (Push B) [Crapulecorp]
+28432A42 FBFF0400
+001BB69B 00000005
+E0000000 80008000
+*WiiMote-NunChuk*
+
+Life x7 [Crapulecorp]
+001D296F 000000D2
+
+Power x390 (Push 1) [Crapulecorp]
+28432A42 FDFF0200
+041BB6D8 0000018B
+E0000000 80008000
+*WiiMote-NunChuk*
+
+Score Max (Push 2) [Crapulecorp]
+28432A42 FEFF0100
+041BB688 0098967F
+E0000000 80008000
+*WiiMote-NunChuk*
+
+Player 2
+
+Lives x5 (Push B) [Crapulecorp]
+28433306 FBFF0400
+001BB69F 00000005
+E0000000 80008000
+*WiiMote-NunChuk*
+
+Life x7 [Crapulecorp]
+001D2973 000000D2
+
+Power x390 (Push 1) [Crapulecorp]
+28433306 FDFF0200
+041BB6DC 0000018B
+E0000000 80008000
+*WiiMote-NunChuk*
+
+Score Max (Push 2) [Crapulecorp]
+28433306 FEFF0100
+041BB68C 0098967F
+E0000000 80008000
+*WiiMote-NunChuk*
+
+Button Activator
+
+Player 1 [Crapulecorp]
+28432A42 YYYYZZZZ
+*WiiMote-NunChuk*
+
+Player 2 [Crapulecorp]
+28433306 YYYYZZZZ
+*WiiMote-NunChuk*

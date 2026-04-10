@@ -1,0 +1,188 @@
+JA6E
+Zombies Ate My Neighbors
+
+Miscellaneous Codes
+
+P1 Have Unlimited Ammo & Items [GMO]
+08447F74 00009909
+100E0000 00000000
+08447FB4 00009909
+10060000 00000000
+08447FC2 00009909
+10040000 00000000
+
+P2 Have Unlimited Ammo & Items [GMO]
+08447F94 00009909
+100E0000 00000000
+08447FD4 00009909
+10060000 00000000
+08447FE2 00009909
+10040000 00000000
+
+P1 Always Have Speed Shoes Effect [GMO]
+00447FE8 000000FF
+Port from Crapulecorp's PAL Code from Aether Knight's SNES AR Code
+
+P2 Always Have Speed Shoes Effect [GMO]
+0044657D 000000FF
+Port from Crapulecorp's PAL Code from Aether Knight's SNES AR Code
+
+Player 2 Codes
+
+P2 Unlimited Lives [GMO]
+00448014 00000009
+
+P2 Unlimited Health [GMO]
+00447F60 0000000A
+
+P2 Have Water Gun Ammo [GMO]
+02447F74 00009909
+
+P2 Have Fire Extinguisher Ammo [GMO]
+02447F76 00009909
+
+P2 Have Alien Bubble Gun Ammo [GMO]
+02447F78 00009909
+
+P2 Have Weed Whacker Ammo [GMO]
+02447F7A 00009909
+
+P2 Have Ancient Artifact Ammo [GMO]
+02447F7C 00009909
+
+P2 Have Bazooka Ammo [GMO]
+02447F7E 00009909
+
+P2 Have Soda Cans Ammo [GMO]
+02447F80 00009909
+
+P2 Have Tomatoes Ammo [GMO]
+02447F82 00009909
+
+P2 Have Popsicles Ammo [GMO]
+02447F84 00009909
+
+P2 Have banana Ammo [GMO]
+02447F86 00009909
+
+P2 Have Dishes Ammo [GMO]
+02447F88 00009909
+
+P2 Have Silverware Ammo [GMO]
+02447F8A 00009909
+
+P2 Have Footballs Ammo [GMO]
+02447F8C 00009909
+
+P2 Have Flamethrower Ammo [GMO]
+02447F8E 00009909
+
+P2 Have Key [GMO]
+02447FB4 00009909
+
+P2 Have Speed Shoes [GMO]
+02447FB6 00009909
+
+P2 Have Monster Potion [GMO]
+02447FB8 00009909
+
+P2 Have Ghost Potion [GMO]
+02447FBA 00009909
+
+P2 Have Mystery Potion [GMO]
+02447FBC 00009909
+
+P2 Have Empty Potion [GMO]
+02447FBE 00009909
+
+P2 Have Medical Kit [GMO]
+02447FC2 00009909
+
+P2 Have Pandora's Box [GMO]
+02447FC4 00009909
+
+P2 Have Skull Key [GMO]
+02447FC6 00009909
+
+P2 Have Clown Kit [GMO]
+02447FC8 00009909
+
+Player 1 Codes
+
+P1 Unlimited Lives [GMO]
+00447FF4 00000009
+
+Inf HP [Skiller]
+00447F60 0000000A
+
+Inf/have Water Gun Ammo [Skiller]
+02447F74 00009909
+
+Inf/have Fire Extinguisher Ammo [Skiller]
+02447F76 00009909
+
+Inf/have Alien Bubble Gun Ammo [Skiller]
+02447F78 00009909
+
+Inf/have Weed Whacker Ammo [Skiller]
+02447F7A 00009909
+
+Inf/have Ancient Artifact Ammo [Skiller]
+02447F7C 00009909
+
+Inf/have Bazooka Ammo [Skiller]
+02447F7E 00009909
+
+Inf/have Soda Cans Ammo [Skiller]
+02447F80 00009909
+
+Inf/have Tomatoes Ammo [Skiller]
+02447F82 00009909
+
+Inf/have Popsicles Ammo [Skiller]
+02447F84 00009909
+
+Inf/have banana Ammo [Skiller]
+02447F86 00009909
+
+Inf/have Dishes Ammo [Skiller]
+02447F88 00009909
+
+Inf/have Silverware Ammo [Skiller]
+02447F8A 00009909
+
+Inf/have Footballs Ammo [Skiller]
+02447F8C 00009909
+
+Inf/have Flamethrower Ammo [Skiller]
+02447F8E 00009909
+
+Inf/have Key [Skiller]
+02447FB4 00009909
+
+Inf/have Speed Shoes [Skiller]
+02447FB6 00009909
+
+Inf/have Monster Potion [Skiller]
+02447FB8 00009909
+
+Inf/have Ghost Potion [Skiller]
+02447FBA 00009909
+
+Inf/have Mystery Potion [Skiller]
+02447FBC 00009909
+
+Inf/have Empty Potion [Skiller]
+02447FBE 00009909
+
+Inf/have Medical Kit [Skiller]
+02447FC2 00009909
+
+Inf/have Pandora's Box [Skiller]
+02447FC4 00009909
+
+Inf/have Skull Key [Skiller]
+02447FC6 00009909
+
+Inf/have Clown Kit [Skiller]
+02447FC8 00009909

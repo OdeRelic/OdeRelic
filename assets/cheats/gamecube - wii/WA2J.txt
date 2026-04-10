@@ -1,0 +1,9 @@
+WA2J
+Minna de Puzzloop
+
+Score MAX [ZiT]
+0402A790 9006000C
+
+If Level Increase, MAX [ZiT]
+0401031C B09D003E
+04030584 91830028

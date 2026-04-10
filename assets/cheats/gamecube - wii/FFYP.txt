@@ -1,0 +1,108 @@
+FFYP
+Mega Man 5
+
+Unlimited Health [Crapulecorp]
+003F8050 0000009C
+
+Invincible [Crapulecorp]
+003F8558 00000001
+*Code ported from Thomas83Lin Ntsc Usa Version*
+
+Unlimited Lives [Crapulecorp]
+003F805F 00000009
+*Code ported from Thomas83Lin Ntsc Usa Version*
+
+Infinite Ammo+Energy [Crapulecorp]
+083F8051 0000009C
+000B0001 00000000
+*Unlock All Weapons+Secret Beat Weapon*
+*Code ported from Thomas83Lin Ntsc Usa Version*
+
+Infinite E+M Tanks [Crapulecorp]
+023F805D 00008989
+*Code ported from Thomas83Lin Ntsc Usa Version*
+
+Reduced Time Charged Shot
+
+Reduced Time Charged Shot [Crapulecorp]
+281B50E8 FDFF0200
+003F7FD8 00000050
+E0000000 80008000
+*WiiMote*
+*Code ported from GMO Ntsc Usa Version*
+
+Reduced Time Charged Shot (Press B) [Crapulecorp]
+281B5112 FFBF0040
+003F7FD8 00000050
+E0000000 80008000
+*Classic Controller*
+*Code ported from GMO Ntsc Usa Version*
+
+Reduced Time Charged Shot (Press Y) [Crapulecorp]
+281B51C0 F7FF0800
+003F7FD8 00000050
+E0000000 80008000
+*GameCube Controller*
+*Code ported from GMO Ntsc Usa Version*
+
+1 Hit Boss Kill
+
+1 Hit Boss Kill (Press -) [Crapulecorp]
+281B50E8 00001000
+003F83F8 00000001
+E0000000 80008000
+*WiiMote*
+*Code ported from GMO Ntsc Usa Version*
+
+1 Hit Boss Kill (Press L) [Crapulecorp]
+281B5112 DFFF2000
+003F83F8 00000001
+E0000000 80008000
+*Classic Controller*
+*Code ported from GMO Ntsc Usa Version*
+
+1 Hit Boss Kill (Press L) [Crapulecorp]
+281B5112 FFBF0040
+003F83F8 00000001
+E0000000 80008000
+*GameCube Controller*
+*Code ported from GMO Ntsc Usa Version*
+
+Moon Jump
+
+Moon Jump (Press 1+2) [Crapulecorp]
+281B50E8 FCFF0300
+003F8390 00000004
+E0000000 80008000
+*Wiimote*
+*Code ported from Thomas83Lin Ntsc Usa Version*
+
+Moon Jump (Press A) [Crapulecorp]
+281B5112 FFEF0010
+003F8390 00000004
+E0000000 80008000
+*Classic Controller*
+*Code ported from Thomas83Lin Ntsc Usa Version*
+
+Moon Jump (Press X) [Crapulecorp]
+281B51C0 FBFF0400
+003F8390 00000004
+E0000000 80008000
+*GameCube Controller*
+*Code ported from Thomas83Lin Ntsc Usa Version*
+
+All MegaMan Letters
+003F800D 000000FF 000000FF
+*Receive Beat after picking up any letter*
+*Code ported from bThomas83Lin/b Ntsc Usa Version*
+
+Button Activator
+
+WiiMote [Crapulecorp]
+281B50E8 YYYYZZZZ
+
+Classic Controller [Crapulecorp]
+281B5112 YYYYZZZZ
+
+GameCube Controller [Crapulecorp]
+281B51C0 YYYYZZZZ

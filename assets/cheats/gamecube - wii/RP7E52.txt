@@ -1,0 +1,13 @@
+RP7E52
+Pirates: Hunt for Blackbeard's Booty
+
+Unlock all Characters [TNTkryzt]
+081FD79C 00000001
+20170004 00000000
+
+Unlock all Games [TNTkryzt]
+081FD6F0 00000001
+202C0004 00000000
+
+Have Maximum Gold [TNTkryzt]
+041FC2C4 000F423F

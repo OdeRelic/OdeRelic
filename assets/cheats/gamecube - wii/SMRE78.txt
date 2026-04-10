@@ -1,0 +1,227 @@
+SMRE78
+WWE Smackdown vs. Raw 2011
+
+Unlock All Content [GMO]
+01673158 00000001
+
+Unlock Superstar Attribute Adjust Feature [GMO]
+01673159 00000001
+
+Unlock Online Axxess [GMO]
+0167315D 00000001
+
+Unlock Rey Mysterio (Evil) [GMO]
+01673160 00000001
+
+Unlock Todo Americano [GMO]
+01673161 00000001
+
+Unlock Christian (Conquistador) [GMO]
+01673162 00000001
+
+Unlock Jake Roberts [GMO]
+01673163 00000001
+
+Unlock Paul Bearer [GMO]
+01673164 00000001
+
+Unlock Rob Van Dam [GMO]
+01673165 00000001
+
+Unlock Jimmy Snuka [GMO]
+01673166 00000001
+
+Unlock The Rock [GMO]
+01673167 00000001
+
+Unlock Stone Cold Steve Austin [GMO]
+01673168 00000001
+
+Unlock Vince McMahon (Wrestling) [GMO]
+01673169 00000001
+
+Unlock Terry Funk [GMO]
+0167316A 00000001
+
+Unlock Ricky Steamboat [GMO]
+0167316B 00000001
+
+Unlock The Druid and Druid Arena [GMO]
+0167316C 00000001
+
+Unlock John Cena's Civilian Clothes [GMO]
+0167316D 00000001
+
+Unlock Chris Jericho (Civilian) [GMO]
+0167316E 00000001
+
+Unlock Christian (Civilian) [GMO]
+0167316F 00000001
+
+Unlock Rey Mysterio (Civilian) [GMO]
+01673170 00000001
+
+Unlock Triple H (Civilian) [GMO]
+01673171 00000001
+
+Unlock Edge (Civilian) [GMO]
+01673172 00000001
+
+Unlock Vince McMahon (Suit) [GMO]
+01673173 00000001
+
+Unlock MVP (Civilian) [GMO]
+01673174 00000001
+
+Unlock Batista (Civilian) [GMO]
+01673175 00000001
+
+Unlock Randy Orton (Referee) [GMO]
+01673176 00000001
+
+Unlock Randy Orton (Suit) [GMO]
+01673177 00000001
+
+Unlock Randy Orton (T-Shirt) [GMO]
+01673178 00000001
+
+Unlock Cody Rhodes (T-shirt) [GMO]
+01673179 00000001
+
+Unlock Ted DiBiase (T-Shirt) [GMO]
+0167317A 00000001
+
+Unlock Jack Swagger (Civilian) [GMO]
+0167317B 00000001
+
+Unlock ECW Create Content [GMO]
+0167317F 00000001
+01673180 00000001
+
+Unlock Backlash Arena [GMO]
+01673181 00000001
+
+Unlock Extreme Rules [GMO]
+01673182 00000001
+
+Unlock The Bash [GMO]
+01673183 00000001
+
+Unlock Night of Champions [GMO]
+01673184 00000001
+
+Unlock ECW [GMO]
+01673185 00000001
+
+Unlock Hell in a Cell [GMO]
+01673186 00000001
+
+Unlock Bragging Rights [GMO]
+01673187 00000001
+
+Unlock Survivor Series [GMO]
+01673188 00000001
+
+Unlock TLC [GMO]
+01673189 00000001
+
+Unlock Judgement Day [GMO]
+0167318A 00000001
+
+Unlock Breaking Point [GMO]
+0167318B 00000001
+
+Unlock Tribute to the Troops Arena [GMO]
+0167318C 00000001
+
+Unlock Gail Kim [GMO]
+0167318D 00000001
+
+Unlock Mickie James [GMO]
+0167318E 00000001
+
+Unlock William Regal [GMO]
+0167318F 00000001
+
+Unlock Vladimir Kozlov [GMO]
+01673190 00000001
+
+Unlock Goldust [GMO]
+01673191 00000001
+
+Unlock Yoshi Tatsu [GMO]
+01673192 00000001
+
+Unlock Zack Ryder [GMO]
+01673193 00000001
+
+Unlock Shelton Benjamin [GMO]
+01673194 00000001
+
+Unlock Mike Knox [GMO]
+01673195 00000001
+
+Unlock Ezekiel Jackson [GMO]
+01673196 00000001
+
+Unlock Finlay [GMO]
+01673197 00000001
+
+Unlock ECW Belt [GMO]
+01673198 00000001
+
+Unlock WCW Belt [GMO]
+01673199 00000001
+
+Unlock Cruiserweight Belt [GMO]
+0167319A 00000001
+
+Unlock Hardcore Belt [GMO]
+0167319B 00000001
+
+Unlock WWE and WOrld Tag Team Belts [GMO]
+0167319C 00000001
+
+Unlock Nikki Bella [GMO]
+0167319D 00000001
+
+Unlock Brie Bella [GMO]
+0167319E 00000001
+
+Unlock Fan Axxess [GMO]
+016731A5 00000001
+
+Infinite Health [ZiT]
+C20C5C18 00000005
+2C170000 40820018
+A8C30040 B0C30038
+B0C3003A B0C3003C
+B0C3003E A8A30038
+60000000 00000000
+
+Infinite Health + Weak Opponents [ZiT]
+C20C5C18 00000008
+2C170000 4082001C
+A8C30040 B0C30038
+B0C3003A B0C3003C
+B0C3003E 48000018
+38C00000 B0C30038
+B0C3003A B0C3003C
+B0C3003E A8A30038
+60000000 00000000
+
+Infinite Finishers [ZiT]
+C20C5C1C 00000005
+2C170000 40820010
+3D803F80 9183008C
+4800000C 39800000
+9183008C A803003A
+60000000 00000000
+
+Quick Recovery [ZiT]
+C20C5C20 00000005
+2C170000 40820018
+39800000 918300BC
+918300C0 918300C4
+918300C8 7C862214
+60000000 00000000

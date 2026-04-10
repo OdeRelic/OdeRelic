@@ -1,0 +1,8 @@
+WGSJ
+Gyakuten Saiban Yomigaeru Gyakuten
+
+Infinite Impression [ZiT]
+42000000 90000000
+011CB10B 00000005
+E0000000 80008000
+040DE9D4 60000000

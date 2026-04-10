@@ -1,0 +1,78 @@
+JDCP
+Street Fighter Alpha 2
+
+Unlimited Health Player 1 [Crapulecorp]
+00448D2E 00000090
+00448D30 00000090
+*Code ported from GMO Ntsc Usa Version*
+
+Unlimited/Max Special Player 1 [Crapulecorp]
+00448DAE 00000090
+*Code ported from GMO Ntsc Usa Version*
+
+Unlimited Time [Crapulecorp]
+0044A16D 00000099
+
+CPU 1-Hit Kill (P2 Life Mod) [Crapulecorp]
+00448FAE 00000000
+*Code ported from GMO Ntsc Usa Version*
+
+Add Time Press Z-Right [Crapulecorp]
+2815FE22 FFFB0004
+0044A12D 00000099
+E0000000 80008000
+*Code ported from GMO Ntsc Usa Version*
+
+Disable Timer [Crapulecorp]
+0044A16E 00000020
+*Code ported from GMO Ntsc Usa Version*
+
+Unlimited Continue Time [Crapulecorp]
+0044A2B4 00000009
+*Code ported from GMO Ntsc Usa Version*
+
+Character Shadow Trails Enabled [Crapulecorp]
+004486DF 00000003
+*Original code by Hacc, Ported by Lee4*
+
+P1 Character Modifier [Crapulecorp]
+0044A217 000000XX
+*Replace XX for :
+00 Ryu
+01 Adon
+02 Chun Li
+03 Guy
+04 Ken
+05 Dhalsim
+06 Gen
+07 Sakura
+08 Rolento
+09 Zangief
+0A Charlie
+0B Birdie
+0C Rose
+0D Katana
+0E Sagat
+0F Akuma
+10 M.Bison
+11 Dan
+12 Classic Chun Li
+14 Shin Akuma*
+*Code ported from GMO Ntsc Usa Version*
+
+P1 Play as Shin Akuma (ZL+Up) [Crapulecorp]
+2815FE22 00000081
+0044A217 00000014
+E0000000 80008000
+*Code ported from GMO Ntsc Usa Version*
+
+P1 Play as Classic Chun Li (ZL+Down) [Crapulecorp]
+2815FE22 00004080
+0044A217 00000012
+E0000000 80008000
+*Code ported from GMO Ntsc Usa Version*
+
+Button Activator
+
+Classic Controller P1 [Crapulecorp]
+2815FE22 YYYYZZZZ

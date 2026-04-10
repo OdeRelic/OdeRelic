@@ -1,0 +1,20 @@
+RD9J18
+SUDOKU
+
+Standard
+
+TIME STOP [ZiT]
+04036D74 60000000
+
+Championship
+
+TIME STOP [ZiT]
+04587FBC xxxxxxxx
+xxxxxxxx=Time
+5 minutes=000493E0
+10 minutes=000927C0
+20 minutes=00124F80
+30 minutes=001B7740
+45 minutes=002932E0
+
+xxxxxxxx=Time

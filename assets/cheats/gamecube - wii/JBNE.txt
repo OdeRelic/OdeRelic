@@ -1,0 +1,14 @@
+JBNE
+Darius Twin
+
+P1 Inf Lives [Thomas83Lin]
+00460AD0 00000005
+
+P1 Inf Shield [Thomas83Lin]
+004611E3 00000009
+
+P2 Inf Lives [Thomas83Lin]
+00460AD1 00000005
+
+P2 Inf Shield [Thomas83Lin]
+004612F3 00000009

@@ -1,0 +1,77 @@
+WSAP
+Onslaught
+
+Button Activator [Deathwolf]
+282F6DDA 0000YYYY
+
+Infinity Health [Deathwolf]
+C203CAE8 00000003
+3D800000 618C0BB8
+919F0030 807F0030
+60000000 00000000
+
+infinity Ammo [Deathwolf]
+4A000000 80000000
+040522E4 60000000
+04052B54 60000000
+04052B54 60000000
+040524D4 60000000
+04052FEC 60000000
+04053414 60000000
+E0000000 80008000
+
+Score Modifier [Deathwolf]
+C2012A14 00000003
+3DC0XXXX 61CEXXXX
+91C40028 80A40028
+60000000 00000000
+
+Infinity Time [Deathwolf]
+040163A0 60000000
+
+Full Combo Meter [Deathwolf]
+C2016338 00000003
+3D800000 618CFFFF
+918D9578 808D9578
+60000000 00000000
+
+Ranking Modifier [Deathwolf]
+0423EDD4 XXXXXXXX
+0423ED64 XXXXXXXX
+
+Infinite ammo (all weapons) [ardemii]
+0024438B 000000FF
+0024438F 000000FF
+0024438D 000000FF
+00244389 000000FF
+00244391 000000FF
+00244393 000000FF
+
+Infinite time [ardemii]
+040163A0 60000000
+
+Infinite Health (Player) [ardemii]
+046C0FF0 00000BB8
+Original by farjo08, ported by ardemii
+
+Infinite Health (Base) [ardemii]
+046C14B0 00001450
+Original by farjo08, ported by ardemii
+
+Infinite Health (Supplies) [ardemii]
+046C1204 000037DC
+Original by farjo08, ported by ardemii
+
+Infinite Health (BKD-G9) [ardemii]
+046C10D4 00000BB8
+Original by farjo08, ported by ardemii
+
+Infinite Health (Ship) [ardemii]
+046C1548 00003CF0
+Original by farjo08, ported by ardemii
+
+MAX score [ardemii]
+0424313C 0FFFFFFF
+
+Full combo meter [ardemii]
+02353F9A 0000FFFF

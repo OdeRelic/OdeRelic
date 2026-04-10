@@ -1,0 +1,78 @@
+NAZJ
+Mario Party 2
+
+Miscellanous Codes
+
+Max Coins (Coin Box) [GMO]
+02C23FD3 0000270F
+
+Unlimited Lives (Mini-Game Coaster) [GMO]
+00C28BAC 00000063
+
+Final Turn Modifier [GMO]
+00C246B2 000000??
+14 = 20 Turns Game
+22 = 35 Turns Game
+32 = 50 Turns Game
+
+Player Position 1 Coins Modifier [GMO]
+02C285C9 00000???
+
+Player Position 1 Star Modifier [GMO]
+00C285D0 000000??
+
+Player Position 1 Item Modifier [GMO]
+00C285DA 000000??
+
+Player Position 2 Coins Modifier [GMO]
+02C285FD 00000???
+
+Player Position 2 Star Modifier [GMO]
+00C28604 000000??
+
+Player Position 2 Item Modifier [GMO]
+00C2860E 000000??
+
+Player Position 3 Coins Modifier [GMO]
+02C28631 00000???
+
+Player Position 3 Star Modifier [GMO]
+00C28638 000000??
+
+Player Position 3 Item Modifier [GMO]
+00C28642 000000??
+
+Player Position 4 Coins Modifier [GMO]
+02C28665 00000???
+
+Player Position 4 Star Modifier [GMO]
+00C2866C 000000??
+
+Player Position 4 Item Modifier [GMO]
+00C28676 000000??
+
+Coin Modifier Value
+
+0000 = 00
+0001 = 01
+03E7 = 999
+270F = 9999
+
+Star Modifier Values
+
+00 = 00
+01 = 01
+63 = 99
+
+Item Modifier Values
+
+00 Mushroom
+01 Skeleton Key
+02 Plunder Chest
+03 Bowser Bomb
+04 Dueling Glove
+05 Warp Block
+06 Golden Mushroom
+07 Boo Bell
+08 Bowser Suit
+09 Magic Lamp

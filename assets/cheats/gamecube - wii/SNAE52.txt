@@ -1,0 +1,8 @@
+SNAE52
+Cabela's North American Adventure
+
+Inf Bullets [Skiller]
+0407C104 90830004
+
+(Alt) Inf bullets [Skiller]
+0207C100 00000000

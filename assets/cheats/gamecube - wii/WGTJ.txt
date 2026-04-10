@@ -1,0 +1,16 @@
+WGTJ
+Sekai no Omoshiro Party Game
+
+Press 1 to unlock everything - free mode [Glitch]
+2839AD82 00000200
+42000000 90000000
+05D84D4C 0000016C
+E0000000 80008000
+
+Max Points [Glitch]
+040680BC 38A003E7
+040680C8 60000000
+
+Max Oxygen [Glitch]
+040E157C 7C802378
+040E18AC 60000000

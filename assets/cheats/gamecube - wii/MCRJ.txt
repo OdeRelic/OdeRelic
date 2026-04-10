@@ -1,0 +1,17 @@
+MCRJ
+Senjou no Ookami 2
+
+Infinite Life [ZiT]
+00FE09E9 00000020
+
+Infinite Bomb [ZiT]
+00FE09F1 0000009A
+
+Time Stop [ZiT]
+00FE0C5F 00000000
+
+Invincible [ZiT]
+02FE0C68 000000FF
+
+Shot Power MAX [ZiT]
+00FE09E7 00000009

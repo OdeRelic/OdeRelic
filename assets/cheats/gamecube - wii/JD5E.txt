@@ -1,0 +1,47 @@
+JD5E
+Brawl Brothers
+
+Miscellaneous Codes
+
+1-Hit Kill (Bosses) [GMO]
+0046756C 00000000
+
+P1 Character Modifier [GMO]
+004673C8 000000??
+
+P1 Unlimited Health [GMO]
+004673CC 0000004F
+
+P1 Unlimited Lives [GMO]
+004673EE 00000009
+
+P2 Character Modifier [GMO]
+00467498 000000??
+
+P2 Unlimited Health [GMO]
+0046749C 0000004F
+
+P2 Unlimited Lives [GMO]
+004674BE 00000009
+
+Character Modifier Values
+
+00 Hack
+02 Slash
+04 Lord J
+06 Kazan
+08 Wendy
+
+Button Activators
+
+Wiimote Pad1 [GMO]
+28194322 YYYYZZZZ
+
+Classic Pad1 [GMO]
+28194380 YYYYZZZZ
+
+WiiMote Pad2 [GMO]
+281949AA YYYYZZZZ
+
+Classic Pad2 [GMO]
+28194A0A YYYYZZZZ

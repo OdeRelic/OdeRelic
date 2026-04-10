@@ -1,0 +1,25 @@
+SFQP8P
+Captain America: Super Soldier
+
+Unlimited HP [Crapulecorp]
+040C7FA8 4081001C
+*Ported From Skiller's Ntsc Usa Version*
+
+Quick Upgrades/Gain lots EXP [Crapulecorp]
+040D9594 3C0003E8
+*Ported From Skiller's Ntsc Usa Version*
+
+View Upgrades To Get All Upgrades [Crapulecorp]
+C213C51C 00000003
+38C00001 7CC401AE
+38C00000 7C0400AE
+60000000 00000000
+*Ported From Skiller's Ntsc Usa Version*
+
+Have All Characters [Crapulecorp]
+C2022344 00000003
+39C00001 99C30250
+39C00000 88630250
+60000000 00000000
+*Same Adress From Skiller's Ntsc Usa Version*
+*Must Move Threw The List And It Unlocks Them 1 By 1 As You See Them*

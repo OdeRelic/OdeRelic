@@ -1,0 +1,15 @@
+GF7E01
+Starfox Assault
+
+Infinite Health On Foot (All Players) [Link Master]
+04083E30 60000000
+
+Infinite Health In Arwing/Wolfen (All Players) [Link Master]
+040460F0 60000000
+040462D0 60000000
+
+Infinite Health In Landmaster Tank (All Players) [Link Master]
+0402C334 60000000
+
+Infinite Booster Pack (All Players) [Link Master]
+0408093C 60000000

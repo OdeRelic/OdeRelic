@@ -1,0 +1,53 @@
+MANP
+Gain Ground
+
+Level Select Enabled In Option Menu [Crapulecorp]
+00DB6704 000000FF
+*Code ported from iamstillhiro111 Mega Drive Action Replay Version*
+
+Time Codes
+
+Unlimited Time [Crapulecorp]
+00DB1104 000000FF
+
+Refill Time (Press B) [Crapulecorp]
+281E56DA FBFF0400
+00DB1104 000000FF
+E0000000 80008000
+*WiiMote*
+
+Refill Time (Press ZL) [Crapulecorp]
+281E573A FF7F0080
+00DB1104 000000FF
+E0000000 80008000
+*Classic Controller*
+
+No Enemy Left/Instant Win
+
+No Enemy Left/Instant Win [Crapulecorp]
+00DB1107 00000000
+*Code ported from iamstillhiro111 Mega Drive Action Replay Version*
+
+No Enemy Left/Instant Win (Hold 1 And Press 2 ON/OFF) [Crapulecorp]
+281E56DA CFFF3000
+CC000000 00000000
+00DB1107 00000000
+E0000000 80008000
+*WiiMote*
+*Code ported from iamstillhiro111 Mega Drive Action Replay Version*
+
+No Enemy Left/Instant Win (Press ZR ON/OFF) [Crapulecorp]
+281E573A FFFB0004
+CC000000 00000000
+00DB1107 00000000
+E0000000 80008000
+*Classic Controller*
+*Code ported from iamstillhiro111 Mega Drive Action Replay Version*
+
+Button Activator
+
+WiiMote [Crapulecorp]
+281E56DA YYYYZZZZ
+
+Classic Controller [Crapulecorp]
+281E573A YYYYZZZZ

@@ -1,0 +1,8 @@
+GWEE51
+18 Wheeler 
+
+Freeze timers
+045A856C 0000270F
+
+Cargo value always 99999
+045A8588 0001869F

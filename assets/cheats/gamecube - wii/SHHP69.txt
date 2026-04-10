@@ -1,0 +1,11 @@
+SHHP69
+Harry Potter and the Deathly Hallows Part 1
+
+VBI Hook fix [Thomas83Lin]
+042DB7BC 4BD260EC
+*For Use when using Default\VBI Hook*
+
+Inf health [Thomas83Lin]
+C216B144 00000002
+C0230008 D0230000
+60000000 00000000

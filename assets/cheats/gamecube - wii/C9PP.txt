@@ -1,0 +1,100 @@
+C9PP
+The Last Ninja 3
+
+Unlimited Lives
+
+Unlimited Lives [Crapulecorp]
+002EB8DD 00000006
+
+Refill 5 lives (Press L) [Crapulecorp]
+281177C2 DFFF2000
+002EB8DD 00000006
+E0000000 80008000
+*Classic Controller*
+
+Refill 5 lives (Hold B And Press Up) [Crapulecorp]
+2815DD62 FBF70408
+002EB8DD 00000006
+E0000000 80008000
+*WiiMote*
+
+Unlimited lives (Press L ON/OFF) [Crapulecorp]
+281177C2 DFFF2000
+CC000000 00000000
+002EB8DD 00000006
+E0000000 80008000
+*Classic Controller*
+
+Unlimited lives (Hold B And Press Up ON/OFF) [Crapulecorp]
+2815DD62 FBF70408
+CC000000 00000000
+002EB8DD 00000006
+E0000000 80008000
+*WiiMote*
+
+Unlimited Health
+
+Unlimited Health [Crapulecorp]
+002EB8DC 0000002C
+
+Refill Health (Press ZL) [Crapulecorp]
+281177C2 FF7F0080
+002EB8DC 0000002C
+E0000000 80008000
+*Classic Controller*
+
+Refill Health (Hold B And Press Down) [Crapulecorp]
+2815DD62 FBFB0404
+002EB8DC 0000002C
+E0000000 80008000
+*WiiMote*
+
+Unlimited Health (Press ZL ON/OFF) [Crapulecorp]
+281177C2 FF7F0080
+CC000000 00000000
+002EB8DC 0000002C
+E0000000 80008000
+*Classic Controller*
+
+Unlimited Health (Hold B And Press Down ON/OFF) [Crapulecorp]
+2815DD62 FBFB0404
+CC000000 00000000
+002EB8DC 0000002C
+E0000000 80008000
+*WiiMote*
+
+1 Hit Kill
+
+1 Hit Kill (Press ZR) [Crapulecorp]
+281177C2 FFFB0004
+002EBB99 00000001
+E0000000 80008000
+*Classic Controller*
+
+1 Hit Kill (Hold B And Press Left) [Crapulecorp]
+2815DD62 FBFE0401
+002EBB99 00000001
+E0000000 80008000
+*WiiMote*
+
+1 Hit Kill (Press ZR ON/OFF) [Crapulecorp]
+281177C2 FFFB0004
+CC000000 00000000
+002EBB99 00000001
+E0000000 80008000
+*Classic Controller*
+
+1 Hit Kill (Hold B And Press Left ON/OFF) [Crapulecorp]
+2815DD62 FBFE0401
+CC000000 00000000
+002EBB99 00000001
+E0000000 80008000
+*WiiMote*
+
+Button Activator
+
+Classic Controller [Crapulecorp]
+281177C2 YYYYZZZZ
+
+WiiMote [Crapulecorp]
+2815DD62 YYYYZZZZ

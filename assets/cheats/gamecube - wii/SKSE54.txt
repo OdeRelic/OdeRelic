@@ -1,0 +1,120 @@
+SKSE54
+NBA 2K13
+
+Button Activator [Bully@Wiiplaza]
+282512D2 YYYYZZZZ
+
+No Fatigue [Bully@Wiiplaza]
+F2CF0720 0283ED02
+3D803F80 919F035C
+60000000 00000000
+
+Teammate Grade A+ [Bully@Wiiplaza]
+F30D1358 FC2CE203
+3D8042C8 918301C8
+918301CC C02301CC
+60000000 00000000
+*During matches*
+*Video: http://www.youtube.com/watch?v=t818lvBJ3ns
+
+Home Team: Score Modifier [Bully@Wiiplaza]
+F30A345C 0236C502
+38E0XXXX 90E454C8
+60000000 00000000
+*XXXX = HEX*
+
+Away Team: Score Modifier [Bully@Wiiplaza]
+F30A34A8 0236C502
+38E0XXXX 90E40004
+60000000 00000000
+*XXXX = HEX*
+
+End Quarter At Will [Bully@Wiiplaza]
+F2A1FFE4 FC242601
+D01C0010 00000000
+282512D2 F9FF0600
+F2A1FFE4 FC242601
+D2DC0010 00000000
+E0000000 80008000
+*Press 1 + B*
+
+Force Shot Clock Violation [Bully@Wiiplaza]
+F2A20024 FC242701
+D01D0010 00000000
+282512D2 FAFF0500
+F2A20024 FC242701
+D2DD0010 00000000
+E0000000 80008000
+*Press 2 + B to force shot clock violation*
+*Video: http://www.youtube.com/watch?v=Gxuxu_Q8KQ4
+
+Time Stop [Bully@Wiiplaza]
+282512D2 EFFF1000
+F2A1FFE4 FC242601
+60000000 00000000
+CC000000 00000000
+F2A1FFE4 FC242601
+D01C0010 00000000
+E0000000 80008000
+*Press minus to toggle ON/OFF*
+
+Shot Clock Default Timer Modifier [Bully@Wiiplaza]
+F2E9DA44 02FC1E02
+3D80XXXX 618CXXXX
+91840094 00000000
+*XXXXXXXX = Float*
+41C00000 = Default (24)
+
+Default Quarter Timer Modifier [Bully@Wiiplaza]
+04001650 XXXXXXXX
+F2EA3164 0280AB02
+3D808000 818C1650
+91830078 00000000
+F2E9CCB8 FCC3E902
+3D808000 818C1650
+919F0078 00000000
+*XXXXXXXX = Float*
+43960000 = Default (300)
+*Video: http://www.youtube.com/watch?v=sPTDElT2NVg
+
+Default OT Timer Modifier [Bully@Wiiplaza]
+F2EA3290 02849C02
+3D80XXXX 618CXXXX
+91850078 00000000
+*XXXXXXXX = Float*
+42700000 = Default (60)
+
+Infinite Time Out Time [Bully@Wiiplaza]
+F2EA2568 FC241701
+60000000 00000000
+*Dismiss to continue match*
+
+All Stats MAX´ed Out [Bully@Wiiplaza]
+F300E4F4 027E7702
+380000FF 90040008
+60000000 00000000
+*My career mode*
+*Video: http://www.youtube.com/watch?v=o05Qd0_-MJI
+
+Unlimited Skill Points (My Player Mode) [Crapulecorp]
+049C77CC 0001869F
+
+If Decrease Unlimited Skill Points (My Player Mode) [Crapulecorp]
+C300E740 00000002
+3C00000F 6000423F
+9004022C 00000000
+
+Difficulty Level (My Player Mode) [Crapulecorp]
+003CF6B7 000000XX
+*Replace XX for :
+00 Rookie
+01 Pro
+02 All Star
+03 Superstar
+04 Hall Of Fame*
+
+Difficulty Level Is Set To Rookie (My Player Mode) [Crapulecorp]
+C2AE7B28 00000002
+3C600000 90640004
+60000000 00000000
+*You have to change the difficulty and that will automaticaly be set to Rookie*

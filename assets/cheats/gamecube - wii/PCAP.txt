@@ -1,0 +1,34 @@
+PCAP
+Silent Debuggers
+
+Unlimited Battery 1 [Crapulecorp]
+42000000 90000000
+005AF707 00000030
+E0000000 80008000
+*Code ported from GMO Ntsc Usa Version*
+
+Unlimited Battery 2 [Crapulecorp]
+42000000 90000000
+005AF708 00000030
+E0000000 80008000
+*Code ported from GMO Ntsc Usa Version*
+
+Unlimited Motor Cannon [Crapulecorp]
+42000000 90000000
+005AF89E 00000099
+E0000000 80008000
+
+Unlimited Lipp Shoot [Crapulecorp]
+42000000 90000000
+005AF8A0 00000099
+E0000000 80008000
+
+Unlimited Grenade Launcher [Crapulecorp]
+42000000 90000000
+005AF8A1 00000099
+E0000000 80008000
+
+Unlimited Sleep Launcher [Crapulecorp]
+42000000 90000000
+005AF8A3 00000099
+E0000000 80008000

@@ -1,0 +1,23 @@
+RNJE4F
+Mini Ninjas
+
+player speed modific [xtatu]
+047BEE58 XXXX0000
+
+3F80 normal
+3FF0 2x
+4080 3x
+
+Infinite Health (3 hearts) [OneUp]
+040873A0 60000000
+
+Infinite Ki [OneUp]
+040272B0 60000000
+04026978 60000000
+Currently doesn't modify stamina.
+
+Infinite Items [OneUp]
+C2083908 00000002
+38000063 901E0000
+60000000 00000000
+Weapons currently not working.

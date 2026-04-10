@@ -1,0 +1,18 @@
+RKKE6K
+Heavenly Guardian
+
+Unlimited Health [GMO]
+00193CE7 0000005A
+00193CEF 0000005A
+
+1Hit Kill Bosses [GMO]
+001AD6E9 00000000
+
+Infinite Health [eric]
+0402faf4 380000d2
+0402fb00 380000d2
+
+Infinite Lives [eric]
+0402fecc 38000009 [eric]
+Infinite Snowball [eric]
+040317b4 388003e7

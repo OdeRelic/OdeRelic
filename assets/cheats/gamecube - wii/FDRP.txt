@@ -1,0 +1,15 @@
+FDRP
+Skate Or Die!
+
+Freestyle, Highjump
+
+No Passes [Crapulecorp]
+0042D6D0 00000000
+
+Joust
+
+Player 1 Win Modifier [Crapulecorp]
+0042D689 000000XX
+
+Player 2/CPU Win Modifier [Crapulecorp]
+0042D68A 000000XX

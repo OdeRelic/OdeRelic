@@ -1,0 +1,11 @@
+MBJP
+Ghouls N Ghosts
+
+Disable Timer [GMO]
+00F015EB 00000000
+
+Unlimited Health/Armor [GMO]
+00F017B0 00000008
+
+Unlimited Lives [GMO]
+00F017B3 00000003

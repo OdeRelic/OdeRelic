@@ -1,0 +1,56 @@
+FFXP
+Super Mario Bros. 25th Anniversary Edition
+
+Unlimited Lives [Crapulecorp]
+003815BA 00000063
+*Code ported from Panda Super Mario Bros. FAGP Version*
+
+Time Stop [Crapulecorp]
+0038165A 0000000A
+*Code ported from Panda Super Mario Bros. FAGP Version*
+
+Invincible [Crapulecorp]
+003815FE 00000008
+*Code ported from GMO Super Mario Bros. FAGP Version*
+
+Moon Jump [Crapulecorp]
+281CA74A FEFF0100
+00380EFF 000000FC
+E0000000 80008000
+*WiiMote*
+*Code ported from ZiT Super Mario Bros. FAGJ Version*
+
+MoonJump [Crapulecorp]
+281CA7AA FFF70008
+00380EFF 000000FC
+E0000000 80008000
+*Classic Controller*
+*Code ported from ZiT Super Mario Bros. FAGJ Version*
+
+Coins worth 99 Coins [Crapulecorp]
+003815BE 00000063
+*Code ported from GMO Super Mario Bros. FAGP Version*
+
+Unlimited Star Power [Crapulecorp]
+003815FF 00000020
+*Code ported from GMO Super Mario Bros. FAGP Version*
+
+Always Big Fire Mario [Crapulecorp]
+003815B4 00000000
+003815B6 00000002
+*Code ported from Panda Super Mario Bros. FAGP Version*
+
+Start on Browser's Castle [Crapulecorp]
+003815BF 00000007
+003815C0 00000002
+*Code ported from GMO Super Mario Bros. FAGP Version*
+
+Button Activator
+
+WiiMote [Crapulecorp]
+281CA74A YYYYZZZZ
+
+Classic Controller [Crapulecorp]
+281CA7AA YYYYZZZZ
+
+Button Activator

@@ -1,0 +1,46 @@
+FBKE
+Teenage Mutant Ninja Turtles
+
+Unlimited Health Leonardo [Sharkbyte]
+003E7697 00000080
+
+Unlimited Health Raphael [Sharkbyte]
+003E7698 00000080
+
+Unlimited Health Michaelangelo [Sharkbyte]
+003E7699 00000080
+
+Unlimited Health Donatello [Sharkbyte]
+003E769A 00000080
+
+Unlimited Item Leonardo [Sharkbyte]
+003E76C8 00000063
+
+Unlimited Item Raphael [Sharkbyte]
+003E76C9 00000063
+
+Unlimited Item Michaelangelo [Sharkbyte]
+003E76CA 00000063
+
+Unlimited Item Donatello [Sharkbyte]
+003E76CB 00000063
+
+Have Item Leonardo [Sharkbyte]
+003E7693 000000XX
+
+Have Item Raphael [Sharkbyte]
+003E7694 000000XX
+
+Have Item Michaelangelo [Sharkbyte]
+003E7695 000000XX
+
+Have Item Donatello [Sharkbyte]
+003E7696 000000XX
+01=Ninja Star 02=Triple Ninja Star 03=Boomerang 04=Missiles
+
+Unlimited Health (All Turtles) [GMO]
+083E7697 00000080
+00040001 00000000
+
+Unlimited Missiles (Turtle Van) [GMO]
+003E76DF 00000014

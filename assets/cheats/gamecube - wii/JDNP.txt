@@ -1,0 +1,58 @@
+JDNP
+Ghoul Patrol
+
+Invincibility [Crapulecorp]
+004481B1 0000000A
+*Code ported from Unknown Snes Action replay Pro Version*
+
+Unlimited Lives [Crapulecorp]
+00448249 00000063
+*Code ported from Unknown Snes Action replay Pro Version*
+
+Unlimited Ammo [Crapulecorp]
+004481C9 00000063
+004481D1 00000063
+004481CB 00000063
+004481C7 00000063
+*Code ported from Unknown Snes Action replay Pro Version*
+
+Have/Unlimited Keys [Crapulecorp]
+00448205 00000009
+
+Unlimited Blue Potions [Crapulecorp]
+0044820B 00000063
+*Code ported from Unknown Snes Action replay Pro Version*
+
+Have/Unlimited Red Potions [Crapulecorp]
+00448209 00000009
+*Code ported from GMO Ntsc Usa Version*
+
+Have/Unlimited Green Potions [Crapulecorp]
+0044820D 00000009
+*Code ported from GMO Ntsc Usa Version*
+
+Have/Unlimited Mystery Potions [Crapulecorp]
+00448211 00000009
+*Code ported from GMO Ntsc Usa Version*
+
+Have/Unlimited Med Kits [Crapulecorp]
+00448219 00000009
+*Code ported from GMO Ntsc Usa Version*
+
+Unlimited Vials [Crapulecorp]
+0044820F 00000063
+*Code ported from Unknown Snes Action replay Pro Version*
+
+Always Have Weapon [Crapulecorp]
+004481A6 00000001
+*Code ported from Unknown Snes Action replay Pro Version*
+
+Level Clear [Crapulecorp]
+004482AD 00000000
+*Code ported from Unknown Snes Action replay Pro Version*
+
+Level Modifier [Crapulecorp]
+00448185 000000XX
+*Replace XX for :
+01 - first stage to 0E - 13th stage*
+*Code ported from Unknown Snes Action replay Pro Version*

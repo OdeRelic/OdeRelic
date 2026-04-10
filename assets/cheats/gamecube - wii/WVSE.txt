@@ -1,0 +1,6 @@
+WVSE
+Gods vs. Humans
+
+Power gauge always Full [caitsith2]
+04055748 7C031850
+It seems that after the humans finish whatever floor they were working on, they will always build Good priest temples, then for the top floor, A black smith, is there is no black smith present, otherwise a good priest temple, while this code is active.

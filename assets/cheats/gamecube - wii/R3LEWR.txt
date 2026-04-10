@@ -1,0 +1,28 @@
+R3LEWR
+Green Lantern: Rise of the Manhunters
+
+Max Experience [Thomas83Lin]
+C21407F4 00000002
+3C80000F 6084423F
+90830024 00000000
+
+Inf Health [Thomas83Lin]
+C2141250 00000002
+80060028 90060024
+60000000 00000000
+*Not Recommend for the Training Hall*
+
+Inf Magic [Thomas83Lin]
+C2141400 00000002
+80060038 90060034
+60000000 00000000
+
+Shield does not deplete Magic [Thomas83Lin]
+04138C68 60000000
+0424E7F0 60000000
+
+No Delay for Special Weapons [Thomas83Lin]
+04127F9C 38000000
+
+No Delay on Allies [Thomas83Lin]
+04127F7C 38000000

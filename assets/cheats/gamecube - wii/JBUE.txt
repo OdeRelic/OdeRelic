@@ -1,0 +1,11 @@
+JBUE
+Super Turrican 2
+
+Infinite Lives [farjo08]
+0044091A 00000003
+
+Infinite Energy [farjo08]
+00440918 0000000C
+
+Infinite Bombs [farjo08]
+0044091C 00000003

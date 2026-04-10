@@ -1,0 +1,10 @@
+SXIP52
+Guitar Heroes: Warriors of Rock
+
+hooktype:GFXFlush
+
+Rock Meter maxed [Patedj]
+C2152E18 00000002
+3D804000 918305E4
+C2E305E4 00000000
+*red shading still appears if you do poorly*

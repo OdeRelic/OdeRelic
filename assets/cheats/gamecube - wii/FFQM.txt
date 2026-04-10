@@ -1,0 +1,94 @@
+FFQM
+Shadow Of The Ninja
+
+Invincible [Crapulecorp]
+003B6CE1 00000023
+*Code ported from Zit Ntsc Usa Version*
+
+Life codes
+
+Unlimited Life [Crapulecorp]
+003B6DD0 00000010
+
+Refill Life (Press ZL) [Crapulecorp]
+281FDDAA FF7F0080
+003B6DD0 00000010
+E0000000 80008000
+*Classic Controller*
+
+Refill Life (Press B) [Crapulecorp]
+28234CA2 FBFF0400
+003B6DD0 00000010
+E0000000 80008000
+*WiiMote*
+
+Unlimited Life (Press ZL ON/OFF) [Crapulecorp]
+281FDDAA FF7F0080
+CC000000 00000000
+003B6DD0 00000010
+E0000000 80008000
+*Classic Controller*
+
+Unlimited Life (Press B ON/OFF) [Crapulecorp]
+28234CA2 FBFF0400
+CC000000 00000000
+003B6DD0 00000010
+E0000000 80008000
+*WiiMote*
+
+Items Codes
+
+Unlimited Items [Crapulecorp]
+003B6D42 00000063
+
+Refill items x99 (Press ZR) [Crapulecorp]
+281FDDAA FFFB0004
+003B6D42 00000063
+E0000000 80008000
+*Classic Controller*
+
+Refill Items x99 (Press -) [Crapulecorp]
+28234CA2 EFFF1000
+003B6D42 00000063
+E0000000 80008000
+*WiiMote*
+
+Unlimited Items (Press ZR ON/OFF) [Crapulecorp]
+281FDDAA FFFB0004
+CC000000 00000000
+003B6D42 00000063
+E0000000 80008000
+*Classic Controller*
+
+Unlimited Items (Press - ON/OFF) [Crapulecorp]
+28234CA2 EFFF1000
+CC000000 00000000
+003B6D42 00000063
+E0000000 80008000
+*WiiMote*
+
+MoonJump Codes
+
+MoonJump (Press X) [Crapulecorp]
+281FDDAA FFF70008
+003B6D90 000000C8
+003B6DA0 000000FF
+E0000000 80008000
+*Classic Controller*
+*Code ported from Zit Ntsc Usa Version*
+
+MoonJump [Crapulecorp]
+28234CA2 FEFF0100
+003B6D90 000000C8
+003B6DA0 000000FF
+E0000000 80008000
+*WiiMote*
+*Code ported from Zit Ntsc Usa Version*
+
+Button Activator
+
+Classic Controller [Crapulecorp]
+281FDDAA YYYYZZZZ
+
+WiiMote [Crapulecorp]
+28234CA2 YYYYZZZZ

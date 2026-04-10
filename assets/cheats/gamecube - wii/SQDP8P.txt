@@ -1,0 +1,78 @@
+SQDP8P
+Gunblade NY & LA Machineguns: Arcade Hits Pack
+
+Gunblade NY
+
+Unlimited Health [Crapulecorp]
+007285E7 00000007
+
+Refill Health x6 (Press 1) [Crapulecorp]
+2835E832 FDFF0200
+007285E7 00000007
+E0000000 80008000
+*WiiMote-NunChuk*
+
+Unlimited Health (Press 1 ON/OFF) [Crapulecorp]
+2835E832 FDFF0200
+CC000000 00000000
+007285E7 00000007
+E0000000 80008000
+*WiiMote-NunChuk*
+
+Time Rewind Back To 0 (Press 2) [Crapulecorp]
+2835E832 FEFF0100
+047286F0 00000000
+E0000000 80008000
+*WiiMote-NunChuk*
+
+Mode Attack Classic Time Rewind Back To 60 (Press 1 and 2) [Crapulecorp]
+2835E832 00000300
+02734394 00000E10
+E0000000 80008000
+*WiiMote-NunChuk*
+
+Mode Attack Classic Time Rewind Back To 60 (Press Down) [Crapulecorp]
+2835E832 FFFB0004
+02734394 00000E10
+E0000000 80008000
+*WiiMote-NunChuk*
+
+L.A Machinegun
+
+Unlimited Health [Crapulecorp]
+006EBFDF 00000004
+
+Refill Health x4 (Press 1) [Crapulecorp]
+2835E832 FDFF0200
+006EBFDF 00000004
+E0000000 80008000
+*WiiMote-NunChuk*
+
+Unlimited Health (Press 1 ON/OFF) [Crapulecorp]
+2835E832 FDFF0200
+CC000000 00000000
+006EBFDF 00000004
+E0000000 80008000
+*WiiMote-NunChuk*
+
+Unlimited Time [Crapulecorp]
+046EBF70 00000000
+
+Time Rewind Back To 240 (Press 2) [Crapulecorp]
+2835E832 FEFF0100
+046EBF70 00000000
+E0000000 80008000
+*WiiMote-NunChuk*
+
+Unlimited Time (Press 2 ON/OFF) [Crapulecorp]
+2835E832 FEFF0100
+CC000000 00000000
+046EBF70 00000000
+E0000000 80008000
+*WiiMote-NunChuk*
+
+Button Activator
+
+Button Activator [Crapulecorp]
+2835E832 YYYYZZZZ
+*WiiMote-NunChuk*

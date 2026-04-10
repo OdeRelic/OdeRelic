@@ -1,0 +1,305 @@
+WCVE
+Cave Story
+
+Inf Current HP [Skiller]
+C2077838 00000002
+A8040098 B0040094
+60000000 00000000
+
+1 hit Kill Enemys [Skiller]
+04068310 38600000
+
+Weapons EXP dont Decrease [Skiller]
+040778A8 60000000
+04077880 60000000
+
+Inf Ammo [Skiller]
+0406A994 8004000C
+
+Quick Level up Weapons [Skiller]
+C2077648 00000002
+7F430214 807A0000
+90660008 00000000
+C20775EC 00000002
+7C04182E 90060008
+7C64182E 00000000
+
+Shoot for Max/inf Spur Charge [Skiller]
+04077724 38800003
+0407772C 380000C8
+
+Equip Mods (Inventory) [Skiller]
+041BD5E0 0000????
+Note: Add the Digits Togeather to get Both things
+
+Equip Mods (Inventory Digits)
+0001 = Booster
+0002 = Map
+0004 = Arms Barrier
+0008 = Turbocharge
+0010 = Curly's Air Tank
+0020 = Booster v2.0
+0040 = (Dont Know)
+0080 = Whimsical Star
+00FF = Everything Equip
+
+Moon Jump-Zr on Classic Controller [shark2003]
+201BA4D8 00000004
+DE000000 80008180
+041BD600 FFFFF000
+E0000000 80008000
+
+Inf Air [shark2003]
+041BD66E 000003E8
+
+Weapons Mods
+
+Weapon Mod 1 [Skiller]
+041B5D80 000000??
+
+Weapon Level 1 [Skiller]
+041B5D84 00000000
+
+Weapon Exp 1 [Skiller]
+041B5D88 00000000
+
+Weapon Current Ammo 1 [Skiller]
+041B5D8C 00000063
+
+Weapon Max Ammo 1 [Skiller]
+041B5D80 00000063
+
+Weapon Mod 2 [Skiller]
+041B5D94 000000??
+
+Weapon Level 2 [Skiller]
+041B5D98 00000000
+
+Weapon Exp 2 [Skiller]
+041B5D9C 00000000
+
+Weapon Current Ammo 2 [Skiller]
+041B5DA0 00000063
+
+Weapon Max Ammo 2 [Skiller]
+041B5D94 00000063
+
+Weapon Mod 3 [Skiller]
+041B5DA8 000000??
+
+Weapon Level 3 [Skiller]
+041B5DAC 00000000
+
+Weapon Exp 3 [Skiller]
+041B5DB0 00000000
+
+Weapon Current Ammo 3 [Skiller]
+041B5DB4 00000063
+
+Weapon Max Ammo 3 [Skiller]
+041B5DA8 00000063
+
+Weapon Mod 4 [Skiller]
+041B5DBC 000000??
+
+Weapon Level 4 [Skiller]
+041B5DC0 00000000
+
+Weapon Exp 4 [Skiller]
+041B5DC4 00000000
+
+Weapon Current Ammo 4 [Skiller]
+041B5DC8 00000063
+
+Weapon Max Ammo 4 [Skiller]
+041B5DBC 00000063
+
+Weapon Mod 5 [Skiller]
+041B5DD0 000000??
+
+Weapon Level 5 [Skiller]
+041B5DD4 00000000
+
+Weapon Exp 5 [Skiller]
+041B5DD8 00000000
+
+Weapon Current Ammo 5 [Skiller]
+041B5DDC 00000063
+
+Weapon Max Ammo 5 [Skiller]
+041B5DD0 00000063
+
+Weapon Mod 6 [Skiller]
+041B5DE4 000000??
+
+Weapon Level 6 [Skiller]
+041B5DE8 00000000
+
+Weapon Exp 6 [Skiller]
+041B5DEC 00000000
+
+Weapon Current Ammo 6 [Skiller]
+041B5DF0 00000063
+
+Weapon Max Ammo 6 [Skiller]
+041B5DE4 00000063
+
+Mod Digits
+00 = Nothing
+01 = Snake
+02 = Polar Star
+03 = FireBall
+04 = Machine Gun
+05 = Missile Launcher
+07 = Bubbline
+09 = Blade
+0A = SuperMissile
+0C = Nemesis
+0D = Spur
+
+Invintory Mod
+
+Invintory Mod 1 [Skiller]
+041B5E20 000000??
+Note: Digits go from 1-27
+
+Invintory Mod 2 [Skiller]
+041B5E24 000000??
+
+Invintory Mod 3 [Skiller]
+041B5E28 000000??
+
+Invintory Mod 4 [Skiller]
+041B5E2C 000000??
+
+Invintory Mod 5 [Skiller]
+041B5E30 000000??
+
+Invintory Mod 6 [Skiller]
+041B5E34 000000??
+
+Invintory Mod 7 [Skiller]
+041B5E38 000000??
+
+Invintory Mod 8 [Skiller]
+041B5E3C 000000??
+
+Invintory Mod 9 [Skiller]
+041B5E40 000000??
+
+Invintory Mod 10 [Skiller]
+041B5E44 000000??
+
+Invintory Mod 11 [Skiller]
+041B5E48 000000??
+
+Invintory Mod 12 [Skiller]
+041B5E4C 000000??
+
+Invintory Mod 13 [Skiller]
+041B5E50 000000??
+
+Invintory Mod 14 [Skiller]
+041B5E54 000000??
+
+Invintory Mod 15 [Skiller]
+041B5E58 000000??
+
+Invintory Mod 16 [Skiller]
+041B5E5C 000000??
+
+Invintory Mod 17 [Skiller]
+041B5E60 000000??
+
+Invintory Mod 18 [Skiller]
+041B5E64 000000??
+
+Invintory Mod 19 [Skiller]
+041B5E68 000000??
+
+Invintory Mod 20 [Skiller]
+041B5E6C 000000??
+
+Invintory Mod 21 [Skiller]
+041B5E70 000000??
+
+Invintory Mod 22 [Skiller]
+041B5E74 000000??
+
+Invintory Mod 23 [Skiller]
+041B5E78 000000??
+
+Invintory Mod 24 [Skiller]
+041B5E7C 000000??
+
+Invintory Mod 25 [Skiller]
+041B5E80 000000??
+
+Invintory Mod 26 [Skiller]
+041B5E84 000000??
+
+Invintory Mod 27 [Skiller]
+041B5E88 000000??
+
+Invintory Mod 28 [Skiller]
+041B5E8C 000000??
+
+Invintory Mod 29 [Skiller]
+041B5E90 000000??
+
+Invintory Mod 30 [Skiller]
+041B5E94 000000??
+
+Version 2 Codes
+
+INF AIR [Skiller]
+0407B700 34030000
+
+Inf Hp [Skiller]
+C20758C0 00000002
+813E0098 913E0094
+60000000 00000000
+
+Quick EXP Gain [Skiller]
+0407DA8C 3C60000A
+
+Dont lose EXP [Skiller]
+04074FD8 60000000
+04074FB0 60000000
+
+Quick Spur [Skiller]
+04074CE8 380000C8
+
+Inf Ammo [Skiller]
+040692AC 8004000C
+
+Equipment mo [Skiller]
+041C0910 0000????
+
+Inf Booster [Skiller]
+0407A96C 38030000
+
+Invintory Mod 1 [Skiller]
+041B7F60 000000??
+Note: Digits go from 1-27
+Note: Add +0x4 to get the next slot (30 slots)
+
+Weapon Mod 1 [Skiller]
+041B7EC0 000000??
+Note: Next Weapon is +0x14 on the address (6 weapons)
+
+Weapon Level 1 [Skiller]
+041B7EC4 00000000
+Note: Next Weapon is +0x14 on the address (6 weapons)
+
+Weapon Exp 1 [Skiller]
+041B7EC8 00000000
+Note: Next Weapon is +0x14 on the address (6 weapons)
+
+Weapon Current Ammo 1 [Skiller]
+041B7ECC 00000063
+Note: Next Weapon is +0x14 on the address (6 weapons)
+
+Weapon Max Ammo 1 [Skiller]
+041B7ED0 00000063
+Note: Next Weapon is +0x14 on the address (6 weapons)

@@ -1,0 +1,19 @@
+JC4P
+Indiana Jones Greatest Adventures
+
+Unlimited Lives [Crapulecorp]
+00446A8B 00000099
+
+Unlimited Health [Crapulecorp]
+00446A08 00000006
+*Code ported from GMO Ntsc Usa Version*
+
+Invincible [Crapulecorp]
+02446A0A 00003B00
+*Code ported from GMO Ntsc Usa Version*
+
+Unlimited Gold [Crapulecorp]
+00446ABF 00000099
+
+Unlimited Grenades [Crapulecorp]
+00446A1C 0000000A

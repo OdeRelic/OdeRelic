@@ -1,0 +1,46 @@
+MCLE
+Street Fighter II: Special Championship Edition
+
+Press Z-Left for More Time [GMO]
+281BCEE2 00000080
+00EDD22A 00000099
+E0000000 80008000
+
+Max Vital Score Bonus [GMO]
+02EDFAE0 00000300
+
+Max Time Score Bonus [GMO]
+00EDFAE3 00000099
+
+Disable Timer [GMO]
+00EDD22B 00000020
+
+P1 Unlimited Health [GMO]
+00EDBB41 000000B0
+00EDBB43 000000B0
+
+1-Hit Kill (P2 Life Mod) [GMO]
+28EDBDC3 000000B0
+00EDBDC3 00000001
+E0000000 80008000
+
+P1 Character Modifier [GMO]
+00EDBCDB 0000????
+
+P2 Character Modifier [GMO]
+00EDBF5B 0000????
+
+Character Values
+
+00 Ryu
+01 E.Honda
+02 Blanka
+03 Guile
+04 Ken
+05 Chun Li
+06 Zangief
+07 Dhalsim
+08 M.Bison
+09 Sagat
+0A Balrog
+0B Vega

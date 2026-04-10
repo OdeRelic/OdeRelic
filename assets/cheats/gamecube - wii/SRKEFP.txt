@@ -1,0 +1,33 @@
+SRKEFP
+Remington Super Slam Hunting: Alaska
+
+Never Reload [Thomas83Lin]
+0407CD44 38040000
+
+Semi Rapid Fire [Thomas83Lin]
+0407BD9C 4800000C
+
+Rapid Fire [Thomas83Lin]
+04069A90 60000000
+0407BD9C 4800000C
+
+Max Score [Thomas83Lin]
+C2071384 00000002
+3CA03B9A 60A5C9FF
+90BE5A98 00000000
+
+Inf Usage of Wiley Vision [Thomas83Lin]
+C2074E64 00000002
+38000064 90035B64
+60000000 00000000
+
+Remove Press 1 for Wiley Vision Text [Thomas83Lin]
+04074E6C 48000054
+
+Unlock All Levels [Thomas83Lin]
+C201EB64 00000002
+39800001 998301E9
+886301E9 00000000
+
+Inf Health [Thomas83Lin]
+0401D084 60000000

@@ -1,0 +1,14 @@
+WEDE
+Eduardo The Samurai Toaster
+
+Unlimited Lives Player 1 [GMO]
+004E92BC 000000FF
+
+Unlimited Lives Player 2 [GMO]
+004E92BD 000000FF
+
+Unlimited Lives Player 3 [GMO]
+004E92BE 000000FF
+
+Unlimited Lives Player 4 [GMO]
+004E92BF 000000FF

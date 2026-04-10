@@ -1,0 +1,8 @@
+C9XP
+The Last Ninja
+
+Unlimited Lives [Crapulecorp]
+00370C3B 00000003
+
+Unlimited Power [Crapulecorp]
+00370C68 00000020

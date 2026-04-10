@@ -1,0 +1,8 @@
+NASE
+Cruis'n USA
+
+Always place 1st [Sharkbyte]
+012317EB 00000001
+
+Unlimited Time [Sharkbyte]
+03231F0C 000042C5

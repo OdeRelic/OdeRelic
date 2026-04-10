@@ -1,0 +1,23 @@
+JCDE
+Kirby's Dream Land 3
+
+Infinite HP [goemon_guy]
+02881850 0000000A
+
+Infinite Lives [goemon_guy]
+0288184E 00000063
+
+Ability Modifier [goemon_guy]
+02883328 0000000X
+
+Ability "X" Values
+
+0000 - None
+0001 - Fire
+0002 - Rock
+0003 - Ice
+0004 - Spike
+0005 - Broom
+0006 - Parasol
+0007 - Thunder
+0008 - Cutter

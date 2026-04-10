@@ -1,0 +1,65 @@
+SC4P64
+LEGO Star Wars III: The Clone Wars
+
+Player 1 In-Game Coins [BoxNinja]
+0492B05C 3B9AC9FF
+
+Player 2 In-Game Coins [BoxNinja]
+0492B074 3B9AC9FF
+
+Total Coins [BoxNinja]
+0503BA34 XXXXXXXX
+*Change X to Score
+
+Extras Always On No Purchase Necessary
+
+Dark Side [BoxNinja]
+0484E4A8 FFFF0101
+
+Invincibility [BoxNinja]
+0484E4D8 FFFF0101
+
+Fast Build [BoxNinja]
+0484E4C0 01FF0101
+
+Minikit Detector [BoxNinja]
+0484E4F0 FFFF0101
+
+Super Speeders [BoxNinja]
+0484E508 FFFF0101
+
+Score x2 [BoxNinja]
+0484E520 FFFF0101
+
+Score x4 [BoxNinja]
+0484E538 FFFF0101
+
+Score x6 [BoxNinja]
+0484E550 FFFF0101
+
+Score x8 [BoxNinja]
+0484E568 FFFF0101
+
+Score x10 [BoxNinja]
+0484E580 FFFF0101
+
+Stud Magnet [BoxNinja]
+0484E598 FFFF0101
+
+Regenerate Hearts [BoxNinja]
+0484E5B0 FFFF0101
+
+Character Studs [BoxNinja]
+0484E5C8 FFFF0101
+
+Super Saber Cut [BoxNinja]
+0484E5E0 FFFF0101
+
+Dual Wield [BoxNinja]
+0484E5F8 FFFF0101
+
+Glow in the Dark [BoxNinja]
+0484E610 FFFF0101
+
+Red Brick Detector [BoxNinja]
+0484E628 FFFF0101

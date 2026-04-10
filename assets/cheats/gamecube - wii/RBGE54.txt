@@ -1,0 +1,28 @@
+RBGE54
+The Bigs
+
+Rookie Challenge Mode
+
+Bank Points Modifier [Kyle]
+04BF0AA4 000186A0
+
+Enemy Power Bar Points (Graphical) [Kyle]
+04BF2B58 00000000
+
+Enemy Power Bar Energy [Kyle]
+04BF2B54 00000000
+
+Your Power Bar Energy [Kyle]
+04BF1714 000186A0
+
+Your Power Bar Points (Graphical) [Kyle]
+04BF1718 000186A0
+
+Training Mini Game Points Mod Fielding Lv. 1 [Kyle]
+04BF98B0 00002710
+
+Training Mini Game Points Mod Batting Lv. 1 [Kyle]
+04BF9FB0 00002710
+
+Training Mini Game Points Mod Running Lv. 1 [Kyle]
+04BFA7B0 00002710

@@ -1,0 +1,20 @@
+WTMP
+Adventure Island: The Beginning [PAL]
+
+infinite Life Energy [ninjor]
+0059CD62 00000009
+
+99 Turkey Legs in Skateboard mayhem [ninjor]
+005ad1fb 00000063
+
+30000 Points in Axethrow [ninjor]
+025ad182 00007530
+
+1500 Points in Fruitgrab [ninjor]
+025b2f26 00003a98
+
+have high Combo in Fruitgrab for Melons [ninjor]
+005b2f20 0000000b
+
+160 Points in FastFire Ruins [ninjor]
+005ace6f 000000a0

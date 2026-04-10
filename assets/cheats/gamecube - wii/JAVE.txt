@@ -1,0 +1,95 @@
+JAVE
+Super Metriod
+
+Select spawn area when on Zebes map [goemon_guy]
+42000000 90000000
+000BFDBA 00000000
+000BFE4F 00000080
+E0000000 80008000
+Ported from Game Genie code
+
+Unlimited Health [GMO]
+028BC2EA 0000DB05
+028BC2EC 0000DB05
+
+Unlimited Missile [GMO]
+008BC2EE 000000FF
+
+Unlimited Super Missile [GMO]
+008BC2F2 00000063
+
+Have All Suits/MISC/Boots/Beams [GMO]
+048BC2CC 2FF30B10
+028BC2D0 00000F10
+
+Button Activators
+
+Button Activator (Classic Controller) [goemon_guy]
+281962D8 0200XXXX
+
+Area Codes
+
+Choose Area to Begin in [goemon_guy]
+008BC0C7 000000XX
+XX can be:
+00 = Crateria
+01 = Brinstar
+02 = Norfair
+03 = Wrecked Ship
+04 = Maridia
+05 = Tourian
+06 = Space Colony
+
+Crateria Mapped [goemon_guy]
+008C9230 000000FF
+
+Brinstar Mapped [goemon_guy]
+008C9231 000000FF
+
+Norfair Mapped [goemon_guy]
+008C9232 000000FF
+
+Wrecked Ship Mapped [goemon_guy]
+008C9233 000000FF
+
+Maridia Mapped [goemon_guy]
+008C9234 000000FF
+
+Tourian Mapped [goemon_guy]
+008C9235 000000FF
+
+Crateria Bosses Beaten [goemon_guy]
+008C9150 00000001
+
+Brinstar Bosses Beaten [goemon_guy]
+008C9151 00000003
+
+Norfair Bosses Beaten [goemon_guy]
+008C9152 00000007
+
+Wrecked Ship Bosses Beaten [goemon_guy]
+008C9153 00000001
+
+Maridia Bosses Beaten [goemon_guy]
+008C9154 00000003
+
+Use Hyper Beam [goemon_guy]
+008BC39F 0000003C
+
+Infinite Energy [farjo08]
+82000000 808BC2EC
+84000000 808BC2EA
+82000001 808BC2ED
+84000001 808BC2EB
+
+Infinite Missles [farjo08]
+82000002 808BC2F0
+84000002 808BC2EE
+
+Infinite Super Missles [farjo08]
+82000003 808BC2F4
+84000003 808BC2F2
+
+Infinite Super Bombs [farjo08]
+82000004 808DC2F8
+84000004 808DC2F6

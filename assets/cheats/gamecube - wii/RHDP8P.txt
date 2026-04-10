@@ -1,0 +1,46 @@
+RHDP8P
+House of the Dead 2&3 Returns
+
+House of the Dead 2
+
+Infinite Ammo [Crashzer]
+044078EC 60000000
+
+Zombie attacks don't hurt (both players) [giantpune]
+040C020C 38C90000
+
+Don't get penalized for shooting civilians (both players) [giantpune]
+040C0388 38C90000
+
+Freeplay [Yamishira]
+00407753 00000001
+
+Infinite Bullets [Yamishira]
+004078ED 00000006
+
+Infinite Life [Yamishira]
+004078D7 00000009
+
+All Items & Infinite/Max In Original Mode Trunk [Yamishira]
+00404340 00200063
+(Put 1 Item In The Trunk To Make All Items Appear)
+(Thanks James0x57 for the formatting)
+
+House of the Dead 3
+
+Infinite Ammo both players [giantpune]
+040C020C 38C90000
+
+Zombie attacks don't hurt (both players) [giantpune]
+040C020C 38C90000
+*All giantpune's codes will not won't crash the other game. ie, HoD2 codes won't hurt anything while playing HoD3 and vice versa
+
+Infinite Credits [Yamishira]
+00430B7B 00000063
+
+Infinite Life [Yamishira]
+0042F29F 00000005
+
+Infinite Bullets [Yamishira]
+0042F367 00000006
+All codes only tested as Player 1

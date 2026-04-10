@@ -1,0 +1,53 @@
+FBZP
+Metroid
+
+Unlimited Energy [Crapulecorp]
+0242BA66 00009009
+
+Unlimited Missile [Crapulecorp]
+0056FD79 000000C8
+
+MoonJump [Crapulecorp]
+28255D12 FEFF0100
+0042BC68 000000F0
+E0000000 80008000
+*WiiMote*
+*Code ported from ZiT Ntsc Jap Version*
+
+MoonJump (Press X) [Crapulecorp]
+28255D72 FFF70008
+0042BC68 000000F0
+E0000000 80008000
+*Classic Controller*
+*Code ported from ZiT Ntsc Jap Version*
+
+Speed Up (Press B ON/OFF) [Crapulecorp]
+28255D12 FBFF0400
+CC000000 00000000
+0042BC76 00000048
+E0000000 80008000
+*WiiMote*
+*The Speed Improves While Jump*
+*Code ported from ZiT Ntsc Jap Version*
+
+Speed Up (Press ZL ON/OFF) [Crapulecorp]
+28255D72 FF7F0080
+CC000000 00000000
+0042BC76 00000048
+E0000000 80008000
+*Classic Controller*
+*The Speed Improves While Jump*
+*Code ported from ZiT Ntsc Jap Version*
+
+Speed Up [Crapulecorp]
+0042BC76 00000048
+*The Speed Improves While Jump*
+*Code ported from ZiT Ntsc Jap Version*
+
+Button Activator
+
+WiiMote [Crapulecorp]
+28255D12 YYYYZZZZ
+
+Classic Controller [Crapulecorp]
+28255D72 YYYYZZZZ

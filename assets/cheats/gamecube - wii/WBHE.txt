@@ -1,0 +1,23 @@
+WBHE
+Blood Beach
+
+Infinite Health [Sharkbyte]
+049CBF54 447A0000
+
+Infinite Ammo no reloads M2 [Sharkbyte]
+0265122E 000000C8
+04651140 0001869F
+
+Infinite Ammo Thompson .45 cal no reloads [Sharkbyte]
+046512B4 0000001E
+04651144 0001869F
+
+Unlimited Grenades [Sharkbyte]
+04651148 0001869F
+
+Bofors 40mm Infinite Ammo [Sharkbyte]
+046513C4 00000004
+0465114C 0001869F
+
+Twin M2HB Infinite Ammo no reloads [Sharkbyte]
+0465144C 00000190

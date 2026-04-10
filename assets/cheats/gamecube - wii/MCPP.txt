@@ -1,0 +1,17 @@
+MCPP
+Earthworm Jim
+
+Unlimited Lives [GMO]
+00EDE1C8 00000039
+
+Unlimited Ammo [GMO]
+04EE36F4 31303030
+
+Unlimited Health [GMO]
+04EE36FC 30313030
+
+Moon Jump (Hold2) [GMO]
+281BCE82 FEFF0100
+02EDE1EC 0000FC00
+E0000000 80008000
+Jumping out the screen will cause you to die

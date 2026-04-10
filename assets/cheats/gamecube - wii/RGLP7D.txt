@@ -1,0 +1,13 @@
+RGLP7D
+Geometry Wars Galaxies
+
+Max Highscore [Romaap]
+0427B2FC 4FB30A84
+
+Lives [Romaap]
+0427B338 XXXXXXXX
+*XXXXXXXX must be between 00000001 and 7FFFFFFF
+
+Bombs [Romaap]
+0427B33C XXXXXXXX
+*XXXXXXXX must be between 00000001 and 7FFFFFFF

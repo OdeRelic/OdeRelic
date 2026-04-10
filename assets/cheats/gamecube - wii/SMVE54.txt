@@ -1,0 +1,24 @@
+SMVE54
+MLB 2K11
+
+Sportsmans Park Costs 1 Token [Seth@WiiPlaza]
+044D9B50 00000001
+
+Olympic Stadium Costs 1 Token [Seth@WiiPlaza]
+044D9B6C 00000001
+
+White Light Beams [Seth@WiiPlaza]
+04A58584 47C3507F
+a pretty funny code to use in general
+
+Batting Stance Cycler [Seth@WiiPlaza]
+C0000000 00000008 [Seth@WiiPlaza]
+7C003630 540007FE
+7C072030 38800001
+38A50001 54A6077F
+8118001C 80780014
+80180018 7C030214
+7C080000 38000001
+90180000 3B80FFFF
+55051838 4E800020
+*starts from Albert P and then Toggles down

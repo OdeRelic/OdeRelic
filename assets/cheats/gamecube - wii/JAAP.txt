@@ -1,0 +1,24 @@
+JAAP
+Super Mario World
+
+Invincible (Mario Only) [GMO]
+0043C8FF 00000045
+
+Unlimited Lives (Stage) [GMO]
+0243C37E 00000909
+
+Easy 1Up (10 Coins Per 1Up) [GMO]
+0043C37B 00000009
+
+1 Yoshi Coin for 1Up [GMO]
+0043C888 00000005
+
+Always Get To Play Bonus Game [GMO]
+0043C3B0 00000064
+Does not require you to get score at goal
+
+Unlimited Purple P Button Time [GMO]
+0043C915 000000FF
+
+Always Floating Falls [GMO]
+0043C90D 000000FF

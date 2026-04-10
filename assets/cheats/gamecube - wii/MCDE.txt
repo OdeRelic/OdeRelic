@@ -1,0 +1,44 @@
+MCDE
+Sonic & Knuckles
+
+Game Modifier [Thomas83Lin]
+04CEFD50 00000001
+04CEFD54 0000000x
+*Replace x with Game Digit*
+0 =Sonic & Knuckles
+1 =Sonic & Knuckles\Sonic 1
+2 =Sonic & Knuckles\Sonic 2
+3 =Sonic & Knuckles\Sonic 3
+*May have to reset Game for code to take effect*
+
+Sonic & Knuckles Invincibility [Thomas83Lin]
+20CEFD54 00000000
+01365F94 00000044
+E0000000 80008000
+
+Sonic 2 Invincibility [Thomas83Lin]
+20CEFD54 00000002
+01365F91 00000044
+E0000000 80008000
+
+Sonic 3 Invincibility [Thomas83Lin]
+25365F7C 00000000
+20CEFD54 00000003
+01365FDE 00000044
+01365F94 00000044
+E0000000 80008000
+
+Sonic 3 Tails can Fly Forever [Thomas83Lin]
+25365F7C 00000000
+20CEFD54 00000003
+01365F85 000000FF
+E0000000 80008000
+
+Inf Time [Thomas83Lin]
+0336AD84 00000000
+
+Unlimited Rings-Health [GMO]
+0136AD81 00000063
+
+Unlimited Lives [GMO]
+0136AD72 00000062

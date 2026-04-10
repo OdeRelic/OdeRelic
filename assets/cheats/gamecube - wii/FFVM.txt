@@ -1,0 +1,50 @@
+FFVM
+S.C.A.T
+
+Unlimited Health Player 1 [Crapulecorp]
+003B9BBC 00000006
+
+Weapon Modifier Player 1 [Crapulecorp]
+003B9BB2 000000XX
+*Replace XX for :
+00 - Default Weapon
+01 - Wave Shot
+02 - Laser
+03 - Bomb
+04 - ? ? ?*
+*Code ported from Rune NES Version*
+
+Unlimited Health Player 2 [Crapulecorp]
+003B9BBD 00000006
+*Code ported from VisitntX NES Version*
+
+Weapon Modifier Player 2 [Crapulecorp]
+003B9BB3 000000XX
+*Replace XX for :
+00 - Default Weapon
+01 - Wave Shot
+02 - Laser
+03 - Bomb
+04 - ? ? ?*
+*Code ported from drgonzo7 NES Version*
+
+1 Hit Kills Bosses [Crapulecorp]
+003BA04A 00000000
+*Code ported from Rune NES Version*
+
+Character Modifier [Crapulecorp]
+003B9C27 000000XX
+*Replace XX for :
+00 - Blue Character
+01 - Red Character*
+*Code ported from Rune NES Version*
+
+Level Modifier [Crapulecorp]
+003B9BBE 000000XX
+*Replace XX for :
+00 - Level I
+01 - Level II
+02 - Level III
+03 - Level IV
+04 - Level V*
+*Code ported from Rune NES Version*

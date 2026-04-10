@@ -1,0 +1,166 @@
+RM2E69
+Medal of Honor Heroes 2
+
+Infinite Health - Campaign (vdsvpsDotcom) [IRSVDS]
+0419C8C4 3C004348
+0419C8C8 901E04B0
+Contact: Send comments to vdsvpsDotcom@gmail.com
+
+Sky Walk v2 (must be on) (DA IRS+vdsvpsDotcom) [IRSVDS]
+04000A20 3F800000
+C244684C 00000002
+3CA08000 60A50A20
+EC84082A 00000000
+Note: Must be on to use the next button activated code.
+
+Sky Walk v2 C & - On/Off (DA IRS+vdsvpsDotcom) [IRSVDS]
+04446850 C0450000
+2872550C 00005000
+CC000000 00000000
+04446850 C0410098
+E0000000 80008000
+Note: On then Off. Change from lfs f2,152(r1) to lfs f2,0(r5)
+Note: Must use with above code.
+Note: If not able to move, crouch.
+Contact: Send comments to vdsvpsDotcom@gmail.com
+
+Infinite Grenade Timer v3 (vdsvpsDotcom) [IRSVDS]
+C225559C 00000005
+9421FFF8 90610008
+3C6043B3 6063D1EB
+907F00D4 C03F00D4
+80610008 38210008
+60000000 00000000
+Note: Change grenade timer value back to original 359.63998 (43B3D1EB) just before lfs f1,212(r31) @ 8025559C.
+Contact: Send comments to vdsvpsDotcom@gmail.com
+
+Detonate Grenades (press 2) v2 (vdsvpsDotcom) [IRSVDS]
+2872550C 00000100
+C22555A4 00000002
+FC010840 4C401382
+60000000 00000000
+C62555A8 802555B0
+2872550D FEFF0000
+C22555A4 00000001
+FC010040 00000000
+042555A8 4C401382
+E0000000 80008000
+Note: Change 802555A4 to compare timer to timer and jump to 802555B0.
+Contact: Send comments to vdsvpsDotcom@gmail.com
+
+Infinite Ammo (vdsvpsDotcom) [IRSVDS]
+04258AC8 380000FF
+Note: Ammo stays at original value regardless of use. Original code with AC8 replacing AC4
+Contact: Send comments to vdsvpsDotcom@gmail.com
+
+Rapid Fire (vdsvpsDotcom) [IRSVDS]
+04258318 60000000
+Note: Change stfs f0,580(r18) to nop / nop @ 8025758C does same
+Contact: Send comments to vdsvpsDotcom@gmail.com
+
+Walk Fast/Skate (9.0 minus on/off) (vdsvpsDotcom) [IRSVDS]
+04975174 41100000
+2872550C 00001000
+CC000000 00000000
+04975174 40400000
+E0000000 80008000
+Contact: Send comments to vdsvpsDotcom@gmail.com
+
+Use with Walk Through Objects (IRS+vdsvpsDotcom) [IRSVDS]
+C2446854 0000000A
+9421FFE8 90A10008
+90C1000C 90E10010
+3CA0803E 60A5CF30
+3CE08000 60E70A28
+80C50000 3D206000
+61290000 7C064800
+40820008 C0470000
+80A10008 80C1000C
+80E10010 38210018
+C021006C 00000000
+Note: Checks for nop @ 803ECF30 as trigger to apply no height mod
+Note: Must enable to use button activated code below.
+
+Walk Through Objects A+D-pad Down On/Off (vdsvpsDotcom) [IRSVDS]
+043ECF30 60000000
+2872550C 00000804
+CC000000 00000000
+043ECF30 4080FFA8
+E0000000 80008000
+Note: Use with above code or you fall through floor
+Contact: Send comments to vdsvpsDotcom@gmail.com
+
+Multiplayer Campaign - Works in Multiplayer Only! [IRSVDS]
+C24C6728 00000007
+90830000 9421FFF0
+BFC10008 3FC01E00
+63DEA810 83E40000
+7C1FF000 40820010
+3FC08000 63DE0B50
+909E0000 BBC10008
+38210010 00000000
+C24C727C 0000000A
+3FA0806A 63BD8220
+7DDD0214 9421FFF0
+BFA10008 3FA08000
+63BD0B54 83DD0000
+2C1E0000 4182001C
+3FA08000 63BD0B50
+83DD0000 2C1E0000
+41820008 7FCEF378
+83A10008 83C1000C
+38210010 00000000
+C2182674 0000002E
+9421FFE0 BD010008
+3D008000 61080B54
+3D200000 91280000
+3D00807C 6108A0CC
+3D20807C 6129A0D0
+3D400000 614A6D70
+81680000 7C0B5000
+41820014 3D400000
+614A4D50 7C0B5000
+4082010C 3D400000
+614A0063 89690000
+7C0B5000 41820014
+3D400000 614A0043
+7C0B5000 408200E8
+3D008000 61080B54
+3D200000 61290001
+91280000 3D00900E
+61081BEC 3D20900E
+612925B8 3D40900E
+614A2534 7C09E000
+418200B0 7C0AE000
+418200A8 3D00900E
+61081AE4 3D20900E
+6129242C 3D40900E
+614A23A8 7C09E000
+41820088 7C0AE000
+41820080 3D00900E
+61081DFC 3D20900E
+612927C8 3D40900E
+614A2744 7C09E000
+41820060 7C0AE000
+41820058 3D00900E
+610818D4 3D20900E
+61292198 3D40900E
+614A2114 7C09E000
+41820038 7C0AE000
+41820030 3D00900E
+61081CF4 3D20900E
+612926C0 3D40900E
+614A263C 7C09E000
+41820010 7C0AE000
+41820008 48000008
+7D1C4378 81010008
+8121000C 81410010
+81610014 38210020
+807C0014 00000000
+Description: Play Campaign Maps in Multiplayer Mode! Version 1 textures
+Game Names: Each MP Campaign game MUST be named starting with "MPC" or "mpc"
+Password: Each game should be password protected (e.g. "irsvds")
+Limitations: CTF, City, Bombed City and Beach not swapped. Textures are not completely accurate, but very playable!
+Creators: DA IRS and vdsvpsDotcom
+Comment: Code no longer usable since EA shut down MOHH2 server.
+Contact: Send comments to vdsvpsDotcom@gmail.com

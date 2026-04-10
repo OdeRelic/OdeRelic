@@ -1,0 +1,407 @@
+RLGP64
+LEGO Star Wars
+
+Button Activator [BoxNinja]
+204EC990 0000XXXX
+
+Custom Character 1 Cyclers
+
+Cycle Hair [BoxNinja]
+A8000008 00000015
+80000000 80477EF0
+86010000 00010000
+24477EF0 004D0000
+04477EF0 00000000
+E2000001 00000000
+*Don't use with other character cyclers
+*Only works in the main hall
+
+Cycle Faces [BoxNinja]
+A8000008 00000015
+80000000 80477EF0
+86010000 00000001
+24477EF0 0000005F
+04477EF0 00000000
+E2000001 00000000
+*Don't use with other character cyclers
+*Only works in the main hall
+
+Cylce Weapons [BoxNinja]
+A8000008 00000015
+80000000 80477EF4
+86010000 00010000
+24477EF4 00070000
+04477EF4 00000000
+E2000001 00000000
+*Don't use with other character cyclers
+*Only works in the main hall
+
+Cycle Sleves [BoxNinja]
+A8000008 00000015
+80000000 80477EF4
+86010000 00000001
+24477EF4 00000018
+04477EF4 00000000
+E2000001 00000000
+*Don't use with other character cyclers
+*Only works in the main hall
+
+Cycle Hands [BoxNinja]
+A8000008 00000015
+80000000 80477EF8
+86010000 00010000
+24477EF8 00030000
+04477EF8 00000000
+E2000001 00000000
+*Don't use with other character cyclers
+*Only works in the main hall
+
+Cycle Capes [BoxNinja]
+A8000008 00000015
+80000000 80477EF8
+86010000 00000001
+24477EF8 0000000A
+04477EF8 00000000
+E2000001 00000000
+*Don't use with other character cyclers
+*Only works in the main hall
+
+Cycle Shirts [BoxNinja]
+A8000008 00000015
+80000000 80477EFC
+86010000 00010000
+24477EFC 00850000
+04477EFC 00000000
+E2000001 00000000
+*Don't use with other character cyclers
+*Only works in the main hall
+
+Cycle Belts [BoxNinja]
+A8000008 00000015
+80000000 80477EFC
+86010000 00000001
+24477EFC 00000022
+04477EFC 00000000
+E2000001 00000000
+*Don't use with other character cyclers
+*Only works in the main hall
+
+Cycle Pants [BoxNinja]
+A8000008 00000015
+80000000 80477F00
+86010000 00010000
+24477F00 001C0000
+04477F00 00000000
+E2000001 00000000
+*Don't use with other character cyclers
+*Only works in the main hall
+
+Custom Character 2 Cyclers
+
+Cycle Hair [BoxNinja]
+A8000008 00000015
+80000000 80477F28
+86010000 00010000
+24477F28 004D0000
+04477F28 00000000
+E2000001 00000000
+*Don't use with other character cyclers
+*Only works in the main hall
+
+Cycle Faces [BoxNinja]
+A8000008 00000015
+80000000 80477F28
+86010000 00000001
+24477F28 0000005F
+04477F28 00000000
+E2000001 00000000
+*Don't use with other character cyclers
+*Only works in the main hall
+
+Cylce Weapons [BoxNinja]
+A8000008 00000015
+80000000 80477EF0
+86010000 00010000
+24477EF0 00070000
+04477EF0 00000000
+E2000001 00000000
+*Don't use with other character cyclers
+*Only works in the main hall
+
+Cycle Sleves [BoxNinja]
+A8000008 00000015
+80000000 80477EF0
+86010000 00000001
+24477EF0 00000018
+04477EF0 00000000
+E2000001 00000000
+*Don't use with other character cyclers
+*Only works in the main hall
+
+Cycle Hands [BoxNinja]
+A8000008 00000015
+80000000 80477F30
+86010000 00010000
+24477F30 00030000
+04477F30 00000000
+E2000001 00000000
+*Don't use with other character cyclers
+*Only works in the main hall
+
+Cycle Capes [BoxNinja]
+A8000008 00000015
+80000000 80477F30
+86010000 00000001
+24477F30 0000000A
+04477F30 00000000
+E2000001 00000000
+*Don't use with other character cyclers
+*Only works in the main hall
+
+Cycle Shirts [BoxNinja]
+A8000008 00000015
+80000000 80477F34
+86010000 00010000
+24477F34 00850000
+04477F34 00000000
+E2000001 00000000
+*Don't use with other character cyclers
+*Only works in the main hall
+
+Cycle Belts [BoxNinja]
+A8000008 00000015
+80000000 80477F34
+86010000 00000001
+24477F34 00000022
+04477F34 00000000
+E2000001 00000000
+*Don't use with other character cyclers
+*Only works in the main hall
+
+Cycle Pants [BoxNinja]
+A8000008 00000015
+80000000 80477F38
+86010000 00010000
+24477F38 001C0000
+04477F38 00000000
+E2000001 00000000
+*Don't use with other character cyclers
+*Only works in the main hall
+
+Other Codes
+
+Player 1 Duel Score [BoxNinja]
+046D2860 0000000X
+
+Player 2 Duel Score [BoxNinja]
+046D2864 0000000X
+
+Player 1 Duel Wins [BoxNinja]
+046D2858 XXXXXXXX
+
+Player 2 Duel Wins [BoxNinja]
+046D285C XXXXXXXX
+
+Toggle Save Icon [BoxNinja]
+204EC990 00000100
+046D2150 00000000
+CC000000 00000001
+046D2150 00000001
+E0000000 80008000
+*Hit 2 to toggle death star save icon
+
+Total Coins [BoxNinja]
+04477EE0 EE6B2800
+
+Player 1 In-Game Coins [BoxNinja]
+044700B8 EE6B2800
+
+Player 2 In-Game Coins [BoxNinja]
+044700C8 EE6B2800
+
+In-Game Coins Both Players [BoxNinja]
+C22B845C 00000002
+38C0FFFF 90DF0000
+60000000 00000000
+*Collect 1 coin to max out
+
+Make Princess Leia Bald [BoxNinja]
+05132590 85010000
+05132610 85010000
+Only tested on Jabbas Palace
+Might work on other levels
+Preview - http://prntscr.com/8o0x7
+
+Total Time control [Crashzer]
+A8000008 00000003
+80000000 806D5007
+86010000 01000000
+246D5007 00000000
+046D5007 00000001
+E2000001 00000000
+*Tap plus rapidly to make the game play
+*Tap plus slowly to make the game in slow motion
+
+Quick Access [Crashzer]
+204EC990 00000100
+046D5007 00000001
+CC000000 00000000
+046D5007 00000000
+E0000000 80008000
+*Press 1 for quick access to your stats
+
+Everyone has moustaches [Crashzer]
+C23FF1B8 00000002
+3C0001FF 60000000
+60000000 00000000
+
+HUGE ammount of cash [Crashzer]
+C2048480 00000003
+3F40270F 93437C14
+83437C14 60000000
+2C050000 00000000
+
+HUGE ammount of cash (PLAYER 2) [Crashzer]
+C24700C8 00000001
+3C00270F 00000000
+
+Always show Save icon [Crashzer]
+C26D2150 00000001
+3C000000 00000000
+*Big thanks to BoxNinja, I just used ASM
+
+Never show Save icon [Crashzer]
+C26D2150 00000001
+3C000001 00000000
+
+Silhouette Extra Turned On [Crashzer]
+003FF238 010000FF
+*Makes Everyone Black
+
+No Gonk Droid [Crashzer]
+0524D801 85010000
+*Means Gonk Droid has vanished from the store
+
+Silhouette Extra Turned Off [Crashzer]
+003FF238 000000FF
+
+Flashing People [Crashzer]
+A8000008 0000000A
+80000000 803FF238
+86010000 01000000
+243FF238 010000FF
+043FF238 000000FF
+E2000001 00000000
+*Can change A to any rate of flash (Smaller = Faster / Higher = Slower)
+
+Money [Crashzer]
+04477EE2 0000XXXX
+*Sorry for small Bit size
+
+Beep Beep Extra On [Crashzer]
+043FF258 010000FF
+
+Daisy Chains Extra On [Crashzer]
+043FF1D8 010000FF
+
+Fertilizer Extra On [Crashzer]
+043FF198 010000FF
+
+Chewbacca Carrying C3P0 Extra On [Crashzer]
+043FF1F8 010000FF
+
+Disguise Extra Turned On [Crashzer]
+003FF1B8 010000FF
+*Gives Everyone a disguise on their face
+
+Tow Death Star Extra On [Crashzer]
+043FF218 010000FF
+*For any of the extras, change 1 to 0 to turn off (in the second 32bit slot)
+
+This Codes only work in Main Hall
+
+MAX/Inf Coins [C|T]
+4A000000 80000000
+14477EE2 EE6B2800
+E0000000 80008000
+Maximum/Infinite Coins
+
+MAX/Inf Health 1st Charakter [C|T]
+4A000000 92000000
+12453AC6 00001B1B
+E0000000 80008000
+Maximum/Infinite Health 1st Charakter
+
+MAX Health 1st Charakter [C|T]
+4A000000 92000000
+10453AC6 0000001B
+E0000000 80008000
+Maximum Health 1st Charakter
+
+Inf Health 1st Charakter [C|T]
+4A000000 92000000
+10453AC7 0000001B
+E0000000 80008000
+Infinite Health 1st Charakter
+
+MAX/Inf Health 2nd Charakter [C|T]
+4A000000 92000000
+12454C26 00001B1B
+E0000000 80008000
+Maximum/Infinite Health 2nd Charakter
+
+MAX Health 2nd Charakter [C|T]
+4A000000 92000000
+10454C26 0000001B
+E0000000 80008000
+Maximum Health 2nd Charakter
+
+Inf Health 2nd Charakter [C|T]
+4A000000 92000000
+10454C27 0000001B
+E0000000 80008000
+Infinite Health 2nd Charakter
+
+This Codes only work in Main Game
+
+MAX/Inf Coins [C|T]
+4A000000 80000000
+144700BB EE6B2800
+E0000000 80008000
+Maximum/Infinite Coins
+
+MAX/Inf Health 1st Charakter [C|T]
+4A000000 92000000
+129B5916 00001B1B
+E0000000 80008000
+Maximum/Infinite Health 1st Charakter
+
+MAX Health 1st Charakter [C|T]
+4A000000 92000000
+109B5916 0000001B
+E0000000 80008000
+Maximum Health 1st Charakter
+
+Inf Health 1st Charakter [C|T]
+4A000000 92000000
+109B5917 0000001B
+E0000000 80008000
+Infinite Health 1st Charakter
+
+MAX/Inf Health 2nd Charakter [C|T]
+4A000000 92000000
+129B6A76 00001B1B
+E0000000 80008000
+Maximum/Infinite Health 2nd Charakter
+
+MAX Health 2nd Charakter [C|T]
+4A000000 92000000
+109B6A76 0000001B
+E0000000 80008000
+Maximum Health 2nd Charakter
+
+Inf Health 2nd Charakter [C|T]
+4A000000 92000000
+109B6A77 0000001B
+E0000000 80008000
+Infinite Health 2nd Charakter

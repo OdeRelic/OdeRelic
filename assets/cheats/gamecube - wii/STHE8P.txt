@@ -1,0 +1,54 @@
+STHE8P
+Thor: God of Thunder
+
+Button Activator [Welohabi]
+287A026A XXXXXXXX
+
+Alternate Button Activator [Welohabi]
+287FDDC2 XXXXXXXX
+
+One Hit 999 Multiplier [Welohabi]
+040756E8 380503E7
+
+Multiplier Doesn't Fade Away [Welohabi]
+C2075708 00000003
+3CA08081 60A5A4C0
+C3E50000 38A00000
+60000000 00000000
+
+Multiplier Doesn't Fade Away After Special [Welohabi]
+04075A58 380003E7
+C2075A64 00000003
+3EC08081 62D6A4C0
+C3F60000 3AC00000
+60000000 00000000
+*Also sets multiplier to 999 after each special
+
+Infinite Charge Hammer Duration [Welohabi]
+04811060 7F800000
+04811074 7F800000
+*Includes RED and BLUE charged hammers
+
+Charge Hammer Doesn't Lose Charge When Thrown [Welohabi]
+287A026A FDFF0200
+04093218 2C000001
+CC000000 00000000
+04093218 2C000002
+E0000000 80008000
+*Press 1 to toggle between RED and BLUE charge hammer types
+*Default is RED charge hammer
+
+Inf Health [Thomas83Lin]
+C2107130 00000002
+C01D1E90 D01D1E8C
+60000000 00000000
+
+Inf Magic Meter [Thomas83Lin]
+C21AD464 00000002
+C0232428 D0232424
+60000000 00000000
+
+Inf Gold Coins [Thomas83Lin]
+C20E0E70 00000002
+3BE00063 93E30028
+60000000 00000000

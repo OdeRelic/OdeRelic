@@ -1,0 +1,8 @@
+WLTE
+LIT
+
+Unlimited Flash Light [GMO]
+0281AF2A 000002A3
+
+Unlimited Slingshot Pellets [GMO]
+00244B0F 0000000A

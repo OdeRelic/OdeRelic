@@ -1,0 +1,86 @@
+GHAP08
+Resident Evil 2
+
+All Characters Have 10 Slots [Jay007]
+00169D9C 0000000A
+
+Infinite Ammo All Weapons [Jay007]
+04169DBC FFFFFF00
+
+Invincible (Disable Hit Detection) On/Off (L+D-pad Up/Down) [Jay007]
+281617D6 00000048
+001654BB 00000080
+043D3090 38000080
+E2000001 80008000
+281617D6 00000044
+001654BB 00000000
+043D3090 38000000
+E2000001 80008000
+
+1 Hit Kills You [Jay007]
+043D74EC 3800FFE2
+
+Never Poisoned [Jay007]
+00165501 00000000
+
+Access Item Box Anywhere (R+B) (Leon's Story) [Jay007]
+281617D6 00000220
+04169B8C 804200D4
+E2000001 80008000
+
+Access Item Box Anywhere (L+B) (Claire's Story) [Jay007]
+281617D6 00000240
+04169B8C 8042016C
+E2000001 80008000
+
+Walk Through Walls On/Off (L/X) [Jay007]
+201617D4 00000040
+041653EC 00000C0F
+E2000001 80008000
+201617D4 00000400
+041653EC 00000011
+E2000001 80008000
+
+Camera Zoom In/Out/Reset (L/R/L+R on Pad 2)
+cannot be converted
+
+Have All Maps [Jay007]
+04169FFC FFFFFFFF
+0416A000 FFFFFFFF
+0416A004 FFFFFFFF
+0416A008 FFFFFFFF
+0416A00C FFFFFFFF
+0416A010 FFFFFFFF
+0416A014 FFFFFFFF
+
+Freeze Final Boss Timer [Jay007]
+02169F22 0000012B
+
+Low Finishing Time (4th Survivor) [Jay007]
+04169F20 00000000
+
+Extreme Mode (Enemies Respawn) [Jay007]
+02169F70 00440000
+
+Must Be On - Tofu Color Modifiers [Jay007]
+203D2E88 901E0070
+043D2E88 60000000
+E2000001 80008000
+
+Tofu Body Color Modifier (Leon's Game) [Jay007]
+0434FE88 00BBGGRR
+
+Tofu Left Glove & Knife Color Modifier (Leon's Game) [Jay007]
+043505EC 00BBGGRR
+
+Tofu Right Glove Color Modifier (Leon's Game) [Jay007]
+043507F0 00BBGGRR
+
+Tofu Body Color Modifier (Claire's Game) [Jay007]
+0434FFC0 00BBGGRR
+
+Tofu Left Glove & Knife Color Modifier (Claire's Game) [Jay007]
+04350724 00BBGGRR
+
+Tofu Right Glove Color Modifier (Claire's Game) [Jay007]
+04350928 00BBGGRR

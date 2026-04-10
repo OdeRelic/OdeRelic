@@ -1,0 +1,14 @@
+W8CE
+Bit.Trip Core
+
+Max Score [BoxNinja]
+0434F628 XXXXXXXX
+
+Bomb Gauge Always Full [BoxNinja]
+0028FFC3 00000064
+
+Consecutive Bonus [BoxNinja]
+0034F62F 00000063
+
+Error Gauge Always Empty [BoxNinja]
+0407D3B0 60000000

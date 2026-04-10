@@ -1,0 +1,162 @@
+GSNP8P
+Sonic Adventures Battle 2
+
+insane jumps and run faster as usual [CosmoCortney]
+04176FF4 3F8068D0
+
+Sonic's Head Size Modifier [CosmoCortney]
+04CB5204 XXXXXXXX
+04CB5208 XXXXXXXX
+04CB520C XXXXXXXX
+use for XXXXXXXX
+40200000 = giant head
+3E900000 = small head
+30000000 = no head
+--- http://thecosmocortney.deviantart.com/art/Sonic-Adventure-2-HACK-Sonic-s-Head-Size-Modifier-320173585
+
+Press C-Stick Up for instant Chaos Control [CosmoCortney]
+28357F34 0000003B
+041CC3FC 00000002
+E0000000 80008000
+Everything except Your Character (P1) will be freezed
+
+Shadow's shading modifier [CosmoCortney]
+28357F34 0000003B
+043ADBE4 00000200
+E0000000 80008000
+28357F34 000000C5
+043ADBE4 01000200
+E0000000 80008000
+28357F34 0000C500
+043ADBE4 04000200
+E0000000 80008000
+28357F34 00003B00
+043ADBE4 05000200
+E0000000 80008000
+28357F34 00001D20
+043ADBE4 06000200
+E0000000 80008000
+28357F34 00001DE0
+043ADBE4 08000200
+E0000000 80008000
+28357F34 0000E320
+043ADBE4 0C000200
+E0000000 80008000
+normal c-up, a bit dark c-down, red c-left, yellow c right, Black c-up-right, shades c-down-right, brightened c-up-left
+works with other characters, too, but only all of them work with shadow
+
+No Music [CosmoCortney]
+04363898 00000000
+
+c-stick activation p1 [CosmoCortney]
+28357F34 XXXXXXXX
+up = 0000003B
+down = 000000C5
+left = 0000C500
+right = 00003B00
+up/right = 0001D20
+down right = 00001DE0
+up left = 0000E320
+dowen left = 0000E0E3
+
+c-stick activation p2 [CosmoCortney]
+28357F40 XXXXXXXX
+up = 0000003B
+down = 000000C5
+left = 0000C500
+right = 00003B00
+up/right = 0001D20
+down right = 00001DE0
+up left = 0000E320
+dowen left = 0000E0E3
+
+Speed Code P1 (hold z) [CosmoCortney]
+28357F30 00000010
+48000000 801DE8C0
+DE000000 80008180
+12000204 00004120
+E0000000 80008000
+Ported From Jay007 (NTSC-U)
+
+Speed Code P2 (hold z) [CosmoCortney]
+28357F3C 00000010
+04D26604 41200000
+E0000000 80008000
+
+MAX Score [-Ozelot-]
+041CC458 05F5E0FF
+
+Inf Lives [-Ozelot-]
+001CC42D 00000063
+
+Inf Time [-Ozelot-]
+001CC3E5 0000002D
+
+Inf Rings [-Ozelot-]
+2E1CC430 0000000A
+021CC430 00000063
+E0000000 80008000
+The Code Refill the Rings when is under 10 Rings.
+This is the alternate Inf. Health Code for Sonic, Shadow, Rouge and Knuckles
+
+Moon Jump [-Ozelot-]
+28357E6A FFFB0004
+48000000 801DE8C8
+DE000000 80008180
+4A100000 00000208
+14000000 40000000
+E0000000 80008000
+
+Set Enemy Standby ON/OFF [-Ozelot-]
+28357E6A FEFF0100
+001CC40A 00000000
+CC000000 00000001
+001CC40A 00000001
+E0000000 80008000
+Set all Enemys in Standby!!
+WARNING! SET THE VALUE BACK BEFORE YOU HIT A GOAL RING!
+IS THE CODE ACTIVE, YOU CAN NOT SHOW THE PAUSE MENU!
+
+Chao Drives Modifier [-Ozelot-]
+28357E6A 0000ZZZZ
+001E4EBB 000000XX
+001E4EC3 000000XX
+001E4ECB 000000XX
+001E4ED3 000000XX
+001E4EDB 000000XX
+001E4EE3 000000XX
+001E4EEB 000000XX
+001E4EF3 000000XX
+001E4EFB 000000XX
+001E4F03 000000XX
+001E4F0B 000000XX
+001E4F13 000000XX
+001E4F1B 0000000Y
+E0000000 80008000
+XX - Values
+00 - Penguin
+01 - Seal
+02 - Sea Otter
+03 - Rabbit
+04 - Cheetah
+05 - Hedgehog
+06 - Bear
+07 - Tiger
+08 - Gorilla
+09 - Peacock
+0A - Parrot
+0B - Condor
+0C - Skunk
+0D - Ram
+0E - Raccoon
+0F - Half Fish (Sea Creature)
+10 - Skeleton Dog
+11 - Bat
+12 - Dragon
+13 - Unicorn
+14 - Pheonix
+15 - Yellow Chaos Drive
+16 - Green Chaos Drive
+17 - Red Chaos Drive
+18 - Purple Chaos Drive
+0Y - Number of Chao Drives Item (0A=10)

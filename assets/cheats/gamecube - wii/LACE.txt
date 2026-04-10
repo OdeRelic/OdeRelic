@@ -1,0 +1,8 @@
+LACE
+Wonder Boy
+
+Unlimited Lives [GMO]
+00DB3D43 00000003
+
+Unlimited Time [GMO]
+00DB4836 0000000C

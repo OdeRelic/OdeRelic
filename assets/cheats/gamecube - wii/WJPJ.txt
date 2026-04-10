@@ -1,0 +1,31 @@
+WJPJ
+Janken Party Paradise
+
+Atodashi Noutore Janken
+
+Infinite HP [ZiT]
+040481D8 90850074
+
+Tataite Kabute Janken Pon
+
+Infinite HP [ZiT]
+0403727C 901F0078
+
+Mogu Jan Tataki
+
+Time Stop (1 Button on/off) [ZiT]
+284939AA 00000200
+04039040 D07E0024
+CC000000 00000000
+04039040 D03E0024
+E0000000 80008000
+
+If Score Increase, MAX [ZiT]
+C203AEF4 00000002
+3D80000F 380C423F
+901F0708 00000000
+
+Ren Ren Janken
+
+Infinite HP [ZiT]
+040494C8 907B0074

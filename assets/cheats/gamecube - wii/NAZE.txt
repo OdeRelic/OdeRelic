@@ -1,0 +1,103 @@
+NAZE
+Mario Party 2
+
+Button Conditionals
+
+WiiMote Pad1 [GMO]
+281ADF5A YYYYZZZZ
+
+WiiMote Pad2 [GMO]
+281AEE5A YYYYZZZZ
+
+Classic Pad1 [GMO]
+281ADFBA YYYYZZZZ
+
+Classic Pad2 [GMO]
+281AEEBA YYYYZZZZ
+
+GameCube Pad Slot1 [GMO]
+289EDCA0 YYYYZZZZ
+
+GameCube Pad Slot2 [GMO]
+289EDCAC YYYYZZZZ
+
+GameCube Pad Slot3 [GMO]
+289EDCB8 YYYYZZZZ
+
+GameCube Pad Slot4 [GMO]
+289EDCC4 YYYYZZZZ
+
+Miscellaneous Codes
+
+Max Coins (Coin Box) [GMO]
+02C24FB2 0000270F
+
+Unlimited Lives (Mini-Game Coaster) [GMO]
+00C29B8B 00000063
+
+Final Turn Modifier [GMO]
+00C25691 000000??
+14 = 20 Turns Game
+22 = 35 Turns Game
+32 = 50 Turns Game
+
+Player Position 1 Coins Modifier [GMO]
+02C295A8 00000???
+
+Player Position 1 Star Modifier [GMO]
+00C295AF 000000??
+
+Player Position 1 Item Modifier [GMO]
+00C295B9 000000??
+
+Player Position 2 Coins Modifier [GMO]
+02C295DC 00000???
+
+Player Position 2 Star Modifier [GMO]
+00C295E3 000000??
+
+Player Position 2 Item Modifier [GMO]
+00C295ED 000000??
+
+Player Position 3 Coins Modifier [GMO]
+02C29610 00000???
+
+Player Position 3 Star Modifier [GMO]
+00C29617 000000??
+
+Player Position 3 Item Modifier [GMO]
+00C29621 000000??
+
+Player Position 4 Coins Modifier [GMO]
+02C29644 00000???
+
+Player Position 4 Star Modifier [GMO]
+00C2964B 000000??
+
+Player Position 4 Item Modifier [GMO]
+00C29655 000000??
+
+Coin Modifier Value
+
+000 = 00
+001 = 01
+3E7 = 999
+
+Star Modifier Values
+
+00 = 00
+01 = 01
+63 = 99
+
+Item Modifier Values
+
+00 Mushroom
+01 Skeleton Key
+02 Plunder Chest
+03 Bowser Bomb
+04 Dueling Glove
+05 Warp Block
+06 Golden Mushroom
+07 Boo Bell
+08 Bowser Suit
+09 Magic Lamp

@@ -1,0 +1,13 @@
+RXYE4Z
+Puzzle Challenges And More
+
+Time Freeze [ZiT]
+0405CAF4 90640000
+
+Infinite Reveal Letter [ZiT]
+0405C978 92240004
+
+If Score Increase, MAX [ZiT]
+C2087E9C 00000002
+3F8005F6 3B9CE0FF
+93833F08 00000000

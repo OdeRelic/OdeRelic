@@ -1,0 +1,77 @@
+FDAM
+Spelunker
+
+Infinite Lives [Crapulecorp]
+00360FB4 00000009
+
+Time Stop [Crapulecorp]
+00360DAF 00000064
+*Code ported from ZiT Ntsc Usa Version*
+
+Invincible [Crapulecorp]
+00360E26 00000023
+*Code ported from ZiT Ntsc Usa Version*
+
+Unlimited Bombs [Crapulecorp]
+00360FB7 00000009
+
+Unlimited White Blue Thing [Crapulecorp]
+00360FB8 00000009
+
+Unlimited Keys [Crapulecorp]
+00360FB5 00000005
+
+MoonJump
+
+MoonJump (Press X) [Crapulecorp]
+281263D2 FFF70008
+00360DF1 000000FD
+E0000000 80008000
+02360E16 0000FFFF
+*Classic Controller*
+*Code ported from ZiT Ntsc Usa Version*
+
+MoonJump [Crapulecorp]
+281263A8 FEFF0100
+00360DF1 000000FD
+E0000000 80008000
+02360E16 0000FFFF
+*WiiMote*
+*Code ported from ZiT Ntsc Usa Version*
+
+Speed Up
+
+Speed Up [Crapulecorp]
+00360E24 00000001
+00360E25 00000023
+*Code ported from ZiT Ntsc Usa Version*
+
+Speed Up Type 2 (Press Up/Down) [Crapulecorp]
+82000000 80360DCF
+281263D2 BFFF4000
+86000000 00000001
+281263D3 FFFE0001
+86000000 FFFFFFFF
+E0000000 80008000
+84000000 80360DCF
+*Classic Controller*
+*Code ported from ZiT Ntsc Usa Version*
+
+Speed Up Type 2 (Press Up/Down) [Crapulecorp]
+82000000 80360DCF
+281263A8 FFFB0004
+86000000 00000001
+281263A9 FFF70008
+86000000 FFFFFFFF
+E0000000 80008000
+84000000 80360DCF
+*WiiMote*
+*Code ported from ZiT Ntsc Usa Version*
+
+Button Activator
+
+Classic Controller [Crapulecorp]
+281263D2 YYYYZZZZ
+
+WiiMote [Crapulecorp]
+281263A8 YYYYZZZZ

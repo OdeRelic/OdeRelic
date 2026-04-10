@@ -1,0 +1,8 @@
+MCJP
+Splatterhouse 2
+
+Unlimited Health [GMO]
+00FD4997 00000006
+
+Unlimited Lives [GMO]
+00FD4998 00000006

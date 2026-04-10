@@ -1,0 +1,12 @@
+MCEP
+Super Fantasy Zone
+
+Unlimited Lives [Crapulecorp]
+00EB6E92 00000009
+
+Invincible [Crapulecorp]
+00EB6D1D 000000FF
+*Code ported from ZiT Ntsc Jap Version*
+
+Max Money [Crapulecorp]
+04EB7D34 99999999

@@ -1,0 +1,15 @@
+NMFE
+Mario Golf 64
+
+Have Low Strokes/Putts Count [Seth@WiiPlaza]
+041B71FB 00000002 [Seth@WiiPlaza]
+041B71FC 00000002
+
+Have Full Metal Mario [Seth@WiiPlaza]
+010C28FE 0000000D
+
+Have Wario [Seth@WiiPlaza]
+010C28F8 00000007
+
+Have Luigi [Seth@WiiPlaza]
+010C28E8 00000004

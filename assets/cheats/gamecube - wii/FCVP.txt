@@ -1,0 +1,61 @@
+FCVP
+Wrecking Crew
+
+Unlimited Lives Player 1 [Crapulecorp]
+00416F50 00000009
+
+Have Gold Hammer [Crapulecorp]
+00416F1C 00000001
+*Code ported from ZiT Ntsc Jap Version*
+
+No Fire Ball [Crapulecorp]
+0041729D 00000032
+*Code ported from ZiT Ntsc Jap Version*
+
+Die to Complete Stage [Crapulecorp]
+00416F0C 00000001
+*Code ported from Dlong NES Version*
+
+Max Score Player 1 [Crapulecorp]
+00416F45 00000099
+00416F46 00000099
+*Code ported from Rune NES Version*
+
+Unlimited Lives Player 2 [Crapulecorp]
+00416F51 00000009
+*Code ported from Rune NES Version*
+
+Phase Modifier [Crapulecorp]
+00416F20 000000XX
+*Replace XX for : 00 to 64*
+*Code ported from Rune NES Version*
+
+Speed Up [Crapulecorp]
+82000000 804171C9
+28241232 BFFF4000
+86000000 00000002
+28241233 FFFE0001
+86000000 FFFFFFFE
+E0000000 80008000
+84000000 804171C9
+*Classic Controller*
+*Code ported from ZiT Ntsc Jap Version*
+
+Speed Up [Crapulecorp]
+82000000 804171C9
+282411D2 FFFB0004
+86000000 00000002
+282411D3 FFF70008
+86000000 FFFFFFFE
+E0000000 80008000
+84000000 804171C9
+*WiiMote*
+*Code ported from ZiT Ntsc Jap Version*
+
+Button Activator
+
+Classic Controller [Crapulecorp]
+28241232 YYYYZZZZ
+
+WiiMote [Crapulecorp]
+282411D2 YYYYZZZZ

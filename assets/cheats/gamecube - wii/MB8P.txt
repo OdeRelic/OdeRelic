@@ -1,0 +1,21 @@
+MB8P
+Phantasy Star II
+
+Unlimited Meseta (MST) [Crapulecorp]
+04F1C100 05F5E0FF
+
+Unlimited HP Player 1 [Crapulecorp]
+00F1BAE3 000000FF
+Code ported from GMO's Ntsc Usa Version*
+
+Unlimited TP Player 1 [Crapulecorp]
+00F1BAE7 000000FF
+Code ported from GMO's Ntsc Usa Version*
+
+Unlimited HP Player 2 [Crapulecorp]
+00F1BB23 000000FF
+Code ported from GMO's Ntsc Usa Version*
+
+Unlimited TP Player 2 [Crapulecorp]
+00F1BB27 000000FF
+Code ported from GMO's Ntsc Usa Version*

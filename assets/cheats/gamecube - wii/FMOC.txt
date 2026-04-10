@@ -1,0 +1,11 @@
+FMOC
+Dragon Warrior 4
+
+Infinite Gold [GMO]
+025AB8D7 0000FFFF
+
+Infinite Health [GMO]
+005AB836 000000FF
+
+Infinite Magic [GMO]
+005AB837 000000FF

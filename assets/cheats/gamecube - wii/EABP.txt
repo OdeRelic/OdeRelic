@@ -1,0 +1,32 @@
+EABP
+World Heroes
+
+Time Stop [Crapulecorp]
+0025A178 00000000
+*Code ported from ZiT Ntsc Usa Version*
+
+Unlimited Health [Crapulecorp]
+0025517A 00000068
+0025519E 00000068
+
+Moon Jump (Jump First And Press ZL) [Crapulecorp]
+2821E2C8 FFFD0002
+0224F17C 00000260
+E0000000 80008000
+*Classic Controller*
+*Code ported from ZiT Ntsc Usa Version*
+
+Moon Jump [Crapulecorp]
+2821E348 FFFD0002
+0224F17C 00000260
+E0000000 80008000
+*WiiMote*
+*Code ported from ZiT Ntsc Usa Version*
+
+Button Activator
+
+Classic Controller [Crapulecorp]
+2821E34A YYYYZZZZ
+
+WiiMote [Crapulecorp]
+2821E348 YYYYZZZZ

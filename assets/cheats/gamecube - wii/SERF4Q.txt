@@ -1,0 +1,23 @@
+SERF4Q
+Epic Mickey 2 - The Power of Two
+
+Infinite Paint & Thinner [Bully@Wiiplaza]
+F2B0459C 02F44002
+3D804310 91840038
+C0040038 00000000
+*Credits to Crapulecorp*
+
+Infinite Curencies [Bully@Wiiplaza]
+F2B043A0 FC32CF02
+3980270F 91830098
+80630098 00000000
+*Credits to Crapulecorp*
+
+Infinite Health [Bully@Wiiplaza]
+48000000 90BA2950
+DE000000 90009380
+58010000 000000D0
+DE000000 90009380
+14000030 00000005
+E0000000 80008000
+*Video: http://www.youtube.com/watch?v=4idqi0jeIbc&feature=plcp

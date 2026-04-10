@@ -1,0 +1,36 @@
+RHCE52
+The History Channel: Battle for the Pacific
+
+Infinite Ammo Primary / Secondary [MasterQ9999]
+C204FC5C 00000002
+38000063 90030218
+60000000 00000000
+
+Infinite Clips [MasterQ9999]
+C205153C 00000002
+38000063 900501C4
+60000000 00000000 [MasterQ9999]
+Infinite Grenades
+C207C35C 00000002
+38000063 900801C4
+60000000 00000000
+
+Infinite Health [MasterQ9999]
+04044170 60000000
+
+Speed Hack [MasterQ9999]
+42000000 90000000
+05175A34 C9000000
+E0000000 80008000
+*Buggy and sometimes gets stuck to walls
+
+Hide Underground [MasterQ9999]
+42000000 90000000
+05175A44 40500000
+05175A54 40500000
+05175A54 40500000
+E0000000 80008000
+*Whenever you stop moving, it will teleport you 2 feel underground and the enemies cannot shoot you. Do not crouch or you will fall infinitly.
+
+Button Activator [MasterQ9999]
+285FD3B8 YYYYXXXX

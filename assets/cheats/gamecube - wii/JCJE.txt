@@ -1,0 +1,11 @@
+JCJE
+Super Punchout!!
+
+Unlimited Energy [GMO]
+00445A27 00000050
+
+Unlimited Stamina/Never Tire Out [GMO]
+00445A24 00000000
+
+1-Hit Kill/KO [GMO]
+00445B27 00000000

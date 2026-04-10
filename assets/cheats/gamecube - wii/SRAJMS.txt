@@ -1,0 +1,8 @@
+SRAJMS
+Rajirunogia Wii
+
+Infinite LIFE [ZiT]
+04BA017C 34000001
+
+Infinite Barrier [ZiT]
+04BA3D2C 60000000

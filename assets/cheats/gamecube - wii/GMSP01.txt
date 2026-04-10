@@ -1,0 +1,30 @@
+GMSP01
+Super Mario Sunshine
+
+Master Code (Codehandler fix)
+
+Master Code [-Ozelot-]
+04347930 4BCB9F78
+Tested only with GCOS 1.06d
+
+Main Codes
+
+Inf. Lives [-Ozelot-]
+0428C650 38000063
+
+Moon Jump [-Ozelot-]
+C2244AC8 00000005
+3D80803F 618CBC26
+A18C0000 718CKKKK
+41820010 3D804200
+919F00A8 C03F00A8
+60000000 00000000
+KKKK = GCN Button Value
+
+Inf. Energy + Under water [-Ozelot-]
+0423B678 38000008
+0424752C 60000000
+
+Inf. Water [-Ozelot-]
+04263F58 38002710
+042635B0 38002710

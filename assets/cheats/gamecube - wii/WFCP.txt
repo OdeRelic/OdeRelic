@@ -1,0 +1,22 @@
+WFCP
+Final Fantasy Crystal Chronicles: My Life as a King
+
+9999 Elementite [AsatanuKain]
+02C10EB2 0000270F
+
+9999 Gil [AsatanuKain]
+02C10EEA 0000270F
+
+Jump back to Morning [AsatanuKain]
+CE000000 80008180
+282C026A 00000200
+02C2C732 00000040
+E0000000 80008000
+Note: inspired by sNiPPs
+Press 1 to set Time to morning again.
+
+infinite Gil [ninjor]
+02CFA506 0000270F
+
+infinite Elementite [ninjor]
+02CFA4CE 0000270F

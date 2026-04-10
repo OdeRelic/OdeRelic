@@ -1,0 +1,8 @@
+GP8EAF
+Pac-Man World 3 
+
+Infinite Health
+041883E4 60000000
+
+Huge Score
+0418860C 91230010

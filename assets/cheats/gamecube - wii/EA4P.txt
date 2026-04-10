@@ -1,0 +1,39 @@
+EA4P
+Samurai Shodown III
+
+Enabler Code (Must Be On) [GMO]
+28223154 00000304
+02223154 00000909
+E0000000 80008000
+28223154 00000304
+02223154 00000304
+E0000000 80008000
+
+Miscellaneous Codes
+
+Unlimited Health Player 1 [Crapulecorp]
+0022325B 00000080
+*Code ported from GMO Ntsc Usa Version*
+
+Unlimited POW Player 1 [Crapulecorp]
+00223264 00000040
+*Code ported from GMO Ntsc Usa Version*
+
+Unlimited Time [Crapulecorp]
+00223186 00000099
+
+Unlimited Credits Player 1 [Crapulecorp]
+00223154 00000009
+*Code ported from GMO Ntsc Usa Version*
+
+Instant Win Player 1 (Press ZL) [Crapulecorp]
+281E9EC2 FF7F0080
+0022335B 00000000
+E0000000 80008000
+*Classic Controller*
+*Code ported from GMO Ntsc Usa Version*
+
+Button Activator
+
+Classic Controller [Crapulecorp]
+281E9EC2 YYYYZZZZ

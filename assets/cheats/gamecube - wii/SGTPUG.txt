@@ -1,0 +1,16 @@
+SGTPUG
+My Personal Golf Trainer
+
+Button Remapping [Bully@Wiiplaza]
+C21025EC 00000005
+3D808039 618CDD8C
+7C0C2800 40820010
+2C03XXXX 40820008
+3860ZZZZ 90650004
+60000000 00000000
+*XXXX = Button to replace*
+*ZZZZ = Button to press instead*
+*Can not run multiple instances of this code*
+
+Button Activator [Bully@Wiiplaza]
+2839DD92 YYYYZZZZ

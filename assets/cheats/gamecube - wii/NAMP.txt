@@ -1,0 +1,57 @@
+NAMP
+Kirby 64
+
+Unlimited Health [Crapulecorp]
+04BFAA30 60000000
+*Code ported from GMO Ntsc Usa Version*
+
+99 Lives [Crapulecorp]
+011A13EB 00000064
+*Code ported from GMO Ntsc Usa Version*
+
+Max Stars/ Unlimited Lives [Crapulecorp]
+011A13FB 00000020
+*Code ported from GMO Ntsc Usa Version*
+
+Copy Power Modifier [Crapulecorp]
+011A13F3 000000XX
+*Replace XX for :
+00 Empty
+01 Fire
+02 Rock
+03 Ice Breath
+04 Spikes
+05 Bomb
+06 Lightning
+07 Boomerang
+08 Fire & Fire
+09 Fire & Rock
+0A Fire & Ice Breath
+0B Fire & Spikes
+0C Fire & Bomb
+0D Fire & Lightning
+0E Fire & Boomerang
+0F Rock & Rock
+10 Rock & Ice Breath
+11 Rock & Spikes
+12 Rock & Bomb
+13 Rock & Lightning
+14 Rock & Boomerang
+15 Ice Breath & Ice Breath
+16 Ice Breath & Spikes
+17 Ice Breath & Bomb
+18 Ice Breath & Lightning
+19 Ice Breath & Boomerang
+1A Spikes & Spikes
+1B Spikes & Bomb
+1C Spikes & Lightning
+1D Spikes & Boomerang
+1E Bomb & Bomb
+1F Bomb & Lightning
+20 Bomb & Boomerang
+21 Lightning & Lightning
+22 Lightning & Boomerang
+23 Boomerang & Boomerang
+24 Ribbon
+25 Ribbon and Crystal Shooter*
+*Code ported from GMO Ntsc Usa Version*

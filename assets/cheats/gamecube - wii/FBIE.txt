@@ -1,0 +1,16 @@
+FBIE
+Punch-Out!
+
+Infinite Health [Sharkbyte]
+023EF991 00006060
+
+Infinite Hearts [Sharkbyte]
+023EF924 00000909
+Infinite Hearts will say 0 but Mac will never tire out.
+
+Infinite Stars [Sharkbyte]
+003EF942 00000004
+
+Enemy no health [Sharkbyte]
+023EF998 00000000
+1 hit KO

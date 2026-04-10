@@ -1,0 +1,19 @@
+GUZE41
+Batman Rise of Sin Tzu 
+
+Infinite Health
+041A8D34 60000000
+
+Infinite Lives
+041AD680 3BE00063
+
+Quick Combo Up
+041A1CE4 38000063
+
+One Hit Kills All Enemies
+040EBD54 60000000
+
+Max/Infinite Points
+041DC8B0 80020000
+04418260 05F5E0FF
+041DC8EC 60000000

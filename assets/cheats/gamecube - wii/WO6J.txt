@@ -1,0 +1,16 @@
+WO6J
+Okiraku Sugoroku Wii
+
+Gold (1P) [ZiT]
+0552EA48 xxxxxxxx
+
+Gold (2P) [ZiT]
+05540928 xxxxxxxx
+
+Gold (3P) [ZiT]
+05551F28 xxxxxxxx
+
+Gold (4P) [ZiT]
+05560228 xxxxxxxx
+
+xxxxxxxx = 00000000 &gt; 000F423F

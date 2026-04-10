@@ -1,0 +1,17 @@
+GSTE69
+SSX Tricky 
+
+Infinite Turbo
+0400CB78 60000000
+
+Lucky Score
+04046968 90FE00E0
+
+Max Stats
+002B29CB 00000001
+
+Everything Opened
+002B29C8 00000001
+
+Play As DJ
+002B29D0 00000001

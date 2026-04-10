@@ -1,0 +1,172 @@
+STKE08
+Tatsunoko VS Capcom : Ultimate All-Stars
+
+Max Zenny After Purchase [Skiller]
+C2060950 00000002
+3C00000F 6000423F
+60000000 00000000
+
+Max Zenny [Skiller]
+043EBA7C 000F423F
+
+Time Played 0 [Skiller]
+043EBA74 00000000
+
+Unlock Extra Characters [Skiller]
+043EBA84 FFFFFFFF
+043EBA90 FFFFFFFF
+043EBAA4 FFFFFFFF
+
+Have Everythig to Buy [Skiller]
+043EBAA8 FFFFFFFF
+043EBAAC FFFFFFFF
+
+Have All Icons [Skiller]
+043EBA98 FFFFFFFF
+043EBA9C FFFFFFFF
+
+Battle Codes
+
+Inf HP Player 1(Ported From ZiT) [Skiller]
+C2052264 00000005
+83590004 2C1A0000
+41820014 2C1A0002
+4182000C 90790028
+4800000C 80190024
+90190028 00000000
+C20522FC 00000005
+83590004 2C1A0000
+41820014 2C1A0002
+4182000C 9079002C
+4800000C 80D90024
+90D9002C 00000000
+
+Inf HP Player 2 [Skiller]
+C2052264 00000005
+83590004 2C1A0002
+41820014 2C1A0001
+4182000C 90790028
+4800000C 80190024
+90190028 00000000
+C20522FC 00000005
+83590004 2C1A0002
+41820014 2C1A0001
+4182000C 9079002C
+4800000C 80D90024
+90D9002C 00000000
+
+Infinite Special Gauge Player 2 [Skiller]
+C2053124 00000005
+823F0004 2C110002
+41820014 2C110001
+4182000C 907F004C
+48000008 90DF004C
+60000000 00000000
+
+Inf time [Thomas83Lin]
+0406E608 34000000
+
+P1 Infinite Special Gauge (Ported from ZiT) [Thomas83Lin]
+C2053124 00000005
+823F0004 2C110000
+41820014 2C110002
+4182000C 907F004C
+48000008 90DF004C
+60000000 00000000
+
+Ultimate All-Shooters
+
+Inf Hp [Skiller]
+04198C60 60000000
+
+Inf Lives [Skiller]
+04198CFC 90C40198
+
+Inf/Max Sub Attack (On Pickup) [Skiller]
+0419B9D4 60000000
+0419B9DC 380003E7
+04198EEC 380003E7
+
+Pow Max [Skiller]
+0419C674 38000002
+0419C680 38000002
+0419C698 38000002
+
+Max/Inf Sp (On Pickup) [Skiller]
+0419BCFC 38000003
+04198F70 38000004
+
+SP Move never Stops [Skiller]
+04199074 38030000
+
+Gain 1000 Score Each Kill [Skiller]
+C21A1CC8 00000002
+388003E8 7C002214
+60000000 00000000
+
+Player/Stage Mods
+
+Player 1 Character 1 [Skiller]
+043EB80C 000000??
+
+Player 1 Character 2 [Skiller]
+043EB884 000000??
+
+Player 2 Character 1 [Skiller]
+043EB848 000000??
+
+Player 2 Character 2 [Skiller]
+043EB8C0 000000??
+
+Stage Select [Skiller]
+043EB8F4 000000??
+
+Digits Player Select
+01 = Ken The Eagle
+02 = Casshan
+03 = Tekkaman
+04 = Polimar
+05 = Yatterman-1
+06 = Doronjo
+07 = Ippatsuman
+08 = Jun The Swan
+09 = ??? Crash
+0A = Karus
+0B = S.Lightan
+0C = Ryu
+0D = Chung-Li
+0E = Batsu
+0F = Morrigan
+10 = Alex
+11 = Viewtifull Joe
+12 = MegaMan
+13 = Roll
+14 = Saki
+15 = Kaijinnosoki
+16 = PTX-40A
+17 = Yami
+18 = Yami 2
+19 = Yami 3
+1A = Tekkaman Blade
+1B = Joe The Condor
+1C = Yatterman-2
+1D = Zero
+1E = FrankWest
+1F = RYU (Japan) (No use)
+
+Digits Stage Select
+01 = Wasteland
+02 = Yatterman's Workshop
+03 = Washinkyo Amehon
+04 = Galacto Base
+05 = Burning Wasteland
+06 = Las vagas
+07 = Daigo Temple (Cherry Blossoms)
+08 = Gesellschaft (Clear Skies)
+09 = Aensland Castle
+0A = Uncharted Region of China
+0B = Daigo Temple (Moonlight)
+0C = Gesellschaft (Storm)
+0D = Orbital Ring Systems Cargo Bay
+0E = Willamette Parkview Mall
+0F = Training Stage

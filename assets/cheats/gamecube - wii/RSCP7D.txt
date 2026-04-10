@@ -1,0 +1,37 @@
+RSCP7D
+Scarface The World is Yours
+
+Use WiiPad Hook or Kpad Read
+
+Unlimited Health [Crapulecorp]
+C2211078 00000002
+9003017C 8063017C
+60000000 00000000
+*Code ported from Thomas83Lin's Ntsc Usa Version*
+
+Unlimited Vehicle Health [Crapulecorp]
+0412849C D3FB0074
+
+Unlimited Ammo/No Reload [Crapulecorp]
+042ED450 34000000
+
+Infinite Cash [Crapulecorp]
+42000000 90000000
+040EBE40 3B9AC9FF
+E0000000 80008000
+*Enter Game Menu (By Pressing 1 Or 2) Then Go Back To Activate*
+*Code ported from Thomas83Lin's Ntsc Usa Version*
+
+Infinite Drugs [Crapulecorp]
+42000000 90000000
+040EBE80 3B9AC9FF
+E0000000 80008000
+*Enter Game Menu (By Pressing 1 Or 2) Then Go Back To Activate*
+*Code ported from Thomas83Lin's Ntsc Usa Version*
+
+Max Dirty Cash [Crapulecorp]
+42000000 90000000
+040EBE30 3B9AC9FF
+E0000000 80008000
+*Enter Game Menu (By Pressing 1 Or 2) Then Go Back To Activate*
+*Code ported from Thomas83Lin's Ntsc Usa Version*

@@ -1,0 +1,34 @@
+SB6P52
+Bakugan: Defenders of the Core
+
+Important: Use OSSleepThread Hook
+
+Unlimited Health [Crapulecorp]
+040D1A68 60000000
+0412E2AC 60000000
+*Some Enemies can still decrease your Health*
+
+Unlimited Power [Crapulecorp]
+040D1470 60000000
+040D226C 60000000
+040D4A7C 60000000
+040D4F70 60000000
+040D5B60 60000000
+
+Instant Charge [Crapulecorp]
+C20BFB3C 00000003
+3D8041F0 618C0000
+919E0004 C03E0004
+60000000 00000000
+
+If Increase Max Core Energy [Crapulecorp]
+041AD2D0 90030004
+041AD2E4 90E30008
+*Ported From Skiller's Ntsc Usa Version*
+
+Don't Lose Cards [Crapulecorp]
+040A5D14 38040000
+*Ported From Skiller's Ntsc Usa Version*
+
+Unlimited Glasses Power [Crapulecorp]
+040B7F24 60000000

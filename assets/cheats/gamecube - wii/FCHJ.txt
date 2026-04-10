@@ -1,0 +1,11 @@
+FCHJ
+Flappy
+
+Infinite Lives [ZiT]
+004BACB1 00000006
+
+Time Stop [ZiT]
+024BACCA 0000FFDC
+
+Invincible [ZiT]
+004BACF3 00000000

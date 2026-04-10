@@ -1,0 +1,83 @@
+FJIF
+Mega Man 2
+
+Press Z(Left) to Refill Health/Ammo [GMO]
+2825B232 00000080
+004682A0 0000001C
+08467C7C 0000001C
+000A0001 00000000
+E0000000 80008000
+
+Hold B and Press Right on D-Pad to Refill Health/Ammo [GMO]
+2825B232 00000402
+004682A0 0000001C
+08467C7C 0000001C
+000A0001 00000000
+E0000000 80008000
+
+Press Z(Right) for 1-Hit Kill Bosses [GMO]
+2825B232 00000004
+004682A1 00000000
+E0000000 80008000
+
+Hold B and Press Left on D-Pad for 1-Hit Kill Bosses [GMO]
+2825B232 00000401
+004682A1 00000000
+E0000000 80008000
+
+Infinite Lives [GMO]
+00467C88 0000000A
+
+Have All 4 E Containers [GMO]
+80467C87 00000004
+
+Infinite H Ammo [GMO]
+00467C7C 0000001C
+
+Infinite A Ammo [GMO]
+00467C7D 0000001C
+
+Infinite W Ammo [GMO]
+00467C7E 0000001C
+
+Infinite B Ammo [GMO]
+00467C7F 0000001C
+
+Infinite Q Ammo [GMO]
+00467C80 0000001C
+
+Infinite F Ammo [GMO]
+00467C81 0000001C
+F Ammo May Glitch Game since it's a timed ammo
+
+Infinite M Ammo [GMO]
+00467C82 0000001C
+
+Infinite c Ammo [GMO]
+00467C83 0000001C
+
+Infinite 1 Ammo [GMO]
+00467C84 0000001C
+
+Infinite 2 Ammo [GMO]
+00467C85 0000001C
+
+Infinite 3 Ammo [GMO]
+00467C86 0000001C
+
+Infinite Ammo All Weapons/Items [GMO]
+08467C7C 0000001C
+000A0001 00000000
+F Ammo May Glitch Game since it's a timed ammo
+
+Power Suit Modifer [GMO]
+00467C89 000000??
+00 MegaMan
+01 Heatman
+02 AirMan
+03 WoodMan
+04 BubbleMan
+05 QUickMan
+06 FlashMan
+07 MetalMan
+08 ClashMan

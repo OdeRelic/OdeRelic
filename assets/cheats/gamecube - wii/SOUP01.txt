@@ -1,0 +1,871 @@
+SOUP01
+The Legend of Zelda: Skyward Sword
+
+Link Size Modifier [CosmoCortney]
+2859B28C 00001000
+04E5A23C 3F800000
+04E5A240 3F800000
+04E5A244 3F800000
+E0000000 80008000
+2859B28C 00000001
+04E5A23C 3ED00000
+04E5A240 3ED00000
+04E5A244 3ED00000
+E0000000 80008000
+2859B28C 00000002
+04E5A23C 40200000
+04E5A240 40200000
+04E5A244 40200000
+E0000000 80008000
+dPad left = tiny Link
+dPad right = Massive Link
+- (minus) = normal
+
+Profile Name Modifier [CosmoCortney]
+04955D38 SSSSTTTT
+04955D3C UUUUVVVV
+04955D40 WWWWXXXX
+04955D44 YYYYZZZZ
+Characters must be in Unicode (NO Kanji-support. But all Hiragana, Katakana and ASCII work flawless).
+IMPORTANT NOTE!: You can only modify as many Characters as given in the primary name.
+For example if your name is 'ABCD' and you modify it to '123456', only '1234' will appear.
+It only modifies the name of the profile you have chosen to play with.
+After saving, the name is modified permanently.
+Preview: http://img703.imageshack.us/img703/8245/thelegendofzeldaskywarda.jpg
+
+No Music [CosmoCortney]
+057FB34C 5F5F5F5F
+
+Awesome Colors [CosmoCortney]
+0457C54C 41000000
+looks way more awesome in combination with the metallic effect code
+
+All Characters (Link, Enemies, etc.) are having a seizure [CosmoCortney]
+04580244 41100000
+Looks insane funny. The sizes sometimes changes, too
+
+HUD Icon Speed [CosmoCortney]
+04580868 3FX00000
+Changes the Speed of the Icons like the beating heart.
+X = 8 = Normal Speed
+X &lt; 8 = Slowly
+X &gt; 8 = Fast
+
+Enemy Size Modifier [CosmoCortney]
+04580398 XXX00000
+Modifies the size of nearly all enemies and some other objects (like the mushrooms in The Forest Of Phirone)
+XXX = 3F8 = Normal Size
+XXX = 3F9 to 410 = Giant
+XXX = 3E0 to 3F7 = small
+
+Metallic Effect [CosmoCortney]
+04580C40 4169F734
+
+Music Speed [CosmoCortney]
+04580708 3FX00000
+X &lt; 8 = slowly
+X = 8 = normal speed
+X &gt; 8 = high pitched music
+
+21:9 screen ratio [CosmoCortney]
+04577E20 3FC00000
+This code will give you REAL 21:9 ratio on 21:9 screens
+
+Bird speed modifier [CosmoCortney]
+2859B28C 00004000
+04AF1E98 44722672
+2859B28C 00002000
+04AF1E98 4213AD96
+E0000000 80008000
+Hold C to accelerate, press Z to slow down instantly. Doesn't work in that big thunder cloud.
+
+Press D-Pad right to Zoom the camera far away [CosmoCortney]
+2859B28C 00000002
+045A2860 4106200e
+E0000000 80008000
+Just works when you're flying with the bird
+
+Fly without Link [CosmoCortney]
+2859B28C 00000001
+04B76890 00000002
+E0000000 80008000
+Press D-Pad Left to unlock Link from the bird. (looks like his sitting in the air) Then jump down from the bird like as usual and now you can fly without Link.
+But there is no way to get him back. So you need to reset the game
+
+Boat speed modifier [CosmoCortney]
+2859B28C 00000002
+04AD7E6C 43900000
+E0000000 80008000
+Hold D-Pad right to accelerate
+
+Sharp background [CosmoCortney]
+04593564 3F800000
+The Background and many other things don't look that blured.
+Preview: http://imageshack.us/photo/my-images/35/beforeafteri.jpg/
+
+Link shakes alot after the sword is pulled [CosmoCortney]
+04580938 40000000
+
+Make Everything except Link & Water Transparent or Invicible [CosmoCortney]
+2859B28C 00000001
+04B74698 7FFFFFFF
+E0000000 80008000
+2859B28C 00000002
+04B74698 00000000
+E0000000 80008000
+2859B28C 00001000
+04B74698 3F800000
+E0000000 80008000
+dPAD left = invicible
+dPAD right = Transparent
+- (Minus) = Normal
+Preview1: http://imageshack.us/a/img13/6239/thelegendofzeldaskywardo.jpg
+Preview2: http://imageshack.us/a/img221/7855/thelegendofzeldaskyward.jpg
+
+No HUD [CosmoCortney]
+2859B28C 00000001
+04B7F2EC 00000000
+04B7F300 00000000
+E0000000 80008000
+2859B28C 00000002
+04B7F2EC 3F800000
+04B7F300 3F800000
+E0000000 80008000
+dPAD left/right - on/off
+
+no low battery symbol appears [CosmoCortney]
+04BE3554 42000000
+04BE3558 42000000
+
+Button Activator [Bully@Wiiplaza]
+285FDE0A YYYYZZZZ
+
+One Shot Button Activator [Bully@Wiiplaza]
+285FDE0E YYYYZZZZ
+
+Guardians Can´t Attack [Bully@Wiiplaza]
+04449784 60000000
+*Ported from wiiztec NTSC-U*
+
+Inf. Ammo [Bully@Wiiplaza]
+040BF34C 7CA02B78
+
+Skyward Strike Charges Instantly [Bully@Wiiplaza]
+041C73F8 38600037
+*Ported from wiiztec NTSC-U*
+
+Walk Under Water [Bully@Wiiplaza]
+0434966C 41820014
+*Ported from ukuneko NTSC-J*
+
+Invincibility [Bully@Wiiplaza]
+0420C16C 41820024
+02B7A8FC 0000001E
+04246684 4800000C
+*Ported from ukuneko NTSC-J*
+
+Jesus Mode [Bully@Wiiplaza]
+04003200 3F7FFFFF
+C233FFC0 0000000A
+9421FFB0 BDC10008
+3E0080B7 62108B80
+7C10E840 40820028
+3E0080B7 C1D066DC
+FC0E0840 40810018
+3E208000 C1F13200
+EDEE03F2 FC007890
+FC407890 C03D00A8
+B9C10008 38210050
+60000000 00000000
+*Ported from ukuneko NTSC-J*
+
+Link Teleporter [Bully@Wiiplaza]
+C2244A9C 0000000D
+9421FFB0 BDC10008
+3DC0805F 61CEDE0A
+A1CE0000 3DE08000
+2C0E0001 4082001C
+821F00C0 823F00C4
+825F00C8 920F1500
+922F1504 924F1508
+2C0E0002 4082001C
+826F1500 828F1504
+82AF1508 927F00C0
+929F00C4 92BF00C8
+81C10008 38210050
+C05F00C0 00000000
+*Press D-PAD Left to Store Position*
+*Press D-PAD Right to Teleport*
+
+No Black Bars [Bully@Wiiplaza]
+0419DD6C C01E0298
+
+Super Speed [Bully@Wiiplaza]
+C223F0F0 00000005
+3D80805F 618CDE0A
+A18C0000 2C0C0800
+4082000C 3D8042A0
+918344A8 C02344A8
+60000000 00000000
+*Hold A*
+
+Moonjump [Bully@Wiiplaza]
+C2340610 00000005
+3D80805F 618CDE0A
+A18C0000 2C0C0008
+40820010 3D804200
+91830004 C0030004
+60000000 00000000
+*Jump and press D-PAD_UP*
+
+Levitation [Bully@Wiiplaza]
+04001600 42500000
+C223E1F8 00000007
+C29D00C4 3D80805F
+618CDE0A A18C0000
+2C0C0008 40820018
+3D808000 C2AC1600
+EE94A82A D29D00C4
+48000008 D05D00C4
+60000000 00000000
+*Works without jumping*
+*Press D-PAD_UP*
+
+Bombs Blows Up On Command [Bully@Wiiplaza]
+0425A030 A81F0A44
+285FDE0A FFF70008
+0425A030 38000000
+E0000000 80008000
+*Press D-PAD_UP*
+*Ported from wiiztec NTSC-U*
+
+Inf. Rupees + Have Many Items [Bully@Wiiplaza]
+040BF2A8 3860270F
+*Temporary effect, does not save*
+
+Infinite Stamina [Bully@Wiiplaza]
+041C6278 60000000
+*Credits to Glitch*
+
+Infinite Max. Health [Bully@Wiiplaza]
+0400AD80 A3E3530A
+
+Infinite Flying Charges [Bully@Wiiplaza]
+F283AECC 02389601
+38800003 60000000
+*Credits to Glitch*
+
+Right Leg Height Modifier [Bully@Wiiplaza]
+285FDE0A FFF70008
+82200009 80EB5CB0
+86900009 41000000
+84200009 80EB5CB0
+285FDE0B FFFB0004
+82200009 80EB5CB0
+86900009 C1000000
+84200009 80EB5CB0
+E0000000 80008000
+*Press Up on D-PAD to raise your right leg*
+*Press Down on D-PAD to lower your right leg*
+Video: http://www.youtube.com/watch?v=WxU7PCiJHdI
+
+Steady Right Leg Height [Bully@Wiiplaza]
+04EB5CB0 42A00000
+*about 90 degree*
+
+Silent Realm Color Modifier [Anarion]
+C22D7F08 00000003
+3D80YYYY 618CZZZZ
+919E0310 C3E30310
+60000000 00000000
+042D7A4C 60000000
+042D7A80 60000000
+042D7A74 60000000
+042D7EB4 60000000
+YYYY ZZZZ Values:
+0000 0000 - Silent Realm 'Sleep Mode' color
+3F80 0000 - Silent Realm 'Woken Mode' color
+4000 0000 - Lavender colors
+4100 0000 - Crimson sea
+4080 0000 - Crimson sky&white land
+4020 0000 - Pink & Blue pastels
+3F91 BE19 - "Dark World"
+40C7 0000 - "Twilight Realm"
+Higher value results in different color. Change value if you'd like.
+
+Sleeping Guardians [Anarion]
+285FDE0A 0000ZZZZ
+042D7B6C 38000000
+042D81F8 38000000
+040C7B30 60000000
+CC000000 00000000
+042D7B6C 800302D0
+042D81F8 801E02D0
+040C7B30 90030010
+E0000000 80008000
+Z=button value to turn code on&off when you experience poe/waking water loop.
+
+Sword Modifier [Thomas83Lin]
+0405C2BC 3860000x
+*Replace x with 0-5*
+*Ported from Crediar*
+
+Tunic Modifier [Thomas83Lin]
+04239798 60000000
+0423979C 3800000x
+*X=00=Green Tunic\01=Skyloft Tunic*
+*Non Permanent*
+
+No Need for Arrows [Thomas83Lin]
+04209F10 60000000
+*Still shoots at 0*
+
+No Need for SlingShot Nuts [Thomas83Lin]
+042091E0 60000000
+*Still shoots at 0*
+
+Using Slingshot Ammo adds 1 [Thomas83Lin]
+0420921C 38800001
+
+Using Bow Ammo adds 1 [Thomas83Lin]
+0420A7B4 38800001
+
+Using Bombs adds 1 [Thomas83Lin]
+041E6F3C 38800001
+
+Walk on Lava [Thomas83Lin]
+042421A4 38000000
+
+Walk Knee High Slowly in Quick Sand [Thomas83Lin]
+041DB758 60000000
+041DB6F0 4182013C
+
+Walk Knee High Normal Speed in Quick Sand [Thomas83Lin]
+041DB758 60000000
+041DB6F0 4182013C
+0423FB88 38000000
+0423DEB0 38600000
+0423F528 38000000
+
+Walk on Quick Sand [Thomas83Lin]
+041DB684 38600000
+0423FB88 38000000
+0423DEB0 38600000
+0423F528 38000000
+
+Use Bombs on Quick Sand [Thomas83Lin]
+042031B0 38000000
+04204288 38000000
+04244EC4 38000000
+
+Inf Health [Thomas83Lin]
+041E3920 2C000000
+041E3934 60000000
+*Stores Base to Current when hit or Pickup*
+
+Clawshot Any Surface [Thomas83Lin]
+0433C4B0 38600001
+
+Clawshot Shoots to almost any Distance [Thomas83Lin]
+06578D20 00000010
+47870000 45336000
+45336000 43FA0000
+*Ported from James0x57*
+
+Temp Unlock All Weaponsv.2 [Thomas83Lin]
+041E35E4 3BE00001
+040D5C2C 48000098
+040F0220 48000070
+*First Line Ported from Crediar*
+
+Upgrade Bow to Sacred Bow [Thomas83Lin]
+0405C4A8 60000000
+*Use with Temp Unlock All Weapons if you don't have it*
+
+Upgrade Beetle to Tough Beetle [Thomas83Lin]
+0405C428 60000000
+*Use with Temp Unlock All Weapons if you don't have it*
+
+Upgrade Bug Net to Big Bug Net [Thomas83Lin]
+0405C3D8 60000000
+*Use with Temp Unlock All Weapons if you don't have it*
+*Ported From hetoan2*
+
+Upgrade SlingShot to ScatterShot [Thomas83Lin]
+0405C388 60000000
+*Use with Temp Unlock All Weapons if you don't have it*
+
+Unlock Tycoon Wallet [Thomas83Lin]
+00955E53 000000FF
+*Makes Permanent Changes*
+
+99 Inf Bug+Materials [Thomas83Lin]
+08955E98 31E331E3
+20060004 00000000
+
+Change Save into Hero Save [Thomas83Lin]
+00955D62 000000F8
+*Enter Save With code on then save and quit*
+*Receive Double Damage exec*
+
+Multiply damage taken by X [mugwhump]
+8000000E 8000182A
+82100000 8000182A
+82100001 8095A76A
+A695A76A EF000000
+84100000 8095A76A
+86400001 FFFFFFFF
+86000001 00000001
+88000000 00000001
+86100000 0000000X
+82100001 8095A76A
+86400000 FFFFFFFF
+86000000 00000001
+88000001 00000000
+84100001 8095A76A
+2C95A76A 00000050
+0295A76A 00000000
+E0000000 80008000
+Needs "Post-health-modifier code" after.
+
+Health increases multiplied by X/Y (rounded up) [mugwhump]
+2800182A 00000000
+2800182E 00000000
+82100002 8095A76A
+84100002 8000182A
+E0000000 80008000
+8000000E 8000182A
+80000003 8000182E
+82100000 8000182A
+82100001 8095A76A
+A495A76A EF000000
+2A00182A 00000000
+84100000 8095A76A
+86400000 FFFFFFFF
+86000000 00000001
+88000001 00000000
+86100001 0000000X
+84100001 8000182C
+80000000 00000000
+80000002 00000000
+60000000 00000000
+86000000 00000001
+86000002 0000000Y
+84100002 8000182E
+A400182C 3F000000
+64000000 00000000
+E2000001 00000000
+82100002 8095A76A
+88000002 00000000
+84100002 8095A76A
+E0000000 80008000
+Needs "Post-health-modifier code" after. If you want your starting health (normally 6 hearts) to be multiplied by X/Y, remove the line "2A00182A 00000000"
+
+Post-health-modifier code (REQUIRED after either of the 2 above codes) [mugwhump]
+82100000 8095A76A
+84100000 8000182A
+
+Infinite Slingshot Nuts (NTSC by Glitch) [Cajon]
+02955EC4 0000B200
+
+Infinite Charge Flying [Glitch]
+02AFEAFE 00000003
+02AF1E8A 00000003
+E0000000 80008000
+
+Infinite Health [Glitch]
+0295A76A 00000050
+
+All Heart Containers [Glitch]
+0095A767 00000050
+
+No Stamina Meter [Glitch]
+04B7FD1C 00000000
+E0000000 80008000
+Credit to wiiztec as well.
+
+Infinite Sprint [Glitch]
+02B7A9C4 0000000F
+
+Infinite Rupees [Glitch]
+02955EC2 0000270F
+
+Universal Codes for The Legend of Zelda: Skyward Sword
+
+Master Button Activator [Bully@Wiiplaza]
+F6000001 80008100
+B0A305F4 B00305F6
+F4000014 02EF3F02
+81230000 3D808000
+912C150C 00000000
+E0000000 80008000
+
+Button Activator [Bully@Wiiplaza]
+2800150E YYYYZZZZ
+*Requires the "Master Button Activator" code*
+
+Free Fly [Bully@Wiiplaza]
+F6000001 80008100
+C03F00C4 2C05007B
+F4000008 0296670F
+C05F00C0 C15F00C4
+C17F00C8 3D808000
+A14C150E 3D604250
+916C1600 C18C1600
+2C0A0002 40820008
+EC42602A 2C0A0001
+40820008 EC426028
+2C0A2002 40820008
+ED6B602A 2C0A2001
+40820008 ED6B6028
+2C0A2008 40820008
+ED4A6028 2C0A0008
+40820008 ED4A602A
+D05F00C0 D15F00C4
+D17F00C8 00000000
+E0000000 80008000
+*Don´t use with "Link Teleporter"*
+*Requires the "Master Button Activator" code*
+*Best used with "Total Position Lock" to have perfect control over Link*
+*Video: http://www.youtube.com/watch?v=jnoriTWJo4A
+*Press D-PAD_UP to move up*
+*Press D-PAD_LEFT to move left*
+*Press D-PAD_RIGHT to move right*
+*Press Z + D-PAD_LEFT to move forth*
+*Press Z + D-PAD_RIGHT to move back*
+*Press Z + D-PAD_UP to move down*
+
+Total Position Lock [Bully@Wiiplaza]
+F6000001 80008100
+C03D00C8 C01D0158
+2800150E FEFF0100
+1400003C 60000000
+14000044 60000000
+14000048 60000000
+CC000000 00000000
+1400003C D09D00C0
+14000044 D05D00C4
+14000048 D01D00C8
+E0000000 80008000
+*Requires the "Master Button Activator" code*
+*Press 2 to toggle Total Position Lock ON/OFF*
+
+Link Teleporter [Bully@Wiiplaza]
+F6000001 80008100
+C03F00C4 2C05007B
+D2000008 0000000D
+9421FFB0 BDC10008
+3DC08000 61CE150E
+A1CE0000 3DE08000
+2C0E0001 4082001C
+821F00C0 823F00C4
+825F00C8 920F1500
+922F1504 924F1508
+2C0E0002 4082001C
+826F1500 828F1504
+82AF1508 927F00C0
+929F00C4 92BF00C8
+81C10008 38210050
+C05F00C0 00000000
+E0000000 80008000
+*Don´t use with "Free Fly"*
+*Requires the "Master Button Activator" code*
+*Press D-PAD Left to Store Position*
+*Press D-PAD Right to Teleport*
+
+No Screen Minimize While Z-Targeting [Bully@Wiiplaza]
+F6000001 80008100
+EC02002A D01E028C
+14000004 60000000
+E0000000 80008000
+
+Dowsing Purple Border On [Bully@Wiiplaza]
+F6000001 80008100
+38050001 900300D4
+14000018 38800005
+14000028 60000000
+E0000000 80008000
+*Credits to Anarion*
+
+No Dowsing Purple Border [Bully@Wiiplaza]
+F6000001 80008100
+88040040 7C050040
+14000010 60000000
+E0000000 80008000
+*Credits to Anarion*
+
+Sleeping Guardians [Bully@Wiiplaza]
+F6000001 80008100
+80040340 540006F7
+1400000C 38000000
+14000698 38000000
+E0000000 80008000
+*Credits to Anarion*
+
+Sleeping Guardians ON/OFF Version [Bully@Wiiplaza]
+F6000001 80008100
+B0A305F4 B00305F6
+D2000014 00000002
+81230000 3D808000
+912C150C 00000000
+F6000001 80008100
+80040340 540006F7
+2800150E YYYYZZZZ
+1400000C 38000000
+14000698 38000000
+CC000000 00000000
+1400000C 800302D0
+14000698 801E02D0
+E0000000 80008000
+*Requires the "Master Button Activator" code*
+*Press your button(s) to toggle ON/OFF*
+*Credits to Anarion*
+
+No Notification The First Time You Collect A Bug Or Treasure [Bully@Wiiplaza]
+F6000001 80008100
+819E08B8 387E08B8
+14003A2C 60000000
+E0000000 80008000
+*Credits to brkirch*
+
+Disable Fi's Low Battery Warning [Bully@Wiiplaza]
+F6000001 80008100
+3BE01901 2C030000
+1400001C 48000070
+E0000000 80008000
+*Credits to brkirch*
+
+Disable Fi's Low Health Warning [Bully@Wiiplaza]
+F6000001 80008100
+5460043E 2800000C
+14000008 4800003C
+E0000000 80008000
+*Credits to brkirch*
+
+Disable Low Health Alarm [Bully@Wiiplaza]
+F6000001 80008100
+A80300BA B0034426
+140020B4 48000028
+E0000000 80008000
+*Credits to brkirch*
+
+Disable Fi's Low Shield Gauge Warning [Bully@Wiiplaza]
+F6000001 80008100
+3C640001 C04333FC
+14000014 4800003C
+E0000000 80008000
+*Credits to brkirch*
+
+Perform Skyward Strikes At Full Health [Bully@Wiiplaza]
+F6000001 80008100
+80180364 540003DF
+D2000030 00000008
+3D808096 A86CA766
+A98CA76A 7C0C1840
+4180001C 2C070023
+4182001C 3D80A000
+618C0080 7C076000
+4182000C 80780348
+48000008 3C600030
+60000000 00000000
+E0000000 80008000
+*Credits to wiiztec*
+
+Guardians Can´t Attack [Bully@Wiiplaza]
+F6000001 80008100
+7FA4032E 3BBD0001
+14000020 60000000
+E0000000 80008000
+*Credits to wiiztec*
+
+Jesus Mode [Bully@Wiiplaza]
+F6000001 80008100
+C05D00B0 C03D00A8
+D2000004 00000008
+9421FFB0 BDC10008
+3E008000 7C1C8040
+40800020 C1DDDB5C
+FC0E0840 40810014
+C1F03200 EDEE03F2
+FC007890 FC407890
+C03D00A8 B9C10008
+38210050 00000000
+60000000 00000000
+E0000000 80008000
+*Credits to ukuneko*
+
+Invincibility [Bully@Wiiplaza]
+02B7A8FC 0000001E
+F6000001 80008100
+B01F43D0 A01F43D0
+1400000C 41820024
+1403A520 4800000C
+E0000000 80008000
+*Credits to ukuneko*
+
+Inf. Stamina [Bully@Wiiplaza]
+F6000001 80008100
+7C1C0050 901B4498
+14000004 60000000
+E0000000 80008000
+*Credits to Glitch*
+
+Climb Any Wall [Bully@Wiiplaza]
+F6000001 80008100
+38650008 1C000014
+D2000010 00000002
+5403C73F 40820008
+38600001 00000000
+E0000000 80008000
+*Credits to Y.S.*
+*Picture: http://dl.dropbox.com/u/28040539/SOUJ01-009.png
+
+Instant Arrow Draws [Bully@Wiiplaza]
+F6000001 80008100
+3803FFFF B01F4C0A
+14000000 38000000
+E0000000 80008000
+*Credits to ukuneko*
+
+No Bomb Explosion [Bully@Wiiplaza]
+F6000001 80008100
+801F0A3C A87F0A44
+1400000C 38030000
+E0000000 80008000
+*Credits to ukuneko*
+
+Inf. Bombs/Arrows/Slingshots [Bully@Wiiplaza]
+F6000001 80008100
+7C600630 7C830038
+D2000008 00000005
+2C1F01F2 41820014
+2C1F01F3 4182000C
+2C1F01ED 40820008
+38600001 80010024
+60000000 00000000
+E0000000 80008000
+*Credits to ukuneko*
+
+Skyward Strike Charges Instantly [Bully@Wiiplaza]
+F6000001 80008100
+887E4387 889E1218
+14000000 38600037
+E0000000 80008000
+*Credits to wiiztec*
+
+No Time Limit on Beetle Flight [Bully@Wiiplaza]
+F6000001 80008100
+3803FFFF B01B08CA
+14000000 38000320
+E0000000 80008000
+*Credits to hetoan2*
+
+Inf. Max Health [Bully@Wiiplaza]
+F6000001 80008100
+7F23CB78 388001B6
+14000058 2C000000
+1400006C 60000000
+E0000000 80008000
+*Credits to Thomas83Lin*
+
+Walk Under Water [Bully@Wiiplaza]
+F6000001 80008100
+389E0088 38BC0018
+14000014 40820014
+14006E70 40820030
+E0000000 80008000
+*Credits to ukuneko*
+
+Walk on Lava [Bully@Wiiplaza]
+F6000001 80008100
+801E036C 2C00005A
+1400002C 38000000
+E0000000 80008000
+*Credits to Thomas83Lin*
+
+One Hit Kill [Bully@Wiiplaza]
+F6000001 80008100
+8B7E0039 A07F0342
+1400001C 7C601B78
+E0000000 80008000
+*Credits to ukuneko*
+
+Bamboo Minigame Points Multiplier (press left during the minigame once) [goemon_guy]
+2800150E 00000001
+F6000002 80708080
+38040001 900500C4
+2C030000 4D820020
+F4000000 04BCC201
+3804XXXX 00000000
+E0000000 80008000
+XXXX is how many points each slice is worth
+*requires the regionfree button activator master code*
+
+Bypass and Correct Wrong Region Save Protection [Thomas83Lin]
+F6000001 80008100
+88650003 88040003
+D2000004 00000002
+88040003 98050003
+7C030378 00000000
+E0000000 80008000
+*Correction is Permanent*
+*Useful with apps like Fstoolbox or similar*
+
+Super Clawshoot [Thomas83Lin]
+F6000002 80008100
+44FA0000 42C80000
+43160000 42700000
+16000000 00000010
+47870000 45336000
+45336000 43FA0000
+E0000000 80008000
+F6000001 80008100
+81830004 818C008C
+14000018 38600001
+E0000000 80008000
+*Partial Credit to James0x57*
+
+Tunic Modifier [Thomas83Lin]
+F6000001 80008100
+38000001 981E120B
+5A010000 FFFFFFF0
+14000000 60000000
+14000004 3800000x
+E0000000 80008000
+*X=00=Green Tunic\01=Skyloft Tunic*
+*Non Permanent*
+
+Game Breaking Bug Glitch Fixv.2 [Thomas83Lin]
+C0000000 00000005
+3D808095 896C5D52
+2C0B003F 40810014
+556BE006 556B273E
+396B0011 996C5D52
+4E800020 00000000
+*Only Activate if experiencing the hero of song glitch*
+*Dolphin is not compatible with this code*
+
+No Zombie-blin Curse Effect [Anarion]
+F6000001 80008100
+A00343CA B08343F0
+14000004 60000000
+E0000000 80008000
+
+No Black Bars [Anarion]
+F6000001 80008100
+C3E30020 C03E0290
+D2000004 00000003
+3D800000 618C0000
+919E0290 C03E0290
+60000000 00000000
+E0000000 80008000
+
+Have Shield With Curse Medal [Anarion]
+F6000001 80008100
+9BE353B1 83E1000C
+14000000 60000000
+E0000000 80008000
+
+E0000000 80008000
+
+E0000000 80008000

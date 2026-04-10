@@ -1,0 +1,17 @@
+MCVP
+Pitfall The Mayan Adventure
+
+Unlimited Lives [GMO]
+0144CB65 0000000A
+
+Unlimited Rock Ammo [GMO]
+0144CB66 00000063
+
+Unlimited Boomerangs
+0144CB667 00000063
+
+Unlimited Explosive Ammo [GMO]
+0144CB68 00000063
+
+Invincible [GMO]
+0144CB6D 00000040

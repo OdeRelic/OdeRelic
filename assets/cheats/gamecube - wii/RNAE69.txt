@@ -1,0 +1,21 @@
+RNAE69
+NCAA Football 2009
+
+Away Team Score Modifier [Seth@WiiPlaza]
+C28049AC 00000002
+93E30008 XXXXXXXX
+60000000 00000000
+*X=score in hex
+*all game modes
+
+Away Team Never Scores [Seth@WiiPlaza]
+C28049AC 00000002
+93E30008 00000000
+60000000 00000000
+*all game modes
+
+Away Team Score Increases By Large Amount [Seth@WiiPlaza]
+C28049AC 00000002
+93E30008 380000E7
+60000000 00000000
+*all game modes

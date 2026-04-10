@@ -1,0 +1,74 @@
+FCRP
+Adventure Island
+
+Unlimited Health [Crapulecorp]
+00360C36 00000020
+
+Unlimited Health (Press ZL ON/OFF) [Crapulecorp]
+281A7742 FF7F0080
+CC000000 00000000
+00360C36 00000020
+E0000000 80008000
+*Classic Controller*
+*Code ported from ZiT Ntsc Usa Version*
+
+Unlimited Health (Press Z ON/OFF) [Crapulecorp]
+28129300 FFEF0010
+CC000000 00000000
+00360C36 00000020
+E0000000 80008000
+*GameCube Controller*
+*Code ported from ZiT Ntsc Usa Version*
+
+Invincible [Crapulecorp]
+00360C35 00000008
+*Code ported from ZiT Ntsc Usa Version*
+
+Unlimited Lives [Crapulecorp]
+00360BFF 00000009
+
+MoonJump
+
+MoonJump [Crapulecorp]
+281A7742 FFEF0010
+00361194 000000CC
+E0000000 80008000
+*Classic Controller*
+*Code ported from ZiT Ntsc Usa Version*
+
+MoonJump [Crapulecorp]
+28129300 FBFF0400
+00361194 000000CC
+E0000000 80008000
+*GameCube Controller*
+*Code ported from ZiT Ntsc Usa Version*
+
+Speed Up
+
+Speed Up (Press Up/Down) [Crapulecorp]
+281A7742 FFFE0001
+00361164 0000007F
+E0000000 80008000
+281A7742 BFFF4000
+00361164 00000080
+E0000000 80008000
+*Classic Controller*
+*Code ported from ZiT Ntsc Usa Version*
+
+Speed Up (Press Up/Down) [Crapulecorp]
+28129300 FFFB0004
+00361164 0000007F
+E0000000 80008000
+28129300 FFF70008
+00361164 00000080
+E0000000 80008000
+*GameCube Controller*
+*Code ported from ZiT Ntsc Usa Version*
+
+Button Activator
+
+Classic Controller [Crapulecorp]
+281A7742 YYYYZZZZ
+
+GameCube Controller [Crapulecorp]
+28129300 YYYYZZZZ

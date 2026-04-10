@@ -1,0 +1,34 @@
+MBOE
+Golden Axe III
+
+Infinite Lives [ZiT]
+00FC59A0 00000009
+
+Infinite Health [ZiT]
+00FC59A6 00000033
+
+Infinite Magic [ZiT]
+00FC59A4 00000004
+
+Invincible [ZiT]
+00FC590C 00000023
+
+Moon Jump [ZiT]
+281E1ADA FEFF0100
+02FC587C 000003F0
+E0000000 80008000
+
+Player 1 Unlimited Lives [GMO]
+02EC4BC0 00000202
+
+Player 1 Unlimited Magic [GMO]
+02EC4BC4 00000404
+
+Player 1 Unlimited Health [GMO]
+02EC4BC6 00003333
+
+Classic Controller Pad1 [GMO]
+281E1B3A 0000XXXX
+
+WiiMote Controller Pad1 [GMO]
+281E1ADA 0000XXXX

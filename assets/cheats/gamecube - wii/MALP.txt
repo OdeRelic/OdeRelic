@@ -1,0 +1,8 @@
+MALP
+Bonanza Bros
+
+P1 Unlimited Lives [GMO]
+00DB2F75 0000000B
+
+P2 Unlimited Lives [GMO]
+00DB2F77 0000000B

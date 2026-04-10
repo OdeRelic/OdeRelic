@@ -1,0 +1,28 @@
+RK3J01
+Ando Kensaku
+
+Dochira ga Ooi Mode
+Bakudan Sabaibaru Mode
+
+Time Stop ("1"Button=on , "2"Button=off) [ZiT]
+28546EE2 00000200
+C206E880 00000003
+821F0058 2C100001
+41820008 D31F003C
+60000000 00000000
+E0000000 80008000
+28546EE2 00000100
+0406E880 D31F003C
+E0000000 80008000
+-Please turn on the code when the above-mentioned mode begins.
+-Also, please turn off the code before the end of the mode.
+
+Kensaku Paneru9 Mode
+
+Time Stop ("B+Up"Button=on , "B+Down"Button=off) [ZiT]
+28546EE2 00000408
+04F764B4 60000000
+E0000000 80008000
+28546EE2 00000404
+04F764B4 D01E0030
+E0000000 80008000

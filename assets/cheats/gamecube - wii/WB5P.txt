@@ -1,0 +1,17 @@
+WB5P
+Block Breaker Deluxe
+
+Unlimited Lives [Crapulecorp]
+C203ECFC 00000002
+38000063 90040C4C
+60000000 00000000
+
+If $ Increase = MAX [Crapulecorp]
+C2035668 00000002
+3D8005F6 380CE0FF
+90043464 00000000
+*Code ported from ZiT Ntsc Jap Version*
+
+Time Stop [Crapulecorp]
+0402F250 60000000
+*Code ported from ZiT Ntsc Jap Version*

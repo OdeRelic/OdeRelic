@@ -1,0 +1,80 @@
+GSME52
+Spider Man 
+
+Infinite Webbing
+00FF24C4 00000001
+
+Levels & Movies Unlocked
+00FF24C7 00000001
+
+Unlock Extra Vulture Movie
+00FF24B5 00000001
+
+Unlock Extra Shocker Movie
+00FF24B6 00000001
+
+Pinhead Bowling Unlocked
+00FF24B4 00000001
+
+All Combat Controls (Combos)
+00FF24C5 00000001
+
+Pause To Skip Level
+00FF24C6 00000001
+
+Play As Peter Parker
+00FF24B7 00000001
+
+Play As Wrestler Spidey
+00FF24B8 00000001
+
+Play As Alex Ross Spidey
+00FF24B9 00000001
+
+Play As Green Goblin
+00FF24BA 00000001
+
+Play As Mary Jane
+00FF24BB 00000001
+
+Play As The Shocker
+00FF24BC 00000001
+
+Play As Scientist
+00FF24BD 00000001
+
+Play As Thug
+00FF24BE 00000001
+
+Play As Uncle Ben's Killer
+00FF24BF 00000001
+
+Play As Masked Thug
+00FF24C0 00000001
+
+Play As Helicopter Pilot
+00FF24C1 00000001
+
+Play As a Freak
+00FF24C2 00000001
+
+Play As a Cop
+00FF24C3 00000001
+
+Matrix Battles
+00FF24C8 00000001
+
+Small Spidey
+00FF24CA 00000001
+
+Big Head Spidey
+00FF24CB 00000001
+
+Big Head Enemies
+00FF24C9 00000001
+
+1st Person Mode
+00FF24CC 00000001
+
+Flier Never Overheats
+00FF24CD 00000001

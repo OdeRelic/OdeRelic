@@ -1,0 +1,15 @@
+S2PXA4
+Pro Evolution Soccer 2012
+
+Infinite Heart Points [Bully@Wiiplaza]
+C264D3A0 00000002
+3980270F 91834378
+80634378 00000000
+
+Home Goals Modifier [Bully@Wiiplaza]
+02F64D10 0000XXXX
+*XXXX = HEX*
+
+Away Goals Modifier [Bully@Wiiplaza]
+02F65004 0000XXXX
+*XXXX = HEX*

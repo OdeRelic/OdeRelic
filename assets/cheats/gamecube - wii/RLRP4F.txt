@@ -1,0 +1,49 @@
+RLRP4F
+Tomb Raider Anniversary
+
+Walk through walls [-Ozelot-]
+044B6420 60000000
+You can walk trought Walls, doors ect.
+
+Moon Jump [-Ozelot-]
+2839C7F2 F7FF0800
+0468AED8 428C0000
+E0000000 80008000
+Press/Hold A Button (Wiimote)
+
+Save Coordinates [-Ozelot-]
+2839C7F2 0000XXXX
+82210000 0068AD60
+82210001 0068AD64
+82210002 0068AD68
+82210003 0068AD88
+E0000000 80008000
+Press a Button and the Code Saves your Position
+Special thanks to James, dcx2, Deathwolf
+
+Write Back Coordinates [-Ozelot-]
+2839C7F2 0000XXXX
+84210000 0068AD60
+84210001 0068AD64
+84210002 0068AD68
+84210003 0068AD88
+E0000000 80008000
+Press a Button and Load your Saved Position
+Special thanks to James, dcx2, Deathwolf
+
+Inf Health + under water air [-Ozelot-]
+043620C0 60000000
+043620C8 60000000
+041E23A0 60000000
+04071424 60000000
+C21EDEE0 00000003
+3D804400 618C0000
+918306F0 C00306F0
+60000000 00000000
+Special Thanks to: Deathwolf & Bully@WiiPlaza
+
+Player 1 (Wiimote+Nunchuck): 2839C7F2 0000XXXX
+Player 2 (Wiimote+Nunchuck): 2839D032 0000XXXX
+Player 2 (Wiimote+ClassicC): 2839D092 0000XXXX
+Calculate Button Values can you here
+http://geckocodes.org/index.php?arsenal=2

@@ -1,0 +1,7 @@
+WPXJ
+Minna de Tobikome Penguin Diving Hooper Looper
+
+If Score Increase, MAX [ZiT]
+040286C4 80050010
+040286C8 60000000
+040C4440 88060001

@@ -1,0 +1,29 @@
+RIHE8P
+The Incredible Hulk
+
+Unlock all Upgrades & Extras [eric]
+040D9E1C 98030000
+
+Score Multiplier [eric]
+041A0E58 38800064
+
+Infinite Health [eric]
+040D28E4 80830004
+
+Infinite Rage [eric]
+040D2C00 80830004
+040D2E4C 60000000
+040D2E58 801E05AC
+
+Infinite Flying Dash [eric]
+040FD458 38000001
+
+Infinite Shield Dash [eric]
+040ECEF8 38000001
+
+Insane Jumps [eric]
+0410849C EC21002A
+
+Insane Leaps [eric]
+04106B70 D2830388
+040F8228 D2830388

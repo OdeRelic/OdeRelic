@@ -1,0 +1,17 @@
+JCJP
+Super Punch Out
+
+Unlimited Energy [Crapulecorp]
+0044E9A7 00000050
+
+Unlimited Stamina/Never Tire Out [Crapulecorp]
+0044E9A4 00000000
+*Code ported from GMO Ntsc Usa Version*
+
+1-Hit K.O [Crapulecorp]
+0044EAA7 00000000
+*Code ported from GMO Ntsc Usa Version*
+
+Time Stop [Crapulecorp]
+0444EC2C 00000000
+*Code ported from bZiT/b Ntsc Jap Version*

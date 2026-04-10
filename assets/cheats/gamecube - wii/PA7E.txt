@@ -1,0 +1,8 @@
+PA7E
+Alien Crush
+
+Press minus to add extra balls [Sharkbyte]
+281430AA 00001000
+4A000000 90000000
+1052F46A 00000005
+E0000000 80008000

@@ -1,0 +1,43 @@
+RV2E5D
+Game Party2
+
+P1 Game Tickets 255 [farjo08]
+021d4806 000000ff
+
+Total Tickets 255 [farjo08]
+021bb6aa 000000ff
+
+Puck Bowling Total Tickets 255 [farjo08]
+021bb692 000000ff
+
+Skill Ball Total Tickets 255 [farjo08]
+021bb696 000000ff
+
+Hoop Shoot Total Tickets 255 [farjo08]
+021bb69a 000000ff
+
+Ping Cup Total Tickets 255 [farjo08]
+021bb69e 000000ff
+
+Trivia Total Tickets 255 [farjo08]
+021bb6a2 000000ff
+
+QB Challenge Total Tickets 255 [farjo08]
+021bb6a6 000000ff
+
+Darts Total Tickets 255 [farjo08]
+021bb683 000000ff
+
+The xxx is the current value I set them at. 
+These can be changed to any value with FFFF being the max (use a decimal to hex calculator to get proper hex values). Also the total ticket codes will only apply to the first profile. Enjoy!
+
+9999score [memorris]
+021D47E2 0000270F
+Darts+Skill Ball+hoop shoot+Ping cup+trivia+beanBags P1 &
+horseshoes P1 lawn darts qb challenge 
+
+Shuffleboard P1 9999 Score [memorris]
+021D4FEA 0000270F
+
+Shuffleboard P2 9999 Score [memorris]
+021D4FEE 0000270F

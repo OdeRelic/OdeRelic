@@ -1,0 +1,20 @@
+WFTP
+Fish'em All!
+
+If Increase Max Score (Arcade Mode) [Crapulecorp]
+C201A0CC 00000002
+3C000098 6000967F
+900405D4 00000000
+
+Unlimited Time Arcade Mode (Press - ON/OFF) [Crapulecorp]
+282BD34A EFFF1000
+0412FD8C 60000000
+CC000000 00000000
+0412FD8C D0030010
+E0000000 80008000
+*WiiMote*
+
+Button Activator
+
+WiiMote Player 1 [Crapulecorp]
+282BD34A YYYYZZZZ

@@ -1,0 +1,277 @@
+RIPEAF
+One Piece Unlimited Adventure
+
+Max HP [goemon_guy]
+C2029FF8 00000003
+3F000271 3818F000
+90030000 90030004
+60000000 00000000
+when reloading the game
+-ported from ZiT jap-
+
+Max SP [goemon_guy]
+C202A024 00000003
+3F000271 3818F000
+90030000 90030004
+60000000 00000000
+when reloading the game
+-ported from ZiT jap-
+
+Inf. Item - Top Equip [whitetigerx8]
+1133FF74 00000063
+
+Inf. Item - Left Equip [whitetigerx8]
+1133FF84 00000063
+
+Inf. Item - Down Equip [whitetigerx8]
+1133FF94 00000063
+
+Item Modifier - Top Equip [whitetigerx8]
+1133FF73 000000XX
+
+Item Modifier - Left Equip [whitetigerx8]
+1133FF83 000000XX
+
+Item Modifier - Bottom Equip [whitetigerx8]
+1133FF93 000000XX
+
+Item Digits
+0001 - Enhanced Pickaxe
+0002 - Pickaxe
+0003 - Enhanced Bug-Catcher Net
+0004 - Bug-Catcher Net
+0005 - Ultimate Fishing Rod
+0006 - Enhanced Fishing Rod
+0007 - Fishing Rod
+0008 - Flame Shell
+0009 - Super Napalm
+000A - Low Fire Napalm
+000B - Ice Shell
+000C - Instant Freeze Ball
+000D - Freeze Ball
+000E - Thunder Shell
+000F - Super Battery
+0010 - Simple Battery
+0011 - Super Bomb
+0012 - Simple Bomb
+0013 - Sleep Ball
+0014 - Poison Ball
+0015 - Special Hot Sauce
+0016 - Heal Drink
+0017 - Heal Powder
+0018 - Stamina Drink
+0019 - Stamina Powder
+001A - Mix Drink
+001B - Mix Powder
+001C - Special Medicine
+001D - Antidote Powder
+001E - Anti-Cold Cream
+001F - Anti-Heat Cream
+0020 - Golden Full Course
+0021 - Baked Stone Stew
+0022 - Legendary Seafood Plate
+0023 - Island Fish Ship Special
+0024 - Tuna Sautee
+0025 - Seafood Magma Curry
+0026 - Monfish Bouillabaisse
+0027 - Seared Bonito
+0028 - Salmon and Clam Meuniere
+0029 - Spicy Seaboard Pizza
+002A - Stamina Stew
+002B - Shellfish Marinade
+002C - Pirate Lunch
+002D - Spicy Shrimp Chili
+002E - Root Vegetable Minestrone
+002F - Dessert Full Course
+0030 - Fried Frog
+0031 - Fried Alligator
+0032 - Special Pirate Cola
+0033 - Blue Hawaii
+0034 - Whole Octopus Dumplings
+0035 - Steamed Herb Catfish
+0036 - Juice for Ladies
+0037 - Fruit Tart
+0038 - Pirate's Piranha Grill
+0039 - Leftover Vegetable Fry
+003A - Coconut Milk
+003B - Fluffy Omelette
+003C - Herb Salad
+003D - Medicinal Plants
+003E - Fountain Berries
+003F - Special Oil
+0040 - Glue
+0041 - Clear Grass
+0042 - Bitter Grass
+0043 - Weed
+0044 - Red Pepper
+0045 - Fluff
+0046 - Royal Jelly
+0047 - Honey
+0048 - Pom Pom Tree
+0049 - Twisted Tree
+004A - Lumber
+004B - Burning Tree
+004C - Golden Fruit
+004D - Blue Fruit
+004E - Red Fruit
+004F - Brown Fruit
+0050 - Coconut
+0051 - Wilted Carrot
+0052 - Mysterious Island Radish
+0053 - Mysterious Vegetable
+0054 - Large Leaf
+0055 - Long Ivy
+0056 - Spiderweb
+0057 - Diamond Fragment
+0058 - Mysterious Bone
+0059 - Clay
+005A - Crystal
+005B - Steel Stone
+005C - Magnetic Stone
+005D - Enigmatic Shell
+005E - Ice Shard
+005F - Volcanic Rock
+0060 - Explosive Rock Fragment
+0061 - Meteor Fragment
+0062 - Handy Rock
+0063 - Gunpowder
+0064 - Scrap of a Cloak
+0065 - Waste Iron
+0066 - Ancient Medal
+0067 - Golden Egg
+0068 - Mysterious Egg
+0069 - Sticky Sap
+006A - Moth Scales
+006B - Burnt Dregs
+006C - Worn Gown
+006D - Red Waistband
+006E - Ten-Gallon Hat
+006F - White Dress
+0070 - Mask Fragment
+0071 - Chef's Hat
+0072 - Apron
+0073 - Hero Picture Book
+0074 - Leather Jacket
+0075 - Star Pattern Gown
+0076 - Garment Box
+0077 - Vision Shell
+0078 - Tone Shell
+0079 - Swallowtail Butterfly
+007A - Honeybee
+007B - Umbrella Frog
+007C - Hercules Beetle
+007D - Tempest Mouse
+007E - Shock Bug
+007F - Jungle Lizard
+0080 - Hidden Forest Bee
+0081 - Greasy Frog
+0082 - Purple Poison Frog
+0083 - Fire Hercules
+0084 - Sleeping Butterfly
+0085 - Icicle Lizard
+0086 - Ice Beetle
+0087 - Lantern Firefly
+0088 - Giant Devil Hand Moth
+0089 - Crossbone Butterfly
+008A - Raibow Phoenix
+008B - Hidden Black Swallowtail
+008C - Golden Hercules
+008D - Lovely Angel
+008E - Island Clam
+008F - Cutie Piranha
+0090 - Scissor Shrimp
+0091 - Adventure Fish
+0092 - Pumpkin Octopus
+0093 - Red Salmon
+0094 - Lava Flounder
+0095 - Panda Shark
+0096 - Treasure Pargai
+0097 - Electric Catfish
+0098 - Devil Bonito
+0099 - Guidance Monkfish
+009A - Icefish
+009B - Beat Alligator
+009C - Aurora Sunfish
+009D - Elephant Tuna
+009E - Burning Dragon
+009F - Great Terigius
+00A0 - Golden Whale
+00A1 - Large Item Bag
+00A2 - Special Item Bag
+00A3 - Item Palette +1
+00A4 - Item Palette +2
+00A5 - Climatact
+00A6 - Complete Climatact
+00A7 - Giant Pachinko "Kabuto"
+00A8 - Fishing Rod Enhanced
+00A9 - Super Fishing Rod
+00AA - Anti-Heat Fishing Rod
+00AB - Enhanced Fishing Line
+00AC - Luffy's New Costume
+00AD - Zoro's New Costume
+00AE - Nami's New Costume
+00AF - Usopp's New Costume
+00B0 - Sanji's New Costume
+00B1 - Chopper's New Costume
+00B2 - Robin's New Costume
+00B3 - Stove
+00B4 - Kitchen
+00B5 - Compounding Tools
+00B6 - Experimental Tools
+00B7 - Changing Room
+00B8 - Mini Gallery
+00B9 - Sandbag
+00BA - Bridge
+00BB - Connector
+00BC - Centaur
+00BD - Pandaman Theme
+00BE - Warrior Theme
+00BF - Sunny Theme
+00C0 - Merry Theme
+00C1 - Beauty Theme
+00C2 - Pirates Theme
+00C3 - Theme 7
+00C4 - Franky's New Costume
+00C5 - Rumble Ball
+00C6 - Treasure Map 1
+00C7 - Treasure Map 2
+00C8 - Treasure Map 3
+00C9 - Treasure Map 4
+00CA - Treasure Map 5
+00CB - Treasure Map 6
+00CC - Treasure Map 7
+00CD - Treasure Map 8
+00CE - Treasure Map 9
+00CF - Treasure Map 10
+00D0 - Treasure Map 11
+00D1 - Treasure Map 12
+00D2 - Treasure Map 13
+00D3 - Treasure Map 14
+00D4 - Treasure Map 15
+00D5 - Herb
+00D6 - Whirlwind Flower Petal
+00D7 - Plains Map
+00D8 - Beach Map
+00D9 - Jungle Map
+00DA - Ruins Map
+00DB - Cave Map
+00DC - Silver Mountains Map
+00DD - Floating Island Map
+00DE - Location Map
+00DF - Theme #1
+00E0 - Theme #2
+00E1 - Theme #3
+00E2 - Theme #4
+00E3 - Theme #5
+00E4 - Theme #6
+00E5 - Theme #7
+
+Infinite Item Code [OneUp]
+283E3A32 9F776008
+0403F408 60000000
+283E3A33 9FFE6001
+0403F408 7C00FA14
+283E3A33 9FFD6002
+0403F408 7C1F0050
+E2000001 80008000
+Press C+Z+Up to nullify using/dumping items, C+Z+Right to re-enable, and C+Z+Left to change it to add whatever is being subtracted from items. Don't add too much-it will overflow(over 256 for that item).

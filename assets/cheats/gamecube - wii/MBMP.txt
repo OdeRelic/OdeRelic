@@ -1,0 +1,11 @@
+MBMP
+Sonic The Hedgehog 3
+
+Unlimited Lives [GMO]
+00FC6412 00000009
+
+Unlimited Rings/Health [GMO]
+02FC6420 000003E7
+
+Disable Timer [GMO]
+00FC6425 00000000

@@ -1,0 +1,17 @@
+GBWE64
+Star Wars Bounty Hunter 
+
+Infinite Credits
+002C7FA3 0000000A
+
+Infinite Jetpack
+040EF43C EC005828
+
+All Levels Unlocked
+042D3724 FFFFFFFF
+
+All TCG Cards
+042D3728 0007FFFE
+
+All Concept Art
+042D3800 FFFFFFFF

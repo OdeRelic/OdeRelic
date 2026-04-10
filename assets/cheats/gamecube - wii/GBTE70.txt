@@ -1,0 +1,101 @@
+GBTE70
+Beyblade V Force 
+
+Max Exp. Points
+040CE768 0001869F
+
+Infinite Bey Points
+040CE770 0001869F
+
+Max Wins
+040CE774 0001869F
+
+All Blade Bases
+020CE988 00330001
+
+All Spin Gears
+020CE9F0 00210001
+
+All Weight Discs
+020CEA38 001E0001
+
+All Attack Rings
+020CEA7E 002F0001
+
+All Bit Chips
+020CEAE0 000D0001
+
+All Launchers
+020CEAFA 00080001
+
+Player 1: Infinite HP
+040CE54C 4479C000
+
+Player 1: 1 Hit Death
+040CE54C 3F800000
+
+Player 1: Max Spin Power
+040CE558 461C3C00
+
+Player 1: No Spin Power
+040CE558 3F800000
+
+Player 1: Max Bit Beast Power
+040CE564 44610000
+
+Player 1: No Bit Beast Power
+040CE564 00000000
+
+Player 2: Infinite HP
+040CE5D4 4479C000
+
+Player 2: 1 Hit Death
+040CE5D4 3F800000
+
+Player 2: Max Spin Power
+040CE5E0 461C3C00
+
+Player 2: No Spin Power
+040CE5E0 3F800000
+
+Player 2: Max Bit Beast Power
+040CE5EC 44610000
+
+Player 2: No Bit Beast Power
+040CE5EC 00000000
+
+Player 3: Infinite HP
+040CE65C 4479C000
+
+Player 3: 1 Hit Death
+040CE65C 3F800000
+
+Player 3: Max Spin Power
+040CE668 461C3C00
+
+Player 3: No Spin Power
+040CE668 3F800000
+
+Player 3: Max Bit Beast Power
+040CE674 44610000
+
+Player 3: No Bit Beast Power
+040CE674 00000000
+
+Player 4: Infinite HP
+040CE6E4 4479C000
+
+Player 4: 1 Hit Death
+040CE6E4 3F800000
+
+Player 4: Max Spin Power
+040CE6F0 461C3C00
+
+Player 4: No Spin Power
+040CE6F0 3F800000
+
+Player 4: Max Bit Beast Power
+040CE6FC 44610000
+
+Player 4: No Bit Beast Power
+040CE6FC 00000000

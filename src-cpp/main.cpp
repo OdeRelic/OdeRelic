@@ -1,4 +1,5 @@
 #include "core/opl_library_service.h"
+#include "core/swiss_library_service.h"
 #include "core/translation_manager.h"
 #include <QFileInfo>
 #include <QGuiApplication>
@@ -30,6 +31,10 @@ int main(int argc, char *argv[]) {
   OplLibraryService oplLibraryService;
   engine.rootContext()->setContextProperty("oplLibraryService",
                                            &oplLibraryService);
+
+  SwissLibraryService swissLibraryService;
+  engine.rootContext()->setContextProperty("swissLibraryService",
+                                           &swissLibraryService);
 
   const QUrl url(QStringLiteral("qrc:/main.qml"));
   QObject::connect(

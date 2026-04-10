@@ -1,0 +1,33 @@
+GL8P4F
+Tomb Raider Legend
+
+Infinite Air [Jay007]
+04200B78 60000000
+
+Infinite Flash Light Battery [Jay007]
+0419A198 60000000
+
+Infinite Ammo [Jay007]
+041C29B4 39290000
+
+Infinite Health Packs [Jay007]
+0419B390 38000003
+
+Infinite Time (Time Trial) [Jay007]
+243516E8 00000000
+043516E8 43DEEF5D
+E2000001 80008000
+
+Moon Jump (Hold A) [Jay007]
+2837E380 00000100
+043E1168 42000000
+E2000001 80008000
+
+Camera Zoom In/Out (L+D-pad Down/Up)
+cannot be converted
+
+Super Quick Lara [Jay007]
+044005E0 40000000
+
+Matrix Lara [Jay007]
+044005E0 3F000000

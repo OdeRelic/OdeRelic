@@ -1,0 +1,66 @@
+RB4P08
+Resident Evil 4 Wii edition
+
+Krauser Can Always Use Slash Attack [Yamishira]
+0462731C 38000000
+*Mercs Only*
+
+Enemy HP Modifier
+*This code decides how much HP enemies in the game will all have*
+
+Enemies Have Insane HP [Yamishira]
+0409B700 38007FFF
+0409B418 38007FFF
+0409B920 38007FFF
+
+Enemies Have High HP [Yamishira]
+0409B700 38002FFF
+0409B418 38002FFF
+0409B920 38002FFF
+
+Enemies Have Low HP [Yamishira]
+0409B700 38000001
+0409B418 38000001
+0409B920 38000001
+*Doubles as 1 hit kills*
+
+Unlimited Ammo for all guns [Dr.Pepper]
+48000000 8031F44C
+DE000000 80008180
+12000008 000000FF
+E0000000 80008000
+
+Unlimited Pitas/Money [Dr.Pepper]
+14337D58 000FFFFF
+
+Unlimited Health - Leon [Dr.Pepper]
+2A32FD5A 9FFB6004
+10337D64 00000009
+1409FD10 60000000
+E0000000 80008000
+
+Kill Yourself [Dr.Pepper]
+2832FD5A 9FFB6004
+10337D64 000000FF
+E0000000 80008000
+Use this if caught in the situation where you cannot die, ie you lose your head but still have infinite health. Press Z, C and Down on the DPAD to commit suicide. (Mod inspired from schmake's mod from USA side)
+
+Unlimited Health - Ashley [Dr.Pepper]
+10337D68 00000009
+1409FE6C 60000000
+
+Infinite Grenades, Rockets and Arrows [Dr.Pepper]
+14034F50 60000000
+
+Mercenaries Score Modifier [Dr.Pepper]
+0431F525 00XXXXXX
+Replace XXXXXX with any number from 000000 to FFFFFF
+
+Mercenaries Time Mod [Dr.Pepper]
+2832FD5A FBFE0401
+04329408 00000001
+E2000001 00000000
+2832FD5A FBFD0402
+04329408 00FFFFFF
+E2000001 00000000
+Press B+Right on DPAD for unlimited time and B+Left to end the game. (Mod inspired from lemmayoshi's mod from USA side.)

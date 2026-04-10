@@ -1,0 +1,22 @@
+RN4P41
+Anno
+
+Infinite Gold If Decrease [Blaster99]
+C20E869C 00000002
+3C00000F 60004240
+90030000 00000000
+E0000000 80008000
+
+Infinite Resources If Decrease [Blaster99]
+C20AA054 00000002
+38000028 B0030000
+60000000 00000000
+E0000000 80008000
+Work for story and infinite mode.
+
+Infinite Resources 999 If Decrease [Blaster99]
+C20AA054 00000002
+380003E7 B0030000
+60000000 00000000
+E0000000 80008000
+Same as above but with 999 resources. Do not use with above!

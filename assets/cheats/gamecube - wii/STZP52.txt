@@ -1,0 +1,26 @@
+STZP52
+Transformers: Dark of the Moon - Stealth Force Edition
+
+Unlimited & Max Health [Crapulecorp]
+C2BD6DAC 00000002
+83E3004C 93E30048
+83E1000C 00000000
+*Ported From Thomas83Lin's Ntsc Usa Version*
+
+Unlimited & Max Stealth Force [Crapulecorp]
+C2B5C798 00000002
+83E3004C 93E30048
+83E1000C 00000000
+*Ported From Thomas83Lin's Ntsc Usa Version*
+
+Unlimited Rockets [Crapulecorp]
+04BA6E90 38030000
+*Ported From Thomas83Lin's Ntsc Usa Version*
+
+Universal Codes for Transformers: Dark Side Of The Moon
+
+Infinite Stealth Force [Seth@WiiPlaza]
+04B43DC8 60000000
+
+Button Activator [Seth@WiiPlaza]
+283C7940 xxxxxxxx

@@ -1,0 +1,40 @@
+MBRP
+Rolling Thunder 2
+
+Infinite Lives [Crapulecorp]
+00EF6CED 00000009
+
+Invincible [Crapulecorp]
+00EF4811 00000003
+00EF481E 00000023
+*Code ported from ZiT Ntsc Usa Version*
+
+Time Stop [Crapulecorp]
+02EF6C16 00001000
+*Code ported from ZiT Ntsc Usa Version*
+
+Infinite Ammo (Press ZL ON/OFF) [Crapulecorp]
+281EADFA FF7F0080
+CC000000 00000000
+00EF6CE3 0000009A
+00EF6CE5 0000009A
+E0000000 80008000
+*Classic Contoller*
+*Code ported from ZiT Ntsc Usa Version*
+
+Infinite Ammo (Press L ON/OFF) [Crapulecorp]
+28BDD20A FFBF0040
+CC000000 00000000
+00EF6CE3 0000009A
+00EF6CE5 0000009A
+E0000000 80008000
+*GameCube Controller*
+*Code ported from ZiT Ntsc Usa Version*
+
+Button Activator
+
+Classic Controller [Crapulecorp]
+281EADFA YYYYZZZZ
+
+GameCube Controller [Crapulecorp]
+28BDD20A YYYYZZZZ

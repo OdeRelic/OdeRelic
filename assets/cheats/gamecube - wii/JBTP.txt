@@ -1,0 +1,21 @@
+JBTP
+Super Turrican
+
+Unlimited Lives [Crapulecorp]
+0043B643 00000004
+*Code ported from funkamatic Ntsc Usa Version*
+
+Unlimited Health [Crapulecorp]
+0043B647 0000000C
+
+Unlimited Bombs [Crapulecorp]
+0043B652 00000004
+*Code ported from funkamatic Ntsc Usa Version*
+
+Unlimited Time [Crapulecorp]
+0043B6B4 00000023
+*Code ported from Ace Snes Action Replay Pro Version*
+
+Semi Invincibility + Phase Mode + Stop Time [Crapulecorp]
+0043C7D5 00000002
+*Code ported from Ace Snes Action Replay Pro Version*

@@ -1,0 +1,18 @@
+SH4EFP
+Heavy Fire: Afghanistan
+
+No Reload [Crapulecorp]
+04129A30 38030000
+
+Infinte Ammo [Jedi HaCk]
+C2129A2C 00000002
+386003E7 900403B0
+60000000 00000000
+
+Infinite HEAT [Jedi HaCk]
+04590D38 00000000
+*Now you can shoot all time.
+
+Points Modifier [Jedi HaCk]
+04590FCC 000003E7
+*You begin with 999 pts.

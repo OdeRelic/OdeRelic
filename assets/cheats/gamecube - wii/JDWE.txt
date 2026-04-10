@@ -1,0 +1,11 @@
+JDWE
+Aero the Acrobat
+
+Invincible [GMO]
+0045D18C 00000077
+
+Unlimited Health [GMO]
+0045D1D2 0000006A
+
+Disable Stage Timer [GMO]
+0045D1CA 00000000

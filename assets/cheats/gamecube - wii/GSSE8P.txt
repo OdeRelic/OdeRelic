@@ -1,0 +1,20 @@
+GSSE8P
+SEGA Soccer Slam 
+
+El Fuego - Have tons of cash
+04238F74 05F5E0FF
+
+Spirit - Have tons of cash
+04239C18 05F5E0FF
+
+Tsunami - Have tons of cash
+0423A8BC 05F5E0FF
+
+Toxic - Have tons of cash
+0423B560 05F5E0FF
+
+Subzero - Have tons of cash
+0423C204 05F5E0FF
+
+Volta - Have tons of cash
+0423CEA8 05F5E0FF

@@ -1,0 +1,20 @@
+MB7P
+Mega Turrican
+
+Invincible [GMO]
+00EBF333 00000030
+
+Unlimited Energy [GMO]
+00EBF560 00000040
+
+Unlimited Mines [GMO]
+00EBF563 00000040
+
+Unlimited Lives [GMO]
+00EBF566 00000099
+
+Disable Timer [GMO]
+00EBF567 00000002
+
+Time 999 [GMO]
+02EBF568 00000999

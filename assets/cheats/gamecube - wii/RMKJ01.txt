@@ -1,0 +1,206 @@
+RMKJ01
+Mario Sports Mix
+
+Button Activator Wiimote/Nunchuck [Bully@Wiiplaza]
+284CDD92 YYYYZZZZ
+*Get your Button Values Here: http://geckocodes.org/index.php?arsenal=2*
+
+All Sports Codes (if parameters are available)
+
+1 Point is worth X Points [Bully@Wiiplaza]
+C218AC10 00000002
+38A0000X 7C632A14
+60000000 00000000
+*X = HEX!*
+
+Red Team Never Gets Points [Bully@Wiiplaza]
+C218AC14 00000002
+2C060004 41820008
+90640020 00000000
+
+Blue Team Never Gets Points [Bully@Wiiplaza]
+C218AC14 00000002
+2C060000 41820008
+90640020 00000000
+
+Red Team Points Modifier [Bully@Wiiplaza]
+044D7D2C XXXXXXXX
+*XXXX = Amount in HEX!*
+
+Blue Team Points Modifier [Bully@Wiiplaza]
+044D7D18 XXXXXXXX
+*XXXX = Amount in HEX!*
+
+Time Control [Bully@Wiiplaza]
+284CDD92 F9FF0600
+C2151838 00000005
+9421FFF0 91610008
+3D600000 616B0000
+91630024 81610008
+38210010 C0430024
+60000000 00000000
+E2100000 00000000
+C2151838 00000005
+9421FFF0 91610008
+3D6046F2 616BAC2A
+91630024 81610008
+38210010 C0430024
+60000000 00000000
+E0000000 80008000
+*Press 1+B to end game; otherwise: Timer is frozen*
+
+Inf. Time [Bully@Wiiplaza]
+C218A4E4 00000005
+9421FFF0 91610008
+3D6044B4 616B0000
+91630030 81610008
+38210010 C0030030
+60000000 00000000
+*when holding the ball*
+
+SP Always Full (Red Team only) [Bully@Wiiplaza]
+04A42E8C 3F800000
+
+SP Always Full (Blue Team only) [Bully@Wiiplaza]
+04A42E90 3F800000
+
+SP Always Full (Both Teams) [Bully@Wiiplaza]
+C218B280 00000005
+9421FFF0 91610008
+3D603F80 616B0000
+9165010C 81610008
+38210010 C065010C
+60000000 00000000
+0418B1D4 60000000
+
+Coins Modifier (Blue Team) [Bully@Wiiplaza]
+044D775C XXXXXXXX
+*XXXX = Amount in HEX!*
+
+Coins Modifier (Red Team) [Bully@Wiiplaza]
+044D7760 XXXXXXXX
+*XXXX = Amount in HEX!*
+
+Blue Team Never Gets Coins [Bully@Wiiplaza]
+C217D23C 00000002
+2C1C0000 41820008
+93C5009C 00000000
+
+Red Team Never Gets Coins [Bully@Wiiplaza]
+C217D23C 00000002
+2C1C0001 41820008
+93C5009C 00000000
+
+VolleyBall Codes
+
+Score Modifier (VolleyBall Partymode) [Bully@Wiiplaza]
+21497FDC 8083027C
+C3497FDC 00000002
+3980XXXX 9183027C
+8083027C 00000000
+E0000000 80008000
+*XXXX = Amount in HEX!*
+
+Combo Never Ends (VolleyBall Partymode) [Bully@Wiiplaza]
+214985A0 90030298
+054985A0 60000000
+E0000000 80008000
+*when the ball falls down, your combo normally ends, but not with this code*
+
+Fun Codes
+
+All Characters Size Modifier [Bully@Wiiplaza]
+04463B34 XXXXXXXX
+*Default is 3F800000*
+*Working aswell on main screen*
+
+All Characters Grow/Shrink Size [Bully@Wiiplaza]
+C242B534 00000011
+9421FFB0 BDC10008
+3DC0804C 61CEDD92
+A1CE0000 71CEYYYY
+41820028 3E208000
+62311500 3E403A03
+6252126F 92510000
+C2D10000 C0030004
+FC00B028 D0030004
+3DC0804C 61CEDD92
+A1CE0000 71CEXXXX
+41820028 3E208000
+62311500 3E403A03
+6252126F 92510000
+C2D10000 C0030004
+FC00B02A D0030004
+B9C10008 38210050
+C0030004 00000000
+*YYYY = Button for Shrink*
+*XXXX = Button for Grow*
+
+*Get your Button Values here: http://geckocodes.org/index.php?arsenal=2*
+*Let me know, if you want quicker/slower changes*
+
+Home Menu Zoom Modifier [Bully@Wiiplaza]
+0445F080 XXXXXXXX
+*Default is 3F800000*
+*bigger Value = Zoom in*
+
+Home Menu/Sequence Zoom Modifier [Bully@Wiiplaza]
+044B2E54 XXXXXXXX
+*Default is 3F800000*
+*bigger Value = Zoom out*
+
+Home Menu Sound Pitch [Bully@Wiiplaza]
+0445F270 XXXXXXXX
+*Default is 3F800000*
+*Just pitches the sound, which comes up with the Home Menu*
+
+Laggy Characters/Size Changer [Bully@Wiiplaza]
+04463B34 XXXXXXXX
+04463F30 XXXXXXXX
+*Default is 3F800000*
+
+Do not show won sets on display (VolleyBall) [Bully@Wiiplaza]
+004D7CFA 00000000
+00A42FB7 00000000
+00D297E1 00000000
+
+BasketBall Codes
+
+Player 1: Score Modifier (BasketBall Partymode) [Bully@Wiiplaza]
+C218AC14 00000003
+2C1C0003 40820008
+3860XXXX 90640020
+60000000 00000000
+*Makes problems in other game modes, not compatible with "red/blue team never gets points"*
+
+Enemys Never Get Points (BasketBall Partymode) [Bully@Wiiplaza]
+C218AC14 00000002
+2C1C0003 40820008
+90640020 00000000
+*Same conditions like the one above and do not use them both*
+
+Player 1: Always Gets + X Points (BasketBall Partymode) [Bully@Wiiplaza]
+C218AC10 00000003
+2C1C0003 40820008
+38A00064 7C632A14
+60000000 00000000
+*Makes problems in other game modes, not compatible with "1 Point is worth X Points"*
+
+DodgeBall Codes
+
+Infinte "A" Spin Move (DodgeBall Partymode) [Bully@Wiiplaza]
+213CF4C8 D03F063C
+053CF4C8 60000000
+E0000000 80008000
+*working for all players*
+
+Hockey Codes
+
+Player 1: Points Modifier (Hockey Partymode) [Bully@Wiiplaza]
+21370A40 901702D4
+C3370A40 00000003
+2C080000 40820008
+3800XXXX 901702D4
+60000000 00000000
+E0000000 80008000
+*XXXX = HEX!*

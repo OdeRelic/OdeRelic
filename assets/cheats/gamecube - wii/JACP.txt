@@ -1,0 +1,53 @@
+JACP
+F-Zero
+
+Unlimited Lives [Crapulecorp]
+008B0501 00000009
+
+Unlimited Power [Crapulecorp]
+008B0572 00000008
+*Code ported from ZiT Ntsc Jap Version*
+
+Speed MAX (Press A) [Crapulecorp]
+281B0DBA FFEF0010
+028B0FC8 00000F27
+E0000000 80008000
+*Classic Controller*
+*Code ported from ZiT Ntsc Jap Version*
+
+Speed MAX (Press Y) [Crapulecorp]
+2817EB68 F7FF0800
+028B0FC8 00000F27
+E0000000 80008000
+*GameCube Controller*
+*Code ported from ZiT Ntsc Jap Version*
+
+Always Finish First [Crapulecorp]
+008B15F8 00000000
+*Code ported from ?? Snes Action Replay Version*
+
+Unlimited Turbos [Crapulecorp]
+008B119B 00000003
+*Code ported from Fangs Snes Action Replay Version*
+
+Always Boosted [Crapulecorp]
+008B11F9 00000008
+*Code ported from MasterGohan Snes Action Replay Version*
+
+Access Fire Field On Practice Mode [Crapulecorp]
+008B04FB 00000008
+*Code ported from Jaduss Darkwind Snes Action Replay Version*
+
+Access White Land 2 On Practice Mode [Crapulecorp]
+008B04FB 00000007
+*Code ported from Jaduss Darkwind Snes Action Replay Version*
+
+Button Activator Player 1
+
+Classic Controller [Crapulecorp]
+281B0DBA YYYYZZZZ
+
+GameCube Controller [Crapulecorp]
+2817EB68 YYYYZZZZ
+
+Button Activator Player 1

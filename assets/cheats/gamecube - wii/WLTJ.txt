@@ -1,0 +1,17 @@
+WLTJ
+School of Darkness
+
+Infinite Flashlight [ZiT]
+0400CA64 60000000
+
+Pachinko x 10 [ZiT]
+001B8C97 0000000A
+
+TV Remote Control [ZiT]
+001B8C95 00000001
+
+Bomb x 10 [ZiT]
+001B8C93 0000000A
+
+Smoke Candle x 10 [ZiT]
+001B8C91 0000000A

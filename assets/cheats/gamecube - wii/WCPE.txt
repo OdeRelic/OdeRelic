@@ -1,0 +1,9 @@
+WCPE
+Copter Crisis
+
+WiiMote Pad1 [GMO]
+28354F32 YYYYZZZZ
+
+Unlimited Fuel [GMO]
+024836C8 00003F7D
+024836D4 00003F7D

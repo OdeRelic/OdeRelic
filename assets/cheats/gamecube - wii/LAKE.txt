@@ -1,0 +1,78 @@
+LAKE
+Wonder Boy in Monster Land
+
+Button Activator
+
+WiiMote Pad1 [GMO]
+281A2042 0000????
+
+Miscellaneous Codes
+
+Press B to Refill Health [GMO]
+0125BEDD 0000000A
+281A2042 00000400
+0125BEDC 00000028
+E0000000 80008000
+
+Invincible [GMO]
+0125BFE0 00000001
+
+Invincible (Alt) [GMO]
+0125BFE1 000000B1
+
+Press A To Clear Screen [GMO]
+281A2042 F7FF0800
+0125BFA4 00000001
+E0000000 80008000
+
+Max Gold [GMO]
+0125BED9 00000099
+0125BEDA 00000099
+
+Have 99 Bombs [GMO]
+0125CD9D 00000099
+
+Have Individual Item Codes
+
+Boots Modifier [GMO]
+0125BFBF 000000??
+01 Cloth Boots
+02 Leather Boots
+03 Ceramic Boots
+04 Boots of Legend
+
+Armor Modifier [GMO]
+0125BFC0 000000??
+01 Light Armor
+02 Knight Armor
+03 Heavy Armor
+04 Hard Armor
+05 Armor of Legend
+
+Shield Modifier [GMO]
+0125BFC1 000000??
+01 Light Shield
+02 Knight Shield
+03 Hard Shield
+04 Shield of Legend
+
+Have Gaunlet (Key Item) [GMO]
+0125BFC3 00000001
+
+Have Helmet (Key Item) [GMO]
+0125BFC5 00000001
+
+Have Wing Boots (Key Item) [GMO]
+0125BFC7 00000001
+
+Have Flute (Key Item) [GMO]
+0125BFDE 00000001
+
+Have Key (Key Item) [GMO]
+0125BFDF 00000001
+
+Have Scroll To Catherine [GMO]
+0125C00C 00000001
+
+Have Letter To Betty [GMO]
+0125C021 00000001

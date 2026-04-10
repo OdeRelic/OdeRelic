@@ -1,0 +1,9 @@
+RN6ENR
+North American Hunting Extravaganza
+
+999 shots [savage]
+04220F14 000003E7
+
+Extra Money [savage]
+04227920 0001046A
+E0000000 80008000

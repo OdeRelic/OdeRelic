@@ -1,0 +1,11 @@
+FDQP
+Double Dribble
+
+Player 1 99 Points [Crapulecorp]
+0042DE74 00000099
+0042DE7C 00000099
+
+CPU Zero Points [Crapulecorp]
+0042DE70 00000000
+0042DE78 00000000
+*Code ported from GMO Ntsc Usa Version*

@@ -1,0 +1,7 @@
+RCBP52
+Cabela's Big Game Hunter
+
+Important : Use Wii Pad Hook
+
+No Reload/Unlimited Ammo [Crapulecorp]
+04043DAC 90640004

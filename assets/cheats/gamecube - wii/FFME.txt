@@ -1,0 +1,36 @@
+FFME
+Blaster Master
+
+Inf Lives [Thomas83Lin]
+003A11DD 00000009
+
+Inf Health [Thomas83Lin]
+003A150D 000000FF
+
+Max Gun [Thomas83Lin]
+003A11C3 000000FF
+
+Max Weapons [Thomas83Lin]
+023A17F0 00006363
+003A17F2 00000063
+
+Inf Hover [Thomas83Lin]
+003A1192 000000FF
+
+Addons [Thomas83Lin]
+003A1199 000000FF
+043A11B8 00070007
+003A14FC 0000000F
+*Hover\Dive\Wall\Key\Crusher\Hyper\Wall2*
+
+Moon Jump Press B [Thomas83Lin]
+281628A8 FBFF0400
+003A1507 000000CC
+E0000000 80008000
+*WiiMote Only*
+
+Moon Jump Press X [Thomas83Lin]
+281628D2 FFF70008
+003A1507 000000CC
+E0000000 80008000
+*Classic Controller Only*

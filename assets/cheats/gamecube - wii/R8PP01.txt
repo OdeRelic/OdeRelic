@@ -1,0 +1,323 @@
+R8PP01
+Super Paper Mario
+
+Button Activator [Bully@Wiiplaza]
+2852903A YYYYZZZZ
+
+No Enemy / 3D Damage [Bully@Wiiplaza]
+0412A96C 38600000
+*Credits: Draganta*
+
+No Falling Damage [Bully@Wiiplaza]
+04161248 38600000
+*Credits: Draganta*
+
+No Low HP Warning / Flashing [Bully@Wiiplaza]
+0419A238 60000000
+
+Teleporter [Bully@Wiiplaza]
+C2128A00 0000000B
+C03F0060 3D608000
+3D808052 618C903A
+A18C0000 718AWWWW
+41820018 D02B1554
+C19F005C D18B1550
+C19F0064 D18B1558
+718AVVVV 4182001C
+C18B1550 D19F005C
+C18B1554 D19F0060
+C18B1558 D19F0064
+60000000 00000000
+*WWWW = Button to save coordinates*
+*VVVV = Button to teleport to saved position*
+*Video: http://www.youtube.com/watch?v=iEH8YR5Cnao
+
+Infinite 3D [Bully@Wiiplaza]
+0414CFF4 60000000
+*Credits: Draganta*
+
+No 3D Mode Bar Pulsation [Bully@Wiiplaza]
+0419BDE0 60000000
+
+3D Bar Restore Multiplier [Bully@Wiiplaza]
+0414D11C 3803XXXX
+*XXXX = Hex*
+*0001 = Default*
+
+No Sound After Fully Restoring 3D Bar [Bully@Wiiplaza]
+0414D128 48000038
+
+No Low 3D Bar Flashing [Bully@Wiiplaza]
+0419B928 4800000C
+
+Coins Gain Multiplier (Enemies) [Bully@Wiiplaza]
+04077830 3860XXXX
+*XXXX = Hex*
+*0001 = Default*
+
+Coins Gain Multiplier (Blocks) [Bully@Wiiplaza]
+040F6CC8 3860XXXX
+*XXXX = Hex*
+*0001 = Default*
+
+Music Volume Modifier [Bully@Wiiplaza]
+C230C868 00000002
+3D80XXXX 91820368
+C0420368 00000000
+*XXXX = Float*
+*3F80 = Default*
+
+Music Speed Modifier [Bully@Wiiplaza]
+C2309D6C 00000002
+3D80XXXX 91820360
+C3C20360 00000000
+*XXXX = Float*
+*3F80 = Default*
+
+Infinite time playing as Big 8-Bit [Dr.Cleo]
+2A510764 00000400
+04510840 FFFFFFFF
+E0000000 80008000
+28510764 00000400
+04510840 00000001
+E0000000 80008000
+Press B to stop.
+WARNING! Don't hold B or it will crash!
+Secret: Press B anywhere and... 8-Bit explosion.
+
+(Lv 99) [Draganta]
+00511A2F 00000063
+
+(255 Attack) [Draganta]
+00511A33 000000FF
+
+(Infinite HP) [Draganta]
+00511A37 000000FF
+
+(Max HP (255)) [Draganta]
+00511A3B 000000FF
+
+(Max/Inf HP (999)) [Draganta]
+02511A36 000003E7
+02511A3A 000003E7
+
+(Infinite 3D) [Draganta]
+00511A3F 0000000A
+
+(99.999.999 Score) [Draganta]
+04511A40 05F5E0FF
+
+(999 Coins) [Draganta]
+02511A46 000003E7
+
+(All Characters) [Draganta]
+04511ADC 010100D8
+04511AE0 010100D9
+04511AE4 010100DA
+04511AE8 010100DB
+
+(All Pixl) [Draganta]
+04511AEC 010000DD
+04511AF0 010000DE
+04511AF4 010000DF
+04511AF8 010000E0
+04511AFc 010000E1
+04511B00 010000E2
+04511B04 010000E3
+04511B08 010000E4
+04511B0C 010000E5
+04511B10 010000E6
+04511B14 010000E7
+
+(All Recipes) [Draganta]
+04511D44 FFFFFFFF
+04511D48 FFFFFFFF
+04511D4C FFFFFFFF
+
+(All Treasure Maps) [Draganta]
+04511D34 FFFFFFFF
+04511D38 0000FFFF
+
+(All cards x99 Small Version) [Draganta]
+08511D50 000000FF
+001F0001 00000000
+08511B34 00000063
+00FF0001 00000000
+
+(9999 Arcade Chips) [Draganta]
+025120B2 0000270F
+
+(Item Slot 1-10 Mod) [Draganta]
+00511A89 000000XX
+00511A8B 000000XX
+00511A8D 000000XX
+00511A8F 000000XX
+00511A91 000000XX
+00511A93 000000XX
+00511A95 000000XX
+00511A97 000000XX
+00511A99 000000XX
+00511A9B 000000XX
+
+Item Values
+(The names of the items are in German and I will not Translate them.
+Only one hint: Pilz=Mushroom)
+39 - Kochdisk 2
+3A - Kochdisk 3
+3B - Kochdisk 4
+3C - Kochdisk 5
+3D - Kochdisk 6
+3E - Kochdisk 7
+3F - Kochdisk 1
+40 - Goldene Karte
+41 - Feuerstoß
+42 - Eishauch
+43 - Donnerzorn
+44 - Sternenwind
+45 - POW-Block
+46 - Panzerkick
+47 - Goldbarren
+48 - Goldschatz
+49 - Block Block
+4A - Hartpanzer
+4B - Stärketrank
+4C - Voltpilz
+4D - Geistpilz
+4E - Schäfchen
+4F - Stoppuhr
+50 - Pilzmix
+51 - Super Pilzmix
+52 - Ultra Pilzmix
+53 - Trockenpilz
+54 - Lebenspilz
+55 - Langzeit-Mix
+56 - Überraschungsbox
+57 - Fangkarte
+58 - Super-Fangkarte
+59 - Kp-Plus
+5A - Kraft-Plus
+5B - Blauer Apfel
+5C - Oranger Apfel
+5D - Roter Apfel
+5E - Rosa Apfel
+5F - Schwarzer Apfel
+60 - Sternmedaille
+61 - GoldMedaille
+62 - Giftpilz
+63 - Schleimpilz
+64 - Pfirsich
+65 - Mango
+66 - Urfrucht
+67 - Goldblatt
+68 - Koopa Blatt
+69 - Backmischung
+6A - Whackas Kick
+6B - Wurzel
+6C - Power-Pasta
+6D - Feuersoße
+6E - Tintensaft
+6F - Suselträne
+70 - Saftsuppe
+71 - Fleischkeule
+72 - Gemüse
+73 - Kräuter
+74 - Honig
+75 - Fleisch
+76 - Großes Ei
+77 - Milder Kakao
+78 - Süßer Schokoriegel
+79 - Pilz-Schokoriegel
+7A - Goldener Schokoriegel
+7B - Tropfsirup
+7C - Suselsirup
+7D - Schleimextrakt
+7E - Bratpilze
+7F - Pilz-Muffin
+80 - Pilz-Steak
+81 - Honig-Pilz
+82 - Honigschaum
+83 - Pilztee
+84 - Pilz-Crêpe
+85 - Pilzkuchen
+86 - Schokokuchen
+87 - Herztorte
+88 - Mustorte
+89 - Crostata
+8A - Wurzeltorte
+8B - Süßgebäck
+8C - Koopa-Knödel
+8D - Safttörtchen
+8E - Spezialität
+8F - Mangocreme
+90 - Liebesquark
+91 - Paarmahl
+92 - Obstparfait
+93 - Eis-Schmatz
+94 - Eishase
+95 - Erdbeer-Eishase
+96 - Honig-Bonbon
+97 - Elektro-Pop
+98 - Kräutertee
+99 - Koopa-Tee
+9A - Spagetti
+9B - Feuerpasta
+9C - Tintenpasta
+9D - Koopapasta
+9E - Liebespasta
+9F - Bratei
+A0 - Eierbombe
+A1 - Dillas Dynamit
+A2 - Spießbraten
+A3 - Sternendinner
+A4 - Omelett
+A5 - Pfeffersuppe
+A6 - Hotdog
+A7 - Fit-Salat
+A8 - Dillas Mahl
+A9 - Dilla Spezial
+AA - Dilla Deluxe
+AB - Space-Food
+AC - Notration
+AD - Wonnebombe
+AE - Strafgericht
+AF - Fehlschlag
+B0 - Fehlschlag
+B1 - Warmer Kakao
+B2 - Verdächtiges Mahl
+B3 - Tintensuppe
+B4 - Pfefferkuchenhaus
+B5 - Vulkanpilz
+B6 - Panzerpott
+B7 - Scharfes Mahl
+B8 - Pilzpudding
+B9 - Schweres Mahl
+BA - Urmahl
+BB - Supersteak
+BC - Goldenes Mahl
+BD - Pilzdessert
+BE - Gebratener Whackos Kick
+BF - Dillias Frühstück
+C0 - Dillias Mittagstisch
+C1 - Luftsaft
+C2 - Ausdauersaft
+C3 - Schokopasta
+C4 - Goumetpilze
+C5 - Bratwurzel
+C6 - Sirup
+C7 - Bulette
+C8 - Pfirsichsaft
+C9 - Gruselschoki
+CA - obsttorte
+CB - Fruchtschnitte
+CC - Fruchtpunch
+CD - Fruchtpilze
+CE - Eckiges Mahl
+CF - Gemüsetopf
+D0 - Bizarro-Elexier
+D1 - Supersnack
+D2 - Mangosaft
+D3 - Klopsnudeln
+D4 - Saftmix
+D5 - Wundermahl
+D6 - Pow-Mahl
+D7 - Liebesschoki

@@ -1,0 +1,90 @@
+FBNM
+Ninja Gaiden
+
+Infinite Lives [Crapulecorp]
+0044D476 00000063
+
+Infinite Health [Crapulecorp]
+0044D465 00000010
+*Code ported from ZiT Ntsc Jap Version*
+
+Refill Health (Press L) [Crapulecorp]
+281EEB52 DFFF2000
+0044D465 00000010
+E0000000 80008000
+*Classic Controller*
+*Code ported from GMO Ntsc Usa Version*
+
+Refill Health (Press -) [Crapulecorp]
+28277712 EFFF1000
+0044D465 00000010
+E0000000 80008000
+*WiiMote*
+*Code ported from GMO Ntsc Usa Version*
+
+Invincible
+
+Invincible [Crapulecorp]
+0044D495 00000002
+*Code ported from ZiT Ntsc Jap Version*
+
+Invincible (Press R ON/OFF) [Crapulecorp]
+281EEB52 FDFF0200
+CC000000 00000000
+0044D495 00000002
+E0000000 80008000
+*Classic Controller*
+
+Invincible (Hold B and press Down) [Crapulecorp]
+28277712 FBFB0404
+CC000000 00000000
+0044D495 00000002
+E0000000 80008000
+*WiiMote*
+
+Time Stop
+
+Time Stop [Crapulecorp]
+0244D462 000000C9
+*Code ported from ZiT Ntsc Jap Version*
+
+Refill Time (Press ZL) [Crapulecorp]
+281EEB52 FF7F0080
+0244D462 000000C9
+E0000000 80008000
+*Classic Controller*
+*Code ported from GMO Ntsc Usa Version*
+
+Refill Time (Hold B and Press Left) [Crapulecorp]
+28277712 FBFE0401
+0244D462 000000C9
+E0000000 80008000
+*WiiMote*
+*Code ported from GMO Ntsc Usa Version*
+
+Ninja Power Max
+
+Ninja Power MAX [Crapulecorp]
+0044D464 00000063
+*Code ported from ZiT Ntsc Jap Version*
+
+Refill Ninja Power Max (Press ZR) [Crapulecorp]
+281EEB52 FFFB0004
+CC000000 00000000
+0044D464 00000063
+E0000000 80008000
+*Classic Controller*
+
+Refill Ninja Power Max (Hold B and Press Right) [Crapulecorp]
+28277712 FBFD0402
+0044D464 00000063
+E0000000 80008000
+*WiiMote*
+
+Button Activator
+
+Classic Controller [Crapulecorp]
+281EEB52 YYYYZZZZ
+
+WiiMote [Crapulecorp]
+28277712 YYYYZZZZ

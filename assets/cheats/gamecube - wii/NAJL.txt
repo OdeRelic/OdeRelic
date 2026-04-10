@@ -1,0 +1,31 @@
+NAJL
+Sin & Punishment
+
+Infinite Health [Crapulecorp]
+012042FB 00000064
+*Code ported from ZiT Ntsc Jap Version*
+
+Invincible [Crapulecorp]
+01294041 00000023
+*Code ported from ZiT Ntsc Jap Version*
+
+Unlimited Time [Crapulecorp]
+012042F7 00000063
+
+Refill Time (Press ZR) [Crapulecorp]
+281F8352 FFFB0004
+012042F7 00000063
+E0000000 80008000
+*Classic Controller*
+
+Unlimited Time (Press ZR ON/OFF) [Crapulecorp]
+281F8352 FFFB0004
+CC000000 00000000
+012042F7 00000063
+E0000000 80008000
+*Classic Controller*
+
+Button Activator
+
+Classic Controller [Crapulecorp]
+281F8352 YYYYZZZZ

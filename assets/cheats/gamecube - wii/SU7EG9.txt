@@ -1,0 +1,42 @@
+SU7EG9
+Rise Of The Guardians
+
+Walk Thru Walls & All Objects [Seth@WiiPlaza]
+022A9F8C 00004000
+*demo video - http://youtu.be/r9h7cyVhaSw
+
+Invisible Charachters/ God Mode [Seth@WiiPlaza]
+2032FE60 04001000
+04401B3C 3F600000
+CC000000 00000000
+04401B3C 3F800000
+E0000000 80008000
+*press - to toggle on/off
+*demo video - http://youtu.be/r9h7cyVhaSw
+
+Big Players [Seth@WiiPlaza]
+04401224 40400000
+*demo video - http://youtu.be/r9h7cyVhaSw
+
+Awesome Player Mod [Seth@WiiPlaza]
+044012A8 20200000
+*demo video - http://youtu.be/r9h7cyVhaSw
+
+Button Activator [Seth@WiiPlaza]
+2032FE60 0400XXXX
+*XXXX= button value
+*demo video - http://youtu.be/r9h7cyVhaSw
+
+Camera Zoom Mods
+
+Huge Zoom [Seth@WiiPlaza]
+0440153C 41800000
+*demo video - http://youtu.be/r9h7cyVhaSw
+
+Small Wide View [Seth@WiiPlaza]
+0440153C 3F800000
+*demo video - http://youtu.be/r9h7cyVhaSw
+
+Zoomed In Medium View [Seth@WiiPlaza]
+0440153C 40500000
+*demo video - http://youtu.be/r9h7cyVhaSw

@@ -1,0 +1,8 @@
+GSWE64
+Star Wars Rogue Leader 
+
+Infinite Lives
+000962EE 00000009
+
+Invincible
+040972A8 3F800000

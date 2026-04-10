@@ -1,0 +1,11 @@
+ROLE8P
+Mario and Sonic at the Olympic Winter Games
+
+Infinite Star Point Cards [Jose_Gallardo]
+0421E744 901F0C24
+*Your current point cards must increase/decrease for the code to take effect (ASM). Either buy something, or earn SP Cards for max.
+
+Have 1000 Festival Points [Jose_Gallardo]
+42000000 90000000
+04053D54 00000003
+E0000000 80008000

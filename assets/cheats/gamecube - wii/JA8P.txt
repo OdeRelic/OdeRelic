@@ -1,0 +1,121 @@
+JA8P
+Final Fight
+
+Unlimited Lives [Crapulecorp]
+008BC076 00000009
+
+Unlimited Health [Crapulecorp]
+048BC01C 70007000
+*Code ported from ZiT Ntsc Jap Version*
+
+Invincible [Crapulecorp]
+008BC017 00000032
+*Code ported from ZiT Ntsc Jap Version*
+
+Time Stop Player 1 Codes
+
+Time Stop (ZL + ZR ON/OFF) [Crapulecorp]
+281869EE 00000084
+CC000000 00000000
+008BBFC6 00000000
+E0000000 80008000
+*Classic Controller*
+*Code ported from ZiT Ntsc Jap Version*
+
+Time Stop (Press Z ON/OFF) [Crapulecorp]
+281868E8 FFEF0010
+CC000000 00000000
+008BBFC6 00000000
+E0000000 80008000
+*GameCube Controller*
+*Code ported from ZiT Ntsc Jap Version*
+
+MoonJump Player 1 Codes
+
+MoonJump [Crapulecorp]
+281869EE FFBF0040
+028BC03D 0000050000 [Crapulecorp]
+E0000000 80008000
+*Classic Controller*
+*Code ported from ZiT Ntsc Jap Version*
+
+Moon Jump [Crapulecorp]
+281868E8 FDFF0200
+028BC03D 00000500
+E0000000 80008000
+*GameCube Controller*
+*Code ported from ZiT Ntsc Jap Version*
+
+1-Hit Kill Player 1 Codes
+
+1 Hit Kill Boss (Hold ZR) [Crapulecorp]
+281869EE 00000004
+048BC4FC 00000000
+E0000000 80008000
+*Classic Controller*
+*Code ported from GMO Ntsc Jap Version*
+
+1-Hit Kill Boss (Hold R) [Crapulecorp]
+281868E8 FFDF0020
+048BC4FC 00000000
+E0000000 80008000
+*GameCube Controller*
+*Code ported from GMO Ntsc Jap Version*
+
+1 Hit Kill Boss (Press ZR ON/OFF) [Crapulecorp]
+281869EE 00000004
+CC000000 00000000
+048BC4FC 00000000
+E0000000 80008000
+*Classic Controller*
+*Code ported from GMO Ntsc Jap Version*
+
+1-Hit Kill Boss (Press R ON/OFF) [Crapulecorp]
+281868E8 FFDF0020
+CC000000 00000000
+048BC4FC 00000000
+E0000000 80008000
+*GameCube Controller*
+*Code ported from GMO Ntsc Jap Version*
+
+1 Hit Kill The Most Of Basic Enemy (Hold ZL) [Crapulecorp]
+281869EE 00000080
+048BC31C 00000000
+048BC3BC 00000000
+E0000000 80008000
+*Classic Controller*
+*Code ported from GMO Ntsc Jap Version*
+
+1-Hit Kill The Most Of Basic Enemy (Hold L) [Crapulecorp]
+281868E8 FFBF0010
+048BC31C 00000000
+048BC3BC 00000000
+E0000000 80008000
+*GameCube Controller*
+*Code ported from GMO Ntsc Jap Version*
+
+1 Hit Kill The Most Of Basic Enemy (Press ZL ON/OFF) [Crapulecorp]
+281869EE 00000080
+CC000000 00000000
+048BC31C 00000000
+048BC3BC 00000000
+E0000000 80008000
+*Classic Controller*
+*Code ported from GMO Ntsc Jap Version*
+
+1-Hit Kill The Most Of Basic Enemy (Press L ON/OFF) [Crapulecorp]
+281868E8 FFBF0010
+CC000000 00000000
+048BC31C 00000000
+048BC3BC 00000000
+E0000000 80008000
+*GameCube Controller*
+*Code ported from GMO Ntsc Jap Version*
+
+Activator Player 1
+
+Classic Controller [Crapulecorp]
+281869EE YYYYZZZZ
+
+GameCube Controller [Crapulecorp]
+281868E8 YYYYZZZZ

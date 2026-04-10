@@ -1,0 +1,14 @@
+RHDE8P
+The House Of The Dead 2 And 3 Return
+
+The House of the Dead 3
+
+P2 Infinite Life [schmake]
+0442F940 00000002
+
+P2 Infinite Ammo [schmake]
+0442FA08 00000006
+
+Infinite Credits [schmake]
+04430B78 00000009
+*ZiT's Japanese codes also work on the US version

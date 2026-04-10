@@ -1,0 +1,9 @@
+WITJ
+Aah Mitsuketa Item Sagashi Game
+
+Miss 0 [ZiT]
+04025BC8 92040068
+
+Time Stop [ZiT]
+0400B85C 60000000
+04025F08 90760060

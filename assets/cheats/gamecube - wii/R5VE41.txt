@@ -1,0 +1,26 @@
+R5VE41
+James Cameron's Avatar
+
+Never Loose Eywa [Thomas83Lin]
+04067B30 60000000
+
+Inf health Self [Thomas83Lin]
+04A8E254 41C00000
+
+9999 Eywa [Thomas83Lin]
+049FDECC 0000270F
+
+Activator [Sh0tGuN2197]
+2883CB62 0000XXXX
+
+1st Player name change [xcoopa]
+4A000000 80AF07A8
+16000000 0000000C
+58636F6F 70610000
+E0000000 80008000
+
+2nd player name change [xcoopa]
+4A000000 80AF07B8
+16000000 0000000C
+xxxxxxxx xxxxxx00
+E0000000 80008000

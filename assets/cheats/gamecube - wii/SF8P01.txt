@@ -1,0 +1,167 @@
+SF8P01
+Donkey Kong Country Returns
+
+Temp World+Level Bypass v.2 [Thomas83Lin]
+042E61A8 60000000
+042E54DC 60000000
+0410A18C 4800001C
+0410A2D8 48000014
+
+Immer Goldender Kong/Forever Gold Ender Kong [sniper82]
+00800D97 0000000A
+
+Ported from wiiztec by Patedj
+
+Invincibility Toggle [Patedj]
+285CB16A 00000800
+041F96FC D04308FC
+041F9700 4081000C
+CC000000 00000000
+C21F96FC 00000002
+3E207F80 922308FC
+60000000 00000000
+041F9700 4800000C
+E0000000 80008000
+you have to get hit first for it to take effect
+remove the last line to be invisible too
+if you toggle it off the effect won't go away until you restart the level but It still might prevent the Rambi crash
+
+Ported From Thomas83lin by Patedj
+
+Remove Health Hud [Patedj]
+041CA320 38000000
+
+Jump Modifier [Patedj]
+C223943C 00000003
+3D804000 618C0000
+919F08DC C09F08DC
+60000000 00000000
+*Modify 4000 To IncreaseDecrease*
+
+Moon Jump 1-2 Player Press (B+2) [Patedj]
+C22BE614 00000004
+80A6FFF8 3D808000
+618C1840 90AC0000
+80A6FFFC 90AC0004
+80A40000 00000000
+285CB16A FAFF0500
+48000000 80001840
+DE000000 80008180
+14000184 4503E30C
+E0000000 80008000
+285CB7F2 FAFF0500
+48000000 80001844
+DE000000 80008180
+14000184 4503E30C
+E0000000 80008000
+*Wiimote Horizontal*
+
+Have Rocket without Diddy [Patedj]
+0424473C 60000000
+C22BE61C 00000004
+8066FFFC 80630008
+3D808000 618C1848
+906C0000 38600000
+80050038 00000000
+C223FA6C 00000002
+3C608000 60631848
+80030000 00000000
+
+Mirror Graphics [Patedj]
+040C2AE8 60000000
+040C2AF0 38600001
+
+Unlock Mirror Mode [Patedj]
+0080CE2B 00000001
+*Single Player*
+
+Switch in and out of Mirror Mode [Patedj]
+285CB16A EFFF1000
+0080CDCF 00000000
+CC000000 00000000
+0080CDCF 00000001
+E0000000 80008000
+*Press - Wiimote Horizontal*
+
+Consistent Roll without Diddy [Patedj]
+04244698 60000000
+
+Longer Lasting Diddy Rocket [Patedj]
+042614B0 60000000
+
+Misc
+
+Infinite Health Donkey Kong [Olbap]
+0480cd8c 00000002
+
+Infinite Health Diddy Kong [Olbap]
+2480cd90 00000000
+0480cd90 00000002
+e0000000 00000000
+
+Infinite Lives [Olbap]
+0480cd9c 00000063
+
+Infinite coins [Olbap]
+0480cd88 00000063
+
+All 4 Kong letters [Olbap]
+0880cda4 00000001
+20030004 00000000
+codes converted from wiiztec usa ntsc version)
+
+Always Have Squawks [Olbap]
+0080cdc3 00000001
+code converted from Thomas83Lin usa ntsc version
+
+Stops Mini Game Time [Olbap]
+041149bc ec00d828
+Code converted from Skiller usa ntsc version
+
+Universal Codes for Donkey Kong Country Returns
+
+1-2 Player Moon Jump v.2 (Press B+2) [Thomas83Lin]
+F6000001 80008100
+3860FFFF 2C000001
+D2000000 00000009
+3D808000 2C000001
+41820010 2C000002
+41820028 4800002C
+618C18A2 A18C0000
+718C0500 2C0C0500
+40820018 3D804503
+91830184 4800000C
+618C18A6 4BFFFFE0
+3860FFFF 00000000
+E0000000 80008000
+F6000001 80008100
+90030000 552A043E
+D2000000 00000005
+3D408000 614A18A0
+2C190000 40820008
+900A0000 2C190001
+40820008 900A0004
+90030000 00000000
+E0000000 E0008000
+*Wiimote Horizontal*
+
+Invincibility [Thomas83Lin]
+F6000001 80008100
+FC021840 4C810020
+14000004 4800009C
+140000A0 38800001
+E0000000 E0008000
+*Used wiiztec's code for a starting point*
+*Works on Rambi also*
+
+Longer Lasting Diddy Rocket [Thomas83Lin]
+F6000001 80008100
+D01A0140 C3DC019C
+14000000 60000000
+E0000000 E0008000
+
+Consistent Roll without diddy [Thomas83Lin]
+F6000001 80008100
+80660028 7C032840
+14000008 60000000
+E0000000 E0008000

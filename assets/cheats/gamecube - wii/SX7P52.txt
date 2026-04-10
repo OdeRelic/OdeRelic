@@ -1,0 +1,42 @@
+SX7P52
+Teenage Mutant Ninja Turtles
+
+Unlimited Lives [Crapulecorp]
+0404FCEC 38040000
+
+If Decrease Max Skill Points (In Store) [Crapulecorp]
+C20700F0 00000002
+3C0005F5 6000E0FF
+90030004 00000000
+
+If Increase Max Score [Crapulecorp]
+C2043884 00000002
+3C000001 6000869F
+901F0008 00000000
+
+Unlimited Items [Crapulecorp]
+04052E4C 38030000
+
+Unlimited Items (Press - On & OFF) [Crapulecorp]
+283F793A EFFF1000
+04052E4C 38030000
+CC000000 00000000
+04052E4C 3803FFFF
+E0000000 80008000
+*WiiMote-NunChuck*
+
+Unlimited Items (Press - On & OFF) [Crapulecorp]
+283F799A EFFF1000
+04052E4C 38030000
+CC000000 00000000
+04052E4C 3803FFFF
+E0000000 80008000
+*Classic Controller*
+
+Button Activator
+
+WiiMote-NunChuck [Crapulecorp]
+283F793A YYYYZZZZ
+
+Classic Controller [Crapulecorp]
+283F799A YYYYZZZZ

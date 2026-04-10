@@ -1,0 +1,37 @@
+FABP
+Donkey Kong Jr.
+
+Unlimited Lives [Crapulecorp]
+003ABFAC 0000000A
+
+Unlimited Bonus [Crapulecorp]
+003ABF8E 00000099
+*Code ported from ZiT Ntsc Jap Version*
+
+Mario Nop [Crapulecorp]
+023ABF95 0000FFFF
+*Code ported from ZiT Ntsc Jap Version*
+
+MoonJump [Crapulecorp]
+281DC812 FEFF0100
+023ABFE2 00001000
+E0000000 80008000
+003ABFD6 000000C7
+*WiiMote*
+*Code ported from ZiT Ntsc Jap Version*
+
+MoonJump (Press X) [Crapulecorp]
+281DC872 FFF70008
+023ABFE2 00001000
+E0000000 80008000
+003ABFD6 000000C7
+*Classic Controller*
+*Code ported from ZiT Ntsc Jap Version*
+
+Button Activator
+
+WiiMote [Crapulecorp]
+281DC812 YYYYZZZZ
+
+Classic Controller [Crapulecorp]
+281DC872 YYYYZZZZ

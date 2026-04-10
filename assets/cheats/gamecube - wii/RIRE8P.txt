@@ -1,0 +1,44 @@
+RIRE8P
+Iron Man
+
+Unlock all Missions (1) [eric]
+00F3649C 0000000C
+
+Infinite Lives [eric]
+04635234 60000000
+
+Infinite Armor Energy [eric]
+0467DB44 60000000
+
+Infinite Propulsion Energy [eric]
+0467DB9C 60000000
+
+Infinite Weapon Energy [eric]
+0467DBE4 60000000
+
+Infinite Bullets [eric]
+046AF17C 60000000
+
+Infinite Rockets [eric]
+04663850 60000000 [eric]
+Infinite Missiles [eric]
+04720190 60000000
+047205F4 60000000
+
+Max Weapon EXP [eric]
+04652F38 60000000
+
+Max Armor Upgrade (1) [eric]
+0081DF80 00000008
+
+Max Repulsor Upgrade (1) [eric]
+0081DF84 00000008
+
+Max Ballistic Upgrade (1) [eric]
+0081DF88 00000005
+0081DF8C 00000004
+
+Max Explosive Upgrade (1) [eric]
+0081DF90 00000005
+0081DF94 00000004
+Note 1. Save then load save to show code effect.

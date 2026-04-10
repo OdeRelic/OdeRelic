@@ -1,0 +1,38 @@
+RTQPUG
+Monster Trux Offroad
+
+If $ Increase, MAX [Crapulecorp]
+C203F8B8 00000002
+3D804975 398C23F0
+91840974 00000000
+*Same Adress from ZiT's Ntsc Usa Version*
+
+No Damage [Crapulecorp]
+C203F46C 00000003
+81830000 2C0C0000
+41820008 D2030540
+60000000 00000000
+*Same Adress from ZiT's Ntsc Usa Version*
+
+Infinite Nitro [Crapulecorp]
+C2036914 00000002
+39800003 918401F8
+806401F8 00000000
+*Same Adress from ZiT's Ntsc Usa Version*
+
+Start on Last Lap (Press -) [Crapulecorp]
+283BA4B6 EFFF1000
+C2036C34 00000004
+819E0000 2C0C0000
+4082000C 39800002
+919E0250 801E0250
+60000000 00000000
+E0000000 80008000
+2A3BA4B6 EFFF1000
+04036C34 801E0250
+E0000000 80008000
+*WiiMote*
+*4 Line : 3980000X*
+*Last Lap : x/3 = 2, x/5 = 4*
+*Quick End : x/3 = 3, x/5 = 5*
+*Same Adress from ZiT's Ntsc Usa Version*

@@ -1,0 +1,147 @@
+﻿GZLP01
+Legend of Zelda: Wind Waker
+
+Sky Color Modifier [CosmoCortney]
+043ED020 XXXXXXXX
+yellow and black = 43800000
+white = 43880000
+purple = 43900000
+yellow and red = 43200000
+purple and blue = 43a00000
+black = 4a200000
+cyan and white = 40000000
+yellow = 43100000
+purple and blue = 43900000
+purple and cyan = 43a00000
+black and yellow = 43d00000
+black and red = 43f00000
+cyan and ourple = 44100000
+cyan = 44200000
+green = 44300000
+red and yellow = 44700000
+red and green = 44800000
+white and blue = 44900000
+green and yellow = 44a00000
+(dark) blue = 44b00000
+green and red = 45900000
+yellow and green = 45a00000
+green and black = 45e00000
+red and black = 46100000
+black and green = 46400000
+blue and cyan = 46b30000
+
+Color Modifier (everything) [CosmoCortney]
+04402324 XXXXXXXX
+shiny = 40000000
+shiny + white water = 41000000
+red water and sky + black objects = 42000000
+yellow water and sky = 41500000
+white sky and water = 41300000
+white water and yellow sky = 41400000
+yellow water and sky + crazy colored objects = 41700000
+yellow water and sky + crazy colored objects and blue link = 41800000
+water looks like sand, purple sky, blue link = 41890000
+white water, green link and purple sky = 41900000
+purple water, red link and purple sky = 41940000
+
+purple water, cyan link and purple sky = 41960000
+red sky, purple water and blue objects = 41a00000
+purple water, black and dark objects, black sky, green link = 41a40000
+red water, black sky, red link and dark objects = 41b00000
+red water, black sky, cyan link and dark objects = 41b10000
+red water, dark link, dark blue sky, strange colored ojects = 41b75000
+white water, green sky, black link + dark objects = 41d00000
+
+Link and other characters Color modifier [CosmoCortney]
+043ED014 XXXXXXXX
+purple = 43230000
+blue = 43200000
+green = 43210000
+yellow = 43220000
+cyan = 43290000
+red = 432e0000
+
+sharp background [CosmoCortney]
+04378448 00000000
+0437845C 00000000
+04378470 40000000
+
+Music has a lot of Bass [CosmoCortney]
+0436F598 41000000
+
+Wild Ocean [CosmoCortney]
+044002F0 40400000
+Bigger and faster moving waves
+
+BGM and SFX speed modifier [CosmoCortney]
+283F5018 00000100
+0436E140 3F800000
+E0000000 80008000
+283F5018 00000040
+0436E140 3F400000
+E0000000 80008000
+283F5018 00000001
+0436E140 3F200000
+E0000000 80008000
+283F5018 00000002
+0436E140 3FA00000
+E0000000 80008000
+283F5018 00000020
+0436E140 40000000
+E0000000 80008000
+L = slow (Link sounds like a gorilla)
+dPad left = insane slow (link sounds like a dinosaurus o.O" )
+dPad right = Fast (Link sounds like a chipmunk)
+R = insane fast (music sounds wierd)
+A = normal
+
+No Music [CosmoCortney]
+203A9C14 00010000
+043A9A80 00000000
+E0000000 80008000
+It disables the Music after a stage has been loaded. The IF-conditional still lets the Title screen's music playing. (Otherwise the code would cause crashes) Sometimes (like after entering a house) you have to pause and unpause the game, to reactivate the code
+
+Wind Strenght modifier [CosmoCortney]
+04AACA10 4XXXXXXX
+
+Deku Leaf Cam [CosmoCortney]
+043D21FC 00000020
+the camera does slowly soft movements, like you know while sailing with the Deku Leaf
+
+Super Seizure [CosmoCortney]
+05523004 00000005
+
+Fat Sword [CosmoCortney]
+203A9C14 00010000
+48000000 80AAC3D8
+DE000000 80008180
+140002E0 002B0000
+E0000000 80008000
+
+Bended Sword [CosmoCortney]
+203A9C14 00010000
+48000000 00010000
+DE000000 80008180
+140002EC 00910000
+E0000000 80008000
+
+Invisible Link [CosmoCortney]
+48000000 803D1D38
+DE000000 80008180
+120000BC 00004388
+E2000001 80008000
+
+Invisible Boat [CosmoCortney]
+48000000 803D2084
+DE000000 80008180
+120000BC 00004392
+E2000001 80008000
+
+Iron Boots still make Noises even when unequiped [slayer12909]
+046EB510 00000000
+
+Throw More then Three Bombs at once ported by [slayer12909]
+04AAC79C 00000000
+
+Bombs Don't explode by themselves ported by [slayer12909]
+040DDCAC 60000000
