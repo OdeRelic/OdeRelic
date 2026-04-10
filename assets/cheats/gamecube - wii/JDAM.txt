@@ -1,0 +1,115 @@
+JDAM
+Final Fantasy III
+
+All Items Press A [Thomas83Lin]
+2823CA62 00000800
+08510CD1 000000FE
+00FE0001 FFFFFFFF
+E0000000 80008000
+*Wiimote*
+*Activate in-game Only*
+
+Max All Item Slots Press A [Thomas83Lin]
+2823CA62 00000800
+08510DD1 00000063
+00FE0001 00000000
+E0000000 80008000
+*Wiimote*
+*Activate in-game Only*
+
+Never encounter random enemies [Thomas83Lin]
+42000000 90000000
+002F7343 000000CC
+E0000000 80008000
+*A Port from Game Genie*
+
+MaxInf Health Points in Battle [Thomas83Lin]
+42000000 90000000
+062FC0CD 00000009
+A90F2799 F43B9978
+2E000000 00000000
+E0000000 80008000
+
+MaxInf Magic Points in Battle [Thomas83Lin]
+42000000 90000000
+062FC0D9 00000009
+A9E70399 083C9988
+2E000000 00000000
+E0000000 80008000
+
+Press A to Get All Lore+Rage+Dance+SwdTech+Blitz [Thomas83Lin]
+2823CA62 F7FF0800
+00511190 002400FF
+0051115F 000000FF
+E0000000 80008000
+*Press A on Wiimote**
+*Activate in Game Only*
+
+Turn Edgar into Leo (Press A) Thoma83Lin [Thomas83Lin]
+2823CA62 00000800
+06510AFC 00000008
+04108B9E A8FFFFFF
+00510B13 0000001B
+E0000000 80008000
+*Press A on Wiimote*
+*Modify 0410 to 0404 & 1B to 09 for Edgar back*
+
+Get General Leo&Kefka [Thomas83Lin]
+2823CA62 F7FF0800
+42000000 90000000
+002DD449 00000000
+E0000000 80008000
+2A23CA62 F7FF0800
+42000000 90000000
+002DD449 00000029
+E0000000 80008000
+*Hold A on Wiimote While Going to Switch Characters from Party Selection*
+*Must Repeat Process Every time you go into Party Selection*
+*Kefka will freeze game unless Given Commands*
+*This is a Port From Game Genie*
+
+Kefka Command Modifier (Press A) [Thomas83Lin]
+2823CA62 00000800
+06510CA9 00000004
+XXYYVVWW 00000000
+E0000000 80008000
+*Press A on Wiimote*
+Command Digits:
+00=Fight
+01=Item
+02=Magic
+03=Morph
+04=Revert
+05=Steal
+06=Capture
+07=SwdTech
+08=Throw
+09=Tools
+0A=Blitz
+0B=Runic
+0C=Lore
+0D=Sketch
+0E=Control
+0F=Slot
+10=Rage
+11=Blank
+12=Mimic
+13=Dance
+14=Row
+15=Def.
+16=Jump
+17=X Magic
+18=GP Rain
+19=Summon
+1A=Health
+1B=Shock
+1C=Possess
+1D=MagiTek
+1E=Blank
+1F=Blank
+
+max EXP after Battle [ninjor]
+0251239D 0000FFFF
+
+max GP [ninjor]
+04510CC8 7F969800

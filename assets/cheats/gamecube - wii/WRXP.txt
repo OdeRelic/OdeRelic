@@ -1,0 +1,70 @@
+WRXP
+Mega man 10
+
+Invincible [GMO]
+00533514 0000002E
+
+Have 9 Lives [GMO]
+00535A5C 00000009
+
+Unlimited Health [GMO]
+0053351E 0000001C
+
+Unlimited Ammo [GMO]
+085335C0 0000001C
+000D0002 00000000
+
+Refill Health and Ammo [GMO]
+2845348A 00000202
+00533525 0000001C
+085335C0 0000001C
+000D0002 00000000
+E0000000 80008000
+Hold 1 and press Right on D-Pad
+
+1-Hit Boss Kill [GMO]
+2845348A 00000201
+005300FD 00000001
+E0000000 80008000
+Hold 1 and press Left on D-Pad
+Doesn't work on some Sub-Bosses in Wiley's Castle
+
+Always Have Charged Attack [GMO]
+2845348A FDFF0200
+0253357E 00000060
+E0000000 80008000
+
+999 Screws [GMO]
+0251067A 000003E7
+
+Have All Items [GMO]
+04535B14 01090109
+04535B18 03090109
+
+Book of Hairstyles & Energy Balancer [GMO]
+00535B0C 0000000A
+
+1 hit Kills (Enemys+bosses) [Skiller]
+C205897C 00000003
+2C000000 41820008
+38000000 B01E0030
+60000000 00000000
+
+Character Select Open [Skiller]
+040F5CD4 38800004
+040F5CE0 38800003
+
+Gain 999 Screws (On pickup) [Skiller]
+040744CC 40810004
+
+Have all weapons [Skiller]
+02535A7E 0000FFFF
+
+Jump to wily's castle(Hold 1 and press Right on D-Pad) [Skiller]
+2845348A 00000202
+02535AEA 000001FF
+E0000000 80008000
+Note from the Stage select press - to goto the save menu then go back to the stage select and bam
+
+Allow hard mode [Skiller]
+025A0A42 0000A006

@@ -1,0 +1,202 @@
+EA7P
+Samurai Shodown 4 Amakusa's Revenge
+
+Unlimited Time [Crapulecorp]
+00225D50 00000060
+*Code ported from MAME Version*
+
+Disable Timer [Crapulecorp]
+00225D51 00000020
+*Code ported from MAME Version*
+
+Select Backdrop [Crapulecorp]
+00225D08 000000XX
+00 : Arie
+01 : Obama
+02 : Kuchinotsu
+03 : Koga
+04 : Kushiyama
+05 : Dohsaki
+06 : Funatsu
+07 : Fukae
+08 : Kusenbutake
+09 : Amakusa Castle (vs Amakusa)
+0A : Amakusa Castle (vs Zankuro)
+0B : Amakusa Castle (vs Rival)
+*Code ported from MAME Version*
+
+Player 1
+
+Drain All Energy Now! PL1 [Crapulecorp]
+00225E2B 00000000
+*Code ported from MAME Version*
+
+Infinite Power PL1 [Crapulecorp]
+00225E34 00000040
+*Code ported from MAME Version*
+
+Always Have Power Gauge PL1 [Crapulecorp]
+0022577D 00000000
+*Code ported from MAME Version*
+
+Never Have Power Gauge PL1 [Crapulecorp]
+0022577D 000000FF
+*Code ported from MAME Version*
+
+Select Rounds Won PL1 [Crapulecorp]
+00225687 000000XX
+*Replace XX for :
+00 : 0
+01 : 1
+02 : 2*
+*Code ported from MAME Version*
+
+Select Character PL1 [Crapulecorp]
+00225D0A 000000XX
+*replace XX for :
+00 : Haohmaru
+01 : Nakoruru
+02 : Rimururu
+03 : Hanzo Hattori
+04 : Galford
+05 : Kyoshiro Senryou
+06 : Ukyo Tachibana
+07 : Genjuro Kibagami
+08 : Kubikiri Basara
+09 : Shizumaru Hisame
+0A : Gaira Kafuin
+0B : Amakusa Shirou Tokisada
+0C : Jubei Yagyu
+0D : #Zankuro Minazuki
+0E : Charlotte
+0F : Tam Tam
+10 : Kazuki Kazama
+11 : Sogetsu Kazama*
+*Use this in-between rounds*
+*Code ported from MAME Version*
+
+Select Colour PL1 [Crapulecorp]
+00225D12 000000XX
+*Replace XX for :
+00 : Colour A
+01 : Colour B*
+*Code ported from MAME Version*
+
+Select Playing Style PL1 [Crapulecorp]
+00225D0C 000000XX
+*Replace XX for :
+00 : Slash
+01 : Bust*
+*Code ported from MAME Version*
+
+Select Character Difficulty PL1 [Crapulecorp]
+00225D0E 000000XX
+*Replace XX for :
+00 : Beginners Class
+01 : Medium Grade
+02 : Upper Grade*
+*Code ported from MAME Version*
+
+Select Control PL1 [Crapulecorp]
+00225D08 000000XX
+*Replace XX for :
+FF : Human Control
+00 : CPU Control*
+*Code ported from MAME Version*
+
+Player 2
+
+Infinite Energy PL2 [Crapulecorp]
+0022602B 000000FC
+*Code ported from MAME Version*
+
+Drain All Energy Now! PL2 [Crapulecorp]
+0022602B 00000000
+*Code ported from MAME Version*
+
+Infinite Power PL2 [Crapulecorp]
+00225871 00000040
+*Code ported from MAME Version*
+
+Always Have Power Gauge PL2 [Crapulecorp]
+0022597D 00000000
+*Code ported from MAME Version*
+
+Never Have Power Gauge PL2 [Crapulecorp]
+0022597D 000000FF
+*Code ported from MAME Version*
+
+Select Rounds Won PL2 [Crapulecorp]
+00225887 000000XX
+*Replace XX for :
+00 : 0
+01 : 1
+02 : 2*
+*Code ported from MAME Version*
+
+Select Character PL2 [Crapulecorp]
+00225548 000000XX
+*replace XX for :
+00 : Haohmaru
+01 : Nakoruru
+02 : Rimururu
+03 : Hanzo Hattori
+04 : Galford
+05 : Kyoshiro Senryou
+06 : Ukyo Tachibana
+07 : Genjuro Kibagami
+08 : Kubikiri Basara
+09 : Shizumaru Hisame
+0A : Gaira Kafuin
+0B : Amakusa Shirou Tokisada
+0C : Jubei Yagyu
+0D : #Zankuro Minazuki
+0E : Charlotte
+0F : Tam Tam
+10 : Kazuki Kazama
+11 : Sogetsu Kazama (00225558 00000011)*
+*Use this in-between rounds*
+*Code ported from MAME Version*
+
+Select Colour PL2 [Crapulecorp]
+00225550 000000XX
+*Replace XX for :
+00 : Colour A
+01 : Colour B*
+*Code ported from MAME Version*
+
+Select Playing Style PL2 [Crapulecorp]
+0022554A 000000XX
+*Replace XX for :
+00 : Slash
+01 : Bust*
+*Code ported from MAME Version*
+
+Select Character Difficulty PL2 [Crapulecorp]
+0022554C 000000XX
+*Replace XX for :
+00 : Beginners Class
+01 : Medium Grade
+02 : Upper Grade*
+*Code ported from MAME Version*
+
+Select Control PL2 [Crapulecorp]
+00225546 000000XX
+*Replace XX for :
+FF : Human Control
+00 : CPU Control*
+*Code ported from MAME Version*
+
+Button Activator
+
+Classic Controller P1 [Crapulecorp]
+281ECBC2 YYYYZZZZ
+
+Classic Controller P2 [Crapulecorp]
+281ECBEE YYYYZZZZ
+
+GameCube Controller P1 [Crapulecorp]
+281ECBB4 YYYYZZZZ
+
+GameCube Controller P2 [Crapulecorp]
+281ECBE0 YYYYZZZZ

@@ -1,0 +1,23 @@
+GZSE70
+Zoids Battle Legends 
+
+Infinite Health: Player
+04215654 0000270F
+04215658 0000270F
+
+Infinite Health: Teammate
+04219584 0000270F
+04219588 0000270F
+
+Infinite Ammo
+04019AA8 380003E7
+0401AA54 380003E7
+
+Infinite Extra Equipment Use
+02215662 000007D0
+
+Infinite Time
+022F1D16 00008CDB
+
+Infinite Battle Points
+042392AC 000F423F

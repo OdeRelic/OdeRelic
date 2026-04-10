@@ -1,0 +1,14 @@
+RTFE52
+Transformers: The Game
+
+All 100 Energon Cubes Found [Radical Hacker]
+04549D8F 00000064
+Works For Both Autobots and Decepticons
+
+All 5 Icons Found [Radical Hacker]
+04549D93 00000005
+Works For Both Autobots and Decepticons
+
+All 4 Challenges Completed [Radical Hacker]
+04549D8B 000000FF
+Works For Both Autobots and Decepticons

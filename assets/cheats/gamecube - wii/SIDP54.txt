@@ -1,0 +1,45 @@
+SIDP54
+Sid Meier's Pirates!
+
+Press + and up to gain full Crew.. [Cajon]
+28738DC0 00000018
+4A000000 90000000
+14185D32 0000270F
+E0000000 80008000
+Ported from Skiller's NTSC-Codes
+
+Loads of money [Cajon]
+4A000000 90000000
+14185D36 05F5E0FF
+E0000000 80008000
+Ported from Skiller's NTSC-Codes
+
+Food Always 32 [Cajon]
+4A000000 90000000
+14185D3A 00000020
+E0000000 80008000
+Ported from Skiller's NTSC-Codes
+
+Luxuries Always 32 [Cajon]
+4A000000 90000000
+14185D3E 00000020
+E0000000 80008000
+Ported from Skiller's NTSC-Codes
+
+Goods Always 32 [Cajon]
+4A000000 90000000
+14185D42 00000020
+E0000000 80008000
+Ported from Skiller's NTSC-Codes
+
+Spice Always 32 [Cajon]
+4A000000 90000000
+14185D46 00000020
+E0000000 80008000
+Ported from Skiller's NTSC-Codes
+
+Sugar Always 32 [Cajon]
+4A000000 90000000
+14185D4A 00000020
+E0000000 80008000
+Ported from Skiller's NTSC-Codes

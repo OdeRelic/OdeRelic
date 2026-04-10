@@ -1,0 +1,34 @@
+SMFP4Q
+Phineas and Ferb: Across the 2nd Dimension
+
+Don't Loose Health From Fall [Crapulecorp]
+041DADF8 60000000
+
+Always First Jump (Hold B And Press + ON/OFF) [Crapulecorp]
+040F9740 907E05DC
+286B6242 FBEF0410
+CC000000 00000000
+C20F9740 00000002
+38600000 907E05DC
+60000000 00000000
+E0000000 80008000
+*WiiMote-NunChuck*
+
+Unlimited Weapons [Crapulecorp]
+0419156C 60000000
+
+Unlimited Weapons (Press 1 And 2 ON/OFF) [Crapulecorp]
+0419156C D01E0264
+286B6242 FCFF0300
+CC000000 00000000
+0419156C 60000000
+E0000000 80008000
+*WiiMote-NunChuck*
+
+Unlimited Tickets [Crapulecorp]
+046F59A0 000F423F
+
+Button Activator
+
+Player 1 [Crapulecorp]
+286B6242 YYYYZZZZ

@@ -1,0 +1,11 @@
+JD3E
+Super EDF Earth Defense Force
+
+Unlimited Credits [GMO]
+00470E16 00000009
+
+Level 05 Ship/Weapons [GMO]
+00470E65 00000005
+
+Unlimited Shield [GMO]
+00470E69 00000005

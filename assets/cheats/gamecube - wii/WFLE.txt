@@ -1,0 +1,11 @@
+WFLE
+Fluidity
+
+Infinite Water drops [caitsith2]
+48000000 816680DC
+DE000000 80008180
+58010000 00000714
+DE000000 80008180
+14000154 000000C8
+E0000000 80008000
+You can still die if in liquid form. In solid/gas form, you will always maintain your full capacity of water drops. You get back your full capacity if you warp to another page, even as liquid form.

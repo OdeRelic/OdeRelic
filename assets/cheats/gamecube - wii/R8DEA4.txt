@@ -1,0 +1,532 @@
+R8DEA4
+Yu-Gi-Oh! 5D's: Duel Transer
+
+Button Activator [Bully@Wiiplaza]
+285944BA YYYYZZZZ
+
+Status Modifiers
+
+Character Modifier [Bully@Wiiplaza]
+F2A5B624 024EA002
+398000XX 99830180
+88630180 00000000
+*XX Values = 00 - 0D*
+*0D is secret "Dark Magican Girl" character*
+
+Level Modifier [Bully@Wiiplaza]
+F2A5B088 02670402
+38C0XXXX 90C3000C
+60000000 00000000
+*XXXX = HEX*
+
+EXP Modifier [Bully@Wiiplaza]
+F2A5B0D4 025B7E02
+38C0XXXX 90DC0010
+60000000 00000000
+*XXXX = HEX*
+
+99999 DP [Bully@Wiiplaza]
+F2A5B114 02A41D03
+3CC0869F 38C60001
+54C6803E 90DC0014
+60000000 00000000
+*Credits to Ghirahims_Nemesis for increasing the DP limit*
+
+Number of Cards Modifier [Bully@Wiiplaza]
+F2A5B1E4 02A41D02
+38C0XXXX 90DC0018
+60000000 00000000
+*XXXX = HEX*
+
+Wins Modifier [Bully@Wiiplaza]
+F2A5B148 02A41D02
+38C0XXXX 90DC001C
+60000000 00000000
+*XXXX = HEX*
+
+Losses Modifier [Bully@Wiiplaza]
+F2A5B17C 02A41D02
+38C0XXXX 90DC0020
+60000000 00000000
+*XXXX = HEX*
+
+Ties Modifier [Bully@Wiiplaza]
+F2A5B1B0 02A41D02
+38C0XXXX 90DC0024
+60000000 00000000
+*XXXX = HEX*
+
+Name Modifier [Bully@Wiiplaza]
+06571478 00000010
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+*XXXX = ASCII letters converted to HEX*
+http://www.alanflavell.org.uk/unicode/unidataFF.html
+http://en.wikibooks.org/wiki/Unicode/Character_reference/2000-2FFF
+*Unused XXXXs become 0000*
+
+Play Time Modifier [Bully@Wiiplaza]
+F29FD8E8 02651102
+3C00XXXX 6000XXXX
+901F01A4 00000000
+*XXXXXXXX = HEX*
+*Convert the seconds of your play time to HEX*
+*Save your profile to take effect*
+
+Free Duel Codes
+
+Unlock All Opponents [Bully@Wiiplaza]
+C202C290 00000002
+38000001 9803281A
+60000000 00000000
+
+Wins Modifier [Bully@Wiiplaza]
+C202C220 00000002
+3980XXXX B183281C
+A063281C 00000000
+*XXXX = HEX*
+
+Draws Modifier [Bully@Wiiplaza]
+C202C240 00000002
+3980XXXX B1832820
+A0632820 00000000
+*XXXX = HEX*
+
+Losses Modifier [Bully@Wiiplaza]
+C202C230 00000002
+3980XXXX B183281E
+A063281E 00000000
+*XXXX = HEX*
+
+Starting Life Points Modifier [Bully@Wiiplaza]
+F2A01BA4 FE1E0C02
+3C60XXXX 6063XXXX
+7C64012E 00000000
+*XXXXXXXX = HEX*
+
+Duel Time Control [Bully@Wiiplaza]
+285944BA YYYYZZZZ
+F29F64B4 02900101
+3800012C 60000000
+E2100000 00000000
+F29F64B4 02900101
+38000000 60000000
+E0000000 80008000
+*Must play with time limit*
+*Press your button(s) to set timer to 0:00 instantly*
+
+Store Modifiers
+
+No Need for DP [Bully@Wiiplaza]
+20A40908 41810014
+04A40908 60000000
+04A43F40 60000000
+E0000000 80008000
+
+All Recipes Bought [Bully@Wiiplaza]
+C202CFFC 00000002
+3800000B 98036048
+60000000 00000000
+*Credits: Skiller*
+
+Can Buy More Than 50 Packs [Bully@Wiiplaza]
+20A42B98 2C000032
+04A42B9C 60000000
+04A40AA0 60000000
+04A409D8 60000000
+04A40910 60000000
+E0000000 80008000
+*you can still keep buying packs, but you won´t receive more than 50 afterwards*
+
+Buy Double Amount of Selected Packs [Bully@Wiiplaza]
+040306E8 38C60002
+*Do not get more than 50 packs or it will freeze*
+
+Cant Buy Packs [Bully@Wiiplaza]
+04030700 60000000
+
+Always Buy Specific Pack [Bully@Wiiplaza]
+C20306F0 00000002
+388000XX B08503F8
+60000000 00000000
+*X Values*
+01 = Dark Beginning 1
+02 = Dark Beginning 2
+03 = Dark Revelation Volume 1
+04 = Dark Revelation Volume 2
+05 = Dark Revelation Volume 3
+06 = Dark Revelation Volume 4
+07 = Power Of The Duelist
+08 = Cyberdark Impact
+09 = Strike Of Neos
+0A = Force Of The Breaker
+0B = Tactical Evolution
+0C = Gladiators Assault
+0D = Phantom Darkness
+0E = Light Of Destruction
+0F = The Duelist Genesis
+10 = Crossroads Of Chaos
+11 = Crimson Crisis
+12 = Raging Battle
+13 = Ancient Prophecy
+14 = Stardust Overdrive
+15 = Absolute Powerforce
+16 = The Shining Darkness
+19 = Hidden Arsenal EX 1
+1E = Collection Pack 1
+24 = Special Pack 2
+2C = Starter Deck 2010
+2D = Konami Pack
+2E = Rare Card Pack
+2F = Premium Card Pack
+30 = Random Pack
+
+Story Mode Codes
+
+Infinite AP [Bully@Wiiplaza]
+209CA160 809E1390
+C29CA160 00000002
+38800063 909E1390
+60000000 00000000
+E0000000 80008000
+
+AP Roulette 0 Times Used [Bully@Wiiplaza]
+209CB1B4 807F138C
+C29CB1B4 00000002
+3860FFFF 907F138C
+60000000 00000000
+E0000000 80008000
+
+Inf. Key Cards [Bully@Wiiplaza]
+209C5790 80BF18C0
+C29C5790 00000003
+38A00009 90BF18C0
+90BF18C4 90BF18C8
+60000000 00000000
+E0000000 80008000
+
+Starting Life Points Modifier [Bully@Wiiplaza]
+20A01BA4 7C64012E
+C2A01BA4 00000002
+3C60XXXX 6063XXXX
+7C64012E 00000000
+E0000000 80008000
+*XXXX = HEX*
+
+Any Duel Codes
+
+Always Draw [Bully@Wiiplaza]
+041E5EF4 60000000
+
+Always Win [Bully@Wiiplaza]
+C21E5EEC 00000003
+2C1E0000 4082000C
+39800000 7D9DF92E
+7C1DF82E 00000000
+
+Always Lose [Bully@Wiiplaza]
+C21E5EEC 00000003
+2C1E0001 4082000C
+39800000 7D9DF92E
+7C1DF82E 00000000
+
+Always 9999 LP [Bully@Wiiplaza]
+04662688 0000270F
+
+Refill LP [Bully@Wiiplaza]
+285944BE YYYYZZZZ
+04662688 0000270F
+E0000000 80008000
+
+Instant Lose [Bully@Wiiplaza]
+285944BE YYYYZZZZ
+04662688 00000000
+E0000000 80008000
+
+Instant Win [Bully@Wiiplaza]
+285944BE YYYYZZZZ
+046631C4 00000000
+E0000000 80008000
+
+Instant Draw [Bully@Wiiplaza]
+C21E5EEC 00000004
+3D808059 A18C44BA
+2C0CZZZZ 4082000C
+38000000 7C1DF92E
+7C1DF82E 00000000
+*ZZZZ = Button Activator*
+
+Daredevil Duel [Bully@Wiiplaza]
+C21C6CB8 00000002
+38000000 7C03212E
+60000000 00000000
+*Any damage results in 0 life points*
+
+Monsters Can Attack Infinite Times [Bully@Wiiplaza]
+C21B1888 00000005
+80120044 3D8040C1
+618C0100 7C0C0000
+40820010 3D804041
+618C0100 91920044
+60000000 00000000
+
+Toggle Turns [Bully@Wiiplaza]
+285944BA FEFF0100
+0466573C 00000000
+CC000000 00000000
+0466573C 00000001
+E0000000 80008000
+041C3108 60000000
+*Press the 2 button to toggle player turns*
+*Turns won´t change automatically anymore, it´s all controlled by you*
+
+Players Have Empty Decks [Bully@Wiiplaza]
+041C2850 38000000
+*Auto Deck Death*
+
+No Deck Deaths [Bully@Wiiplaza]
+041C28BC 48000018
+*You will not lose for not being able to draw a card, a bit glitchy but does the job*
+
+Keep Playing with 0 Lifepoints [Bully@Wiiplaza]
+041E5EF4 4800001C
+
+Surrender At Any Time [Bully@Wiiplaza]
+041E8B28 48000020
+*no need to wait until 5th turn*
+
+Freeze Turns Counter [Bully@Wiiplaza]
+041C310C 60000000
+
+Turns Modifier [Bully@Wiiplaza]
+C21E5F1C 00000002
+3880XXXX 908530BC
+60000000 00000000
+*X = HEX*
+
+Duel Phase Modifier [Bully@Wiiplaza]
+285944BA YYYYZZZZ
+041E8C94 3800000X
+E2100000 00000000
+041E8C94 801F30C4
+E0000000 80008000
+*Hold your button activator to be at phase X*
+*X Values*
+0 = Draw Phase
+1 = Standby Phase
+2 = Main Phase 1
+3 = Battle Phase
+4 = Main Phase 2
+5 = End Phase
+
+Simulate Freeze [Bully@Wiiplaza]
+040901F4 60000000
+
+Allow Adding
+
+Infinite Forbidden Cards To (Main) Deck [Bully@Wiiplaza]
+225A2A04 00000000
+04A1D2EC 60000000
+E0000000 80008000
+*Video: http://www.youtube.com/watch?v=-SlqD_mvyNA
+
+Infinite Forbidden Cards To Extra Deck [Bully@Wiiplaza]
+225A2A04 00000000
+04A1D324 60000000
+E0000000 80008000
+
+Infinite Forbidden Cards To Side Deck [Bully@Wiiplaza]
+225A2A04 00000000
+04A1D35C 60000000
+E0000000 80008000
+
+Infinite Limited, Semi-Limited & Non-Limited Cards To (Main) Deck [Bully@Wiiplaza]
+225A2A04 00000000
+04A1D3AC 60000000
+E0000000 80008000
+
+Infinite Limited, Semi-Limited & Forbidden Cards To Extra Deck [Bully@Wiiplaza]
+225A2A04 00000000
+04A1D3E4 60000000
+E0000000 80008000
+
+Infinite Limited, Semi-Limited & Forbidden Cards To Side Deck [Bully@Wiiplaza]
+225A2A04 00000000
+04A1D41C 60000000
+E0000000 80008000
+
+More Than 20 Cards To Extra Deck [Bully@Wiiplaza]
+225A2A04 00000000
+04A1EDB8 60000000
+04A83A10 48000028
+04A84D54 48000028
+E0000000 80008000
+
+More Than 20 Cards To Side Deck [Bully@Wiiplaza]
+225A2A04 00000000
+04A1EDEC 60000000
+04A83A2C 4800000C
+04A84D70 4800000C
+E0000000 80008000
+
+More Than 65 Cards In (Main) Deck [Bully@Wiiplaza]
+225A2A04 00000000
+04A1ED84 60000000
+04A839F4 48000044
+04A84D38 48000044
+E0000000 80008000
+
+Allow Exiting Deck Construction With
+
+"Illegal" (Main) Deck [Bully@Wiiplaza]
+225A2A04 00000000
+04A16054 48000018
+E0000000 80008000
+
+"Illegal" Extra Deck [Bully@Wiiplaza]
+225A2A04 00000000
+04A160C8 48000018
+E0000000 80008000
+
+"Illegal" Side Deck [Bully@Wiiplaza]
+225A2A04 00000000
+04A16138 48000018
+E0000000 80008000
+
+Less Than 40 (Main) Deck Cards [Bully@Wiiplaza]
+225A2A04 00000000
+04A161D0 4800000C
+E0000000 80008000
+
+More Than 60 (Main) Deck Cards [Bully@Wiiplaza]
+225A2A04 00000000
+04A161E0 4800000C
+E0000000 80008000
+
+More Than 15 Extra / Side Deck Cards [Bully@Wiiplaza]
+225A2A04 00000000
+04A16218 48000014
+E0000000 80008000
+
+Allow Saving Deck Recipes With
+
+"Illegal" (Main) Deck [Bully@Wiiplaza]
+225A2A04 00000000
+049FE334 48000018
+E0000000 80008000
+
+"Illegal" Extra Deck [Bully@Wiiplaza]
+225A2A04 00000000
+049FE3A8 48000018
+E0000000 80008000
+
+"Illegal" Side Deck [Bully@Wiiplaza]
+225A2A04 00000000
+049FE41C 48000018
+E0000000 80008000
+
+Less Than 40 (Main) Deck Cards [Bully@Wiiplaza]
+225A2A04 00000000
+049FE4B0 4800000C
+E0000000 80008000
+
+More Than 60 (Main) Deck Cards [Bully@Wiiplaza]
+225A2A04 00000000
+049FE4C0 4800000C
+E0000000 80008000
+
+More Than 15 Extra / Side Deck Cards [Bully@Wiiplaza]
+225A2A04 00000000
+049FE4F8 480000CC
+E0000000 80008000
+
+Allow Playing "Free Duel" With
+
+"Illegal" (Main) Deck [Bully@Wiiplaza]
+225A2A04 00000000
+049C59E8 48000018
+E0000000 80008000
+
+"Illegal" Extra Deck [Bully@Wiiplaza]
+225A2A04 00000000
+049C5A5C 48000018
+E0000000 80008000
+
+"Illegal" Side Deck [Bully@Wiiplaza]
+225A2A04 00000000
+049C5AD0 48000018
+E0000000 80008000
+
+Allow Playing "Story Mode" With
+
+"Illegal" (Main) Deck [Bully@Wiiplaza]
+225A2A04 00000000
+049C5508 48000018
+E0000000 80008000
+
+"Illegal" Extra Deck [Bully@Wiiplaza]
+225A2A04 00000000
+049C557C 48000018
+E0000000 80008000
+
+"Illegal" Side Deck [Bully@Wiiplaza]
+225A2A04 00000000
+049C55F0 48000018
+E0000000 80008000
+
+Allow Playing "Nintendo WiFi Connection" With
+
+"Illegal" (Main) Deck [Bully@Wiiplaza]
+225A2A04 00000000
+049C5F08 48000018
+E0000000 80008000
+
+"Illegal" Extra Deck [Bully@Wiiplaza]
+225A2A04 00000000
+049C5F7C 48000018
+E0000000 80008000
+
+"Illegal" Side Deck [Bully@Wiiplaza]
+225A2A04 00000000
+049C5FF0 48000018
+E0000000 80008000
+
+Other Codes
+
+Deck Name Editing [Bully@Wiiplaza]
+06571588 000000YY
+00XX00XX 00XX00XX
+00XX00XX 00XX00XX
+00XX00XX 00XX00XX
+00XX00XX 00XX00XX
+00XX00XX 00XX00XX
+*YY = Number of XX´s in Hex*
+*XX = ASCII*
+*Credits to Skiller*
+
+Have All Cards x9 [Bully@Wiiplaza]
+C202C57C 00000002
+39800009 99830339
+88630339 00000000
+*Credits to Skiller*
+
+Have All Cards .. [Skiller]
+005715F3 00000009
+085715F4 00090009
+28D40004 00000000
+00573949 00000009
+
+Have No Cards [Skiller]
+005715F3 00000000
+085715F4 00000000
+28D40004 00000000
+00573949 00000000
+
+DecK Name (s Master Deck) [Skiller]
+06571588 00000027
+0053006B 0069006C
+006C0065 00720073
+0020004D 00610073
+00740065 00720020
+00440065 0063006B
+Note U can Easly Change this its Unicode this is just to show u can Do more then the standerd 10 digits it alows u ..

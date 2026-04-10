@@ -1,0 +1,93 @@
+S75P69
+Monopoly Streets
+
+Würfel 1 auf Zahl 1 [sniper82]
+28528F18 00000400
+CC000000 00000000
+0054C523 00000001
+E0000000 80008000
+
+Würfel 2 auf Zahl 1 [sniper82]
+28528F18 00000400
+CC000000 00000000
+0054C6B3 00000001
+E0000000 80008000
+
+Zusatzwürfel auf Zahl 1 [sniper82]
+28528F18 00000400
+CC000000 00000000
+0054C843 00000001
+E0000000 80008000
+
+Button Activator [Bully@Wiiplaza]
+28528F18 YYYYZZZZ
+
+Edit Money [Bully@Wiiplaza]
+28528F18 YYYYZZZZ
+C2019FB0 00000004
+2C1E000X 40820010
+3D80WWWW 618CWWWW
+918309C8 806309C8
+60000000 00000000
+E2100000 00000000
+04019FB0 806309C8
+E0000000 80008000
+
+Force Pips [Bully@Wiiplaza]
+28528F18 YYYYZZZZ
+C20F50B0 00000003
+2C1A000X 4082000C
+38A0000P 3880000P
+90A30008 00000000
+E2100000 00000000
+040F50B0 90A30008
+E0000000 80008000
+
+Force Pips (P2, P3 & P4) [Bully@Wiiplaza]
+C20F50B0 00000003
+2C1A0000 4182000C
+38A0000P 3880000P
+90A30008 00000000
+
+Instant Jail for Doubles (P2, P3 & P4) [Bully@Wiiplaza]
+C21889A0 00000003
+2C1B0000 41820008
+38000003 900309C4
+60000000 00000000
+
+Bankruptcy (P2, P3 & P4) [Bully@Wiiplaza]
+C2187C74 00000003
+2C1F0000 41820008
+38800000 908309C8
+60000000 00000000
+
+Profile Money Modifier [Bully@Wiiplaza]
+C20C96F0 00000002
+3C00WWWW 6000WWWW
+9003444C 00000000
+
+Comment Area
+
+*P = Thrown pips*
+*WWWW = Any amount converted to HEX*
+*YYYY = FFFF - ZZZZ*
+*ZZZZ = Button to press*
+*X Player Values*
+0 = P1
+1 = P2
+2 = P3
+3 = P4
+
+Würfelzahl Wahlen
+wenn Code auf AN gestellt ist
+bekommen auch andere
+Spieler und der CPU nur 1-1-1
+mit B Button AN/Aus
+Wert --- Würfelzahl
+X=1 --- 1
+X=2 --- 2
+X=3 --- 3
+X=4 --- Mister Monopoly
+X=6 --- Bus
+ich danke den codern dcx2,Bully@Wiiplaza und goemon_guy für ihre hilfe
+I thank the codern for your help dcx2,Bully@Wiiplaza und goemon_guy

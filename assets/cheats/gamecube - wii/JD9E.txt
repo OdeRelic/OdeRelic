@@ -1,0 +1,23 @@
+JD9E
+Super Bonk
+
+Button Activator WiiMote Pad1 [GMO]
+2818D8A2 XXXXXXXX
+
+Button Activator Classic Pad1 [GMO]
+2818D902 XXXXXXXX
+
+Unlimited Hearts (Health) [GMO]
+00461044 0000000F
+
+Max Hearts (Health) [GMO]
+00461045 0000000F
+
+Unlimited Lives [GMO]
+00461046 00000063
+
+Unlimited Smileys [GMO]
+0046104A 000000FF
+
+Invincible [GMO]
+0046105E 00000060

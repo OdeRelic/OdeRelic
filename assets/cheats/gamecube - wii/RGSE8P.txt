@@ -1,0 +1,258 @@
+RGSE8P
+GHOST SQUAD
+
+Infinite Timers
+
+infinite mission select time [dcx2]
+04036958 60000000
+
+infinite decision time [dcx2]
+04038D74 60000000
+
+infinite sniper time [dcx2]
+040E849C 7C601B78
+
+infinite time to pick up items [dcx2]
+0411F2B4 7C601B78
+
+infinite bomb sub-mission time [dcx2]
+04107D50 60000000
+
+Infinite Basement Time [dcx2]
+041042B0 7C601B78
+
+infinite mission 1 restaurant cover time [dcx2]
+040F9C90 7C601B78
+
+Infinite Mission 1 Boss time [dcx2]
+040F374C 38000002
+
+infinite stealth time [dcx2]
+040FE218 7C601B78
+
+infinite circuit breaker timer [dcx2]
+041033FC 7C802378
+
+Another mission 2 decision timer [dcx2]
+04106338 7C802378
+
+infinite mission 2 boss time [dcx2]
+041021DC 7C601B78
+(CAC80 rifle can't penetrate the cockpit so you have to shoot him before he gets in)
+
+Infinite Mine Time v1.1 [dcx2]
+0410CF84 38000064
+
+infinite mission 3 ruins cover time [dcx2]
+040FA240 7C601B78
+040FA410 7C601B78
+
+infinite mission 3 boss time [dcx2]
+040EC244 7C601B78
+
+Items
+
+all guns have dot sight [dcx2]
+0408912C 60000000
+
+always have compensator [dcx2]
+04088394 3860002D
+04088398 4800000C
+
+compensator lasts forever [dcx2]
+04120404 60000000
+
+Super Item Launcher [dcx2]
+C211F268 0000001F
+2C1D0000 408200EC
+3FE0804D 63FFCFD8
+A81F0002 2C004001
+4082000C 38000017
+480000A0 2C004002
+4082000C 38000015
+48000090 2C004004
+4082000C 3800000F
+48000080 2C004008
+4082000C 38000009
+48000070 2C004010
+4082000C 38000021
+48000060 2C004100
+4082000C 3800001E
+48000050 2C004200
+4082000C 38000004
+48000040 2C004400
+4082000C 38000020
+48000030 2C004800
+4082000C 3800001F
+48000020 2C005000
+4082000C 38000022
+48000010 2C006000
+40820038 3800002A
+3FE0C000 93E40000
+90040004 1FE00028
+3FC0803C 381EF370
+7C00FA14 90040008
+38000000 90040010
+380001C2 90040014
+7C9F2378 00000000
+This code requires the nunchuk. Here's how it works. While holding C, pressing any other button will give you an item. This allows us to load up to 11 items at any time. Since the previous two codes make most items obsolete, why would we want 11 item shortcuts? The reason is because the game uses item shortcuts to switch guns during events! We can use this code to switch to any gun at any time, even during events, cut scenes, or boss fights.
+.
+There's more. There's a secret grenade launcher that you can't normally get, the GGL50. There are also "items" that cause the Action button to throw grenades of various types. I think the grenades were supposed to be an option that was cut out of the game before release, because it seems their collision detection with the floor is poor, so you have to spam grenades sometimes to get them to work. Some grenade explosions are small, others are quite large, and one's even a smoke grenade, but it sucks 'cos it doesn't impair the enemy vision.
+.
+Here's the list of items as given in the code. Remember that you have to press C + the button listed
+.
+Left - SG112 for shotgun - 0x17
+Right - SPR11 for sniper rifle - 0x15
+Down - M45R for pistol - 0x0F
+Up - XMW21 for machine gun - 0x09
++ - Action button will throw flash grenade - 0x21
+2 - lame (but secret!) GGL50 - 0x1E
+1 - CPG7 for backup machine gun (better penetration, faster reloads) - 0x04
+B - Action button will throw poison gas grenade - 0x20
+A - Action button will throw smoke grenade - 0x1F
+- - Action button will throw huge grenade - 0x22
+Z - for user's to replace (0x2A = GS upgrade)
+.
+Here is the nearly-complete list of items.
+.
+&gt;=0x32 = death
+0x31 = M209 (again?)
+0x30 = Armor 2
+0x2F = Armor 1
+0x2E = High cap mag
+0x2D = compensator
+0x2C = blank??
+0x2B = Dot sight
+0x2A = Grenade GS upgrade
+0x29 = Full Auto GS upgrade
+0x28 = 3 shot burst GS upgrade
+0x27 = 2 shot burst GS upgrade
+0x26 = blank??
+0x25 = medal
+0x24 = first aid
+0x23 = action button throws explosive grenade
+0x22 = action button throws huge grenade with action
+0x21 = action button throws flash grenade with action
+0x20 = action button throws poison gas grenade
+0x1F = action button throws smoke grenade (annoying)
+0x1E = GGL50 grenade launcher (actually sucks)
+0x1D = action button throws regular grenade
+0x1C = SAW24
+0x1B = CAC80 (single shot)
+0x1A = CAC80 (single shot)
+0x19 = SAN92
+0x18 = ABG1
+0x17 = SG112
+0x16 = M4E
+0x15 = SPR11
+0x14 = SR308
+0x13 = SPR3
+0x12 = CAC82
+0x11 = Guardian 1
+0x10 = Guardian 2
+0x0F = M45R
+0x0E = P44M
+0x0D = P4512
+0x0C = PM6
+0x0B = TM9V
+0x0A = M209
+0x09 = XMW21
+0x08 = SAW24
+0x07 = G50
+0x06 = TR14
+0x05 = AR4A
+0x04 = CPG7
+0x03 = TK1B
+0x02 = MP10
+0x01 = M94R
+0x00 = XM-2119
+.
+If you want to change any of the items, look at the code for the multiple 380000xx's and replace the xx with the byte for the item you want. I tried to choose default items with the best stats. In fact, the SPR11 has better penetration than mission 2 boss fight's CAC80 - you actually *can* shoot him while he's in the airplane cockpit if you switch guns with this code.
+
+General
+
+Unlock all 16 mission levels [dcx2]
+C203820C 00000002
+3800000F 901E0070
+801E0070 00000000
+(380000xx controls the number of levels open. 0F makes it 16, 10 would make it 17, 11 would make it 18. The game doesn't appear to crash on higher levels, it just makes timers even shorter, enemies harder, and so on. Not sure how big it can get before crashing...)
+
+Always quick shot [dcx2]
+040BC23C 7C601B78
+
+Hover to detain hostages [dcx2]
+040BCDDC 48000008
+
+Single click clear mine [dcx2]
+0410B85C 60000000
+
+Infinite clip [dcx2]
+04087848 60000000
+(don't have to reload, works with side-quest weapons like sniper rifle/rocket launcher, doesn't work with fully auto)
+
+Infinite fully auto [dcx2]
+040889E0 60000000
+
+Take no damage from enemy fire [dcx2]
+04033E20 60000000
+(based off of g6flavor's infinite health code)
+
+Take no damage from friendly fire [dcx2]
+04034178 60000000
+(previous code doesn't stop hostage damage)
+
+freeze mission 2 stealth meter [dcx2]
+040FE1F0 38000003
+040FE328 7C601B78
+040FE370 7C601B78
+040FE304 7C802378
+
+You can't shoot hostages or other allies [dcx2]
+C20BCAD8 00000007
+881F000B 2C00000C
+41820020 2C000004
+41820018 2C000040
+41820010 2C000050
+41820008 48000008
+38A00000 2C050000
+60000000 00000000
+(enemies can still shoot your allies, use the next code to stop that)
+
+enemies always miss [dcx2]
+040C1050 38800000
+040C1004 3BA00000
+
+always head shot [dcx2]
+040BFC58 3880000C
+(doesn't work on bosses)
+
+always head shot mission 2 boss [dcx2]
+041026B4 38A00001
+
+instakill switch on button 1 (need always head shot) [dcx2]
+040BCAC4 7C651B78
+284DCFDA 00000200
+CC000000 00000000
+040BCAC4 38A00001
+E0000000 80008000
+Starts off instantly killing all enemies on screen. Press 1 to turn it on and off. Requires "always head shot" to work. Requires "you can't shoot hostages or other allies" or they die too.
+
+infinite flashlight battery [dcx2]
+041010EC 60000000
+
+Slow down hand-to-hand combat events [dcx2]
+0410098C 60000000
+04100990 7C601B78
+
+c and action buttons decrement mission select level [dcx2]
+C2036880 00000003
+3C60804D 6063CFD8
+80630000 70634000
+2C030000 00000000
+action button by itself still increments mission select level
+
+999,999 Exp (enough for Lv99, all Weapons and Customs) [g6flavor]
+04540D04 000F423F
+
+Infinite Life (ported from ZiT's jap code) [g6flavor]
+00033E23 000000B0

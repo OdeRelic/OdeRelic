@@ -1,0 +1,69 @@
+FBEP
+Ice Climber
+
+Unlimited Lives [Crapulecorp]
+003AD200 00000003
+
+Add Time in Bonus Stage (Press L) [Crapulecorp]
+281DDAF2 DFFF2000
+003AD9DA 00000099
+E0000000 80008000
+*Classic Controller*
+*Code ported from GMO Ntsc Usa Version*
+
+Add Time in Bonus Stage (Press Z) [Crapulecorp]
+282DFBEE FFEF0010
+003AD9DA 00000099
+E0000000 80008000
+*GameCube Controller*
+*Code ported from GMO Ntsc Usa Version*
+
+MoonJump
+
+MoonJump (Press A) [Crapulecorp]
+281DDAF2 FFEF0010
+003AD2C6 00000000
+E0000000 80008000
+*Classic Controller*
+*Code ported from ZiT Ntsc Jap Version*
+
+MoonJump (Press A) [Crapulecorp]
+282DFBEE FEFF0100
+003AD2C6 00000000
+E0000000 80008000
+*GameCube Controller*
+*Code ported from ZiT Ntsc Jap Version*
+
+Speed Up
+
+Speed Up (Press Up/Down) [Crapulecorp]
+82000000 803AD244
+281DDAF2 BFFF4000
+86000000 00000004
+E0000000 80008000
+281DDAF2 FFFE0001
+86000000 FFFFFFFC
+E0000000 80008000
+84000000 803AD244
+*Classic Controller*
+*Code ported from ZiT Ntsc Jap Version*
+
+Speed Up (Press Up/Down) [Crapulecorp]
+82000000 803AD244
+282DFBEE FFFB0004
+86000000 00000004
+E0000000 80008000
+282DFBEE FFF70008
+86000000 FFFFFFFC
+E0000000 80008000
+84000000 803AD244
+*GameCube Controller*
+*Code ported from ZiT Ntsc Jap Version*
+
+Button Activator
+
+Classic Controller [Crapulecorp]
+281DDAF2 YYYYZZZZ
+
+GameCube Controller [Crapulecorp]
+282DFBEE YYYYZZZZ

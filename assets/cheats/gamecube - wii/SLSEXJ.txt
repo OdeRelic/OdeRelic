@@ -1,0 +1,140 @@
+SLSEXJ
+The Last Story
+
+God Mode/ Infinite Health (TOGGLE) [Seth@WiiPlaza]
+20828318 00000C00
+C0000000 00000008
+3D808039 618C8328
+3D602C00 616B0000
+916C0000 3D808039
+618C8638 3D602C00
+616B0000 916C0000
+3D808039 618C9530
+3D602C00 616B0000
+916C0000 4E800020
+E0000000 80000000
+20828318 00004000
+C0000000 00000008
+3D808039 618C8328
+3D602C00 616B0001
+916C0000 3D808039
+618C8638 3D602C00
+616B0001 916C0000
+3D808039 618C9530
+3D602C00 616B0001
+916C0000 4E800020
+E0000000 80000000
+*demo video - http://youtu.be/AMJoO-uHras
+*press A and B on the wiimote to activate
+*then press C to deativate if there is a glitch or somthing
+*only tested offline
+
+Enable Targeting System [Seth@WiiPlaza]
+201EDBC4 C03E0004 [Seth@WiiPlaza]
+025B4282 00000001
+E0000000 80000000
+*demo video - http://youtu.be/AMJoO-uHras
+*plus adds a debug menu
+*http://prntscr.com/fon7w
+*http://prntscr.com/foq4j
+
+Upon Kill Max XP + Max Level Up [Seth@WiiPlaza]
+201EDBC4 C03E0004
+048869D4 42900000
+04886A24 42900000
+04886A44 42900000
+04886A9C 42900000
+04886AE8 42900000
+04886B40 42900000
+04886B70 42900000
+04886B78 42900000
+E0000000 80000000
+*demo video - http://youtu.be/AMJoO-uHras
+*levels all players up to max whenever they get a kill
+*demo pic http://prntscr.com/ezke3
+*working online
+
+X-RAY Vision + WallHack [Seth@WiiPlaza]
+20828318 00000010
+0249C4BF 00000141
+0249C483 00000141 [Seth@WiiPlaza]
+0249AB47 00000141
+0249ABC3 00000141
+E0000000 80000000
+20828318 00001000
+0249C4BF 00000041
+0249C483 00000041 [Seth@WiiPlaza]
+0249AB47 00000041
+0249ABC3 00000041
+E0000000 80000000
+*demo video - http://youtu.be/AMJoO-uHras
+*made for offline but works online (im guessing)
+*press + to turn on and - to turn off
+
+Invisiblity (Toggle) [Seth@WiiPlaza]
+20828318 00000010
+0476F48C 00000000
+CC000000 00000000
+C0000000 00000004
+3D808073 618C2B08
+818C0000 3D608076
+616BF48C 918B0000
+4E800020 00000000
+E0000000 80000000
+*demo video - http://youtu.be/AMJoO-uHras
+*working online
+*press + on the wiimote to toggle on/off
+
+Infinite "Wizard Slayer" Ammo - Crossbow [Seth@WiiPlaza]
+201EDBC4 C03E0004
+0512B8D4 000000FF
+E0000000 80000000
+*demo video - http://youtu.be/AMJoO-uHras
+*working online
+
+Epic Graphic Modifier [Seth@WiiPlaza]
+20828318 00000100 [Seth@WiiPlaza]
+04880C4C FFFFFFFF [Seth@WiiPlaza]
+CC000000 00000000
+C0000000 00000004
+3D808073 618C2B08
+818C0000 3D608088
+616B0C4C 918B0000
+4E800020 00000000
+E0000000 80000000
+*demo video - http://youtu.be/AMJoO-uHras
+*press 2 on the wiimote to toggle on/off
+*demo pictures-
+http://prntscr.com/ezgfs
+http://prntscr.com/ezgia
+http://prntscr.com/ezgkf
+*working online
+
+Weapon Size Modifier [Seth@WiiPlaza]
+0488085C XXXXXXXX
+*demo video - http://youtu.be/AMJoO-uHras
+*40000000= large weapons
+*working online
+
+Auto Activator [Seth@WiiPlaza]
+201EDBC4 C03E0004
+
+Button Activator [Seth@WiiPlaza]
+20828318 0000XXXX
+
+Display Gamestate ISO Data [Seth@WiiPlaza]
+C239BC8C 00000001
+2C000001 00000000 [Seth@WiiPlaza]
+C239BCB8 00000001
+2C000001 00000000 [Seth@WiiPlaza]
+60000000 00000000
+
+Enable Targeting System
+
+Miscellaneous Codes
+
+Max Gold [GMO]
+C244D6B4 00000002
+3CA00098 60A5967F
+90A36000 00000000
+Buy Items from Merchant

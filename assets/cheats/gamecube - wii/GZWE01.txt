@@ -1,0 +1,25 @@
+GZWE01
+Wario Ware, Inc.
+
+All Multi-player Games Unlocked [Codejunkies]
+04262B60 FFFFFFFF
+
+Profile 1 (Boy) - All Games/Movies/Etc [Codejunkies]
+04260324 2FFFFFFF
+
+Profile 1 (Girl) - All Games/Movies/Etc [Codejunkies]
+04260324 FFFFFFFF
+
+Profile 1 - Album Beaten [Codejunkies]
+02260328 00DA03E7
+022604D6 000A03E7
+
+Profile 2 (Boy )- All Games/Movies/Etc [Codejunkies]
+042605A8 2FFFFFFF
+
+Profile 2 (Girl) - All Games/Movies/Etc [Codejunkies]
+042605A8 FFFFFFFF
+
+Profile 2 - Album Beaten [Codejunkies]
+022605AC 00DA03E7
+0226075A 000A03E7

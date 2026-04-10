@@ -1,0 +1,118 @@
+JA4P
+Super Ghouls and Ghosts
+
+Time Stop [Crapulecorp]
+008B1D32 00000001
+*Code ported from ZiT Ntsc Jap Version*
+
+Unlimited Lives [Crapulecorp]
+008B1D2C 0000000A
+
+Invincible [Crapulecorp]
+008B1CFE 00000002
+*Code ported from ZiT Ntsc Jap Version*
+
+Invincibility With Gold Armor [Crapulecorp]
+008B1CFE 00000002
+008B2F42 00000004
+*Code ported from Thomas83Lin Ntsc Usa Version*
+
+Have Special Powers [Crapulecorp]
+008B2F3A 00000001
+*Code ported from Thomas83Lin Ntsc Usa Version*
+
+Multi Jump [Crapulecorp]
+008B2F44 00000000
+*Code ported from Thomas83Lin Ntsc Usa Version*
+
+Quick Special Weapon Charge (Hold Y) [Crapulecorp]
+281B23BA FFEF0010
+008B2F3D 00000001
+E0000000 80008000
+*Classic Controller*
+*Code ported from Thomas83Lin Ntsc Usa Version*
+
+Quick Special Weapon Charge (Hold Y) [Crapulecorp]
+28180168 F7FF0800
+008B2F3D 00000001
+E0000000 80008000
+*GameCube Controller*
+*Code ported from Thomas83Lin Ntsc Usa Version*
+
+Weapon Modifier [Crapulecorp]
+008B2F5B 0000000X
+*Replace X to:
+0 Lance Regular
+1 Lance Enchanted
+2 Dagger Regular
+3 Dagger Enchanted
+4 Crossbow Regular
+5 Crossbow Enchanted
+6 Blade Regular
+7 Blade Enchanted
+8 Torch Regular
+9 Torch Enchanted
+A Axe Regular
+B Axe Enchanted
+C ? ? ? ?
+D Shuriken
+E Final Weapon*
+*Code ported from Thomas83Lin Ntsc Usa Version*
+
+Weapon Selector (Press L or R) [Crapulecorp]
+4E00000C 00000000
+281B23BA FDFF0200
+CC000000 00000001
+14000000 00000003
+82000000 808B2F5B
+86000000 00000001
+84000000 808B2F5B
+288B2F5B FFF0000F
+008B2F5B 00000000
+E0000000 80008000
+4E00000C 00000000
+281B23BA DFFF2000
+CC000000 00000001
+14000000 00000003
+82000000 808B2F5B
+86000000 000000FF
+84000000 808B2F5B
+E0000000 80008000
+288B2F5B FF0000FF
+008B2F5B 0000000E
+E0000000 80008000
+*Classic Controller*
+*Code ported from Thomas83Lin Ntsc Usa Version*
+
+Weapon Selector (Press L or R) [Crapulecorp]
+4E00000C 00000000
+28180168 FFBF0040
+CC000000 00000001
+14000000 00000003
+82000000 808B2F5B
+86000000 00000001
+84000000 808B2F5B
+288B2F5B FFF0000F
+008B2F5B 00000000
+E0000000 80008000
+4E00000C 00000000
+28180168 FFDF0020
+CC000000 00000001
+14000000 00000003
+82000000 808B2F5B
+86000000 000000FF
+84000000 808B2F5B
+E0000000 80008000
+288B2F5B FF0000FF
+008B2F5B 0000000E
+E0000000 80008000
+*GameCube Controller*
+*Code ported from Thomas83Lin Ntsc Usa Version*
+
+Button Activator
+
+Classic Controller [Crapulecorp]
+281B23BA YYYYZZZZ
+
+GameCube Controller [Crapulecorp]
+28180168 YYYYZZZZ

@@ -1,0 +1,8 @@
+FCUP
+Volleyball
+
+Score 9 points Player 1 [Crapulecorp]
+00416583 00000009
+
+Score 0 Points Player 2/CPU [Crapulecorp]
+00416582 00000000

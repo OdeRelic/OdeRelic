@@ -1,0 +1,13 @@
+FDOP
+Operation Wolf
+
+Unlimited Health [Crapulecorp]
+00390931 00000000
+
+Unlimited Ammo [Crapulecorp]
+04390950 09090909
+*Code ported from Thomas83Lin Ntsc Usa Version*
+
+Always Have Rapid Fire Item [Crapulecorp]
+04390954 00011109
+*Code ported from Sharkbyte Ntsc Usa Version*

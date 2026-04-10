@@ -1,0 +1,223 @@
+SLHEWR
+Lego Harry Potter Years 5-7
+
+Button Activator [BoxNinja]
+20912A90 0000XXXX
+
+Nunchuck Activator [BoxNinja]
+208D54D4 XXXXXXXX
+*This has a little delay
+Values:
+Up: 00290000
+Down: 7FD60000
+Right: 40290000
+Left: BFD70000
+Up and Right: 20000000
+Down and Right: 61E90000
+Up and Left: DD010000
+Down and Left: 9EDD0000
+
+Coin Multiplier [BoxNinja]
+C24E37D0 00000002
+3B60FFFF 937C0004
+60000000 00000000
+*Every Coin is worth 10 Billion
+
+Total Coins [BoxNinja]
+04E24474 XXXXXXXX
+*Just replace X values.
+
+Player 1 In-Level Coins [BoxNinja]
+0493220C 3B9AC9FF
+
+Player 2 In-Level Coins [BoxNinja]
+04932224 3B9AC9FF
+
+Player 1 Money Cycler [BoxNinja]
+A8000008 00000010
+80000000 8093220C
+86010000 069F6BC7
+2493220C 3B9AC9FF
+0493220C 00000000
+E2000001 00000000
+
+Player 2 Money Cycler [BoxNinja]
+A8000008 00000010
+80000000 80932224
+86010000 069F6BC7
+24932224 3B9AC9FF
+04932224 00000000
+E2000001 00000000
+
+Blinking Christmas Hats [BoxNinja]
+A8000008 00000010
+80000000 808546B0
+86010000 00000001
+248546B0 00630001
+048546B0 00630000
+E2000001 00000000
+
+In-Game Extras Always On (No Purchase Necessary)
+
+Comedy Specs Always On [BoxNinja]
+048544D0 FFFF0001
+
+Disguise Always On [BoxNinja]
+04854500 FFFF0001
+
+Carrot Wands Always On [BoxNinja]
+04854518 FFFF0001
+
+Super Strength Always On [BoxNinja]
+04854530 01220001
+
+Character Token Detector Always On [BoxNinja]
+04854548 012C0001
+
+Fall Rescue Always On [BoxNinja]
+04854560 00CC0001
+
+Character Studs Always On [BoxNinja]
+04854578 01240001
+
+Score x2 Always On [BoxNinja]
+04854590 00B10001
+
+Score x4 Always On [BoxNinja]
+048545A8 01150001
+
+Score x6 Always On [BoxNinja]
+048545C0 00B10001
+
+Score x8 Always On [BoxNinja]
+048545D8 011A0001
+
+Score x10 Always On [BoxNinja]
+048545F0 00170001
+
+Advanced Guide Always On [BoxNinja]
+048544E8 FFFF0001
+
+Stud Magnet Always On [BoxNinja]
+04854608 01200001
+
+Regenerate Hearts Always On [BoxNinja]
+04854620 01270001
+
+Extra Hearts Always On [BoxNinja]
+04854638 012D0001
+
+Invincibility Always On [BoxNinja]
+04854650 012E0001
+
+Red Brick Detector Always On [BoxNinja]
+04854668 01180001
+
+Hogwarts Crest Detector Always On [BoxNinja]
+04854680 01250001
+
+Gold Brick Detector Always On [BoxNinja]
+04854698 01140001
+
+Christmas Always On [BoxNinja]
+048546B0 00630001
+
+Collect Ghost Studs Always On [BoxNinja]
+048546C8 011D0001
+
+Fast Magic Always On [BoxNinja]
+048546E0 007C0001
+
+Fast Dig Always On [BoxNinja]
+048546F8 01280001
+
+In-Game Extras Available To Buy
+
+Super Strength Available To Buy [BoxNinja]
+04854530 11220000
+
+Character Token Detector Available To Buy [BoxNinja]
+04854548 112C0000
+
+Fall Rescue Available To Buy [BoxNinja]
+04854560 01CC0000
+
+Character Studs Available To Buy [BoxNinja]
+04854578 11240000
+
+Score x2 Available To Buy [BoxNinja]
+04854590 01B10000
+
+Score x4 Available To Buy [BoxNinja]
+048545A8 11150000
+
+Score x6 Available To Buy [BoxNinja]
+048545C0 01B10000
+
+Score x8 Available To Buy [BoxNinja]
+048545D8 111A0000
+
+Score x10 Available To Buy [BoxNinja]
+048545F0 01170000
+
+Advanced Guide Available To Buy [BoxNinja]
+048544E8 FFFF0001
+
+Stud Magnet Available To Buy [BoxNinja]
+04854608 11200000
+
+Regenerate Hearts Available To Buy [BoxNinja]
+04854620 11270000
+
+Extra Hearts Available To Buy [BoxNinja]
+04854638 112D0000
+
+Invincibility Available To Buy [BoxNinja]
+04854650 112E0000
+
+Red Brick Detector Available To Buy [BoxNinja]
+04854668 11180000
+
+Hogwarts Crest Detector Available To Buy [BoxNinja]
+04854680 11250000
+
+Gold Brick Detector Available To Buy [BoxNinja]
+14854698 01140000
+
+Christmas Available To Buy [BoxNinja]
+048546B0 01630000
+
+Collect Ghost Studs Available To Buy [BoxNinja]
+048546C8 111D0000
+
+Fast Magic Available To Buy [BoxNinja]
+048546E0 017C0000
+
+Fast Dig Available To Buy [BoxNinja]
+048546F8 11280000
+
+Universal Codes for LEGO Harry Potter Years 5-7
+
+Unlock All Characters [Thomas83Lin]
+F6000001 80008100
+7C64F214 88030074
+1400000C 60000000
+E0000000 80008000
+*Temporary*
+
+Unlock All Characters [Thomas83Lin]
+F6000001 80008100
+7C64F214 88030074
+14000008 38000001
+1400000C 98030074
+E0000000 80008000
+*Permanent if saved*
+
+All 4 Hogwart Crests during a Level [Thomas83Lin]
+F6000001 80008100
+8817004C 5400EF3E
+D2000000 00000002
+380000FF 9817004C
+60000000 00000000
+E0000000 80008000
+*Pause during level to Enable*

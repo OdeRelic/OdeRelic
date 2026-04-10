@@ -1,0 +1,16 @@
+MCVE
+Pitfall The Mayan Adventure
+
+Infinite Lives [ZiT]
+0144C865 0000000A
+
+Infinite Health [ZiT]
+0144BE5A 00000000
+
+Invincible [ZiT]
+0144C86D 00000022
+
+Moon Jump [ZiT]
+281A7122 FDFF0200
+0344BEEA 0000FFFB
+E0000000 80008000

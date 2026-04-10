@@ -1,0 +1,204 @@
+JADE
+The Legend of Zelda: A Link To The Past
+
+Button Activator [Clay10]
+281B1080 MMMMXXXX
+
+Walk On Water [Anarion]
+286E6E3A 00002000
+008B0485 00000000
+E0000000 80008000
+Classic Controller: Hold Left
+
+Invincibility [Anarion]
+008B07A3 00000001
+
+Cane of Bryna [Anarion]
+286E6E3A 00000004
+028B1076 00003100
+008B07A3 00000001
+E0000000 80008000
+CC: Press Zright to use. You need the actual cane for the enemy attacking effect.
+
+Cane of Somaria [Anarion]
+286E6E3A 00000080
+028B1074 00002C00
+E0000000 80008000
+CC: Press Zleft. You can only create blocks. You need the actual cane to break the block.
+
+Instant Spin Attack [Anarion]
+286E6E3A 000000C0
+008B0485 00000003
+008B0464 00000090
+E0000000 80008000
+Classic Controller: Press Zleft&B to use.
+
+Instant Spell Attacks [Anarion]
+286E6E3A 00000082
+008B0485 00000008
+E0000000 80008000
+286E6E3A 00000081
+008B0485 00000009
+E0000000 80008000
+286E6E3A 00008080
+008B0485 0000000A
+E0000000 80008000
+Classic Controller-Press:
+Dpad LEFT & Zleft - Aether Spell
+Dpad UP & Zleft - Bombos Spell
+Dpad RIGHT & Zleft - Quake Spell
+Work without having any magic power!
+
+Teleporter [Anarion]
+286E6E3A 00002000
+82200000 808B0448
+82200001 808B0508
+E0000000 80008000
+286E6E3A 00000200
+84200000 808B0448
+84200001 808B0508
+E0000000 80008000
+Classic Controller: Press L to save Link's current position. Press R to return Link to saved position.
+
+Sleeping Link [Anarion]
+286E6E3A 00000200
+008B0485 00000016
+E0000000 80008000
+Classic Controller: Press R
+This sometimes also works as a moon jump. Use with caution. Link is levitated going right and may be placed out of bounds. Once out of bounds, you can't get back in.
+
+Instant Invisibility [Anarion]
+286E6E3A 00002080
+008B047D 00000001
+CC000000 00000000
+008B047D 00000000
+E0000000 80008000
+Press Zleft&L to turn on&off.
+
+Dark Rooms Always Lit [Anarion]
+286E6E3A 00002000
+008B0445 00000000
+048B04C4 20408000
+E0000000 80008000
+ClassicController: Hold L
+
+Max Rubies [GMO]
+028BF788 0000E703
+
+Invincible [GMO]
+008B0747 00000034
+
+1-Hit Kill (Enemies+Bosses) [GMO]
+048B1278 00000000
+
+Unlimited Health [GMO]
+008BF794 000000A0
+008BF795 000000A0
+
+Unlimited Magic Meter [GMO]
+008BF796 00000080
+
+Unlimited Small Keys [GMO]
+008BF797 00000009
+
+Have Big Key [GMO]
+008BF78F 00000040
+
+Have Dungeon Map [GMO]
+008BF791 00000040
+
+Have All 3 Pendants [GMO]
+008BF79C 00000007
+
+Unlimited Arrows [GMO]
+008BF79F 00000063
+
+Have All Items & Weapons [GMO]
+048BF768 04020132
+048BF76C 02010101
+048BF770 01010101
+048BF774 03010102
+048BF778 01010102
+008BF781 00000004
+028BF782 00000302
+048BF784 06060605
+
+Have Individual Items and Weapons
+
+Have Bow and Silver Arrows [GMO]
+008BF768 00000004
+
+Have Boomerang [GMO]
+008BF769 00000002
+
+Have Hookshot [GMO]
+008BF76A 00000001
+
+Have Bombs [GMO]
+008BF76B 00000032
+
+Have Magic Powder [GMO]
+008BF76C 00000002
+
+Have FireRod [GMO]
+008BF76D 00000001
+
+Have IceRod [GMO]
+008BF76E 00000001
+
+Have Bombos [GMO]
+008BF76F 00000001
+
+Have Ether [GMO]
+008BF770 00000001
+
+Have Quake [GMO]
+008BF771 00000001
+
+Have Lamp [GMO]
+008BF772 00000001
+
+Have Magic Hammer [GMO]
+008BF773 00000001
+
+Have Flute [GMO]
+008BF774 00000003
+
+Have Bug-Catching Net [GMO]
+008BF775 00000001
+
+Have Book of Mudora [GMO]
+008BF776 00000001
+
+Have Cane of Somaria [GMO]
+008BF778 00000001
+
+Have Cane of Byrna [GMO]
+008BF779 00000001
+
+Have Magic Cape [GMO]
+008BF77A 00000001
+
+Have Magic Mirror [GMO]
+008BF77B 00000002
+
+Have Magic Sword Lvl.4 [GMO]
+008BF781 00000004
+
+Have Magic Shield Lvl.3 [GMO]
+008BF782 00000003
+
+Have Upgraded Tunic [GMO]
+008BF783 00000002
+
+Have Bottle 1 with Faerie [GMO]
+008BF784 00000006
+
+Have Bottle 2 with Faerie [GMO]
+008BF785 00000006
+
+Have Bottle 3 with Faerie [GMO]
+008BF786 00000006
+
+Have Bottle 4 with Cure-All Medicine [GMO]
+008BF787 00000005

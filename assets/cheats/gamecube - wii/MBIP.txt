@@ -1,0 +1,25 @@
+MBIP
+Landstalker
+
+Gold MAX [Crapulecorp]
+02FB778E 0000270F
+
+Unlimited Health [Crapulecorp]
+00FBB9BE 00000063
+00FBB9FE 00000063
+*Code ported from ZiT Ntsc Jap Version*
+
+Unlimited Sword Magic [Crapulecorp]
+02FB778A 00003200
+*Code ported from ZiT Ntsc Jap Version*
+
+Have All Items [Crapulecorp]
+04FB75C0 1A111111
+04FB75C4 11111111
+04FB75C8 01AAAA2A
+04FB75CC 22220A22
+04FB75D0 00020220
+04FB75D4 2222A2AA
+04FB75D8 222A2022
+04FB75DC C0220000
+*Code ported from ZiT Ntsc Jap Version*

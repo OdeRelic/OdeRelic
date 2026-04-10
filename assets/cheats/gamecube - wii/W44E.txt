@@ -1,0 +1,15 @@
+W44E
+Stop Stress: A Day Of Fury
+
+Infinite EXP Upon Gain [Seth@WiiPlaza]
+42000000 90000000
+041890F8 23283828
+E0000000 80008000
+*demo picture- http://www10.pic-upload.de/12.02.12/x17aah268m3f.jpg
+*works all levels and any/everywhere
+
+Infinite Health (No Stress Gain) [Seth@WiiPlaza]
+42000000 90000000
+001890FC 00000000
+E0000000 80008000
+*works all levels and any/everywhere

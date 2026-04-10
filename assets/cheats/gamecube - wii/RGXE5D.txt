@@ -1,0 +1,42 @@
+RGXE5D
+Game Party
+
+Max Score All Games [BoxNinja]
+04191794 000003E7
+
+Have X Amount of Skill Ball Balls [BoxNinja]
+04191B34 00000XXX
+*WARNING*The game never ends
+
+P1 Game Score 255
+* 02191556 000000ff
+
+P1 Game Tickets 255
+* 0219157a 000000ff
+
+P1 Shuffle Board Score 255
+* 021918c2 000000ff
+
+P2 Shuffle Board Score 1
+* 021918c6 00000001
+
+Table Hockey Total Tickets 50 [farjo08]
+0219148a 00000032
+
+Darts Total Tickets 75 [farjo08]
+02191486 0000004b
+
+Trivia Total Tickets 25 [farjo08]
+0219149e 00000019
+
+Hoop Shot Total Tickets 50 [farjo08]
+02191492 00000032
+
+Skill Ball Total Tickets 50 [farjo08]
+0219148e 00000032
+
+Ping Cup Total Tickets 50 [farjo08]
+02191496 00000032
+
+Shuffleboard Total Tickest 75 [farjo08]
+0219149a 0000004b

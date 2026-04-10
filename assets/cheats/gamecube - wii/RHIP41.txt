@@ -1,0 +1,16 @@
+RHIP41
+Victorious Boxers Challenge
+
+Unlimited & Max Fire Player 1 [Crapulecorp]
+48000000 804424CC
+DE000000 80008180
+140013D8 0098967F
+E0000000 80008000
+*Ported From ZiT's Ntsc Jap Version*
+
+Player 2 Fire Can't Increase [Crapulecorp]
+0426EE58 60000000
+
+Time Stop [Crapulecorp]
+0405F15C 60000000
+0405F190 60000000

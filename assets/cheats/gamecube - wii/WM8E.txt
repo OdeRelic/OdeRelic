@@ -1,0 +1,14 @@
+WM8E
+Bomberman Blast
+
+Inf Bomb Placement (Inviso) [Skiller]
+0405CAFC 00000001
+*Does not Count your bombs as placed but will make invisible Bombs if u place ro many
+
+Max Bombs on Pickup (8) [Skiller]
+04054394 38000008
+
+Only Your Player
+
+Your WIns xx [Skiller]
+004F8131 000000??

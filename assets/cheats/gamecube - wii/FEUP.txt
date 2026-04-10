@@ -1,0 +1,65 @@
+FEUP
+Donkey Kong 3
+
+Infinite Lives [Crapulecorp]
+003616F0 00000009
+
+Time Stop [Crapulecorp]
+003616AF 00000000
+*Code ported from ZiT Ntsc Jap Version*
+
+Spray Power Up [Crapulecorp]
+003616B5 00000023
+*Code ported from ZiT Ntsc Jap Version*
+
+Infinite Flower [Crapulecorp]
+003616D5 00000005
+*Code ported from ZiT Ntsc Jap Version*
+
+MoonJump
+
+Moon Jump (Press R) [Crapulecorp]
+281E0872 FDFF0200
+0036196B 00000001
+E0000000 80008000
+*Classic Controller*
+*Code ported from ZiT Ntsc Jap Version*
+
+Moon Jump (Press R) [Crapulecorp]
+28126D80 FFDF0020
+0036196B 00000001
+E0000000 80008000
+*GameCube Controller*
+*Code ported from ZiT Ntsc Jap Version*
+
+Speed Up
+
+Speed Up (Press Up/Down) [Crapulecorp]
+82000000 80361969
+281E0872 BFFF4000
+86000000 00000004
+281E0873 FFFE0001
+86000000 FFFFFFFC
+E0000000 80008000
+84000000 80361969
+*Classic Controller*
+*Code ported from ZiT Ntsc Jap Version*
+
+Speed Up (Press Up/Down) [Crapulecorp]
+82000000 80361969
+28126D80 FFFB0004
+86000000 00000004
+28126D81 FFF70008
+86000000 FFFFFFFC
+E0000000 80008000
+84000000 80361969
+*GameCube Controller*
+*Code ported from ZiT Ntsc Jap Version*
+
+Button Activator
+
+Classic Controller [Crapulecorp]
+281E0872 YYYYZZZZ
+
+GameCube Controller [Crapulecorp]
+28126D80 YYYYZZZZ

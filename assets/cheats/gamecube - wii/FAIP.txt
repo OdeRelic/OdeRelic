@@ -1,0 +1,8 @@
+FAIP
+Soccer
+
+Player 1 Score Is Always 99 [Crapulecorp]
+003AFD23 00000098
+
+Player 2/COM Score Is Always 01 [Crapulecorp]
+003AFD24 00000000

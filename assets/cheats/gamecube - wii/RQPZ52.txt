@@ -1,0 +1,26 @@
+RQPZ52
+Cabela's Monster Buck Hunter
+
+Score ropers [Ropers]
+04441A10 xxxxxxxx
+replace the x with dec value in hex
+
+Shot count ropers [Ropers]
+04441A14 xxxxxxxx
+replace the x with dec value in hex
+
+Hit countropers [Ropers]
+04441A18 xxxxxxxx
+replace the x with dec value in hex
+
+Trophies downed ropers [Ropers]
+04441A48 xxxxxxxx
+replace the x with dec value in hex
+
+Inf. Ammo [savage]
+284AC9C8 00000008
+0404C150 60000000
+CC000000 00000001
+0404C150 901F0030
+E0000000 80008000
+Press up to turn on,up again to turn off

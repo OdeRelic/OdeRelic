@@ -17,6 +17,8 @@ Window {
             onOpenManager: function(consoleType) {
                 if (consoleType === "ps2") {
                     stackView.push(oplManagerComponent)
+                } else if (consoleType === "gc") {
+                    stackView.push(swissManagerComponent)
                 }
             }
         }
@@ -25,6 +27,13 @@ Window {
     Component {
         id: oplManagerComponent
         OplManager {
+            onRequestBack: stackView.pop()
+        }
+    }
+    
+    Component {
+        id: swissManagerComponent
+        SwissManager {
             onRequestBack: stackView.pop()
         }
     }

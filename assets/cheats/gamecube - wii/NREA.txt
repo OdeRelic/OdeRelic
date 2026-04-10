@@ -1,0 +1,148 @@
+NREA
+The Legend of Zelda - The Ocarina of Time Inject v1.0
+
+Max Hearts [GMO]
+02F8E89E 00000140
+
+Unlimited Hearts (Current) [GMO]
+02F8E8A0 00000140
+
+Unlimited Magic gygabyte666 [GMO]
+02F8E8A2 00000260
+
+500 Rupees [GMO]
+02F8E8A4 000001F4
+
+Unlimited Small Keys [GMO]
+00F8E931 00000032
+
+Have All Items [GMO]
+04F8E8E4 00010203
+04F8E8E8 04050608
+04F8E8EC 090B0C0D
+04F8E8F0 0E0F1011
+04F8E8F4 12131818
+02F8E8F8 00001818
+04F8E8FC 1E1E2832
+00F8E902 00000032
+00F8E904 00000032
+02F8E90C 00007777
+02F8E912 0000E4DB
+
+Have All Songs/Medallions/Quest Items/Map [GMO]
+04F8E914 00FFFFFF
+04F8E918 06060607
+
+Unlimited Item Ammo [GMO]
+04F8E8FC 1E1E2832
+00F8E902 00000032
+00F8E904 00000032
+Ported By gygabyte666
+
+Individual Ammo
+
+Unlimited Deku Sticks [GMO]
+00F8E8FC 0000001E
+Ported By gygabyte666
+
+Unlimited Deku Nuts [GMO]
+00F8E8FD 0000001E
+Ported By gygabyte666
+
+Unlimited Bombs [GMO]
+00F8E8FE 00000028
+Ported By gygabyte666
+
+Unlimited Arrows [GMO]
+00F8E8FF 00000032
+Ported By gygabyte666
+
+Unlimited Slingshot Ammo [GMO]
+00F8E902 00000032
+Ported By gygabyte666
+
+Unlimited Bombchus [GMO]
+00F8E904 00000032
+Ported By gygabyte666
+
+Have Individual Items
+
+Have Deku Stick [GMO]
+00F8E8E4 00000000
+
+Have Deku Nut [GMO]
+00F8E8E5 00000001
+
+Have Bomb [GMO]
+00F8E8E6 00000002
+
+Have Fairy Bow [GMO]
+00F8E8E7 00000003
+
+Have Fire Arrows [GMO]
+00F8E8E8 0000003D
+
+Have Din's Fire [GMO]
+00F8E8E9 00000005
+
+Have Fairy Slingshot [GMO]
+00F8E8EA 00000006
+
+Have Ocarina of Time [GMO]
+00F8E8EB 00000008
+
+Have Bombchu [GMO]
+00F8E8EC 00000009
+
+Have Longshot [GMO]
+00F8E8ED 0000000B
+
+Have Ice Arrow [GMO]
+00F8E8EE 0000000C
+
+Have Farore's Wind [GMO]
+00F8E8EF 0000000D
+
+Have Boomerang [GMO]
+00F8E8F0 0000000E
+
+Have Lens of Truth [GMO]
+00F8E8F1 0000000F
+
+Have Magic Beans [GMO]
+00F8E8F2 00000010
+
+Have Megaton Hammer [GMO]
+00F8E8F3 00000011
+
+Have Light Arrows [GMO]
+00F8E8F4 00000012
+
+Nayru's Love [GMO]
+00F8E8F5 00000013
+
+Bottle 1 (Bottled Fairy) [GMO]
+00F8E8F6 00000018
+
+Bottle 2 (Bottled Fairy) [GMO]
+01F8E8F7 00000018
+
+Bottle 3 (Bottled Fairy) [GMO]
+00F8E8F8 00000018
+
+Bottle 4 (Bottled Fairy) [GMO]
+00F8E8F9 00000018
+
+Have Claim Check [GMO]
+00F8E8FA 00000037
+
+Have Mask of Truth [GMO]
+00F8E8FB 0000002B
+
+Individual Equipment
+
+Have All Tunics & Boots [GMO]
+00F8E90C 00000077
+
+Have All Swords & Shields [GMO]
+00F8E90D 00000077

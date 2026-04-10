@@ -1,0 +1,11 @@
+GIKE70
+Ikaruga 
+
+Infinite Lives
+0018BC4C 00000063
+
+Infinite Homing Laser Energy
+0018BC49 00000078
+
+Max Combo
+0218BC84 000003E7

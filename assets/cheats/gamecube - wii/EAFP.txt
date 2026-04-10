@@ -1,0 +1,17 @@
+EAFP
+Blue's Journey
+
+Unlimited Time [GMO]
+02255B76 00009999
+
+Unlimited Lives [GMO]
+00256270 00000009
+
+Max Currency [GMO]
+00256280 00000064
+
+Unlimited Health [GMO]
+00256281 00000002
+
+Invincible [GMO]
+00256278 00000060

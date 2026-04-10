@@ -1,0 +1,10 @@
+NASP
+Cruis'n USA
+
+Always Place 1st [Crapulecorp]
+01231A4B 00000001
+*Code ported from Sharkbyte Ntsc Usa Version*
+
+Unlimited Time [Crapulecorp]
+0323216C 000042C5
+*Code ported from Sharkbyte Ntsc Usa Version*

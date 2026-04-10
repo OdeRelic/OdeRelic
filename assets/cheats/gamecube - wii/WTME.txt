@@ -1,0 +1,34 @@
+WTME
+Adventure Island - The Beginning
+
+Inf Lives [Skiller]
+0406648C 60000000
+
+INF HP [Skiller]
+04070284 60000000
+040697E8 60000000
+
+Lives Max [Skiller]
+0032C78F 00000063
+
+Food Gained Max [Skiller]
+0032C78B 00000063
+
+Only Turn On 1 at a time
+
+Always Have Axe [Skiller]
+0058B720 00000001
+
+Always Have Boomerang [Skiller]
+0058B720 00000002
+
+Always Have Spear [Skiller]
+0058B720 00000003
+
+Always Have FireBall [Skiller]
+0058B720 00000004
+
+Always Have Bomb [Skiller]
+0058B720 00000005
+
+00 = None, 01 = Axe, 02 = Bommerange, 03 = Spear, 04 = FireBall, 05 = Bomb

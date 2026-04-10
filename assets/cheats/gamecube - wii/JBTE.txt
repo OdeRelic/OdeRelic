@@ -1,0 +1,13 @@
+JBTE
+Super Turrican
+
+Super turrican JBTE
+
+Infinite Lives [funkamatic]
+0243B643 00000001
+
+Infinite Health [funkamatic]
+0043B647 0000000C
+
+Infinite Bombs [funkamatic]
+0043B652 00000003

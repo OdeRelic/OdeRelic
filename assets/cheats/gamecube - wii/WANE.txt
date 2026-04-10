@@ -1,0 +1,8 @@
+WANE
+Ant Nation
+
+Max Gold [GMO]
+0240CB5A 0000270F
+
+Unlimited Mission Time [GMO]
+0040CD6D 0000003D

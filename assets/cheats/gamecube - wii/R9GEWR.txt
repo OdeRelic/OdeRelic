@@ -1,0 +1,39 @@
+R9GEWR
+Legend of the Guardians: The Owls of Ga'Hoole
+
+Use OSSleepThread Hook
+
+Inf Health\Power [Thomas83Lin]
+C2030AA0 00000003
+3D804300 919F04D8
+919F04DC C03F04D8
+60000000 00000000
+
+Unlock All Worlds\Levels [Thomas83Lin]
+040786F4 48000020
+04171A4C 48000034
+04078538 60000000
+04078C7C 48000010
+04171738 48000018
+
+Unlock All Armory (READ NOTES) [Thomas83Lin]
+42000000 90000000
+086337B7 00000001
+00050060 00000000
+086337CF 00000001
+00050060 00000000
+E0000000 80008000
+*Only Works On Save Slot 1 and Permanent*
+*Load Save Then Exit to Main Menu Then Load Save Again to Take effect*
+
+Unlock Special Moves\Barge (READ NOTES) [Thomas83Lin]
+42000000 90000000
+04634444 FFFFFFFF
+E0000000 80008000
+*Needed to Defeat Allmoere's fury*
+*Only Works On Save Slot 1 and Permanent*
+*Load Save Then Exit to Main Menu Then Load Save Again to Take effect*
+
+Always able to buy from Armory [Thomas83Lin]
+04079AC0 60000000
+*No Need for Shinies when buying*

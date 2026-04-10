@@ -1,0 +1,52 @@
+RNPX69
+Need for Speed(TM) ProStreet
+
+Moonjump press 1 + 2 [CosmoCortney]
+286328F2 00000300
+0461A1CC 41000000
+E0000000 80008000
+
+1080km/h in Drag Races [CosmoCortney]
+286328F2 00000C00
+0461A1D0 C3B00000
+E0000000 80008000
+Press A + B
+Does only work well for Drag Races.
+
+Disable many Textures [CosmoCortney]
+046FE620 00000000
+
+Awesome Camera [CosmoCortney]
+046FB380 3F810000
+
+Cars sound like mopeds [CosmoCortney]
+04573128 41000000
+
+Money infini [Crapulecorp]
+04EDDD80 60000000
+
+Infinite N20 [Crapulecorp]
+040B4954 907D010C
+*Code ported from ZiT NTSC Version*
+
+"N20 Gauge" Max Always [Crapulecorp]
+040B4A00 D03D0100
+*Code ported from ZiT NTSC Version*
+
+"N20 Gauge" Max Always (Push B) [Crapulecorp]
+286328F2 FBFF0400
+040B4A00 D03D0100
+E0000000 80008000
+*WiiMote-NunChuk*
+
+Race Points x99999 [Crapulecorp]
+48000000 80FC6C3C
+DE000000 80008180
+1400001C 0001869F
+E0000000 80008000
+
+Button activator
+
+Player 1 [Crapulecorp]
+286328F2 XXXXYYYY
+*WiiMote-NunChuk*

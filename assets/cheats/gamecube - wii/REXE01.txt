@@ -1,0 +1,128 @@
+REXE01
+Excite Truck
+
+escape boundaries toggle -+2 [wiiztec]
+2837C80A 00001100
+041A5D1C 4BFFFDB5
+CC000000 00000000
+041A5D1C 60000000
+E0000000 80008000
+This lets you drive through those invisible walls with the moving arrows
+
+go your own way toggle -+1 [wiiztec]
+2837C80A 00001200
+04190974 981C0034
+04190A04 981C0034
+041B14CC 90030000
+CC000000 00000000
+04190974 60000000
+04190A04 60000000
+041B14CC 60000000
+E0000000 80008000
+with this code no way is the wrong way
+If you turn it on while already going the wrong way you will have to turn around to make the message go away, but it won't reappear when you turn around again
+
+no laps toggle ++- [wiiztec]
+2837C80A 00001010
+041B1660 909E0014
+CC000000 00000000
+041B1660 60000000
+E0000000 80008000
+use with no time code for a free run mode
+
+easy air toggle -+A [wiiztec]
+C2192740 00000003
+3D808000 618C0000
+93CC2FF4 C03E25D4
+60000000 00000000
+2837C80A 00001800
+CC000000 00000001
+48000000 80002FF4
+DE000000 80008180
+140025D4 43FA0000
+E0000000 80008000
+
+emergency break turn 1+2 [wiiztec]
+04191B30 C3A29F90
+2837C80A FCFF0300
+04002FF0 40000000
+C2191B30 00000002
+3D808000 618C2FF0
+C3AC0000 00000000
+E0000000 80008000
+
+bumper cam/leave your truck behind toggle A+1 [wiiztec]
+2837C80A 00000A00
+041A60A4 4BFE2D89
+CC000000 00000001
+041A60A4 60000000
+E0000000 80008000
+off by default
+
+hyper mode toggle ++A [wiiztec]
+2837C80A 00000810
+04178BD8 808DDAC4
+CC000000 00000001
+04178BD8 60000000
+E0000000 80008000
+makes everything fast and jerkey
+
+unfazed by crashing toggle A+2 [wiiztec]
+2837C80A 00000900
+04189BB8 48004835
+CC000000 00000000
+04189BB8 60000000
+E0000000 80008000
+on by default
+
+flips [wiiztec]
+04192E0C C0029F94
+04002FF4 00000000
+2837C80A FBFD0402
+04002FF4 40800000
+2837C80B FBFE0401
+04002FF4 C0800000
+22002FF5 00000000
+C2192E0C 00000002
+3D808000 C00C2FF4
+60000000 00000000
+E0000000 80008000
+B+up - front flip
+B+down - back flip
+
+barrel rolls [wiiztec]
+04191B98 EC3D0032
+04191B30 C3A29F90
+04190678 C0629F90
+04002FF8 00000000
+2837C80A FBF70408
+04002FF8 41200000
+2837C80B FBFB0404
+04002FF8 C1200000
+22002FF9 00000000
+04191B98 60000000
+C2191B30 00000002
+3D808000 C3AC2FF8
+60000000 00000000
+C2190678 00000002
+3D808000 C06C2FF8
+60000000 00000000
+E0000000 80008000
+B+left - barrel roll left
+B+right - barrel roll right
+if you want to use this code with emergency break turn remove the second line and have emergency break turn come before this on your code list
+
+B+down back flip
+
+Infinite Turbo [farjo08]
+04185FBC D03B25A0
+
+Zero Time [farjo08]
+04151514 d05b08d4
+
+Max Stars [farjo08]
+C214a3a0 00000002
+3E40461D 3A523C00
+92550014 00000000
+
+Note: These are a port / based on Zit's original codes for the Japanese version.

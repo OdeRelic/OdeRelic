@@ -1,0 +1,142 @@
+SC4E64
+Lego Star Wars III The Clone Wars
+
+Extras Always On No Purchase Necessary
+
+Dark Side [BoxNinja]
+0484E4A8 FFFF0101
+
+Invincibility [BoxNinja]
+0484E4D8 FFFF0101
+
+Fast Build [BoxNinja]
+0484E4C0 01FF0101
+
+Minikit Detector [BoxNinja]
+0484E4F0 FFFF0101
+
+Super Speeders [BoxNinja]
+0484E508 FFFF0101
+
+Score x2 [BoxNinja]
+0484E520 FFFF0101
+
+Score x4 [BoxNinja]
+0484E538 FFFF0101
+
+Score x6 [BoxNinja]
+0484E550 FFFF0101
+
+Score x8 [BoxNinja]
+0484E568 FFFF0101
+
+Score x10 [BoxNinja]
+0484E580 FFFF0101
+
+Stud Magnet [BoxNinja]
+0484E598 FFFF0101
+
+Regenerate Hearts [BoxNinja]
+0484E5B0 FFFF0101
+
+Character Studs [BoxNinja]
+0484E5C8 FFFF0101
+
+Super Saber Cut [BoxNinja]
+0484E5E0 FFFF0101
+
+Dual Wield [BoxNinja]
+0484E5F8 FFFF0101
+
+Glow in the Dark [BoxNinja]
+0484E610 FFFF0101
+
+Red Brick Detector [BoxNinja]
+0484E628 FFFF0101
+
+Total Coins [BoxNinja]
+0503BAD4 XXXXXXXX
+*Just replace X values
+
+Coin Multiplier [BoxNinja]
+C24305CC 00000002
+3B60FFFF 937C0004
+60000000 00000000
+*Multiplies all coins by 1 billion
+
+Player 1 In-Level Coins [BoxNinja]
+0492B05C 3B9AC9FF
+
+Player 2 In-Level Coins [BoxNinja]
+0492B074 3B9AC9FF
+
+Inf Health [Thomas83Lin]
+C25D39EC 00000002
+8B640F5D 9B640F5E
+60000000 00000000
+
+Max Coins (Hub) [Thomas83Lin]
+C2691B70 00000002
+3BA0FFFF 93A36230
+93A36234 00000000
+
+Max Coins (InGame) [Thomas83Lin]
+C268E340 00000002
+3880FFFF 90860004
+60000000 00000000
+
+Max Coins (R Assault) [Thomas83Lin]
+C2690788 00000002
+3980FFFF 91840004
+80840004 00000000
+
+Max Gold Blocks [Thomas83Lin]
+C20938E8 00000002
+380000FF 98030002
+60000000 00000000
+*Temporary*
+
+Unlock All Red Block Extras [Thomas83Lin]
+C257BD60 00000002
+3980FFFF 7D85012E
+7C05002E 00000000
+
+All MiniKits After Finishing Level [Thomas83Lin]
+C2690E88 00000003
+3880000A 90830018
+9083001C 8063001C
+60000000 00000000
+
+Freeze Yellow Assault Timer [Thomas83Lin]
+041A8B00 D03F0010
+C217F1AC 00000002
+C01F0010 D01F000C
+60000000 00000000
+
+Freeze Yellow Space Mission Timer [Thomas83Lin]
+0410AEF4 60000000
+
+Temp Unlock All Missions+Characters [Thomas83Lin]
+04584B34 38000001
+040DEDF4 38000004
+*Need to Already Have Character Selection Unlocked*
+*Backup Save Before Using*
+
+Unlock All Characters [Thomas83Lin]
+C2584B34 00000002
+38000001 9803004C
+60000000 00000000
+*Need to Already Have Character Selection Unlocked*
+*Permanent if Saved*
+*Backup Save Before Using*
+
+Reset Game Clock [Thomas83Lin]
+045FE504 39800000
+045FE508 919D0000
+
+Unlock All Build Options P1 [Thomas83Lin]
+0419744C 38600008
+
+Unlock All Build Options P2 [Thomas83Lin]
+04197454 38600008
+*P2 may also Effect Enemies*

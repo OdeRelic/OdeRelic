@@ -1,0 +1,63 @@
+FD7P
+Mega Man 3
+
+Infinite Lives [Crapulecorp]
+003BBFEE 00000009
+
+Infinite Health [Crapulecorp]
+003BBFE2 0000009C
+
+Infinite Energy [Crapulecorp]
+083BBFE3 0000009C
+FFFBF0E1 00000000
+*Code ported from ZiT Ntsc Jap Version*
+
+Invincible [Crapulecorp]
+003BBF79 00000002
+*Code ported from ZiT Ntsc Jap Version*
+
+MoonJump
+
+MoonJump (Press X) [Crapulecorp]
+2823B2BE FFF70008
+003BC3A0 00000004
+E0000000 80008000
+*Classic Controller*
+*Code ported from Thomas83Lin Ntsc Usa Version*
+
+MoonJump (Press B and 2) [Crapulecorp]
+2823B25E FAFF0500
+003BC3A0 00000004
+E0000000 80008000*
+*WiiMote*
+*Code ported from Thomas83Lin Ntsc Usa Version*
+
+Refill Health & Ammo
+
+Refill Health & Ammo (Press ZL) [Crapulecorp]
+2823B2BE FF7F0080
+023BBFE2 00009C9C
+043BBFE4 9C9C9C9C
+043BBFE8 9C9C9C9C
+023BBFEC 00009C9C
+E0000000 80008000
+*Classic Controller*
+*Code ported from GMO Ntsc Usa Version*
+
+Refill Health & Ammo (Hold B and Press Right) [Crapulecorp]
+2823B25E FBFD0402
+023BBFE2 00009C9C
+043BBFE4 9C9C9C9C
+043BBFE8 9C9C9C9C
+023BBFEC 00009C9C
+E0000000 80008000
+*WiiMote*
+*Code ported from GMO Ntsc Usa Version*
+
+Button Activator
+
+Classic Controller [Crapulecorp]
+2823B2BE YYYYZZZZ
+
+WiiMote [Crapulecorp]
+2823B25E YYYYZZZZ

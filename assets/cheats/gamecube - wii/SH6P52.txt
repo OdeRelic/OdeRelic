@@ -1,0 +1,16 @@
+SH6P52
+Cabela's Big Game Hunter 2012
+
+No Reload/Unlimited Ammo [Crapulecorp]
+0434CE20 38030000
+
+If Decrease Max Money In Store [Crapulecorp]
+C201CC64 00000002
+3C80000F 60841B2F
+90830C64 00000000
+
+Button Activator
+
+Player 1 [Crapulecorp]
+289BCC3A YYYYZZZZ
+*WiiMote-NunChuck*

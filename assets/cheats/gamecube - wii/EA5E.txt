@@ -1,0 +1,25 @@
+EA5E
+Fatal Fury 3
+
+Enabler Code (Must Be On) [GMO]
+28228DAC 00000304
+02228DAC 00000909
+E0000000 80008000
+28228DAC 00000303
+02228DAC 00000909
+E0000000 80008000
+Original Credit Code By Thomas83Lin
+
+Miscellaneous Codes
+
+P1 Inf Health [Thomas83Lin]
+0221B231 00006060
+
+Freeze Timer [Thomas83Lin]
+00220429 00000040
+
+Inf Credits [Thomas83Lin]
+02228DAC 00000909
+
+1 hit Kills Cpu or P2 [Thomas83Lin]
+0221B331 00000000

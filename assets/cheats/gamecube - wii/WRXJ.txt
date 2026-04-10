@@ -1,0 +1,148 @@
+WRXJ
+Rockman 10
+
+Moon Jump [ZiT]
+2845558A FEFF0100
+045355D8 FFFFFC00
+E0000000 80008000
+
+Speed Up [ZiT]
+2845567A 00000004
+82200000 805355CC
+86000000 00000500
+84200000 805355CC
+E0000000 80008000
+2845567A 00000008
+82200000 805355CC
+86000000 FFFFF500
+84200000 805355CC
+E0000000 80008000
+
+Invincible [GMO]
+00535614 0000002E
+
+Have 9 Lives [GMO]
+00537B5C 00000009
+
+Unlimited Health [GMO]
+00535625 0000001C
+
+Refill Health and Ammo [GMO]
+2845558A 00000202
+00535625 0000001C
+085356C0 0000001C
+000D0002 00000000
+E0000000 80008000
+Hold 1 and press Right on D-Pad
+
+1-Hit Boss Kill [GMO]
+2845558A 00000201
+005321FD 00000001
+E0000000 80008000
+Hold 1 and press Left on D-Pad
+Doesn't work on some Sub-Bosses in Wiley's Castle
+
+Always Have Charged Attack [GMO]
+2845558A FDFF0200
+0253567E 00000060
+E0000000 80008000
+
+999 Screws [GMO]
+0251277A 000003E7
+
+Have All Items [GMO]
+04537C14 01090109
+04537C18 03090109
+
+Individual Ammo Codes
+
+Unlimited T.Blade Ammo [GMO]
+005356C0 0000001C
+
+Unlimited W.Shield Ammo [GMO]
+005356C2 0000001C
+
+Unlimited C.Bomb Ammo [GMO]
+005356C4 0000001C
+
+Unlimited C.Spike Ammo [GMO]
+005356C6 0000001C
+
+Unlimited T.Wool Ammo [GMO]
+005356C8 0000001C
+
+Unlimited R.Striker Ammo [GMO]
+005356CA 0000001C
+
+Unlimited W.Cutter Ammo [GMO]
+005356CC 0000001C
+
+Unlimited S.Blaze Ammo [GMO]
+005356CE 0000001C
+
+Unlimited R.Coil [GMO]
+005356D0 0000001C
+
+Unlimited R.Jet [GMO]
+005356D2 0000001C
+
+Unlimited Mirror B. [GMO]
+005356D4 0000001C
+
+Unlimited S.Crusher Ammo [GMO]
+005356D6 0000001C
+
+Unlimited B.Cracker Ammo [GMO]
+005356D8 0000001C
+
+Have Individual Items
+
+Have 9 Energy Tanks [GMO]
+00537C15 00000009
+
+Have 9 Weapon Tanks [GMO]
+00537C17 00000009
+
+Have Mystery Tank [GMO]
+00537C16 00000001
+
+Have Guard Power [GMO]
+00537C1A 00000001
+
+Have Eddie Call [GMO]
+00537C18 00000003
+
+Have Beat Call [GMO]
+00537C19 00000009
+
+Have Shock Guard [GMO]
+00537C1B 00000009
+
+Book of Hairstyles & Energy Balancer [GMO]
+00537C0C 0000000A
+
+Character Select Open [Skiller]
+040F7DF0 38800004
+040F7DFC 38800003
+
+1 hit Kills (Enemys+bosses) [Skiller]
+C205AA98 00000003
+2C000000 41820008
+38000000 B01E0030
+60000000 00000000
+Note: Turn On Invincible for your self
+
+Gain 999 Screws (On pickup) [Skiller]
+040765E8 40810004
+
+Allow hard mode [Skiller]
+025A2B42 0000A006
+
+Have all weapons [Skiller]
+02537B7E 0000FFFF
+
+Jump to wily's castle(Hold 1 and press Right on D-Pad) [Skiller]
+2845558A 00000202
+02537BEA 000001FF
+E0000000 80008000
+Note from the Stage select press - to goto the save menu then go back to the stage select and bam

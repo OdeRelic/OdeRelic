@@ -1,0 +1,6 @@
+GWME51
+Worms 3D 
+
+Infinite Ammo/All Weapons
+0425D120 38600007
+0425D124 4E800020

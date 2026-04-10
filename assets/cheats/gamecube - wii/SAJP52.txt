@@ -1,0 +1,33 @@
+SAJP52
+Cabela's Survival Shadows Of Katmai
+
+Important : Use OSSleepThread Hooktype
+
+No Reload/Unlimited Ammo [Crapulecorp]
+04137650 38030000
+
+Unlimited Health [Crapulecorp]
+043F9DF8 60000000
+
+Unlimited Health (Press 1 ON/OFF) [Crapulecorp]
+043F9DF8 60000000
+289E1C7A FDFF0200
+CC000000 00000000
+043F9DF8 D0030174
+E0000000 80008000
+*WiiMote-NunChuck*
+
+If Increase Max Points (Story Mode) [Crapulecorp]
+C20B00E4 00000002
+3C00000F 6000423F
+901E0114 00000000
+
+If Increase Max Points (Shooting Range Mode) [Crapulecorp]
+C20B011C 00000002
+3C00000F 6000423F
+901E0114 00000000
+
+Button Activator
+
+WiiMote-NunChuck [Crapulecorp]
+289E1C7A YYYYZZZZ

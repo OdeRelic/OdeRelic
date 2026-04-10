@@ -1,0 +1,4580 @@
+RFEE01
+Fire Emblem Radiant Dawn
+
+Button Activator for Gamecube Controller(Hold L) [ShadowX39]
+283D78AE 0000B400
+Put codes here [ShadowX39]
+E0000000 80008000
+
+Button Activator for Gamecube Controller(Hold R) [ShadowX39]
+283D78AE 000000B4
+Put codes here [ShadowX39]
+E0000000 80008000
+
+Button Activator for Gamecube Controller(Hold L+R) [ShadowX39]
+283D78AE 0000B4B4
+Put codes here [ShadowX39]
+E0000000 80008000
+
+Number of Enemies Killed(mainly for Part 3 Endgame) [ShadowX39]
+043CAB78 000000XX
+Putting 01 at the end will keep the counter at 1
+
+Everyone Attacks Everyone [ShadowX39]
+08723BC8 00000000
+20F10004 00000000
+Units like Jill will attack Haar and so on, affects everyone
+
+No Cap Limits [ShadowX39]
+08B54094 78646464
+20A1011C 00000000
+08B54098 64646464
+20A1011C 00000000
+08B54060 014B014B
+20A1011C 00000000
+08B54064 014B014B
+20A1011C 00000000
+08B54068 014B014B
+20A1011C 00000000
+08B5406C 014B014B
+20A1011C 00000000
+08B54070 014B014B
+20A1011C 00000000
+08B54074 014B014B
+20A1011C 00000000
+Units can reach 100 in their stats, 120 for HP and an SS rank for any of their weapons
+
+Always Perfect Level-Ups [ShadowX39]
+088C359A 00000064
+016500FC 00000000
+088C359B 00000064
+016500FC 00000000
+088C359C 64646464
+216500FC 00000000
+088C35A0 00000064
+016500FC 00000000
+088C35A1 00000064
+016500FC 00000000
+Every stat will go up when you level - doesn't work with bonus exp
+
+All Weapons have a 255% Critical Rate [ShadowX39]
+08B5FDAF 000000FF
+00CA0050 00000000
+
+All Weapons have a Brave Effect [ShadowX39]
+08B5FDCE 00000001
+00CA0050 00000000
+Like Brave Axe and Amiti
+
+Every Unit can use Every Weapon [ShadowX39]
+08B5FDCC 00000000
+00CA0050 00000000
+08B5FDCB 00000000
+00CA0050 00000000
+As in, Ragnell, Cymbeline, etc.
+
+All Weapons Unlocked [ShadowX39]
+08B5FDC8 00000000
+00CA0050 00000000
+Locked weapons such as Amiti can be traded
+
+All Weapons have Infinite Use [ShadowX39]
+08B5FDC9 00000081
+00CA0050 00000000
+Think Ragnell or Alondite
+
+All Weapons can Attack at Close Range [ShadowX39]
+08B5FDB0 00000001
+00CA0050 00000000
+
+All Weapons have 2 Range [ShadowX39]
+08B5FDB1 00000002
+00CA0050 00000000
+
+Every Single Unit's First Item is Blessed and Equipped [ShadowX39]
+08884ED0 27900000
+20A103F0 00000000
+
+Every Single Unit's Second Item is Blessed [ShadowX39]
+08884EF8 27100000
+20A103F0 00000000
+
+Every Single Unit always has 99 Exp [ShadowX39]
+08884E0F 00000063
+00A103F0 00000000
+
+Seraph Robe Will Instantly Max Stats [ShadowX39]
+04B63D20 01013232
+04B63D24 32323232
+04B63D28 32320000
+Use a Seraph Robe once and your unit's stats will be maxed out
+
+Boots Will Instantly Max Movement [ShadowX39]
+04B63FA8 00001400
+
+Make all Enemies Played Controlled (works in all Chapters and all Difficulties)
+Wii Remote g6flavor [ShadowX39]
+283D78DA 0000xxxx
+2066B828 702E7468
+0066B844 00000000
+E0000000 80008000
+283D78DA 0000XXXX
+2066B828 702E7468
+0066B844 00000001
+E0000000 80008000
+
+RecoverHP after battle on player turn [g6flavor]
+283C9396 0000B83C
+2E3C8f18 0000F000
+003C8f14 00000063
+E0000000 80008000
+
+ALWAYS Alive enemy turn [g6flavor]
+283C9396 0000B830
+2E3C93b8 0000F000
+283C93b4 00000000
+003C93b4 00000063
+E0000000 80008000
+
+ALWAYS Alive player turn [g6flavor]
+283C9396 0000B83C
+2E3C8f18 0000F000
+283C8f14 00000000
+003C8f14 00000063
+E0000000 80008000
+
+Gamecube Controller [g6flavor]
+283D78A8 0000xxxx
+2066B828 702E7468
+0066B844 00000000
+E0000000 80008000
+283D78A8 0000XXXX
+2066B828 702E7468
+0066B844 00000001
+E0000000 80008000
+
+xxxx = button value to turn code ON
+XXXX = button value to turn code OFF
+
+Enable Max Storage (300) in Convoy for All Chapters [g6flavor]
+024CB6DA 0000012C
+024CB6E2 0000012C
+024CB6E6 00009220
+024CB6EA 0000012C
+024CB6EE 00009220
+024CB6F2 0000012C
+024CB6F6 00009220
+
+Number of times Game had been CLEARED [g6flavor]
+003CAB57 000000xx
+
+xx = 2 = Cleared once, xx = 3 = Cleared twice
+You can use this to enable Pelleas and Sephiran on a first play through
+
+Inf. Movement [AlexWong]
+040534C8 7C601B78
+This code worked on all characters.
+
+Goldoa Dragons WILL Attack Ena and Kurthnaga [shadowofchaos]
+04723DC4 00000000
+04723DCC 00000000
+04723DF4 00000000
+04723DFC 00000000
+04723E24 00000000
+04723E2C 00000000
+04723E54 00000000
+04723E5C 00000000
+04723E84 00000000
+04723E8C 00000000
+
+Ike can move any number of times in one turn [shadowofchaos]
+0088B86F 00000000
+
+Boyd can move any number of times in one turn [shadowofchaos]
+0088E7AF 00000000
+
+Soren can move any number of times in one turn [shadowofchaos]
+0088DBDF 00000000
+
+Mist can move any number of times in one turn [shadowofchaos]
+0088DFCF 00000000
+
+Rolf can move any number of times in one turn [shadowofchaos]
+0088E3BF 00000000
+
+Oscar can move any number of times in one turn [shadowofchaos]
+0088EB9F 00000000
+
+Shinon can move any number of times in one turn [shadowofchaos]
+0088EF8F 00000000
+
+Gatrie can move any number of times in one turn [shadowofchaos]
+0088F37F 00000000
+
+Rhys can move any number of times in one turn [shadowofchaos]
+0088F76F 00000000
+
+Mia can move any number of times in one turn [shadowofchaos]
+0089072F 00000000
+
+Titania can move any number of times in one turn [shadowofchaos]
+0088D7EF 00000000
+
+Chapter Warping Code
+
+Chapter Warping [ShadowX39]
+043CAAC8 XX000001
+You can activate this code during the screen that asks you to save your game once a chapter has finished, it'll directly send you to your chosen chapter once you pass this screen!
+01 at the end of this code is what turn it will be,(you can change it to 02 for turn 2, etc.) keeping the code on will keep it on player phase. Below is the list of chapters, place the digits in place of XX:
+
+00 = Test Map
+01 = Part 1 - Prologue, Under Gray Skies
+02 = Part 1 - Ch.1, Maiden of Miracles
+03 = Part 1 - Ch.2, The Dispossessed
+04 = Part 1 - Ch.3, A Faint Light
+05 = Part 1 - Ch.4, A Distant Voice
+06 = Part 1 - Ch.5, The Lost Heir
+07 = Part 1 - Ch.6, Raise the Standard
+08 = Part 1 - Ch.7, A Gathering Hope
+09 = Part 1 - Ch.8, Glory Unwanted
+0A = Part 1 - Ch.9, One Survives
+0B = Part 1 - Endgame, Daein, Arise!
+0C = Part 2 - Prologue, On Drifting Clouds
+0D = Part 2 - Ch.1, Winds of Rebellion
+0E = Part 2 - Ch.2, Tides of Intrigue
+0F = Part 2 - Ch.3, Geoffrey's Charge
+10 = Part 2 - Endgame, Elincia's Gambit
+11 = Part 3 - Prologue, The Great Advance
+12 = Part 3 - Ch.1, Laguz and Beorc
+13 = Part 3 - Ch.2, Stormclouds
+14 = Part 3 - Ch.3, River Crossing
+15 = Part 3 - Ch.4, The General's Hand
+16 = Part 3 - Ch.5, Retreat!
+17 = Part 3 - Ch.6, A Reason to Fight
+18 = Part 3 - Ch.7, Rivals Collide
+19 = Part 3 - Ch.8, Incandescent Glow
+1A = Part 3 - Ch.9, Marauders
+1B = Part 3 - Ch.10, The Heart of Crimea
+1C = Part 3 - Ch.11, Just Cause
+1D = Part 3 - Ch.12, The Price
+1E = Part 3 - Ch.13, Blood Contract
+1F = Part 3 - Endgame, From Pain, Awakening
+20 = Part 4 - Prologue, Chaos Named
+21 = dummy
+22 = dummy
+23 = Part 4 - Ch.1, Road to Empire
+24 = dummy
+25 = dummy
+26 = Part 4 - Ch.2, Silent World
+27 = dummy
+28 = dummy
+29 = Part 4 - Ch.3, Distortions
+2A = dummy
+2B = dummy
+2C = Part 4 - Ch.4, Revelations
+2D = dummy
+2E = dummy
+2F = Part 4 - Ch.5, Unforgivable Sin
+30 = dummy
+31 = dummy
+32 = Part 4 - Endgame, Rebirth (1)
+33 = Part 4 - Endgame, Rebirth (2)
+34 = Part 4 - Endgame, Rebirth (3)
+35 = Part 4 - Endgame, Rebirth (4)
+36 = Part 4 - Endgame, Rebirth (5)
+37 = Epilogue
+38-4F = freezes
+50-53 = The levels shown in the Guide, no way to clear them.
+54-60 = freezes
+
+Normal Mode Codes(also useful for Easy+Hard)
+
+Nolan Model Modifier [ShadowX39]
+04884DFC XXXXXXXX
+Descriptions to all of these codes appear below
+
+Nolan Class Modifier [ShadowX39]
+04884E00 80B5XXXX
+
+Make Nolan Player-controlled [ShadowX39]
+04884E04 8066B830
+
+Always have Nolan at Level 19 with 99 Exp [ShadowX39]
+02884E0E 00001363
+
+Nolan's Skill Modifier [ShadowX39]
+04884E44 XXXXXXXX
+04884E5C XXXXXXXX
+04884E64 XXXXXXXX
+04884E6C XXXXXXXX
+04884E74 XXXXXXXX
+04884E7C XXXXXXXX
+
+Nolan has SS Axe [ShadowX39]
+04884FE8 014B0000
+
+Laura Model Modifier [ShadowX39]
+048851EC XXXXXXXX
+
+Laura Class Modifier [ShadowX39]
+048851F0 80B5XXXX
+
+Make Laura Player-controlled [ShadowX39]
+048851F4 8066B830
+
+Always have Laura at Level 19 with 99 Exp [ShadowX39]
+028851FE 00001363
+
+Laura's Skill Modifier [ShadowX39]
+04885244 XXXXXXXX
+0488524C XXXXXXXX
+04885254 XXXXXXXX
+0488525C XXXXXXXX
+04885264 XXXXXXXX
+0488526C XXXXXXXX
+
+Laura has SS Light [ShadowX39]
+048853E4 0000014B
+
+Laura has SS Staff [ShadowX39]
+048853E8 0000014B
+
+Meg Model Modifier [ShadowX39]
+048855DC XXXXXXXX
+
+Meg Class Modifier [ShadowX39]
+048855E0 80B5XXXX
+
+Make Meg Player-controlled [ShadowX39]
+048855E4 8066B830
+
+Always have Meg at Level 19 with 99 Exp [ShadowX39]
+028855EE 00001363
+
+Meg's Skill Modifier [ShadowX39]
+04885624 XXXXXXXX
+04885634 XXXXXXXX
+0488563C XXXXXXXX
+04885644 XXXXXXXX
+0488564C XXXXXXXX
+04885654 XXXXXXXX
+
+Meg has SS Sword + S Lance [ShadowX39]
+048857C4 014B00FB
+
+Meg has A Axe [ShadowX39]
+048857C8 00B50000
+
+Volug Model Modifier [ShadowX39]
+048859CC XXXXXXXX
+
+Volug Class Modifier [ShadowX39]
+048859D0 80B5XXXX
+
+Make Volug Player-controlled [ShadowX39]
+048859D4 8066B830
+
+Always have Volug at Level 39 with 99 Exp [ShadowX39]
+028859DE 00002763
+
+Volug's Skill Modifier [ShadowX39]
+04885A0C XXXXXXXX
+04885A24 XXXXXXXX
+04885A34 XXXXXXXX
+04885A3C XXXXXXXX
+04885A44 XXXXXXXX
+04885A4C XXXXXXXX
+
+Volug has SS Strike [ShadowX39]
+04885BBC 0000014B
+
+Volug has SS Level Fang [ShadowX39]
+04885A9C 80B628B0
+
+Tauroneo Model Modifier [ShadowX39]
+04885DBC XXXXXXXX
+
+Tauroneo Class Modifier [ShadowX39]
+04885DC0 80B5XXXX
+
+Make Tauroneo Player-controlled [ShadowX39]
+04885DC4 8066B830
+
+Always have Tauroneo at Level 19 with 99 Exp [ShadowX39]
+02885DCE 00001363
+
+Tauroneo's Skill Modifier [ShadowX39]
+04885DFC XXXXXXXX
+04885E0C XXXXXXXX
+04885E14 XXXXXXXX
+04885E1C XXXXXXXX
+04885E24 XXXXXXXX
+04885E2C XXXXXXXX
+
+Tauroneo has A Sword + SS Lance [ShadowX39]
+04885FA4 00B5014B
+
+Tauroneo has S Axe [ShadowX39]
+04885FA8 00FB0000
+
+Jill Model Modifier [ShadowX39]
+048861AC XXXXXXXX
+
+Jill Class Modifier [ShadowX39]
+048861B0 80B5XXXX
+
+Make Jill Player-controlled [ShadowX39]
+048861B4 8066B830
+
+Always have Jill at Level 19 with 99 Exp [ShadowX39]
+028861BE 00001363
+
+Jill's Skill Modifier [ShadowX39]
+048861FC XXXXXXXX
+04886204 XXXXXXXX
+0488620C XXXXXXXX
+04886214 XXXXXXXX
+0488621C XXXXXXXX
+04886224 XXXXXXXX
+
+Jill has S Lance [ShadowX39]
+04886394 000000FB
+
+Jill has SS Axe [ShadowX39]
+04886398 014B0000
+
+Zihark Model Modifier [ShadowX39]
+0488659C XXXXXXXX
+
+Zihark Class Modifier [ShadowX39]
+048865A0 80B5XXXX
+
+Make Zihark Player-controlled [ShadowX39]
+048865A4 8066B830
+
+Always have Zihark at Level 19 with 99 Exp [ShadowX39]
+028865AE 00001363
+
+Zihark's Skill Modifier [ShadowX39]
+048865DC XXXXXXXX
+048865EC XXXXXXXX
+048865F4 XXXXXXXX
+048865FC XXXXXXXX
+04886604 XXXXXXXX
+0488660C XXXXXXXX
+
+Zihark has SS Sword [ShadowX39]
+04886784 014B0000
+
+Rafiel Model Modifier [ShadowX39]
+0488698C XXXXXXXX
+
+Rafiel Class Modifier [ShadowX39]
+04886990 80B5XXXX
+
+Make Rafiel Player-controlled [ShadowX39]
+04886994 8066B830
+
+Always have Rafiel at Level 39 with 99 Exp [ShadowX39]
+0288699E 00002763
+
+Rafiel's Skill Modifier [ShadowX39]
+048869D4 XXXXXXXX
+048869E4 XXXXXXXX
+048869EC XXXXXXXX
+048869F4 XXXXXXXX
+048869FC XXXXXXXX
+04886A04 XXXXXXXX
+
+Micaiah Model Modifier [ShadowX39]
+04886D7C XXXXXXXX
+
+Micaiah Class Modifier [ShadowX39]
+04886D80 80B5XXXX
+
+Make Micaiah Player-controlled [ShadowX39]
+04886D84 8066B830
+
+Always have Micaiah at Level 19 with 99 Exp [ShadowX39]
+02886D8E 00001363
+
+Remove Micaiah's non-promote skill [ShadowX39]
+04886DE4 00000000
+This way Micaiah can level up to her next class!
+
+Remove Micaiah's non-promote skill again [ShadowX39]
+04886DEC 00000000
+This way Micaiah will level up to her final class!
+
+Micaiah's Skill Modifier [ShadowX39]
+04886DD4 XXXXXXXX
+04886DEC XXXXXXXX
+04886DF4 XXXXXXXX
+04886DFC XXXXXXXX
+04886E04 XXXXXXXX
+04886E0C XXXXXXXX
+
+Micaiah has SS Light [ShadowX39]
+04886F74 0000014B
+
+Micaiah has SS Staff [ShadowX39]
+04886F78 0000014B
+
+Edward Model Modifier [ShadowX39]
+0488716C XXXXXXXX
+
+Edward Class Modifier [ShadowX39]
+04887170 80B5XXXX
+
+Make Edward Player-controlled [ShadowX39]
+04887174 8066B830
+
+Always have Edward at Level 19 with 99 Exp [ShadowX39]
+0288717E 00001363
+
+Edward's Skill Modifier [ShadowX39]
+048871B4 XXXXXXXX
+048871C4 XXXXXXXX
+048871CC XXXXXXXX
+048871D4 XXXXXXXX
+048871DC XXXXXXXX
+048871E4 XXXXXXXX
+
+Edward has SS Sword [ShadowX39]
+04887354 014B0000
+
+Leonardo Model Modifier [ShadowX39]
+0488755C XXXXXXXX
+
+Leonardo Class Modifier [ShadowX39]
+04887560 80B5XXXX
+
+Make Leonardo Player-controlled [ShadowX39]
+04887564 8066B830
+
+Always have Leonardo at Level 19 with 99 Exp [ShadowX39]
+0288756E 00001363
+
+Leonardo's Skill Modifier [ShadowX39]
+048875A4 XXXXXXXX
+048875C4 XXXXXXXX
+048875CC XXXXXXXX
+048875D4 XXXXXXXX
+048875DC XXXXXXXX
+048875E4 XXXXXXXX
+
+Leonardo has SS Bow [ShadowX39]
+04887748 0000014B
+
+Nailah Model Modifier [ShadowX39]
+0488794C XXXXXXXX
+
+Nailah Class Modifier [ShadowX39]
+04887950 80B5XXXX
+
+Make Nailah Player-controlled [ShadowX39]
+04887954 8066B830
+
+Always have Nailah at Level 39 with 99 Exp [ShadowX39]
+0288795E 00002763
+
+Nailah's Skill Modifier [ShadowX39]
+04887994 XXXXXXXX
+0488799C XXXXXXXX
+048879B4 XXXXXXXX
+048879BC XXXXXXXX
+048879C4 XXXXXXXX
+048879CC XXXXXXXX
+
+Elincia Model Modifier [ShadowX39]
+04887D3C XXXXXXXX
+
+Elincia Class Modifier [ShadowX39]
+04887D40 80B5XXXX
+
+Make Elincia Player-controlled [ShadowX39]
+04887D44 8066B830
+
+Always have Elincia at Level 19 with 99 Exp [ShadowX39]
+02887D4E 00001363
+
+Elincia's Skill Modifier [ShadowX39]
+04887D94 XXXXXXXX
+04887DAC XXXXXXXX
+04887DB4 XXXXXXXX
+04887DC4 XXXXXXXX
+04887DCC XXXXXXXX
+04887DD4 XXXXXXXX
+
+Elincia has SS Sword [ShadowX39]
+04887F24 014B0000
+
+Elincia has S Staff [ShadowX39]
+04887F38 000000FB
+
+Marcia Model Modifier [ShadowX39]
+0488812C XXXXXXXX
+
+Marcia Class Modifier [ShadowX39]
+04888130 80B5XXXX
+
+Make Marcia Player-controlled [ShadowX39]
+04888134 8066B830
+
+Always have Marcia at Level 19 with 99 Exp [ShadowX39]
+0288813E 00001363
+
+Marcia's Skill Modifier [ShadowX39]
+0488818C XXXXXXXX
+04888194 XXXXXXXX
+0488819C XXXXXXXX
+048881A4 XXXXXXXX
+048881AC XXXXXXXX
+048881B4 XXXXXXXX
+
+Marcia has S Sword + SS Lance [ShadowX39]
+04888314 00FB014B
+
+Brom Model Modifier [ShadowX39]
+0488851C XXXXXXXX
+
+Brom Class Modifier [ShadowX39]
+04888520 80B5XXXX
+
+Make Brom Player-controlled [ShadowX39]
+04888524 8066B830
+
+Always have Brom at Level 19 with 99 Exp [ShadowX39]
+0288852E 00001363
+
+Brom's Skill Modifier [ShadowX39]
+0488855C XXXXXXXX
+0488856C XXXXXXXX
+04888574 XXXXXXXX
+0488857C XXXXXXXX
+04888584 XXXXXXXX
+0488858C XXXXXXXX
+
+Brom has S Sword + A Lance [ShadowX39]
+04888704 00FB00B5
+
+Brom has SS Axe [ShadowX39]
+04888708 014B0000
+
+The Black Knight/Dheginsea Model Modifier [ShadowX39]
+0488890C XXXXXXXX
+
+The Black Knight/Dheginsea Class Modifier [ShadowX39]
+04888910 80B5XXXX
+
+Make The Black Knight/Dheginsea Player-controlled [ShadowX39]
+04888914 8066B830
+This Black Knight will be taken over by Dheginsea in Rebirth(3)
+
+Always have The Black Knight at Level 19 with 99 Exp [ShadowX39]
+0288891E 00001363
+
+Always have at Level 39 with 99 Exp(for Dheginsea) [ShadowX39]
+0288891E 00002763
+
+Dheginsea/Black Knight's Skill Modifier [ShadowX39]
+04888954 XXXXXXXX
+0488895C XXXXXXXX
+04888964 XXXXXXXX
+0488896C XXXXXXXX
+04888974 XXXXXXXX
+0488897C XXXXXXXX
+
+The Black Knight has SS Lance [ShadowX39]
+04888AF4 014B014B
+
+Dheginsea/Black Knight Blessed Item Slot 1(For Breath) [ShadowX39]
+028889E0 00002790
+
+Nephenee Model Modifier [ShadowX39]
+04888CFC XXXXXXXX
+
+Nephenee Class Modifier [ShadowX39]
+04888D00 80B5XXXX
+
+Make Nephenee Player-controlled [ShadowX39]
+04888D04 8066B830
+
+Always have Nephenee at Level 19 with 99 Exp [ShadowX39]
+02888D0E 00001363
+
+Nephenee's Skill Modifier [ShadowX39]
+04888D44 XXXXXXXX
+04888D54 XXXXXXXX
+04888D5C XXXXXXXX
+04888D64 XXXXXXXX
+04888D6C XXXXXXXX
+04888D74 XXXXXXXX
+
+Nephenee has SS Lance [ShadowX39]
+04888EE4 0000014B
+
+Lucia Model Modifier [ShadowX39]
+048890EC XXXXXXXX
+
+Lucia Class Modifier [ShadowX39]
+048890F0 80B5XXXX
+
+Make Lucia Player-controlled [ShadowX39]
+048890F4 8066B830
+
+Always have Lucia at Level 19 with 99 Exp [ShadowX39]
+028890FE 00001363
+
+Change Lucia's Portrait [ShadowX39]
+0488916C 00000000
+Her portrait will change back to how she was before the haircut
+
+Lucia's Skill Modifier [ShadowX39]
+04889134 XXXXXXXX
+04889144 XXXXXXXX
+0488914C XXXXXXXX
+04889154 XXXXXXXX
+0488915C XXXXXXXX
+04889164 XXXXXXXX
+
+Lucia has SS Sword [ShadowX39]
+048892D4 014B0000
+
+Lethe Model Modifier [ShadowX39]
+048894DC XXXXXXXX
+
+Lethe Class Modifier [ShadowX39]
+048894E0 80B5XXXX
+
+Make Lethe Player-controlled [ShadowX39]
+048894E4 8066B830
+
+Always have Lethe at Level 39 with 99 Exp [ShadowX39]
+028894EE 00002763
+
+Lethe's Skill Modifier [ShadowX39]
+0488952C XXXXXXXX
+04889534 XXXXXXXX
+0488953C XXXXXXXX
+04889544 XXXXXXXX
+0488954C XXXXXXXX
+04889554 XXXXXXXX
+
+Lethe has SS Strike [ShadowX39]
+048896CC 0000014B
+
+Lethe has SS Level Claw [ShadowX39]
+048895AC 80B627C0
+
+Mordecai Model Modifier [ShadowX39]
+048898CC XXXXXXXX
+
+Mordecai Class Modifier [ShadowX39]
+048898D0 80B5XXXX
+
+Make Mordecai Player-controlled [ShadowX39]
+048898D4 8066B830
+
+Always have Mordecai at Level 39 with 99 Exp [ShadowX39]
+028898DE 00002763
+
+Mordecai's Skill Modifier [ShadowX39]
+0488990C XXXXXXXX
+0488991C XXXXXXXX
+04889924 XXXXXXXX
+0488992C XXXXXXXX
+04889934 XXXXXXXX
+0488993C XXXXXXXX
+
+Mordecai has SS Strike [ShadowX39]
+04889ABC 0000014B
+
+Mordecai has SS Level Fang [ShadowX39]
+0488999C 80B626D0
+
+Calill Model Modifier [ShadowX39]
+04889CBC XXXXXXXX
+
+Calill Class Modifier [ShadowX39]
+04889CC0 80B5XXXX
+
+Make Calill Player-controlled [ShadowX39]
+04889CC4 8066B830
+
+Always have Calill at Level 19 with 99 Exp [ShadowX39]
+02889CCE 00001363
+
+Calill's Skill Modifier [ShadowX39]
+04889D04 XXXXXXXX
+04889D1C XXXXXXXX
+04889D24 XXXXXXXX
+04889D2C XXXXXXXX
+04889D34 XXXXXXXX
+04889D3C XXXXXXXX
+
+Calill has SS Fire + S Thunder [ShadowX39]
+04889EB0 014B00FB
+
+Calill has S Wind [ShadowX39]
+04889EB4 00FB0000
+
+Calill has A Staff [ShadowX39]
+04889EB8 000000B5
+
+Sothe Model Modifier [ShadowX39]
+0488A0AC XXXXXXXX
+
+Sothe Class Modifier [ShadowX39]
+0488A0B0 80B5XXXX
+
+Make Sothe Player-controlled [ShadowX39]
+0488A0B4 8066B830
+
+Always have Sothe at Level 19 with 99 Exp [ShadowX39]
+0288A0BE 00001363
+
+Remove Sothe's non-promote skill [ShadowX39]
+0488A104 00000000
+This way Sothe can level up to his final class!
+
+Sothe's Skill Modifier [ShadowX39]
+0488A0F4 XXXXXXXX
+0488A10C XXXXXXXX
+0488A114 XXXXXXXX
+0488A11C XXXXXXXX
+0488A124 XXXXXXXX
+0488A12C XXXXXXXX
+
+Sothe has SS Knife [ShadowX39]
+0488A29C 014B0000
+
+Ike Model Modifier [ShadowX39]
+0488A49C XXXXXXXX
+
+Ike Class Modifier [ShadowX39]
+0488A4A0 80B5XXXX
+
+Make Ike Player-controlled [ShadowX39]
+0488A4A4 8066B830
+
+Always have Ike at Level 19 with 99 Exp [ShadowX39]
+0288A4AE 00001363
+
+Remove Ike's non-promote skill [ShadowX39]
+0488A4F4 00000000
+This way Ike will level up to his final class!
+
+Ike's Skill Modifier [ShadowX39]
+0488A4F4 XXXXXXXX
+0488A4FC XXXXXXXX
+0488A504 XXXXXXXX
+0488A50C XXXXXXXX
+0488A514 XXXXXXXX
+0488A51C XXXXXXXX
+
+Ike has SS Sword [ShadowX39]
+0488A684 014B0000
+
+Ike has SS Axe [ShadowX39]
+0488A688 014B0000
+
+Titania Model Modifier [ShadowX39]
+0488A88C XXXXXXXX
+
+Titania Class Modifier [ShadowX39]
+0488A890 80B5XXXX
+
+Make Titania Player-controlled [ShadowX39]
+0488A894 8066B830
+
+Always have Titania at Level 19 with 99 Exp [ShadowX39]
+0288A89E 00001363
+
+Titania's Skill Modifier [ShadowX39]
+0488A8D4 XXXXXXXX
+0488A8E4 XXXXXXXX
+0488A8EC XXXXXXXX
+0488A8F4 XXXXXXXX
+0488A8FC XXXXXXXX
+0488A904 XXXXXXXX
+
+Titania has A Sword [ShadowX39]
+0488AA74 00B50000
+
+Titania has SS Axe [ShadowX39]
+0488AA78 014B0000
+
+Soren Model Modifier [ShadowX39]
+0488AC7C XXXXXXXX
+
+Soren Class Modifier [ShadowX39]
+0488AC80 80B5XXXX
+
+Make Soren Player-controlled [ShadowX39]
+0488AC84 8066B830
+
+Always have Soren at Level 19 with 99 Exp [ShadowX39]
+0288AC8E 00001363
+
+Soren's Skill Modifier [ShadowX39]
+0488ACBC XXXXXXXX
+0488ACD4 XXXXXXXX
+0488ACDC XXXXXXXX
+0488ACE4 XXXXXXXX
+0488ACEC XXXXXXXX
+0488ACF4 XXXXXXXX
+
+Soren has S Fire + S Thunder [ShadowX39]
+0488AE70 00FB00FB
+
+Soren has SS Wind [ShadowX39]
+0488AE74 014B0000
+
+Soren has A Staff [ShadowX39]
+0488AE78 000000B5
+
+Mist Model Modifier [ShadowX39]
+0488B06C XXXXXXXX
+
+Mist Class Modifier [ShadowX39]
+0488B070 80B5XXXX
+
+Make Mist Player-controlled [ShadowX39]
+0488B074 8066B830
+
+Always have Mist at Level 19 with 99 Exp [ShadowX39]
+0288B07E 00001363
+
+Mist's Skill Modifier [ShadowX39]
+0488B0BC XXXXXXXX
+0488B0D4 XXXXXXXX
+0488B0DC XXXXXXXX
+0488B0E4 XXXXXXXX
+0488B0EC XXXXXXXX
+0488B0F4 XXXXXXXX
+
+Mist has SS Sword [ShadowX39]
+0488B254 014B0000
+
+Mist has S Staff [ShadowX39]
+0488B268 000000FB
+
+Rolf Model Modifier [ShadowX39]
+0488B45C XXXXXXXX
+
+Rolf Class Modifier [ShadowX39]
+0488B460 80B5XXXX
+
+Make Rolf Player-controlled [ShadowX39]
+0488B464 8066B830
+
+Always have Rolf at Level 19 with 99 Exp [ShadowX39]
+0288B46E 00001363
+
+Rolf's Skill Modifier [ShadowX39]
+0488B4C4 XXXXXXXX
+0488B4CC XXXXXXXX
+0488B4D4 XXXXXXXX
+0488B4DC XXXXXXXX
+0488B4E4 XXXXXXXX
+0488B4EC XXXXXXXX
+
+Rolf has SS Bow [ShadowX39]
+0488B648 0000014B
+
+Nealuchi Model Modifier [ShadowX39]
+0488B84C XXXXXXXX
+
+Nealuchi Class Modifier [ShadowX39]
+0488B850 80B5XXXX
+
+Make Nealuchi Player-controlled [ShadowX39]
+0488B854 8066B830
+
+Always have Nealuchi at Level 39 with 99 Exp [ShadowX39]
+0288B85E 00002763
+
+Nealuchi's Skill Modifier [ShadowX39]
+0488B88C XXXXXXXX
+0488B8AC XXXXXXXX
+0488B8B4 XXXXXXXX
+0488B8BC XXXXXXXX
+0488B8C4 XXXXXXXX
+0488B8CC XXXXXXXX
+
+Nealuchi has SS Strike [ShadowX39]
+0488BA3C 0000014B
+
+Nealuchi has SS Level Beak [ShadowX39]
+0488B91C 80B62C70
+
+Leanne Model Modifier [ShadowX39]
+0488BC3C XXXXXXXX
+
+Leanne Class Modifier [ShadowX39]
+0488BC40 80B5XXXX
+
+Make Leanne Player-controlled [ShadowX39]
+0488BC44 8066B830
+
+Always have Leanne at Level 39 with 99 Exp [ShadowX39]
+0288BC4E 00002763
+
+Leanne's Skill Modifier [ShadowX39]
+0488BC8C XXXXXXXX
+0488BCA4 XXXXXXXX
+0488BCAC XXXXXXXX
+0488BCB4 XXXXXXXX
+0488BCBC XXXXXXXX
+0488BCC4 XXXXXXXX
+
+Haar Model Modifier [ShadowX39]
+0488C02C XXXXXXXX
+
+Haar Class Modifier [ShadowX39]
+0488C030 80B5XXXX
+
+Make Haar Player-controlled [ShadowX39]
+0488C034 8066B830
+
+Always have Haar at Level 19 with 99 Exp [ShadowX39]
+0288C03E 00001363
+
+Haar's Skill Modifier [ShadowX39]
+0488C06C XXXXXXXX
+0488C084 XXXXXXXX
+0488C08C XXXXXXXX
+0488C094 XXXXXXXX
+0488C09C XXXXXXXX
+0488C0A4 XXXXXXXX
+
+Haar has S Lance [ShadowX39]
+0488C214 000000FB
+
+Haar has SS Axe [ShadowX39]
+0488C218 014B0000
+
+Ilyana Model Modifier [ShadowX39]
+0488C41C XXXXXXXX
+
+Ilyana Class Modifier [ShadowX39]
+0488C420 80B5XXXX
+
+Make Ilyana Player-controlled [ShadowX39]
+0488C424 8066B830
+
+Always have Ilyana at Level 19 with 99 Exp [ShadowX39]
+0288C42E 00001363
+
+Ilyana's Skill Modifier [ShadowX39]
+0488C464 XXXXXXXX
+0488C47C XXXXXXXX
+0488C484 XXXXXXXX
+0488C48C XXXXXXXX
+0488C494 XXXXXXXX
+0488C49C XXXXXXXX
+
+Ilyana has S Fire + SS Thunder [ShadowX39]
+0488C610 00FB014B
+
+Ilyana has S Wind [ShadowX39]
+0488C614 00FB0000
+
+Ilyana has A Staff [ShadowX39]
+0488C618 000000B5
+
+Boyd Model Modifier [ShadowX39]
+0488C80C XXXXXXXX
+
+Boyd Class Modifier [ShadowX39]
+0488C810 80B5XXXX
+
+Make Boyd Player-controlled [ShadowX39]
+0488C814 8066B830
+
+Always have Boyd at Level 19 with 99 Exp [ShadowX39]
+0288C81E 00001363
+
+Boyd's Skill Modifier [ShadowX39]
+0488C864 XXXXXXXX
+0488C86C XXXXXXXX
+0488C874 XXXXXXXX
+0488C87C XXXXXXXX
+0488C884 XXXXXXXX
+0488C88C XXXXXXXX
+
+Boyd has SS Axe [ShadowX39]
+0488C9F8 014B0000
+
+Oscar Model Modifier [ShadowX39]
+0488CBFC XXXXXXXX
+
+Oscar Class Modifier [ShadowX39]
+0488CC00 80B5XXXX
+
+Make Oscar Player-controlled [ShadowX39]
+0488CC04 8066B830
+
+Always have Oscar at Level 19 with 99 Exp [ShadowX39]
+0288CC0E 00001363
+
+Oscar's Skill Modifier [ShadowX39]
+0488CC4C XXXXXXXX
+0488CC54 XXXXXXXX
+0488CC5C XXXXXXXX
+0488CC64 XXXXXXXX
+0488CC6C XXXXXXXX
+0488CC74 XXXXXXXX
+
+Oscar has SS Lance [ShadowX39]
+0488CDE4 0000014B
+
+Oscar has A Bow [ShadowX39]
+0488CDE8 000000B5
+
+Shinon Model Modifier [ShadowX39]
+0488CFEC XXXXXXXX
+
+Shinon Class Modifier [ShadowX39]
+0488CFF0 80B5XXXX
+
+Make Shinon Player-controlled [ShadowX39]
+0488CFF4 8066B830
+
+Always have Shinon at Level 19 with 99 Exp [ShadowX39]
+0288CFFE 00001363
+
+Shinon's Skill Modifier [ShadowX39]
+0488D02C XXXXXXXX
+0488D054 XXXXXXXX
+0488D05C XXXXXXXX
+0488D064 XXXXXXXX
+0488D06C XXXXXXXX
+0488D074 XXXXXXXX
+
+Shinon has SS Bow [ShadowX39]
+0488D1D8 0000014B
+
+Gatrie Model Modifier [ShadowX39]
+0488D3DC XXXXXXXX
+
+Gatrie Class Modifier [ShadowX39]
+0488D3E0 80B5XXXX
+
+Make Gatrie Player-controlled [ShadowX39]
+0488D3E4 8066B830
+
+Always have Gatrie at Level 19 with 99 Exp [ShadowX39]
+0288D3EE 00001363
+
+Gatrie's Skill Modifier [ShadowX39]
+0488D424 XXXXXXXX
+0488D42C XXXXXXXX
+0488D434 XXXXXXXX
+0488D43C XXXXXXXX
+0488D444 XXXXXXXX
+0488D44C XXXXXXXX
+
+Gatrie has A Sword + SS Lance [ShadowX39]
+0488D5C4 00B5014B
+
+Gatrie has S Axe [ShadowX39]
+0488D5C8 00FB0000
+
+Aran Model Modifier [ShadowX39]
+0488D7CC XXXXXXXX
+
+Aran Class Modifier [ShadowX39]
+0488D7D0 80B5XXXX
+
+Make Aran Player-controlled [ShadowX39]
+0488D7D4 8066B830
+
+Always have Aran at Level 19 with 99 Exp [ShadowX39]
+0288D7DE 00001363
+
+Aran's Skill Modifier [ShadowX39]
+0488D814 XXXXXXXX
+0488D81C XXXXXXXX
+0488D824 XXXXXXXX
+0488D82C XXXXXXXX
+0488D834 XXXXXXXX
+0488D83C XXXXXXXX
+
+Aran has SS Lance [ShadowX39]
+0488D9B4 0000014B
+
+Rhys Model Modifier [ShadowX39]
+0488DBBC XXXXXXXX
+
+Rhys Class Modifier [ShadowX39]
+0488DBC0 80B5XXXX
+
+Make Rhys Player-controlled [ShadowX39]
+0488DBC4 8066B830
+
+Always have Rhys at Level 19 with 99 Exp [ShadowX39]
+0288DBCE 00001363
+
+Rhys's Skill Modifier [ShadowX39]
+0488DC0C XXXXXXXX
+0488DC14 XXXXXXXX
+0488DC1C XXXXXXXX
+0488DC24 XXXXXXXX
+0488DC2C XXXXXXXX
+0488DC34 XXXXXXXX
+
+Rhys has SS Light [ShadowX39]
+0488DDB4 0000014B
+
+Rhys has SS Staff [ShadowX39]
+0488DDB8 0000014B
+
+Heather Model Modifier [ShadowX39]
+0488DFAC XXXXXXXX
+
+Heather Class Modifier [ShadowX39]
+0488DFB0 80B5XXXX
+
+Make Heather Player-controlled [ShadowX39]
+0488DFB4 8066B830
+
+Always have Heather at Level 19 with 99 Exp [ShadowX39]
+0288DFBE 00001363
+
+Heather's Skill Modifier [ShadowX39]
+0488DFFC XXXXXXXX
+0488E014 XXXXXXXX
+0488E01C XXXXXXXX
+0488E024 XXXXXXXX
+0488E02C XXXXXXXX
+0488E034 XXXXXXXX
+
+Heather has SS Knife [ShadowX39]
+0488E19C 014B0000
+
+Mia Model Modifier [ShadowX39]
+0488E39C XXXXXXXX
+
+Mia Class Modifier [ShadowX39]
+0488E3A0 80B5XXXX
+
+Make Mia Player-controlled [ShadowX39]
+0488E3A4 8066B830
+
+Always have Mia at Level 19 with 99 Exp [ShadowX39]
+0288E3AE 00001363
+
+Mia's Skill Modifier [ShadowX39]
+0488E3E4 XXXXXXXX
+0488E3F4 XXXXXXXX
+0488E3FC XXXXXXXX
+0488E404 XXXXXXXX
+0488E40C XXXXXXXX
+0488E414 XXXXXXXX
+
+Mia has SS Sword [ShadowX39]
+0488E584 014B0000
+
+Lyre Model Modifier [ShadowX39]
+0488E78C XXXXXXXX
+
+Lyre Class Modifier [ShadowX39]
+0488E790 80B5XXXX
+
+Make Lyre Player-controlled [ShadowX39]
+0488E794 8066B830
+
+Always have Lyre at Level 39 with 99 Exp [ShadowX39]
+0288E79E 00002763
+
+Lyre's Skill Modifier [ShadowX39]
+0488E7DC XXXXXXXX
+0488E7E4 XXXXXXXX
+0488E7EC XXXXXXXX
+0488E7F4 XXXXXXXX
+0488E7FC XXXXXXXX
+0488E804 XXXXXXXX
+
+Lyre has SS Strike [ShadowX39]
+0488E97C 0000014B
+
+Lyre has SS Level Claw [ShadowX39]
+0488E85C 80B627C0
+
+Ranulf Model Modifier [ShadowX39]
+0488EB7C XXXXXXXX
+
+Ranulf Class Modifier [ShadowX39]
+0488EB80 80B5XXXX
+
+Make Ranulf Player-controlled [ShadowX39]
+0488EB84 8066B830
+
+Always have Ranulf at Level 39 with 99 Exp [ShadowX39]
+0288EB8E 00002763
+
+Ranulf's Skill Modifier [ShadowX39]
+0488EBC4 XXXXXXXX
+0488EBCC XXXXXXXX
+0488EBD4 XXXXXXXX
+0488EBDC XXXXXXXX
+0488EBE4 XXXXXXXX
+0488EBEC XXXXXXXX
+
+Ranulf has SS Strike [ShadowX39]
+0488ED6C 0000014B
+
+Ranulf has SS Level Claw [ShadowX39]
+0488EC4C 80B627C0
+
+Kyza Model Modifier [ShadowX39]
+0488EF6C XXXXXXXX
+
+Kyza Class Modifier [ShadowX39]
+0488EF70 80B5XXXX
+
+Make Kyza Player-controlled [ShadowX39]
+0488EF74 8066B830
+
+Always have Kyza at Level 39 with 99 Exp [ShadowX39]
+0288EF7E 00002763
+
+Kyza's Skill Modifier [ShadowX39]
+0488EFAC XXXXXXXX
+0488EFBC XXXXXXXX
+0488EFC4 XXXXXXXX
+0488EFCC XXXXXXXX
+0488EFD4 XXXXXXXX
+0488EFDC XXXXXXXX
+
+Kyza has SS Strike [ShadowX39]
+0488F15C 0000014B
+
+Kyza has SS Level Fang [ShadowX39]
+0488F03C 80B626D0
+
+Reyson Model Modifier [ShadowX39]
+0488F35C XXXXXXXX
+
+Reyson Class Modifier [ShadowX39]
+0488F360 80B5XXXX
+
+Make Reyson Player-controlled [ShadowX39]
+0488F364 8066B830
+
+Always have Reyson at Level 39 with 99 Exp [ShadowX39]
+0288F36E 00002763
+
+Reyson's Skill Modifier [ShadowX39]
+0488F39C XXXXXXXX
+0488F3B4 XXXXXXXX
+0488F3BC XXXXXXXX
+0488F3C4 XXXXXXXX
+0488F3CC XXXXXXXX
+0488F3D4 XXXXXXXX
+
+Tormod Model Modifier [ShadowX39]
+0488F74C XXXXXXXX
+
+Tormod Class Modifier [ShadowX39]
+0488F750 80B5XXXX
+
+Make Tormod Player-controlled [ShadowX39]
+0488F754 8066B830
+
+Always have Tormod at Level 19 with 99 Exp [ShadowX39]
+0288F75E 00001363
+
+Tormod's Skill Modifier [ShadowX39]
+0488F78C XXXXXXXX
+0488F7A4 XXXXXXXX
+0488F7AC XXXXXXXX
+0488F7B4 XXXXXXXX
+0488F7BC XXXXXXXX
+0488F7C4 XXXXXXXX
+
+Tormod has SS Fire + S Thunder [ShadowX39]
+0488F940 014B00FB
+
+Tormod has S Wind [ShadowX39]
+0488F944 00FB0000
+
+Tormod has A Staff [ShadowX39]
+0488F948 000000B5
+
+Muarim Model Modifier [ShadowX39]
+0488FB3C XXXXXXXX
+
+Muarim Class Modifier [ShadowX39]
+0488FB40 80B5XXXX
+
+Make Muarim Player-controlled [ShadowX39]
+0488FB44 8066B830
+
+Always have Muarim at Level 39 with 99 Exp [ShadowX39]
+0288FB4E 00002763
+
+Muarim's Skill Modifier [ShadowX39]
+0488FB84 XXXXXXXX
+0488FB8C XXXXXXXX
+0488FB94 XXXXXXXX
+0488FB9C XXXXXXXX
+0488FBA4 XXXXXXXX
+0488FBAC XXXXXXXX
+
+Muarim has SS Strike [ShadowX39]
+0488FD2C 0000014B
+
+Muarim has SS Level Fang [ShadowX39]
+0488FC0C 80B626D0
+
+Vika Model Modifier [ShadowX39]
+0488FF2C XXXXXXXX
+
+Vika Class Modifier [ShadowX39]
+0488FF30 80B5XXXX
+
+Make Vika Player-controlled [ShadowX39]
+0488FF34 8066B830
+
+Always have Vika at Level 39 with 99 Exp [ShadowX39]
+0288FF3E 00002763
+
+Vika's Skill Modifier [ShadowX39]
+0488FF74 XXXXXXXX
+0488FF8C XXXXXXXX
+0488FF94 XXXXXXXX
+0488FF9C XXXXXXXX
+0488FFA4 XXXXXXXX
+0488FFAC XXXXXXXX
+
+Vika has SS Strike [ShadowX39]
+0489011C 0000014B
+
+Vika has SS Level Beak [ShadowX39]
+0488FFFC 80B62C70
+
+Fiona Model Modifier [ShadowX39]
+0489031C XXXXXXXX
+
+Fiona Class Modifier [ShadowX39]
+04890320 80B5XXXX
+
+Make Fiona Player-controlled [ShadowX39]
+04890324 8066B830
+
+Always have Fiona at Level 19 with 99 Exp [ShadowX39]
+0289032E 00001363
+
+Fiona's Skill Modifier [ShadowX39]
+04890364 XXXXXXXX
+0489036C XXXXXXXX
+04890374 XXXXXXXX
+0489037C XXXXXXXX
+04890384 XXXXXXXX
+0489038C XXXXXXXX
+
+Fiona has SS Lance [ShadowX39]
+04890504 0000014B
+
+Fiona has A Bow [ShadowX39]
+04890508 000000B5
+
+Sigrun Model Modifier [ShadowX39]
+0489070C XXXXXXXX
+
+Sigrun Class Modifier [ShadowX39]
+04890710 80B5XXXX
+
+Make Sigrun Player-controlled [ShadowX39]
+04890714 8066B830
+
+Always have Sigrun at Level 19 with 99 Exp [ShadowX39]
+0289071E 00001363
+
+Sigrun's Skill Modifier [ShadowX39]
+0489076C XXXXXXXX
+04890774 XXXXXXXX
+0489077C XXXXXXXX
+04890784 XXXXXXXX
+0489078C XXXXXXXX
+04890794 XXXXXXXX
+
+Sigrun has S Sword + SS Lance [ShadowX39]
+048908F4 00FB014B
+
+Tanith Model Modifier [ShadowX39]
+04890AFC XXXXXXXX
+
+Tanith Class Modifier [ShadowX39]
+04890B00 80B5XXXX
+
+Make Tanith Player-controlled [ShadowX39]
+04890B04 8066B830
+
+Always have Tanith at Level 19 with 99 Exp [ShadowX39]
+02890B0E 00001363
+
+Tanith's Skill Modifier [ShadowX39]
+04890B5C XXXXXXXX
+04890B64 XXXXXXXX
+04890B6C XXXXXXXX
+04890B74 XXXXXXXX
+04890B7C XXXXXXXX
+04890B84 XXXXXXXX
+
+Tanith has S Sword + SS Lance [ShadowX39]
+04890CE4 00FB014B
+
+Sanaki Model Modifier [ShadowX39]
+04890EEC XXXXXXXX
+
+Sanaki Class Modifier [ShadowX39]
+04890EF0 80B5XXXX
+
+Make Sanaki Player-controlled [ShadowX39]
+04890EF4 8066B830
+
+Always have Sanaki at Level 19 with 99 Exp [ShadowX39]
+02890EFE 00001363
+
+Sanaki's Skill Modifier [ShadowX39]
+04890F4C XXXXXXXX
+04890F54 XXXXXXXX
+04890F5C XXXXXXXX
+04890F64 XXXXXXXX
+04890F6C XXXXXXXX
+04890F74 XXXXXXXX
+
+Sanaki has SS Fire + S Thunder [ShadowX39]
+048910E0 014B00FB
+
+Sanaki has S Wind + S Light [ShadowX39]
+048910E4 00FB00FB
+
+Naesala Model Modifier [ShadowX39]
+048912DC XXXXXXXX
+
+Naesala Class Modifier [ShadowX39]
+048912E0 80B5XXXX
+
+Make Naesala Player-controlled [ShadowX39]
+048912E4 8066B830
+
+Always have Naesala at Level 39 with 99 Exp [ShadowX39]
+028912EE 00002763
+
+Naesala's Skill Modifier [ShadowX39]
+0489131C XXXXXXXX
+04891324 XXXXXXXX
+0489133C XXXXXXXX
+04891344 XXXXXXXX
+0489134C XXXXXXXX
+04891354 XXXXXXXX
+
+Naesala has SS Strike [ShadowX39]
+048914CC 0000014B
+
+Naesala has SS Level Great Beak [ShadowX39]
+048913AC 80B62D60
+
+Bastian Model Modifier [ShadowX39]
+048916CC XXXXXXXX
+
+Bastian Class Modifier [ShadowX39]
+048916D0 80B5XXXX
+
+Make Bastian Player-controlled [ShadowX39]
+048916D4 8066B830
+
+Always have Bastian at Level 19 with 99 Exp [ShadowX39]
+028916DE 00001363
+
+Bastian's Skill Modifier [ShadowX39]
+0489170C XXXXXXXX
+04891724 XXXXXXXX
+0489172C XXXXXXXX
+04891734 XXXXXXXX
+0489173C XXXXXXXX
+04891744 XXXXXXXX
+
+Bastian has S Fire + S Thunder [ShadowX39]
+048918C0 00FB00FB
+
+Bastian has SS Wind [ShadowX39]
+048918C4 014B0000
+
+Bastian has A Staff [ShadowX39]
+048918C8 000000B5
+
+Oliver Model Modifier [ShadowX39]
+04891ABC XXXXXXXX
+
+Oliver Class Modifier [ShadowX39]
+04891AC0 80B5XXXX
+
+Make Oliver Player-controlled [ShadowX39]
+04891AC4 8066B830
+
+Always have Oliver at Level 19 with 99 Exp [ShadowX39]
+02891ACE 00001363
+
+Oliver's Skill Modifier [ShadowX39]
+04891B0C XXXXXXXX
+04891B14 XXXXXXXX
+04891B1C XXXXXXXX
+04891B24 XXXXXXXX
+04891B2C XXXXXXXX
+04891B34 XXXXXXXX
+
+Oliver has SS Light [ShadowX39]
+04891CB4 0000014B
+
+Oliver has SS Staff [ShadowX39]
+04891CB8 0000014B
+
+Volke Model Modifier [ShadowX39]
+04891EAC XXXXXXXX
+
+Volke Class Modifier [ShadowX39]
+04891EB0 80B5XXXX
+
+Make Volke Player-controlled [ShadowX39]
+04891EB4 8066B830
+
+Always have Volke at Level 19 with 99 Exp [ShadowX39]
+02891EBE 00001363
+
+Volke's Skill Modifier [ShadowX39]
+04891EF4 XXXXXXXX
+04891F04 XXXXXXXX
+04891F0C XXXXXXXX
+04891F14 XXXXXXXX
+04891F1C XXXXXXXX
+04891F24 XXXXXXXX
+
+Caineghis Model Modifier [ShadowX39]
+0489229C XXXXXXXX
+
+Caineghis Class Modifier [ShadowX39]
+048922A0 80B5XXXX
+
+Make Caineghis Player-controlled [ShadowX39]
+048922A4 8066B830
+
+Always have Caineghis at Level 39 with 99 Exp [ShadowX39]
+028922AE 00002763
+
+Caineghis's Skill Modifier [ShadowX39]
+048922DC XXXXXXXX
+048922EC XXXXXXXX
+048922F4 XXXXXXXX
+048922FC XXXXXXXX
+04892304 XXXXXXXX
+0489230C XXXXXXXX
+
+Giffca Model Modifier [ShadowX39]
+0489268C XXXXXXXX
+
+Giffca Class Modifier [ShadowX39]
+04892690 80B5XXXX
+
+Make Giffca Player-controlled [ShadowX39]
+04892694 8066B830
+
+Always have Giffca at Level 39 with 99 Exp [ShadowX39]
+0289269E 00002763
+
+Giffca's Skill Modifier [ShadowX39]
+048926CC XXXXXXXX
+048926DC XXXXXXXX
+048926E4 XXXXXXXX
+048926EC XXXXXXXX
+048926F4 XXXXXXXX
+048926FC XXXXXXXX
+
+Kurthnaga Model Modifier [ShadowX39]
+04892A7C XXXXXXXX
+
+Kurthnaga Class Modifier [ShadowX39]
+04892A80 80B5XXXX
+
+Make Kurthnaga Player-controlled [ShadowX39]
+04892A84 8066B830
+
+Always have Kurthnaga at Level 39 with 99 Exp [ShadowX39]
+02892A8E 00002763
+
+Kurthnaga's Skill Modifier [ShadowX39]
+04892ABC XXXXXXXX
+04892ACC XXXXXXXX
+04892AD4 XXXXXXXX
+04892ADC XXXXXXXX
+04892AE4 XXXXXXXX
+04892AEC XXXXXXXX
+
+Kurthnaga has SS Strike [ShadowX39]
+04892C6C 0000014B
+
+Kurthnaga has SS Level Breath [ShadowX39]
+04892B4C 80B63030
+
+Ena Model Modifier [ShadowX39]
+04892E6C XXXXXXXX
+
+Ena Class Modifier [ShadowX39]
+04892E70 80B5XXXX
+
+Make Ena Player-controlled [ShadowX39]
+04892E74 8066B830
+
+Always have Ena at Level 39 with 99 Exp [ShadowX39]
+02892E7E 00002763
+
+Ena's Skill Modifier [ShadowX39]
+04892EB4 XXXXXXXX
+04892EBC XXXXXXXX
+04892EC4 XXXXXXXX
+04892ECC XXXXXXXX
+04892EDC XXXXXXXX
+04892EE4 XXXXXXXX
+
+Ena has SS Strike [ShadowX39]
+0489305C 0000014B
+
+Ena has SS Level Breath [ShadowX39]
+04892F3C 80B62E50
+
+Renning Model Modifier [ShadowX39]
+0489325C XXXXXXXX
+
+Renning Class Modifier [ShadowX39]
+04893260 80B5XXXX
+
+Make Renning Player-controlled [ShadowX39]
+04893264 8066B830
+
+Always have Renning at Level 19 with 99 Exp [ShadowX39]
+0289326E 00001363
+
+Renning's Skill Modifier [ShadowX39]
+048932AC XXXXXXXX
+048932B4 XXXXXXXX
+048932BC XXXXXXXX
+048932C4 XXXXXXXX
+048932CC XXXXXXXX
+048932D4 XXXXXXXX
+
+Geoffrey Model Modifier [ShadowX39]
+0489364C XXXXXXXX
+
+Geoffrey Class Modifier [ShadowX39]
+04893650 80B5XXXX
+
+Make Geoffrey Player-controlled [ShadowX39]
+04893654 8066B830
+
+Always have Geoffrey at Level 19 with 99 Exp [ShadowX39]
+0289365E 00001363
+
+Geoffrey's Skill Modifier [ShadowX39]
+0489368C XXXXXXXX
+0489369C XXXXXXXX
+048936A4 XXXXXXXX
+048936AC XXXXXXXX
+048936B4 XXXXXXXX
+048936BC XXXXXXXX
+
+Geoffrey has SS Lance [ShadowX39]
+04893834 0000014B
+
+Geoffrey has A Bow [ShadowX39]
+04893838 000000B5
+
+Kieran Model Modifier [ShadowX39]
+04893A3C XXXXXXXX
+
+Kieran Class Modifier [ShadowX39]
+04893A40 80B5XXXX
+
+Make Kieran Player-controlled [ShadowX39]
+04893A44 8066B830
+
+Always have Kieran at Level 19 with 99 Exp [ShadowX39]
+02893A4E 00001363
+
+Kieran's Skill Modifier [ShadowX39]
+04893A7C XXXXXXXX
+04893A8C XXXXXXXX
+04893A94 XXXXXXXX
+04893A9C XXXXXXXX
+04893AA4 XXXXXXXX
+04893AAC XXXXXXXX
+
+Kieran has A Sword [ShadowX39]
+04893C24 00B50000
+
+Kieran has SS Axe [ShadowX39]
+04893C28 014B0000
+
+Astrid Model Modifier [ShadowX39]
+04893E2C XXXXXXXX
+
+Astrid Class Modifier [ShadowX39]
+04893E30 80B5XXXX
+
+Make Astrid Player-controlled [ShadowX39]
+04893E34 8066B830
+
+Always have Astrid at Level 19 with 99 Exp [ShadowX39]
+02893E3E 00001363
+
+Astrid's Skill Modifier [ShadowX39]
+04893E74 XXXXXXXX
+04893E84 XXXXXXXX
+04893E8C XXXXXXXX
+04893E94 XXXXXXXX
+04893E9C XXXXXXXX
+04893EA4 XXXXXXXX
+
+Astrid has A Lance [ShadowX39]
+04894014 000000B5
+
+Astrid has SS Bow [ShadowX39]
+04894018 0000014B
+
+Makalov Model Modifier [ShadowX39]
+0489421C XXXXXXXX
+
+Makalov Class Modifier [ShadowX39]
+04894220 80B5XXXX
+
+Make Makalov Player-controlled [ShadowX39]
+04894224 8066B830
+
+Always have Makalov at Level 19 with 99 Exp [ShadowX39]
+0289422E 00001363
+
+Makalov's Skill Modifier [ShadowX39]
+04894264 XXXXXXXX
+0489426C XXXXXXXX
+04894274 XXXXXXXX
+0489427C XXXXXXXX
+04894284 XXXXXXXX
+0489428C XXXXXXXX
+
+Makalov has SS Sword [ShadowX39]
+04894404 014B0000
+
+Makalov has A Axe [ShadowX39]
+04894408 00B50000
+
+Danved Model Modifier [ShadowX39]
+0489460C XXXXXXXX
+
+Danved Class Modifier [ShadowX39]
+04894610 80B5XXXX
+
+Make Danved Player-controlled [ShadowX39]
+04894614 8066B830
+
+Always have Danved at Level 19 with 99 Exp [ShadowX39]
+0289461E 00001363
+
+Danved's Skill Modifier [ShadowX39]
+04894654 XXXXXXXX
+0489465C XXXXXXXX
+04894664 XXXXXXXX
+0489466C XXXXXXXX
+04894674 XXXXXXXX
+0489467C XXXXXXXX
+
+Danved has SS Lance [ShadowX39]
+048947F4 0000014B
+
+The Black Knight Model Modifier [ShadowX39]
+048949FC XXXXXXXX
+
+The Black Knight Class Modifier [ShadowX39]
+04894A00 80B5XXXX
+
+Make The Black Knight Player-controlled [ShadowX39]
+04894A04 8066B830
+This is for the Rebirth(2) Black Knight
+Also from this point on, units appear in the game's memory one after another. So, if you did not want to recruit the Black Knight, then Nasir will be here instead. Or if you want Levail, he will be in Nasir's spot until he dies, etc.
+
+Always have Black Knight at Level 19 with 99 Exp [ShadowX39]
+02894A0E 00001363
+
+Black Knight's Skill Modifier [ShadowX39]
+04894A4C XXXXXXXX
+04894A54 XXXXXXXX
+04894A5C XXXXXXXX
+04894A6C XXXXXXXX
+04894A74 XXXXXXXX
+04894A7C XXXXXXXX
+
+Black Knight has SS Lance [ShadowX39]
+04894BE4 014B014B
+
+Nasir Model Modifier [ShadowX39]
+04894DEC XXXXXXXX
+
+Nasir Class Modifier [ShadowX39]
+04894DF0 80B5XXXX
+
+Make Nasir Player-controlled [ShadowX39]
+04894DF4 8066B830
+
+Always have Nasir at Level 39 with 99 Exp [ShadowX39]
+02894DFE 00002763
+
+Nasir's Skill Modifier [ShadowX39]
+04894E2C XXXXXXXX
+04894E34 XXXXXXXX
+04894E3C XXXXXXXX
+04894E4C XXXXXXXX
+04894E54 XXXXXXXX
+04894E5C XXXXXXXX
+
+Nasir has SS Strike [ShadowX39]
+04894FDC 0000014B
+
+Nasir has SS Level Breath [ShadowX39]
+04894EBC 80B62F40
+
+Gareth Model Modifier [ShadowX39]
+048951DC XXXXXXXX
+
+Gareth Class Modifier [ShadowX39]
+048951E0 80B5XXXX
+
+Make Gareth Player-controlled [ShadowX39]
+048951E4 8066B830
+
+Always have Gareth at Level 39 with 99 Exp [ShadowX39]
+028951EE 00002763
+
+Gareth's Skill Modifier [ShadowX39]
+0489521C XXXXXXXX
+0489522C XXXXXXXX
+04895234 XXXXXXXX
+0489523C XXXXXXXX
+04895244 XXXXXXXX
+0489524C XXXXXXXX
+
+Gareth has SS Strike [ShadowX39]
+048953CC 0000014B
+
+Gareth has SS Level Breath [ShadowX39]
+048952AC 80B62E50
+
+Sephiran Model Modifier [ShadowX39]
+048955CC XXXXXXXX
+
+Sephiran Class Modifier [ShadowX39]
+048955D0 80B5XXXX
+
+Make Sephiran Player-controlled [ShadowX39]
+048955D4 8066B830
+
+Always have Sephiran at Level 19 with 99 Exp [ShadowX39]
+028955DE 00001363
+
+Sephiran's Skill Modifier [ShadowX39]
+0489561C XXXXXXXX
+04895634 XXXXXXXX
+0489563C XXXXXXXX
+0489564C XXXXXXXX
+04895654 XXXXXXXX
+0489565C XXXXXXXX
+
+Sephiran Blessed Item Slot 1 [ShadowX39]
+028956A0 00002790
+
+Ashera Model Modifier [ShadowX39]
+048959BC XXXXXXXX
+
+Ashera Class Modifier [ShadowX39]
+048959C0 80B5XXXX
+
+Make Ashera Player-controlled [ShadowX39]
+048959C4 8066B830
+
+Always have Ashera at Level 19 with 99 Exp [ShadowX39]
+028959CE 00001363
+
+Ashera's Skill Modifier [ShadowX39]
+04895A14 XXXXXXXX
+04895A34 XXXXXXXX
+04895A3C XXXXXXXX
+04895A44 XXXXXXXX
+04895A4C XXXXXXXX
+04895A54 XXXXXXXX
+
+Ashera Blessed Item Slot 1 [ShadowX39]
+02895A90 00002790
+
+Ashera has Maxed Stats [ShadowX39]
+048959E8 07002A23
+048959EC 0A0A0A0F
+
+Order Incarnate Aura 1 Model Modifier [ShadowX39]
+04895DAC XXXXXXXX
+
+Order Incarnate Aura 1 Class Modifier [ShadowX39]
+04895DB0 80B5XXXX
+
+Make Order Incarnate Aura 1 Player-controlled [ShadowX39]
+04895DB4 8066B830
+
+Always have it at Level 19 with 99 Exp [ShadowX39]
+02895DBE 00001363
+
+Order Incarnate Aura 2 Model Modifier [ShadowX39]
+0489619C XXXXXXXX
+
+Order Incarnate Aura 2 Class Modifier [ShadowX39]
+048961A0 80B5XXXX
+
+Make Order Incarnate Aura 2 Player-controlled [ShadowX39]
+048961A4 8066B830
+
+Always have it at Level 19 with 99 Exp [ShadowX39]
+028961AE 00001363
+
+Order Incarnate Aura 3 Model Modifier [ShadowX39]
+0489658C XXXXXXXX
+
+Order Incarnate Aura 3 Class Modifier [ShadowX39]
+04896590 80B5XXXX
+
+Make Order Incarnate Aura 3 Player-controlled [ShadowX39]
+04896594 8066B830
+
+Always have it at Level 19 with 99 Exp [ShadowX39]
+0289659E 00001363
+
+Order Incarnate Aura 4 Model Modifier [ShadowX39]
+0489697C XXXXXXXX
+
+Order Incarnate Aura 4 Class Modifier [ShadowX39]
+04896980 80B5XXXX
+
+Make Order Incarnate Aura 4 Player-controlled [ShadowX39]
+04896984 8066B830
+
+Always have it at Level 19 with 99 Exp [ShadowX39]
+0289698E 00001363
+
+Fire Spirit Model Modifier [ShadowX39]
+04896D6C XXXXXXXX
+
+Fire Spirit Class Modifier [ShadowX39]
+04896D70 80B5XXXX
+
+Make Fire Spirit Player-controlled [ShadowX39]
+04896D74 8066B830
+for Rebirth(5) the first one
+
+Always have it at Level 19 with 99 Exp [ShadowX39]
+02896D7E 00001363
+
+Thunder Spirit Model Modifier [ShadowX39]
+0489715C XXXXXXXX
+
+Thunder Spirit Class Modifier [ShadowX39]
+04897160 80B5XXXX
+
+Make Thunder Spirit Player-controlled [ShadowX39]
+04897164 8066B830
+for Rebirth(5) the first one
+
+Always have it at Level 19 with 99 Exp [ShadowX39]
+0289716E 00001363
+
+Wind Spirit Model Modifier [ShadowX39]
+0489754C XXXXXXXX
+
+Wind Spirit Class Modifier [ShadowX39]
+04897550 80B5XXXX
+
+Make Wind Spirit Player-controlled [ShadowX39]
+04897554 8066B830
+for Rebirth(5) the first one
+
+Always have it at Level 19 with 99 Exp [ShadowX39]
+0289755E 00001363
+
+Order Incarnate Aura 5 Model Modifier [ShadowX39]
+0489793C XXXXXXXX
+
+Order Incarnate Aura 5 Class Modifier [ShadowX39]
+04897940 80B5XXXX
+
+Make Order Incarnate Aura 5 Player-controlled [ShadowX39]
+04897944 8066B830
+
+Always have it at Level 19 with 99 Exp [ShadowX39]
+0289794E 00001363
+
+Order Incarnate Aura 6 Model Modifier [ShadowX39]
+04897D2C XXXXXXXX
+
+Order Incarnate Aura 6 Class Modifier [ShadowX39]
+04897D30 80B5XXXX
+
+Make Order Incarnate Aura 6 Player-controlled [ShadowX39]
+04897D34 8066B830
+
+Always have it at Level 19 with 99 Exp [ShadowX39]
+02897D3E 00001363
+
+Order Incarnate Aura 7 Model Modifier [ShadowX39]
+0489811C XXXXXXXX
+
+Order Incarnate Aura 7 Class Modifier [ShadowX39]
+04898120 80B5XXXX
+
+Make Order Incarnate Aura 7 Player-controlled [ShadowX39]
+04898124 8066B830
+
+Always have it at Level 19 with 99 Exp [ShadowX39]
+0289812E 00001363
+
+Order Incarnate Aura 8 Model Modifier [ShadowX39]
+0489850C XXXXXXXX
+
+Order Incarnate Aura 8 Class Modifier [ShadowX39]
+04898510 80B5XXXX
+
+Make Order Incarnate Aura 8 Player-controlled [ShadowX39]
+04898514 8066B830
+
+Always have it at Level 19 with 99 Exp [ShadowX39]
+0289851E 00001363
+
+Janaff Model Modifier [ShadowX39]
+0489AC6C XXXXXXXX
+
+Janaff Class Modifier [ShadowX39]
+0489AC70 80B5XXXX
+
+Make Janaff Player-controlled [ShadowX39]
+0489AC74 8066B830
+
+Always have Janaff at Level 39 with 99 Exp [ShadowX39]
+0289AC7E 00002763
+
+Janaff's Skill Modifier [ShadowX39]
+0489ACAC XXXXXXXX
+0489ACC4 XXXXXXXX
+0489ACCC XXXXXXXX
+0489ACD4 XXXXXXXX
+0489ACDC XXXXXXXX
+0489ACE4 XXXXXXXX
+
+Janaff has SS Strike [ShadowX39]
+0489AE5C 0000014B
+
+Janaff has SS Level Talon [ShadowX39]
+0489AD3C 80B62A90
+
+Ulki Model Modifier [ShadowX39]
+0489B05C XXXXXXXX
+
+Ulki Class Modifier [ShadowX39]
+0489B060 80B5XXXX
+
+Make Ulki Player-controlled [ShadowX39]
+0489B064 8066B830
+
+Always have Ulki at Level 39 with 99 Exp [ShadowX39]
+0289B06E 00002763
+
+Ulki's Skill Modifier [ShadowX39]
+0489B09C XXXXXXXX
+0489B0B4 XXXXXXXX
+0489B0BC XXXXXXXX
+0489B0C4 XXXXXXXX
+0489B0CC XXXXXXXX
+0489B0D4 XXXXXXXX
+
+Ulki has SS Strike [ShadowX39]
+0489B24C 0000014B
+
+Ulki has SS Level Talon [ShadowX39]
+0489B12C 80B62A90
+
+Stefan Model Modifier [ShadowX39]
+048A1AAC XXXXXXXX
+
+Stefan Class Modifier [ShadowX39]
+048A1AB0 80B5XXXX
+
+Make Stefan Player-controlled [ShadowX39]
+048A1AB4 8066B830
+
+Always have Stefan at Level 19 with 99 Exp [ShadowX39]
+028A1ABE 00001363
+
+Stefan's Skill Modifier [ShadowX39]
+048A1AF4 XXXXXXXX
+048A1AFC XXXXXXXX
+048A1B04 XXXXXXXX
+048A1B0C XXXXXXXX
+048A1B14 XXXXXXXX
+048A1B1C XXXXXXXX
+
+Pelleas Model Modifier [ShadowX39]
+048A228C XXXXXXXX
+
+Pelleas Class Modifier [ShadowX39]
+048A2290 80B5XXXX
+
+Make Pelleas Player-controlled [ShadowX39]
+048A2294 8066B830
+
+Always have Pelleas at Level 19 with 99 Exp [ShadowX39]
+028A229E 00001363
+
+Pelleas's Skill Modifier [ShadowX39]
+048A22CC XXXXXXXX
+048A22E4 XXXXXXXX
+048A22EC XXXXXXXX
+048A22F4 XXXXXXXX
+048A22FC XXXXXXXX
+048A2304 XXXXXXXX
+
+Pelleas has S Thunder [ShadowX39]
+048A2480 000000FB
+
+Pelleas has SS Dark + S Staff [ShadowX39]
+048A2488 014B00FB
+
+Skrimir Model Modifier [ShadowX39]
+048A420C XXXXXXXX
+
+Skrimir Class Modifier [ShadowX39]
+048A4210 80B5XXXX
+
+Make Skrimir Player-controlled [ShadowX39]
+048A4214 8066B830
+
+Always have Skrimir at Level 39 with 99 Exp [ShadowX39]
+028A421E 00002763
+
+Skrimir's Skill Modifier [ShadowX39]
+048A424C XXXXXXXX
+048A4254 XXXXXXXX
+048A4264 XXXXXXXX
+048A426C XXXXXXXX
+048A4274 XXXXXXXX
+048A427C XXXXXXXX
+
+Skrimir has SS Strike [ShadowX39]
+048A43FC 0000014B
+
+Skrimir has SS Level Fang [ShadowX39]
+048A42DC 80B624F0
+
+Tibarn Model Modifier [ShadowX39]
+048A45FC XXXXXXXX
+
+Tibarn Class Modifier [ShadowX39]
+048A4600 80B5XXXX
+
+Make Tibarn Player-controlled [ShadowX39]
+048A4604 8066B830
+
+Always have Tibarn at Level 39 with 99 Exp [ShadowX39]
+028A460E 00002763
+
+Tibarn's Skill Modifier [ShadowX39]
+048A463C XXXXXXXX
+048A4644 XXXXXXXX
+048A465C XXXXXXXX
+048A4664 XXXXXXXX
+048A466C XXXXXXXX
+048A4674 XXXXXXXX
+I should make a note, these are the results I got for playing the game on normal mode with widescreen on. Certain units like Ulki and Janaff might appear in a later spot in data depending on how many units you defeated on the map. I'll point out though that every unit up to the last Aura are in 1 slot after another from each other. Look at the values for each unit starting from Nolan's codes and down and you'll notice they are 3EC(hex) values away from each other. I hope this helps you understand a little about how the slots work! These will also prove useful or any other difficulty, they just might appear in slightly earlier or later spots in the data
+
+Put these at the end of any of the "player-controlled" codes to change what side they're on.
+48 = other
+54 = partner
+3C = enemy
+30 = player
+Also, the skill modifier codes are in slots, the first line is slot 1 down to slot 6. There are even more slots, only 8 values ahead of each other
+
+Class Values(credit goes to Wooster for finding them)
+3F90 - Hero
+40AC - Vanguard
+41C8 - Myrmidon
+42E4 - Swordmaster - Male
+4400 - Swordmaster - Female
+451C - Swordmaster - Disciples of Order
+4638 - Trueblade - Male
+4754 - Trueblade - Female
+4870 - Solider
+498C - Halberdier - Male
+4AA8 - Halberdier - Female
+4BC4 - Halberdier - Disciples of Order
+4CE0 - Sentinel - Male
+4DFC - Sentinel - Female
+4F18 - Fighter
+5034 - Warrior
+5150 - Warrior - Disciples of Order
+526C - Reaver
+5388 - Archer
+54A4 - Sniper
+55C0 - Sniper - Disciples of Order
+56DC - Marksman
+57F8 - Armor Lance
+5914 - Armor Axe
+5A30 - Armor Sword - Male
+5B4C - Armor Sword - Female
+5C68 - Lance General
+5D84 - Axe General
+5EA0 - Sword General - Male
+5FBC - Sword General - Female
+60D8 - Lance General - Disciples of Order
+61F4 - Axe General - Disciples of Order
+6310 - Sword General - Disciples of Order
+642C - Marshal - Lance
+6548 - Marshal - Axe
+6664 - Marshal - Sword
+6780 - Marshal - Zelgius
+689C - Black Knight
+69B8 - Theif
+6AD4 - Rogue - Male
+6BF0 - Rogue - Female
+6D0C - Whisper - Male
+6E28 - Whisper - Female
+6F44 - Assassin
+7060 - Bandit
+717C - Fire Mage
+7298 - Thunder Mage - Male
+73B4 - Thunder Mage - Female
+74D0 - Wind Mage
+75EC - Light Mage
+7708 - Fire Sage - Male
+7824 - Fire Sage - Female
+7940 - Thunder Sage - Male
+7A5C - Thunder Sage - Female
+7B78 - Wind Sage
+7C94 - Light Sage
+7DB0 - Dark Sage
+7ECC - Fire Sage - Disciples of Order
+7FE8 - Thunder Sage - Disciples of Order
+8104 - Wind Sage - Disciples of Order
+8220 - Arch Sage - Fire Male
+833C - Arch Sage - Fire Female
+8458 - Arch Sage - Dark
+8574 - Arch Sage - Thunder
+8690 - Arch Sage - Wind
+87AC - Light Priestess
+88C8 - Empress
+89E4 - Chancellor
+8B00 - Druid
+8C1C - Druid - Disciples of Order
+8D38 - Summoner
+8E54 - Priest - Male
+8F70 - Priest - Female
+908C - Bishop - Male
+91A8 - Bishop - Female
+92C4 - Bishop - Valtome/Numida/Disciples of Order
+93E0 - Saint - Male
+94FC - Saint - Female
+9618 - Saint - Lekain
+9734 - Cleric
+9850 - Valkyrie
+996C - Sword Knight
+9A88 - Lance Knight - Male
+9BA4 - Lance Knight - Female
+9CC0 - Axe Knight
+9DDC - Bow Knight
+9EF8 - Blade Paladin
+A014 - Lance Paladin - Male
+A130 - Lance Paladin - Female
+A24C - Axe Paladin - Male
+A368 - Axe Paladin - Female
+A484 - Bow Paladin - Male
+A5A0 - Bow Paladin - Female
+A6BC - Blade Paladin - Disciples of Order
+A7D8 - Lance Paladin - Disciples of Order
+A8F4 - Axe Paladin - Disciples of Order
+AA10 - Bow Paladin - Disciples of Order
+AB2C - Gold Knight - Sword
+AC48 - Gold Knight - Axe Male
+AD64 - Gold Knight - Axe Female
+AE80 - Silver Knight - Lance Male
+AF9C - Silver Knight - Lance Female
+B0B8 - Silver Knight - Bow
+B1D4 - Pegasus Knight
+B2F0 - Falcon Knight
+B40C - Falcon Knight - Disciples of Order
+B528 - Seraph Knight
+B644 - Queen
+B760 - Draco Knight - Male
+B87C - Draco Knight - Female
+B998 - Dragonmaster - Male
+BAB4 - Dragonmaster - Female
+BBD0 - Dragonmaster - Disciples of Order
+BCEC - Dragon Lord - Male
+BE08 - Dragon Lord - Female
+BF24 - Lion - Red Untransformed
+C040 - Lion - Red Transformed
+C15C - Lion - Black Untransformed
+C278 - Lion - Black Transformed
+C394 - Lion King - Untransformed
+C4B0 - Lion King - Transformed
+C5CC - Tiger - Untransformed
+C6E8 - Tiger - Transformed
+C804 - Cat - Male Untransformed
+C920 - Cat - Male Transformed
+CA3C - Cat - Female Untransformed
+CB58 - Cat - Female Transformed
+CC74 - Wolf - Untransformed
+CD90 - Wolf - Transformed
+CEAC - Wolf Queen - Untransformed
+CFC8 - Wolf Queen - Transformed
+D0E4 - Hawk - Untransformed
+D200 - Hawk - Transformed
+D31C - Hawk King - Untransformed
+D438 - Hawk King - Transformed
+D554 - Raven - Male Untransformed
+D670 - Raven - Male Transformed
+D78C - Raven - Female Untransformed
+D8A8 - Raven - Female Transformed
+D9C4 - Raven King - Untransformed
+DAE0 - Raven King - Transformed
+DBFC - Heron - Reyson Untransformed
+DD18 - Heron - Reyson Transformed
+DE34 - Heron - Rafiel Untransformed
+DF50 - Heron - Rafiel Transformed
+E06C - Heron - Leanne Untransformed
+E188 - Heron - Leanne Transformed
+E2A4 - Red Dragon - Male Untransformed
+E3C0 - Red Dragon - Male Transformed
+E4DC - Red Dragon - Female Untransformed
+E5F8 - Red Dragon - Female Transformed
+E714 - White Dragon - Untransformed
+E830 - White Dragon - Transformed
+E94C - Dragon King - Untransformed
+EA68 - Dragon King - Transformed
+EB84 - Dragon Prince - Untransformed
+ECA0 - Dragon Prince - Transformed
+EDBC - Spirit - Fire
+EED8 - Spirit - Thunder
+EFF4 - Spirit - Wind
+F110 - Order Incarnate - Aura
+F22C - Order Incarnate - Ashera
+F348 - Pilgrim
+F464 - Vendor
+F580 - Citizen - Old Man
+F69C - Citizen - Male
+F7B8 - Citizen - Female
+F8D4 - Citizen - Child Male
+F9F0 - Citizen - Child Female
+FB0C - Horse
+FC28 - Hero - Can have an SS Rank in all types
+You can transform your unit's class to any of these. I suggest not touching the Spirits or Auras. Changing a Unit's Class will make them have the same exact stat caps, movement, height, and weight as that certain class. It will only show the weapon ranks of what the unit you change has normally, unless you increase the ranks of all types to SS - that way you can have an SS rank in any type to change to. it's possible to make units with only an A rank of a weapon type to SS due to changing to classes with an SS rank in that type
+
+Model Values
+808C3570 Ike
+808C366C Izuka
+808C3768 Ena
+808C3864 Ilyana
+808C3960 Danved
+808C3A5C Ulki
+808C3B58 Edward
+808C3C54 Elincia
+808C3D50 Lehran
+808C3E4C Oscar
+808C3F48 Oliver
+808C4044 Volug
+808C4140 Caineghis
+808C423C Gatrie
+808C4338 Calill
+808C4434 Kyza
+808C4530 Rhys
+808C462C Kurthnaga
+808C4728 Kieran
+808C4824 Gareth
+808C4920 Sothe
+808C4A1C Sanaki
+808C4B18 Sigrun
+808C4C14 The Black Knight
+808C4D10 The Black Knight
+808C4E0C Shinon
+808C4F08 Giffca [ShadowX39]
+808C5004 Geoffrey
+808C5100 Jill
+808C51FC Skrimir
+808C52F8 Astrid
+808C53F4 Soren [ShadowX39]
+808C54F0 Sephiran
+808C55EC Zelgius
+808C56E8 Stefan [ShadowX39]
+808C57E4 Tauroneo
+808C58E0 Tanith
+808C59DC Brom
+808C5AD8 Zihark
+808C5BD4 Titania
+808C5CD0 Tibarn
+808C5DCC Dheginsea
+808C5EC8 Tormod
+808C5FC4 Nasir [ShadowX39]
+808C60C0 Nealuchi
+808C61BC Nailah
+808C62B8 Naesala [ShadowX39]
+808C63B4 Nephenee
+808C64B0 Nolan
+808C65AC Haar
+808C66A8 Vika
+808C67A4 Volke
+808C68A0 Aran
+808C699C Fiona
+808C6A98 Heather
+808C6B94 Hetzel
+808C6C90 Pelleas
+808C6D8C Boyd
+808C6E88 Marcia
+808C6F84 Makalov
+808C7080 Micaiah
+808C717C Mist
+808C7278 Muarim
+808C7374 Meg [ShadowX39]
+808C7470 Mordecai
+808C756C Janaff
+808C7668 Bastian
+808C7764 Rolf
+808C7860 Ranulf
+808C795C Rafiel
+808C7A58 Leanne
+808C7B54 Lyre
+808C7C50 Reyson
+808C7D4C Lekain
+808C7E48 Lucia [ShadowX39]
+808C7F44 Leonardo
+808C8040 Lethe
+808C813C Renning
+808C8238 Laura
+808C8334 Mia
+808C8430 Kurth
+808C852C Aimee
+808C8628 Levail
+808C8724 Bandit
+808C8820 Bandit
+808C891C Bandit
+808C8A18 Bandit
+808C8B14 Bandit
+808C8C10 Begnion
+808C8D0C Begnion
+808C8E08 Begnion
+808C8F04 Begnion
+808C9000 Begnion
+808C90FC Begnion
+808C91F8 Begnion
+808C92F4 Begnion
+808C93F0 Begnion
+808C94EC Begnion
+808C95E8 Begnion
+808C96E4 Begnion
+808C97E0 Begnion
+808C98DC Begnion
+808C99D8 Begnion
+808C9AD4 Begnion
+808C9BD0 Begnion
+808C9CCC Begnion
+808C9DC8 Begnion
+808C9EC4 Begnion
+808C9FC0 Begnion
+808CA0BC Begnion
+808CA1B8 Begnion
+808CA2B4 Begnion
+808CA3B0 Begnion
+808CA4AC Begnion
+808CA5A8 Begnion
+808CA6A4 Begnion
+808CA7A0 Begnion
+808CA89C Begnion
+808CA998 Begnion
+808CAA94 Begnion
+808CAB90 Begnion
+808CAC8C Begnion
+808CAD88 Begnion
+808CAE84 Begnion
+808CAF80 Culbert
+808CB07C Culbert
+808CB178 Culbert
+808CB274 Culbert
+808CB370 Culbert
+808CB46C Culbert
+808CB568 Culbert
+808CB664 Culbert
+808CB760 Culbert
+808CB85C Culbert
+808CB958 Culbert
+808CBA54 Culbert
+808CBB50 Culbert
+808CBC4C Daein - Soldier
+808CBD48 Daein - Archer
+808CBE44 Daein - Armor Lance
+808CBF40 Daein - Armor Axe
+808CC03C Daein - Armor Sword
+808CC138 Daein - Sword Knight
+808CC234 Daein - Lance Knight
+808CC330 Daein - Axe Knight
+808CC42C Daein - Bow Knight
+808CC528 Daein - Draco Knight
+808CC624 Daein
+808CC720 Daein
+808CC81C Daein
+808CC918 Daein
+808CCA14 Daein
+808CCB10 Daein
+808CCC0C Daein
+808CCD08 Daein
+808CCE04 Daein
+808CCF00 Daein
+808CCFFC Daein
+808CD0F8 Daein
+808CD1F4 Daein
+808CD2F0 Daein
+808CD3EC Daein
+808CD4E8 Daein
+808CD5E4 Daein
+808CD6E0 Daein
+808CD7DC Daein
+808CD8D8 Daein
+808CD9D4 Daein
+808CDAD0 Daein
+808CDBCC Daein
+808CDCC8 Crimea - Soldier
+808CDDC4 Crimea - Archer
+808CDEC0 Crimea - Armor Lance
+808CDFBC Crimea - Armor Axe
+808CE0B8 Crimea - Armor Sword
+808CE1B4 Crimea - Sword Knight
+808CE2B0 Crimea - Lance Knight
+808CE3AC Crimea - Axe Knight
+808CE4A8 Crimea - Bow Knight
+808CE5A4 Crimea
+808CE6A0 Crimea
+808CE79C Crimea
+808CE898 Crimea
+808CE994 Crimea
+808CEA90 Crimea
+808CEB8C Crimea
+808CEC88 Crimea
+808CED84 Crimea
+808CEE80 Crimea
+808CEF7C Crimea
+808CF078 Crimea
+808CF174 Crimea
+808CF270 Crimea
+808CF36C Crimea
+808CF468 Crimea
+808CF564 Crimea
+808CF660 Crimea
+808CF75C Crimea
+808CF858 Crimea
+808CF954 Crimea
+808CFA50 Crimea
+808CFB4C Rebel - Soldier
+808CFC48 Rebel - Archer
+808CFD44 Rebel - Armor Lance
+808CFE40 Rebel - Armor Axe
+808CFF3C Rebel - Armor Sword
+808D0038 Rebel - Sword Knight
+808D0134 Rebel - Lance Knight
+808D0230 Rebel - Axe Knight
+808D032C Rebel - Bow Knight
+808D0428 Rebel
+808D0524 Rebel
+808D0620 Rebel
+808D071C Rebel - Soldier
+808D0818 Rebel - Archer
+808D0914 Rebel
+808D0A10 Rebel
+808D0B0C Rebel - Armor Lance
+808D0C08 Rebel - Armor Axe
+808D0D04 Rebel - Armor Sword
+808D0E00 Rebel - Sword Knight
+808D0EFC Rebel - Lance Knight
+808D0FF8 Rebel - Axe Knight
+808D10F4 Rebel - Bow Knight
+808D11F0 Rebel
+808D12EC Rebel
+808D13E8 Rebel
+808D14E4 Rebel
+808D15E0 Rebel
+808D16DC Rebel
+808D17D8 Rebel
+808D18D4 Rebel
+808D19D0 Rebel
+808D1ACC Rebel
+808D1BC8 Rebel
+808D1CC4 Rebel
+808D1DC0 Rebel
+808D1EBC Rebel
+808D1FB8 Rebel
+808D20B4 Rebel
+808D21B0 Rebel
+808D22AC Rebel
+808D23A8 Rebel
+808D24A4 Rebel
+808D25A0 Order
+808D269C Order
+808D2798 Order
+808D2894 Order
+808D2990 Order
+808D2A8C Order
+808D2B88 Order
+808D2C84 Order
+808D2D80 Order
+808D2E7C Order
+808D2F78 Order
+808D3074 Order
+808D3170 Order
+808D326C Order
+808D3368 Order
+808D3464 Order
+808D3560 Order
+808D365C Order
+808D3758 Fire Spirit
+808D3854 Thunder Spirit
+808D3950 Wind Spirit
+808D3A4C Aura
+808D3B48 Ashera
+808D3C44 Gallia
+808D3D40 Gallia
+808D3E3C Phoenicis
+808D3F38 Kilvas
+808D4034 Goldoa
+808D4130 Goldoa
+808D422C Feral Ones
+808D4328 Feral Ones
+808D4424 Feral Ones
+808D4520 Feral Ones
+808D461C Feral Ones
+808D4718 Pugo
+808D4814 Isaiya
+808D4910 Zaitan
+808D4A0C Burton
+808D4B08 Pain
+808D4C04 Agony
+808D4D00 Wystan [ShadowX39]
+808D4DFC Laverton
+808D4EF8 Djur
+808D4FF4 Radmin
+808D50F0 Jarod
+808D51EC Zeffren [ShadowX39]
+808D52E8 Yeardley
+808D53E4 Maraj [ShadowX39]
+808D54E0 Tashoria
+808D55DC Ludveck
+808D56D8 Silvano
+808D57D4 Rommit
+808D58D0 Istvan
+808D59CC Veyona
+808D5AC8 Callum [ShadowX39]
+808D5BC4 Lombroso
+808D5CC0 Kezhda [ShadowX39]
+808D5DBC Septimus
+808D5EB8 Roark
+808D5FB4 Sergei
+808D60B0 Goran
+808D61AC Yuma [ShadowX39]
+808D62A8 Catalena
+808D63A4 Valtome
+808D64A0 Numida
+808D659C Marado Kn - Sword Knight
+808D6698 Marado Kn - Lance Knight
+808D6794 Marado Kn - Axe Knight
+808D6890 Marado Kn - Bow Knight
+808D698C Begnion
+808D6A88 Grandfather
+808D6B84 Lady
+808D6C80 Boy
+808D6D7C Girl
+808D6E78 Senator
+808D6F74 Soldier [ShadowX39]
+808D7070 Ex-Daein
+808D716C Prisoner
+808D7268 Rebel
+808D7364 Citizen
+808D7460 Horse
+808D755C Ally
+808D7658 Enemy
+808D7754 Other
+808D7850 Ally
+808D794C Enemy
+808D7A48 Enemy
+808D7B44 Ally
+808D7C40 Ally
+808D7D3C Enemy
+808D7E38 Ally
+808D7F34 Ally
+808D8030 Enemy
+808D812C Ally
+808D8228 Enemy
+808D8324 Ally
+808D8420 Ally
+808D851C Enemy
+808D8618 Ally
+808D8714 Ally
+808D8810 Partner
+808D890C Enemy
+808D8A08 Enemy
+808D8B04 Ally
+808D8C00 Enemy
+808D8CFC Partner
+808D8DF8 Ally
+808D8EF4 Enemy
+808D8FF0 Enemy
+808D90EC Ally
+808D91E8 Ally
+808D92E4 Ally
+808D93E0 Enemy
+808D94DC Other
+808D95D8 Ike - Starting from here are body types used in the story only
+808D96D4 Titania
+808D97D0 Edward
+808D98CC Boyd
+808D99C8 Daein
+808D9AC4 Gatrie
+808D9BC0 Rhys [ShadowX39]
+808D9CBC Leonardo
+808D9DB8 Oscar
+808D9EB4 Micaiah
+808D9FB0 Sothe
+808DA0AC Marcia
+808DA1A8 Ranulf
+808DA2A4 Muarim
+808DA3A0 Janaff
+808DA49C Reyson
+808DA598 Ena
+808DA694 MPID_EVTEST
+808DA790 MPID_EVTEST
+808DA88C Boy
+808DA988 Boy
+808DAA84 Boy
+808DAB80 Nico
+808DAC7C Girl
+808DAD78 Girl
+808DAE74 Girl
+808DAF70 Girl
+808DB06C MPID_SITIZEN
+808DB168 MPID_SITIZEN
+808DB264 MPID_SITIZEN
+808DB360 MPID_SITIZEN
+808DB45C MPID_SITIZENF
+808DB558 MPID_SITIZENF
+808DB654 MPID_SITIZENF
+808DB750 MPID_SITIZENF
+808DB84C Grandfather
+808DB948 MPID_SITIZEN_L
+808DBA44 dummy
+808DBB40 dummy(Sothe)
+808DBC3C dummy(Sothe)
+808DBD38 dummy(Sothe)
+808DBE34 dummy(Sothe)
+808DBF30 dummy(Sothe)
+808DC02C dummy(Ike)
+808DC128 dummy(Ike)
+808DC224 dummy(Ike)
+808DC320 MPID_MIST_EV(Mist)
+808DC41C dummy(Ike)
+808DC518 dummy(Micaiah)
+808DC614 dummy(Tauroneo)
+808DC710 dummy(Sephiran)
+808DC80C dummy(Zelgius)
+808DC908 MPID_ZELGIUS_BAR_EV(Zelgius)
+808DCA04 dummy(Greil)
+808DCB00 dummy(Elena)
+808DCBFC dummy(Almedha)
+808DCCF8 dummy(Almedha)
+808DCDF4 dummy(Tibarn)
+808DCEF0 MPID_VULCI_EV(Ulki)
+808DCFEC MPID_MIST_EV(Mist)
+808DD0E8 Lethe
+808DD1E4 Lyre
+808DD2E0 dummy(Renning)
+808DD3DC dummy(Renning)
+808DD4D8 dummy(Jill)
+808DD5D4 MPID_S_SIGRUN_EV(Sigrun)
+808DD6D0 MPID_SIGRUN_EV(Sigrun)
+808DD7CC MPID_TANIS_EV(Tanith)
+808DD8C8 MPID_GEOFFRAY_EV(Geoffrey)
+808DD9C4 MPID_ERINCIA_EV(Elincia)
+808DDAC0 MPID_TIAMAT_EV(Titania)
+808DDBBC MPID_MIST_EV(Mist)
+808DDCB8 MPID_E_PEGASUS_EV
+808DDDB4 MPID_CHAP_EV(Brom)
+808DDEB0 MPID_GEORGE_EV
+808DDFAC MPID_DANIEL_EV
+808DE0A8 MPID_MUSTON_EV
+808DE1A4 MPID_PRIEST2_G
+808DE2A0 Renning - Portraits only from here on
+808DE39C Gawain
+808DE498 Greil
+808DE594 Elena
+808DE690 Bertram
+808DE78C Bryce
+808DE888 Petrine
+808DE984 Ashnard
+808DEA80 Rajaion
+808DEB7C Misaha
+808DEC78 Lanvega
+808DED74 Muston
+808DEE70 Aimee
+808DEF6C Daniel
+808DF068 Jorge
+808DF164 Devdan
+808DF260 Largo
+808DF35C Amy [ShadowX39]
+808DF458 Lorazieh
+808DF554 Almedha
+808DF650 Kurth
+808DF74C Lillia
+808DF848 Yune
+808DF944 Ike
+808DFA40 Ike
+After activating this code, go to the "Guide" option and click whichever guide - once there, Quit it and return to the map. Example: By activating the Zelgius class + Zelgius model code it will take effect and you will now have Zelgius along with his stats, supports and portrait in visible form. The Weapon Ranks follow, you just have to make your unit have a rank in their weapon types. The Biorhythm is put in a different spot in the unit's data so that won't follow. You can also do this at a base, save and then the next time you load your save they will be this new unit
+
+Skill Values:
+00000000 Removes Skill
+8070ED94 Skill that allows you to command units
+8070EDC0 Skill that tells game you're a Female Unit-all females have it
+8070EDEC Skill that tells game you're a 2nd Class Unit-2nd class units always have it
+8070EE18 Skill that tells game you're a 3rd Class Unit-3rd class units always have it
+8070EE44 Laguz Transform Gauge(This is needed for all Laguz)-Laguz already have this skill
+8070EE70 Transformed Laguz Gauge(This is needed for transformed Laguz)-Laguz already have this skill when transformed
+8070EE9C Feral One Gauge(constantly transformed)
+8070EEC8 Volug's halfshift Gauge(constantly transformed)
+8070EEF4 Makes you a Boss Unit-enemy bosses have these
+8070EF20 Judge usable - Will also allow any Laguz to attack in human form
+8070EF4C Allows your Flying Unit to fly over terrain
+8070EF78 Prevents you from teaching the Unit Imbue
+8070EFA4 Destroy Village Skill
+8070EFD0 Allows any Unit to climb
+8070EFFC Allows to shoot on Ballista, etc.
+8070F028 Open locked chests/doors free
+8070F054 Open locked chests/doors 50 Gold fee
+8070F080 50% of finding hidden items on ground
+8070F0AC Spirit Teleport 1(looks similar to Sephiran's warp)
+8070F0D8 Spirit Teleport 2(having this on with #1 is the true Spirit Movement)
+8070F104 Marksman 3 Range Ability
+8070F130 Can Equip Swords
+8070F15C Can Equip Lances
+8070F188 Can Equip Axes
+8070F1B4 Can Equip Bows
+8070F1E0 Crossbows usable
+8070F20C Can Equip Knives
+8070F238 Can Equip Thunder, Fire, Wind Magic
+8070F264 Can Equip Light Magic
+8070F290 Can Equip Dark Magic
+8070F2BC Can Equip Staves
+8070F2E8 Ragnell + Ettard usable
+8070F314 Florete usable
+8070F340 Amiti usable
+8070F36C Thani usable
+8070F398 Cymbeline usable
+8070F3C4 Creiddylad usable
+8070F3F0 Caladbolg usable
+8070F41C Lughnasadh usable
+8070F448 Tarvos usable
+8070F4A0 No Damage when attacked
+8070F4CC Unit won't attack, Enemy will
+8070F524 Unit cannot be attacked
+8070F550 Always live with 1 HP(the skill that keeps Ashera alive)
+8070F57C Spirits Guard Skill
+8070F684 Forces the battle to be on Map Only(From the Spirits)
+8070F6B0 Ashera/Aura Camera Angle
+8070F6DC Dheginsea Camera Angle
+8070F708 Lucia's Cut Hair Portrait
+8070F734 Non-promote skill
+8070F760 Triangle Attack(Elincia, Marcia, Tanith and Sigrun version)
+8070F78C Triangle Attack(Boyd, Rolf and Oscar version)
+8070F7B8 Triangle Attack(a third one, not sure whose yet)
+8070F7E4 Glowing Ragnell/Yune's Blessing(will make Ike's body glow, only the sword for others - those who don't have sword animations will do a T Stand)
+8070F810 Canto
+8070F83C Shove
+8070F868 Steal
+8070F894 Galdrar
+8070F8C0 Crit +5
+8070F8EC Crit +10
+8070F918 Crit +15
+8070F944 Crit +20
+8070F970 Crit +25
+8070F99C Aurora
+8070F9C8 Formshift
+8070F9F4 Aether
+8070FA20 Astra
+8070FA4C Impale [ShadowX39]
+8070FA78 Colossus
+8070FAA4 Deadeye
+8070FAD0 Luna
+8070FAFC Eclipse
+8070FB28 Bane
+8070FB54 Lethality
+8070FB80 Flare
+8070FBAC Corona
+8070FBD8 Sol
+8070FC04 Stun
+8070FC30 Roar
+8070FC5C Rend
+8070FC88 Savage
+8070FCB4 Tear
+8070FCE0 Ire
+8070FD0C Sacrifice
+8070FD38 Glare
+8070FD64 Insight
+8070FD90 Vigilance
+8070FDBC Mantle
+8070FDE8 Wildheart
+8070FE14 Howl
+8070FE40 Shriek
+8070FE6C Quickclaw
+8070FE98 Maelstrom
+8070FEC4 Wildheart [ShadowX39]
+8070FEF0 Blessing
+8070FF1C Boon
+8070FF48 Blood Tide
+8070FF74 White Pool
+8070FFA0 Night Tide
+8070FFCC Shade
+8070FFF8 Stillness
+80710024 Corrosion
+80710050 Disarm
+8071007C Discipline
+807100A8 Miracle
+807100D4 Resolve
+80710100 Wrath
+8071012C Cancel
+80710158 Adept
+80710184 Counter
+807101B0 Vantage [ShadowX39]
+807101DC Flourish
+80710208 Mercy
+80710234 Pass
+80710260 Nihil
+8071028C Fortune
+807102B8 Nullify
+807102E4 Provoke
+80710310 Daunt
+8071033C Paragon
+80710368 Renewal
+80710394 Imbue
+807103C0 Blossom
+807103EC dummy(Tempest)
+80710418 dummy(Serenity) [ShadowX39]
+80710444 Celerity
+80710470 Savior
+8071049C Guard
+807104C8 Pavise [ShadowX39]
+807104F4 Beastfoe
+80710520 Birdfoe
+8071054C Dragonfoe
+80710578 Parity
+807105A4 Gamble
+807105D0 Smite
+You can create skills in empty slots! Do not view your character's profile until after activating the skill code or it will freeze the game - unless there's already a skill in the slot you're making a skill on. A lot of the skills you see that you do not see normally are hidden skills. One more thing, in order for the "can equip swords, etc." skills to work properly you'll need to create weapon ranks for it
+
+Stat Modifiers
+
+Myrmidon(scroll down a bit for info) [ShadowX39]
+04B54298 014B0000
+04B542CC 28140F14
+04B542D0 1428140F
+
+Soldier [ShadowX39]
+04B54940 0000014B
+04B54974 28140F14
+04B54978 1428140F
+
+Fighter [ShadowX39]
+04B54FEC 014B0000
+04B5501C 2D140F14
+04B55020 1428140F
+
+Archer [ShadowX39]
+04B5545C 0000014B
+04B5548C 28140F14
+04B55490 1428140F
+
+Armor Sword - Female [ShadowX39]
+04B55C1C 014B0000
+04B55C50 28140F14
+04B55C54 1428140F
+
+Thunder Mage - Female [ShadowX39]
+04B57490 0000014B
+04B574B8 280F1414
+04B574BC 14280F14
+
+Light Mage [ShadowX39]
+04B576CC 0000014B
+04B576F0 280F1414
+04B576F4 14280F14
+
+Priest - Female [ShadowX39]
+04B59054 0000014B
+04B59074 280F1414
+04B59078 14280F14
+
+Lance Knight - Female [ShadowX39]
+04B5B950 014B0000
+04B5B980 28140F14
+04B5B984 1428140F
+
+Draco Knight - Female [ShadowX39]
+04B5B950 014B0000
+04B5B980 28140F14
+04B5B984 1428140F
+
+Hero [ShadowX39]
+04B54060 014B0000
+04B54094 3C1B141E
+04B54098 1E281A16
+
+Swordmaster - Male [ShadowX39]
+04B543E8 3C18141E
+04B543EC 1E281816
+
+Swordmaster - Female [ShadowX39]
+04B544D0 014B0000
+04B54504 3C17141E
+04B54508 1E281619
+
+Halberdier - Male [ShadowX39]
+04B54A5C 0000014B
+04B54A90 3C1A141C
+04B54A94 1A281C19
+
+Halberdier - Female [ShadowX39]
+04B54B78 0000014B
+04B54BAC 3C19141C
+04B54BB0 1B281C19
+
+Warrior [ShadowX39]
+04B55108 014B0000
+04B55138 3C1E141C
+04B5513C 1B281914
+
+Sniper [ShadowX39]
+04B55578 0000014B
+04B555A8 3C1B141E
+04B555AC 1C281917
+
+Lance General [ShadowX39]
+04B55D38 0000014B
+04B55D3C 014B0000
+04B55D6C 3C1D141B
+04B55D70 18281E19
+
+Axe General [ShadowX39]
+04B55E54 014B0000
+04B55E58 014B0000
+04B55E88 3C1D141B
+04B55E8C 18281E19
+
+Sword General - Female [ShadowX39]
+04B5608C 014B014B
+04B560C0 3C1D141B
+04B560C4 18281E19
+
+Rogue - Male [ShadowX39]
+04B56BAC 014B0000
+04B56BD8 3C16141A
+04B56BDC 1E281414
+
+Rogue - Female [ShadowX39]
+04B56CC8 014B0000
+04B56CF4 3C151419
+04B56CF8 1E281414
+
+Fire Sage - Male [ShadowX39]
+04B577E4 014B014B
+04B577E8 014B0000
+04B5780C 3C0F1E1C
+04B57810 1C28141C
+
+Fire Sage - Female [ShadowX39]
+04B57900 014B014B
+04B57904 014B0000
+04B57928 3C0F1E1C
+04B5792C 1C28141C
+
+Thunder Sage - Female [ShadowX39]
+04B57B38 014B014B
+04B57B3C 014B0000
+04B57B60 3C0F1E1C
+04B57B64 1C28141C
+
+Wind Sage [ShadowX39]
+04B57C54 014B014B
+04B57C58 014B0000
+04B57C7C 3C0F1E1C
+04B57C80 1C28141C
+
+Light Sage [ShadowX39]
+04B57D74 0000014B
+04B57D78 0000014B
+04B57D98 3C0F1E1C
+04B57D9C 1C28141E
+
+Dark Sage [ShadowX39]
+04B57E8C 0000014B
+04B57E94 014B0000
+04B57EB4 3C0F1E1C
+04B57EB8 1C28141C
+
+Bishop - Male [ShadowX39]
+04B5916C 0000014B
+04B59170 0000014B
+04B59190 3C0F1D16
+04B59194 1928141E
+
+Bishop - Female [ShadowX39]
+04B59288 0000014B
+04B5928C 0000014B
+04B592AC 3C0F1D16
+04B592B0 19281420
+
+Bishop - Valtome/Numida/Disciples of Order [ShadowX39]
+04B593A4 0000014B
+04B593C8 3C17211B
+04B593CC 1B281426
+
+Cleric: [ShadowX39]
+04B59804 014B0000
+04B59818 0000014B
+04B59838 3C141A19
+04B5983C 1A28141D
+
+Blade Paladin [ShadowX39]
+04B59FC8 014B0000
+04B59FFC 3C1A141A
+04B5A000 1B281B19
+
+Lance Paladin - Male [ShadowX39]
+04B5A0E4 0000014B
+04B5A118 3C1A141A
+04B5A11C 1B281B19
+
+Lance Paladin - Female [ShadowX39]
+04B5A200 0000014B
+04B5A234 3C19141A
+04B5A238 1B281B1A
+
+Axe Paladin - Male [ShadowX39]
+04B5A320 014B0000
+04B5A350 3C1A141A
+04B5A354 1B281B19
+
+Axe Paladin - Female [ShadowX39]
+04B5A43C 014B0000
+04B5A46C 3C1A141A
+04B5A470 1B281B1A
+
+Bow Paladin - Female [ShadowX39]
+04B5A674 0000014B
+04B5A6A4 3C19141B
+04B5A6A8 1B281B1A
+
+Falcon Knight [ShadowX39]
+04B5B3C0 014B014B
+04B5B3F4 3C18141A
+04B5B3F8 1C28181B
+
+Dragonmaster - Male [ShadowX39]
+04B5BA68 0000014B
+04B5BA6C 014B0000
+04B5BA9C 3C1D141C
+04B5BAA0 1A281D16
+
+Dragonmaster - Female [ShadowX39]
+04B5BB84 0000014B
+04B5BB88 014B0000
+04B5BBB8 3C1C141A
+04B5BBBC 1B281B19
+
+Vanguard [ShadowX39]
+04B541B0 41251428
+04B541B4 25282017
+
+Trueblade - Male [ShadowX39]
+04B5473C 3C201428
+04B54740 28281A18
+
+Trueblade - Female [ShadowX39]
+04B54858 3C1F1428
+04B5485C 2828191A
+
+Sentinel - Male [ShadowX39]
+04B54DE4 3C231423
+04B54DE8 2128221B
+
+Sentinel - Female [ShadowX39]
+04B54F00 3C221423
+04B54F04 2228211E
+
+Reaver [ShadowX39]
+04B55370 44281424
+04B55374 23281E14
+
+Marksman [ShadowX39]
+04B557E0 3C241428
+04B557E4 22282019
+
+Marshal - Lance [ShadowX39]
+04B564FC 014B014B
+04B56500 014B0000
+04B56530 3C241422
+04B56534 1F28251E
+
+Marshal - Axe [ShadowX39]
+04B56618 014B014B
+04B5664C 3C251423
+04B56650 1E28241E
+
+Marshal - Sword [ShadowX39]
+04B56734 014B014B
+04B56738 014B0000
+04B56768 3C241421
+04B5676C 20282320
+
+Marshal - Zelgius [ShadowX39]
+04B56884 46281428
+04B56888 23282823
+
+Black Knight [ShadowX39]
+04B569A0 46281428
+04B569A4 23282823
+
+Whisper - Male [ShadowX39]
+04B56E10 3C1C1426
+04B56E14 28281A19
+
+Whisper - Female [ShadowX39]
+04B56F2C 3C1C1426
+04B56F30 2828191A
+
+Assassin [ShadowX39]
+04B57048 3C201428
+04B5704C 28281E19
+
+Arch Sage - Fire Male [ShadowX39]
+04B582FC 014B014B
+04B58300 014B0000
+04B58304 0000014B
+04B58324 3C182622
+04B58328 20281924
+
+Arch Sage - Fire Female [ShadowX39]
+04B58418 014B014B
+04B5841C 014B0000
+04B58420 0000014B
+04B58440 3C182622
+04B58444 20281726
+
+Arch Sage - Dark [ShadowX39]
+04B58534 0000014B
+04B5853C 014B014B
+04B5855C 3C192722
+04B58560 1F281824
+
+Arch Sage - Thunder [ShadowX39]
+04B58650 014B014B
+04B58654 014B0000
+04B58658 0000014B
+04B58678 3C182722
+04B5867C 1E281826
+
+Arch Sage - Wind [ShadowX39]
+04B5876C 014B014B
+04B58774 0000014B
+04B58794 3C172822
+04B58798 20281824
+
+Light Priestess [ShadowX39]
+04B588B0 3C162823
+04B588B4 21281728
+
+Empress [ShadowX39]
+04B589A4 014B014B
+04B589A8 014B014B
+04B589CC 3C142821
+04B589D0 20281428
+
+Chancellor [ShadowX39]
+04B58AE8 3C192828
+04B58AEC 28281928
+
+Summoner [ShadowX39]
+04B58E1C 014B014B
+04B58E3C 3C1A281F
+04B58E40 1E281727
+
+Saint - Male [ShadowX39]
+04B594E4 3C19241E
+04B594E8 1E281628
+
+Saint - Female [ShadowX39]
+04B59600 3C17261E
+04B59604 1F281528
+
+Saint - Lekain [ShadowX39]
+04B5971C 3C19241E
+04B59720 1E281628
+
+Valkyrie [ShadowX39]
+04B59934 0000014B
+04B59954 3C192323
+04B59958 22281824
+
+Gold Knight - Sword [ShadowX39]
+04B5AC00 014B0000
+04B5AC30 3C221422
+04B5AC34 21281E19
+
+Gold Knight - Axe Male [ShadowX39]
+04B5AD18 014B0000
+04B5AD4C 3C241423
+04B5AD50 1F281E19
+
+Gold Knight - Axe Female [ShadowX39]
+04B5AE34 014B0000
+04B5AE68 3C221423
+04B5AE6C 21281C1A
+
+Silver Knight - Lance Male [ShadowX39]
+04B5AF54 0000014B
+04B5AF84 3C231422
+04B5AF88 20281E19
+
+Silver Knight - Lance Female [ShadowX39]
+04B5B070 0000014B
+04B5B0A0 3C211422
+04B5B0A4 22281C1B
+
+Silver Knight - Bow [ShadowX39]
+04B5B188 0000014B
+04B5B1BC 3C211424
+04B5B1C0 23281B1E
+
+Seraph Knight [ShadowX39]
+04B5B5F8 014B014B
+04B5B62C 3C201424
+04B5B630 24281C22
+
+Queen [ShadowX39]
+04B5B728 0000014B
+04B5B748 3C1E1E24
+04B5B74C 23281A24
+
+Dragon Lord - Male [ShadowX39]
+04B5BDBC 0000014B
+04B5BDF0 3C261426
+04B5BDF4 20282616
+
+Dragon Lord - Female [ShadowX39]
+04B5BED8 0000014B
+04B5BF0C 3C231426
+04B5BF10 23282419
+
+Lion - Red Untransformed [ShadowX39]
+04B5C028 5028142A
+04B5C02C 2128291B
+
+Lion - Red Transformed [ShadowX39]
+04B5C144 5030142E
+04B5C148 24282E1E
+
+Lion - Black Untransformed [ShadowX39]
+04B5C260 5028142A
+04B5C264 2428291B
+
+Lion - Black Transformed [ShadowX39]
+04B5C37C 5030142E
+04B5C380 28282E1E
+
+Lion King - Untransformed [ShadowX39]
+04B5C498 5028142A
+04B5C49C 2428291B
+
+Lion King - Transformed [ShadowX39]
+04B5C5B4 5030142E
+04B5C5B8 28282E1E
+
+Tiger - Untransformed [ShadowX39]
+04B5C6D0 4B271421
+04B5C6D4 22282918
+
+Tiger - Transformed [ShadowX39]
+04B5C7EC 4B2E1425
+04B5C7F0 25282C1B
+
+Cat - Male Untransformed [ShadowX39]
+04B5C908 461E1424
+04B5C90C 25281E19
+
+Cat - Male Transformed [ShadowX39]
+04B5CA24 46241428
+04B5CA28 2828231C
+
+Cat - Female Untransformed [ShadowX39]
+04B5CB40 461E1424
+04B5CB44 25281B1D
+
+Cat - Female Transformed [ShadowX39]
+04B5CC5C 46241428
+04B5CC60 28282020
+
+Wolf - Untransformed [ShadowX39]
+04B5CD78 4622142A
+04B5CD7C 21281B11
+
+Wolf - Transformed [ShadowX39]
+04B5CE94 4628142E
+04B5CE98 24281E14
+
+Wolf Queen - Untransformed [ShadowX39]
+04B5CFB0 4622142C
+04B5CFB4 2528251B
+
+Wolf Queen - Transformed [ShadowX39]
+04B5D0CC 46281430
+04B5D0D0 2828281E
+
+Hawk - Untransformed [ShadowX39]
+04B5D1E8 41201429
+04B5D1EC 27281C1C
+
+Hawk - Transformed [ShadowX39]
+04B5D304 4126142E
+04B5D308 2A28201E
+
+Hawk King - Untransformed [ShadowX39]
+04B5D420 4B25142D
+04B5D424 2B28251D
+
+Hawk King - Transformed [ShadowX39]
+04B5D53C 4B2C1432
+04B5D540 2E28281E
+
+Raven - Male Untransformed [ShadowX39]
+04B5D658 411B1422
+04B5D65C 2A28191F
+
+Raven - Male Transformed [ShadowX39]
+04B5D774 41201526
+04B5D778 2E281C23
+
+Raven - Female Untransformed [ShadowX39]
+04B5D890 411B1422
+04B5D894 2A281820
+
+Raven - Female Transformed [ShadowX39]
+04B5D9AC 41201526
+04B5D9B0 2E281B24
+
+Raven King - Untransformed [ShadowX39]
+04B5DAC8 46221828
+04B5DACC 2F281F23
+
+Raven King - Transformed [ShadowX39]
+04B5DBE4 4628192C
+04B5DBE8 32282226
+
+Heron - Reyson Untransformed [ShadowX39]
+04B5DD00 3C0A1511
+04B5DD04 1C32172B
+
+Heron - Reyson Transformed [ShadowX39]
+04B5DE1C 3C0A1A14
+04B5DE20 20321830
+
+Heron - Rafiel Untransformed [ShadowX39]
+04B5DF38 3C0A1911
+04B5DF3C 1A32132D
+
+Heron - Rafiel Transformed [ShadowX39]
+04B5E054 3C0A1E14
+04B5E058 1E321432
+
+Heron - Leanne Untransformed [ShadowX39]
+04B5E170 3C0A1911
+04B5E174 1A32132D
+
+Heron - Leanne Transformed [ShadowX39]
+04B5E28C 3C0A1E14
+04B5E290 1E321432
+
+Red Dragon - Male Untransformed [ShadowX39]
+04B5E3A8 5A28141F
+04B5E3AC 20282A1E
+
+Red Dragon - Male Transformed [ShadowX39]
+04B5E4C4 5A321423
+04B5E4C8 23282E23
+
+Red Dragon - Female Untransformed [ShadowX39]
+04B5E5E0 4B23141F
+04B5E5E4 1F282423
+
+Red Dragon - Female Transformed [ShadowX39]
+04B5E6FC 4B282823
+04B5E700 23282828
+
+White Dragon - Untransformed [ShadowX39]
+04B5E818 5A1E191F
+04B5E81C 20282329
+
+White Dragon - Transformed [ShadowX39]
+04B5E934 5A283224
+04B5E938 2328282E
+
+Dragon King - Untransformed [ShadowX39]
+04B5EA50 64280F28
+04B5EA54 23282D29
+
+Dragon King - Transformed [ShadowX39]
+04B5EB6C 64321A2C
+04B5EB70 2628322E
+
+Dragon Prince - Untransformed [ShadowX39]
+04B5EC88 50240F21
+04B5EC8C 20282921
+
+Dragon Prince - Transformed [ShadowX39]
+04B5EDA4 502E1825
+04B5EDA8 23282E26
+
+Spirit - Fire [ShadowX39]
+04B5EEC0 3C072126
+04B5EEC4 282D1E1E
+
+Spirit - Thunder [ShadowX39]
+04B5EFDC 3C092328
+04B5EFE0 262D1E1E
+
+Spirit - Wind [ShadowX39]
+04B5F0F8 3C052526
+04B5F0FC 282D1E20
+
+Order Incarnate - Aura [ShadowX39]
+04B5F214 5A323232
+04B5F218 32323232
+
+Order Incarnate - Ashera [ShadowX39]
+04B5F330 78323232
+04B5F334 32323232
+These are all their caps, I kept the values there to make it easier instead of being forced to put numbers in. These codes above are edits I did myself so that all the max stats of PoR were brought over here while keeping surpassed stats of RD intact - Laguz also have PoR-ish human form max stats. They also all have the ability to reach an SS rank in their weapon no matter the tier! Right below is an example:
+
+Sniper Weapon Rank for Bow SS [ShadowX39]
+04B55578 0000014B
+
+Sniper Caps HP, Strength, Magic, Skill - All 127 [ShadowX39]
+04B555A8 7F7F7F7F
+
+Sniper Caps Speed, Luck, Def, Res - All 127 [ShadowX39]
+04B555AC 7F7F7F7F
+If you want, you can edit base stats which are found 4 values before the start of the cap addresses.
+
+Weapon Modifiers
+
+Calabolg has 10 Range [ShadowX39]
+04B601C0 010A0000
+With these codes you can counterattack and attack from far away, the 0A is the value for range, FF = the entire map - up to you!
+
+Wind Edge does Magic Damage [ShadowX39]
+04B60200 00230008
+
+Wind Edge has 10 Range [ShadowX39]
+04B60210 010A0000
+
+Storm Sword does Magic Damage [ShadowX39]
+04B60250 00C80008
+
+Storm Sword has 10 Range [ShadowX39]
+04B60260 010A0000
+
+Tempest Blade does Magic Damage [ShadowX39]
+04B602A0 01F40008
+
+Tempest Blade has 10 Range [ShadowX39]
+04B602B0 010A0000
+
+Vague Katti has 10 Range [ShadowX39]
+04B60300 010A0000
+
+Florete does Magic Damage [ShadowX39]
+04B60340 00C80009
+
+Florete has 10 Range [ShadowX39]
+04B60350 010A0000
+
+Ettard has 10 Range [ShadowX39]
+04B603A0 010A0000
+
+Ragnell has 10 Range [ShadowX39]
+04B603F0 010A0000
+
+Alondite has 10 Range [ShadowX39]
+04B60440 010A0000
+
+Amiti has 10 Range [ShadowX39]
+04B60490 010A0000
+
+Wishblade has 10 Range [ShadowX39]
+04B60990 010A0000
+
+Tarvos has 10 Range [ShadowX39]
+04B60E40 010A0000
+
+Urvan has 10 Range [ShadowX39]
+04B60E90 010A0000
+
+Rolf's Bow has 10 Range [ShadowX39]
+04B61200 010A0000
+
+Silencer has 10 Range [ShadowX39]
+04B61250 010A0000
+
+Lughnasadh has 10 Range [ShadowX39]
+04B612A0 010A0000
+
+Double Bow has 10 Range [ShadowX39]
+04B612F0 010A0003
+The 3 is the +3 strength it gives, you can go above 3 and also do it to any weapon!
+
+Double Bow adds +3 Magic, Skill, Speed, Luck [ShadowX39]
+04B612F4 03030303
+
+Double Bow adds +3 Def, Res [ShadowX39]
+04B612F8 03030000
+Here are examples, now it's up to you if you want to edit this.
+
+Arbalest has 10 Range [ShadowX39]
+04B61480 010A0000
+
+Baselard has 10 Range [ShadowX39]
+04B619D0 010A0000
+
+Bolganone has 10 Range [ShadowX39]
+04B61B10 010A0000
+
+Rexflame has 10 Range [ShadowX39]
+04B61B60 010A0000
+
+Cymbeline has 10 Range [ShadowX39]
+04B61BB0 010A0000
+
+Thoron has 10 Range [ShadowX39]
+04B61D40 010A0000
+
+Rexbolt has 10 Range [ShadowX39]
+04B61D90 010A0000
+
+Tornado has 10 Range [ShadowX39]
+04B61F20 010A0000
+
+Rexcaliber has 10 Range [ShadowX39]
+04B61F70 010A0000
+
+Nosferatu has 10 Range [ShadowX39]
+04B62100 010A0000
+
+Valaura has 10 Range [ShadowX39]
+04B62150 010A0000
+
+Rexaura has 10 Range [ShadowX39]
+04B621A0 010A0000
+
+Thani has 10 Range [ShadowX39]
+04B62240 010A0000
+
+Creiddylad has 15 Range [ShadowX39]
+04B62290 010F0000
+
+Verrine has 10 Range [ShadowX39]
+04B62380 010A0000
+
+Balberith has 10 Range [ShadowX39]
+04B623D0 010A0003
+
+Fang-Lion SS has 10 Range [ShadowX39]
+04B62510 010A0000
+
+Fang-Lion SS can attack in human form [ShadowX39]
+04B6252C 00000001
+Warning, be careful not to put the Laguz Strikes in the convoy or the game will freeze.
+
+Great Fang-Lion SS has 10 Range [ShadowX39]
+04B62600 010A0000
+
+Great Fang-Lion SS can attack in human form [ShadowX39]
+04B6266C 00000001
+
+Fang-Tiger SS has 10 Range [ShadowX39]
+04B626F0 010A0000
+
+Fang-Tiger SS can attack in human form [ShadowX39]
+04B6270C 00000001
+
+Claw-Cat SS has 10 Range [ShadowX39]
+04B627E0 010A0000
+
+Claw-Cat SS can attack in human form [ShadowX39]
+04B627FC 00000001
+
+Fang-Wolf SS has 10 Range [ShadowX39]
+04B628D0 010A0000
+
+Fang-Wolf SS can attack in human form [ShadowX39]
+04B628EC 00000001
+
+Great Fang-Wolf SS has 10 Range [ShadowX39]
+04B629C0 010A0000
+
+Great Fang-Wolf SS can attack in human form [ShadowX39]
+04B629DC 00000001
+
+Talon-Hawk SS has 10 Range [ShadowX39]
+04B62AB0 010A0000
+
+Talon-Hawk SS can attack in human form [ShadowX39]
+04B62ACC 00000001
+
+Great Talon-Hawk SS has 10 Range [ShadowX39]
+04B62BA0 010A0000
+
+Great Talon-Hawk SS can attack in human form [ShadowX39]
+04B62BBC 00000001
+
+Beak-Raven SS has 10 Range [ShadowX39]
+04B62C90 010A0000
+
+Beak-Raven SS can attack in human form [ShadowX39]
+04B62CAC 00000001
+
+Great Beak-Raven SS has 10 Range [ShadowX39]
+04B62D80 010A0000
+
+Great Beak-Raven SS can attack in human form [ShadowX39]
+04B62D9C 00000001
+
+Breath-Red Dragon SS has 10 Range [ShadowX39]
+04B62E70 010A0000
+
+Breath-Red Dragon SS can attack in human form [ShadowX39]
+04B62E8C 00000001
+
+Breath-White Dragon SS has 10 Range [ShadowX39]
+04B62F60 010A0000
+
+Breath-White Dragon SS can attack in human form [ShadowX39]
+04B62F7C 00000001
+
+Breath-Dragon Prince SS has 10 Range [ShadowX39]
+04B63050 010A0000
+
+Breath-Dragon Prince SS can attack in human form [ShadowX39]
+04B6306C 00000001
+
+Breath-Dragon King SS has 15 Range [ShadowX39]
+04B63140 010F0000
+
+Breath-Dragon King SS can attack in human form [ShadowX39]
+04B6315C 00000001
+
+Fire Tail has 8 Range [ShadowX39]
+04B63190 01080000
+Because Spirits have 20 Movement, too much range gives them too many options to choose from, which will make them take longer to make their move. 8 is the lowest that felt like normal speed to me.
+
+Thunder Tail has 8 Range [ShadowX39]
+04B631E0 01080000
+
+Wind Tail has 8 Range [ShadowX39]
+04B63230 01080000
+
+Judge has 15 Range [ShadowX39]
+04B63410 010F0000
+
+Can attack with Heal [ShadowX39]
+04B6374C 00000001
+Because the range of staffs are done with the healing, etc. it'll take changing it's function to have them attack from far range.
+
+Can attack with Mend [ShadowX39]
+04B6379C 00000001
+
+Can attack with Recover [ShadowX39]
+04B637EC 00000001
+
+Can attack with Physic [ShadowX39]
+04B6383C 00000001
+
+Can attack with Fortify [ShadowX39]
+04B6388C 00000001
+
+Can attack with Restore [ShadowX39]
+04B638DC 00000001
+
+Can attack with Silence [ShadowX39]
+04B6392C 00000001
+
+Can attack with Elsilence [ShadowX39]
+04B6397C 00000001
+
+Can attack with Sleep [ShadowX39]
+04B639CC 00000001
+
+Can attack with Elsleep [ShadowX39]
+04B63A1C 00000001
+
+Can attack with Rescue [ShadowX39]
+04B63ABC 00000001
+
+Can attack with Rewarp [ShadowX39]
+04B63B0C 00000001
+
+Can attack with Hammerne [ShadowX39]
+04B63BAC 00000001
+
+Can attack with Unlock [ShadowX39]
+04B63BFC 00000001
+
+Can attack with Ward [ShadowX39]
+04B63C4C 00000001
+
+Can attack with Matrona [ShadowX39]
+04B63C9C 00000001
+
+Can attack with Ashera Staff [ShadowX39]
+04B63CEC 00000001
+Not too far from these code's addressses are the stats of each weapon. You can change the MT, uses, etc. If there's demand, I'll make codes for them
+
+RecoverHP after battle on enemy turn [g6flavor]
+283C9396 0000B830
+2E3C93b8 0000F000
+003C93b4 00000063
+e0000000 80008000
+
+Weapon Become Blessed after use (Player's Turn) [g6flavor]
+283c9396 0000B83C
+003c9221 00000090
+E0000000 80008000
+
+All Character Portaits [g6flavor]
+04429054 FFFFFFFF
+04429058 FFFFFFFF
+0442905C FFFFFFFF
+00429063 000000FF
+
+Unlock All Extras [g6flavor]
+004277C3 000000FF
+
+(Combat Records, Sound Room, Theater, Replay Event, PoR Support Archive, Hard Mode, Animation OFF, Bonus EXP Display ON/OFF)
+
+100% PoR Support Archive [g6flavor]
+04428FE8 FFFFFFFF
+04428FEC FFFFFFFF
+04428FF0 FFFFFFFF
+04428FF4 FFFFFFFF
+04428FF8 FFFFFFFF
+04428FFC FFFFFFFF
+04429000 FFFFFFFF
+
+All Musics in Sound Room [g6flavor]
+04429040 FFFFFFFF
+04429044 FFFFFFFF
+04429048 FFFFFFFF
+
+All Replay Event [g6flavor]
+04428FDC FFFFFFFF
+04428FE0 FFFFFFFF
+04428FE4 FFFFFFFF
+00428FE8 000000FF
+
+Enable All Stats +5 Bonus (Easy Mode Only) [g6flavor]
+003CAFFD 00000085
+023CAFFE 0000A305
+
+Quick Game Over (push B+A on WiiRemote then end move) [g6flavor]
+283D78DA 00000C00
+003CAFFC 00000002
+E0000000 80008000
+
+Wii Remote All Buttons Address [g6flavor]
+283D78DA 0000xxxx
+put code(s) here [g6flavor]
+E0000000 80008000
+
+Quick End Chapter {Win} (Push B and + on WiiRemote then end move)* [g6flavor]
+283D78DA 00000410
+003CAFFC 00000004
+E0000000 80008000
+
+*Make sure that you Recruit all Your character(s) in the Chapter before activating.
+
+Micaiah 99EXP [Am3692]
+00886D8F 00000063
+
+Edward 99EXP [Am3692]
+0088717F 00000063
+
+Leonardo 99EXP [Am3692]
+0088756F 00000063
+
+Nolan 99EXP [Am3692]
+00884E0F 00000063
+
+Laura99EXP [Am3692]
+008851FF 00000063
+
+Sothe 99EXP [Am3692]
+0088A0BF 00000063
+
+Ilyana 99EXP [Am3692]
+0088C42F 00000063
+
+Aran 99EXP [Am3692]
+0088D7DF 00000063
+
+Meg 99EXP [Am3692]
+008855EF 00000063
+
+Volug 99EXP [Am3692]
+008859DF 00000063
+
+Tauroneo 99EXP [Am3692]
+00885DCF 00000011
+
+Jill 99EXP [Am3692]
+008861BF 00000063
+
+Zihark 99EXP [Am3692]
+008865AF 00000063
+
+Fiona 99EXP [Am3692]
+0088FB4F 00000063
+
+Tormod 99EXP [Am3692]
+0088F75F 00000063
+
+Muarim 99EXP [Am3692]
+0088FF3F 00000063
+
+Vika 99EXP [Am3692]
+0089032F 00000063
+
+Nailah 99 EXP [Am3692]
+0088795F 00000063
+
+Rafiel 99EXP [Am3692]
+0088699F 00000063
+
+Marcia 99EXP [Am3692]
+0088813F 00000063
+
+Elincia 99EXP [Am3692]
+00887D4F 00000063
+
+Nealuchi 99EXP [Am3692]
+0088B85F 00000063
+
+Leanne 99EXP [Am3692]
+0088BC4F 00000063
+
+Haar 99EXP [Am3692]
+0088C03F 00000063
+
+Brom 99EXP [Am3692]
+0088852F 00000063
+
+Nephenee 99EXP [Am3692]
+00888D0F 00000063
+
+Heather 99EXP [Am3692]
+0088DFBF 00000063
+
+Lucia 99EXP [Am3692]
+008890FF 00000063
+
+Lethe 99 EXP [Am3692]
+008894EF 00000063
+
+Mordecai 99EXP [Am3692]
+008898DF 00000063
+
+Geoffrey 99EXP [Am3692]
+0089365F 00000063
+
+Kieran 99EXP [Am3692]
+00893A4F 00000063
+
+Astrid 99EXP [Am3692]
+00893E3F 00000063
+
+Makalov 99EXP [Am3692]
+0089422F 00000063
+
+Danved 99EXP [Am3692]
+0089461F 00000063
+
+Calill 99EXP [Am3692]
+00889CCF 00000063
+
+Ike 99 EXP [Am3692]
+0088A4AF 00000063
+
+Soren 99EXP [Am3692]
+0088AC8F 00000063
+
+Titania 99 EXP [Am3692]
+0088A89F 00000063
+
+Boyd 99 EXP [Am3692]
+0088C81F 00000063
+
+Gatrie 99 EXP [Am3692]
+0088D3EF 00000063
+
+Shinon 99 EXP [Am3692]
+0088CFFF 00000063
+
+Mia 99EXP [Am3692]
+0088E3AF 00000063
+
+Mist 99 EXP [Am3692]
+0088B07F 00000063
+
+Rhys 99 EXP [Am3692]
+0088DBCF 00000063
+
+Rolf 99 EXP [Am3692]
+0088B46F 00000063
+
+Oscar 99 EXP [Am3692]
+0088CC0F 00000063
+
+Ranulf 99EXP [Am3692]
+0088EB8F 00000063
+
+Kyza 99EXP [Am3692]
+0088EF7F 00000063
+
+Lyre 99 EXP [Am3692]
+0088E79F 00000063
+
+Reyson 99 EXP [Am3692]
+0088F36F 00000063
+
+BEXP Part 1 [Am3692]
+043CAADC 48694000
+
+BEXP Part 2 [Am3692]
+043CAAE0 48694000
+
+BEXP Part 3/Ike [Am3692]
+043CAAE4 48694000
+
+999999 part 1/Micaiah Gold [Am3692]
+043CAAD2 000F423F
+
+999999 Gold Part 2/Elincia [Am3692]
+043CAAD6 000F423F
+
+999999 Gold part 3/Ike [Am3692]
+043CAAD8 000F423F
+
+Soren Slot 1 Item Quantity 121 [Am3692]
+0088AD50 00000079
+
+Ike Slot 1 Item Quantity 255 For stat boosting items [Am3692]
+0088A570 000000FF
+
+Item Creation
+
+Nolan Item Slot 1 [ShadowX39]
+04884ECC XXXXXXXX
+To use these codes, simply activate it on the slot your unit is carrying an item on. You can create items in empty slots if you use the blessed item code with it!
+
+Nolan Blessed Item Slot 1 [ShadowX39]
+04884ED0 27100000
+
+Nolan Blessed Item Slot 1 Equipped [ShadowX39]
+04884ED0 27900000
+
+Nolan Item Slot 2 [ShadowX39]
+04884EF4 XXXXXXXX
+
+Nolan Blessed Item Slot 2 [ShadowX39]
+04884EF8 27100000
+
+Laura Item Slot 1 [ShadowX39]
+048852BC XXXXXXXX
+
+Laura Blessed Item Slot 1 [ShadowX39]
+048852C0 27100000
+
+Laura Blessed Item Slot 1 Equipped [ShadowX39]
+048852C0 27900000
+
+Laura Item Slot 2 [ShadowX39]
+048852E4 XXXXXXXX
+
+Laura Blessed Item Slot 2 [ShadowX39]
+048852E8 27100000
+
+Micaiah Item Slot 1 [ShadowX39]
+04886E4C XXXXXXXX
+
+Micaiah Blessed Item Slot 1 [ShadowX39]
+04886E50 27100000
+
+Micaiah Blessed Item Slot 1 Equipped [ShadowX39]
+04886E50 27900000
+
+Nephenee Slot 1 [ShadowX39]
+04888DCC XXXXXXXX
+There is no guarantee that the units from here on below are the same address for you, however it's almost guaranteed for Laura + Micaiah and 100% guaranteed for Nolan
+
+Sothe Slot 1 [ShadowX39]
+0488A17C XXXXXXXX
+
+Geoffrey Slot 1 [ShadowX39]
+0489371C XXXXXXXX
+
+Shinon Slot 1 [ShadowX39]
+0488D0BC XXXXXXXX
+
+Provided by: Am3692+ShadowX39
+Value:
+Swords
+80B5FD90 - Slim Sword
+80B5FDE0 - Bronze Sword
+80B5FE30 - Iron Sword
+80B5FE80 - Steel Sword
+80B5FED0 - Silver Sword
+80B5FF20 - Iron Blade
+80B5FF70 - Steel Blade
+80B5FFC0 - Silver Blade
+80B60010 - venin edge
+80B60060 - brave sword
+80B600B0 - killing edge
+80B60100 - wyrmslayer
+80B60150 - wo dao
+80B601A0 - caladbolg
+80B601F0 - wind edge
+80B60240 - storm sword
+80B60290 - tempest blade
+80B602E0 - vague katti
+80B60330 - florete
+80B60380 - ettard
+80B603D0 - ragnell(can't give away)
+80B60420 - alondite
+80B60470 - amiti(can't give away)
+
+Lances
+80B604C0 - Slim lance
+80B60510 - Bronze Lance
+80B60560 - Iron Lance
+80B605B0 - Steel Lance
+80B60600 - Silver Lance
+80B60650 - Iron Greatlance
+80B606A0 - Stl Greatlance
+80B606F0 - Slvr Greatlance
+80B60740 - Venin Lance
+80B60790 - Brave Lance
+80B607E0 - Killer Lance
+80B60830 - Horseslayer
+80B60880 - Javelin
+80B608D0 - Short Spear
+80B60920 - Spear
+80B60970 - Wishblade
+
+Axes
+80B609C0 - Bronze Axe
+80B60A10 - Iron Axe
+80B60A60 - Steel Axe
+80B60AB0 - Silver Axe
+80B60B00 - Iron Poleaxe
+80B60B50 - Steel Poleaxe
+80B60BA0 - Silver Poleaxe
+80B60BF0 - Venin Axe
+80B60C40 - Brave Axe
+80B60C90 - Killer Axe
+80B60CE0 - Hammer
+80B60D30 - Hand Axe
+80B60D80 - Short Axe
+80B60DD0 - Tomahawk
+80B60E20 - Tarvos
+80B60E70 - Urvan
+
+Bows
+80B60EC0 - Bronze Bow
+80B60F10 - Iron Bow
+80B60F60 - Steel Bow
+80B60FB0 - Silver Bow
+80B61000 - Iron Longbow
+80B61050 - Steel Longbow
+80B610A0 - Silver Longbow
+80B610F0 - Venin Bow
+80B61140 - Killer Bow
+80B61190 - Brave Bow
+80B611E0 - Rolf's Bow
+80B61230 - Silencer
+80B61280 - Lughnasadh
+80B612D0 - Double Bow
+80B61320 - Bowgun
+80B61370 - Crossbow
+80B613C0 - Taksh
+80B61410 - Aqqar
+80B61460 - Arbalest
+80B614B0 - Ballista
+80B61500 - Iron Ballista
+80B61550 - Killer Ballista
+80B615A0 - Onager
+
+Knives
+80B615F0 - Bronze Knife
+80B61640 - Iron Knife
+80B61690 - Steel Knife
+80B616E0 - Silver Knife
+80B61730 - Bronze Dagger
+80B61780 - Iron Dagger
+80B617D0 - Steel Dagger
+80B61820 - Silver Dagger
+80B61870 - Kard
+80B618C0 - Stiletto
+80B61910 - Beast Killer
+80B61960 - Peshkatz
+80B619B0 - Baselard
+
+Tomes
+80B61A00 - Fire
+80B61A50 - Elfire
+80B61AA0 - Arcfire
+80B61AF0 - Bolganone
+80B61B40 - Rexflame
+80B61B90 - Cymbeline
+80B61BE0 - Meteor
+
+80B61C30 - Thunder
+80B61C80 - Elthunder
+80B61CD0 - Arcthunder
+80B61D20 - Thoron
+80B61D70 - Rexbolt
+80B61DC0 - Bolting
+
+80B61E10 - Wind
+80B61E60 - Eliwind
+80B61EB0 - Arcwind
+80B61F00 - Tornado
+80B61F50 - Rexcaliber
+80B61FA0 - Blizzard
+
+80B61FF0 - Light
+80B62040 - Ellight
+80B62090 - Shine
+80B620E0 - Nosferatu
+80B62130 - Valaura
+80B62180 - Rexaura
+80B621D0 - Purge
+80B62220 - Thani
+80B62270 - Creiddylad
+
+80B622C0 - Worm
+80B62310 - Carreau
+80B62360 - Verrine
+80B623B0 - Balberith
+80B62400 - Fenrir
+
+Strikes
+80B62450 - Fang-lion-A
+80B624A0 - Fang-lion-S
+80B624F0 - Fang-lion-SS
+80B62540 - Great Fang-lion-A
+80B62590 - Great Fang-lion-S
+80B625E0 - Great Fang-lion-SS
+80B62630 - Fang-tiger-A
+80B62680 - Fang-tiger-S
+80B626D0 - Fang-tiger-SS
+80B62720 - Claw-cat-A
+80B62770 - Claw-cat-S
+80B627C0 - Claw-cat-SS
+80B62810 - Fang-wolf-A
+80B62860 - Fang-wolf-S
+80B628B0 - Fang-wolf-SS
+80B62900 - Great Fang-wolf-A
+80B62950 - Great Fang-wolf-S
+80B629A0 - Great Fang-wolf-SS
+80B629F0 - Talon-hawk-A
+80B62A40 - Talon-hawk-S
+80B62A90 - Talon-hawk-SS
+80B62AE0 - Great Talon-hawk-A
+80B62B30 - Great Talon-hawk-S
+80B62B80 - Great Talon-hawk-SS
+80B62BD0 - Beak-raven-A
+80B62C20 - Beak-raven-S
+80B62C70 - Beak-raven-SS
+80B62CC0 - Great Beak-raven-A
+80B62D10 - Great Beak-raven-S
+80B62D60 - Great Beak-raven-SS
+80B62DB0 - Breath-red dragon-A
+80B62E00 - Breath-red dragon-S
+80B62E50 - Breath-red dragon-SS
+80B62EA0 - Breath-white dragon-A
+80B62EF0 - Breath-white dragon-S
+80B62F40 - Breath-white dragon-SS
+80B62F90 - Breath-dragon prince-A
+80B62FE0 - Breath-dragon prince-S
+80B63030 - Breath-dragon prince-SS
+80B63080 - Breath-dragon king-A
+80B630D0 - Breath-dragon king-S
+80B63120 - Breath-dragon king-SS
+80B63170 - Fire Tail
+80B631C0 - Thunder Tail
+80B63210 - Wind Tail
+80B63260 - dummy
+80B632B0 - dummy
+80B63300 - Judge
+80B63350 - Judge
+80B633A0 - Judge
+80B633F0 - Judge
+80B63440 - Judge
+80B63490 - Judge
+80B634E0 - Judge
+80B63530 - Judge
+80B63580 - Judge
+80B635D0 - Judge-lightmagic
+80B63620 - Judge
+80B63670 - Judge-lightmagic
+80B636C0 - Judge-lightmagic
+80B63710 - Vortex-bug
+
+Staffs
+80B63760 - Heal
+80B637B0 - Mend
+80B63800 - Recover
+80B63850 - Physic
+80B638A0 - Fortify
+80B638F0 - Restore
+80B63940 - Silence
+80B63990 - Elsilence
+80B639E0 - Sleep
+80B63A30 - Elsleep
+80B63A80 - Rescue
+80B63AD0 - Rewarp
+80B63B20 - Torch
+80B63B70 - Hammerne
+80B63BC0 - Unlock
+80B63C10 - Ward
+80B63C60 - Matrona
+80B63CB0 - Ashera Staff
+
+Other:
+80B63D00 - Seraph Robe
+80B63D50 - Energy Drop
+80B63DA0 - Spirit Dust
+80B63DF0 - Secret Book
+80B63E40 - Speedwing
+80B63E90 - Ashera Icon
+80B63EE0 - Dracoshield
+80B63F30 - Talisman
+80B63F80 - Boots
+80B63FD0 - Statue Frag
+80B64020 - Master Seal
+80B64070 - Master Crown
+80B640C0 - Holy Crown
+80B64110 - Satori Sign
+80B64160 - Chest key
+80B641B0 - Door Key
+80B64200 - Herb
+80B64250 - Vulnerary
+80B642A0 - Concoction
+80B642F0 - Elixer
+80B64340 - Olvi Grass
+80B64390 - Pure Water
+80B643E0 - antitoxin
+80B64430 - panacea
+80B64480 - torch
+80B644D0 - arms scroll
+80B64520 - silver card
+80B64570 - white gem
+80B645C0 - blue gem
+80B64610 - red gem
+80B64660 - dummy
+80B646B0 - spectre card
+80B64700 - reaper card
+80B64750 - daemon card
+80B647A0 - frey bomb(unusable, calls it a bug)
+80B647F0 - shine barrier
+
+Skills:
+80B64840 - howl
+80B64890 - shriek
+80B648E0 - quickclaw
+80B64930 - maelstrom
+80B64980 - wildheart
+80B649D0 - blessing
+80B64A20 - boon
+80B64A70 - blood tide
+80B64AC0 - white pool
+80B64B10 - night tide
+80B64B60 - shade
+80B64BB0 - stillness
+80B64C00 - corrosion
+80B64C50 - disarm
+80B64CA0 - discipline
+80B64CF0 - miracle
+80B64D40 - resolve
+80B64D90 - wrath
+80B64DE0 - cancel
+80B64E30 - adept
+80B64E80 - counter
+80B64ED0 - vantage
+80B64F20 - flourish
+80B64F70 - mercy
+80B64FC0 - pass
+80B65010 - nihil
+80B65060 - fortune
+80B650B0 - nullify
+80B65100 - provoke
+80B65150 - daunt
+80B651A0 - paragon
+80B651F0 - renewal
+80B65240 - imbue
+80B65290 - blossom
+80B652E0 - tempest(it works!)
+80B65330 - serenity(it works!)
+80B65380 - celerity
+80B653D0 - savior
+80B65420 - guard
+80B65470 - pavise
+80B654C0 - beastfoe
+80B65510 - birdfoe
+80B65560 - dragonfoe
+80B655B0 - parity
+80B65600 - gamble
+80B65650 - smite
+80B656A0 - laguzguard(unusable, calls it a bug)
+80B656F0 - beorcguard(unusable, calls it a bug)
+80B65740 - full guard(unusable, calls it a bug)
+80B65790 - knight ward(unusable, calls it a bug)
+80B657E0 - troop scroll(unusable, calls it a bug)
+
+More Items:
+80B65830 - laguz stone
+80B65880 - laguz stone blue
+80B658D0 - wild stone
+80B65920 - laguz gem
+80B65970 - coin
+80B659C0 - rudol gem(can't give away)

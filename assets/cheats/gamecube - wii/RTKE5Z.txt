@@ -1,0 +1,18 @@
+RTKE5Z
+OctoMania
+
+Max Score on Arcade [Glitch]
+0421A8C8 FFFFFFFF
+Note: FFFFFFFF can be changed to whatever value you want.
+
+Computer Score always X [Glitch]
+0421AC18 XXXXXXXX
+Note: Enter desired value, It's just a display thing you still have to play normally.
+00000000 = 0 score
+
+Max Score on Endless [Glitch]
+0421BBFB 99999999
+
+Max Combo on Endless [Glitch]
+0221BBFC 0000270A
+Note: Doesn't display number, shows Blue diamonds

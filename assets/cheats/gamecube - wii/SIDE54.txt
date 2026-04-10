@@ -1,0 +1,53 @@
+SIDE54
+Sid Meier's Pirates!
+
+Have 99999999 Money [Skiller]
+C2173810 00000003
+3C0005F5 6000E0FF
+90040040 80040040
+60000000 00000000
+Note: Enter Trade With the Merchant, to gain achevments for money just traid stuff and u will see them show up :)
+
+Fleet Stuff
+
+Press + and up gain full Crew.. [Skiller]
+28738DC0 00000018
+4A000000 90000000
+14185D30 0000270F
+E0000000 80008000
+
+Loads of money [Skiller]
+4A000000 90000000
+14185D34 05F5E0FF
+E0000000 80008000
+
+Food Aways 32 [Skiller]
+4A000000 90000000
+14185D38 00000020
+E0000000 80008000
+
+Luxuries Aways 32 [Skiller]
+4A000000 90000000
+14185D3C 00000020
+E0000000 80008000
+
+Goods Aways 32 [Skiller]
+4A000000 90000000
+14185D40 00000020
+E0000000 80008000
+
+Spice Aways 32 [Skiller]
+4A000000 90000000
+14185D44 00000020
+E0000000 80008000
+
+Sugar Aways 32 [Skiller]
+4A000000 90000000
+14185D48 00000020
+E0000000 80008000
+
+Button Address
+
+Button Activation
+80738DC0 = Wiimote
+Use this above address with this tool http://geckocodes.org/index.php?arsenal=2 to make button activators that will go above your code..

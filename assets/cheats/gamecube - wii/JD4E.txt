@@ -1,0 +1,14 @@
+JD4E
+Rival Turf
+
+P1 Unlimited Health [GMO]
+004680FF 0000003F
+
+P1 Unlimited Lives [GMO]
+00468127 00000009
+
+P2 Unlimited Health [GMO]
+004681CF 0000003F
+
+P2 Unlimited Lives [GMO]
+004681F7 00000009

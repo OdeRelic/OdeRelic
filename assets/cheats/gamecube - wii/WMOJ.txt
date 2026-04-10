@@ -1,0 +1,11 @@
+WMOJ
+Anata ga Mawashite Sukuu Puzzle Mochi Mochi Q
+
+Time Stop [ZiT]
+040384D4 60000000
+
+If Score Increase, MAX [ZiT]
+040425C0 9005DB7C
+
+Victim 0 [ZiT]
+040559FC 9204DB80

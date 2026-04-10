@@ -1,0 +1,50 @@
+RBKE69
+Boom Blox
+
+unlimited camera height [wiiztec]
+0401782C 60000000
+
+Set Score to XXXX [Zeld]
+C21C5EA8 00000002
+3B20XXXX 93380C68
+60000000 00000000
+C20F0DEC 00000002
+3860XXXX 907F0000
+60000000 00000000
+Final score will equal what the code sets, but the score displayed on the screen might be different
+
+Set Thrown Count to 0 [Zeld]
+C20F80AC 00000002
+38600000 907D000C
+60000000 00000000
+C20EE1E0 00000002
+38000000 90650050
+60000000 00000000
+Code works but only if activated before thrown count is increased normally
+Seems to make completion of certain levels impossible (the few levels where you must run out of throws; one such level I tested this code on did finish, and the one I originally tested the code on would sit there indefinitely after you ran out of throws, forcing you to pause and exit the level with no way of completing it)
+
+Lots of Time [Zeld]
+C20F55A4 00000004
+7C03F800 40820014
+2C037FFF 4180000C
+3C00005B 60008998
+7C63F850 00000000
+Works great! Gives 99:59 to accomplish tasks
+
+Speedy Protection Missions [Zeld]
+C20F55B4 00000003
+2C007FFF 41A00008
+38000100 901E0008
+60000000 00000000
+Conflicts with "Lots of Time" in certain levels
+Only need 1 second of keeping cows alive to win bandit levels
+
+No Enemies [Zeld]
+C2101104 00000002
+3BE00063 93E30004
+60000000 00000000
+C212D214 00000002
+38600063 3BE00063
+7C03F840 00000000
+Makes completion of certain levels impossible
+Makes enemies not spawn

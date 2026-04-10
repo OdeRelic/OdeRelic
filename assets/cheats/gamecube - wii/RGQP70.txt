@@ -1,0 +1,16 @@
+RGQP70
+Ghostbusters: The Video Game
+
+Unlimited Health [Crapulecorp]
+0420CCC8 60000000
+*Code ported from 96866299 Ntsc Usa Version*
+
+Unlimited Weapons/No Overheat [Crapulecorp]
+04190AEC 60000000
+*Code ported from 96866299 Ntsc Usa Version*
+
+0 $ Damage [Crapulecorp]
+C2289748 00000002
+EC000028 D004006C
+60000000 00000000
+*Code ported from Panda On Smack Ntsc Usa Version*

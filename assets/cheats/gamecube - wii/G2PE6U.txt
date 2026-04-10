@@ -1,0 +1,14 @@
+G2PE6U
+Spirits and Spells 
+
+Infinite Lives
+008F6C37 00000062
+
+Max Yellow Gems
+008F6C3B 00000063
+
+Max Saved Souls
+008F6C3F 00000063
+
+Infinite Character Switches
+008F6C43 0000000A

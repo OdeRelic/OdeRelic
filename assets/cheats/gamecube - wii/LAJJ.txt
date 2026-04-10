@@ -1,0 +1,55 @@
+LAJJ
+Sonic The Hedgehog 2
+
+Note [Mathew_Wi]
+00000000 00000000
+ZiT's codes don't seem to work for me.
+So, if you have any problems with ZiT's codes, try these.
+Also, 99 Rings is a bad idea, it makes the score count go on infinitely.
+
+Infinite Time [Mathew_Wi]
+02D53158 0000FF00
+
+99 Rings [Mathew_Wi]
+00D53139 00000099
+It's not recommended you use this.
+It may cause the score count to glitch.
+
+Infinite Lives [Mathew_Wi]
+00D53138 00000009
+
+High Score [Mathew_Wi]
+04D5313C 99990099
+
+No Sound Effects [Mathew_Wi]
+04EC2130 00000000
+
+Moon Jump [Mathew_Wi]
+28B8C1E0 00000200
+04D533B8 F0FB8800
+E0000000 80008000
+
+Time Stop [ZiT]
+00E53F3C 00000000
+
+Ring 70 [ZiT]
+00E53F19 00000070
+
+Infinite Lives [ZiT]
+00E53F18 00000099
+
+Moon Jump [ZiT]
+281BCE82 FEFF0100
+02E54198 000000FC
+E0000000 80008000
+
+Speed Up [ZiT]
+281BCE82 FFFB0004
+00E54197 0000000A
+E0000000 80008000
+281BCE82 FFF70008
+00E54197 000000F0
+E0000000 80008000
+
+Invincible [ZiT]
+00E54029 00000022

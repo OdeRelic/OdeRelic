@@ -1,0 +1,15 @@
+ROTP7J
+Twin Strike: Operation Thunder
+
+Dammage Don't Increase [Crapulecorp]
+0405BB04 60000000
+
+Unlimited Fuel [Crapulecorp]
+0401B72C 60000000
+
+Unlimited NVG [Crapulecorp]
+0401594C 60000000
+*Can Decrease During Cut Scenes*
+
+Unlimited Missiles [Crapulecorp]
+0401BEA4 38630000

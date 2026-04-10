@@ -1,0 +1,32 @@
+RM9PGM
+Mushroom Men The Spores Wars
+
+Unlimited Health [Crapulecorp]
+C20D6F18 00000004
+2C1C0003 4182000C
+D00316C8 48000010
+810316CC 910316CC
+39000000 00000000
+*Code ported from ZiT Ntsc Usa Version*
+
+Moon Jump (A Button) [Crapulecorp]
+C21C7174 00000004
+2C040001 4182000C
+D01E0144 4800000C
+3E004200 921E0144
+60000000 00000000
+E0000000 80008000
+2857D3F6 00000000
+041C7174 D01E0144
+E0000000 80008000
+*WiiMote-NunChuk*
+*Code ported from ZiT Ntsc Usa Version*
+
+Unlimited Ammo [Crapulecorp]
+041E2214 60000000
+*Code ported from ZiT Ntsc Usa Version*
+
+Button Activator
+
+WiiMote-NunChuk [Crapulecorp]
+2857D3F6 YYYYZZZZ

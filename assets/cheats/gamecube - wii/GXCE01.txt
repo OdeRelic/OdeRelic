@@ -1,0 +1,32 @@
+GXCE01
+Custom Robo 
+
+Unlock Bonuses
+04321D44 FFFFFFFF
+
+Robo 1: Infinite Health
+0424E194 447A0000
+
+Robo 2: Infinite Health
+042816B4 447A0000
+
+Robo 3: Infinite Health
+042B4BD4 447A0000
+
+Robo 4: Infinite Health
+042E80F4 447A0000
+
+All Body Types
+023BFB9C 0003FFFF
+
+All Gun Parts
+023BFBBC 0003FFFF
+
+All Bomb Parts
+023BFBDC 0003FFFF
+
+All Pod Parts
+023BFBFC 0003FFFF
+
+All Leg Parts
+023BFC1C 0003FFFF

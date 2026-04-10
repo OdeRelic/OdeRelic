@@ -1,0 +1,64 @@
+NAEJ
+Mario Story
+
+Infinite Health & Powerful Jump/Hammer [Mathew_Wi]
+053251F0 02026363
+
+Infinite FP [Mathew_Wi]
+053251F4 63636363
+
+Infinite BP & Level 99 [Mathew_Wi]
+053251F8 636305D5
+
+Infinite Coins & Star Pieces [Mathew_Wi]
+053251FC 270F1163
+
+Have Most Badges [Mathew_Wi]
+053252A4 01210131
+053252A8 01220132
+053252AC 01230134
+053252B0 01240135
+053252B4 01250136
+053252B8 01260138
+053252BC 0127013A
+053252C0 0129013C
+053252C4 012A013E
+053252C8 012B0140
+053252CC 012D0143
+053252D0 012E0144
+053252D4 012F0145
+053252D8 01500146
+053252DC 01510148
+053252E0 01000000
+
+Have Awesome Items [Mathew_Wi]
+053253B4 008E00B4
+053253A4 00BC009A
+If you buy or get an item, these items will be duplicated in their place.
+
+Moon Jump (A) (GC Controller) [Mathew_Wi]
+28A9BB60 FEFF0100
+05324F98 4128F1FE
+05324F9C C02F82D4
+05324FA0 BE9B2AB0
+05324FE8 00100000
+E0000000 80008000
+
+Quick Level Up & Partner Modifier [Mathew_Wi]
+05325200 6300XXDC
+Change XX to:
+00 - None
+01 - Goombario
+02 - Kooper
+03 - Bombette
+04- Parakarry
+05 - Goombario's Grandfather
+06 - Watt
+07 - Sushie
+08 - Lakilester
+09 - Lady Bow
+0A - Goombario's Sister
+0B - Twink
+Walk through a door on save load to take effect.
+Thanks to matt123337 for the XX values.
+If you start a new game, it will freeze.

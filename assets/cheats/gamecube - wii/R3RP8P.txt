@@ -1,0 +1,59 @@
+R3RP8P
+Sonic & Sega All-Stars Racing
+
+Have always AAA in Mission Mode V1.1 [Dr.Cleo]
+48000000 80520308
+DE000000 80008180
+14000320 FFFFFFFF
+E0000000 80008000
+Won't work on Cup Missions. Use the Item Modifier from Thomas38lin to get there a AAA. But if there is further one where this code won't work. PM me on the Wiird Forum.And by some missions (like 1) there will stand only at the end you have AAA.
+
+Character Modifier Race [Dr.Cleo]
+04A50EB8 XXXXXXXX
+For use with Single Race, Time Attack and Grand Prix
+Replace XXXXXX with the codes down
+
+Character Modifier Mission [Dr.Cleo]
+04A52740 XXXXXXXX
+04A60EE0 XXXXXXXX
+04A4D9E8 XXXXXXXX
+04A52740 XXXXXXXX
+For use in Mission mode
+Replace XXXXXXXX with:
+-Sonic 9A531DA2
+-Tails AADF30CD
+-Amy 6056DF71 Dr.Cleo
+-Knuckles CD745831
+-Shadow 71992994
+-Dr.Eggman 4BC68247
+-Big BB8B0176
+-Mii D7BC0C4A
+-Aiai 958293EA
+-Billy Hatcher C5C9DEA1
+-Amigo 32D305A8
+-Ulala 9CDF9864
+-Beat 3EB380E1
+-B.D. Joe D4CB648B
+-Zobio & Zobiko CD8017BA
+-Ryo 1D1675FB
+-Jacky & Akira F9463649 [Dr.Cleo]
+-Chuchus 2908093D
+-Bonanza bros. E0FB7766
+-Alex Kidd C61B5EC5 [Dr.Cleo]
+-Opa-Opa AC7564FA
+Further i'ts untested in WiFi and Split Screen
+
+Warning! Set hook to ossleapthread!!
+
+Itemx20 [Thomas83Lin]
+284E9EF8 EFFF1000
+04C030A0 00000014
+E0000000 80008000
+*Press - to Receive 20 of the Item your Holding*
+
+Always Have Item Modifier [Thomas83Lin]
+04C0309C XXXXXXXX
+*Single Player*
+*Replace x with Item*
+
+*Items*

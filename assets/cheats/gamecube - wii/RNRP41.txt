@@ -1,0 +1,19 @@
+RNRP41
+Nitro Bike
+
+Time Stop [Crapulecorp]
+04087508 60000000
+
+Start On Last Lap & 1st [Crapulecorp]
+C2087498 00000003
+2C1A0003 4182000C
+B09F0022 48000008
+B21F0022 00000000
+*Ported From ZiT's Ntsc Jap Version*
+
+Unlimited Nitro [Crapulecorp]
+04067A44 4BF9AFCC
+04002A10 D39F1014
+04002A14 48065034
+040688C4 D39D1014
+*Ported From ZiT's Ntsc Jap Version*

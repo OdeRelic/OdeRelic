@@ -1,0 +1,121 @@
+R4QE01
+Mario Strikers Charged
+
+Fully Charged Ball [Bully@Wiiplaza]
+C20156A0 00000002
+3D804100 918300C0
+C02300C0 00000000
+*Credits: Ferrer*
+
+All Striker Challenges Completed [Bully@Wiiplaza]
+C210FEA8 00000002
+3860FFFF 907F0068
+60000000 00000000
+*Go to striker challenges to take effect*
+*Also unlocks all cheats/player cards*
+
+All Captains/ Stadiums Unlocked [Bully@Wiiplaza]
+C210FF88 00000002
+3800FFFF B00386AC
+60000000 00000000
+*Also completes all cups at "Hall Of Fame"*
+*Video: https://www.youtube.com/watch?v=b6POL_sqEQs
+
+Button Activator [Nutmeg]
+28586F94 YYYYZZZZ
+
+P2 Button Activator [Nutmeg]
+28586104 YYYYZZZZ
+
+Home Team Item Modifer -original by mdmwii- [Nutmeg]
+28586F94 XXXXXXXX
+8000000E 000000ZZ
+E0000000 00000000
+28586F94 XXXXXXXX
+8000000E 000000ZZ
+E0000000 00000000
+28586F94 XXXXXXXX
+8000000E 000000ZZ
+E2000001 00000000
+48000000 806E0BA8
+DE000000 80008180
+9421000E 0000024C
+E0000000 80008000
+
+Away Team Item Modifier [Nutmeg]
+28586F94 XXXXXXXX
+80000011 000000ZZ
+E0000000 00000000
+28586F94 XXXXXXXX
+80000011 000000ZZ
+E0000000 00000000
+28586F94 XXXXXXXX
+80000011 000000ZZ
+E2000001 00000000
+48000000 80CFB340
+DE000000 80008180
+94210011 00000D44
+E0000000 80008000
+
+Always Get ZZ Item [Nutmeg]
+C20A68EC 00000002
+388000ZZ 9083008C
+60000000 00000000
+
+ZZ Values:
+00 = Green Shell
+01 = Red Shell
+02 = Spikey Shell
+03 = Ice Shell
+04 = Banana
+05 = Bomb-omb
+06 = Chain Chomp
+07 = Mushroom
+08 = Star
+09 = SP Mario
+0A = SP Peach
+0B = SP Donkey Kong
+0C = SP Bowser
+0D = SP Luigi
+0E = SP Daisy
+0F = SP Wario
+10 = SP Waluigi
+11 = SP Bowser Jr.
+12 = SP Diddy Kong
+13 = SP Yoshi
+14 = SP Petey Piranha
+
+Friend Daily Points Modifier [Nutmeg]
+04C5FF58 XXXXXXXX
+-This will ONLY modify your points that your friends will see, not the public.
+
+Home Team Score Modifier [Nutmeg]
+48000000 80CFB33C
+DE000000 80008180
+140001C4 0000XXXX
+E0000000 80008000
+
+Away Team Score Modifier [Nutmeg]
+48000000 806E0BA8
+DE000000 80008180
+14000D2C 0000XXXX
+E0000000 80008000
+
+XXXX is score in hex!
+e.x. 270F = 9999
+
+Match Time = 1 hour [Nutmeg]
+04CFA274 45610000
+
+Insta-Finish/Sudden Death [Nutmeg]
+28586F94 YYYYZZZZ
+0405A970 60000000
+2A586F95 YYYYZZZZ
+0405A970 C05F001C
+E0000000 80008000
+
+Team 1 Always Wins in VS. Match [hetoan2]
+10433013 00000063
+1106057B 00000063
+10CFCDAF 00000063
+10C8018D 00000063

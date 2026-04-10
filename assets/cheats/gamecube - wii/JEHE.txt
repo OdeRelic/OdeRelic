@@ -1,0 +1,114 @@
+JEHE
+Mega Man X2
+
+Miscellaneous Codes
+
+Refill Health+Ammo [GMO]
+28245B8A 00000080
+00518F67 00000020
+0851A523 000000DC
+00090002 00000000
+E0000000 80008000
+Press Z(Left) on Classic Controller
+
+Invincible (Press - On/Off) [GMO]
+28245B8A EFFF1000
+CC000000 00000000
+00518FAB 00000019
+E0000000 80008000
+Classic Controller
+
+Unlimited Lives [GMO]
+0051A51B 00000009
+
+Shoot 1 time for Instant Max Charge [GMO]
+00518F97 000000C8
+
+Have Shoryoken (Dragon Punch) [GMO]
+0051A519 00000080
+
+Have Armor Upgrades [GMO]
+0051A538 000000FF
+
+Have Health Upgrade [GMO]
+0051A539 00000020
+
+1-Hit Kill (Bosses) [GMO]
+28245B8A 00000004
+005192A7 00000001
+005192E7 00000001
+00519327 00000001
+00519467 00000001
+E0000000 80008000
+Press Z(Right) on Classic Controller
+
+Stage Modifier [GMO]
+0051A515 000000XX
+00 Intro stage
+01 Morph Moth
+02 Wire Sponge
+03 Bubble Crab
+04 Flame Stag
+05 Magna Centipede
+06 Crystal Snail
+07 Overdrive Ostrich
+08 Wheel Gator
+09 X Hunter Stage 1
+0A X Hunter Stage 2
+0B X Hunter Stage 3
+0C X Hunter Stage 4
+
+Have Individual Items
+
+Have Sub-Tank 1 [GMO]
+0051A51E 00000080
+
+Have Sub-Tank 2 [GMO]
+0051A51F 00000080
+
+Have Sub-Tank 3 [GMO]
+0051A520 00000080
+
+Have Sub-Tank 4 [GMO]
+0051A521 00000080
+
+Have Zer0's Legs [GMO]
+0051A53E 00000080
+
+Have Zer0's Head [GMO]
+0051A53F 00000080
+
+Have Zer0's Body [GMO]
+0051A540 00000080
+
+Individual Have/Unlimited Ammo
+
+Crystal.H [GMO]
+0051A523 000000DC
+
+Bubble.S [GMO]
+0051A525 000000DC
+
+Silk.S [GMO]
+0051A527 000000DC
+
+S.Wheel [GMO]
+0051A529 000000DC
+
+S.Slicer [GMO]
+0051A52B 000000DC
+
+S.Chain [GMO]
+0051A52D 000000DC
+
+Magnet.M [GMO]
+0051A52F 000000DC
+
+S.Burner [GMO]
+0051A531 000000DC
+
+G.Crush [GMO]
+0051A533 000000DC
+
+L.Tracer [GMO]
+0051A535 000000DC

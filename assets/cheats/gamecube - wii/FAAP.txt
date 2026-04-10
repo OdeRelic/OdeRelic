@@ -1,0 +1,56 @@
+FAAP
+Donkey Kong
+
+Infinite Lives [Crapulecorp]
+003B5B15 0000000A
+
+Nop Donkey Kong [Crapulecorp]
+003B5AF6 000000FF
+*Please Use It With The Invincible Code*
+*Code ported from ZiT Ntsc Jap Version*
+
+Invincible (Press - ON/OFF) [Crapulecorp]
+281DFE52 EFFF1000
+CC000000 00000000
+003B5B58 00000000
+2C3B5B56 0000FE00
+003B5B56 00000001
+E0000000 80008000
+*WiiMote*
+*Code ported from ZiT Ntsc Jap Version*
+
+MoonJump [Crapulecorp]
+281DFE52 FEFF0100
+023B5EF4 0000007F
+003B5EF6 00000000
+E0000000 80008000
+*WiiMote*
+*Please Use It With The Invincible Code*
+*Code ported from ZiT Ntsc Jap Version*
+
+Invincible (Press ZL ON/OFF) [Crapulecorp]
+281DFEB2 FF7F0080
+CC000000 00000000
+003B5B58 00000000
+2C3B5B56 0000FE00
+003B5B56 00000001
+E0000000 80008000
+*Classic Controller*
+*Code ported from ZiT Ntsc Jap Version*
+
+MoonJump (Press X) [Crapulecorp]
+281DFEB2 FFF70008
+023B5EF4 0000007F
+003B5EF6 00000000
+E0000000 80008000
+*Classic Controller*
+*Please Use It With The Invincible Code*
+*Code ported from ZiT Ntsc Jap Version*
+
+Button Activator
+
+WiiMote [Crapulecorp]
+281DFE52 YYYYZZZZ
+
+Classic Controller [Crapulecorp]
+281DFEB2 YYYYZZZZ

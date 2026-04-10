@@ -1,0 +1,11 @@
+FFDE
+Crash N the Boys Street Challenge
+
+Max Gold Currency [GMO]
+003A29F1 00000099
+
+Max Silver Currency [GMO]
+003A29F6 00000009
+
+Max Bronze Currency [GMO]
+003A29FB 00000009

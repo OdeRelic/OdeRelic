@@ -1,0 +1,6 @@
+RCPE18
+Kororinpa: Marble Mania
+
+Collect All Red Gems [BoxNinja]
+80000001 804505B4
+8A000412 804505B0

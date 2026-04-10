@@ -1,0 +1,23 @@
+MCQP
+Boogerman
+
+Unlimited Lives [GMO]
+00ED3D2E 00000099
+
+99 Plungers Collected [GMO]
+00ED3D32 00000099
+
+Unlimited Boogers [GMO]
+00ED3D3C 00000020
+
+Unlimited Bad Breath [GMO]
+00ED3D3E 00000020
+
+Invincible [GMO]
+00ED3D49 00000060
+
+Moon Jump [GMO]
+281BCE82 FDFF0200
+02ED5546 0000F900
+E0000000 80008000
+WiiMote Hold 1

@@ -1,0 +1,14 @@
+SGYPNJ
+Gummy Bears Mini Golf
+
+Always First Shot [Crapulecorp]
+001997DF 00000001
+
+Always First Shot (ASM Version) [Crapulecorp]
+04024904 38030000
+04024F28 38030000
+
+If Decrease Max Money In Store [Crapulecorp]
+C2012830 00000002
+380003E7 900400B0
+60000000 00000000

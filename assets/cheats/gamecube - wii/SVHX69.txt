@@ -1,0 +1,114 @@
+SVHX69
+Fifa 14
+
+Miscellaneous
+
+Button Activator [Bully@Wiiplaza]
+28135400 YYYYZZZZ
+
+Profile Modifiers
+
+City Name Modifier [Bully@Wiiplaza]
+42000000 90000000
+0797BB80 00000018
+00SS00SS 00SS00SS
+00SS00SS 00SS00SS
+00SS00SS 00SS00SS
+E0000000 80008000
+
+Club Name Modifier [Bully@Wiiplaza]
+42000000 90000000
+075724B6 00000018
+00SS00SS 00SS00SS
+00SS00SS 00SS00SS
+00SS00SS 00SS00SS
+E0000000 80008000
+
+Club Abbreviation Modifier [Bully@Wiiplaza]
+42000000 90000000
+075724D0 00000008
+00SS00SS 00SS0000
+E0000000 80008000
+
+Population Modifier [Bully@Wiiplaza]
+C21E4C1C 00000003
+3FA0XXXX 63BDXXXX
+93A4A8EC 93A4A8F0
+60000000 00000000
+
+All Overall Bonuses Completed [Bully@Wiiplaza]
+C21A0C48 00000007
+2C1B0001 40820028
+38600005 907F63D8
+38600014 907F1398
+907F4D98 3860001E
+907F0038 38600023
+907F2798 807F0038
+60000000 00000000
+
+Match
+
+Goals Worth Multiplier [Bully@Wiiplaza]
+045EBFE8 3805000X
+
+Home Goals Modifier [Bully@Wiiplaza]
+C2242FB8 00000002
+3800XXXX 90046F3C
+60000000 00000000
+
+Away Goals Modifier [Bully@Wiiplaza]
+C241D5D8 00000002
+3800XXXX 90037294
+60000000 00000000
+
+Home Players Amount Modifier [Bully@Wiiplaza]
+C22DDA14 00000002
+3800000X 901F00C8
+60000000 00000000
+
+Players Sent-Off Modifier [Bully@Wiiplaza]
+047360CC 3803XXXX
+FFFF = Default (-1)
+*The amount of players which have to leave the field when someone of the team receives a red card*
+
+Timer Control [Bully@Wiiplaza]
+046CA5C0 38040001
+046CA564 7C00E214
+046CA5C8 60000000
+046CA568 60000000
+28135400 F9FF0600
+046CA5C0 3800270F
+046CA564 3800270F
+046CA5C8 901D0008
+046CA568 901D000C
+E0000000 80008000
+*Press 1 + B to end half time otherwise you can play forever*
+*Not compatible with "Match Timer Speed Multiplier"*
+
+Timer Speed Multiplier [Bully@Wiiplaza]
+046CA5C0 3804000X
+*Not compatible with "Match Timer Control"*
+
+Manager Mode
+
+Infinite Transfer Points [Bully@Wiiplaza]
+C2384F94 00000002
+39800063 91830000
+80630000 00000000
+
+Infinite Budget [Bully@Wiiplaza]
+C2384FB4 00000002
+3D806000 91830004
+80630004 00000000
+
+Placeholders
+
+*YYYY & ZZZZ Values*
+Button mask & button values
+http://www.geckocodes.org/index.php?arsenal=2
+
+*SS values*
+ASCII letters converted to hexadecimal
+
+*X values*
+Decimal converted to hexadecimal

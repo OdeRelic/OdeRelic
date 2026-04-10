@@ -1,0 +1,25 @@
+RZPP01
+Links Crossbow Trainin
+
+score 999999 [memorris]
+043654C6 000F423F
+Hacked by ZiT for NTSC-JP, ported by memorris to PAL-EU
+Thank you ZiT
+
+Time Limit Do not use with ocarina. [memorris]
+04365CAE 00000XX0
+XX=BA FOR THE TIME TO STAY AT 99
+OR
+XX -00 FOR THE TIME TO FINISH STRAT AWAY.
+Hacked by ZiT for NTSC-JP, ported by memorris to PAL-EU
+Thank you ZiT
+
+Full on Automatic Crossbow [memorris]
+043654DA 00020000
+Hacked by ZiT for NTSC-JP, ported by memorris to PAL-EU
+Thank you ZiT
+
+Open all Levels [memorris]
+0435BC2E 00000009
+Hacked by Nuke for NTSC-US, ported by memorris to PAL-EU
+Thank you Nuke

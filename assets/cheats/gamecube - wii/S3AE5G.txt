@@ -1,0 +1,51 @@
+S3AE5G
+Attack of the Movies
+
+Lives don't decrease [giantpune]
+0400B460 60000000
+
+Ammo doesn't decrease ( all players ) [giantpune]
+04025098 60000000
+
+Health doesn't decrease after the first hit [giantpune]
+0400B718 60000000
+0400B730 60000000
+
+Unlock Cosmic Combat [giantpune]
+001A7484 00000000
+
+Unlock Into the Emperor's Tomb [giantpune]
+001A7514 00000000
+
+Unlock Robot Rebellion [giantpune]
+001A75A4 00000000
+
+Unlock Deep Sea Danger [giantpune]
+001A7634 00000000
+
+Unlock Graveyard Gunfight [giantpune]
+001A76C4 00000000
+
+Inf HP [Skiller]
+0400B714 C01F0CF8
+Note: giantpune found the section
+
+Huge Amount of Score [Skiller]
+C201E3F8 00000003
+3FE04B18 63FF967F
+93E30218 7C7F1B78
+60000000 00000000
+
+Weapon Mod [Skiller]
+C201E0E4 00000002
+3880000? 8003024C
+60000000 00000000
+C2024B58 00000002
+3800000? 9003017C
+8003017C 00000000
+
+Digits
+0 = Gun
+1 = Uzi
+2 = Ak47
+3 = Gattling gun

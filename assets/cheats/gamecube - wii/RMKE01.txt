@@ -1,0 +1,88 @@
+RMKE01
+Mario Sports Mix
+
+Button Activator [Bully@Wiiplaza]
+284CCF12 YYYYZZZZ
+
+Force Next Item [Bully@Wiiplaza]
+C217BF68 00000002
+3CC0XXXX 60C6XXXX
+90C500DC 00000000
+0417C2E4 60000000
+X Values:
+FFFFFFFF = No Items Mode
+00000000 = Green Shell
+00000001 = Red Shell
+00000002 = Minishroom
+00000003 = Bob-omb
+00000004 = Star
+00000005 = Banana
+00000006 = Slippery Minishroom
+*Credits: Hetoan2*
+
+Time Control [Bully@Wiiplaza]
+284CCF12 F9FF0600
+C2151888 00000005
+9421FFF0 91610008
+3D600000 616B0000
+91630024 81610008
+38210010 C0430024
+60000000 00000000
+E2100000 00000000
+C2151888 00000005
+9421FFF0 91610008
+3D6046F2 616BAC2A
+91630024 81610008
+38210010 C0430024
+60000000 00000000
+E0000000 80008000
+*Press 1 + B to end game, otherwise: Timer frozen*
+
+Blue Team: SP Modifier [Bully@Wiiplaza]
+04A4202C SSSSSSSS
+*This is my fix for hetoan2´s version*
+*SSSSSSSS Values*
+00000000 = Empty
+3F800000 = Full
+
+Red Team: SP Modifier [Bully@Wiiplaza]
+04A42030 SSSSSSSS
+*SSSSSSSS Values*
+00000000 = Empty
+3F800000 = Full
+
+Both Teams: SP Modifier [Bully@Wiiplaza]
+0418B1CC SSSSSSSS
+*This is my fix for hetoan2´s version*
+*SSSSSSSS Values*
+FC20B090 = Empty
+FC201090 = Full
+
+Always Have X Item Blue Team [hetoan2]
+044D691C 0000000X
+Item Values
+0 = Green Shell
+1 = Red Shell
+2 = Minishroom
+3 = Bob-omb
+4 = Star
+5 = Banana
+6 = Slippery Minishroom
+Item May not appear on screen even though you have it.
+
+Always Have X Item Red Team [hetoan2]
+044D6920 0000000X
+
+Disable Items [hetoan2]
+0417BF58 38C0FFFF
+
+Score Once, get 99 points [hetoan2]
+0418AC60 38600063
+Works for opposing team as well.
+May decide winner instantly.
+
+Instant SP Bar Gain [hetoan2]
+0418B300 D0A5010C
+
+Blue Team has Max SP [hetoan2]
+04A41F6C 3F800000

@@ -1,0 +1,13 @@
+JDXP
+Aero the Acrobat 2
+
+Unlimited Health [Crapulecorp]
+0045D699 00000003
+
+Unlimited Lives [Crapulecorp]
+0045D61F 00000099
+*Code ported from GMO Ntsc Usa Version*
+
+Invincible [Crapulecorp]
+0045D621 00000077
+*Code ported from GMO Ntsc Usa Version*

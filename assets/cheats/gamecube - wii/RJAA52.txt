@@ -1,0 +1,96 @@
+RJAA52
+Call of Duty: Modern Warfare Reflex
+
+Checkered Map In lobby [Crashzer]
+F6000001 8100817F
+810761E8 8068D00C
+14000010 80EA0AB9
+E0000000 80008000
+*http://i49.tinypic.com/5wwmt.png
+*This code will cause a freeze if you start the game with it activated
+
+Campaign Codes
+
+No Clip [Bully@Wiiplaza]
+2817FE0A 7FFF8000
+F6000001 80108100
+8003B854 2C000000
+2817FE0A FEFF0100
+14000000 38000001
+CC000000 00000000
+14000000 8003B854
+E0000000 80008000
+*Press Home on Main Menu to activate code*
+*Press 1 to toggle ON/OFF*
+
+God Mode [Bully@Wiiplaza]
+2817FE0A 7FFF8000
+F6000001 80008100
+80180190 2C000000
+F4000000 022C0002
+38000001 9818017F
+80180190 00000000
+E0000000 80008000
+*Press Home on Main Menu to activate code*
+*Total Invincibility*
+
+Infinite Ammo [Bully@Wiiplaza]
+2817FE0A 7FFF8000
+F6000001 80008100
+7C9D0214 A8840178
+14000010 38000001
+14000418 38800000
+E0000000 80008000
+*Press Home on Main Menu to activate code*
+*Infinite Weapon Ammo & Grenades*
+
+All Missions Unlocked [Bully@Wiiplaza]
+2817FE0A 7FFF8000
+F6000001 81008180
+3F800000 3F19999A
+140001EC 01000000
+E0000000 80008000
+*Press Home on Main Menu to activate code*
+*Non-permanent*
+*Video: http://www.youtube.com/watch?v=vwNyAs25VB8
+
+Multiplayer Codes
+
+Infinite Ammo [Bully@Wiiplaza]
+20152BA4 FFFFFFFA
+F6000001 80008100
+A80301F4 7C040050
+14000004 60000000
+E0000000 80008000
+*Host All-Players*
+
+God Mode [Bully@Wiiplaza]
+20152BA4 FFFFFFFA
+F6000001 80008100
+9003000C 80130150
+14000004 38001001
+E0000000 80008000
+*Host All-Players*
+*Total Invincibility*
+*Hold a grenade until it explodes to die*
+
+Noclip [Bully@Wiiplaza]
+20152BA4 FFFFFFFA
+F6000001 80008100
+54000290 901E00CC
+2817FE0A 7FFF8000
+14000008 38000001
+CC000000 00000000
+14000008 801E17A4
+E0000000 80008000
+*Host All-Players*
+*Press Home to toggle ON/OFF*
+
+No Recoil [Bully@Wiiplaza]
+20152BA4 FFFFFFFA
+F6000001 80008100
+FC013040 4C411382
+1400000C 60000000
+E0000000 80008000
+*Non-Host*
+*Credits to WiiOS_Ozelot*

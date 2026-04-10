@@ -1,0 +1,64 @@
+RWLE01
+Wario Land Shake It!
+
+Max Money (Pirate Shop) [GMO]
+C22AF7CC 00000002
+3C800098 6084967F
+90830034 00000000
+
+Max Gold (In-Game) [GMO]
+C218337C 00000002
+3C800098 6084967F
+9083002C 00000000
+
+All missions on all stages completed [wiiztec]
+08A99638 FFFFFFFF
+2026000C 00000000
+ported from ZiT's jap version code
+After using this complete any stage once to unlock it's music
+
+Infinite Time [g6flavor]
+2EBAC506 00003840
+02BAC506 00008CA0
+E0000000 80008000
+
+Infinite Recovery Potion (means infinite health) [g6flavor]
+00A9951F 00000002
+
+Have All 10 Hearts [g6flavor]
+04A995F8 41200000
+
+Moon Jump (push Upward and 2) [g6flavor]
+28500EAA 00000108
+48000000 808820c4
+DE000000 80008180
+14000034 3E000000
+E0000000 80008000
+
+Walk Thru Enemies that can't do damages [g6flavor]
+48000000 808822D0
+DE000000 80008180
+100002a9 00000001
+E0000000 80008000
+
+Invisible Wario [g6flavor]
+48000000 808822D0
+DE000000 80008180
+100002C1 00000001
+E0000000 80008000
+
+Invincible Wario * [g6flavor]
+48000000 808822D0
+DE000000 80008180
+100002ad 00000001
+E0000000 80008000
+
+* Doesn't work on Hot Roderick Race since there's no invincibility between Wario getting hits
+
+All 3 Codes in 1 (WalkThru Enemy, Invisible, Invincible) [g6flavor]
+48000000 808822D0
+DE000000 80008180
+100002a9 00000001
+100002ad 00000001
+100002C1 00000001
+E0000000 80008000

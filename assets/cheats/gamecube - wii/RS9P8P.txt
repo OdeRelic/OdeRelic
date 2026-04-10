@@ -1,0 +1,197 @@
+RS9P8P
+Sonic Riders Zero Gravity
+
+Messed up Graphics [CosmoCortney]
+283B5A96 00001000
+0460B2F0 3F800000
+E0000000 80008000
+283B5A96 00000001
+0460B2F0 00000000
+E0000000 80008000
+283B5A96 00000002
+0460B2F0 3F860000
+E0000000 80008000
+Dpad up and down to mess up
+- (Minus) to set it back to its defaults
+
+21:9 screen ratio [CosmoCortney]
+0460B32C 3FD00000
+the code stretches the video in vertical direction. so it will not looked streched if you use a 21:9 screen (you just will loose a bit of the picture. but the video quality does not suffer)
+
+distorted characters [CosmoCortney]
+0460C0F0 41000000
+
+Speed Hack [CosmoCortney]
+283B5A96 00001000
+0462DA58 3F800000
+E0000000 80008000
+283B5A96 00000400
+0462DA58 40000000
+E0000000 80008000
+283B5A96 00000002
+0462DA58 40800000
+E0000000 80008000
+B = doubled speed
+Dpad up = tripled speed
+- = normal speed
+
+No HUD [CosmoCortney]
+283B5A96 00000010
+04863704 3F800000
+E0000000 80008000
+283B5A96 00001000
+04863704 00000000
+E0000000 80008000
+- to remove the HUD
++ to restore the HUD
+
+Button Activator [Bully@Wiiplaza]
+283B5A96 YYYYZZZZ
+
+Profile 1 Name Modifier [Bully@Wiiplaza]
+283B5A96 YYYYZZZZ
+48000000 8062D2A4
+DE000000 80008180
+58010000 00000004
+DE000000 80008180
+16000410 00000014
+00XX00XX 00XX00XX
+00XX00XX 00XX00XX
+00XX00XX 00000000
+E0000000 80008000
+*XX = ASCII*
+*Press your button(s) on data selection screen*
+
+Profile 2 Name Modifier [Bully@Wiiplaza]
+283B5A96 YYYYZZZZ
+48000000 8062D2A8
+DE000000 80008180
+58010000 00000004
+DE000000 80008180
+16000410 00000014
+00XX00XX 00XX00XX
+00XX00XX 00XX00XX
+00XX00XX 00000000
+E0000000 80008000
+*XX = ASCII*
+*Press your button(s) on data selection screen*
+
+Profile 3 Name Modifier [Bully@Wiiplaza]
+283B5A96 YYYYZZZZ
+48000000 8062D2AC
+DE000000 80008180
+58010000 00000004
+DE000000 80008180
+16000410 00000014
+00XX00XX 00XX00XX
+00XX00XX 00XX00XX
+00XX00XX 00000000
+E0000000 80008000
+*XX = ASCII*
+*Press your button(s) on data selection screen*
+
+Shop Items Cost Nothing [Bully@Wiiplaza]
+F2B6CF90 025C0001
+38800000 60000000
+*Video: http://www.youtube.com/watch?v=jCtSIoEQ4cQ
+
+Time Stop [Bully@Wiiplaza]
+0401C49C 60000000
+0401C478 60000000
+*Video: http://www.youtube.com/watch?v=VCK6Pp-KyAQ
+
+Infinite Gravity Energy (GP) [Bully@Wiiplaza]
+F2A40994 02F44202
+3D8042C8 9183002C
+C023002C 00000000
+*agrs700´s version wasn´t always reliable, this is my fix*
+*Video: http://www.youtube.com/watch?v=_jN4Yr_vUk0
+
+Finish Instantly [Bully@Wiiplaza]
+F2B0C3B4 028C1902
+3B200004 9326003C
+60000000 00000000
+*Video: http://www.youtube.com/watch?v=URTu7-gfx2k
+
+Moon Jump [Bully@Wiiplaza]
+F2A614C8 02380004
+3D80803B A18C5A96
+718C0100 4182000C
+3D80A000 919E00D0
+C01E00D0 00000000
+*Video: http://www.youtube.com/watch?v=2NcaBg0fWgA
+
+Infinite Rings [Bully@Wiiplaza]
+F2A37B48 FE80F302
+38C00064 90C40B3C
+60000000 00000000
+*agrs700´s version wasn´t always reliable, this is my fix*
+
+Super Speed [Bully@Wiiplaza]
+F2AB4288 02280402
+C0180B20 3D808000
+930C1600 00000000
+C0000000 00000005
+3D80803B A18C5A96
+718CZZZZ 41820014
+3D808000 818C1600
+3D604094 916C0B20
+4E800020 00000000
+*ZZZZ = Button to press*
+
+Chipmunk Sound Effects [Bully@Wiiplaza]
+C20656BC 00000002
+3D804000 7D85012E
+7C25042E 00000000
+
+Turbo Boost Jumps [Bully@Wiiplaza]
+F2A1DE40 02200102
+3D804000 9184C4EC
+C044C4EC 00000000
+
+Infinite Store Rings [OneUp]
+055A4950 0000270F
+
+P1
+
+P1 Infinite GP(Gravity energy) [agrs700]
+48000000 80496EF0
+DE000000 80008180
+1400198C 42FF0000
+E0000000 80008000
+
+P1 Infinite rings(in race) [agrs700]
+48000000 80496EEC
+DE000000 80008180
+14000B3E 00000064
+E0000000 80008000
+
+P1 Max GP Modifier [agrs700]
+48000000 80496EEC
+DE000000 80008180
+14000428 xxxx0000
+E0000000 80008000
+<!--!include:Gp Modifier info-->
+
+P2 Codes
+
+P2 Infinite GP(Gravity energy) [agrs700]
+48000000 80496F04
+DE000000 80008180
+14005E0C 42FF0000
+E0000000 80008000
+
+P2 Infinite rings(in race) [agrs700]
+48000000 80496EF0
+DE000000 80008180
+14000B3E 00000064
+E0000000 80008000
+
+Comment area (no codes anymore)
+
+Gp Modifier Info
+Values
+42C8 = Normal ( +0)
+42fa = + 025 PG
+43C8 = + 300 PG
+More Values: http://www.statman.info/conversions/hexadecimal.html

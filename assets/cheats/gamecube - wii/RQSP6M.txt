@@ -1,0 +1,12 @@
+RQSP6M
+Gottleieb Pinball Classics
+
+Always Have 100 Tokens [Jose_Gallardo]
+001D661F 00000064
+
+Score Modifier [Jose_Gallardo]
+041D36FC 000XXXXX
+
+XXXXX = Score Value
+(ex 7A120 = 500,000)
+(ex F423F = 999,999)

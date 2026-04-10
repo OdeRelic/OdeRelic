@@ -1,0 +1,19 @@
+MBCP
+Kid Chameleon
+
+Moon Jump (Hold1) [GMO]
+281DF91A FDFF0200
+02EB850A 0000FFC0
+E0000000 80008000
+
+Unlimited Time (Looping) [GMO]
+00EC5C21 00000005
+
+Unlimited Lives [GMO]
+00EC5C3F 00000063
+
+Unlimited Health [GMO]
+00EC5C41 0000000A
+
+Unlimited Gems [GMO]
+00EC5C43 00000063

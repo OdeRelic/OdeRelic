@@ -1,0 +1,93 @@
+JAZP
+Legend of the Mystical Ninja
+
+Unlimited Health Player 1 [Crapulecorp]
+008BB6DA 00000010
+
+Max Energy Player 1 [Crapulecorp]
+008BB6D0 00000010
+*Code ported from MegamanX Snes Action Replay Pro Version*
+
+Unlimited Lives Player 1 [Crapulecorp]
+008BB6D8 00000004
+*Code ported from GMO Ntsc Usa Version*
+
+Unlimited Money Player 1 [Crapulecorp]
+048BB6D4 99999999
+*Code ported from GMO Ntsc Usa Version*
+
+Have/Unlimited Bombs Player 1 [Crapulecorp]
+008BB6E2 00000099
+
+Unlimited Red Rubban [Crapulecorp]
+008BB6DC 00000099
+
+P1 Infinite Usage of Jutsu Techniques [Crapulecorp]
+008BB6D2 00000099
+*Code ported from MegamanX Snes Action Replay Pro Version*
+
+P1 Have Jutsu Technique 1 [Crapulecorp]
+008BB6FE 00000001
+*Code ported from MegamanX Snes Action Replay Pro Version*
+
+P1 Have Jutsu Technique 2 [Crapulecorp]
+008BB700 00000001
+*Code ported from MegamanX Snes Action Replay Pro Version*
+
+P1 Have Jutsu Technique 3 [Crapulecorp]
+008BB702 00000001
+*Code ported from MegamanX Snes Action Replay Pro Version*
+
+P1 Have Jutsu Technique 4 [Crapulecorp]
+008BB704 00000001
+*Code ported from MegamanX Snes Action Replay Pro Version*
+
+P1 Weapon Modifier [Crapulecorp]
+008BB6DE 000000XX
+008BB6E0 000000XX
+*Replace XX for :
+00 - Normal
+01 - 1st upgrade
+02 - 2nd upgrade*
+*Code ported from MegamanX Snes Action Replay Pro Version*
+
+P1 Invincible (Walkthrough Enemies & Hazards) [Crapulecorp]
+008BA1BA 00000002
+*Code ported from MegamanX Snes Action Replay Pro Version*
+
+Have Text [Crapulecorp]
+008BB74A 00000001
+*Code ported from MegamanX Snes Action Replay Pro Version*
+
+Have Pass [Crapulecorp]
+008BB748 00000001
+*Code ported from MegamanX Snes Action Replay Pro Version*
+
+Max Walking Speed [Crapulecorp]
+008BB6EA 00000002
+008BB728 00000003
+*Code ported from MegamanX Snes Action Replay Pro Version*
+
+Chain Armor (Protects Against 3 Attacks) [Crapulecorp]
+008BB71A 00000006
+*Code ported from MegamanX Snes Action Replay Pro Version*
+
+Straw Coat (Protects Against 4 Attacks) [Crapulecorp]
+008BB71C 00000004
+*Code ported from MegamanX Snes Action Replay Pro Version*
+
+Gold Armor (Protects Against 4 Attacks) [Crapulecorp]
+008BB718 00000008
+*Code ported from MegamanX Snes Action Replay Pro Version*
+
+Straw Hat (Protects Against hazards - 2 Times) [Crapulecorp]
+008BB70C 00000004
+*Code ported from MegamanX Snes Action Replay Pro Version*
+
+Iron Helmet (Protects Against Hazards - 3 Times) [Crapulecorp]
+008BB70A 00000006
+*Code ported from MegamanX Snes Action Replay Pro Version*
+
+Gold Helmet (Protects Against Hazards - 2 Times) [Crapulecorp]
+008BB708 00000008
+*Code ported from MegamanX Snes Action Replay Pro Version*

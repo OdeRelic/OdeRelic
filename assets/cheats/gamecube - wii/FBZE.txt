@@ -1,0 +1,9 @@
+FBZE
+Metroid
+
+Unlimited Energy [Sharkbyte]
+0242B9E6 00009009
+
+Everything Unlocked except Missile Expansions and Energy Tank Expansions [Sharkbyte]
+0056FE32 00000001
+Includes Infinite Health, Ice beam, and more!

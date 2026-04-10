@@ -1,0 +1,11 @@
+FPXS
+Dragon Warrior 2
+
+Infinite Gold [GMO]
+02407A84 0000FFFF
+
+Infinite Health [GMO]
+00407A9B 000000FF
+
+Infinite Magic [GMO]
+00407A9C 000000FF

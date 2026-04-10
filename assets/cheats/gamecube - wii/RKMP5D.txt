@@ -1,0 +1,82 @@
+RKMP5D
+Mortal Kombat Armageddon
+
+Mortal Kombat Mode Codes
+
+Max Cash Work Anywhere on any profils [Thomgame]
+04558688 3B9AC9FF
+
+Infinite Time Everywhere [Thomgame]
+0456F238 00000063
+
+No Time Endurancy Mode Only [Thomgame]
+0456F238 00000000
+
+1 Kill Player 1 [Thomgame]
+0456F050 3D178D2E
+
+1 Kill Player 2 [Thomgame]
+0456F098 3D178D2E
+
+Infinite Health Player 1 [Thomgame]
+0456F050 3F800000
+
+Infinite Health Player 2 [Thomgame]
+0456F098 3F800000
+
+Infinite Fatality Instant Everywhere Hold 1 to Desactivate [Thomgame]
+285775F2 00000000
+046EB4F4 40999999
+285775F2 00000200
+086EB4F4 40999999
+
+Player 1 Never Win [Thomgame]
+0456F060 00000000
+0456F224 00000001
+
+Player 2 Never Win [Thomgame]
+0456F0A8 00000000
+0456F224 00000001
+
+Player 1 Win on 1 Round [Thomgame]
+0456F060 00000003
+0456F224 00000001
+
+Player 2 Win on 1 Round [Thomgame]
+0456F0A8 00000003
+0456F224 00000001
+
+No Round [Thomgame]
+0456F224 00000000
+
+Max Victories for Player 1 [Thomgame]
+0456F064 0000270F
+
+Max Victories for Player 2 [Thomgame]
+0456F0AC 0000270F
+
+Konquest Mode Codes
+
+Infinite Health Konquest Mode only [Thomgame]
+4A000000 90000000
+14F22178 3FC00001
+
+Infinite Power Konquest Mode only [Thomgame]
+4A000000 90000000
+14F221B0 3FB33334
+
+Max Death Count Konquest Mode Press C+Z to activate [Thomgame]
+285775F2 00006000
+14F22CF4 00000063
+285775F2 00000000
+90F22CF4 00000063
+
+ReadMe
+
+Do not make an association of this type of codes : (Infinite Time+ No time = FREEZE or reboot the wii) (1 Kill Player 1 + Infinite Health Player 1 = FREEZE or reboot the wii) (Infinite Health Player 2 + 1 Kill Player 2 = FREEZE or reboot the wii)
+Do not use these codes togethers :
+No Round, Player 2 Win on 1 Round , Player 1 Win on 1 Round, Player 2 Never Win, Player 1 Never Win
+Use rebooter to make work very well these codes.
+WARNING for "Start at Round #" code if you enter a number after 6, you wii will freeze !! So pay attention !!
+The code "Infinite Fatality Instant" only work after the 1st fatality, after you have all the time to make another.
+The code "Infinite Fatality Instant" block the 'Player 1 Win on 1 Round' code and some others, so use this codes lonely

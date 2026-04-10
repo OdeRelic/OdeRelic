@@ -1,0 +1,55 @@
+RSTE64
+Star Wars The Force Unleashed
+
+Force Points [Sorzad12]
+049814EC XXXXXXXX
+*change the X's to the number of force points you want
+
+Always Have 99999999 Force Points [Sorzad12]
+049814EC 05F5E0FF
+*will make your force points go up to 99999999 and never go down
+
+P1 Kills for Duel [Sorzad12]
+044427C4 0000000X
+*cant be over what you set the game rules for
+
+Have all Holocrons, Crystals, Hilts [TNTkryzt]
+089827D0 FFFFFFFF
+201E0004 00000000
+
+Access all Upgrade Levels [TNTkryzt]
+041E1560 38000008
+041E1564 900300EC
+041E1568 60000000
+
+Have all Force Powers+Upgraded [TNTkryzt]
+041E0CD4 38000003
+041E0CD8 90050030
+
+Have all Costumes [TNTkryzt]
+040F0340 38000001
+040F0344 90230034
+040F0348 3800FFFE
+
+Infinite Health [TNTkryzt]
+0421EE80 60000000
+
+Infinite Force [TNTkryzt]
+04217274 60000000
+042171B0 60000000
+
+FP Increases when Spent [TNTkryzt]
+041E1268 7C00EA14
+
+FP Multiplier x100 [TNTkryzt]
+040848A8 38000064
+
+apprentice health [stevenhill627]
+4A000000 80000000
+14B20918 43B00000
+E0000000 80008000
+
+darth vader health [stevenhill627]
+4A000000 80000000
+14B20238 43480000
+E0000000 80008000

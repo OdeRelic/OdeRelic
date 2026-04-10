@@ -1,0 +1,23 @@
+RGLE7D
+Geometry Wars: Galaxies
+
+Infinite Lives [Corey64]
+42000000 92000000
+04249DBC 00000063
+E0000000 80008000
+
+Infinite Bombs [Corey64]
+42000000 92000000
+04249D9C 05F5E0FF
+E0000000 80008000
+
+Weapon Modifier [Corey64]
+42000000 92000000
+04249DC0 0000000X
+E0000000 80008000
+0 = Normal Shot
+1 = 2x Normal Shot
+2 = Rapid Needle Shot
+3 = Wide Wave Shot
+4 = Death Laser (Can't kill certain enemies, Changes color with different drones)
+5 = Weaponless

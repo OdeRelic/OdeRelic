@@ -1,0 +1,287 @@
+WTRE
+Bit.Trip Beat
+
+Button Activator [BoxNinja]
+2025B7C8 XXXXXXXX
+
+Max Score [BoxNinja]
+04319A1C XXXXXXXX
+*Change X to score in hex
+
+Consecutive Bonus v1 [BoxNinja]
+04319A24 000003E6
+*This is the +XX when you hit the squares consecutively
+
+Consecutive Bonus v2 [BoxNinja]
+C202CB18 00000002
+380003E7 900D8F44
+60000000 00000000
+*This is the +XX when you hit the squares consecutively
+
+Gauge Mods
+
+Mega Gauge Always Full [BoxNinja]
+0425CACC 00000064
+
+Melti+ Gauge Always Full [BoxNinja]
+0425C8CC 0000001E
+
+Hyper Gauge Always Empty [BoxNinja]
+0425C93C 00000000
+
+Nether Gauge Always Empty [BoxNinja]
+0425CB3C 00000000
+
+Text Color Mods
+
+Change X Text Color [BoxNinja]
+0421AD50 0000000X
+*Change X to 0-8
+*This is the X in the bottom right corner
+
+Change Mega Text Color [BoxNinja]
+0421AD54 0000000X
+*Change X to 0-8
+
+Change Hyper Text Color [BoxNinja]
+0421AD58 0000000X
+*Change X to 0-8
+
+Change Score Text Color [BoxNinja]
+0421AD48 0000000X
+*Change X to 0-8
+
+Change Text Color [BoxNinja]
+0421AD4C 0000000X
+*Change X to 0-8
+*The number in the bottom right corner
+
+X Text Color Cycler [BoxNinja]
+A8000008 00000025
+80000000 8021AD50
+86010000 00000001
+2421AD50 00000008
+0421AD50 00000000
+E2000001 00000000
+
+Mega Text Color Cycler [BoxNinja]
+A8000008 00000025
+80000000 8021AD54
+86010000 00000001
+2421AD54 00000008
+0421AD54 00000000
+E2000001 00000000
+
+Hyper Text Color Cycler [BoxNinja]
+A8000008 00000025
+80000000 8021AD58
+86010000 00000001
+2421AD58 00000008
+0421AD58 00000000
+E2000001 00000000
+
+Score Text Color Cycler [BoxNinja]
+A8000008 00000025
+80000000 8021AD48
+86010000 00000001
+2421AD48 00000008
+0421AD48 00000000
+E2000001 00000000
+
+Transition High Score Mods
+
+High Score Slot 1 [BoxNinja]
+0426C584 XXXXXXXX
+*Change X to score
+
+High Score Slot 2 [BoxNinja]
+0426C594 XXXXXXXX
+*Change X to score
+
+High Score Slot 3 [BoxNinja]
+0426C5A4 XXXXXXXX
+*Change X to score
+
+High Score Slot 4 [BoxNinja]
+0426C5B4 XXXXXXXX
+*Change X to score
+
+High Score Slot 5 [BoxNinja]
+0426C5C4 XXXXXXXX
+*Change X to score
+
+High Score Slot 6 [BoxNinja]
+0426C5D4 XXXXXXXX
+*Change X to score
+
+High Score Slot 7 [BoxNinja]
+0426C5E4 XXXXXXXX
+*Change X to score
+
+High Score Slot 8 [BoxNinja]
+0426C5F4 XXXXXXXX
+*Change X to score
+
+Name Mod Slot 1 [BoxNinja]
+0426C588 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+Name Mod Slot 2 [BoxNinja]
+0426C598 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+Name Mod Slot 3 [BoxNinja]
+0426C5A8 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+Name Mod Slot 4 [BoxNinja]
+0426C5B8 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+Name Mod Slot 5 [BoxNinja]
+0426C5C8 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+Name Mod Slot 6 [BoxNinja]
+0426C5D8 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+Name Mod Slot 7 [BoxNinja]
+0426C5E8 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+Name Mod Slot 8 [BoxNinja]
+0426C5F8 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+Descent High Score Mods
+
+High Score Slot 1 [BoxNinja]
+0426C624 XXXXXXXX
+*Change X to score
+
+High Score Slot 2 [BoxNinja]
+0426C634 XXXXXXXX
+*Change X to score
+
+High Score Slot 3 [BoxNinja]
+0426C644 XXXXXXXX
+*Change X to score
+
+High Score Slot 4 [BoxNinja]
+0426C654 XXXXXXXX
+*Change X to score
+
+High Score Slot 5 [BoxNinja]
+0426C664 XXXXXXXX
+*Change X to score
+
+High Score Slot 6 [BoxNinja]
+0426C674 XXXXXXXX
+*Change X to score
+
+High Score Slot 7 [BoxNinja]
+0426C684 XXXXXXXX
+*Change X to score
+
+High Score Slot 8 [BoxNinja]
+0426C694 XXXXXXXX
+*Change X to score
+
+Name Mod Slot 1 [BoxNinja]
+0426C628 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+Name Mod Slot 2 [BoxNinja]
+0426C638 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+Name Mod Slot 3 [BoxNinja]
+0426C648 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+Name Mod Slot 4 [BoxNinja]
+0426C658 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+Name Mod Slot 5 [BoxNinja]
+0426C668 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+Name Mod Slot 6 [BoxNinja]
+0426C678 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+Name Mod Slot 7 [BoxNinja]
+0426C688 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+Name Mod Slot 8 [BoxNinja]
+0426C698 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+Growth High Score Mods
+
+High Score Slot 1 [BoxNinja]
+0426C6C4 XXXXXXXX
+*Change X to score
+
+High Score Slot 2 [BoxNinja]
+0426C6D4 XXXXXXXX
+*Change X to score
+
+High Score Slot 3 [BoxNinja]
+0426C6E4 XXXXXXXX
+*Change X to score
+
+High Score Slot 4 [BoxNinja]
+0426C6F4 XXXXXXXX
+*Change X to score
+
+High Score Slot 5 [BoxNinja]
+0426C704 XXXXXXXX
+*Change X to score
+
+High Score Slot 6 [BoxNinja]
+0426C714 XXXXXXXX
+*Change X to score
+
+High Score Slot 7 [BoxNinja]
+0426C724 XXXXXXXX
+*Change X to score
+
+High Score Slot 8 [BoxNinja]
+0426C734 XXXXXXXX
+*Change X to score
+
+Name Mod Slot 1 [BoxNinja]
+0426C6C8 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+Name Mod Slot 2 [BoxNinja]
+0426C6D8 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+Name Mod Slot 3 [BoxNinja]
+0426C6E8 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+Name Mod Slot 4 [BoxNinja]
+0426C6F8 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+Name Mod Slot 5 [BoxNinja]
+0426C708 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+Name Mod Slot 6 [BoxNinja]
+0426C718 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+Name Mod Slot 7 [BoxNinja]
+0426C728 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial
+
+Name Mod Slot 8 [BoxNinja]
+0426C738 00XXYYZZ
+*X=1st initial Y=2nd initial Z=3rd initial

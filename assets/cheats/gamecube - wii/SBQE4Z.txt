@@ -1,0 +1,37 @@
+SBQE4Z
+Big Buck Hunter Pro
+
+Don't have to reload in treks [giantpune]
+0404AD94 60000000
+
+Don't have to reload in bonus levels [giantpune]
+04046358 60000000
+04084AA4 60000000
+04084718 60000000
+
+start timed bonus stages with 99 seconds on the clock [giantpune]
+040469B0 38000063
+* time still decreases
+
+always have 99 seconds in timed bonus stages [giantpune]
+0435FBD8 00000063
+* time doesn't decrease
+
+Shot count write [giantpune]
+0435FC4C 00000001
+* for normal treks, this writes 1 to the address that counts your shots fired
+* this directly affects the math used in calculating bonus points.
+* pretty much guarantees 100% accuracy bonus
+* as long as you kill all 3 male animals without shooting a female animal, you can pretty much fire as many shots wherever you want and get the marksmen award
+
+perfect sights count is always 99 [giantpune]
+0429E880 00000063
+
+perfect streak is always 99 [giantpune]
+0429E878 00000063
+
+equal-rights mode (allowed to shoot females) [giantpune]
+0404ca98 48000144
+*female still die with 1 shot, but it counts like you killed a male instead of ending the level. no points are awarded for distance and the shot counts as a miss instead of hit when calculating accuracy, but at least you get to shoot them.
+
+*THIS ONE CAUSES THE GAME TO GET STUCK IN A LOOP AFTER 1 TREK, SO THE GAME NEEDS RESTARTED

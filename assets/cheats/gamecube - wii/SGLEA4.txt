@@ -1,0 +1,17 @@
+SGLEA4
+Gormiti The Lords Of Nature
+
+1 milloin Points [xcoopa]
+049DAC5C 000F4240
+
+All Blue Eggs [xcoopa]
+049DACD3 00000008
+
+All puzzell pcs [xcoopa]
+049DACD8 00000008
+
+Health [xcoopa]
+049D01DC 43180000
+0495BE70 0000000A
+049DAC50 0000000A
+0462580C 0000004B

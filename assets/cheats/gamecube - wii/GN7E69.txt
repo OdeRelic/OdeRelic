@@ -1,0 +1,58 @@
+GN7E69
+NFL Street 2 
+
+Infinite Dev Points
+04008914 38607530
+
+Infinite Play Time
+0248F356 00000032
+
+Press R+D-Pad Up For 1st Down
+027359F8 00002800
+00466C53 00000001
+
+Press R+D-Pad Down For 4th Down
+027359F8 00002400
+00466C53 00000004
+
+Team 1 Score Is 0
+00466C5F 00000000
+
+Team 1 Score Is 24
+00466C5F 00000018
+
+Team 1 Score Is 100
+00466C5F 00000064
+
+Team 1 Max Style Points
+0448ECEC 000F423F
+
+Team 1 No Style Points
+0448ECEC 00000000
+
+Team 1 GameBreaker Always Full
+0448ECF4 00004E20
+
+Team 1 GameBreaker Never Full
+0448ECF4 00000000
+
+Team 2 Score 0
+00466C5D 00000000
+
+Team 2 Score 24
+00466C5D 00000018
+
+Team 2 Score 100
+00466C5D 00000064
+
+Team 2 Max Style Points
+0448ECE8 000F423F
+
+Team 2 No Style Points
+0448ECE8 00000000
+
+Team 2 GameBreaker Always Full
+0448ECF0 00004E20
+
+Team 2 GameBreaker Never Full
+0448ECF0 00000000

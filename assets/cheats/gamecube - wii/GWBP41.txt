@@ -1,0 +1,8 @@
+GWBP41
+Worms Blast 
+
+Freeze Most Timers
+040A11AC 60000000
+
+Infinite Health (Can Still Be Sunk)
+04098CC8 60000000

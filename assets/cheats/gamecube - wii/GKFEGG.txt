@@ -1,0 +1,11 @@
+GKFEGG
+Choas Field 
+
+Infinite Health
+002DE017 00000003
+
+Infinite Credits
+00341E4B 00000063
+
+Max Score
+042DE008 3B9AC9FF

@@ -1,0 +1,14 @@
+JBSP
+Axelay
+
+Invincible [Crapulecorp]
+008BCAED 00000000
+*Code ported from ZiT Ntsc Jap Version*
+
+Unlimited Lives [Crapulecorp]
+008BBB46 00000009
+*Code ported from ZiT Ntsc Jap Version*
+
+Unlimited Credits [Crapulecorp]
+008BD948 0000000A
+*Code ported from GMO Ntsc Usa Version*

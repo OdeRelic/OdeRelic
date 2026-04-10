@@ -1,0 +1,3725 @@
+﻿SC7E52
+Call of Duty: Black Ops
+
+Everyone/Yourself Spectates Host [Sgt.Ghost]
+C24E63BC 00000002
+38000003 901F2784
+60000000 00000000
+-*Have fun Team 1 depends who side your on*-
+
+Everyone/Yourself Spectates Host [Sgt.Ghost]
+C24E63D4 00000002
+38000003 901F2784
+60000000 00000000
+-*Have fun Team 2 depends who side your on*-
+
+Command Line Console [Seth@WiiPlaza]
+2820XXXX YYYYZZZZ
+F24550DC 02450A01
+2C030001 00000000
+F2457090 02418E01
+2C030001 00000000
+CC000000 00000000
+F24550DC 02450A01
+2C030000 00000000
+F2457090 02418E01
+2C030000 00000000
+E0000000 80008000
+*Press your button(s) to toggle ON/OFF*
+
+Objects Spin Fast *NON-HOST* [Seth@WiiPlaza]
+201D6324 FFFFFFFA
+04889B18 AA000000
+E0000000 80008000
+*demo video- http://youtu.be/qNo0qbbs8CE
+
+Spinning Objects *NON-HOST* [Seth@WiiPlaza]
+201D6324 FFFFFFFA
+04889B18 46000000
+E0000000 80008000
+*demo video- http://youtu.be/qNo0qbbs8CE
+
+Snow Storm *NON-HOST* [Seth@WiiPlaza]
+201D6324 FFFFFFFA
+048B60D0 3F000000
+E0000000 80008000
+*demo video- http://youtu.be/qNo0qbbs8CE
+
+Reload Guns Shotgun Style *NON-HOST* [Seth@WiiPlaza]
+201D6324 FFFFFFFA
+048A4A68 40800000
+048A5F80 40800000
+048A60B0 40800000
+E0000000 80008000
+*also distorts objects in a very cool way
+*demo video- http://youtu.be/qNo0qbbs8CE
+
+Toggle Freeze All Players [Seth@WiiPlaza]
+28200F40 XXXXXXXX
+043919A8 2C030001
+CC000000 00000000
+043919A8 2C030000
+E0000000 80008000
+*demo video- http://youtu.be/9qvvGQVzhjo
+
+Larger Names On Kill Feed [Seth@WiiPlaza]
+201D6324 FFFFFFFA
+044566EC 2C030001
+E0000000 80008000
+*demo video- http://youtu.be/9qvvGQVzhjo
+
+Dead Bodies Hugely Expand Upon Death [Seth@WiiPlaza]
+214C59B8 3F800000
+028A6A5C 00004200
+E0000000 80008000
+*demo video- http://youtu.be/9qvvGQVzhjo
+
+Players are Spiders [Seth@WiiPlaza]
+214C59B8 3F800000
+008A4934 0000003F
+E0000000 80008000
+*demo video- http://youtu.be/9qvvGQVzhjo
+
+Players Are Zombies (LIGHTS ON) [Seth@WiiPlaza]
+214C59B8 3F800000
+048A4934 40300000
+E0000000 80008000
+*demo video- http://youtu.be/9qvvGQVzhjo
+
+Players Are Zombies (LIGHTS OFF) [Seth@WiiPlaza]
+214C59B8 3F800000
+054D6E98 00000000
+E0000000 80008000
+214C59B8 3F800000
+048A4934 40300000
+E0000000 80008000
+*demo video- http://youtu.be/9qvvGQVzhjo
+
+Players Are Giant Zombies! (LIGHTS ON) [Seth@WiiPlaza]
+214C59B8 3F800000
+048A4934 40800000
+E0000000 80008000
+*demo video- http://youtu.be/9qvvGQVzhjo
+
+Players Are Giant Zombies! (LIGHTS OFF) [Seth@WiiPlaza]
+214C59B8 3F800000
+054D6E98 00000000
+E0000000 80008000
+214C59B8 3F800000
+048A4934 40800000
+E0000000 80008000
+*demo video- http://youtu.be/9qvvGQVzhjo
+
+Slenderman All Players (LIGHTS ON) [Seth@WiiPlaza]
+214C59B8 3F800000
+008A4938 00000040
+E0000000 80008000
+*demo video- http://youtu.be/9qvvGQVzhjo
+
+Slenderman All Players (LIGHTS OFF) [Seth@WiiPlaza]
+214C59B8 3F800000
+008A4938 00000040
+E0000000 80008000
+214C59B8 3F800000
+054D6E98 00000000
+E0000000 80008000
+*demo video- http://youtu.be/9qvvGQVzhjo
+
+RcXD Speed Hack [Seth@WiiPlaza]
+201D6324 FFFFFFFA
+C0000000 0000000B
+3D8080AF 618CB9E0
+3D604FFF 616BC82A
+916C0000 3D6041A0
+3D80814A 398C6CCC
+616B0000 916C504C
+3D6042C8 3D80814A
+398C42C8 616B0000
+916C79E0 3D60479C
+3D80814A 398C479C
+616B4000 916C742C
+4E800020 00000000
+E0000000 80008000
+201D6324 FFFFFFFA
+054ABC38 43C80000
+E0000000 80008000
+*auto activates
+*demo video- http://youtu.be/62ioP2sw4pA
+*credits to Stride for extra dvar
+
+*Zombies* All Weapons Are Automatic [Seth@WiiPlaza]
+28XXXXXX XXXXXXXX
+003A0667 00000000
+CC000000 00000000
+003A0667 00000001
+E0000000 80008000
+*add custom button activator for toggle on/off
+*demo video- http://youtu.be/62ioP2sw4pA
+
+No Damage Effect By Zombies *ALL PLAYERS* [Seth@WiiPlaza]
+C235D4FC 00000004
+9241FFF0 7C7F1B78
+1C000054 7C840214
+7D8903A6 387F0110
+3C8080C1 00000000
+044BE120 2C000000
+60000000 00000000
+*demo video- http://youtu.be/62ioP2sw4pA
+
+Semtex Grenades Bounce/Others Stick (ALL PLAYERS) [Seth@WiiPlaza]
+C2508EB0 00000004
+9061004C 2C000000
+EC40D828 EC20D828
+EC1C0032 EC01002A
+60000000 00000000
+*add own activator
+*makes semtex bounce, and flash, concussions stick to things!
+
+No Effect Of Concussion Grenades (Host+ Non-host) [Seth@WiiPlaza]
+201D6324 FFFFFFFA
+04EB3C90 00000001
+04EB3C9C 00000000
+04F07E34 00000000
+04F106B4 00000000
+04F34054 00000000
+E0000000 80008000
+
+Lag Switch (Host Only) [Seth@WiiPlaza]
+28200F40 EFEF1010
+04AA4CC0 0000000A
+CC000000 00000000
+04AA4CC0 00000002
+E0000000 80008000
+*press + and - on the wiimote to toggle on and off
+
+View Last Place Of Death [Seth@WiiPlaza]
+28200F40 9FFF6000
+04AA4CC0 00000001
+CC000000 00000000
+04AA4CC0 00000000
+E0000000 80008000
+*press Z and C on the wiimote to toggle on/off
+*only tested host only
+
+Themes On Main Menu [Seth@WiiPlaza]
+0489E33C XXXXXXXX
+*FFF00000 = Dark menu theme - Preview: http://goo.gl/P9pji
+*40000000 = Distorted Clouds- Preview: http://goo.gl/HlS24
+
+Prestige Size Modifier [Seth@WiiPlaza]
+0488DB6C XXXXXXXX
+*X= Float
+*Preview = http://img29.imageshack.us/img29/6364/sc7e52001.png
+*40000000 = small prestige
+
+Show Knife Weapon [Seth@WiiPlaza]
+28XXXXXX YYYYYYYY
+04AA27D8 00000000
+CC000000 00000000
+04AA27D8 0000000C
+E0000000 80008000
+*use button to toggle freeze on/off
+*28XXXXXX YYYYYYYY = button activator
+*http://i45.tinypic.com/2d95uux.png
+
+Freeze Players In Lobby [Seth@WiiPlaza]
+28XXXXXX YYYYYYYY
+046AF134 3C000000
+CC000000 00000000
+046AF134 C003BEE0
+E0000000 80008000
+*use button to toggle freeze on/off
+*28XXXXXX YYYYYYYY = button activator
+
+ADS FoV Modifier [Seth@WiiPlaza]
+054BEEE8 XXX00000
+*default = 412
+
+Toggle Large ADS FoV [Seth@WiiPlaza]
+28XXXXXX YYYYYYYY
+054BEEE8 66600000
+CC000000 00000000
+054BEEE8 41200000
+E0000000 80008000
+*28XXXXXX YYYYYYYY = button activator
+*demo pictures;
+http://i48.tinypic.com/34ga78n.png
+http://i47.tinypic.com/2s76eeb.png
+http://i47.tinypic.com/2zqyec0.png
+
+Screen Monkey (All Players) [Seth@WiiPlaza]
+28200F40 7FFF8000
+043BE9C8 3C000000
+CC000000 00000000
+043BE9C8 C0230018
+E0000000 80008000
+*press HOME on the wiimote to toggle on/off
+*works for all players
+
+Epic Moon Jump Dolphin Dive (ALL PLAYERS+HOST ONLY) [Seth@WiiPlaza]
+0437EDAC 3C80809B
+*demo video- http://youtu.be/lZLLN-flJ-A
+
+Virus+Infect Lobby (All Players) [Seth@WiiPlaza]
+28200F40 7FFF8000
+04584674 7C000000
+CC000000 00000000
+04584674 7C050000
+E0000000 80008000
+*demo video- http://youtu.be/FsY2tIMgljI
+*press home, wait for 0.5 seconds and then press home again (quickly) to give virus to all players
+*this also does it to the all the people in your lobby, not just bots, to cure the infection restart the match or press 'end game'
+
+Create A Class Player Rotation Mod [Seth@WiiPlaza]
+C25DC5C0 00000001
+807D00C8 88030018
+C25DC5C8 00000001
+2C000001 2C000000
+60000000 00000000
+*demo pictures-
+http://img207.imageshack.us/img207/3893/sc7e52010.png
+http://img837.imageshack.us/img837/9041/sc7e52009.png
+http://img834.imageshack.us/img834/9876/sc7e52008.png
+
+Refined Graphics [Seth@WiiPlaza]
+047575C0 2C000000
+*also makes enemys brighter
+*Before-http://img84.imageshack.us/img84/971/sc7e52007.png
+*After-http://img11.imageshack.us/img11/2012/sc7e52006.png
+
+Never Blinded By Flash Grenades [Seth@WiiPlaza]
+04438548 2C000001
+
+No Bullets Kill/Damage (Host Only+All Players) [Seth@WiiPlaza]
+28200F40 7FFF8000
+044090F0 C02DE800
+CC000000 00000000
+044090F0 C01DE800
+E0000000 80008000
+*home on wiimote to toggle
+*fun to use if you host in a public game
+
+Instant Reloads [Seth@WiiPlaza]
+205EBA4C 3C640004
+C0000000 00000004
+3D808009 618C35FC
+818C0000 3D60814D
+616B0D08 918B0000
+4E800020 00000000
+E0000000 80008000
+*MUST HAVE SLIGHT OF HAND (untested without slight of hand but it works best with it)
+*no button activator needed
+
+Invisible Gun Cycler [Seth@WiiPlaza]
+28200F40 7FFF8000
+048B30D8 01000000
+A8000008 00000031
+CC000000 00000000
+048B30D8 3F800000
+E0000000 80008000
+*press HOME on wiimote to begin toggler
+*works publicly, all players can see
+
+Host Only Speed Hack [Seth@WiiPlaza]
+28200F40 7FFF8000
+48000000 80D26C44
+DE000000 80008180
+140040D4 40000000
+E0000000 80008000
+*press Home on WiiMote
+
+Teleport Upon Jump Host Only [Seth@WiiPlaza]
+28200F40 EFEF1010
+48000000 8024E0B4
+DE000000 80008180
+14000658 42000000
+E0000000 80008000
+28200F40 EFEF1010
+054CA8D8 50000000
+054CA948 50000000
+E0000000 80008000
+*press and hold + and - on the wiimote to activate
+
+Send Premade Text Messages [Seth@WiiPlaza]
+28200F40 YYYYYYYY
+07300AA4 000000FE
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXX00
+E0000000 80008000
+*YYYY = Custom Button to activate
+
+Invisible Gun [Seth@WiiPlaza]
+048B30D8 01000000
+*works in public, people will be like WTF. cycler will be posted soon.
+
+Online Variable Zoom [Seth@WiiPlaza]
+04888A48 XXXXXXXX
+*X= Float or;
+42F00000= large zoom
+42800000= medium zoom
+
+Air Control (Host Only) [Seth@WiiPlaza]
+28200F40 YYYYYYYY
+04895E80 CCE00000
+CC000000 00000000
+04895E80 3F800000
+E0000000 80008000
+*in public you look retarded and bounce up and down through the map
+*YYYY= Button to toggle
+
+Invisible Gun+ Hands + FoV mod [Seth@WiiPlaza]
+048A6DD8 42800000
+*hold a grenade to access the bizarre FoV mod, release to exit
+
+Disko Uav Map [Seth@WiiPlaza]
+04888C08 90A40014
+*for multiplayer
+
+Red Box On Inactivity [Seth@WiiPlaza]
+048893E8 44000000
+*public and host only
+*http://img198.imageshack.us/img198/2042/sc7e52003.png
+
+Disable HUD [Seth@WiiPlaza]
+04890158 00000000
+*replace 00000000 with 42800000 to have enlarged HUD
+
+Offline Varible Zoom [Seth@WiiPlaza]
+04773C58 XXXXXXXX
+*X= floating value
+*the higher the value, the further the zoom, a smaller value= larger zoom
+
+Offline- Turn Into A Snake [Seth@WiiPlaza]
+054CEAA8 01000000
+*Slither your way through vietnam
+
+Black Ops Custom Load Up Title Text [Seth@WiiPlaza]
+06144180 00000036
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX [Seth@WiiPlaza]
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+*X= desired title in hexadecimal
+*demo video http://youtu.be/70xpqcYCIqg
+
+Zombies: Infinite Ammo Primary Weapon [Seth@WiiPlaza]
+C2A1F2E2 00000002
+A21CF800 00000000
+60000000 00000000
+E0000000 80008000
+*add button activator
+*works on and offline
+
+Force Gesture (Knife) [Seth@WiiPlaza]
+28200F40 XXXXXXXX
+04A115A0 01000000
+E0000000 80008000
+*add your own custom button activator
+
+1 Kill=All Killstreaks (All Players) [Seth@WiiPlaza]
+28200F40 7FFF8000
+C0000000 00000004
+3D600000 3D80814D
+398C1122 616B000B
+916C0047 4E800020
+4E800020 00000000
+E0000000 80008000
+*Press Home On the WiiMote
+
+See Through Walls/Wall Hack WiiMote [Seth@WiiPlaza]
+28200F40 7FFF8000
+48000000 80318195 [Seth@WiiPlaza]
+DE000000 90008935
+4A100000 00048C9A
+14000000 8057E8A4
+E0000000 80008000
+28200F40 7FFF8000
+C0000000 00000004
+3D60420C 3D80814D
+398C1A2C 616B0000
+916C515C 4E800020
+4E800020 00000000
+C0000000 00000004
+3D60420C 3D80814D
+398C1234 616B0000
+916C59C4 4E800020
+4E800020 00000000
+E0000000 80008000
+28200F40 F3FF0C00
+C0000000 00000004
+3D603F4C 3D80814D
+398C1A2C 616BCCCD
+916C515C 4E800020
+4E800020 00000000
+C0000000 00000004
+3D603DCC 3D80814D
+398C1234 616BCCCD
+916C59C4 4E800020
+4E800020 00000000
+E0000000 80008000
+*Press HOME in a match to activate
+*Press and hold A+B to deactivate
+*use hardened PRO to shoot through the objects/walls so you enemy will be very confused
+*Demo Video http://youtu.be/_T-_q8cN9_A
+
+See Through Walls/Wall Hack CCP [Seth@WiiPlaza]
+28200F0A 00000800
+48000000 80318195
+DE000000 90008935
+4A100000 00048C9A
+14000000 8057E8A4
+E0000000 80008000
+28200F0A 00000800
+C0000000 00000004
+3D60420C 3D80814D
+398C1A2C 616B0000
+916C515C 4E800020
+4E800020 00000000
+C0000000 00000004
+3D60420C 3D80814D
+398C1234 616B0000
+916C59C4 4E800020
+4E800020 00000000
+E0000000 80008000
+28200F0A 00001400
+C0000000 00000004
+3D603F4C 3D80814D
+398C1A2C 616BCCCD
+916C515C 4E800020
+4E800020 00000000
+C0000000 00000004
+3D603DCC 3D80814D
+398C1234 616BCCCD
+916C59C4 4E800020
+4E800020 00000000
+E0000000 80008000
+*Press HOME on CCP in a match to activate
+*Press and hold + and - on CCP to deactivate
+*use hardened PRO to shoot through the objects/walls so you enemy will be very confused
+*demo video http://youtu.be/_T-_q8cN9_A
+
+All Items & Weapons Bought/All Pro Perks Unlocked [Seth@WiiPlaza]
+28200F40 7FFF8000
+C0000000 00000004
+3D80814B 618C47C8
+3D600100 616B0000
+916C0000 4E800020
+4E800020 00000000
+C0000000 00000004
+3D80814B 618C4838
+3D600100 616B0000
+916C0000 4E800020
+4E800020 00000000
+E0000000 80008000
+*press HOME on the wiimote when on Create A Class
+
+Zombies Solo Moon Jump [Seth@WiiPlaza]
+28200EE0 FFF70008
+C0000000 00000004
+3D604400 3D8080A1
+398C7888 616B0000
+916C7794 4E800020
+4E800020 00000000
+E0000000 80008000
+*press UP on Wiimote
+
+Multiplayer Moon Jump Lobby v0.02 [Seth@WiiPlaza]
+28200EE0 FFF70008
+C0000000 00000004
+3D80814C 618CA8D8
+3D605000 616B0000
+916C0000 4E800020
+4E800020 00000000
+C0000000 00000004
+3D80814C 618CFE28
+3D604479 616BC000
+916C0000 4E800020
+4E800020 00000000
+C0000000 00000004
+3D80814C 618CA948
+3D605000 616B0000
+916C0000 4E800020
+4E800020 00000000
+C0000000 00000004
+3D80814D 618C3AF8
+3D6042C6 616B0000
+916C0000 4E800020
+4E800020 00000000
+C0000000 00000004
+3D80814C 618CE6F8
+3D604296 616B0000
+916C0000 4E800020
+4E800020 00000000
+E0000000 80008000
+*1/30/12 Bugs and Glitchs fixed.
+*works all players!
+*Press UP On Wiimote to activate
+
+Multiplayer Ice Skating Code v.2 [Seth@WiiPlaza]
+28200F40 7FFF8000
+C0000000 00000004
+3D80814C 618CA9B8
+3D6012C0 616B0000
+916C0000 4E800020
+4E800020 00000000
+C0000000 00000004
+3D80814C 618CAA98
+3D6012C0 616B0000
+916C0000 4E800020
+4E800020 00000000
+E0000000 80008000
+*press HOME on the wiimote
+* all what you have to do is just walk and you slide, if you go into different directions he speeds up and walks very fast
+*1/30/12 bugs fixed
+
+MultiPlayer Astronaut UFO Mode [Seth@WiiPlaza]
+28200EE0 FFF70008
+054CFE28 12C00000
+054D3AF8 12C00000
+054CE6F8 12C00000
+054CA8D8 50000000
+054CA948 50000000
+E0000000 80008000
+*this code is LOADS of fun! BUT DO NOT USE THIS CODE WHILE YOU HAVE MOON JUMP ON! sometimes this code works best as the only code activated
+*press UP on the WIIMOTE
+*demo video http://www.youtube.com/watch?v=D7al0hYgS7Y
+
+Zombies- Have 9999 Kills [Seth@WiiPlaza]
+04A20B10 3800270F
+*working online and solo
+
+Multiplayer Friction Modifier [Seth@WiiPlaza]
+054CA9B8 XXXXXXXX
+*12C00000 is no friction
+*41000000 is medium friction
+
+Zombies- Have 9999 HeadShots [Seth@WiiPlaza]
+04A20B30 3800270F
+*working online and solo
+
+Region-Free Zombies Infinite Points [Seth@WiiPlaza]
+28200F40 XXXXYYYY
+F6000002 800081FF
+53657468 205B5769
+69506C61 7A615D00
+14000048 3801869F
+60000000 00000000
+E0000000 80008000
+*solo and online, unpatchable
+*look below for backup code incase you have trouble with this
+
+Zombies Infinite Points Backup [Seth@WiiPlaza]
+28200F40 XXXXYYYY
+04A20B0C 3800270F
+E0000000 80008000
+*in case you have problems with the F6 code
+
+Zombies-Infinite Primary And Secondary Grenades [Seth@WiiPlaza]
+04A1F3C8 60000000
+043A6498 60000000
+*Extras: Infinite Ammo
+*Working Both Modes
+
+Region-Free Zombies Infinite Ammo [Seth@WiiPlaza]
+28200F40 XXXXYYYY
+F6000002 800081FF
+7C0802A6 90010014
+93E1000C 7CBF2B78
+14000010 380003E7
+E0000000 80008000
+*Chances of freezing and patching decreased!
+*works host and offline
+*MUST HAVE A ACTIVATOR AND ACTIVATED ONCE DURING GAME FOR IT TO WORK!!!
+*tested SC7D52,SC7P52,SC7E52
+
+Infinite Ammo Host Only (RegionFree) [Seth@WiiPlaza]
+28200F40 YYYYYYYY
+F6000001 800081FF
+7CBF2B78 4BFFFF9D
+D2000008 00000002
+90030004 380003E7
+60000000 00000000
+E0000000 80008000
+*MUST HAVE A ACTIVATOR AND ACTIVATED ONCE DURING GAME FOR IT TO WORK!!!
+
+Speed Hack Host Only [Seth@WiiPlaza]
+28200F40 XXXXYYYY
+08AA5E00 40500000
+20031C88 00000000
+E0000000 80008000
+fill X and Y with button activator to activate in game
+after every death it needs to be reactivated
+
+Region-Free Zombies Infinite Clips Of Ammo Solo [Seth@WiiPlaza]
+28200F40 XXXXYYYY
+F6000002 800081FF
+93A10014 93810010
+7C7C1B78 7C9D2378
+14000050 60000000
+60000000 00000000
+E0000000 80008000
+*look below for backup code in case you have trouble with this
+
+Zombies- Infinite Clips Of Ammo Solo Backup [Seth@WiiPlaza]
+28200F40 XXXXYYYY
+043A6624 60000000
+E0000000 80008000
+*in case you have problems with the F6 code [Seth@WiiPlaza]
+205EBA4C 3C640004
+C0000000 00000004
+3D808009 618C35FC
+818C0000 3D60814D
+616B0D08 918B0000
+4E800020 00000000
+E0000000 80008000
+*MUST HAVE SLIGHT OF HAND (untested without slight of hand but it works best with it)
+*no button activator needed
+
+Infinite Ammo Campaign [Seth@WiiPlaza]
+043A3014 38600000
+
+Lag Switch Everyone
+
+HeadBOT (wiimote only) [Seth@WiiPlaza]
+28200F40 7FFF8000
+054D2588 4CBEBC20
+054D25F8 4CBEBC20
+054D1E18 4CBEBC20
+054D1E38 4CBEBC20
+054D2668 43B40000
+054D26D8 4CBEBC20
+054A4228 4CBEBC20
+054A4248 4CBEBC20
+054A4298 4CBEBC20
+054A42B8 4CBEBC20
+054D2CF8 4CBEBC20
+054D3318 01000000
+054D33F8 4CBEBC20
+054D3468 4CBEBC20
+054D3388 4CBEBC20
+E0000000 80008000
+28200F40 7FFF8000
+F6000001 800081FF
+EC210672 3C760006
+14000020 60000000
+E0000000 80008000
+28200F40 7FFF8000
+054D2129 4CBEBC20
+054D3079 4CBEBC20
+054D30E9 4CBEBC20
+E0000000 80008000
+*press the HOME button during a match
+*press the Z button to lockon to enemy's head
+*wiimote only!!!!!!
+
+Camouflage Modifier Host Only and Non-Host (Universal) [Seth@WiiPlaza]
+28200F40 YYYYYYYY
+F6000001 800081FF
+1C13000C 7C840214
+D2000008 00000002
+8004EDC0 XXXXXXXX
+60000000 00000000
+E0000000 80008000
+*Must Activate During game
+X Values:
+38000000 = Regular
+38000001 = gold tint to regular
+38000002 = icy aqua marine (light blue)
+38000003 = Dark red
+38000004 = green tint to regular
+38000010 = Peach-ish
+38000011 = Brighter Gold
+38000012 = Green
+38000013 = Faded Red
+38000014 = Faint Aqua
+38000015 = Blue
+38000016 = Blue-Grey
+38000017 = Green
+38000018 = Green-Brown
+
+Debugging The White Guy (Non-Host Zombies ONLY) [Seth@WiiPlaza]
+28200EE0 00009000
+06C7ABB4 00000008
+4186D935 C43DF478
+04C7ABBC 43782001
+E0000000 80008000
+28200EE0 00001008
+06C7ABB4 00000008
+4435CA6A 442BD798
+04C7ABBC 43202000
+E0000000 80008000
+28200EE0 00008001
+06C7ABB4 00000008
+41B11675 C3163D68
+04C7ABBC 43A01000
+E0000000 80008000
+*Press Minus+Home to throw the guy in one direction.
+*Hold DpadUp + Minus to teleport the guy with the white points to another location.
+**Hold Dpad-Left then press Home to teleport him in another driection.
+*Have LULZ!(code based off of strakn's teleport
+
+XP Scale Modifier Host Only [Seth@WiiPlaza]
+06B48F3E 000000YY
+7363725F 78707363
+616C6520 XXXXXXXX
+XXXXXXXX XXXXXXXX
+E0000000 80008000
+X Value= number of XP desired in hex.
+Y Value= the number of characters in hex
+to get X value go to http://www.geckocodes.org/index.php?arsenal=3
+type in how much you want in the ASCII section (not over 100000) and it will come then it will come up with your hex value which you copy and paste into the code. any left over X's fill with 0.
+*****demo video http://www.youtube.com/watch?v=7vKDiZoi3gQ
+
+Zombies Rapid Fire Host+NonHost [Seth@WiiPlaza]
+28200F40 F3FF0C00
+043A18E8 60000000
+E0000000 80008000
+ive had alot of people complain about this code so i added a activator to it!
+*while in a game hold the A and B buttons to activate
+*have lulz
+
+Zombies Infinite Ammo Host Only [Seth@WiiPlaza]
+043A648C 38000063
+stays same, no decrease
+
+Infinite Ammo Host Only [Seth@WiiPlaza]
+043B099C 380003E7
+
+Moon Jump Host Only (v.3) [Seth@WiiPlaza]
+28200F40 FFF70008
+054CE6F9 C8480000
+E2100000 00000000
+054CE6F9 44480000
+E0000000 80008000
+incompatible with UFO Mode do not use both codes at the same time
+
+UFO mode HOST ONLY (v.3) [Seth@WiiPlaza]
+28200F40 XXXXYYYY
+054CE6F9 12C00000
+E0000000 80008000
+Hover around the map set activator to activate once online
+
+Hardline Pro Mod (Various Creators) [Seth@WiiPlaza]
+054D1169 0000000B
+im not sure who the first creator was but i redid it ...
+
+No Camera Bob On Sprint (Host Plus Non-Host) [Seth@WiiPlaza]
+054CF9E8 00000000
+
+Game Speed Modifier HOST-ONLY Regionfree Bully@Wiiplaza/ [Seth@WiiPlaza]
+28200F40 7FFF8000
+F6000001 800081FF
+80850164 80650168
+D2000008 00000005
+9421FFF0 91610008
+3D60XXXX 616BXXXX
+91640018 81610008
+38210010 C0240018
+60000000 00000000
+E0000000 80008000
+*XXXX = Float*
+*Default Value: 3F800000*
+*The higher the Value, the faster the framerate of the match*
+*Thanks to bully for F6 conversion ;)
+
+Infinite Ammo Host Only [Seth@WiiPlaza]
+28200F40 XXXXXXXX
+043B0774 380003E7
+activate while in game. shoot until you have 0 bullets. from there on its infinate + care packages ect. also it does not work when terminator is added
+
+See Through SOME objects and walls Non-host [Seth@WiiPlaza]
+28200F40 EFEF1010
+054D9298 60000000
+E0000000 80008000
+28200F40 F3FF0C00
+054D9298 00000000
+E0000000 80008000
+press and hold + and - to activate and then press and hold B + A to turn off
+
+Score Modifier Host Only [Seth@WiiPlaza]
+F6000001 803A8055
+93E1000C 7C7F1B78
+D2000008 00000002
+3860XXXX 907F2830
+60000000 00000000
+E0000000 80008000
+X=decimal to hex conversion of score you want
+
+Moon Jump Host Only (v.2) [Seth@WiiPlaza]
+28200F40 FFF70008
+054D1218 C8480000
+E2100000 00000000
+054D1218 44480000
+E0000000 80008000
+incompatible with UFO Mode do not use both codes at the same time
+
+Alternate Moon Jump Host Only [Seth@WiiPlaza]
+28200F40 FFF70008
+04A26644 44000000
+E0000000 80008000
+a alternative way to moon jump! might be compatible with other codes unlike v.2 ^ so if the one above doesn't work for you all the time use this one.
+
+UFO mode HOST ONLY (v.2) [Seth@WiiPlaza]
+28200F40 XXXXYYYY
+054D1218 12C00000
+E0000000 80008000
+Hover around the map set activator to activate once online
+
+Zombies Host Only Infinite Pistol Ammo [Seth@WiiPlaza]
+04A1B0D8 0FFFFFFF
+*Fixed*
+*Tested on Solo zombies (might work online)*
+
+Unlimited Sprint (v.2) [Seth@WiiPlaza]
+054CF7B8 01000000
+
+Run Speed Modifier Host Only [Seth@WiiPlaza]
+048800A4 XXXXXXXX
+X VALUES
+5X-40A00000
+15X-41700000
+20X-41A00000
+
+Always Host [Seth@WiiPlaza]
+054B57A8 00000000
+opens new game lobby in public match's for all modes.
+
+Max Players Modifier v.2 [Seth@WiiPlaza]
+054B48C8 000000XX
+X Values=
+01=1 players
+02=2 players
+03=3 players
+04=4 players
+05=5 players
+06=6 players
+07=7 players
+08=8 players
+09=9 players
+0A=10 players
+0B=11 players
+0C=12 players
+0D=13 players
+0E=14 players
+0F=15 players
+10=16 players
+11=17 players
+12=18 players
+13=19 players
+14=20 players
+
+Button Activator NTSC-U [Seth@WiiPlaza]
+28200FA0 0000XXXX
+
+Time Scale Modifier Non-ASM [Seth@WiiPlaza]
+28200F40 XXXXXXXX
+054A5E48 40A00000
+E0000000 80008000
+28200F40 XXXXXXXX
+054A5E48 41700000
+E0000000 80008000
+28200F40 XXXXXXXX
+054A5E48 41A00000
+E0000000 80008000
+28200F40 XXXXXXXX
+054A5E48 3F800000
+E0000000 80008000
+
+5X-40A00000
+15X-41700000
+20X-41A00000
+Defualt-3F800000
+
+Sunlight Tweak [Seth@WiiPlaza]
+054DA098 XXXXXXXX
+tweak the sunlight (basically tweak brightness/map color) X default is 3F800000
+
+AimBot OFFLINE [Seth@WiiPlaza]
+054D7638 01000000
+054D76A8 01000000
+054D75C8 5F5E0FF0
+054D7788 78000000
+054D7718 5F5E0FF0
+054D7BE8 01000000
+054D7B78 01000000
+054D7E18 00000000
+054D7DA8 56A00000
+054D7CC8 90000000
+054D7C58 00000005
+054D6D78 00000000
+054D6D08 01000000
+054D0248 DBBA0000
+054D0168 00000000
+054D0328 01000000
+*tested working for PAL idk about NTSC
+**A OFFLINE ONLY CODE WILL NOT WORK ONLINE**
+
+No Camera Bob On Sprint (Host Plus Non-Host) [Seth@WiiPlaza]
+054CF9E8 00000000
+
+Game Speed Modifier HOST-ONLY Regionfree Bully@Wiiplaza/ [Seth@WiiPlaza]
+28200F40 7FFF8000
+F6000001 800081FF
+80850164 80650168
+D2000008 00000005
+9421FFF0 91610008
+3D60XXXX 616BXXXX
+91640018 81610008
+38210010 C0240018
+60000000 00000000
+E0000000 80008000
+*XXXX = Float*
+*Default Value: 3F800000*
+*The higher the Value, the faster the framerate of the match*
+*Thanks to bully for F6 conversion ;)
+
+Infinite Ammo Host Only [Seth@WiiPlaza]
+28200F40 XXXXXXXX
+043B0774 380003E7
+activate while in game. shoot until you have 0 bullets. from there on its infinate + care packages ect. also it does not work when terminator is added
+
+See Through SOME objects and walls Non-host [Seth@WiiPlaza]
+28200F40 EFEF1010
+054D9298 60000000
+E0000000 80008000
+28200F40 F3FF0C00
+054D9298 00000000
+E0000000 80008000
+press and hold + and - to activate and then press and hold B + A to turn off
+
+Score Modifier Host Only [Seth@WiiPlaza]
+F6000001 803A8055
+93E1000C 7C7F1B78
+D2000008 00000002
+3860XXXX 907F2830
+60000000 00000000
+E0000000 80008000
+X=decimal to hex conversion of score you want
+
+Moon Jump Host Only (v.2) [Seth@WiiPlaza]
+28200F40 FFF70008
+054D1218 C8480000
+E2100000 00000000
+054D1218 44480000
+E0000000 80008000
+incompatible with UFO Mode do not use both codes at the same time
+
+Alternate Moon Jump Host Only [Seth@WiiPlaza]
+28200F40 FFF70008
+04A26644 44000000
+E0000000 80008000
+a alternative way to moon jump! might be compatible with other codes unlike v.2 ^ so if the one above doesn't work for you all the time use this one.
+
+UFO mode HOST ONLY (v.2) [Seth@WiiPlaza]
+28200F40 XXXXYYYY
+054D1218 12C00000
+E0000000 80008000
+Hover around the map set activator to activate once online
+
+Zombies Host Only Infinite Pistol Ammo [Seth@WiiPlaza]
+04A1B0D8 0FFFFFFF
+*Fixed*
+*Tested on Solo zombies (might work online)*
+
+Unlimited Sprint (v.2) [Seth@WiiPlaza]
+054CF7B8 01000000
+
+Run Speed Modifier Host Only [Seth@WiiPlaza]
+048800A4 XXXXXXXX
+X VALUES
+5X-40A00000
+15X-41700000
+20X-41A00000
+
+Always Host [Seth@WiiPlaza]
+054B57A8 00000000
+opens new game lobby in public match's for all modes.
+
+Max Players Modifier v.2 [Seth@WiiPlaza]
+054B48C8 000000XX
+X Values=
+01=1 players
+02=2 players
+03=3 players
+04=4 players
+05=5 players
+06=6 players
+07=7 players
+08=8 players
+09=9 players
+0A=10 players
+0B=11 players
+0C=12 players
+0D=13 players
+0E=14 players
+0F=15 players
+10=16 players
+11=17 players
+12=18 players
+13=19 players
+14=20 players
+
+Button Activator NTSC-U [Seth@WiiPlaza]
+28200FA0 0000XXXX
+
+Time Scale Modifier Non-ASM [Seth@WiiPlaza]
+28200F40 XXXXXXXX
+054A5E48 40A00000
+E0000000 80008000
+28200F40 XXXXXXXX
+054A5E48 41700000
+E0000000 80008000
+28200F40 XXXXXXXX
+054A5E48 41A00000
+E0000000 80008000
+28200F40 XXXXXXXX
+054A5E48 3F800000
+E0000000 80008000
+
+5X-40A00000
+15X-41700000
+20X-41A00000
+Defualt-3F800000
+
+Sunlight Tweak [Seth@WiiPlaza]
+054DA098 XXXXXXXX
+tweak the sunlight (basically tweak brightness/map color) X default is 3F800000
+
+AimBot OFFLINE [Seth@WiiPlaza]
+054D7638 01000000
+054D76A8 01000000
+054D75C8 5F5E0FF0
+054D7788 78000000
+054D7718 5F5E0FF0
+054D7BE8 01000000
+054D7B78 01000000
+054D7E18 00000000
+054D7DA8 56A00000
+054D7CC8 90000000
+054D7C58 00000005
+054D6D78 00000000
+054D6D08 01000000
+054D0248 DBBA0000
+054D0168 00000000
+054D0328 01000000
+*tested working for PAL idk about NTSC
+**A OFFLINE ONLY CODE WILL NOT WORK ONLINE**
+
+Break From Chair Faster [Seth@WiiPlaza]
+045345E8 FFA00890
+Turn the wii remote and nunchuck sideways and shake very hard and the break free time out of the chair will be much less work :D (must do on main menu)
+
+Zombie Online Host Only Infinate Ammo [Seth@WiiPlaza]
+043A61FC 380003E7
+PATCHED :D
+
+Zombie Rapid Fire Host Only ALL PLAYERS [Seth@WiiPlaza]
+043A1668 60000000
+
+Lag Switch Everyone
+
+includes nun chuck wii mot and more
+
+Green Screen + objects invisible [T.B.W]
+201D6324 FFFFFFFA
+04889B20 01000000
+E0000000 80008000
+http://i40.tinypic.com/4g3src.png
+
+No Reticule [T.B.W]
+201D6324 FFFFFFFA
+048899CC 01000000
+E0000000 80008000
+http://i42.tinypic.com/5oxk5s.png
+
+Kick All Players [T.B.W]
+28200FA0 0000XXXX
+097E968C 00000000
+201101F0 00000000
+E0000000 80008000
+Add Activator
+
+Lag Switch Everyone
+
+28200FA0 0000XXXX [T.B.W]
+04263B44 01000000
+E0000000 80008000
+28200FA0 0000XXXX [T.B.W]
+04263B44 24800000
+E0000000 80008000
+Add Activator And Deactivator
+
+In Lobby Presteige Cycler Everyone [T.B.W]
+A8000008 00000000
+057E4FF0 00000001
+E0000000 80008000
+A8000008 00000001
+057E4FF0 00000001
+E0000000 80008000
+A8000008 00000002
+057E96D0 00000001
+E0000000 80008000
+A8000008 00000003
+057E96D0 00000002
+E0000000 80008000
+A8000008 00000004
+057E98C0 00000001
+E0000000 80008000
+A8000008 00000005
+057E98C0 00000003
+E0000000 80008000
+A8000008 00000006
+057E9CA0 00000001
+E0000000 80008000
+A8000008 00000007
+057E9CA0 00000004
+E0000000 80008000
+A8000008 00000008
+057E9E90 00000001
+E0000000 80008000
+A8000008 00000009
+057E9E90 00000005
+E0000000 80008000
+A8000008 00000010
+057EA270 00000001
+E0000000 80008000
+A8000008 00000011
+057EA270 00000006
+E0000000 80008000
+A8000008 00000012
+057EA460 00000001
+E0000000 80008000
+A8000008 00000013
+057EA460 00000007
+E0000000 80008000
+A8000008 00000014
+057E9AB0 00000001
+E0000000 80008000
+A8000008 00000015
+057E9AB0 00000008
+E0000000 80008000
+A8000008 00000016
+057EA840 00000001
+E0000000 80008000
+A8000008 00000017
+057EA840 00000009
+E0000000 80008000
+A8000008 00000018
+057EA080 00000001
+E0000000 80008000
+A8000008 00000019
+057EA080 0000000A
+E0000000 80008000
+A8000008 00000020
+057EA650 00000001
+E0000000 80008000
+A8000008 00000021
+057EA650 0000000B
+E0000000 80008000
+A8000008 00000022
+057EAA30 00000001
+E0000000 80008000
+A8000008 00000023
+057EAA30 0000000C
+E0000000 80008000
+A8000008 00000024
+057EAC20 00000001
+E0000000 80008000
+A8000008 00000025
+057EAC20 0000000D
+E0000000 80008000
+
+Bloody Red Screen [T.B.W]
+201D6324 FFFFFFFA
+04E7AC8C 11111111
+E0000000 80008000
+http://i49.tinypic.com/99gwwl.png
+
+Clear Text Messages [T.B.W]
+28200FA0 0000XXXX
+08A63B7C 00000000
+20090008 00000000
+E0000000 80008000
+Add Activator
+
+Clear Ally List [T.B.W]
+28200F0A 0000XXXX
+08A60390 FFFFFFFF
+20990004 00000000
+E0000000 80008000
+Add Activator
+
+No Music [T.B.W]
+28200FA0 0000XXXX [T.B.W]
+04C237C0 01000000
+CC000000 00000001 [T.B.W]
+04C237C0 3F800000
+E0000000 80008000
+Add Activator
+Toggle On and Off
+
+Slow Motion Lobby V.1 [T.B.W]
+28200FA0 0000XXXX [T.B.W]
+04B0AD48 01000000
+CC000000 00000001
+04B0AD48 3F800000
+E0000000 80008000
+Add Activator
+Toggle On and Off
+
+Super Teleporter CCP [STRiiK3R]
+20206088 00008000
+82210000 00AA2640
+E0000000 80008000
+20206088 00000800
+84210000 00AA2640
+E0000000 80008000
+20206088 00008000
+82210001 00AA2644
+E0000000 80008000
+20206088 00000800
+84210001 00AA2644
+E0000000 80008000
+20206088 00008000
+82210002 00AA2648
+E0000000 80008000
+20206088 00000800
+84210002 00AA2648
+E0000000 80008000
+20206088 00000800
+04AA2654 00000000
+E0000000 80008000
+*Press right to save location
+*Press home to load location
+
+Super Teleporter Wiimote [STRiiK3R]
+28200FA0 00000002
+82210000 00AA2640
+E0000000 80008000
+28200FA0 00008000
+84210000 00AA2640
+E0000000 80008000
+28200FA0 00000002
+82210001 00AA2644
+E0000000 80008000
+28200FA0 00008000
+84210001 00AA2644
+E0000000 80008000
+28200FA0 00000002
+82210002 00AA2648
+E0000000 80008000
+28200FA0 00008000
+84210002 00AA2648
+E0000000 80008000
+28200FA0 00008000
+04AA2654 00000000
+E0000000 80008000
+*Press right to save location
+*Press home to load location
+
+Zombies Lockbot v2 [STRiiK3R]
+2024901C 00000000
+A8000008 00000000
+C0000000 00000003
+3D408096 614A5A18
+3D600000 616B0000
+916A0000 4E800020
+E0000000 80008000
+2024901C 00000000
+A8000008 00000000
+C0000000 00000003
+3D408096 614A5A18
+3D600000 616B0000
+916A0000 4E800020
+E0000000 80008000
+*Non host!
+*Wiimote + CCP!
+
+Zombie Code Unfreezer [STRiiK3R]
+2024901C 00000000
+*Add this to the top of all of your zombie codes
+*It allows you to have zombie codes on your sd card and play multiplayer without freezing!
+
+Zombies Aimbot v1 [STRiiK3R]
+XXXXXXXX XXXXXXXX
+A8000008 00000000
+04964AF8 00000000
+04964B78 00000000
+04965A18 00000000
+04965A50 00000000
+E0000000 80008000
+*Non Host!
+*Fill X's with button activator!
+
+Zombies Triggerbot [STRiiK3R]
+20964AF0 00000010
+04B265B8 01000000
+E0000000 80008000
+20964AF0 00000000
+04B265B8 00000000
+E0000000 80008000
+*If you are looking at enemy it automatically Shoots!
+*Video - http://www.youtube.com/watch?v=yZygfvHZT3w
+
+Zombies Auto Aim CCP [STRiiK3R]
+20964AF0 00000010
+04B264F8 01010000
+E0000000 80008000
+20964AF0 00000000
+04B264F8 00000000
+28200FA0 00000080
+04B264F8 01010000
+E0000000 80008000
+*If you are looking at enemy it automatically Aims Down Sight!
+*Video - http://www.youtube.com/watch?v=yZygfvHZT3w
+
+Zombies Auto Aim Wiimote [STRiiK3R]
+20964AF0 00000010
+04B264F8 01010000
+E0000000 80008000
+20964AF0 00000000
+04B264F8 00000000
+28200F0A 00002000
+04B264F8 01010000
+E0000000 80008000
+*If you are looking at enemy it automatically Aims Down Sight!
+*Video - http://www.youtube.com/watch?v=yZygfvHZT3w
+
+Zombies Triggerbot/Auto Aim CCP [STRiiK3R]
+20964AF0 00000010
+04B264F8 01010000
+04B265B8 01000000
+E0000000 80008000
+20964AF0 00000000
+04B265B8 00000000
+04B264F8 00000000
+28200F0A 00000080
+04B264F8 01010000
+E0000000 80008000
+*if you are looking at an enemy you automatically and shoots!
+*Video - http://www.youtube.com/watch?v=yZygfvHZT3w
+
+Zombies Triggerbot/Auto Aim Wiimote [STRiiK3R]
+20964AF0 00000010
+04B264F8 01010000
+04B265B8 01000000
+E0000000 80008000
+20964AF0 00000000
+04B265B8 00000000
+04B264F8 00000000
+28200FA0 00002000
+04B264F8 01010000
+E0000000 80008000
+*if you are looking at an enemy you automatically aims down sight and shoots!
+*Video - http://www.youtube.com/watch?v=yZygfvHZT3w
+
+Auto Tune Voice changer CCP [STRiiK3R]
+28200F0A 00000800
+04C1455C 60000000
+CC000000 00000001
+04C1455C 06000000
+E0000000 80008000
+28200FA0 00008000
+04C1455C 06000000
+E0000000 80008000
+*Press home on ccp to autotune
+*press home again on ccp to mute yourself
+*press home on wiimote to reset it and have a normal voice
+
+Auto Tune Voice changer Wiimote [STRiiK3R]
+28200FA0 00000002
+04C1455C 60000000
+CC000000 00000001
+04C1455C 06000000
+E0000000 80008000
+28200FA0 00008000
+04C1455C 06000000
+E0000000 80008000
+*Press right to autotune
+*press right again to mute yourself
+*press home to reset it and have a normal voice
+
+MoonJump Host Only Wiimote [STRiiK3R]
+28200EE0 00008000
+CC000000 00000001
+28200EE0 00000008
+04AA2654 437A0000
+E0000000 80008000
+28200EE0 00008000
+CC000000 00000001
+28200EE0 00000004
+04AA2654 C2480000
+E0000000 80008000
+28200EE0 00002404
+04AA2654 C2480000
+E0000000 80008000
+28200EE0 00002004
+04AA2654 C2480000
+E0000000 80008000
+28200EE0 00000404
+04AA2654 C2480000
+E0000000 80008000
+28200EE0 00000014
+04AA2654 C2480000
+E0000000 80008000
+28200EE0 00001004
+04AA2654 C2480000
+E0000000 80008000
+*Press Home to Activate then press again to deactivate
+*Controls For Standard. Hold jump to rise up, then press down to slowly glide down
+*While floating down you can ads, shoot, ect
+
+MoonJump Host Only CCP [STRiiK3R]
+28200F0A 00000800
+CC000000 00000001
+28200F0A 00000040
+04AA2654 437A0000
+E0000000 80008000
+28200F0A 00000800
+CC000000 00000001
+28200F0A 00004000
+04AA2654 C2480000
+E0000000 80008000
+28200F0A 00004084
+04AA2654 C2480000
+E0000000 80008000
+28200F0A 00004004
+04AA2654 C2480000
+E0000000 80008000
+28200F0A 00004200
+04AA2654 C2480000
+E0000000 80008000
+28200F0A 00006200
+04AA2654 C2480000
+E0000000 80008000
+28200F0A 00006200
+04AA2654 C2480000
+E0000000 80008000
+28200F0A 00006000
+04AA2654 C2480000
+E0000000 80008000
+*Press Home to Activate then press again to deactivate
+*Controls For Standard. Hold jump to rise up, then press down to slowly glide down
+*While floating down you can ads, shoot, ect.
+
+No " Pick up tomahawk " Message [sLoddir]
+42000000 90000000
+065F5D78 00000018
+67200000 00000000
+00000000 00000000
+00000000 00000000
+E0000000 80008000
+*Works non-host
+
+" Press A/B to start " Modifier [sLoddir]
+42000000 90000000
+062153E8 00000024
+4500XXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+XXXX0050 00000000
+E0000000 80008000
+*Modifies the text at the beginning of the game that says " Press a/b to start "
+*Replace X's with letters in hex
+
+What the f**k V1 [sLoddir]
+0522D910 435B0000
+0522D914 435B0000
+0522D948 435B0000
+E0000000 80008000
+*Just randomly glitches, from lightning at the beginning of the match, to displaying suicide when someone kills you
+*Works both host, and non-host, when host, some players see the same glitches you see
+*It'll make you say " What the f**k? "
+
+What the f**k V2 [sLoddir]
+C322D948 00000002
+38800002 9084004C
+60000000 00000000
+C322D914 00000002
+38800002 9084004C
+4E800020 00000000
+E0000000 80008000
+*New and improved WTF code
+
+Hide All Ally Requests [sLoddir]
+28200F0A 00000800
+02A60520 00010000
+E0000000 80008000
+*To activate press home on CCP
+*If you wish to change to wiimote, change the first line to 28200FA0 00008000
+
+Non-stop Fuzzy Noise [sLoddir]
+081E0300 40400000
+200D0004 00000000
+021E0338 00014040
+021E033C 00014040
+C0000000 00000003
+3D40801E 614A0340
+3D604040 616B0000
+916A0000 4E800020
+C0000000 00000003
+3D40801E 614A0344
+3D604040 616B0000
+916A0000 4E800020
+E0000000 80008000
+*Zombies only
+*Fuzzy noise is EVERYWHERE
+
+Points Are M1911 Ammo (Zombies) [sLoddir]
+28200FA0 7FFF8000
+C0000000 00000005
+3D6080B6 616BE088
+3D8080A1 618CF358
+81AB0000 91AC0000
+4E800020 4E800020
+E0000000 80008000
+*Home on wiimote to activate
+*Host only
+
+Enable Pentagon Load Image [Crashzer]
+077FE448 00000008
+06350235 000BE760
+E0000000 80008000
+*http://i46.tinypic.com/9tz8fc.png
+
+MP5K shoots Death Machine Ammo [Crashzer]
+C2384BAC 0000000F
+9421FFB0 BDC10008
+A01E0118 2C00000A
+40820008 38000593
+2C000001 40820008
+38000002 2C000001
+40820008 38000002
+2C000001 40820008
+38000002 2C000001
+40820008 38000002
+2C000001 40820008
+38000002 2C000001
+40820008 38000002
+2C000001 40820008
+38000002 B9C10008
+38210050 00000000
+*All Players
+
+MP5K shoots Grenades [Crashzer]
+C2384BAC 00000004
+9421FFB0 BDC10008
+A01E0118 2C00000A
+38000564 B9C10008
+38210050 00000000
+*All Players
+
+MP5K shoots Decoys [Crashzer]
+C2384BAC 00000004
+9421FFB0 BDC10008
+A01E0118 2C00000A
+3800056D B9C10008
+38210050 00000000
+*All Players
+
+MP5K shoots G11 [Crashzer]
+C2384BAC 00000004
+9421FFB0 BDC10008
+A01E0118 2C00000A
+380004AB B9C10008
+38210050 00000000
+*All Playera
+
+MP5K shoots Claymore [Crashzer]
+C2384BAC 00000004
+9421FFB0 BDC10008
+A01E0118 2C00000A
+38000563 B9C10008
+38210050 00000000
+*All Players
+
+Slow Motion [Crashzer]
+C34A3268 00000001
+38003E80 00000000
+
+Fast Motion [Crashzer]
+C34A3268 00000001
+38004000 00000000
+
+Custom Speed [Crashzer]
+C34A3268 00000001
+3800XXXX 00000000
+*3F80 is average
+
+Full Gaming Mode [Crashzer]
+C259AEF0 00000002
+3C000005 90030000
+60000000 00000000
+*Disables the HUD and timer, so you have full screen gameplay
+*http://i48.tinypic.com/j08qhe.png
+
+Enable Map/HUD In Sniper Scope [Crashzer]
+0152B2D4 00000000
+
+Enable POW Image [Crashzer]
+077FDAC4 00000008
+06821F6D 000C73A0
+*http://i49.tinypic.com/eks4qp.png
+*Replaces Array
+
+Enable Rebirth Image [Crashzer]
+077FDCB0 00000008
+07176C3D 000C42A0
+*http://prntscr.com/bqyz5
+*Replaces Nuketown
+
+Enable River Image [Crashzer]
+077FDD40 00000008
+076B51C5 000B9FC0
+*http://prntscr.com/bqz06
+*Replaces Villa
+
+Array - Zombies load Image [Crashzer]
+077FDAC4 00000008
+095A0595 000C2FE0
+E0000000 80008000
+*http://i50.tinypic.com/2iqlogh.png
+
+Add Ammo When Shooting [Crashzer]
+063B0988 0000000C
+39E00001 7C007A15
+90030004 00000000
+E0000000 80008000
+*Multiplayer
+
+"Please insert the Disc" Modifier [Crashzer]
+061431FC 00000018
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+E0000000 80008000
+*Use this code and eject the disc. X = Message in hex
+
+No-clip campaign [Clay10]
+28200EE0 00001400
+048A3364 00000000
+CC000000 00000001
+048A3364 00000001
+E0000000 80008000
+B + Minus (-) on wiimote to activate/deactivate
+
+Speed mod campaign [Clay10]
+048A3284 401AFFFF
+
+No bullet spread zombies [Clay10]
+04A21124 00000000
+
+purple vision zombies [Clay10]
+04BD3FBC 60000000
+Tested non-host
+Gives a purple tint to your vision
+
+Invites Text Mod [BoxNinja]
+42000000 90000000
+0660B184 0000000C
+5400XXXX XXXXXXXX
+XX00504C 00000000
+E0000000 80008000
+*http://prntscr.com/bb0fg
+
+Ally Roster Text Mod [BoxNinja]
+42000000 90000000
+065FE784 0000000C
+XXXXXXXX XXXXXXXX
+XXXXXXXX 00000000
+E0000000 80008000
+*http://prntscr.com/bb01t
+
+Proposals Text Mod [BoxNinja]
+42000000 90000000
+0660B19C 0000000C
+455300XX XXXXXXXX
+XXXXXXXX 00000000
+E0000000 80008000
+*http://prntscr.com/bazrp
+
+Press A to Steady [BoxNinja]
+42000000 90000000
+065FB2EC 00000020
+4C4500XX XXXXXXXX
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+E0000000 80008000
+*http://prntscr.com/bayuc
+
+Press A to Jump Over [BoxNinja]
+42000000 90000000
+065FB2C0 00000020
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXX50
+E0000000 80008000
+*http://prntscr.com/bayiv
+
+Weird Arrow Reticle [BoxNinja]
+0522D948 3F700001
+*sLod found the address first
+*http://prntscr.com/asv8d
+*http://prntscr.com/asw9w
+
+No Reticle [BoxNinja]
+049D5074 00000000
+
+Reticle Style Cycler [BoxNinja]
+A8000008 00000030
+80000000 814ACE28
+86010000 00000001
+254ACE28 00000006
+054ACE28 00000000
+E2100000 80008000
+*Huge thanks to PoptartHunter for giving me the address area
+*Might need an activator
+
+Cycle Combat Record Slot 1 Gun [BoxNinja]
+A8000008 00000030
+80000000 80C36AB8
+86010000 00000001
+24C36AB8 0000000E
+04C36AB8 00000000
+E2100000 80008000
+*For Chrome
+
+Cycle Combat Record Slot 1 Score Points [BoxNinja]
+A8000008 00000030
+80000000 80C36AC0
+86010000 00000067
+24C36AC0 000003E7
+04C36AC0 00000067
+E2100000 80008000
+*For Chrome
+
+Combat Record Mods v2 [BoxNinja]
+28200F40 7FFF8000
+08C36AB8 000000XX
+20220014 00000000
+08C36AC0 00000YYY
+20220014 00000000
+08C36ABC ZZZZZZZZ
+20220014 00000000
+E0000000 80008000
+*This doesnt save but it sets all of them to the same thing
+*X = Gun Value (Get those here http://pastebin.com/raw.php?i=nbtL3NN6)
+*Y = Score in hex
+*Z = Yellow Gauge in center (value in float)
+*Preview of code http://prntscr.com/5x2rn
+*Home Activates
+
+Combat Record Mods v1 [BoxNinja]
+28200F40 7FFF8000
+04C36AB8 000000XX
+04C36AC0 00000YYY
+04C36ABC ZZZZZZZZ
+04C36ACC 000000XX
+04C36AD4 00000YYY
+04C36AD0 ZZZZZZZZ
+04C36AE0 000000XX
+04C36AE8 00000YYY
+04C36AE4 ZZZZZZZZ
+04C36AF4 000000XX
+04C36AFC 00000YYY
+04C36AF8 ZZZZZZZZ
+04C36B08 000000XX
+04C36B10 00000YYY
+04C36B0C ZZZZZZZZ
+E0000000 80008000
+*This doesnt save and only edits the first 5
+*X = Gun Value (Get those here http://pastebin.com/raw.php?i=nbtL3NN6)
+*Y = Score in hex
+*Z = Yellow Gauge in center (value in float)
+*Preview of code http://prntscr.com/5wqja
+*Home Activates
+
+Toggle Voice Chat [BoxNinja]
+28200F40 7FFF8000
+054AECC8 00000000
+054AECD8 00000000
+CC000000 00000001
+054AECC8 01000000
+054AECD8 01000000
+E0000000 80008000
+*hit home on wiimote to toggle
+*works in-game
+
+Moon Jump Zombies Solo v2 [BoxNinja]
+C0000000 00000009
+9421FFB0 BDC10008
+3D808020 618C6028
+818C0000 280C0008
+41820008 4800001C
+3DE080A1 61EFF01C
+3DC04400 61CE0000
+91CF0000 48000004
+B9C10008 38210050
+4E800020 00000000
+
+Moon Jump Zombies Solo v1 [BoxNinja]
+28200EE0 FFF70008
+04A1F01C 44000000
+E0000000 80008000
+
+Infinite Ammo Zombies Solo [BoxNinja]
+28200EE0 00008000
+C23A6498 00000002
+380003E7 90030004
+60000000 00000000
+E0000000 80008000
+*Sets ammo to 999 for all guns and grenades home activates
+
+Infinite Clips of Ammo Zombies Solo [BoxNinja]
+28200EE0 00008000
+C23A6624 00000002
+380003E7 901F0004
+60000000 00000000
+E0000000 80008000
+*Sets ammo clips to 999 for all guns home activates
+
+Infinite Zombies Score Solo [BoxNinja]
+28200EE0 00008000
+04A20B0C 3B9AC9FF
+E0000000 80008000
+*Home Activates
+
+9999 Headshots and Kills Zombies Solo [BoxNinja]
+28200EE0 00008000
+C26D4600 00000002
+3860270F 7C7CE92E
+60000000 00000000
+E0000000 80008000
+*Home Activates
+
+Infinite Clips Of Ammo Host Only [BoxNinja]
+C23B0B1C 00000002
+380003E7 901F0004
+60000000 00000000
+*Reload for it to activate
+
+Infinite Ammo Host Only [BoxNinja]
+C23B0984 00000002
+380003E7 90030004
+60000000 00000000
+
+Offline Codes
+
+Enable Pentagon Video [Crashzer]
+077FE298 00000008
+1CA2DC96 03C310A4
+*http://youtu.be/rIhSYTwSm5k
+
+Enable Kowloon Video [Crashzer]
+077FE298 00000008
+1239B8D2 0242E074
+*Will replace the load video (before the main menu of black ops) with the kowloon video
+
+Enable The Pentagon Missionary Video [Crashzer]
+077FE298 00000008
+155BAC4D 06F71A30
+*Will replace the load video (before the main menu of black ops) with the pentagon missionary video
+
+Zoomed ADS [Crashzer]
+28200FA0 00002000
+C0000000 00000004
+3D6040F2 616BF20B
+3D4080C9 614A0EE4
+916A0000 4E800020
+E0000000 80008000
+*Before Code: http://i50.tinypic.com/25f21qa.png
+*After Code: http://i48.tinypic.com/a5hvmo.png
+
+CCP Zoomed ADS [Crashzer]
+28200F0A 00000080
+C0000000 00000004
+3D6040F2 616BF20B
+3D4080C9 614A0EE4
+916A0000 4E800020
+E0000000 80008000
+*Before Code: http://i50.tinypic.com/25f21qa.png
+*After Code: http://i48.tinypic.com/a5hvmo.png
+
+MP5K shoots Death Machine Ammo [Crashzer]
+C2384BAC 0000000F
+9421FFB0 BDC10008
+A01E0118 2C00000A
+40820008 38000593
+2C000001 40820008
+38000002 2C000001
+40820008 38000002
+2C000001 40820008
+38000002 2C000001
+40820008 38000002
+2C000001 40820008
+38000002 2C000001
+40820008 38000002
+2C000001 40820008
+38000002 B9C10008
+38210050 00000000
+
+MP5K shoots Grenades [Crashzer]
+C2384BAC 00000004
+9421FFB0 BDC10008
+A01E0118 2C00000A
+38000564 B9C10008
+38210050 00000000
+
+MP5K shoots Decoys [Crashzer]
+C2384BAC 00000004
+9421FFB0 BDC10008
+A01E0118 2C00000A
+3800056D B9C10008
+38210050 00000000
+
+MP5K shoots G11 [Crashzer]
+C2384BAC 00000004
+9421FFB0 BDC10008
+A01E0118 2C00000A
+380004AB B9C10008
+38210050 00000000
+
+MP5K shoots Claymore [Crashzer]
+C2384BAC 00000004
+9421FFB0 BDC10008
+A01E0118 2C00000A
+38000563 B9C10008
+38210050 00000000
+
+Enable Map/HUD In Sniper Scope [Crashzer]
+0152B2D4 00000000
+
+"Please insert the Disc" Modifier [Crashzer]
+061431FC 00000018
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+E0000000 80008000
+*Use this code and eject the disc
+*X = Message in hex
+
+Unlock All Campaign Missions [PoptartHunter]
+054D2230 01000000
+
+Reticle Color Cycler (outer) [PoptartHunter]
+A8000008 00000030
+80000000 814ACF08
+86010000 00000001
+254ACF08 00000009
+054ACF08 00000000
+E2100000 80008000
+*Fixed.
+
+Reticle Color Cycler (inner) [PoptartHunter]
+A8000008 00000020
+80000000 814ACE98
+86010000 00000001
+254ACE98 00000009
+054ACE98 00000000
+E2100000 80008000
+A8000008 00000020
+80000000 814ACEA8
+86010000 00000001
+254ACEA8 00000009
+054ACEA8 00000000
+E2100000 80008000
+
+Zombies Round Toggler (Offline) [PoptartHunter]
+28200FA0 00008000
+05363F94 XXXXXXXX
+E0000000 80008000
+*X's = Round Number in hex
+*Home on WiiMote to activate
+
+Infinite Ammo Offline (Zombies) [PoptartHunter]
+28200FA0 00008000
+08A1F368 05F5E0FF
+2001F30A 00000000
+E0000000 80008000
+*Home to activate.
+
+Zombies scoreboard cycler(Solo/Online) [ellijah!]
+A8000008 00000005
+80000000 80A20B33
+86010000 01000000
+24A20B33 60000000
+04A20B33 00000000
+E2100000 80008000
+A8000008 00000005
+80000000 80A20B13
+86010000 05000000
+24A20B13 60000000
+04A20B13 00000000
+E2100000 80008000
+A8000008 00000005
+80000000 80A20B0E
+86010000 01000000
+24A20B0E 60000000
+04A20B0E 00000000
+E2100000 80008000
+*Cycles you're scoreboard stats.
+
+Auto teabag(CCP-Multiplayer)Non Host/Host [ellijah!]
+28200F0A FFFF0000
+04206214 00100000
+E0000000 80008000
+*Your character teabags the whole match on its own.
+*You must wait until you are in a match to plug in your CCP or you can't get online.
+
+Auto Lethal throwing(CCP-Multiplayer)Non Host/Host [ellijah!]
+28200F0A FFFF0000
+04206214 02000000
+E0000000 80008000
+*Use with inf. ammo for more fun :)
+*You must wait until you are in a match to plug in your CCP or you can't get online.
+
+Auto tactical throwing(CCP-Multiplayer)Non Host/Host [ellijah!]
+28200F0A FFFF0000
+04206214 20000000
+E0000000 80008000
+*Use with inf. ammo for more fun :)
+*You must wait until you are in a match to plug in your CCP or you can't get online.
+
+Scoreboard flasher(CCP-Multiplayer)Non Host/Host [ellijah!]
+28200F0A FFFF0000
+04206214 10000000
+E0000000 80008000
+*You must wait until you are in a match to plug in your CCP or you can't get online.
+
+Weapon cycler(CCP-Multiplayer)Non Host/Host [ellijah!]
+28200F0A FFFF0000
+04206214 40000000
+E0000000 80008000
+*You must wait until you are in a match to plug in your CCP or you can't get online.
+
+No leaving the match(CCP-Multiplayer)Non Host/Host [ellijah!]
+28200F0A FFFF0000
+04206214 07000000
+E0000000 80008000
+*The menu flashes on and off making it very hard to leave the match.
+*You must wait until you are in a match to plug in your CCP or you can't get online.
+
+Auto jump(CCP-Multiplayer)Non Host/Host [ellijah!]
+28200F0A FFFF0000
+04206214 00400000
+E0000000 80008000
+*Use with moon jump for more fun. :)
+*You must wait until you are in a match to plug in your CCP or you can't get online.
+
+Auto shoot(CCP-Multiplayer)Non Host/Host [ellijah!]
+28200F0A FFFF0000
+04206214 00040000
+E0000000 80008000
+*Use with inf. ammo for more fun. :)
+*You must wait until you are in a match to plug in your CCP or you can't get online.
+
+Auto knife(CCP-Multiplayer)Non Host/Host [ellijah!]
+28200F0A FFFF0000
+04206214 00080000
+E0000000 80008000
+*Knife without pressing anything.
+*You must wait until you are in a match to plug in your CCP or you can't get online.
+
+Take away killstreaks(Multiplayer) [ellijah!]
+04AA2AA4 60000000
+*Takes away your killstreaks as soon as you earn them.
+
+Always have 1337 points(Zombies) [ellijah!]
+02A20B0E 00000539
+*Solo/Host only Zombies
+
+Unlock intel offline [Ropers]
+08796EA4 00000001
+200D000C 00000000
+must have atless played one mission
+
+FC Mask [Crazy52]
+42000000 C0000000
+04BDF8FC XXXXXXXX
+04BDF900 XXXXXXXX
+04BDF904 XXXXXXXX
+E0000000 80008000
+X's = ascii to Hex
+
+Quick scope mod [superman]
+054A91C8 42000000
+
+Zombies Gamespeed Modifier Solo [777eThOd*]
+04A698CC 40000000
+
+MP Objects Disappear NON-HOST [777eThOd*]
+048B2F38 50000000
+
+No Recoil (Non-Host) [Kyle]
+08EB3BA0 00000000
+20040004 00000000
+*Thanks to Crazy52 for the original address* Should work for most if not ALL guns.
+
+Ping Bar Mods (Non-Host) [Kyle]
+054C86B8 XXXXXXFF
+054C8728 XXXXXXFF
+054C8798 XXXXXXFF
+054C85D8 0000000Z
+Replace X Values with color code hexadecimal. Recommended: 00FFFF (purple)
+Replace Z Values with how many number of ping bars you want. Recommended: 5
+
+Scores Ping Background Color (Non-Host) [Kyle]
+054C8808 XXXXXX80
+Replace X with color code hexadecimal. Recommended: 000000 (black)
+
+No Bullet Spread (Non-Host) [Kyle]
+04E9A140 00000000
+Glitches are:
+- The reticle jitters when host // Disables Custom Class 1 Perk 2 & 3 // Some others that I forgot that are minor :S
+
+In-Game Player 1 Name Modifier [Kyle]
+04A9A660 XXXXXXXX
+04A9A664 XXXXXXXX
+04A9A668 XXXXXXXX
+04A9A66C XXXXXXXX
+04A9A670 XXXXXXXX
+Host-Only. Convert ASCII to hex here: http://www.mikezilla.com/exp0012.html
+
+In-Game Player 2 Name Modifier [Kyle]
+04A9D040 XXXXXXXX
+04A9D044 XXXXXXXX
+04A9D048 XXXXXXXX
+04A9D04C XXXXXXXX
+04A9D050 XXXXXXXX
+Host-Only. Convert ASCII to hex here: http://www.mikezilla.com/exp0012.html
+
+In-Game Player 3 Name Modifier [Kyle]
+04A9FA20 XXXXXXXX
+04A9FA24 XXXXXXXX
+04A9FA28 XXXXXXXX
+04A9FA2C XXXXXXXX
+04A9FA30 XXXXXXXX
+Host-Only. Convert ASCII to hex here: http://www.mikezilla.com/exp0012.html
+
+In-Game Player 4 Name Modifier [Kyle]
+04AA2400 XXXXXXXX
+04AA2404 XXXXXXXX
+04AA2408 XXXXXXXX
+04AA240C XXXXXXXX
+04AA2410 XXXXXXXX
+Host-Only. Convert ASCII to hex here: http://www.mikezilla.com/exp0012.html
+
+In-Game Player 5 Name Modifier [Kyle]
+04AA4DE0 XXXXXXXX
+04AA4DE4 XXXXXXXX
+04AA4DE8 XXXXXXXX
+04AA4DEC XXXXXXXX
+04AA4DF0 XXXXXXXX
+Host-Only. Convert ASCII to hex here: http://www.mikezilla.com/exp0012.html
+
+In-Game Player 6 Name Modifier [Kyle]
+04AA77C0 XXXXXXXX
+04AA77C4 XXXXXXXX
+04AA77C8 XXXXXXXX
+04AA77CC XXXXXXXX
+04AA77D0 XXXXXXXX
+Host-Only. Convert ASCII to hex here: http://www.mikezilla.com/exp0012.html
+
+In-Game Player 7 Name Modifier [Kyle]
+04AAA1A0 XXXXXXXX
+04AAA1A4 XXXXXXXX
+04AAA1A8 XXXXXXXX
+04AAA1AC XXXXXXXX
+04AAA1B0 XXXXXXXX
+Host-Only. Convert ASCII to hex here: http://www.mikezilla.com/exp0012.html
+
+In-Game Player 8 Name Modifier [Kyle]
+04AACB80 XXXXXXXX
+04AACB84 XXXXXXXX
+04AACB88 XXXXXXXX
+04AACB8C XXXXXXXX
+04AACB90 XXXXXXXX
+Host-Only. Convert ASCII to hex here: http://www.mikezilla.com/exp0012.html
+
+In-Game Player 9 Name Modifier [Kyle]
+04AAF560 XXXXXXXX
+04AAF564 XXXXXXXX
+04AAF568 XXXXXXXX
+04AAF56C XXXXXXXX
+04AAF570 XXXXXXXX
+Host-Only. Convert ASCII to hex here: http://www.mikezilla.com/exp0012.html
+
+In-Game Player 10 Name Modifier [Kyle]
+04AB1F40 XXXXXXXX
+04AB1F44 XXXXXXXX
+04AB1F48 XXXXXXXX
+04AB1F4C XXXXXXXX
+04AB1F50 XXXXXXXX
+Host-Only. Convert ASCII to hex here: http://www.mikezilla.com/exp0012.html
+
+Kills Modifier [Kyle]
+04AA5EE0 00000XXX
+Highest your can go with is FFF. Host-Only.
+
+Unlimited Tacticals [Kyle]
+04AA3A2C 60000000
+Host-Only
+
+Unlimited Lethals [Kyle]
+04AA3A28 60000000
+Host-Only
+
+Unlimited Equipment [Kyle]
+04AA3A34 60000000
+Host-Only
+
+Campaign gun reticle [xcoopa]
+054BDD9B 000000XX
+replace xx with
+Use 8, thou A ,b,c,d,e,,f 10,through 15
+
+includes nun chuck wii mot and more
+
+player sprintUnlimited [Ropers]
+20B0A9E0 20323520
+054CCCB8 01000000
+E0000000 00000000
+All players host only
+
+player sprintSpeedScale [Ropers]
+20B0A9E0 20323520
+054CCC48 XXXXXXXX
+E0000000 00000000
+replace x with flot value in hex
+ALL players host only Home actvator
+
+moon jump all player [Ropers]
+28200EE0 FFF70008
+08A97ED4 44000000
+200929E0 00000000
+E0000000 80008000
+All Players Jump when you jump Host only
+
+TeamColor_MyTeam [Ropers]
+20B0A9E0 20323520
+054C5008 RRGGBBFF
+E0000000 00000000
+defalt 66B366FF RGB TO HEX
+
+TeamColor_EnemyTeam [Ropers]
+20B0A9E0 20323520
+054C5078 RRGGBBFF
+E0000000 00000000
+defalt FF5059FF RGB TO HEX
+
+TeamColor_Party [Ropers]
+20B0A9E0 20323520
+054C51C8 RRGGBBFF
+E0000000 00000000
+defalt 4040BFFF RGB TO HEX
+
+Rapid Fire [Ropers]
+28200FA0 00008000
+043ABF14 60000000
+E0000000 80008000
+28200FA0 00000300
+043ABF14 90180000
+E0000000 80008000
+host only allplayers home to actvate 1,2 deactvate wiiremote
+
+ZombiesTelport all players host only [Ropers]
+28200EE0 00008000
+06A1F008 00000008
+40A16147 C3D247CA
+06A22C90 00000008
+C2985439 C34A2492
+06A22918 00000008
+42DDE1F4 C3505CD5
+06A245A0 00000008
+41A7A0B1 C3705ACD
+08A1F010 43A01000
+20031C88 00000000
+E0000000 00000000
+28200EE0 00008001
+06A1F008 00000008
+4186D935 C43DF478
+06A22C90 00000008
+438F2F26 C428F62F
+06A22918 00000008
+42C37747 C430B09A
+06A245A0 00000008
+41D37E5E C420BDD2
+08A1F010 43782001
+20031C88 00000000
+E0000000 00000000
+28200EE0 00008002
+06A1F008 00000008
+C51C0B4E 43B8D068
+06A22C90 00000008
+C52B2669 43B3E1A4
+06A22918 00000008
+C51C159A 42F96D95
+06A245A0 00000008
+C529E661 42F4A797
+08A1F010 42508000
+20031C88 00000000
+E0000000 00000000
+28200EE0 00008004
+06A1F008 00000008
+C51A6D16 C49676E8
+06A22C90 00000008
+C529F718 C4848333
+06A22918 00000008
+C51F49FB C4829FC2
+06A245A0 00000008
+C5239153 C489C947
+08A1F010 42507FFF
+20031C88 00000000
+E0000000 00000000
+home to pack a punch room
+home and left back to lobby
+home and down to other room
+home and right to other room 2
+
+Zombies Custom Teleport(solo only) [Ropers]
+28200EE0 00008000
+8220000A 80A1F008
+8220000B 80A1F00C
+8220000C 80A1F010
+E0000000 80008000
+28200EE0 00001000
+8420000A 80A1F008
+8420000B 80A1F00C
+8420000C 80A1F010
+E0000000 80008000
+28200EE0 0000A000
+8220000D 80A1F008
+8220000E 80A1F00C
+8220000F 80A1F010
+E0000000 80008000
+28200EE0 00003000
+8420000D 80A1F008
+8420000E 80A1F00C
+8420000F 80A1F010
+E0000000 80008000
+Press Home to save location 1
+Press Minus you teleport to saved location 1
+Press Z+Home you save location 2
+Press Z+Minus you teleport to location 2
+
+No Wait Time between Invites [superman]
+054B9018 00000000
+this codes lets you invite your friends to the game without having to wait the 60sec each time u invite them
+
+inf ammo all players [superman]
+054CDEC8 01000000
+this also has infinate care package after getting the first one host only
+
+Field of view [superman]
+054C0D2C XXXXXXXX
+use floating points to fill in X'S host only
+
+MAX PLAYERS [superman]
+054B4EE8 0000000X
+x values
+1=1 players
+2=2 players
+3=3 players
+4=4 players
+5=5 players
+6=6 players
+7=7 players
+8=8 players
+9=9 players
+A=10 players
+B=11 players
+C=12 players
+D=13 players
+E=14 players
+F=15 players
+10=16 players
+11=17 players
+12=18 players
+13=19 players
+14=20 players
+host only
+
+melee mod [superman]
+054D01C8 XXXXXXXX
+USE Floating points to fill in x's the default is 64 and dont go to high or it will lag and u cant really knife
+
+grenade in scopes [superman]
+054C253C 01000000
+host only
+
+Hold breath forever [superman]
+054CD988 44160000
+054CD9F8 33D6BF95
+host only
+
+game speed mod [superman]
+28200EE0 00002200
+054A6698 40A00000
+E0000000 80008000
+28200EE0 00000C00
+054A6698 41200000
+E0000000 80008000
+28200EE0 00008004
+054A6698 41700000
+E0000000 80008000
+28200EE0 00001010
+054A6698 41A00000
+E0000000 80008000
+28200EE0 00000E00
+054A6698 3F800000
+E0000000 80008000
+28200EE0 00004002
+054A6698 3F000000
+E0000000 80008000
+28200EE0 00002002
+054A6698 3851B717
+E0000000 80008000
+Z+1=5X B+A=10X HOME+DOWN=15x PLUS+MINUS=20X B+A+1=NORMAL RIGHT+C=SLOW RIGHT+Z=SLOWER
+host only
+
+Hardline Pro Mod [superman]
+054D3028 0000000B
+-originally by Ozelot-
+You get all your kill streaks with only 1 kill
+
+inf ammo campaign [superman]
+054D9FC8 01000000
+
+raw dev [superman]
+054D8DC8 00000101
+this code changes the map color to grayish
+
+moon jump campaign [superman]
+054DDF38 461C3C00
+
+inf ammo online All players host only [superman]
+043B07A4 60000000
+
+moon jump solo/mp zombies [superman]
+28200EE0 FFF70008
+04A1531C 44000000
+E0000000 80008000
+ok this code works for solo but it also works for mp zombies but you dont get moon jump you jump someone else so host only
+
+moon jump someone else [superman]
+28200EE0 FFF70008
+04A9A254 44000000
+E0000000 80008000
+host only and this is for multiplayer
+
+No Cool Down [superman]
+054D0698 3A03126F
+non host only. switches semi's to auto's
+
+lobby quick start [superman]
+054B55E8 00000001
+Code is host only and quite useful esp when host since you end up waiting 15 seconds for the match to start
+
+score ping max bars [superman]
+054CA5E8 00000008
+Interesting little texture mod
+
+flash stuns do nothing [superman]
+054C1F9C 00000000
+
+Ultimate Non-Host Zombies Visual Mod CCP [777eThOd*]
+28200F0A 00000800
+04891B70 40500000
+0488FAF0 00000000
+0488E608 40800000
+0488EDC8 40F00000
+0488EDDC 41500000
+E0000000 80008000
+28200F0A 00000800
+04891B70 3F800000
+0488FAF0 3F800000
+0488E608 3F800000
+0488EDC8 3F800000
+0488EDDC 3F800000
+E0000000 80008000
+28200F0A 00000801
+04891B70 40500000
+0488FAF0 00000000
+0488E608 40800000
+0488EDC8 40F00000
+0488EDDC 41500000
+E0000000 80008000
+&777&
+You MUST Turn ON while in Game, Then turn it OFF at the End Of Game.
+Turn ON = HOME+UP D-PAD ; Turn OFF = HOME
+
+Speed Hack Zombies All Players [777eThOd*]
+08A20A54 40800000
+20031C88 00000000
+
+Profile 1 Name Modifier CCP (HOME) [777eThOd*]
+28200F0A 00000800
+06B0AA84 00000020
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+E0000000 80008000
+
+Profile 2 Name Modifier CCP (HOME) [777eThOd*]
+28200F0A 00000800
+06B0AAA4 00000020
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+E0000000 80008000
+
+Profile 3 Name Modifier CCP (HOME) [777eThOd*]
+28200F0A 00000800
+06B0AAC4 00000020
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+E0000000 80008000
+
+Profile 4 Name Modifier CCP (HOME) [777eThOd*]
+28200F0A 00000800
+06B0AAE4 00000020
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+E0000000 80008000
+
+Profile 1 Name Modifier Wiimote/Nunchuck (HOME) [777eThOd*]
+28200FA0 00008000
+06B0AA84 00000020
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+E0000000 80008000
+
+Profile 2 Name Modifier Wiimote/Nunchuck (HOME) [777eThOd*]
+28200FA0 00008000
+06B0AAA4 00000020
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+E0000000 80008000
+
+Profile 3 Name Modifier Wiimote/Nunchuck (HOME) [777eThOd*]
+28200FA0 00008000
+06B0AAC4 00000020
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+E0000000 80008000
+
+Profile 4 Name Modifier Wiimote/Nunchuck(HOME) [777eThOd*]
+28200FA0 00008000
+06B0AAE4 00000020
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+E0000000 80008000
+
+No Recoil (Non-Host) [Kyle]
+08EB3BA0 00000000
+20040004 00000000
+*Thanks to Crazy52 for the original address* Should work for most if not ALL guns.
+
+Ping Bar Mods (Non-Host) [Kyle]
+054C86B8 XXXXXXFF
+054C8728 XXXXXXFF
+054C8798 XXXXXXFF
+054C85D8 0000000Z
+Replace X Values with color code hexadecimal. Recommended: 00FFFF (purple)
+Replace Z Values with how many number of ping bars you want. Recommended: 5
+
+Scores Ping Background Color (Non-Host) [Kyle]
+054C8808 XXXXXX80
+Replace X with color code hexadecimal. Recommended: 000000 (black)
+
+No Bullet Spread (Non-Host) [Kyle]
+04E9A140 00000000
+Glitches are:
+- The reticle jitters when host // Disables Custom Class 1 Perk 2 & 3 // Some others that I forgot that are minor :S
+
+In-Game Player 1 Name Modifier [Kyle]
+04A9A660 XXXXXXXX
+04A9A664 XXXXXXXX
+04A9A668 XXXXXXXX
+04A9A66C XXXXXXXX
+04A9A670 XXXXXXXX
+Host-Only. Convert ASCII to hex here: http://www.mikezilla.com/exp0012.html
+
+In-Game Player 2 Name Modifier [Kyle]
+04A9D040 XXXXXXXX
+04A9D044 XXXXXXXX
+04A9D048 XXXXXXXX
+04A9D04C XXXXXXXX
+04A9D050 XXXXXXXX
+Host-Only. Convert ASCII to hex here: http://www.mikezilla.com/exp0012.html
+
+In-Game Player 3 Name Modifier [Kyle]
+04A9FA20 XXXXXXXX
+04A9FA24 XXXXXXXX
+04A9FA28 XXXXXXXX
+04A9FA2C XXXXXXXX
+04A9FA30 XXXXXXXX
+Host-Only. Convert ASCII to hex here: http://www.mikezilla.com/exp0012.html
+
+In-Game Player 4 Name Modifier [Kyle]
+04AA2400 XXXXXXXX
+04AA2404 XXXXXXXX
+04AA2408 XXXXXXXX
+04AA240C XXXXXXXX
+04AA2410 XXXXXXXX
+Host-Only. Convert ASCII to hex here: http://www.mikezilla.com/exp0012.html
+
+In-Game Player 5 Name Modifier [Kyle]
+04AA4DE0 XXXXXXXX
+04AA4DE4 XXXXXXXX
+04AA4DE8 XXXXXXXX
+04AA4DEC XXXXXXXX
+04AA4DF0 XXXXXXXX
+Host-Only. Convert ASCII to hex here: http://www.mikezilla.com/exp0012.html
+
+In-Game Player 6 Name Modifier [Kyle]
+04AA77C0 XXXXXXXX
+04AA77C4 XXXXXXXX
+04AA77C8 XXXXXXXX
+04AA77CC XXXXXXXX
+04AA77D0 XXXXXXXX
+Host-Only. Convert ASCII to hex here: http://www.mikezilla.com/exp0012.html
+
+In-Game Player 7 Name Modifier [Kyle]
+04AAA1A0 XXXXXXXX
+04AAA1A4 XXXXXXXX
+04AAA1A8 XXXXXXXX
+04AAA1AC XXXXXXXX
+04AAA1B0 XXXXXXXX
+Host-Only. Convert ASCII to hex here: http://www.mikezilla.com/exp0012.html
+
+In-Game Player 8 Name Modifier [Kyle]
+04AACB80 XXXXXXXX
+04AACB84 XXXXXXXX
+04AACB88 XXXXXXXX
+04AACB8C XXXXXXXX
+04AACB90 XXXXXXXX
+Host-Only. Convert ASCII to hex here: http://www.mikezilla.com/exp0012.html
+
+In-Game Player 9 Name Modifier [Kyle]
+04AAF560 XXXXXXXX
+04AAF564 XXXXXXXX
+04AAF568 XXXXXXXX
+04AAF56C XXXXXXXX
+04AAF570 XXXXXXXX
+Host-Only. Convert ASCII to hex here: http://www.mikezilla.com/exp0012.html
+
+In-Game Player 10 Name Modifier [Kyle]
+04AB1F40 XXXXXXXX
+04AB1F44 XXXXXXXX
+04AB1F48 XXXXXXXX
+04AB1F4C XXXXXXXX
+04AB1F50 XXXXXXXX
+Host-Only. Convert ASCII to hex here: http://www.mikezilla.com/exp0012.html
+
+Kills Modifier [Kyle]
+04AA5EE0 00000XXX
+Highest your can go with is FFF. Host-Only.
+
+Unlimited Tacticals [Kyle]
+04AA3A2C 60000000
+Host-Only
+
+Unlimited Lethals [Kyle]
+04AA3A28 60000000
+Host-Only
+
+Unlimited Equipment [Kyle]
+04AA3A34 60000000
+Host-Only
+
+Use menu pointer [Mitch]
+28200FA0 00001000
+054ACBF8 00000000
+CC000000 00000001
+054ACBF8 01000000
+E0000000 80008000
+This lets you use the old menu pointer that was in WAW and MWR
+- is the activator/deactivator
+
+Browse Through Store [Mitch]
+054ADAD8 01000000
+
+Invite Wait Period F6 [Mitch]
+F6000001 81408150
+80930698 1F48DCEB
+14000014 00000000
+E0000000 80008000
+
+No deaths [Mitch]
+044E6B78 60000000
+When you die the game doesnt register it as a death. Host only.
+
+Slow Motion code [Mitch]
+F6000001 81408150
+80930698 5BFDEB7C
+14000014 3F000000
+E0000000 80008000
+Host only
+
+Ui Scale Mod [Mitch]
+054AE398 3F8C0000
+054AE408 3F8C0000
+Changes the scale of things like the Ally list, or the scoreboard, and almost everything else, you can increase or decrease the current floating point, the default is 3F800000
+
+Ally changer combat training [Chaos]
+28200FA0 00008000
+044B69E8 38000xxx
+E0000000 80008000
+*highest is 9
+*only works before entering combat training
+*home activates
+
+Enemy Changer combat training [Chaos]
+28200FA0 00008000
+044B6A58 38000xxx
+E0000000 80008000
+*you can only change them before you enter combat training
+*highest is 9
+*only works before entering combat training
+*home activates
+
+Name Changer [Jedi HaCk]
+06AAF560 000000ZZ
+XXXXXXXX XXXXXXXX
+*Host only
+
+Speed modifier All Players [Jedi HaCk]
+08A9A600 40200000
+200929E0 00000000
+*Host only
+
+Inf.HP All Players [Jedi HaCk]
+08A9A614 60000000
+200929E0 00000000
+*Host only
+
+Ballistic Knife Only v2: [strakn]
+214C59B8 3F800000
+08A98040 00000000
+200929E0 00000000
+08A98058 00000560
+200929E0 00000000
+08A98208 00000000
+200929E0 00000000
+08A98210 00000560
+200929E0 00000000
+E0000000 80008000
+*Host Only, All Players
+*Great for Private Match Knife fights
+
+Map Size Modifier: [strakn]
+28200EE0 0000XXXX
+A8000000 00000001
+80000000 3FC00000
+254C59A8 3F800000
+80000000 30000000
+274C59A9 3F800000
+80000000 3F800000
+E2000001 00000000
+84200000 814C59A8
+E0000000 80008000
+*XXXX is your button activator.
+*Cycles between normal, 1.5x and 0.25x.
+
+Friction Modifier: [strakn]
+28200EE0 0000XXXX
+A8000000 00000001
+80000000 814CA9B8
+86910000 3F000000
+254CA9B8 3FC00000
+054CA9B8 00000000
+E0000000 80008000
+*Host Only, All Players
+*XXXX is button activator.
+*Cycles between friction values of 0/0.5/1.0/1.5/2.0
+
+Volume Modifier: [strakn]
+28200EE0 0000XXXX
+A8000000 00000001
+80000000 814DEB48
+86910000 3E800000
+254DEB48 3FC00000
+054DEB48 3E800000
+E0000000 80008000
+*XXXX is your button activator value.
+*This code lets you toggle ingame volume settings of 0.25/0.5/0.75/1.0/1.25/1.5.
+*This doesnt change the volume for everything some sound FX
+*remain unchanged making them sound very cool with other sounds quiter.
+
+Brightness Modifier: [strakn]
+28200EE0 0000XXXX
+A8000000 00000001
+80000000 3FA00000
+254D65D8 3F800000
+80000000 3F600000
+274D65D9 3F800000
+80000000 3F800000
+E2000001 00000000
+84200000 814D65D8
+E0000000 80008000
+*XXXX is your button activator
+*This will toggle brightness between dimmer,normal,brighter
+
+Sound Speed Modifier: [strakn]
+28200EE0 0000XXXX
+A8000000 00000001
+80000000 3FA00000
+254DF018 3F800000
+80000000 3F500000
+274DF019 3F800000
+80000000 3F800000
+E2000001 00000000
+84200000 814DF018
+E0000000 80008000
+*XXXX is the button activator value.
+*This will toggle ingame sound speed levels between 0.815/1.0/1.25.
+*Basically switch bettween slo-mo sound, normal, and everyone on helium sound.
+*Very funny.
+
+Zombies Custom Teleport(solo): [strakn]
+28200EE0 00008000
+8220000A 80A20088
+8220000B 80A2008C
+8220000C 80A20090
+E0000000 80008000
+28200EE0 00001000
+8420000A 80A20088
+8420000B 80A2008C
+8420000C 80A20090
+E0000000 80008000
+28200EE0 0000A000
+8220000D 80A20088
+8220000E 80A2008C
+8220000F 80A20090
+E0000000 80008000
+28200EE0 00003000
+8420000D 80A20088
+8420000E 80A2008C
+8420000F 80A20090
+E0000000 80008000
+*Based off Hetoan2's W@W Teleport Code
+*Press Home to save location 1
+*Press Minus you teleport to saved location 1
+*Press Z+Home you save location 2
+*Press Z+Minus you teleport to location 2
+
+Zombie Teleport-Lobby (solo): [strakn]
+28200EE0 00009000
+06A20088 00000008
+4186D935 C43DF478
+04A20090 43782001
+E0000000 80008000
+*Press Minus+Home to teleport to the starting lobby.
+
+Zombie Teleport-Projection Room (solo): [strakn]
+28200EE0 00008001
+06A20088 00000008
+41B11675 C3163D68
+04A20090 43A01000
+E0000000 80008000
+*Hold DpadLeft then press Home to teleport to the Projection Room.
+
+Zombie Teleport-Samantha's Room (solo): [strakn]
+28200EE0 00008008
+06A20088 00000008
+C5216800 43A2C000
+04A20090 42508000
+E0000000 80008000
+*Hold DpadUP then press Home to teleport to the Samantha's Room.
+
+Zombie Teleport-Samantha's Room Horror (solo): [strakn]
+28200EE0 00008002
+06A20088 00000008
+C5217800 C47BC000
+04A20090 42508000
+E0000000 80008000
+*Hold DpadRight then press Home to teleport to Samantha's Room Horror.
+
+Zombie Teleport-Suprise Room (solo): [strakn]
+28200EE0 00008004
+06A20088 00000008
+C4333A86 C3FB4248
+04A20090 43A01000
+E0000000 80008000
+*Hold DpadDown then press Home to teleport to this Suprise Room.
+
+Zombie Teleport-High Platform Alley (solo): [strakn]
+28200EE0 00001001
+06A20088 00000008
+C4B96721 436A2316
+04A20090 43492000
+E0000000 80008000
+*Hold DpadLeft + Minus to teleport to this Platform.
+
+Zombie Teleport-High Platform Theatre (solo): [strakn]
+28200EE0 00001008
+06A20088 00000008
+4435CA6A 442BD798
+04A20090 43202000
+E0000000 80008000
+*Hold DpadUp + Minus to teleport to this Platform.
+
+Ingame Scoreboard color mod [BLiTz*]
+054C8B88 RRGGBBAA
+
+Low ammo color warning1 [BLiTz*]
+054C7D88 RRGGBBAA
+
+Low ammo color warning2 [BLiTz*]
+054C7DF8 RRGGBBAA
+
+Low ammo warning noreload color1 [BLiTz*]
+054C7FB8 RRGGBBAA
+
+Low ammo warning noreload color2 [BLiTz*]
+054C8028 RRGGBBAA
+
+Low ammo warning color1 [BLiTz*]
+054C8098 RRGGBBAA
+
+Low ammo warning color2 [BLiTz*]
+054C8108 RRGGBBAA
+
+High Ping color [BLiTz*]
+054C86B8 RRGGBBAA
+
+Medium Ping color [BLiTz*]
+054C8728 RRGGBBAA
+
+Low ping color [BLiTz*]
+054C8798 RRGGBBAA
+
+Ping Background color [BLiTz*]
+054C8808 RRGGBBAA
+
+Silent Run/Walk [BLiTz*]
+054CC4D8 FFFFFFFF
+
+Ingame Assists Score Mod [BLiTz*]
+04AA5EEC XXXXXXXX
+
+Spetznaz ingame ctf score [BLiTz*]
+04A986A0 xxxxxxxx
+
+black ops ingame ctf score [BLiTz*]
+04A986A4 xxxxxxxx
+
+Scrolling Camo [Sh0tGuN2197]
+28200FA0 00008000
+A8000000 00000001
+80000000 38000019
+247346DC 38000017
+80000000 38000003
+267346DD 38000004
+80000000 38000014
+E2000001 00000000
+84200000 807346DC
+E0000000 80008000
+Every time you press the home button, your Camo will change from pink, red, blue. *Credit to Seth@WiiPlaza for original address*
+
+Not Affected By Flash [Sh0tGuN2197]
+F6000001 81408150
+80930698 A139EA8C
+14000014 00000000
+E0000000 80008000
+
+Bullet Tracers [Sh0tGuN2197]
+F6000001 81408150
+80930698 9A77D9B1
+14000014 3F800000
+140000F4 44BB8000
+14000164 43C80000
+14000084 40C80000
+E0000000 80008000
+White light/beam follows your bullets. Only host can see. *Credit to ropers for original address
+
+No Blood [Sh0tGuN2197]
+F6000001 81408150
+80930698 B69BA39E
+14000014 00000000
+E0000000 80008000
+*Credit to MasterQ9999 for original address
+
+Always Stay Zoomed In Host Only [Sorzad12]
+04A124D8 00000000
+
+Moon Jump Online Host Only [Sorzad12]
+28BE17A2 FFF70008
+04AA36D4 44000000
+E0000000 80008000
+
+Infinite Ammo Host Only [Sorzad12]
+04AA3A16 5E700000
+04AA3A0F 5E700000
+
+Stop Weapon From Shooting Host Only [Sorzad12]
+04A159C8 43FA0000
+
+Name Glow [Sorzad12]
+054C3E88 XXXXXXXX
+
+Zombie Points Solo Mode [Sorzad12]
+04A21B8E 00XXXXXX
+
+Infinite Ammo Zombies Solo Mode [Sorzad12]
+04A203EB 5E700000
+04A203DB 5E700000
+
+Zombie Moon Jump Solo Only [Sorzad12]
+28AEA1E2 00000008
+04A2009C 44000000
+E0000000 80008000
+
+CT: Add one more teamate: [BlockBoy]
+054B69E8 0000000X
+
+Gametype Modifier: [BlockBoy]
+054A2BD8 XXXXXXXX
+
+No Weapon Bob While Switching: [BlockBoy]
+054CB6D8 00000000
+
+Left Handed Weapon: [BlockBoy]
+054CF878 01000000
+
+Brass Remover: [BlockBoy]
+054C1798 01000000
+
+FPS With Info Labels: [BlockBoy]
+054BF498 01000000
+054BF6C8 01000000
+
+Display Prestige LBs: [BlockBoy]
+054B43D8 01000000
+
+Disable Water: [BlockBoy]
+054D89B8 00000000
+
+COMPLETELY Remove Fog: [BlockBoy]
+054D6CD8 00000000
+054D6C68 00000000
+
+Force All Level Details: [BlockBoy]
+054D9198 01000000
+
+Remove Level Details: [BlockBoy]
+054D9198 00000000
+
+Enable Water Fog Test: [BlockBoy]
+054DA8C8 01000000
+
+See Through Fire: [BlockBoy]
+054DB268 00000000
+054DB118 00000000
+
+Do Not End Game If Host(With Lag): [BlockBoy]
+054B8C78 00000000
+If you get host, but you have REALLY bad connection and a few players get lagged out. This won't end the game from poor connection to host.
+
+End Game if Host(With Lag): [BlockBoy]
+054B8C78 01000000
+Will end game when you have lots of lag. LOTS.
+
+Amount Of Friction: [BlockBoy]
+054CA9B8 XXXXXXXX
+
+No Friction: [BlockBoy]
+054CA9B8 00000000
+
+Maximum Time Objects Can Float (in ms): [BlockBoy]
+054D45E8 XXXXXXXX
+
+Party Timer Modifier: [BlockBoy]
+054B2538 XXXXXXXX
+(In Seconds)
+
+Do Not Show Party Timer: [BlockBoy]
+054B24C8 00000000
+
+Teamate tags always up [savage]
+054C4198 01000000
+
+Gravity mod [savage]
+054CE6F8 xxxxxxxx
+
+3rd person mode [savage]
+054C2F38 01000000
+
+Jump height/step [savage]
+054CFE28 44610000
+054CFE98 44610000
+
+Hardline mod [savage]
+054D1168 0000000X
+
+No fall dmg [savage]
+054CA8D8 5B9FDF43
+
+Grenade icon range [savage]
+054C03E8 XXXXXXXX
+You can change the alert distance for a nade being near you
+
+3rd person mode [savage]
+054C2F38 01000000
+
+Mini map extender [savage]
+054C59A8 40000000
+
+Max party size mod(Savage/MasterQ) [savage]
+054B1C78 000000XX
+do not put more than 12
+
+NO FLASH by ROPERS [savage]
+054BFF88 00000000
+
+Sleight of Hand Pro Modifier by Ropers [savage]
+054D0D08 XXXXXXXX
+054D0E58 XXXXXXXX
+The lower the value, the better
+
+inf ammo by Ropers [savage]
+043B0998 380003E7
+
+inf ammo zombies by Ropers [savage]
+043A64A0 380003E7
+
+inf points zombies by Ropers [savage]
+C24C3F68 00000002
+3BE0157C 93FE1B24
+60000000 00000000
+
+FlakJacket mod By Ropers [savage]
+054D1718 3DCCCCCD
+054D1788 3DCCCCCD
+054D10F8 00003928
+054D16A8 497423F0
+
+Field of View [Sorzad12]
+054C1978 XXXXXXXX
+be carefull what you set this to it can get a bit trippy
+
+No Friction [Sorzad12]
+054CD4B8 00000000
+
+Sprint Speed [Sorzad12]
+054CF748 41200000
+
+Melee Distance [Sorzad12]
+054D0D28 447A0000
+
+Backwards Speed [Sorzad12]
+054CF4A8 00000000
+
+Scoreboard Player Color [Sorzad12]
+054CB688 XXXXXXXX
+replace X's with a color converted to hex
+
+Turn everything upside down [Sorzad12]
+054C1978 40800000
+
+Zombie Moon Jump Solo Only [Sorzad12]
+28AE49A2 00000008
+04A1AD1C 44000000
+E0000000 80008000
+
+Always Go Prone Zombie Solo [Sorzad12]
+04A1ADA4 00000006
+
+Always Go Prone Online [Sorzad12]
+04A9E65C 00000008
+
+Campaign Codes
+00000000 0000000
+
+Infinite Ammo Campaign [Sorzad12]
+048A1B7E 5E700000
+048A1B86 5E700000
+048A1B8F 5E700000
+
+Campaign Moon Jump [Sorzad12]
+2895C9A2 00000008
+048A183C 44000000
+E0000000 80008000
+
+Moon Jump host only + combat training [Sorzad12]
+28BDBB52 00000008
+04A9E5D4 44000000
+E0000000 80008000
+
+Infinite Ammo Host Only [Sorzad12]
+04A9E917 5E700000
+04A9E90F 5E700000
+
+Zombie Points Solo Mode [Sorzad12]
+04A1C80E 00XXXXXX
+
+Infinate Ammo Zombies Solo Mode [Sorzad12]
+04A1B05B 5E700000
+04A1B06A 5E700000
+
+Make screen Shake Host only + Combat training [Sorzad12]
+04E948B0 44000000
+
+Act Like A Retard/Ammo Visual Effect Changer on M16 Campaign: [BlockBoy]
+04D935A0 FFFFFFFF
+This code only works on the M16 preferrably in the first mission.
+
+Inf Ammo by Deathwolf andBlockBoy:
+04002054 6000000
+^This code is only one line. :D
+Gives you inf ammo for everything.
+Enjoy.
+
+LagoMeter: [BlockBoy]
+054C3738 01000000
+Probably won't show if your host because you have no lag...
+
+No Cool Down: [BlockBoy]
+054D1188 3A03126F
+
+Random Map Colour Changer: [BlockBoy]
+054D95A8 01000000
+054D9688 01000000
+054D9618 01000000
+Non-host btw.
+It's amazing what you can make with ram dumps...
+Fun to use with Pink Camo code. xD
+Will make skys green, walls blue, other colours.
+Depends on what map it is.
+
+Hardline Mod/Savage: [BlockBoy]
+054D3B18 0000000B
+
+Clip Size Modifier: [BlockBoy]
+054CEA28 XXXXXXXX
+
+1337 Clips Of Ammo: [BlockBoy]
+054CEA28 44A72000
+
+No Ammo: [BlockBoy]
+054CEA28 00000000
+
+999999999999999 Clips Of Ammo: [BlockBoy]
+054CEA28 58635FA9
+(Barely tested)
+
+3rd Person View: [BlockBoy]
+054C5A38 01000000
+Might be non-host. Try it out. ;)
+(only tested host)
+
+No Fall Damage: [BlockBoy]
+054CD3D8 4479C000
+054CD448 4479C000
+(only tested host)
+
+No Fog: [BlockBoy]
+054D96F8 00000000
+Might be non-host. Try it out. ;)
+(only tested host)
+
+Disable 3rd Person View: [BlockBoy]
+28200EE0 0000XXXX
+054C5A38 01000000
+E0000000 80008000
+Non-host. ;)
+
+Enable 3rd Person View: [BlockBoy]
+28200EE0 0000XXXX
+054C5A38 01000000
+E0000000 80008000
+
+Breath Time Modifier: [BlockBoy]
+054CE478 XXXXXXXX
+
+Gasp Time Modifier: [BlockBoy]
+054CE4E8 XXXXXXXX
+
+Exit Scope On DamageBlockBoy:
+054CE7F8 010000000
+
+Surprise Code/Savage: [BlockBoy]
+054D2848 44610000
+054D27D8 44610000
+It has to do with jumping. This code is sick.
+Go to array and jump at a tree.
+
+Gravity Mod/Savage: [BlockBoy]
+054D11F8 XXXXXXXX
+
+Enable FPS: [BlockBoy]
+054C1F98 01000000
+054C21C8 01000000
+
+Float Speed Modifier: [BlockBoy]
+054CF208 XXXXXXXX
+
+Disable Weapons in Water: [BlockBoy]
+054CF278 0X000000
+The most useless code is back and working! ;)
+Change the X to 1 to Disable.
+Try out 0 and see if it enables weapons. ;)
+
+Infinite Download Update Loop: [BlockBoy]
+054DCDB8 01000000
+Use this code to fool your friends. ;)
+No matter what they do, they have to install the update over and over again. ;)
+
+Hold Breath Forever: [BlockBoy]
+054D9A83 01000000
+
+Clip Size Modifier: [BlockBoy]
+054DA038 XXXXXXXX
+
+Breath Time Modifier: [BlockBoy]
+054D9A88 XXXXXXXX
+
+Gasp Time Modifier: [BlockBoy]
+054D9AF8 XXXXXXXX
+
+Exit Scope on Damage: [BlockBoy]
+054D9E08 01000000
+
+Disable Weapons in Water: [BlockBoy]
+054DA888 0X000000
+
+Sprint Time Modifier: [BlockBoy]
+054DAE38 XXXXXXXX
+
+Zombies Money [savage]
+28200EE0 0000XXXX
+04A1C80C 0001046A
+04A1E494 0001046A
+04A2011C 0001046A
+04A21DA4 0001046A
+E0000000 80008000
+X-replace with activator,code orig-777ethod,codes work solo and is host only
+
+Unlimited Sprint: [BlockBoy]
+054CECC8 551184E7
+
+Sprint Speed Modifier Host Only All Players [wick3d]
+054CEC58 XXXXXXXX
+X= Floating Point Converted to Hex, Default = 1.5
+
+Unlock All Campaign Mission's [Thomas83Lin]
+205CBB8C 801E0018
+045CBB8C 38000014
+E0000000 80008000
+
+infinite ammo (no reloading) [wiiztec]
+C23A3014 00000002
+38000063 90030004
+60000000 00000000
+Now works with M-203 grenade launcher attachments
+
+Universal Codes for Call of Duty Black Ops
+
+Constant Reloads [Crashzer]
+F6000001 80AA2997
+7AAA2997 7FAA2997
+3860007F 90FFFFFF
+140000CC 7FFFFF00
+60000000 00000000
+
+equipment hack time [Clay10]
+F6000001 81008150
+808D84C8 8092F668
+14000018 00000000
+E0000000 80008000
+Host only, requires "hacker" perk
+
+Regionfree Automatic Codes Activation Mastercode [Bully@Wiiplaza]
+F6000001 80008100
+901C0000 2C1E0000
+D200007C 00000003
+8163030C 3D808000
+916C1650 93C3030C
+60000000 00000000
+E0000000 80008000
+*must be ON to use my automatic codes activator*
+
+Automatic Codes Activator [Bully@Wiiplaza]
+20001650 FFFFFFFA
+*put this above any code to autoactivate it, when you go online*
+*no need to use a button activator anymore*
+*Credits to metasmash for finding the original address*
+
+Regionfree Button Activator Mastercode [Bully@Wiiplaza]
+F6000001 80008100
+80A10008 881D0BC5
+D2000008 00000002
+A0850000 3D808000
+B08C1500 00000000
+E0000000 80008000
+*must be ON to use my regionfree button activator*
+
+Regionfree Button Activator [Bully@Wiiplaza]
+28001500 YYYYZZZZ
+*treat it like a normal button activator*
+
+Scrolling Camo [Seth@WiiPlaza]
+28200FA0 00008000
+A8000000 00000001
+80000000 38000019
+247346DC 38000017
+80000000 38000003
+267346DD 38000004
+80000000 38000014
+E2000001 00000000
+84200000 807346DC
+E0000000 80008000
+*Changes from Pink to Blue to Red and starts over
+*special thanks to Sh0tGuN2197 for modifications
+
+Camouflage Modifier Host Only and Non-Host (Universal) [Seth@WiiPlaza]
+28200F40 YYYYYYYY
+F6000001 800081FF
+1C13000C 7C840214
+D2000008 00000002
+8004EDC0 XXXXXXXX
+60000000 00000000
+E0000000 80008000
+*Must Activate During game
+X Values:
+38000000 = Regular
+38000001 = gold tint to regular
+38000002 = icy aqua (light blue)
+38000003 = Dark red
+38000004 = green tint to regular
+38000010 = Peach-ish
+38000011 = Brighter Gold
+38000012 = Green
+38000013 = Faded Red
+38000014 = Faint Aqua
+38000015 = Blue
+38000016 = Blue-Grey
+38000017 = Green
+38000018 = Green-Brown
+
+Region-Free Zombies Infinite Ammo v.2 [Seth@WiiPlaza]
+28200F40 XXXXYYYY
+F6000002 800081FF
+7C0802A6 90010014
+93E1000C 7CBF2B78
+14000010 380003E7
+E0000000 80008000
+*Chances of freezing and patching decreased!
+*works host and offline
+*MUST HAVE A ACTIVATOR AND ACTIVATED ONCE DURING GAME FOR IT TO WORK!!!
+*tested SC7D52,SC7P52,SC7E52
+
+Infinite Ammo Host Only (Universal) [Seth@WiiPlaza]
+28200F40 YYYYYYYY
+F6000001 800081FF
+7CBF2B78 4BFFFF9D
+D2000008 00000002
+90030004 380003E7
+60000000 00000000
+E0000000 80008000
+*MUST HAVE A ACTIVATOR AND ACTIVATED ONCE DURING GAME FOR IT TO WORK!!!
+
+Universal Region-Free Zombies Infinite Ammo v.1 [Seth@WiiPlaza]
+28200F40 XXXXYYYY
+F6000001 800081FF
+7CBF2B78 4BFFFF9D
+D2000008 00000002
+80030004 380003E7
+60000000 00000000
+E0000000 80008000
+*works host and offline
+*tested SC7D52,SC7P52,SC7E52
+*MUST HAVE A ACTIVATOR AND ACTIVATED ONCE DURING GAME FOR IT TO WORK!!!
+* this and version 2 are most likely to not get patched
+
+Host Only Codes (Codes, which require Host to work)
+
+Speed Hack /WORKING FOR ALL PLAYERS/ (Press Home on Wiimote) [Bully@Wiiplaza]
+28200F40 73FF8C00
+F6000001 800080FF
+FC202210 FC200818
+D2000008 00000003
+3D803B83 618C126F
+918600D4 C00600D4
+60000000 00000000
+CC000000 00000000
+F6000001 800080FF
+FC202210 FC200818
+D2000008 00000003
+3D803A83 618C126F
+918600D4 C00600D4
+60000000 00000000
+E0000000 80008000
+*Press A+B+Home on Wiimote to turn ON/OFF*
+
+Always add 1 shot to Ammo /WORKING FOR ALL PLAYERS/(Press Home on Wiimote) [Bully@Wiiplaza]
+28200F40 7FFF8000
+F6000001 800080FF
+4BFFFF9D 80030004
+D2000008 00000002
+3FE00000 63FF0001
+7C00FA15 00000000
+60000000 00000000
+E0000000 80008000
+
+Universal Rapidfire /WORKING FOR ALL PLAYERS/ (Press Home on Wiimote) [Bully@Wiiplaza]
+28200F40 7FFF8000
+F6000002 800080FF
+EC000828 EC2000B2
+C01A009C EC20082A
+D200002C 00000002
+38000000 901C0000
+60000000 00000000
+14001A90 60000000
+14001BF0 60000000
+14001BF8 60000000
+E0000000 80008000
+*works for knifing, shooting, grenades, pretty much everything*
+
+Inf. Grenades /WORKING FOR ALL PLAYERS/(Press Home on Wiimote) [Bully@Wiiplaza]
+28200F40 7FFF8000
+F6000001 800080FF
+80030004 7C00FA15
+1400000C 60000000
+E0000000 80008000
+
+Players Score Modifier /WORKING FOR ALL PLAYERS/(Press Home on Wiimote) [Bully@Wiiplaza]
+28200F40 7FFF8000
+F6000002 800080FF
+3C6080AD 3863C308
+A06302BA 38800000
+D20000DC 00000002
+3860270F 907F2830
+60000000 00000000
+E0000000 80008000
+*Thanks to Deathwolf for helping!*
+*Always Have 9999 Score*
+
+Kills/Deaths Modifier /WORKING FOR ALL PLAYERS/(Press Home on Wiimote) [Bully@Wiiplaza]
+28200F40 7FFF8000
+F6000002 800080FF
+7C7D1B78 7C9E2378
+38600000 38800000
+D2000030 00000002
+3BE015B3 93E32840
+60000000 00000000
+E0000000 80008000
+*Thanks to Deathwolf for helping!*
+*Always have 5555 Kills/Deaths*
+
+Quick Reloads /WORKING FOR ALL PLAYERS/(Press Home on Wiimote) [Bully@Wiiplaza]
+28200F40 7FFF8000
+F6000001 800080FF
+8063F42C C01A0040
+D2000008 00000003
+3D804080 618C0000
+91830018 C0430018
+60000000 00000000
+E0000000 80008000
+-Originally found by Ozelot-
+*Can still be successfully used with my "Always add 1 shot to Ammo code"*
+
+Score Modifier Host Only [Seth@WiiPlaza]
+F6000001 803A8055
+93E1000C 7C7F1B78
+D2000008 00000002
+3860XXXX 907F2830
+60000000 00000000
+E0000000 80008000
+X=decimal to hex conversion of score you want
+
+Campain Mode Codes
+
+Inf. Health [Bully@Wiiplaza]
+28200F40 YYYYZZZZ
+F6000001 80408100
+80040378 2C000000
+D200001C 00000002
+3C007FFF 900301B0
+60000000 00000000
+F6000001 80408100
+3BA00001 93BF01B0
+14000004 60000000
+E0000000 80008000
+
+Inf. Ammo & Inf. Grenades [Bully@Wiiplaza]
+28200F40 YYYYZZZZ
+F6000001 80308100
+801E0064 7C030000
+D2000038 00000002
+380003E7 90030374
+60000000 00000000
+F6000001 80308100
+7C7D0214 83E302FC
+D200004C 00000002
+380003E7 90030374
+60000000 00000000
+E0000000 80008000
+
+Offline Zombie Codes (Press the button AFTER you went to Zombie Mode)
+
+NON-HOST Codes (Codes, which are always working when playing Multiplayer)
+
+Shot damage (ON with Home Button on Wiimote) [Bully@Wiiplaza]
+28200F40 7FFF8000
+F6000001 8000817F
+D03C0000 C021004C
+1400000C 60000000
+E0000000 80008000
+28200F40 FBFF0400
+F6000001 8000817F
+D03C0000 C021004C
+1400000C D03D0000
+E0000000 80008000
+*OFF = B Button on Wiimote*
+*NOTE: It will only affect your shots when being host and non-host!*
+
+Do Not Show Knife (Press Home on Wiimote) [Bully@Wiiplaza]
+28200F40 7FFF8000
+F6000002 800080FF
+7EE5BB78 7F26CB78
+7F47D378 FC20F890
+14000DA8 60000000
+E0000000 80008000
+*Fun code, which makes knifing a bit glitchy and often does not show your knife, but it still damages normally; untested if it affects clients aswell*

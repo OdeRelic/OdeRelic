@@ -1,0 +1,25 @@
+RMAP01
+Mario Power Tennis
+
+Always Specialshot
+
+(1P) [ZiT]
+045B0FFC xxxxxxxx
+045B1000 xxxxxxxx
+(2P) [ZiT]
+045B55BC xxxxxxxx
+045B55C0 xxxxxxxx
+(3P) [ZiT]
+045B9B7C xxxxxxxx
+045B9B80 xxxxxxxx
+(4P) [ZiT]
+045BE13C xxxxxxxx
+045BE140 xxxxxxxx
+Max:461C4000
+
+Ring Shot Point
+
+(Home) [ZiT]
+045C2528 000003E7
+(Away) [ZiT]
+045C252C 000003E7

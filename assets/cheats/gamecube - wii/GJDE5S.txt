@@ -1,0 +1,40 @@
+GJDE5S
+Judge Dredd Dredd Vs Death 
+
+Infinite Ammo/No Reload
+04177EA8 60000000
+04177EB0 917F0008
+
+Infinite Medi-paks
+0435B5E4 00000001
+
+Infinite Ammo
+0435B5E0 00000001
+
+Infinite Lawmeter
+0435B5DC 00000001
+
+Ghost
+0435B5C0 00000001
+
+Deformed Mode
+0435B5C4 00000001
+
+Low Gravity Ragdoll
+0435B5C8 00000001
+
+Pinhead
+0435B5CC 00000001
+
+Headless
+0435B5D0 00000001
+
+Touch of Mortis
+0435B5D4 00000001
+
+Mirror World
+0435B5D8 00000001
+
+Unlock All Cheats
+0862A468 00000001
+200A0001 00000000

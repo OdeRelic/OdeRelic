@@ -1,0 +1,16 @@
+XALJ
+Contra
+
+Infinite Health [Sharkbyte]
+000F4635 00000010
+
+Infinite Lives [Sharkbyte]
+000F438D 00000063
+
+Moon jump [Sharkbyte]
+285B5800 FEFF0100
+000F4696 0000000F
+E0000000 80008000
+
+Invincible [Sharkbyte]
+000F468A 0000005A

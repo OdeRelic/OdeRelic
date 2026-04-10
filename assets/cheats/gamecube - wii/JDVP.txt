@@ -1,0 +1,69 @@
+JDVP
+Wild Guns
+
+Unlimited Lives Player 1 [Crapulecorp]
+0045FBBA 00000009
+*Code ported from GMO Ntsc Usa Version*
+
+Untouchable [Crapulecorp]
+0045F888 00000002
+*Code ported from DukeOdin Snes Action Replay Pro Version*
+
+Unlimited Time [Crapulecorp]
+0045DE4E 00000099
+*Code ported from Rune Snes Action Replay Pro Version*
+
+Unlimited Blasts (Purple Orbs) Player 1 [Crapulecorp]
+0045FBA8 00000009
+*Code ported from Rune Snes Action Replay Pro Version*
+
+Unlimited Secondary Weapon Bullets Player 1 [Crapulecorp]
+0045FBB8 00000099
+*Code ported from Rune Snes Action Replay Pro Version*
+
+Secondary Weapon Modifier Player 1 [Crapulecorp]
+0045FBB0 000000XX
+*Replace XX for:
+00 - No Gun (Can't Shoot)
+06 - S. Gun
+0A - G. Gun
+0E - M. Gun
+12 - P. Gun
+16 - V. Gun
+1A - Bomb (Crashes Game When Used)
+1E - Mini-Bomb (Crashes Game When Used)*
+*Code ported from Rune Snes Action Replay Pro Version*
+
+Stage Modifier [Crapulecorp]
+0045DE08 000000XX
+*Replace XX for :
+00 - Level 1 (Carson City) (Close To Restaurant Sign)
+01 - Level 1 (Carson City) (Inside Bar/Tavern)
+02 - (Blue Screen Crash)
+03 - (Blue Screen Crash)
+04 - Desolation Canyon (At Start Near Dead Dinosaurs)
+05 - Desolation Canyon? (Part 2? Infront of a Ravine At Night)
+06 - (Blue Screen Crash)
+07 - Level 1 (Carson City) (Close To Restaurant Sign - Again)
+08 - Ammunition Depot
+09 - (Unsure; Inside what looks to be a factory and there are grey guards with face-masks and large white-grey shields)
+0A - (Blue Screen Crash)
+0B - Level 1 (Carson City) (Close to Restaurant Sign - Again!)
+0C - Gold Mine
+0D - ??? (Infront of Green/Red Machine)
+0E - (Blue Screen Crash)
+0F - Level 1 (Carson City) (Close to Restaurant Sign - Again!)
+10 - Armored Train
+11 - Armored Train Boss (1st Part)
+12 - Armored Train Boss (2nd Part)
+13 - (Blue Screen Crash)
+14 - (Blue Screen Crash)
+15 - (Blue Screen Crash)
+16 - Level 1 (Carson City) (Close to Restaurant Sign - Again!)
+17 - Level 1 (Carson City) (Close to Restaurant Sign - Again!)
+18 - Final Level? - Two Robot Cowboys Infront of a Giant Blue Hangar thing
+19 - Final Level - Part 1? - Surrounded by Gold Piles, Cowboys in Trench-Coats Shoot At You
+1A - Part 2? - Surrounded By Gold Piles; Infront of Wall/Giant Turret)
+1B - Final Boss Fight With Red Suited Man / Grey Turrets
+1C - (Glitchy; Crashes)*
+*Code ported from Rune Snes Action Replay Pro Version*

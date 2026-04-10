@@ -1,0 +1,20 @@
+C9IP
+Cybernoid
+
+Unlimited Lives [Crapulecorp]
+002EFAB4 00000063
+
+Unlimited Bombs [Crapulecorp]
+002F5619 00000014
+
+Unlimited Mines [Crapulecorp]
+002F5629 00000014
+
+Unlimited Shield [Crapulecorp]
+002F5639 00000001
+
+Unlimited Bouncers [Crapulecorp]
+002F5649 00000005
+
+Unlimited Seekers [Crapulecorp]
+002F5659 00000005

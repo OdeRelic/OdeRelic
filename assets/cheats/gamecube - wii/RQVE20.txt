@@ -1,0 +1,8 @@
+RQVE20
+Pacific Liberator
+
+Inf. Missiles [savage]
+040A4020 60000000
+
+Inf. Homing M [savage]
+040A4140 60000000

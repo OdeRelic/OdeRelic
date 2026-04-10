@@ -1,0 +1,35 @@
+LANP
+Alex Kidd The Lost Stars
+
+Unlimited Life [Crapulecorp]
+0129F01D 00000000
+
+Invincible [Crapulecorp]
+0129F00B 0000001A
+*Code ported from ZiT Ntsc Usa Version*
+
+Unlimited Shot [Crapulecorp]
+0129F002 0000000F
+*Code ported from ZiT Ntsc Usa Version*
+
+MoonJump [Crapulecorp]
+281A7362 FEFF0100
+0129E611 00000001
+E0000000 80008000
+*WiiMote*
+*Code ported from ZiT Ntsc Usa Version*
+
+MoonJump (Press Y) [Crapulecorp]
+281A73C2 FFDF0020
+0129E611 00000001
+E0000000 80008000
+*Classic Controller*
+*Code ported from ZiT Ntsc Usa Version*
+
+Button Activator
+
+Wiimote [Crapulecorp]
+281A7362 YYYYZZZZ
+
+Classic Controller [Crapulecorp]
+281A73C2 YYYYZZZZ

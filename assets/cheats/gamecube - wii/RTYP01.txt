@@ -1,0 +1,40 @@
+RTYP01
+Wii Chess
+
+Freeze Match Timer [Bully@Wiiplaza]
+C2057760 00000002
+38000000 9003038C
+60000000 00000000
+040575E4 60000000
+
+Player Niveau Modifier *Any Profile* [Bully@Wiiplaza]
+C2052CF4 00000004
+3D808029 618C89D4
+A18C0000 2C0CYYYY
+3880XXXX B0830068
+A0830068 00000000
+*Press the button when viewing a profile*
+*YYYY = Button Activator*
+*XXXX = Player Niveau in HEX*
+
+Disable Removed Figure Counters [Bully@Wiiplaza]
+0406C724 60000000
+
+Black Plays without King [Bully@Wiiplaza]
+207401B4 00000006
+047401B4 0000000X
+E0000000 80008000
+*X Values*
+0 = empty field
+1 = white pawn
+2 = black pawn
+3 = white knight
+4 = black knight
+5 = white king
+6 = black king
+7 = white rook
+8 = black rook
+9 = white queen
+A = black queen
+B = white bishop
+C = black bishop

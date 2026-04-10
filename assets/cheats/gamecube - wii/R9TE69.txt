@@ -1,0 +1,23 @@
+R9TE69
+Tiger Woods PGA Tour '09 All-Play
+
+Stroke Count Always Zero [Nutmeg]
+C20C8580 00000002
+3BE00000 93E30430
+60000000 00000000
+
+Gain Purchase Value x10 [TNTkryzt]
+042A21B8 1C98000A
+041B5730 7C002214
+
+Gain Sell Value x10 [TNTkryzt]
+042634AC 1C9C000A
+
+Maximum Cash (Profile #1) [TNTkryzt]
+42000000 92000000
+04FAF404 3B9AC9FF
+E0000000 80008000
+
+Infinite Skill Points [TNTkryzt]
+0424C620 48000008
+Note: Panda On Smack produced PAL codes which will also work on the USA release.

@@ -1,0 +1,94 @@
+RD2E41
+Red Steel 2
+
+Jump (- Button) [ZiT]
+285259C2 EFFF1000
+046A5B20 40200000
+E0000000 80008000
+
+Gun Super Rate of Fire & Super Reload Speed [ZiT]
+C26BD8EC 00000004
+3D801000 618C0000
+9181FFFC C001FFFC
+D00402B4 D00402B8
+C00402B4 00000000
+046BB5B0 90640074
+
+Gun Super Accuracy & Super Power [ZiT]
+C26BB3C8 00000005
+3D805000 618C0000
+9181FFFC C021FFFC
+D02502A8 D02502BC
+C02502BC 39809999
+B18502AC 00000000
+046BB5B0 90640074
+
+infinite cash after getting cash activate with home after your save file has loaded [wiiztec]
+284CF440 00008000
+C279BD7C 00000002
+3FE03B9A 3BFF143B
+93E40084 00000000
+E0000000 80008000
+
+gun upgrade cosmetic effects modifier [wiiztec]
+C26B7EB8 00000015
+2C1800FF 41820098
+5775843E 2C150019
+4182008C 2C15001C
+41820084 2C170001
+4182007C 3E208000
+2C1B0000 40820014
+80115B70 2C00000F
+41820058 48000058
+2C1B0001 40820014
+80115B74 2C00000F
+41820040 48000040
+2C1B0002 40820014
+80115B78 2C00000F
+41820028 48000028
+2C1B0003 40820014
+80115B7C 2C00000F
+41820010 48000010
+80115B80 48000014
+800302AC 90115B80
+48000008 800302AC
+60000000 00000000
+04005B70 0000LOPQ
+04005B74 0000LRST
+04005B78 0000LUVW
+04005B7C 0000LXYZ
+O = .357 longarm accuracy
+P = 357 longarm rate of fire
+Q = 357 longarm reload speed
+R = twin-barrel shot density
+S = twin-barrel rate of fire
+T = twin-barrel reload time
+U = johnnygun accuracy
+V = johnnygun rate of fire
+W = johnnygun magazine size
+X = sidewinder accuracy
+Y = sidewinder rate of fire
+Z = sidewinder reload speed
+L = last upgrade for that weapon, applies the appearance of the fully upgraded weapon overriding the other values
+0 = no upgrades
+1 = level 1 upgrade
+2 = level 2 upgrade
+all 4 values of a specific gun = 000F = let the game decide
+this code modifies the cosmetic effects (the look of) of the guns not the actual performance effects of the upgrades I made this code because I was annoyed that the gun upgrades made them go from looking like fitting western style guns to futuristic looking lazer guns
+
+sword upgrade modifier [wiiztec]
+04005B84 0007FBXX
+C279B8AC 00000002
+3E208000 80115B84
+60000000 00000000
+E0000000 80008000
+00 = no upgrade
+01 = first upgrade
+02 = second upgrade
+04 = third upgrade
+08 = fourth upgrade
+10 = final upgrade
+
+1 = level 1 upgrade
+
+1 = level 1 upgrade

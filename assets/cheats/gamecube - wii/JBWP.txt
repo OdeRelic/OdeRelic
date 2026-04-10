@@ -1,0 +1,77 @@
+JBWP
+Cybernator
+
+Unlimited Health [Crapulecorp]
+0249E292 00000001
+*Code ported from ZiT Ntsc Jap Version*
+
+Unlimited Continues [Crapulecorp]
+0049CFC2 00000009
+*Code ported from jeffsback2223 Snes Action Replay Pro Version*
+
+Max Score [Crapulecorp]
+0449CFBA 99999999
+0049CFBE 00000099
+*Code ported from Unknown Snes Action Replay Pro Version*
+
+Never Overheat [Crapulecorp]
+0049E721 00000000
+*Code ported from Unknown Snes Action Replay Pro Version*
+
+Max. Vulcan Level [Crapulecorp]
+0049CE2E 00000009
+*Code ported from Ugetab Snes Action Replay Pro Version*
+
+Max. Vulcan Power [Crapulecorp]
+0049CE38 00000009
+*Code ported from Ugetab Snes Action Replay Pro Version*
+
+Full Vulcan Bar [Crapulecorp]
+0049CE24 00000028
+
+Max. Punch Level [Crapulecorp]
+0049CE34 00000009
+*Code ported from Ugetab Snes Action Replay Pro Version*
+
+Max. Punch Power [Crapulecorp]
+0049CE3E 00000009
+*Code ported from Ugetab Snes Action Replay Pro Version*
+
+Infinite Punch Power [Crapulecorp]
+0049CE2A 00000028
+
+Max. Napalm Level [Crapulecorp]
+0049CE36 00000009
+*Code ported from Ugetab Snes Action Replay Pro Version*
+
+Max. Napalm Power [Crapulecorp]
+0049CE40 00000009
+*Code ported from Ugetab Snes Action Replay Pro Version*
+
+Infinite Napalm Power [Crapulecorp]
+0049CE2C 00000028
+*Code ported from Ugetab Snes Action Replay Pro Version*
+
+Max. Missile Level [Crapulecorp]
+0049CE32 00000009
+*Code ported from Ugetab Snes Action Replay Pro Version*
+
+Max. Missile Power [Crapulecorp]
+0049CE3C 00000009
+*Code ported from Ugetab Snes Action Replay Pro Version*
+
+Infinite Missile Power [Crapulecorp]
+0049CE28 00000028
+*Code ported from Ugetab Snes Action Replay Pro Version*
+
+Max. Laser Level [Crapulecorp]
+0049CE30 00000009
+*Code ported from Ugetab Snes Action Replay Pro Version*
+
+Max. Laser Power [Crapulecorp]
+0049CE3A 00000009
+*Code ported from Ugetab Snes Action Replay Pro Version*
+
+Infinite Laser Power [Crapulecorp]
+0049CE26 00000028
+*Code ported from Ugetab Snes Action Replay Pro Version*

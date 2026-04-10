@@ -1,0 +1,61 @@
+SBBP18
+Beyblade: Metal Fusion - Counter Leone
+
+Unlimited BP
+
+Unlimited BP [Crapulecorp]
+041F805C 000F423F
+
+Refill BP (Press -) [Crapulecorp]
+28288882 EFFF1000
+041F805C 000F423F
+E0000000 80008000
+*WiiMote-NunChuck*
+
+Unlimited BP (Press - ON/OFF) [Crapulecorp]
+28288882 EFFF1000
+CC000000 00000000
+041F805C 000F423F
+E0000000 80008000
+*WiiMote-NunChuck*
+
+Unlimited Stamina/Power
+
+Unlimited Stamina/Power [Crapulecorp]
+0261518C 00004B0E
+
+Refill Stamina/Power (Press 1) [Crapulecorp]
+28288882 FDFF0200
+0261518C 00004B0E
+E0000000 80008000
+*WiiMote-NunChuck*
+
+Unlimited Stamina/Power (Press 1 ON/OFF) [Crapulecorp]
+28288882 FDFF0200
+CC000000 00000000
+0261518C 00004B0E
+E0000000 80008000
+*WiiMote-NunChuck*
+
+Unlimited Effects
+
+Unlimited Effects [Crapulecorp]
+02615188 0000483B
+
+Refill Effects (Press 2) [Crapulecorp]
+28288882 FEFF0100
+02615188 0000483B
+E0000000 80008000
+*WiiMote-NunChuck*
+
+Unlimited Effects (Press 2 ON/OFF) [Crapulecorp]
+28288882 FEFF0100
+CC000000 00000000
+02615188 0000483B
+E0000000 80008000
+*WiiMote-NunChuck*
+
+Button Activator
+
+WiiMote-NunCuck [Crapulecorp]
+28288882 YYYYZZZZ

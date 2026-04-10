@@ -1,0 +1,8 @@
+FAPJ
+Mario Open Golf
+
+Hole in One [ZiT]
+004F0FDF 00000001
+
+Have All Golf Club [ZiT]
+004F1544 00000001

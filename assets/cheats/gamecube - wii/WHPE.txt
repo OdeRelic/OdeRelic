@@ -1,0 +1,8 @@
+WHPE
+Sexy Poker
+
+Max Money [GMO]
+043211E8 0000FFFF
+
+Max Pot [GMO]
+043211F0 0000FFFF

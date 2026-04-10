@@ -1,0 +1,86 @@
+GP7E01
+Mario Party 7
+
+Miscellaneous Codes
+
+Total Stars Modifier [Macopride64]
+042922F0 000XXXXX
+Max= 1869F (99999)
+Takes effect once you select your profile and then return to the select profile menu.
+
+Unlock All Characters [Macopride64]
+002922FB 000000FE
+
+Button Activator
+
+P1 Button Activator [Macopride64]
+282F2C90 YYYYZZZZ
+
+P2 Button Activator [Macopride64]
+282F2C92 YYYYZZZZ
+
+P3 Button Activator [Macopride64]
+282F2C94 YYYYZZZZ
+
+P4 Button Activator [Macopride64]
+282F2C96 YYYYZZZZ
+
+Party Mode Codes
+
+Stage Modifier [Macopride64]
+2829594A 00000032
+00518C7A 0000000X
+E0000000 80008000
+X Stage Values
+0 = Grand Canal
+1 = Pagoda Peak
+2 = Pyramid Parl
+3 = Neon Heights
+4 = Windmillville
+5 = Bowser's Enchanted Inferno!
+
+P1 Character Modifier [Macopride64]
+2829594A 00000034
+00518C2F 0000000X
+E0000000 80008000
+
+P2 Character Modifier [Macopride64]
+2829594A 00000034
+00518C39 0000000X
+E0000000 80008000
+
+P3 Character Modifier [Macopride64]
+2829594A 00000034
+00518C43 0000000X
+E0000000 80008000
+
+P4 Character Modifier [Macopride64]
+2829594A 00000034
+00518C4D 0000000X
+E0000000 80008000
+X Character Values
+0 = Mario
+1 = Luigi
+2 = Peach
+3 = Yoshi
+4 = Wario
+5 = Daisy
+6 = Waluigi
+7 = Toad
+8 = Boo
+9 = Toadette
+A = Birdo
+B = Dry Bones
+C = Mini Bowser Red
+D = Mini Bowser Green
+
+Unlock All Stages [Macopride64]
+002922FD 00000004
+
+All Players Infinite Coins [Macopride64]
+08290CBE 000003E7
+10030110 00000000
+
+All Players Infinite Stars [Macopride64]
+08290CD0 000003E7
+10030110 00000000

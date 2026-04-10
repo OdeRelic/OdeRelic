@@ -1,0 +1,62 @@
+JBPE
+Donkey Kong Country 3
+
+Classic Controller Button Activator [Thomas83Lin]
+2819741A ZZZZYYYY
+
+Animal Modifier [Thomas83Lin]
+0449CAE4 XXXXXXXX
+Elephant-0C0B3402
+Squawk-00003C02
+Spider-C40C4002
+Sword Fish-00003802
+
+Have All 15 Banana Birds [Thomas83Lin]
+0049D035 0000000F
+
+Unlock All Boat Crafts* [Thomas83Lin]
+2049E6A0 00000001
+0049E6B3 00000004
+E0000000 80008000
+*After 2nd time being in Funky Rental*
+
+Have 99 Bananas [goemon_guy]
+0449E334 00990000
+
+Infinite Lives [goemon_guy]
+0449E338 00630000
+
+Infinite Silver Coins [goemon_guy]
+0449D031 00640000
+
+Infinite Bonus Coins [goemon_guy]
+0049D033 00000063
+
+Infinite DK Coins [goemon_guy]
+0049D037 00000032
+
+Character Mod [goemon_guy]
+0049D01D 000000XX
+00 - Dixie
+01 - Kiddie
+
+Always able to Switch Between the Two [goemon_guy]
+0049D018 00000064
+
+Invincible [goemon_guy]
+0049DEFE 00000022
+
+Jump as many times (Dixie) [goemon_guy]
+0049D318 00000001
+
+Jump as many times (Kiddie) [goemon_guy]
+0049D386 00000001
+
+Moon Jump (Dixie) [goemon_guy]
+0049DEF0 0000000A
+
+Moon Jump (Kiddie) [goemon_guy]
+0049DF42 0000000A
+
+Infinite Time in Bonus Stages [goemon_guy]
+0049D41E 00000014

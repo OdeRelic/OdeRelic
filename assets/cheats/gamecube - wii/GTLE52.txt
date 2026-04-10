@@ -1,0 +1,36 @@
+GTLE52
+True Crime: Streets of LA
+
+Infinite Health [Codejunkies]
+041B4DE8 60000000
+
+Infinite Ammo/No Reload [Codejunkies]
+0415E22C 60000000
+0415E838 60000000
+
+Infinite Time [Codejunkies]
+0410EC08 60000000
+
+Civil Unrest Never Rises [Codejunkies]
+0411114C 38000000
+041111E0 38000000
+
+Civil Unrest Rises Quickly [Codejunkies]
+0411114C 380000FF
+041111E0 380000FF
+
+Never Commit Bad Deeds [Codejunkies]
+041111D4 38000000
+041B4CF4 60000000
+
+Do 1 Bad Deed For Max Bad Deeds [Codejunkies]
+041111D4 3800270F
+
+Do Any Deed For Max Badges [Codejunkies]
+04110E98 3800270F
+04110E9C 3920270F
+
+Do Any Deed For Max Good Deeds [Codejunkies]
+04110E98 3800270F
+04110E9C 3920270F
+04110EA0 901E0394

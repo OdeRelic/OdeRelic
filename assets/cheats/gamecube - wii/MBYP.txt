@@ -1,0 +1,287 @@
+MBYP
+Light Crusader
+
+Max Gold [Crapulecorp]
+02FF6B08 0000270F
+*Code from GMO*
+
+Max Air Magic [Crapulecorp]
+00FF6C10 00000063
+*Code from GMO*
+
+Max Fire Magic [Crapulecorp]
+00FF6C11 00000063
+*Code from GMO*
+
+Max Earth Magic [Crapulecorp]
+00FF6C12 00000063
+*Code from GMO*
+
+Max Water Magic [Crapulecorp]
+00FF6C13 00000063
+*Code from GMO*
+
+Max All Element Magic [Crapulecorp]
+04FF6C10 63636363
+*Code from GMO*
+
+Have All Weapons [Crapulecorp]
+00FF6C14 000000FF
+*Code from GMO*
+
+Have All Armour [Crapulecorp]
+00FF6C15 000000FF
+*Code from GMO*
+
+Have All Gloves [Crapulecorp]
+00FF6C16 000000FF
+*Code from GMO*
+
+Item Modifier Slot 1 [Crapulecorp]
+00FF6BE0 000000??
+*Code from GMO*
+
+Item Modifier Slot 2 [Crapulecorp]
+00FF6BE1 000000??
+*Code from GMO*
+
+Item Modifier Slot 3 [Crapulecorp]
+00FF6BE2 000000??
+*Code from GMO*
+
+Item Modifier Slot 4 [Crapulecorp]
+00FF6BE3 000000??
+*Code from GMO*
+
+Item Modifier Slot 5 [Crapulecorp]
+00FF6BE4 000000??
+*Code from GMO*
+
+Item Modifier Slot 6 [Crapulecorp]
+00FF6BE5 000000??
+*Code from GMO*
+
+Item Modifier Slot 7 [Crapulecorp]
+00FF6BE6 000000??
+*Code from GMO*
+
+Item Modifier Slot 8 [Crapulecorp]
+00FF6BE7 000000??
+*Code from GMO*
+
+Item Modifier Slot 9 [Crapulecorp]
+00FF6BE8 000000??
+*Code from GMO*
+
+Item Modifier Slot 10 [Crapulecorp]
+00FF6BE9 000000??
+*Code from GMO*
+
+Item Modifier Slot 11 [Crapulecorp]
+00FF6BEA 000000??
+*Code from GMO*
+
+Item Modifier Slot 12 [Crapulecorp]
+00FF6BEB 000000??
+*Code from GMO*
+
+Item Modifier Slot 13 [Crapulecorp]
+00FF6BEC 000000??
+*Code from GMO*
+
+Item Modifier Slot 14 [Crapulecorp]
+00FF6BED 000000??
+*Code from GMO*
+
+Item Modifier Slot 15 [Crapulecorp]
+00FF6BEE 000000??
+*Code from GMO*
+
+Item Modifier Slot 16 [Crapulecorp]
+00FF6BEF 000000??
+*Code from GMO*
+
+Item Modifier Slot 17 [Crapulecorp]
+00FF6BF0 000000??
+*Code from GMO*
+
+Item Modifier Slot 18 [Crapulecorp]
+00FF6BF1 000000??
+*Code from GMO*
+
+Item Modifier Slot 19 [Crapulecorp]
+00FF6BF2 000000??
+*Code from GMO*
+
+Item Modifier Slot 20 [Crapulecorp]
+00FF6BF3 000000??
+*Code from GMO*
+
+Item Modifier Slot 21 [Crapulecorp]
+00FF6BF4 000000??
+*Code from GMO*
+
+Item Modifier Slot 22 [Crapulecorp]
+00FF6BF5 000000??
+*Code from GMO*
+
+Item Modifier Slot 23 [Crapulecorp]
+00FF6BF6 000000??
+*Code from GMO*
+
+Item Modifier Slot 24 [Crapulecorp]
+00FF6BF7 000000??
+*Code from GMO*
+
+Item Modifier Slot 25 [Crapulecorp]
+00FF6BF8 000000??
+*Code from GMO*
+
+Item Modifier Slot 26 [Crapulecorp]
+00FF6BF9 000000??
+*Code from GMO*
+
+Item Modifier Slot 27 [Crapulecorp]
+00FF6BFA 000000??
+*Code from GMO*
+
+Item Modifier Slot 28 [Crapulecorp]
+00FF6BFB 000000??
+*Code from GMO*
+
+Item Modifier Slot 29 [Crapulecorp]
+00FF6BFC 000000??
+*Code from GMO*
+
+Item Modifier Slot 30 [Crapulecorp]
+00FF6BFD 000000??
+*Code from GMO*
+
+Item Modifier Slot 31 [Crapulecorp]
+00FF6BFE 000000??
+*Code from GMO*
+
+Item Modifier Slot 32 [Crapulecorp]
+00FF6BFF 000000??
+*Code from GMO*
+
+Item Modifier Slot 33 [Crapulecorp]
+00FF6C00 000000??
+*Code from GMO*
+
+Item Modifier Slot 34 [Crapulecorp]
+00FF6C01 000000??
+*Code from GMO*
+
+Item Modifier Slot 35 [Crapulecorp]
+00FF6C02 000000??
+*Code from GMO*
+
+Item Modifier Slot 36 [Crapulecorp]
+00FF6C03 000000??
+*Code from GMO*
+
+Item Modifier Slot 37 [Crapulecorp]
+00FF6C04 000000??
+*Code from GMO*
+
+Item Modifier Slot 38 [Crapulecorp]
+00FF6C05 000000??
+*Code from GMO*
+
+Item Modifier Slot 39 [Crapulecorp]
+00FF6C06 000000??
+*Code from GMO*
+
+Item Modifier Slot 40 [Crapulecorp]
+00FF6C07 000000??
+*Code from GMO*
+
+Item Modifier Slot 41 [Crapulecorp]
+00FF6C08 000000??
+*Code from GMO*
+
+Item Modifier Slot 42 [Crapulecorp]
+00FF6C09 000000??
+*Code from GMO*
+
+Item Modifier Slot 43 [Crapulecorp]
+00FF6C0A 000000??
+*Code from GMO*
+
+Item Modifier Slot 44 [Crapulecorp]
+00FF6C0B 000000??
+*Code from GMO*
+
+Item Modifier Slot 45 [Crapulecorp]
+00FF6C0C 000000??
+*Code from GMO*
+
+Item Modifier Slot 46 [Crapulecorp]
+00FF6C0D 000000??
+*Code from GMO*
+
+Item Modifier Slot 47 [Crapulecorp]
+00FF6C0E 000000??
+*Code from GMO*
+
+Item Modifier Slot 48 [Crapulecorp]
+00FF6C0F 000000??
+*Code from GMO*
+
+Values for Inventory Item Modifiers
+
+Replace XX for :
+
+00 (Empty Slot)
+05 Blue Potion
+06 Red Potion
+07 Green Potion
+08 Odd Potion
+09 Black Potion
+0A Chicken
+0B Steak
+0C Fillet
+0D Egg
+0E Broken egg
+0F Fish
+10 Tomato
+11 Corn
+12 Apple
+13 Orange
+14 Banana
+15 Cherries
+16 Bread
+17 Cheese
+18 Water
+19 Honey
+1A Wine
+1B Gem (Document)
+1C Pendant (Amulet)
+1D Ring 1 (Amulet)
+1E Ring 2 (Amulet)
+1F Bag (Special)
+20 Ladle
+21 Cube
+22 Bottle (Drink)
+23 Sextant (Special)
+27 Boots (Special)
+28 Key 1
+29 Key 2
+2A Gold Key
+2B Silver Key
+2C Key 4
+2D Key 3
+2E Talisman (Special)
+2F Scroll (Document)
+30 Red Orb (Special)
+31 Yellow Orb (Special)
+32 Green Orb (Special)
+33 Blue Orb (Special)
+34 Wooden Box (Special)
+35 Costume (Special)
+36 Stone Tablet (Document)
+37 Crest (Special)
+38 Tap Handle (Special)
+60 Scroll 1 (Document)
+*Code from GMO*

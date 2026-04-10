@@ -1,0 +1,25 @@
+GYBE01
+Donkey Kong Jungle Beat 
+
+Don't Lose Beats When Damaged no effect during Boss fights
+04041470 90A60070
+
+999 Beats On Pickup
+04041608 380003E7
+
+All Levels Unlocked
+008A6514 0000003F
+088A5FDF 00000002
+00120034 00000000
+
+Have All Crests
+088A5FDE 00000003
+00120034 00000000
+
+All Levels: 9999 Best Beat Total
+088A5FD8 0000270F
+1012001A 00000000
+
+All Levels: Low Best Clear Time
+088A5FD4 00000001
+2012000D 00000000

@@ -1,0 +1,59 @@
+SDWE18
+Lost in Shadow
+
+No Damage [Jackal]
+0406582C 60000000
+
+1 Hit Kill [Jackal]
+040C3D58 EC000028
+040A82F8 38000000
+
+Final Boss 1 Hit Kill [Jackal]
+040BDCEC 38000000
+Note: You still need to step on the light attack switch
+
+0 Death Count [Jackal]
+0440B2CC 00000000
+
+Moon Jump (Ported from ZiT) [Jackal]
+285649E0 F7FF0800
+04438904 45000000
+E0000000 80008000
+
+Speed Up (Ported from ZiT) [Jackal]
+2C5649B0 00000100
+2E5649B0 00003F00
+04438900 45A00000
+E0000000 80008000
+2C5649B0 0000C100
+2E5649B0 0000EF00
+04438900 C5A00000
+E0000000 80008000
+
+Hold C to Speed Up (Modified from ZiT) [Jackal]
+285649E0 BFFF4000
+2C5649B0 00005C00
+2E5649B0 00007F01
+04438900 45700000
+E2000002 80008000
+2C5649B0 000081FF
+2E5649B0 00009800
+04438900 C5700000
+E0000000 80008000
+1.0x X=2
+1.5x X=7
+2.0x X=A
+Speed Up codes may flip direction when stage is rotated
+
+Infinite Body of Light Time [Jackal]
+0406591C 38600000
+
+Always Recover to Full [Jackal]
+0406580C 60000000
+
+Infinite Health/Weight [Glitch]
+0240B2B6 0000FFFF
+
+Kill 1 Monster to Level Up/Full EXP bar. [Glitch]
+0240B2C6 0000FFFF
+Note: Max Level looks like it is 30, so in 1 level you should be max already.

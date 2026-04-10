@@ -1,0 +1,117 @@
+NAAP
+Super Mario64
+
+Button Activator GameCube Controller [CosmoCortney]
+209F1830 XXXXXXXX
+
+Music and SFX Speed Modifier [CosmoCortney]
+209F1830 00080000
+05094454 3ED00000
+E0000000 80008000
+209F1830 00400000
+05094454 3F800000
+E0000000 80008000
+209F1830 00100000
+05094454 3FE00000
+E0000000 80008000
+_-_- GameCube Controller -_-_
+D-Pad Left = slow Audio and Sounds (Mario sounds insane funny)
+D-Pad Down = Normal Audio
+D-Pad Right = High pitched Autio (mario sometimes sounds like a poodle)
+
+Have\Debug Mode [memorris]
+051642E8 59000000
+
+Have\Level Select [memorris]
+051642DC 01000000
+05164324 000024BA
+
+Slot A Code
+
+Have all key doors unlocked and mote empty [memorris]
+0506DAA4 7E7E7E7E
+0506DAA0 7E7E7E7E
+0506DAA8 00000FFF
+
+Always have 100 coins collected [memorris]
+05174078 00640000
+05174098 00040064
+
+Indestructible Mario [memorris]
+0517407C 00630880
+05085A90 B300FD74
+05173FF4 51340018
+
+unlimited hate time [memorris]
+05174084 FFFFFFFF
+
+Remove Top Parts of Signs [memorris]
+04F58EF8 011B0101
+
+No Post's On Signs [memorris]
+04F58EE0 00190101
+
+FLAT MARIO [memorris]
+05174084 10000000
+
+Mario Runs Backwards [memorris]
+051741BC 00008000
+
+Shrinking and Growing Hand [memorris]
+051741B8 00000050
+
+Giant Foot [memorris]
+051741B8 00000090
+
+Hover Mario [memorris]
+05174080 01FF0000
+
+See Threw Mario [memorris]
+05173FD4 00000112
+
+Metal Mario [memorris]
+05173FD4 00000114
+
+Metal Mario no hat [memorris]
+05173FD4 00000104
+
+Flying Mario with hat on [memorris]
+05173FD4 00000119
+
+Flying Mario no hat on holding hat [memorris]
+05173FD4 00000119
+
+Flying Mario with hat on and holding hat [memorris]
+05173FD4 00000119
+
+Flying Mario with out hat [memorris]
+05173FD4 00000109
+
+Metal Flying Mario with hat on and holding hat [memorris]
+05173FD4 00000fff
+
+See Trew Metal Flying Mario with hat on [memorris]
+05173FD4 0000011f
+
+See Trew Metal Flying Mario with no hat on [memorris]
+05173FD4 0000010f
+
+Mario holding hat [memorris]
+05173FD4 00000121
+
+See Trew Mario holding hat with no hat on [memorris]
+05173FD4 00000122
+
+See Trew Mario holding hat with hat on [memorris]
+05173FD4 00000133
+
+99 Lives & Infinite Health [memorris]
+0517407c 00630880
+
+1/2 Mario
+05174080 0000000000
+
+Mario Runs Bent Over [memorris]
+04ECAC2C 000103X0
+REPLACE X WITH 0 = Bent Foward
+3 = Bent Backwards

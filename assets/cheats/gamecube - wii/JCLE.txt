@@ -1,0 +1,142 @@
+JCLE
+Secret of Mana
+
+Max Money [GMO]
+02454132 00003F42
+00454134 0000000F
+
+Add 9868800 GP to your current GP [whitetigerx8]
+10454133 00010097
+Restart the Wii if you wish to re-add the GP
+
+Boy Inf HP [whitetigerx8]
+1045564A 000000E7
+1045564B 00000003
+
+Boy Max HP [whitetigerx8]
+1045564C 000000E7
+1045564D 00000003
+
+Boy Max Strength [whitetigerx8]
+10455650 00000063
+
+Boy Max Agility [whitetigerx8]
+10455651 00000063
+
+Boy Max Constitution [whitetigerx8]
+10455652 00000063
+
+Boy Max Intelligence [whitetigerx8]
+10455653 00000063
+
+Boy Max Hit % [whitetigerx8]
+1045565F 00000064
+
+Boy Max Attack [whitetigerx8]
+10455660 000000A0
+
+Boy Max Wisdom [whitetigerx8]
+10455654 00000063
+
+Boy Max Evade % [whitetigerx8]
+1045566C 00000064
+
+Boy Max Defense [whitetigerx8]
+1045566D 000000E7
+1045566E 00000003
+
+Boy Max Magic Defense [whitetigerx8]
+10455670 000000E7
+10455671 00000003
+
+Girl Inf HP [whitetigerx8]
+1045584A 000000E7
+1045584B 00000003
+
+Girl Max HP [whitetigerx8]
+1045584C 000000E7
+1045584D 00000003
+
+Girl Inf MP [whitetigerx8]
+1045584E 00000063
+
+Girl Max MP [whitetigerx8]
+1045584F 00000063
+
+Girl Max Strength [whitetigerx8]
+10455850 00000063
+
+Girl Max Agility [whitetigerx8]
+10455851 00000063
+
+Girl Max Constitution [whitetigerx8]
+10455852 00000063
+
+Girl Max Intelligence [whitetigerx8]
+10455853 00000063
+
+Girl Max Wisdom [whitetigerx8]
+10455854 00000063
+
+Girl Max Hit % [whitetigerx8]
+1045585F 00000064
+
+Girl Max Attack [whitetigerx8]
+10455860 000000A0
+
+Girl Max Evade % [whitetigerx8]
+1045586C 00000064
+
+Girl Max Defense [whitetigerx8]
+1045586D 000000E7
+1045586E 00000003
+
+Girl Max Magic Defense [whitetigerx8]
+10455870 000000E7
+10455871 00000003
+
+Sprite Inf HP [whitetigerx8]
+10455A4A 000000E7
+10455A4B 00000003
+
+Sprite Max HP [whitetigerx8]
+10455A4C 000000E7
+10455A4D 00000003
+
+Sprite Inf MP [whitetigerx8]
+10455A4E 00000063
+
+Sprite Max MP [whitetigerx8]
+10455A4F 00000063
+
+Sprite Max Strength [whitetigerx8]
+10455A50 00000063
+
+Sprite Max Agility [whitetigerx8]
+10455A51 00000063
+
+Sprite Max Constitution [whitetigerx8]
+10455A52 00000063
+
+Sprite Max Intelligence [whitetigerx8]
+10455A53 00000063
+
+Sprite Max Wisdom [whitetigerx8]
+10455A54 00000063
+
+Sprite Max Hit % [whitetigerx8]
+10455A5F 00000064
+
+Sprite Max Attack [whitetigerx8]
+10455A60 000000A0
+
+Sprite Max Evade % [whitetigerx8]
+10455A6C 00000064
+
+Sprite Max Defense [whitetigerx8]
+10455A6D 000000E7
+10455A6E 00000003
+
+Sprite Max Magic Defense [whitetigerx8]
+10455A70 000000E7
+10455A71 00000003

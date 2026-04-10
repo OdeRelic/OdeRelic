@@ -1,0 +1,6 @@
+WGOP
+World of Goo
+
+Always have collected 50 goos (can finish stage from the beginning) [Romaap]
+0404A24C 3BA00032
+04057D60 38000032

@@ -1,0 +1,75 @@
+GUPP8P
+Shadow the Hedgehog
+
+Growing and Schrinking Rings [CosmoCortney]
+044B9DC8 40500000
+
+Fire and dust looks messed up [CosmoCortney]
+0451B850 40000000
+
+Insane gun/weapon Fire [CosmoCortney]
+0451BA48 40400000
+
+Voices sound like spoken through a phone [CosmoCortney]
+04516078 41000000
+
+16/9 screen ratio [CosmoCortney]
+04585194 3F920000
+
+Size Modifier for all characters who follow you (Doom's eye, sonic,...) [CosmoCortney]
+045F34CC XXXXXXXX
+for XXXXXXXX
+3F800000 = normal
+3EA00000 = tiny
+40500000 = massive
+
+Gravity Modifier [CosmoCortney]
+045F3A58 XXXXXXXX
+for XXXXXXXX
+3f800000 = normal
+3F818000 = low gravity
+3F780000 = strong gravity
+
+Tunnelview Effect [CosmoCortney]
+045FC358 3E000000
+
+SFX Speed [CosmoCortney]
+0481EEAC XXXXXXXX
+for XXXXXXXX
+3f800000 = normal
+40400000 = high pitched
+3f000000 = low pitched
+voices won't be influented
+
+no music [CosmoCortney]
+04590A04 00010000
+04590AF8 00020000
+
+Inf. Ammo [-Ozelot-]
+0416F324 60000000
+
+Inf. Lives [-Ozelot-]
+0416F388 60000000
+
+Inf. Rings [-Ozelot-]
+0416F70C 380003E7
+0416F674 60000000
+
+Inf. Time [-Ozelot-]
+04337E1C 60000000
+
+Inf. Chaos Blast &lt;&gt; Chaos Control Switch [-Ozelot-]
+0416F538 60000000
+28576EBE F7DF0820
+04577794 00007530
+04577788 00000000
+CC000000 00000001
+04577788 00007530
+04577794 00000000
+E0000000 80008000
+*Press Z-Button to switch Chaos Control &lt;&gt; Chaos Blast
+
+Open All Normal Levels & Boss Battles [Link Master]
+08577CA3 00000001
+00270060 00000000
+Co-author: Jay007

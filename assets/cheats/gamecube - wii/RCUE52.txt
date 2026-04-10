@@ -1,0 +1,10 @@
+RCUE52
+Cabelas Legendary Adventures
+
+Infinite Bullet [ZiT]
+040744F0 90640004
+
+Time Stop [ZiT]
+C20B44F0 00000002
+820303BC 3A10FFF0
+920303C0 00000000

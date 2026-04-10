@@ -1,0 +1,35 @@
+SSQA01
+Mario Party 9
+
+Button Activator Mastercode [Bully@Wiiplaza]
+F6000001 80008100
+81230000 70C09FFF
+D2000000 00000002
+81230000 3D808000
+912C1500 00000000
+E0000000 80008000
+*Must be on to use any button activated code*
+
+Button Activator [Bully@Wiiplaza]
+28001502 YYYYZZZZ
+
+Music Replacement [Bully@Wiiplaza]
+F6000003 90009380
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+16000000 00000028
+YYYYYYYY YYYYYYYY
+YYYYYYYY YYYYYYYY
+YYYYYYYY YYYYYYYY
+YYYYYYYY YYYYYYYY
+E0000000 80008000
+*XXXX = Music to be replaced*
+*YYYY = New music*
+*X & Y = ASCII &lt;-&gt; HEX; unused become 00*
+*Examples*
+stream/BGM_TITLE.brstm = Title Music
+stream/BGM_ENDING.brstm = Ending Music
+*Please rip the BRSTM music files by yourself if you want all replacement possibilities*
+*If anyone makes a complete list, I can add it here for everyone*
+*Note: Brawlbox can be used to listen to BRSTMs*

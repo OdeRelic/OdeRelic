@@ -1,0 +1,10 @@
+RFPE01
+Wii Fit Plus
+
+Snowball Fight Score v1 [BoxNinja]
+055A0964 00000063
+
+Snowball Fight Score v2 [BoxNinja]
+C2639848 00000002
+38800063 909E0014
+60000000 00000000

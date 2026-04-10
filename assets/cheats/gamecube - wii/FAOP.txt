@@ -1,0 +1,34 @@
+FAOP
+Solomons Key
+
+Infinite Life (Press ZR ON/OFF) [Crapulecorp]
+2821E772 FF7F0080
+CC000000 00000000
+043B60D9 0A090900
+E0000000 80008000
+
+Infinite Life (Press - ON/OFF) [Crapulecorp]
+281E6876 EFFF1000
+CC000000 00000000
+043B60D9 0A090900
+E0000000 80008000
+
+Infinite Lives [Crapulecorp]
+003B60F3 00000063
+
+Infinite Fairy [Crapulecorp]
+003B60F4 00000009
+*Code ported from ZiT Ntsc Usa Version*
+
+Infinite Magic [Crapulecorp]
+023B60CF 0000AAAA
+003B60CC 00000008
+*Code ported from ZiT Ntsc Usa Version*
+
+Button Activator
+
+Classic Controller [Crapulecorp]
+2821E772 YYYYZZZZ
+
+WiiMote [Crapulecorp]
+281E6876 YYYYZZZZ

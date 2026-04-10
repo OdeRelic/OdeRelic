@@ -1,0 +1,434 @@
+SF8E01
+Donkey Kong Country Returns
+
+ Version 1 Codes
+
+Invincibility [Thomas83Lin]
+041FE36C 4800009C
+041FE408 38800001
+*Used wiiztec's code for a starting point*
+*Works on Rambi also*
+
+Have Rocket without diddy [Thomas83Lin]
+04243ACC 60000000
+C22BD8B0 00000004
+8066FFFC 80630008
+3D808000 618C1848
+906C0000 38600000
+80050038 00000000
+C223EDFC 00000002
+3C608000 60631848
+80030000 00000000
+
+Consistent Roll without diddy [Thomas83Lin]
+04243A28 60000000
+
+Temp World+Level Bypass v.2 [Thomas83Lin]
+042E5088 60000000
+042E43BC 60000000
+0410A0FC 4800001C
+0410A248 48000014
+
+Hard Mode [Thomas83Lin]
+C214C8C0 00000006
+899D000F 2C0C0001
+4081000C 38000001
+981D000F 899D0013
+2C0C0001 4081000C
+38000001 981D0013
+801A0120 00000000
+041C97B4 38000000
+*Allowed One Hit Per Player*
+*Health Hud Removed*
+
+Extreme Mode [Thomas83Lin]
+C214C8C0 00000003
+38000000 981D000F
+981D0013 801A0120
+60000000 00000000
+041C97B4 38000000
+*Killed If either Player Gets Hit*
+*Health Hud Removed*
+*Don't combine with Hard Mode*
+
+Remove Health Hud [Thomas83Lin]
+041C97B4 38000000
+
+Jump Modifier [Thomas83Lin]
+C22387CC 00000003
+3D804000 618C0000
+919F08DC C09F08DC
+60000000 00000000
+*Modify 4000 To IncreaseDecrease*
+
+Moon Jump 1-2 Player V.2 Press (B+2) [Thomas83Lin]
+C2251834 00000009
+3D808000 2C000001
+41820010 2C000002
+41820028 4800002C
+618C18A2 A18C0000
+718C0500 2C0C0500
+40820018 3D804503
+91830184 4800000C
+618C18A6 4BFFFFE0
+3860FFFF 00000000
+C24A35FC 00000005
+3D408000 614A18A0
+2C190000 40820008
+900A0000 2C190001
+40820008 900A0004
+90030000 00000000
+*Wiimote Horizontal*
+
+B For Pound Down-B for Blow B+Directional for Roll [Thomas83Lin]
+285C9E28 FBFF0400
+025C9E2E 0000012C
+E0000000 80008000
+285CA4B0 FBFF0400
+025CA4B6 0000012C
+E0000000 80008000
+*Wiimote Horizontal*
+
+Unlock Mirror Mode [Thomas83Lin]
+0080BE2B 00000001
+*Single Player*
+
+Always Have Squawks [Thomas83Lin]
+0080BDC3 00000001
+
+Longer Lasting Diddy Rocket [Thomas83Lin]
+04260510 60000000
+
+Low Time [Thomas83Lin]
+042B355C 3D803C20
+042B3560 919E000C
+*Time Attack*
+
+Activate Super Guide [Thomas83Lin]
+043156E0 38800008
+
+Switch in and out of Mirror Mode [Thomas83Lin]
+285C9E28 EFFF1000
+0080BDCF 00000000
+CC000000 00000000
+0080BDCF 00000001
+E0000000 80008000
+*Press - Wiimote Horizontal*
+
+Mirror Graphics [Thomas83Lin]
+040C2A7C 60000000
+040C2A80 38600001
+
+Wiimote Button Remapping [Thomas83Lin]
+0657203C 00000030
+00008000 00001000
+00000800 00000400
+00000100 00000200
+00000010 00000008
+00000004 00000002
+00000001 0000000F
+0457208C 00002000
+04572090 00004000
+*Default Setup*
+*Modify Button Values to Change*
+
+Play as Super Kong+Super Diddy P2 [Thomas83Lin]
+041FE204 60000000
+
+Receive All Puzzles Pieces After Entering Level [Thomas83Lin]
+043151AC 38000FFF
+04315084 38000FFF
+*Tallies up at the end for a Medal*
+
+infinite health [wiiztec]
+0480BD8C 00000002
+
+infinite lives [wiiztec]
+0480BD9C 00000063
+
+infinite bananas [wiiztec]
+0480BD84 00000063
+
+have all puzzle pieces [wiiztec]
+0480BDA0 0000000A
+doesn't effect end of level tally
+
+diddy kong infinite health [wiiztec]
+2480BD90 00000000
+0480BD90 00000002
+E0000000 80008000
+
+infinite banana coins [wiiztec]
+0480BD88 00000063
+
+have all 4 kong letters [wiiztec]
+0880BDA4 00000001
+20030004 00000000
+
+invincibility toggle C+down [wiiztec]
+285C9E28 00004004
+041F8A9C D04308FC
+041F8AA0 4081000C
+CC000000 00000000
+C21F8A9C 00000002
+3E207F80 922308FC
+60000000 00000000
+041F8AA0 4800000C
+E0000000 80008000
+you have to get hit first for it to take effect
+remove the last line to be invisible too
+if you toggle it off the effect won't go away until you restart the level but It still might prevent the Rambi crash
+
+Mini Game Timer (Gains) [Skiller]
+041145AC EC00082A
+
+Mini Game Timer (Frozen) [Skiller]
+041145AC EC00D828
+
+ Version 2 Codes
+
+Inventory Codes
+
+Unlimited Banana Juice [GMO]
+0080DE1F 00000063
+
+Unlimited Squawks [GMO]
+0080DE23 00000063
+
+Unlimited Heart Boost [GMO]
+0080DE27 00000063
+
+Misc Codes
+
+Invincibility [Thomas83Lin]
+041FF39C 4800009C
+041FF438 38800001
+*Used wiiztec's code for a starting point*
+*Works on Rambi also*
+
+Have Rocket without diddy [Thomas83Lin]
+04244B0C 60000000
+C22BED40 00000004
+8066FFFC 80630008
+3D808000 618C1848
+906C0000 38600000
+80050038 00000000
+C223FE3C 00000002
+3C608000 60631848
+80030000 00000000
+
+Consistent Roll without diddy [Thomas83Lin]
+04244A68 60000000
+
+Temp World+Level Bypass v.2 [Thomas83Lin]
+042E69A8 60000000
+042E5CDC 60000000
+0410A23C 4800001C
+0410A388 48000014
+
+Hard Mode [Thomas83Lin]
+C214D140 00000006
+899D000F 2C0C0001
+4081000C 38000001
+981D000F 899D0013
+2C0C0001 4081000C
+38000001 981D0013
+801A0120 00000000
+041CA674 38000000
+*Allowed One Hit Per Player*
+*Health Hud Removed*
+
+Extreme Mode [Thomas83Lin]
+C214D140 00000003
+38000000 981D000F
+981D0013 801A0120
+60000000 00000000
+041CA674 38000000
+*Killed If either Player Gets Hit*
+*Health Hud Removed*
+*Don't combine with Hard Mode*
+
+Remove Health Hud [Thomas83Lin]
+041CA674 38000000
+
+Jump Modifier [Thomas83Lin]
+C223980C 00000003
+3D804000 618C0000
+919F08DC C09F08DC
+60000000 00000000
+*Modify 4000 To IncreaseDecrease*
+
+Moon Jump 1-2 Player V.2 Press (B+2) [Thomas83Lin]
+C2252894 00000009
+3D808000 2C000001
+41820010 2C000002
+41820028 4800002C
+618C18A2 A18C0000
+718C0500 2C0C0500
+40820018 3D804503
+91830184 4800000C
+618C18A6 4BFFFFE0
+3860FFFF 00000000
+C24A55AC 00000005
+3D408000 614A18A0
+2C190000 40820008
+900A0000 2C190001
+40820008 900A0004
+90030000 00000000
+*Wiimote Horizontal*
+
+Unlock Mirror Mode [Thomas83Lin]
+0080DE2B 00000001
+*Single Player*
+
+Always have Squawks [Thomas83Lin]
+0080DDC3 00000001
+
+Switch in and out of Mirror Mode [Thomas83Lin]
+285CBCEA EFFF1000
+0080DDCF 00000000
+CC000000 00000000
+0080DDCF 00000001
+E0000000 80008000
+*Press - Wiimote Horizontal*
+
+Mirror Graphics [Thomas83Lin]
+040C2B4C 60000000
+040C2B50 38600001
+
+Low Time [Thomas83Lin]
+042B496C 3D803C20
+042B4970 919E000C
+*Time Attack*
+
+Longer Lasting Diddy Rocket [Thomas83Lin]
+04261880 60000000
+
+Activate Super Guide [Thomas83Lin]
+043172A0 38800008
+
+B For Pound Down-B for Blow B+Directional for Roll [Thomas83Lin]
+285CBE68 FBFF0400
+025CBE6E 0000012C
+E0000000 80008000
+285CC4F0 FBFF0400
+025CC4F6 0000012C
+E0000000 80008000
+*Wiimote Horizontal*
+
+Wiimote Button Remapping [Thomas83Lin]
+06574054 00000030
+00008000 00001000
+00000800 00000400
+00000100 00000200
+00000010 00000008
+00000004 00000002
+00000001 0000000F
+045740A4 00002000
+045740A8 00004000
+*Default Setup*
+*Modify Button Values to Change*
+
+Play as Super Kong+Super Diddy P2 [Thomas83Lin]
+041FF234 60000000
+
+Receive All Puzzles Pieces After Entering Level [Thomas83Lin]
+04316D6C 38000FFF
+04316C44 38000FFF
+*Tallies up at the end for a Medal*
+
+infinite health [wiiztec]
+0480DD8C 00000002
+
+infinite lives [wiiztec]
+0480DD9C 00000063
+
+infinite bananas [wiiztec]
+0480DD84 00000063
+
+have all puzzle pieces [wiiztec]
+0480DDA0 0000000A
+doesn't effect end of level tally
+
+diddy kong infinite health [wiiztec]
+2480DD90 00000000
+0480DD90 00000002
+E0000000 80008000
+
+infinite banana coins [wiiztec]
+0480DD88 00000063
+
+have all 4 kong letters [wiiztec]
+0880DDA4 00000001
+20030004 00000000
+
+invincibility toggle C+down [wiiztec]
+285CBCEA 00004004
+041F9ABC D04308FC
+041F9AC0 4081000C
+CC000000 00000000
+C21F9ABC 00000002
+3E207F80 922308FC
+60000000 00000000
+041F9AC0 4800000C
+E0000000 80008000
+you have to get hit first for it to take effect
+remove the last line to be invisible too
+if you toggle it off the effect won't go away until you restart the level but It still might prevent the Rambi crash
+
+Mini Game Timer (Gains) [Skiller]
+041146FC EC00082A
+
+Mini Game TImer (Frozen) [Skiller]
+041146FC EC00D828
+
+Invincible (Banana Juice Mod) [GMO]
+0080DD97 0000000A
+
+Universal Codes for Donkey Kong Country Returns
+
+1-2 Player Moon Jump v.2 (Press B+2) [Thomas83Lin]
+F6000001 80008100
+3860FFFF 2C000001
+D2000000 00000009
+3D808000 2C000001
+41820010 2C000002
+41820028 4800002C
+618C18A2 A18C0000
+718C0500 2C0C0500
+40820018 3D804503
+91830184 4800000C
+618C18A6 4BFFFFE0
+3860FFFF 00000000
+E0000000 80008000
+F6000001 80008100
+90030000 552A043E
+D2000000 00000005
+3D408000 614A18A0
+2C190000 40820008
+900A0000 2C190001
+40820008 900A0004
+90030000 00000000
+E0000000 E0008000
+*Wiimote Horizontal*
+
+Invincibility [Thomas83Lin]
+F6000001 80008100
+FC021840 4C810020
+14000004 4800009C
+140000A0 38800001
+E0000000 E0008000
+*Used wiiztec's code for a starting point*
+*Works on Rambi also*
+
+Longer Lasting Diddy Rocket [Thomas83Lin]
+F6000001 80008100
+D01A0140 C3DC019C
+14000000 60000000
+E0000000 E0008000
+
+Consistent Roll without diddy [Thomas83Lin]
+F6000001 80008100
+80660028 7C032840
+14000008 60000000
+E0000000 E0008000

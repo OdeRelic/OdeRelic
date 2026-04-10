@@ -1,0 +1,52 @@
+R7FEGD
+Final Fantasy Fables: Chocobo's Dungeon
+
+Max Gil (Bank) [GMO]
+04FC2100 000F4237
+
+Gil Up To Max [AlexWong]
+0408C698 60000000
+
+Infinite HP [AlexWong]
+0408BEEC 60000000
+
+Infinite SP [AlexWong]
+0408BF40 60000000
+
+Never Hungry [AlexWong]
+0408BFCC 60000000
+
+Gain Exp Multiplier [AlexWong]
+0408F738 57E4XXXX
+XXXX=
+083C x2
+103A x4
+1838 x8
+2036 x16
+2834 x32
+3032 x64
+3830 x128
+
+Gain Job Exp Multiplier [AlexWong]
+0408C394 549FXXXX
+XXXX=
+083C x2
+103A x4
+1838 x8
+2036 x16
+2834 x32
+3032 x64
+3830 x128
+
+Exp Up To Max [AlexWong]
+0408C2C8 60000000
+
+Job Exp Up To Max [AlexWong]
+0408C3DC 60000000
+
+Max Gil [AlexWong]
+04B3555C 000F423F
+
+Max Inventory Modify [AlexWong]
+04B35DD4 000000XX
+Hacked by Cross1955 for NTSC-JP, ported by AlexWong to NTSC-U/C.

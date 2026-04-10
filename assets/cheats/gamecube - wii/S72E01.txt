@@ -1,0 +1,413 @@
+S72E01
+Kirby's Dream Collection: Special Edition
+
+NOTE 1:
+When using codes with variables, make sure that you enter the PROPER
+values. Since the games use emulation and suspend points, they can be easily corrupted if one of the games crash.
+
+NOTE 2:
+Any codes made by goemon_guy and Bully@Wiiplaza require the corresponding master code for the game you want to play. These can be mixed together.
+
+Master Codes
+
+Kirby's Dream Land [goemon_guy]
+20283224 2E2000BB
+017FFFFF 000000D1
+E0000000 80008000
+
+Kirby's Dream Land 2 [goemon_guy]
+20283224 20322E20
+017FFFFF 000000D1
+E0000000 80008000
+
+Kirby's Dream Land 3 [goemon_guy]
+2050A2C4 4B495242
+017FFFFF 000000D3
+E0000000 80008000
+
+Kirby 64: The Crystal Shards [goemon_guy]
+20180CF4 0A4B6972
+017FFFFF 00000064
+E0000000 80008000
+
+Kirby Super Star [goemon_guy]
+2050752C 4B495242
+017FFFFF 00000022
+E0000000 80008000
+
+Kirby's Adventure [goemon_guy]
+20123F50 4E45531A
+017FFFFF 000000FC
+E0000000 80008000
+
+Kirby's Dream Land
+
+No Score Display [Bully@Wiiplaza]
+217FFFFC 000000D1
+08CADAA0 7F7F7F7F
+20020004 00000000
+E0000000 80008000
+*Visual only, does not affect real score*
+*Picture: http://s7.directupload.net/file/d/3019/7ayfy2r7_png.htm
+
+Max/Starting Health Modifier [Bully@Wiiplaza]
+217FFFFC 000000D1
+00CAAF07 000000XX
+E0000000 80008000
+*XX = HEX*
+*Picture: http://s1.directupload.net/file/d/3019/p2tbtien_png.htm
+*Credits to goemon_guy´s for this address*
+
+Suicide [Bully@Wiiplaza]
+28183F82 YYYYZZZZ
+217FFFFC 000000D1
+00CAAF06 00000000
+E0000000 80008000
+*Press your button(s) to die immediately*
+*Credits to goemon_guy for his health address*
+*Don´t use this in combination with "Infinite Health", stick to "Invincible" instead*
+
+99 Lives [Bully@Wiiplaza]
+217FFFFC 000000D1
+04CADAD0 7B7B6E6E
+E0000000 80008000
+*Picture: http://s14.directupload.net/file/d/3019/86eanc4h_png.htm
+
+High Score Counter [Bully@Wiiplaza]
+217FFFFC 000000D1
+02CAAF0E 00007B7B
+04CAAF10 7B7B7B79
+E0000000 80008000
+*Picture: http://s1.directupload.net/file/d/3019/mgjnwnf2_png.htm
+
+Button Activator (Wii Remote) [goemon_guy]
+28183F82 0000XXXX
+
+Infinite Health [goemon_guy]
+217FFFFC 000000D1
+00CAAF06 00000006
+E0000000 80008000
+
+Invincible [goemon_guy]
+217FFFFC 000000D1
+00CAB275 00000046
+E0000000 80008000
+Kirby won't take any damage
+not the same as Invincibility.
+
+Level Select (Hold "A" on the Wii Remote) [goemon_guy]
+28183F82 00000800
+217FFFFC 000000D1
+00CAAEBB 000000XX
+E0000000 80008000
+00=Level 1
+01=Level 2
+02=Level 3
+03=Level 4
+04=Level 5
+don't extend past these ^
+
+Music Modifier [goemon_guy]
+217FFFFC 000000D1
+00CAAEBC 000000XX
+E0000000 80008000
+00=Bubbly Clouds
+01=Green Greens
+02=Invincibility
+03=Game Over
+04=Continue
+05=Title Screen
+06=Floating Island
+07=No music
+08=Craco (Boss)
+09=Kaboola (Boss) [goemon_guy]
+0A=Level Complete
+0B=Credits
+0C=Castle Lololo
+11=Mt. Dedede theme
+12=Mt. Dedede (Level Selection)
+
+Reduce Boss Health to 1 (Push "B" on Wii Remote) [goemon_guy]
+28183F82 FCFF0400
+217FFFFC 000000D1
+00CAAF13 00000001
+E0000000 80008000
+
+Kirby's Adventure
+
+Infinite (Max) Health [goemon_guy]
+217FFFFC 000000FC
+00471E77 0000002F
+E0000000 80008000
+
+Infinite (Max) Lives [goemon_guy]
+217FFFFC 000000FC
+00471E79 00000063
+E0000000 80008000
+
+Very High Score [goemon_guy]
+217FFFFC 000000FC
+00471E73 0000007F
+02471E74 00009698
+E0000000 80008000
+
+Ability Modifier [goemon_guy]
+217FFFFC 000000FC
+02471EC2 0000XXYY
+E0000000 80008000
+W values:
+FF=Any power but Mike
+03=Mike
+Y values:
+00=Fire
+01=Spark
+02=Cutter
+03=Sword
+04=Fireball
+05=Laser
+06=Mike
+07=Wheel
+08=Hammer
+09=Parasol
+0A=Sleep
+0B=Needle
+0C=Ice
+0D=Freeze
+0E=Hi-Jump
+0F=Beam
+10=Stone
+11=Ball
+12=Tornado
+13=Crash
+14=Light
+15=Back Drop
+16=Throw
+17=U.F.O.
+18=Star Rod
+19=Bye Bye! (Dead)
+FF=Normal
+
+Infinite Crane Game Chances [goemon_guy]
+217FFFFC 000000FC
+0047209B 00000002
+E0000000 80008000
+
+Invincibility [goemon_guy]
+217FFFFC 000000FC
+00471ED9 00000050
+E0000000 80008000
+
+Kirby Super Star
+
+Button Activator [Bully@Wiiplaza]
+285BA102 YYYYZZZZ
+
+Suicide [Bully@Wiiplaza]
+217FFFFF 00000022
+285BA102 YYYYZZZZ
+0089379C 00000000
+E0000000 80008000
+*Press your button(s) to die immediately*
+*Don´t use this in combination with "Infinite Health", stick to "Invincibility" instead*
+
+Infinite Health [Bully@Wiiplaza]
+217FFFFF 00000022
+0089379C 00000046
+E0000000 80008000
+
+Invincibility [Bully@Wiiplaza]
+217FFFFF 00000022
+008921F9 00000023
+008921F5 00000008
+E0000000 80008000
+
+9999990 Score [Bully@Wiiplaza]
+217FFFFF 00000022
+00893799 00000060
+E0000000 80008000
+
+99 Lives [Bully@Wiiplaza]
+217FFFFF 00000022
+0089379A 00000063
+E0000000 80008000
+
+Infinite Helper Health [Bully@Wiiplaza]
+217FFFFF 00000022
+00871CA5 00000046
+E0000000 80008000
+
+Kirby 64: The Crystal Shards
+
+Invincibility [Bully@Wiiplaza]
+217FFFFC 00000064
+0526E280 00000032
+E0000000 80008000
+*Video: http://www.youtube.com/watch?v=nyHzCbWCHUk
+
+Super Sprint/Auto Walk [Bully@Wiiplaza]
+28276FCA EFFF1000
+CC000000 00000000
+C0000000 00000005
+3D80817F 618CFFFC
+818C0000 2C0C0064
+40820014 3D808126
+618CCDF0 3D604250
+916C0000 4E800020
+E0000000 80008000
+*Press Minus on Wiimote to toggle code ON/OFF*
+*Video: http://www.youtube.com/watch?v=wZ6OG36-UUo
+
+Stage Selector [Bully@Wiiplaza]
+28276FCA F7FF0800
+217FFFFC 00000064
+0525D13C 000000XX
+E0000000 80008000
+*Hold "A" on Wiimote while loading a picture stage*
+*XX Values*
+00 = Pop Star: 1st Picture
+01 = Pop Star: 2nd Picture
+02 = Pop Star: 3rd Picture
+03 = Pop Star: 4th Picture
+...
+*Video: http://www.youtube.com/watch?v=va3IxjdcD_s
+
+All Levels Unlocked [Bully@Wiiplaza]
+217FFFFC 00000064
+0125D133 00000006
+E0000000 80008000
+*Video: http://www.youtube.com/watch?v=YUzKIwRk46U
+
+All Pictures Unlocked [Bully@Wiiplaza]
+217FFFFC 00000064
+0925D180 02020202
+20080004 00000000
+E0000000 80008000
+
+All Picture Curls Filled Blue [Bully@Wiiplaza]
+217FFFFC 00000064
+0925D168 FFFFFFFF
+20050004 00000000
+0125D160 00070001
+E0000000 80008000
+
+Button Activator [goemon_guy]
+28276FCA 0000XXXX
+
+Infinite Health [goemon_guy]
+217FFFFC 00000064
+0125D42F 00000006
+0125D447 00000006
+E0000000 80008000
+
+Infinite Lives [goemon_guy]
+217FFFFC 00000064
+0125D42B 00000064
+E0000000 80008000
+Using this with the Power Cycler will interfere with its performance.
+
+Power Modifier [goemon_guy]
+217FFFFC 00000064
+012B4DF0 000000XX
+E0000000 80008000
+XX values:
+00=Empty
+01=Fire
+02=Rock
+03=Ice Breath
+04=Spikes
+05=Bomb
+06=Lightning
+07=Boomerang
+08=Fire & Fire
+09=Fire & Rock
+0A=Fire & Ice Breath
+0B=Fire & Spikes
+0C=Fire & Bomb
+0D=Fire & Lightning
+0E=Fire & Boomerang
+0F=Rock & Rock
+10=Rock & Ice Breath
+11=Rock & Spikes
+12=Rock & Bomb
+13=Rock & Lightning
+14=Rock & Boomerang
+15=Ice Breath & Ice Breath
+16=Ice Breath & Spikes
+17=Ice Breath & Bomb
+18=Ice Breath & Lightning
+19=Ice Breath & Boomerang
+1A=Spikes & Spikes
+1B=Spikes & Bomb
+1C=Spikes & Lightning
+1D=Spikes & Boomerang
+1E=Bomb & Bomb
+1F=Bomb & Lightning
+20=Bomb & Boomerang
+21=Lightning & Lightning
+22=Lightning & Boomerang
+23=Boomerang & Boomerang
+24=Ribbon
+25=Ribbon and Crystal Shooter
+
+Power Cycler ("B" to go up a value, "-" to go down a value) [goemon_guy]
+28276FCA 00000400
+217FFFFC 00000064
+F6000001 80B080E0
+81876E88 7CEE4214
+D2000000 0000000B
+3DE0812B 814F4DF0
+3D808027 A18C6FCE
+2C0C0400 40820008
+394A0001 2C0C1000
+40820008 394AFFFF
+2C0AFFFF 40820008
+39400023 2C0A0024
+40820008 39400000
+914F4DF0 394A0001
+91476E88 81876E88
+60000000 00000000
+E0000000 80008000
+Push B to raise the value by one, and minus to lower the value by one.
+As you do so, your lives will change accordingly with the power you have acquired.
+Cycler values (On-screen versions)
+99=Empty
+01=Fire
+02=Rock
+03=Ice Breath
+04=Spikes
+05=Bomb
+06=Lightning
+07=Boomerang
+08=Fire & Fire
+09=Fire & Rock
+10=Fire & Ice Breath
+11=Fire & Spikes
+12=Fire & Bomb
+13=Fire & Lightning
+14=Fire & Boomerang
+15=Rock & Rock
+16=Rock & Ice Breath
+17=Rock & Spikes
+18=Rock & Bomb
+19=Rock & Lightning
+20=Rock & Boomerang
+21=Ice Breath & Ice Breath
+22=Ice Breath & Spikes
+23=Ice Breath & Bomb
+24=Ice Breath & Lightning
+25=Ice Breath & Boomerang
+26=Spikes & Spikes
+27=Spikes & Bomb
+28=Spikes & Lightning
+29=Spikes & Boomerang
+30=Bomb & Bomb
+31=Bomb & Lightning
+32=Bomb & Boomerang
+33=Lightning & Lightning
+34=Lightning & Boomerang
+35=Boomerang & Boomerang
+
+Infinite Stamina (Floating) [goemon_guy]
+217FFFFC 00000064
+002B4D7F 000000F0
+E0000000 80008000

@@ -1,0 +1,70 @@
+RO3P99
+Little Kings Story
+
+Max Bol [Panda]
+C216B86C 00000002
+3C000098 6000967F
+90030000 00000000
+
+Instant Complete/Kill [Panda]
+C211360C 00000002
+38600000 907D0734
+60000000 00000000
+This code is a 1 hit kit kill/complete code. Anything with a red lollipop progress bar is complete after 1 successful hit with the relevant person
+
+Inf Hunter Arrows [Panda]
+0416ADF8 38A00063
+
+Inf/Max Health [Panda]
+C214C71C 00000002
+3880000F B0830012
+B0830010 00000000
+
+Moon Jump (2 Button) [Panda]
+204D6AC0 00000100
+4A000000 90000000
+143F6B38 40F00000
+E0000000 80008000
+
+Teleport (Up, Down Buttons) [Panda]
+204D6AC0 00000004
+4A000000 90000000
+92210001 003F6B34
+92210002 003F6B3C
+E0000000 80008000
+204D6AC0 00000008
+4A000000 90000000
+94210001 003F6B34
+94210002 003F6B3C
+E0000000 80008000
+Down saves coords, Up sends you to last saved coords
+
+Kill Yourself (C & Z & '+') [Panda]
+204D6AC0 00006010
+4A000000 90000000
+123F6B30 00000000
+E0000000 80008000
+This will end your game if you get stuck
+
+Time Played [Panda]
+4A000000 90000000
+143E8900 00000001
+E0000000 80008000
+Value in minutes. This sets it to 1.
+
+Current Day [Panda]
+4A000000 90000000
+143E8904 00000001
+E0000000 80008000
+Current day in the game. This sets it to 1.
+
+Time of Day [Panda]
+4A000000 90000000
+143E8908 41000000
+E0000000 80008000
+41000000 = 8am
+
+Infinite Bol [Blaster99]
+4A000000 90000000
+1441B350 000F4240
+E0000000 80008000

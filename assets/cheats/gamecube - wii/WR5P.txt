@@ -1,0 +1,31 @@
+WR5P
+Retro City Rampage
+
+Unlimited Health [Crapulecorp]
+023A4BC4 00000464
+
+Unlimited Vehicle Health (Press - ON/OFF) [Crapulecorp]
+2827AFD2 EFFF1000
+023A2884 00000CFE
+CC000000 00000000
+023A2884 00000CFE
+E0000000 80008000
+*WiiMote*
+
+Max Money [Crapulecorp]
+0438D114 3B9AC9FF
+
+Max Score [Crapulecorp]
+0238C4AA 00000918
+0438C4AC 4E729FFF
+
+Have All Weapons - Max Ammo [Crapulecorp]
+0838C54C 00000063
+00170001 00000000
+
+Unlimited Car Ammo [Crapulecorp]
+003A2B50 00000063
+
+Button Activator [Crapulecorp]
+2827AFD2 YYYYZZZZ
+*WiiMote*

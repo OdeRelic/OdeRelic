@@ -1,0 +1,10 @@
+WTPE
+Tetris Party
+
+Level is X [hetoan2]
+00B4E85F 000000XX
+Some levels will make it freeze if you go to high
+values may not work, seems random
+
+Score Modifier [hetoan2]
+04B26CF4 0XXXXXXX

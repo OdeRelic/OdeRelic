@@ -1,0 +1,47 @@
+RUYP99
+No More Heroes 2: Desperate Struggle
+
+Infinite Health [Apache81]
+0408E994 60000000
+
+Infinite Katanas Energy [Apache81]
+040B41DC 60000000
+
+Infinite Ecstasy [Apache81]
+04086FF4 D01F002C
+04076B34 D003002C
+To have full ecstasy the first time you need to hit or to be hit
+
+Infinite Money [Apache81]
+4A000000 92F86734
+DE000000 90009340
+14000000 0098967F
+E0000000 80008000
+
+Glastonbury (The Robot) Codes
+
+Glastonbury Infinite Health [Apache81]
+0431D1B4 60000000
+
+Glastonbury Infinite Ecstasy [Apache81]
+0431E2BC D03C0704
+0431D210 D27E0704
+To have full ecstasy the first time you need to hit or to be hit
+
+Minigames Codes
+
+Bizarre Jerry 5 Infinite Lives [Apache81]
+043960EC 907E0068
+
+Job Minigame 01 Infinite Lives [Apache81]
+04295AAC 60000000
+
+Gym Minigames Codes
+
+Muscle Minigame Easy Win [Apache81]
+04372DB8 60000000
+04373024 60000000
+You need to hit at least 1 weight
+
+Stamina Minigame Easy Win [Apache81]
+04354C14 908308B4

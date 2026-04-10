@@ -1,0 +1,13 @@
+RWIP18
+Wing Island
+
+If Money Decrease, MAX [Crapulecorp]
+C229A9A0 00000002
+3CA00099 38A5967F
+90BC0420 00000000
+*Code ported from ZiT Ntsc Jap Version*
+
+Button Activator
+
+WiiMote-NunChuck [Crapulecorp]
+281B872A YYYYZZZZ

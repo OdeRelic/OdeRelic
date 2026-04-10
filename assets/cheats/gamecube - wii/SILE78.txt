@@ -1,0 +1,32 @@
+SILE78
+Worms Battle Island
+
+Inf HP/99 [Skiller]
+C2921EDC 00000003
+2D9D0001 418E000C
+38800063 B083008A
+A083008A 00000000
+
+Freeze Turn Timer (B and UP) [Skiller]
+284D2F7A 00000408
+0492D490 38030000
+E0000000 80008000
+
+Un-Freeze Turn Timer (B and Down) [Skiller]
+284D2F7A 00000404
+0492D490 3803FFDF
+E0000000 80008000
+
+Suicide Squad (Instant Win player 1) [Skiller]
+C296A408 00000003
+2D9F0003 408D000C
+38800000 9083008A
+A083008A 00000000
+Note Works If u have a Team of 4.. (Anything After 4 Turns Into Suicide Squad .. Dont Use with Soul Servivor
+
+Soul Servivor (Instant Win player 1) [Skiller]
+C296A408 00000003
+2D9F0000 408D000C
+38800000 9083008A
+A083008A 00000000
+Note that only 1 of your worms will Live to tell this story. Dont use with Suicide Squad

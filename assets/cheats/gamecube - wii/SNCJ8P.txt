@@ -1,0 +1,135 @@
+SNCJ8P
+Sonic Colors
+
+All Stages Cleared [Glitch]
+C215ED20 00000002
+3980FFFF 91840010
+80840010 00000000
+
+All Stages S Rank [Glitch]
+C2266F44 00000002
+39800000 99830000
+88030000 00000000
+
+All Stages Score 99999999 [Glitch]
+C2268AD4 00000003
+3D8005F6 398CE0FF
+91830004 80030004
+60000000 00000000
+
+All Stages Clear Time 00:01.00 [Glitch]
+C2268ACC 00000002
+39800064 91830008
+80030008 00000000
+
+Time Doesn't Move [Glitch]
+0401CEA4 D0A40190
+Time Freeze at 00:01.00
+
+99 Challenge Lives [Glitch]
+0401BE60 38000064
+0424CBB0 38000064
+
+Score Multiplier [Glitch]
+C20172F8 00000002
+1C840xxx 7C072214
+60000000 00000000
+xxx=002 through 3E8
+
+Max Score on Increase [Glitch]
+04017300 48000030
+04017330 3C6005F6
+04017338 3803E0FF
+04017340 48000008
+
+Ring Multiplier [Glitch]
+C20A587C 00000002
+1C8400xx 7C802215
+60000000 00000000
+xx=02 through 64
+
+Max Rings on Increase [Glitch]
+040A5894 48000008
+
+Rings Don't Decrease When Attacked [Glitch]
+040A5870 60000000
+
+Ring Decrease then Rings [Glitch]
+040A5854 4800000C
+040A5868 48000008
+
+Boost Gauge Max on Increase [Glitch]
+0404999C 48000018
+040499A4 60000000
+
+Invincibility [Glitch]
+C2047018 00000002
+38000002 98030013
+80030010 00000000
+
+Wiimote+Nunchuck Moon Jump [Glitch]
+0404E268 807E0014
+2881090A F7FF0800
+C204E268 00000003
+807E0014 3D8042D9
+618C6A3F 91830010
+60000000 00000000
+E0000000 80008000
+
+Wiimote Moon Jump [Glitch]
+0404E268 807E0014
+2881090A FEFF0100
+C204E268 00000003
+807E0014 3D8042D9
+618C6A3F 91830010
+60000000 00000000
+E0000000 80008000
+
+Classic Controller Moon Jump [Glitch]
+0404E268 807E0014
+2881096A FFEF0010
+C204E268 00000003
+807E0014 3D8042D9
+618C6A3F 91830010
+60000000 00000000
+E0000000 80008000
+
+Gamecube Controller Moon Jump [Glitch]
+0404E268 807E0014
+287C6512 FFFE0001
+C204E270 00000003
+807E0014 3D8042D9
+618C6A3F 91830010
+60000000 00000000
+E0000000 80008000
+
+Universal Codes for Sonic Colors Universal
+
+No Sound [CosmoCortney]
+047D652C 00000000
+
+No HUD [CosmoCortney]
+04748F3C 42000000
+Removes many things from the screen like the displayed number of rings, lives and so on. In the Game Menu, too. It is a bit difficulty to navigate on the planet selection screen
+
+Insane Fast Jumps [CosmoCortney]
+048F65E4 42500000
+do a double jump (pressing A for 2 times) to get an insane fast boost. It's required to hold the main stick in the direction you want to move to
+
+Giant Red Robot [CosmoCortney]
+048F5EF4 41000000
+
+Small Red Robots [CosmoCortney]
+048F5EF4 3E000000
+
+Confetti Size modifier (Tropical Resort only) [CosmoCortney]
+047473A4 42000000
+0474739C 42000000
+04747398 42000000
+04747390 42000000
+047434C4 42000000
+
+Sonic Size Modifier [CosmoCortney]
+04747C28 40000000
+0474782C 3F900000
+These 2 lines Modifie all 3 axis, but the sizes always change a bit

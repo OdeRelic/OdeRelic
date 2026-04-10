@@ -1,0 +1,23 @@
+ROMJ08
+Monster Hunter G
+
+9,999,999 Z [savage]
+04758838 0098967F
+E0000000 80008000
+Offline only
+
+Account name change [savage]
+047320E4 XXXXXXXX
+047320E8 XXXXXXXX
+047320EC XXXXXXXX
+047320F0 XXXXXXXX
+047320F4 XXXXXXXX
+Use ASCII - Hex for X's http://geckocodes.org/index.php?arsenal=3
+
+Player tag Name change [savage]
+0470AD50 XXXXXXXX
+0470AD54 XXXXXXXX
+0470AD58 XXXXXXXX
+0470AD5C XXXXXXXX
+0470AD60 XXXXXXXX
+Use ASCII - Hex for X's http://geckocodes.org/index.php?arsenal=3

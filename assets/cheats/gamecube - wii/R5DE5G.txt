@@ -1,0 +1,10 @@
+R5DE5G
+Flip's Twisted World
+
+infinite health [wiiztec]
+0409C630 60000000
+
+collect 1 gold coin to have 9999 [wiiztec]
+C20A8E80 00000002
+3800270F B0033B38
+60000000 00000000

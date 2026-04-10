@@ -1,0 +1,14 @@
+PCOP
+Psychosis
+
+Unlimited Lives [Crapulecorp]
+42000000 90000000
+005709D0 0000000A
+E0000000 80008000
+*Code ported from GMO Ntsc Usa Version*
+
+Invincibility [Crapulecorp]
+42000000 90000000
+0057037B 00000010
+E0000000 80008000
+*Code ported from ReyVGM PC Engine Version*

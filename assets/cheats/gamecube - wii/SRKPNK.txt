@@ -1,0 +1,27 @@
+SRKPNK
+Remington Dangerous Animals
+
+Unlimited Health [Crapulecorp]
+0401D73C 60000000
+
+No Reload/Unlimited Ammo [Crapulecorp]
+0407E020 38040000
+
+Semi Rapid Fire [Crapulecorp]
+0407D078 4800000C
+*Code ported from Thomas83Lin Ntsc Usa Version*
+
+Rapid Fire [Crapulecorp]
+040122C0 60000000
+0407D078 4800000C
+*Code ported from Thomas83Lin Ntsc Usa Version*
+
+If Increase Max Score (99 999) [Crapulecorp]
+C201D658 00000002
+3C000001 6000869F
+90030000 00000000
+
+Unlimited Usage Of Wiley Vision [Crapulecorp]
+C201D694 00000002
+38800064 908300CC
+60000000 00000000

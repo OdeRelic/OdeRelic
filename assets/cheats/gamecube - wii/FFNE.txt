@@ -1,0 +1,44 @@
+FFNE
+Mega Man 4
+
+Inf Health (ported from ZiT) [Thomas83Lin]
+003E1630 0000009C
+
+Moon Jump (ported from ZiT) [Thomas83Lin]
+2822608A FEFF0100
+003E1970 00000004
+E0000000 80008000
+
+Infinite Energy (ported from ZiT) [Thomas83Lin]
+083E1631 0000009C
+000C0001 00000000
+
+Infinite Lives (ported from ZiT) [Thomas83Lin]
+003E1621 00000009
+
+Infinite Tank (ported from ZiT) [Thomas83Lin]
+003E1622 00000009
+
+Invincible (ported from ZiT) [Thomas83Lin]
+003E15BC 00000023
+
+Infinite Lives [ZiT]
+004E2401 00000009
+
+Infinite Health [ZiT]
+004E2410 0000009C
+
+Infinite Energy [ZiT]
+084E2411 0000009C
+000C0001 00000000
+
+Infinite Tank [ZiT]
+004E2402 00000009
+
+Invincible [ZiT]
+004E239C 00000023
+
+Moon Jump [ZiT]
+2822608A FEFF0100
+004E2750 00000004
+E0000000 80008000

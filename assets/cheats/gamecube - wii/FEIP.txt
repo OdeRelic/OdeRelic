@@ -1,0 +1,61 @@
+FEIP
+City Connection
+
+Infinite Lives [Crapulecorp]
+003660E2 00000007
+*Code ported from ZiT Ntsc Jap Version*
+
+Infinite Oil [Crapulecorp]
+003660E4 00000009
+
+Invincible [Crapulecorp]
+003660A3 00000000
+*Code ported from ZiT Ntsc Jap Version*
+
+High Jump
+
+High Jump (Press X) [Crapulecorp]
+28246958 FFF70008
+00366071 00000023
+E0000000 80008000
+*Classic Controller*
+*Code ported from ZiT Ntsc Jap Version*
+
+High Jump (Press B) [Crapulecorp]
+2812DAE6 FEFF0100
+00366071 00000023
+E0000000 80008000
+*GameCube Controller*
+*Code ported from ZiT Ntsc Jap Version*
+
+Speed Up
+
+Speed Up (Press Up/Down) [Crapulecorp]
+82000000 803660A4
+28246958 BFFF4000
+86000000 00000002
+28246959 FFFE0001
+86000000 FFFFFFFE
+E0000000 80008000
+84000000 803660A4
+*Classic Controller*
+*Code ported from ZiT Ntsc Jap Version*
+
+Speed Up (Press Up/Down) [Crapulecorp]
+82000000 803660A4
+2812DAE6 FFFB0004
+86000000 00000002
+2812DAE6 FFF70008
+86000000 FFFFFFFE
+E0000000 80008000
+84000000 803660A4
+*GameCube Controller*
+*Code ported from ZiT Ntsc Jap Version*
+
+Button Activator
+
+Classic Controller [Crapulecorp]
+28246958 YYYYZZZZ
+
+GameCube Controller [Crapulecorp]
+2812DAE6 YYYYZZZZ

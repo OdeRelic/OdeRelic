@@ -1,0 +1,19 @@
+RQCEAF
+The Munchables
+
+Must be On [Thomas83Lin]
+04493978 4BB6DF30
+
+9999 Meals [Thomas83Lin]
+0457DD0C 0000270F
+
+Can't be Made Small [Thomas83Lin]
+006C1EBA 00000003
+
+Moon jump Press X [Thomas83Lin]
+28601D7A FFF70008
+046BFF10 43D1C8DA
+E0000000 80008000
+*Classic Controller Only*
+
+Use GXDraw Hook

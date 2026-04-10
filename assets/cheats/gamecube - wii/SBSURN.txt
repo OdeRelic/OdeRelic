@@ -1,0 +1,47 @@
+SBSURN
+Remington Super Slam Hunting North America
+
+Unlimited Health [Crapulecorp]
+C20670CC 00000002
+38000003 901F01E0
+60000000 00000000
+
+No Reload/Unlimited Ammo [Crapulecorp]
+0405BF0C 38030000
+
+Max Score [Crapulecorp]
+C2065660 00000002
+3C00000F 6000423F
+901F05A4 00000000
+
+Max Chain [Crapulecorp]
+C205FA54 00000002
+380003E7 901A019C
+60000000 00000000
+
+Chain don't Break [Crapulecorp]
+040601E4 60000000
+*Except If You Shoot The Wrong Animal*
+*Code Ported From Savage Ntsc Usa Version*
+
+Max Number Of Kills (All Requiered For Clearing Stage) [Crapulecorp]
+C203EF24 00000002
+38000063 90060050
+60000000 00000000
+
+Refill Hunter Vision (Press 1) [Crapulecorp]
+2833B70A FDFF0200
+033EBB84 00003F80
+E0000000 80008000
+*WiiMote*
+
+Unlimited Hunter Vision (Press 1 ON/OFF) [Crapulecorp]
+2833B70A FDFF0200
+CC000000 00000000
+033EBB84 00003F80
+E0000000 80008000
+*WiiMote*
+
+Button Activator [Crapulecorp]
+2833B70A YYYYZZZZ
+*WiiMote*

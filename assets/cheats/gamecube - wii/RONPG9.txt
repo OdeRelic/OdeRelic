@@ -1,0 +1,66 @@
+RONPG9
+Onechanbara Bikini Zombie Slayers
+
+Infinite Points [Apache81]
+0403BE2C 60000000
+
+Unrestricted Camera Zoom (View Mode) [Yamishira]
+046C0BEC 3F800000
+
+Invisible Enemies [Yamishira]
+04079288 60000000
+043D7B1C C1B00000
+043D7B20 C1B00000
+
+Big Players [Yamishira]
+043F717C 3FF00000
+044004C0 3FF00000
+
+Infinite Ammo (Reiko) [Yamishira]
+004095F7 00000014
+004095FB 0000003C
+Major thanks to James0x57 for helping me with code types, and how to test these
+
+Infinite / Max Items
+
+Infinite Cure Gem [Yamishira]
+004097F3 00000063
+
+Infinite Power Gem [Yamishira]
+004097F7 00000063
+
+Infinite Rapid Gem [Yamishira]
+004097FB 00000063
+
+Infinite Mystic Necklace [Yamishira]
+00409807 00000063
+
+Infinite Bloody Lump [Yamishira]
+004087FF 00000063
+
+Infinite Goddess Statue Fragment [Yamishira]
+00409803 00000063
+
+Infinite Recovery Gem [Yamishira]
+0040980B 00000063
+
+Infinite Upgrade Points
+
+Aya [Yamishira]
+023954FA 000003E7
+
+Saki [Yamishira]
+02395D86 000003E7
+
+Reiko [Yamishira]
+02396612 000003E7
+
+Misery [Yamishira]
+02396E9E 000003E7
+
+Infinite Health [Yamishira]
+043F985C 461C4000
+04402BA0 461C4000
+
+Infinite Jumps [Yamishira]
+040879EC 60000000

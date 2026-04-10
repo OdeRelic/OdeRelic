@@ -1,0 +1,6 @@
+WRIP
+Rainbow Island Towering Adventure
+
+Button Activator: 2856FDB2 YYYYZZZZ
+
+Y-Value (FFFF-ZZZZ=YYYY) FFFF-0400=FBFF

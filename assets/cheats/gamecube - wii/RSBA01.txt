@@ -1,0 +1,588 @@
+RSBA01
+Super Smash Bros. Brawl
+
+Button activator master codes
+
+Wii Remote [Bully@Wiiplaza]
+F6000001 80008180
+70E09FFF 807F0000
+D2000004 00000002
+807F0000 3D808000
+B06C1602 00000000
+E0000000 80008000
+
+Classic Controller Pro [Bully@Wiiplaza]
+F6000001 80008180
+7D8643D6 A0C5002A
+D2000004 00000002
+A0C5002A 3D808000
+B0CC15FE 00000000
+E0000000 80008000
+
+GameCube Controller [Bully@Wiiplaza]
+F6000001 80008180
+A0060000 901F0000
+D2000008 00000002
+A0060000 3D808000
+B00C1600 00000000
+E0000000 80008000
+*Tutorial: http://www.youtube.com/watch?v=5RnICD5E3mc
+
+Button activators that require their master code to be functional
+
+Wii Remote [Bully@Wiiplaza]
+28001602 YYYYZZZZ
+
+Classic Controller Pro [Bully@Wiiplaza]
+280015FE YYYYZZZZ
+
+GameCube Controller [Bully@Wiiplaza]
+28001600 YYYYZZZZ
+
+WiFi codes that require "host" to work
+
+Assist Trophy Modifier [Bully@Wiiplaza]
+F6000001 80008180
+3B7B0008 807C019C
+D2000008 00000002
+3C00IIII 6000IIII
+60000000 00000000
+E0000000 80008000
+*IIIIIIII = Assist Trophy value*
+*Credits to Deathwolf*
+
+Pokémon Ball Modifier [Bully@Wiiplaza]
+F6000001 80008180
+807C0198 1C000218
+D2000010 00000002
+3C00PPPP 6000PPPP
+60000000 00000000
+E0000000 80008000
+*PPPPPPPP = Pokémon value*
+*Credits to Deathwolf*
+
+WiFi Damage Ratio Modifier [Bully@Wiiplaza]
+F6000001 80008180
+88DE0005 98DF0004
+14000008 38A000QQ
+E0000000 80008000
+*QQ = 01 (0.1) till FF (25.5)*
+*Video: http://www.youtube.com/watch?v=Jjlu5iBdbA0
+
+WiFi codes that require host to work and (only) apply to all other players in the room
+
+Music Modifier [Bully@Wiiplaza]
+F6000001 80008180
+B0040076 80050008
+D200000C 00000002
+3C00FF00 6000MMMM
+60000000 00000000
+E0000000 80008000
+*MMMM = Music value*
+*Also working for yourself*
+*Credits to Deathwolf*
+
+Force Specific Character [Bully@Wiiplaza]
+F6000001 80008180
+906400A4 900400A0
+D2000010 00000002
+906400A8 398000KK
+998400AA 00000000
+D2000020 00000002
+906400B0 398000KK
+998400B2 00000000
+D2000030 00000002
+906400B8 398000KK
+998400BA 00000000
+E0000000 80008000
+*KK = Character value*
+*The 1st KK's are for P1, the 2nd for P2 and the 3rd for P3 (on same away Wii)*
+*Thanks to Kplmondo for making me aware of previous flaw in the code (not affecting all players on same away Wii)*
+*Credits to Deathwolf*
+
+Force Specific Character Color [Bully@Wiiplaza]
+F6000001 80008180
+906400A4 900400A0
+D2000018 00000002
+3980000L 998400AB
+80650040 00000000
+D2000028 00000002
+3980000L 998400B3
+80650048 00000000
+D2000038 00000002
+3980000L 998400BB
+88050050 00000000
+E0000000 80008000
+*L = Color value*
+*The 1st L is for P1, the 2nd for P2 and the 3rd for P3 (on same away Wii)*
+*Thanks to Kplmondo for making me aware of previous flaw in the code (not affecting all players on same away Wii)*
+*Credits to Deathwolf*
+
+Force Specific Team Color [Bully@Wiiplaza]
+F6000001 80008180
+906400A4 900400A0
+D2000014 00000002
+900400AC 3980000T
+998400AC 00000000
+D2000024 00000002
+900400B4 3980000T
+998400B4 00000000
+D2000034 00000002
+900400BC 3980000T
+998400BC 00000000
+E0000000 80008000
+*T = Team Color value, see below*
+*The 1st TT's are for P1, the 2nd for P2 and the 3rd for P3 (on same away Wii)*
+*Thanks to Kplmondo for making me aware of previous flaw in the code (not affecting all players on same away Wii)*
+
+WiFi codes that work all the time, no matter if host or not
+
+Frozen Character Selection Timer [Bully@Wiiplaza]
+F6000001 80008180
+2C04012C 909E0618
+14000004 60000000
+E0000000 80008000
+*Video: http://www.youtube.com/watch?v=s1hfXzRZuII
+
+Frozen Stage Selection Timer [Bully@Wiiplaza]
+F6000001 80008180
+2C04012C 909E607C
+14000004 60000000
+E0000000 80008000
+
+Frozen Result Screen Timer [Bully@Wiiplaza]
+F6000001 80008180
+3804003B 909F0664
+14000004 60000000
+E0000000 80008000
+
+Music Modifier [Bully@Wiiplaza]
+F6000001 80008180
+1C000218 7C7F0214
+D2000040 00000002
+3CC0FF00 60C6MMMM
+60000000 00000000
+E0000000 80008000
+*MMMM = Music values*
+*If host, all others will still hear the default music*
+*Thanks to Kplmondo for testing with me*
+*Credits to Deathwolf*
+
+Item Spawn Ratio Modifier [Bully@Wiiplaza]
+F6000001 80008180
+80A3000C 7CC00038
+1400001C 3800000R
+E0000000 80008000
+*R values*
+0 = None
+1 = Low
+2 = Med
+3 = High
+4 = Item Rain
+*Credits to Corey64*
+*Freezes very easily*
+*Video: http://www.youtube.com/watch?v=3LQulWY8_aY
+
+Override Other Item Spawn Ratio Options [Bully@Wiiplaza]
+F6000001 80008180
+88C700C6 80A7008C
+1400000C 3880000R
+E0000000 80008000
+*R value, see above*
+*Thanks to Kplmondo for helping to find this code*
+*Can be used with "Item Spawn Ratio Modifier" to force any ratio all the time*
+
+Universal Stage Vote Modifier [Bully@Wiiplaza]
+F6000001 80008180
+38A00000 7CA32B78
+1400002C 386000SS
+E0000000 80008000
+*SS = Stage value*
+*Offline compatible*
+*Credits to Deathwolf*
+*Video: http://www.youtube.com/watch?v=BEJH0UjJkR4
+
+Your Stage Is Always Played [Bully@Wiiplaza]
+F6000001 80008180
+906400B8 900400BC
+D200001C 00000002
+3D809370 880C00A3
+980400C2 00000000
+E0000000 80008000
+F6000001 80008180
+907D0258 80FD0200
+D2000000 00000002
+907D0258 3D809370
+906C00A0 00000000
+E0000000 80008000
+*Incompatible with "Override Other Stage Votes"*
+*Won't always work on "Anyone Brawl"*
+
+Override Other Stage Votes [Bully@Wiiplaza]
+F6000001 80008180
+906400B8 900400BC
+14000018 380000SS
+E0000000 80008000
+*SS = Stage value*
+*Thanks to Kplmondo for helping to find this code*
+*Can be used with "Stage Vote Modifier" to force any stage all the time*
+*Won't always work on "Anyone Brawl"*
+
+Battle Character Modifier [Bully@Wiiplaza]
+F6000001 80508100
+7C7C1B78 7CBD2B78
+14000170 38A000KK
+E0000000 80008000
+*KK = Character Value*
+*Credits to Deathwolf*
+*Video: http://www.youtube.com/watch?v=FaGsT_t_sok
+
+Character Color Selection Modifier [Bully@Wiiplaza]
+F6000001 80008180
+809801B8 7F03C378
+14000014 3BA0000L
+14000014 3B80000L
+E0000000 80008000
+*L = Color value*
+*Note: If your game is PAL, delete the second "14" line, otherwise delete the first "14" line*
+*Video: http://www.youtube.com/watch?v=bpjklxlkcEc
+
+Character Team Color Selection Modifier [Bully@Wiiplaza]
+F6000001 80008180
+809801C0 38600015
+14000014 3800000T
+140000F0 3880000T
+E0000000 80008000
+*T = Team Color value*
+0 = Red
+1 = Blue
+2 = Green
+*Both T's must be identical*
+
+WiFi Waiting Room Codes
+
+Character Modifier [Bully@Wiiplaza]
+F6000001 80008100
+93D10020 9BD10013
+14000020 380000KK
+14000E9C 386000KK
+14001F1C 386000KK
+14002C40 386000KK
+F6000001 80008100
+989E0016 881D00B8
+14000004 380000KK
+E0000000 80008000
+*KK = Character Values*
+*You're supposed to fill out all KK values with the same value*
+*Video: http://www.youtube.com/watch?v=-t2QxlJlhL4
+
+Stage Modifier [Bully@Wiiplaza]
+F6000001 80358100
+7C701B78 7E238B78
+14000020 380000SS
+14000E88 380000SS
+14001EF0 380000SS
+14002C08 380000SS
+F6000001 80008100
+38800000 981E0008
+14000008 380000SS
+E0000000 80008000
+*SS = Stage Value*
+*You're supposed to fill out all SS values with the same value*
+*Credits to spunit262*
+*Video: http://www.youtube.com/watch?v=UkjqchQgILE
+
+Music Modifier [Bully@Wiiplaza]
+F6000001 80008100
+80630040 88030014
+14000034 3863MMMM
+E0000000 80008000
+*MMMM = Music Value*
+*Credits to spunit262*
+*Only works on "WiFi Waiting Room" stage*
+*Video: http://www.youtube.com/watch?v=o48UgrQrLcY
+
+Default Selection Modifiers
+
+Difficulty [Bully@Wiiplaza]
+F6000001 80008180
+5400FF7E 901E05E0
+14000010 3800000X
+E0000000 80008000
+*X Values*
+0 = Easy / Target Smash!! Level 1
+1 = Medium / Target Smash! Level 2
+2 = Hard / Target Smash! Level 3
+3 = Very Hard / Target Smash! Level 4
+4 = Intense / Target Smash! Level 5
+
+Lives [Bully@Wiiplaza]
+F6000001 80008180
+5400FF7E 901E05E0
+140002A4 3800000X
+E0000000 80008000
+*X = Hex (0 - 5)*
+
+Character [Bully@Wiiplaza]
+F6000001 80008180
+80040028 938100D0
+14000008 388000XX
+E0000000 80008000
+*XX Values*
+00 = Mario
+01 = Donkey Kong
+02 = Link
+03 = Samus
+05 = Yoshi
+06 = Kirby
+07 = Fox
+08 = Pikachu
+09 = Luigi
+0A = Captain Falcon
+0B = Ness
+0C = Bowser
+0D = Peach
+0E = Zelda
+10 = Ice Climbers
+11 = Marth
+12 = Mr. Game & Watch
+13 = Falco
+14 = Ganondorf
+15 = Wario
+16 = Meta Knight
+17 = Pit
+18 = Olimar
+19 = Lucas
+1A = Diddy Kong
+1B = Pokémon Trainer
+1F = King Dedede
+20 = Lucario
+21 = Ike
+22 = R.O.B.
+23 = Jigglypuff
+24 = Toon Link
+25 = Wolf
+26 = Snake
+27 = Sonic
+28 = Default
+29 = Random
+*Video: http://www.youtube.com/watch?v=0pmVn_iog2A
+
+Color [Bully@Wiiplaza]
+F6000001 80008180
+80040028 938100D0
+14000028 3B80000X
+E0000000 80008000
+*X = Color Value*
+
+Team Color [Bully@Wiiplaza]
+F6000001 80008180
+80040028 938100D0
+1400003C 3920000X
+E0000000 80008000
+*"Team Battle" must be selected by default*
+*X Values*
+0 = Red
+1 = Blue
+2 = Green
+
+Name [Bully@Wiiplaza]
+F6000001 80008180
+80040028 938100D0
+14000044 38E0XXXX
+E0000000 80008000
+*XXXX Values*
+FFFF = Default
+0000 = 1st Custom Name
+0001 = 2nd Custom Name
+...
+
+Other Codes
+
+Offline: Character Replacement [Bully@Wiiplaza]
+F6000001 80008180
+981F0016 881F0009
+D200001C 00000003
+887E00B8 2C0300XX
+40820008 386000YY
+60000000 00000000
+E0000000 80008000
+*XX = Character to replace*
+*YY = Character instead*
+
+Offline: Stage Modifier [Bully@Wiiplaza]
+F6000001 80008180
+80BF03AC 80050254
+1400003C 380000SS
+E0000000 80008000
+*SS = Stage Value*
+*Credits to Deathwolf*
+
+Offline: Item Spawn Ratio Modifier [Bully@Wiiplaza]
+F6000001 80008180
+901F0034 7C801838
+1400000C 3800000R
+E0000000 80008000
+*R value, see above*
+*Freezes very easily*
+
+Offline: Damage Ratio Modifier [Bully@Wiiplaza]
+F6000001 80008180
+3BDE005C B01B00BA
+14000010 388000QQ
+E0000000 80008000
+*QQ value, see above*
+
+Offline Brawl: Game Mode Modifier [Bully@Wiiplaza]
+F6000001 80008180
+3B000004 3B200000
+14000004 3B2000GG
+E0000000 80008000
+*Credits to Jose Gallardo & Phantom Wings*
+*GG values see below*
+
+GameCube Controller: Button Rapid Fire [Bully@Wiiplaza]
+F6000001 80008180
+A0060000 901F0000
+D200000C 00000006
+39C0ZZZZ 7DCE0038
+825F0A94 2C120001
+40800010 3A520001
+7C0E0050 48000008
+3A400000 925F0A94
+901F0004 00000000
+E0000000 80008000
+*ZZZZ = Button to rapid fire while pressed*
+*Video: http://www.youtube.com/watch?v=VnFJdkwQjI0
+
+Wii Remote: Button Rapid Fire [Bully@Wiiplaza]
+F6000001 80008180
+70E09FFF 807F0000
+D2000008 00000006
+51000464 3960ZZZZ
+7D6B0038 819FFFCE
+2C0C0001 40800010
+398C0001 7C0B0050
+48000008 39800000
+919FFFCE 00000000
+E0000000 80008000
+*ZZZZ = Button to rapid fire while pressed*
+
+Wii Remote: God's Controller [Bully@Wiiplaza]
+F6000001 80008180
+7C032A78 901F0000
+D2000004 00000004
+3D809376 2C1B0000
+4082000C 900C30D0
+48000008 800C30D0
+901F0000 00000000
+E0000000 80008000
+*P1 every other Wii Remote*
+*Video: http://www.youtube.com/watch?v=ARfjd15jcBE
+
+Universal: Music Modifier [Bully@Wiiplaza]
+F6000001 80008180
+5780C00E 7C001B78
+D2000004 00000002
+3C00FF00 6000MMMM
+60000000 00000000
+E0000000 80008000
+*MMMM = Music Value*
+*Working offline, online as host and on waiting room stage (only if it's replaced with another stage because of a stage modifier code)*
+*Credits to Deathwolf*
+
+Universal: Character Selection Modifier [Bully@Wiiplaza]
+F6000001 80008180
+88040071 7C030000
+1400002C 386000KK
+E0000000 80008000
+*KK = Character Value*
+*Offline compatible*
+*Video: http://www.youtube.com/watch?v=txDr_epi2oM
+
+Custom Stage Testing: Music Modifier [Bully@Wiiplaza]
+F6000001 80008180
+A0030018 901E00EC
+14000000 3800MMMM
+E0000000 80008000
+*MMMM = Music value*
+
+Custom Stage Testing: Character Modifier [Bully@Wiiplaza]
+F6000001 80008180
+7FC3F378 981D0098
+D2000004 00000002
+3800PPPP 981D0098
+38000000 00000000
+E0000000 80008000
+*PPPP = Character value*
+
+Custom Stage: Battle Music Modifier [Bully@Wiiplaza]
+F6000001 80008180
+981F0000 A0030018
+14000004 3800MMMM
+E0000000 80008000
+*MMMM = Music value*
+*Video: http://www.youtube.com/watch?v=GQ7FWYhtQXM
+
+WiFi (Public) Team Battle: Game Mode Modifier [Bully@Wiiplaza]
+F6000001 80008180
+3AE00011 3B200003
+14000000 3AE000GG
+E0000000 80008000
+*Credits to Jose Gallardo & Phantom Wings*
+*GG values see below*
+*Video: http://www.youtube.com/watch?v=7t5ZoGQv_-8
+
+WiFi (Friends) Brawl: Game Mode Modifier [Bully@Wiiplaza]
+F6000001 80008180
+7F43D378 38910014
+14000040 380000GG
+E0000000 80008000
+*Credits to Jose Gallardo & Phantom Wings*
+*GG values*
+00 = (Offline) Brawl
+01 = (Offline) Loser Out (Can't play or exit)
+02 = (Offline) Special Brawl
+04 = (Offline) Classic
+05 = (Offline) All-Star
+06 = (Offline) Boss Battles
+07 = (Offline) Target Smash!!
+08 = (Offline) Home-Run Contest
+09 = (Offline) Multi-Man Brawl
+0A = (Offline) Training
+0B = (Offline) Events
+0C = (WiFi) Brawl
+0D = (WiFi) Team Multi-Man Brawl
+0E = (WiFi) Home-Run Contest
+0F = (WiFi) Boss Battles
+10 = (WiFi) Basic Brawl
+11 = (WiFi) Team Battle
+*Video: http://www.youtube.com/watch?v=5MSgZzQgCKs
+
+Disable Time Limit On VC Games [brkirch]
+F6000001 80008010
+2C1F0001 4082009C
+30000004 4082009C
+C0000000 00000006
+82EF0024 830F0028
+92EF0038 930F003C
+92EF0060 930F0064
+92EF0088 930F008C
+4E800020 F6000001
+80008010 00000000
+E2100000 00000000
+F6000001 80008010
+41820028 38610088
+30000000 41820028
+14000000 48000028
+E2100001 00000000
+F6000001 80008010
+418200A4 48000080
+30000028 4182000C
+14000028 4800000C
+E2100001 00000000
+F6000001 80008010
+913E0130 913E0134
+30000050 41800028
+14000050 48000028
+E0000000 80008000

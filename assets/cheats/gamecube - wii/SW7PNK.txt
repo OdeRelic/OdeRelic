@@ -1,0 +1,26 @@
+SW7PNK
+Western Heroes
+
+No Reload Player 1 [Crapulecorp]
+0404085C 34000000
+
+If Increase Max Score Player 1 [Crapulecorp]
+C2040784 00000002
+3C00000F 6000423F
+90030018 00000000
+
+Unlimited Health Player 1 [Crapulecorp]
+0409C78C 60000000
+
+Unlimited Health Player 1 (Press 1 ON/OFF) [Crapulecorp]
+0409C78C 60000000
+284962C2 FDFF0200
+CC000000 00000000
+0409C78C D0230038
+E0000000 80008000
+*WiiMote*
+
+Button Activator
+
+WiiMote Player 1 [Crapulecorp]
+284962C2 YYYYZZZZ

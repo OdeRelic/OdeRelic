@@ -1,0 +1,20 @@
+MBDP
+Golden Axe II
+
+P1 Unlimited Health [GMO]
+02E3683E 00000510
+
+P1 Unlimited Lives [GMO]
+02E36880 00000303
+
+P1 Unlimited Magic Bottles [GMO]
+02E36882 00000404
+
+P2 Unlimited Health [GMO]
+02E368E2 00000510
+
+P2 Unlimited Lives [GMO]
+02E36924 00000303
+
+P2 Unlimited Magic Bottles [GMO]
+02E36926 00000404

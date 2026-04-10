@@ -1,0 +1,47 @@
+SOAE52
+Cabela's Hunting Expeditions
+
+Important: Use OSSleapThreat HookType
+
+No Reload [Crapulecorp]
+040C9EC0 60000000
+
+No Reload (Hold B Press 1 ON/OFF) [Crapulecorp]
+28A20B3A F9FF0600
+040C9EC0 60000000
+CC000000 00000000
+040C9EC4 90030004
+E0000000 80008000
+*WiiMote-NunChuck*
+
+GP Points Never Decrease [Crapulecorp]
+42000000 90000000
+0215E44E 00000000
+E0000000 80008000
+
+GP Points Never Decrease (ASM Version) [Crapulecorp]
+04203438 60000000
+
+GP Points Never Decrease (Hold B And Press - ON/OFF) [Crapulecorp]
+28A20B3A EBFF1400
+04203438 60000000
+CC000000 00000000
+04203438 9003000C
+E0000000 80008000
+*WiiMote-NunChuck*
+*ASM Version*
+
+Unlimited Time [Crapulecorp]
+04156B40 60000000
+
+Unlimited Time (Hold B And Press 2 ON/OFF) [Crapulecorp]
+28A20B3A FAFF0500
+04156B40 60000000
+CC000000 00000000
+04156B40 D05E0014
+E0000000 80008000
+*WiiMote-NunChuck*
+
+Button Activator [Crapulecorp]
+28A20B3A YYYYZZZZ
+*WiiMote-NunChuck*

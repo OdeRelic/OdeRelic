@@ -1,0 +1,14 @@
+RSLPAF
+Soul Calibur Legends
+
+P1 Infinite Blue Power [Dr.Pepper]
+04414A24 000004B0
+
+P2 Infinite Energy [Dr.Pepper]
+04414AB8 000003E8
+
+P2 Infinite Blue Power [Dr.Pepper]
+0441D434 000004B0
+
+inf health [naed]
+1240C0AA 0000FFFF

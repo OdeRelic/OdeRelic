@@ -1,0 +1,32 @@
+RNHE41
+NO MORE HEROES
+
+All Lovikov Balls (49) Created by BuckM, posted by [funkamatic]
+4A000000 92000000
+10F070B6 00300001
+E0000000 80008000
+
+Run Forever Created by BuckM, posted by [funkamatic]
+4A000000 92000000
+14F06F7C 3F800000
+E0000000 80008000
+
+Boost Forever Created by BuckM, posted by [funkamatic]
+041C50D4 60000000
+
+Infinite Electricity Created by BuckM, posted by [funkamatic]
+4A000000 92F06000
+140001F8 03E803E8
+14000238 03E803E8
+14000248 03E803E8
+E0000000 80008000
+
+Infinite health (ported from ZiT) [stevenhill627]
+4A000000 92000000
+14F05D04 43070000
+E0000000 80008000
+
+LB$99999999 (money) (ported from ZiT) [stevenhill627]
+4A000000 92000000
+14F06FD4 05F5E0FF
+E0000000 80008000

@@ -1,0 +1,42 @@
+RBUP08
+Resident Evil The Umbrella Chronicles
+
+Unlimited Health [Crapulecorp]
+040F503C D3836C00
+*Ported from ZiT's Ntsc Jap Version*
+
+Mission Time Stop [Crapulecorp]
+0421389C 60000000
+
+If Increase 999 Critical Shots [Crapulecorp]
+C22139A4 00000002
+386003E7 90640134
+60000000 00000000
+
+If Increase 999 Enemies Shots [Crapulecorp]
+C2213938 00000002
+386003E7 9064012C
+60000000 00000000
+
+If Increase 999 Objects Destroyed [Crapulecorp]
+C2213A10 00000002
+386003E7 9064013C
+60000000 00000000
+
+If Decrease 999 Stars [Crapulecorp]
+C2253768 00000002
+388003E7 909F1FDC
+60000000 00000000
+
+Unlimited Health for Player1 and Player2 [Dr.Pepper]
+04BE58A0 00000000
+04BE58B4 00000000
+
+Unlimited Ammo and Grenades [Dr.Pepper]
+041BD084 60000000
+
+Rapid Fire (bypass gun reload) [Dr.Pepper]
+0406C618 60000000
+
+Unlimited Stars [Dr.Pepper]
+044C7AC4 0000FFFF

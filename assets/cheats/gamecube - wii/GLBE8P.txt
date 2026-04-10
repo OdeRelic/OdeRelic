@@ -1,0 +1,32 @@
+GLBE8P
+Home Run King 
+
+Team 1 scores 99
+043DCB68 00630063
+
+Team 2 scores 99
+043DCBDC 00630063
+
+Team 1 scores 0
+043DCB68 00000000
+
+Team 2 scores 0
+043DCBDC 00000000
+
+Batting player has 0 strikes
+043DFAE8 00000000
+
+Batting player has 0 foul balls
+043DFAEC 00000000
+
+Batting player has 0 players out
+043DFAF0 00000000
+
+Batting player has 3 strikes
+043DFAE8 00000003
+
+Batting player has 3 foul balls
+043DFAEC 00000003
+
+Batting player has 3 players out
+043DFAF0 00000003

@@ -1,0 +1,16 @@
+R9OE69
+Tiger Woods PGA Tour 10
+
+Always hole in one [joecamel]
+0436BFB0 38600001
+044BEE0C 38A50000
+
+Infinite putt preview [joecamel]
+0440BD60 3BC00000
+
+Profile 1 max money and skills [joecamel]
+4A000000 92000000
+14F22784 0FFFFFFF
+18F1D67C 7F7F7F7F
+20020004 00000000
+E0000000 80008000

@@ -1,0 +1,11 @@
+EAOP
+King of the Monsters
+
+Unlimited Time [GMO]
+0021799E 000000FF
+
+P1 Unlimited Health [GMO]
+00217A53 0000003C
+
+1-Hit Kill CPU (Enemy1) [GMO]
+00217C53 00000000

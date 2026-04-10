@@ -1,0 +1,153 @@
+RXXE4Q
+Spectrobes: Origins
+
+Inf Health [Thomas83Lin]
+0407D0C8 D0030004
+
+Inf Fossil Health [Thomas83Lin]
+0423B7C4 D04300F4
+0423B7D8 D04300F4
+
+Rallen Level 999 Max Attack [Thomas83Lin]
+032A9B26 000007CF
+
+Jeena Level 999 Max Attack [Thomas83Lin]
+032A9BEA 000007CF
+
+All Spectrobes Level 999 [Thomas83Lin]
+092A2FDC 000007CF
+208300CC 00000000
+
+1st Character Size Modifier 32bit [Thomas83Lin]
+053A77D0 xxxxxxxx
+
+Teleport [Thomas83Lin]
+211EA610 00004000
+82210001 013A7780
+82210002 013A7788
+E0000000 80008000
+211EA610 00000200
+84210001 013A7780
+84210002 013A7788
+E0000000 80008000
+Wiimote & Nunchuck
+Press C to save Coordinates Press 1 to Teleport you back Only teleport back in same area
+
+All Weapons [Thomas83Lin]
+092A2010 00000001
+202F000C 00000000
+May not let a cutscene take place on third planet, if you get stuck just change the 1 at the end of the first line to a 0 to delete all your weapons then after cutscene re-enter Original code
+
+All Items [Thomas83Lin]
+092A2250 00000063
+2003000C 00000000
+092A2254 00000001
+2003000C 00000000
+
+All Minerals [Thomas83Lin]
+092A2484 00000063
+200B000C 00000000
+092A2488 00000001
+200B000C 00000000
+
+All Gear [Thomas83Lin]
+092A22D4 00000063
+2005000C 00000000
+092A22D8 00000001
+2005000C 00000000
+
+First Spectrobe Modifier [Thomas83Lin]
+052A2F60 000000xx
+Spectrobe's do not show up in database unless you Evolve them in incubator
+
+Spectrobe List
+
+71-Tekka
+72-Tekkadon
+73-Tekkadorax
+74-Zen
+75-Gazen
+76-Totsuzen
+77-Hiko
+78-Hikodrake
+79-Hikolossa
+7A-Torga
+7B-Torgazar
+7C-Torgallup
+7D-Zaza
+7E-Zazane
+7F-Zazanero
+80-Komainu
+81-Komanto
+82-Komadoros
+83-Leo
+84-Leopuba
+85-Leozar
+86-Zeni
+87-Zenigor
+88-Zenipyra
+89-Ukabi
+8A-Ukaios
+8B-Ukazeer
+8C-Ryza
+8D-Rygazelle
+8E-Rydrake
+8F-Paga
+90-Pagani
+91-Pagadori
+92-Shakin
+93-Shakor
+94-Shakablad
+95-Tamazoa
+96-Tiazoa
+97-Gokazoa
+98-Zuwa
+99-Zuwaja
+9A-Zuwakrid
+9B-Dongu
+9C-Rapagu
+9D-Daidongu
+A1-Spiko
+A2-Spikan
+A3-Spikanor
+A4-Pepe
+A5-Pepeza
+A6-Pepthraz
+A7-Sabo
+A8-Sabogar
+A9-Saboquill
+AA-Hananomi
+AB-Piximi
+AC-Floarmi
+AD-Dongor
+AE-Dongora
+AF-Dongiga
+B0-Shimanu
+B1-Shimanoto
+B2-Shimadoros
+B3-Mayar
+B4-Mayarex
+B5-Mayarzerra
+B6-Tobasu
+B7-Ketobasu
+B8-Butobasu
+B9-Gorz
+BA-Gorgan
+BB-Gorberus
+BC-Zappi
+BD-Zappira
+BE-Zappizor
+BF-Totemo
+C0-Totemoon
+C1-Totegarda
+C2-Zora
+C3-Bazora
+C4-Yagizora
+C5-Aoi
+C6-Aoba
+C7-Aobasar
+CA-Flamerax
+CD-Mizusar
+D0-Bombzar
+D3-Scarazook
+D6-Optoger

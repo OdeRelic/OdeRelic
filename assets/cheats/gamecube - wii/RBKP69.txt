@@ -1,0 +1,9 @@
+RBKP69
+Spielberg EA Boom Blox
+
+Score Modifier [Patedj]
+040F0DE8 3860xxxx
+Replace x with hex number
+
+Unlimited turns [Patedj]
+040EE1DC 60000000

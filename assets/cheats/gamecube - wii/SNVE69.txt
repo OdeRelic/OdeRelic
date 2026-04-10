@@ -1,0 +1,29 @@
+SNVE69
+Need For Speed: The Run
+
+Inf.Bounty [777eThOd*]
+04AEE840 2E5BF271
+&777&
+This will unlock everything.
+
+Inf. Nos Ep.1 [777eThOd*]
+04E98EB8 60000000
+
+Inf. Car Health Ep.1 [777eThOd*]
+04E98E94 443B8000
+
+Inf.Car Regenerate Faster Ep.1 [777eThOd*]
+04E98EA8 FFFFFFFF
+04E98EB0 FFFFFFFF
+
+Inf. Car Lives Ep.1 [777eThOd*]
+04E98ECC 00000309
+
+Inf. Nos Ep.2 [777eThOd*]
+050207F8 60000000
+
+Inf. Car Health Ep.2 [777eThOd*]
+050207D4 443B8000
+
+Inf. Car Lives Ep.2 [777eThOd*]
+0502080C 00000309

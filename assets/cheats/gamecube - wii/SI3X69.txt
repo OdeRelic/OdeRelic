@@ -1,0 +1,16 @@
+SI3X69
+FIFA 12
+
+15 Goals Home Team [Cajon]
+28135400 EDFF1200
+00949547 0000000F
+009507D7 00000000
+E0000000 80008000
+Give Hometeam 15 goals and Visitorteam 0 by pressing 1 and - on the Wiimote
+
+15 Goals Visitor Team [Cajon]
+28135400 EEFF1100
+00949547 00000000
+009507D7 0000000F
+E0000000 80008000
+Give Visitorteam 15 goals and Hometeam 0 by pressing 2 and - on the Wiimote

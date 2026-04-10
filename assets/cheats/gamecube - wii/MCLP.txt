@@ -1,0 +1,20 @@
+MCLP
+Street Fighter II Special Champion Edition
+
+Disable Timer [GMO]
+00EDD22B 00000000
+
+P1 Unlimited Health [GMO]
+04EDBB40 00B000B0
+
+P1 1-Hit KO (P2 Life Mod) [GMO]
+281BCE82 00001000
+04EDBDC0 00000000
+E0000000 80008000
+WiiMote Press -
+
+P1 1-Hit KO (P2 Life Mod) [GMO]
+281BCEE2 00001000
+04EDBDC0 00000000
+E0000000 80008000
+Classic Press -

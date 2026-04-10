@@ -1,0 +1,31 @@
+QABP
+Ys Book 1 & 2
+
+Ys Book 1
+
+Have All Equipment and Items [GMO]
+42000000 90000000
+00A5C143 000000FF
+04A5C144 FFFFFFFF
+02A5C148 0000FFFF
+E0000000 80008000
+
+Unlimited Health [Crapulecorp]
+42000000 90000000
+00A5C2C7 000000FF
+E0000000 80008000
+*Code portred from caitsith2 Ntsc Usa Version*
+
+Max Exp [Crapulecorp]
+42000000 90000000
+00A5C13F 0000009F
+02A5c140 00008601
+E0000000 80008000
+*Code portred from caitsith2 Ntsc Usa Version*
+
+Unlimited Gold [Crapulecorp]
+42000000 90000000
+00A5C2C5 000000FF
+00A5C2C6 000000FF
+E0000000 80008000
+*Code portred from caitsith2 Ntsc Usa Version*

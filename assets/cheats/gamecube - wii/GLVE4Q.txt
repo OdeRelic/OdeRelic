@@ -1,0 +1,15 @@
+GLVE4Q
+The Chronicles of Narnia
+
+Infinite Health/Ammo
+040DD45C 39690000
+
+Max/Infinite Coins
+0249AAB2 0000270F
+
+Frozen Timer
+024D9364 00004320
+
+All Levels Unlocked
+0849A678 00000002
+200F0003 00000000

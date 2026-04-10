@@ -1,0 +1,13 @@
+RT5E8P
+Sega Superstar Tennis
+
+All Superstar Missions Rank AAA [eric]
+08867910 00000001
+20630008 00000000
+
+Invincible [eric]
+041020F8 386000FF
+04102110 60000000
+
+Always Win Point [eric]
+04112FA0 7FE4FB78

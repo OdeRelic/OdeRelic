@@ -1,0 +1,8 @@
+SS7EFP
+Remington Super Slam Hunting: Africa
+
+Inf Ammo [Jackal]
+0408AB00 90830100
+
+Inf Chain [Jackal]
+0406DA44 60000000

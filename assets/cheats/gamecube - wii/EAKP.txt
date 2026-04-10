@@ -1,0 +1,14 @@
+EAKP
+Burning Fight
+
+Unlimited Time [GMO]
+0225D372 00009900
+
+Invincible [GMO]
+002505D7 00000080
+
+Unlimited Health [GMO]
+02250590 00000100
+
+Infinite Lives [GMO]
+002505A0 00000009

@@ -1,0 +1,15 @@
+WFGJ
+FroggerÅ@Returns
+
+Infinite Lives [ZiT]
+0400D3B4 90640030
+
+Score MAX [ZiT]
+04180FDC 00002710
+
+Invincible [ZiT]
+0018100F 00000000
+
+Time Stop [ZiT]
+0400AF68 90641F1C
+0400ADA0 90851EF4

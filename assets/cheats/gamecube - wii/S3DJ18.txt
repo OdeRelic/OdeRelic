@@ -1,0 +1,18 @@
+S3DJ18
+Deca Sporta 3
+
+File 1 - All Challenges Clear [Glitch]
+08337360 00000001
+00090001 00000000
+
+File 2 - All Challenges Clear [Glitch]
+08337FCC 00000001
+00090001 00000000
+
+File 3 - All Challenges Clear [Glitch]
+08338C38 00000001
+00090001 00000000
+
+File 4 - All Challenges Clear [Glitch]
+083398A4 00000001
+00090001 00000000

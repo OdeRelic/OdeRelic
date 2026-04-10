@@ -1,0 +1,11 @@
+WCJE
+Cocoto Platform Jumper
+
+WiiMote Pad1 [GMO]
+284877F2 YYYYZZZZ
+
+Unlimited Lives [GMO]
+004CADFB 00000063
+
+Unlimited Golden Apples/Health [GMO]
+004CADFF 00000063

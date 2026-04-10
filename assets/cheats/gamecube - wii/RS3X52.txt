@@ -1,0 +1,35 @@
+RS3X52
+Spider-Man 3
+
+Important: Use WiiPad Hook or Kpad Read.
+
+If HP Increase, MAX & Infinite HP ZiT [Crapulecorp]
+C2036C4C 00000003
+2C1F0001 4182000C
+D01C001C 48000008
+D07C001C 00000000
+C2036BCC 00000004
+2C1F0001 4182000C
+D3BC0018 4800000C
+D3DC0018 D3DC0014
+60000000 00000000
+*Same Adresses From ZiT's Ntsc Jap Version*
+
+If POINT Decrease, MAX ZiT [Crapulecorp]
+0403E538 D3830010
+If POINTS increase, please carry out a code of "Code OFF".
+Or please reboot Wii.
+*Same Adress From ZiT's Ntsc Jap Version*
+
+Code OFF ZiT [Crapulecorp]
+0403E538 D3E30010
+*Same Adress From ZiT's Ntsc Jap Version*
+
+TIME METER STOP ZiT [Crapulecorp]
+04081988 60000000
+0403E574 60000000
+*Same Adresses From ZiT's Ntsc Jap Version*
+
+TIME STOP ZiT [Crapulecorp]
+04197770 60000000
+*Same Adress From ZiT's Ntsc Jap Version*

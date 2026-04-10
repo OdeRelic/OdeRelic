@@ -1,0 +1,18 @@
+GCOE52
+Call of Duty Finest Hour 
+
+Infinite Health
+040E919C 38000001
+040E91A0 901F19B8
+
+Infinite Ammo
+040F0258 39290000
+
+Unlock All Cheats
+00315F3B 000000FF
+
+Unlock All Gallery
+00315F3A 000000FF
+
+Eastern Front Levels Open
+04315F58 00000008

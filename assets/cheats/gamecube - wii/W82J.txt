@@ -1,0 +1,12 @@
+W82J
+Jintori Action Taikokenchi Karakuri Shiro no Nazo
+
+Time Stop [ZiT]
+0401C008 D02D9A88
+
+Infinite Life [ZiT]
+040145E4 90830128
+
+Speed Up [ZiT]
+04014654 60000000
+040150F8 60000000

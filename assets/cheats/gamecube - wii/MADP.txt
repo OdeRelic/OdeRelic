@@ -1,0 +1,17 @@
+MADP
+Ecco The Dolphin
+
+Unlimited Health [Crapulecorp]
+00DA8575 00000038
+*Code ported from GMO Ntsc Usa Version*
+
+Unlimited Oxygen [Crapulecorp]
+02DA8576 00000380
+
+Ghost Ecco [Crapulecorp]
+00DA857F 00000011
+*Code ported from Hacc Megadrive Version*
+
+Level Select [Crapulecorp]
+00DA755C 000000XX
+*Code ported from blindpainkiller Megadrive Version*

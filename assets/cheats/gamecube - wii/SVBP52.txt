@@ -1,0 +1,51 @@
+SVBP52
+Battleship
+
+Always Round 1 [Crapulecorp]
+0019B163 00000000
+
+Unlimited Humans Ship Health (Press B ON/OFF) [Crapulecorp]
+281B3602 FBFF0400
+CC000000 00000000
+081A0D18 00006464
+20190070 00000000
+E0000000 80008000
+*WiiMote-NunChuck*
+*Ported From The D3mon's Ntsc Usa Version*
+
+Unlimited Humans Ship Health [Crapulecorp]
+081A0D18 00006464
+20190070 00000000
+*Ported From The D3mon's Ntsc Usa Version*
+
+Unlimited Moves per Ship [Crapulecorp]
+081A0D10 00020000
+20190070 00000000
+*Ported From The D3mon's Ntsc Usa Version*
+
+Infinite Fuel [Crapulecorp]
+081A0D1C 05FFFF03
+20190070 00000000
+*Ported From The D3mon's Ntsc Usa Version*
+
+Unlimited Humans Rockets [Crapulecorp]
+04016054 38830000
+
+Humans Skill Bar Full [Crapulecorp]
+0419B154 00036400
+*Ported From The D3mon's Ntsc Usa Version*
+
+Alien Skill Bars [Crapulecorp]
+0419B11C 00100408
+*Ported From The D3mon's Ntsc Usa Version*
+
+Alien Ship Health [Crapulecorp]
+081A1B18 00000164
+20190070 00000000
+*Ported From The D3mon's Ntsc Usa Version*
+
+Button Activator
+
+Player 1 [Crapulecorp]
+281B3602 YYYYZZZZ
+*WiiMote-NunChuck*

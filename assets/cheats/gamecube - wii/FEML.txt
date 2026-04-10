@@ -1,0 +1,41 @@
+FEML
+Bio Miracle Bokutte Upa
+
+Infinite Lives [Crapulecorp]
+00376492 00000063
+*Code ported from ZiT Ntsc Jap Version*
+
+Infinite Life [Crapulecorp]
+003764A1 00000005
+003764EA 0000000A
+*Code ported from ZiT Ntsc Jap Version*
+
+Time Stop [Crapulecorp]
+003764B7 000000A0
+*Code ported from ZiT Ntsc Jap Version*
+
+Invincible [Crapulecorp]
+0037651A 00000023
+*Code ported from ZiT Ntsc Jap Version*
+
+MoonJump [Crapulecorp]
+281BCF62 FEFF0100
+003764E6 000000FD
+E0000000 80008000
+*Classic Controller*
+*Code ported from ZiT Ntsc Jap Version*
+
+MoonJump [Crapulecorp]
+281BCFC2 FFF70008
+003764E6 000000FD
+E0000000 80008000
+*Classic Controller*
+*Code ported from ZiT Ntsc Jap Version*
+
+Button Activator
+
+WiiMote [Crapulecorp]
+281BCF62 YYYYZZZZ
+
+Classic Controller [Crapulecorp]
+281BCFC2 YYYYZZZZ

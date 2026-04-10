@@ -1,0 +1,110 @@
+SL2J01
+Zero: Shinku No Chou
+
+Button Activator Wiimote+Nunchuck [ukuneko]
+286BE9C0 XXXXYYYY
+
+Infinity Health [ukuneko]
+04125F10 480002B8
+
+Infinite film [ukuneko]
+0412AC70 38800000
+
+Speed modifier (Press Down) [ukuneko]
+045215C4 41C80000
+286BE9C0 FFFB0004
+045215C4 XXXXXXXX
+E0000000 80008000
+*XXXXXXXX : float
+*Def : 41C80000
+
+Invincible [ukuneko]
+04120CE0 38000028
+
+MaxShot [ukuneko]
+0411DA18 D3BE004C
+*The spiritual power always to MAX.
+
+Point 2147483647 pts. [ukuneko]
+0461321C 7FFFFFFF
+
+Instant film change (Wiimote Z+2) [ukuneko]
+0412AC08 60000000
+286BE9C0 DEFF2100
+A8000000 00000000
+82000000 80613558
+86000000 00000001
+84000000 80613558
+28613558 00FF0500
+00613558 00000000
+E0000000 80008000
+*To possession of a camera.
+*Always available for all film.
+*PressWimoteZ+2
+*Type07-->Type14-->Type61-->Type90-->TypeZERO-->Type07....Togle
+
+Unlock NightShop [ukuneko]
+04242110 48000020
+042423F0 48000008
+0425D0B0 60000000
+0425D1E8 60000000
+Unlock Purchase, Camera Parts and Outfit.
+
+Unlock StoryMode [ukuneko]
+045C678C 0000000F
+*Permanent save.
+
+1 Hit Kill [ukuneko]
+0409F440 60000000
+
+Skip Movie [ukuneko]
+04082E10 48000008
+04080440 60000000
+0407FB10 60000000
+0407FD5C 60000000
+*Can skip the movie, Play the first time.
+
+Walk through walls (Hold A) [ukuneko]
+040DCCCC 4182001C
+286BE9C0 F7FF0800
+040DCCCC 4800001C
+E0000000 80008000
+
+Teleport [ukuneko]
+286BE9C0 BFEF4010
+82200001 80614CC0
+82200002 80614CC4
+82200003 80614CC8
+E0000000 80008000
+286BE9C0 B7FF4800
+84200001 80614CC0
+84200002 80614CC4
+84200003 80614CC8
+E0000000 80008000
+*Press C+plus to save position
+*Press C+A to teleport
+
+100% Ghost List [ukuneko]
+085D9F30 00000002
+00EC0008 00000000
+*Permanent save.
+
+Look back C+2 On/Off [ukuneko]
+286BE9C0 BEFF4100
+04521E2C 40590FDB
+040D64B0 60000000
+CC000000 00000000
+04521E2C 40C90FDB
+040D64B0 4081000C
+E0000000 80008000
+*http://i451.photobucket.com/albums/qq233/ukuneko/SL2J/SL2J01-051.png
+
+Hide mini map 2+plus On/Off [ukuneko]
+286BE9C0 FEEF0110
+040D5D14 48000090
+CC000000 00000000
+040D5D14 40820090
+E0000000 80008000
+
+Big head [ukuneko]
+04521E24 41CE0000

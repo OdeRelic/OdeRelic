@@ -1,0 +1,176 @@
+RM3E01
+Metroid Prime 3: Corruption
+
+One Hit Kill [zeldazelda]
+04275C90 D2DF0004
+This also includes boxes. but unfortunately this also affects samus so be carful. This doesn't affect pirates armor but I will fix this soon.
+
+Have All upgrades [zeldazelda]
+08993518 00000001
+2002000C 00000000
+08993548 000000FF
+200C000C 00000000
+049935E0 00000006
+08993698 00000001
+2007000C 00000000
+08993728 000000FF
+20030004 00000000
+08993784 00000001
+2009000C 00000000
+
+Have Power Beam [zeldazelda]
+04993518 00000001
+
+Have Plasma Beam [zeldazelda]
+04993524 00000001
+
+Have Nova Beam [zeldazelda]
+04993530 00000001
+
+Have Ice Missile [zeldazelda]
+04993554 00000001
+
+Have Seeker Missile [zeldazelda]
+04993560 00000001
+
+Have Grabble Lasso [zeldazelda]
+0499356C 00000001
+
+Have Grabble Swing [zeldazelda]
+04993578 00000001
+
+Have Grabble Voltage [zeldazelda]
+04993584 00000001
+
+Have Morph Ball Bomb [zeldazelda]
+04993590 00000001
+
+Have Combat Visor [zeldazelda]
+0499359C 00000001
+
+Have Scan Visor [zeldazelda]
+049935A8 00000001
+
+Have Command Visor [zeldazelda]
+049935B4 00000001
+
+Have X-Ray Visor [zeldazelda]
+049935C0 00000001
+
+Have Space Jump Boots [zeldazelda]
+049935CC 00000001
+
+Have Screw Attack [zeldazelda]
+049935D8 00000001
+
+Have PED Suit [zeldazelda]
+049935E0 00000001
+
+Have PED Suit and Hazard Shield [zeldazelda]
+049935E0 00000006
+
+Have Morph Ball [zeldazelda]
+04993698 00000001
+
+Have Boost Ball [zeldazelda]
+049936A4 00000001
+
+Have Spider Ball [zeldazelda]
+049936B0 00000001
+
+Have Hyper Beam [zeldazelda]
+049936C8 00000001
+
+Have Hyper Missile [zeldazelda]
+049936D4 00000001
+
+Have Hyper Ball [zeldazelda]
+049936E0 00000001
+
+Have Hyper Grabble [zeldazelda]
+049936EC 00000001
+
+Have Ship Grapple [zeldazelda]
+04993728 00000001
+
+Have maximum Ship Missiles and have Ship Missiles [zeldazelda]
+04993730 000000FF
+
+Have infinite Ship Missiles [zeldazelda]
+04993734 000000FF
+
+Have Energy Cell 1 [zeldazelda]
+04993790 00000001
+
+Have Energy Cell 2 [zeldazelda]
+0499379C 00000001
+
+Have Energy Cell 3 [zeldazelda]
+049937A8 00000001
+
+Have Energy Cell 4 [zeldazelda]
+049937B4 00000001
+
+Have Energy Cell 5 [zeldazelda]
+049937C0 00000001
+
+Have Energy Cell 6 [zeldazelda]
+049937CC 00000001
+
+Have Energy Cell 7 [zeldazelda]
+049937D8 00000001
+
+Have Energy Cell 8 [zeldazelda]
+049937E4 00000001
+
+Have Energy Cell 9 [zeldazelda]
+049937F0 00000001
+
+Have maximum Missiles and have Missile Launcher [zeldazelda]
+04993548 000000FF
+
+Infinite Health [brkirch]
+C21C1AE0 00000003
+3C8044BB 38846000
+90830004 C0230004
+60000000 00000000
+
+Infinite Health (Phaaze) [brkirch]
+04161568 60000000
+04154888 60000000
+This code also disables the Phazon increase in corrupted hypermode.
+
+Have Infinite Missiles [brkirch]
+C21BF41C 00000002
+80A30088 90A30084
+38A00001 00000000
+
+Infinite Hypermode [brkirch]
+04161048 4800001C
+04162A8C 60000000
+04162404 48000070
+
+Moon Jump [brkirch]
+C21C1AE4 00000008
+3D808000 818C5000
+3C80805F 80845088
+558CE800 2C0C0000
+40820008 5484083E
+5484A000 2C040000
+4182000C 3C804150
+909E0180 C002A4AC
+60000000 00000000
+C21C2FE4 00000002
+88631428 3CA08000
+90655000 00000000
+
+Universal Codes for Metroid Prime 3: Corruption
+
+Infinite Health [brkirch]
+F6000001 80108020
+90010190 818C0038
+F4000010 F824AB03
+3C8044BB 38846000
+90830004 C0230004
+60000000 00000000
+E0000000 80008000

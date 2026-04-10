@@ -1,0 +1,35 @@
+RHDJ8P
+The House Of The Dead 2 And 3 Return (JP)
+
+The House Of The Dead 2
+
+Infinite LIFE [ZiT]
+044078D4 0000000A
+
+Infinite Bullet [ZiT]
+044078EC 00630000
+
+SCORE MAX [ZiT]
+C20C0898 00000002
+3E000099 3810967F
+9005000C 00000000
+
+The House Of The Dead 3
+
+Infinite Ammo [ZiT]
+0442F364 0000000D
+
+The Number of Times to Shoot a Gun [ZiT]
+0442F374 000000xx
+
+The Number of Times That Made a Hit [ZiT]
+0442F378 000000xx
+
+Infinite LIFE [ZiT]
+0442F29C 00000009
+
+TIME STOP [ZiT]
+045B2814 000F0000
+
+SCORE MAX [ZiT]
+0442F2A4 05F5E0FF

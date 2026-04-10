@@ -1,0 +1,14 @@
+RO7E7D
+Spyro: Eternal Night
+
+Activator [Sh0tGuN2197]
+284DFEE0 0000XXXX
+
+Infinite Health [Sh0tGuN2197]
+0449C4F0 42400000
+
+Infinite Energy [Sh0tGuN2197]
+0449C528 41999999
+
+Infinite Upgrade [Sh0tGuN2197]
+0449C50C 45000000

@@ -1,0 +1,313 @@
+JA6P
+Zombies Ate My Neighbors
+
+Player 1 Codes
+
+Unlimited Lives [Crapulecorp]
+00447F74 00000009
+*Code ported from GMO Ntsc-Usa Version*
+
+Unlimited Health [Crapulecorp]
+00447EE0 0000000A
+
+Always Have "Shoes" Effect [Crapulecorp]
+00447F68 000000FF
+*Code ported from Aether Knight Snes Action Replay Pro Version*
+
+Inf/have Water Gun Ammo [Crapulecorp]
+02447EF4 00009909
+*Code ported from Skiller Ntsc-Usa Version*
+
+Inf/have Fire Extinguisher Ammo [Crapulecorp]
+02447EF6 00009909
+*Code ported from Skiller Ntsc-Usa Version*
+
+Inf/have Alien Bubble Gun Ammo [Crapulecorp]
+02447EF8 00009909
+*Code ported from Skiller Ntsc-Usa Version*
+
+Inf/have Weed Whacker Ammo [Crapulecorp]
+02447EFA 00009909
+*Code ported from Skiller Ntsc-Usa Version*
+
+Inf/have Ancient Artifact Ammo [Crapulecorp]
+02447EFC 00009909
+*Code ported from Skiller Ntsc-Usa Version*
+
+Inf/have Bazooka Ammo [Crapulecorp]
+02447EFE 00009909
+*Code ported from Skiller Ntsc-Usa Version*
+
+Inf/have Soda Cans Ammo [Crapulecorp]
+02447F00 00009909
+*Code ported from Skiller Ntsc-Usa Version*
+
+Inf/have Tomatoes Ammo [Crapulecorp]
+02447F02 00009909
+*Code ported from Skiller Ntsc-Usa Version*
+
+Inf/have Popsicles Ammo [Crapulecorp]
+02447F04 00009909
+*Code ported from Skiller Ntsc-Usa Version*
+
+Inf/have banana Ammo [Crapulecorp]
+02447F06 00009909
+*Code ported from Skiller Ntsc-Usa Version*
+
+Inf/have Dishes Ammo [Crapulecorp]
+02447F08 00009909
+*Code ported from Skiller Ntsc-Usa Version*
+
+Inf/have Silverware Ammo [Crapulecorp]
+02447F0A 00009909
+*Code ported from Skiller Ntsc-Usa Version*
+
+Inf/have Footballs Ammo [Crapulecorp]
+02447F0C 00009909
+*Code ported from Skiller Ntsc-Usa Version*
+
+Inf/have Flamethrower Ammo [Crapulecorp]
+02447F0E 00009909
+*Code ported from Skiller Ntsc-Usa Version*
+
+Inf/have Key [Crapulecorp]
+02447F34 00009909
+*Code ported from Skiller Ntsc-Usa Version*
+
+Inf/have Speed Shoes [Crapulecorp]
+02447F36 00009909
+*Code ported from Skiller Ntsc-Usa Version*
+
+Inf/have Monster Potion [Crapulecorp]
+02447F38 00009909
+*Code ported from Skiller Ntsc-Usa Version*
+
+Inf/have Ghost Potion [Crapulecorp]
+02447F3A 00009909
+*Code ported from Skiller Ntsc-Usa Version*
+
+Inf/have Mystery Potion [Crapulecorp]
+02447F3C 00009909
+*Code ported from Skiller Ntsc-Usa Version*
+
+Inf/have Empty Potion [Crapulecorp]
+02447F3E 00009909
+*Code ported from Skiller Ntsc-Usa Version*
+
+Inf/have Medical Kit [Crapulecorp]
+02447F42 00009909
+*Code ported from Skiller Ntsc-Usa Version*
+
+Inf/have Pandora's Box [Crapulecorp]
+02447F44 00009909
+*Code ported from Skiller Ntsc-Usa Version*
+
+Inf/have Skull Key [Crapulecorp]
+02447F46 00009909
+*Code ported from Skiller Ntsc-Usa Version*
+
+Inf/have Clown Kit [Crapulecorp]
+02447F48 00009909
+*Code ported from Skiller Ntsc-Usa Version*
+
+Player 2 Codes
+
+Unlimited Health [Crapulecorp]
+00447EE2 0000000A
+*Code ported from Aether Knight Snes Action Replay Pro Version*
+
+Unlimited Lives [Crapulecorp]
+00447F76 00000009
+*Code ported from Aether Knight Snes Action Replay Pro Version*
+
+Always Have "Shoes" Effect [Crapulecorp]
+004464FD 000000FF
+*Code ported from Aether Knight Snes Action Replay Pro Version*
+
+Unlimited Water Gun [Crapulecorp]
+02447F14 00009909
+*Code ported from Aether Knight Snes Action Replay Pro Version*
+
+Inf/have Fire Extinguisher Ammo [Crapulecorp]
+02447F16 00009909
+*Code ported from Aether Knight Snes Action Replay Pro Version*
+
+Inf/have Alien Bubble Gun Ammo [Crapulecorp]
+02447F18 00009909
+*Code ported from Aether Knight Snes Action Replay Pro Version*
+
+Inf/have Weed Whacker Ammo [Crapulecorp]
+02447F1A 00009909
+*Code ported from Aether Knight Snes Action Replay Pro Version*
+
+Inf/have Ancient Artifact Ammo [Crapulecorp]
+02447F1C 00009909
+*Code ported from Aether Knight Snes Action Replay Pro Version*
+
+Inf/have Bazooka Ammo [Crapulecorp]
+02447F1E 00009909
+*Code ported from Aether Knight Snes Action Replay Pro Version*
+
+Inf/have Soda Cans Ammo [Crapulecorp]
+02447F20 00009909
+*Code ported from Aether Knight Snes Action Replay Pro Version*
+
+Inf/have Tomatoes Ammo [Crapulecorp]
+02447F22 00009909
+*Code ported from Aether Knight Snes Action Replay Pro Version*
+
+Inf/have Popsicles Ammo [Crapulecorp]
+02447F24 00009909
+*Code ported from Aether Knight Snes Action Replay Pro Version*
+
+Inf/have banana Ammo [Crapulecorp]
+02447F26 00009909
+*Code ported from Aether Knight Snes Action Replay Pro Version*
+
+Inf/have Dishes Ammo [Crapulecorp]
+02447F28 00009909
+*Code ported from Aether Knight Snes Action Replay Pro Version*
+
+Inf/have Silverware Ammo [Crapulecorp]
+02447F2A 00009909
+*Code ported from Aether Knight Snes Action Replay Pro Version*
+
+Inf/have Footballs Ammo [Crapulecorp]
+02447F2C 00009909
+*Code ported from Aether Knight Snes Action Replay Pro Version*
+
+Inf/have Flamethrower Ammo [Crapulecorp]
+02447F2E 00009909
+*Code ported from Aether Knight Snes Action Replay Pro Version*
+
+Inf/have Key [Crapulecorp]
+02447F54 00009909
+*Code ported from Aether Knight Snes Action Replay Pro Version*
+
+Inf/have Speed Shoes [Crapulecorp]
+02447F56 00009909
+*Code ported from Aether Knight Snes Action Replay Pro Version*
+
+Inf/have Monster Potion [Crapulecorp]
+02447F58 00009909
+*Code ported from Aether Knight Snes Action Replay Pro Version*
+
+Inf/have Ghost Potion [Crapulecorp]
+02447F5A 00009909
+*Code ported from Aether Knight Snes Action Replay Pro Version*
+
+Inf/have Mystery Potion [Crapulecorp]
+02447F5C 00009909
+*Code ported from Aether Knight Snes Action Replay Pro Version*
+
+Inf/have Empty Potion [Crapulecorp]
+02447F5E 00009909
+*Code ported from Aether Knight Snes Action Replay Pro Version*
+
+Inf/have Medical Kit [Crapulecorp]
+02447F62 00009909
+*Code ported from Aether Knight Snes Action Replay Pro Version*
+
+Inf/have Pandora's Box [Crapulecorp]
+02447F64 00009909
+*Code ported from Aether Knight Snes Action Replay Pro Version*
+
+Inf/have Skull Key [Crapulecorp]
+02447F66 00009909
+*Code ported from Aether Knight Snes Action Replay Pro Version*
+
+Inf/have Clown Kit [Crapulecorp]
+02447F68 00009909
+*Code ported from Aether Knight Snes Action Replay Pro Version*
+
+Misc Codes
+
+Only Rescue 1 Neighbor To Advance [Crapulecorp]
+00447F7A 00000001
+*Code ported from Aether Knight Snes Action Replay Pro Version*
+
+Stage Select [Crapulecorp]
+004480A4 000000XX
+*Replace XX for:
+01 - Zombie Panic (sort of useless)
+02 - Evening of the Undead
+03 - Terror in Aisle Five
+04 - Chainsaw Hedgemaze Mayhem
+05 - Weird Kids on the Block
+06 - Pyramid of Fear
+07 - Dr. Tongue's Castle of Terror
+08 - Titanic Toddler
+09 - Toxic Terrors
+0A - No Assembly Required
+0B - Weeds Gone Bad
+0C - Mars Needs Cheerleaders
+0D - Chopping Mall
+0E - Seven Meals for Seven Zombies
+0F - Dinner on Monster Island
+10 - Ants
+11 - Office of the Doomed
+12 - Squidmen of the Deep
+13 - Nigtmare on Terror Street
+14 - Invasion of the Snakeoids
+15 - The Day the Earth Ran Away
+16 - Revenge of Dr. Tongue
+17 - The Caves of Mystery
+18 - Warehouse of Evil Dolls
+19 - Look Who's Shopping
+1A - Where the Red Fern Growls
+1B - Dances With Werewolves
+1C - Mark of the Vampire
+1D - Zombie House Party
+1E - The Horror of Floor Thirteen
+1F - Looks Who's Coming to Dinner
+20 - Giant Ant Farm
+21 - Fish and Crypts
+22 - I Was A Chainsaw Maniac
+23 - Boardwalk of Terrors
+24 - Monster Phobia
+25 - Labyrinth of Horrors
+26 - Monsters of the Blue Lagoon
+27 - Destroy All Vampires
+28 - Pyramid of Fear Two
+29 - Martians Go Home
+2A - Spikes
+2B - Super Fund Cleanup Site
+2C - The Curse of Dr. Tongue
+2D - Danger in Picnic Park
+2E - Day of the Chainsaw
+2F - Gridiron Terror
+30 - Curse of the Tongue
+31 - Monsters Among Us
+32 - The Son of Dr. Tongue
+33 - Day of the Tentacle
+34 - Someplace Very Warm
+35 - Curse of the Pharoahs
+36 - Mushroom Men
+37 - Cheerleaders vs. the Monsters*
+*Code ported from Aether Knight Snes Action Replay Pro Version*
+
+No Energy Final Boss (Spider Form) [Crapulecorp]
+0044677C 00000000
+*Code ported from iamstillhiro111 Snes Action Replay Pro Version*
+
+No Energy Final Boss (Head Form) [Crapulecorp]
+00446574 00000000
+*Code ported from iamstillhiro111 Snes Action Replay Pro Version*
+
+Gives A Score of 900000000 [Crapulecorp]
+0044809D 00000009
+*Code ported from Unknown Snes Action Replay Pro Version*
+
+Have A Score of 9,999,999 [Crapulecorp]
+0444809A 99999909
+*Code ported from Hells Guardian Snes Action Replay Pro Version*
+
+Starting In The Last Level [Crapulecorp]
+0044809D 00000009
+004480A4 00000030
+*Code ported from Unknown Snes Action Replay Pro Version*
+
+Rapid Fire Weapons [Crapulecorp]
+00446374 00000000
+00446375 00000000
+*Code ported from Abystus Snes Action Replay Pro Version*

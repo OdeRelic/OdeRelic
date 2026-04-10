@@ -1,0 +1,116 @@
+RKME5D
+Mortal Kombat: Armageddon
+
+P1 Kombat Character Modifier [Macopride64]
+0056E173 000000XX
+
+P2 Kombat Character Modifier [Macopride64]
+0056E1BB 000000XX
+X Character Values
+31 = Scorpion
+3C = Sub-Zero
+2F = Reptile
+2D = Rain
+0C = Ermac
+05 = Chameleon
+2A = Noob
+39 = Smoke
+06 = Cyrax
+32 = Sektor
+3B = Stryker
+16 = Kabal
+08 = Dairou
+14 = Jarek
+09 = Darrius
+2E = Reiko
+0E = Fujin
+02 = Bo' Rai Cho
+22 = Mavado
+11 = Hotaru
+28 = Nightwolf
+25 = Mokap
+04 = Cage
+18 = Kano
+15 = Jax
+17 = Kai
+19 = Kenshi
+37 = Shujinko
+12 = Hsu Hao
+1E = Kobra
+1A = Khameleon
+3E = Taven
+21 = Liu Kang
+1F = Kung Lao
+33 = Shang Tsung
+2B = Quan Chi
+36 = Shinnok
+2C = Raiden
+07 = Daegon
+3F = Custom Fighter (must have a profile loaded, else game freezes)
+3A = Sonya
+1D = Kitana
+24 = Mileena
+13 = Jade
+00 = Ashrah
+20 = Li Mei
+3D = Tanya
+0D = Frost
+38 = Sindel
+29 = Nitara
+1C = Kira
+30 = Sareena
+35 = Sheeva
+01 = Baraka
+27 = Motaro
+10 = Havik
+0B = Drahmin
+26 = Moloch
+23 = Meat
+34 = Shao Kahn
+0F = Goro
+1B = Kintaro
+0A = Onaga
+03 = Blaze
+
+infinite koins (krypt) [wiiztec]
+0455778A FFFFFFFF
+
+always have 268million coins [DR4G0N]
+045251EC 0FFFFFFF
+*konquest
+
+unlock everything [DR4G0N]
+04527C40 0000003C
+*konquest
+you need to pick up 1item in konquest to get the everything unlocked screen
+you're konquest relics will be 60 ashrah's dolls, unlocks everything from the krypt, all eldergod armor for create-a-fighter
+
+unl blue energy/powermoves [DR4G0N]
+04055BDC 60000000
+*konquest
+
+P1 infinite health [g6flavor]
+2056E154 3F800000
+0456E150 3F800000
+E0000000 80008000
+
+P2 little Health (1 hit ko) [g6flavor]
+2056E19C 3F800000
+0456E198 3C000000
+E0000000 80008000
+
+infinite fatality time before execution [g6flavor]
+42000000 90000000
+20E81738 8056E18C
+02E81732 00000180
+E0000000 80008000
+
+infinite fatality time after execution [g6flavor]
+266EA5F4 3F100000
+046EA5F4 40400000
+E0000000 80008000
+
+Kombat: Arcade Mode codes
+Note: Must use Rebooter to cheat on this game.
+
+Note: Must use Rebooter to cheat on this game.

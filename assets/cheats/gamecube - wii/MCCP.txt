@@ -1,0 +1,404 @@
+MCCP
+Phantasy Star III
+
+Unlimited/Max Meseta (MST) [Crapulecorp]
+04EBE8E0 05F5E0FF
+*Code ported from GMO Ntsc Usa Version*
+
+No Random Attacks [Crapulecorp]
+00EBE8DF 00000020
+*This code prevents only random encounters. All the bosses are still there.*
+*Code ported from Phil The Hammer Megadrive Action Replay Version*
+
+Rhys Codes (Centre Position)
+
+Unlimited/Max Health [Crapulecorp]
+02EBE94E 000003E7
+02EBE952 000003E7
+*Code ported from Phil The Hammer Megadrive Action Replay Version*
+
+Unlimited/Max TP [Crapulecorp]
+02EBE950 000003E7
+02EBE954 000003E7
+*Code ported from Phil The Hammer Megadrive Action Replay Version*
+
+Max Speed [Crapulecorp]
+00EBE944 000000FF
+*Code ported from Phil The Hammer Megadrive Action Replay Version*
+
+Max Damage [Crapulecorp]
+02EBE956 000003E7
+*Code ported from Phil The Hammer Megadrive Action Replay Version*
+
+Max Defense [Crapulecorp]
+02EBE958 000003E7
+*Code ported from Phil The Hammer Megadrive Action Replay Version*
+
+Max Luck [Crapulecorp]
+00EBE972 000000FF
+*Code ported from Phil The Hammer Megadrive Action Replay Version*
+
+Max Skill [Crapulecorp]
+00EBE973 000000FF
+*Code ported from Phil The Hammer Megadrive Action Replay Version*
+
+Level 50 [Crapulecorp]
+00EBE94D 00000032
+*Code ported from Phil The Hammer Megadrive Action Replay Version*
+
+1st Item Slot Modifier [Crapulecorp]
+02EC0722 0000XXXX
+*Code ported from Phil The Hammer Megadrive Action Replay Version*
+
+2nd Item Modifier Slot [Crapulecorp]
+02EC0724 0000XXXX
+*Code ported from Phil The Hammer Megadrive Action Replay Version*
+
+Wren Codes (Lower Left Position)
+
+Unlimited/Max HP [Crapulecorp]
+02EBEA4E 000003E7
+02EBEA52 000003E7
+*Code ported from Phil The Hammer Megadrive Action Replay Version*
+
+Unlimited/Max TP [Crapulecorp]
+02EBEA50 000003E7
+02EBEA54 000003E7
+*Code ported from Phil The Hammer Megadrive Action Replay Version*
+
+Max Speed [Crapulecorp]
+00EBEA44 000000FF
+*Code ported from Phil The Hammer Megadrive Action Replay Version*
+
+Max Damage [Crapulecorp]
+02EBEA56 000003E7
+*Code ported from Phil The Hammer Megadrive Action Replay Version*
+
+Max Defense [Crapulecorp]
+02EBEA58 000003E7
+*Code ported from Phil The Hammer Megadrive Action Replay Version*
+
+Max Luck [Crapulecorp]
+00EBEA72 000000FF
+*Code ported from Phil The Hammer Megadrive Action Replay Version*
+
+Max Skill [Crapulecorp]
+00EBEA73 000000FF
+*Code ported from Phil The Hammer Megadrive Action Replay Version*
+
+Level 50 [Crapulecorp]
+00EBEA4D 00000032
+*Code ported from Phil The Hammer Megadrive Action Replay Version*
+
+1st Item Modifier Slot [Crapulecorp]
+02EC0762 0000XXXX
+*Code ported from Phil The Hammer Megadrive Action Replay Version*
+
+2nd Item Modifier Slot [Crapulecorp]
+02EC0764 0000XXXX
+*Code ported from Phil The Hammer Megadrive Action Replay Version*
+
+Mieu Codes (Lower Right Position)
+
+Unlimited/Max HP [Crapulecorp]
+02EBE9CE 000003E7
+02EBE9D2 000003E7
+*Code ported from Phil The Hammer Megadrive Action Replay Version*
+
+Unlimited/Max TP [Crapulecorp]
+02EBE9D0 000003E7
+02EBE9D4 000003E7
+*Code ported from Phil The Hammer Megadrive Action Replay Version*
+
+Max Speed [Crapulecorp]
+00EBE9C4 000000FF
+*Code ported from Phil The Hammer Megadrive Action Replay Version*
+
+Max Damage [Crapulecorp]
+02EBE9D6 000003E7
+*Code ported from Phil The Hammer Megadrive Action Replay Version*
+
+Max Defense [Crapulecorp]
+02EBE9D8 000003E7
+*Code ported from Phil The Hammer Megadrive Action Replay Version*
+
+Max Luck [Crapulecorp]
+00EBE9F2 000000FF
+*Code ported from Phil The Hammer Megadrive Action Replay Version*
+
+Max Skill [Crapulecorp]
+00EBE9F3 000000FF
+*Code ported from Phil The Hammer Megadrive Action Replay Version*
+
+Level 50 [Crapulecorp]
+00EBE9CD 00000032
+*Code ported from Phil The Hammer Megadrive Action Replay Version*
+
+1st Item Modifier Slot [Crapulecorp]
+02EC0742 0000XXXX
+*Code ported from Phil The Hammer Megadrive Action Replay Version*
+
+2nd Item Modifier Slot [Crapulecorp]
+02EC0744 0000XXXX
+*Code ported from Phil The Hammer Megadrive Action Replay Version*
+
+Thea Codes (Upper Left Position)
+
+Unlimited/Max HP [Crapulecorp]
+02EBEACE 000003E7
+02EBEAD2 000003E7
+*Code ported from Phil The Hammer Megadrive Action Replay Version*
+
+Unlimited/Max TP [Crapulecorp]
+02EBEAD0 000003E7
+02EBEAD4 000003E7
+*Code ported from Phil The Hammer Megadrive Action Replay Version*
+
+Max Speed [Crapulecorp]
+00EBEAC4 000000FF
+*Code ported from Phil The Hammer Megadrive Action Replay Version*
+
+Max Damage [Crapulecorp]
+02EBEB56 000003E7
+*Code ported from Phil The Hammer Megadrive Action Replay Version*
+
+Max Defense [Crapulecorp]
+02EBEB58 000003E7
+*Code ported from Phil The Hammer Megadrive Action Replay Version*
+
+Max Luck [Crapulecorp]
+00EBEB72 000000FF
+*Code ported from Phil The Hammer Megadrive Action Replay Version*
+
+Max Skill [Crapulecorp]
+00EBEB73 000000FF
+*Code ported from Phil The Hammer Megadrive Action Replay Version*
+
+Level 50 [Crapulecorp]
+00EBEB4D 00000032
+*Code ported from Phil The Hammer Megadrive Action Replay Version*
+
+1st Item Modifier Slot [Crapulecorp]
+02EC07A2 0000XXXX
+*Code ported from Phil The Hammer Megadrive Action Replay Version*
+
+2nd Item Modifier Slot [Crapulecorp]
+02EC07A4 0000XXXX
+*Code ported from Phil The Hammer Megadrive Action Replay Version*
+
+Sari Codes (Upper Right Position)
+
+Unlimited/Max HP [Crapulecorp]
+02EBEB4E 000003E7
+02EBEB52 000003E7
+*Code ported from Phil The Hammer Megadrive Action Replay Version*
+
+Unlimited/Max TP [Crapulecorp]
+02EBEB50 000003E7
+02EBEB54 000003E7
+*Code ported from Phil The Hammer Megadrive Action Replay Version*
+
+Max Speed [Crapulecorp]
+00EBEB44 000000FF
+*Code ported from Phil The Hammer Megadrive Action Replay Version*
+
+Max Damage [Crapulecorp]
+02EBEB56 000003E7
+*Code ported from Phil The Hammer Megadrive Action Replay Version*
+
+Max Defense
+02EBEB58 00003E7
+*Code ported from Phil The Hammer Megadrive Action Replay Version*
+
+Max Luck [Crapulecorp]
+00EBEB72 000000FF
+*Code ported from Phil The Hammer Megadrive Action Replay Version*
+
+Max Skill [Crapulecorp]
+00EBEB73 000000FF
+*Code ported from Phil The Hammer Megadrive Action Replay Version*
+
+Level 50 [Crapulecorp]
+00EBEB4D 00000032
+*Code ported from Phil The Hammer Megadrive Action Replay Version*
+
+1st Item Modifier Slot [Crapulecorp]
+02EC0782 0000XXXX
+*Code ported from Phil The Hammer Megadrive Action Replay Version*
+
+2nd Item Modifier Slot [Crapulecorp]
+02EC0784 0000XXXX
+*Code ported from Phil The Hammer Megadrive Action Replay Version*
+
+Item Modifier Values
+
+Replace XXX for :
+0000 - MONOMATE
+0010 - DIMATE
+0020 - TRIMATE
+0030 - ANTIDOTE
+0040 - STAR MIST
+0050 - MOON DEW
+0060 - ESCAPIPE
+0070 - MONITOR
+0080 - SHORT SWD
+0090 - SWORD
+00A0 - STEEL SWD
+00B0 - CERAM SWD
+00C0 - LASER SWD
+00D0 - FORCE SWD
+00E0 - LACON SWD
+00F0 - ROYAL SWD
+0100 - PLANAR SWD
+0110 - ORAKIO SWD
+0120 - NEI SWD
+0130 - KNIFE
+0140 - HUNTING KNIFE
+0150 - STEEL KNIFE
+0160 - CERAM KNIFE
+0170 - LASER KNIFE
+0180 - FORCE KNIFE
+0190 - LACON KNIFE
+01A0 - ROYAL KNIFE
+01B0 - STAFF
+01C0 - HUNTING STAFF
+01D0 - STEEL STAFF
+01E0 - CERAM STAFF
+01F0 - LASER STAFF
+0200 - FORCE STAFF
+0210 - LACON STAFF
+0220 - SLICER
+0230 - CERAM SLCR
+0240 - LASER SLR
+0250 - FORCE SLR
+0260 - LACON SLR
+0270 - ROYAL SLR
+0280 - PLANAR SLR
+0290 - LUNE'S SLR
+02A0 - NEI SLICER
+02B0 - CLAW
+02C0 - HUNT CLAW
+02D0 - STEEL CL
+02E0 - CERAM CL
+02F0 - LASER CL
+0300 - FORCE CL
+0310 - LACON CL
+0320 - ROYAL CL
+0330 - PLANAR CL
+0340 - MIUN'S CL
+0350 - NEI CLAW
+0360 - HNT BOW
+0370 - CERAM BOW
+0380 - LASER BOW
+0390 - FORCE BOW
+03A0 - LACON BOW
+03B0 - ROYAL BOW
+03C0 - LAYA'S BOW
+03D0 - NEI BOW
+03E0 - HTN SHOT
+03F0 - CERAM SH
+0400 - LASER SHOT
+0410 - LACON SH
+0420 - CANNON
+0430 - PULSE CAN
+0440 - VULCAN
+0450 - PULSE VULCAN
+0460 - SIREN SHOT
+0470 - NEI SHOT
+0480 - HUNT HELM
+0490 - STEEL H
+04A0 - CERAM H
+04B0 - FORCE H
+04C0 - LACON H
+O4D0 - ROYAL HELM
+04E0 - BANDANNA
+04F0 - HUNT BAND
+0500 - STEEL BAND
+0510 - CERAM BAND
+0520 - FORCE BAND
+0530 - LACON BAND
+0540 - ROYAL BAND
+0550 - GARMENT
+0560 - CERAM CROWN
+0570 - FORCE CRN
+0580 - LACON CRN
+0590 - ROYAL CRN
+05A0 - RIBBON
+05B0 - HNT RIB
+05C0 - CERAM RB
+05D0 - FORCE RB
+05E0 - LACON RB
+05F0 - ROYAL RB
+0600 - HEAD GEAR
+0610 - STEEL HG
+0620 - CERAM HG
+0630 - FORCE HG
+0640 - LACON HG
+0650 - ROYAL GEAR
+0660 - HUNT ARMOR
+0670 - STEEL AR
+0680 - CERAM AR
+0690 - FORCE AR
+06A0 - LACON AR
+06B0 - ROYAL AR
+06C0 - PLANAR AR
+06D0 - CAPE
+06E0 - STEEL CAPE
+06F0 - LACON CAPE
+0700 - ROYAL CAPE
+0710 - ROBE
+0720 - STEEL ROBE
+0730 - LACON ROBE
+0740 - ROYAL ROBE
+0750 - HTN CHST
+0760 - STEEL CHST
+0770 - LACON CHST
+0780 - ROYAL CHST
+0790 - FIBLIRA
+07A0 - STEEL FIB
+07B0 - LACON FIB
+07C0 - ROYAL FIB
+07D0 - VEST
+07E0 - HUNT V
+07F0 - STEEL V
+0800 - CERAM V
+0810 - F0RCE V
+0820 - LACON V
+0830 - ROYAL V
+0840 - PROTECTOR08D0
+0850 - STEEL PRO
+0860 - CERAM PRO
+0870 - FORCE PRO
+0880 - LACON PRO
+0890 - ROYAL PRO
+08A0 - BOOTS B
+08B0 - FORCE B
+O8C0 - ROYAL BOOTS
+08D0 - SHIELD
+08E0 - STEEL SH
+08F0 - CERAM SH
+0900 - FORCE SH
+0910 - LACON SH
+0920 - ROYAL SH
+0930 - EMEL
+0940 - STEEL EM
+0950 - CERAM EM
+0960 - FORCE EMEL
+0970 - LACON EMEL
+0980 - ROYAL EMEL
+0990 - NEEDLE
+0A00 - ROYAL NEEDLE
+0A10 - SAPPHIRE
+0A20 - MOON STONE
+0A30 - MOON TEAR
+0A40 - DRAGON TEAR
+0A50 - SNOW
+0A60 - TWINS RUBY
+0A70 - POWR TOPAZ
+0A80 - MSTRY STAR
+0A90 - AQUA PARTS
+0AA0 - SUB PARTS
+0AB0 - AERO PARTS
+0AC0 - LAYA PENDANT
+0AD0 - DATA?
+*Values from Phil The Hammer Megadrive Action Replay Version*

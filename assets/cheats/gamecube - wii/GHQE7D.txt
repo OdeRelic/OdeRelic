@@ -1,0 +1,58 @@
+GHQE7D
+Simpsons Hit & Run
+
+Won't Slide On Slopes [James0x57]
+043CD494 41200000
+
+Drive Through Anything [James0x57]
+04479AD0 3F000000
+
+Max/Infinite Coins [Codejunkies]
+0269D83E 00002710
+
+Never Wanted [Codejunkies]
+046BCE2C 00000000
+
+All Missions/Levels Unlocked [Codejunkies]
+0469D830 00000006
+0469D834 00000006
+
+All Cars Unlocked [Codejunkies]
+086A00F8 01000000
+2033001E 00000000
+0869EBF8 01000000
+2026001C 00000000
+
+Use only one of the following 10 Codes
+
+No Top Speed [Codejunkies]
+04476604 00000080
+
+Hit Kills All Cars [Codejunkies]
+04476604 00000800
+
+Honk Horn To Jump [Codejunkies]
+04476604 00000200
+
+Infinite Health [Codejunkies]
+04476604 00200000
+
+All Cheats Active [Codejunkies]
+04476604 00AEEEEE
+
+No Top Speed [Codejunkies]
+04476604 00000080
+
+Hit Kills All Cars [Codejunkies]
+04476604 00000800
+
+Honk Horn To Jump [Codejunkies]
+04476604 00000200
+
+Infinite Health [Codejunkies]
+04476604 00200000
+
+All Cheats Active [Codejunkies]
+04476604 00AEEEEE
+
+00000000 00000000

@@ -1,0 +1,35 @@
+RIMP6M
+Impossible Mission
+
+Time Stop 8:00:00 [memorris]
+0422F118 00080000
+
+Max Lift Reset Passwords [memorris]
+0422F104 00000009
+
+Max Robot Snooze Password [memorris]
+0422F100 00000009
+
+Puzzles Solved 9 & Max Launch Codes [memorris]
+0422F364 00000009
+
+Disable Robots [memorris]
+0422F354 000002CB
+
+Max Score [memorris]
+0422EB60 7FFFFFFF
+
+Puzzle Pieces Found Score 999 [memorris]
+0422F35C 000003E7
+
+Passwords Found Score 999 [memorris]
+0422F360 000003E7
+
+Max Total Score [memorris]
+042E42A8 7FFFFFFF
+
+Max Seconds Remaining [memorris]
+042E42A4 7FFFFFFF
+
+Max Completion Bonus [memorris]
+042E42A0 7FFFFFFF

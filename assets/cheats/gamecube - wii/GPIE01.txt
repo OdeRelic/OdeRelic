@@ -1,0 +1,100 @@
+GPIE01
+Pikmin
+
+Infinite and Max Blue Pikmin [goemon_guy]
+023D1E02 000003E7
+
+Infinite and Max Red Pikmin [goemon_guy]
+023D1E06 000003E7
+
+Infinite and Max Yellow Pikmin [goemon_guy]
+023D1E0A 000003E7
+
+Day Modifier [goemon_guy]
+0039DA17 000000XX
+Replace XX with your day. (1-30)
+
+Have all Areas Available [goemon_guy]
+0439D8E0 0000001F
+
+Infinite Health -Olimar- [goemon_guy]
+04100084 60000000
+
+One Hit Kills [goemon_guy]
+04145B28 D1C30058
+
+Time Manipulator [goemon_guy]
+80000000 8039DA04
+2839D360 00000002
+86910000 3F800000
+2839D361 00000001
+86910000 BF800000
+2839D361 00000004
+040518DC 60000000
+2839D361 00000008
+040518DC D0030014
+E0000000 80008000
+D-left to rewind
+D-right to advance
+D-down to stop time
+D-up to resume time
+*Thanks to dcx2 for helping with the code.
+
+Always grow Flower Pikmin [goemon_guy]
+C20EF928 00000002
+38000002 900403D0
+60000000 00000000
+
+All Pikmin Have Red Ability [goemon_guy]
+0407BDA4 48000014
+040CCFEC 48000030
+040D6FC4 60000000
+040D727C 60000000
+040FB5D4 4800000C
+
+All Pikmin Have Blue Ability [goemon_guy]
+040C89B8 60000000
+040CA778 4800000C
+040CA7A4 48000044
+040CCE20 60000000
+040CCE6C 48000134
+040D700C 60000000
+040D7384 60000000
+
+All Pikmin Have Yellow Ability [goemon_guy]
+040C932C 60000000
+040C96B0 60000000
+040CB4E4 60000000
+040CB574 60000000
+040D54B0 60000000
+040D6FE8 60000000
+040D730C 60000000
+040FC1F4 60000000
+041007F0 60000000
+
+Walk Under Water [goemon_guy]
+04115F3C 38600002
+
+Quick Wall Destruction [goemon_guy]
+040F631C C002B710
+
+All Pikmin Have Flowers [goemon_guy]
+040CDEEC 389F003C
+040CDF00 389F003C
+
+Version 1.1
+
+Stop Time From Advancing (Story Mode) [Link Master]
+040518DC 60000000
+
+Stop/Return Flow of Time (L+D-pad Left/Right) (Story Mode) [Link Master]
+2839D400 00000041
+040518DC 60000000
+E2000001 80008000
+2839D400 00000042
+040518DC D0030014
+E2000001 80008000
+
+When this code is active, Pikmin cannot destroy gates or build
+bridges. Only use the button code unless in an area where all the
+gates are already destroyed and bridges are built.

@@ -1,0 +1,16 @@
+FBDE
+Kid Icarus
+
+Moon Jump [goemon_guy]
+281BAD98 FEFF0100
+003C78FD 000000E8
+E0000000 80008000
+
+Unlimited Health-Endurance [GMO]
+003C7986 00000007
+
+Max Hearts [GMO]
+023C7A2A 000003E7
+
+Invincible [GMO]
+003C8008 00000080

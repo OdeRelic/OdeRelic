@@ -1,0 +1,15 @@
+FF5E
+Double Dragon II
+
+P1 Unlimited Lives [GMO]
+003B84D2 0000000A
+
+P1 Unlimited Health [GMO]
+003B84BE 0000007F
+
+1-Hit Kill (Most enemies + Bosses) [GMO]
+28178F16 00000200
+023B84C0 00000000
+003B84C2 00000000
+E0000000 80008000
+Press -

@@ -1,0 +1,31 @@
+FBHE
+Castlevania
+
+Weapon select [Sharkbyte]
+003C737B 000000??
+values
+08=Throwing sword
+09=Boomerang
+0A=Cross (kills all enemies)
+0B=Glass bottle
+0C=Red Axe (hidden)
+0D=Regular Axe
+0E=1up (same effect as clock)
+0F=Clock
+
+Infinite Health [farjo08]
+003E950B 000000A5
+
+Press B+Right on D-Pad To Add More Time [GMO]
+281BA6D8 00000402
+023C7262 00009903
+E0000000 80008000
+
+Unlimited Health [GMO]
+023C7264 00004040
+
+Have Upgraded Whip [GMO]
+003C7290 00000002
+
+Max Hearts [GMO]
+003C7291 00000063

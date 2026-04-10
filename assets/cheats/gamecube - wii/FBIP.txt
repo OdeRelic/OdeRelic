@@ -1,0 +1,20 @@
+FBIP
+Punch Out!!
+
+Unlimited Health [Crapulecorp]
+003EF991 00000060
+
+Enemy No Health (1 Hit K.O) [Crapulecorp]
+003EF998 00000000
+
+Unlimited Hearts [Crapulecorp]
+023EF923 0000090A
+*Code ported from ZiT Ntsc Jap Version*
+
+Unlimited Stars [Crapulecorp]
+003EF942 00000004
+*Code ported from ZiT Ntsc Jap Version*
+
+Time Stop [Crapulecorp]
+043EF904 00000000
+*Code ported from ZiT Ntsc Jap Version*

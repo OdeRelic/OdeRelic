@@ -1,0 +1,42 @@
+GXNE5D
+Rampage Total Destruction 
+
+Infinite Time
+022AC8C2 00000180
+
+Player 1: Max Score
+042B06E4 05F5E0FF
+
+Player 1: Infinite Lives
+002B05D7 00000063
+
+Player 2: Max Score
+042B0744 05F5E0FF
+
+Player 2: Infinite Lives
+002B05DB 00000063
+
+All Characters Unlocked/Upgraded
+082B052C 0000008F
+201E0001 00000000
+
+Las Vegas Complete
+022B04B2 0000008F
+
+San Fanscisco Complete
+022B04B6 0000008F
+
+London Complete
+022B04BA 0000008F
+
+Los Angeles Complete
+022B04BE 0000008F
+
+Chicago Complete
+022B04C2 0000008F
+
+Hong Kong Complete
+022B04C6 0000008F
+
+New York Complete
+022B04CA 0000008F

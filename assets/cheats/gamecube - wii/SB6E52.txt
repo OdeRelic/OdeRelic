@@ -1,0 +1,12 @@
+SB6E52
+Bakugan: Defenders of the Core
+
+Gain Core Energy for Max [Skiller]
+041AACC4 90030004
+041AACD8 90E30008
+
+No Core Energy Loss (Traps) [Skiller]
+040A3B40 90A4075C
+
+Dont Lose Cards .. [Skiller]
+040A3B58 38040000

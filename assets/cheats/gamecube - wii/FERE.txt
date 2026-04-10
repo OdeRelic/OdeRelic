@@ -1,0 +1,31 @@
+FERE
+Star Tropics 2: Zoda's Revenge
+
+Max Hearts [GMO]
+003DB791 00000014
+
+Unlimited Health [GMO]
+003DB792 00000028
+
+Unlimited Lives [GMO]
+003DB797 00000009
+
+Unlimited Magic Potions [GMO]
+003DB7AC 00000005
+
+Unlimited Invincibility Star [GMO]
+003DB79C 00000005
+
+Dungeon Item 01 Weapon Modifier [GMO]
+003DB7A0 000000XX
+00 Nothing
+01 Axe
+02 Dagger
+03 Katana
+Big thanks to Ugetab for making me understand this blasted game
+
+Dungeon Item 03 Max Quantity [GMO]
+003DB7AA 0000001E
+
+Dungeon Item 04 Max Quantity [GMO]
+003DB7AB 0000001E

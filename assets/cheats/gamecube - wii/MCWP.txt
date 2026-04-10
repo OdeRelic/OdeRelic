@@ -1,0 +1,13 @@
+MCWP
+Galaxy Force 2
+
+Unlimited Energy [Crapulecorp]
+03395D74 000004B0
+*Code ported from ZiT Ntsc Jap Version*
+
+Unlimited Shield [Crapulecorp]
+01395D79 000000FF
+*Code ported from ZiT Ntsc Jap Version*
+
+Unlimited Missile [Crapulecorp]
+01395D8C 00000063

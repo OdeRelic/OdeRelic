@@ -1,0 +1,768 @@
+SX4P01
+Xenoblade Chronicles
+
+Colony 9 Level Swapper [Thomas83Lin]
+C2087504 00000003
+3D80xxxx 618Cxxxx
+806DA828 91830E28
+60000000 00000000
+**Replace X's with level digit*
+*Colony 9 Beta=30313032*
+*Bionis Left Shoulder=30383031*
+*Junk=32343031*
+*Use Skip travel to Colony 9 Central Plaza to enable*
+*(recommend not to save) while in these levels If you do just re-enable code to get out*
+
+Inf Health (ALL Characters) [Thomas83Lin]
+C20C6D20 00000002
+C002912C C02317F4
+D02317E8 00000000
+
+Max Current AP [Thomas83Lin]
+C20801C4 00000002
+3D807000 91831608
+80631608 00000000
+
+Increase All Stats v.2 [Thomas83Lin]
+C20C6D0C 00000007
+807E0018 3980270F
+B183166C B183166E
+B1831670 B183167E
+B1831682 B1831688
+39800064 998316A5
+3D80461C 618C3C00
+91831660 00000000
+040C1580 60000000
+*Original Codes by Zit, Re-Hacked by Thomas83Lin*
+
+Max Experience on Gain [Thomas83Lin]
+040C1580 60000000
+
+Max AP on Gain [Thomas83Lin]
+040C15A0 60000000
+
+Max Exp on Gain for Reserve Characters [Thomas83Lin]
+040A304C 60000000
+
+Max AP on Gain for Reserve Characters [Thomas83Lin]
+040A3070 60000000
+
+No Exp Gain [Thomas83Lin]
+040A3044 60000000
+040C1550 3B400000
+040A2C04 3AE00000
+*Based on Unknowns code*
+
+If Money Change, MAX [Thomas83Lin]
+C2157C6C 00000002
+3D8005F6 380CE0FF
+900320E8 00000000
+*Ported from Zit*
+
+Moon Jump (B Button) [Thomas83Lin]
+285CAF82 FBFF0400
+48000000 805717EC
+DE000000 80008180
+4A100000 00000494
+14000000 41000000
+E0000000 80008000
+*Ported from Zit*
+*WiiMote*
+*Don't have on both moon Jumps codes at the same time*
+
+Moon Jump (B Button) [Thomas83Lin]
+285CAFE2 FFBF0040
+48000000 805717EC
+DE000000 80008180
+4A100000 00000494
+14000000 41000000
+E0000000 80008000
+*Ported from Zit*
+*Classic Controller*
+*Don't have on both moon Jumps codes at the same time*
+
+Infinite HP (The First Character) [Thomas83Lin]
+48000000 805717EC
+DE000000 80008180
+4A100000 FFFFD958
+92210000 00000000
+94210000 FFFFFFF4
+E0000000 80008000
+*Ported from Zit*
+
+Infinite HP (The Second Character) [Thomas83Lin]
+48000000 805717F0
+DE000000 80008180
+4A100000 FFFFD958
+92210000 00000000
+94210000 FFFFFFF4
+E0000000 80008000
+*Ported from Zit*
+
+Infinite HP (The Third Character) [Thomas83Lin]
+48000000 805717F4
+DE000000 80008180
+4A100000 FFFFD958
+92210000 00000000
+94210000 FFFFFFF4
+E0000000 80008000
+*Ported from Zit*
+
+EXP multiplier [Thomas83Lin]
+040C1550 1F44xxxx
+*Ported from Unknown*
+
+AP multiplier [Thomas83Lin]
+040C1554 1F65xxxx
+*Ported from Unknown*
+
+SP multiplier [Thomas83Lin]
+040C1558 1F86xxxx
+*Ported from Unknown*
+
+EXP multiplier v2 [Thomas83Lin]
+040A2C04 1EE4xxxx
+*Ported from Unknown*
+
+AP multiplier v2 [Thomas83Lin]
+040A2C08 1EC5xxxx
+*Ported from Unknown*
+
+SP multiplier v2 [Thomas83Lin]
+040A2C10 1F46xxxx
+*Ported from Unknown*
+
+Instant Cool Down [Thomas83Lin]
+C21077D8 00000002
+39800000 91980080
+C0180080 00000000
+*Player Only*
+
+Talent Gauge Max [Thomas83Lin]
+C210715C 00000002
+3D8042C8 919F17F0
+807E009C 00000000
+*Player Only*
+
+Max Party Gauge [Thomas83Lin]
+0418DD44 48000010
+0418DD58 60000000
+0418DEF0 48000010
+0418DF04 60000000
+*Ported from COdePArk DS**Wii*
+
+Change Shop Item v.5 (Wiimote) [Thomas83Lin]
+C21F1ECC 00000013
+2C000000 4082008C
+48000009 00000000
+7CA802A6 A0850002
+3F60805C 637BAF80
+A37B0002 2C1B1008
+40820014 3884FFE2
+2C040000 40810050
+48000050 2C1B1004
+40820014 3884001E
+2C040EA3 4081003C
+48000018 2C1B4004
+40820018 38840001
+2C040EA3 40810024
+38800001 4800001C
+2C1B4008 4082001C
+3884FFFF 2C040000
+40820008 38800EA3
+B09F0000 B0850002
+7C7B1B78 00000000
+C21566D4 00000002
+2C030000 41820008
+80030000 00000000
+C2156780 00000002
+2C040000 41820008
+80040000 00000000
+*Wiimote&NunChuck*
+*Hold C hit D-Pad Down to Increase or D-Pad UP to Decrease Item by 1*
+*Hold Minus hit D-Pad Down to Increase or D-Pad UP to Decrease Item by 30*
+*Added Memory to keep track of last Item Rolled*
+*Credits to 2ch for the Original Ram address*
+
+Change Shop Items v.5 (Classic) [Thomas83Lin]
+C21F1ECC 00000013
+2C000000 4082008C
+48000009 00000000
+7CA802A6 A0850002
+3F60805C 637BAFE0
+A37B0002 2C1B0081
+40820014 3884FFE2
+2C040000 40810050
+48000050 2C1B4080
+40820014 3884001E
+2C040EA3 4081003C
+48000018 2C1B4004
+40820018 38840001
+2C040EA3 40810024
+38800001 4800001C
+2C1B0005 4082001C
+3884FFFF 2C040000
+40820008 38800EA3
+B09F0000 B0850002
+7C7B1B78 00000000
+C21566D4 00000002
+2C030000 41820008
+80030000 00000000
+C2156780 00000002
+2C040000 41820008
+80040000 00000000
+*Classic Controller*
+*Hold Zr hit D-Pad Down to Increase or D-Pad UP to Decrease Items by 1*
+*Hold Zl hit D-Pad Down to Increase or D-Pad UP to Decrease Items by 30*
+*Added Memory to keep track of last Item Rolled*
+*Credits to 2ch for the Original Ram address*
+
+Display Item Digit for Change Shop Item [Thomas83Lin]
+C21F2080 00000003
+2C000000 40820008
+A07F0000 7C651B78
+60000000 00000000
+*Displays the Items Digit on the Items Price for the Change Shop Item Code*
+
+All Shop Items are Free [Thomas83Lin]
+041ED940 38600000
+041ED944 48000008
+*Ported from 2ch*
+
+Speed Modifier [Thomas83Lin]
+C20A6460 00000002
+C0410084 3C604000
+907D0458 00000000
+*Used 2ch's code for a Reference*
+*Mod 4000 to Increase\Decrease*
+*def value 3F80*
+
+Open Item Box, get 99 of Items Inside [Thomas83Lin]
+C21C7EC8 00000002
+38000063 98030006
+88030006 00000000
+*Ported from 2ch*
+
+Unlock All Area List&Landmarks [Thomas83Lin]
+042453FC 60000000
+0057279C 003700FF
+*Backup Game Save in case of corruption*
+
+Can Level Up Arts Even At No AP [Thomas83Lin]
+04231E08 3BC00000
+0423654C 48000044
+*Ported from 2ch*
+
+Camera Performance Remodeling [Thomas83Lin]
+04071938 60000000
+040719CC 60000000
+0406F7C0 60000000
+04070D58 60000000
+04070C98 60000000
+040BCFC8 60000000
+*Ported From Zit*
+
+CharaViewer [Thomas83Lin]
+04203468 60000000
+042034CC 60000000
+285CAF82 00006000
+04576554 BFC00000
+CC000000 00000000
+04576554 3FC00000
+E0000000 80008000
+*Ported from Zit*
+1. Enters CharaViewer.
+2. Z and C Button is Pushed.
+3. Position is Adjusted by Camera Zoom.
+4. Position is Adjusted with Up or Down Button.
+
+Can Remove Key Items [Thomas83Lin]
+041C80AC 38600000
+041CF578 48000010
+*Be careful with this*
+
+All Achievements [Thomas83Lin]
+005729A8 001B00FF
+
+All Gems Crafted are Level MAX (V) [Thomas83Lin]
+04156784 38600005
+*Ported from 2ch*
+*Only Crafted Items is Savable*
+
+All Crystals Max Level (V) [Thomas83Lin]
+C2156788 00000004
+2C040000 41820010
+38600094 98640003
+5403F77E 4E800020
+60000000 00000000
+*A Rehack of 2ch's code*
+*Must View or Pick them up to enable*
+*It is saveable*
+
+Always Able to Equip or Remove Any Weapon [Thomas83Lin]
+04204A20 48000010
+040A21B4 60000000
+
+Always Able to Remove Gems from Armor\Weapons [Thomas83Lin]
+041FC958 48000054
+04204B10 60000000
+04205410 38600003
+
+Friendship Multiplier After Gifting [Thomas83Lin]
+C213B480 00000004
+2C000000 4180000C
+1C0000XX 48000008
+38000000 7C840214
+60000000 00000000
+*Ported from 2ch*
+*x's = 02(x 2) 64(x100)*
+
+Max Friend Coins [Thomas83Lin]
+042639D4 48000010
+042639E8 60000000
+*Ported from 2ch*
+*After you gain a new affinity coin*
+
+Unlock Certain Command Options [Thomas83Lin]
+005729E8 000F00FF
+*Check quest*
+*Check affinity*
+*Keep track of collectables*
+*View list of Heart-to-Hearts*
+*Set and Level up Arts*
+*Manage Skill Trees and set up Skill Links*
+*Unlocks Command Bar from very beginning*
+
+Unlock Gem Crafting Command [Thomas83Lin]
+00571D1B 000000FE
+
+Unlock All Command Options (Temp) [Thomas83Lin]
+041029D8 38000000
+041029DC 980300CF
+041029E0 48000030
+005729EE 000000FF
+*Unlocks Command Bar from very beginning*
+*Gem Crafting Anywhere*
+*Can Save Even if the game says you can't*
+*Keep track of collectables*
+*View list of Heart-to-Hearts*
+*Set and Level up Arts*
+*Manage Skill Trees and set up Skill Links*
+
+HP UP% Increase\Decrease Modifier when wearing any HP UP Gem [Thomas83Lin]
+0417B6B8 3800xxxx
+*Check Main Thread for xxxx*
+
+Strength UP% Increase\Decrease Modifier when wearing any Strength UP Gem [Thomas83Lin]
+0417B550 3800xxxx
+*Can't See the Effect*
+*Check Main Thread for xxxx*
+
+HP Percentage Multiplier including Enemies [Thomas83Lin]
+0417B924 3880xxxx
+*Check Main Thread for xxxx*
+
+Open All Skill Trees [Thomas83Lin]
+02572A25 0000FFFC
+*Ported From Codepark DS Wii*
+*Thanks to PhysisZX for bringing this code to my attention*
+
+Max Skill Points [Thomas83Lin]
+C210DAF8 00000002
+38007000 90040888
+80840888 00000000
+C2268CAC 00000002
+38007000 90030888
+60000000 00000000
+*Just Select the skill from tree you want Max Skill Points on*
+
+Max Affinity Coins [Thomas83Lin]
+C2268AF0 00000002
+38A003E7 90BE0884
+83DE0884 00000000
+*View Skill Trees for each Character to enable*
+
+Max Gem Slots for All Selected Equipment [Thomas83Lin]
+C22069EC 00000002
+38800001 98940030
+7E84A378 00000000
+C22061B8 00000002
+38800003 98930030
+7E649B78 00000000
+*Makes Permanent Changes Backup Save before using*
+
+New Game+ [Thomas83Lin]
+00572A26 000000FD
+005729F5 000000FC
+*Allows Shulk to switch Weapons*
+
+Enable Character Change [Thomas83Lin]
+005729EC 000000FF
+
+Party Slot 1 Character Modifier [Thomas83Lin]
+04CDCBD8 0000000x
+*Check Main Thread for x & notes*
+http://wiird.l0nk.org/forum/index.php/topic,8758.0.html
+
+Party Slot 2 Character Modifier [Thomas83Lin]
+04CDCBDC 0000000x
+*Check Main Thread for x & notes*
+
+Party Slot 3 Character Modifier [Thomas83Lin]
+04CDCBE0 0000000x
+*Check Main Thread for x & notes*
+
+Party Slot 4 Character Modifier [Thomas83Lin]
+04CDCBE4 0000000x
+*Check Main Thread for x & notes*
+
+Party Slot 5 Character Modifier [Thomas83Lin]
+04CDCBE8 0000000x
+*Check Main Thread for x & notes*
+
+Party Slot 6 Character Modifier [Thomas83Lin]
+04CDCBEC 0000000x
+*Check Main Thread for x & notes*
+
+Party Slot 7 Character Modifier [Thomas83Lin]
+04CDCBF0 0000000x
+*Check Main Thread for x & notes*
+
+Max Friendship after Gifting [Thomas83Lin]
+0413B488 48000014
+
+Max Cash v2 [Crazy52]
+42000000 90000000
+045AFC60 7FFFFFFF
+E0000000 80008000
+
+Party Gauge Full v2 [Crazy52]
+05224480 0000012C
+
+Shulk Max AP [Crazy52]
+04CE4384 7FFFFFFF
+
+Reyn Max AP [Crazy52]
+04CE8158 7FFFFFFF
+
+Sharla Max AP [Crazy52]
+04CF3AD4 7FFFFFFF
+
+Dunban Max AP [Crazy52]
+04CEFD00 7FFFFFFF
+
+Melia Max AP [Crazy52]
+04CFB67C 7FFFFFFF
+
+Super Run Speed [savage]
+285CAF82 00004000
+48000000 805717EC
+DE000000 80008180
+14000508 41000000
+CC000000 00000001
+48000000 805717EC
+DE000000 80008180
+14000508 3F800000
+E0000000 80008000
+Xtreme run speed C=On/Off
+
+Universal Codes for Xenoblade Chronicles
+
+Master Button Activator [Thomas83Lin]
+F6000001 80008100
+80030000 70C99FFF
+D2000000 00000003
+3D208000 90093200
+91093204 80030000
+60000000 00000000
+E0000000 80008000
+*Needs to be on for the change shop Item*
+*Stores Wiimote Status at 80003200*
+*Stores Classic Status at 80003204*
+
+Change Shop Item v.5 (Wiimote) [Thomas83Lin]
+F6000002 80008100
+7C7B1B78 7FA3EB78
+5764043E 57C5063E
+D2000000 00000013
+2C000000 4082008C
+48000009 00000000
+7CA802A6 A0850002
+3F608000 637B3200
+A37B0002 2C1B1008
+40820014 3884FFE2
+2C040000 40810050
+48000050 2C1B1004
+40820014 3884001E
+2C040EA3 4081003C
+48000018 2C1B4004
+40820018 38840001
+2C040EA3 40810024
+38800001 4800001C
+2C1B4008 4082001C
+3884FFFF 2C040000
+40820008 38800EA3
+B09F0000 B0850002
+7C7B1B78 00000000
+E0000000 80008000
+*Requires Master Button Activator*
+*Wiimote&NunChuck*
+*Hold C hit D-Pad Down to Increase or D-Pad UP to Decrease Item by 1*
+*Hold Minus hit D-Pad Down to Increase or D-Pad UP to Decrease Item by 30*
+*Credits to 2ch for the Original Ram address*
+
+Change Shop Item v.5 (Classic) [Thomas83Lin]
+F6000002 80008100
+7C7B1B78 7FA3EB78
+5764043E 57C5063E
+D2000000 00000013
+2C000000 4082008C
+48000009 00000000
+7CA802A6 A0850002
+3F608000 637B3200
+A37B0006 2C1B0081
+40820014 3884FFE2
+2C040000 40810050
+48000050 2C1B4080
+40820014 3884001E
+2C040EA3 4081003C
+48000018 2C1B4004
+40820018 38840001
+2C040EA3 40810024
+38800001 4800001C
+2C1B0005 4082001C
+3884FFFF 2C040000
+40820008 38800EA3
+B09F0000 B0850002
+7C7B1B78 00000000
+E0000000 80008000
+*Requires Master Button Activator*
+*Classic Controller*
+*Hold Zr hit D-Pad Down to Increase or D-Pad UP to Decrease Items by 1*
+*Hold Zl hit D-Pad Down to Increase or D-Pad UP to Decrease Items by 30*
+*Credits to 2ch for the Original Ram address*
+
+Shop Glitch Item Freeze Fix [Thomas83Lin]
+F6000001 80008100
+38800000 5405873E
+5A010000 FFFFFFFC
+D2000000 00000002
+2C030000 41820008
+80030000 00000000
+E0000000 80008000
+F6000001 80008180
+80040000 5403F77E
+D2000000 00000002
+2C040000 41820008
+80040000 00000000
+E0000000 80008000
+*Needs to be on when using the change shop Item*
+*May not fix all glitches*
+
+Shop Item Digit Display [Thomas83Lin]
+F6000002 80008100
+7C7A1B78 7FE3FB78
+7C040214 5404043E
+D2000014 00000003
+2C000000 40820008
+A07F0000 7C651B78
+60000000 00000000
+E0000000 80008000
+
+Moon Jump v.2 (Hold B) [Thomas83Lin]
+F6000001 80008100
+C0430000 2C1F0000
+D2000000 00000006
+C0430000 3C808000
+A0A43202 70A50400
+41820008 48000010
+A0A43206 70A50040
+4182000C 3CA04100
+90BD0494 00000000
+E0000000 80008000
+*Requires Master Button Activator*
+*WiimoteNunChuck+Classic Controller*
+*Used Zits Code for a Reference*
+
+Moon Jump v.2 (Hold Zr+B) [Thomas83Lin]
+F6000001 80008100
+C0430000 2C1F0000
+D2000000 00000005
+C0430000 3C808000
+A0A43206 70A50044
+2C050044 4082000C
+3CA04100 90BD0494
+60000000 00000000
+E0000000 80008000
+*Requires Master Button Activator*
+*Classic Controller*
+*Used Zits Code for a Reference*
+
+Inf Health (ALL Characters) [Thomas83Lin]
+F6000002 80008100
+7D8903A6 4E800421
+38610050 3880FFFF
+D200002C 00000002
+C002912C C02317F4
+D02317E8 00000000
+E0000000 80008000
+
+Max Exp on Gain [Thomas83Lin]
+F6000001 80008100
+7C65D214 3804E0FF
+14000010 60000000
+E0000000 80008000
+*Main Party Only*
+
+Max AP on Gain [Thomas83Lin]
+F6000001 80008100
+3803E0FF 7C64DA14
+14000010 60000000
+E0000000 80008000
+*Main Party Only*
+
+Max Exp+Ap on Gain For Reserve [Thomas83Lin]
+F6000001 80008100
+3805E0FF 7C862214
+14000010 60000000
+14000034 60000000
+E0000000 80008000
+
+All shop Items are free [Thomas83Lin]
+F6000001 80008100
+7EC3B378 57C4043E
+14000010 38600000
+14000014 48000008
+E0000000 80008000
+*Ported from 2ch*
+
+Instant Cool Down [Thomas83Lin]
+F6000001 80008100
+C0180080 EFE00824
+D2000000 00000002
+39800000 91980080
+C0180080 00000000
+E0000000 80008000
+*Player Only*
+
+Talent Gauge Max [Thomas83Lin]
+F6000001 80008100
+807E009C EC3F0072
+D2000000 00000002
+3D8042C8 919F17F0
+807E009C 00000000
+E0000000 80008000
+*Player Only*
+
+Max Current AP [Thomas83Lin]
+F6000001 80008100
+80631608 4E800020
+D2000000 00000002
+3D807000 91831608
+80631608 00000000
+E0000000 80008000
+
+If Money Change Max [Thomas83Lin]
+F6000001 80008100
+900320E8 4E800020
+D2000000 00000002
+3D8005F6 380CE0FF
+900320E8 00000000
+E0000000 80008000
+*Ported from Zit*
+
+All Crystals Max Level (V) [Thomas83Lin]
+F6000001 80008100
+5403F77E 4E800020
+D2000004 00000004
+2C040000 41820010
+38600094 98640003
+5403F77E 4E800020
+60000000 00000000
+E0000000 80008000
+*A Rehack of 2ch's code*
+*Must View or Pick them up to enable*
+*It is saveable*
+
+Max Friend Coins [Thomas83Lin]
+F6000001 80008100
+90030884 40800010
+14000004 48000010
+14000018 60000000
+E0000000 80008000
+*Ported from 2ch*
+*After you gain a new affinity coin*
+
+Max Affinity Coins [Thomas83Lin]
+F6000001 80008100
+3FE08051 83DE0884
+D2000004 00000002
+38A003E7 90BE0884
+83DE0884 00000000
+E0000000 80008000
+*View Skill Trees for each Character to enable*
+
+Max Party Gauge [Thomas83Lin]
+F6000001 80008100
+2C1D0000 93BF0000
+14000008 48000010
+1400001C 60000000
+E0000000 80008000
+F6000001 80008100
+2C1E0000 93DD0000
+14000008 48000010
+1400001C 60000000
+E0000000 80008000
+*Ported from COdePArk DS**Wii*
+
+Max Friendship after Gifting [Thomas83Lin]
+F6000001 80008100
+7C840214 7C800735
+14000008 48000014
+E0000000 80008000
+
+Max Skill Points [Thomas83Lin]
+F6000001 80008100
+3C604330 57E015BA
+D2000014 00000002
+38007000 90040888
+80840888 00000000
+E0000000 80008000
+F6000001 80008100
+3B200000 541A043E
+D2000014 00000002
+38007000 90030888
+60000000 00000000
+E0000000 80008000
+*Just Select the skill from tree you want Max Skill Points on*
+
+Speed Modifier [Thomas83Lin]
+F6000001 80008100
+C0410084 38610080
+D2000000 00000002
+C0410084 3C604000
+907D0458 00000000
+E0000000 80008000
+*Used 2ch's code for a Reference*
+*Mod 4000 to IncreaseDecrease*
+*def value 3F80*
+
+Open Item Box, get 99 of Items Inside [Thomas83Lin]
+F6000001 80008100
+88030006 7C030774
+D2000000 00000002
+38000063 98030006
+88030006 00000000
+E0000000 80008000
+*Ported from 2ch*
+
+GemCraft Mega Heat [Thomas83Lin]
+F6000001 80008100
+7C7E0214 57E4043E
+14000008 380001FE
+E0000000 80008000
+F6000001 80008100
+7C9D0214 7FA3EB78
+14000008 380001FE
+E0000000 80008000
+*Ported from ?*

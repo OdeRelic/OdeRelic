@@ -1,0 +1,19 @@
+PBZP
+JJ & Jeff
+
+Unlimited Lives [Crapulecorp]
+42000000 90000000
+005700EA 00000063
+E0000000 80008000
+
+Unlimited Vitality [Crapulecorp]
+42000000 90000000
+005700EC 00000010
+E0000000 80008000
+*Code ported from farjo08 Ntsc Usa Version*
+
+Have Key [Crapulecorp]
+42000000 90000000
+0056F6E9 00000080
+E0000000 80008000
+*Code ported from farjo08 Ntsc Usa Version*

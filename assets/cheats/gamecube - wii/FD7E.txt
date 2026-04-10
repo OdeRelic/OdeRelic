@@ -1,0 +1,62 @@
+FD7E
+Mega Man 3
+
+Moon Jump B+2 [Thomas83Lin]
+28181668 FAFF0500
+003BC480 00000004
+E0000000 80008000
+*Wiimote*
+
+Invincible [GMO]
+003BC059 00000021
+
+Refill Health & Ammo [GMO]
+28181668 00000402
+023BC0C2 00009C9C
+043BC0C4 9C9C9C9C
+043BC0C8 9C9C9C9C
+023BC0CC 00009C9C
+E0000000 80008000
+Hold B and Press Right on D-Pad
+
+Infinite Lives [whitetigerx8]
+103BCF3E 00000009
+
+Infinite Health [whitetigerx8]
+103BC0C2 0000009C
+
+Infinite Energy Tanks [whitetigerx8]
+103BCF9E 00000009
+
+Infinite Gemini Laser [whitetigerx8]
+103BC0C3 0000009C
+
+Infinite Needle Cannon [whitetigerx8]
+103BC0C4 0000009C
+
+Infinite Hard Knuckle [whitetigerx8]
+103BC0C5 0000009C
+
+Infinite Magnet Missle [whitetigerx8]
+103BC0C6 0000009C
+
+Infinite Top Spin [whitetigerx8]
+103BC0C7 0000009C
+
+Infinite Search Snake [whitetigerx8]
+103BC0C8 0000009C
+
+Infinite Rush Coil [whitetigerx8]
+103BC0C9 0000009C
+
+Infinite Spark Shock [whitetigerx8]
+103BC0CA 0000009C
+
+Infinite Rush Marine [whitetigerx8]
+103BC0CB 0000009C
+
+Infinite Shadow Blade [whitetigerx8]
+103BC0CC 0000009C
+
+Infinite Rush Jet [whitetigerx8]
+103BC0CD 0000009C

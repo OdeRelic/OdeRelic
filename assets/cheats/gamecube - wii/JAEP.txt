@@ -1,0 +1,11 @@
+JAEP
+Donkey Kong Country
+
+Max Bananas [GMO]
+008BA123 00000063
+
+Have KONG Completed [GMO]
+008BA127 00000010
+
+Always Have A Partner In Death [GMO]
+008BA121 00000001

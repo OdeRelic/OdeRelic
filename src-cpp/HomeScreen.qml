@@ -133,7 +133,7 @@ Rectangle {
             
             model: ListModel {
                 ListElement { name: "PlayStation 2"; ode: "OPL"; image: "qrc:/assets/consoles/ps2.png"; active: true; key: "ps2" }
-                ListElement { name: "Gamecube"; ode: "Swiss"; image: "qrc:/assets/consoles/gamecube.png"; active: false; key: "gc" }
+                ListElement { name: "Gamecube"; ode: "Swiss"; image: "qrc:/assets/consoles/gamecube.png"; active: true; key: "gc" }
                 ListElement { name: "Dreamcast"; ode: "GDEMU"; image: "qrc:/assets/consoles/dreamcast.png"; active: false; key: "dc" }
                 ListElement { name: "Sega Saturn"; ode: "Saroo"; image: "qrc:/assets/consoles/saturn.png"; active: false; key: "saturn" }
                 ListElement { name: "PlayStation 1"; ode: "PSIO"; image: "qrc:/assets/consoles/ps1.png"; active: false; key: "ps1" }

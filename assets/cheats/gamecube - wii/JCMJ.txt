@@ -1,0 +1,16 @@
+JCMJ
+Super Wagyan Land
+
+Infinite Lives [ZiT]
+00449F4A 00000099
+
+Infinite Pow [ZiT]
+0044A324 00000006
+
+Invincible [ZiT]
+0044A34D 00000023
+
+Moon Jump (b Button) [ZiT]
+28161F76 FFBF0040
+0244AEEC 000000FD
+E0000000 80008000

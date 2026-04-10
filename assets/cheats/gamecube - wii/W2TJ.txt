@@ -1,0 +1,14 @@
+W2TJ
+Onitore Kyoukan ha Onigunsou
+
+Pts MAX (1P) [ZiT]
+042C66A8 0001869F
+
+Pts (2P) [ZiT]
+042C66E8 xxxxxxxx
+
+Pts (3P) [ZiT]
+042C6728 xxxxxxxx
+
+Pts (4P) [ZiT]
+042C6768 xxxxxxxx

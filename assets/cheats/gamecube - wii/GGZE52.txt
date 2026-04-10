@@ -1,0 +1,14 @@
+GGZE52
+Madagascar 
+
+Infinite Coins
+024892DE 000003E8
+
+Infinite Health
+04BB48BC 00000009
+
+Max Health
+0248949E 00000009
+
+Infinite Lives
+0448927C 00000063

@@ -1,0 +1,23 @@
+RO8E7D
+The Legend of Spyro Dawn of The Dragon
+
+Max Exp Spyro [the_dave]
+047C0F0C 3B9AC9FF
+
+Max Exp Cynder [the_dave]
+047C0F10 3B9AC9FF
+
+Spyro Infinite health [the_dave]
+047C0ED4 000003E8
+
+Spyro Infinite mana [the_dave]
+047C0EEC 000003E8
+
+Cynder Infinite health [the_dave]
+047C0EDC 000003E8
+
+Cynder Infinite Mana [the_dave]
+047C0EF4 000003E8
+
+RO8E7D
+The Legend of Spyro Dawn of The Dragon

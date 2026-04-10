@@ -1,0 +1,44 @@
+NAEP
+Paper Mario 64
+
+100 SP (star points) [12201]
+01323E00 00000064
+
+BP 99 [12201]
+01323DF8 00000063
+
+999 Coins [ssbbdude]
+05323DFC 03E70015
+Matt123337 Original
+
+Infinite Health [ssbbdude]
+05323DF0 02026363
+Matt123337 Original
+
+Infinite FP [ssbbdude]
+05323DF4 2D636323
+Matt123337 Original
+
+Infinite Star Power [ssbbdude]
+05324080 07000126
+
+Star Pieces and Partner X [ssbbdude]
+05323E00 00000X38
+
+X Values:
+
+0 No partner
+1 Goomba (Boy)
+2 Koopa
+3 Bombette
+4 Flying Koopa
+5 Goomba Old (Man)
+6 Watt
+7 Fish
+8 Lakitu
+9 Boo
+A Goomba (Girl)
+B Star
+C Somthing Strange Happens
+
+Must Walk through door then your partner changes

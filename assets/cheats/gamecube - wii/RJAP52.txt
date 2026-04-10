@@ -1,0 +1,214 @@
+RJAP52
+Call of Duty Modern Warfare: Reflex
+
+Backlot Checkered Load Image [Crashzer]
+077FDFE0 00000008
+3A003E0E 0001E980
+*i46.tinypic.com/ic91k7.png
+
+Red Vision [Crashzer]
+0494D0D4 6FFFFFFF
+
+Blue Vision [Crashzer]
+0494D0D0 6FFFFFFF
+*http://i45.tinypic.com/nn0cxd.png
+
+Lime Vision [Crashzer]
+0494D0D0 FFFFFFFF
+
+AC130 [Crashzer]
+077FDFE0 00000008
+2A9A10F6 000C6140
+*Replaces Backlot
+*http://i49.tinypic.com/nc0brr.png
+
+Kill House [Crashzer]
+077FE04C 00000008
+39D06E7E 000B4D00
+*Replaces Vacant
+*http://i50.tinypic.com/zofgua.png
+
+Jeep Ride [Crashzer]
+077FE16C 00000008
+39CC0816 000D6A20
+*Replaces Pipeline
+*http://i47.tinypic.com/o6mude.png
+
+Scout Sniper [Crashzer]
+077FE1D8 00000008
+39F9F2F6 0009B540
+*Replaces Strike
+*http://i48.tinypic.com/1zlyt0h.png
+
+Sound Spoofer [Crashzer]
+077FE298 00000008
+1A5CFC00 00000800
+*Game Sounds Robotic
+
+Button Activator (PAL) [Crashzer]
+2817D6E0 YYYYZZZZ
+
+Infinite Ammo [Crashzer]
+007846E7 0000007F
+
+Force Reload [Crashzer]
+2817D6E0 0000ZZZZ
+007846E7 00000000
+E0000000 80008000
+*For lazy people who cant be bothered to shake nunchuck
+
+Unstopable Reloading [Crashzer]
+007846E7 00000000
+Empty your gun!
+
+Unstopable Reloading [Crashzer]
+007846E7 00000000
+Empty your gun!
+
+Force Host [hetoan2]
+050682A4 00000000
+
+Lagometer Display [hetoan2]
+0506D6BC 01B00000
+
+FPS Display [hetoan2]
+0506C9CC 01000000
+
+Gravity Modifier [hetoan2]
+05080B44 XXXXXXXX
+
+See-through Walls [hetoan2]
+05077A6C 60000000
+
+PC Graphics: [BlockBoy]
+0507A174 01000000
+0507A13C 01000000
+
+Start Game in 1 Second: [BlockBoy]
+05067F8C 3F800000
+
+Melee Range Modifier: [BlockBoy]
+05074FAC XXXXXXXX
+05074FF4 XXXXXXXX
+0507503C XXXXXXXX
+05075084 XXXXXXXX
+
+Unlimited Sprint: [BlockBoy]
+050744B4 01000000
+
+Disable Overhead Names: [BlockBoy]
+0506F4D4 00000000
+
+No Damage From Falling: [BlockBoy]
+0507377C 69045951
+
+The Maximum Hieght a player can jump: [BlockBoy]
+2817FE0A 00008000
+05075744 XXXXXXXX
+E0000000 80008000
+
+Jump and Hurt Yourself: [BlockBoy]
+0507377C 24E69595
+
+Exit Scope on Damage [superman]
+05073E3C 01000000
+
+Hold breath forever [superman]
+05073BFC 44160000
+05073C44 33D6BF95
+
+Universal Codes for Call of Duty: Modern Warfare Reflex
+
+Checkered Map In lobby [Crashzer]
+F6000001 8100817F
+810761E8 8068D00C
+14000010 80EA0AB9
+E0000000 80008000
+*http://i49.tinypic.com/5wwmt.png
+*This code will cause a freeze if you start the game with it activated
+
+Campaign Codes
+
+No Clip [Bully@Wiiplaza]
+2817FE0A 7FFF8000
+F6000001 80108100
+8003B854 2C000000
+2817FE0A FEFF0100
+14000000 38000001
+CC000000 00000000
+14000000 8003B854
+E0000000 80008000
+*Press Home on Main Menu to activate code*
+*Press 1 to toggle ON/OFF*
+
+God Mode [Bully@Wiiplaza]
+2817FE0A 7FFF8000
+F6000001 80008100
+80180190 2C000000
+F4000000 022C0002
+38000001 9818017F
+80180190 00000000
+E0000000 80008000
+*Press Home on Main Menu to activate code*
+*Total Invincibility*
+
+Infinite Ammo [Bully@Wiiplaza]
+2817FE0A 7FFF8000
+F6000001 80008100
+7C9D0214 A8840178
+14000010 38000001
+14000418 38800000
+E0000000 80008000
+*Press Home on Main Menu to activate code*
+*Infinite Weapon Ammo & Grenades*
+
+All Missions Unlocked [Bully@Wiiplaza]
+2817FE0A 7FFF8000
+F6000001 81008180
+3F800000 3F19999A
+140001EC 01000000
+E0000000 80008000
+*Press Home on Main Menu to activate code*
+*Non-permanent*
+*Video: http://www.youtube.com/watch?v=vwNyAs25VB8
+
+Multiplayer Codes
+
+Infinite Ammo [Bully@Wiiplaza]
+20152BA4 FFFFFFFA
+F6000001 80008100
+A80301F4 7C040050
+14000004 60000000
+E0000000 80008000
+*Host All-Players*
+
+God Mode [Bully@Wiiplaza]
+20152BA4 FFFFFFFA
+F6000001 80008100
+9003000C 80130150
+14000004 38001001
+E0000000 80008000
+*Host All-Players*
+*Total Invincibility*
+*Hold a grenade until it explodes to die*
+
+Noclip [Bully@Wiiplaza]
+20152BA4 FFFFFFFA
+F6000001 80008100
+54000290 901E00CC
+2817FE0A 7FFF8000
+14000008 38000001
+CC000000 00000000
+14000008 801E17A4
+E0000000 80008000
+*Host All-Players*
+*Press Home to toggle ON/OFF*
+
+No Recoil [Bully@Wiiplaza]
+20152BA4 FFFFFFFA
+F6000001 80008100
+FC013040 4C411382
+1400000C 60000000
+E0000000 80008000
+*Non-Host*
+*Credits to WiiOS_Ozelot*

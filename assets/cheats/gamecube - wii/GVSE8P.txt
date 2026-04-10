@@ -1,0 +1,14 @@
+GVSE8P
+Virtua Striker 2002 
+
+Away Team Has Massive Score
+004142A1 00000063
+
+Away Team Score 0
+004142A1 00000000
+
+Home Team Has Massive Score
+0041427D 00000063
+
+Home Team Score 0
+0041427D 00000000

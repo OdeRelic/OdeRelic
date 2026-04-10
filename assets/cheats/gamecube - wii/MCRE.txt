@@ -1,0 +1,11 @@
+MCRE
+MERCS: Wolf of the Battlefield
+
+Unlimited Health [GMO]
+00EDE7C9 00000020
+
+Unlimited M Specials [GMO]
+00EDE7D1 00000099
+
+Unlimited Mission Time [GMO]
+02EDEA3C 00000300

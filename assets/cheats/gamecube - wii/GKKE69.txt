@@ -1,0 +1,8 @@
+Add Stats for Super Stats
+040BE0E0 380000FF
+
+Quick Stat Point Gain
+040BE220 386300FF
+
+Use Stat Points to Gain Them
+040BE104 38630001

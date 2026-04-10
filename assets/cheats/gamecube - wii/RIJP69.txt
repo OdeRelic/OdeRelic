@@ -1,0 +1,56 @@
+RIJP69
+G.I. JOE: The Rise of Cobra
+
+Unlimited Life Player 1 [Crapulecorp]
+02F4BD7C 00003F80
+
+Unlimited Life Player 1 (press ZR ON/OFF) [Crapulecorp]
+284E8282 FFFB0004
+CC000000 00000000
+02F4BD7C 00003F80
+E0000000 80008000
+*Classic Controller*
+
+Unlimited Life Player 1 (Press 2 ON/OFF) [Crapulecorp]
+284E8222 FEFF0100
+CC000000 00000000
+02F4BD7C 00003F80
+E0000000 80008000
+*WiiMote-NunChuck*
+
+Unlimited Grenades Player 1 [Crapulecorp]
+00F4BD95 00000003
+
+Never Loose Grenades Player 1 [Crapulecorp]
+0404337C 38040000
+
+Score Max Player 1 (Press ZL ON/OFF) [Crapulecorp]
+04022558 901C0020
+284E8282 FF7F0080
+CC000000 00000000
+C2022558 00000002
+3C003B9A 6000C9FF
+901C0020 00000000
+E0000000 80008000
+*Classic Controller*
+
+Score Max Player 1 (Press + ON/OFF) [Crapulecorp]
+04022558 901C0020
+284E8222 FFEF0010
+CC000000 00000000
+C2022558 00000002
+3C003B9A 6000C9FF
+901C0020 00000000
+E0000000 80008000
+*WiiMote-NunChuck*
+
+Unlimited War Points [Crapulecorp]
+014511B1 00000063
+
+Button Activator Player 1
+
+Classic Controller [Crapulecorp]
+284E8282 YYYYZZZZ
+
+WiiMote-NunChuck [Crapulecorp]
+284E8222 YYYYZZZZ

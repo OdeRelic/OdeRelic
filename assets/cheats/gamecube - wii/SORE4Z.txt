@@ -1,0 +1,33 @@
+SORE4Z
+The Oregon Trail
+
+Requires Ossleepthread Hook
+
+Unlimited Money [Crapulecorp]
+C204CA6C 00000002
+3800270F B00301C0
+60000000 00000000
+
+No Reload [Crapulecorp]
+0402C0FC 38040000
+
+Unlimited Ammo [Crapulecorp]
+C204C420 00000002
+380003E7 B00301C2
+60000000 00000000
+
+Max Score [Crapulecorp]
+C204C570 00000002
+3C00000F 6000423F
+9005001C 00000000
+
+9,999 money [savage]
+04B2E2A0 26C400C8
+E0000000 80008000
+
+0 trail timer [savage]
+04B2E10C 00000000
+E0000000 80008000
+
+activator [savage]
+2853964A 0000XXXX

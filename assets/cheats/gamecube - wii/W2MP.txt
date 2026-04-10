@@ -1,0 +1,11 @@
+W2MP
+Blaster Master Overdrive
+
+Unlimited HP [GMO]
+0228EDB0 00004310
+
+Unlimited HP (ASM) [GMO]
+040556A8 60000000
+
+Unlimited Energy [GMO]
+0228EDB8 00004200

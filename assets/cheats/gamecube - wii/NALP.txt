@@ -1,0 +1,69 @@
+NALP
+Super Smash Bros
+
+Unlock All Characters [GMO]
+031D1AD8 00000FF0
+
+Unlock Mushroom Kingdom Stage [GMO]
+011D1AD7 000000FF
+
+Start Against Master Hand (1P Mode) [GMO]
+011D1C87 0000000D
+
+Unlimited Time (1P Mode) [GMO]
+031D1CCE 00004650
+
+P1 Unlimited Lives (1P Mode) [GMO]
+011D1CE3 00000004
+
+P1 0% Power (1P Mode) [GMO]
+011D1D27 00000000
+Full Power Bonus is awarded at end of match
+
+Need One Kill in Team Battle (1P Mode) [GMO]
+012C0141 00000001
+012C0A68 00000001
+
+1 Target to Win [GMO]
+2A25E59C 0000000A
+0125E59C 00000001
+E0000000 80008000
+Thanks to retroben for the initial port
+
+1 Platform to Win [GMO]
+2A25E5A0 0000000A
+0125E5A0 00000001
+E0000000 80008000
+Thanks to retroben for the initial port
+
+Unlimited Double Jumps (All Players) [GMO]
+0126D06B 00240000
+Ported By retroben
+
+Hit Anywhere (All Modes Except Training) [GMO]
+01211ED1 00000024
+01211F9D 00000024
+01211FE1 00000024
+Ported By retroben
+
+Infinite Raygun Ammo (All Players) [GMO]
+032A2C9E 000003E7
+Works on All Modes, Ported By retroben
+
+Debug Menu [GMO]
+031D1C6F 000000??
+03 - normal debug (Press Start for Control Menu)
+04 - Debug match Mode (Can Play as any Character including Master Hand on any level)
+Ported By retroben
+
+P1 Invincible (All Levels/Modes) [GMO]
+05215C60 0C000018
+0512D200 8FA5001C
+0512D204 3C018013
+0512D208 8C210D84
+0512D20C 24040003
+0512D210 50A10001
+0512D214 ACA405AC
+0512D218 03E00008
+0512D21C 24000000
+Ported By retroben

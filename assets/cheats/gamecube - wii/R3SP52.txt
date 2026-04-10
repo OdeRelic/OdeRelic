@@ -1,0 +1,13 @@
+R3SP52
+Spider-Man: Web of Shadows
+
+Infinite Health [Blaster99]
+04262F50 60000000
+04262F20 60000000
+
+Have 500,000 Exp [Blaster99]
+0440946C 3D6048F4
+04409470 396B2400
+04409474 91630018
+Credits for experience-code to TNTkryzt, same as US.
+Important: Use other method than VI-hook else codes will not work.

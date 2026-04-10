@@ -1,0 +1,8 @@
+FAVE
+Tecmo Bowl
+
+Player 1 Score 99 [GMO]
+003E72A3 00000099
+
+Player 2/COM Score 0 [GMO]
+003E72A8 00000000

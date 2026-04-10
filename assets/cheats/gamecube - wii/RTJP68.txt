@@ -1,0 +1,10 @@
+RTJP68
+Star Trek: Conquest
+
+Unlimited & Max Money [Crapulecorp]
+0430AA28 501502F9
+
+Max Exp For Your 3 Admirals [Crapulecorp]
+0430AAE4 4479C000
+0430AAF4 4479C000
+0430AB04 4479C000

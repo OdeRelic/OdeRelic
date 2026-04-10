@@ -1,0 +1,21 @@
+JBYP
+Super R-Type
+
+Unlimited Lives [Crapulecorp]
+0043CB29 00000009
+
+Invincible [Crapulecorp]
+2043C9D4 F9A80100
+0443C9D4 B5A80100
+E0000000 80008000
+*Code ported from Thomas83Lin Ntsc Usa Version*
+
+Max Speed [Crapulecorp]
+0043C5DF 00000009
+0043C5E4 00000009
+*Code ported from ZiT Ntsc Jap Version*
+
+Good Playable Speed [Crapulecorp]
+0043C5DF 00000005
+0043C5E4 00000005
+*Code ported from Thomas83Lin Ntsc Usa Version*

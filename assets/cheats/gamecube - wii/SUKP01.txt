@@ -1,0 +1,229 @@
+SUKP01
+Kirby´s Adventure Wii
+
+Un. Leben nach 1 mal Sterben/99 Lives after 1 dead [sniper82]
+C250C578 00000002
+3C000000 60000063
+90030004 00000000
+
+Immer Megastern schissen/always mega star shoot [sniper82]
+C260706C 00000002
+3C000000 6000001F
+901D0018 00000000
+
+Waffenroulette/weapons roulette [sniper82]
+C2608B34 00000002
+3C000000 60000003
+901E0000 00000000
+
+Un. Zeit am Schissstand/In. Time at the shooting range [sniper82]
+04D7B6F0 00000000
+04D7B7E8 41A00000
+04DEC350 00000000
+04DEC448 41A80000
+04E03550 00000000
+04E03648 41A80000
+
+Un. Zeit in den Prüfungen/In.Time in exams [sniper82]
+C234B8C4 00000002
+3C000000 60001111
+9003006C 00000000
+
+Un. Zeit in der Arena/In.Time in the arena [sniper82]
+C21F1624 00000002
+3C000000 60000018
+90030174 00000000
+
+Un. Powerbalken im Superwaffen Modus/In.Power Bar in the super weapons mode [sniper82]
+C24D34C0 00000002
+3C000013 6000270F
+901E0028 00000000
+
+Waffen Auswahl XX muss ersetzt werden durch einen Wert von der Liste,Weapon selection XX must be replaced by a value from the list [sniper82]
+C24D4634 00000002
+3FC00000 63DE00XX
+93DD0018 00000000
+Ihr habt die Waffe das ganze Spiel/You have the gun the whole game
+1 normales Schwert
+2 Bumerang
+3 Laub
+4 Peitsche
+5 Feuer
+6 Igel
+7 Beam
+8 Elektro
+9 Stein
+A Schlaf
+B Schirm
+C Wasser
+D Sprung
+E Tornado
+F Bomben
+10 Speer
+11 Hammer
+12 Eis
+13 Flügel
+14 Ninja
+15 Kämpfer
+16 Kugelblitz
+17 Popstar
+18 ihr seit der Drache mit Kirby (nicht zu entfehlen ihr könnt nicht mehr in eingänge gehen)
+19 Ultra Schwert
+1A Drachen Flamme
+1B Spektral Beam
+1C Giga Hammer
+1D Schneeball
+1F Ende ab hier friert das spiel ein/
+1 normal sword
+2 boomerang
+3 leaves
+4 whip
+5 fire
+6 hedgehog
+7 Beam
+8 electric
+9 stone
+A sleep
+B Shield
+C water
+D jump
+E Tornado
+F bombs
+10 spear
+11 Hammer
+12 ice
+13 wings
+14 Ninja
+15 fighters
+16 ball lightning
+17 pop star
+18 since the dragon with her ​​Kirby (not entfehlen you can not go in inputs)
+19 Ultra Sword
+1A dragon flame
+1B Spectral Beam
+1C Giga Hammer
+1D snowball
+1F freezes the game here at the end of a
+
+The following codes *require* Metafortress protection fix (gameconfig.txt)
+
+Disabling Metafortress protection
+This is a gameconfig.txt file which holds all patches that remove some major hacking and language protections. You basically want that, if you´re about to use some codes for this game. The patches will automatically be applied by Gecko OS. http://www.mediafire.com/?x4br6t02swjosxm
+
+How to use:
+Download the file and put in to the root of your SD card (SD:\gameconfig.txt). Credits to dcx2 for creating another working set of patches for the PAL version of this game.
+
+Note:
+If you already have a gameconfig.txt file in use for whatever purpoise, simply copy the contents of this one and add them to your list.
+
+Inf. Health [Bully@Wiiplaza]
+04503D0C 38800000
+044EC734 38800000
+*ported from NTSC-U by Thomas83Lin*
+
+Hardened Mode [Bully@Wiiplaza]
+04503D1C 38800000
+
+Universal Codes for Kirby's Return to Dreamland
+
+Important Player 1 Universal Button Activator [Thomas83Lin]
+F6000001 80008100
+90030000 552A043E
+D2000000 00000004
+2C190000 40820010
+3D408000 614A3200
+900A0000 90030000
+60000000 00000000
+E0000000 80008000
+*Required for Most of my Universal codes*
+
+Mouth Item Roller Excluded Items + Reload Last Item v.2 [Thomas83Lin]
+F6000001 80008100
+80630000 38630030
+D2000048 00000018
+2C1E0000 4182000C
+80630000 480000B0
+9421FFB0 BDC10008
+4800000D 00000000
+00000000 7DC802A6
+80630000 81EE0000
+824E0004 3E008000
+62103200 A2100002
+72111000 41820018
+3A600001 92630AF4
+92631340 92431344
+4800005C 7DEF8278
+920E0000 71EF0400
+4182004C 72100400
+41820044 3A600001
+92630AF4 92631340
+824E0004 3A520001
+2C12001D 40810008
+3A400000 2C12000A
+40820008 3A40000B
+2C120018 40820008
+3A400019 92431344
+924E0004 B9C10008
+38210050 00000000
+E0000000 80008000
+*Requires Player 1 Universal Button Activator*
+*Player 1 with Kirby Only*
+*Press B to roll Item Press D-pad Down to Receive*
+*Press Minus to Reload Lost\Last Item
+*Skips Sleep and Landia*
+
+Mouth Item Roller + Reload Last Item v.2 [Thomas83Lin]
+F6000001 80008100
+80630000 38630030
+D2000048 00000015
+2C1E0000 4182000C
+80630000 48000098
+9421FFB0 BDC10008
+4800000D 00000000
+00000000 7DC802A6
+80630000 81EE0000
+824E0004 3E008000
+62103200 A2100002
+72111000 41820018
+3A600001 92630AF4
+92631340 92431344
+48000044 7DEF8278
+920E0000 71EF0400
+41820034 72100400
+4182002C 3A600001
+92630AF4 92631340
+824E0004 3A520001
+2C12001D 40810008
+3A400000 92431344
+924E0004 B9C10008
+38210050 00000000
+E0000000 80008000
+*Requires Player 1 Universal Button Activator*
+*Player 1 with Kirby Only*
+*Press B to roll Item Press D-pad Down to Receive*
+*Press Minus to Reload Lost\Last Item*
+
+Automatic Power-Up Roulette (Press Minus + A) [Thomas83Lin]
+F6000001 80008100
+80630000 38630030
+D200004C 00000007
+2C1E0000 4082002C
+3D808000 A18C3202
+718C1800 2C0C1800
+40820018 39800001
+91830AF4 91831340
+39800003 91831398
+38630058 00000000
+E0000000 80008000
+*Requires Player 1 Universal Button Activator*
+*Credits to g6flavor for the Roulette address*
+*Player 1 Kirby Only*
+*Normal Power Ups*
+
+Slow + Infinite Power-Up Roulette [Thomas83Lin]
+F6000002 80008100
+80830008 38040001
+90030008 8803001C
+14000004 38000000
+140002B4 380000FF
+E0000000 80008000

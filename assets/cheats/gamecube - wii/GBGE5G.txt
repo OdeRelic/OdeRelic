@@ -1,0 +1,263 @@
+GBGE5G
+Bomberman Generation 
+
+Max hearts and infinite health
+00308AF3 00000020
+00308B93 00000020
+
+Freeze timer
+00356D34 00000000
+
+Have max bombs
+00308B97 00000006
+
+Have max fire
+00308B95 00000004
+
+Have max speed up
+00308B99 00000005
+
+Have 15 bombs
+00308B97 00000063
+
+Bomb modifier: Normal fire bomb
+00308B9F 00000000
+
+Bomb modifier: Wind bomb
+00308B9F 00000001
+
+Bomb modifier: Ice bomb
+00308B9F 00000004
+
+Bomb modifier: Water bomb
+00308B9F 00000005
+
+Bomb modifier: Light bomb
+00308B9F 00000006
+
+Open all worlds/levels
+04357224 1F1F1F1F
+04357228 1F000000
+0035723B 00000005
+
+Have all bomb elements
+003571D0 000000FF
+
+0431FE80 FFFFFFFF
+0431FE84 FFFFFFFF
+
+No 1. Stegodon: Attack 99
+003096AB 00000063
+
+No 1. Stegodon: Defense 99
+003096AD 00000063
+
+No 1. Stegodon: Special 99
+003096AF 00000063
+
+No 1. Stegodon: Ability 99
+003096B1 00000063
+
+No 2. Dorako: Attack 99
+003096EB 00000063
+
+No 2. Dorako: Defense 99
+003096ED 00000063
+
+No 2. Dorako: Special 99
+003096EF 00000063
+
+No 2. Dorako: Ability 99
+003096F1 00000063
+
+No 3. Pteradon: Attack 99
+0030972B 00000063
+
+No 3. Pteradon: Defense 99
+0030972D 00000063
+
+No 3. Pteradon: Special 99
+0030972F 00000063
+
+No 3. Pteradon: Ability 99
+00309731 00000063
+
+No 4. Andlar: Attack 99
+0030976B 00000063
+
+No 4. Andlar: Defense 99
+0030976D 00000063
+
+No 4. Andlar: Special 99
+0030976F 00000063
+
+No 4. Andlar: Ability 99
+00309771 00000063
+
+No 5. Marine Eel: Attack 99
+003097AB 00000063
+
+No 5. Marine Eel: Defense 99
+003097AD 00000063
+
+No 5. Marine Eel: Special 99
+003097AF 00000063
+
+No 5. Marine Eel: Ability 99
+003097B1 00000063
+
+No 6. Kai-man: Attack 99
+003097EB 00000063
+
+No 6. Kai-man: Defense 99
+003097ED 00000063
+
+No 6. Kai-man: Special 99
+003097EF 00000063
+
+No 6. Kai-man: Ability 99
+003097F1 00000063
+
+No 7. Beast P.: Attack 99
+0030982B 00000063
+
+No 7. Beast P.: Defense 99
+0030982D 00000063
+
+No 7. Beast P.: Special 99
+0030982F 00000063
+
+No 7. Beast P.: Ability 99
+00309831 00000063
+
+No 8. Pox: Attack 99
+0030986B 00000063
+
+No 8. Pox: Defense 99
+0030986D 00000063
+
+No 8. Pox: Special 99
+0030986F 00000063
+
+No 8. Pox: Ability 99
+00309871 00000063
+
+No 9. Pommy: Attack 99
+003098AB 00000063
+
+No 9. Pommy: Defense 99
+003098AD 00000063
+
+No 9. Pommy: Special 99
+003098AF 00000063
+
+No 9. Pommy: Ability 99
+003098B1 00000063
+
+No 10. Ligon: Attack 99
+003098EB 00000063
+
+No 10. Ligon: Defense 99
+003098ED 00000063
+
+No 10. Ligon: Special 99
+003098EF 00000063
+
+No 10. Ligon: Ability 99
+003098F1 00000063
+
+No 11. Unicornus: Attack 99
+0030992B 00000063
+
+No 11. Unicornus: Defense 99
+0030992D 00000063
+
+No 11. Unicornus: Special 99
+0030992F 00000063
+
+No 11. Unicornus: Ability 99
+00309931 00000063
+
+No 12. Big Ox: Attack 99
+0030996B 00000063
+
+No 12. Big Ox: Defense 99
+0030996D 00000063
+
+No 12. Big Ox: Special 99
+0030996F 00000063
+
+No 12. Big Ox: Ability 99
+00309971 00000063
+
+No 13. Angol: Attack 99
+003099AB 00000063
+
+No 13. Angol: Defense 99
+003099AD 00000063
+
+No 13. Angol: Special 99
+003099AF 00000063
+
+No 13. Angol: Ability 99
+003099B1 00000063
+
+No 14. P.Dragon: Attack 99
+003099EB 00000063
+
+No 14. P.Dragon: Defense 99
+003099ED 00000063
+
+No 14. P.Dragon: Special 99
+003099EF 00000063
+
+No 14. P.Dragon: Ability 99
+003099F1 00000063
+
+No 15. Pomyugar: Attack 99
+00309A2B 00000063
+
+No 15. Pomyugar: Defense 99
+00309A2D 00000063
+
+No 15. Pomyugar: Special 99
+00309A2F 00000063
+
+No 15. Pomyugar: Ability 99
+00309A31 00000063
+
+No 16. Shelks: Attack 99
+00309A6B 00000063
+
+No 16. Shelks: Defense 99
+00309A6D 00000063
+
+No 16. Shelks: Special 99
+00309A6F 00000063
+
+No 16. Shelks: Ability 99
+00309A71 00000063
+
+No 17. Lai Eel: Attack 99
+00309AAB 00000063
+
+No 17. Lai Eel: Defense 99
+00309AAD 00000063
+
+No 17. Lai Eel: Special 99
+00309AAF 00000063
+
+No 17. Lai Eel: Ability 99
+00309AB1 00000063
+
+No 18. Fire Horn: Attack 99
+00309AEB 00000063
+
+No 18. Fire Horn: Defense 99
+00309AED 00000063
+
+No 18. Fire Horn: Special 99
+00309AEF 00000063
+
+No 18. Fire Horn: Ability 99
+00309AF1 00000063

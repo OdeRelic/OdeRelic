@@ -1,0 +1,7 @@
+SFVEXJ
+Fishing Resort
+
+Unlimited Points [Crapulecorp]
+C2056CF8 00000002
+3C800098 6084967F
+90830018 00000000

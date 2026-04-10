@@ -1,0 +1,177 @@
+EARP
+Neo Turf Master
+
+Player 1 Codes
+
+Infinite Time Player 1 [Crapulecorp]
+00216CFD 0000001E
+
+Player 1 Always First Shot (Hole in One) [Crapulecorp]
+0021CAAE 00000001
+
+Player 1 Always First Shot (Hole in One) Press L [Crapulecorp]
+281E4C82 DFFF2000
+0021CAAE 00000001
+E0000000 80008000
+*Classic Controller*
+
+Player 1 Always First Shot (Hole in One) Press L ON/OFF [Crapulecorp]
+281E4C82 DFFF2000
+CC000000 00000000
+0021CAAE 00000001
+E0000000 80008000
+*Classic Controller*
+
+Player 1 Always First Shot (Hole in One) Press B [Crapulecorp]
+281E4C80 FBFF0400
+0021CAAE 00000001
+E0000000 80008000
+*WiiMote*
+
+Player 1 Always First Shot (Hole in One) Press B ON/OFF [Crapulecorp]
+281E4C80 FBFF0400
+CC000000 00000000
+0021CAAE 00000001
+E0000000 80008000
+*WiiMote*
+
+Character Select Player 1 [Crapulecorp]
+0021CAAD 000000XX
+*Replace XX for:
+00 - George Spinner (USA) Young Hero
+01 - Fernand Almeida (BRA) Power Golfer
+02 - Robert Landolt (GER) Shot Maker
+03 - Toyoshige Takano (JAP) Putt Master
+04 - Frank Adams (AUS) Veteran
+05 - Thomas Stewart (GBR) Technician*
+
+Player 1 Always Rest 99 Holes (Continue) [Crapulecorp]
+0022301A 00000063
+
+Player 1 Always Rest 99 Holes (Continue) Press R [Crapulecorp]
+281E4C82 FDFF0200
+0022301A 00000063
+E0000000 80008000
+*Classic Controller*
+
+Player 1 Always Rest 99 Holes (Continue) Press R ON/OFF [Crapulecorp]
+281E4C82 FDFF0200
+CC000000 00000000
+0022301A 00000063
+E0000000 80008000
+*Classic Controller*
+
+Player 1 Always Rest 99 Holes (Continue) Press - [Crapulecorp]
+281E4C80 EFFF1000
+0022301A 00000063
+E0000000 80008000
+*WiiMote*
+
+Player 1 Always Rest 99 Holes (Continue) Press - ON/OFF [Crapulecorp]
+281E4C80 EFFF1000
+CC000000 00000000
+0022301A 00000063
+E0000000 80008000
+*WiiMote*
+
+Player 2 Codes
+
+Infinite Time Player 2 [Crapulecorp]
+0021609D 0000001E
+
+Player 2 Always First Shot (Hole in One) [Crapulecorp]
+0021CAD4 00000001
+
+Player 2 Always Rest 99 Holes (Continue) [Crapulecorp]
+0022307A 00000063
+
+Select Character Player 2 [Crapulecorp]
+0021CAD3 000000XX
+*Replace XX for:
+00 - George Spinner (USA) Young Hero
+01 - Fernand Almeida (BRA) Power Golfer
+02 - Robert Landolt (GER) Shot Maker
+03 - Toyoshige Takano (JAP) Putt Master
+04 - Frank Adams (AUS) Veteran
+05 - Thomas Stewart (GBR) Technician*
+
+Misc Codes
+
+Select Shot Power [Crapulecorp]
+0021CA8F 000000XX
+*Replace XX for :
+04 - 1 Line (Green)
+08 - 2 Lines (Green)
+0C - 3 Lines (Green)
+10 - 4 Lines (Green)
+14 - 5 Lines (Green)
+18 - 6 Lines (Green)
+1C - 7 Lines (Green)
+20 - 8 Lines (Green)
+24 - 9 Lines (Green)
+28 - 10 Lines (Green)
+32 - 50% (Off Green)
+3C - 60% (Off Green)
+46 - 70% (Off Green)
+50 - 80% (Off Green)
+5A - 90% (Off Green)
+64 - Off Green
+7F - Tee Shot*
+
+Select Club [Crapulecorp]
+0021CA87 000000XX
+*Replace XX for :
+00 - 1W (260 Yards)
+01 - 3W (240 Yards)
+02 - 4W (230 Yards)
+03 - 1I (220 Yards)
+04 - 3I (200 Yards)
+05 - 4I (190 Yards)
+06 - 5I (180 Yards)
+07 - 6I (170 Yards)
+08 - 7I (160 Yards)
+09 - 8I (150 Yards)
+0A - 9I (140 Yards)
+0B - PW (120 Yards)
+0C - SW (100 Yards)
+0D - PT (28 Yards)*
+
+Select Wind Power [Crapulecorp]
+0021CA89 000000XX
+*Replace XX for :
+00 - No Wind
+13 - Full Wind
+
+Select Wind Direction [Crapulecorp]
+0021CA8B 000000XX
+*Replace XX for :
+00 - NORTH
+01 - NNE
+02 - NE
+03 - NEE
+04 - EAST
+05 - SEE
+06 - SE
+07 - SSE
+08 - SOUTH
+09 - SSW
+0A - SW
+0B - SWW
+0C - WEST
+0D - NWW
+0E - NW
+0F - NNW*
+
+Button Activator
+
+Classic Controller Player 1 [Crapulecorp]
+281E4C82 YYYYZZZZ
+
+WiiMote Player 1 [Crapulecorp]
+281E4C80 YYYYZZZZ
+
+Player 1 Always First Shot (Hole in One)
+
+Player 1 Always Rest 99 Holes (Continue)
+
+Button Activator Player 1

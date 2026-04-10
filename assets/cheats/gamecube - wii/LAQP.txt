@@ -1,0 +1,8 @@
+LAQP
+Alex Kidd in Shinobi World
+
+Invincible [GMO]
+00C800A8 00000020
+
+Unlimited Health [GMO]
+00C800AE 00000006

@@ -1,0 +1,12 @@
+R4CE69
+SimCity Creator
+
+Max money if inc/dec [joecamel]
+C2169C08 00000002
+3D003B9A 6108C9FF
+911E0CBC 00000000
+
+Max population if inc/dec [joecamel]
+C217D930 00000002
+3C003B9A 6000C9FF
+90035090 00000000

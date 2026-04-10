@@ -1,0 +1,173 @@
+RE4E08
+Resident Evil Archives
+
+Miscellaneous Codes
+
+Unlimited Health - Condition is Fine [GMO]
+00356FCE 00000005
+Locks up if caught in trap
+
+Press 2 for Condition is Fine [GMO]
+2838EC72 00000100
+00356FCE 00000005
+E0000000 00000000
+Added Button Activator to prevent lock up during traps
+
+Start with Rocket Launcher w/ Infinite Rounds [GMO]
+00356FEB 0000000E
+
+Unlock All Modes & Costumes [GMO]
+0235348A 00000FFF
+
+Costume Modifier [GMO]
+00356FC5 000000??
+00 Default Stars Uniform
+01 Jill Army Fatigues, Chris RE-CVX Costume
+02 Jill RE3 Costume, Chris&Rebecca The Mexican costume
+06 Rebecca
+
+Inventory Modifiers
+
+Slot 1 Item Modifier [GMO]
+00356FEB 000000??
+
+Slot 1 Item Value [GMO]
+00356FED 000000??
+
+Slot 2 Item Modifier [GMO]
+00356FEF 000000??
+
+Slot 2 Item Value [GMO]
+00356FDA 000000??
+
+Slot 3 Item Modifier [GMO]
+00356FF3 000000??
+
+Slot 3 Item Value [GMO]
+00356FF5 000000??
+
+Slot 4 Item Modifier [GMO]
+00356FF7 000000??
+
+Slot 4 Item Value [GMO]
+00356FF9 000000??
+
+Slot 5 Item Modifier [GMO]
+00356FFB 000000??
+
+Slot 5 Item Value [GMO]
+00356FFD 000000??
+
+Costume Modifier Values
+
+Item Value
+
+00 Blank
+01 1
+63 99
+FF 255
+
+Item Modifier Values
+
+00 Nothing
+01 Dagger
+02 Survival Knife
+03 Handgun
+04 Self Defense Gun
+05 Handgun (Infinite)
+06 Shotgun
+07 Grenade Launcher - Explosive
+08 Grenade Launcher - Acid
+09 Grenade Launcher - Incendiary
+0A Rocket Launcher
+0B Magnum Revolver
+0C Flame Thrower
+0D Assault Shotgun
+0E Rocket Launcher (Infinite)
+0F Barry's 44 Magnum
+10 Grenade Shells
+11 Handgun Magazine
+12 shotgun shells
+13 Acid Shells
+14 Incendiary shells
+15 Golden Arrow
+16 Book of Curse
+17 Coin
+18 Collar
+19 Magnum Rounds
+1A Broach
+1B Fuel Canteen
+1C Arrowhead
+1D Imitation of a Key
+1E Residence Key - Gallery
+1F Fuel Supply Capsule
+20 Musical Score
+21 First Aid Spray
+22 Green Herb
+23 Red Herb
+24 Blue Herb
+25 Mixed Herbs (Green)
+26 Mixed Herbs (Green)
+27 Mixed Herbs (Green & Red)
+28 Mixed Herbs
+29 Mixed Herbs (Green& Blue)
+2A Mixed Herbs (Green& Blue)
+2B Lock Pick
+2C Old Key
+2D Mansion Key - Sword
+2E Mansion Key - Armor
+2F Mansion Key - Shield
+30 Mansion Key - Helmet
+31 Residence Key - 001
+32 Residence Key - 003
+33 Medal of Eagle
+34 Medal of Wolf
+35 Stone & Metal Object (Octagonal)
+36 Laboratory Key - Key for the Power Area
+37 Laboratory Key - Master Key
+38 Star Crest
+39 Wind Crest
+3A Sun Crest
+3B Moon Crest
+3C Crank
+3D Crank
+3E Closet Key (Special)
+3F Emblem Key
+40 Stone Ring
+41 Metal Object
+42 Survival Knife (Black)
+43 Battery
+44 Ink Ribbon
+45 Emblem
+46 Gold Emblem
+47 Musical Score - Moonlight Sonata
+48 Red Gemstone
+49 Blue Gemstone
+4A Yellow Gemstone
+4B Broken Shotgun
+4C Chemical - Herbicide
+4D Lighter
+4E Serum
+4F Transceiver
+50 Empty Bottle
+51 Water
+52 UMB No.3
+53 NP-004
+54 Yellow-6
+55 UMB No.7
+56 UMB No.10
+57 VP-017
+58 V-JOLT
+5A Red Book
+5B Last Book Vol.1
+5C Last Book Vol.2
+5D MO Disk
+5E MO Disk
+5F MO Disk
+60 Dog Whistle
+
+tazer always 99 and flash grenade allways 99 [12201]
+00359821 00000063
+
+fixed first save code [12201]
+00359864 00000000

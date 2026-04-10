@@ -1,0 +1,61 @@
+JD3P
+Super Earth Defense Force
+
+Unlimited Shield [Crapulecorp]
+0046F2A9 00000005
+
+Unlimited Credits [Crapulecorp]
+0046F256 00000009
+
+Power Level [Crapulecorp]
+0046F2A5 0000000X
+*Replace X for 0 to 5*
+*Code ported from Ugetab Snes Action Replay Pro Version*
+
+Start With Satellite Formation [Crapulecorp]
+0046F31F 000000XX
+*Replace XX for :
+00 – Union
+01 – Rolling
+02 – Shadow
+03 - Homing*
+*Code ported from Radical Hacker Snes Action Replay Pro Version*
+
+Start On Level [Crapulecorp]
+0046F22E 000000XX
+*Replace XX for :
+00 - Stage 1: First Encounter
+01 - Stage 2: Midnight Intercept
+02 - Stage 3: Deep Blue Cave
+03 - Stage 4: Space Ambush
+04 - Stage 5: Lunar Landing
+05 - Stage 6: Final Fortress*
+*Code ported from Radical Hacker Snes Action Replay Pro Version*
+
+Gun Type [Crapulecorp]
+0046F2B3 000000XX
+*Replace XX for :
+00 - Vulcan
+01 - Laser
+02 - Atomic
+03 - Homing
+04 - Explode
+05 - Search Laser
+06 - Photon
+07 - Grenade*
+*Code ported from Ugetab Snes Action Replay Pro Version*
+
+Blue &gt;s [Crapulecorp]
+0046F2A7 000000XX
+*Replace XX for :
+00 – Slow
+01 – Medium
+02 – Fast*
+*Code ported from Ugetab Snes Action Replay Pro Version*
+
+Score Max [Crapulecorp]
+0046F27F 00000099
+0046F280 00000099
+0046F281 00000099
+0046F282 00000009
+*Code ported from Ugetab Snes Action Replay Pro Version*

@@ -1,0 +1,157 @@
+S5SJHF
+Inazuma Eleven GO Strikers 2013
+
+Button Activator [Bully@Wiiplaza]
+288FE19A YYYYZZZZ
+
+Football Match
+
+Fire Bars Always Full [Bully@Wiiplaza]
+04095234 D37CA9A8
+*Video: http://www.youtube.com/watch?v=biIdplvT0ZY
+
+Fire Bars Always Empty [Bully@Wiiplaza]
+04095234 D2DCA9A8
+04095240 D2DCA9A8
+
+Fully Charged + Infinite TP [Bully@Wiiplaza]
+04094888 3800270F
+*Credits to wilsonso*
+
+Time Control [Bully@Wiiplaza]
+0409B8CC 7C040214
+0409B8D0 60000000
+288FE19A YYYYZZZZ
+0409B8CC 3C007FFF
+0409B8D0 901D0004
+E0000000 80008000
+*Press your button(s) to end half time, otherwise frozen timer*
+
+Home Team: Goals Modifier [Bully@Wiiplaza]
+007ACE11 000000XX
+*XX = Hex*
+
+Away Team: Goals Modifier [Bully@Wiiplaza]
+007ACE10 000000XX
+*XX = Hex*
+
+Bus Pull!
+
+Time Control [Bully@Wiiplaza]
+041A6E80 7C030051
+041A6E84 60000000
+288FE19A YYYYZZZZ
+041A6E80 38000000
+041A6E84 901F635C
+E0000000 80008000
+*Press your button(s) to end minigame, otherwise frozen timer*
+
+Starting Timer Modifier [Bully@Wiiplaza]
+C21A6340 00000002
+3C00QQQQ 6000WWWW
+60000000 00000000
+*Default QQQQ = 0000, WWWW = E100*
+*The higher the more time and vice versa*
+
+Fully Charged Pulling [Bully@Wiiplaza]
+041A7A10 38601068
+*Video: http://www.youtube.com/watch?v=5nhXe8llJyE
+
+Meters Modifier [Bully@Wiiplaza]
+C21A7274 00000002
+3D80XXXX 919F000C
+C03F000C 00000000
+*XXXX = Float*
+*Freezes you at a desired amount*
+*The game makes you start at -20 (representing 0.0 meters)*
+
+Starting Meters Modifier [Bully@Wiiplaza]
+C203E914 00000002
+3D80XXXX 9183000C
+60000000 00000000
+*XXXX = Float*
+*The game makes you start at -20 (representing 0.0 meters)*
+
+Visual Character Position Freeze [Bully@Wiiplaza]
+041A7284 60000000
+*The bus keeps moving forward, but the players won´t*
+
+P1 Score Modifier [Bully@Wiiplaza]
+42000000 90000000
+046991C4 XXXXXXXX
+E0000000 80008000
+*XXXXXXXX = Hex*
+
+P2 Score Modifier [Bully@Wiiplaza]
+42000000 90000000
+046991C8 XXXXXXXX
+E0000000 80008000
+*XXXXXXXX = Hex*
+
+P3 Score Modifier [Bully@Wiiplaza]
+42000000 90000000
+046991CC XXXXXXXX
+E0000000 80008000
+*XXXXXXXX = Hex*
+
+P4 Score Modifier [Bully@Wiiplaza]
+42000000 90000000
+046991D0 XXXXXXXX
+E0000000 80008000
+*XXXXXXXX = Hex*
+
+Tire Dash!
+
+Time Control [Bully@Wiiplaza]
+041A8D88 7C030051
+041A8D8C 60000000
+288FE19A YYYYZZZZ
+041A8D88 38000000
+041A8D8C 901F635C
+E0000000 80008000
+*Press your button(s) to end minigame, otherwise frozen timer*
+
+Starting Time Modifier [Bully@Wiiplaza]
+C21A84E0 00000002
+3C60QQQQ 6063WWWW
+907F635C 00000000
+*Default QQQQ = 0001, WWWW = C200*
+*The higher the more time and vice versa*
+
+Fully Charged Punches [Bully@Wiiplaza]
+041A9F14 38000780
+*Video: http://www.youtube.com/watch?v=f9k6lt7DrLM
+
+Fully Charged Pushes [Bully@Wiiplaza]
+041AA524 38000500
+
+One Hit Destroyed [Bully@Wiiplaza]
+041AA144 38000000
+
+Always Gain X Points [Bully@Wiiplaza]
+041AA374 3AA0XXXX
+*XXXX = Hex*
+
+P1 Score Modifier [Bully@Wiiplaza]
+42000000 90000000
+04699120 XXXXXXXX
+E0000000 80008000
+*XXXXXXXX = Hex*
+
+P2 Score Modifier [Bully@Wiiplaza]
+42000000 90000000
+04699124 XXXXXXXX
+E0000000 80008000
+*XXXXXXXX = Hex*
+
+P3 Score Modifier [Bully@Wiiplaza]
+42000000 90000000
+04699128 XXXXXXXX
+E0000000 80008000
+*XXXXXXXX = Hex*
+
+P4 Score Modifier [Bully@Wiiplaza]
+42000000 90000000
+0469912C XXXXXXXX
+E0000000 80008000
+*XXXXXXXX = Hex*

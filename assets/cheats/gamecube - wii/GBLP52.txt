@@ -1,0 +1,158 @@
+GBLP52
+Bloody Roar Primal Fury
+
+Player 1 - Infinite Health [Jay007]
+48000000 801ABE28
+DE000000 80008180
+12000242 00000000
+E2000001 80008000
+
+Player 1 - Fill Primal Guage (L+R) [Jay007]
+281A9158 FF9F0060
+48000000 801ABE28
+DE000000 80008180
+12000262 00003BFF
+E2000002 80008000
+
+Player 2 - Empty Primal Guage [Jay007]
+48000000 801ABE2C
+DE000000 80008180
+12000262 00000000
+E2000001 80008000
+
+Player 2 - Die In 1 Hit [Jay007]
+48000000 801ABE2C
+DE000000 80008180
+12000242 000000C8
+E2000001 80008000
+
+Infinite Time (Time Attack) [Jay007]
+04030710 38000E10
+
+Unlock All Characters [Jay007]
+041AA918 FFFFFFFF
+
+Unlock All Cheats [Jay007]
+041AA91C FFFFFFFF
+
+Unlock All Movies [Jay007]
+041AA914 FFFFFFFF
+041AA920 FFFFFFFF
+
+Big Fighters On/Off (L+D-pad Left/Right) [Jay007]
+281A9158 00000041
+0217C99C 00054000
+E2000001 80008000
+281A9158 00000042
+0217C99C 00053F80
+E2000001 80008000
+
+Small Fighters On/Off (L+D-pad Down/Up) [Jay007]
+281A9158 00000044
+0217C99C 00053E80
+E2000001 80008000
+281A9158 00000048
+0217C99C 00053F80
+E2000001 80008000
+
+Player 1 - Play As Alice [Jay007]
+001AB86F 00000001
+
+Player 1 - Play As Bakuryu [Jay007]
+001AB86F 00000002
+
+Player 1 - Play As Busuzima [Jay007]
+001AB86F 00000003
+
+Player 1 - Play As Cronos [Jay007]
+001AB86F 00000004
+
+Player 1 - Play As Fang [Jay007]
+001AB86F 00000005
+
+Player 1 - Play As Gado [Jay007]
+001AB86F 00000006
+
+Player 1 - Play As Ganesha [Jay007]
+001AB86F 00000007
+
+Player 1 - Play As Jenny [Jay007]
+001AB86F 00000008
+
+Player 1 - Play As Kohryu [Jay007]
+001AB86F 00000009
+
+Player 1 - Play As Long [Jay007]
+001AB86F 0000000A
+
+Player 1 - Play As Shina [Jay007]
+001AB86F 0000000B
+
+Player 1 - Play As ShenLong [Jay007]
+001AB86F 0000000C
+
+Player 1 - Play As Stun [Jay007]
+001AB86F 0000000D
+
+Player 1 - Play As Uriko [Jay007]
+001AB86F 0000000E
+
+Player 1 - Play As Uranus [Jay007]
+001AB86F 0000000F
+
+Player 1 - Play As Xion [Jay007]
+001AB86F 00000010
+
+Player 1 - Play As Yugo [Jay007]
+001AB86F 00000011
+
+Player 2 - Play As Alice [Jay007]
+001AB9DF 00000001
+
+Player 2 - Play As Bakuryu [Jay007]
+001AB9DF 00000002
+
+Player 2 - Play As Busuzima [Jay007]
+001AB9DF 00000003
+
+Player 2 - Play As Cronos [Jay007]
+001AB9DF 00000004
+
+Player 2 - Play As Fang [Jay007]
+001AB9DF 00000005
+
+Player 2 - Play As Gado [Jay007]
+001AB9DF 00000006
+
+Player 2 - Play As Ganesha [Jay007]
+001AB9DF 00000007
+
+Player 2 - Play As Jenny [Jay007]
+001AB9DF 00000008
+
+Player 2 - Play As Kohryu [Jay007]
+001AB9DF 00000009
+
+Player 2 - Play As Long [Jay007]
+001AB9DF 0000000A
+
+Player 2 - Play As Shina [Jay007]
+001AB9DF 0000000B
+
+Player 2 - Play As ShenLong [Jay007]
+001AB9DF 0000000C
+
+Player 2 - Play As Stun [Jay007]
+001AB9DF 0000000D
+
+Player 2 - Play As Uriko [Jay007]
+001AB9DF 0000000E
+
+Player 2 - Play As Uranus [Jay007]
+001AB9DF 0000000F
+
+Player 2 - Play As Xion [Jay007]
+001AB9DF 00000010
+
+Player 2 - Play As Yugo [Jay007]
+001AB9DF 00000011

@@ -1,0 +1,24 @@
+R8XE52
+Jurassic: The Hunted
+
+Inf Ammo [Thomas83Lin]
+04275450 38040000
+
+Inf Adrenaline mode [Thomas83Lin]
+043B38F0 60000000
+
+Inf Grenades [Thomas83Lin]
+04258C30 60000000
+
+All Levels Unlocked [Thomas83Lin]
+0513DC50 0000000E
+14 Levels
+Can't see the pics but works fine
+
+RapidFire [Thomas83Lin]
+04273E38 3800025E
+
+ExtremeRapidFire [Thomas83Lin]
+04273E38 3800025E
+04274090 60000000
+*Both Rapidfire codes can freeze game if used with RPG*

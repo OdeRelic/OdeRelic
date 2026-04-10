@@ -1,0 +1,34 @@
+RDUJDQ
+Sugoro Chronicle Migite ni Ken wo Hidarite ni Saikoro wo
+
+Money (1P) [ZiT]
+04404D0C 05F5E0FF
+Next +200
+
+LEVEL (1P) [ZiT]
+04405554 00000063
+Next +814
+
+HP(NOW) (1P) [ZiT]
+04405558 0000270F
+Next +814
+
+ATT (1P) [ZiT]
+04405560 0000270F
+Next +814
+
+DEF (1P) [ZiT]
+04405564 0000270F
+Next +814
+
+MAG (1P) [ZiT]
+04405568 0000270F
+Next +814
+
+SPEED (1P) [ZiT]
+0440556C 0000270F
+Next +814
+
+HP(MAX) (1P) [ZiT]
+04405570 0000270F
+Next +814

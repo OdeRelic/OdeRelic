@@ -1,0 +1,113 @@
+FBKP
+Teenage Mutant Ninja Turtles
+
+Jump Higher [Crapulecorp]
+003E7A70 00000000
+*Code ported from drgonzo7 Nes Version*
+
+Health Codes
+
+Unlimited Health (All Turtles) [Crapulecorp]
+083E7677 00000080
+00040001 00000000
+*Code ported from GMO Ntsc Usa Version*
+
+Unlimited Health Leonardo [Crapulecorp]
+003E7677 00000080
+
+Unlimited Health Raphael [Crapulecorp]
+003E7678 00000080
+*Code ported from Sharkbyte Ntsc Usa Version*
+
+Unlimited Health Michaelangelo [Crapulecorp]
+003E7679 00000080
+*Code ported from Sharkbyte Ntsc Usa Version*
+
+Unlimited Health Donatello [Crapulecorp]
+003E767A 00000080
+*Code ported from Sharkbyte Ntsc Usa Version*
+
+Item Codes
+
+Unlimited Items (All Turtles) [Crapulecorp]
+083E76A8 00000063
+00040001 00000000
+
+Have Item Leonardo [Crapulecorp]
+003E7673 000000XX
+*Replace XX for :
+01 - Star
+02 - 3 Stars
+03 - Boomerang
+04 - Scroll
+05 - Winged Bullet Thinger*
+*Code ported from Sharkbyte Ntsc Usa Version*
+
+Unlimited Item Leonardo [Crapulecorp]
+003E76A8 00000063
+*Code ported from Sharkbyte Ntsc Usa Version*
+
+Have Item Raphael [Crapulecorp]
+003E7674 000000XX
+*Replace XX for :
+01 - Star
+02 - 3 Stars
+03 - Boomerang
+04 - Scroll
+05 - Winged Bullet Thinger*
+*Code ported from Sharkbyte Ntsc Usa Version*
+
+Unlimited Item Raphael [Crapulecorp]
+003E76A9 00000063
+*Code ported from Sharkbyte Ntsc Usa Version*
+
+Have Item Michaelangelo Crapulecorp
+003E7675 000000XX*Replace XX for :
+01 - Star
+02 - 3 Stars
+03 - Boomerang
+04 - Scroll
+05 - Winged Bullet Thinger*
+*Code ported from Sharkbyte Ntsc Usa Version*
+
+Unlimited Item Michaelangelo [Crapulecorp]
+003E76AA 00000063
+*Code ported from Sharkbyte Ntsc Usa Version*
+
+Have Item Donatello [Crapulecorp]
+003E7676 000000XX
+*Replace XX for :
+01 - Star
+02 - 3 Stars
+03 - Boomerang
+04 - Scroll
+05 - Winged Bullet Thinger*
+*Code ported from Sharkbyte Ntsc Usa Version*
+
+Unlimited Item Donatello [Crapulecorp]
+003E76AB 00000063
+*Code ported from Sharkbyte Ntsc Usa Version*
+
+Unlimited Rope [Crapulecorp]
+003E76A7 00000063
+
+Time Codes
+
+Infinite Time in Water World (2nd stage) [Crapulecorp]
+003E76BB 00000096
+
+Turtle Van Code
+
+Unlimited Missiles (Turtle Van) [Crapulecorp]
+003E76BF 00000063
+*Code ported from GMO Ntsc Usa Version*
+
+Turtle Van Code
+
+Button Activator
+
+Classic Controller [Crapulecorp]
+2815C1D2 YYYYZZZZ
+
+GameCube Controller [Crapulecorp]
+2815C280 YYYYZZZZ

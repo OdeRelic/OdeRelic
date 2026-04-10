@@ -1,0 +1,12 @@
+FA7P
+Mario & Yoshi
+
+Max Score [Crapulecorp]
+023D876E 00000909
+043D8772 09090909
+
+Max Yoshi [Crapulecorp]
+023D86B4 00000909
+
+Level Modifier [Crapulecorp]
+003D8444 000000XX

@@ -1,0 +1,26 @@
+NAFE
+F-Zero X
+
+Infinite Energy [REDSOXROX]
+151E2C08 43333333
+E0000000 80008000
+
+Grand Prix Always Have 600 Points [REDSOXROX]
+151E29E8 00000258
+E0000000 80008000
+
+Always Start in First+ Kill Most other racers [REDSOXROX]
+C2B837AC 00000002
+3F200000 63390001
+932702AC 00000000
+This one is kind of strange, You'll always start in first place,
+usually it will kill most other racers,
+and the ones left will start very far behind you
+
+Boost From Start+Always lap 1 [REDSOXROX]
+151E2C8A 00000000
+E0000000 80008000
+Basically, makes all modes like Practice.
+
+Button Activator Player 1- Gamecube Controller [REDSOXROX]
+28A9BCC0 00000000

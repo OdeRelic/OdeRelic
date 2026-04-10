@@ -1,0 +1,38 @@
+GNJEAF
+I-Ninja
+
+Infinte Points [Sgt.Ghost]
+0441B790 05F5E100
+
+Infinte Coins [Sgt.Ghost]
+0441B76C 05F5E100
+
+Infinte Health [Sgt.Ghost]
+0441B6F8 41200000
+
+Infinte Time [Sgt.Ghost]
+0841B860 00002710
+20160004 00000000
+*Time Challenges/Beat the Time
+
+Challenges Completed [Sgt.Ghost]
+0441B728 000186A0
+*Kills/Red Coins
+
+119 Yellow/Red Circle collected during Mission [Sgt.Ghost]
+0441B764 00000077
+*A Visual Mission Not Completed
+
+Black Belt [Sgt.Ghost]
+0441B774 00000077
+
+Sword Rank [Sgt.Ghost]
+0441B760 05F5E0FF
+
+Infinite Shuriken/Bomb Arrow [Sgt.Ghost]
+0841B768 00000999
+20010008 00000000
+
+*Coming Soon all doors open*
+
+Coming Soon all doors open

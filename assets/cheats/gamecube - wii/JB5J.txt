@@ -1,0 +1,10 @@
+JB5J
+Super Gussun Oyoyo
+
+Infinite Lives [ZiT]
+0043B635 00000063
+
+Blocks Move Fast (Up Button) [ZiT]
+2814E212 FFFE0001
+0043C36C 00000010
+E0000000 80008000

@@ -1,0 +1,24 @@
+RF9P69
+FIFA 2009 All Play
+
+Auto-End game [Crashzer]
+2815F8C0 00002000
+04B2CA3C 480B3580
+E0000000 80008000
+Press Z for it to activate
+Works for all modes.
+
+Button Activator [Crashzer]
+2815F8C0 0000XXXX
+-Code here- [Crashzer]
+E0000000 80008000
+X - Button ID
+
+Home Team Score [Panda]
+04B0B484 0000000X
+
+Away Team Score [Panda]
+04B127D8 0000000X
+
+Inf Store Points [Panda]
+049B1EBC 000000FF

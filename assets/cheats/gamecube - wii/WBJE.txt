@@ -1,0 +1,97 @@
+WBJE
+Harvest Moon: My Little Shop
+
+Item Modifier Slot 1 [GMO]
+0435E92C 000000??
+
+Item Modifier Slot 2 [GMO]
+0435E930 000000??
+
+Item Modifier Slot 3 [GMO]
+0435E934 000000??
+
+Item Modifier Slot 4 [GMO]
+0435E938 000000??
+
+Item Modifier Slot 5 [GMO]
+0435E93C 000000??
+
+Item Modifier Slot 6 [GMO]
+0435E940 000000??
+
+Item Modifier Slot 7 [GMO]
+0435E944 000000??
+
+Item Modifier Slot 8 [GMO]
+0435E948 000000??
+
+Item Modifier Slot 9 [GMO]
+0435E94C 000000??
+
+Item Modifier Slot 10 [GMO]
+0435E950 000000??
+
+Item Modifier Slot 11 [GMO]
+0435E954 000000??
+
+Item Modifier Slot 12 [GMO]
+0435E958 000000??
+
+00 Good Tomato Seed
+01 Great Tomato Seed
+02 Super Tomato Seed
+03 Good Turnip Seed
+04 Great Turnip Seed
+05 Super Turnip Seed
+06 Good Carrot Seed
+07 Great Carrot Seed
+08 Super Carrot Seed
+09 Good Banana Seed
+0A Great Banana Seed
+0B Super Banana Seed
+0C Good Cabbage Seed
+0D Great Cabbage Seed
+0E Super Cabbage Seed
+0F Good Strawberry Seed
+10 Great Strawberry Seed
+11 Super Strawberry Seed
+12 Good Pumpkin Seed
+13 Great Pumpkin Seed
+14 Super Pumpkin Seed
+FFFFFFFF Nothing
+
+Inf Money [Thomas83Lin]
+C20B4B48 00000002
+3C60000F 6063423F
+90640024 00000000
+
+Item Cycler Slot 1 [Thomas83Lin]
+C205B7A4 00000007
+3EC08035 62D6E92C
+80630000 3A801000
+3EA08036 82B541EC
+7C14A800 40820018
+3AF70001 2C170014
+40810008 3AE00000
+92F60000 00000000
+*Press - To Cycle through the different seeds types *
+
+Tool Slot 1 Modifier [Thomas83Lin]
+0435E95C 0000177x
+*0-6 tools*
+
+Tool Slot 2 Modifier [Thomas83Lin]
+0435E960 0000177x
+*0-6 tools*
+
+Tool Slot 3 Modifier [Thomas83Lin]
+0435E964 0000177x
+*0-6 tools*
+0=Watering Can
+1=Silver Watering Can
+2=Gold Watering Can
+3=Brush
+4=Silver Brush
+5=Gold Brush
+6=Grandpa's Hoe
+*If you get stuck and need to reset a Tool Slot insert FFFFFFFF in the second line of the tool mod code*

@@ -1,0 +1,39 @@
+SUVP52
+Cabela's Dangerous Hunts 2013
+
+Unlimited Health [Crapulecorp]
+0418712C 60000000
+
+Unlimited Health (Hold 1 And Press Z ON/OFF) [Crapulecorp]
+28A5643A DDFF2200
+0418712C 60000000
+CC000000 00000000
+0418712C D01B0008
+E0000000 80008000
+*WiiMote-NunChuck*
+
+No ReloadUnlimited Ammo [Crapulecorp]
+0454F490 38040000
+
+No ReloadUnlimited Ammo (Hold 1 And Press B ON/OFF) [Crapulecorp]
+28A5643A F9FF0600
+0454F490 38040000
+CC000000 00000000
+0454F490 3804FFFF
+E0000000 80008000
+*WiiMote-NunChuck*
+
+Unlimited Stamina [Crapulecorp]
+0435502C 60000000
+
+Unlimited Stamina (Hold 1 And Press A ON/OFF) [Crapulecorp]
+28A5643A F5FF0A00
+0435502C 60000000
+CC000000 00000000
+0435502C D0230010
+E0000000 80008000
+*WiiMote-NunChuck*
+
+Button Activator [Crapulecorp]
+28A5643A YYYYZZZZ
+*WiiMote-NunChuck*

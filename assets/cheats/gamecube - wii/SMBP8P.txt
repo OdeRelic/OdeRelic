@@ -1,0 +1,46 @@
+SMBP8P
+Super Monkey Ball Step & Roll
+
+Button Activation (Wiimote) [CosmoCortney]
+2848A5BA 0000XXXX
+
+inf time [CosmoCortney]
+045AE6FC 0DE00000
+
+max. points [CosmoCortney]
+045AE6F8 0098967F
+
+Have 19 Bananas [CosmoCortney]
+045AE700 13000000
+you will get one more live everytime you catch a banana
+
+Instand Finish (D-Pad down + B + A) [CosmoCortney]
+2048A5B8 00000C04
+045B4354 3F800100
+E0000000 80008000
+2248A5B8 00000C04
+045B4354 3F800000
+E0000000 80008000
+
+Character Size Modifier [CosmoCortney]
+045B5298 40600000
+
+stage inclination sensibility [CosmoCortney]
+045B4344 XXXXXXXX
+for XXXXXXXX
+3F800000 = normal
+Greater than 3F800000 = more sensible
+Less than 3F800000 = less sensible
+
+Character does fast movements [CosmoCortney]
+045B0F30 42000000
+
+Camera Modifier [CosmoCortney]
+2048A5B8 00000400
+045B0BEC 36000000
+E0000000 80008000
+2248A5B8 00000400
+045B0BEC 3F800000
+E0000000 80008000
+hold B to freeze the camera's movements.
+stop holding B to unfreeze.

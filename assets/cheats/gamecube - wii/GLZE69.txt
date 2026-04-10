@@ -1,0 +1,42 @@
+GLZE69
+007: From Rusia With Love
+
+Infinite Health [Codejunkies]
+04119198 60000000
+041D45A4 60000000
+041191D4 60000000
+
+Infinite Car Health [Codejunkies]
+0413E3FC D02304E8
+0413E3F8 C02304E4
+
+Infinite Ammo [Codejunkies]
+040A7F30 60000000
+040A5438 60000000
+040A2D3C 60000000
+0414C904 60000000
+
+Timers Frozen [Codejunkies]
+0409497C 60000000
+
+Infinite Gas Mask Use [Codejunkies]
+04099EA4 60000000
+
+Save Slot 1 Codes:
+
+Infinite Research Points [Codejunkies]
+48000000 8065E374
+DE000000 80008180
+12004EDA 00000063
+E2000001 80008000
+
+Infinite Skill Points [Codejunkies]
+04ACEB18 0001869F
+
+All Levels Unlocked Codejuunkies [Codejunkies]
+08ACE4E0 00000007
+2024000A 00000000
+
+All Awards [Codejunkies]
+08ACE4E4 0000000F
+2024000A 00000000

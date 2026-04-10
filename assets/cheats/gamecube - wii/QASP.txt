@@ -1,0 +1,31 @@
+QASP
+Lords of Thunder
+
+Unlimited Health [Crapulecorp]
+42000000 90000000
+00B78FE9 0000000F
+E0000000 80008000
+
+Unlimited/MAX Gold [Crapulecorp]
+42000000 90000000
+02B78A19 00000F27
+E0000000 80008000
+*Code ported from ZiT Ntsc Usa Version*
+
+Unlimited Magic [Crapulecorp]
+42000000 90000000
+00B78FEB 0000000F
+E0000000 80008000
+*Code ported from ZiT Ntsc Usa Version*
+
+Unlimited Shield [Crapulecorp]
+42000000 90000000
+00B78FEC 0000000F
+E0000000 80008000
+*Code ported from ZiT Ntsc Usa Version*
+
+Unlimited Bomb [Crapulecorp]
+42000000 90000000
+00B78FED 00000003
+E0000000 80008000
+*Code ported from ZiT Ntsc Usa Version*

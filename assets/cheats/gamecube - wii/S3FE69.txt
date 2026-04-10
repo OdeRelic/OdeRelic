@@ -1,0 +1,51 @@
+S3FE69
+FIFA 13
+
+Button Activator [T.B.W]
+28135400 0000XXXX
+x's for activator
+
+Home Team Score Modifier [T.B.W]
+04948AC0 000000XX
+X's for amount of goals
+
+Away Team Score Modifier [T.B.W]
+0494FD50 000000XX
+x's for amount of goals
+http://i39.tinypic.com/2dhz3gx.png
+
+Home Team Player Amount Modifier [T.B.W]
+049959A8 0000000X
+x for amount of players
+
+Away Team Player Amount Modifier [T.B.W]
+04996058 0000000X
+x for amount ofplayers
+http://i39.tinypic.com/2gv6bzl.png
+
+home team icon Changer [T.B.W]
+04941B90 000000XX
+X's for icon
+
+Away Team Icon Changer [T.B.W]
+04948E20 000000XX
+X's for icon
+real madrid= F3
+Chicago Fire= 2B5
+Barcelona= F1
+Manchester United= B
+Chelsea= 5
+Liverpool= 9
+http://i41.tinypic.com/1zmd103.png
+
+Infinite Level [T.B.W]
+42000000 90000000
+04E9C554 05F5E0FF
+E0000000 80008000
+http://i42.tinypic.com/152npcz.png
+
+Infinite Budget Money [T.B.W]
+42000000 90000000
+049CC8B8 05F5E0FF
+E0000000 80008000
+http://i41.tinypic.com/2wqdefq.png

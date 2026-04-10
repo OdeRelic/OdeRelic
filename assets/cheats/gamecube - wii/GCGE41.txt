@@ -1,0 +1,11 @@
+GCGE41
+Charlies Angels 
+
+Infinite Lives
+001F660B 00000009
+
+Max Score
+041F6600 05F5E0FF
+
+Unlock All Bonuses
+042069B8 FFFFFFFF

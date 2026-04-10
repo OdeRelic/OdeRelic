@@ -1,0 +1,45 @@
+S3XP78
+WWE '13
+
+Opponent Doesnt Fight Back [Seth@WiiPlaza]
+04251B0C 2C000000
+
+Hilairous Leg Hack [Seth@WiiPlaza]
+048624EC 42C00000 [Seth@WiiPlaza]
+008624EC 00000042
+
+People In Crowd Are Giants [Seth@WiiPlaza]
+0286D5E4 00004000
+
+P1 Wii Remote Button Activator [Macopride64]
+295EC5C0 YYYYZZZZ
+
+P1 Classic Controller Button Activator [Macopride64]
+294030EA YYYYZZZZ
+
+P1 GameCube Controller Button Activator [Macopride64]
+29406CDE YYYYZZZZ
+
+Unlock Everything [Macopride64]
+0973BEEF 00000001
+007C0001 00000000
+
+Ring Height Modifier [Macopride64]
+048E7AB8 XXXXXXXX
+default- C2F00000
+
+No Crowd [Macopride64]
+088E7D7C F7000000
+20010004 00000000
+
+No Momentum Bar [Macopride64]
+048E9F38 00000000
+
+Universal Codes for WWE '13
+
+Unlock Everything [Macopride64]
+F6000001 8120817F
+00002067 00007243
+1800053F 00000001
+007C0001 00000000
+E0000000 80008000

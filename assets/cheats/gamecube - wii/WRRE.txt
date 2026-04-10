@@ -1,0 +1,11 @@
+WRRE
+Robin Hood: The Return Of Richard
+
+Infinite Ammo [Seth@WiiPlaza]
+04AD5A08 28C00000
+
+Infinite Health [Seth@WiiPlaza]
+040D0191 60000064
+
+Max Score [Seth@WiiPlaza]
+049243C2 0000270F

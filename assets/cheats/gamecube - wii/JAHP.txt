@@ -1,0 +1,13 @@
+JAHP
+R-Type 3
+
+Unlimited Lives [Crapulecorp]
+008B087F 00000009
+
+Invincible [Crapulecorp]
+008B160C 00000080
+*Code ported from ZiT Ntsc Jap Version*
+
+Quick Beam Charge [Crapulecorp]
+028B08A4 0000D928
+*Code ported from Thomas83Lin Ntsc Usa Version*

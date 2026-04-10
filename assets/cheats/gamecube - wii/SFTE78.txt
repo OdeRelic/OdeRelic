@@ -1,0 +1,258 @@
+SFTE78
+Wheel of Fortune
+
+All Answers = "Welohabi" [Welohabi]
+08586B46 57656C6F
+200C0074 00000000
+08586B4A 68616269
+200C0074 00000000
+08586B4E 00000000
+200C0074 00000000
+
+P1 One Million+ Cash [Welohabi]
+48000000 805842C4
+DE000000 80008180
+140023B8 000F4240
+E0000000 80008000
+
+Ultimate Stats Maxed [Welohabi]
+4A000000 8052B378
+4A100000 000XXXXX
+18000000 3B9AC9FF
+200C0004 00000000
+14000008 00000000
+E0000000 80008000
+* XXXXX = Profile Slot Value *
+* Profile Slot Value = 8560 Multiplied by your profile slot number (0-9) in hex. *
+* Slot1 = 08560 , Slot2 = 10AC0 , Slot3 = 19020 , ECT... *
+
+Profile 1 Statistics
+
+Total Points Modifier [Welohabi]
+0452B378 XXXXXXXX
+* X's = Decimal to HEX Conversion *
+* Recommended Max Value ~3B9AC9FF~ *
+* http://www.geckocodes.org/index.php?arsenal=3 *
+
+Total Prizes Modifier [Welohabi]
+0452B37C XXXXXXXX
+* X's = Decimal to HEX Conversion *
+* Recommended Max Value ~3B9AC9FF~ *
+* http://www.geckocodes.org/index.php?arsenal=3 *
+
+Bankrupt Loss Modifier [Welohabi]
+0452B380 00000000
+
+Times Landed on Million Dollar Wedges Modifier [Welohabi]
+0452B38C XXXXXXXX
+* X's = Decimal to HEX Conversion *
+* Recommended Max Value ~3B9AC9FF~ *
+* http://www.geckocodes.org/index.php?arsenal=3 *
+
+Most Points in Single Game Modifier [Welohabi]
+0452B384 XXXXXXXX
+* X's = Decimal to HEX Conversion *
+* Recommended Max Value ~3B9AC9FF~ *
+* http://www.geckocodes.org/index.php?arsenal=3 *
+
+Highest Amount in Single Round Modifier [Welohabi]
+0452B388 XXXXXXXX
+* X's = Decimal to HEX Conversion *
+* Recommended Max Value ~3B9AC9FF~ *
+* http://www.geckocodes.org/index.php?arsenal=3 *
+
+Games Won Modifier [Welohabi]
+0452B390 XXXXXXXX
+* X's = Decimal to HEX Conversion *
+* Recommended Max Value ~3B9AC9FF~ *
+* http://www.geckocodes.org/index.php?arsenal=3 *
+
+Rounds Won Modifier [Welohabi]
+0452B394 XXXXXXXX
+* X's = Decimal to HEX Conversion *
+* Recommended Max Value ~3B9AC9FF~ *
+* http://www.geckocodes.org/index.php?arsenal=3 *
+
+Toss Ups Won Modifier [Welohabi]
+0452B398 XXXXXXXX
+* X's = Decimal to HEX Conversion *
+* Recommended Max Value ~3B9AC9FF~ *
+* http://www.geckocodes.org/index.php?arsenal=3 *
+
+Times Deemed Crowd Favorite Modifier [Welohabi]
+0452B39C XXXXXXXX
+* X's = Decimal to HEX Conversion *
+* Recommended Max Value ~3B9AC9FF~ *
+* http://www.geckocodes.org/index.php?arsenal=3 *
+
+Times Won "Most Frequent" Minigame Modifier [Welohabi]
+0452B3A0 XXXXXXXX
+* X's = Decimal to HEX Conversion *
+* Recommended Max Value ~3B9AC9FF~ *
+* http://www.geckocodes.org/index.php?arsenal=3 *
+
+Times Won "2nd Guess" Minigame Modifier [Welohabi]
+0452B3A8 XXXXXXXX
+* X's = Decimal to HEX Conversion *
+* Recommended Max Value ~3B9AC9FF~ *
+* http://www.geckocodes.org/index.php?arsenal=3 *
+
+Times Won "High/Low" Minigame Modifier [Welohabi]
+0452B3A4 XXXXXXXX
+* X's = Decimal to HEX Conversion *
+* Recommended Max Value ~3B9AC9FF~ *
+* http://www.geckocodes.org/index.php?arsenal=3 *
+
+Profile 2 Statistics
+
+Total Points Modifier [Welohabi]
+045338D8 XXXXXXXX
+* X's = Decimal to HEX Conversion *
+* Recommended Max Value ~3B9AC9FF~ *
+* http://www.geckocodes.org/index.php?arsenal=3 *
+
+Total Prizes Modifier [Welohabi]
+045338DC XXXXXXXX
+* X's = Decimal to HEX Conversion *
+* Recommended Max Value ~3B9AC9FF~ *
+* http://www.geckocodes.org/index.php?arsenal=3 *
+
+Bankrupt Loss Modifier [Welohabi]
+045338E0 00000000
+
+Times Landed on Million Dollar Wedges Modifier [Welohabi]
+045338EC XXXXXXXX
+* X's = Decimal to HEX Conversion *
+* Recommended Max Value ~3B9AC9FF~ *
+* http://www.geckocodes.org/index.php?arsenal=3 *
+
+Most Points in Single Game Modifier [Welohabi]
+045338E4 XXXXXXXX
+* X's = Decimal to HEX Conversion *
+* Recommended Max Value ~3B9AC9FF~ *
+* http://www.geckocodes.org/index.php?arsenal=3 *
+
+Highest Amount in Single Round Modifier [Welohabi]
+045338E8 XXXXXXXX
+* X's = Decimal to HEX Conversion *
+* Recommended Max Value ~3B9AC9FF~ *
+* http://www.geckocodes.org/index.php?arsenal=3 *
+
+Games Won Modifier [Welohabi]
+045338F0 XXXXXXXX
+* X's = Decimal to HEX Conversion *
+* Recommended Max Value ~3B9AC9FF~ *
+* http://www.geckocodes.org/index.php?arsenal=3 *
+
+Rounds Won Modifier [Welohabi]
+045338F4 XXXXXXXX
+* X's = Decimal to HEX Conversion *
+* Recommended Max Value ~3B9AC9FF~ *
+* http://www.geckocodes.org/index.php?arsenal=3 *
+
+Toss Ups Won Modifier [Welohabi]
+045338F8 XXXXXXXX
+* X's = Decimal to HEX Conversion *
+* Recommended Max Value ~3B9AC9FF~ *
+* http://www.geckocodes.org/index.php?arsenal=3 *
+
+Times Deemed Crowd Favorite Modifier [Welohabi]
+045338FC XXXXXXXX
+* X's = Decimal to HEX Conversion *
+* Recommended Max Value ~3B9AC9FF~ *
+* http://www.geckocodes.org/index.php?arsenal=3 *
+
+Times Won "Most Frequent" Minigame Modifier [Welohabi]
+04533900 XXXXXXXX
+* X's = Decimal to HEX Conversion *
+* Recommended Max Value ~3B9AC9FF~ *
+* http://www.geckocodes.org/index.php?arsenal=3 *
+
+Times Won "2nd Guess" Minigame Modifier [Welohabi]
+04533908 XXXXXXXX
+* X's = Decimal to HEX Conversion *
+* Recommended Max Value ~3B9AC9FF~ *
+* http://www.geckocodes.org/index.php?arsenal=3 *
+
+Times Won "High/Low" Minigame Modifier [Welohabi]
+04533904 XXXXXXXX
+* X's = Decimal to HEX Conversion *
+* Recommended Max Value ~3B9AC9FF~ *
+* http://www.geckocodes.org/index.php?arsenal=3 *
+
+Profile 3 Statistics
+
+Total Points Modifier [Welohabi]
+0453BE38 XXXXXXXX
+* X's = Decimal to HEX Conversion *
+* Recommended Max Value ~3B9AC9FF~ *
+* http://www.geckocodes.org/index.php?arsenal=3 *
+
+Total Prizes Modifier [Welohabi]
+0453BE3C XXXXXXXX
+* X's = Decimal to HEX Conversion *
+* Recommended Max Value ~3B9AC9FF~ *
+* http://www.geckocodes.org/index.php?arsenal=3 *
+
+Bankrupt Loss Modifier [Welohabi]
+0453BE40 00000000
+
+Times Landed on Million Dollar Wedges Modifier [Welohabi]
+0453BE4C XXXXXXXX
+* X's = Decimal to HEX Conversion *
+* Recommended Max Value ~3B9AC9FF~ *
+* http://www.geckocodes.org/index.php?arsenal=3 *
+
+Most Points in Single Game Modifier [Welohabi]
+0453BE44 XXXXXXXX
+* X's = Decimal to HEX Conversion *
+* Recommended Max Value ~3B9AC9FF~ *
+* http://www.geckocodes.org/index.php?arsenal=3 *
+
+Highest Amount in Single Round Modifier [Welohabi]
+0453BE48 XXXXXXXX
+* X's = Decimal to HEX Conversion *
+* Recommended Max Value ~3B9AC9FF~ *
+* http://www.geckocodes.org/index.php?arsenal=3 *
+
+Games Won Modifier [Welohabi]
+0453BE50 XXXXXXXX
+* X's = Decimal to HEX Conversion *
+* Recommended Max Value ~3B9AC9FF~ *
+* http://www.geckocodes.org/index.php?arsenal=3 *
+
+Rounds Won Modifier [Welohabi]
+0453BE54 XXXXXXXX
+* X's = Decimal to HEX Conversion *
+* Recommended Max Value ~3B9AC9FF~ *
+* http://www.geckocodes.org/index.php?arsenal=3 *
+
+Toss Ups Won Modifier [Welohabi]
+0453BE58 XXXXXXXX
+* X's = Decimal to HEX Conversion *
+* Recommended Max Value ~3B9AC9FF~ *
+* http://www.geckocodes.org/index.php?arsenal=3 *
+
+Times Deemed Crowd Favorite Modifier [Welohabi]
+0453BE5C XXXXXXXX
+* X's = Decimal to HEX Conversion *
+* Recommended Max Value ~3B9AC9FF~ *
+* http://www.geckocodes.org/index.php?arsenal=3 *
+
+Times Won "Most Frequent" Minigame Modifier [Welohabi]
+0453BE60 XXXXXXXX
+* X's = Decimal to HEX Conversion *
+* Recommended Max Value ~3B9AC9FF~ *
+* http://www.geckocodes.org/index.php?arsenal=3 *
+
+Times Won "2nd Guess" Minigame Modifier [Welohabi]
+0453BE68 XXXXXXXX
+* X's = Decimal to HEX Conversion *
+* Recommended Max Value ~3B9AC9FF~ *
+* http://www.geckocodes.org/index.php?arsenal=3 *
+
+Times Won "High/Low" Minigame Modifier [Welohabi]
+0453BE64 XXXXXXXX
+* X's = Decimal to HEX Conversion *
+* Recommended Max Value ~3B9AC9FF~ *
+* http://www.geckocodes.org/index.php?arsenal=3 *

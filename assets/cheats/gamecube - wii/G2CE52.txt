@@ -1,0 +1,50 @@
+G2CE52
+True Crime: New York City
+
+1000 Good Cop Points [James0x57]
+04690EB8 000003E8
+
+1000 Bad Cop Points [James0x57]
+04690EBC 000003E8
+
+0 Good Cop Points [James0x57]
+04690EB8 00000000
+
+0 Bad Cop Points [James0x57]
+04690EBC 00000000
+
+-1000 Good Cop Points [James0x57]
+04690EB8 FFFFFC18
+
+-1000 Bad Cop Points [James0x57]
+04690EBC FFFFFC18
+
+1,000,000,000 Career Points (Instant Promotions!) [James0x57]
+04690EB4 3B9ACA00
+
+Have $1,000,000,000 [James0x57]
+04690EA0 3B9ACA00
+
+Balance Modifier [James0x57]
+04690EA0 XXXXXXXX
+
+Illicit Money Modifier [James0x57]
+04690EA8 XXXXXXXX
+
+Legitimate Money Modifier [James0x57]
+04690EA4 XXXXXXXX
+
+All Evidence Max [James0x57]
+00690E90 000400FF
+
+Marcus Windbreaker Is Nude Cowboy [James0x57]
+0579ECF4 0DF1D668
+0579ECF8 0001D1E0
+
+Wanted Meter Full/Empty (B+D-pad Up/Down) [James0x57]
+28667E20 00000208
+04690E98 50000000
+E2000001 80008000
+28667E20 00000204
+04690E98 00000000
+E2000001 80008000

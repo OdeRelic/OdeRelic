@@ -1,0 +1,56 @@
+DAXP01
+The Legend of Zelda Skyward Sword DEMO
+
+Shield wood [crediar]
+0405E0FC 38600000
+
+Shield iron [crediar]
+0405E0FC 38600001
+
+Shield holy [crediar]
+0405E0FC 38600002
+
+Shield hylia [crediar]
+0405E0FC 38600003
+
+Shield wood2 [crediar]
+0405E0FC 38600004
+
+"Bird Riding" free-walking around the city Deathwolf [crediar]
+0409A824 60000000
+
+Enable map in Skyloft [crediar]
+0423B4E4 60000000
+
+Unlock all items [crediar]
+041DB9A4 3BE00001
+*Whip,Blower,Hookshot,Net,Diggers,sailcloth and Harp
+
+Infinite Health Deathwolf [crediar]
+0400AA48 60000000
+
+Allow to Play without Wiimotion Plus V2 Deathwolf [crediar]
+2056A22C 00000001
+0456A22C 00000005
+0456A230 00000005
+0456A26C 00000008
+0456C4B4 05000000
+0456C4CC 10000000
+
+Sword iron [crediar]
+0405BD2C 38600000
+
+Sword skyward lvl 1 [crediar]
+0405BD2C 38600001
+
+Sword skyward lvl 2 [crediar]
+0405BD2C 38600002
+
+Sword skyward lvl 3 [crediar]
+0405BD2C 38600003
+
+Sword iron2 [crediar]
+0405BD2C 38600004
+
+Mastersword [crediar]
+0405BD2C 38600005

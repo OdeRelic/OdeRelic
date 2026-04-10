@@ -1,0 +1,8 @@
+FAMP
+Wario's Woods
+
+99 Gold [Crapulecorp]
+005D24C0 00000063
+
+Unlimited CR [Crapulecorp]
+005D24C2 00000009

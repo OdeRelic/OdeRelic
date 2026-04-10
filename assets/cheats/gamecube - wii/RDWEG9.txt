@@ -1,0 +1,22 @@
+RDWEG9
+Dragon Blade: Wraith of Fire
+
+Infinite Health [GMO]
+02777BB0 000003E8
+
+Infinite Magic [GMO]
+02777BB8 000003E8
+
+Inf Max Health [GMO]
+04777BB0 03E803E8
+
+Inf Max Magic [GMO]
+04777BB8 03E803E8
+
+Infinite Continues [GMO]
+0077A613 00000005
+
+225+ Combo Hits Hold B+Up [GMO]
+28382B4A 00000408
+0077811F 000000FF
+E0000000 80008000

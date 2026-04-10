@@ -1,0 +1,38 @@
+RWLP01
+Wario land- The shake dimension
+
+Un. Münzen/infinite coins [sniper82]
+C2087F98 00000002
+3C000098 6000967F
+901D020C 00000000
+
+Stoppuhr steht bei 20 Minuten/Stopwatch is at 20 minutes [sniper82]
+C20E6EA4 00000002
+3CA00001 60A51A0F
+90A40004 00000000
+C205BF68 00000002
+3C600001 60631A0F
+90640044 00000000
+
+Invincible Wario [Blaster99]
+0403806C 60000000
+E0000000 80008000
+
+16 Million Gold Global [Blaster99]
+04DBE510 00FFFFFF
+04A9A974 00FFFFFF
+E0000000 80008000
+
+Infinite Escape Time [Blaster99]
+040E6E90 60000000
+040E6EA4 60000000
+040E6ECC 60000000
+E0000000 80008000
+
+Infinite Shaker [Blaster99]
+040344A4 60000000
+E0000000 80008000
+
+Infinite coins- German(original by blaster99) [jassim]
+04DB1498 0098967F
+<!--!include:this will only work if language is German-->

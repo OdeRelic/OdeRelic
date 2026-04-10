@@ -1,0 +1,20 @@
+SU4E78
+UFC: Personal Trainer
+
+Activator [savage]
+289B7F03 0000XXXX
+
+Activites codes
+
+Speed bag +320 per hit [savage]
+045B4140 38030140
+045B4158 38030140
+045B4184 38030140
+
+Free Striking +500 per hit [savage]
+045B41A4 380301F4
+
+Tire Flip +620 [savage]
+045B4140 38030140
+
+Activities Codes

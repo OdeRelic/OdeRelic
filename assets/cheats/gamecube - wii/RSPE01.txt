@@ -1,0 +1,836 @@
+RSPE01
+Wii Sports
+
+9 Outs/Side (9 Inning Game) [IRSVDS]
+044BE1E4 00000009
+0426868C 60000000
+Note: Each side gets 27 total outs=9 innings
+Limitation: # outs stays @ 2 after 3rd out
+Limitation 2: Sides don't change after every 3 outs
+Contact: vdsvpsDotcom@gmail.com
+
+Disable Mercy Rule [IRSVDS]
+044BE1F0 000000FF
+Note: Initially value was 00000005 runs
+Note: Could be improved by changing ASM that access this data
+Contact: vdsvpsDotcom@gmail.com
+
+Shadow Ball [IRSVDS]
+42000000 92000000
+042771A4 42C80000
+E0000000 80008000
+Note: 42C80000 originally 4.0 (40800000)
+Video: http://youtu.be/heqQb4qJsWo
+Contact: vdsvpsDotcom@gmail.com
+
+Extreme Fastball (213 mph) [IRSVDS]
+043C5E5C 411CCCCC
+043C5EAC BD6F9DB2
+Note: 9.8 (411CCCCC) originally 4.34 (408AF838)
+NOte: -.0585 (BD6F9DB2) originally -0.039 (BD23D70A)
+Note: 9.7 (411B3333) = 206-210mph
+Limitations: Ball sometimes goes out of bounds, causing the defensive players to dance around.
+Limitations: Wait a few seconds and the game will continue.
+Contact: vdsvpsDotcom@gmail.com
+
+Big Base Dust Burst [IRSVDS]
+42000000 92000000
+042752A0 C1200000
+E0000000 80008000
+Note: C1200000 originally 1.5 (3FC00000)
+Contact: vdsvpsDotcom@gmail.com
+
+Remove Jumbo-Tron Fade [IRSVDS]
+42000000 92000000
+048ADC0C 00000000
+E0000000 80008000
+Note: 00000000 originally .75 (3F400000)
+Contact: vdsvpsDotcom@gmail.com
+
+Jumbo-Tron Zoom [IRSVDS]
+044A809C 40000000
+Note: 2.0 (40000000) originally 3.5 (40600000)
+Contact: vdsvpsDotcom@gmail.com
+
+Improved Fly Ball Defense [IRSVDS]
+044BE680 43160000
+044BE17C 41C80000
+Note: 150 (43160000) initially 5.0 (40A00000) - Extended glove grab
+Note: 25 (41C80000) initially 5.0 (40A00000) - Improved accuracy
+Limitations: Ground ball defense is worse.
+Contact: vdsvpsDotcom@gmail.com
+
+Slow Motion Gameplay (- On/Off) vdsvps [IRSVDS]
+044A8088 00000000
+2840E15A 00001000
+CC000000 00000000
+044A8088 3F800000
+E0000000 80008000
+Note: 00000000 originally 1.0 (3F800000)
+Note: Don't use with Jumbo-Tron Inverted
+Note: Takes affect after batter change.
+Note: Nice for seeing Improved Fly Ball Defense Antics.
+Contact: vdsvpsDotcom@gmail.com
+
+Baseball-P1 Press left for infinite strike chances [Sharkbyte]
+2840E15A 00000001
+42000000 90000000
+05BFE784 00000000
+E0000000 80008000
+
+Baseball-P1 press right for next strike to be strikeout [Sharkbyte]
+2840E15A 00000002
+42000000 90000000
+05BFE784 00000002
+E0000000 80008000
+
+Golf- Always Get Hole In One [Sharkbyte]
+0429F374 60000000
+Stroke number will stay at 1 unless hit in water or out of bounds. Otherwise it will add 2 to the number.
+
+Golf- Shot Count P1 (minus button) [Sharkbyte]
+2840E15A 00001000
+4A000000 91BF92E4
+14000000 0000000X
+14000004 0000000X
+E0000000 80008000
+change X to whatever you desire
+you can also change that line to FFFFFFF0 to have a negative score of -16
+each time you press minus it activates your code
+don't use with any other "hole in one" code!
+
+Golf- Shot Count P2 (minus button) [Sharkbyte]
+2840E67E 00001000
+4A000000 91BF93B0
+14000000 00000001
+14000004 00000001
+E0000000 80008000
+change X to whatever you desire
+you can also change that line to FFFFFFF0 to have a negative score of -16
+each time you press minus it activates your code
+
+P1 controls golf ball (nunchuk movement) [Sharkbyte]
+2240E1B8 00000000
+82200000 8040E1B8
+84200000 91BF3E94
+E0000000 80008000
+2040E1B8 00000000
+82200000 91BF3E94
+84200000 8040E1B8
+E0000000 80008000
+2240E1BC 00000000
+82200000 8040E1BC
+84200000 91BF3E9C
+E0000000 80008000
+2040E1BC 00000000
+82200000 91BF3E9C
+84200000 8040E1BC
+E0000000 80008000
+aka telekinesis
+golf normally doesn't support the nunchuk
+when you get to the warning screen just unplug the nunchuk and plug back in
+the only bug is the momentum doesn't always keep going for left and down
+the way its arranged is how the map is facing, not the direction the character is facing
+this code will not work in gecko os 1.9.3+ and is untested on other versions of gecko os!
+code will work with neogamma and usb loader gx!
+
+Moon Jump golf ball P1 [Sharkbyte]
+2240E1BC 00000000
+82200000 8040E1B8
+86900000 00000000
+84200000 91BF3E98
+E0000000 80008000
+not recommended to use with "P1 controls golf ball"
+press downright to go up with "mind control" or upleft to go down
+how hard you push on the nunchuk is how fast it will respond.
+code will only work in neogamma and usb loader gx!
+
+Golf - Hole In 1 Forever! [Hamster35000vr]
+042A039C 60000000
+4A000000 91BF92E4
+14000000 00000001
+E0000000 80008000
+Your stroke number will stay at 1 until you get the ball in the hole. No exceptions.
+
+Golf - Always on Fairway [Hamster35000vr]
+4A000000 91BE2D5B
+10000000 00000002
+E0000000 80008000
+4A000000 91BF92D8
+14000000 00010001
+E0000000 80008000
+4A000000 91BF8C90
+14000000 01000001
+E0000000 80008000
+You will always be on the fairway!
+
+Golf - No Friction [Hamster35000vr]
+04000050 40400000
+C229A448 00000002
+C1BE0064 3D408000
+C1CA0050 00000000
+C229A464 00000002
+C0DE0080 ECC603B2
+60000000 00000000
+C229A474 00000002
+C05E0084 EC4203B2
+60000000 00000000
+C229A45C 00000002
+C11E0078 ED0803B2
+60000000 00000000
+Putt or drive the ball. It will never lose speed, it will just keep going until it goes out of bounds. Good joke to play on a friend (you will need a button activator though).
+
+Bowling Power Throws - 1000 Pins [Hamster35000vr]
+044BCE68 00001388
+4A000000 91DCEEA0
+140000D8 000003E8
+E0000000 80008000
+You will get 1000 pins in Power Throws. Change the 3E8 to something else if you want...
+
+Bowling - Change Whether Pins Are On/Off [Hamster35000vr]
+004BA069 0000000Q
+004BA329 0000000R
+004BA5E9 0000000S
+004BA8A9 0000000T
+004BAB69 0000000U
+004BAE29 0000000V
+004BB0E9 0000000V
+004BB3A9 0000000X
+004BB669 0000000Y
+004BB929 0000000Z
+Works only in the real game, not for training. Now you can choose whether pins are up or not. Values are either 1 (for on) or 0 (for off). Q is the value for the first pin, R is for the second, ..., Y is for the 9 pin, and Z is for the 10 pin.
+
+Wii Sports Tennis 1 v 1 [g6flavor]
+42000000 92000000
+2013fcfc 00000003
+42000000 90000000
+05c2c100 00000001
+05c3a800 00000001
+05c1da00 00000001
+05c0f314 00000001
+e0000000 80008000
+42000000 92000000
+2013FD74 00000000
+42000000 90000000
+05c1da00 00000000
+e0000000 80008000
+42000000 92000000
+2013FD74 00000001
+42000000 90000000
+05c0f314 00000000
+e0000000 80008000
+42000000 92000000
+2013FD74 00000002
+42000000 90000000
+05c3a800 00000000
+e0000000 80008000
+42000000 92000000
+2013FD74 00000003
+42000000 90000000
+05c2c100 00000000
+e0000000 80008000
+42000000 92000000
+2013FD74 00000004
+42000000 90000000
+05c1da00 00000000
+e0000000 80008000
+42000000 92000000
+2013fcfc 00000001
+2013fd1c 00000003
+42000000 90000000
+05c0f314 00000000
+E0000000 80008000
+42000000 92000000
+2013fcfc 00000001
+2013fd14 00000003
+42000000 90000000
+05c2c100 00000000
+E0000000 80008000
+42000000 92000000
+2013fcfc 00000001
+2013fd18 00000002
+42000000 90000000
+05c1da00 00000000
+E0000000 80008000
+42000000 92000000
+2013fcfc 00000001
+2013fd10 00000002
+42000000 90000000
+05c3a800 00000000
+E0000000 80008000
+
+Tennis
+CPU never wins [g6flavor]
+4A000000 92000000
+1013FD67 00000000
+E0000000 80008000
+
+Lane Width In PowerThrows training game [lemmayoshi]
+044DD5F4 00003XXX
+
+Replace XXX with any number 000 to FFF
+
+Universal Codes for Wii Sports
+
+Master Button Activator [Bully@Wiiplaza]
+F6000001 80008100
+80BF0004 807F0008
+D2000010 00000002
+90DF0000 3D808000
+90CC1500 00000000
+E0000000 80008000
+
+Button Activator [Bully@Wiiplaza]
+28001502 YYYYZZZZ
+*This requires the "Master Button Activator" code*
+
+Tennis
+
+Max Skill Level [Bully@Wiiplaza]
+F6000001 80008100
+80A40018 91030014
+D2000008 00000002
+3D80461C 618C3C00
+91830018 00000000
+E0000000 80008000
+*Complete one match against the CPU to take effect*
+*Video: http://www.youtube.com/watch?v=kClaWoNnd_c
+
+Unlimited Bounces Are Allowed [Bully@Wiiplaza]
+F6000001 80008100
+801E01E4 540007BD
+14000034 38000000
+E0000000 80008000
+*Don´t use with "No Bounces Are Allowed"*
+*The point will not end if the ball hits the ground more than once*
+*If the ball then hits the out, the non-hitting team gets a point*
+
+No Bounces Are Allowed [Bully@Wiiplaza]
+F6000001 80008100
+801E01E4 540007BD
+28001502 YYYYZZZZ
+14000034 38000002
+E2100000 00000000
+14000034 38030001
+E0000000 80008000
+*Don´t use with "Unlimited Bounces Are Allowed"*
+*Hold your button(s) to gain effect*
+*Each time the ball hits the ground, it will end the point in favor of the other side´s team*
+*This also affects serves*
+
+Left Side Always Wins [Bully@Wiiplaza]
+F6000001 80008100
+7F7CCA14 7FBCFA14
+D2000014 00000003
+2C1E0000 4082000C
+38000004 48000008
+38000000 00000000
+E0000000 80008000
+*Score once to win current game*
+*Do not use this with "Right side Always Wins"*
+
+Left Side Wins All Sets [Bully@Wiiplaza]
+F6000001 80008100
+7CA32A14 7FE50214
+D200000C 00000003
+2C1E0000 4082000C
+7CE03B78 48000008
+38000000 00000000
+E0000000 80008000
+*Win current game to take effect*
+*Do not use this with "Right Side Wins All Sets"*
+
+Left Side Reversed Game Rules [Bully@Wiiplaza]
+F6000001 80008100
+7CC02A78 68000001
+D2000008 00000003
+2C050001 40820008
+38000001 90030010
+60000000 00000000
+E0000000 80008000
+*This can be used to get points instantly*
+*If the right side plays a ball into the left side field, leave it to win the point*
+*If the right side players shoot the ball into the net or outside the field, they win the point*
+*Do not use this with "Right Side Reversed Game Rules"*
+
+Right Side Always Wins [Bully@Wiiplaza]
+F6000001 80008100
+7F7CCA14 7FBCFA14
+D2000014 00000003
+2C1E0001 4082000C
+38000004 48000008
+38000000 00000000
+E0000000 80008000
+*Score once to win current game*
+*Do not use this with "Left Side Always Wins"*
+
+Right Side Wins All Sets [Bully@Wiiplaza]
+F6000001 80008100
+7CA32A14 7FE50214
+D200000C 00000003
+2C1E0001 4082000C
+7CE03B78 48000008
+38000000 00000000
+E0000000 80008000
+*Win current game to take effect*
+*Do not use this with "Left Side Wins All Sets"*
+
+Right Side Reversed Game Rules [Bully@Wiiplaza]
+F6000001 80008100
+7CC02A78 68000001
+D2000008 00000003
+2C050000 40820008
+38000000 90030010
+60000000 00000000
+E0000000 80008000
+*This can be used to get points instantly*
+*If the left side plays a ball into the right side field, leave it to win the point*
+*If the left side players shoot the ball into the net or outside the field, they win the point*
+*Do not use this with "Left Side Reversed Game Rules"*
+
+Send Ball to Ground [Bully@Wiiplaza]
+F6000001 80008100
+7FE5FB78 ECA20FFA
+D2000008 00000004
+C07E000C 3D808000
+A18C1502 718CZZZZ
+4182000C 3D803F40
+919E000C 00000000
+D2000024 00000003
+3D808000 A18C1502
+718CZZZZ 40820008
+D07E000C 00000000
+E0000000 80008000
+*ZZZZ = Button(s) to press to send ball to ground (fill in the same twice)*
+*If used wisely, you´ll win the point*
+*Video: http://www.youtube.com/watch?v=oqCb212Cr9s
+
+Returning Balls: Infinite Score [Bully@Wiiplaza]
+F6000001 80008100
+807E0030 809E0024
+D2000018 00000002
+388003E7 909F0038
+60000000 00000000
+E0000000 80008000
+
+Timing Your Swing: Infinite Score [Bully@Wiiplaza]
+F6000001 80008100
+83E40184 2C030000
+D200000C 00000002
+388003E7 909F0038
+60000000 00000000
+E0000000 80008000
+
+Target Practice: Infinite Score [Bully@Wiiplaza]
+F6000001 80008100
+2C030000 83C50008
+D200000C 00000002
+388003E7 909F0038
+60000000 00000000
+E0000000 80008000
+
+Baseball
+
+Max Skill Level [Bully@Wiiplaza]
+F6000001 80008100
+80A40018 91030014
+D2000004 00000002
+3D00461C 61083C00
+91030014 00000000
+E0000000 80008000
+*Complete one match against the CPU to take effect*
+
+P1 Infinite Points CPU 0 [Bully@Wiiplaza]
+F6000001 80008100
+80880010 39080004
+D2000000 00000004
+2C040000 40820014
+38800063 90880010
+38800000 90880014
+80880010 00000000
+E0000000 80008000
+*Don´t use with "CPU Infinite Points P1 0"*
+*Score once to take effect*
+*Video: http://www.youtube.com/watch?v=8_1iV3x8src
+
+CPU Infinite Points P1 0 [Bully@Wiiplaza]
+F6000001 80008100
+80880010 39080004
+D2000000 00000004
+2C040001 40820014
+38800063 90880010
+38800000 9088000C
+80880010 00000000
+E0000000 80008000
+*Don´t use with "P1 Infinite Points CPU 0"*
+*Score once to take effect*
+
+Out Counter Always 0 [Bully@Wiiplaza]
+F6000001 80008100
+8086000C 38040001
+14000004 38000000
+E0000000 80008000
+
+Strikeout Counter Always 0 [Bully@Wiiplaza]
+F6000001 80008100
+8086000C 38040001
+14000054 38000000
+E0000000 80008000
+
+Battling Practise: All 30 Balls Hit [Bully@Wiiplaza]
+F6000001 80008100
+809E01D4 807E01C8
+14000008 3880001E
+E0000000 80008000
+
+Battling Practise: Hit Combo Never Ends [Bully@Wiiplaza]
+F6000001 80008100
+7FE3FB78 901F01D8
+14000004 60000000
+140002E4 60000000
+E0000000 80008000
+
+Battling Practise: 30 Hit Combo [Bully@Wiiplaza]
+F6000001 80008100
+807E01D8 38830001
+14000004 3880001E
+E0000000 80008000
+
+Battling Practise: Infinite Balls Left [Bully@Wiiplaza]
+F6000001 80008100
+D01F0018 93DF001C
+14000004 60000000
+E0000000 80008000
+*Visual only effect*
+
+Bowling
+
+Max Skill Level [Bully@Wiiplaza]
+F6000001 80008100
+80A40018 91030014
+D2000020 00000002
+3CA0461C 60A53C00
+90A30024 00000000
+E0000000 80008000
+*Complete one bowling set to take effect*
+
+Telekinesis [Bully@Wiiplaza]
+F6000001 80108100
+C0630014 C0430018
+D2000004 0000000D
+C0430018 C183001C
+3D808000 3D603ECC
+916C1550 C1AC1550
+3D603D4C 916C1550
+C1CC1550 A18C1502
+2C0C0004 40820008
+EC42682A 2C0C0008
+40820008 EC426828
+2C0C0002 40820008
+ED8C702A 2C0C0001
+40820008 ED8C7028
+D0430018 D183001C
+60000000 00000000
+E0000000 80008000
+*Requires the "Master Button Activator" code*
+*Press Wiimote directions to control the ball*
+*Video: http://www.youtube.com/watch?v=qkZZY8Plquk
+
+Infinite Lives [Bully@Wiiplaza]
+F6000001 80108100
+80A40000 38A50001
+14000004 38A00000
+E0000000 80008000
+*Spin Control + Picking Up Spares*
+*This will give you unlimited tries*
+
+Always Play Stage X [Bully@Wiiplaza]
+F6000001 80108100
+7C630214 83A30030
+14000004 3BA000XX
+E0000000 80008000
+*Spin Control + Picking Up Spares*
+*XX = HEX*
+
+Power Throws: Always Play Round X [Bully@Wiiplaza]
+F6000001 80008100
+7C630214 808300DC
+14000004 388000XX
+E0000000 80008000
+*XX = HEX*
+
+Power Throws: Display 10 Strikes [Bully@Wiiplaza]
+F6000001 80008100
+7C630214 880300E0
+14000004 38000001
+E0000000 80008000
+
+Power Throws: Total Pins Modifier [Bully@Wiiplaza]
+F6000001 80008100
+1C0000E0 7C650214
+D2000018 00000002
+3800XXXX 900300D8
+60000000 00000000
+140071DC 60000000
+140071F8 60000000
+E0000000 80008000
+*XXXX = HEX*
+
+Golf
+
+Max Skill Level [Bully@Wiiplaza]
+F6000001 80008100
+80A40018 91030014
+D2000014 00000002
+3D00461C 61083C00
+9103001C 00000000
+E0000000 80008000
+*Complete one golf course to take effect*
+
+Golf Ball Telekinesis [Bully@Wiiplaza]
+F6000001 80008100
+C0630000 C0230004
+D2000000 00000012
+C0630000 C0230004
+C0030008 3D808000
+818C1500 3D600004
+7C0B6000 40820008
+EC63102A 3D600008
+7C0B6000 40820008
+EC631028 3D600001
+7C0B6000 40820008
+EC21102A 3D600002
+7C0B6000 40820008
+EC211028 3D600002
+616B4000 7C0B6000
+40820008 EC00102A
+3D600001 616B4000
+7C0B6000 40820008
+EC001028 D0630000
+D0230004 D0030008
+60000000 00000000
+E0000000 80008000
+*Inspired by Sharkbyte*
+*This requires the "Master Button Activator" code*
+*Plug-in your Nunchuck*
+*Press Forth/Back on Nunchuck to move ball up/down*
+*Press Left/Right on Nunchuck to move ball left/right*
+*Press C+Forth/Back on Nunchuck to move ball away/backwards*
+*Video: http://www.youtube.com/watch?v=F8nCPV9oQ5c
+
+Stroke Count Is Always 1 [Bully@Wiiplaza]
+F6000001 80008100
+B0030092 B0030090
+1400000C 38800001
+E0000000 80008000
+*Hole in one, no matter how many strokes you needed*
+*Video: http://www.youtube.com/watch?v=taDbXzmYs18
+
+Switch Stroke Side [Bully@Wiiplaza]
+F6000001 80008100
+8003001C EFE00072
+28001502 YYYYZZZZ
+14000024 38000001
+CC000000 00000000
+14000024 38000000
+E0000000 80008000
+*This requires the "Master Button Activator" code*
+*Press your button(s) to toggle left/ right position when preparing a stroke*
+
+Fast Tilting [Bully@Wiiplaza]
+F6000001 80008100
+FC001018 C023003C
+D2000008 00000002
+3D803CA3 618CD70A
+91830050 00000000
+D2000094 00000002
+3D80BCA3 618CD70A
+919D0050 00000000
+E0000000 80008000
+*Instant maximum speed, no more accelerating turnings when adjusting the stroke direction*
+
+Force Specific Golf Club [Bully@Wiiplaza]
+F6000001 80008100
+8083001C 2C040003
+28001502 YYYYZZZZ
+1400000C 3800000X
+14000150 3800000X
+CC000000 00000000
+1400000C 38040001
+14000150 3804FFFF
+E0000000 80008000
+*This requires the "Master Button Activator" code*
+*You can use this to tease your friends*
+*Press your button(s) to toggle "force specified Golf Club" ON/OFF*
+*X Values*
+0 = Driver
+1 = Iron
+2 = Wedge
+3 = Putter
+
+Perfect Score [Bully@Wiiplaza]
+F6000001 80008100
+7C80E214 3B9C0004
+D2000008 00000002
+3C60FFFF 6063FC19
+90640020 00000000
+E0000000 80008000
+*This will give you a total score of -999*
+
+Permanent High/Low Vision [Bully@Wiiplaza]
+F6000001 80008100
+807F0038 2C030000
+14000954 38000001
+E0000000 80008000
+*This will colour higher places brighter and lower places darker*
+*Press the 1 button to toggle colour information in-game*
+
+No Wind [Bully@Wiiplaza]
+F6000001 80008100
+D8010018 EC030072
+14000008 38800000
+E0000000 80008000
+
+Hide Some Screen Objects [Bully@Wiiplaza]
+F6000001 80008100
+989902B0 8079000C
+1400000C 38000001
+E0000000 80008000
+
+Putting: Infinite Lives [Bully@Wiiplaza]
+F6000001 80008100
+807E00EC 3803FFFF
+14000004 38000005
+E0000000 80008000
+
+Putting: Rounds Modifier [Bully@Wiiplaza]
+F6000001 80008100
+80C300BC 80E700E4
+14000008 380000XX
+E0000000 80008000
+*XX = HEX*
+
+Hitting the Green: Rounds Modifier [Bully@Wiiplaza]
+F6000001 80008100
+80C300BC 80E700CC
+14000008 380000XX
+E0000000 80008000
+*XX = HEX*
+
+Hitting the Green: Total Meters Modifier [Bully@Wiiplaza]
+F6000001 80008100
+EC22082A EC000072
+D2000068 00000003
+3D80XXXX 618CXXXX
+91830050 C0230050
+60000000 00000000
+E0000000 80008000
+*XXXX = Float*
+
+Target Practise: Total Points Modifier [Bully@Wiiplaza]
+F6000001 80008100
+809902F0 38C00002
+D200003C 00000003
+3D80XXXX 618CXXXX
+919C0050 C01C0050
+60000000 00000000
+E0000000 80008000
+*XXXX = Float*
+
+Target Practise: Display 10 Total Successes [Bully@Wiiplaza]
+F6000001 80008100
+1C000034 7C7CDA14
+14000008 38800004
+E0000000 80008000
+*Aka 100 points scored*
+
+Boxing
+
+Max Skill Level [Bully@Wiiplaza]
+F6000001 80008100
+80A40018 91030014
+D2000018 00000002
+3D80461C 618C3C00
+91830020 00000000
+E0000000 80008000
+*Complete one match against the CPU to take effect*
+
+P1 Infinite Health + One Hit Kill [Bully@Wiiplaza]
+F6000001 80008100
+C006002C C026000C
+D2000008 00000004
+2C000000 4082000C
+3D803F80 48000008
+3D800000 91860008
+C0460008 00000000
+E0000000 80008000
+*Video: http://www.youtube.com/watch?v=2wRgzZs4zgc
+
+CPU Infinite Health + One Hit Kill [Bully@Wiiplaza]
+F6000001 80008100
+C006002C C026000C
+D2000008 00000004
+2C000001 4082000C
+3D803F80 48000008
+3D800000 91860008
+C0460008 00000000
+E0000000 80008000
+
+Frozen Rounds Timer [Bully@Wiiplaza]
+F6000001 80008100
+8081000C D023002C
+14000004 60000000
+E0000000 80008000
+
+Frozen Training Timer [Bully@Wiiplaza]
+F6000001 80008100
+FC010040 D023002C
+14000004 60000000
+E0000000 80008000
+
+Throwing Punches: Infinite Plus Points [Bully@Wiiplaza]
+F6000001 80208100
+A0640006 A0040004
+D2000004 00000002
+380003E7 B0040004
+60000000 00000000
+E0000000 80008000
+
+Throwing Punches: No Minus Points [Bully@Wiiplaza]
+F6000001 80008100
+8061000C B07F0036
+D2000034 00000002
+3B600000 B37E0006
+60000000 00000000
+E0000000 80008000
+
+Dodging: Infinite Plus Points [Bully@Wiiplaza]
+F6000001 80008100
+8061000C B07F0036
+D2000044 00000002
+3B8003E7 B39E0004
+60000000 00000000
+E0000000 80008000
+
+Dodging: No Minus Points [Bully@Wiiplaza]
+F6000001 80008100
+8061000C B07F0036
+D2000048 00000002
+3B600000 B37E0006
+60000000 00000000
+E0000000 80008000
+
+Hitting the Target: Infinite Points [Bully@Wiiplaza]
+F6000001 80008100
+B0040078 EC000072
+D200000C 00000002
+380003E7 B0030014
+60000000 00000000
+E0000000 80008000
+
+Hitting the Target: Bags Are Destroyed Instantly [Bully@Wiiplaza]
+F6000001 80008100
+EC4100B2 EC241028
+14000004 FC20B090
+E0000000 80008000
+*Video: http://www.youtube.com/watch?v=lVUK-_Vl404

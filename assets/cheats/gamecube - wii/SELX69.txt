@@ -1,0 +1,33 @@
+SELX69
+FIFA 11
+
+15 Goals Home Team [Cajon]
+28166040 EDFF1200
+00A47767 0000000F
+00A4EDAF 00000000
+E0000000 80008000
+Give Hometeam 15 goals and Visitorteam 0 by pressing 1 and -
+
+15 Goals Away Team [Cajon]
+28166040 EEFF1100
+00A4EDAF 0000000F
+00A47767 00000000
+E0000000 80008000
+Give Visitorteam 15 goals and Hometeam 0 by pressing 2 and -
+
+From the street to the stadium
+
+Set Experience Points to 100 [Cajon]
+029C5F76 00000064
+
+Way to Fame
+
+Set Transfer Stars to 32 [Cajon]
+4A000000 90000000
+129BB0BA 00000020
+E0000000 80008000
+
+Set Transfer Points to 32 [Cajon]
+4A000000 90000000
+129BB0B6 00000020
+E0000000 80008000

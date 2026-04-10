@@ -1,0 +1,9 @@
+RB5E41
+Brothers In Arms - Earned in Blood
+
+osSleepThread Hook Type
+
+Unlimited Ammo + No Reload [GMO]
+C2029614 00000002
+38000063 901F0000
+60000000 00000000

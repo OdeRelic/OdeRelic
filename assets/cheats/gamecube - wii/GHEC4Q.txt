@@ -1,0 +1,12 @@
+GHEC4Q
+Chicken Little
+
+Max Coins [Codejunkies]
+0044609F 00000063
+
+9 Acorns [Codejunkies]
+00446057 00000009
+
+All Trading Cards [Codejunkies]
+084460D8 00000005
+20140003 00000000

@@ -1,0 +1,286 @@
+NACP
+Legend of Zelda: Ocarina of Time
+
+Equipment Codes
+
+Infinite Rupees [Mathew_Wi]
+04F8C6E4 03E70000
+
+Have Songs/Medalions/Etc [Mathew_Wi]
+04F8C754 00FFFFFF
+
+Have Complete Map [Mathew_Wi]
+04F8C758 06060607
+
+Infinite Health [Mathew_Wi]
+04F8C6E0 01400000
+
+Max Health [Mathew_Wi]
+04F8C6DC 00000140
+
+Infinite Small Keys [Mathew_Wi]
+00F8C770 00000063
+
+Have All Gold Skulltulas [Mathew_Wi]
+04F8C780 00640000
+
+Have All Swords/Shields/Tunics/Boots [Mathew_Wi]
+02F8C74C 00007777
+
+Have Wallet/Bomb Bag/Gauntlets/Gold Scale [Mathew_Wi]
+04F8C750 0000E4DB
+
+Have Item Codes
+
+Have All Items [Mathew_Wi]
+00F8C724 00000000
+00F8C725 00000001
+00F8C726 00000002
+00F8C727 00000003
+00F8C728 00000004
+00F8C729 00000005
+00F8C72A 00000006
+00F8C72B 00000008
+00F8C72C 00000009
+00F8C72D 0000000A
+00F8C72D 0000000B
+00F8C72E 0000000C
+00F8C72F 0000000D
+00F8C730 0000000E
+00F8C731 0000000F
+00F8C732 00000010
+00F8C733 00000011
+00F8C734 00000012
+00F8C735 00000013
+
+Have Deku Sticks [Mathew_Wi]
+00F8C724 00000000
+
+Have Deku Nuts [Mathew_Wi]
+00F8C725 00000001
+
+Have Bombs [Mathew_Wi]
+00F8C726 00000002
+
+Have Arrows [Mathew_Wi]
+00F8C727 00000003
+
+Have Fire Arrows [Mathew_Wi]
+00F8C728 00000004
+
+Have Din's Fire [Mathew_Wi]
+00F8C729 00000005
+
+Have Slingshot [Mathew_Wi]
+00F8C72A 00000006
+
+Have Fairy Ocarina [Mathew_Wi]
+00F8C72B 00000007
+Only use this or Ocarina of Time.
+
+Have Ocarina of Time [Mathew_Wi]
+00F8C72B 00000008
+Only use this or Fairy Ocarina.
+
+Have Bombchus [Mathew_Wi]
+00F8C72C 00000009
+
+Have Hookshot [Mathew_Wi]
+00F8C72D 0000000A
+Only use this or longshot.
+
+Have Longshot [Mathew_Wi]
+00F8C72D 0000000B
+Only use this or hookshot.
+
+Have Ice Arrows [Mathew_Wi]
+00F8C72E 0000000C
+
+Have Farore's Wind [Mathew_Wi]
+00F8C72F 0000000D
+
+Have Boomerang [Mathew_Wi]
+00F8C730 0000000E
+
+Have Lens of Truth [Mathew_Wi]
+00F8C731 0000000F
+
+Have Magic Beans [Mathew_Wi]
+00F8C732 00000010
+
+Have Megaton Hammer [Mathew_Wi]
+00F8C733 00000011
+
+Have Light Arrows [Mathew_Wi]
+00F8C734 00000012
+
+Have Naru's Love [Mathew_Wi]
+00F8C735 00000013
+
+Bottle 1 Modifier [Mathew_Wi]
+00F8C736 000000XX
+
+Bottle 2 Modifier [Mathew_Wi]
+00F8C737 000000XX
+
+Bottle 3 Modifier [Mathew_Wi]
+00F8C738 000000XX
+
+Bottle 4 Modifier [Mathew_Wi]
+00F8C739 000000XX
+Values:
+14 - Empty
+15 - Red Potion
+16 - Green Potion
+17 - Blue Potion
+18 - Fairy
+19 - Fish
+1A - Milk
+1B - Letter
+1C - Blue Fire
+1D - Bugs
+1E - Big Poe
+1F - Milk 1/2
+20 - Poe
+
+Special Item 1 Modifier [Mathew_Wi]
+00F8C73A 000000XX
+Values:
+2D - Pocket Egg
+2E - Pocket Cucco
+2F - Cojiro
+30 - Odd Mushroom
+31 - Odd Potion
+32 - Poacher's Saw
+33 - Goron's Sword (Broken)
+34 - Prescription
+35 - Eyeball Frog
+36 - Eye Drops
+37 - Claim Check
+
+Special Item 2 Modifier [Mathew_Wi]
+00F8C73B 000000XX
+Values:
+21 - Egg
+22 - Chicken thing
+23 - Zelda's Letter
+24 - Keaton Mask
+25 - Skull Mask
+26 - Spooky Mask
+27 - Bunny Hood
+28 - Goron Mask
+29 - Zora Mask
+2A - Gerudo Mask
+2B - Mask of Truth
+2C - Sold Out
+
+Ammo Codes
+
+Infinite Deku Sticks [Mathew_Wi]
+00F8C73C 00000063
+
+Infinite Deku Nuts [Mathew_Wi]
+00F8C73D 00000063
+
+Infinite Bombs [Mathew_Wi]
+00F8C73E 00000063
+
+Infinite Arrows [Mathew_Wi]
+00F8C73F 00000063
+
+Infinite Slingshot Seeds [Mathew_Wi]
+00F8C742 00000063
+
+Infinite Magic Beans [Mathew_Wi]
+00F8C74A 00000063
+
+Infinite Bombchu [Mathew_Wi]
+00F8C744 00000063
+
+Misc Codes
+
+Moon Jump [Mathew_Wi]
+289F6D28 00000100
+0504CDB0 41000000
+E0000000 80008000
+
+Super Speed [Mathew_Wi]
+2A9F6D2A 00000000
+0504D578 42000000
+E0000000 80008000
+
+Infinite Time [Mathew_Wi]
+04D74E24 60000000
+
+Universal Codes for Legend of Zelda: Ocarina of Time
+
+Time of Day Modifier v1 [Mathew_Wi]
+48000000 81700040
+DE000000 80008180
+30000000 B347000C
+D2000000 00000026
+3F608000 3B7B1800
+837B0000 3F804E41
+3B9C4345 7C1BE000
+41820028 3F804E41
+3B9C4350 7C1BE000
+4182002C 3F804E41
+3B9C434A 7C1BE000
+41820030 480000EC
+3CA08000 3E00809F
+62106BA8 82100000
+4800002C 3CA0809F
+3E00809F 62106D28
+82100000 48000018
+3CA0809F 3E00809F
+62106A88 82100000
+48000004 3E200008
+3A310000 7C108800
+41820038 3E200001
+3A310000 7C108800
+41820040 3E200002
+3A310000 7C108800
+4182004C 3E200004
+3A310000 7C108800
+41820058 4800006C
+39404C00 91450090
+3B400000 82050090
+7F5A8214 48000054
+3940115D 394A7FFF
+91450090 3B400000
+82050090 7F5A8214
+48000038 39403100
+394A7FFF 91450090
+3B400000 82050090
+7F5A8214 4800001C
+39404001 394A7FFF
+91450090 3B400000
+82050090 7F5A8214
+B347000C 00000000
+E0000000 80008000
+C0000000 00000012
+3E008170 3A100040
+BF300004 3F2080CA
+3F4080FA 3B600002
+3F80CFB1 3B9C4218
+3FA00000 3FC00000
+7C1DD800 41820018
+83F90000 7FDEFA78
+3B390004 3BBD0001
+4BFFFFE8 1FBBFFFC
+7C1EE000 4182002C
+7C19D000 4080001C
+7FF9E82E 7FDEFA78
+83F90000 7FDEFA78
+3B390004 4BFFFFDC
+7E198378 48000008
+3B39FFFC 93300000
+BB300004 4E800020
+4E800020 00000000
+E0000000 80008000
+There's a strange bug that causes the code not to work at night.
+Gamecube:
+DPAD Up - Morning
+DPAD Left - Afternoon
+DPAD Right - Evening
+DPAD Down - Night Time

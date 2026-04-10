@@ -1,0 +1,69 @@
+RNEPDA
+Naruto Shippuuden Clash of Ninja Revolution 3 European Version
+
+Infinite Ryo [Apache81]
+4A000000 900279A4
+DE000000 90009340
+14000000 0098967F
+E0000000 80008000
+
+Infinite Ryo - Spanish Language [Apache81]
+4A000000 900277A4
+DE000000 90009340
+14000000 0098967F
+E0000000 80008000
+To use only with the spanish language
+
+Infinite Ryo - German Language [Apache81]
+4A000000 90027524
+DE000000 90009340
+14000000 0098967F
+E0000000 80008000
+To use only with the german language
+
+Infinite Ryo - French Language [Apache81]
+4A000000 900276A4
+DE000000 90009340
+14000000 0098967F
+E0000000 80008000
+To use only with the french language
+
+Player 1 - Infinite HP [Apache81]
+4A000000 92B24068
+DE000000 90009340
+14000000 00002710
+E0000000 80008000
+Full HP gauge
+
+Player 1 - Infinite HP to unlock hidden power [Apache81]
+4A000000 92B24068
+DE000000 90009340
+14000000 00000700
+E0000000 80008000
+Less than 1/4 of the HP gauge. Pay attention to the very strong attack !!!
+
+Player 1 - Infinite Chakra [Apache81]
+4A000000 92B24084
+DE000000 90009340
+14000000 00002710
+E0000000 80008000
+
+Player 2 - Infinite HP [Apache81]
+4A000000 92DC4088
+DE000000 90009340
+14000000 00002710
+E0000000 80008000
+Full HP gauge
+
+Player 2 - Infinite HP to unlock hidden power [Apache81]
+4A000000 92DC4088
+DE000000 90009340
+14000000 00000700
+E0000000 80008000
+Less than 1/4 of the HP gauge. Pay attention to the very strong attack !!!
+
+Player 2 - Infinite Chakra [Apache81]
+4A000000 92DC40A4
+DE000000 90009340
+14000000 00002710
+E0000000 80008000

@@ -1,0 +1,115 @@
+R9TP69
+Tiger Woods 09
+
+Alternate Shot Counter code - 1 line
+
+Current stroke always 1 [Panda]
+040C8580 60000000
+
+NOP's out ASM that increases shot count by 1
+
+Putting
+
+*I removed this code as it worked online*
+
+Scorecard/Current Stroke
+
+Hole 1 [Panda]
+046889C0 0000000X
+
+Hole 2 [Panda]
+046889C4 0000000X
+
+Hole 3 [Panda]
+046889C8 0000000X
+
+Hole 4 [Panda]
+046889CC 0000000X
+
+Hole 5 [Panda]
+046889D0 0000000X
+
+Hole 6 [Panda]
+046889D4 0000000X
+
+Hole 7 [Panda]
+046889D8 0000000X
+
+Hole 8 [Panda]
+046889DC 0000000X
+
+Hole 9 [Panda]
+046889E0 0000000X
+
+Hole 10 [Panda]
+046889E4 0000000X
+
+Hole 11 [Panda]
+046889E8 0000000X
+
+Hole 12 [Panda]
+046889EC 0000000X
+
+Hole 13 [Panda]
+046889F0 0000000X
+
+Hole 14 [Panda]
+046889F4 0000000X
+
+Hole 15 [Panda]
+046889F8 0000000X
+
+Hole 16 [Panda]
+046889FC 0000000X
+
+Hole 17 [Panda]
+04688A00 0000000X
+
+Hole 18 [Panda]
+04688A04 0000000X
+
+Experince Points
+
+Inf Points - Profile 1 [Panda]
+4A000000 92000000
+14F92B18 FFFFFFFF
+E0000000 80008000
+
+Inf Points - Profile 2 [Panda]
+4A000000 92000000
+14FC4438 FFFFFFFF
+E0000000 80008000
+
+Inf Points - Profile 3 [Panda]
+4A000000 92000000
+14FF5D48 FFFFFFFF
+E0000000 80008000
+
+Inf Points - Profile 4 [Panda]
+4A000000 93000000
+14027668 FFFFFFFF
+E0000000 80008000
+
+Money
+
+$999,999,999 - Profile 1 [Panda]
+4A000000 92000000
+14F97804 3B9AC9FF
+E0000000 80008000
+
+$999,999,999 - Profile 2 [Panda]
+4A000000 92000000
+14FC9124 3B9AC9FF
+E0000000 80008000
+
+$999,999,999 - Profile 3 [Panda]
+4A000000 92000000
+14FFAA24 3B9AC9FF
+E0000000 80008000
+
+$999,999,999 - Profile 4 [Panda]
+4A000000 93000000
+1402C344 3B9AC9FF
+E0000000 80008000
+
+Leaderboard Score

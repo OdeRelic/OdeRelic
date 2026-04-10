@@ -1,0 +1,60 @@
+WPAJ
+Pokémon Fushigi no Dungeon: Ikuzo! Arashi no Boukendan
+
+Max Coins [Glitch]
+04475FA8 0001869F
+
+Max Coins in Bank [Glitch]
+04477340 0098967F
+
+Max Adventure Rank [Glitch]
+04471998 000186A0
+
+Max Rank Points [Glitch]
+040E5AC4 60000000
+
+Max smartness from eating gummy [Glitch]
+0407DBA8 60000000
+04168ED4 60000000
+
+See Items Location [Glitch]
+0406C2D0 380000FF
+
+See Pokemon Location [Glitch]
+0406C2C8 380000FF
+
+See Stairs Location [Glitch]
+0406C348 380000FF
+
+Wild Pokemon Appear [Glitch]
+040BDCA8 38000xxx
+In order by ID: 000 - Bulbasaur (M) - 219 - Arceus
+359 - Bulbasaur (F) etc
+
+Never get hungry [Glitch]
+0405CDA4 38A00064
+
+Infinite Health [Glitch]
+C208FA10 00000004
+2C130000 40820010
+AB590012 38000000
+48000008 80150000
+60000000 00000000
+
+Infinite Health & 1HKO [Glitch]
+C208FA10 00000004
+2C130000 40820010
+AB590012 38000000
+48000008 A8190012
+60000000 00000000
+
+EXP Modifier x [Glitch]
+C20938D4 00000002
+1C84xxxx 7C632214
+60000000 00000000
+xxxx=0002 = x2 - 7FFF = x32767
+
+Max EXP After Battle [Glitch]
+C20938D4 00000002
+3C600098 3863967F
+60000000 00000000

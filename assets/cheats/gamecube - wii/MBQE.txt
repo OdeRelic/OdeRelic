@@ -1,0 +1,16 @@
+MBQE
+Streets of Rage 3
+
+Player 1 Unlimited Health [GMO]
+010C452C 00000034
+010C452E 00000034
+
+Player 1 Unlimited Lives [GMO]
+010C454B 00000009
+
+P2 Unlimited Health [GMO]
+010C462C 00000034
+010C462E 00000034
+
+P2 Unlimited Lives [GMO]
+010C464B 00000009

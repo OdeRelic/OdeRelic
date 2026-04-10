@@ -1,0 +1,69 @@
+FBDP
+Kid Icarus
+
+Unlimited Health-Endurance [Crapulecorp]
+003C7906 00000007
+*Code ported from GMO Ntsc Usa Version*
+
+Invincible [Crapulecorp]
+003C7F88 00000023
+*Code ported from ZiT Ntsc Jap Version*
+
+Unlimited Hearts [Crapulecorp]
+023C79AA 000003E7
+
+STR MAX [Crapulecorp]
+003C79B2 00000004
+*Code ported from ZiT Ntsc Jap Version*
+
+Wing MAX [Crapulecorp]
+003C79B0 00000009
+*Code ported from ZiT Ntsc Jap Version*
+
+MoonJump
+
+MoonJump [Crapulecorp]
+281F8172 FFEF0010
+003C787D 000000E3
+E0000000 80008000
+*Classic Controller*
+*Code ported from ZiT Ntsc Jap Version*
+
+MoonJump [Crapulecorp]
+281BACE8 FEFF0100
+003C787D 000000E3
+E0000000 80008000
+*GameCube Controller*
+*Code ported from ZiT Ntsc Jap Version*
+
+Speed Up
+
+Speed Up [Crapulecorp]
+82000000 803C7F83
+281F8172 BFFF4000
+86000000 00000001
+281F8173 FFFE0001
+86000000 FFFFFFFF
+E0000000 80008000
+84000000 803C7F83
+*Classic Controller*
+*Code ported from ZiT Ntsc Jap Version*
+
+Speed Up [Crapulecorp]
+82000000 803C7F83
+281BACE8 FFFB0004
+86000000 00000001
+281BACE8 FFF70008
+86000000 FFFFFFFF
+E0000000 80008000
+84000000 803C7F83
+*GameCube Controller*
+*Code ported from ZiT Ntsc Jap Version*
+
+Button Activator
+
+Classic Controller [Crapulecorp]
+281F8172 YYYYZZZZ
+
+GameCube Controller [Crapulecorp]
+281BACE8 YYYYZZZZ

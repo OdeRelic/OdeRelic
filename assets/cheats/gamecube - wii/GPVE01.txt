@@ -1,0 +1,99 @@
+GPVE01
+Pikmin 2
+
+Movement Code (Z+Left Analog Stick) [goemon_guy]
+20507008 00100048
+80000000 80E0D9B0
+86910000 3F800000
+20507009 001000B8
+86910000 BF800000
+20507009 00104800
+80000000 80E0D9B8
+86910000 3F800000
+20507009 0010B800
+86910000 BF800000
+E0000000 80008000
+28507008 FFEF0010
+04E0D9A8 42800000
+Hold Z and a direction on the analog stick to move in that direction.
+Z also functions as a moon jump type code.
+*Olimar ONLY*
+
+Time Manipulator [goemon_guy]
+80000000 80B0B4A8
+28507008 00000002
+86910000 3F800000
+28507009 00000001
+86910000 BF800000
+E0000000 80008000
+D-Left to rewind time
+D-Right to advance time
+
+One Hit Kills [goemon_guy]
+04105FE8 60000000
+
+Infinite Sprays [goemon_guy]
+C21E8434 00000002
+39C00063 91C300C0
+806300C0 00000000
+
+Have Complete Exploration Kit [goemon_guy]
+0292F7BC 00000FFF
+
+Have Pieces of Exploration Kit [goemon_guy]
+0292F7BC 0000XXXX
+Add together the pieces you want.
+0001=Rocket Fist
+0002=Anti-Electrifier
+0004=Mega Tweeter
+0008=Pluckaphone
+0010=Solar Guard
+0020=Metal Suit Z
+0040=Scorch Guard
+0080=Rush Boots
+0100=Treasure Gauge
+0200=Napsack
+0400=Sphere Chart (Globe Top Half)
+0800=Survey Chart (Globe Bottom Half)
+
+Infinite Health -Olimar & Louie- [goemon_guy]
+04144540 60000000
+
+Infinite/Max 999 Blue Pikmin [goemon_guy]
+0292F982 000003e7
+
+Infinite/Max 999 Red Pikmin [goemon_guy]
+0292F992 000003e7
+
+Infinite/Max 999 Yellow Pikmin [goemon_guy]
+0292F99E 000003e7
+
+Infinite/Max 999 White Pikmin [goemon_guy]
+0292F9AB 000003e7
+
+Infinite/Max 999 Purple Pikmin [goemon_guy]
+0292F9B6 000003e7
+
+Have Collected 10,000 Pokos [goemon_guy]
+0492F85C 00002710
+This fulfills the debt owed.
+
+Unlock all areas [goemon_guy]
+0492F9E0 07070707
+
+Always grow Flower Pikmin [goemon_guy]
+C21D9B70 00000002
+39C00002 B1DE01F6
+60000000 00000000
+The Pikmin must be grown to take effect
+
+Stop Time From Advancing (Story Mode) [Link Master]
+04127350 60000000
+
+Stop/Return Flow of Time (L+D-pad Left/Right) (Story Mode) [Link Master]
+28507008 00000041
+04127350 60000000
+E2000001 80008000
+28507008 00000042
+04127350 D0030208
+E2000001 80008000

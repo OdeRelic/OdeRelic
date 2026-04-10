@@ -1,0 +1,38 @@
+S2QP54
+NBA 2K12
+
+Button Activator [Bully@Wiiplaza]
+28250FD2 YYYYZZZZ
+
+End Quarter At Will [Bully@Wiiplaza]
+F2A1DC04 FC242601
+D01C0010 00000000
+28250FD2 F9FF0600
+F2A1DC04 FC242601
+D2DC0010 00000000
+E0000000 80008000
+*Press 1 + B to end quarter*
+
+Unlimited Skill Points (My Player Mode) [Crapulecorp]
+049C541C 0001869F
+
+Unlimited Skill Points (My Player Mode) [Crapulecorp]
+C300D0A0 00000002
+3C00000F 6000423F
+9004022C 00000000
+*ASM Version*
+
+Difficulty Level (My Player Mode) [Crapulecorp]
+003CF337 000000XX
+*Replace XX for :
+00 Rookie
+01 Pro
+02 All Star
+03 Superstar
+04 Hall Of Fame*
+
+Difficulty Level is Rookie (My Player Mode) [Crapulecorp]
+C2AE5838 00000002
+3C600000 90640004
+60000000 00000000
+*ASM Codes So you have to change the difficulty and that will automaticaly be set to Rookie*

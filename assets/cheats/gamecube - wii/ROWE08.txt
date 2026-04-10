@@ -1,0 +1,544 @@
+ROWE08
+Okami
+
+infinite double jump/wall jump [dcx2]
+0460B240 38800001
+0460B704 38800001
+0460BACC 38800001
+change 38800001 to 38800000 to prevent the leaves from appearing when you jump
+
+always have all eight holy artifacts [dcx2]
+C24645DC 0000000A
+2C1E000B 4182003C
+2C1E0097 41820034
+2C1E00CD 4182002C
+2C1E0095 41820024
+2C1E0096 4182001C
+2C1E0098 41820014
+2C1E009C 4182000C
+2C1E009D 40820008
+7FC3F378 7C1E1800
+60000000 00000000
+Fools the game into thinking you have the Fire Tablet, Water Tablet, Golden Lucky Cat, Thief's Glove, Golden Ink Pot, Peace Bell, Wood Mat, and String of Beads all equipped all the time, even if they actually aren't. Note that you still get to collect all the stray beads. The Water Tablet is slightly glitchy; sometimes it turns off when changing areas. Opening the menu fixes it.
+
+Infinite Yen [dcx2]
+043CAF84 60000000
+
+Infinite Demon Fangs [dcx2]
+043CA078 60000000
+
+Infinite Items [dcx2]
+043CA178 60000000
+
+Infinite Praise [dcx2]
+04474F70 60000000
+04474674 38000000
+044751D4 60000000
+044746DC 38000000
+04475438 60000000
+04474744 38000000
+044756B8 60000000
+044747B4 38000000
+You need at least 6 praise for this to work reliably. If you have less, the game might not realize the gauge you're filling is full.
+
+Permanent inkfinity [dcx2]
+04451D30 380003E8
+
+Permanent vengeance slip [dcx2]
+04600B78 380003E9
+infinite health + no stun
+
+Permanent steel fist sake [dcx2]
+04600CDC 386003EA
+
+Using an item doesn't consume it [dcx2]
+043CAE5C 38A00000
+
+Have All Celestial Brush Techniques [brkirch]
+0473288C 4BDFFFFE
+007328A4 00000003
+007328B1 00000003
+04734890 00000003
+82200000 806E54A4
+86300000 DFDFFFFF
+84200000 806E54A4
+
+Press Button 1 For Attack/Tackle, Button 2 For Fleetfoot (Z + Button 1 For Map Display, Z + Button 2 For Change Perspective) [brkirch]
+04424F48 48000660
+C209D97C 0000000D
+48000005 7CE802A6
+A0A7005E A0C7005C
+7C052838 7C052A78
+7CC52B78 B0A7005C
+B007005E 540505AD
+4082000C 540505EF
+41820024 540504A5
+4082000C 38000000
+48000014 540004E2
+A0C7005C 54C6062A
+B0C7005C B00300A0
+4800000C 00000000
+00000000 00000000
+C242603C 0000000D
+48000005 7CA802A6
+9421FFF0 90C10008
+90E1000C A0E5FFEC
+54E6062A B0C5FFEC
+54E605AD 4182000C
+38600022 907B001C
+54E605EF 4182000C
+38600100 907B001C
+2C030022 41820010
+2C030100 41820008
+907B001C 80C10008
+80E1000C 38210010
+60000000 00000000
+C2426130 00000007
+48000005 7CC802A6
+A0C6FF7E 2C040022
+40820008 38800000
+54C304A5 40820010
+54C305AD 41820008
+38800022 909B0004
+60000000 00000000
+
+Have All Items (Does Not Add Key Items) And Equipment [brkirch]
+026E51B0 00000063
+086E51B8 00000063
+10020002 00000000
+026E51BE 00000001
+086E51C0 00000063
+10030002 00000000
+086E51C8 00000001
+100E0002 00000000
+026E525E 00000001
+026E5288 00000063
+086E529A 00000001
+10020002 00000000
+026E52A0 00000001
+086E52C4 00000063
+10050002 00000000
+086E52D2 00000001
+10030002 00000000
+086E52DA 00000063
+10020002 00000000
+026E52E0 00000001
+026E52E2 00000001
+026E52E4 00000063
+086E5338 00000001
+10030002 00000000
+026E5342 00000001
+026E5346 00000001
+
+Key Item Modifiers
+
+Have Canine Tracker [brkirch]
+026E522C 00000001
+
+Don't Have Canine Tracker [brkirch]
+026E522C 00000000
+
+Have Lucky Mallet [brkirch]
+026E522E 00000001
+
+Don't Have Lucky Mallet [brkirch]
+026E522E 00000000
+
+Have Border Key [brkirch]
+026E5230 00000001
+
+Don't Have Border Key [brkirch]
+026E5230 00000000
+
+Have Dragon Orb [brkirch]
+026E5232 00000001
+
+Don't Have Dragon Orb [brkirch]
+026E5232 00000000
+
+Have Fox Rods [brkirch]
+026E5234 00000001
+
+Don't Have Fox Rods [brkirch]
+026E5234 00000000
+
+Have Thunder Brew [brkirch]
+026E5236 00000001
+
+Don't Have Thunder Brew [brkirch]
+026E5236 00000000
+
+Have Shell Amulet [brkirch]
+026E5238 00000001
+
+Don't Have Shell Amulet [brkirch]
+026E5238 00000000
+
+Have Mask [brkirch]
+026E523A 00000001
+
+Don't Have Mask [brkirch]
+026E523A 00000000
+
+Have Ogre Liver [brkirch]
+026E523C 00000001
+
+Don't Have Ogre Liver [brkirch]
+026E523C 00000000
+
+Have Lips of Ice [brkirch]
+026E523E 00000001
+
+Don't Have Lips of Ice [brkirch]
+026E523E 00000000
+
+Have Eyeball of Fire [brkirch]
+026E5240 00000001
+
+Don't Have Eyeball of Fire [brkirch]
+026E5240 00000000
+
+Have Black Demon Horn [brkirch]
+026E5242 00000001
+
+Don't Have Black Demon Horn [brkirch]
+026E5242 00000000
+
+Have Loyalty Orb [brkirch]
+026E5244 00000001
+
+Don't Have Loyalty Orb [brkirch]
+026E5244 00000000
+
+Have Justice Orb [brkirch]
+026E5246 00000001
+
+Don't Have Justice Orb [brkirch]
+026E5246 00000000
+
+Have Duty Orb [brkirch]
+026E5248 00000001
+
+Don't Have Duty Orb [brkirch]
+026E5248 00000000
+
+Have Golden Mushroom [brkirch]
+026E5266 00000001
+
+Don't Have Golden Mushroom [brkirch]
+026E5266 00000000
+
+Have Gimmick Gear [brkirch]
+026E5268 00000001
+
+Don't Have Gimmick Gear [brkirch]
+026E5268 00000000
+
+Have 8 Purification Sake [brkirch]
+026E526C 00000001
+
+Don't Have 8 Purification Sake [brkirch]
+026E526C 00000000
+
+Have Sewaprolo [brkirch]
+026E526E 00000001
+
+Don't Have Sewaprolo [brkirch]
+026E526E 00000000
+
+Have Charcoal [brkirch]
+026E528A 00000001
+
+Don't Have Charcoal [brkirch]
+026E528A 00000000
+
+Have Blinding Snow [brkirch]
+026E528C 00000001
+
+Don't Have Blinding Snow [brkirch]
+026E528C 00000000
+
+Have Marlin Rod [brkirch]
+026E5296 00000001
+
+Don't Have Marlin Rod [brkirch]
+026E5296 00000000
+
+Have Treasure Box [brkirch]
+026E528E 00000001
+
+Don't Have Treasure Box [brkirch]
+026E528E 00000000
+
+Have Herbal Medicine [brkirch]
+026E5292 00000001
+
+Don't Have Herbal Medicine [brkirch]
+026E5292 00000000
+
+Have Pinwheel [brkirch]
+026E5294 00000001
+
+Don't Have Pinwheel [brkirch]
+026E5294 00000000
+
+Equipment Modifiers
+
+Have Divine Retribution [brkirch]
+026E51C8 00000001
+
+Don't Have Divine Retribution [brkirch]
+026E51C8 00000000
+
+Have Snarling Beast [brkirch]
+026E51CA 00000001
+
+Don't Have Snarling Beast [brkirch]
+026E51CA 00000000
+
+Have Infinity Judge [brkirch]
+026E51CC 00000001
+
+Don't Have Infinity Judge [brkirch]
+026E51CC 00000000
+
+Have Trinity Mirror [brkirch]
+026E51CE 00000001
+
+Don't Have Trinity Mirror [brkirch]
+026E51CE 00000000
+
+Have Solar Flare [brkirch]
+026E51D0 00000001
+
+Don't Have Solar Flare [brkirch]
+026E51D0 00000000
+
+Have Devout Beads [brkirch]
+026E51D2 00000001
+
+Don't Have Devout Beads [brkirch]
+026E51D2 00000000
+
+Have Life Beads [brkirch]
+026E51D4 00000001
+
+Don't Have Life Beads [brkirch]
+026E51D4 00000000
+
+Have Exorcism Beads [brkirch]
+026E51D6 00000001
+
+Don't Have Exorcism Beads [brkirch]
+026E51D6 00000000
+
+Have Resurrection Beads [brkirch]
+026E51D8 00000001
+
+Don't Have Resurrection Beads [brkirch]
+026E51D8 00000000
+
+Have Tundra Beads [brkirch]
+026E51DA 00000001
+
+Don't Have Tundra Beads [brkirch]
+026E51DA 00000000
+
+Have Tsumugari [brkirch]
+026E51DC 00000001
+
+Don't Have Tsumugari [brkirch]
+026E51DC 00000000
+
+Have Seven Strike [brkirch]
+026E51DE 00000001
+
+Don't Have Seven Strike [brkirch]
+026E51DE 00000000
+
+Have Blade of Kusanagi [brkirch]
+026E51E0 00000001
+
+Don't Have Blade of Kusanagi [brkirch]
+026E51E0 00000000
+
+Have Eighth Wonder [brkirch]
+026E51E2 00000001
+
+Don't Have Eighth Wonder [brkirch]
+026E51E2 00000000
+
+Have Thunder Edge [brkirch]
+026E51E4 00000001
+
+Don't Have Thunder Edge [brkirch]
+026E51E4 00000000
+
+Have Fire Tablet [brkirch]
+026E52E2 00000001
+
+Don't Have Fire Tablet [brkirch]
+026E52E2 00000000
+
+Have Water Tablet [brkirch]
+026E52E0 00000001
+
+Don't Have Water Tablet [brkirch]
+026E52E0 00000000
+
+Have Peace Bell [brkirch]
+026E51BE 00000001
+
+Don't Have Peace Bell [brkirch]
+026E51BE 00000000
+
+Have Golden Lucky Cat [brkirch]
+026E52D2 00000001
+
+Don't Have Golden Lucky Cat [brkirch]
+026E52D2 00000000
+
+Have Thief's Glove [brkirch]
+026E52D4 00000001
+
+Don't Have Thief's Glove [brkirch]
+026E52D4 00000000
+
+Have Wood Mat [brkirch]
+026E52D6 00000001
+
+Don't Have Wood Mat [brkirch]
+026E52D6 00000000
+
+Have Golden Ink Pot [brkirch]
+026E52D8 00000001
+
+Don't Have Golden Ink Pot [brkirch]
+026E52D8 00000000
+
+Have String of Beads [brkirch]
+026E5342 00000001
+
+Don't Have String of Beads [brkirch]
+026E5342 00000000
+
+Number of Item Modifiers
+
+Feedbag (Seeds) [brkirch]
+026E52CC 000000XX
+
+Feedbag (Herbs) [brkirch]
+026E52CA 000000XX
+
+Feedbag (Meat) [brkirch]
+026E52C8 000000XX
+
+Feedbag (Fish) [brkirch]
+026E52CE 000000XX
+
+Holy Bone S [brkirch]
+026E52C6 000000XX
+
+Holy Bone M [brkirch]
+026E52C4 000000XX
+
+Holy Bone L [brkirch]
+026E51B0 000000XX
+
+Exorcism Slip S [brkirch]
+026E51BC 000000XX
+
+Exorcism Slip M [brkirch]
+026E51BA 000000XX
+
+Exorcism Slip L [brkirch]
+026E51B8 000000XX
+
+Vengeance Slip [brkirch]
+026E51C0 000000XX
+
+Inkfinity Stone [brkirch]
+026E51C2 000000XX
+
+Traveler's Charm [brkirch]
+026E5288 000000XX
+
+Godly Charm [brkirch]
+026E52DE 000000XX
+
+Steel Fist Sake [brkirch]
+026E52DA 000000XX
+
+Steel Soul Sake [brkirch]
+026E52DC 000000XX
+
+Gold Dust [brkirch]
+026E52E4 000000XX
+
+Mermaid Coin [brkirch]
+026E51C4 000000XX
+
+Golden Peach [brkirch]
+026E51C6 000000XX
+
+Karmic Returner [brkirch]
+026E5338 000000XX
+
+Karmic Transformer 1 [brkirch]
+026E525E 000000XX
+
+Karmic Transformer 2 [brkirch]
+026E533A 000000XX
+
+Karmic Transformer 3 [brkirch]
+026E529A 000000XX
+
+Karmic Transformer 4 [brkirch]
+026E5346 000000XX
+
+Karmic Transformer 5 [brkirch]
+026E533E 000000XX
+
+Karmic Transformer 6 [brkirch]
+026E533C 000000XX
+
+Karmic Transformer 7 [brkirch]
+026E529E 000000XX
+
+Karmic Transformer 8 [brkirch]
+026E529C 000000XX
+
+Karmic Transformer 9 [brkirch]
+026E52A0 000000XX
+
+Infinite Yen [OneUp]
+046E5158 05F5E0FF
+This is the actual max Value for Yen.
+
+Press 1 in menu for 9999 Praise [OneUp]
+288B9708 FDFF0200
+42000000 C0000000
+0478FFC0 0000270F
+E0000000 80008000
+Only use this in the praise menu. Once Solar Energy is fully upgraded, don't press 1 while selecting it because it will mess up the praise (not adverse just have to reset).
+
+Max Yen [hetoan2]
+146E5158 0001869F
+
+99 of slot 1 [hetoan2]
+10B06EA5 00000063
+
+99 of slot 2 [hetoan2]
+10B06E90 00000063
+
+99 of slot 3 [hetoan2]
+10B06EB8 00000063
+
+99 of slot 4 [hetoan2]
+10B06ECC 00000063
+
+99 of slot 5 [hetoan2]
+10B06EE1 00000063
+
+99 of slot 6 [hetoan2]
+10B06EF5 00000063

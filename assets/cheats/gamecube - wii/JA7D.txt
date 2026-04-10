@@ -1,0 +1,8 @@
+JA7D
+Actraiser [PAL]
+
+infinite Energy [ninjor]
+008BA385 00000018
+
+infinite Magic [ninjor]
+008BA389 00000006

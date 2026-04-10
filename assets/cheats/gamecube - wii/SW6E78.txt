@@ -1,0 +1,262 @@
+SW6E78
+WWE '12
+
+Button Conditionals
+
+WiiMote Pad1 [GMO]
+289042C0 YYYYZZZZ
+Originally hacked by cstatus
+
+Classic Pad1 [GMO]
+289042EA YYYYZZZZ
+
+WiiMote Pad2 [GMO]
+28904EA0 YYYYZZZZ
+
+Classic Pad2 [GMO]
+28904ECA YYYYZZZZ
+
+Unlock Individual Super Stars
+
+Brock Lesnar [GMO]
+016FCDE7 00000001
+
+Stone Cold Steve Auston [GMO]
+016FCDE9 00000001
+
+Demolition - Ax and Smash [GMO]
+016FCDEB 00000001
+
+Edge [GMO]
+016FCE04 00000001
+
+Arn Anderson [GMO]
+016FCE0B 00000001
+
+Kevin Nash [GMO]
+016FCE11 00000001
+
+The Rock [GMO]
+016FCE15 00000001
+
+Vader [GMO]
+016FCE19 00000001
+
+Eddie Guerrero [GMO]
+016FCE1A 00000001
+
+Booker T [GMO]
+016FCE1B 00000001
+
+Road Warriors - Animal and Hawk [GMO]
+016FCE1D 00000001
+
+Ricky Steamboat [GMO]
+016FCE1E 00000001
+
+Mr McMahon [GMO]
+016FCE25 00000001
+
+Dashing Cody Rhodes [GMO]
+016FCE28 00000001
+
+Goldust [GMO]
+016FCE29 00000001
+
+Michelle McCool [GMO]
+016FCE2A 00000001
+
+Unlock Individual Arenas
+
+Over The Limit Arena [GMO]
+016FCDF8 00000001
+
+Fatal 4-Way Arena [GMO]
+016FCDF9 00000001
+
+Money In The Bank Arena [GMO]
+016FCDFA 00000001
+
+Night of Champions Arena [GMO]
+016FCDFB 00000001
+
+Hell In A Cell Arena [GMO]
+016FCDFC 00000001
+
+Bragging Rights Arena [GMO]
+016FCDFD 00000001
+
+SurvivorSeries Arena [GMO]
+016FCDFE 00000001
+
+TLC Arena [GMO]
+016FCDFF 00000001
+
+Extreme Rules Arena [GMO]
+016FCE00 00000001
+
+Tribute To The Troops Arena [GMO]
+016FCE01 00000001
+
+NXT Arena [GMO]
+016FCE17 00000001
+
+Clash of the Champions Arena [GMO]
+016FCE1C 00000001
+
+Nitro Arena [GMO]
+016FCE22 00000001
+
+Starrcade Arena [GMO]
+016FCE23 00000001
+
+Unlock Individual Titles
+
+Hardcore Championship [GMO]
+016FCDEC 00000001
+
+Million Dollar Title [GMO]
+016FCDED 00000001
+
+World Tag Team Titles [GMO]
+016FCDEE 00000001
+
+Tag Team Titles [GMO]
+016FCDEF 00000001
+
+Undisputed WWE Title [GMO]
+016FCDF0 00000001
+
+Classic ECW Championship [GMO]
+016FCDF1 00000001
+
+Attitude Era's WWE Championship [GMO]
+016FCDF2 00000001
+
+Champion of Champions Title [GMO]
+016FCDF3 00000001
+
+Classic WWE Intercontinental Champship [GMO]
+016FCDF4 00000001
+
+Light Heavyweight Title [GMO]
+016FCDF6 00000001
+
+European Championship [GMO]
+016FCE07 00000001
+
+WCW World Heavyweight Championship [GMO]
+016FCE1F 00000001
+
+WWE Championship (WCW) Titlw [GMO]
+016FCE21 00000001
+
+WCW Championship [GMO]
+016FCE24 00000001
+
+Unlock Individual Attires
+
+John Cena Entrance Attire [GMO]
+016FCE02 00000001
+
+The Miz Entrance Attire [GMO]
+016FCE03 00000001
+
+Sheamus with T-Shirt [GMO]
+016FCE05 00000001
+
+William Regal with Suit [GMO]
+016FCE06 00000001
+
+Drew McIntyre with Suit [GMO]
+016FCE09 00000001
+
+Edge Entrance Attire [GMO]
+016FCE0A 00000001
+
+Sheamus with Suit [GMO]
+016FCE0C 00000001
+
+Wade Barrett with Suit [GMO]
+016FCE0D 00000001
+
+Triple H Street Attire [GMO]
+016FCE10 00000001
+
+The Miz with Suit [GMO]
+016FCE12 00000001
+
+Arn Anderson Civilian Attire [GMO]
+016FCE18 00000001
+
+Kevin Nash with Suit [GMO]
+016FCE20 00000001
+
+Mr McMahon with Suit [GMO]
+016FCE26 00000001
+
+Hooded Undertaker Entrance Attire [GMO]
+016FCE2C 00000001
+
+John Cena Purple Attire [GMO]
+016FCE2D 00000001
+
+Randy Orton Without Beard [GMO]
+016FCE2F 00000001
+
+Zack Ryder Head band [GMO]
+016FCE30 00000001
+
+Unlock Individual Extras
+
+United Kingdom Entrance Video and Music [GMO]
+016FCE08 00000001
+
+Outsider Story [GMO]
+016FCE0E 00000001
+
+Hero Story [GMO]
+016FCE13 00000001
+
+King of Kings Music [GMO]
+016FCE14 00000001
+
+Jacob Cass Entrance Video and Music [GMO]
+016FCE16 00000001
+
+Mr McMahon Entrance Video and Music [GMO]
+016FCE27 00000001
+
+Miscellaneous Codes
+
+Unlock Everything (Unlockables) [GMO]
+096FCDE7 00000001
+004A0001 00000000
+
+First Wrestler Always Have x3 Finishers [cstatus]
+0531A9C8 60000000
+*Targets first Wrestler listed in a Match not First player controller.
+
+Second Wrestler Always has x3 Finishers [cstatus]
+052719C8 60000000
+*Like the previous codes targets the 2nd Wrestler in the Match not Player 2.
+
+Toggle ON/OFF First Wrestler has Finishers [cstatus]
+289042C0 0000XXXX
+0531A9C8 60000000
+CC000000 00000001
+0531A9C8 00000000
+E0000000 80008000
+*fill XXXX with the Appropriate Wiimote button values. Remember can still use Wiimote activators with CCP.
+
+Toggle ON/OFF Second has x3 Finishers [cstatus]
+289042C0 0000XXXX
+052719C8 60000000
+CC000000 00000001
+052719C8 00000000
+E0000000 80008000
+*fill XXXX with the Appropriate Wiimote button values. Remember can still use Wiimote activators with CCP.
+
+Always Have Signature [cstatus]
+0535F578 60000000
+*If used with Always have finisher you will only be able to use your signature.

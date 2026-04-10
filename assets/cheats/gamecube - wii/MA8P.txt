@@ -1,0 +1,13 @@
+MA8P
+Ecco The Dolphin II - The Tides of Time
+
+Unlimited Health [Crapulecorp]
+00FC09DF 00000040
+
+Unlimited Air [Crapulecorp]
+00FC09E0 00000004
+*Code ported from blindpainkiller MegaDrive Action Replay Version*
+
+Just One Gate To Take To Finish In 3D Stages [Crapulecorp]
+00FC3680 0000000C
+*Code ported from blindpainkiller MegaDrive Action Replay Version*

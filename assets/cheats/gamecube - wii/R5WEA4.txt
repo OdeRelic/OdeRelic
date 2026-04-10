@@ -1,0 +1,29 @@
+R5WEA4
+Silent Hill Shattered Memories
+
+infinite health [wiiztec]
+04063CD8 60000000
+04066F98 60000000
+
+always in peak physical condition [wiiztec]
+04063F7C 60000000
+makes it so you don't get injured and start limping
+
+flares burn forever [wiiztec]
+04BA7218 40000000
+
+flares burn forever (flameless flare) [wiiztec]
+041475F8 60000000
+
+flare burn length mod [wiiztec]
+04BA7214 XXXXXXXX
+XXXXXXXX is a floating point value for the number of seconds
+the default is 41C80000 which is 25 in FP
+
+hold A to walk through/over walls & other obstructions [wiiztec]
+0400F0B8 48313D0D
+0432555C 4BFFEE61
+284579CA F7FF0800
+0400F0B8 60000000
+0432555C 60000000
+E0000000 80008000

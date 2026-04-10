@@ -1,0 +1,14 @@
+RPFP52
+Pitfall The Big Adventure
+
+Infinite Health [Blaster99]
+04078504 80BF0614
+
+Always Access Shaman from Journal [Blaster99]
+00448FE0 00000001
+
+Max Idol If Decrease [Blaster99]
+040797DC 3800270F
+04079808 3800270F
+041DD5F8 3800270F
+Credits for Infinite Health and Always Access Shaman from Journal to TNTkryzt, just ported from US.

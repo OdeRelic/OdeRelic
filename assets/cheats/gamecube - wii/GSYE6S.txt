@@ -1,0 +1,50 @@
+GSYE6S
+Shrek Super Party 
+
+P1 Max Score
+022BCDEE 000003E7
+
+P2 Max Score
+022BCDF2 000003E7
+
+P3 Max Score
+022BCDF6 000003E7
+
+P4 Max Score
+022BCDFA 000003E7
+
+P1 Scores 0
+022BCDEE 00000000
+
+P2 Scores 0
+022BCDF2 00000000
+
+P3 Scores 0
+022BCDF6 00000000
+
+P4 Scores 0
+022BCDFA 00000000
+
+P1 Instant Tournament Win
+024688C6 000003E7
+
+P2 Instant Tournament Win
+02468966 000003E7
+
+P3 Instant Tournament Win
+02468A06 000003E7
+
+P4 Instant Tournament Win
+02468AA6 000003E7
+
+P1 Scores 0-Tournament
+024688C6 00000000
+
+P2 Scores 0-Tournament
+02468966 00000000
+
+P3 Scores 0-Tournament
+02468A06 00000000
+
+P4 Scores 0-Tournament
+02468AA6 00000000

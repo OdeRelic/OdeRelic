@@ -1,0 +1,8 @@
+EACP
+Magician Lord
+
+Unlimited Lives [GMO]
+00252E30 00000009
+
+Invincible [GMO]
+00252E39 00000035

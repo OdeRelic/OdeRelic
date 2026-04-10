@@ -1,0 +1,176 @@
+R8AE01
+PokePark Wii: Pikachu's Adventure
+
+Max Berries [GMO]
+C2127A08 00000002
+3800270F B01D001E
+60000000 00000000
+
+Max Berries (Gain) [Skiller]
+041279F0 60000000
+
+Stop/start Timer [Skiller]
+2837336A EFF71008
+040A64C4 38030000
+E0000000 80008000
+2837336A EFFB1004
+040A64C4 38030001
+E0000000 80008000
+(Stop Timer = Up, - ) (Start Timer = Down, - ) note start timer when u finished the level
+
+Universal Codes for Pokepark Wii: Pikachu´s Great Adventure
+
+Regionfree Wiimote Button Activator [Bully@Wiiplaza]
+28001500 YYYYZZZZ
+*Regionfree Button Activator Enabler must be ON!*
+
+Regionfree Button Activator Enabler [Bully@Wiiplaza]
+F6000001 80008100
+88180029 88980028
+D2000060 00000002
+A0180000 3D608000
+B00B1500 00000000
+E0000000 80008000
+
+Speed Hack [Bully@Wiiplaza]
+F6000001 80008100
+38610018 C05F0034
+D2000020 00000005
+3D808000 618C1500
+A18C0000 718C0200
+4182000C 3D604040
+917F0020 C03F0020
+60000000 00000000
+E0000000 80008000
+*Regionfree Button Activator Enabler must be ON!*
+*Sprint and hold the button to go super fast!*
+
+Moonjump [Bully@Wiiplaza]
+F6000001 80008100
+D083002C D0A30030
+D200002C 00000005
+3D808000 618C1500
+A18C0000 718C0400
+4182000C 3D603F10
+91630020 C0230020
+60000000 00000000
+E0000000 80008000
+*Regionfree Button Activator Enabler must be ON!*
+*Hold the B button to moonjump!*
+
+Inf. Berries [Bully@Wiiplaza]
+F6000001 80008100
+90830024 7C040040
+D2000018 00000004
+9421FFF0 91610008
+3960270F B163001E
+81610008 38210010
+A063001E 00000000
+E0000000 80008000
+
+Stop Timer [Bully@Wiiplaza]
+F6000001 80008100
+807F0254 38030001
+D2000008 00000003
+835F0008 2C1A0001
+41820008 901F0254
+3B400000 00000000
+E0000000 80008000
+*Credits: originally hacked by ZiT for NTSC-J*
+
+No Thunderbolt Recharge Time [Bully@Wiiplaza]
+F6000001 80008100
+80030018 7C070040
+D2000024 00000002
+2C000054 41820008
+7CA3012E 00000000
+E0000000 80008000
+
+Inf. Photoshots Available [Bully@Wiiplaza]
+F6000001 80008100
+80030018 7C070040
+D2000020 00000004
+9421FFF0 91610008
+3960001E B163002C
+81610008 38210010
+A063002C 00000000
+E0000000 80008000
+
+Inf. Health [Bully@Wiiplaza]
+F6000001 80008100
+C003000C D0030008
+D200003C 00000002
+2C050000 41820008
+D0230008 00000000
+E0000000 80008000
+
+Status Bars MAX [Bully@Wiiplaza]
+F6000001 80008100
+7C002B78 98A30030
+D2000030 00000002
+3800FFFF B003002E
+60000000 00000000
+E0000000 80008000
+*Credits: Originally hacked by ZiT for NTSC-J*
+
+Minigame Codes
+
+All Bonus Challenges completed [Bully@Wiiplaza]
+F6000001 80068100
+7C630214 3863000C
+D2000084 00000002
+38000001 B0030008
+60000000 00000000
+E0000000 80008000
+*every Pokemons challenge is signed with done*
+
+Score Modifier [Bully@Wiiplaza]
+F6000001 80008100
+7CDF0214 80C60160
+D2000020 00000002
+3CC0XXXX 60C6XXXX
+90DF0160 00000000
+E0000000 80008000
+*XXXX = HEX!*
+
+Highscore Modifier [Bully@Wiiplaza]
+F6000001 80008100
+7FFF0214 7C1DF040
+D20000B0 00000005
+9421FFF0 91610008
+3D600000 616BD6D8
+91630000 81610008
+38210010 80630000
+60000000 00000000
+E0000000 80008000
+*affects all Pokemons score(s)*
+
+Passwords (enter them in the main menu)
+
+Groudon
+45 59 40 12
+*Magma Zone*
+
+Jirachi
+82 40 17 77
+*Stone Zone*
+
+Darkrai
+20 43 35 57
+*Haunting Zone*
+
+Balloons (for Pikachu)
+57 42 94 45
+*for Salamences minigame*
+
+Snowboard (for Pikachu)
+04 82 35 23
+*for Empoleons Minigame*
+
+Surfboard (for Pikachu)
+84 92 50 64
+*for gyarados minigame*
+
+Celebi
+99 64 50 49
+*meet Celebi in the first area of Pokepark; This password is usable, if the main story was completed!*

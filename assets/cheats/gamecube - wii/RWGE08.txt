@@ -1,0 +1,23 @@
+RWGE08
+We Love Golf
+
+Always Hole In One (Enable Up on D-Pad) [farjo08]
+284B0702 fff70008
+040dbe6c 9a03014c
+040dbe98 9a03014d
+e0000000 80008000
+
+Always Hole In One (Disable Down on D-Pad) [farjo08]
+284B0702 fffb0004
+040dbe6c 9803014c
+040dbe98 9803014d
+e0000000 80008000
+
+Target Golf Score 500 [farjo08]
+040ff5a8 380001f4
+
+Note1: The stroke count still increases on screen (display) but you are awarded a hole in one when you finish the hole and the scoresheet is correctly updated. I believe it only increase to 2 then will stick there - again this is cosmetic. I tried approaching the code a different way and can get it to always display 1 but it registers 0 on the scorecard so I stuck with the original code.
+
+Note2: This is a port of the code from the Japanese version.
+
+Note3: Added a code to always score 500 points in target golf. You can change the xxxx in 3800xxxx to set it to any score you like (the xxxx should be hex values). I haven't had any luck searching floats, so nothing on distance to pin and not sure what to look for in the ring game.

@@ -1,0 +1,13 @@
+RRXE5Z
+Monster Trux Arenas
+
+No Damage [eric]
+04037654 60000000
+
+Infinite Nitro [eric]
+04026818 38800003
+04032db0 38000003
+040330d8 38000003
+
+Start on Last Lap [eric]
+0402d644 38030003

@@ -1,0 +1,153 @@
+RENP8P
+Sonic And The Black Knight
+
+Button Activator [CosmoCortney]
+2873CBE0 0000XXXX
+
+speedhack [CosmoCortney]
+2873CBE0 00001000
+047FEE28 3F800000
+047FEE2C 3F800000
+E0000000 80008000
+2873CBE0 00004000
+047FEE28 40000000
+047FEE2C 40000000
+E0000000 80008000
+2873CBE0 00000400
+047FEE28 41000000
+047FEE2C 41000000
+E0000000 80008000
+2873CBE0 00000001
+047FEE28 3F000000
+047FEE2C 3F000000
+E0000000 80008000
+2873CBE0 00000002
+047FEE28 3E000000
+047FEE2C 3E000000
+E0000000 80008000
+C = doupled Speed (x2)
+B = quadrupled Speed (x4)
+- (Minus) = Normal Speed (x1)
+DPad left = halved Speed (0.5)
+DPad right = quartered Speed (x0.25)
+
+Super Jumps [CosmoCortney]
+2873CBE0 00000800
+048063D0 40000000
+E0000000 80008000
+2A73CBE0 00000800
+048063D0 3F800000
+E0000000 80008000
+Press A only
+
+HUD on/off, DPad up/down [CosmoCortney]
+2873CBE0 00000004
+0480E190 00000000
+E0000000 80008000
+2873CBE0 00000008
+0480E190 3F800000
+E0000000 80008000
+Wait a few seconds to see the changes
+
+messed up sonic [CosmoCortney]
+2873CBE0 00000200
+0480E708 41100000
+E0000000 80008000
+2873CBE0 00000100
+0480E708 3F800000
+E0000000 80008000
+1 = messed up
+2 = normal
+
+Sonic glows [CosmoCortney]
+0480D998 XXXXXXXX
+soft glowing = 40000000
+really dark purple 40E00000
+saphire green = 40D00000
+sweet purple = 40F00000
+Shiny glowing = 41F00000
+Lime Green = 42000000
+Red = 42100000
+Cyan = 42200000
+Green = 42300000
+Magenta = 42400000
+Acid Green = 42500000
+Altrosa = 42600000
+Lightgreen = 42700000
+Grassgreen = 42800000
+Yellowgreen = 42900000
+Really Shiny Blue = 42A00000
+Light Golden = 42B00000
+Golden = 42C00000
+Silver = 42D00000
+Magenta Silver = 42E00000
+Royale Blue = 42F00000
+Purple = 43000000
+Mossgreen = 43100000
+low shine = 43200000
+Dark Golden = 43300000
+Shiny Silver = 43400000
+Krypton Green = 43500000
+Indigo = 43600000
+Dark Silver Green = 43700000
+Dark Shade = 43800000
+Smaragd Green = 43900000
+Grey Grren = 43A00000
+Yellow Golden = 43B00000
+
+Water looks like wet paper [CosmoCortney]
+04666580 00000000
+04666024 00000000
+
+Many objects without textures [CosmoCortney]
+0480651C 00000000
+
+Messed up Levels [CosmoCortney]
+2873CBE0 00002000
+04802B1C 40500000
+E0000000 80008000
+2873CBE0 00001000
+04802B1C 3F800000
+E0000000 80008000
+2873CBE0 00000200
+04802B1C BF800000
+E0000000 80008000
+Z or 2 to mess up. - (Minus) reset to defaults
+normal = http://imageshack.us/a/img204/2458/sonictheblackknightpal0.jpg
+Z = http://imageshack.us/a/img525/2458/sonictheblackknightpal0.jpg
+2 = http://imageshack.us/a/img339/2458/sonictheblackknightpal0.jpg
+
+Strange View [CosmoCortney]
+04807704 00000000
+http://imageshack.us/a/img39/2458/sonictheblackknightpal0.jpg
+
+Strange View 2 [CosmoCortney]
+04806534 00000000
+http://imageshack.us/a/img542/2458/sonictheblackknightpal0.jpg
+
+Moon Jump (A Button) [ZiT]
+287814C2 00000800
+C20677C4 00000002
+3E004040 92030004
+3A000000 00000000
+E0000000 80008000
+287814C2 00000000
+040677C4 D0030004
+0453C1D8 88060000
+E0000000 80008000
+
+If Rings Increase, MAX & Infinite Rings [ZiT]
+C20A729C 00000002
+3BE003E7 93FE0000
+60000000 00000000
+040A72E4 60000000
+0453C1EC 88060001
+
+Time Always At 0 [ZiT]
+040A6B2C 60000000
+0453C1F4 88060002
+
+Infinite Soul Gauge [ZiT]
+040A7204 D0030000
+040A71AC D0030000
+0453C1FC 88060003

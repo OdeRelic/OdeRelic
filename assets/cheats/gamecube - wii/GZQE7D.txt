@@ -1,0 +1,11 @@
+GZQE7D
+Robots 
+
+Infinite Health
+0408CB5C C01F03AC
+
+Infinite Scraps
+0423943C 907D0004
+
+Unlock All Bonuses
+04060C08 3900FFFF

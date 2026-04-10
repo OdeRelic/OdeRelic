@@ -1,0 +1,14 @@
+NAJN
+Sin & Punishment
+
+Infinite Health [funkamatic]
+012041F8 00000064
+
+Infinite Time [funkamatic]
+012041F7 00000063
+
+Infinite Continues (to continue after death) [funkamatic]
+0120436F 00000063
+
+Infinite Credits (to load game) [funkamatic]
+011A453C 00000063

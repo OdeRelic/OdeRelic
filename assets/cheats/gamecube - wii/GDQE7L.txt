@@ -1,0 +1,14 @@
+GDQE7L
+Darkened Skye 
+
+Infinite Health
+0419A810 42C80000
+
+Super Jump
+0419A81C 40ACCCCD
+
+Slow Speed
+0419A824 3F200000
+
+Super Speed
+0419A824 3FE00000

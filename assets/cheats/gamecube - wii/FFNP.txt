@@ -1,0 +1,46 @@
+FFNP
+Mega Man 4
+
+Unlimited Lives [Crapulecorp]
+003E1701 00000009
+
+Unlimited Health [Crapulecorp]
+003E1710 0000009C
+*Code ported from Thomas83Lin Ntsc Usa Version*
+
+Invincible [Crapulecorp]
+003E169C 00000023
+*Code ported from Thomas83Lin Ntsc Usa Version*
+
+Unlimited Energy [Crapulecorp]
+083E1711 0000009C
+000C00E1 00000000
+*Code ported from Thomas83Lin Ntsc Usa Version*
+
+Unlimited Tank [Crapulecorp]
+003E1702 00000009
+*Code ported from Thomas83Lin Ntsc Usa Version*
+
+MoonJump
+
+MoonJump [Crapulecorp]
+2822616A FEFF0100
+003E1A50 00000004
+E00000E0 80008000
+*Classic Controller*
+*Code ported from Thomas83Lin Ntsc Usa Version*
+
+MoonJump [Crapulecorp]
+2822614A FEFF0100
+003E1A50 00000004
+E0000000 80008000
+*WiiMote*
+*Code ported from Thomas83Lin Ntsc Usa Version*
+
+Button Activator
+
+Classic Controller [Crapulecorp]
+282261AA YYYYZZZZ
+
+WiiMote
+2822614A YYYYZZZ

@@ -1,0 +1,7 @@
+WRIE
+Rainbow Islands Towering Adventures
+
+Press B To Add More Time [GMO]
+2856FC52 00000400
+0262F3DE 0000270F
+E0000000 80008000

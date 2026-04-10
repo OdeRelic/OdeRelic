@@ -1,0 +1,162 @@
+RZTE01
+Wii Sports Resort
+
+Archery Score [BoxNinja]
+04D8D8EC XXXXXXXX
+*Replace X with Score
+
+Frisbee Dog Score [BoxNinja]
+04D0D310 XXXXXXXX
+*Replace X with Score
+
+ping pong challenge current number [BLiTz*]
+052767A0 XXXXXXXX
+
+basketball team score [BLiTz*]
+04D1B144 XXXXXXXX
+
+basketball other teams score [BLiTz*]
+04D1B148 XXXXXXXX
+
+Basketball 3 Pt Contest Have XX Points(Press 1+2 on P1 Wiimote) [REDSOXROX]
+2086E024 00000300
+04D15B98 000000XX
+E0000000 80008000
+XX= Points in HEX
+Max value: 1F, any greater value will freeze game
+Visible score does not immediately change
+Do not shoot any more baskets once you reach 31 Points
+
+Island Flyover Teleporter [Mal1t1a]
+2086E024 00000100
+82210001 00D2DA94
+82210002 00D2DA98
+82210003 00D2DA9C
+E0000000 80008000
+2086E024 00001000
+84210001 00D2DA94
+84210002 00D2DA98
+84210003 00D2DA9C
+E0000000 80008000
+Press 2 on P1 Wiimote to save your position, and press Minus to teleport to the saved position.
+
+Control P1 Golf Ball (P1 Wiimote) [Mal1t1a]
+2086E024 00000200
+82210000 00CFB9A0
+86900000 3F800000
+84210000 00CFB9A0
+E0000000 80008000
+2086E024 00000100
+82210000 00CFB9A0
+86900000 BF800000
+84210000 00CFB9A0
+E0000000 80008000
+2086E024 00000008
+82210000 00CFB9A4
+86900000 3F800000
+84210000 00CFB9A4
+E0000000 80008000
+2086E024 00000004
+82210000 00CFB9A4
+86900000 BF800000
+84210000 00CFB9A4
+E0000000 80008000
+2086E024 00000400
+82210000 00CFB9A8
+86900000 3F800000
+84210000 00CFB9A8
+E0000000 80008000
+2086E024 00000800
+82210000 00CFB9A8
+86900000 BF800000
+84210000 00CFB9A8
+E0000000 80008000
+Controls:
+Up=Move-Up
+Down=Move-Down
+A=Move-Forward
+B=Move-Backwards
+1=Move-Right
+2=Move-Left
+Note, that code is a little "rough" but it does the job. What I've noticed is that you will not be able to hit the ball if you don't press "B" before moving the ball. This code could also be fixed up, and probably have the controls switched around. If you want me to, I can change the Controls around.
+
+Cycling Always 1st Place [aj00200]
+12D2A49E 00000001
+
+Basketball Pickup Points [aj00200]
+4A000000 80D15B9A
+12000000 00000111
+E0000000 80008000
+
+infinite cycling stamina [wiiztec]
+20DEEFEC 00000003
+04DEEFC0 7F800000
+E0000000 80008000
+
+constant wind breaks (cycling) [wiiztec]
+24DEEFEC 00000000
+0529A774 00000000
+E0000000 80008000
+don't think it actually makes you go faster but it looks cool
+
+Make Table Tennis and Swordplay Level 4095 [conanac]
+2086E024 00000200
+42000000 90000000
+0416C834 000000FF
+0216C838 0000FFFF
+0416C4B0 000000FF
+0216C4B4 0000FFFF
+E0000000 80008000
+(Push 1 button before playing the game for the first Mii player)
+
+Make Zero and Match Point in Table Tennis Match [conanac]
+2086E024 00001000
+05275080 00000000
+0527529C 00000000
+0527637C 00000000
+E0000000 80008000
+2086E024 00000100
+0527507C 00000016
+05275298 00000016
+05276378 00000016
+E0000000 80008000
+(Push Minus button during the match to make zero point for Wii, and push 2 button during the match to keep matchpoint to your benefit)
+
+Always Score in Swordplay Duel Game (when fall) [conanac]
+C2611E20 00000002
+3C800000 60840000
+98850118 00000000
+C2610FE4 00000002
+3FC00000 63DE0000
+7FC3012E 00000000
+C2608560 00000002
+3C000000 60000000
+9005001C 00000000
+
+Collect All 240 i-Points (80 i-Points for each day, evening, and night fly) [conanac]
+2086E024 00000400
+42000000 90000000
+0016CBFF 00000050
+0016CEE7 00000050
+0816CEE8 00000000
+004F0001 00000001
+0816CF38 00000007
+004F0001 00000000
+00161097 00000050
+0016137F 00000050
+08161380 00000000
+004F0001 00000001
+081613D0 00000007
+004F0001 00000000
+E0000000 80008000
+(Push B when the plane is ready to fly at the dock)
+
+Reset Dogfight Game Timer back to 3 Minutes of Time [conanac]
+2086E024 00001200
+42000000 92000000
+04A6B648 00003840
+E0000000 80008000
+(Push Minus and 1 buttons on the first player Wiimote anytime while playing to reset)
+
+Infinite Health- Swordsplay Showdown [legoagk101]
+012C6203 00000003

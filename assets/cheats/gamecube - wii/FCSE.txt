@@ -1,0 +1,11 @@
+FCSE
+Super C
+
+Unlimited Lives [Sharkbyte]
+0044C513 00000004
+
+Walk Through Enemies [Sharkbyte]
+0044C584 00000059
+
+Enemies Occasionally Freeze [Sharkbyte]
+0044C9D1 0000001C

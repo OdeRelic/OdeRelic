@@ -1,0 +1,9 @@
+FAJP
+Ice Hockey
+
+Player 1 Score is 98 [Crapulecorp]
+003B00CF 00000062
+
+P2/CPU Score is Always 1 [Crapulecorp]
+003B00D0 00000000
+*Code ported from GMO Ntsc Usa Version*

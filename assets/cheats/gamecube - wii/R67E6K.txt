@@ -1,0 +1,8 @@
+R67E6K
+Smart Series: Jaja's Adventure
+
+Infinite Ammo [Glitch]
+0063ABD3 00000005
+
+High Score [Glitch]
+04648F30 0098967F

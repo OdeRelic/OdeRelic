@@ -1,0 +1,158 @@
+JDAE
+Final Fantasy III
+
+All Items Press A [Thomas83Lin]
+2823D1A2 00000800
+08511411 000000FE
+00FE0001 FFFFFFFF
+E0000000 80008000
+*Wiimote*
+*Activate in-game Only*
+
+Max All Item Slots Press A [Thomas83Lin]
+2823D1A2 00000800
+08511511 00000063
+00FE0001 00000000
+E0000000 80008000
+*Wiimote*
+*Activate in-game Only*
+
+Max Gp Press 1 (ported from ninjor) [Thomas83Lin]
+2823D1A2 00000200
+04511408 7F969800
+E0000000 80008000
+*Wiimote*
+*Activate in-game Only*
+
+Max EXP after Battle (ported from ninjor) [Thomas83Lin]
+02512ADD 0000FFFF
+
+Never encounter random enemies [Thomas83Lin]
+42000000 90000000
+002F7343 000000CC
+E0000000 80008000
+*A Port from Game Genie*
+
+MaxInf Health Points in Battle [Thomas83Lin]
+42000000 90000000
+062FC0CD 00000009
+A90F2799 F43B9978
+2E000000 00000000
+E0000000 80008000
+
+MaxInf Magic Points in Battle [Thomas83Lin]
+42000000 90000000
+062FC0D9 00000009
+A9E70399 083C9988
+2E000000 00000000
+E0000000 80008000
+
+Press A to Get All Lore+Rage+Dance+SwdTech+Blitz [Thomas83Lin]
+2823D1A2 00000800
+005118D0 002400FF
+0051189F 000000FF
+E0000000 80008000
+*Press A on Wiimote**
+*Activate in Game Only*
+
+Turn Edgar into Leo (Press A) [Thomas83Lin]
+2823D1A2 00000800
+0651123C 00000008
+04108B9E A8FFFFFF
+00511253 0000001B
+E0000000 80008000
+*Press A on Wiimote*
+*Modify 0410 to 0404 & 1B to 09 for Edgar back*
+
+Get General Leo&Kefka [Thomas83Lin]
+2823D1A2 F7FF0800
+42000000 90000000
+002DD449 00000000
+E0000000 80008000
+2A23D1A2 F7FF0800
+42000000 90000000
+002DD449 00000029
+E0000000 80008000
+*Hold A on Wiimote While Going to Switch Characters from Party Selection*
+*Must Repeat Process Every time you go into Party Selection*
+*Kefka will freeze game unless Given Commands*
+*This is a Port From Game Genie*
+
+Kefka Command Modifier (Press A) [Thomas83Lin]
+2823D1A2 00000800
+065113E9 00000004
+XXYYVVWW 00000000
+E0000000 80008000
+*Press A on Wiimote*
+Command Digits:
+00=Fight
+01=Item
+02=Magic
+03=Morph
+04=Revert
+05=Steal
+06=Capture
+07=SwdTech
+08=Throw
+09=Tools
+0A=Blitz
+0B=Runic
+0C=Lore
+0D=Sketch
+0E=Control
+0F=Slot
+10=Rage
+11=Blank
+12=Mimic
+13=Dance
+14=Row
+15=Def.
+16=Jump
+17=X Magic
+18=GP Rain
+19=Summon
+1A=Health
+1B=Shock
+1C=Possess
+1D=MagiTek
+1E=Blank
+1F=Blank
+
+World Map Movement Code [goemon_guy]
+82000000 8050FC88
+282347DA 0000A200
+86000000 00000001
+84000000 8050FC88
+E0000000 80008000
+82000000 8050FC88
+282347DA 00002202
+86000000 0000FFFE
+84000000 8050FC88
+E0000000 80008000
+82000000 8050FC8A
+282347DA 00006200
+86000000 00000001
+84000000 8050FC8A
+E0000000 80008000
+82000000 8050FC8A
+282347DA 00002201
+86000000 0000FFFE
+84000000 8050FC8A
+E0000000 80008000
+L+R+DIRECTION PAD to move ANYWHERE on the WORLD MAP.
+Movement is quick, and you can keep track of yourself
+via the on-screen map!
+Refresh the screen by entering the menu.
+*CLASSIC CONTROLLER ONLY!!!*
+
+Have all espers (Press B) [goemon_guy]
+2823D1A2 00000400
+00511611 000300FF
+E0000000 80008000
+*wiimote*
+
+Gain 255 Magic Pts after battle (Press A) [goemon_guy]
+2823D1A2 00000800
+0050FCA3 000000FF
+E0000000 80008000
+Hold A during the battle *Wiimote*

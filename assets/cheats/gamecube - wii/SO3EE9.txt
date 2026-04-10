@@ -1,0 +1,2770 @@
+SO3EE9
+Rune Factory: Tides of Destiny
+
+Item roller (Thanks to hnmitch for his list)
+This is made for slot 1 although, you can replace the address (80A7F8EC) for any slot.
+*Press Z and Up to add. Press Z and down to subtract* [Patedj]
+00A7F8EF 00000163
+28629E02 00002008
+A8000000 00000000
+82100000 80A7F8EC
+86000000 00000001
+84100000 80A7F8EC
+E0000000 80008000
+28629E02 00002004
+A8000000 00000000
+82100000 80A7F8EC
+86000000 FFFFFFFF
+84100000 80A7F8EC
+E0000000 80008000
+28A7F8EC 00000000
+02A7F8EC 00000F57
+2CA7F8ED 00000F57
+02A7F8EC 00000001
+E0000000 80008000
+28A7F8EC 00000011
+02A7F8EC 00000064
+28A7F8ED 00000063
+02A7F8EC 00000010
+E0000000 80008000
+28A7F8EC 00000074
+02A7F8EC 000000C8
+28A7F8ED 000000C7
+02A7F8EC 00000073
+E0000000 80008000
+28A7F8EC 000000D4
+02A7F8EC 0000012C
+28A7F8ED 0000012B
+02A7F8EC 000000D3
+E0000000 80008000
+28A7F8EC 00000136
+02A7F8EC 00000190
+28A7F8ED 0000018F
+02A7F8EC 00000135
+E0000000 80008000
+28A7F8EC 00000192
+02A7F8EC 000001F4
+28A7F8ED 000001F3
+02A7F8EC 00000191
+E0000000 80008000
+28A7F8EC 00000206
+02A7F8EC 00000258
+28A7F8ED 00000257
+02A7F8EC 00000205
+E0000000 80008000
+28A7F8EC 00000275
+02A7F8EC 00000320
+28A7F8ED 0000031F
+02A7F8EC 00000274
+E0000000 80008000
+28A7F8EC 00000348
+02A7F8EC 00000384
+28A7F8ED 00000383
+02A7F8EC 00000347
+E0000000 80008000
+28A7F8EC 000003B3
+02A7F8EC 000003E8
+28A7F8ED 000003E7
+02A7F8EC 000003B2
+E0000000 80008000
+28A7F8EC 000003B3
+02A7F8EC 000003E8
+28A7F8ED 000003E7
+02A7F8EC 000003B2
+E0000000 80008000
+28A7F8EC 0000040D
+02A7F8EC 0000044C
+28A7F8ED 0000044B
+02A7F8EC 0000040C
+E0000000 80008000
+28A7F8EC 0000046B
+02A7F8EC 000004B0
+28A7F8ED 000004CF
+02A7F8EC 0000046A
+E0000000 80008000
+28A7F8EC 000004BE
+02A7F8EC 00000514
+28A7F8ED 00000513
+02A7F8EC 000004BD
+E0000000 80008000
+28A7F8EC 00000526
+02A7F8EC 00000578
+28A7F8ED 00000577
+02A7F8EC 00000525
+E0000000 80008000
+28A7F8EC 00000588
+02A7F8EC 000005DC
+28A7F8ED 000005DB
+02A7F8EC 00000587
+E0000000 80008000
+28A7F8EC 000005F0
+02A7F8EC 00000640
+28A7F8ED 0000063F
+02A7F8EC 000005EF
+E0000000 80008000
+28A7F8EC 00000644
+02A7F8EC 000006A4
+28A7F8ED 000006A3
+02A7F8EC 00000643
+E0000000 80008000
+28A7F8EC 000006C8
+02A7F8EC 00000708
+28A7F8ED 00000707
+02A7F8EC 000006C7
+E0000000 80008000
+28A7F8EC 00000739
+02A7F8EC 0000076C
+28A7F8ED 0000076B
+02A7F8EC 00000738
+E0000000 80008000
+28A7F8EC 00000798
+02A7F8EC 000007D0
+28A7F8ED 000007CF
+02A7F8EC 00000797
+E0000000 80008000
+28A7F8EC 000007E3
+02A7F8EC 00000834
+28A7F8ED 00000833
+02A7F8EC 000007E2
+E0000000 80008000
+28A7F8EC 00000846
+02A7F8EC 00000898
+28A7F8ED 00000897
+02A7F8EC 00000845
+E0000000 80008000
+28A7F8EC 000008AB
+02A7F8EC 000008FC
+28A7F8ED 000008FB
+02A7F8EC 000008AA
+E0000000 80008000
+28A7F8EC 0000090F
+02A7F8EC 00000960
+28A7F8ED 0000095F
+02A7F8EC 0000090E
+E0000000 80008000
+28A7F8EC 00000973
+02A7F8EC 000009C4
+28A7F8ED 000009C3
+02A7F8EC 00000972
+E0000000 80008000
+28A7F8EC 000009D7
+02A7F8EC 00000A28
+28A7F8ED 00000A27
+02A7F8EC 000009D6
+E0000000 80008000
+28A7F8EC 00000A36
+02A7F8EC 00000A8C
+28A7F8ED 00000A8B
+02A7F8EC 00000A35
+E0000000 80008000
+28A7F8EC 00000A91
+02A7F8EC 00000AF0
+28A7F8ED 00000AEF
+02A7F8EC 00000A90
+E0000000 80008000
+28A7F8EC 00000AF5
+02A7F8EC 00000B54
+28A7F8ED 00000B53
+02A7F8EC 00000AF4
+E0000000 80008000
+28A7F8EC 00000B59
+02A7F8EC 00000BB8
+28A7F8ED 00000BB7
+02A7F8EC 00000B58
+E0000000 80008000
+28A7F8EC 00000BB9
+02A7F8EC 00000C1C
+28A7F8ED 00000C1B
+02A7F8EC 00000BB8
+E0000000 80008000
+28A7F8EC 00000C1D
+02A7F8EC 00000C80
+28A7F8ED 00000C7F
+02A7F8EC 00000C1C
+E0000000 80008000
+28A7F8EC 00000CAA
+02A7F8EC 00000CE4
+28A7F8ED 00000CE3
+02A7F8EC 00000CA9
+E0000000 80008000
+28A7F8EC 00000CF5
+02A7F8EC 00000D48
+28A7F8ED 00000D47
+02A7F8EC 00000CF4
+E0000000 80008000
+28A7F8EC 00000D60
+02A7F8EC 00000DAC
+28A7F8ED 00000DAB
+02A7F8EC 00000D5F
+E0000000 80008000
+28A7F8EC 00000DCC
+02A7F8EC 00000E10
+28A7F8ED 00000E0F
+02A7F8EC 00000DCB
+E0000000 80008000
+28A7F8EC 00000E23
+02A7F8EC 00000ED8
+28A7F8ED 00000ED7
+02A7F8EC 00000E22
+E0000000 80008000
+28A7F8EC 00000F27
+02A7F8EC 00000F3C
+28A7F8ED 00000F3B
+02A7F8EC 00000F26
+E0000000 80008000
+
+ress Z and up to add. Press Z and down to subtract.
+
+Friendship Modifier v3-FINAL [goemon_guy]
+C2219804 0000000F
+9421FFB0 BDC10008
+3DC08062 61CE9EF6
+A1EE0000 A2030088
+2C0F0200 4082000C
+3A100033 48000039
+2C0F0100 4082000C
+3A10FFCD 48000029
+2C100000 41810008
+3A000000 48000019
+2C1001FE 41800008
+3A0001FE 48000009
+4800000C B2030088
+4E800020 A0630088
+B9C10008 38210050
+60000000 00000000
+Press 1 to increase FP by 1
+Press 2 to decrease FP by 1
+
+Press C+Z+Up to Change Characters "On the Spot" [goemon_guy]
+28629EF2 00006008
+0603B8E4 00000008
+380000FF 2C000001
+CC000000 00000000
+0603B8E4 00000008
+38000001 2C000001
+E0000000 80008000
+Pressing the buttons changes between Aden and Sonja
+
+Experience Multiplier [goemon_guy]
+C202F7F0 00000002
+1C8400XX 7C052214
+60000000 00000000
+replace XX with a value
+01=x1
+02=x2
+04=x4
+...
+64=x100
+...
+
+Skills pts gain multiplier [goemon_guy]
+0425DBC0 1F5A00XX
+0425DBC4 60000000
+replace XX with a value
+01=x1
+02=x2
+04=x4
+...
+64=x100
+...
+
+When Skill Pts increase the skill levels up [goemon_guy]
+0425DBD0 60000000
+
+Moon Jump [goemon_guy]
+C201648C 00000008
+9421FFB0 BDC10008
+3DC08062 61CE9EF2
+82030004 A1EE0000
+2C0F4000 40820010
+3A107000 92030004
+C0230004 D0230004
+B9C10008 38210050
+60000000 00000000
+when you release jump, you fall back to the ground extremely quickly
+
+Time Roller (UP+DOWN) v.5 [goemon_guy]
+C2010180 00000015
+9421FFB0 BDC10008
+3DC08062 61CE9EF2
+A1EE0000 3E0080A8
+621005A5 8A300001
+8A500000 2C0F0008
+4082000C 3A310001
+9A300001 2C0F0004
+4082000C 3A31FFFF
+9A300001 2C11FFFF
+40820014 3A20003B
+3A52FFFF 9A500000
+9A300001 2C11003C
+40820014 3A200000
+3A520001 9A500000
+9A300001 2C120019
+4082000C 3A400001
+9A500000 2C120000
+4082000C 3A400012
+9A500000 88630005
+B9C10008 38210050
+60000000 00000000
+Press Up on the D-PAD to increase time, and Down on the D-PAD to decrease time.
+*Best used in the menu, because it increases time much more efficiently.
+
+Experience "Fill" Code [goemon_guy]
+C2036400 00000009
+9421FFB0 BDC10008
+3DC08062 61CE9EF2
+3E00918B 6210D71C
+A1EE0000 82300000
+82500004 2C0F6008
+4082000C 3A32FFFF
+92300000 901B0020
+B9C10008 38210050
+60000000 00000000
+Press C+Z+Up to fill the EXP gauge, so that you only need one hit to get a level up
+
+EXP Modifier (Level) [goemon_guy]
+42000000 90000000
+058BD71C XXXXXXXX
+E0000000 80008000
+XXXX can be anything.
+
+Level Modifier [goemon_guy]
+42000000 90000000
+018BD719 000000XX
+E0000000 80008000
+XX = 01 thru 63 (01 thru 99)
+
+Swap Aden's opening for Sonja's [goemon_guy]
+28629EF2 00006300
+005439F2 00000032
+005439FF 00000031
+E0000000 80008000
+C+Z+1+2 activates it
+
+Time Modifier [goemon_guy]
+04A805A4 WWXXYYZZ
+WW=Day
+00=Holiday
+01=Monday
+02=Tuesday
+03=Wednesday
+04=Thursday
+05=Friday
+XX=Hour
+*Normal values can be 00-18*
+YY=Minute
+00-3C
+ZZ=Seconds
+00-20
+
+Button Activator [goemon_guy]
+28629EF2 0000XXXX
+
+Time Passage modifier (Press 1+2 to toggle) [goemon_guy]
+28629EF2 00000300
+0404FA68 2C1F00XX
+0404FA78 386000XX
+0404FA7C 3BFF00XX
+CC000000 00000000
+0404FA68 2C1F001E
+0404FA78 3860001E
+0404FA7C 3BFF001E
+E0000000 80008000
+5A = 1/3
+3C = 1/2
+1E = Normal
+0F = x2
+FF = Stopped
+
+Max Exp Gain [goemon_guy]
+C202F7F0 00000002
+3D800099 388C967F
+7C052214 00000000
+ported from Japanese version
+
+Friendship Modifier [goemon_guy]
+C2219804 00000007
+9421FFB0 BDC10008
+3DC08062 61CE9EF2
+A1EE0000 2C0F0300
+4082000C 398001F5
+B1830088 A0630088
+B9C10008 38210050
+60000000 00000000
+Press 1+2 at the Villager's screen to max out friendship
+ported from Japanese version
+
+Z+Up to get 99 of an item [goemon_guy]
+C2022C28 00000007
+9421FFB0 BDC10008
+3DC08062 61CE9EF2
+A1EE0000 2C0F2008
+4082000C 99840003
+39800063 88040003
+B9C10008 38210050
+60000000 00000000
+Press Z+Up to get 99 of an item
+ported from the Japanese version
+
+Classic Controller Simv.3 [Thomas83Lin]
+C231B23C 00000002
+3D808000 618C3200
+800C0000 00000000
+0431B258 900C0000
+0431B264 900C0004
+0431E700 38800001
+0431CE64 D01FFFF4
+0431CE8C D03FFFF4
+0431CE6C D01FFFF8
+0431CE90 D01FFFF8
+0431CE4C D01FFFF4
+0431CE48 D01FFFF8
+C231BB90 00000026
+38210050 7C0802A6
+3CA08000 80A53200
+48000045 80950000
+7CA52378 90B50000
+3CA08000 80A53204
+4800002D 80950004
+7CA52378 90B50004
+80B50068 48000019
+80950008 7CA52378
+90B50008 7C0803A6
+4E800020 38C00000
+70A40800 2C040000
+41820008 60C68000
+70A40008 2C040000
+41820008 60C60400
+70A40010 2C040000
+41820008 60C60800
+70A40001 2C040000
+41820008 60C60008
+70A40002 2C040000
+41820008 60C60001
+70A48000 2C040000
+41820008 60C60002
+70A44000 2C040000
+41820008 60C60004
+70A40400 2C040000
+41820008 60C60010
+70A41000 2C040000
+41820008 60C61000
+70A40040 2C040000
+41820008 60C64000
+70A40020 2C040000
+41820008 60C62000
+70A42000 2C040000
+41820008 60C60200
+70A40200 2C040000
+41820008 60C60100
+7CC53378 00000000
+*Function and some code ported from Crediar*
+*Uses 80003200-3204 to store Button Status*
+*Likely not Dolphin compatible, no need anyways!*
+
+Max Inf Money [hnmitch]
+04A7F4E4 05F5E0FF
+
+Inf Monster cookies [hnmitch]
+02A805CC 0000C350
+
+All The Best Items [hnmitch]
+04A7F9DC 07E20101
+04A7F9E0 08460101
+04A7F9E4 08AA0101
+04A7F9E8 090E0101
+04A7F9EC 09720101
+04A7F9F0 09D60101
+04A7F9F4 0A350101
+04A7F9F8 0A900101
+04A7F9FC 0C960101
+04A7FA00 00010163
+04A7FA04 00020163
+04A7FA08 00030163
+04A7FA0C 00040163
+04A7FA10 00050163
+04A7FA14 00060163
+04A7FA18 00070163
+04A7FA1C 00080163
+04A7FA20 00090163
+04A7FA24 000A0163
+04A7FA28 000B0163
+04A7FA2C 000C0163
+04A7FA30 000D0163
+04A7FA34 000E0163
+04A7FA38 000F0163
+04A7FA3C 00100163
+04A7FA40 00640163
+04A7FA44 00650163
+04A7FA48 00660163
+04A7FA4C 00670163
+04A7FA50 00680163
+04A7FA54 00690163
+04A7FA58 00700163
+04A7FA5C 00710163
+04A7FA60 00720163
+04A7FA64 00730163
+04A7FA68 00C80163
+04A7FA6C 00C90163
+04A7FA70 00CA0163
+04A7FA74 00CB0163
+04A7FA78 00CC0163
+04A7FA7C 00CD0163
+04A7FA80 00CE0163
+04A7FA84 00CF0163
+04A7FA88 00D00163
+04A7FA8C 00D10163
+04A7FA90 00D20163
+04A7FA94 00D30163
+04A7FA98 012C0163
+04A7FA9C 012D0163
+04A7FAA0 012E0163
+04A7FAA4 012F0163
+04A7FAA8 01300163
+04A7FAAC 01310163
+04A7FAB0 01320163
+04A7FAB4 01330163
+04A7FAB8 01340163
+04A7FABC 01350163
+04A7FAC0 01920163
+04A7FAC4 01910163
+04A7FAC8 01F40163
+04A7FACC 01F50163
+04A7FAD0 01F60163
+04A7FAD4 01F70163
+04A7FAD8 01F80163
+04A7FADC 01F90163
+04A7FAE0 01FA0163
+04A7FAE4 01FB0163
+04A7FAE8 01FC0163
+04A7FAEC 01FD0163
+04A7FAF0 01FE0163
+04A7FAF4 01FF0163
+04A7FAF8 02000163
+04A7FAFC 02010163
+04A7FB00 02020163
+04A7FB04 02030163
+04A7FB08 02040163
+04A7FB0C 02050163
+04A7FB10 02580163
+04A7FB14 02590163
+04A7FB18 025A0163
+04A7FB1C 025B0163
+04A7FB20 025C0163
+04A7FB24 025D0163
+04A7FB28 025E0163
+04A7FB2C 025F0163
+04A7FB30 02600163
+04A7FB34 02610163
+04A7FB38 02620163
+04A7FB3C 02630163
+04A7FB40 02640163
+04A7FB44 02650163
+04A7FB48 02660163
+04A7FB4C 02670163
+04A7FB50 02680163
+04A7FB54 02690163
+04A7FB58 026A0163
+04A7FB5C 026B0163
+04A7FB60 026C0163
+04A7FB64 026D0163
+04A7FB68 026E0163
+04A7FB6C 026F0163
+04A7FB70 02700163
+04A7FB74 02710163
+04A7FB78 02720163
+04A7FB7C 02730163
+04A7FB80 02740163
+04A7FB84 05DC0163
+04A7FB88 05DD0163
+04A7FB8C 05DE0163
+04A7FB90 05DF0163
+04A7FB94 05E00163
+04A7FB98 05E10163
+04A7FB9C 05E20163
+04A7FBA0 05E30163
+04A7FBA4 05E40163
+04A7FBA8 05E50163
+04A7FBAC 05E60163
+04A7FBB0 05E70163
+04A7FBB4 05E80163
+04A7FBB8 05E90163
+04A7FBBC 05EA0163
+04A7FBC0 05EB0163
+04A7FBC4 05EC0163
+04A7FBC8 05ED0163
+04A7FBCC 05EE0163
+04A7FBD0 05EF0163
+04A7FBD4 06A40163
+04A7FBD8 06A50163
+04A7FBDC 06A60163
+04A7FBE0 06A70163
+04A7FBE4 06A80163
+04A7FBE8 06A90163
+04A7FBEC 06AA0163
+04A7FBF0 06AB0163
+04A7FBF4 06AC0163
+04A7FBF8 06AD0163
+04A7FBFC 06AE0163
+04A7FC00 06AF0163
+04A7FC04 06B00163
+04A7FC08 06B10163
+04A7FC0C 06B30163
+04A7FC10 06B40163
+04A7FC14 06B50163
+04A7FC18 06B60163
+04A7FC1C 06B70163
+04A7FC20 06B80163
+04A7FC24 06B90163
+04A7FC28 06BA0163
+04A7FC2C 06BB0163
+04A7FC30 06BC0163
+04A7FC34 06BD0163
+04A7FC38 06BE0163
+04A7FC3C 06BF0163
+04A7FC40 06C00163
+04A7FC44 06C10163
+04A7FC48 06C20163
+04A7FC4C 06C30163
+04A7FC50 06C40163
+04A7FC54 06C50163
+04A7FC58 06C60163
+04A7FC5C 06C70163
+04A7FC60 04010163
+04A7FC64 06400163
+04A7FC68 06430163
+04A7FC6C 05140163
+04A7FC70 05150163
+04A7FC74 05160163
+04A7FC78 0B580101
+
+Most Gift items that are not in the main Item code. Can be used together. [hnmitch]
+04A7FC7C 04670163
+04A7FC80 0CE90163
+04A7FC84 03EA0163
+04A7FC88 04BA0163
+04A7FC8C 05850163
+04A7FC90 04570163
+04A7FC94 03990163
+04A7FC98 051F0163
+04A7FC9C 03ED0163
+04A7FCA0 0DC90163
+04A7FCA4 07290163
+
+House Storage Item Slot 1 [hnmitch]
+04A7F9DC YYYYZZXX
+
+House Storage Item Slot 2 [hnmitch]
+04A7F9E0 YYYYZZXX
+Add 4 for next Slot
+
+Hero Rucksack Slot 1 [hnmitch]
+04A7F8EC YYYYZZXX
+
+Hero Rucksack Slot 2 [hnmitch]
+04A7F8F0 YYYYZZXX
+Add 4 for next Slot
+XX =item qty
+YYYY =Item mod
+ZZ =Item level 00=Normal Quality 01=High Quality
+ITEM DIGITS:
+Thanks to:
+thesugarfreakz
+For Helping with the list
+Crops:
+0001 - Potato
+0002 - Cabbage
+0003 - Cucumber
+0004 - Strawberry
+0005 - Tomato
+0006 - Onion
+0007 - Corn
+0008 - Pineapple
+0009 - Soybean
+000A - Pumpkin
+000B - Green Pepper
+000C - Eggplant
+000D - Daikon
+000E - Turnip
+000F - Spinach
+0010 - Carrot
+Giant Crops:
+0064 - Giant Potato
+0065 - Giant Cabbage
+0066 - Giant Cucumber
+0067 - Giant Strawberry
+0068 - Giant Tomato
+0069 - Giant Onion
+006A - Giant Corn
+006B - Giant Pineapple
+006C - Giant Soybean
+006D - Giant Pumpkin
+006E - Giant Green Pepper
+006F - Giant Eggplant
+0070 - Giant Daikon
+0071 - Giant Turnip
+0072 - Giant Spinach
+0073 - Giant Carrot
+Flowers:
+00C8 - Moondrop
+00C9 - Spring Flower
+00CA - Emery Flower
+00CB - Toyherb
+00CC - 4-leaf Clover
+00CD - Fireflower
+00CE - Pink Cat
+00CF - Fall Flower
+00D0 - Lamp Flower
+00D1 - Charm Blue
+00D2 - Noel Flower
+00D3 - Pom-Pom Flower
+Misc. Items:
+012C - Medicinal Herb
+012D - Yellow Grass
+012E - Orange Grass
+012F - Purple Grass
+0130 - Blue Grass
+0131 - Green Grass
+0132 - Red Grass
+0133 - White Grass
+0134 - Black Grass
+0135 - Weed
+Seaweed:
+0190 - Nori Seaweed
+0191 - Wakame Seaweed
+Ingredients
+01F4 Bamboo Shoot
+01F5 Mushroom
+01F6 Cherry
+01F7 Orange
+01F8 Chestnut
+01F9 Apple
+01FA Rice
+01FB Flour
+01FC Curry Powder
+01FD Oil
+01FE Garlic
+01FF Honey
+0200 Egg
+0201 Cheese
+0202 Yogurt
+0203 Milk
+0204 Wine
+0205 Chocolate
+Fish:
+0258 - Squid
+0259 - Sardine
+025A - Char
+025B - Shrimp
+025C - Glitter Snapper
+025D - Skipjack
+025E - Turbot
+025F - Salmon
+0260 - Mackerel
+0261 - Needlefish
+0262 - Pike
+0263 - Sunsquid
+0264 - Snapper
+0265 - Lover Snapper
+0266 - Rainbow Trout
+0267 - Flounder
+0268 - Blowfish
+0269 - Yellowtail
+026A - Crucian Carp
+026B - Tuna
+026C - Girella
+026D - Fall Flounder
+026E - Cherry Salmon
+026F - Lamp Squid
+0270 - Lobster
+0271 - Pond Smelt
+0272 - Bronze Pond Smelt
+0273 - Silver Pond Smelt
+0274 - Gold Pond Smelt
+Kitchen-made
+0320 Squid Sashimi
+0321 Sardine Sashimi
+0322 Char Sashimi
+0323 Shrimp Sashimi
+0324 Glitter Sashimi
+0325 Skipjack Sashimi
+0326 Turbot Sashimi
+0327 Salmon Sashimi
+0328 Needlefish Sashimi
+0329 Pike Sashimi
+032A Sunsquid Sashimi
+032B Snapper Sashimi
+032C Lover Sashimi
+032D Rainbow Trout Sashimi
+032E Flounder Sashimi
+032F Blowfish Sashimi
+0330 Yellowtail Sashimi
+0331 Tuna Sashimi
+0332 Girella Sashimi
+0333 Fall Sashimi
+0334 Cherry Salmon Sashimi
+0335 Lamp Squid Sashimi
+0336 Lobster Sashimi
+0337 Sushi
+0338 Rice Ball
+0339 Salmon Rice Ball
+033A Bamboo Rice
+033B Mushroom Rice
+033C Chestnut Rice
+033D Salad
+033E Potato Salad
+033F Pickled Eggplant
+0340 Pickled Turnip
+0341 Pickles
+0342 Sandwich
+0343 Fruit Sandwich
+0344 Fruit Punch
+0345 Fruit Parfait
+0346 Ice Cream
+0347 Relax Tealeaves
+Pan-Made
+0384 Fried Squid
+0385 - Dried Sardines
+0386 - Salted Char
+0387 - Grilled Shrimp
+0388 - Fried Glitter Snapper
+0389 - Fried Skipjack
+038A - Fried Turbot
+038B - Salted Salmon
+038C - Fried Mackerel
+038D - Fried Needlefish
+038E - Salted Pike
+038F - Fried Sunsquid
+0390 - Fried Snapper
+0391 - Fried Lover Snapper
+0392 - Salted Rainbow Trout
+0393 - Fried Flounder
+0394 - Fried Blowfish
+0395 - Fried Yellowtail
+0396 - Fried Crucian Carp
+0397 - Tuna Teriyaki
+0398 - Fried Girella
+0399 - Fried Fall Flounder
+039A - Salted Cherry Salmon
+039B - Fried Lamp Squid
+039C - Grilled Lobster
+039D - Salted Pond Smelt
+039E - Fried Rice
+039F - Omelet Rice
+03A0 - Dry Curry
+03A1 - Fried Veggies
+03A2 - French Fries
+03A3 - Popcorn
+03A4 - Corn Cereal
+03A5 - Curry Bread
+03A6 - Pancakes
+03A7 - Donuts
+03A8 - Cabbage Cakes
+03A9 - Croquettes
+03AA - Tempura
+03AB - Gyoza
+03AC - Omelet
+03AD - Roasted Chestnuts
+03AE - Fried Egg
+03AF - Fried Eggplant
+03B0 - French Toast
+03B1 - Sauteed Spinach
+03B2 - Boiled Potato
+Pot-Made:
+03E8 - Rice Porridge
+03E9 - Milk Porridge
+03EA - Tempura Bowl
+03EB - Egg Bowl
+03EC - Curry Rice
+03ED - Ultimate Curry
+03EE - Royal Curry
+03EF - Risotto
+0400 - Fish Soup
+0401 - Ratatouille
+0402 - Corn Soup
+0403 - Mashed Yam
+0404 - Marron Glace
+0405 - Strawberry Jam
+0406 - Cherry Jam
+0407 - Apple Jam
+0408 - Hot Milk
+0409 - Hot Chocolate
+040A - Orange Marmalade
+040B - Cheese Fondue
+040C - Relax Tea
+Oven-Made:
+044C - Baked Riceball
+044D - Gratin
+044E - Seafood Gratin
+044F - Doria
+0450 - Seafood Doria
+0451 - Bread
+0452 - Toast
+0453 - Honey Toast
+0454 - Jam Roll
+0455 - Butter Roll
+0456 - Pizza
+0457 - Seafood Pizza
+0458 - Corn on the Cob
+0459 - Roasted Yam
+045A - Roasted Apple
+045B - Cookie
+045C - Chocolate Cookie
+045D - Cake
+045E - Chocolate Cake
+045F - Cheesecake
+0460 - Mont Blanc
+0461 - Apple Pie
+0462 - Cherry Pie
+0463 - Chestnut Pie
+0464 - Yam Dessert
+0465 - Cherry Tart
+0466 - Pumpkin Tart
+0467 - Fruit Tart
+0468 - Roast Turnip
+0469 - Bamboo en Papillote
+046A - Monster Cookie
+Steamer-Made:
+04B0 - Steamed Bread
+04B1 - Cheese Bread
+04B2 - Steamed Turnip
+04B3 - Egg Custard
+04B4 - Plain Manju
+04B5 - Curry Manju
+04B6 - Meat Dumpling
+04B7 - Chestnut Manju
+04B8 - Pudding
+04B9 - Milk Pudding
+04BA - Chocolate Pudding
+04BB - Pumpkin Pudding
+04BC - Steamed Potato
+04BD - Sweet Rice
+Mixer-Made:
+0514 - Butter
+0515 - Mayonnaise
+0516 - Ketchup
+0517 - Pineapple Juice
+0518 - Tomato Juice
+0519 - Orange Juice
+051A - Apple Juice
+051B - Cherry Juice
+051C - Fruit Juice
+051D - Fruit Au Lait
+051E - Mixed Juice
+051F - Mixed Au Lait
+0520 - Vegetable Juice
+0521 - Vegetable Au Lait
+0522 - Strawberry Milk
+0523 - Yogurt Drink
+0524 - Cream Soda
+0525 - Grass Juice
+Medicines
+0578 - Recovery Potion
+0579 - Recovery Potion L
+057C - Cold Medicine
+057D - Antidote Potion
+057E - Para-Gone
+057A XL recovery potion
+057B Formuade - heals all status
+057F Fire element +Fire
+0580 water element +Water
+0581 wind element +Wind
+0582 Earth element +Earth
+0583 Light element +Light
+0584 Dark element +Dark
+0585 Protein Boost +Strength
+0586 Vitamin Gummi +Stamina
+0587 Mental Supplement +Intellegence
+Ores and Crystals
+05DC Scrap Metal
+05DD Iron
+05DE Bronze
+05DF Silver
+05E0 Gold
+05E1 Platinum
+05E2 Diamond
+05E3 Ruby
+05E4 Emerald
+05E5 Sapphire
+05E6 Amethyst
+05E7 Aquamarine
+05E8 Earth Crystal
+05E9 Water Crystal
+05EA Fire Crystal
+05EB Wind Crystal
+05EC Small Crystal
+05ED magic Crystal
+05EE Light Crystal
+05EF Dark Crystal
+Lumber:
+0640 - Oak
+0641 - Sequcia (Explaination of the tree)
+0642 - Baobad (Explaination of the tree)
+0643 - Maple
+Crafting Materials
+06A4 Feed
+06A5 Small Fleece
+06A6 Yarn Ball
+06A7 Cheap Cloth
+06A8 Quality Cloth
+06A9 Proof of Warrior
+06AA Glue
+06AB Magic Powder
+06AC Insect Skin
+06AD Insect Jaw
+06AE Speckled Skin
+06AF Hard Horn
+06B0 Quality Fur
+06B1 Bird Feather
+06B2 Root
+06B3 Fish Fossil
+06B4 Tortoise Shell
+06B5 Fairy Dust
+06B6 Sharp Talon
+06B7 Sharp Fang
+06B8 Glittering Edge
+06B9 Toxin
+06BA Monster Hide
+06BB Magic Talon
+06BC Thick Stick
+06BD Solid Point
+06BE Devil Blood
+06BF Thin Stick
+06C0 Knife Piece
+06C1 Teardrop
+06C2 Wet Scale
+06C3 Green Spirit
+06C4 Red Spirit
+06C5 Yellow Spirit
+06C6 Blue Spirit
+06C7 Rune Crystal
+Furniture:
+0708 - Wooden Bed
+0709 - Soft Bed
+070A - Fancy Bed
+070B - Chic Shelf
+070C - Cupboard
+070D - Bookshelf
+070E - Paradise Drawer
+070F - Fancy Drawer
+0710 - Cool Drawer
+0711 - Simple Screen
+0712 - Sturdy Screen
+0713 - Fancy Screen
+0714 - Plain Table
+0715 - Sturdy Table
+0716 - Fancy Table
+0717 - Pansy
+0718 - Cactus
+0719 - Small Tree
+071A - Wastebasket
+071B - Barrels
+071C - Wine Barrel
+071D - Lamp
+071E - Lantern
+071F - Resort Lamp
+0720 - Sturdy Chair
+0721 - Rocking Chair
+0722 - Soft Chair
+0723 - Red Tapestry
+0724 - Green Tapestry
+0725 - Wooly Tapestry
+0726 - Green Curtains
+0727 - Red Curtains
+0728 - Lace Curtains
+0729 - Golden Skull
+072A - Strange Pot
+072B - Jug
+072C - Pots
+072D - Mug
+072E - Coffee Cup
+072F - Gorgeous Cup
+0730 - Flower Light
+0731 - Wooly Lamp
+0732 - Nostalgic Light
+0733 - Runeys and Sunflowers
+0734 - Whale Island
+0735 - Relaxing Fish
+0736 - Adventure Shelf
+0737 - Ship's Wheel
+0738 - Warrior Decoration
+Valuables:
+076C - Present Box
+076D - Small Treasure Chest
+076E - Lily's Watch
+076F - Kelsey's Rosary
+0770 - Cosmic Grimoire (Book)
+0771 - Dragon Soul Seed (Explaination for Dragon Soul Seed)
+0772 - Wind Dragon Soul
+0773 - Water Dragon Soul
+0774 - Fire Dragon Soul
+0775 - Earth Dragon Soul
+0776 - Golem Piece
+0777 - New Seed (Explaination for New Seed)
+0778 - Box Lunch
+0779 - Golem Sprout (Explaination for Golem Sprout)
+077A - Sorceress Statue
+077B - Vine Seed 1 (Explaination for Vine Seed 1)
+077C - Vine Seed 2 (Explaination for Vine Seed 2)
+077D - Vine Seed 3 (Explaination for Vine Seed 3)
+077E - Cage Key 1 (Explaination for Cage Key 1)
+077F - Cage Key 2 (Explaination for Cage Key 2)
+0780 - Cage Key 3 (Explaination for Cage Key 3)
+0781 - Earth Spirit Shrine Key
+0782 - Key (Explaination for Key)
+0783 - Flame Spirit Shrine Key
+0784 - Earth Gem
+0785 - Flame Gem
+0786 - Water Gem
+0787 - Wind Gem
+0788 - Water Spirit Shrine Key
+0789 - Wind Spirit Shrine Key
+078A - Green Core
+078B - Blue Core
+078C - Ancient Tome
+078D - Friendship Compass
+078E - Small Snowball
+078F - Snowball
+0790 - Large Snowball
+0791 - Red Core
+0792 - Life Towel
+0793 - Broken Necklace
+0794 - Cosmic Grimoire (Book)
+0795 - Application
+0796 - Letter
+0797 - Lottery Ticket
+Dual Blades
+07D0 Broad Edge
+07D1 - Wind Edge
+07D2 - Aqua Edge
+07D3 - Rune Blade
+07D4 - Durandel
+07D5 - Soul Eater
+07D6 - Aerial Blades
+07D7 - Defender
+07D8 - Gladius
+07D9 - Cutlass
+07DA - Dragonslayer
+07DB - Luck Blades
+07DC - Smash Blades
+07DD - Sakura
+07DE - Icifier
+07DF - Back Scratcher
+07E0 - Scimitar
+07E1 - Sparklers
+07E2 Legendary Blades (best)
+Longswords
+0834 Zweihander
+0835 - Claymore
+0836 - Greatsword
+0837 - Tyrfing (
+0838 - Omni-Elemental
+0839 - Tachi
+083A - Dancing Dicer
+083B - Eye Blade
+083C - Lunar Eclipse
+083D - Steel Sushir
+083E - Flame Sabre
+083F - Shine Blade
+0840 - Earth Shade
+0841 - Grand Smasher
+0842 - Flamberge
+0843 - Heaven's Tear
+0844 - Balmung
+0845 - Big Flag
+0846 Legendary Sword (Best)
+Spears
+0898 Spear
+0899 Lance
+089A Halberd
+089B Heavy Lance
+089C Pitchfork
+089D Drill Lance
+089E Poison Spear
+089F Brionac
+08A0 Trident
+08A1 Corsesca
+08A2 Gae Bolg
+08A3 Belvarose
+08A4 Monk Staff
+08A5 Bjor
+08A6 Feather Lance
+08A7 Gungnir
+08A8 Magical Lance
+08A9 Bunbunir
+08AA Legion (best)
+Katanas
+08FC Burai
+08FD Basara
+08FE Setsuna
+08FF Shiranui
+0900 Yumeoboro
+0901 Asura
+0902 Onibi
+0903 Guren
+0904 Tsuchigumo
+0905 Musou
+0906 Shimohana
+0907 Yuuhi
+0908 Skanda
+0909 Divine Wind
+090A Yaksha
+090B Rakshasa
+090C Tenbu
+090D Shinza
+090E Muramasa (Best)
+Hammers
+0960 Cheap Hammer
+0961 Iron Hammer
+0962 Silver Hammer
+0963 Gold Hammer
+0964 Platinum Hammer
+0965 Battle Hammer
+0966 Sky Hammer
+0967 War Hammer
+0968 Spiked Hammer
+0969 Myurnil
+096A Great Hammer
+096B Schnabel
+096C Gigant Hammer
+096D Crystal Hammer
+096E Gravit Hammer
+096F Ice Hammer
+0970 Heavy Hammer
+0971 Battle Fan
+0972 Legendary Hammer (best)
+Axes
+09C4 Rusty Axe
+09C5 Chopping Axe
+09C6 Lumber Axe
+09C7 Mountain Axe
+09C8 Miracle Axe
+09C9 Battle Axe
+09CA Great Axe
+09CB Alldale
+09CC Crescent Axe
+09CD Double Edge
+09CE Excecutioner
+09CF Demon Axe
+09D0 Tomahawk
+09D1 Heat Axe
+09D2 Flame Tomahawk
+09D3 Flame Axe
+09D4 Critical Axe
+09D5 Passion
+09D6 Legendary Axe (best)
+Staffs
+0A28 Fire Rod
+0A29 - Hell Branch
+0A2A - Crimson Staff
+0A2B - Water Rod
+0A2C - Bubble Staff
+0A2D - Earth Rod
+0A2E - Gaia Rod
+0A2F - Meteor Staff
+0A30 - Wind Rod
+0A31 - Cyclone Rod
+0A32 - Storm Rod
+0A33 - Dark Rod
+0A34 - Light Rod
+0A35 Legendary Staff (best)
+Spirit Wands
+0A8C Sprout Spirit Wand
+0A8D - Sappling Spirit Wand
+0A8E - Budding Spirit Wand
+0A8F - Mature Spirit Wand
+0A90 Elder Spirit Wand (best)
+Tools:
+0AF0 - Rusty Sickle
+0AF1 - Iron Sickle
+0AF2 - Quality Sickle
+0AF3 - Super Sickle
+0AF4 - Legend Sickle
+0B54 - Cheap Pole
+0B55 - Beginner's Pole
+0B56 - Intermediate Pole
+0B57 - Famous Pole
+0B58 - Sacred Pole
+0BB8 - Brush
+0C1C - Harvester
+Head Equipment
+0C80 Pumpkin head
+0C81 Turnip head
+0C82 Straw hat
+0C83 Feathered Cap
+0C84 Fancy hat
+0C85 Handknit hat
+0C86 Hachimaki
+0C87 Silver hairpin
+0C88 Gold hairpin
+0C89 Cactus Hairpin
+0C8A Dark Sunglasses
+0C8B Mask
+0C8C Magic Earrings
+0C8D Head Band
+0C8E Headdress
+0C8F Tiara
+0C90 Wooly Hat
+0C91 Earrings
+0C92 Whale hat
+0C93 Cat Ears
+0C94 Rabbit Ears
+0C95 Elephant Mask
+0C96 Super Wooly Hat
+0C97 Crown
+0C98 Egg hat
+0C99 Fish Hat
+0C9A Memento Flower Garland
+0C9B Electra's Scarf
+0C9C Maid headband
+0C9D Dark Elf Glasses
+0C9E Elena's Ribbon
+0C9F Gold Earring
+0CA0 Lavish Diadem
+0CA1 Googles
+0CA2 Antique Hat
+0CA3 Round Glasses
+0CA4 Aden's Hat
+0CA5 Sonja's Hat
+0CA6 Lily's Hairpin
+0CA7 Nurse's Cap
+0CA8 Plain Ribbon
+0CA9 Pirate hat
+Neck Equipment:
+0CE4 - Handknit Scarf
+0CE5 - Wooly Scarf
+0CE6 - Neck Towel
+0CE7 - Heart Pendant
+0CE8 - Star Pendant
+0CE9 - Sun Pendant
+0CEA - Pendant
+0CEB - Storm Pendant
+0CEC - Tear Pendant
+0CED - Earth Pendant
+0CEE - Rosary
+0CEF - Lucky Strike
+0CF0 - Super Wooly Scarf
+0CF1 - Emerald Necklace
+0CF2 - Anette's Necklace
+0CF3 - Odette's Necklace
+0CF4 - Joe's Pendant
+Body Equipment:
+0D48 - Aquamarine Brooch
+0D49 - Amethyst Brooch
+0D4A - Emerald Brooch
+0D4B - Sapphire Brooch
+0D4C - Diamond Brooch
+0D4D - Ruby Brooch
+0D4E - Fire Cape
+0D4F - Water Cape
+0D50 - Earth Cape
+0D51 - Wind Cape
+0D52 - Black Robe
+0D53 - Champion Belt
+0D54 - Courage Badge
+0D55 - Cat Tail
+0D56 - Leather Belt
+0D57 - Emblem
+0D58 - Badge
+0D59 - Corsage
+0D5A - Wooly Belt
+0D5B - Super Wooly Belt
+0D5C - Strawberry Pincushion
+0D5D - Overcoat
+0D5E - Life Preserver
+0D5F - Backpack
+Arm Equipment:
+0DAC - Watch
+0DAD - Gauntlets
+0DAE - Bronze Bracelet
+0DAF - Silver Bracelet
+0DB0 - Gold Bracelet
+0DB1 - Platinum Bracelet
+0DB2 - Aquamarine Ring
+0DB3 - Amethyst Ring
+0DB4 - Emerald Ring
+0DB5 - Sapphire Ring
+0DB6 - Diamond Ring
+0DB7 - Ruby Ring
+0DB8 - Fire Ring
+0DB9 - Water Ring
+0DBA - Earth Ring
+0DBB - Wind Ring
+0DBC - Silver Ring
+0DBD - Gold Ring
+0DBE - Platinum Ring
+0DBF - Happy Ring
+0DC0 - Cursed Ring
+0DC1 - Ring Shield
+0DC2 - Art of Attack
+0DC3 - Art of Defense
+0DC4 - Art of Magic
+0DC5 - Cheap Bracelet
+0DC6 - Silence Ring
+0DC7 - Paralyze Ring
+0DC8 - Poison Ring
+0DC9 - Magic Ring
+0DCA - Engagement Ring
+0DCB - Sierra's Bracelet
+Rune Abilities (RA):
+0E10 - Wind Blast (Dual Blade)
+0E11 - Dual Slash (Dual Blade)
+0E12 - Whirling Blades (Dual Blade)
+0E13 - Zen Sword (Long Sword)
+0E14 - Thunder Wave (Long Sword)
+0E15 - Lightning Storm (Long Sword)
+0E16 - Rapid Spike (Spear
+0E17 - Tornado Chaser (Spear)
+0E18 - Stinger Rage (Spear)
+0E19 - Storm of Strikes (Katana)
+0E1A - Sonic Wave (Katana)
+0E1B - Dodge Strike (Katana)
+0E1C - Grand March (Hammer/Axe)
+0E1D - Spinning Strike (Hammer/Axe)
+0E1E - Killer Quake (Hammer/Axe)
+0E1F - Stealth (Staff)
+0E20 - Counter (Staff)
+0E21 - Fleet Foot (Staff)
+0E22 - Shield of Aegis
+Recipes:
+Weapons:
+0ED8 - Dual Blades Recipes (Level 1.)
+0ED9 - Dual Blades Recipes (Level 2.)
+0EDA - Dual Blades Recipes (Level 3.)
+0EDB - Dual Blades Recipes (Level S.)
+0EDC - Long Sword Recipes (Level 1.)
+0EDD - Long Sword Recipes (Level 2.)
+0EDE - Long Sword Recipes (Level 3.)
+0EDF - Long Sword Recipes (Level S.)
+0EE0 - Spear Recipes (Level 1.)
+0EE1 - Spear Recipes (Level 2.)
+0EE2 - Spear Recipes (Level 3.)
+0EE3 - Spear Recipes (Level S.)
+0EE4 - Katana Recipes (Level 1.)
+0EE5 - Katana Recipes (Level 2.)
+0EE6 - Katana Recipes (Level 3.)
+0EE7 - Katana Recipes (Level S.)
+0EE8 - Hammer Recipes (Level 1.)
+0EE9 - Hammer Recipes (Level 2.)
+0EEA - Hammer Recipes (Level 3.)
+0EEB - Hammer Recipes (Level S.)
+0EEC - Axe Recipes (Level 1.)
+0EED - Axe Recipes (Level 2.)
+0EEE - Axe Recipes (Level 3.)
+0EEF - Axe Recipes (Level S.)
+0EF0 - Staff Recipes (Level 1.)
+0EF1 - Staff Recipes (Level 2.)
+0EF2 - Staff Recipes (Level S.)
+Tools:
+0EF3 - Sickle Recipes (Level 1.)
+0EF4 - Sickle Recipes (Level 2.)
+0EF5 - Sickle Recipes (Level S.)
+0EF6 - Fishing Pole Recipes (Level 1.)
+0EF7 - Fishing Pole Recipes (Level 2.)
+0EF8 - Fishing Pole Recipes (level S.)
+Accessories:
+0EF9 - Head Recipes (Level 1.)
+0EFA - Head Recipes (Level 2.)
+0EFB - Head Recipes (Level 3.)
+0EFC - Head Recipes (Level S.)
+0EFD - Neck Recipes (Level 1.)
+0EFE - Neck Recipes (Level 2.)
+0EFF - Neck Recipes (Level S.)
+0F00 - Body Recipes (Level 1.)
+0F01 - Body Recipes (Level 2.)
+0F02 - Body Recipes (Level 3.)
+0F03 - Body Recipes (Level S.)
+0F04 - Arm Recipes (Level 1.)
+0F05 - Arm Recipes (Level 2.)
+0F06 - Arm Recipes (Level 3.)
+0F07 - Arm Recipes (Level S.)
+0F08 - Wonderful Gift Recipes
+0F09 - King of the Beach
+0F0A - Happiness 101 Recipes
+Cooking:
+0F0B - Kitchen Recipes (Level 1.)
+0F0C - Kitchen Recipes (Level 2.)
+0F0D - Kitchen Recipes (Level 3.)
+0F0E - Kitchen Recipes (Level S.)
+0F0F - Frying Pan Recipes (Level 1.)
+0F10 - Frying Pan Recipes (Level 2.)
+0F11 - Frying Pan Recipes (Level 3.)
+0F12 - Frying Pan Recipes (Level. S)
+0F13 - Pot Recipes (Level 1.)
+0F14 - Pot Recipes (Level 2.)
+0F15 - Pot Recipes (Level 3.)
+0F16 - Pot Recipes (Level S.)
+0F17 - Oven Recipes (Level 1.)
+0F18 - Oven Recipes (Level 2.)
+0F19 - Oven Recipes (Level 3.)
+0F1A - Oven Recipes (Level S.)
+0F1B - Steamer Recipes (Level 1.)
+0F1C - Steamer Recipes (Level 2.)
+0F1D - Steamer Recipes (Level S.)
+0F1E - Mixer Recipes (Level 1.)
+0F1F - Mixer Recipes (Level 2.)
+0F20 -Mixer Recipes (Level S.)
+Pharmacy:
+0F21 - Pharmacy Recipes (Level 1.)
+0F22 - Pharmacy Recipes (Level 2.)
+0F23 - Pharmacy Recipes (Level S.)
+Carpentry:
+0F24 - Carpentry Recipes (Level 1.)
+0F25 - Carpentry Recipes (Level 2.)
+0F26 - Carpentry Recipes (Level S.)
+Residents NPC Only
+0F3C - NPC Sword
+0F3D - Forge Hammer
+0F3E - Forge Burnt Iron Bar
+0F3F - Sandpaper
+0F40 - Saw
+0F41 - Muller
+0F42 - Bouquet
+0F43 - NPC Duster
+0F44 - NPC Pan
+0F45 - NPC Pot
+0F46 - NPC Paper and Pen
+0F47 - NPC Tea
+0F48 - NPC Watering Pot
+0F49 - NPC Sewing
+0F4A - NPC Cake
+0F4B - NPC Sword Care Kit
+0F4C - NPC Grind Stone
+0F4D - NPC Pick
+0F4E - NPC Fishing Pole
+0F4F - NPC Mug
+0F50 - NPC Umbrella
+0F51 - NPC Hammer
+0F52 - NPC Katana
+0F53 - NPC Telescope
+0F54 - NPC Knife
+0F55 - NPC Calculator
+0F56 - NPC Flashlight
+0F57 - NPC Kitchen Knife
+
+ADEN CODES:
+
+Infinite/Max HP [goemon_guy]
+02A7F4F6 0000270F
+02A7F4FA 0000270F
+
+Infinite/Max RP [goemon_guy]
+04A7F4FC 270F270F
+
+Max Strength [goemon_guy]
+02A7F500 000003E8
+
+Max Intelligence [goemon_guy]
+02A7F502 000003E8
+
+Max Stamina [goemon_guy]
+02A7F504 000003E8
+
+Max Fire Power [goemon_guy]
+00A7F506 000000FF
+
+Max Water Power [goemon_guy]
+00A7F507 000000FF
+
+Max Light Power [goemon_guy]
+00A7F508 000000FF
+
+Max Earth Power [goemon_guy]
+00A7F509 000000FF
+
+Max Wind Power [goemon_guy]
+00A7F50A 000000FF
+
+Max Dark Power [goemon_guy]
+00A7F50B 000000FF
+
+Max Fire Defense [goemon_guy]
+00A7F50C 000000FF
+
+Max Water Defense [goemon_guy]
+00A7F50D 000000FF
+
+Max Light Defense [goemon_guy]
+00A7F50E 000000FF
+
+Max Earth Defense [goemon_guy]
+00A7F50F 000000FF
+
+Max Wind Defense [goemon_guy]
+00A7F510 000000FF
+
+Max Dark Defense [goemon_guy]
+00A7F511 000000FF
+
+Max Level All Skills [goemon_guy]
+08A7F550 00006300
+20370004 00000000
+
+YMIR STORAGE CODES
+
+Max Affection ALL SLOTS [goemon_guy]
+08A86F86 000001F4
+100900B8 00000000
+
+Slot 1 codes
+
+Max Affection [goemon_guy]
+02A86F86 000001F4
+
+Name Modifier [goemon_guy]
+06A86F40 00000000
+00XX00XX 00XX00XX
+00XX00XX 00XX00XX
+00XX00XX 00XX00XX
+
+Species Modifier [goemon_guy]
+00A86F8B 000000XX
+
+Max/Infinite Health [goemon_guy]
+02A86F9E 0000270F
+02A86FA2 0000270F
+
+Level Modifer [goemon_guy]
+00A86F97 000000XX
+
+Attack Max [goemon_guy]
+02A86FA8 000003E7
+
+Magic Attack/Defense Max [goemon_guy]
+02A86FAA 000003E7
+
+Defense Max [goemon_guy]
+02A86FAC 000003E7
+
+Fire Attack Max [goemon_guy]
+00A86FAE 00000063
+
+Water Attack Max [goemon_guy]
+00A86FAF 00000063
+
+Earth Attack Max [goemon_guy]
+00A86FB0 00000063
+
+Wind Attack Max [goemon_guy]
+00A86FB1 00000063
+
+Light Attack Max [goemon_guy]
+00A86FB2 00000063
+
+Dark Attack Max [goemon_guy]
+00A86FB3 00000063
+
+Fire Defense Max [goemon_guy]
+00A86FB4 00000063
+
+Water Defense Max [goemon_guy]
+00A86FB5 00000063
+
+Earth Defense Max [goemon_guy]
+00A86FB6 00000063
+
+Wind Defense Max [goemon_guy]
+00A86FB7 00000063
+
+Light Defense Max [goemon_guy]
+00A86FB8 00000063
+
+Dark Defense Max [goemon_guy]
+00A86FB9 00000063
+
+Slot 2 codes
+
+Max Affection [goemon_guy]
+02A8703E 000001F4
+
+Name Modifier [goemon_guy]
+06A86FF8 00000000
+00XX00XX 00XX00XX
+00XX00XX 00XX00XX
+00XX00XX 00XX00XX
+
+Species Modifier [goemon_guy]
+00A87043 000000XX
+
+Max/Infinite Health [goemon_guy]
+02A87056 0000270F
+02A8705A 0000270F
+
+Level Modifer [goemon_guy]
+00A8704F 000000XX
+
+Attack Max [goemon_guy]
+02A87060 000003E7
+
+Magic Attack/Defense Max [goemon_guy]
+02A87062 000003E7
+
+Defense Max [goemon_guy]
+02A87064 000003E7
+
+Fire Attack Max [goemon_guy]
+00A87066 00000063
+
+Water Attack Max [goemon_guy]
+00A87067 00000063
+
+Earth Attack Max [goemon_guy]
+00A87068 00000063
+
+Wind Attack Max [goemon_guy]
+00A87069 00000063
+
+Light Attack Max [goemon_guy]
+00A8706A 00000063
+
+Dark Attack Max [goemon_guy]
+00A8706B 00000063
+
+Fire Defense Max [goemon_guy]
+00A8706C 00000063
+
+Water Defense Max [goemon_guy]
+00A8706D 00000063
+
+Earth Defense Max [goemon_guy]
+00A8706E 00000063
+
+Wind Defense Max [goemon_guy]
+00A8706F 00000063
+
+Light Defense Max [goemon_guy]
+00A87070 00000063
+
+Dark Defense Max [goemon_guy]
+00A87071 00000063
+
+Slot 3 codes
+
+Max Affection [goemon_guy]
+02A870F6 000001F4
+
+Name Modifier [goemon_guy]
+06A870B0 00000000
+00XX00XX 00XX00XX
+00XX00XX 00XX00XX
+00XX00XX 00XX00XX
+
+Species Modifier [goemon_guy]
+00A870FB 000000XX
+
+Max/Infinite Health [goemon_guy]
+02A8710E 0000270F
+02A87112 0000270F
+
+Level Modifier [goemon_guy]
+00A87107 000000XX
+
+Attack Max [goemon_guy]
+02A87118 000003E7
+
+Magic Attack/Defense Max [goemon_guy]
+02A8711A 000003E7
+
+Defense Max [goemon_guy]
+02A8711C 000003E7
+
+Fire Attack Max [goemon_guy]
+00A8711E 00000063
+
+Water Attack Max [goemon_guy]
+00A8711F 00000063
+
+Earth Attack Max [goemon_guy]
+00A87120 00000063
+
+Wind Attack Max [goemon_guy]
+00A87121 00000063
+
+Light Attack Max [goemon_guy]
+00A87122 00000063
+
+Dark Attack Max [goemon_guy]
+00A87123 00000063
+
+Fire Defense Max [goemon_guy]
+00A87124 00000063
+
+Water Defense Max [goemon_guy]
+00A87125 00000063
+
+Earth Defense Max [goemon_guy]
+00A87126 00000063
+
+Wind Defense Max [goemon_guy]
+00A87127 00000063
+
+Light Defense Max [goemon_guy]
+00A87128 00000063
+
+Dark Defense Max [goemon_guy]
+00A87129 00000063
+
+Slot 4 codes
+
+Max Affection [goemon_guy]
+02A871AE 000001F4
+
+Name Modifier [goemon_guy]
+06A87168 00000000
+00XX00XX 00XX00XX
+00XX00XX 00XX00XX
+00XX00XX 00XX00XX
+
+Species Modifier [goemon_guy]
+00A871B3 000000XX
+
+Max/Infinite Health [goemon_guy]
+02A871C6 0000270F
+02A871CA 0000270F
+
+Level Modifier [goemon_guy]
+00A871BF 000000XX
+
+Attack Max [goemon_guy]
+02A871D0 000003E7
+
+Magic Attack/Defense Max [goemon_guy]
+02A871D2 000003E7
+
+Defense Max [goemon_guy]
+02A871D4 000003E7
+
+Fire Attack Max [goemon_guy]
+00A871D6 00000063
+
+Water Attack Max [goemon_guy]
+00A871D7 00000063
+
+Earth Attack Max [goemon_guy]
+00A871D8 00000063
+
+Wind Attack Max [goemon_guy]
+00A871D9 00000063
+
+Light Attack Max [goemon_guy]
+00A871DA 00000063
+
+Dark Attack Max [goemon_guy]
+00A871DB 00000063
+
+Fire Defense Max [goemon_guy]
+00A871DC 00000063
+
+Water Defense Max [goemon_guy]
+00A871DE 00000063
+
+Earth Defense Max [goemon_guy]
+00A871DF 00000063
+
+Wind Defense Max [goemon_guy]
+00A871E0 00000063
+
+Light Defense Max [goemon_guy]
+00A871E1 00000063
+
+Dark Defense Max [goemon_guy]
+00A871E2 00000063
+
+Slot 5 codes
+
+Max Affection [goemon_guy]
+02A87266 000001F4
+
+Name Modifier [goemon_guy]
+06A87220 00000000
+00XX00XX 00XX00XX
+00XX00XX 00XX00XX
+00XX00XX 00XX00XX
+
+Species Modifier [goemon_guy]
+00A8726B 000000XX
+
+Max/Infinite Health [goemon_guy]
+02A8727E 0000270F
+02A87280 0000270F
+
+Level Modifier [goemon_guy]
+00A87277 000000XX
+
+Attack Max [goemon_guy]
+02A87288 000003E7
+
+Magic Attack/Defense Max [goemon_guy]
+02A8728A 000003E7
+
+Defense Max [goemon_guy]
+02A8728C 000003E7
+
+Fire Attack Max [goemon_guy]
+00A8728E 00000063
+
+Water Attack Max [goemon_guy]
+00A8728F 00000063
+
+Earth Attack Max [goemon_guy]
+00A87290 00000063
+
+Wind Attack Max [goemon_guy]
+00A87291 00000063
+
+Light Attack Max [goemon_guy]
+00A87292 00000063
+
+Dark Attack Max [goemon_guy]
+00A87293 00000063
+
+Fire Defense Max [goemon_guy]
+00A87294 00000063
+
+Water Defense Max [goemon_guy]
+00A87295 00000063
+
+Earth Defense Max [goemon_guy]
+00A87296 00000063
+
+Wind Defense Max [goemon_guy]
+00A87297 00000063
+
+Light Defense Max [goemon_guy]
+00A87298 00000063
+
+Dark Defense Max [goemon_guy]
+00A87299 00000063
+
+Slot 6 codes
+
+Max Affection [goemon_guy]
+02A8731E 000001F4
+
+Name Modifier [goemon_guy]
+06A872D8 00000000
+00XX00XX 00XX00XX
+00XX00XX 00XX00XX
+00XX00XX 00XX00XX
+
+Species Modifier [goemon_guy]
+00A87323 000000XX
+
+Max/Infinite Health [goemon_guy]
+02A87336 0000270F
+02A8733A 0000270F
+
+Level Modifier [goemon_guy]
+00A8732F 000000XX
+
+Attack Max [goemon_guy]
+02A87340 000003E7
+
+Magic Attack/Defense Max [goemon_guy]
+02A87342 000003E7
+
+Defense Max [goemon_guy]
+02A87344 000003E7
+
+Fire Attack Max [goemon_guy]
+00A87346 00000063
+
+Water Attack Max [goemon_guy]
+00A87347 00000063
+
+Earth Attack Max [goemon_guy]
+00A87348 00000063
+
+Wind Attack Max [goemon_guy]
+00A87349 00000063
+
+Light Attack Max [goemon_guy]
+00A8734A 00000063
+
+Dark Attack Max [goemon_guy]
+00A8734B 00000063
+
+Fire Defense Max [goemon_guy]
+00A8734C 00000063
+
+Water Defense Max [goemon_guy]
+00A8734D 00000063
+
+Earth Defense Max [goemon_guy]
+00A8734E 00000063
+
+Wind Defense Max [goemon_guy]
+00A8734F 00000063
+
+Light Defense Max [goemon_guy]
+00A87350 00000063
+
+Dark Defense Max [goemon_guy]
+00A87351 00000063
+
+Slot 7 codes
+
+Max Affection [goemon_guy]
+02A873D6 000001F4
+
+Name Modifier [goemon_guy]
+06A87390 00000000
+00XX00XX 00XX00XX
+00XX00XX 00XX00XX
+00XX00XX 00XX00XX
+
+Species Modifier [goemon_guy]
+00A873DB 000000XX
+
+Max/Infinite Health [goemon_guy]
+02A873EA 0000270F
+02A873F2 0000270F
+
+Level Modifier [goemon_guy]
+00A873E7 000000XX
+
+Attack Max [goemon_guy]
+02A873F8 000003E7
+
+Magic Attack/Defense Max [goemon_guy]
+02A873FA 000003E7
+
+Defense Max [goemon_guy]
+02A873FC 000003E7
+
+Fire Attack Max [goemon_guy]
+00A873FE 00000063
+
+Water Attack Max [goemon_guy]
+00A873FF 00000063
+
+Earth Attack Max [goemon_guy]
+00A87400 00000063
+
+Wind Attack Max [goemon_guy]
+00A87401 00000063
+
+Light Attack Max [goemon_guy]
+00A87402 00000063
+
+Dark Attack Max [goemon_guy]
+00A87403 00000063
+
+Fire Defense Max [goemon_guy]
+00A87404 00000063
+
+Water Defense Max [goemon_guy]
+00A87405 00000063
+
+Earth Defense Max [goemon_guy]
+00A87406 00000063
+
+Wind Defense Max [goemon_guy]
+00A87407 00000063
+
+Light Defense Max [goemon_guy]
+00A87408 00000063
+
+Dark Defense Max [goemon_guy]
+00A87409 00000063
+
+Slot 8 codes
+
+Max Affection [goemon_guy]
+02A8748E 000001F4
+
+Name Modifier [goemon_guy]
+06A87448 00000000
+00XX00XX 00XX00XX
+00XX00XX 00XX00XX
+00XX00XX 00XX00XX
+
+Species Modifier [goemon_guy]
+00A87493 000000XX
+
+Max/Infinite Health [goemon_guy]
+02A874A2 0000270F
+02A874AA 0000270F
+
+Level Modifier [goemon_guy]
+00A8749B 000000XX
+
+Attack Max [goemon_guy]
+02A874B0 000003E7
+
+Magic Attack/Defense Max [goemon_guy]
+02A874B2 000003E7
+
+Defense Max [goemon_guy]
+02A874B4 000003E7
+
+Fire Attack Max [goemon_guy]
+00A874B6 00000063
+
+Water Attack Max [goemon_guy]
+00A874B7 00000063
+
+Earth Attack Max [goemon_guy]
+00A874B8 00000063
+
+Wind Attack Max [goemon_guy]
+00A874B9 00000063
+
+Light Attack Max [goemon_guy]
+00A874BA 00000063
+
+Dark Attack Max [goemon_guy]
+00A874BB 00000063
+
+Fire Defense Max [goemon_guy]
+00A874BC 00000063
+
+Water Defense Max [goemon_guy]
+00A874BD 00000063
+
+Earth Defense Max [goemon_guy]
+00A874BE 00000063
+
+Wind Defense Max [goemon_guy]
+00A874BF 00000063
+
+Light Defense Max [goemon_guy]
+00A874C0 00000063
+
+Dark Defense Max [goemon_guy]
+00A874C1 00000063
+
+Slot 9 codes
+
+Max Affection [goemon_guy]
+02A87546 000001F4
+
+Name Modifier [goemon_guy]
+06A87500 00000000
+00XX00XX 00XX00XX
+00XX00XX 00XX00XX
+00XX00XX 00XX00XX
+
+Species Modifier [goemon_guy]
+00A8754B 000000XX
+
+Max/Infinite Health [goemon_guy]
+02A8755A 0000270F
+02A87502 0000270F
+
+Level Modifier [goemon_guy]
+00A87553 000000XX
+
+Attack Max [goemon_guy]
+02A87568 000003E7
+
+Magic Attack/Defense Max [goemon_guy]
+02A8756A 000003E7
+
+Defense Max [goemon_guy]
+02A8756C 000003E7
+
+Fire Attack Max [goemon_guy]
+00A8756E 00000063
+
+Water Attack Max [goemon_guy]
+00A8756F 00000063
+
+Earth Attack Max [goemon_guy]
+00A87570 00000063
+
+Wind Attack Max [goemon_guy]
+00A87571 00000063
+
+Light Attack Max [goemon_guy]
+00A87572 00000063
+
+Dark Attack Max [goemon_guy]
+00A87573 00000063
+
+Fire Defense Max [goemon_guy]
+00A87574 00000063
+
+Water Defense Max [goemon_guy]
+00A87575 00000063
+
+Earth Defense Max [goemon_guy]
+00A87576 00000063
+
+Wind Defense Max [goemon_guy]
+00A87577 00000063
+
+Light Defense Max [goemon_guy]
+00A87578 00000063
+
+Dark Defense Max [goemon_guy]
+00A87579 00000063
+
+Slot 10 codes
+
+Max Affection [goemon_guy]
+02A875FE 000001F4
+
+Name Modifier [goemon_guy]
+06A875B8 00000000
+00XX00XX 00XX00XX
+00XX00XX 00XX00XX
+00XX00XX 00XX00XX
+
+Species Modifier [goemon_guy]
+00A87603 000000XX
+
+Max/Infinite Health [goemon_guy]
+02A87612 0000270F
+02A875BA 0000270F
+
+Level Modifier [goemon_guy]
+00A8760B 000000XX
+
+Attack Max [goemon_guy]
+02A87620 000003E7
+
+Magic Attack/Defense Max [goemon_guy]
+02A87622 000003E7
+
+Defense Max [goemon_guy]
+02A87624 000003E7
+
+Fire Attack Max [goemon_guy]
+00A87626 00000063
+
+Water Attack Max [goemon_guy]
+00A87627 00000063
+
+Earth Attack Max [goemon_guy]
+00A87628 00000063
+
+Wind Attack Max [goemon_guy]
+00A87629 00000063
+
+Light Attack Max [goemon_guy]
+00A8762A 00000063
+
+Dark Attack Max [goemon_guy]
+00A8762B 00000063
+
+Fire Defense Max [goemon_guy]
+00A8762C 00000063
+
+Water Defense Max [goemon_guy]
+00A8762D 00000063
+
+Earth Defense Max [goemon_guy]
+00A8762E 00000063
+
+Wind Defense Max [goemon_guy]
+00A8762F 00000063
+
+Light Defense Max [goemon_guy]
+00A87630 00000063
+
+Dark Defense Max [goemon_guy]
+00A87631 00000063
+
+SPRING ISLAND MONSTER STORAGE MODIFIERS
+
+SLOT 1 CODES:
+
+Name Modifier [goemon_guy]
+07A87640 00000000
+00XX00XX 00XX00XX
+00XX00XX 00XX00XX
+00XX00XX 00XX00XX
+
+Level Modifier [goemon_guy]
+00A876C4 000000XX
+
+Species Modifier [goemon_guy]
+00A876BB 000000XX
+
+Infinite/Max HP [goemon_guy]
+04A876CE 0000270F
+04A876D2 0000270F
+
+Max Attack [goemon_guy]
+02A876D8 000003E7
+
+Max Magic Attack/Defense [goemon_guy]
+02A876DA 000003E7
+
+Max Defense [goemon_guy]
+02A876DC 000003E7
+
+Max Fire Attack [goemon_guy]
+00A876DE 00000063
+
+Max Water Attack [goemon_guy]
+00A876DF 00000063
+
+Max Earth Attack [goemon_guy]
+00A876E0 00000063
+
+Max Wind Attack [goemon_guy]
+00A876E1 00000063
+
+Max Light Attack [goemon_guy]
+00A876E2 00000063
+
+Max Dark Attack [goemon_guy]
+00A876E3 00000063
+
+Max Fire Defense [goemon_guy]
+00A876E4 00000063
+
+Max Water Defense [goemon_guy]
+00A876E5 00000063
+
+Max Earth Defense [goemon_guy]
+00A876E6 00000063
+
+Max Wind Defense [goemon_guy]
+00A876E7 00000063
+
+Max Light Defense [goemon_guy]
+00A876E8 00000063
+
+Max Dark Defense [goemon_guy]
+00A876E9 00000063
+
+Max Affection [goemon_guy]
+02A876B6 000001F5
+
+SLOT 2 CODES:
+
+Name Modifier [goemon_guy]
+07A876F8 00000000
+00XX00XX 00XX00XX
+00XX00XX 00XX00XX
+00XX00XX 00XX00XX
+
+Level Modifier [goemon_guy]
+00A87778 000000XX
+
+Species Modifier [goemon_guy]
+00A87773 000000XX
+
+Infinite/Max HP [goemon_guy]
+04A87786 0000270F
+04A8778A 0000270F
+
+Max Attack [goemon_guy]
+02A87790 000003E7
+
+Max Magic Attack/Defense [goemon_guy]
+02A87792 000003E7
+
+Max Defense [goemon_guy]
+02A87794 000003E7
+
+Max Fire Attack [goemon_guy]
+00A87796 00000063
+
+Max Water Attack [goemon_guy]
+00A87797 00000063
+
+Max Earth Attack [goemon_guy]
+00A87798 00000063
+
+Max Wind Attack [goemon_guy]
+00A87799 00000063
+
+Max Light Attack [goemon_guy]
+00A8779A 00000063
+
+Max Dark Attack [goemon_guy]
+00A8779B 00000063
+
+Max Fire Defense [goemon_guy]
+00A8779C 00000063
+
+Max Water Defense [goemon_guy]
+00A8779D 00000063
+
+Max Earth Defense [goemon_guy]
+00A8779E 00000063
+
+Max Wind Defense [goemon_guy]
+00A8779F 00000063
+
+Max Light Defense [goemon_guy]
+00A877A0 00000063
+
+Max Dark Defense [goemon_guy]
+00A877A1 00000063
+
+Max Affection [goemon_guy]
+02A8776E 000001F5
+
+SLOT 3 CODES:
+
+Name Modifier [goemon_guy]
+07A877B0 00000000
+00XX00XX 00XX00XX
+00XX00XX 00XX00XX
+00XX00XX 00XX00XX
+
+Level Modifier [goemon_guy]
+00A87830 000000XX
+
+Species Modifier [goemon_guy]
+00A8782B 000000XX
+
+Infinite/Max HP [goemon_guy]
+04A8783E 0000270F
+04A87842 0000270F
+
+Max Attack [goemon_guy]
+02A87848 000003E7
+
+Max Magic Attack/Defense [goemon_guy]
+02A8784A 000003E7
+
+Max Defense [goemon_guy]
+02A8784C 000003E7
+
+Max Fire Attack [goemon_guy]
+00A8784E 00000063
+
+Max Water Attack [goemon_guy]
+00A8784F 00000063
+
+Max Earth Attack [goemon_guy]
+00A87850 00000063
+
+Max Wind Attack [goemon_guy]
+00A87851 00000063
+
+Max Light Attack [goemon_guy]
+00A87852 00000063
+
+Max Dark Attack [goemon_guy]
+00A87853 00000063
+
+Max Fire Defense [goemon_guy]
+00A87854 00000063
+
+Max Water Defense [goemon_guy]
+00A87855 00000063
+
+Max Earth Defense [goemon_guy]
+00A87856 00000063
+
+Max Wind Defense [goemon_guy]
+00A87857 00000063
+
+Max Light Defense [goemon_guy]
+00A87858 00000063
+
+Max Dark Defense [goemon_guy]
+00A87859 00000063
+
+Max Affection [goemon_guy]
+02A87826 000001F5
+
+SLOT 4 CODES:
+
+Name Modifier [goemon_guy]
+07A87868 00000000
+00XX00XX 00XX00XX
+00XX00XX 00XX00XX
+00XX00XX 00XX00XX
+
+Level Modifier [goemon_guy]
+00A878E8 000000XX
+
+Species Modifier [goemon_guy]
+00A878E3 000000XX
+
+Infinite/Max HP [goemon_guy]
+04A878F6 0000270F
+04A878FA 0000270F
+
+Max Attack [goemon_guy]
+02A87900 000003E7
+
+Max Magic Attack/Defense [goemon_guy]
+02A87902 000003E7
+
+Max Defense [goemon_guy]
+02A87904 000003E7
+
+Max Fire Attack [goemon_guy]
+00A87906 00000063
+
+Max Water Attack [goemon_guy]
+00A87907 00000063
+
+Max Earth Attack [goemon_guy]
+00A87908 00000063
+
+Max Wind Attack [goemon_guy]
+00A87909 00000063
+
+Max Light Attack [goemon_guy]
+00A8790A 00000063
+
+Max Dark Attack [goemon_guy]
+00A8790B 00000063
+
+Max Fire Defense [goemon_guy]
+00A8790C 00000063
+
+Max Water Defense [goemon_guy]
+00A8790D 00000063
+
+Max Earth Defense [goemon_guy]
+00A8790E 00000063
+
+Max Wind Defense [goemon_guy]
+00A8790F 00000063
+
+Max Light Defense [goemon_guy]
+00A87910 00000063
+
+Max Dark Defense [goemon_guy]
+00A87911 00000063
+
+Max Affection [goemon_guy]
+02A878DE 000001F5
+
+SLOT 5 CODES:
+
+Name Modifier [goemon_guy]
+07A87920 00000000
+00XX00XX 00XX00XX
+00XX00XX 00XX00XX
+00XX00XX 00XX00XX
+
+Level Modifier [goemon_guy]
+00A879A0 000000XX
+
+Species Modifier [goemon_guy]
+00A8799B 000000XX
+
+Infinite/Max HP [goemon_guy]
+04A879AE 0000270F
+04A879B2 0000270F
+
+Max Attack [goemon_guy]
+02A879B8 000003E7
+
+Max Magic Attack/Defense [goemon_guy]
+02A879BA 000003E7
+
+Max Defense [goemon_guy]
+02A879BC 000003E7
+
+Max Fire Attack [goemon_guy]
+00A879BE 00000063
+
+Max Water Attack [goemon_guy]
+00A879BF 00000063
+
+Max Earth Attack [goemon_guy]
+00A879C0 00000063
+
+Max Wind Attack [goemon_guy]
+00A879C1 00000063
+
+Max Light Attack [goemon_guy]
+00A879C2 00000063
+
+Max Dark Attack [goemon_guy]
+00A879C3 00000063
+
+Max Fire Defense [goemon_guy]
+00A879C4 00000063
+
+Max Water Defense [goemon_guy]
+00A879C5 00000063
+
+Max Earth Defense [goemon_guy]
+00A879C6 00000063
+
+Max Wind Defense [goemon_guy]
+00A879C7 00000063
+
+Max Light Defense [goemon_guy]
+00A879C8 00000063
+
+Max Dark Defense [goemon_guy]
+00A879C9 00000063
+
+Max Affection [goemon_guy]
+02A879CA 000001F5
+
+ENEMY SPECIES XX VALUES
+
+00=Wooly
+01=Wooly
+02=Hornet
+03=Queen Bee
+04=Fire Hornet
+05=Buffamoo
+06=Buffalo
+07=Buffazoo
+08=Delete (Dummy)
+09=Cluckadoodle
+0A=Ignis
+0B=Tundra
+0C=Aerian
+0D=Silver Wolf
+0E=Hunter Wolf
+0F=Ant
+10=Killer Ant
+11=Sky Fish
+12=Dorado
+13=Tortoise
+14=Claw Dragon
+15=Gold Dragon
+16=Duck
+17=Dancing Duck
+18=Delete
+19=Delete
+1A=Orc
+1B=High Orc
+1C=Orch Archer
+1D=Orc Hunter
+1E=Goblin
+1F=Hobgoblin
+20=Minotauros
+21=King Minotauros
+22=Demon
+23=Arch Demon
+24=Little Mage
+25=Little Wizard
+26=Little Emperor
+27=Troll
+28=Gigantus
+29=Red Troll
+2A=Fire Troll
+2B=Giant Beetle
+2C=Hercules Beetle
+2D=Scorpion
+2E=Death Stalker
+2F=Shadow Panther
+30=Blood Panter
+31=Fire Panther
+32=Weegull
+33=Blackbird
+34=Chipsqueek
+35=Furpuff
+36=Spring Flower
+37=Summer Flower
+38=Fall Flower
+39=Big Mushroom
+3A=Tricky Mushroom
+3B=Ghost
+3C=Necro
+3D=Faust
+3E=Monster Box
+3F=Mimic
+40=Faerie
+41=Dark Faerie
+42=Slime
+43=Dark Slime
+44=Fire Slime
+45=Golem
+46=Talos
+47=Elephant
+48=Mammoth
+49=Delete
+4A=Mantis
+4B=Dark Mantis
+4C=Unicorn
+4D=Dark Unicorn
+4E=Goblin Pirate
+4F=Goblin Captain
+50=High Golem
+51=Moleman
+52=Moleman
+53=Moleman
+54=Crabotron
+55=Crabotron
+56=Crabotron
+57=Oblitergator
+58=Oblitergator
+59=Oblitergator
+5A=Asmodeus
+5B=Asmodeus
+5C=Asmodeus
+5D=Dark Spirit
+5E=Dark Fusion
+5F=Chickogriff
+60=Golem Gladiator
+61=Clay Doll
+62=Crab Land Mine
+63=Crab Missile
+64=Crab Grenade
+65=Squid Tentacles
+66=Goblin Knife
+67=Magic Anomaly
+68=Masked Man
+69=Masked Man
+6A=Goblin Chief
+6B=Delete
+6C=Delete
+6D=Delete
+6E=Big Squid
+6F=Yellow Squid
+70=Black Squid
+71=Greenzilla
+72=Bluezilla
+73=Redzilla
+74=Pink Jelly
+75=Yellow Jelly
+76=Blue Jelly
+77=Behemoth
+78=Yellow Behemoth
+79=Purple Behemoth
+7A=Legendary Golem
+7B=Wind Elemental
+7C=Fire Elemental
+7D=Earth Elemental
+7E=Water Elemental
+7F=Generator
+80=Generator
+81=Generator
+82=Generator
+83=Generator
+84=Generator
+85=Generator
+86=Generator
+87=Wooly King
+88=Goblin King
+89=Troll King
+8A=Goblin Viking
+8B=Grim Reaper
+8C=Necromancer
+8D=Kingsqueek
+8E=Asterius
+8F=Wolf King
+90=Demon King
+91=Unicor King
+92=Wyvern
+93=Warrior Fes. Target 1
+94=Warrior Fes. Target 2
+95=Warrior Fes. Target 34
+
+Equip Slot Holding Hnmitch [hnmitch]
+04A7F8D0 YYYYZZXX
+
+Equip Slot Weapon Hnmitch [hnmitch]
+04A7F8D4 YYYYZZXX
+
+Equip Slot Head Hnmitch [hnmitch]
+04A7F8D8 YYYYZZXX
+
+Equip Slot Neck Hnmitch [hnmitch]
+04A7F8DC YYYYZZXX
+
+Equip Slot Body Hnmitch [hnmitch]
+04A7F8E0 YYYYZZXX
+
+Equip Slot Arm Hnmitch [hnmitch]
+04A7F8E4 YYYYZZXX

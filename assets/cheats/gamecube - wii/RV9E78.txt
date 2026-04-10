@@ -1,0 +1,10 @@
+RV9E78
+Avatar the Last Airbender - Into The Inferno
+
+Max Coins [GMO]
+0468F4E8 0098967F
+
+Max Coins ASM [GMO]
+C20E2830 00000002
+3C000098 6000967F
+90030008 00000000

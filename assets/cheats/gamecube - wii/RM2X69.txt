@@ -1,0 +1,19 @@
+RM2X69
+Medal Of Honor: Heroes 2
+
+Weapon Codes
+
+Infinite Ammo and Grenades [Black_Wolf]
+C2258AD0 00000003
+A883023E 38000063
+B003023E B003023C
+60000000 00000000
+04258AD4 60000000
+04258AD8 60000000
+Shoot once to activate. All gun ammo set to 99 as well as grenades
+
+Rapid Fire [Black_Wolf]
+C2258328 00000002
+3D200000 61290000
+91320244 00000000
+Eliminates recoil time for all guns except shotgun and enfield rifle.

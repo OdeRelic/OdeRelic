@@ -1,0 +1,11 @@
+MAHE
+Sonic The Hedgehog
+
+Infinite Lives [GMO]
+00E60072 00000009
+
+Infinite Health [GMO]
+281C50FA 00000080
+00E60081 00000063
+E0000000 80008000
+Hold Z(Left) Grab 1 Ring to add Extra 99 Rings

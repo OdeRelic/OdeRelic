@@ -1,0 +1,12 @@
+GCDE08
+Resident Evil Code: Veronica X
+
+Difficulty Mode Select (Press R+Z) [Link Master]
+282BAC20 00000030
+002BC747 0000000B
+E2000001 80008000
+
+Co-author: Jay007
+It is important that you use this on, and only on the Load
+Game, New Game or Options screen. If you try it on the Press Start
+screen you will freeze the game.

@@ -1,0 +1,55 @@
+WFCE
+Final Fantasy Crystal Chronicles: My Life as a King
+
+Jump back to Morning (Press 1) [gvargas]
+CE000000 80008180
+282B2D98 00000200
+04CFC100 00000040
+E0000000 80008000
+Ported from AsatanuKain PAL version
+
+Always Raised Morale [gvargas]
+CE000000 80008180
+04CF80CB 00001000
+E0000000 80008000
+Ported from sNiPPs PAL version
+
+Infinite Elementile [benny3t3]
+14CF8018 0000270F
+
+Infinite Gil [benny3t3]
+14CF8050 0000270F
+
+Infinite Elementite & Gil [hawkeye2777]
+28C10E62 00000003
+02C10E72 0000270F
+02C10EAA 0000270F
+E0000000 80008000
+Credit to Hazado for Elementite/Gil addresses.
+
+Infinite Elementite [hawkeye2777]
+28C10E62 00000003
+02C10E72 0000270F
+E0000000 80008000
+Credit to Hazado for Elementite address.
+
+Infinite Gil [hawkeye2777]
+28C10E62 00000003
+02C10EAA 0000270F
+E0000000 80008000
+Credit to Hazado for Gil address.
+
+Note
+If the above do not work, use these:
+
+9999 Elementite (Press 1) [hawkeye2777]
+282B2D98 00000200
+02C10E72 0000270F
+E0000000 80008000
+Credit to Hazado for Elementite address.
+
+9999 Gil (Press 2) [hawkeye2777]
+282B2D98 00000100
+02C10EAA 0000270F
+E0000000 80008000
+Credit to Hazado for Gil address.

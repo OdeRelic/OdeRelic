@@ -1,0 +1,113 @@
+JAVP
+Super Metriod
+
+Button Activator [Deathwolf]
+28196858 YYYYZZZZ
+
+Z Values - GCN Controller
+0001 = Left
+0002 = Right
+0004 = Down
+0008 = Up
+0010 = Z
+0020 = R
+0040 = L
+0100 = A
+0200 = B
+0400 = X
+0800 = Y
+1000 = Start
+
+Moonjump [Deathwolf]
+0449CAD4 0FF00000
+
+Walk on Air [Deathwolf]
+0449CAD4 00000000
+*** US WITH BUTTON ACTIVATOR***
+
+Infinity Misseles [Deathwolf]
+0249C96D 00000FFF
+0049C96F 00000001
+0049C96E 00000063
+
+Infinity Super Misseles [Deathwolf]
+0049C972 00000063
+
+infinity Super Bombs [Deathwolf]
+0049C976 00000063
+
+Infinity Health [Deathwolf]
+0249C96A 00000063
+
+Speed Modifier [Deathwolf]
+0449CAEC 00FF0000
+***Press B to activate, Press 2x B to speed up***
+
+Automatic Run [Deathwolf]
+0449CAF0 FFFF0000
+
+Timer frozen [Deathwolf]
+0049C982 00000000
+0049C984 00000000
+
+Items Activator [Deathwolf]
+0049C97A 000000XX
+
+XX:
+00 normal beam
+01 misseles
+02 super misseles
+03 super bombs
+04 electric beam
+05 rönkten beam (sorry don't know what is it in english)
+
+All Items [Deathwolf]
+0449C948 0FFFFFFF
+
+All Items V2 [Deathwolf]
+0049C96E 00000063
+0049C972 00000063
+0049C976 00000063
+0449C948 0FFFFFFF
+
+GOD MOD [Deathwolf]
+0249C96A 00000063
+0049C96E 00000063
+0049C972 00000063
+0049C976 00000063
+0049C98E 00000000
+0449CC74 00000000
+0449C948 0FFFFFFF
+
+Tool Assistant Code [Deathwolf]
+0049C98E 00000000
+** this is a code to lvl up your skill***
+
+Control Srcew Attak (LEFT) [Deathwolf]
+0449C9C8 09000900
+
+Control Srcew Attak (Right) [Deathwolf]
+0449C9C8 04000900
+
+Control Screw Attak FULL [Deathwolf]
+0449C9C8 9B000000
+
+Play as unregistered Samus [Deathwolf]
+0449C6C4 00000000
+
+rapidly fire [Deathwolf]
+0449CC74 00000000
+
+Unlimited Health [GMO]
+0249C96A 0000DB05
+0249C96C 0000DB05
+
+Unlimited Missile [GMO]
+0049C96E 000000FF
+
+Unlimited Super Missile [GMO]
+0049C972 00000063
+
+Have All Suits/MISC/Boots/Beams [GMO]
+0449C94C 2FF30B10
+0249C950 00000F10

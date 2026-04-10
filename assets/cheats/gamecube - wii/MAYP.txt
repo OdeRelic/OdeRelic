@@ -1,0 +1,25 @@
+MAYP
+Alien Storm
+
+Player 1
+
+Unlimited Life [Crapulecorp]
+00F1BA8B 00000060
+
+Unlimited Energy [Crapulecorp]
+00F1BA8C 00000090
+*Code ported from ZiT Ntsc Jap Version*
+
+Invincible [Crapulecorp]
+00F1BBE1 00000070
+*Code ported from ZiT Ntsc Jap Version*
+
+Player 2
+
+Unlimited Life [Crapulecorp]
+00F1BB0B 00000060
+*Code ported from Datel Version*
+
+Unlimited Energy [Crapulecorp]
+00F1BB0C 00000090
+*Code ported from Datel Version*

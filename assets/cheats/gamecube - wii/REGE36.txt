@@ -1,0 +1,14 @@
+REGE36
+Emergency Mayhem
+
+Stop Mission Timer [TNTkryzt]
+04031508 D0230014
+0403187C D0230014
+
+Quick Promotion [TNTkryzt]
+0402353C 1C940064
+
+All Patients Rescued [TNTkryzt]
+040538C8 80030000
+040538CC 90030004
+040538D0 60000000

@@ -1,0 +1,2315 @@
+RUFP99
+Rune Factory : Frontier
+
+Max/Inf Gold [Skiller]
+04459290 05F5E0FF
+
+Have 60 Slots in Chest [Skiller]
+04459630 0000003C
+
+Auto Water [Skiller]
+C205FD54 00000002
+38800002 98830000
+60000000 00000000
+Everytime u use your Hoe it will also water, any hoe'd Land will get Auto water as well when u sleep
+
+INF water [Skiller]
+0416D360 60000000
+
+Main Character
+
+ATK [Skiller]
+02459282 000003E7
+
+DEF [Skiller]
+02459284 000003E7
+
+MAG [Skiller]
+02459286 000003E7
+
+Max HP (555) [Skiller]
+04459288 0000D8CC
+
+Max Currnet HP (555) [Skiller]
+0445928A 0000D8CC
+
+Max Current RP [Skiller]
+0245928C 00002710
+
+Lots of Lumber [Skiller]
+0245928E 0000270F
+
+Max Level [Skiller]
+00459298 00000064
+
+STR [Skiller]
+00459299 000000FF
+
+AGL [Skiller]
+0045929A 000000FF
+
+INT [Skiller]
+0045929B 000000FF
+
+VIT [Skiller]
+0045929C 000000FF
+
+Fire Affinity Max [Skiller]
+004592A0 00000064
+
+Water Affinity Max [Skiller]
+004592A1 00000064
+
+Wind Affinity Max [Skiller]
+004592A2 00000064
+
+Earth Affinity Max [Skiller]
+004592A3 00000064
+
+Max Weapons Skill [Skiller]
+004592AC 00000063
+
+Max Magic Skill [Skiller]
+004592AD 00000063
+
+Max Farming Skill [Skiller]
+004592AE 00000063
+
+Max Lumber Skill [Skiller]
+004592AF 00000063
+
+Max Hammer Skill [Skiller]
+004592B0 00000063
+
+Max Fish Skill [Skiller]
+004592B1 00000063
+
+Max Cook Skill [Skiller]
+004592B2 00000063
+
+Max Lab Skill [Skiller]
+004592B3 00000063
+
+Max Forging Skill [Skiller]
+004592B4 00000063
+
+Max Crafts Skill [Skiller]
+004592B5 00000063
+
+Items Bag Codes
+
+Item Mod Bag Slot 1 [Skiller]
+02459440 0000000?
+
+Item Amount Bag Slot 1 [Skiller]
+00459442 0000000?
+
+Item Level Bag Slot 1 [Skiller]
+00459443 0000000?
+
+Item Mod Bag Slot 2 [Skiller]
+02459444 0000000?
+
+Item Amount Bag Slot 2 [Skiller]
+00459446 0000000?
+
+Item Level Bag Slot 2 [Skiller]
+00459447 0000000?
+
+Item Mod Bag Slot 3 [Skiller]
+02459448 0000000?
+
+Item Amount Bag Slot 3 [Skiller]
+0045944A 0000000?
+
+Item Level Bag Slot 3 [Skiller]
+0045944B 0000000?
+
+Item Mod Bag Slot 4 [Skiller]
+0245944C 0000000?
+
+Item Amount Bag Slot 4 [Skiller]
+0045944E 0000000?
+
+Item Level Bag Slot 4 [Skiller]
+0045944F 0000000?
+
+Item Mod Bag Slot 5 [Skiller]
+02459450 0000000?
+
+Item Amount Bag Slot 5 [Skiller]
+00459452 0000000?
+
+Item Level Bag Slot 5 [Skiller]
+00459453 0000000?
+
+Item Mod Bag Slot 6 [Skiller]
+02459454 0000000?
+
+Item Amount Bag Slot 6 [Skiller]
+00459456 0000000?
+
+Item Level Bag Slot 6 [Skiller]
+00459457 0000000?
+
+Item Mod Bag Slot 7 [Skiller]
+02459458 0000000?
+
+Item Amount Bag Slot 7 [Skiller]
+0045945A 0000000?
+
+Item Level Bag Slot 7 [Skiller]
+0045945B 0000000?
+
+Item Mod Bag Slot 8 [Skiller]
+0245945C 0000000?
+
+Item Amount Bag Slot 8 [Skiller]
+0045945E 0000000?
+
+Item Level Bag Slot 8 [Skiller]
+0045945F 0000000?
+
+Item Mod Bag Slot 9 [Skiller]
+02459460 0000000?
+
+Item Amount Bag Slot 9 [Skiller]
+00459462 0000000?
+
+Item Level Bag Slot 9 [Skiller]
+00459463 0000000?
+
+Item Mod Bag Slot 10 [Skiller]
+02459464 0000000?
+
+Item Amount Bag Slot 10 [Skiller]
+00459466 0000000?
+
+Item Level Bag Slot 10 [Skiller]
+00459467 0000000?
+
+Item Mod Bag Slot 11 [Skiller]
+02459468 0000000?
+
+Item Amount Bag Slot 11 [Skiller]
+0045946A 0000000?
+
+Item Level Bag Slot 11 [Skiller]
+0045946B 0000000?
+
+Item Mod Bag Slot 12 [Skiller]
+0245946C 0000000?
+
+Item Amount Bag Slot 12 [Skiller]
+0045946E 0000000?
+
+Item Level Bag Slot 12 [Skiller]
+0045946F 0000000?
+
+Item Mod Bag Slot 13 [Skiller]
+02459470 0000000?
+
+Item Amount Bag Slot 13 [Skiller]
+00459472 0000000?
+
+Item Level Bag Slot 13 [Skiller]
+00459473 0000000?
+
+Item Mod Bag Slot 14 [Skiller]
+02459474 0000000?
+
+Item Amount Bag Slot 14 [Skiller]
+00459476 0000000?
+
+Item Level Bag Slot 14 [Skiller]
+00459477 0000000?
+
+Item Mod Bag Slot 15 [Skiller]
+02459478 0000000?
+
+Item Amount Bag Slot 15 [Skiller]
+0045947A 0000000?
+
+Item Level Bag Slot 15 [Skiller]
+0045947B 0000000?
+
+Item Mod Bag Slot 16 [Skiller]
+0245947C 0000000?
+
+Item Amount Bag Slot 16 [Skiller]
+0045947E 0000000?
+
+Item Level Bag Slot 16 [Skiller]
+0045947F 0000000?
+
+Item Mod Bag Slot 17 [Skiller]
+02459480 0000000?
+
+Item Amount Bag Slot 17 [Skiller]
+00459482 0000000?
+
+Item Level Bag Slot 17 [Skiller]
+00459483 0000000?
+
+Item Mod Bag Slot 18 [Skiller]
+02459484 0000000?
+
+Item Amount Bag Slot 18 [Skiller]
+00459486 0000000?
+
+Item Level Bag Slot 18 [Skiller]
+00459487 0000000?
+
+Item Mod Bag Slot 19 [Skiller]
+02459488 0000000?
+
+Item Amount Bag Slot 19 [Skiller]
+0045948A 0000000?
+
+Item Level Bag Slot 19 [Skiller]
+0045948B 0000000?
+
+Item Mod Bag Slot 20 [Skiller]
+0245948C 0000000?
+
+Item Amount Bag Slot 20 [Skiller]
+0045948E 0000000?
+
+Item Level Bag Slot 20 [Skiller]
+0045948F 0000000?
+
+Item Mod Bag Slot 21 [Skiller]
+02459490 0000000?
+
+Item Amount Bag Slot 21 [Skiller]
+00459492 0000000?
+
+Item Level Bag Slot 21 [Skiller]
+00459493 0000000?
+
+Item Mod Bag Slot 22 [Skiller]
+02459494 0000000?
+
+Item Amount Bag Slot 22 [Skiller]
+00459496 0000000?
+
+Item Level Bag Slot 22 [Skiller]
+00459497 0000000?
+
+Item Mod Bag Slot 23 [Skiller]
+02459498 0000000?
+
+Item Amount Bag Slot 23 [Skiller]
+0045949A 0000000?
+
+Item Level Bag Slot 23 [Skiller]
+0045949B 0000000?
+
+Item Mod Bag Slot 24 [Skiller]
+0245949C 0000000?
+
+Item Amount Bag Slot 24 [Skiller]
+0045949E 0000000?
+
+Item Level Bag Slot 24 [Skiller]
+0045949F 0000000?
+
+Item Mod Bag Slot 25 [Skiller]
+024594A0 0000000?
+
+Item Amount Bag Slot 25 [Skiller]
+004594A2 0000000?
+
+Item Level Bag Slot 25 [Skiller]
+004594A3 0000000?
+
+Item Mod Bag Slot 26 [Skiller]
+024594A4 0000000?
+
+Item Amount Bag Slot 26 [Skiller]
+004594A6 0000000?
+
+Item Level Bag Slot 26 [Skiller]
+004594A7 0000000?
+
+Item Mod Bag Slot 27 [Skiller]
+024594A8 0000000?
+
+Item Amount Bag Slot 27 [Skiller]
+004594AA 0000000?
+
+Item Level Bag Slot 27 [Skiller]
+004594AB 0000000?
+
+Item Mod Bag Slot 28 [Skiller]
+024594AC 0000000?
+
+Item Amount Bag Slot 28 [Skiller]
+004594AE 0000000?
+
+Item Level Bag Slot 28 [Skiller]
+004594AF 0000000?
+
+Item Mod Bag Slot 29 [Skiller]
+024594B0 0000000?
+
+Item Amount Bag Slot 29 [Skiller]
+004594B2 0000000?
+
+Item Level Bag Slot 29 [Skiller]
+004594B3 0000000?
+
+Item Mod Bag Slot 30 [Skiller]
+024594B4 0000000?
+
+Item Amount Bag Slot 30 [Skiller]
+004594B6 0000000?
+
+Item Level Bag Slot 30 [Skiller]
+004594B7 0000000?
+
+Item Mod Bag Slot 31 [Skiller]
+024594B8 0000000?
+
+Item Amount Bag Slot 31 [Skiller]
+004594BA 0000000?
+
+Item Level Bag Slot 31 [Skiller]
+004594BB 0000000?
+
+Item Mod Bag Slot 32 [Skiller]
+024594BC 0000000?
+
+Item Amount Bag Slot 32 [Skiller]
+004594BE 0000000?
+
+Item Level Bag Slot 32 [Skiller]
+004594BF 0000000?
+
+Item Mod Bag Slot 33 [Skiller]
+024594C0 0000000?
+
+Item Amount Bag Slot 33 [Skiller]
+004594C2 0000000?
+
+Item Level Bag Slot 33 [Skiller]
+004594C3 0000000?
+
+Item Mod Bag Slot 34 [Skiller]
+024594C4 0000000?
+
+Item Amount Bag Slot 34 [Skiller]
+004594C6 0000000?
+
+Item Level Bag Slot 34 [Skiller]
+004594C7 0000000?
+
+Item Mod Bag Slot 35 [Skiller]
+024594C8 0000000?
+
+Item Amount Bag Slot 35 [Skiller]
+004594CA 0000000?
+
+Item Level Bag Slot 35 [Skiller]
+004594CB 0000000?
+
+Item Mod Bag Slot 36 [Skiller]
+024594CC 0000000?
+
+Item Amount Bag Slot 36 [Skiller]
+004594CE 0000000?
+
+Item Level Bag Slot 36 [Skiller]
+004594CF 0000000?
+
+Item Mod Bag Slot 37 [Skiller]
+024594D0 0000000?
+
+Item Amount Bag Slot 37 [Skiller]
+004594D2 0000000?
+
+Item Level Bag Slot 37 [Skiller]
+004594D3 0000000?
+
+Item Mod Bag Slot 38 [Skiller]
+024594D4 0000000?
+
+Item Amount Bag Slot 38 [Skiller]
+004594D6 0000000?
+
+Item Level Bag Slot 38 [Skiller]
+004594D7 0000000?
+
+Item Mod Bag Slot 39 [Skiller]
+024594D8 0000000?
+
+Item Amount Bag Slot 39 [Skiller]
+004594DA 0000000?
+
+Item Level Bag Slot 39 [Skiller]
+004594DB 0000000?
+
+Item Mod Bag Slot 40 [Skiller]
+024594DC 0000000?
+
+Item Amount Bag Slot 40 [Skiller]
+004594DE 0000000?
+
+Item Level Bag Slot 40 [Skiller]
+004594DF 0000000?
+
+Item Mod Bag Slot 41 [Skiller]
+024594E0 0000000?
+
+Item Amount Bag Slot 41 [Skiller]
+004594E2 0000000?
+
+Item Level Bag Slot 41 [Skiller]
+004594E3 0000000?
+
+Item Mod Bag Slot 42 [Skiller]
+024594E4 0000000?
+
+Item Amount Bag Slot 42 [Skiller]
+004594E6 0000000?
+
+Item Level Bag Slot 42 [Skiller]
+004594E7 0000000?
+
+Item Mod Bag Slot 43 [Skiller]
+024594E8 0000000?
+
+Item Amount Bag Slot 43 [Skiller]
+004594EA 0000000?
+
+Item Level Bag Slot 43 [Skiller]
+004594EB 0000000?
+
+Item Mod Bag Slot 44 [Skiller]
+024594EC 0000000?
+
+Item Amount Bag Slot 44 [Skiller]
+004594EE 0000000?
+
+Item Level Bag Slot 44 [Skiller]
+004594EF 0000000?
+
+Item Mod Bag Slot 45 [Skiller]
+024594F0 0000000?
+
+Item Amount Bag Slot 45 [Skiller]
+004594F2 0000000?
+
+Item Level Bag Slot 45 [Skiller]
+004594F3 0000000?
+
+Item Mod Bag Slot 46 [Skiller]
+024594F4 0000000?
+
+Item Amount Bag Slot 46 [Skiller]
+004594F6 0000000?
+
+Item Level Bag Slot 46 [Skiller]
+004594F7 0000000?
+
+Item Mod Bag Slot 47 [Skiller]
+024594F8 0000000?
+
+Item Amount Bag Slot 47 [Skiller]
+004594FA 0000000?
+
+Item Level Bag Slot 47 [Skiller]
+004594FB 0000000?
+
+Item Mod Bag Slot 48 [Skiller]
+024594FC 0000000?
+
+Item Amount Bag Slot 48 [Skiller]
+004594FE 0000000?
+
+Item Level Bag Slot 48 [Skiller]
+004594FF 0000000?
+
+Item Mod Bag Slot 49 [Skiller]
+02459500 0000000?
+
+Item Amount Bag Slot 49 [Skiller]
+00459502 0000000?
+
+Item Level Bag Slot 49 [Skiller]
+00459503 0000000?
+
+Item Mod Bag Slot 50 [Skiller]
+02459504 0000000?
+
+Item Amount Bag Slot 50 [Skiller]
+00459506 0000000?
+
+Item Level Bag Slot 50 [Skiller]
+00459507 0000000?
+
+Item Mod Bag Slot 51 [Skiller]
+02459508 0000000?
+
+Item Amount Bag Slot 51 [Skiller]
+0045950A 0000000?
+
+Item Level Bag Slot 51 [Skiller]
+0045950B 0000000?
+
+Item Mod Bag Slot 52 [Skiller]
+0245950C 0000000?
+
+Item Amount Bag Slot 52 [Skiller]
+0045950E 0000000?
+
+Item Level Bag Slot 52 [Skiller]
+0045950F 0000000?
+
+Item Mod Bag Slot 53 [Skiller]
+02459510 0000000?
+
+Item Amount Bag Slot 53 [Skiller]
+00459512 0000000?
+
+Item Level Bag Slot 53 [Skiller]
+00459513 0000000?
+
+Item Mod Bag Slot 54 [Skiller]
+02459514 0000000?
+
+Item Amount Bag Slot 54 [Skiller]
+00459516 0000000?
+
+Item Level Bag Slot 54 [Skiller]
+00459517 0000000?
+
+Item Mod Bag Slot 55 [Skiller]
+02459518 0000000?
+
+Item Amount Bag Slot 55 [Skiller]
+0045951A 0000000?
+
+Item Level Bag Slot 55 [Skiller]
+0045951B 0000000?
+
+Item Mod Bag Slot 56 [Skiller]
+0245951C 0000000?
+
+Item Amount Bag Slot 56 [Skiller]
+0045951E 0000000?
+
+Item Level Bag Slot 56 [Skiller]
+0045951F 0000000?
+
+Item Mod Bag Slot 57 [Skiller]
+02459520 0000000?
+
+Item Amount Bag Slot 57 [Skiller]
+00459522 0000000?
+
+Item Level Bag Slot 57 [Skiller]
+00459523 0000000?
+
+Item Mod Bag Slot 58 [Skiller]
+02459524 0000000?
+
+Item Amount Bag Slot 58 [Skiller]
+00459526 0000000?
+
+Item Level Bag Slot 58 [Skiller]
+00459527 0000000?
+
+Item Mod Bag Slot 59 [Skiller]
+02459528 0000000?
+
+Item Amount Bag Slot 59 [Skiller]
+0045952A 0000000?
+
+Item Level Bag Slot 59 [Skiller]
+0045952B 0000000?
+
+Item Mod Bag Slot 60 [Skiller]
+0245952C 0000000?
+
+Item Amount Bag Slot 60 [Skiller]
+0045952E 0000000?
+
+Item Level Bag Slot 60 [Skiller]
+0045952F 0000000?
+
+Items in Chest Codes
+
+Item Roller (Chest) v1.0 (Level 1 Items) - or + (Wiimote) [Skiller]
+C216B6A0 0000000F
+3C608038 606359FF
+88630000 2C030010
+4082005C 2C090001
+40820054 3C608037
+6063E070 80630000
+2C030100 40A2001C
+A07E0000 38630001
+2C0302E9 41A20018
+B07E0000 48000028
+2C030200 40A20020
+A07E0000 3863FFFF
+2C03FFFF 41A2000C
+B07E0000 48000008
+B37E0000 A07E0000
+60000000 00000000
+Note: Pick an Item that is level 1 and Press + to move up list and - to move down list
+
+Item Mod Chest Slot 1 [Skiller]
+02459540 0000000?
+
+Item Amount Chest Slot 1 [Skiller]
+00459542 0000000?
+
+Item Level Chest Slot 1 [Skiller]
+00459543 0000000?
+
+Item Mod Chest Slot 2 [Skiller]
+02459544 0000000?
+
+Item Amount Chest Slot 2 [Skiller]
+00459546 0000000?
+
+Item Level Chest Slot 2 [Skiller]
+00459547 0000000?
+
+Item Mod Chest Slot 3 [Skiller]
+02459548 0000000?
+
+Item Amount Chest Slot 3 [Skiller]
+0045954A 0000000?
+
+Item Level Chest Slot 3 [Skiller]
+0045954B 0000000?
+
+Item Mod Chest Slot 4 [Skiller]
+0245954C 0000000?
+
+Item Amount Chest Slot 4 [Skiller]
+0045954E 0000000?
+
+Item Level Chest Slot 4 [Skiller]
+0045954F 0000000?
+
+Item Mod Chest Slot 5 [Skiller]
+02459550 0000000?
+
+Item Amount Chest Slot 5 [Skiller]
+00459552 0000000?
+
+Item Level Chest Slot 5 [Skiller]
+00459553 0000000?
+
+Item Mod Chest Slot 6 [Skiller]
+02459554 0000000?
+
+Item Amount Chest Slot 6 [Skiller]
+00459556 0000000?
+
+Item Level Chest Slot 6 [Skiller]
+00459557 0000000?
+
+Item Mod Chest Slot 7 [Skiller]
+02459558 0000000?
+
+Item Amount Chest Slot 7 [Skiller]
+0045955A 0000000?
+
+Item Level Chest Slot 7 [Skiller]
+0045955B 0000000?
+
+Item Mod Chest Slot 8 [Skiller]
+0245955C 0000000?
+
+Item Amount Chest Slot 8 [Skiller]
+0045955E 0000000?
+
+Item Level Chest Slot 8 [Skiller]
+0045955F 0000000?
+
+Item Mod Chest Slot 9 [Skiller]
+02459560 0000000?
+
+Item Amount Chest Slot 9 [Skiller]
+00459562 0000000?
+
+Item Level Chest Slot 9 [Skiller]
+00459563 0000000?
+
+Item Mod Chest Slot 10 [Skiller]
+02459564 0000000?
+
+Item Amount Chest Slot 10 [Skiller]
+00459566 0000000?
+
+Item Level Chest Slot 10 [Skiller]
+00459567 0000000?
+
+Item Mod Chest Slot 11 [Skiller]
+02459568 0000000?
+
+Item Amount Chest Slot 11 [Skiller]
+0045956A 0000000?
+
+Item Level Chest Slot 11 [Skiller]
+0045956B 0000000?
+
+Item Mod Chest Slot 12 [Skiller]
+0245956C 0000000?
+
+Item Amount Chest Slot 12 [Skiller]
+0045956E 0000000?
+
+Item Level Chest Slot 12 [Skiller]
+0045956F 0000000?
+
+Item Mod Chest Slot 13 [Skiller]
+02459570 0000000?
+
+Item Amount Chest Slot 13 [Skiller]
+00459572 0000000?
+
+Item Level Chest Slot 13 [Skiller]
+00459573 0000000?
+
+Item Mod Chest Slot 14 [Skiller]
+02459574 0000000?
+
+Item Amount Chest Slot 14 [Skiller]
+00459576 0000000?
+
+Item Level Chest Slot 14 [Skiller]
+00459577 0000000?
+
+Item Mod Chest Slot 15 [Skiller]
+02459578 0000000?
+
+Item Amount Chest Slot 15 [Skiller]
+0045957A 0000000?
+
+Item Level Chest Slot 15 [Skiller]
+0045957B 0000000?
+
+Item Mod Chest Slot 16 [Skiller]
+0245957C 0000000?
+
+Item Amount Chest Slot 16 [Skiller]
+0045957E 0000000?
+
+Item Level Chest Slot 16 [Skiller]
+0045957F 0000000?
+
+Item Mod Chest Slot 17 [Skiller]
+02459580 0000000?
+
+Item Amount Chest Slot 17 [Skiller]
+00459582 0000000?
+
+Item Level Chest Slot 17 [Skiller]
+00459583 0000000?
+
+Item Mod Chest Slot 18 [Skiller]
+02459584 0000000?
+
+Item Amount Chest Slot 18 [Skiller]
+00459586 0000000?
+
+Item Level Chest Slot 18 [Skiller]
+00459587 0000000?
+
+Item Mod Chest Slot 19 [Skiller]
+02459588 0000000?
+
+Item Amount Chest Slot 19 [Skiller]
+0045958A 0000000?
+
+Item Level Chest Slot 19 [Skiller]
+0045958B 0000000?
+
+Item Mod Chest Slot 20 [Skiller]
+0245958C 0000000?
+
+Item Amount Chest Slot 20 [Skiller]
+0045958E 0000000?
+
+Item Level Chest Slot 20 [Skiller]
+0045958F 0000000?
+
+Item Mod Chest Slot 21 [Skiller]
+02459590 0000000?
+
+Item Amount Chest Slot 21 [Skiller]
+00459592 0000000?
+
+Item Level Chest Slot 21 [Skiller]
+00459593 0000000?
+
+Item Mod Chest Slot 22 [Skiller]
+02459594 0000000?
+
+Item Amount Chest Slot 22 [Skiller]
+00459596 0000000?
+
+Item Level Chest Slot 22 [Skiller]
+00459597 0000000?
+
+Item Mod Chest Slot 23 [Skiller]
+02459598 0000000?
+
+Item Amount Chest Slot 23 [Skiller]
+0045959A 0000000?
+
+Item Level Chest Slot 23 [Skiller]
+0045959B 0000000?
+
+Item Mod Chest Slot 24 [Skiller]
+0245959C 0000000?
+
+Item Amount Chest Slot 24 [Skiller]
+0045959E 0000000?
+
+Item Level Chest Slot 24 [Skiller]
+0045959F 0000000?
+
+Item Mod Chest Slot 25 [Skiller]
+024595A0 0000000?
+
+Item Amount Chest Slot 25 [Skiller]
+004595A2 0000000?
+
+Item Level Chest Slot 25 [Skiller]
+004595A3 0000000?
+
+Item Mod Chest Slot 26 [Skiller]
+024595A4 0000000?
+
+Item Amount Chest Slot 26 [Skiller]
+004595A6 0000000?
+
+Item Level Chest Slot 26 [Skiller]
+004595A7 0000000?
+
+Item Mod Chest Slot 27 [Skiller]
+024595A8 0000000?
+
+Item Amount Chest Slot 27 [Skiller]
+004595AA 0000000?
+
+Item Level Chest Slot 27 [Skiller]
+004595AB 0000000?
+
+Item Mod Chest Slot 28 [Skiller]
+024595AC 0000000?
+
+Item Amount Chest Slot 28 [Skiller]
+004595AE 0000000?
+
+Item Level Chest Slot 28 [Skiller]
+004595AF 0000000?
+
+Item Mod Chest Slot 29 [Skiller]
+024595B0 0000000?
+
+Item Amount Chest Slot 29 [Skiller]
+004595B2 0000000?
+
+Item Level Chest Slot 29 [Skiller]
+004595B3 0000000?
+
+Item Mod Chest Slot 30 [Skiller]
+024595B4 0000000?
+
+Item Amount Chest Slot 30 [Skiller]
+004595B6 0000000?
+
+Item Level Chest Slot 30 [Skiller]
+004595B7 0000000?
+
+Item Mod Chest Slot 31 [Skiller]
+024595B8 0000000?
+
+Item Amount Chest Slot 31 [Skiller]
+004595BA 0000000?
+
+Item Level Chest Slot 31 [Skiller]
+004595BB 0000000?
+
+Item Mod Chest Slot 32 [Skiller]
+024595BC 0000000?
+
+Item Amount Chest Slot 32 [Skiller]
+004595BE 0000000?
+
+Item Level Chest Slot 32 [Skiller]
+004595BF 0000000?
+
+Item Mod Chest Slot 33 [Skiller]
+024595C0 0000000?
+
+Item Amount Chest Slot 33 [Skiller]
+004595C2 0000000?
+
+Item Level Chest Slot 33 [Skiller]
+004595C3 0000000?
+
+Item Mod Chest Slot 34 [Skiller]
+024595C4 0000000?
+
+Item Amount Chest Slot 34 [Skiller]
+004595C6 0000000?
+
+Item Level Chest Slot 34 [Skiller]
+004595C7 0000000?
+
+Item Mod Chest Slot 35 [Skiller]
+024595C8 0000000?
+
+Item Amount Chest Slot 35 [Skiller]
+004595CA 0000000?
+
+Item Level Chest Slot 35 [Skiller]
+004595CB 0000000?
+
+Item Mod Chest Slot 36 [Skiller]
+024595CC 0000000?
+
+Item Amount Chest Slot 36 [Skiller]
+004595CE 0000000?
+
+Item Level Chest Slot 36 [Skiller]
+004595CF 0000000?
+
+Item Mod Chest Slot 37 [Skiller]
+024595D0 0000000?
+
+Item Amount Chest Slot 37 [Skiller]
+004595D2 0000000?
+
+Item Level Chest Slot 37 [Skiller]
+004595D3 0000000?
+
+Item Mod Chest Slot 38 [Skiller]
+024595D4 0000000?
+
+Item Amount Chest Slot 38 [Skiller]
+004595D6 0000000?
+
+Item Level Chest Slot 38 [Skiller]
+004595D7 0000000?
+
+Item Mod Chest Slot 39 [Skiller]
+024595D8 0000000?
+
+Item Amount Chest Slot 39 [Skiller]
+004595DA 0000000?
+
+Item Level Chest Slot 39 [Skiller]
+004595DB 0000000?
+
+Item Mod Chest Slot 40 [Skiller]
+024595DC 0000000?
+
+Item Amount Chest Slot 40 [Skiller]
+004595DE 0000000?
+
+Item Level Chest Slot 40 [Skiller]
+004595DF 0000000?
+
+Item Mod Chest Slot 41 [Skiller]
+024595E0 0000000?
+
+Item Amount Chest Slot 41 [Skiller]
+004595E2 0000000?
+
+Item Level Chest Slot 41 [Skiller]
+004595E3 0000000?
+
+Item Mod Chest Slot 42 [Skiller]
+024595E4 0000000?
+
+Item Amount Chest Slot 42 [Skiller]
+004595E6 0000000?
+
+Item Level Chest Slot 42 [Skiller]
+004595E7 0000000?
+
+Item Mod Chest Slot 43 [Skiller]
+024595E8 0000000?
+
+Item Amount Chest Slot 43 [Skiller]
+004595EA 0000000?
+
+Item Level Chest Slot 43 [Skiller]
+004595EB 0000000?
+
+Item Mod Chest Slot 44 [Skiller]
+024595EC 0000000?
+
+Item Amount Chest Slot 44 [Skiller]
+004595EE 0000000?
+
+Item Level Chest Slot 44 [Skiller]
+004595EF 0000000?
+
+Item Mod Chest Slot 45 [Skiller]
+024595F0 0000000?
+
+Item Amount Chest Slot 45 [Skiller]
+004595F2 0000000?
+
+Item Level Chest Slot 45 [Skiller]
+004595F3 0000000?
+
+Item Mod Chest Slot 46 [Skiller]
+024595F4 0000000?
+
+Item Amount Chest Slot 46 [Skiller]
+004595F6 0000000?
+
+Item Level Chest Slot 46 [Skiller]
+004595F7 0000000?
+
+Item Mod Chest Slot 47 [Skiller]
+024595F8 0000000?
+
+Item Amount Chest Slot 47 [Skiller]
+004595FA 0000000?
+
+Item Level Chest Slot 47 [Skiller]
+004595FB 0000000?
+
+Item Mod Chest Slot 48 [Skiller]
+024595FC 0000000?
+
+Item Amount Chest Slot 48 [Skiller]
+004595FE 0000000?
+
+Item Level Chest Slot 48 [Skiller]
+004595FF 0000000?
+
+Item Mod Chest Slot 49 [Skiller]
+02459600 0000000?
+
+Item Amount Chest Slot 49 [Skiller]
+00459602 0000000?
+
+Item Level Chest Slot 49 [Skiller]
+00459603 0000000?
+
+Item Mod Chest Slot 50 [Skiller]
+02459604 0000000?
+
+Item Amount Chest Slot 50 [Skiller]
+00459606 0000000?
+
+Item Level Chest Slot 50 [Skiller]
+00459607 0000000?
+
+Item Mod Chest Slot 51 [Skiller]
+02459608 0000000?
+
+Item Amount Chest Slot 51 [Skiller]
+0045960A 0000000?
+
+Item Level Chest Slot 51 [Skiller]
+0045960B 0000000?
+
+Item Mod Chest Slot 52 [Skiller]
+0245960C 0000000?
+
+Item Amount Chest Slot 52 [Skiller]
+0045960E 0000000?
+
+Item Level Chest Slot 52 [Skiller]
+0045960F 0000000?
+
+Item Mod Chest Slot 53 [Skiller]
+02459610 0000000?
+
+Item Amount Chest Slot 53 [Skiller]
+00459612 0000000?
+
+Item Level Chest Slot 53 [Skiller]
+00459613 0000000?
+
+Item Mod Chest Slot 54 [Skiller]
+02459614 0000000?
+
+Item Amount Chest Slot 54 [Skiller]
+00459616 0000000?
+
+Item Level Chest Slot 54 [Skiller]
+00459617 0000000?
+
+Item Mod Chest Slot 55 [Skiller]
+02459618 0000000?
+
+Item Amount Chest Slot 55 [Skiller]
+0045961A 0000000?
+
+Item Level Chest Slot 55 [Skiller]
+0045961B 0000000?
+
+Item Mod Chest Slot 56 [Skiller]
+0245961C 0000000?
+
+Item Amount Chest Slot 56 [Skiller]
+0045961E 0000000?
+
+Item Level Chest Slot 56 [Skiller]
+0045961F 0000000?
+
+Item Mod Chest Slot 57 [Skiller]
+02459620 0000000?
+
+Item Amount Chest Slot 57 [Skiller]
+00459622 0000000?
+
+Item Level Chest Slot 57 [Skiller]
+00459623 0000000?
+
+Item Mod Chest Slot 58 [Skiller]
+02459624 0000000?
+
+Item Amount Chest Slot 58 [Skiller]
+00459626 0000000?
+
+Item Level Chest Slot 58 [Skiller]
+00459627 0000000?
+
+Item Mod Chest Slot 59 [Skiller]
+02459628 0000000?
+
+Item Amount Chest Slot 59 [Skiller]
+0045962A 0000000?
+
+Item Level Chest Slot 59 [Skiller]
+0045962B 0000000?
+
+Item Mod Chest Slot 60 [Skiller]
+0245962C 0000000?
+
+Item Amount Chest Slot 60 [Skiller]
+0045962E 0000000?
+
+Item Level Chest Slot 60 [Skiller]
+0045962F 0000000?
+
+Item ship Box Mod
+
+Item Mod Ship Box Slot 1 [Skiller]
+02459728 0000000?
+
+Item Amount Ship Box Slot 1 [Skiller]
+00459729 0000000?
+
+Item Level Ship Box Slot 1 [Skiller]
+0045972A 0000000?
+
+Item Mod Ship Box Slot 2 [Skiller]
+0245972C 0000000?
+
+Item Amount Ship Box Slot 2 [Skiller]
+0045972D 0000000?
+
+Item Level Ship Box Slot 2 [Skiller]
+0045972E 0000000?
+
+Item Mod Ship Box Slot 3 [Skiller]
+02459730 0000000?
+
+Item Amount Ship Box Slot 3 [Skiller]
+00459731 0000000?
+
+Item Level Ship Box Slot 3 [Skiller]
+00459732 0000000?
+
+Item Mod Ship Box Slot 4 [Skiller]
+02459734 0000000?
+
+Item Amount Ship Box Slot 4 [Skiller]
+00459735 0000000?
+
+Item Level Ship Box Slot 4 [Skiller]
+00459736 0000000?
+
+Item Mod Ship Box Slot 5 [Skiller]
+02459738 0000000?
+
+Item Amount Ship Box Slot 5 [Skiller]
+00459739 0000000?
+
+Item Level Ship Box Slot 5 [Skiller]
+0045973A 0000000?
+
+Item Mod Ship Box Slot 6 [Skiller]
+0245973C 0000000?
+
+Item Amount Ship Box Slot 6 [Skiller]
+0045973D 0000000?
+
+Item Level Ship Box Slot 6 [Skiller]
+0045973E 0000000?
+
+Item Mod Ship Box Slot 7 [Skiller]
+02459740 0000000?
+
+Item Amount Ship Box Slot 7 [Skiller]
+00459741 0000000?
+
+Item Level Ship Box Slot 7 [Skiller]
+00459742 0000000?
+
+Item Mod Ship Box Slot 8 [Skiller]
+02459744 0000000?
+
+Item Amount Ship Box Slot 8 [Skiller]
+00459745 0000000?
+
+Item Level Ship Box Slot 8 [Skiller]
+00459746 0000000?
+
+Item Mod Ship Box Slot 9 [Skiller]
+02459748 0000000?
+
+Item Amount Ship Box Slot 9 [Skiller]
+00459749 0000000?
+
+Item Level Ship Box Slot 9 [Skiller]
+0045974A 0000000?
+
+Item Mod Ship Box Slot 10 [Skiller]
+0245974C 0000000?
+
+Item Amount Ship Box Slot 10 [Skiller]
+0045974D 0000000?
+
+Item Level Ship Box Slot 10 [Skiller]
+0045974E 0000000?
+
+Item Mod Ship Box Slot 11 [Skiller]
+02459750 0000000?
+
+Item Amount Ship Box Slot 11 [Skiller]
+00459751 0000000?
+
+Item Level Ship Box Slot 11 [Skiller]
+00459752 0000000?
+
+Item Mod Ship Box Slot 12 [Skiller]
+02459754 0000000?
+
+Item Amount Ship Box Slot 12 [Skiller]
+00459755 0000000?
+
+Item Level Ship Box Slot 12 [Skiller]
+00459756 0000000?
+
+Item Mod Ship Box Slot 13 [Skiller]
+02459758 0000000?
+
+Item Amount Ship Box Slot 13 [Skiller]
+00459759 0000000?
+
+Item Level Ship Box Slot 13 [Skiller]
+0045975A 0000000?
+
+Item Mod Ship Box Slot 14 [Skiller]
+0245975C 0000000?
+
+Item Amount Ship Box Slot 14 [Skiller]
+0045975D 0000000?
+
+Item Level Ship Box Slot 14 [Skiller]
+0045975E 0000000?
+
+Item Mod Ship Box Slot 15 [Skiller]
+02459760 0000000?
+
+Item Amount Ship Box Slot 15 [Skiller]
+00459761 0000000?
+
+Item Level Ship Box Slot 15 [Skiller]
+00459762 0000000?
+
+Item Mod Ship Box Slot 16 [Skiller]
+02459764 0000000?
+
+Item Amount Ship Box Slot 16 [Skiller]
+00459765 0000000?
+
+Item Level Ship Box Slot 16 [Skiller]
+00459766 0000000?
+
+Item Mod Ship Box Slot 17 [Skiller]
+02459768 0000000?
+
+Item Amount Ship Box Slot 17 [Skiller]
+00459769 0000000?
+
+Item Level Ship Box Slot 17 [Skiller]
+0045976A 0000000?
+
+Item Mod Ship Box Slot 18 [Skiller]
+0245976C 0000000?
+
+Item Amount Ship Box Slot 18 [Skiller]
+0045976D 0000000?
+
+Item Level Ship Box Slot 18 [Skiller]
+0045976E 0000000?
+
+Item Mod Ship Box Slot 19 [Skiller]
+02459770 0000000?
+
+Item Amount Ship Box Slot 19 [Skiller]
+00459771 0000000?
+
+Item Level Ship Box Slot 19 [Skiller]
+00459772 0000000?
+
+Item Mod Ship Box Slot 20 [Skiller]
+02459774 0000000?
+
+Item Amount Ship Box Slot 20 [Skiller]
+00459775 0000000?
+
+Item Level Ship Box Slot 20 [Skiller]
+00459776 0000000?
+
+Item Mod Ship Box Slot 21 [Skiller]
+02459778 0000000?
+
+Item Amount Ship Box Slot 21 [Skiller]
+00459779 0000000?
+
+Item Level Ship Box Slot 21 [Skiller]
+0045977A 0000000?
+
+Item Mod Ship Box Slot 22 [Skiller]
+0245977C 0000000?
+
+Item Amount Ship Box Slot 22 [Skiller]
+0045977D 0000000?
+
+Item Level Ship Box Slot 22 [Skiller]
+0045977E 0000000?
+
+Item Mod Ship Box Slot 23 [Skiller]
+02459780 0000000?
+
+Item Amount Ship Box Slot 23 [Skiller]
+00459781 0000000?
+
+Item Level Ship Box Slot 23 [Skiller]
+00459782 0000000?
+
+Item Mod Ship Box Slot 24 [Skiller]
+02459784 0000000?
+
+Item Amount Ship Box Slot 24 [Skiller]
+00459785 0000000?
+
+Item Level Ship Box Slot 24 [Skiller]
+00459786 0000000?
+
+Item Mod Ship Box Slot 25 [Skiller]
+02459788 0000000?
+
+Item Amount Ship Box Slot 25 [Skiller]
+00459789 0000000?
+
+Item Level Ship Box Slot 25 [Skiller]
+0045978A 0000000?
+
+Item Mod Ship Box Slot 26 [Skiller]
+0245978C 0000000?
+
+Item Amount Ship Box Slot 26 [Skiller]
+0045978D 0000000?
+
+Item Level Ship Box Slot 26 [Skiller]
+0045978E 0000000?
+
+Item Mod Ship Box Slot 27 [Skiller]
+02459790 0000000?
+
+Item Amount Ship Box Slot 27 [Skiller]
+00459791 0000000?
+
+Item Level Ship Box Slot 27 [Skiller]
+00459792 0000000?
+
+Item Mod Ship Box Slot 28 [Skiller]
+02459794 0000000?
+
+Item Amount Ship Box Slot 28 [Skiller]
+00459795 0000000?
+
+Item Level Ship Box Slot 28 [Skiller]
+00459796 0000000?
+
+Item Mod Ship Box Slot 29 [Skiller]
+02459798 0000000?
+
+Item Amount Ship Box Slot 29 [Skiller]
+00459799 0000000?
+
+Item Level Ship Box Slot 29 [Skiller]
+0045979A 0000000?
+
+Item Mod Ship Box Slot 30 [Skiller]
+0245979C 0000000?
+
+Item Amount Ship Box Slot 30 [Skiller]
+0045979D 0000000?
+
+Item Level Ship Box Slot 30 [Skiller]
+0045979E 0000000?
+
+Item Mod Ship Box Slot 31 [Skiller]
+024597A0 0000000?
+
+Item Amount Ship Box Slot 31 [Skiller]
+004597A1 0000000?
+
+Item Level Ship Box Slot 31 [Skiller]
+004597A2 0000000?
+
+Item Mod Ship Box Slot 32 [Skiller]
+024597A4 0000000?
+
+Item Amount Ship Box Slot 32 [Skiller]
+004597A5 0000000?
+
+Item Level Ship Box Slot 32 [Skiller]
+004597A6 0000000?
+
+Item Mod Ship Box Slot 33 [Skiller]
+024597A8 0000000?
+
+Item Amount Ship Box Slot 33 [Skiller]
+004597A9 0000000?
+
+Item Level Ship Box Slot 33 [Skiller]
+004597AA 0000000?
+
+Item Mod Ship Box Slot 34 [Skiller]
+024597AC 0000000?
+
+Item Amount Ship Box Slot 34 [Skiller]
+004597AD 0000000?
+
+Item Level Ship Box Slot 34 [Skiller]
+004597AE 0000000?
+
+Item Mod Ship Box Slot 35 [Skiller]
+024597B0 0000000?
+
+Item Amount Ship Box Slot 35 [Skiller]
+004597B1 0000000?
+
+Item Level Ship Box Slot 35 [Skiller]
+004597B2 0000000?
+
+Item Mod Ship Box Slot 36 [Skiller]
+024597B4 0000000?
+
+Item Amount Ship Box Slot 36 [Skiller]
+004597B5 0000000?
+
+Item Level Ship Box Slot 36 [Skiller]
+004597B6 0000000?
+
+Item Mod Ship Box Slot 37 [Skiller]
+024597B8 0000000?
+
+Item Amount Ship Box Slot 37 [Skiller]
+004597B9 0000000?
+
+Item Level Ship Box Slot 37 [Skiller]
+004597BA 0000000?
+
+Item Mod Ship Box Slot 38 [Skiller]
+024597BC 0000000?
+
+Item Amount Ship Box Slot 38 [Skiller]
+004597BD 0000000?
+
+Item Level Ship Box Slot 38 [Skiller]
+004597BE 0000000?
+
+Item Mod Ship Box Slot 39 [Skiller]
+024597C0 0000000?
+
+Item Amount Ship Box Slot 39 [Skiller]
+004597C1 0000000?
+
+Item Level Ship Box Slot 39 [Skiller]
+004597C2 0000000?
+
+Item Mod Ship Box Slot 40 [Skiller]
+024597C4 0000000?
+
+Item Amount Ship Box Slot 40 [Skiller]
+004597C5 0000000?
+
+Item Level Ship Box Slot 40 [Skiller]
+004597C6 0000000?
+
+Item Mod Ship Box Slot 41 [Skiller]
+024597C8 0000000?
+
+Item Amount Ship Box Slot 41 [Skiller]
+004597C9 0000000?
+
+Item Level Ship Box Slot 41 [Skiller]
+004597CA 0000000?
+
+Item Mod Ship Box Slot 42 [Skiller]
+024597CC 0000000?
+
+Item Amount Ship Box Slot 42 [Skiller]
+004597CD 0000000?
+
+Item Level Ship Box Slot 42 [Skiller]
+004597CE 0000000?
+
+Item Mod Ship Box Slot 43 [Skiller]
+024597D0 0000000?
+
+Item Amount Ship Box Slot 43 [Skiller]
+004597D1 0000000?
+
+Item Level Ship Box Slot 43 [Skiller]
+004597D2 0000000?
+
+Item Mod Ship Box Slot 44 [Skiller]
+024597D4 0000000?
+
+Item Amount Ship Box Slot 44 [Skiller]
+004597D5 0000000?
+
+Item Level Ship Box Slot 44 [Skiller]
+004597D6 0000000?
+
+Item Mod Ship Box Slot 45 [Skiller]
+024597D8 0000000?
+
+Item Amount Ship Box Slot 45 [Skiller]
+004597D9 0000000?
+
+Item Level Ship Box Slot 45 [Skiller]
+004597DA 0000000?
+
+Item Mod Ship Box Slot 46 [Skiller]
+024597DC 0000000?
+
+Item Amount Ship Box Slot 46 [Skiller]
+004597DD 0000000?
+
+Item Level Ship Box Slot 46 [Skiller]
+004597DE 0000000?
+
+Item Mod Ship Box Slot 47 [Skiller]
+024597E0 0000000?
+
+Item Amount Ship Box Slot 47 [Skiller]
+004597E1 0000000?
+
+Item Level Ship Box Slot 47 [Skiller]
+004597E2 0000000?
+
+Item Mod Ship Box Slot 48 [Skiller]
+024597E4 0000000?
+
+Item Amount Ship Box Slot 48 [Skiller]
+004597E5 0000000?
+
+Item Level Ship Box Slot 48 [Skiller]
+004597E6 0000000?
+
+Item Mod Ship Box Slot 49 [Skiller]
+024597E8 0000000?
+
+Item Amount Ship Box Slot 49 [Skiller]
+004597E9 0000000?
+
+Item Level Ship Box Slot 49 [Skiller]
+004597EA 0000000?
+
+Item Mod Ship Box Slot 50 [Skiller]
+024597EC 0000000?
+
+Item Amount Ship Box Slot 50 [Skiller]
+004597ED 0000000?
+
+Item Level Ship Box Slot 50 [Skiller]
+004597EE 0000000?
+
+Item Mod Ship Box Slot 51 [Skiller]
+024597F0 0000000?
+
+Item Amount Ship Box Slot 51 [Skiller]
+004597F1 0000000?
+
+Item Level Ship Box Slot 51 [Skiller]
+004597F2 0000000?
+
+Item Mod Ship Box Slot 52 [Skiller]
+024597F4 0000000?
+
+Item Amount Ship Box Slot 52 [Skiller]
+004597F5 0000000?
+
+Item Level Ship Box Slot 52 [Skiller]
+004597F6 0000000?
+
+Item Mod Ship Box Slot 53 [Skiller]
+024597F8 0000000?
+
+Item Amount Ship Box Slot 53 [Skiller]
+004597F9 0000000?
+
+Item Level Ship Box Slot 53 [Skiller]
+004597FA 0000000?
+
+Item Mod Ship Box Slot 54 [Skiller]
+024597FC 0000000?
+
+Item Amount Ship Box Slot 54 [Skiller]
+004597FD 0000000?
+
+Item Level Ship Box Slot 54 [Skiller]
+004597FE 0000000?
+
+Item Mod Ship Box Slot 55 [Skiller]
+02459800 0000000?
+
+Item Amount Ship Box Slot 55 [Skiller]
+00459801 0000000?
+
+Item Level Ship Box Slot 55 [Skiller]
+00459802 0000000?
+
+Item Mod Ship Box Slot 56 [Skiller]
+02459804 0000000?
+
+Item Amount Ship Box Slot 56 [Skiller]
+00459805 0000000?
+
+Item Level Ship Box Slot 56 [Skiller]
+00459806 0000000?
+
+Item Mod Ship Box Slot 57 [Skiller]
+02459808 0000000?
+
+Item Amount Ship Box Slot 57 [Skiller]
+00459809 0000000?
+
+Item Level Ship Box Slot 57 [Skiller]
+0045980A 0000000?
+
+Item Mod Ship Box Slot 58 [Skiller]
+0245980C 0000000?
+
+Item Amount Ship Box Slot 58 [Skiller]
+0045980D 0000000?
+
+Item Level Ship Box Slot 58 [Skiller]
+0045980E 0000000?
+
+Item Mod Ship Box Slot 59 [Skiller]
+02459810 0000000?
+
+Item Amount Ship Box Slot 59 [Skiller]
+00459811 0000000?
+
+Item Level Ship Box Slot 59 [Skiller]
+00459812 0000000?
+
+Item Mod Ship Box Slot 60 [Skiller]
+02459814 0000000?
+
+Item Amount Ship Box Slot 60 [Skiller]
+00459815 0000000?
+
+Item Level Ship Box Slot 60 [Skiller]
+00459816 0000000?
+
+Item Mod Ship Box Slot 61 [Skiller]
+02459818 0000000?
+
+Item Amount Ship Box Slot 61 [Skiller]
+00459819 0000000?
+
+Item Level Ship Box Slot 61 [Skiller]
+0045981A 0000000?
+
+Item Mod Ship Box Slot 62 [Skiller]
+0245981C 0000000?
+
+Item Amount Ship Box Slot 62 [Skiller]
+0045981D 0000000?
+
+Item Level Ship Box Slot 62 [Skiller]
+0045981E 0000000?
+
+Item Mod Ship Box Slot 63 [Skiller]
+02459820 0000000?
+
+Item Amount Ship Box Slot 63 [Skiller]
+00459821 0000000?
+
+Item Level Ship Box Slot 63 [Skiller]
+00459822 0000000?
+
+Item Mod Ship Box Slot 64 [Skiller]
+02459824 0000000?
+
+Item Amount Ship Box Slot 64 [Skiller]
+00459825 0000000?
+
+Item Level Ship Box Slot 64 [Skiller]
+00459826 0000000?
+
+Item Mod Ship Box Slot 65 [Skiller]
+02459828 0000000?
+
+Item Amount Ship Box Slot 65 [Skiller]
+00459829 0000000?
+
+Item Level Ship Box Slot 65 [Skiller]
+0045982A 0000000?
+
+Item Mod Ship Box Slot 66 [Skiller]
+0245982C 0000000?
+
+Item Amount Ship Box Slot 66 [Skiller]
+0045982D 0000000?
+
+Item Level Ship Box Slot 66 [Skiller]
+0045982E 0000000?
+
+Item Mod Ship Box Slot 67 [Skiller]
+02459830 0000000?
+
+Item Amount Ship Box Slot 67 [Skiller]
+00459831 0000000?
+
+Item Level Ship Box Slot 67 [Skiller]
+00459832 0000000?
+
+Item Mod Ship Box Slot 68 [Skiller]
+02459834 0000000?
+
+Item Amount Ship Box Slot 68 [Skiller]
+00459835 0000000?
+
+Item Level Ship Box Slot 68 [Skiller]
+00459836 0000000?
+
+Item Mod Ship Box Slot 69 [Skiller]
+02459838 0000000?
+
+Item Amount Ship Box Slot 69 [Skiller]
+00459839 0000000?
+
+Item Level Ship Box Slot 69 [Skiller]
+0045983A 0000000?
+
+Item Mod Ship Box Slot 70 [Skiller]
+0245983C 0000000?
+
+Item Amount Ship Box Slot 70 [Skiller]
+0045983D 0000000?
+
+Item Level Ship Box Slot 70 [Skiller]
+0045983E 0000000?
+
+Item Mod Ship Box Slot 71 [Skiller]
+02459840 0000000?
+
+Item Amount Ship Box Slot 71 [Skiller]
+00459841 0000000?
+
+Item Level Ship Box Slot 71 [Skiller]
+00459842 0000000?
+
+Item Mod Ship Box Slot 72 [Skiller]
+02459844 0000000?
+
+Item Amount Ship Box Slot 72 [Skiller]
+00459845 0000000?
+
+Item Level Ship Box Slot 72 [Skiller]
+00459846 0000000?
+
+Item Mod Ship Box Slot 73 [Skiller]
+02459848 0000000?
+
+Item Amount Ship Box Slot 73 [Skiller]
+00459849 0000000?
+
+Item Level Ship Box Slot 73 [Skiller]
+0045984A 0000000?
+
+Item Mod Ship Box Slot 74 [Skiller]
+0245984C 0000000?
+
+Item Amount Ship Box Slot 74 [Skiller]
+0045984D 0000000?
+
+Item Level Ship Box Slot 74 [Skiller]
+0045984E 0000000?
+
+Item Mod Ship Box Slot 75 [Skiller]
+02459850 0000000?
+
+Item Amount Ship Box Slot 75 [Skiller]
+00459851 0000000?
+
+Item Level Ship Box Slot 75 [Skiller]
+00459852 0000000?
+
+Item Mod Ship Box Slot 76 [Skiller]
+02459854 0000000?
+
+Item Amount Ship Box Slot 76 [Skiller]
+00459855 0000000?
+
+Item Level Ship Box Slot 76 [Skiller]
+00459856 0000000?
+
+Item Mod Ship Box Slot 77 [Skiller]
+02459858 0000000?
+
+Item Amount Ship Box Slot 77 [Skiller]
+00459859 0000000?
+
+Item Level Ship Box Slot 77 [Skiller]
+0045985A 0000000?
+
+Item Mod Ship Box Slot 78 [Skiller]
+0245985C 0000000?
+
+Item Amount Ship Box Slot 78 [Skiller]
+0045985D 0000000?
+
+Item Level Ship Box Slot 78 [Skiller]
+0045985E 0000000?
+
+Item Mod Ship Box Slot 79 [Skiller]
+02459860 0000000?
+
+Item Amount Ship Box Slot 79 [Skiller]
+00459861 0000000?
+
+Item Level Ship Box Slot 79 [Skiller]
+00459862 0000000?
+
+Item Mod Ship Box Slot 80 [Skiller]
+02459864 0000000?
+
+Item Amount Ship Box Slot 80 [Skiller]
+00459865 0000000?
+
+Item Level Ship Box Slot 80 [Skiller]
+00459866 0000000?
+
+Item Mod Ship Box Slot 81 [Skiller]
+02459868 0000000?
+
+Item Amount Ship Box Slot 81 [Skiller]
+00459869 0000000?
+
+Item Level Ship Box Slot 81 [Skiller]
+0045986A 0000000?
+
+Item Mod Ship Box Slot 82 [Skiller]
+0245986C 0000000?
+
+Item Amount Ship Box Slot 82 [Skiller]
+0045986D 0000000?
+
+Item Level Ship Box Slot 82 [Skiller]
+0045986E 0000000?
+
+Item Mod Ship Box Slot 83 [Skiller]
+02459870 0000000?
+
+Item Amount Ship Box Slot 83 [Skiller]
+00459871 0000000?
+
+Item Level Ship Box Slot 83 [Skiller]
+00459872 0000000?
+
+Item Mod Ship Box Slot 84 [Skiller]
+02459874 0000000?
+
+Item Amount Ship Box Slot 84 [Skiller]
+00459875 0000000?
+
+Item Level Ship Box Slot 84 [Skiller]
+00459876 0000000?
+
+Item Mod Ship Box Slot 85 [Skiller]
+02459878 0000000?
+
+Item Amount Ship Box Slot 85 [Skiller]
+00459879 0000000?
+
+Item Level Ship Box Slot 85 [Skiller]
+0045987A 0000000?
+
+Item Mod Ship Box Slot 86 [Skiller]
+0245987C 0000000?
+
+Item Amount Ship Box Slot 86 [Skiller]
+0045987D 0000000?
+
+Item Level Ship Box Slot 86 [Skiller]
+0045987E 0000000?
+
+Item Mod Ship Box Slot 87 [Skiller]
+02459880 0000000?
+
+Item Amount Ship Box Slot 87 [Skiller]
+00459881 0000000?
+
+Item Level Ship Box Slot 87 [Skiller]
+00459882 0000000?
+
+Item Mod Ship Box Slot 88 [Skiller]
+02459884 0000000?
+
+Item Amount Ship Box Slot 88 [Skiller]
+00459885 0000000?
+
+Item Level Ship Box Slot 88 [Skiller]
+00459886 0000000?
+
+Item Mod Ship Box Slot 89 [Skiller]
+02459888 0000000?
+
+Item Amount Ship Box Slot 89 [Skiller]
+00459889 0000000?
+
+Item Level Ship Box Slot 89 [Skiller]
+0045988A 0000000?
+
+Item Mod Ship Box Slot 90 [Skiller]
+0245988C 0000000?
+
+Item Amount Ship Box Slot 90 [Skiller]
+0045988D 0000000?
+
+Item Level Ship Box Slot 90 [Skiller]
+0045988E 0000000?
+
+Item Mod Ship Box Slot 91 [Skiller]
+02459890 0000000?
+
+Item Amount Ship Box Slot 91 [Skiller]
+00459891 0000000?
+
+Item Level Ship Box Slot 91 [Skiller]
+00459892 0000000?
+
+Item Mod Ship Box Slot 92 [Skiller]
+02459894 0000000?
+
+Item Amount Ship Box Slot 92 [Skiller]
+00459895 0000000?
+
+Item Level Ship Box Slot 92 [Skiller]
+00459896 0000000?
+
+Item Mod Ship Box Slot 93 [Skiller]
+02459898 0000000?
+
+Item Amount Ship Box Slot 93 [Skiller]
+00459899 0000000?
+
+Item Level Ship Box Slot 93 [Skiller]
+0045989A 0000000?
+
+Item Mod Ship Box Slot 94 [Skiller]
+0245989C 0000000?
+
+Item Amount Ship Box Slot 94 [Skiller]
+0045989D 0000000?
+
+Item Level Ship Box Slot 94 [Skiller]
+0045989E 0000000?
+
+Item Mod Ship Box Slot 95 [Skiller]
+024598A0 0000000?
+
+Item Amount Ship Box Slot 95 [Skiller]
+004598A1 0000000?
+
+Item Level Ship Box Slot 95 [Skiller]
+004598A2 0000000?
+
+Item Mod Ship Box Slot 96 [Skiller]
+024598A4 0000000?
+
+Item Amount Ship Box Slot 96 [Skiller]
+004598A5 0000000?
+
+Item Level Ship Box Slot 96 [Skiller]
+004598A6 0000000?
+
+Item Mod Ship Box Slot 97 [Skiller]
+024598A8 0000000?
+
+Item Amount Ship Box Slot 97 [Skiller]
+004598A9 0000000?
+
+Item Level Ship Box Slot 97 [Skiller]
+004598AA 0000000?
+
+Item Mod Ship Box Slot 98 [Skiller]
+024598AC 0000000?
+
+Item Amount Ship Box Slot 98 [Skiller]
+004598AD 0000000?
+
+Item Level Ship Box Slot 98 [Skiller]
+004598AE 0000000?
+
+Item Mod Ship Box Slot 99 [Skiller]
+024598B0 0000000?
+
+Item Amount Ship Box Slot 99 [Skiller]
+004598B1 0000000?
+
+Item Level Ship Box Slot 99 [Skiller]
+004598B2 0000000?
+
+Item Mod Ship Box Slot 100 [Skiller]
+024598B4 0000000?
+
+Item Amount Ship Box Slot 100 [Skiller]
+004598B5 0000000?
+
+Item Level Ship Box Slot 100 [Skiller]
+004598B6 0000000?
+
+Item Mod Ship Box Slot 101 [Skiller]
+024598B8 0000000?
+
+Item Amount Ship Box Slot 101 [Skiller]
+004598B9 0000000?
+
+Item Level Ship Box Slot 101 [Skiller]
+004598BA 0000000?
+
+Item Mod Ship Box Slot 102 [Skiller]
+024598BC 0000000?
+
+Item Amount Ship Box Slot 102 [Skiller]
+004598BD 0000000?
+
+Item Level Ship Box Slot 102 [Skiller]
+004598BE 0000000?
+
+Item Mod Ship Box Slot 103 [Skiller]
+024598C0 0000000?
+
+Item Amount Ship Box Slot 103 [Skiller]
+004598C1 0000000?
+
+Item Level Ship Box Slot 103 [Skiller]
+004598C2 0000000?
+
+Item Mod Ship Box Slot 104 [Skiller]
+024598C4 0000000?
+
+Item Amount Ship Box Slot 104 [Skiller]
+004598C5 0000000?
+
+Item Level Ship Box Slot 104 [Skiller]
+004598C6 0000000?
+
+Item Mod Ship Box Slot 105 [Skiller]
+024598C8 0000000?
+
+Item Amount Ship Box Slot 105 [Skiller]
+004598C9 0000000?
+
+Item Level Ship Box Slot 105 [Skiller]
+004598CA 0000000?
+
+Item Mod Ship Box Slot 106 [Skiller]
+024598CC 0000000?
+
+Item Amount Ship Box Slot 106 [Skiller]
+004598CD 0000000?
+
+Item Level Ship Box Slot 106 [Skiller]
+004598CE 0000000?
+
+Item Mod Ship Box Slot 107 [Skiller]
+024598D0 0000000?
+
+Item Amount Ship Box Slot 107 [Skiller]
+004598D1 0000000?
+
+Item Level Ship Box Slot 107 [Skiller]
+004598D2 0000000?
+
+Item Mod Ship Box Slot 108 [Skiller]
+024598D4 0000000?
+
+Item Amount Ship Box Slot 108 [Skiller]
+004598D5 0000000?
+
+Item Level Ship Box Slot 108 [Skiller]
+004598D6 0000000?
+
+Item Mod Ship Box Slot 109 [Skiller]
+024598D8 0000000?
+
+Item Amount Ship Box Slot 109 [Skiller]
+004598D9 0000000?
+
+Item Level Ship Box Slot 109 [Skiller]
+004598DA 0000000?
+
+Item Mod Ship Box Slot 110 [Skiller]
+024598DC 0000000?
+
+Item Amount Ship Box Slot 110 [Skiller]
+004598DD 0000000?
+
+Item Level Ship Box Slot 110 [Skiller]
+004598DE 0000000?
+
+Item Mod Ship Box Slot 111 [Skiller]
+024598E0 0000000?
+
+Item Amount Ship Box Slot 111 [Skiller]
+004598E1 0000000?
+
+Item Level Ship Box Slot 111 [Skiller]
+004598E2 0000000?
+
+Item Mod Ship Box Slot 112 [Skiller]
+024598E4 0000000?
+
+Item Amount Ship Box Slot 112 [Skiller]
+004598E5 0000000?
+
+Item Level Ship Box Slot 112 [Skiller]
+004598E6 0000000?
+
+Item Mod Ship Box Slot 113 [Skiller]
+024598E8 0000000?
+
+Item Amount Ship Box Slot 113 [Skiller]
+004598E9 0000000?
+
+Item Level Ship Box Slot 113 [Skiller]
+004598EA 0000000?
+
+Item Mod Ship Box Slot 114 [Skiller]
+024598EC 0000000?
+
+Item Amount Ship Box Slot 114 [Skiller]
+004598ED 0000000?
+
+Item Level Ship Box Slot 114 [Skiller]
+004598EE 0000000?
+
+Item Mod Ship Box Slot 115 [Skiller]
+024598F0 0000000?
+
+Item Amount Ship Box Slot 115 [Skiller]
+004598F1 0000000?
+
+Item Level Ship Box Slot 115 [Skiller]
+004598F2 0000000?
+
+Item Mod Ship Box Slot 116 [Skiller]
+024598F4 0000000?
+
+Item Amount Ship Box Slot 116 [Skiller]
+004598F5 0000000?
+
+Item Level Ship Box Slot 116 [Skiller]
+004598F6 0000000?
+
+Item Mod Ship Box Slot 117 [Skiller]
+024598F8 0000000?
+
+Item Amount Ship Box Slot 117 [Skiller]
+004598F9 0000000?
+
+Item Level Ship Box Slot 117 [Skiller]
+004598FA 0000000?
+
+Item Mod Ship Box Slot 118 [Skiller]
+024598FC 0000000?
+
+Item Amount Ship Box Slot 118 [Skiller]
+004598FD 0000000?
+
+Item Level Ship Box Slot 118 [Skiller]
+004598FE 0000000?
+
+Item Mod Ship Box Slot 119 [Skiller]
+02459900 0000000?
+
+Item Amount Ship Box Slot 119 [Skiller]
+00459901 0000000?
+
+Item Level Ship Box Slot 119 [Skiller]
+00459902 0000000?
+
+Item Mod Ship Box Slot 120 [Skiller]
+02459904 0000000?
+
+Item Amount Ship Box Slot 120 [Skiller]
+00459905 0000000?
+
+Item Level Ship Box Slot 120 [Skiller]
+00459906 0000000?
+
+Item Digits
+
+Time Codes
+
+Set Time at x [Patedj]
+2837D98A xxxxxxxx
+CC000000 00000000
+04452A24 yyyy0000
+E0000000 80008000
+Replace x with button coord. and replace Y with desired time.Pressing the desired button will stop the clock at the desired time. Pressing the desired button once more will let the time flow again.
+
+Let time flow [Patedj]
+2837D98A xxxxxxxx
+82200001 80452A24
+86000001 yyyy0000
+84200001 80452A24
+E0000000 80008000
+Replace x with button coord. and replace Y with desired time that will pass. (Recommended yyyy=0001)
+
+Other Characters
+
+Everybody loves you code [Patedj]
+0845B238 00FF00FF
+20270038 00000000
+
+Monster Friendship + Level maxed [Patedj]
+2837D98A 0000xxxx
+0845C750 0000FFFF
+10450060 00000000
+E0000000 80008000
+Press appropriate button to activate.
+Replace xxxx with button

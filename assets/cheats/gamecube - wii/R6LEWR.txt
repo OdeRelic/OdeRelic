@@ -1,0 +1,9 @@
+R6LEWR
+LEGO Rock Band
+
+Hooktype: AXNextFrame
+
+Max Story Mode Coins [BoxNinja]
+42000000 90000000
+04D81AD8 0098967F
+E0000000 80008000

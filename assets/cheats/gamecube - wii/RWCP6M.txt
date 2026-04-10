@@ -1,0 +1,57 @@
+RWCP6M
+Williams Pinball Classics
+
+999 Credits
+
+999 Credits [Crapulecorp]
+022344DE 000003E7
+
+Refill 999 Credits (Press Up) [Crapulecorp]
+283CB018 FFF70008
+022344DE 000003E7
+E0000000 80008000
+*WiiMote-NunChuck*
+
+Have/Unlimited 999 Credits (Press Up ON/OFF) [Crapulecorp]
+283CB018 FFF70008
+CC000000 00000000
+022344DE 000003E7
+E0000000 80008000
+*WiiMote-NunChuck*
+
+First Ball
+
+Reset To First Ball (Press C) [Crapulecorp]
+283CB018 BFFF4000
+0022F1D7 00000002
+E0000000 80008000
+*WiiMote-NunChuck*
+
+Always First Ball (Press C ON/OFF) [Crapulecorp]
+283CB018 BFFF4000
+0022F1D7 00000002
+E0000000 80008000
+*WiiMote-NunChuck*
+
+Score Max
+
+Score Max [Crapulecorp]
+0422F1C4 11DFFFFF
+
+Score Max (Press A) [Crapulecorp]
+283CB018 F7FF0800
+0422F1C4 11DFFFFF
+E0000000 80008000
+*WiiMote-NunChuck*
+
+Score Max (Press A ON/OFF) [Crapulecorp]
+283CB018 F7FF0800
+CC000000 00000000
+0422F1C4 11DFFFFF
+E0000000 80008000
+*WiiMote-NunChuck*
+
+Button Activator
+
+WiiMote-NunChuck [Crapulecorp]
+283CB018 YYYYZZZZ

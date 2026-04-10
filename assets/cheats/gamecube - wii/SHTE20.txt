@@ -1,0 +1,7 @@
+SHTE20
+Mathew's Bowhunting
+
+Inf. Arrows for Hunt [savage]
+42000000 90000000
+042E08C0 42C60000
+E0000000 80008000

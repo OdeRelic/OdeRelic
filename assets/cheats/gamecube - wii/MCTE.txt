@@ -1,0 +1,14 @@
+MCTE
+Clay Fighters
+
+P1 Refill Health [GMO]
+281A7422 00000402
+0344CE82 00006868
+E0000000 80008000
+Hold B and press Right on D-Pad
+
+P1 Easy Win (P2 Life Mod) [GMO]
+281A7422 00000401
+0344CEFA 00000000
+E0000000 80008000
+Hold B and press Left on D-Pad

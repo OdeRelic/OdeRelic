@@ -1,0 +1,27 @@
+WIVE
+Space Invaders: Get Even
+
+Max Score [GMO]
+043F9CFC 05F5E0FF
+
+Score Multiplier x10 [GMO]
+014960FC 0000000A
+
+Low Time 00:00 [GMO]
+043F9CFA 00000000
+
+Add More Mission Time Press ( - ) [GMO]
+284925D2 00001000
+023F9D06 00001520
+E0000000 80008000
+
+Unlimited SP [GMO]
+0044451F 00000003
+
+Unlimited Invaders [GMO]
+00444497 00000064
+
+Invincible [GMO]
+00444520 0000005A
+
+Unlimited Mission Time

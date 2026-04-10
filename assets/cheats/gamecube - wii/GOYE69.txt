@@ -1,0 +1,35 @@
+GOYE69
+Goldeneye Rogue Agent 
+
+Never Lose Health
+040A0D44 60000000
+
+Never Lose Armor
+040A0C70 60000000
+
+Never Lose Eye Power
+040A43E0 4E800020
+
+Infinite Ammo
+04542E4C 00000001
+
+Unlock All Missions
+0000314D 00000018
+
+Unlock Multiplayer Maps
+000094AC 000000FF
+
+Enemies are Idiots
+0410ECAC 4E800020
+
+Enemies Cannot Throw Grenades
+040FC010 4E800020
+
+Big Arms
+04542E78 3F800000
+
+Slow Enemies
+044F7FFC 3D000000
+
+Disable Shadows
+044FA2A4 00000001

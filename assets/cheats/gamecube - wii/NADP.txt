@@ -1,0 +1,100 @@
+NADP
+Lylat Wars
+
+Unlimited Lives [Crapulecorp]
+0116BB69 00000063
+
+Unlimited Health (Fox) [Crapulecorp]
+031495E6 0000017F
+
+Unlimited Health (Falco) [Crapulecorp]
+0118197F 000000FF
+*Code ported from hawkeye2777 Ntsc Usa Version*
+
+Unlimited Health (Slippy) [Crapulecorp]
+01181983 000000FF
+*Code ported from hawkeye2777 Ntsc Usa Version*
+
+Unlimited Health (Peppy) [Crapulecorp]
+01181987 000000FF
+*Code ported from hawkeye2777 Ntsc Usa Version*
+
+Wings Never Break [Crapulecorp]
+01181DF3 0000003C
+01181DDB 0000003C
+*Code ported from hawkeye2777 Ntsc Usa Version*
+
+Unlimited Smart Bombs [Crapulecorp]
+01181E6B 00000009
+*Code ported from hawkeye2777 Ntsc Usa Version*
+
+Laser Mod [Crapulecorp]
+0116BB73 0000000X
+*Replace X for :
+0 - Normal
+1 - Twin
+2 - Hyper*
+*Code ported from hawkeye2777 Ntsc Usa Version*
+
+Laser Mod Switcher (Press ZL) [Crapulecorp]
+20001504 00000000
+0116BB73 00000000
+20001505 00000010
+0116BB73 00000001
+20001505 00000020
+0116BB73 00000002
+E0000000 80008000
+281F0FD2 FF7F0080
+82200000 80001504
+86000000 00000001
+84200000 80001504
+20001505 00000030
+04001504 00000000
+E0000000 80008000
+*Classic Controller*
+
+Laser Mod Switcher (Press Z) [Crapulecorp]
+20001504 00000000
+0116BB73 00000000
+20001505 00000010
+0116BB73 00000001
+20001505 00000020
+0116BB73 00000002
+E0000000 80008000
+28A9A200 FFEF0010
+82200000 80001504
+86000000 00000001
+84200000 80001504
+20001505 00000030
+04001504 00000000
+E0000000 80008000
+*GameCube Controller*
+
+Unlimited Boost [Crapulecorp]
+05149634 00000000
+05146754 00000000
+*Code ported from hawkeye2777 Ntsc Usa Version*
+
+Maximum Destroyed Enemies [Crapulecorp]
+0316BB62 000003E7
+*Code ported from Anarion Ntsc Usa Version*
+
+1HP Boss Health [Crapulecorp]
+01179239 00000001
+*Most bosses will be destroyed with 1 hit.
+*Code ported from Anarion Ntsc Usa Version*
+
+Maximum Game Score [Crapulecorp]
+0516B7DE XXXXXXXX
+*Replace XXXXXXXXX for :
+3B9AC9FF : 999999999 points = highest visible number.
+FFFFFFFF = highest amount possible.*
+*Code ported from Anarion Ntsc Usa Version*
+
+Button Activator
+
+Classic Controller [Crapulecorp]
+281F0FD2 YYYYZZZZ
+
+GameCube Controller [Crapulecorp]
+28A9A200 YYYYZZZZ

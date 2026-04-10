@@ -1,0 +1,18 @@
+GHLE69
+Harry Potter Chamber Of Secrets 
+
+Infinite Health
+0444AF08 00C000C0
+0446284C 00C000C0
+
+Max/Infinite Beans
+0444AEF4 00640064
+
+Max/Infinite Sickles
+0244AE1A 000003E7
+
+Have All Spells
+0444AF24 FFFFFFFF
+
+Have All Folio Magi Cards
+0244AE20 00650001

@@ -1,0 +1,41 @@
+RSXE13
+SSX Blur
+
+Misc Codes
+
+Max Score [GMO]
+0489C590 05F5E0FF
+
+Unlock All Password Cheats [GMO]
+04697DF4 01010001
+04697DF8 01010101
+04697DF4 01000001
+
+Unlock Individual Password Cheats
+
+Unlock All Tracks [GMO]
+00697DF4 00000001
+
+Max Stats All Characters [GMO]
+00697DF5 00000001
+
+Unlock All Characters [GMO]
+00697DF7 00000001
+
+Unlock All Outfits [GMO]
+00697DF8 00000001
+
+Unlock All Ubertricks [GMO]
+00697DF9 00000001
+
+Unlock All Boards and Skis [GMO]
+00697DFA 00000001
+
+Unlock All Concept Art [GMO]
+00697DFB 00000001
+
+Groove Always Maxed Out [GMO]
+00697DFC 00000001
+
+Unlock Yeti Costume [GMO]
+00697DFF 00000001

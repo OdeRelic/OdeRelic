@@ -1,0 +1,18 @@
+SENPZX
+Enclave: Shadows of Twilight
+
+If Decrease Unlimited & Max Arrows [Crapulecorp]
+C249308C 00000002
+3C000000 600000F0
+90030110 00000000
+
+Arrows No Relaod [Crapulecorp]
+04492FFC 60000000
+
+Unlimited Object [Crapulecorp]
+04496E2C 38040000
+
+If Decrease Unlimited & Max Money In Store [Crapulecorp]
+C2174ECC 00000002
+3C600001 6063869F
+907F0020 00000000

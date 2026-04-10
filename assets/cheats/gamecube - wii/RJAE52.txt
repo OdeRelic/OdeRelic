@@ -1,0 +1,677 @@
+RJAE52
+Call of Duty Modern Warfare: Reflex
+
+Mega Custom Class Unlocker
+Code Removed! 20th May Wifi Function Deactivated!
+
+-CODE REMOVED! 20th MAY WIFI FUNCTION DEACTIVATED-
+
+wall hack [superman]
+05077DAC 420C0000
+non host
+
+Join session in progress On/Off [superman]
+2817FE0A 00008000
+050689D4 01000000
+2817FE0A 00000004
+050689D4 00000000
+E0000000 80008000
+Press home for ON and Down for OFF
+
+AC130 [Crashzer]
+077FDFE0 00000008
+2A9A10F6 000C6140
+*Replaces Backlot
+*http://i49.tinypic.com/nc0brr.png
+
+Kill House [Crashzer]
+077FE04C 00000008
+39D06E7E 000B4D00
+*Replaces Vacant
+*http://i50.tinypic.com/zofgua.png
+
+Jeep Ride [Crashzer]
+077FE16C 00000008
+39CC0816 000D6A20
+*Replaces Pipeline
+*http://i47.tinypic.com/o6mude.png
+
+Scout Sniper [Crashzer]
+077FE1D8 00000008
+39F9F2F6 0009B540
+*Replaces Strike
+*http://i48.tinypic.com/1zlyt0h.png
+
+Sound Spoofer [Crashzer]
+077FE298 00000008
+1A5CFC00 00000800
+*Game Sounds Robotic
+
+Red Vision [Crashzer]
+0494D0D4 6FFFFFFF
+
+Blue Vision [Crashzer]
+0494D0D0 6FFFFFFF
+*http://i45.tinypic.com/nn0cxd.png
+
+Lime Vision [Crashzer]
+0494D0D0 FFFFFFFF
+
+Checkered Map In lobby [Crashzer]
+F6000001 8100817F
+810761E8 8068D00C
+14000010 80EA0AB9
+E0000000 80008000
+*http://i49.tinypic.com/5wwmt.png
+*This code will cause a freeze if you start the game with it activated
+
+Name Of Map Modifier [Crashzer]
+06EA075C 00000018
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+E0000000 80008000
+*http://i50.tinypic.com/11uyys8.png
+
+"Please insert the Disc" Modifier [Crashzer]
+060F113C 00000018
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+060F13A8 00000018
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+E0000000 80008000
+*Use this code and eject the disc
+* X = Message in hex
+
+Reticle Color Cycler V1.0 [PoptartHunter]
+2817FE0A 00000400
+0506610C 00000001
+CC000000 00000001
+0506610C 00000002
+CC000000 00000001
+0506610C 00000003
+CC000000 00000001
+0506610C 00000004
+CC000000 00000001
+0506610C 00000005
+CC000000 00000001
+0506610C 00000006
+CC000000 00000001
+0506610C 00000007
+CC000000 00000001
+0506610C 00000008
+CC000000 00000001
+0506610C 00000009
+E0000000 80008000
+*Every time you shoot, the color of your reticle will change.
+
+Auto Shoot On Reload PoptartHunter
+0470F4F4 01000000 
+*This will make your gun shoot automatically when you reload.
+
+Reticle Color Cycler V2.5
+A8000008 00000020 
+80000000 8106610C 
+86010000 00000001 
+2506610C 00000009 
+0506610C 00000000 
+E2100000 80008000 
+*This version cycles the colors automatically without activating.
+*V.5 - fixed the freezing caused by a few messed up lines in the code.
+
+Reticle Color Cycler V2.0 PoptartHunter
+A8000008 00000020 
+80000000 8106610C 
+86010000 00000001 
+2406610C 00000009 
+0406610C 00000000 
+E2100000 80008000 
+*This version cycles the colors automatically without activating.
+
+Moon Jump Host Only [Seth@WiiPlaza]
+2817FE0A FFF70008 [Seth@WiiPlaza]
+C0000000 00000004
+3D808078 618C44F4
+3D604400 616B0000
+916C0000 4E800020
+4E800020 00000000
+C0000000 00000004
+3D808107 618C387C
+3D606904 616B5951
+916C0000 4E800020
+4E800020 00000000
+E0000000 80008000
+*press UP for moon Jump
+
+Instant Level 55 [Seth@WiiPlaza]
+C0000000 00000004
+3D808090 618C8600
+3D600028 616B6425
+916C0000 4E800020
+4E800020 00000000
+E0000000 80008000
+
+All Players Have Infinite Health (Host Only) [Seth@WiiPlaza]
+C0000000 00000004
+3D606000 3D80803A
+398C6F2A 616B0000
+916C18DE 4E800020
+4E800020 00000000
+E0000000 80008000
+
+Give Laser On Weapon [Seth@WiiPlaza]
+2817D6E0 00008000
+0506E53C 01000000
+C0000000 00000004
+3D600100 3D808106
+398C7FFF 616B0000
+916C64F5 4E800020
+4E800020 00000000
+E0000000 80008000
+*press home on wiimote to activate
+*credits to ozelot
+
+Infinite Ammo All Players (Host Only) [Seth@WiiPlaza]
+2817D6E0 00008000
+C0000000 00000004
+3D808078 618C4700
+3D600000 616B0001
+916C0000 4E800020
+4E800020 00000000
+C0000000 00000004
+3D80802D 618C95F4
+3D606000 616B0000
+916C0000 4E800020
+4E800020 00000000
+E0000000 80008000
+*press HOME to activate
+
+Rapid Fire (All Players+HostOnly) [Seth@WiiPlaza]
+2817D6E0 00008000
+C0000000 00000004
+3D80802D 618CBBEC
+3D606000 616B0000
+916C0000 4E800020
+4E800020 00000000
+E0000000 80008000
+*Press Home To activate
+
+Infinite Ammo All Players (Host Only) [Seth@WiiPlaza]
+2817D6E0 00008000
+C0000000 00000004
+3D808078 618C4700
+3D600000 616B0001
+916C0000 4E800020
+4E800020 00000000
+C0000000 00000004
+3D80802D 618C95F4
+3D606000 616B0000
+916C0000 4E800020
+4E800020 00000000
+E0000000 80008000
+*press HOME to activate
+
+Rapid Fire (All Players+HostOnly) [Seth@WiiPlaza]
+2817D6E0 00008000
+C0000000 00000004
+3D80802D 618CBBEC
+3D606000 616B0000
+916C0000 4E800020
+4E800020 00000000
+E0000000 80008000
+*Press Home To activate
+
+Reticle Color Cycler (outer) [BoxNinja]
+A8000008 00000020
+80000000 81066154
+86010000 00000001
+25066154 00000009
+05066154 00000000
+E2100000 80008000
+*Huge thanks to PoptartHunter for the address range
+
+Reticle Style Cycler [BoxNinja]
+A8000008 00000020
+80000000 810660C4
+86010000 00000001
+250660C4 00000009
+050660C4 00000000
+E2100000 80008000
+*Huge thanks to PoptartHunter for the address range
+
+Running While Walking [BLiTz*]
+04785B84 FFFFFFFF
+
+Bunny Hop Movement [BLiTz*]
+04785B84 01000000
+
+Disable Knifing All Players [BLiTz*]
+050750AC FFFFFFFF
+FFFFFFFF 00000000
+E0000000 80008000
+050750F4 FFFFFFFF
+FFFFFFFF 00000000
+E0000000 80008000
+0507513C FFFFFFFF
+FFFFFFFF 00000000
+E0000000 80008000
+05075184 FFFFFFFF
+FFFFFFFF 00000000
+E0000000 80008000
+
+Auto Teams [BLiTz*]
+050687DC 0X000000
+X Values:
+1: On
+0: Off
+
+Ingame Color Name Changer [BLiTz*]
+050715E4 RRGGBBAA
+
+Silent Running/Walking [BLiTz*]
+05074374 7F000000
+
+Individual Ping Color Modifier [BLiTz*]
+05071288 RRGGBBAA
+050712CF RRGGBBAA
+05071318 RRGGBBAA
+05071360 RRGGBB80
+In order:
+(High Ping-RED)
+(Med. ping-YELLOW)
+(Low Ping-LIGHT GREEN
+(Ping Bar Background)Keep the 80 there.
+
+Jump and Kill Yourself [BLiTz*]
+047844F4 FFFFFFFF
+
+modify kill & score [xcoopa]
+04785AD2 00000xxx
+04785ADA 00000xxx
+
+Activator version
+modify kill & score [xcoopa]
+2817D6E0 00008000
+CC000000 00000001
+04785AD2 00000xxx
+04785ADA 00000xxx
+E0000000 80008000
+use HOME botton to turn on
+
+The Piss off Code [xcoopa]
+2817D6E0 00008000
+CC000000 00000001
+0417FFB4 FFFFFFFF
+E0000000 80008000
+give this code to some one you dont like.it will bring up the menu over and over.
+
+Gun rectical enhancer [xcoopa]
+2817D6E0 00008000
+CC000000 00000001
+05066A0C 40834466
+81066164 0000000X
+E0000000 80008000
+Press Home to activate reaplce the X with 1 threw 9 changes out side color
+
+Prestige Changer [hetoan2]
+04908664 0000000X
+use values 0-B (0 through 11th)
+
+Infinite Ammo all players ON [hetoan2]
+042D969C 380000FF
+
+Infinite Ammo all players OFF [hetoan2]
+042D969C 7C040050
+
+Moon Jump host only [hetoan2]
+2817FE0A FFF70008
+047844F4 44000000
+E0000000 80008000
+
+Rapid fire host only [hetoan2]
+04784500 00000000
+
+XP modifier (doesnt unlock and breaks level ups) [hetoan2]
+04908600 00XXXXXX
+
+Level 55 [hetoan2]
+04908600 00286425
+
+non-host nick mod slot 1 [hetoan2]
+067F72C4 000000YY
+XXXXXXXX XXXXXXXX
+
+Inf HP host only [hetoan2]
+05556BB0 00000000
+
+Inf HP all players ON [hetoan2]
+043A8808 60000000
+
+Inf HP all players OFF [hetoan2]
+043A8808 90130170
+
+rapid fire all players ON [hetoan2]
+042DBBE8 60000000
+
+rapid fire all players OFF [hetoan2]
+042DBBE8 80030448
+
+Golden Guns on Weapon Slot 3 [hetoan2]
+00907A61 00000006
+
+Ammo swapper ON [hetoan2]
+042C9E84 380000XX
+
+Ammo swapper OFF [hetoan2]
+042C9E84 80030104
+
+Speed Modifiers [hetoan2]
+04785B84 XXXXXXXX
+04787484 XXXXXXXX
+04788D84 XXXXXXXX
+0478A684 XXXXXXXX
+0478BF84 XXXXXXXX
+0478D884 XXXXXXXX
+0478F184 XXXXXXXX
+04790A84 XXXXXXXX
+04792384 XXXXXXXX
+04793C84 XXXXXXXX
+
+Name Modifier - Ingame [hetoan2]
+06785BDC 000000YY
+XXXXXXXX XXXXXXXX
+
+clan tag modifier [hetoan2]
+04785C18 XXXXXXXX
+04785C1C XXXXXXXX
+
+No Damage Visuals for falling [hetoan2]
+04785C98 00000000
+
+Total Control mode (C+Z to enable, C,Z,+B to disable) [hetoan2]
+2817FE0A 00006000
+04785C68 000000FF
+E0000000 80008000
+2817FE0A 00006400
+04785C68 00000000
+E0000000 80008000
+
+Gravity modifier [hetoan2]
+05750000 3F8F0000
+05750004 00000000
+05750008 3F720000
+C22CD2CC 00000005
+3E808175 C0B40004
+FC002840 41800010
+C0340000 EC010032
+4800000C C1D40008
+EC0E0032 00000000
+
+Gravity Modifier OFF [hetoan2]
+042CD2CC EC010032
+
+All Easy Challenges UN-Done [hetoan2]
+02907B70 00500101
+
+All Easy Challenges Done [hetoan2]
+02907B70 0050FFFF
+
+Teleporter [hetoan2]
+2817FE0A 00008000
+82210000 007844E0
+82210001 007844E4
+82210002 007844E8
+E0000000 80008000
+2817FE0A 00001000
+84210000 007844E0
+84210001 007844E4
+84210002 007844E8
+E0000000 80008000
+2817FE0A 0000C000
+82210003 007844E0
+82210004 007844E4
+82210005 007844E8
+E0000000 80008000
+2817FE0A 00005000
+84210003 007844E0
+84210004 007844E4
+84210005 007844E8
+E0000000 80008000
+2817FE0A 0000A000
+82210006 007844E0
+82210007 007844E4
+82210008 007844E8
+E0000000 80008000
+2817FE0A 00003000
+84210006 007844E0
+84210007 007844E4
+84210008 007844E8
+E0000000 80008000
+
+non-host name changer 2 [hetoan2]
+067F72E4 000000YY
+XXXXXXXX XXXXXXXX
+
+Points Mod Team 1 [hetoan2]
+04781908 00000XXX
+
+Points Mod Team 2 [hetoan2]
+04781904 00000XXX
+
+Deaths Modifier [hetoan2]
+04785984 00000XXX
+
+Kills Modifier [hetoan2]
+04785988 00000XXX
+
+Personal Points Modifier Modifier [hetoan2]
+04785980 00XXXXXX
+
+99 k/d/a All players [hetoan2]
+043EF480 7C7CE92E
+00000000 00000000
+C23EF480 00000002
+38600063 7C7CE92E
+60000000 00000000
+
+non-host name changer slot 3 [hetoan2]
+067F7304 000000YY
+XXXXXXXX XXXXXXXX
+
+prestige cycler [hetoan2]
+8201000F 00908667
+2817FE0A FFF70008
+A8000000 F0000000
+8600000F 00000001
+E0000000 80008000
+2817FE0A FFFB0004
+A8000000 F0000000
+8600000F FFFFFFFF
+E0000000 80008000
+8401000F 00908667
+2C908666 0000000B
+00908667 00000000
+E0000000 80008000
+
+Team You Are On Modifier [hetoan2]
+04785BA8 0000000X
+X values:
+0 - team 1's spectator mode (can still kill)
+1 - team 1
+2 - team 2
+3 - spectator (can still kill)
+4 - team 2's spectator mode (can still kill)
+
+Max Ammo Multiplier [hetoan2]
+050740A4 XXXXXXXX
+
+See-through Walls [hetoan2]
+05077B6C 60000000
+
+Regular Walls (for activators) [hetoan2]
+05077B6C 00000000
+
+Gamespeed Multiplier [hetoan2]
+050618C4 XXXXXXXX
+X's should be floating points converted to HEX
+
+Force Host [hetoan2]
+050683A4 00000000
+
+No Wait Time between Invites [hetoan2]
+05069514 00000000
+
+Gravity Modifier [hetoan2]
+05080C44 XXXXXXXX
+use floating points 800inches/second is default
+
+Lagometer Display [hetoan2]
+0506D7BC 01B00000
+
+FPS Display [hetoan2]
+0506CACC 01000000
+
+Prestige modifier
+04908664 0000000X
+use values 0-B (0 through 11th)
+
+X's should be floating points converted to HEX
+
+See-through Walls [hetoan2]
+05077B6C 60000000
+
+Regular Walls (for activators) [hetoan2]
+05077B6C 00000000
+
+Force Host [hetoan2]
+050683A4 00000000
+
+No Wait Time between Invites [hetoan2]
+05069514 00000000
+
+Gravity Modifier [hetoan2]
+05080C44 XXXXXXXX
+use floating points 800inches/second is default
+
+Lagometer Display [hetoan2]
+0506D7BC 01B00000
+
+FPS Display [hetoan2]
+0506CACC 01000000
+
+Moon Jump [Sharkbyte]
+2817D6E0 FFF70008
+04725130 43F80000
+E0000000 80008000
+2817D6E0 FFFB0004
+04725130 40840000
+E0000000 80008000
+offline only
+press up to jump and down to land safely
+you will die if you don't press down in time
+
+Infinite Ammo/explosives/Grenades/Grenade Launcher [matt123337]
+042DA3D0 60000000
+
+Infinite HP [matt123337]
+043B58BC 60000000
+
+Max Online Score prank [matt123337]
+048D2FB4 7FFFFFFF
+Just a joke to mess with people (on the same wii)... makes it look like your score is really high (doesn't actually change!)!
+
+Universal Codes for Call of Duty: Modern Warfare Reflex
+
+Checkered Map In lobby [Crashzer]
+F6000001 8100817F
+810761E8 8068D00C
+14000010 80EA0AB9
+E0000000 80008000
+*http://i49.tinypic.com/5wwmt.png
+*This code will cause a freeze if you start the game with it activated
+
+Campaign Codes
+
+No Clip [Bully@Wiiplaza]
+2817FE0A 7FFF8000
+F6000001 80108100
+8003B854 2C000000
+2817FE0A FEFF0100
+14000000 38000001
+CC000000 00000000
+14000000 8003B854
+E0000000 80008000
+*Press Home on Main Menu to activate code*
+*Press 1 to toggle ON/OFF*
+
+God Mode [Bully@Wiiplaza]
+2817FE0A 7FFF8000
+F6000001 80008100
+80180190 2C000000
+F4000000 022C0002
+38000001 9818017F
+80180190 00000000
+E0000000 80008000
+*Press Home on Main Menu to activate code*
+*Total Invincibility*
+
+Infinite Ammo [Bully@Wiiplaza]
+2817FE0A 7FFF8000
+F6000001 80008100
+7C9D0214 A8840178
+14000010 38000001
+14000418 38800000
+E0000000 80008000
+*Press Home on Main Menu to activate code*
+*Infinite Weapon Ammo & Grenades*
+
+All Missions Unlocked [Bully@Wiiplaza]
+2817FE0A 7FFF8000
+F6000001 81008180
+3F800000 3F19999A
+140001EC 01000000
+E0000000 80008000
+*Press Home on Main Menu to activate code*
+*Non-permanent*
+*Video: http://www.youtube.com/watch?v=vwNyAs25VB8
+
+Multiplayer Codes
+
+Infinite Ammo [Bully@Wiiplaza]
+20152BA4 FFFFFFFA
+F6000001 80008100
+A80301F4 7C040050
+14000004 60000000
+E0000000 80008000
+*Host All-Players*
+
+God Mode [Bully@Wiiplaza]
+20152BA4 FFFFFFFA
+F6000001 80008100
+9003000C 80130150
+14000004 38001001
+E0000000 80008000
+*Host All-Players*
+*Total Invincibility*
+*Hold a grenade until it explodes to die*
+
+Noclip [Bully@Wiiplaza]
+20152BA4 FFFFFFFA
+F6000001 80008100
+54000290 901E00CC
+2817FE0A 7FFF8000
+14000008 38000001
+CC000000 00000000
+14000008 801E17A4
+E0000000 80008000
+*Host All-Players*
+*Press Home to toggle ON/OFF*
+
+No Recoil [Bully@Wiiplaza]
+20152BA4 FFFFFFFA
+F6000001 80008100
+FC013040 4C411382
+1400000C 60000000
+E0000000 80008000
+*Non-Host*
+*Credits to WiiOS_Ozelot*

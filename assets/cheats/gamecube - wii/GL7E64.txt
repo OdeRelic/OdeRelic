@@ -1,0 +1,431 @@
+GL7E64
+LEGO Star Wars II
+
+Infinite Health [Codejunkies]
+0404B940 38000008
+0404B944 98030F35
+
+Max Health [Codejunkies]
+0404B92C 38000008
+0404B930 98030F34
+
+Quick Stud Gain (In Level) [Codejunkies]
+04408900 000F423F
+040485F4 814D0000
+
+Max Overall Studs [Codejunkies]
+0431C8DC 000F423F
+
+Episode IV: Chapter 1
+
+Story Unlocked [Codejunkies]
+0031C6D4 00000001
+
+Free Play Unlocked [Codejunkies]
+0031C6D5 00000001
+
+Story Complete [Codejunkies]
+0031C6D6 00000001
+
+Free Play Complete [Codejunkies]
+0031C6D7 00000001
+
+Gold Brick Complete [Codejunkies]
+0031C6D8 00000001
+
+All Mini-Kits [Codejunkies]
+0031C6D9 0000000A
+
+Red Brick Complete [Codejunkies]
+0031C6DA 00000001
+
+Episode IV: Chapter 2
+
+Story Unlocked [Codejunkies]
+0031C6E0 00000001
+
+Free Play Unlocked [Codejunkies]
+0031C6E1 00000001
+
+Story Complete [Codejunkies]
+0031C6E2 00000001
+
+Free Play Complete [Codejunkies]
+0031C6E3 00000001
+
+Gold Brick Complete [Codejunkies]
+0031C6E4 00000001
+
+All Mini-Kits [Codejunkies]
+0031C6E5 0000000A
+
+Red Brick Complete [Codejunkies]
+0031C6E6 00000001
+
+Episode IV: Chapter 3
+
+Story Unlocked [Codejunkies]
+0031C6EC 00000001
+
+Free Play Unlocked [Codejunkies]
+0031C6ED 00000001
+
+Story Complete [Codejunkies]
+0031C6EE 00000001
+
+Free Play Complete [Codejunkies]
+0031C6EF 00000001
+
+Gold Brick Complete [Codejunkies]
+0031C6F0 00000001
+
+All Mini-Kits [Codejunkies]
+0031C6F1 0000000A
+
+Red Brick Complete [Codejunkies]
+0031C6F2 00000001
+
+Episode IV: Chapter 4
+
+Story Unlocked [Codejunkies]
+0031C6F8 00000001
+
+Free Play Unlocked [Codejunkies]
+0031C6F9 00000001
+
+Story Complete [Codejunkies]
+0031C6FA 00000001
+
+Free Play Complete [Codejunkies]
+0031C6FB 00000001
+
+Gold Brick Complete [Codejunkies]
+0031C6FC 00000001
+
+All Mini-Kits [Codejunkies]
+0031C6FD 0000000A
+
+Red Brick Complete [Codejunkies]
+0031C6FE 00000001
+
+Episode IV: Chapter 5
+
+Story Unlocked [Codejunkies]
+0031C704 00000001
+
+Free Play Unlocked [Codejunkies]
+0031C705 00000001
+
+Story Complete [Codejunkies]
+0031C706 00000001
+
+Free Play Complete [Codejunkies]
+0031C707 00000001
+
+Gold Brick Complete [Codejunkies]
+0031C708 00000001
+
+All Mini-Kits [Codejunkies]
+0031C709 0000000A
+
+Red Brick Complete [Codejunkies]
+0031C70A 00000001
+
+Episode IV: Chapter 6
+
+Story Unlocked [Codejunkies]
+0031C710 00000001
+
+Free Play Unlocked [Codejunkies]
+0031C711 00000001
+
+Story Complete [Codejunkies]
+0031C712 00000001
+
+Free Play Complete [Codejunkies]
+0031C713 00000001
+
+Gold Brick Complete [Codejunkies]
+0031C714 00000001
+
+All Mini-Kits [Codejunkies]
+0031C715 0000000A
+
+Red Brick Complete [Codejunkies]
+0031C716 00000001
+
+Episode V: Chapter 1
+
+Story Unlocked [Codejunkies]
+0031C740 00000001
+
+Free Play Unlocked [Codejunkies]
+0031C741 00000001
+
+Story Complete [Codejunkies]
+0031C742 00000001
+
+Free Play Complete [Codejunkies]
+0031C743 00000001
+
+Gold Brick Complete [Codejunkies]
+0031C744 00000001
+
+All Mini-Kits [Codejunkies]
+0031C745 0000000A
+
+Red Brick Complete [Codejunkies]
+0031C746 00000001
+
+Episode V: Chapter 2
+
+Story Unlocked [Codejunkies]
+0031C74C 00000001
+
+Free Play Unlocked [Codejunkies]
+0031C74D 00000001
+
+Story Complete [Codejunkies]
+0031C74E 00000001
+
+Free Play Complete [Codejunkies]
+0031C74F 00000001
+
+Gold Brick Complete [Codejunkies]
+0031C750 00000001
+
+All Mini-Kits [Codejunkies]
+0031C751 0000000A
+
+Red Brick Complete [Codejunkies]
+0031C752 00000001
+
+Episode V: Chapter 3
+
+Story Unlocked [Codejunkies]
+0031C758 00000001
+
+Free Play Unlocked [Codejunkies]
+0031C759 00000001
+
+Story Complete [Codejunkies]
+0031C75A 00000001
+
+Free Play Complete [Codejunkies]
+0031C75B 00000001
+
+Gold Brick Complete [Codejunkies]
+0031C75C 00000001
+
+All Mini-Kits [Codejunkies]
+0031C75D 0000000A
+
+Red Brick Complete [Codejunkies]
+0031C75E 00000001
+
+Episode V: Chapter 4
+
+Story Unlocked [Codejunkies]
+0031C764 00000001
+
+Free Play Unlocked [Codejunkies]
+0031C765 00000001
+
+Story Complete [Codejunkies]
+0031C766 00000001
+
+Free Play Complete [Codejunkies]
+0031C767 00000001
+
+Gold Brick Complete [Codejunkies]
+0031C768 00000001
+
+All Mini-Kits [Codejunkies]
+0031C769 0000000A
+
+Red Brick Complete [Codejunkies]
+0031C76A 00000001
+
+Episode V: Chapter 5
+
+Story Unlocked [Codejunkies]
+0031C770 00000001
+
+Free Play Unlocked [Codejunkies]
+0031C771 00000001
+
+Story Complete [Codejunkies]
+0031C772 00000001
+
+Free Play Complete [Codejunkies]
+0031C773 00000001
+
+Gold Brick Complete [Codejunkies]
+0031C774 00000001
+
+All Mini-Kits [Codejunkies]
+0031C775 0000000A
+
+Red Brick Complete [Codejunkies]
+0031C776 00000001
+
+Episode V: Chapter 6
+
+Story Unlocked [Codejunkies]
+0031C77C 00000001
+
+Free Play Unlocked [Codejunkies]
+0031C77D 00000001
+
+Story Complete [Codejunkies]
+0031C77E 00000001
+
+Free Play Complete [Codejunkies]
+0031C77F 00000001
+
+Gold Brick Complete [Codejunkies]
+0031C780 00000001
+
+All Mini-Kits [Codejunkies]
+0031C781 0000000A
+
+Red Brick Complete [Codejunkies]
+0031C782 00000001
+
+Episode VI: Chapter 1
+
+Story Unlocked [Codejunkies]
+0031C7AC 00000001
+
+Free Play Unlocked [Codejunkies]
+0031C7AD 00000001
+
+Story Complete [Codejunkies]
+0031C7AE 00000001
+
+Free Play Complete [Codejunkies]
+0031C7AF 00000001
+
+Gold Brick Complete [Codejunkies]
+0031C7B0 00000001
+
+All Mini-Kits [Codejunkies]
+0031C7B1 0000000A
+
+Red Brick Complete [Codejunkies]
+0031C7B2 00000001
+
+Episode VI: Chapter 2
+
+Story Unlocked [Codejunkies]
+0031C7B8 00000001
+
+Free Play Unlocked [Codejunkies]
+0031C7B9 00000001
+
+Story Complete [Codejunkies]
+0031C7BA 00000001
+
+Free Play Complete [Codejunkies]
+0031C7BB 00000001
+
+Gold Brick Complete [Codejunkies]
+0031C7BC 00000001
+
+All Mini-Kits [Codejunkies]
+0031C7BD 0000000A
+
+Red Brick Complete [Codejunkies]
+0031C7BE 00000001
+
+Episode VI: Chapter 3
+
+Story Unlocked [Codejunkies]
+0031C7C4 00000001
+
+Free Play Unlocked [Codejunkies]
+0031C7C5 00000001
+
+Story Complete [Codejunkies]
+0031C7C6 00000001
+
+Free Play Complete [Codejunkies]
+0031C7C7 00000001
+
+Gold Brick Complete [Codejunkies]
+0031C7C8 00000001
+
+All Mini-Kits [Codejunkies]
+0031C7C9 0000000A
+
+Red Brick Complete [Codejunkies]
+0031C7CA 00000001
+
+Episode VI: Chapter 4
+
+Story Unlocked [Codejunkies]
+0031C7D0 00000001
+
+Free Play Unlocked [Codejunkies]
+0031C7D1 00000001
+
+Story Complete [Codejunkies]
+0031C7D2 00000001
+
+Free Play Complete [Codejunkies]
+0031C7D3 00000001
+
+Gold Brick Complete [Codejunkies]
+0031C7D4 00000001
+
+All Mini-Kits [Codejunkies]
+0031C7D5 0000000A
+
+Red Brick Complete [Codejunkies]
+0031C7D6 00000001
+
+Episode VI: Chapter 5
+
+Story Unlocked [Codejunkies]
+0031C7DC 00000001
+
+Free Play Unlocked [Codejunkies]
+0031C7DD 00000001
+
+Story Complete [Codejunkies]
+0031C7DE 00000001
+
+Free Play Complete [Codejunkies]
+0031C7DF 00000001
+
+Gold Brick Complete [Codejunkies]
+0031C7E0 00000001
+
+All Mini-Kits [Codejunkies]
+0031C7E1 0000000A
+
+Red Brick Complete [Codejunkies]
+0031C7E2 00000001
+
+Episode VI: Chapter 6
+
+Story Unlocked [Codejunkies]
+0031C7E8 00000001
+
+Free Play Unlocked [Codejunkies]
+0031C7E9 00000001
+
+Story Complete [Codejunkies]
+0031C7EA 00000001
+
+Free Play Complete [Codejunkies]
+0031C7EB 00000001
+
+Gold Brick Complete [Codejunkies]
+0031C7EC 00000001
+
+All Mini-Kits [Codejunkies]
+0031C7ED 00000001
+
+Red Brick Complete [Codejunkies]
+0031C7EE 00000001

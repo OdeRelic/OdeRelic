@@ -1,0 +1,25 @@
+R9FJ36
+F1 2009
+
+Starting Lap Modifier (Ported From Thomas83Lin) [ZiT]
+C21320B0 00000006
+2C1A0000 41820008
+48000020 2C1D0000
+41820008 48000014
+3C008000 60000003
+3BA0000x 93BE000C
+809E000C 00000000
+Replace x with your starting lap
+
+Always Get Target Met on a Valid Lap in Career Mode (Ported From Thomas83Lin) [ZiT]
+C21319A4 00000003
+3E2080F0 62310000
+C0310000 D025002C
+60000000 00000000
+04F00000 41000000
+Also Gives Low Lap times
+
+Infinite K.E.R.S [ZiT]
+04122450 60000000
+
+//Also Gives Low Lap times

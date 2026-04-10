@@ -1,0 +1,16 @@
+SGKEC8
+Champion Jockey: G1 Jockey & Gallop Racer
+
+Infinite Stamina [Glitch]
+48000000 806DD5A4
+DE000000 80008180
+1400009C 43BCFE1D
+E0000000 80008000
+Credits to Deathwolf
+
+Full Potential [Glitch]
+48000000 806DD5A4
+DE000000 80008180
+14000010 463B8000
+E0000000 80008000
+Credits to Deathwolf

@@ -1,0 +1,701 @@
+RPJE7U
+Arc Rise Fantasia
+
+Have Individual Items
+
+Heal Liquid [GMO]
+00449115 00000063
+
+Mid Liquid [GMO]
+00449116 00000063
+
+High Liquid [GMO]
+00449117 00000063
+
+Full Liquid [GMO]
+00449118 00000063
+
+MP Quick 1 [GMO]
+00449119 00000063
+
+MP Charge 1 [GMO]
+0044911A 00000063
+
+MP Quick 2 [GMO]
+0044911B 00000063
+
+MP Charge 2 [GMO]
+0044911C 00000063
+
+MP Quick 3 [GMO]
+0044911D 00000063
+
+MP Charge 3 [GMO]
+0044911E 00000063
+
+MP Quick 4 [GMO]
+0044911F 00000063
+
+MP Charge 4 [GMO]
+00449120 00000063
+
+All Quick [GMO]
+00449121 00000063
+
+All Charge [GMO]
+00449122 00000063
+
+Specialty S [GMO]
+00449123 00000063
+
+Specialty M [GMO]
+00449124 00000063
+
+Specialty L [GMO]
+00449125 00000063
+
+Revive Bottle [GMO]
+00449126 00000063
+
+Full Revive [GMO]
+00449127 00000063
+
+Elixir [GMO]
+00449128 00000063
+
+Cure Confusion [GMO]
+00449129 00000063
+
+Cure Poison [GMO]
+0044912A 00000063
+
+Cure Petrify [GMO]
+0044912B 00000063
+
+Cure Silence [GMO]
+0044912C 00000063
+
+Cure Binding [GMO]
+0044912D 00000063
+
+Cure Paralysis [GMO]
+0044912E 00000063
+
+Cure Sickness [GMO]
+0044912F 00000063
+
+Cure Sleep [GMO]
+00449130 00000063
+
+Cure All [GMO]
+00449131 00000063
+
+Reset All [GMO]
+00449132 00000063
+
+Analyzer [GMO]
+00449133 00000063
+
+Strength Potion [GMO]
+00449134 00000063
+
+Defense Potion [GMO]
+00449135 00000063
+
+Insight Potion [GMO]
+00449136 00000063
+
+Resist Potion [GMO]
+00449137 00000063
+
+Speed Potion [GMO]
+00449138 00000063
+
+Vitality Potion [GMO]
+00449139 00000063
+
+Heroism Potion [GMO]
+0044913A 00000063
+
+Shield of Ajax [GMO]
+0044913B 00000063
+
+Shield of Aegis [GMO]
+0044913C 00000063
+
+Sand Castle [GMO]
+0044913D 00000063
+
+Regen Wing [GMO]
+0044913E 00000063
+
+Phoenix Wing [GMO]
+0044913F 00000063
+
+Roc's Wing [GMO]
+00449140 00000063
+
+Monster Bait [GMO]
+00449141 00000063
+
+Monster Bane [GMO]
+00449142 00000063
+
+Exalot [GMO]
+0044914F 00000063
+
+Ricoalot [GMO]
+00449150 00000063
+
+Wepalot [GMO]
+00449151 00000063
+
+Strength Leaf [GMO]
+00449152 00000063
+
+Defense Leaf [GMO]
+00449153 00000063
+
+Insight Leaf [GMO]
+00449154 00000063
+
+Resist Leaf [GMO]
+00449155 00000063
+
+Speed Leaf [GMO]
+00449156 00000063
+
+Vitality Leaf [GMO]
+00449157 00000063
+
+2-Leaf Clover [GMO]
+00449158 00000063
+
+4-Leaf Clover [GMO]
+00449159 00000063
+
+Bitter Fig [GMO]
+0044915A 00000063
+
+Smelly Fungai [GMO]
+0044915B 00000063
+
+Chewy Squids [GMO]
+00449164 00000063
+
+Chewy Chicken [GMO]
+00449165 00000063
+
+Fragrant Petal [GMO]
+00449166 00000063
+
+Plant Eyestalk [GMO]
+00449167 00000063
+
+Caterpillar Horn [GMO]
+00449168 00000063
+
+Mos Powder [GMO]
+00449169 00000063
+
+Dark Red Root [GMO]
+0044916A 00000063
+
+Frog Oil [GMO]
+0044916B 00000063
+
+Honey [GMO]
+0044916C 00000063
+
+Wolf Liver [GMO]
+0044916D 00000063
+
+Necromush [GMO]
+0044916E 00000063
+
+Mansfungi [GMO]
+0044916F 00000063
+
+Fowl Meat [GMO]
+00449170 00000063
+
+Paw-Like Glove [GMO]
+00449171 00000063
+
+Dolly Teaset [GMO]
+00449172 00000063
+
+Superb Cocoon [GMO]
+00449173 00000063
+
+Rare Ore [GMO]
+00449174 00000063
+
+Bear Claws [GMO]
+00449175 00000063
+
+Wolf Fangs [GMO]
+00449176 00000063
+
+Behemoth Horn [GMO]
+00449177 00000063
+
+Misc Codes
+
+Max Rico [AlexWong]
+04449E54 0098967F
+Hacked by RITZ for NTSC-JP, ported by AlexWong to NTSC-U/C.
+
+Max Coin [AlexWong]
+0444EC68 000F423F
+Hacked by RITZ for NTSC-JP, ported by AlexWong to NTSC-U/C.
+
+Have All Items [AlexWong]
+02449114 01036363
+Including dummy items.
+Hacked by RITZ for NTSC-JP, ported by AlexWong to NTSC-U/C.
+
+Have All Items [AlexWong]
+00449115 002D0063
+0044914F 000C0063
+02449164 00096363
+Without dummy items.
+Hacked by RITZ for NTSC-JP, ported by AlexWong to NTSC-U/C.
+
+Have All Gems [AlexWong]
+0244918C 000F6363
+Hacked by RITZ for NTSC-JP, ported by AlexWong to NTSC-U/C.
+
+Complete Monster Encyclopedia [AlexWong]
+0244DF50 010C01FF
+Hacked by RITZ for NTSC-JP, ported by AlexWong to NTSC-U/C.
+
+Have All Rogress [AlexWong]
+0244A73E 00001FFE
+Hacked by RITZ for NTSC-JP, ported by AlexWong to NTSC-U/C.
+
+Have All Costumes [AlexWong]
+0244939E 003C0101
+Hacked by RITZ for NTSC-JP, ported by AlexWong to NTSC-U/C.
+
+Unlocke Limit of Monster Encyclopedia Vertical Camera [AlexWong]
+0417BE90 2C000168
+0417BE9C 38000000
+0417BEB4 38000168
+0417BF58 2C000168
+0417BF64 38000000
+0417BF7C 38000168
+Hacked by RITZ for NTSC-JP, ported by AlexWong to NTSC-U/C.
+
+Gain Items Up To Max [AlexWong]
+04031D4C 38000063
+Hacked by RITZ for NTSC-JP, ported by AlexWong to NTSC-U/C.
+
+Can View Maps Before Getting Them [AlexWong]
+04038FF8 60000000
+04116544 60000000
+Hacked by RITZ for NTSC-JP, ported by AlexWong to NTSC-U/C.
+
+Enhanced Optical Flying Boat [AlexWong]
+041A5148 60000000
+041AF0FC 60000000
+041B04E0 4800000C
+041B0508 4800000C
+041F3D80 60000000
+041F42A0 60000000
+041F435C 60000000
+04535C98 43960000
+04535C9C 43960000
+Hacked by RITZ for NTSC-JP, ported by AlexWong to NTSC-U/C.
+
+Gain Exp Multiplier [AlexWong]
+040C3654 60000000
+040C3658 1FBD00XX
+XX=
+02 x2
+05 x5
+0A x10
+32 x50
+64 x100
+Hacked by RITZ for NTSC-JP, ported by AlexWong to NTSC-U/C.
+
+Gain Rico Multiplier [AlexWong]
+040C1C0C 60000000
+C20C1C1C 00000002
+1C0000XX 7C040214
+60000000 00000000
+XX=
+01 x3
+04 x5
+09 x10
+31 x50
+63 x100
+Hacked by RITZ for NTSC-JP, ported by AlexWong to NTSC-U/C.
+
+Gain WP Multiplier [AlexWong]
+040C1BEC 60000000
+C20C1BFC 00000002
+1C0000XX 7C040214
+60000000 00000000
+XX=
+01 x3
+04 x5
+09 x10
+31 x50
+63 x100
+Hacked by RITZ for NTSC-JP, ported by AlexWong to NTSC-U/C.
+
+Infinite MP [AlexWong]
+0404E380 60000000
+0406D730 38040000
+040ED574 60000000
+Hacked by RITZ for NTSC-JP, ported by AlexWong to NTSC-U/C.
+
+Infinite RP [AlexWong]
+0404ABD8 60000000
+Hacked by RITZ for NTSC-JP, ported by AlexWong to NTSC-U/C.
+
+Combat SP Always 100 [AlexWong]
+0404E188 60000000
+04050B30 38000064
+0406BBD8 60000000
+0406D838 60000000
+You may also have an effect on the enemies.
+Hacked by RITZ for NTSC-JP, ported by AlexWong to NTSC-U/C.
+
+AP9 Fixed Maximum Number of Combat [AlexWong]
+04050B6C 38000009
+Hacked by RITZ for NTSC-JP, ported by AlexWong to NTSC-U/C.
+
+AP9 Fixed Number of Combat Recovery [AlexWong]
+04050B74 38000009
+Hacked by RITZ for NTSC-JP, ported by AlexWong to NTSC-U/C.
+
+Steal Always Success [AlexWong]
+04060EB0 60000000
+04060EB8 60000000
+Hacked by RITZ for NTSC-JP, ported by AlexWong to NTSC-U/C.
+
+WP Up To Max [AlexWong]
+0403248C 380003E7
+Hacked by RITZ for NTSC-JP, ported by AlexWong to NTSC-U/C.
+
+Infinite DP [AlexWong]
+040EDAFC 60000000
+Hacked by RITZ for NTSC-JP, ported by AlexWong to NTSC-U/C.
+
+Battle BGM Modify [AlexWong]
+040332A0 3BC000XX
+XX=00~50
+Hacked by RITZ for NTSC-JP, ported by AlexWong to NTSC-U/C.
+
+Party Members Modify [AlexWong]
+04449E58 00000000
+04449E5C 00000001
+04449E60 00000002
+04449E64 00000003
+04449E68 00000004
+04449E6C 00000005
+I think that would affect the story.
+00 L'Arc
+01 Ryfia
+02 Serge
+03 Rastan
+04 Cecille
+05 Leslie
+06 Alf
+07 Adele
+08 Niko
+09 Clyde
+0A Dynos
+0B Adele 2
+Hacked by RITZ for NTSC-JP, ported by AlexWong to NTSC-U/C.
+
+Max L'Arc Status [AlexWong]
+04449E80 0000270F
+04449E90 0000270F
+04449EB4 000F41DC
+08449EB8 0000639C
+20050004 00000000
+Please change your equipment once.
+Hacked by RITZ for NTSC-JP, ported by AlexWong to NTSC-U/C.
+
+Max Ryfia Status [AlexWong]
+04449F38 0000270F
+04449F48 0000270F
+04449F6C 000F41DC
+08449F70 0000639C
+20050004 00000000
+Please change your equipment once.
+Hacked by RITZ for NTSC-JP, ported by AlexWong to NTSC-U/C.
+
+Max Serge Status [AlexWong]
+04449FF0 0000270F
+0444A000 0000270F
+0444A024 000F41DC
+0844A028 0000639C
+20050004 00000000
+Please change your equipment once.
+Hacked by RITZ for NTSC-JP, ported by AlexWong to NTSC-U/C.
+
+Max Rastan Status [AlexWong]
+0444A0A8 0000270F
+0444A0B8 0000270F
+0444A0DC 000F41DC
+0844A0E0 0000639C
+20050004 00000000
+Please change your equipment once.
+Hacked by RITZ for NTSC-JP, ported by AlexWong to NTSC-U/C.
+
+Max Cecille Status [AlexWong]
+0444A160 0000270F
+0444A170 0000270F
+0444A194 000F41DC
+0844A198 0000639C
+20050004 00000000
+Please change your equipment once.
+Hacked by RITZ for NTSC-JP, ported by AlexWong to NTSC-U/C.
+
+Max Leslie Status [AlexWong]
+0444A218 0000270F
+0444A228 0000270F
+0444A24C 000F41DC
+0844A250 0000639C
+20050004 00000000
+Please change your equipment once.
+Hacked by RITZ for NTSC-JP, ported by AlexWong to NTSC-U/C.
+
+Max Alf Status [AlexWong]
+0444A2D0 0000270F
+0444A2E0 0000270F
+0444A304 000F41DC
+0844A308 0000639C
+20050004 00000000
+Please change your equipment once.
+Hacked by RITZ for NTSC-JP, ported by AlexWong to NTSC-U/C.
+
+Max Adele Status [AlexWong]
+0444A388 0000270F
+0444A398 0000270F
+0444A3BC 000F41DC
+0844A3C0 0000639C
+20050004 00000000
+Please change your equipment once.
+Hacked by RITZ for NTSC-JP, ported by AlexWong to NTSC-U/C.
+
+Max Niko Status [AlexWong]
+0444A440 0000270F
+0444A450 0000270F
+0444A474 000F41DC
+0844A478 0000639C
+20050004 00000000
+Please change your equipment once.
+Hacked by RITZ for NTSC-JP, ported by AlexWong to NTSC-U/C.
+
+Max Clyde Status [AlexWong]
+0444A4F8 0000270F
+0444A508 0000270F
+0444A52C 000F41DC
+0844A530 0000639C
+20050004 00000000
+Please change your equipment once.
+Hacked by RITZ for NTSC-JP, ported by AlexWong to NTSC-U/C.
+
+Max Dynos Status [AlexWong]
+0444A5B0 0000270F
+0444A5C0 0000270F
+0444A5E4 000F41DC
+0844A5E8 0000639C
+20050004 00000000
+Please change your equipment once.
+Hacked by RITZ for NTSC-JP, ported by AlexWong to NTSC-U/C.
+
+Max Adele 2 Status [AlexWong]
+0444A668 0000270F
+0444A678 0000270F
+0444A69C 000F41DC
+0844A6A0 0000639C
+20050004 00000000
+Please change your equipment once.
+Hacked by RITZ for NTSC-JP, ported by AlexWong to NTSC-U/C.
+
+Max L'Arc Customise [AlexWong]
+00449EDC 00000005
+04449EE4 09090909
+04449EE8 03030303
+04449EEC 03030303
+Hacked by RITZ for NTSC-JP, ported by AlexWong to NTSC-U/C.
+
+Max Ryfia Customise [AlexWong]
+00449F94 00000005
+04449F9C 09090909
+04449FA0 03030303
+04449FA4 03030303
+Hacked by RITZ for NTSC-JP, ported by AlexWong to NTSC-U/C.
+
+Max Serge Customise [AlexWong]
+0044A04C 00000005
+0444A054 09090909
+0444A058 03030303
+0444A05C 03030303
+Hacked by RITZ for NTSC-JP, ported by AlexWong to NTSC-U/C.
+
+Max Rastan Customise [AlexWong]
+0044A104 00000005
+0444A10C 09090909
+0444A110 03030303
+0444A114 03030303
+Hacked by RITZ for NTSC-JP, ported by AlexWong to NTSC-U/C.
+
+Max Cecille Customise [AlexWong]
+0044A1BC 00000005
+0444A1C4 09090909
+0444A1C8 03030303
+0444A1CC 03030303
+Hacked by RITZ for NTSC-JP, ported by AlexWong to NTSC-U/C.
+
+Max Leslie Customise [AlexWong]
+0044A274 00000005
+0444A27C 09090909
+0444A280 03030303
+0444A284 03030303
+Hacked by RITZ for NTSC-JP, ported by AlexWong to NTSC-U/C.
+
+Max Alf Customise [AlexWong]
+0044A32C 00000005
+0444A334 09090909
+0444A338 03030303
+0444A33C 03030303
+Hacked by RITZ for NTSC-JP, ported by AlexWong to NTSC-U/C.
+
+Max Adele Customise [AlexWong]
+0044A3E4 00000005
+0444A3EC 09090909
+0444A3F0 03030303
+0444A3F4 03030303
+Hacked by RITZ for NTSC-JP, ported by AlexWong to NTSC-U/C.
+
+Max Niko Customise [AlexWong]
+0044A49C 00000005
+0444A4A4 09090909
+0444A4A8 03030303
+0444A4AC 03030303
+Hacked by RITZ for NTSC-JP, ported by AlexWong to NTSC-U/C.
+
+Max Clyde Customise [AlexWong]
+0044A554 00000005
+0444A55C 09090909
+0444A560 03030303
+0444A564 03030303
+Hacked by RITZ for NTSC-JP, ported by AlexWong to NTSC-U/C.
+
+Max Dynos Customise [AlexWong]
+0044A60C 00000005
+0444A614 09090909
+0444A618 03030303
+0444A61C 03030303
+Hacked by RITZ for NTSC-JP, ported by AlexWong to NTSC-U/C.
+
+Max Adele 2 Customise [AlexWong]
+0044A6C4 00000005
+0444A6CC 09090909
+0444A6D0 03030303
+0444A6D4 03030303
+Hacked by RITZ for NTSC-JP, ported by AlexWong to NTSC-U/C.
+
+L'Arc Have All Excel Acts [AlexWong]
+00449F03 000000FE
+Hacked by RITZ for NTSC-JP, ported by AlexWong to NTSC-U/C.
+
+Ryfia Have All Excel Acts [AlexWong]
+00449FBA 000000FE
+Hacked by RITZ for NTSC-JP, ported by AlexWong to NTSC-U/C.
+
+Serge Have All Excel Acts [AlexWong]
+0044A071 000000FE
+Hacked by RITZ for NTSC-JP, ported by AlexWong to NTSC-U/C.
+
+Rastan Have All Excel Acts [AlexWong]
+0044A128 000000FE
+Hacked by RITZ for NTSC-JP, ported by AlexWong to NTSC-U/C.
+
+Cecille Have All Excel Acts [AlexWong]
+0044A1E7 000000FE
+Hacked by RITZ for NTSC-JP, ported by AlexWong to NTSC-U/C.
+
+Leslie Have All Excel Acts [AlexWong]
+0044A29E 000000FE
+Hacked by RITZ for NTSC-JP, ported by AlexWong to NTSC-U/C.
+
+Alf Have All Excel Acts [AlexWong]
+0044A355 0000001E
+Hacked by RITZ for NTSC-JP, ported by AlexWong to NTSC-U/C.
+
+Adele Have All Excel Acts [AlexWong]
+0044A40D 00000060
+Hacked by RITZ for NTSC-JP, ported by AlexWong to NTSC-U/C.
+
+Niko Have All Excel Acts [AlexWong]
+0044A4C4 0000001E
+Hacked by RITZ for NTSC-JP, ported by AlexWong to NTSC-U/C.
+
+Clyde Have All Excel Acts [AlexWong]
+0044A583 0000000E
+Hacked by RITZ for NTSC-JP, ported by AlexWong to NTSC-U/C.
+
+Dynos Have All Excel Acts [AlexWong]
+0044A63B 000000E0
+Hacked by RITZ for NTSC-JP, ported by AlexWong to NTSC-U/C.
+
+Adele 2 Have All Excel Acts [AlexWong]
+0244A6EC 00008180
+0044A6F3 00000001
+Hacked by RITZ for NTSC-JP, ported by AlexWong to NTSC-U/C.
+
+Remove L'Arc Guest Flag [AlexWong]
+00449EFC 00000000
+Hacked by RITZ for NTSC-JP, ported by AlexWong to NTSC-U/C.
+
+Remove Ryfia Guest Flag [AlexWong]
+00449FB4 00000000
+Hacked by RITZ for NTSC-JP, ported by AlexWong to NTSC-U/C.
+
+Remove Serge Guest Flag [AlexWong]
+0044A06C 00000000
+Hacked by RITZ for NTSC-JP, ported by AlexWong to NTSC-U/C.
+
+Remove Rastan Guest Flag [AlexWong]
+0044A124 00000000
+Hacked by RITZ for NTSC-JP, ported by AlexWong to NTSC-U/C.
+
+Remove Cecille Guest Flag [AlexWong]
+0044A1DC 00000000
+Hacked by RITZ for NTSC-JP, ported by AlexWong to NTSC-U/C.
+
+Remove Leslie Guest Flag [AlexWong]
+0044A294 00000000
+Hacked by RITZ for NTSC-JP, ported by AlexWong to NTSC-U/C.
+
+Remove Alf Guest Flag [AlexWong]
+0044A34C 00000000
+Hacked by RITZ for NTSC-JP, ported by AlexWong to NTSC-U/C.
+
+Remove Adele Guest Flag [AlexWong]
+0044A404 00000000
+Hacked by RITZ for NTSC-JP, ported by AlexWong to NTSC-U/C.
+
+Remove Niko Guest Flag [AlexWong]
+0044A4BC 00000000
+Hacked by RITZ for NTSC-JP, ported by AlexWong to NTSC-U/C.
+
+Remove Clyde Guest Flag [AlexWong]
+0044A574 00000000
+Hacked by RITZ for NTSC-JP, ported by AlexWong to NTSC-U/C.
+
+Remove Dynos Guest Flag [AlexWong]
+0044A62C 00000000
+Hacked by RITZ for NTSC-JP, ported by AlexWong to NTSC-U/C.
+
+Remove Adele 2 Guest Flag [AlexWong]
+0044A6E4 00000000
+Hacked by RITZ for NTSC-JP, ported by AlexWong to NTSC-U/C.

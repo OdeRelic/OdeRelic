@@ -1,0 +1,12 @@
+JAWE
+Romance of the Three Kingdoms IV - Wall of Fire
+
+Unlimited Create-An-Officer Points [GMO]
+28184E6E 00000004
+008BA745 00000063
+E0000000 80008000
+28184E6E 00000080
+008BA745 00000000
+E0000000 80008000
+Press Z(Right) for 99
+Press Z(Left) for 0

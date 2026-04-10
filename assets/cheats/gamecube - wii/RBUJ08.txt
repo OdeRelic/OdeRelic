@@ -1,0 +1,38 @@
+RBUJ08
+biohazard The Umbrella Chronicles
+
+Infinite LIFE [ZiT]
+040F4FBC D3836C00
+
+Infinite Bullet [ZiT]
+041BCFE8 60000000
+
+NO RELOAD [ZiT]
+0406C5A8 9095048C
+
+Weapon [ZiT]
+04E4C5A8 000000xx
+xx=Weapon No.
+
+Weapon No.
+00:Hand Gun
+01:Shot Gun
+02:Submachine Gun
+03:Hand Gun
+04:Rocket Launcher
+05:Grenade [ZiT]
+07:Grenadoranchar
+08:Magnum
+09:Shot Gun
+0A:Hand Gun [ZiT]
+0B:Grenadoranchar
+0C:Hand Gun
+0D:Rocket Launcher
+0E:Magnum
+0F:Submachine Gun [ZiT]
+10:Grenadoranchar
+11:Magnum
+12:Rocket Launcher
+
+STAR MAX [ZiT]
+04BE6AAC 0000270F

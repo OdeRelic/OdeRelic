@@ -1,0 +1,74 @@
+JEBP
+Mega Man X
+
+Unlimited Health (Press ZL ON/OFF) [Crapulecorp]
+004634C2 00000020
+28175D22 FF7F0080
+CC000000 00000000
+004620F7 00000020
+E0000000 80008000
+*Classic Controller*
+*Code ported from Thoma83Lin Ntsc Usa Version*
+
+Unlimited Lives [Crapulecorp]
+004634A8 00000009
+*Code ported from Thoma83Lin Ntsc Usa Version*
+
+Invincibility (Press ZR ON/OFF) [Crapulecorp]
+28175D22 FFFB0004
+CC000000 00000000
+00462100 00000008
+0046213B 00000001
+E0000000 80008000
+*Classic Controller*
+*Code ported from Thoma83Lin Ntsc Usa Version*
+
+Moon Jump (Press B+A) [Crapulecorp]
+28175D22 FFAF0050
+004620ED 00000004
+E0000000 80008000
+*Classic Controller*
+*Don't Use During Text Messages you might get stuck*
+*Code ported from Thoma83Lin Ntsc Usa Version*
+
+Have/Unlimited All Weapons [Crapulecorp]
+084634B0 DC00DC00
+20030004 00000000
+*Code ported from Thoma83Lin Ntsc Usa Version*
+
+All Sub.T [Crapulecorp]
+004634AB 00000080
+024634AC 00008080
+004634AE 00000080
+*Code ported from Thoma83Lin Ntsc Usa Version*
+
+Suit Upgrade [Crapulecorp]
+004634C1 000000FF
+*Code ported from Thoma83Lin Ntsc Usa Version*
+
+Health Upgrade [Crapulecorp]
+004634C2 00000020
+*Code ported from Thoma83Lin Ntsc Usa Version*
+
+Unlock Hadouken [Crapulecorp]
+004634C1 000000FF
+004634C2 00000020
+004634A6 00000085
+*Code ported from Thoma83Lin Ntsc Usa Version*
+
+Preform Hadouken (Press X+Shoot) [Crapulecorp]
+28175D22 FFF70008
+0046214F 00000006
+E0000000 80008000
+*Classic Controller*
+*Still Need Hadouken Unlocked*
+*Code ported from Thoma83Lin Ntsc Usa Version*
+
+Unlimited Dash [Crapulecorp]
+00462122 0000001B
+*Code ported from Thoma83Lin Ntsc Usa Version*
+
+Button Activator
+
+Classic Controller [Crapulecorp]
+28175D22 YYYYZZZZ

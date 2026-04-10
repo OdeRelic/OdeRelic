@@ -1,0 +1,15 @@
+SGKJC8
+Champion Jockey: Gallop Racer & GI Jockey
+
+P1 Max Speed [Glitch]
+C2180664 00000002
+3D804280 919900D8
+C01900D8 00000000
+
+Max RP [Glitch]
+42000000 90000000
+0524EAD0 00001388
+E0000000 80008000
+
+Train as much as you want [Glitch]
+0413B638 7C601B78

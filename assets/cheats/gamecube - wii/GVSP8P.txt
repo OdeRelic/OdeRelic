@@ -1,0 +1,14 @@
+GVSP8P
+Virtua Striker 3 Ver. 2002
+
+Home team have a big score
+003FA4D5 00000063
+
+Away team have a big score
+003FA4F9 00000063
+
+Home team score 0
+003FA4D5 00000000
+
+Away team score 0
+003FA4F9 00000000

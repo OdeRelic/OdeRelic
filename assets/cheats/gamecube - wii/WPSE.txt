@@ -1,0 +1,331 @@
+WPSE
+Pokemon Rumble
+
+Infinite HP + One hit kills [goemon_guy]
+C20EC868 00000003
+7C00E800 41820008
+9003006C 60000000
+60000000 00000000
+
+Move Modifier [goemon_guy]
+C20EC7D8 00000002
+38A0XXXX 90A30018
+60000000 00000000
+Values for these can be found here:
+http://translate.google.com/translate?js=y&prev=_t&hl=en&ie=UTF-8&u=http%3A%2F%2F2.pro.tok2.com%2F~charabox%2FCoPaDS%2Fwii%2FWPSJ.html&sl=auto&tl=en
+(Japanese, translated using Google.)
+
+Inf HP [Skiller]
+C2159D50 00000004
+88C30009 2C060000
+4182000C 80C30054
+90C3006C 80C3006C
+60000000 00000000
+
+1 Hit Kill Enemys [Skiller]
+C20EC868 00000005
+88C30009 2C060000
+40820014 80C30054
+7C060000 41820008
+3C000000 9003006C
+60000000 00000000
+
+Unlimited Pokedollars [GMO]
+C20B8FE0 00000002
+3C000098 6000967F
+90030020 00000000
+
+Pokemon Ticket Modifiers
+
+Button Activator (WiiMote) [goemon_guy]
+283EA910 0000XXXX
+
+Ticket Modifier (Slot A) TwilightErik, [goemon_guy]
+04911AD8 XXXX0Y00
+E0000000 80008000
+XXXX is the Pokemon value (1EC would change to 01EC and you would get a Shaymin)
+Y is the special form modifier (If you had a Shaymin, if you input 1 in here, you will get Land Forme, if you input 2, you will get Sky Forme, etc)
+
+Ticket Modifier (Slot B) [goemon_guy]
+04912E38 XXXX0Y00
+E0000000 80008000
+XXXX is the Pokemon value (1EC would change to 01EC and you would get a Shaymin)
+Y is the special form modifier (If you had a Shaymin, if you input 1 in here, you will get Land Forme, if you input 2, you will get Sky Forme, etc)
+
+Ticket Modifier (Slot C) [goemon_guy]
+04914198 XXXX0Y00
+E0000000 80008000
+XXXX is the Pokemon value (1EC would change to 01EC and you would get a Shaymin)
+Y is the special form modifier (If you had a Shaymin, if you input 1 in here, you will get Land Forme, if you input 2, you will get Sky Forme, etc)
+
+Other / Misc Codes
+
+Infinite Pokedollars (Fixed by TwilightErik) [goemon_guy]
+040B8FDC 60000000
+
+Infinite Wonder Keys [goemon_guy]
+040BD24C 60000000
+
+XXXX Values
+
+XXXX Values:
+KANTO
+001 Bulbasaur
+002 Ivysaur
+003 Venusaur
+004 Charmander
+005 Charmeleon
+006 Charizard
+007 Squirtle
+008 Wartortle
+009 Blastoise
+00A Caterpie
+00B Metapod
+00C Butterfree
+00D Weedle
+00E Kakuna
+00F Beedrill
+010 Pidgey
+011 Pidgeotto
+012 Pidgeot
+013 Rattata
+014 Raticate
+015 Spearow
+016 Fearow
+017 Ekans
+018 Arbok
+019 Pikachu
+01A Raichu
+01B Sandshrew
+01C Sandslash
+01D Nidoran (Female)
+01E Nidorina
+01F Nidoqueen
+020 Nidoran (Male)
+021 Nidorino
+022 Nidoking
+023 Clefairy
+024 Clefable
+025 Vulpix
+026 Ninetales
+027 Jigglypuff
+028 Wigglytuff
+029 Zubat
+02A Golbat
+02B Oddish
+02C Gloom
+02D Vileplume
+02E Paras
+02F Parasect
+030 Venonat
+031 Venomoth
+032 Diglett
+033 Dugtrio
+034 Meowth
+035 Persian
+036 Psyduck
+037 Golduck
+038 Mankey
+039 Primeape
+03A Growlithe
+03B Arcanine
+03C Poliwag
+03D Poliwhirl
+03E Poliwrath
+03F Abra
+040 Kadabra
+041 Alakazam
+042 Machop
+043 Machoke
+044 Machamp
+045 Bellsprout
+046 Weepinbell
+047 Victreebel
+048 Tentacool
+049 Tentacruel
+04A Geodude
+04B Graveller
+04C Golem
+04D Ponyta
+04E Rapidash
+04F Slowpoke
+050 Slowbro
+051 Magnemite
+052 Magneton
+053 Farfetch'd
+054 Doduo
+055 Dodrio
+056 Seel
+057 Dewgong
+058 Grimer
+059 Muk
+05A Shellder
+05B Cloyster
+05C Gastly
+05D Haunter
+05E Gengar
+05F Onix
+060 Drowzee
+061 Hypno
+062 Krabby
+063 Kingler
+064 Voltorb
+065 Electrode
+066 Exeggcute
+067 Exeggutor
+068 Cubone
+069 Marowak
+06A Hitmonlee
+06B Hitmonchan
+06C Lickitung
+06D Koffing
+06E Weezing
+06F Rhyhorn
+070 Rhydon
+071 Chansey
+072 Tangela
+073 Kangaskhan
+074 Horsea
+075 Seadra
+076 Goldeen
+077 Seaking
+078 Staryu
+079 Starmie
+07A Mr. Mime
+07B Scyther
+07C Jynx
+07D Electabuzz
+07E Magmar
+07F Pinsir
+080 Tauros
+081 Magikarp
+082 Gyarados
+083 Lapras
+084 Ditto
+085 Eevee
+086 Vaporeon
+087 Jolteon
+088 Flareon
+089 Porygon
+08A Omanyte
+08B Omastar
+08C Kabuto
+08D Kabutops
+08E Aerodactyl
+08F Snorlax
+090 Articuno
+091 Zapdos
+092 Moltres
+093 Dratini
+094 Dragonair
+095 Dragonite
+096 Mewtwo
+097 Mew
+
+SINNOH
+183 Turtwig
+184 Grotle
+185 Torterra
+186 Chimchar
+187 Monferno
+188 Infernape
+189 Piplup
+18A Prinplup
+18B Empoleon
+18C Starly
+18D Staravia
+18E Staraptor
+18F Bidoof
+190 Bibarel
+191 Kricketot
+192 Kricketune
+193 Shinx
+194 Luxio
+195 Luxray
+196 Budew
+197 Roserade
+198 Cranidos
+199 Rampardos
+19A Shieldon
+19B Bastiodon
+19C Burmy
+19D Wormadam
+19E Mothim
+19F Combee
+1A0 Vespiquen
+1A1 Pachirisu
+1A2 Buizel
+1A3 Floatzel
+1A4 Cherubi
+1A5 Cherrim
+1A6 Shellos
+1A7 Gastrodon
+1A8 Ambipom
+1A9 Drifloon
+1AA Drifblim
+1AB Buneary
+1AC Lopunny
+1AD Mismagius
+1AE Honchkrow
+1AF Glameow
+1B0 Purugly
+1B1 Chingling
+1B2 Stunky
+1B3 Skuntank
+1B4 Bronzor
+1B5 Bronzong
+1B6 Bonsly
+1B7 Mime Jr.
+1B8 Happiny
+1B9 Chatot
+1BA Spiritomb
+1BB Gible
+1BC Gabite
+1BD Garchomp
+1BE Munchlax
+1BF Riolu
+1C0 Lucario
+1C1 Hippopotas
+1C2 Hippowdon
+1C3 Skorupi
+1C4 Drapion
+1C5 Croagunk
+1C6 Toxicroak
+1C7 Carnivine
+1C8 Finneon
+1C9 Lumineon
+1CA Mantyke
+1CB Snover
+1CC Abomasnow
+1CD Weavile
+1CE Magnezone
+1CF Lickilicky
+1D0 Rhyperior
+1D1 Tangrowth
+1D2 Electivire
+1D3 Magmortar
+1D4 Togekiss
+1D5 Yanmega
+1D6 Leafeon
+1D7 Glaceon
+1D8 Gliscor
+1D9 Mammoswine
+1DA Porygon-Z
+1DB Gallade
+1DC Probopass
+1DD Dusknoir
+1DE Froslass
+1DF Rotom
+1E0 Uxie
+1E1 Mesprit
+1E2 Azelf
+1E3 Dialga
+1E4 Palkia
+1E5 Heatran
+1E6 Regigigas
+1E7 Giratina
+1E8 Cresselia
+1E9 Phione
+1EA Manaphy
+1EB Darkrai
+1EC Shaymin

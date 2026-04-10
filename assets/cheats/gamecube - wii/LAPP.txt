@@ -1,0 +1,138 @@
+LAPP
+Wonder Boy III - The Dragon's Trap
+
+Miscellaneous Codes
+
+Unlimited Health [GMO]
+02C80D92 00008006
+00C80D94 00000068
+
+Unlimited Gold [GMO]
+02C80D96 00000909
+02C80D98 00000909
+
+Max Gold 999999 [GMO]
+08C80D95 00000009
+00060001 00000000
+
+Unlimited Fire Ball Spell [GMO]
+00C80D7E 00000025
+
+Unlimited Tornado Spell [GMO]
+00C80D7F 00000025
+
+Unlimited Arrows Spell [GMO]
+00C80D80 00000025
+
+Unlimited Boomerangs Spell [GMO]
+00C80D81 00000025
+
+Unlimited Thunder Spell [GMO]
+00C80D82 00000025
+
+Have All ARMS/Shields/Armor [GMO]
+281DA442 00000810
+08C80D60 00000001
+000A0001 00000000
+08C80D6A 00000001
+000A0001 00000000
+08C80D74 00000001
+000A0001 00000000
+E0000000 80008000
+Hold + and Press A
+
+Have Individual ARMS
+
+Legendary Sword [GMO]
+00C80D60 00000001
+
+Ivory Sword [GMO]
+00C80D61 00000001
+
+Mithril Sword [GMO]
+00C80D62 00000001
+
+Shogun Blade [GMO]
+00C80D63 00000001
+
+Crystal Sword [GMO]
+00C80D64 00000001
+
+Thunder Saber [GMO]
+00C80D65 00000001
+
+Magical Saber [GMO]
+00C80D66 00000001
+
+Lucky Sword [GMO]
+00C80D67 00000001
+
+Muramasa Blade [GMO]
+00C80D68 00000001
+
+Tasmanian Sword [GMO]
+00C80D69 00000001
+
+Have Individual Shields
+
+Legendary Shield [GMO]
+00C80D6A 00000001
+
+Ivory Shield [GMO]
+00C80D6B 00000001
+
+Mithril Shield [GMO]
+00C80D6C 00000001
+
+Shogun Shield [GMO]
+00C80D6D 00000001
+
+Crystal Shield [GMO]
+00C80D6E 00000001
+
+Knight Shield [GMO]
+00C80D6F 00000001
+
+Dancing Shield [GMO]
+00C80D70 00000001
+
+Aqua Shield [GMO]
+00C80D71 00000001
+
+Master Shield [GMO]
+00C80D72 00000001
+
+Heavenly Shield [GMO]
+00C80D73 00000001
+
+Have Individual Armor
+
+Legendary Armor [GMO]
+00C80D74 00000001
+
+Ivory Armor [GMO]
+00C80D75 00000001
+
+Mithril Armor [GMO]
+00C80D76 00000001
+
+Shogun Lamellar [GMO]
+00C80D77 00000001
+
+Crystal Armor [GMO]
+00C80D78 00000001
+
+Goblin Mail [GMO]
+00C80D79 00000001
+
+Samurai Armor [GMO]
+00C80D7A 00000001
+
+Dragon Mail [GMO]
+00C80D7B 00000001
+
+Prince Armor [GMO]
+00C80D7C 00000001
+
+Hades Armor [GMO]
+00C80D7D 00000001

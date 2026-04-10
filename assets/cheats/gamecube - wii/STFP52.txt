@@ -1,0 +1,10 @@
+STFP52
+Transformers Prime : The Game
+
+Important : Use OSSleepThread Hook.
+
+Unlimited Health [Crapulecorp]
+048DD430 44FA0000
+
+Unlimited Power [Crapulecorp]
+048DD46C 44770000

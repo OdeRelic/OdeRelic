@@ -1,0 +1,56 @@
+JDLP
+Super Star Wars Return of the Jedi
+
+Miscellaneous Codes
+
+1-Hit Kill (Bosses) [GMO]
+08446E22 00000000
+000DD541 00000000
+
+Zer0 Scounts Needed (Speedster) [GMO]
+00446C71 00000000
+
+Unlimited Thermal Detonators [GMO]
+00446D12 00000001
+
+Unlimited Spin (Chewie) [GMO]
+00446380 00000020
+
+Unlimited Spin (Slave Leia) [GMO]
+004463F2 00000020
+
+Unlimited Bombs (Han Solo) [GMO]
+004463F3 00000063
+
+Unlimited Double Jumps (Luke/Leia) [GMO]
+00446C63 00000000
+
+Character Modifier [GMO]
+00446360 000000??
+
+Character Modifier Values
+
+04 Luke Skywalker
+06 Han Solo
+08 Chewie
+0A Wicket the Ewok
+0C Leia (Slave)
+0E Leia (Boushh)
+10 Leia (Rebel)
+
+Unlimited Lives [Crapulecorp]
+0044637A 00000063
+
+Unlimited Health [Crapulecorp]
+00446E20 00000020
+*Code ported from GMO Ntsc Usa Version*
+
+Unlimited Force Saber & Spin [Crapulecorp]
+044463F4 00FFFFFF
+*Code ported from GMO Ntsc Usa Version*
+
+Coins x99 (blue icon) [Crapulecorp]
+00446382 00000063
+
+Unlimited Lives
+0044637A 0000000063

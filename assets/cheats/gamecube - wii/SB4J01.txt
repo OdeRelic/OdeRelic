@@ -1,0 +1,174 @@
+SB4J01
+Super Mario Galaxy 2
+
+Infinite Bee Mario Flight [hetoan2]
+0438D6E0 60000000
+
+Infinite Air [hetoan2]
+04400310 60000000
+
+Powers Last Forever [hetoan2]
+043CBC9C 60000000
+
+Dissable Yellow Time Limits [hetoan2]
+044A3AAC 60000000
+these are for speedster comets and the like
+
+RGBA Modifier [hetoan2]
+0414CB5C 90E30000
+0414CB50 3CE0RRGG
+0414CB54 60E7XXYY
+Modifies the RGB and the Alpha values for effects. RGB is just the hex values (#RRGGXX) for color like #FFFFFF for white. The Alpha "YY" value is a % visibility value. Just convert your % to a hex ratio. FF is 100% visibility and 00 is 0%.
+
+Moon Jump (Code by brkirch) [ZiT]
+C23A2FE0 00000007
+48000005 7C8802A6
+807F02D4 90640024
+807F02D8 90640028
+807F02DC 9064002C
+3C80806C 48000010
+00000000 00000000
+00000000 00000000
+C2388E44 00000007
+3C808075 808401C0
+54840529 41820024
+48000005 7C8802A6
+8064FFD4 907F02D4
+8064FFD8 907F02D8
+8064FFDC 907F02DC
+7FE3FB78 00000000
+
+Speed Up (Down Button) [ZiT]
+287501C2 FFFB0004
+C23AEC9C 00000003
+3D804080 618C0000
+9181FFFC C001FFFC
+D01D0278 00000000
+E0000000 80008000
+2A7501C2 FFFB0004
+043AEC9C D01D0278
+E0000000 80008000
+
+Mario Size [ZiT]
+48000000 807EC6B8
+DE000000 80008180
+4A100000 0000002C
+14000000 xxxx0000
+14000004 xxxx0000
+14000008 xxxx0000
+E0000000 80008000
+
+Size=xxxx
+3F80=Normal
+4000=x2
+4080=x4
+
+Infinite Rainbow,Fire Mario [ZiT]
+043CBC9C B07F0700
+-It is necessary to acquire the star.
+
+Invincible [ZiT]
+04393CD0 B0850014
+04393CB8 B0850016
+043C177C 60000000
+04393CE8 60000000
+04393D00 60000000
+04393D1C 60000000
+
+Fly When Spin Move Is Used (Code by brkirch) [ZiT]
+043EE754 38600007
+
+Infinite Health (Code by wiiztec) [ZiT]
+043CA24C 60000000
+
+Infinite Starbits (Code by wiiztec) [ZiT]
+04A75CF8 000003E6
+C24C9050 00000002
+386003E6 907F004C
+60000000 00000000
+
+Infinite Extra Lives (Code by wiiztec) [ZiT]
+044DE058 60000000
+
+Unlimited Time to Remount Yoshi (Code by wiiztec) [ZiT]
+044129E0 60000000
+
+Balloon Yoshi Infinite Air (Code by wiiztec) [ZiT]
+04414C48 60000000
+04414BFC 60000000
+
+Light Yoshi Lasts Forever (Code by wiiztec) [ZiT]
+042C4FA4 60000000
+
+Universal Codes for Super Mario Galaxy 2
+
+Planets: Gain Max Coins on pickup Planets [Skiller]
+044C90B8 90BF0054
+
+Planets: 1 Up every SrarBit Pickup/Use [Skiller]
+044C905C 41810004
+
+Dissable Yellow Time Limits [hetoan2]
+044A3AAC 60000000
+these are for speedster comets and the like
+
+Infinite Air [hetoan2]
+04400310 60000000
+
+Powers Last Forever [hetoan2]
+043CBC9C 60000000
+
+RGBA Modifier [hetoan2]
+0414CB5C 90E30000
+0414CB50 3CE0RRGG
+0414CB54 60E7XXYY
+Modifies the RGB and the Alpha values for effects. RGB is just the hex values (#RRGGXX) for color like #FFFFFF for white. The Alpha "YY" value is a % visibility value. Just convert your % to a hex ratio. FF is 100% visibility and 00 is 0%.
+
+Infinite Bee Mario Flight [hetoan2]
+0438D6E0 60000000
+
+All 242 Stars [Thomas83Lin]
+044DCFB0 48000004
+044DCFB4 38000005
+*Permanent Per Save Slot if Saved*
+
+All Gold Medals [Thomas83Lin]
+044DD314 48000004
+044DD318 38000001
+*Permanent Per Save Slot if Saved*
+
+World Map Bypass [Thomas83Lin]
+044EC054 2C060001
+*Ability to travel anywhere on World Map*
+*Can Skip Levels\StarBlocks\Boss's*
+
+All Star Blocks cost 0 Stars [Thomas83Lin]
+C24E5A74 00000002
+3B800000 939A0094
+60000000 00000000
+*Not permanent *
+
+ballon yoshi infinite air [wiiztec]
+04414C48 60000000
+04414BFC 60000000
+
+light yoshi lasts forever [wiiztec]
+042C4FA4 60000000
+
+unlimited time to remount yoshi [wiiztec]
+044129E0 60000000
+
+infinite extra lives [wiiztec]
+044DE058 60000000
+
+infinite health [wiiztec]
+043CA24C 60000000
+
+Fire Yoshi Last Forever [ardemii]
+0440CA58 60000000
+
+Fire Mario Last Forever [ardemii]
+043CBC9C 60000000
+
+Rainbow Mario Last Forever [ardemii]
+04527F3C 60000000

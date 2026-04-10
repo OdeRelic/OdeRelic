@@ -1,0 +1,25 @@
+WGDP
+Gradius Rebirth
+
+Full Invincibility [Thomas83Lin]
+04024DCC 38000001
+04024230 38000001
+
+Inf Lives(Ported from g6flavor) [Thomas83Lin]
+04079280 60000000
+*Works for Version 1.2*
+
+Unlimited Use of Konami Code(Ported from g6flavor) [Thomas83Lin]
+04074610 60000000
+*Works for Version 1.2*
+
+Inf Shield Type B(Ported from g6flavor) [Thomas83Lin]
+040282B8 60000000
+*Works for Version 1.2*
+
+Inf Shield Type A,C,D(Ported from g6flavor) [Thomas83Lin]
+040276E4 60000000
+*Works for Version 1.2*
+
+Max Lives [GMO]
+00B43093 00000009

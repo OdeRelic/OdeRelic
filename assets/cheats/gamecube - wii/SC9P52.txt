@@ -1,0 +1,12 @@
+SC9P52
+Cabela's Big Game Hunter 2010
+
+No Reload [Crapulecorp]
+0427FF60 38040000
+*Code ported from Thomas83lin Ntsc Usa Version*
+
+Unlock All Missions [Crapulecorp]
+C2021924 00000002
+3C800000 6084FFFF
+90830000 00000000
+*Code ported from Thomas83lin Ntsc Usa Version*

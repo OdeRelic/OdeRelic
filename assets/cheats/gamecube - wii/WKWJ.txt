@@ -1,0 +1,8 @@
+WKWJ
+Item Sagashi Yousei To Fushigi No Shima
+
+Miss 0 [ZiT]
+0404AD40 60000000
+
+Discovery MAX [ZiT]
+0404AD2C 90C30004

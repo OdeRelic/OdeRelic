@@ -1,0 +1,40 @@
+FAFP
+Mario Bros.
+
+Infinite Lives [Crapulecorp]
+003B5B08 00000003
+
+Infinite POW [Crapulecorp]
+003B5B30 00000003
+*Code ported from ZiT Ntsc Jap Version*
+
+Invincible [Crapulecorp]
+003B5DD6 00000006
+023B5DC2 00000301
+*Code ported from ZiT Ntsc Jap Version*
+
+Press and Hold ZL to stay in air longer [Crapulecorp]
+28218312 FF7F0080
+003B5DC1 00000030
+E0000000 80008000
+*Classic Controller*
+*Code ported from GMO Ntsc Usa Version*
+
+Quick Turn [Crapulecorp]
+003B5DD4 00000000
+*Code ported from ZiT Ntsc Jap Version*
+
+Bonus Stage Time Stop [Crapulecorp]
+023B5F71 00002000
+
+Anywhere POW (Press ZR) [Crapulecorp]
+28218312 FFFB0004
+003B5B31 0000000C
+E0000000 80008000
+*Classic Controller*
+*Code ported from ZiT Ntsc Jap Version*
+
+Button Activator
+
+Classic Controller [Crapulecorp]
+28218312 YYYYZZZZ

@@ -1,0 +1,98 @@
+RVYP52
+Call Of Duty World At War
+
+Inf Ammo Everything Campaign [STRiiK3R]
+047280EC 0008000A
+047280F0 000A0000
+047280E8 00140008
+E0000000 80008000
+*Subscribe to http://www.youtube.com/xSTRiiK3Rx for exclusive videos of my codes!
+
+Force Reload [Crashzer]
+281B3C60 00000010
+007E3E59 00000000
+E0000000 80008000
+Press plus (+) to force reload
+
+Button Activator (PAL) [Crashzer]
+281B3C60 0000ZZZZ
+
+8Bit Infinite Ammo [Crashzer]
+007E3E59 0000007F
+*Infinite Bullets
+
+Unstopable Reloading [Crashzer]
+007E3E59 00000000
+Empty Your Gun!
+
+Display Connection Interrupted Message [Crashzer]
+281B3C60 0000ZZZZ
+027E3E82 60000000
+E0000000 80008000
+Press Activator to back out/get Connection Error message
+
+Minimum Number of players in Lobby [BlockBoy]
+051EF59C 0000000X
+
+Jump and Hurt Yourself [BlockBoy]
+051FD2F4 24E69595
+
+No damage taken from falling [BlockBoy]
+051FD2F4 69045951
+
+Exit Scope on Damage [BlockBoy]
+051FD9FC 01000000
+
+Lagometer-Non host [BlockBoy]
+051F6F1C 01000000
+
+Spawn in Safe places [BlockBoy]
+0520AFBC 01000000
+
+Speed Modifier [BlockBoy]
+0520ADC4 XXXXXXXX
+use floating points to fill in x's
+
+melee mod [superman]
+0551B21C XXXXXXXX
+0551B27C XXXXXXXX
+use floating points to fill in x's
+
+Moon jump [superman]
+0551B81C XXXXXXXX
+use floating points to fill in x's
+
+Lock onto torso [superman]
+051FDA8C 01000000
+
+stuff was Saved in savegame file. Have Fun :D
+
+Infinite Ammo [ZiT]
+04312CB4 60000000
+
+Infinite LIFE [ZiT]
+C23E7D94 00000002
+380000FF 90100190
+60000000 00000000
+044125F8 60000000
+
+Rapid Fire [Black_Wolf]
+C252DCA8 00000002
+3D200000 61290000
+91364020 00000000
+
+Moonjump [Romaap]
+201B63A0 00000008
+04727EEC 42C80000
+
+Universal Codes for Call of Duty: World At War
+
+Unlock All Missions [Bully@Wiiplaza]
+281B6362 7FFF8000
+F6000001 81008180
+00000400 3F19999A
+14004414 01000000
+E0000000 80008000
+*Press Home on Campaign to activate*
+*Non-permanent*
+*Video: http://www.youtube.com/watch?v=cYJ95hQ0Ikg

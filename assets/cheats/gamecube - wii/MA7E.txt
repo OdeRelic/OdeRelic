@@ -1,0 +1,11 @@
+MA7E
+Shining Darkness
+
+Max Gold [GMO]
+02EB7806 0000FFFF
+
+Shop Items Cost 1G [GMO]
+02EB9D66 00000001
+
+Shop Items are FREE [GMO]
+02EB9D66 00000000

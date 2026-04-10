@@ -1,0 +1,24 @@
+SNHJ13
+Need for Speed: Hot Pursuit
+
+Press - for Max Money [Glitch]
+2837F94E 00001000
+049A4D50 3B9ACA00
+E0000000 80008000
+
+Everything in Showroom Purchasable [Glitch]
+04007A1C 60000000
+04008760 60000000
+
+Max Nitro [Glitch]
+C20C3BF8 00000002
+3D8042C8 91840D08
+C3C40D08 00000000
+
+Damage Meter Never Increases [Glitch]
+C20C4064 00000002
+39800000 919F0D5C
+C01F0D5C 00000000
+
+Drive Through Cars [Glitch]
+0416F4E4 480005F8

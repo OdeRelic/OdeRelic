@@ -1,0 +1,11 @@
+MAWP
+Virtua Fighter 2
+
+Disable Timer [GMO]
+010F68BC 0000009A
+
+P1 Unlimited Health [GMO]
+03104382 00007070
+
+P1 1-Hit KO (P2 Life Mod) [GMO]
+03104582 00000000

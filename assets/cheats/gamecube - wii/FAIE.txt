@@ -1,0 +1,5 @@
+FAIE
+Soccer
+
+Player2/COM score is 0 [GMO]
+003B0299 00000000

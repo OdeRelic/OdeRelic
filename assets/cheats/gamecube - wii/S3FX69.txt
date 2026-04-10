@@ -1,0 +1,173 @@
+S3FX69
+Fifa 13
+
+Button Activator [Bully@Wiiplaza]
+28135400 YYYYZZZZ
+
+All Overall Bonuses Completed [Bully@Wiiplaza]
+C21A0C48 00000007
+2C1B0001 40820028
+38600005 907F63D8
+38600014 907F1398
+907F4D98 3860001E
+907F0038 38600023
+907F2798 807F0038
+60000000 00000000
+
+City Name Modifier [Bully@Wiiplaza]
+42000000 90000000
+0756A4FC 00000018
+00SS00SS 00SS00SS
+00SS00SS 00SS00SS
+00SS00SS 00SS00SS
+E0000000 80008000
+
+Club Name Modifier [Bully@Wiiplaza]
+42000000 90000000
+0756A516 00000018
+00SS00SS 00SS00SS
+00SS00SS 00SS00SS
+00SS00SS 00SS00SS
+E0000000 80008000
+
+Club Abbreviation Modifier [Bully@Wiiplaza]
+42000000 90000000
+0756A530 00000008
+00SS00SS 00SS0000
+E0000000 80008000
+
+Home Team: Goals Modifier [Bully@Wiiplaza]
+C228CA84 00000002
+3800XXXX 90046F3C
+60000000 00000000
+
+Away Team: Goals Modifier [Bully@Wiiplaza]
+C241D228 00000002
+3800XXXX 90037294
+60000000 00000000
+
+Goals Are Worth X Goals [Bully@Wiiplaza]
+045EBC08 3805000X
+
+Home Team: Players Amount Modifier [Bully@Wiiplaza]
+C226840C 00000003
+2C1F0000 4082000C
+3980000X 918300C8
+800300C8 00000000
+
+Away Team: Players Amount Modifier [Bully@Wiiplaza]
+C2268410 00000003
+2C1F0001 4082000C
+3980000X 918300C8
+7C1E0000 00000000
+*Video: http://www.youtube.com/watch?v=TpJSQfBfT00
+
+Red Cards Don´t Count [Bully@Wiiplaza]
+04735D80 60000000
+
+Time Control [Bully@Wiiplaza]
+046CA1E0 38040001
+046CA184 7C00E214
+046CA1E8 60000000
+046CA188 60000000
+28135400 F9FF0600
+046CA1E0 3800270F
+046CA184 3800270F
+046CA1E8 901D0008
+046CA188 901D000C
+E0000000 80008000
+*Press 1 + B to finish half time, otherwise you can play forever*
+*Video: http://www.youtube.com/watch?v=ijBVrSAf3W8
+
+Timer Speed Modifier [Bully@Wiiplaza]
+046CA1E0 3804000I
+*Don´t use with "Time Control"*
+
+Manager Mode
+
+Infinite Transfer Points [Bully@Wiiplaza]
+C2384C04 00000002
+39800063 91830000
+80630000 00000000
+
+Infinite Budget [Bully@Wiiplaza]
+C2384C24 00000002
+3D806000 91830004
+80630004 00000000
+*Video: http://www.youtube.com/watch?v=-99udzmd2WI
+
+Max Club Upgrades [Bully@Wiiplaza]
+C2351000 00000003
+38800012 908304E0
+908304E8 908304EC
+908304F0 00000000
+*Video: http://www.youtube.com/watch?v=AGngjDdmcJs
+
+Streets to Stadiums
+
+Infinite Experience Points [Bully@Wiiplaza]
+C2397734 00000002
+38000066 9016004C
+60000000 00000000
+*Level up your player as much as you want*
+
+All Attributes Maxed Out [Bully@Wiiplaza]
+043976C4 38000063
+*Enter "attribute" screen and confirm without doing anything to save the modified stats (it will have taken effect the next time you check)*
+*Video: http://www.youtube.com/watch?v=S6V1CMhBla4
+
+Hit the Streets
+
+Home Team: Power-Up Meter Modifier [Bully@Wiiplaza]
+C25F0F10 00000003
+2C1EFFFF 4082000C
+3D80LLLL 918371CC
+C02371CC 00000000
+
+Away Team: Power-Up Meter Modifier [Bully@Wiiplaza]
+C2488120 00000003
+2C1E0001 4082000C
+3D80LLLL 918371CC
+901D003C 00000000
+
+Home Team: Power Up Modifier [Bully@Wiiplaza]
+04948D48 PPPPPPPP
+*Video: http://www.youtube.com/watch?v=CPQq28bhow0
+
+Away Team: Power-Up Modifier [Bully@Wiiplaza]
+0494FFD8 PPPPPPPP
+
+Power Ups Last Forever [Bully@Wiiplaza]
+045F0E04 60000000
+
+Power Up Meter Never Decreases [Bully@Wiiplaza]
+045F0DB4 60000000
+045F0AC4 60000000
+045F0AE4 60000000
+
+Comments
+
+*YYYY & ZZZZ Values*
+Button mask & button values
+http://www.geckocodes.org/index.php?arsenal=2
+
+*SS Values*
+ASCII letters converted to HEX
+
+*X Values*
+Decimal converted to HEX
+
+*I Values*
+Decimal converted to HEX
+
+*LLLL Values*
+Decimal (0-1) converted to Float
+
+*PPPPPPPP Values*
+00000015 = Power Shot
+00000016 = Super Speed
+00000017 = Side Shot
+00000018 = Sliding Tacke
+00000019 = Super Shoulder
+0000001A = Gladly Big
+0000001B = Shock Wave

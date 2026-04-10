@@ -1,0 +1,133 @@
+RSVP8P
+Sonic Unleashed
+
+No Music [CosmoCortney]
+047E0F40 5F5F5F00
+
+Sonic, many objects & enemies without shadings [CosmoCortney]
+0474EB14 42000000
+
+Sonic, many objects & enemies with cool glitter effect [CosmoCortney]
+0474EB14 39000000
+
+Massive Sonic and enemies [CosmoCortney]
+046DE030 40B00000
+046DE044 40B00000
+046DE058 40B00000
+E0000000 80008000
+
+Small Sonic and enemies [CosmoCortney]
+046DE030 3E900000
+046DE044 3E900000
+046DE058 3E900000
+E0000000 80008000
+
+Music Modifiers
+
+Play Holoska music in XXYYZZ [CosmoCortney]
+057E1438 6E5FXXYY
+057E143C ZZ5F6E69
+057E1424 6E5FXXYY
+057E1428 ZZ5F6461
+057E1238 74675FXX
+057E123C YYZZ2E61
+057E11F4 XXYYZZ5F
+057E11E0 655FXXYY
+057E11E4 ZZ2E6164
+
+Play Adabat music in XXYYZZ [CosmoCortney]
+057E1410 XXYYZZ5F
+057E13FC XXYYZZ5F
+057E1228 74675FXX
+057E122C YYZZ2E61
+057E11C8 5FXXYYZZ
+057E11B4 5F655FXX
+057E11B8 YYZZ2E61
+
+Play Shamar music in XXYYZZ [CosmoCortney]
+057E13E4 6E5FXXYY
+057E13E8 ZZ5F6E69
+057E13D0 6E5FXXYY
+057E13D4 ZZ5F6461
+057E1218 74675FXX
+057E121C YYZZ2E61
+057E119C 655FXXYY
+057E11A0 ZZ5F6A69
+057E118C 2323232E
+
+Play Apotos music in XXYYZZ [CosmoCortney]
+057E13BC XXYYZZ5F
+057E13A8 XXYYZZ5F
+057E1208 74675FXX
+057E120C YYZZ2E61
+057E1170 5F655FXX
+057E1174 YYZZ5F6A
+057E1160 5FXXYYZZ
+
+Play Spagonia music in XXYYZZ [CosmoCortney]
+057E1380 5FXXYYZZ
+057E136C 5FXXYYZZ
+057E1148 XXYYZZ5F
+057E1134 655FXXYY
+057E1138 ZZ2E6164
+057E1080 XXYYZZ2E
+
+Play Eggmanland music in XXYYZZ [CosmoCortney]
+057E134C 5FXXYYZZ
+057E1124 XXYYZZ2E
+057E1070 XXYYZZ2E
+EXTRA NOTE: Eggmanland has no "Jingle" and the Town has no Night Music. So the stages you want to play with Eggmanland's music will have their original "Jingle"- and "Town's Night"- Music
+
+Play Chun Nan music in XXYYZZ [CosmoCortney]
+057E1334 776E5FXX
+057E1338 YYZZ5F6E
+057E1320 776E5FXX
+057E1324 YYZZ5F64
+057E1108 5F655FXX
+057E110C YYZZ5F6A
+057E10F8 5FXXYYZZ
+057E1060 XXYYZZ2E
+_________________________
+-
+Replace XXYYZZ with the Stages' Value
+Holoska = 736E77
+Adabat = 736561
+Shamar = 707472
+Apotos = 6D796B
+Chun nan = 63686E
+Spagonia = 657563
+Eggmanland = 656762
+-_-_-_
+Always use 2 of these codes. If you only use one of them, it could happen the game plays the original sound files and in the other stage no music.
+follow the link to see an example
+http://imageshack.us/photo/my-images/14/musicmodifier.png/
+
+999 Lives [memorris]
+04761C64 000003E8
+
+999 Rings [memorris]
+42000000 90000000
+04B385A4 000003E7
+04B385A8 000003E7
+E0000000 80008000
+
+Unlimited Lives [Romaap]
+04031C58 60000000
+
+Unlimited Time [Romaap]
+04127750 60000000
+
+Have XX Sun and Moonmedals [Romaap]
+027A6EB4 0000XXYY
+Replace XX and YY with a hex value.
+XX = Sunmedals and YY = Moonmedals
+
+Werehog unlimited unleashed gauge [Romaap]
+208147A8 00004000
+82200000 90B0B968
+84200000 90B0B964
+E0000000 80008000
+Press C to max the unleashed gauge
+
+Werehog HP [Romaap]
+041A03C4 60000000

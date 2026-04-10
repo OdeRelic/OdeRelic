@@ -1,0 +1,86 @@
+JBIP
+Street Fighter 2 Turbo
+
+Infinite Health Player 1 [Crapulecorp]
+008BC7F7 000000B0
+008BC7F8 000000B0
+
+Disable Timer [Crapulecorp]
+008BDBBA 00000020
+*Code ported from GMO Ntsc Usa Version*
+
+Refill Time (Press ZR) [Crapulecorp]
+281876AE FFFB0004
+008BDBBB 00000099
+E0000000 80008000
+*Classic Controller*
+*Code ported from GMO Ntsc Usa Version*
+
+Refill Time (Press Z) [Crapulecorp]
+281875A8 FFEF0010
+008BDBBB 00000099
+E0000000 80008000
+*GameCube Controller*
+*Code ported from GMO Ntsc Usa Version*
+
+1-Hit Kill (P2 Life Mod) [Crapulecorp]
+288BC9F8 0000B000
+008BC9F8 00000001
+E0000000 80008000
+*Hacked by lee4*
+
+Moonjump Player 1 [Crapulecorp]
+281876AE FFFE0001
+028BC7F5 00000004
+E0000000 80008000
+*Classic Controller*
+
+Moonjump Player 1 [Crapulecorp]
+281875A8 FFF70008
+028BC7F5 00000004
+E0000000 80008000
+*GameCube Controller*
+
+P1 Character Modifier [Crapulecorp]
+008BC899 000000XX
+*Replace XX for :
+00 Ryu
+01 E.Honda
+02 Blanka
+03 Guile
+04 Ken
+05 Chun Li
+06 Zangief
+07 Dhalsim
+08 M.Bison
+09 Sagat
+0A Balrog
+0B Vega*
+*Code ported from GMO Ntsc Usa Version*
+
+P2 Character Modifier [Crapulecorp]
+008BC8A2 000000XX
+*Replace XX for :
+00 Ryu
+01 E.Honda
+02 Blanka
+03 Guile
+04 Ken
+05 Chun Li
+06 Zangief
+07 Dhalsim
+08 M.Bison
+09 Sagat
+0A Balrog
+0B Vega*
+*Code ported from GMO Ntsc Usa Version*
+
+Button Activator
+
+Player 1 [Crapulecorp]
+281876AE YYYYZZZZ
+*Classic Controller*
+
+Player 1 [Crapulecorp]
+281875A8 YYYYZZZZ
+*GameCube Controller*

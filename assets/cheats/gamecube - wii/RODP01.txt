@@ -1,0 +1,24 @@
+RODP01
+Wario Wares Smooth Moves
+
+Unlimited Lives (press 1 and lose a game to end) Made by stevenhill627, ported by [Romaap]
+4A000000 92000000
+14205F5F 00000004
+206C874C 00000200
+14205F5F 00000001
+E0000000 80008000
+
+Highscore of minigames (P1) [Romaap]
+04A77044 XXXXXXXX
+04A77048 XXXXXXXX
+04A7704C XXXXXXXX
+04A77050 XXXXXXXX
+04A77054 XXXXXXXX
+04A77060 XXXXXXXX
+XXXXXXXX must be between 00000001 and 7FFFFFFF
+04A77044 = Score Tortoise & Hare
+04A77048 = Score Balloon Trip
+04A7704C = Score Can Shooter
+04A77050 = Score Tower Tennis
+04A77054 = Score Block Star
+04A77060 = Score Pyoro S

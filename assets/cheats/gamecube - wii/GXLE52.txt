@@ -1,0 +1,11 @@
+GXLE52
+X-Men Legends
+
+Infinite Health Packs
+0040A9E0 0000000A
+
+Infinite Energy Packs
+0040AA04 0000000A
+
+Max/Infinite Tech Bits
+0440AE50 0001869F

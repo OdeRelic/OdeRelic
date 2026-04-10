@@ -1,0 +1,117 @@
+NATE
+Mario Tennis
+
+CC Button Activator [Thomas83Lin]
+281E07CA FFFF0000
+*use mask*
+
+GCN Button Activator [Thomas83Lin]
+281B7810 FFFF0000
+*use mask*
+
+Player 1 Points Modifier [Thomas83Lin]
+00D960AA 0000000x
+x=
+1 = 15
+2 = 30
+3 = 40
+*4 is Max Adv. depending on the game*
+
+Player 2 Points Modifier [Thomas83Lin]
+00D960AB 0000000x
+x=
+1 = 15
+2 = 30
+3 = 40
+*4 is Max Adv. depending on the game*
+
+Win Quick [Thomas83Lin]
+04D960A4 00000000
+
+Player 1 Sets Modifier [Thomas83Lin]
+00D960AF 0000000x
+
+Player 1 Games Modifier [Thomas83Lin]
+00D960AD 0000000x
+
+Player 2 Sets Modifier [Thomas83Lin]
+00D960B0 0000000x
+
+Player 2 Games Modifier [Thomas83Lin]
+00D960AE 0000000x
+
+Unlock DK Jr. and Shy Guy [Thomas83Lin]
+02CA8028 0000FFFF
+
+Unlock Star Player [Thomas83Lin]
+02CA802A 0000FFFF
+
+Unlock GBC characters [Thomas83Lin]
+00CA8084 00000001
+00CA8093 00000001
+00CA80B3 00000003
+00CA803C 00000001
+00CA804B 00000000
+00CA806B 00000002
+00CA80C8 00000001
+00CA8057 00000010
+*No Names*
+
+GBC Characters Default Names [Thomas83Lin]
+04CA8040 416C6578
+04CA8060 48617272
+00CA8064 00000079
+04CA80A8 4B617465
+04CA8088 4E696E61
+
+GBC Characters Max Level [Thomas83Lin]
+00CA804D 00000063
+00CA806D 00000063
+00CA8095 00000063
+00CA80B5 00000063
+
+GBC Characters Max Experience [Thomas83Lin]
+02CA805A 0000FFFF
+02CA807A 0000FFFF
+02CA80A2 0000FFFF
+02CA80C2 0000FFFF
+
+GBC Characters Improved Stats [Thomas83Lin]
+06CA804E 0000000B
+06050707 07070609
+09080700 00000000
+06CA806E 0000000B
+05040808 07060505
+04050300 00000000
+06CA8096 0000000B
+06070506 06080808
+09070700 00000000
+06CA80B6 0000000B
+07080504 05050405
+06050600 00000000
+
+Enter Ring Tournament Press L [Thomas83Lin]
+281E07CA DFFF2000
+04D6F130 00000002
+E0000000 80008000
+*Classic Controller*
+*Press L while in the Special Game Menu*
+
+Unlock All Courts [Thomas83Lin]
+04CA802C FFFFFFFF
+*Includes GBC Courses*
+
+Court Modifier [Thomas83Lin]
+00CA7EA0 000000XX
+*X=01-12*
+
+Always Have Item Modifier [Thomas83Lin]
+02D99D90 0000020A
+00D99D8C 0000000x
+*Press R on Classic Controller*
+*Items are invisible*
+*X= 0-4 and 8*
+
+Piranha Challenge 5050 [Thomas83Lin]
+04D93FE0 00000032
+04D93FDC 00000032

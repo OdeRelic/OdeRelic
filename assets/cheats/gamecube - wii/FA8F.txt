@@ -1,0 +1,77 @@
+FA8F
+Kirby's Adventure
+
+Infinite Health [Crapulecorp]
+00471257 00000047
+*Code ported from ZiT Ntsc Jap Version*
+
+Infinite Lives [Crapulecorp]
+00471259 00000063
+
+Invincible [Crapulecorp]
+004712B9 00000023
+*Code ported from ZiT Ntsc Jap Version*
+
+MoonJump [Crapulecorp]
+2829B052 FEFF0100
+0047127E 000000FD
+E0000000 80008000
+*WiiMote*
+*Code ported from ZiT Ntsc Jap Version*
+
+MoonJump (Press X) [Crapulecorp]
+2829B0B2 FFF70008
+0047127E 000000FD
+E0000000 80008000
+*Classic Controller*
+*Code ported from ZiT Ntsc Jap Version*
+
+Massive Score [Crapulecorp]
+02471254 0000FFFF
+04471250 FFFFFFFF
+*Code ported from Full Metal Kirby Ntsc Usa Version*
+
+Ability Modifier [Crapulecorp]
+024712A2 0000WWXX
+*WW should be FF for all except Mike/etc
+XX values:
+00 - Fire
+01 - Spark
+02 - Cutter
+03 - Sword
+04 - Fireball
+05 - Laser
+06 - Mike
+07 - Wheel
+08 - Hammer
+09 - Parasol
+0A - Sleep
+0B - Needle
+0C - Ice
+0D - Freeze
+0E - Hi-Jump
+0F - Beam
+10 - Stone
+11 - Ball
+12 - Tornado
+13 - Crash
+14 - Light
+15 - Back Drop
+16 - Throw
+17 - U.F.O.
+18 - Starrod
+19 - "ByeBye"
+1A+ - Normal*
+*Code ported from Full Metal Kirby Ntsc Usa Version*
+
+Button Activator
+
+WiiMote [Crapulecorp]
+2829B052 YYYYZZZZ
+
+Classic Controller [Crapulecorp]
+2829B0B2 YYYYZZZZ
+
+Classic Controller
+
+2829B0B2 YYYZZZZ

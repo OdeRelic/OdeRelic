@@ -1,0 +1,8 @@
+JDVE
+Wild Guns
+
+P1 Unlimited Lives [GMO]
+004780FA 00000009
+
+P1 Unlimited Explosives [GMO]
+004780E8 00000006

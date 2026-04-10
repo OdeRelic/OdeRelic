@@ -1,0 +1,757 @@
+RVYE52
+Call Of Duty World At War
+
+Find Match Desc. Modifier [sLoddir]
+42000000 90000000
+061DCB6C 0000002C
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+XXXXXXXX 00000000
+E0000000 80008000
+*Modifys the description for " Find Match "
+*Fill in X's with ASCII converted to hex.
+
+Private Match Desc. Modifier [sLoddir]
+42000000 90000000
+06176070 00000030
+4E5400XX XXXXXXXX
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXX0050
+E0000000 80008000
+*Modifies the description for " Private Match "
+*Fill in X's with ASCII converted to hex.
+
+Create a Class Desc. Modifier [sLoddir]
+42000000 90000000
+061DEEBC 00000020
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+XXXXXXXX XX004D50
+E0000000 80008000
+*Modifies the description for " Create a Class "
+*Fill in X's with ASCII converted to hex.
+
+Barracks Desc. Modifier [sLoddir]
+42000000 90000000
+061DCBFC 0000002C
+4C4500XX XXXXXXXX
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+XXXX0050 00000000
+E0000000 80008000
+*Modifies the description for " Barracks "
+*Fill in X's with ASCII converted to hex.
+
+Twitchy Crosshairs v0.9 [sLoddir]
+C0000000 00000003
+3D40807E 614A3CEC
+3D604416 616B0000
+916A0000 4E800020
+C0000000 00000003
+3D40807E 614A4FF0
+3D604416 616B0000
+916A0000 4E800020
+C0000000 00000003
+3D4080B5 614A3ACC
+3D604416 616B0000
+916A0000 4E800020
+C0000000 00000003
+3D4080B6 614A972C
+3D604416 616B0000
+916A0000 4E800020
+C0000000 00000003
+3D4080B7 614AF39C
+3D604416 616B0000
+916A0000 4E800020
+C0000000 00000003
+3D4080BD 614A7A0C
+3D604416 616B0000
+916A0000 4E800020
+C0000000 00000003
+3D408121 614AE16C
+3D604416 616B0000
+916A0000 4E800020
+E0000000 80008000
+*Works both non-host, and host.
+*Works for all players when host.
+
+*Fill in X's with ASCII converted to hex.
+
+Black vision Superman [superman]
+06687268 00000014
+00000000 43300000
+00000000 00000000
+E0000000 80008000
+
+Clan Tag Mod Superman [superman]
+067E4F34 00000017
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+
+scoreboard ping [superman]
+051FAD9C 01000000
+Ping is shown on scoreboard
+
+backwards speed mod [superman]
+051FE00C 40400000
+
+Cant hear walking host only [superman]
+051F7ACC 00000000
+no one in the game can hear walking
+
+aimbot [superman]
+051F7CC4 3F800000
+051FCEA0 01000000
+051FBEDC 7FFFFFFF
+051FBDBC 01000000
+051FBB34 01000000
+
+No Spectator Messages [superman]
+051F695C 00000000
+
+Bullet Tracers [superman]
+051F7CC4 3F800000
+051F806C 3F800000
+051F80FC 443B8000
+051F8144 459C4000
+this is non host to
+
+wall hack [superman]
+05201E34 420C0000
+non host
+
+Force Laser On Gun (campaign) [PoptartHunter]
+055103F4 01000000
+
+Instant Level 65 [PoptartHunter]
+281B6362 00008000
+049CCC00 05F5E0FF
+E0000000 80008000
+*Home to activate.
+
+Infinite Clips Of Ammo (Host Only) [Seth@WiiPlaza]
+C31FDB64 00000001
+A0000001 00000000
+
+No Recoil [Seth@WiiPlaza]
+C31FCF4C 00000001
+00000000 00000000
+
+"Please insert the Disc" Modifier [Crashzer]
+06125254 00000018
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+E0000000 80008000
+*Use this code and eject the disc
+*X = Message in hex
+
+God Mode [Bully@Wiiplaza]
+F23E2B78 0253FF01
+38000001 60000000
+*Only way to die is holding a grenade for too long*
+*Host All-Players*
+
+Infinite Ammo [Bully@Wiiplaza]
+F23143E4 022C0001
+38000001 60000000
+*Host All-Players*
+
+No Clip [Bully@Wiiplaza]
+281B6362 7FFF8000
+F23DDC1C 022C0001
+38000001 60000000
+CC000000 00000000
+F23DDC1C 022C0001
+801E1664 60000000
+E0000000 80008000
+*Host All-Players*
+*Press Home to toggle ON/OFF*
+
+Auto Shoot Toggle [BoxNinja]
+281B6362 00008000
+0476CF28 00000000
+CC000000 00000001
+0476CF28 01000000
+E0000000 80008000
+*Hit home to toggle auto shoot
+*really good for infinite ammo and full auto guns
+
+All Primary challanges and easy XP [xcoopa]
+049CCF20 00000096
+049CCF73 00000096
+049CCF84 00000096
+049CCF80 00000096
+049CCFD4 00000096
+049CCF74 00000096
+049CD068 00000096
+049CD078 00000096
+049CCFE0 00000096
+049CCFE4 00000096
+049CD010 00000096
+049CD014 00000096
+049CCF30 00000096
+049CCF34 00000096
+049CCF24 00000096
+049CCFC0 00000096
+049CCFC4 00000096
+049CCFEC 00000096
+049CCF78 00000096
+049CCF78 00000096
+049CCF7C 00000096
+049CCF44 00000096
+049CCF78 00000096
+049CCF2C 00000096
+049CCF38 00000096
+049CCF3C 00000096
+049CD018 00000096
+049CD01C 00000096
+049CCF88 00000096
+049CCF8C 00000096
+049CCFD8 00000096
+049CCFDC 00000096
+049CCFC8 00000096
+049CCFCC 00000096
+049CCFD0 00000096
+049CCF28 00000096
+049CCFCC 00000096
+049CCFE8 00000096
+049CD084 00000096
+049CD074 00000096
+049CD070 00000096
+049CD06C 00000096
+049CD064 00000096
+049CD060 00000096
+049CD07C 00000096
+049CCF40 00000096
+
+Makes All Weapons Full-Auto Online(Host Only) [777eThOd*]
+047E3A2C 00000000
+&777&
+NO LOCKING, makes all weapons and secondarys full-auto.
+Shotguns,Rifles,Sniper Rifles,Pistols,etc.
+
+Speed Mod Online (All-Players) [777eThOd*]
+04672D80 XXX00000
+
+The Denden Code Non-host [777eThOd*]
+04687268 00000000
+04687278 43300000
+04687290 00000000
+&777&
+Makes Character,Guns,Trees,Some objects,Etc, Black. Differences on maps.
+
+Profile 1 name modfier [Ropers]
+068583C4 00000017
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+replace the xx with your name ascii to hex
+
+Profile 2 name modfier [Ropers]
+068583E4 00000017
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+replace the xx with your name ascii to hex
+
+Profile 3 name modfier [Ropers]
+06858404 00000017
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+replace the xx with your name ascii to hex
+
+Profile 4 name modfier [Ropers]
+06858424 00000017
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+replace the xx with your name ascii to hex
+
+Profile 5 name modfier [Ropers]
+06858444 00000017
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+replace the xx with your name ascii to hex
+
+Button Activator [Sorzad12]
+2898CCC6 YYYYXXXX
+
+Disable Overhead Names [BLiTz*]
+051F8DEC FFFFFFFF
+051F8E34 FFFFFFFF
+
+Ingame Name Color Changer [BLiTz*]
+051FAC94 RRGGBBAA
+
+Wall Hack [Sorzad12]
+047E3A58 FFFFFFFF
+*host only
+*lets you see through walls
+*still kind of buggy
+
+Always Prone and Go Prone Faster [Sorzad12]
+047E3A58 45DAC000
+*online host only
+*will make you go prone faster
+*will make you keep going prone
+
+Go Prone Faster [Sorzad12]
+047E3A58 00000000
+*online host only
+*will make you go prone faster
+
+Always stand and prone [Sorzad12]
+047E39EC 0000000A
+*Online host only
+*will make you keep on going prone then stand up and repeat
+
+Teleporter (C, Z, Home and Minus): [hetoan2]
+281B6362 00008000
+82210000 007E3940
+82210001 007E3944
+82210002 007E3948
+E0000000 80008000
+281B6362 00001000
+84210000 007E3940
+84210001 007E3944
+84210002 007E3948
+E0000000 80008000
+281B6362 0000C000
+82210003 007E3940
+82210004 007E3944
+82210005 007E3948
+E0000000 80008000
+281B6362 00005000
+84210003 007E3940
+84210004 007E3944
+84210005 007E3948
+E0000000 80008000
+281B6362 0000A000
+82210006 007E3940
+82210007 007E3944
+82210008 007E3948
+E0000000 80008000
+281B6362 00003000
+84210006 007E3940
+84210007 007E3944
+84210008 007E3948
+E0000000 80008000
+When pressing Home you save your current location
+When pressing Minus you reload your saved location
+When holding C or Z while pressing Home or Minus you create 2 more locations where you can save/load to teleport to.
+
+Able to Hold Grenades Forever: [hetoan2]
+04317B88 60000000
+
+Flamethrowers become Jetpacks (ALL Players except host): [hetoan2]
+247E52DC 41000000
+047E52DC 3F800000
+E0000000 80008000
+267E52DC 41000001
+247E52DC 3F800000
+047E5114 44000000
+E0000000 80008000
+247E6A9C 41000000
+047E6A9C 3F800000
+E0000000 80008000
+267E6A9C 41000001
+247E6A9C 3F800000
+047E68D4 44000000
+E0000000 80008000
+247E825C 41000000
+047E825C 3F800000
+E0000000 80008000
+267E825C 41000001
+247E825C 3F800000
+047E8094 44000000
+E0000000 80008000
+247E9A1C 41000000
+047E9A1C 3F800000
+E0000000 80008000
+267E9A1C 41000001
+247E9A1C 3F800000
+047E9854 44000000
+E0000000 80008000
+247EB1DC 41000000
+047EB1DC 3F800000
+E0000000 80008000
+267EB1DC 41000001
+247EB1DC 3F800000
+047EB014 44000000
+E0000000 80008000
+247EC99C 41000000
+047EC99C 3F800000
+E0000000 80008000
+267EC99C 41000001
+247EC99C 3F800000
+047EC7D4 44000000
+E0000000 80008000
+247EE15C 41000000
+047EE15C 3F800000
+E0000000 80008000
+267EE15C 41000001
+247EE15C 3F800000
+047EDF94 44000000
+E0000000 80008000
+That code allows other players to use moonjump capabilities without the use of cheating. All you need to do is turn that code on and they will be able to use their flamethrowers like a jetpack.
+Although this may seem unfair (since anything below 65 can not really use a flamethrower there are glitches one can do to get a flamethrower at level 4. thats the great thing about youtube)
+
+Player Identifier: [hetoan2]
+047E66BC 6E6F6F62
+047E66C0 20233100
+047E7E7C 6E6F6F62
+047E7E80 20233200
+047E963C 6E6F6F62
+047E9640 20233300
+047EADFC 6E6F6F62
+047EAE00 20233400
+047EC5BC 6E6F6F62
+047EC5C0 20233500
+047EDD7C 6E6F6F62
+047EDD80 20233600
+047EF53C 6E6F6F62
+047EF540 20233700
+Ever need to know which player was first to join? Or which player you want to move to another team? This code will tell you which player the person is. With the host (you) being player #0 it forces everyone elses name to say noob #X where X is their player number.
+
+WiFi XP modifier : [hetoan2]
+049CCC02 XXXXXXXX
+
+WiFi Death Modifier : [hetoan2]
+049CCC10 XXXXXXXX
+
+WiFi Kill Streak Modifier : [hetoan2]
+049CCC0C XXXXXXXX
+
+WiFi Prestige Modifier: [hetoan2]
+049CCC64 0000000X
+For the codes above replace the X's with numbers converted into hexadecimal.
+
+Moon Jump (host only) : [hetoan2]
+281B6362 FFF70008
+047E3954 44000000
+E0000000 80008000
+
+Fast Fall (down on dpad)(host only): [hetoan2]
+281B6362 FFFB0004
+047E3954 C61C4000
+E0000000 80008000
+
+Rapid Fire (host only) : [hetoan2]
+047E3960 00000000
+
+Infinite Flamethrower (host only) : [hetoan2]
+047E3B1C 00000000
+
+Infinite HP on (all players) : [hetoan2]
+043E2F38 60000000
+
+Infinite HP off (all players) : [hetoan2]
+043E2F38 7C180050
+
+Infinite HP (host only) : [hetoan2]
+056437D8 00000000
+
+Infinite Ammo on (all players): [hetoan2]
+04314420 380000FF
+
+Infinite Ammo off (all players): [hetoan2]
+04314420 A8030220
+
+Fast Stab (host only) : [hetoan2]
+047E39C8 00000000
+
+Team 2 Points Modifier : [hetoan2]
+047E0D70 XXXXXXXX
+
+Team 1 Points Modifier: [hetoan2]
+047E0D74 XXXXXXXX
+
+Deaths Modifier : [hetoan2]
+047E4DF4 XXXXXXXX
+
+Kills Modifier : [hetoan2]
+047E4DF8 XXXXXXXX
+
+Personal Points Modifier: [hetoan2]
+047E4DF0 XXXXXXXX
+
+Team You Are On Modifier: [hetoan2]
+047E4EC4 0000000X
+
+X values:
+0 - team 1's spectator mode (can still kill)
+1 - team 1
+2 - team 2
+3 - spectator (can still kill)
+4 - team 2's spectator mode (can still kill)
+
+On team switch players become a spectator (can kill but invisible) : [hetoan2]
+043DE1FC 38000003
+
+Friendly Fire is ON: [hetoan2]
+051FD3AC 00000001
+
+Friendly Fire is OFF: [hetoan2]
+051FD3AC 00000000
+
+Bullets Bounce off Team-mates: [hetoan2]
+051FD3AC 00000002
+
+Damage Split Between Team-mates: [hetoan2]
+051FD3AC 00000003
+
+Floating Guns: [hetoan2]
+047E4EA8 000000FF
+
+Blue "Friend" X next to your name: [hetoan2]
+047E4F4C 00000001
+
+Clan Tag Modifier : [hetoan2]
+047E4F34 XXXXXXXX
+047E4F38 XXXXXXXX
+
+Blue Star On Map Coords (middle): [hetoan2]
+047E4F50 00335577
+
+Blue Star On Map Coords hetoan2: [hetoan2]
+047E4F50 00YYXXZZ
+
+Speed Modifier (all other players): [hetoan2]
+047E6664 XXXXXXXX
+047E7E24 XXXXXXXX
+047E95E4 XXXXXXXX
+047EADA4 XXXXXXXX
+047EC564 XXXXXXXX
+047EDD24 XXXXXXXX
+047EF4E4 XXXXXXXX
+
+Speed Modifier (host only): [hetoan2]
+047E4EA4 XXXXXXXX
+
+Players Cant get Streak Items : [hetoan2]
+04317B88 60000000
+
+Nick Color is Random: [hetoan2]
+007E4F34 0000005E
+287E4F34 00005E39
+027E4F34 00005E30
+E0000000 80008000
+8201000F 007E4F35
+8600000F 00000001
+8401000F 007E4F35
+
+Nick Color Cycler: [hetoan2]
+281B6362 00000200
+A8000000 0000000F
+007E4F34 0000005E
+8201000F 007E4F35
+8600000F 00000001
+8401000F 007E4F35
+E0000000 80008000
+287E4F34 00005E39
+027E4F34 00005E30
+E0000000 80008000
+How to use: Press 2 to open up player list. Then press 1 until you reach the color you like.
+When using this code you need to use an alternative Clan Tag code.
+
+Alternate Clan Tag Modifier: [hetoan2]
+027E4F36 0000XXXX
+047E4F38 XXXXXXXX
+
+Prestige Cycler : [hetoan2]
+8201000F 009CCC67
+281B6362 FFF70008
+A8000000 F0000000
+8600000F 00000001
+E0000000 80008000
+281B6362 FFFB0004
+A8000000 F0000000
+8600000F FFFFFFFF
+E0000000 80008000
+8401000F 009CCC67
+2C9CCC66 0000000B
+009CCC67 00000000
+E0000000 80008000
+Use Up and Down d-pad arrows to increase/decrease your prestige respectively. Changes take place immediately.
+
+Volume Modifier: [hetoan2]
+049F357C XXXXXXXX
+for X's put a floating point, do not make it too loud. I'm pretty sure it caps out around 100x normal
+3F800000 is default...
+
+Gravity Modifier: [hetoan2]
+05750000 3F8F0000
+05750004 00000000
+05750008 3F720000
+C2307700 00000005
+3E808175 C0B40004
+FC002840 41800010
+C0340000 EC010032
+4800000C C1D40008
+EC0E0032 00000000
+
+Ammo type modifier: [hetoan2]
+2564370A 00000000
+04304264 380000XX
+E0000000 80008000
+2164370A 00000000
+04304264 80030104
+E0000000 80008000
+
+XX values:
+00 = fake ammo
+01 = empty shells
+02 = fake grenades
+15 = flamethrower
+16 = rocket launcher
+1B = PTRS
+21 = betties
+22 = satchiels
+23 = frag grenade
+24 = molotov
+25 = smoke grenade
+26 = tabun gas
+27 = sticky grenade
+62 = rifle grenade
+79 = artillery
+
+Insta-stab (host only: [hetoan2]
+047E3CC8 00000000
+
+Floating Guns (host only): [hetoan2]
+047E51A8 000000FF
+
+Rapid Fire (host only): [hetoan2]
+047E3C60 00000000
+
+Rapid Fire Grenades and Stab (all players): [hetoan2]
+04316260 38000000
+
+Friction is off (slidy mode): [hetoan2]
+043076EC 60000000
+
+Turn Speed Modifier: [hetoan2]
+04672298 XXXXXXXX
+For X's put a floating point value converted to hex. If you want something a little faster than the maximum in-game one, you might want to try 3FC00000 (1.5x normal) All others are too fast really. If you make it go too fast, the game will turn off the turn function and will make your viewpoint fixed for the rest of the game
+
+Low Gravity v2 [hetoan2]
+05750000 3F8F0000
+05750004 00000000
+05750008 3F720000
+C2307700 00000005
+3E808175 C0B40004
+FC002840 41800010
+C0340000 EC010032
+4800000C C1D40008
+EC0E0032 00000000
+still a bit buggy
+
+Infinite Flame All Players on [hetoan2]
+04439974 60000000
+
+Infinite Flamethrower All Players off [hetoan2]
+04439974 D00401F8
+
+Rapid Fire All Players on [hetoan2]
+043169B4 60000000
+
+Rapid Fire All Players off [hetoan2]
+043169B4 901E0040
+
+Rapid Grenades And Stab on [hetoan2]
+04316260 38000000
+
+Friction is off (slidy mode) [hetoan2]
+043076EC 60000000
+
+Turn Speed Modifier [hetoan2]
+04672298 XXXXXXXX
+for X's put a floating point
+
+Always stand and prone offline version [Sorzad12]
+04727C84 00000006
+*offline version (solo mode)
+*will make you keep on going prone then stand up and repeat
+
+Go Prone Faster [Sorzad12]
+04727CF0 FFFFFFFF
+*will make you go prone faster
+
+Wall Hack [Sorzad12]
+04727CF0 FFFFFFFF
+*offline only
+*lets you see through walls
+*offline version REALY buggy
+
+Ammo type modifier OFF [hetoan2]
+04304264 80030104
+
+Ammo type modifier ON [hetoan2]
+04304264 380000XX
+XX values
+00 = fake ammo
+01 = empty shells
+02 = fake grenades
+15 = flamethrower
+16 = rocket launcher
+1B = PTRS
+21 = betties
+22 = satchiels
+23 = frag grenade
+24 = molotov
+25 = smoke grenade
+26 = tabun gas
+27 = sticky grenade
+62 = rifle grenade
+
+Infinite Ammo [ZiT]
+04312CB4 60000000
+
+Infinite LIFE [ZiT]
+C23E7D50 00000002
+380000FF 90100190
+60000000 00000000
+044125B4 60000000
+
+Moon Jump ( ^ Button) [ZiT]
+281B6362 00000008
+04727BEC 44000000
+E0000000 80008000
+
+Speed Up [ZiT]
+28846B12 00000100
+04727BE8 44000000
+E0000000 80008000
+28846B12 00000001
+04727BE8 C4000000
+E0000000 80008000
+28846B10 00000100
+04727BE4 44000000
+E0000000 80008000
+28846B10 00000001
+04727BE4 C4000000
+E0000000 80008000
+
+Universal Codes for Call of Duty: World At War
+
+Unlock All Missions [Bully@Wiiplaza]
+281B6362 7FFF8000
+F6000001 81008180
+00000400 3F19999A
+14004414 01000000
+E0000000 80008000
+*Press Home on Campaign to activate*
+*Non-permanent*
+*Video: http://www.youtube.com/watch?v=cYJ95hQ0Ikg

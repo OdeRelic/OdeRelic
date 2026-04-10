@@ -1,0 +1,19 @@
+RNRE41
+NitroBike
+
+Infinite Time [eric]
+04087954 38000000
+
+Timer Increases (Countdown timers) [eric]
+0403e5f8 ec00102a
+
+Start on Last Lap [eric]
+040876d0 b3a30022
+
+Infinite Nitro [eric]
+04067ea0 40800004
+
+Maximum Nitro Gauge [eric]
+0402d2fc 38000004
+0404bcf4 38000004
+04067114 38000004

@@ -1,0 +1,11 @@
+C9GP
+Mayhem In Monsterland
+
+Unlimited Lives [Crapulecorp]
+00302562 00000009
+
+Time Stop [Crapulecorp]
+002F71CA 0000001C
+
+Unlimited Magic [Crapulecorp]
+02302564 00000100

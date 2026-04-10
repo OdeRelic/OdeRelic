@@ -1,0 +1,53 @@
+SCDP52
+Cabela's Dangerous Hunts 2011
+
+Infinite Ammo [Crapulecorp]
+0438F25C 60000000
+*Code ported from Thomas83Lin NTSC US Version*
+
+Never Reload [Crapulecorp]
+043B3F64 38040000
+*Code ported from Thomas83Lin NTSC US Version*
+
+Automatic Weapons [Crapulecorp]
+043B2520 60000000
+*Code ported from Thomas83Lin NTSC US Version*
+
+Rapid Fire [Crapulecorp]
+043B2520 60000000
+043B24E8 60000000
+*Code ported from Thomas83Lin NTSC US Version*
+
+Inf Health [Crapulecorp]
+041326BC 60000000
+*Code ported from Thomas83Lin NTSC US Version*
+
+Inf Health (Press Minus ON/OFF) [Crapulecorp]
+4E00000C 00000000
+288A51FA EFFF1000
+CC000000 00000001
+14000000 00000003
+041326BC 60000000
+CC000000 00000000
+041326BC D01B0008
+E0000000 80008000
+*WiiMote-NunChuk*
+*Code ported from Thomas83Lin NTSC US Version*
+
+Inf Health (Press 1 and 2)ON/OFF [Crapulecorp]
+4E00000C 00000000
+288A51FA 00000300
+CC000000 00000001
+14000000 00000003
+041326BC 60000000
+CC000000 00000000
+041326BC D01B0008
+E0000000 80008000
+*WiiMote-NunChuk*
+*Code ported from Thomas83Lin NTSC US Version*
+
+Button Activator
+
+Player 1 [Crapulecorp]
+288A51FA XXXXYYYY
+*WiiMote-NunChuk*

@@ -1,0 +1,10 @@
+SK4E52
+Shrek Forever After
+
+If Coin Increase, MAX [ZiT]
+042C6F7C 38002710
+042C6FAC 38002710
+
+Infinite Life & 1 Hit Kill [ZiT]
+040600CC D3DE091C
+0406051C D3FF091C

@@ -1,0 +1,19 @@
+RE3ENR
+WWII Aces
+
+Invincible - Player 1 [Jose_Gallardo]
+041E5A18 0000015E
+*Can still die if you crash
+
+Invincible - Player 2 [Jose_Gallardo]
+04227658 0000015E
+*Can still die if you crash
+
+Never Overheat [Jose_Gallardo]
+0406FADC 60000000
+
+Infinite Bombs [Jose_Gallardo]
+0406FEFC 60000000
+
+Infinite Rockets [Jose_Gallardo]
+0406FE44 60000000

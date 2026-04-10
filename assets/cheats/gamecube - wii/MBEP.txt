@@ -1,0 +1,6 @@
+MBEP
+Shining Force
+
+Infinite Gold [Crapulecorp]
+02F3FD90 0000FFFF
+*GMO's Code for the Ntsc version is working for the Pal too*

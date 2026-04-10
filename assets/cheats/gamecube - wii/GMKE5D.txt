@@ -1,0 +1,187 @@
+GMKE5D
+Mortal Kombat Deadly Alliance
+
+Version 1.0
+
+Infinite Time [Codejunkies]
+04419AD4 00000063
+
+Arcade-Final Stage [Codejunkies]
+0241A2C6 0000000A
+
+Always Test [Codejunkies]
+02419AE2 00000005
+
+All Characters [Codejunkies]
+043D68A8 FFFFFFFF
+
+Super Jigglie Bosoms [Codejunkies]
+04419BF8 3E400000
+04419C00 3F800000
+
+Infinite White Koins [Codejunkies]
+023D958A 0000270F
+
+Infinite Silver Koins [Codejunkies]
+023D958E 0000270F
+
+Infinite Gold Koins [Codejunkies]
+023D9592 0000270F
+
+Infinite Red Koins [Codejunkies]
+023D9596 0000270F
+
+Infinite Green Koins [Codejunkies]
+023D959A 0000270F
+
+Infinite Blue Koins [Codejunkies]
+023D959E 0000270F
+
+Player 1 Codes
+
+Easy Might Test [Codejunkies]
+0441A154 3FF00000
+0441A210 3FF00000
+
+Infinite Health [Codejunkies]
+04419ACC 3F800000
+
+50% Health [Codejunkies]
+20419ACC 3F800000
+04419ACC 3F000000
+E2000001 80008000
+
+One Hit Will Kill P2 [Codejunkies]
+20419AC8 3F800000
+04419AC8 38000000
+E2000001 80008000
+
+Always Alternative Costume [Codejunkies]
+04419D20 90000000
+
+Always Bleed To Death [Codejunkies]
+043BCC18 B9DA740E
+
+Never Bleed To Death [Codejunkies]
+043BCC18 00000000
+
+Player 2 Codes
+
+Easy Might Test [Codejunkies]
+0441A158 3FF00000
+0441A20C 3FF00000
+
+Infinite Health [Codejunkies]
+04419AC8 3F800000
+
+50% Health [Codejunkies]
+20419AC8 3F800000
+04419AC8 3F000000
+E2000001 80008000
+
+One Hit Will Kill P1 [Codejunkies]
+20419ACC 3F800000
+04419ACC 38000000
+E2000001 80008000
+
+Always Bleed To Death [Codejunkies]
+043BDA44 B9DA740E
+
+Never Bleed To Death [Codejunkies]
+043BDA44 00000000
+
+Version 1.1
+
+Infinite Time [Codejunkies]
+0441BCF4 00000063
+
+Arcade-start On Final Stage [Codejunkies]
+0241C4E6 0000000A
+
+Always Play Might/Sight Tests [Codejunkies]
+0241BD02 00000005
+
+Infinite Test Time [Codejunkies]
+0041C413 0000000A
+
+Super Jiggling Action! [Codejunkies]
+0441BE18 3E400000
+0441BE20 3F800000
+
+P1 Infinite Health [Codejunkies]
+0441BCEC 3F800000
+
+P1 Starts With 50% Health [Codejunkies]
+2041BCEC 3F800000
+0441BCEC 3F000000
+E2000001 80008000
+
+Hit Will Kill P1 [Codejunkies]
+2041BCEC 3F800000
+0441BCEC 38000000
+E2000001 80008000
+
+P1 Easy Might Test [Codejunkies]
+0441C374 3F810000
+0441C430 3F810000
+
+P1 Alwyas Alt Costume [Codejunkies]
+0441BF40 90000000
+
+P1 Always Bleeding To Death [Codejunkies]
+043BEF78 B9DA740E
+
+P1 Never Bleeds To Death [Codejunkies]
+043BEF78 00000000
+
+P2 Infinite Health [Codejunkies]
+0441BCE8 3F800000
+
+P2 Starts With 50% Health [Codejunkies]
+2041BCE8 3F800000
+0441BCE8 3F000000
+E2000001 80008000
+
+Hit Will Kill P2 [Codejunkies]
+2041BCE8 3F800000
+0441BCE8 38000000
+E2000001 80008000
+
+P2 Easy Might Test [Codejunkies]
+0441C378 3F810000
+0441C42C 3F810000
+
+P2 Alwyas Alt Costume [Codejunkies]
+0441BF3C 90000000
+
+P2 Always Bleeding To Death [Codejunkies]
+043BFDA4 B9DA740E
+
+P2 Never Bleeds To Death [Codejunkies]
+043BFDA4 00000000
+
+Infinite Platinum Koins [Codejunkies]
+023DB8EA 0000270F
+
+Infinite Silver Koins [Codejunkies]
+023DB8EE 0000270F
+
+Infinite Blue Koins [Codejunkies]
+023DB8F2 0000270F
+
+Infinite Jade Koins [Codejunkies]
+023DB8F6 0000270F
+
+Infinite Red Koins [Codejunkies]
+023DB8FA 0000270F
+
+Infinite Gold Koins [Codejunkies]
+023DB8FE 0000270F
+
+All Krypts Are Free! [Codejunkies]
+085E1146 00000000
+10FF0014 00000000
+085E391E 00000000
+10FF0014 00000000
+085E60F6 00000000
+10A60014 00000000

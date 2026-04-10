@@ -1,0 +1,8 @@
+RK2EEB
+Trauma Center NEW BLOOD
+
+Infinite Health [g6flavor]
+040E7024 60000000
+
+Infinite Time [g6flavor]
+040E6AF8 60000000

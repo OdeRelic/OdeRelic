@@ -1,0 +1,47 @@
+RSMP8P
+Super Monkey Ball: Banana Blitz
+
+Infinite Time & Lives [Thomgame]
+04354664 0E100300
+
+Score at Max [Thomgame]
+04354668 0098967F
+
+Max Bananas at Credits Screen (Press 1 to set to max [Thomgame]
+282ACB5A 00000200
+045C9040 000003E7
+282ACB5A 00000000
+805C9040 000003E7
+
+Moon Jump ( Button B : Activate, Release the button : Deactivate) [Thomgame]
+48000000 803545F0
+DE000000 80008180
+282ACB5A 00000400
+140000EC 4190AAFF
+282ACB5A 00000000
+140000EC 3E4CCCCC
+E0000000 80008000
+
+Moon Jump ( Button 1 : Activate, Release the button : Deactivate) [Thomgame]
+48000000 803545F0
+DE000000 80008180
+282ACB5A 00000200
+140000EC 4190AAFF
+282ACB5A 00000000
+140000EC 3E4CCCCC
+E0000000 80008000
+
+Moon Jump ( Button 2 : Activate, Release the button : Deactivate) [Thomgame]
+48000000 803545F0
+DE000000 80008180
+282ACB5A 00000100
+140000EC 4190AAFF
+282ACB5A 00000000
+140000EC 3E4CCCCC
+E0000000 80008000
+<!--!include:Read-->
+
+Warning ! : Max Bananas at Credits Screen code may block the Moon Jump Code
+I don't know why...
+All Codes work with Everywhere in the Adventure Mode and with Any Characters.
+These codes don't work with the Mini-Games mode !

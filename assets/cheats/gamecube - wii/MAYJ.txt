@@ -1,0 +1,16 @@
+MAYJ
+Alien Storm
+
+Infinite Life [ZiT]
+00E841CB 00000060
+
+Infinite Energy [ZiT]
+00E841CC 00000090
+
+Invincible [ZiT]
+00E84321 00000070
+
+Moon Jump (B Button) [ZiT]
+281ECF9A FBFF0400
+02E8430C 0000FA00
+E0000000 80008000

@@ -1,0 +1,45 @@
+FFYE
+Mega Man 5
+
+Press - for 1Hit Boss Kill [GMO]
+281B5028 00001000
+003F8338 00000001
+E0000000 80008000
+
+Reduced Time Charged Shot [GMO]
+281B5028 FDFF0200
+003F7F18 00000050
+E0000000 80008000
+
+Inf Health [Thomas83Lin]
+003F7F90 0000009C
+
+Infinite Ammo+Energy [Thomas83Lin]
+083F7F91 0000009C
+000B0001 00000000
+*Unlock All Weapons+Secret Beat Weapon*
+
+Infinite E+M Tanks [Thomas83Lin]
+023F7F9D 00008989
+
+Inf Lives [Thomas83Lin]
+003F7F9F 00000009
+
+Invincible [Thomas83Lin]
+003F8498 00000001
+
+Moon Jump (Press 1+2) [Thomas83Lin]
+281B5028 FCFF0300
+003F82D0 00000004
+E0000000 80008000
+*Wiimote*
+
+Moon Jump (Press A) [Thomas83Lin]
+281B5052 FFEF0010
+003F82D0 00000004
+E0000000 80008000
+*Classic Controller*
+
+All MegaMan Letters [Thomas83Lin]
+003F7F4D 000000FF
+*Receive Beat after picking up any letter*

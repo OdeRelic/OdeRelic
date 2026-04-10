@@ -1,0 +1,26 @@
+JBYE
+Super R-Type
+
+Inf Lives [Thomas83Lin]
+0043CAE9 00000008
+
+Invincible [Thomas83Lin]
+2043C994 F9A80100
+0443C994 B5A80100
+E0000000 80008000
+
+Max Speed [Thomas83Lin]
+0043C99F 00000005
+0043C9A4 00000005
+
+Weapon Modifier [Thomas83Lin]
+0443CB48 EFD7F083
+0043CB4D 0000000x
+*X= 0-4*
+
+Weapons Digits
+0=Circle's
+1=Laser
+2= 2-way Fire
+3=Spread Fire
+4=Rocket

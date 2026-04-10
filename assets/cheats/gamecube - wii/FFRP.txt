@@ -1,0 +1,13 @@
+FFRP
+Faxanadu
+
+Unlimited Power (P) [Crapulecorp]
+003B7391 00000050
+
+Unlimited Magic (M) [Crapulecorp]
+003B72FA 00000050
+*Code ported from GMO Ntsc Usa Version*
+
+Unlimited Gold (G) [Crapulecorp]
+023B72F2 0000FFFF
+*Code ported from GMO Ntsc Usa Version*

@@ -1,0 +1,58 @@
+RT7P69
+Tiger Woods 07
+
+Allways be on 1st Shot.
+
+Hole 1 [memorris]
+04502640 00000000
+
+Hole 2 [memorris]
+04502644 00000000
+
+Hole 3 [memorris]
+04502648 00000000
+
+Hole 4 [memorris]
+0450264C 00000000
+
+Hole 5 [memorris]
+04502650 00000000
+
+Hole 6 [memorris]
+04502654 00000000
+
+Hole 7 [memorris]
+04502658 00000000
+
+Hole 8 [memorris]
+0450265C 00000000
+
+Hole 9 [memorris]
+04502660 00000000
+
+Hole 10 [memorris]
+04502664 00000000
+
+Hole 11 [memorris]
+04502668 00000000
+
+Hole 12 [memorris]
+0450266C 00000000
+
+Hole 13 [memorris]
+04502670 00000000
+
+Hole 14 [memorris]
+04502674 00000000
+
+Hole 15 [memorris]
+04502678 00000000
+
+Hole 16 [memorris]
+0450267C 00000000
+
+Hole 17 [memorris]
+04502680 00000000
+
+Hole 18 [memorris]
+04502684 00000000

@@ -1,0 +1,116 @@
+RVKEXJ
+Valhalla Knights: Eldar Saga
+
+Equipment Gallery Complete [TNTkryzt]
+04198474 38800001
+04198480 7C8381AE
+
+Character Gallery Complete [TNTkryzt]
+04197E84 38000001
+04197E88 9803CB68
+
+Monster Gallery Complete [TNTkryzt]
+04198048 38000001
+0419804C B003CC72
+
+Access all Portals (Temp) [TNTkryzt]
+04125120 38600001
+
+Access all Races [TNTkryzt]
+041546F4 38A0000F
+041546F8 90A6D528
+
+All Jobs Available [TNTkryzt]
+040F42E4 7C031800
+
+Enable Equipment Menu [TNTkryzt]
+040FA224 3BE00001
+
+Infinite Attribute Points [TNTkryzt]
+04154AEC 38600064
+04154444 2C000063
+
+Infinite Status Points [TNTkryzt]
+04100198 38800063
+
+Max Status Attribute [TNTkryzt]
+0810024C 38000063
+20060014 00000000
+
+Infinite Skill Points [TNTkryzt]
+077E2400 0000000C
+38C00063 B0C31E6E
+4A9265B0 00000000
+041089B4 496D9A4C
+
+Max Skill Attribute [TNTkryzt]
+04109174 3800000A
+
+Gain Sale Price [TNTkryzt]
+0416BB68 7CC01A15
+
+Max Gold from Sale [TNTkryzt]
+0416BB88 901E7258
+0416BB8C 48000004
+
+Pass CP Check [TNTkryzt]
+040FD61C 7C000040
+04018E0C 7C000040
+
+EXP Gain x100 [TNTkryzt]
+040184A4 1F840064
+
+EXP Gain x1000 [TNTkryzt]
+040184A4 1F8403E8
+
+No Status Change [TNTkryzt]
+0407CCD4 60000000
+
+Stats Upgrade x2 (Temp) [TNTkryzt]
+04603034 40000000
+
+Infinite Stamina [TNTkryzt]
+04018B70 A8641E94
+
+Infinite HP [TNTkryzt]
+0407CD28 60000000
+
+Quick HP Regen [TNTkryzt]
+04018C6C A8041E8E
+
+Infinite MP [TNTkryzt]
+04083F94 7C601B78
+
+Quick MP Regen [TNTkryzt]
+04018CDC A8041E90
+
+Pass MP Check [TNTkryzt]
+04083F8C 7C000000
+
+Infinite TP [TNTkryzt]
+04018D60 A8651E92
+
+Infinite BST [TNTkryzt]
+0407546C D00472E4
+04075470 FC000040
+
+Infinite Bag Items [TNTkryzt]
+077E2418 00000010
+38000009 B01C0004
+2C040001 4A9BF3C0
+041A17E0 49640C38
+
+Infinite Belt Items [TNTkryzt]
+040BF49C 60000000
+
+Infinite Weapon Durability [TNTkryzt]
+04080990 60000000
+
+Auto-Appraise Items [TNTkryzt]
+077E240C 0000000C
+38000001 981F0006
+4A922330 00000000
+04104740 496DDCCC
+
+One Hit Kill [TNTkryzt]
+040511F0 38001388

@@ -1,0 +1,106 @@
+JBBP
+Super Street Fighter II The New Challengers
+
+Unlimited Health Player 1 [Crapulecorp]
+0243B3F8 0000B0B0
+*Code ported from GMO Ntsc Usa Version*
+
+Invincible [Crapulecorp]
+0043B4FF 000000FF
+*Code ported from g6flavor Ntsc Usa Version*
+
+Time Stopped (Round & Bonus Stage) [Crapulecorp]
+0043C7F0 00000000
+*Code ported from GMO Ntsc Usa Version*
+
+Time x99 [Crapulecorp]
+0043C7F1 00000099
+
+Moonjump Player 1 [Crapulecorp]
+2814DB92 FFFE0001
+0243B3F6 00000004
+E0000000 80008000
+*Classic Controller*
+*Code ported from ZiT Ntsc Jap Version*
+
+Moonjump Player 1 [Crapulecorp]
+2814DA8C FFF70008
+0243B3F6 00000004
+E0000000 80008000
+*GameCube Controller*
+*Code ported from ZiT Ntsc Jap Version*
+
+Air Moves [Crapulecorp]
+0043B4B2 00000000
+*Code ported from g6flavor Ntsc Usa Version*
+
+Guile Easy Sonic Boom,Flash Kick [Crapulecorp]
+2843B498 00000003
+0043B568 00000006
+0043B580 00000006
+E0000000 80008000
+2843B498 00000103
+0043B568 00000006
+0043B580 00000006
+E0000000 80008000
+*Code ported from g6flavor Ntsc Usa Version*
+
+CPU 1-Hit Kill (P2 Life Mod) [Crapulecorp]
+0243B638 00000000
+*Code ported from GMO Ntsc Usa Version*
+
+Win 1 Round To Win Match [Crapulecorp]
+0043B498 00000002
+*Code ported from GMO Ntsc Usa Version*
+
+P1 Character Modifier [Crapulecorp]
+0043B499 000000XX
+*Replace XX for :
+00 Ryu
+01 E.Honda
+02 Blanka
+03 Guile
+04 Ken
+05 Chun Li
+06 Zangief
+07 Dhalsim
+08 M.Bison
+09 Sagat
+0A Balrog
+0B Vega
+0C Camay
+0D T.Hawk
+0E Fei Long
+0F Dee Jay*
+*Code ported from GMO Ntsc Usa Version*
+
+P2 Character Modifier [Crapulecorp]
+0043B6D9 0000XXXX
+*Replace XX for :
+00 Ryu
+01 E.Honda
+02 Blanka
+03 Guile
+04 Ken
+05 Chun Li
+06 Zangief
+07 Dhalsim
+08 M.Bison
+09 Sagat
+0A Balrog
+0B Vega
+0C Camay
+0D T.Hawk
+0E Fei Long
+0F Dee Jay*
+*Code ported from GMO Ntsc Usa Version*
+
+Button Activator
+
+Player 1 [Crapulecorp]
+2814DB92 YYYYZZZZ
+*Classic Controller*
+
+Player 1 [Crapulecorp]
+2814DA8C YYYYZZZZ
+*GameCube Controller*

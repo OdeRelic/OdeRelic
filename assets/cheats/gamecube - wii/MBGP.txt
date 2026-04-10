@@ -1,0 +1,11 @@
+MBGP
+Dynamite Headdy
+
+Unlimited Health [GMO]
+00FC3361 00000020
+
+Invincible [GMO]
+00FC3363 00000070
+
+Unlimited Lives [GMO]
+00FC4A4D 00000009

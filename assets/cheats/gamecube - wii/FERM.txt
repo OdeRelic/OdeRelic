@@ -1,0 +1,45 @@
+FERM
+Startropics 2: Zoda's Revenge
+
+Max Hearts [Crapulecorp]
+003E4531 00000014
+*Code ported from GMO's Ntsc Usa Version*
+
+Unlimited Health [Crapulecorp]
+003E4532 00000028
+*Code ported from GMO's Ntsc Usa Version*
+
+Unlimited Lives [Crapulecorp]
+003E4537 00000009
+*Code ported from GMO's Ntsc Usa Version*
+
+Unlimited Magic Potions [Crapulecorp]
+003E454C 00000005
+*Code ported from GMO's Ntsc Usa Version*
+
+Unlimited Invincibility Star [Crapulecorp]
+003E453C 00000005
+*Code ported from GMO's Ntsc Usa Version*
+
+Dungeon Item 01 Weapon Modifier [Crapulecorp]
+003E4540 000000XX
+*Replace XX for :
+00 Nothing
+01 Axe
+02 Dagger
+03 Katana*
+*Code ported from GMO's Ntsc Usa Version*
+
+Dungeon Item 03 Max Quantity [Crapulecorp]
+003E454A 0000001E
+*Code ported from GMO's Ntsc Usa Version*
+
+Dungeon Item 04 Max Quantity [Crapulecorp]
+003E454B 0000001E
+*Code ported from GMO's Ntsc Usa Version*
+
+infinite Energy [ninjor]
+003E4532 00000012
+
+infinite Lives [ninjor]
+003E4537 00000009

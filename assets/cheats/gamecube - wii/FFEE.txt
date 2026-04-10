@@ -1,0 +1,9 @@
+FFEE
+A Boy and His Blob
+
+Infinite all Jellybeans [goemon_guy]
+023A155C 00100099
+Gives secret Jellybeans too.
+
+Always Have 9 Lives [goemon_guy]
+003A1342 00000009

@@ -1,0 +1,146 @@
+JDZP
+Final Fantasy - Mystic Quest
+
+Miscellaneous Codes
+
+Unlimited Gold [Crapulecorp]
+0445D7AC 3F420F00
+
+HERO Unlimited Bombs [Crapulecorp]
+0045D958 00000063
+*Code ported from GMO Ntsc Usa Version*
+
+Unlimited Auto Attack [Crapulecorp]
+0045D9D8 00000063
+*Code ported from GMO Ntsc Usa Version*
+
+99 Cure Potions [Crapulecorp]
+0245D7C6 00001063
+*Code ported from GMO Ntsc Usa Version*
+
+99 Heal Potions [Crapulecorp]
+0245D7C8 00001163
+*Code ported from GMO Ntsc Usa Version*
+
+99 Seeds [Crapulecorp]
+0245D7CA 00001263
+*Code ported from GMO Ntsc Usa Version*
+
+99 Refreshers [Crapulecorp]
+0245D7CC 00001363
+*Code ported from GMO Ntsc Usa Version*
+
+All Items (No Key Items) [Crapulecorp]
+0045D7CE 000000FF
+*Code ported from GMO Ntsc Usa Version*
+
+All Items & Key Items [Crapulecorp]
+0245D7CE 0000FFFF
+*Code ported from GMO Ntsc Usa Version*
+
+1-Hit Kill Enemy Slot 1 [Crapulecorp]
+0245DA3C 00000000
+*Code ported from GMO Ntsc Usa Version*
+
+1-Hit Kill Enemy Slot 2 [Crapulecorp]
+0245DABC 00000000
+*Code ported from GMO Ntsc Usa Version*
+
+1-Hit Kill Enemy Slot 3 [Crapulecorp]
+0245DB3C 00000000
+*Code ported from GMO Ntsc Usa Version*
+
+After Battle Codes
+
+Quick EXP Gain After Battle [Crapulecorp]
+0245CDC8 0000FFFF
+*Code ported from GMO Ntsc Usa Version*
+
+Quick Gold Gain After Battle [Crapulecorp]
+0245CDCA 0000FFFF
+*Code ported from GMO Ntsc Usa Version*
+
+Hero Codes
+
+Max Infinite Health (Hero) [Crapulecorp]
+0445D93C 68066806
+*Code ported from GMO Ntsc Usa Version*
+
+Status Always Normal [Crapulecorp]
+0045D949 00000000
+*Code ported from GMO Ntsc Usa Version*
+
+Have All Weapons [Crapulecorp]
+0245D95A 0000FFF0
+*Code ported from GMO Ntsc Usa Version*
+
+Have All Armors, Accessories, Helmets, & Shields [Crapulecorp]
+0445D95C 00FF3B80
+*Code ported from GMO Ntsc Usa Version*
+
+Have All Black & White Spells [Crapulecorp]
+0245D960 0000FFFF
+*Code ported from GMO Ntsc Usa Version*
+
+Unlimited White Magic Usage [Crapulecorp]
+0045D940 00000063
+*Code ported from GMO Ntsc Usa Version*
+
+Unlimited Black Magic Usage [Crapulecorp]
+0045D941 00000063
+*Code ported from GMO Ntsc Usa Version*
+
+Unlimited Wizard Magic Usage [Crapulecorp]
+0045D942 00000063
+*Code ported from GMO Ntsc Usa Version*
+
+Max Defense [Crapulecorp]
+0045D94B 000000FF
+*Code ported from GMO Ntsc Usa Version*
+
+Max Speed [Crapulecorp]
+0045D94C 000000FF
+*Code ported from GMO Ntsc Usa Version*
+
+Max Magic [Crapulecorp]
+0045D94D 000000FF
+*Code ported from GMO Ntsc Usa Version*
+
+Max Accuracy [Crapulecorp]
+0045D968 00000063
+*Code ported from GMO Ntsc Usa Version*
+
+Max Evade [Crapulecorp]
+0045D969 00000063
+*Code ported from GMO Ntsc Usa Version*
+
+Partner Codes
+
+Max Infinite Health (Partner) [Crapulecorp]
+0445D9BC 68066806
+*Code ported from GMO Ntsc Usa Version*
+
+Status Always Normal [Crapulecorp]
+0045D9C9 00000000
+*Code ported from GMO Ntsc Usa Version*
+
+Have All Black & White Spells [Crapulecorp]
+0245D9E0 0000FFFF
+*Code ported from GMO Ntsc Usa Version*
+
+Unlimited White Magic Usage [Crapulecorp]
+0045D9C0 00000063
+*Code ported from GMO Ntsc Usa Version*
+
+Unlimited Black Magic Usage [Crapulecorp]
+0045D9C1 00000063
+*Code ported from GMO Ntsc Usa Version*
+
+Unlimited Wizard Magic Usage [Crapulecorp]
+0045D9C2 00000063
+*Code ported from GMO Ntsc Usa Version*
+
+Button Activator
+
+Classic Controller [Crapulecorp]
+282AC232 YYYYZZZZ

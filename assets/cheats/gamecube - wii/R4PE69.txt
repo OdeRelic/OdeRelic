@@ -1,0 +1,21 @@
+R4PE69
+The Sims 2 Pets
+
+never lose money [superman]
+0413B8B4 60000000
+
+never have the fire hazer warning [superman]
+0442CEB4 00000000
+
+Unlimited Money 999,999 [superman]
+4A000000 81000000
+141B2974 000F423F
+E0000000 80008000
+
+Button Activator [superman]
+2851E8AC 0000XXXX
+
+Unlimited pet points [superman]
+4A000000 81000000
+141B2978 000F423F
+E0000000 80008000

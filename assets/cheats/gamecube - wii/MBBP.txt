@@ -1,0 +1,11 @@
+MBBP
+Sonic The Hedgehog 2
+
+Unlimited Lives [GMO]
+00EC5F70 00000009
+
+Unlimited Rings/Health [GMO]
+02EC5F80 000003E7
+
+Disable Timer [GMO]
+00EC5F85 00000000

@@ -1,0 +1,36 @@
+FFMJ
+Chou-Wakusei Senki MetaFight
+
+Inf Lives [Thomas83Lin]
+003A17FD 00000009
+
+Inf Health [Thomas83Lin]
+003A1B2D 000000FF
+
+Max Gun [Thomas83Lin]
+003A17E3 000000FF
+
+Max Weapons [Thomas83Lin]
+023A1E10 00006363
+003A1E12 00000063
+
+Inf Hover [Thomas83Lin]
+003A17B2 000000FF
+
+Addons [Thomas83Lin]
+003A17B9 000000FF
+043A17D8 00070007
+003A1B1C 0000000F
+*HoverDiveWallKeyCrusherHyperWall2*
+
+Moon Jump Press B [Thomas83Lin]
+28162EA8 FBFF0400
+003A1B27 000000CC
+E0000000 80008000
+*WiiMote Only*
+
+Moon Jump Press X [Thomas83Lin]
+28162ED2 FFF70008
+003A1B27 000000CC
+E0000000 80008000
+*Classic Controller*

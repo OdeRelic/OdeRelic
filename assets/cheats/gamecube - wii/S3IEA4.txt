@@ -1,0 +1,32 @@
+S3IEA4
+Pro Evolution Soccer 2013
+
+Button Activator [T.B.W]
+2834B8A2 0000XXXX
+
+Home Team Score Modifier [T.B.W]
+C0000000 00000003
+3D8080F5 618CA0F0
+3D6000XX 616B0000
+916A0000 4E800020
+X's for amount of goals
+
+Away Team Score Modifier [T.B.W]
+C0000000 00000003
+3D8080F5 618CA3E4
+3D6000XX 616B0000
+916A0000 4E800020
+X's for amount of goals
+http://i42.tinypic.com/fms9jd.png
+
+Infinite Hearts [T.B.W]
+F6000001 8000808F
+0581003D 0580003D
+14000018 69999999
+E0000000 80008000
+http://i39.tinypic.com/2rnc7d4.png
+
+Champions Road Infinite Money [T.B.W]
+C2908190 00000001
+380002BB 00000000
+http://i44.tinypic.com/mwp6wy.png

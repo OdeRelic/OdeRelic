@@ -1,0 +1,87 @@
+FD2P
+Double Dragon
+
+Infinite Lives [Crapulecorp]
+00396203 00000063
+
+Infinite Health [Crapulecorp]
+00396574 00000040
+*Code ported from ZiT Ntsc Jap Version*
+
+Infinite Heart [Crapulecorp]
+00396200 00000006
+*Code ported from ZiT Ntsc Jap Version*
+
+Time Stop [Crapulecorp]
+003966C4 00000000
+*Code ported from ZiT Ntsc Jap Version*
+
+1 Hit Kill [Crapulecorp]
+02396575 00000000
+*Code ported from ZiT Ntsc Jap Version*
+
+MoonJump
+
+MoonJump (Push AB) [Crapulecorp]
+281AE142 FFAF0050
+003964E8 00000005
+E0000000 80008000
+*Classic Controller*
+*Code ported from ZiT Ntsc Jap Version*
+
+MoonJump (Push AB) [Crapulecorp]
+28285754 FCFF0300
+003964E8 00000005
+E0000000 80008000
+*GameCube Controller*
+*Code ported from ZiT Ntsc Jap Version*
+
+Speed Up
+
+Speed Up (Press Up/Down/Left/Right) [Crapulecorp]
+82000000 8039621A
+281AE142 BFFF4000
+86000000 00000002
+E0000000 80008000
+281AE142 FFFE0001
+86000000 FFFFFFFE
+E0000000 80008000
+84000000 8039621A
+E0000000 80008000
+82000000 80396232
+281AE142 7FFF8000
+86000000 00000002
+281AE142 FFFD0002
+86000000 FFFFFFFE
+E0000000 80008000
+84000000 80396232
+*Classic Controller*
+*Code ported from ZiT Ntsc Jap Version*
+
+Speed Up (Press Up/Down/Left/Right) [Crapulecorp]
+82000000 8039621A
+28285754 FFFB0004
+86000000 00000002
+E0000000 80008000
+28285754 FFF70008
+86000000 FFFFFFFE
+E0000000 80008000
+84000000 8039621A
+E0000000 80008000
+82000000 80396232
+28285754 FFFD0002
+86000000 00000002
+28285754 FFFE0001
+86000000 FFFFFFFE
+E0000000 80008000
+84000000 80396232
+*GameCube Controller*
+*Code ported from ZiT Ntsc Jap Version*
+
+Button Activator
+
+Classic Controller [Crapulecorp]
+281AE142 YYYYZZZZ
+
+GameCube Controller [Crapulecorp]
+28285754 YYYYZZZZ

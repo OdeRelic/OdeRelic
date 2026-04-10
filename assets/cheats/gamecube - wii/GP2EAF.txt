@@ -1,0 +1,32 @@
+GP2EAF
+Pacman World 2
+
+Massive Pacman [Codejunkies]
+0450DDB4 40800000
+
+Inf lives [Codejunkies]
+043D6204 00000063
+
+Inf coins [Codejunkies]
+043D6234 00000009
+
+Have a big score [Codejunkies]
+043D7066 05F5E0FF
+
+Have max cherries [Codejunkies]
+043ED704 00000063
+
+Have max strawberries [Codejunkies]
+043ED708 00000063
+
+Have max oranges [Codejunkies]
+043ED70C 00000063
+
+Have max red apples [Codejunkies]
+043ED710 00000063
+
+Have max green apples [Codejunkies]
+043ED714 00000063
+
+Have max ships [Codejunkies]
+043ED718 00000063

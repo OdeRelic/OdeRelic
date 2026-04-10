@@ -1,0 +1,72 @@
+FANP
+Urban Champion
+
+Stamina Codes
+
+Unlimited Stamina [Crapulecorp]
+043ABD68 00099900
+
+Refill Stamina (Press ZL) [Crapulecorp]
+281DC5F2 FF7F0080
+043ABD68 00099900
+E0000000 80008000
+*Classic Controller*
+
+Refill Stamina (Press B) [Crapulecorp]
+281DC592 FBFF0400
+043ABD68 00099900
+E0000000 80008000
+*WiiMote*
+
+Unlimited Stamina (Press ZL ON/OFF) [Crapulecorp]
+281DC5F2 FF7F0080
+CC000000 00000000
+043ABD68 00099900
+E0000000 80008000
+*Classic Controller*
+
+Unlimited Stamina (Press B ON/OFF) [Crapulecorp]
+281DC592 FBFF0400
+CC000000 00000000
+043ABD68 00099900
+E0000000 80008000
+*WiiMote*
+
+Time Codes
+
+Time Stop [Crapulecorp]
+023ABD20 00000909
+
+Refill Time (Press ZR) [Crapulecorp]
+281DC5F2 FFFB0004
+023ABD20 00000909
+E0000000 80008000
+*Classic Controller*
+
+Refill Time (Press -) [Crapulecorp]
+281DC592 EFFF1000
+023ABD20 00000909
+E0000000 80008000
+*WiiMote*
+
+Unlimited Time (Press ZR ON/OFF) [Crapulecorp]
+281DC5F2 FFFB0004
+CC000000 00000000
+023ABD20 00000909
+E0000000 80008000
+*Classic Controller*
+
+Unlimited Time (Press -) [Crapulecorp]
+281DC592 EFFF1000
+CC000000 00000000
+023ABD20 00000909
+E0000000 80008000
+*WiiMote*
+
+Button Activator
+
+Classic Controller [Crapulecorp]
+281DC5F2 YYYYZZZZ
+
+WiiMote [Crapulecorp]
+281DC592 YYYYZZZZ

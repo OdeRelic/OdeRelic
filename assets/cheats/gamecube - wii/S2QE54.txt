@@ -1,0 +1,63 @@
+S2QE54
+NBA 2K12
+
+Infinite Time Out Time [Welohabi]
+F2EA0298 02BC0C01
+60000000 00000000
+*Dismiss to continue match*
+
+CCP Button Activator [sLoddir]
+2825117A 0000XXXX
+- CODE HERE - [sLoddir]
+E0000000 80008000
+*Replace XXXX with button in hex
+*http://gamehacking.org/faqs/Jokerwii.htm
+
+Wiimote Button Activator [sLoddir]
+28250FD2 0000XXXX
+- CODE HERE - [sLoddir]
+E0000000 80008000
+*Replace XXXX with button in hex
+*http://gamehacking.org/faqs/Jokerwii.htm
+
+Away team Points Modifier [sLoddir]
+049E30FF 000000XX
+*This code is just a mask
+*Replace XX with number in hex
+
+Home team Points Modifier [sLoddir]
+049E30FB 000000XX
+*This code is just a mask
+*Replace XX with number in hex
+
+Away team Points Cycler [sLoddir]
+A8000008 00000003
+80000000 809E30FB
+86010000 00000011
+249E30FB 00000064
+049E30FB 00000000
+E2000001 00000000
+*This code is just a mask
+
+Difficulty Level (My Player Mode) [Crapulecorp]
+003CF337 000000XX
+*Replace XX for :
+00 Rookie
+01 Pro
+02 All Star
+03 Superstar
+04 Hall Of Fame*
+
+Difficulty Level is Rookie (My Player Mode) [Crapulecorp]
+C2AE5838 00000002
+3C600000 90640004
+60000000 00000000
+*ASM Codes So you have to change the difficulty and that will automaticaly be set to Rookie*
+
+Unlimited Skill Points [GMO]
+029C541E 00002710
+
+Unlimited Skill Points ASM [GMO]
+C300D0A0 00000002
+38002710 9004022C
+60000000 00000000

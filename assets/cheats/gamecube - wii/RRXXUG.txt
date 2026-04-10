@@ -1,0 +1,12 @@
+RRXXUG
+Monster Trux Arenas
+
+If Increase Max $ [Crapulecorp]
+C2037A28 00000002
+3D804975 398C23F0
+91840928 00000000
+
+If Increase Unlimited & Max Nitro [Crapulecorp]
+C202FA14 00000002
+38800003 908501EC
+60000000 00000000

@@ -9,6 +9,15 @@ add_executable(OplLibraryServiceTests
     ../src-cpp/core/opl_library_service.h
 )
 
+# Swiss Test executable
+add_executable(SwissLibraryServiceTests
+    tst_swisslibraryservice.cpp
+    ../src-cpp/core/swiss_library_service.cpp
+    ../src-cpp/core/swiss_library_service.h
+    ../src-cpp/core/filesystem_cache.cpp
+    ../src-cpp/core/filesystem_cache.h
+)
+
 # Test dependencies
 target_link_libraries(OplLibraryServiceTests PRIVATE
     Qt6::Core
@@ -17,6 +26,13 @@ target_link_libraries(OplLibraryServiceTests PRIVATE
 )
 
 target_include_directories(OplLibraryServiceTests PRIVATE ../src-cpp/core)
+
+target_link_libraries(SwissLibraryServiceTests PRIVATE
+    Qt6::Core
+    Qt6::Test
+    Qt6::Network
+)
+target_include_directories(SwissLibraryServiceTests PRIVATE ../src-cpp/core)
 
 # FileSystemCache Component Testing Let
 add_executable(FileSystemCacheTests
@@ -35,3 +51,4 @@ target_include_directories(FileSystemCacheTests PRIVATE ../src-cpp/core)
 # Register with CTest
 add_test(NAME OplLibraryServiceTests COMMAND OplLibraryServiceTests)
 add_test(NAME FileSystemCacheTests COMMAND FileSystemCacheTests)
+add_test(NAME SwissLibraryServiceTests COMMAND SwissLibraryServiceTests)

@@ -1,0 +1,8 @@
+WOBE
+Art Style ORBIENT
+
+Unlimited Lives [GMO]
+0065D26F 00000005
+
+Unlimited Lives ASM [GMO]
+0402A284 60000000

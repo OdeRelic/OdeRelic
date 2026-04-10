@@ -1,0 +1,30 @@
+RRKP70
+Alone in the Dark
+
+Infinite Ammo for Handgun and Infinite Spray (Weapon/Healing) [lindtec]
+2057C898 00006001
+041B7A4C 60000000
+041BE444 60000000
+041BE898 60000000
+E0000000 80008000
+2057C898 00006002
+041B7A4C D0230040
+041BE444 D01F0050
+041BE898 D03C0050
+E0000000 80008000
+Press C+Z+Left to activate and C+Z+Right to deactivate.
+Make sure, you have at least 1 bullet and a bit of spray left.
+
+Can't die from bloodloss in the Level "Lifeline" [lindtec]
+2057C898 00006008
+040E5D3C 60000000
+040E60A0 60000000
+040E60A8 60000000
+E0000000 80008000
+2057C898 00006004
+040E5D3C D03D0370
+040E60A0 D03D0E0C
+040E60A8 D01D0E0C
+E0000000 80008000
+Press C+Z+Up to activate and C+Z+Down to deactivate.
+This only works in the Level "Lifeline" and you will still lose health when attacked.

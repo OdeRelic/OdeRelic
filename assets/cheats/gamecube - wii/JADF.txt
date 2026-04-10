@@ -1,0 +1,160 @@
+JADF
+The Legend of Zelda - A Link To The Past
+
+Misc Codes
+
+Max Rubies [Crapulecorp]
+028C8F08 0000E703
+
+Invincible [Crapulecorp]
+008B9EC7 00000034
+*Code ported from GMO Ntsc-Us Version*
+
+1-Hit Kill (Enemies+Bosses) [Crapulecorp]
+048BA9F8 00000000
+*Code ported from GMO Ntsc-Us Version*
+
+Unlimited Health [Crapulecorp]
+008C8F14 000000A0
+008C8F15 000000A0
+*Code ported from GMO Ntsc-Us Version*
+
+Unlimited Magic Meter [Crapulecorp]
+008C8F16 00000080
+*Code ported from GMO Ntsc-Us Version*
+
+Unlimited Small Keys [Crapulecorp]
+008C8F17 00000009
+
+Have Big Key [Crapulecorp]
+008C8F0F 00000040
+*Code ported from GMO Ntsc-Us Version*
+
+Have Dungeon Map [Crapulecorp]
+008C8F11 00000040
+*Code ported from GMO Ntsc-Us Version*
+
+Have All 3 Pendants [Crapulecorp]
+008C8F1C 00000007
+*Code ported from GMO Ntsc-Us Version*
+
+Unlimited Arrows [Crapulecorp]
+008C8F1F 00000063
+*Code ported from GMO Ntsc-Us Version*
+
+Have All Items & Weapons [Crapulecorp]
+048C8EE8 04020132
+048C8EEC 02010101
+048C8EF0 01010101
+048C8EF4 03010102
+048C8EF8 01010102
+008C8F01 00000004
+028C8F02 00000302
+048C8F04 06060605
+*Code ported from GMO Ntsc-Us Version*
+
+Have Individual Items and Weapons
+
+Have Bow and Silver Arrows [Crapulecorp]
+008C8EE8 00000004
+*Code ported from GMO Ntsc-Us Version*
+
+Have Boomerang [Crapulecorp]
+008C8EE9 00000002
+*Code ported from GMO Ntsc-Us Version*
+
+Have Hookshot [Crapulecorp]
+008C8EEA 00000001
+*Code ported from GMO Ntsc-Us Version*
+
+Have Bombs [Crapulecorp]
+008C8EEB 00000032
+*Code ported from GMO Ntsc-Us Version*
+
+Have Magic Powder [Crapulecorp]
+008C8EEC 00000002
+*Code ported from GMO Ntsc-Us Version*
+
+Have FireRod [Crapulecorp]
+008C8EED 00000001
+*Code ported from GMO Ntsc-Us Version*
+
+Have IceRod [Crapulecorp]
+008C8EEE 00000001
+*Code ported from GMO Ntsc-Us Version*
+
+Have Bombos [Crapulecorp]
+008C8EEF 00000001
+*Code ported from GMO Ntsc-Us Version*
+
+Have Ether [Crapulecorp]
+008C8EF0 00000001
+*Code ported from GMO Ntsc-Us Version*
+
+Have Quake [Crapulecorp]
+008C8EF1 00000001
+*Code ported from GMO Ntsc-Us Version*
+
+Have Lamp [Crapulecorp]
+008C8EF2 00000001
+*Code ported from GMO Ntsc-Us Version*
+
+Have Magic Hammer [Crapulecorp]
+008C8EF3 00000001
+*Code ported from GMO Ntsc-Us Version*
+
+Have Flute [Crapulecorp]
+008C8EF4 00000003
+*Code ported from GMO Ntsc-Us Version*
+
+Have Bug-Catching Net [Crapulecorp]
+008C8EF5 00000001
+*Code ported from GMO Ntsc-Us Version*
+
+Have Book of Mudora [Crapulecorp]
+008C8EF6 00000001
+*Code ported from GMO Ntsc-Us Version*
+
+Have Cane of Somaria [Crapulecorp]
+008C8EF8 00000001
+*Code ported from GMO Ntsc-Us Version*
+
+Have Cane of Byrna [Crapulecorp]
+008C8EF9 00000001
+*Code ported from GMO Ntsc-Us Version*
+
+Have Magic Cape [Crapulecorp]
+008C8EFA 00000001
+*Code ported from GMO Ntsc-Us Version*
+
+Have Magic Mirror [Crapulecorp]
+008C8EFB 00000002
+*Code ported from GMO Ntsc-Us Version*
+
+Have Magic Sword Lvl.4 [Crapulecorp]
+008C8F01 00000004
+*Code ported from GMO Ntsc-Us Version*
+
+Have Magic Shield Lvl.3 [Crapulecorp]
+008C8F02 00000003
+*Code ported from GMO Ntsc-Us Version*
+
+Have Upgraded Tunic [Crapulecorp]
+008C8F03 00000002
+*Code ported from GMO Ntsc-Us Version*
+
+Have Bottle 1 with Faerie [Crapulecorp]
+008C8F04 00000006
+*Code ported from GMO Ntsc-Us Version*
+
+Have Bottle 2 with Faerie [Crapulecorp]
+008C8F05 00000006
+*Code ported from GMO Ntsc-Us Version*
+
+Have Bottle 3 with Faerie [Crapulecorp]
+008C8F06 00000006
+*Code ported from GMO Ntsc-Us Version*
+
+Have Bottle 4 with Cure-All Medicine [Crapulecorp]
+008C8F07 00000005
+*Code ported from GMO Ntsc-Us Version*

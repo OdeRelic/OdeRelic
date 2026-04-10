@@ -1,0 +1,14 @@
+NA3E
+Bomberman Hero
+
+Inf Health [Thomas83Lin]
+02C7AFC4 00000404
+
+Invincibility [Thomas83Lin]
+00C69FD9 000000FF
+
+Moon Jump (L+A) [Thomas83Lin]
+281DE8EA DFEF2010
+04C69EF8 41C80002
+E0000000 80008000
+*Classic Controller*

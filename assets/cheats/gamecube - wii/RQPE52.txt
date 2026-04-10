@@ -1,0 +1,20 @@
+RQPE52
+Cabela's Trophy Bucks
+
+Important: use Wii Pad Hook or KPad Hook
+
+No Reload/Unlimited Ammo [Crapulecorp]
+040465D8 38040000
+
+Unlimited Time (Press 2 ON/OFF) [Crapulecorp]
+04076AB8 60000000
+284BD202 FEFF0100
+CC000000 00000000
+04076AB8 D03D002C
+E0000000 80008000
+*WiiMote-NunChuck*
+
+Button Activator
+
+WiiMote-NunChuck [Crapulecorp]
+284BD202 YYYYZZZZ

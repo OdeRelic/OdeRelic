@@ -1,0 +1,14 @@
+GL5E4F
+LEGO Star Wars I
+
+Max/Infinite Studs [Codejunkies]
+043E049C 05F5E0FF
+
+Infinite Health [Codejunkies]
+040D4698 60000000
+
+Unlock All Extras [Codejunkies]
+043E0498 000003FF
+
+All Characters Purchasable [Codejunkies]
+023E0484 0007FFFF

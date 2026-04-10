@@ -1,0 +1,10 @@
+MAGE
+Ristar
+
+Infinite Health [Mathew_Wi]
+00FDC218 00000004
+Code only works sometimes. If it fails, reset the game.
+
+High Score + 99 Lives [Mathew_Wi]
+04FDE754 0098967F
+Code only works sometimes. If it fails, reset the game.

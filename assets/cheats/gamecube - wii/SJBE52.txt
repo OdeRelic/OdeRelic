@@ -1,0 +1,2057 @@
+SJBE52
+GoldenEye 007
+
+Reset FC & Roster [Macopride64]
+065DE884 00000010
+30303030 3030YYYY
+YYYYYYYY YYYYYYYY
+065DE8C8 00000008
+000000XX XXXXXXXX
+It is recommeded that you make a save file backup before using this code, as this code will completely erase your friend roster and will change your FC.
+---
+X= Anything in hex (try to randomize the hex digits ex. C4C61AF7B0)
+Y= The ASCII value of each one of the hex digits used above (ex. for C4C61AF7B0 your Y value would be 43344336314146374230 - google hex to ascii for converters to help you)
+
+Snow Camo Guns [Macopride64]
+48000000 807717E4
+DE000000 90009340
+92210000 00001420
+94210000 00000F30
+92210000 00001430
+94210000 00000F40
+92210000 00001440
+94210000 00000F50
+92210000 00001450
+94210000 000009B0
+92210000 00001460
+94210000 000009D0
+92210000 00001470
+94210000 00000A10
+92210000 00001480
+94210000 00000A20
+92210000 00001490
+94210000 00000AF0
+92210000 000068B0
+94210000 000056DC
+92210000 00006894
+94210000 00006124
+92210000 000014D0
+94210000 00000DA0
+92210000 000014E0
+94210000 00000DB0
+92210000 000014F0
+94210000 00000DC0
+92210000 000014E0
+94210000 00001050
+92210000 000014A0
+94210000 00000910
+92210000 000014B0
+94210000 00000920
+92210000 000014C0
+94210000 000009C0
+E0000000 80008000
+Snow camo guns from single player, outpost! All work everywhere except single player.
+---
+All guns are snow camo in first and third person views, except for AK-47 which is only snow camo in first person view.
+---
+Some snow camo guns don't have certain attachment models to go with them. This is because Eurocom didn't design them that way.
+---
+---SIGMUS---
+If attached with reflex sight, reflex sight will not be snow camo textured.
+---
+---AK-47---
+If attached with either ACOG scope or thermal scope, neither will be snow camo textured.
+---
+---KALLOS-TT9---
+If attached with either ACOG scope or thermal scope, neither scopes will appear. If attached with silencer, silencer will not appear, however your Kallos will still be silenced.
+---
+---WA2000---
+If attached with thermal scope, scope will not appear.
+
+No Inactivity Kick [Macopride64]
+046EFE04 45610000
+
+GE007: Country Changer [Anarion]
+C24E55B4 00000002
+39C0XXYY B1C30002
+88030000 00000000
+X= Country Code value. Go to wiibrew.org/wiki/Country_Codes, select any country code and convert it to hex to use in place of X.
+Y= State/Province Code value. Y values are unknown but you can use any value greater than 02 for Y.
+NOTE!!: This permanently modifies your actual Wii's Settings that can't be normally modified. You use this to change your Wii's country to another without the need of using AnyRegionChanger HBC app, all through GE007. To use, connect online and join game. Your Wii's country will be permanently modified. You may not notice it on GE but any games that show country flags will show it worked. This does not cause any soft bricks the way ARC can.
+
+Custom Reticules
+
+Don't use more than one code that is marked with && or ##. However, you can use a && marked code and a ## marked code at the same time.
+
+Custom Reticule 1 && [Macopride64]
+2877216E 00000009
+F6000001 92009300
+47454F4D 01090029
+160CE5E0 00000020
+00000000 00000000
+00000001 00000001
+00000000 00000000
+00000000 00000000
+180CE600 0FFF0FFF
+20220004 00000000
+160CE68C 000000E8
+04680468 0FFF0FFF
+04685578 0FFF0FFF
+1468BA34 0FFF0FFF
+0FFF0FFF 14681468
+14681468 BA34BA34
+BA34BA34 F7BEF7BE
+F7BEF7BE 0FFF0FFF
+0FFF0FFF 14681468
+14681468 BA34BA34
+BA34BA34 F7BEF7BE
+FBDFFBDF 0FFF0FFF
+0FFF0FFF 05790468
+0FFF0FFF 55790468
+0FFF0FFF BA341468
+0FFF0FFF 0FFF0FFF
+1468BA34 0FFF0FFF
+04685579 0FFF0FFF
+04680468 0FFF0FFF
+0FFF0FFF FBDFFBDF
+FBDFFBDF BA34BA34
+BA34BA34 14681468
+14681468 0FFF0FFF
+0FFF0FFF FBDFFBDF
+F7BEF7BE BA34BA34
+BA34BA34 14681468
+14681468 0FFF0FFF
+0FFF0FFF BA341468
+0FFF0FFF 55780468
+0FFF0FFF 05780468
+180CE774 0FFF0FFF
+20220004 00000000
+E0000000 80008000
+oi50.tinypic.com/24neglk.jpg
+
+Custom Reticule 2 (beta) && [Macopride64]
+2877216E 00000009
+F6000001 92009300
+47454F4D 01090029
+160CE5E0 00000020
+00000000 00000000
+00000001 00000001
+00000000 00000000
+00000000 00000000
+180CE600 0FFF0FFF
+20200004 00000000
+160CE684 00000050
+0FFF0468 0FFF0FFF
+0FFF0468 0FFF0FFF
+0FFF0468 0FFF0FFF
+0FFF0468 04680468
+04680468 04680468
+04680468 04680468
+14684468 14684468
+C255DF1A 04680468
+14684468 14684468
+C255DF1A C255DF1A
+180CE6D4 FFDFFFDF
+20020004 00000000
+160CE6E0 00000060
+A5B00FFF 0FFF0FFF
+A5B00FFF 0FFF0FFF
+A5B00FFF 0FFF0FFF
+A5B00FFF 0FFF0FFF
+0FFF0FFF 0FFF1468
+0FFF0FFF 0FFF0468
+0FFF0FFF 0FFF0468
+0FFF0FFF 0FFF0468
+C255DF1A FFDFFFDF
+14684468 C255DF1A
+04680468 14684468
+04680468 04680468
+180CE740 FFDFFFDF
+20030004 00000000
+160CE750 00000038
+C255DF1A FFDFFFDF
+14684468 C255DF1A
+A5B00FFF 0FFF0FFF
+A5B00FFF 0FFF0FFF
+A5B00FFF 0FFF0FFF
+A5B00FFF 0FFF0FFF
+0FFF0FFF 0FFF0468
+180CE788 0FFF0FFF
+20050004 00000000
+180CE7A8 0FFF0FFF
+20050004 00000000
+180CE7C8 0FFF0FFF
+20050004 00000000
+140CE7E0 A5B00FFF
+180CE7E4 0FFF0FFF
+20060004 00000000
+E0000000 80008000
+Beta because there are small unnoticeable dots.
+oi46.tinypic.com/wlqi53.jpg
+
+No Dot ## [Macopride64]
+2877216E 00000009
+F6000001 92009300
+47454F4D 01090029
+180CE960 00000000
+20C70004 00000000
+E0000000 80008000
+oi46.tinypic.com/fm82tx.jpg
+oi47.tinypic.com/2vl0ger.jpg
+
+Dot Only && [Macopride64]
+2877216E 00000009
+F6000001 92009300
+47454F4D 01090029
+180CE600 00000000
+20BF0004 00000000
+E0000000 80008000
+oi49.tinypic.com/25usgfa.jpg
+
+CoD Black Ops Dot (white) ## [Macopride64]
+2877216E 00000009
+F6000001 92009300
+47454F4D 01090029
+160CE940 00000020
+00000000 00000000
+00000001 00000001
+00000000 00000000
+00000000 00000000
+180CE960 0FFF0FFF
+20270004 00000000
+160CEA00 0000005C
+0FFF1FFF 1FFF2FFF
+1FFF1FFF 2FFF3FFF
+1FFF2FFF 3FFF6FFF
+1FFF2FFF 4FFFFFFF
+2FFF2FFF 1FFF1FFF
+4FFF3FFF 2FFF1FFF
+FFFF6FFF 3FFF2FFF
+FFFFFFFF 4FFF2FFF
+0FFF0FFF 0FFF0FFF
+1FFF0FFF 0FFF0FFF
+1FFF0FFF 0FFF0FFF
+1FFF0FFF 00000000
+180CEA5C 0FFF0FFF
+20080004 00000000
+160CEA80 0000004C
+1FFF2FFF 3FFFFFFF
+1FFF1FFF 2FFF3FFF
+0FFF1FFF 1FFF2FFF
+0FFF0FFF 1FFF1FFF
+FFFF6FFF 3FFF2FFF
+4FFF3FFF 2FFF1FFF
+2FFF2FFF 1FFF1FFF
+1FFF1FFF 1FFF0FFF
+1FFF0FFF 0FFF0FFF
+1FFF0FFF 00000000
+180CEACC 0FFF0FFF
+200D0004 00000000
+140CEB04 1FFF1FFF
+180CEB08 0FFF0FFF
+20050004 00000000
+160CEB20 00000008
+1FFF1FFF 1FFF0FFF
+180CEB28 0FFF0FFF
+200D0004 00000000
+180CEB60 00000000
+20470004 00000000
+E0000000 80008000
+i45.tinypic.com/aey5wn.jpg
+i45.tinypic.com/2nm0ppy.png
+
+CoD Black Ops Dot (orange) ## [Macopride64]
+2877216E 00000009
+F6000001 92009300
+47454F4D 01090029
+160CE940 00000020
+00000000 00000000
+00000001 00000001
+00000000 00000000
+00000000 00000000
+180CE960 0FFF0FFF
+20270004 00000000
+160CEA00 0000005C
+0FFF1F80 1F802F80
+1F801F80 2F803F80
+1F802F80 3F806F80
+1F802F80 4F80FE00
+2F802F80 1F801F80
+4F803F80 2F801F80
+FE006F80 3F802F80
+FE00FE00 4F802F80
+0FFF0FFF 0FFF0FFF
+1F800FFF 0FFF0FFF
+1F800FFF 0FFF0FFF
+1F800FFF 00000000
+180CEA5C 0FFF0FFF
+20080004 00000000
+160CEA80 0000004C
+1F802F80 3F80FE00
+1F801F80 2F803F80
+0FFF1F80 1F802F80
+0FFF0FFF 1F801F80
+FE006F80 3F802F80
+4F803F80 2F801F80
+2F802F80 1F801F80
+1F801F80 1F800FFF
+1F800FFF 0FFF0FFF
+1F800FFF 00000000
+180CEACC 0FFF0FFF
+200D0004 00000000
+140CEB04 1F801F80
+180CEB08 0FFF0FFF
+20050004 00000000
+160CEB20 00000008
+1F801F80 1F800FFF
+180CEB28 0FFF0FFF
+200D0004 00000000
+180CEB60 00000000
+20470004 00000000
+E0000000 80008000
+i47.tinypic.com/2a8jm2a.png
+
+GEDDAN! (Epic Enemy Distortion) [Seth@WiiPlaza]
+285F71C2 00000C00
+045D2D70 42800000
+CC000000 00000000
+045D2D70 3F800000
+E0000000 80008000
+*for Offline (untested online)
+*demo video- http://youtu.be/Krvqjv2oorQ
+*press and hold A and B on wiimote to activate, although this is a fun code, after about 10 seconds deactivate it then wait 5 seconds to reactivate again, because when all the enemys geddan, the RAM gets overloaded if the code is on for more than 10 seconds without deactivation
+
+ONLINE Wall Traveling [Seth@WiiPlaza]
+285F71C2 00001000
+046F1EA4 45000000 [Seth@WiiPlaza]
+E0000000 80008000
+*stand against a wall where you cant be seen or escape from. press - to explore through walls and see people with out you yourself being seen
+
+Warp Player Model (All Players Can See Online) [Seth@WiiPlaza]
+046F2188 00000000
+*makes your player model do funny shit
+
+Lime Green Gun+ Hands [Seth@WiiPlaza]
+046EC2AC 43000000
+
+Purple Screen [Seth@WiiPlaza]
+045D305C 44000000
+
+Online Bright Screen [Seth@WiiPlaza]
+045D3054 61800000
+045D3058 61800000
+045D305c 61800000
+
+Screen Neon Mod [Seth@WiiPlaza]
+045D305C XXXXXXXX
+*offline
+*42000000=neon blue
+90400000= snot
+
+Offline Screen Color Changer [Seth@WiiPlaza]
+045D3054 XXXXXXXX
+14000000= blue
+55500000= pink
+
+Offline Screen Is Green [Seth@WiiPlaza]
+045D3058 44000000
+
+Map Modifications
+
+Woodchives v1.1
+4E000000 00000000 A0000000 00000000 22770C14 FFFFFFFF 14000000 A2000000 E0000000 00000000 206EB6B0 01A10002 48000000 80770C14 DE000000 90009340 92210000 00000BE0 94210000 00000BC4 92210000 00001ADC 94210000 00000BFC 92210000 00001A34 94210000 00001794 92210000 00001954 94210000 000017CC 92210000 00001ADC 94210000 000017E8 92210000 00001ADC 94210000 00001804 92210000 00001A34 94210000 00001820 92210000 00001A18 94210000 00001890 92210000 00001ADC 94210000 000018E4 92210000 00001ADC 94210000 00001954 92210000 00001ADC 94210000 00001A34 92210000 000018C8 94210000 00001ADC E0000000 80008000
+A nice wood re-texture for archives. Works everywhere the online archives map is loaded.
+youtube.com/watch?v=4Zn4hBueqZY
+
+Online Maps in Single Player [Macopride64]
+06582E30 00000008
+43000CC7 01A00044
+06582E44 00000008
+43000E13 01A00045
+06582E58 00000008
+43000E23 01A00048
+06582E6C 00000008
+43000E88 01A00047
+06582E80 00000008
+43000E22 01A0003B
+06582E94 00000008
+430012C6 01A00085
+06582EA8 00000008
+430012C8 01A00070
+06582EBC 00000008
+430012CA 01A0007F
+06582ED0 00000008
+43000FD1 01A00049
+06582EE4 00000008
+430012E1 01A00077
+02582F04 0000FFFF
+02582F18 0000FFFF
+02582F2C 0000FFFF
+02582F40 0000FFFF
+*My Unused Extras Menu code is required for this code to work*
+
+Offline Multiplayer Maps in Online [Macopride64]
+4A000000 80583130
+14000014 01A20023
+14000028 01A20003
+1400003C 01A20001
+14000050 01A20008
+14000064 01A2000D
+14000078 01A2002A
+1400008C 01A20029
+140000A0 01A20026
+140000B4 01A2000F
+140000C8 01A2002F
+14000154 01A20023
+14000168 01A20005
+1400017C 01A20022
+14000190 01A20007
+140001A4 01A2000C
+140001B8 01A20035
+140001CC 01A2002E
+140001E0 01A20032
+140001F4 01A20011
+14000208 01A20031
+140003D4 01A2000A
+140003E8 01A20004
+140003FC 01A20002
+14000410 01A20006
+14000424 01A2000E
+14000438 01A20034
+1400044C 01A2002D
+14000460 01A20033
+14000474 01A20010
+14000488 01A20030
+14000654 01A20023
+14000668 01A20005
+1400067C 01A20022
+14000690 01A20007
+140006A4 01A2000C
+140006B8 01A20035
+140006CC 01A2002E
+140006E0 01A20032
+140006F4 01A20011
+14000708 01A20031
+14000794 01A20023
+140007A8 01A20005
+140007BC 01A20022
+140007D0 01A20007
+140007E4 01A2000C
+140007F8 01A20035
+1400080C 01A2002E
+14000820 01A20032
+14000834 01A20011
+14000848 01A20031
+140008D4 01A20023
+140008E8 01A20005
+140008FC 01A20022
+14000910 01A20007
+14000924 01A2000C
+14000938 01A20035
+1400094C 01A2002E
+14000960 01A20032
+14000974 01A20011
+14000988 01A20031
+E0000000 80008000
+Black box and Goldeneye game modes maps will remain the same. Replacing those maps will result in no goldeneye consoles and no black box.
+
+Full Sized Maps in Offline Multiplayer [Macopride64]
+0657E268 00000028
+01A00003 01A00004
+01A00005 01A00001
+01A00002 01A00069
+01A00068 01A00065
+01A0001B 01A00073
+0657E290 00000028
+01A0000C 01A00006
+01A00016 01A00015
+01A00012 01A00082
+01A0006C 01A0007C
+01A0002F 01A0007A
+0657E2B8 00000028
+01A00011 01A00007
+01A0002C 01A0002B
+01A00020 01A00087
+01A0006E 01A00080
+01A00030 01A00075
+Loads online conflict maps for conflict game mode, loads online team conflict maps for team conflict game mode, and loads online golden gun maps for golden gun game mode. [Macopride64]
+00000000 00000000
+00000000 00000000 [Macopride64]
+00000000 00000000
+00000000 00000000
+
+Online Fun-4-Everyone (Host Only-All Players/Offline)
+
+Golden Gun 'Returned' Time Modifier [Macopride64]
+046F1030 XXXXXXXX
+Modify how long it takes for the GG to return to another spawn after being 'dropped'.
+X Values:
+00000000 -Instant return
+41700000 -15 seconds (default)
+7F800000 -Never returns
+
+Black Box Has a Mind of It's Own [Macopride64]
+046F026C 3FA00000
+It bounces around all over the place, but is easily catchable on closed maps. Also makes black box invisible while being carried.
+
+Gain 10xp For Holding Black Box Every X Second(s) [Macopride64]
+046F0278 XXXXXXXX
+X=
+00000000 -Skyrocketing xp
+41200000 -10 seconds (default)
+
+Game Finishes X Seconds After Black Box is Destroyed [Macopride64]
+046F029C XXXXXXXX
+X=
+00000000 -Instant end
+40400000 -3 seconds (default)
+7F800000 -Game will end when timer runs out.
+
+Black Box Health Modifier [Macopride64]
+046F0258 XXXXXXXX
+X Values:
+3F800000 -1 (instant destroy)
+466A6000 -15000 (default)
+7F800000 -Infinite
+
+Black Box Hold Time Modifier [Macopride64]
+046F0260 XXXXXXXX
+X Values:
+3F800000 -1 second
+42B40000 -90 seconds (default)
+7F800000 -Infinite
+*For all black box codes above, generate more X values here: http://babbage.cs.qc.cuny.edu/IEEE-754.old/Decimal.html
+
+Score Limit Modifier [Macopride64]
+025DBEE4 0000XXXX
+XXXX = Score Limit in hex. Affects all game modes except for Black Box and GoldenEye.
+
+GoldenEye Consoles Cannot Be Hacked [Macopride64]
+045EECE4 00000000
+005EECE8 00000000
+
+'YOLT' Game Mode Online [Macopride64]
+005E07CF 0000000B
+'You Only Live Twice' Online! Every mode you click into will become 'yolt'. This unused, online 'yolt' differs a little from the offline 'yolt'. Default lives limit is 40. Default time limit is 10 minutes. The only way to win (besides the game going to time) is if all players in the lobby have a negative number of lives and one player has a positive number of lives. Once a player reaches a negative number of lives, he/she will lose the power to see who killed who (at the bottom left of the screen). There is no scoreboard. Not when in game and not when the game has finished. Eliminations, Deaths, XP, Lives, and the Level of the player will always be unknown. The ways a player can join you're lobby are: by being invited into your party, by pressing 'Join Game' on you, or by simply having the code on and searching for games. *use my score limit mod to change the lives limit*
+
+Instant Match Start [Anarion]
+085E0768 00000000
+00030001 00000000
+As soon as there are 4 people in the lobby, the match starts.
+
+Deactivator For ** Codes [Anarion]
+285F71C2 00000A00
+0410B71C 7C06282E
+040C2DF0 A0630C56
+0415FD74 A01E000C
+04154260 A0E3000C
+041104D0 D03E0E94
+E0000000 80008000
+Wiimote: Press A & 1 to turn off ** codes.
+If you are going to use the ** codes below, which you should, then you will have to turn the codes off at one point to have different match styles. You activate the ** codes at the map voting lobby. And you deactivate them (via this code) at the results screen. Do NOT activate codes between matches because you will more than likely freeze. Don't do it.
+
+No Grenade Launchers ** [Anarion]
+C210B71C 00000003
+38000000 9806000C
+9806003C 9806005C
+7C06282E 00000000
+Guns loaded with a GL will not have it. Perfect for toob spammers.
+
+Noob-Tube Only ** [Anarion]
+285F71C2 00008800
+C210B71C 00000010
+3C000200 60000489
+90060000 3C004001
+60000080 90060010
+3C004001 6000007F
+90060020 3C004001
+600000AA 90060030
+3C004001 600000A9
+90060040 3C00000F
+6000423F 90060014
+90060024 90060034
+90060044 38000104
+B006000C 3C000200
+60001E4D 90060050
+38000000 B006003C
+B006005C 7C06282E
+60000000 00000000
+040C2DF0 386067E2
+C214C634 00000003
+3C000200 60000551
+90030000 80030000
+60000000 00000000
+C215FD74 00000002
+38000104 B01E000C
+A01E000C 00000000
+C2154260 00000002
+38E00104 B0E3000C
+A0E3000C 00000000
+041104D0 60000000
+0414EFF8 60000000
+E0000000 80008000
+Wiimote: Press HOME & A to activate.
+Everyone will use a grenade ready Anova grenadier set to infinite ammo.
+
+Melee Only ** [Anarion]
+285F71C2 00000810
+C210B71C 00000006
+3C000200 60001E4D
+90060000 90060030
+90060050 38000000
+B006000C B006003C
+B006005C 7C06282E
+60000000 00000000
+E0000000 80008000
+Wiimote: Press A & PLUS to activate.
+No Guns. Slapping melees.
+
+Gun Modifier+ ** [Anarion]
+285F71C2 00001800
+C210B71C 0000000A
+3C000200 60000XXX
+90060000 3C004001
+600000YY 90060010
+3C004001 600000ZZ
+90060020 3C000200
+60000TTT 900600t0
+3C00000F 6000423F
+90060014 90060024
+38000000 B006000C
+7C06282E 00000000
+E0000000 80008000
+Wiimote: Press MINUS & A to activate.
+Modifies primary. Primary will have infinite ammo. If you want the entire list of all gun values for this code, contact me.
+Placeholder Values
+MJR
+X- 828
+Y- A4
+Z- 95
+Golden Gun
+X- 827
+Y- 86
+Z- 85
+T Values are explosive type values, found on the code below.
+t= specific explosive slot to modify. If your loadout does not consist of assault rifles, 6 will modify the grenade slot, 7 will modify your second explosive type, 8 (if you use Distraction on a gadget slot, or use "Stacked Gadgets")
+
+All Explosives Modifier [Anarion]
+C214C634 00000003
+3C000200 60000TTT
+90030000 80030000
+60000000 00000000
+Modifies all grenades/mines to the following of your choice. T Values:
+756 - Frag Grenades
+98E - Flashbang
+98D - Smoke Bomb
+D78 - Timed Mines
+D77 - Remote Mines
+D79 - Proximity Mines
+915 - Oddjob Bowler Hats
+551 - no explosives
+
+Infinite Ammo. v3 [Anarion]
+0410B9DC 90830008
+No reloading included.
+
+Fully Automatic Rapid Fire Shooting Rate [Anarion]
+C214A440 00000005
+9421FFF0 91610008
+3D604500 616B0000
+91640010 81610008
+38210010 8BE4000D
+60000000 00000000
+C210B71C 00000004
+38000001 B006000C
+38000001 B006003C
+38000001 B006005C
+7C06282E 00000000
+Removes all attachments offline. NOT compatible with ** codes.
+
+Stacked Gadgets [Anarion]
+040C2DF0 38607FFF
+This will load ALL gadgets for use.
+Distraction (Smoke Bombs&Flashbang). HiCap Mag. Timed Mine. Remote Mine. Proximity Mine. Heavy Hitter. Speed Loader. Reactive Armor. LightFoot. Polarized Lenses. Snapshot. BioBooster. Mine Sweeper. MultiTask (useless). Last Act of Defiance.
+
+PowerFoot [Anarion]
+0410C2D0 38000001
+Everyone will move at sprinting speed.
+
+Health Amount Modifier (Health Lobby) [Anarion]
+C21046B4 00000003
+3D804XXX 618C0000
+918303AC C00303AC
+60000000 00000000
+X Health Values:
+248 - 1/2 health
+2C8 - default health amount
+348 - x2
+396 - x3
+3FA - x5
+42F - x7
+47A - x10
+Code takes effect for each individual player when the player respawns after being killed once.
+
+Infinite Mines [Anarion]
+04158B20 38840001
+
+Infinite Grenades (all) [Anarion]
+04157D38 38840001
+
+Infinite Oddjob Bowler Hats [Anarion]
+04158A14 38840001
+
+Instant Respawn [Anarion]
+041104D0 60000000
+
+Sound Settings Codes
+
+Instant Music Volume Modifier [Anarion]
+285F71C2 00000900
+045DE4D0 XXXXXXXX
+CC000000 00000000
+045DE4D0 XXXXXXXX
+E0000000 80008000
+Wiimote: A+2 to turn on/off
+
+Instant Sound Volume Modifier [Anarion]
+285F71C2 00004800
+045DE4D4 XXXXXXXX
+CC000000 00000000
+045DE4D4 XXXXXXXX
+E0000000 80008000
+Wiimote: C+A to turn on/off
+
+Instant Dialogue Volume Modifier [Anarion]
+285F71C2 00004100
+045DE4D8 XXXXXXXX
+CC000000 00000000
+045DE4D8 XXXXXXXX
+E0000000 80008000
+Wiimote: C+2 to turn on/off
+X VALUES For 3 Codes Above:
+3F800000 -full volume
+00000000 -mute volume
+3F289AAE -1/2 volume
+3F5F2CF6 -3/4 volume
+3EE4F92E -1/4 volume
+
+Control Settings Hacks
+
+Vertical ADS Sensitivity [Bully@Wiiplaza]
+285F71C2 FFEF0010
+82200001 805DE7D0
+86900001 3C23D70A
+84200001 805DE7D0
+E0000000 00000000
+285F71C2 EFFF1000
+82200001 805DE7D0
+86900001 BC23D70A
+84200001 805DE7D0
+E0000000 80008000
+- to decrease; + to increase
+
+Horizontal ADS Sensitivity [Bully@Wiiplaza]
+285F71C2 FFEF0010
+82200001 805DE7CC
+86900001 3C23D70A
+84200001 805DE7CC
+E0000000 00000000
+285F71C2 EFFF1000
+82200001 805DE7CC
+86900001 BC23D70A
+84200001 805DE7CC
+E0000000 80008000
+- to decrease; + to increase
+
+Vertical Sensitivity [Bully@Wiiplaza]
+285F71C2 FFEF0010
+82200001 805DE7A8
+86900001 3C23D70A
+84200001 805DE7A8
+E0000000 00000000
+285F71C2 EFFF1000
+82200001 805DE7A8
+86900001 BC23D70A
+84200001 805DE7A8
+E0000000 80008000
+- to decrease; + to increase
+
+Horizontal Sensitivity [Bully@Wiiplaza]
+285F71C2 FFEF0010
+82200001 805DE7A4
+86900001 3C23D70A
+84200001 805DE7A4
+E0000000 00000000
+285F71C2 EFFF1000
+82200001 805DE7A4
+86900001 BC23D70A
+84200001 805DE7A4
+E0000000 80008000
+- to decrease; + to increase
+
+Look Inverse [Bully@Wiiplaza]
+005DE800 00000000
+
+GCN Controller Rumble [Bully@Wiiplaza]
+005DE7F4 00000000
+
+ADS Snap [Bully@Wiiplaza]
+005DE7FA 00000000
+
+Horizontal Turn Speed [Bully@Wiiplaza]
+285F71C2 FFEF0010
+82200001 805DE79C
+86900001 3C23D70A
+84200001 805DE79C
+E0000000 00000000
+285F71C2 EFFF1000
+82200001 805DE79C
+86900001 BC23D70A
+84200001 805DE79C
+E0000000 80008000
+- to decrease; + to increase
+
+Gesture Sensitivity [Bully@Wiiplaza]
+285F71C2 FFEF0010
+82200001 805DE7E8
+86900001 3C23D70A
+84200001 805DE7E8
+E0000000 00000000
+285F71C2 EFFF1000
+82200001 805DE7E8
+86900001 BC23D70A
+84200001 805DE7E8
+E0000000 80008000
+- to decrease; + to increase
+
+Vertical Turn Speed [Bully@Wiiplaza]
+285F71C2 FFEF0010
+82200001 805DE7A0
+86900001 3C23D70A
+84200001 805DE7A0
+E0000000 00000000
+285F71C2 EFFF1000
+82200001 805DE7A0
+86900001 BC23D70A
+84200001 805DE7A0
+E0000000 80008000
+- to decrease; + to increase
+
+Aim Assist [Bully@Wiiplaza]
+005DE7F7 0000000X
+0 = OFF
+1 = ON
+
+Cursor Sensitivity [Bully@Wiiplaza]
+285F71C2 FFEF0010
+82200001 805DE7DC
+86900001 3C23D70A
+84200001 805DE7DC
+E0000000 00000000
+285F71C2 EFFF1000
+82200001 805DE7DC
+86900001 BC23D70A
+84200001 805DE7DC
+E0000000 80008000
+- to decrease; + to increase
+
+Turn Style [Bully@Wiiplaza]
+005DE7FC 0000000X
+0 = OFF
+1 = ON
+
+Look [Bully@Wiiplaza]
+005DE7FD 0000000X
+0 = OFF
+1 = ON
+
+Auto Recenter [Bully@Wiiplaza]
+005DE7F5 0000000X
+0 = OFF
+1 = ON
+
+Turn while Cursor Offscreen [Bully@Wiiplaza]
+005DE7F6 0000000X
+0 = OFF
+1 = ON
+
+Button Layout Wiimote [Bully@Wiiplaza]
+005DE7EE 0000000X
+0 = OFF
+1 = ON
+
+Tank Layout [Bully@Wiiplaza]
+005DE7F1 0000000X
+0 = OFF
+1 = ON
+
+Turn Style [Bully@Wiiplaza]
+005DE7FC 0000000X
+0 = Wii Remote Turning
+1 = Wii Remote Turning (X Only)
+2 = Nunchuck Turning
+
+Button Layout Wiimote [Bully@Wiiplaza]
+005DE7EE 0000000X
+0 = Vesper
+1 = Aki
+2 = Vida
+3 = Zora
+4 = Mischka
+5 = Grischka
+6 = Elektra
+7 = Khan
+8 = Drax
+9 = Mr. Wint
+A = Mr. Kidd
+B = Bambi
+C = Thumper
+
+Tank Layout [Bully@Wiiplaza]
+005DE7F1 0000000X
+0 = Tananka
+1 = Pepper
+2 = Tatiana
+3 = Havelock
+
+Allowed WiFi Codes
+
+Extend Custom Loadouts Name Limit [Macopride64]
+28772176 00000112
+005E06D7 0000000F
+28772182 0000002E
+80000000 805E066C
+2877213A 00000000
+8A002001 805DE970
+E2100000 00000000
+2877213A 00000001
+8A002001 805DE990
+E2100000 00000000
+2877213A 00000002
+8A002001 805DE9B0
+E2100000 00000000
+2877213A 00000003
+8A002001 805DE9D0
+E2100000 00000000
+2877213A 00000004
+8A002001 805DE9F0
+E0000000 80008000
+Extends the limit to 15 characters.
+Credit to Anarion.
+
+Thick Grenade Line [Macopride64]
+046EA19C 437F0000
+
+Light Blue & White Grenade Line [Macopride64]
+046EA1A4 437F0000
+046EA1AC 437F0000
+
+Light Blue Grenade Line [Macopride64]
+046EA1A4 437F0000
+046EA1AC 437F0000
+046EA1B0 00000000
+
+White Grenade Line [Macopride64]
+046EA1A4 437F0000
+046EA1AC 437F0000
+046EA1B4 437F0000
+
+Yellow & Green Grenade Line [Macopride64]
+046EA1AC 437F0000
+
+Yellow Grenade Line [Macopride64]
+046EA1AC 437F0000
+046EA1B4 437F0000
+
+Green Grenade Line [Macopride64]
+046EA1A4 00000000
+046EA1AC 437F0000
+046EA1B0 00000000
+
+Blue Grenade Line [Macopride64]
+046EA1A4 437F0000
+046EA1A8 00000000
+046EA1B0 00000000
+
+Magneta & Blue Grenade Line [Macopride64]
+046EA1A4 437F0000
+046EA1A8 00000000
+046EA1B0 437F0000
+
+Magneta Grenade Line [Macopride64]
+046EA1A4 437F0000
+046EA1A8 00000000
+046EA1B0 437F0000
+046EA1B4 437F0000
+
+RGBA-Reticule Color Modifier [Macopride64]
+C21512D0 00000002
+3C00XXXX 6000XXZZ
+90010010 00000000
+
+RGBA-Reticule Over Enemy Color Modifier [Macopride64]
+C2151230 00000002
+3C00XXXX 6000XXZZ
+90010018 00000000
+
+RGBA-Reticule Over TeamMate Color Modifier [Macopride64]
+C2150F84 00000002
+3C00XXXX 6000XXZZ
+90010038 00000000
+For Color Modifiers Above:
+X= Hex Color Code
+Z= Color Transparency. Use FF if you don't want a transparent color.
+X Color Values @ www.2createawebsite.com/images/hex-co1.gif
+or generate your color of choice @ www.2createawebsite.com/build/hex-colors.html#colorgenerator
+
+L1-Secondary Gun Attachment Modifier [Anarion]
+005DE94B 0000000X
+
+L2-Secondary Gun Attachment Modifier [Anarion]
+005DE94F 0000000X
+
+L3-Secondary Gun Attachment Modifier [Anarion]
+005DE953 0000000X
+
+L4-Secondary Gun Attachment Modifier [Anarion]
+005DE957 0000000X
+
+L5-Secondary Gun Attachment Modifier [Anarion]
+005DE95B 0000000X
+X VALUES:
+1 -no attachment
+2 -Silencer
+3 -Thermal Scope
+4 -Reflex Sight
+5 -Laser Pointer
+6 -Grenade Launcher
+7 -Acog Scope
+Wolfe Cannot be Silenced. Shotguns cannot be silenced. Grenade Launcher is only compatible on AK47,Kallos,Anova&Terralite. If you use an attachment value that is not compatible with the gun you added it to, you will be unable to shoot it.
+
+Clear Weather [Anarion]
+C20353EC 00000003
+3C000000 60000101
+90030068 80030068
+60000000 00000000
+No rain, fog, snow, etc. All maps have clear weather as they have offline.
+
+No Animation [Anarion]
+285F71C2 00000001
+04337130 38000001
+E0000000 80008000
+285F71C2 00000002
+04337130 38000000
+E0000000 80008000
+Press Left to turn on. Right to turn off.
+
+Spawn Dead (ONLY on GoldenGun mode) [Anarion]
+285F71C2 00008900
+0410BF64 60000000
+CC000000 00000000
+0410BF64 901C0008
+E0000000 80008000
+Press HOME+A+2 to turn on and off.
+You are dead on the ground. You can't do any actions. You CAN move across the map but it takes a while to get used to since the controls are reversed. To go forward, move the control stick down, right to go left, etc.
+ONLY on GoldenGun mode. This will freeze you if used elsewhere.
+
+Remove Textures [Anarion]
+285FXXXX 00000200
+042A068C 60000000
+CC000000 00000000
+042A068C 41820010
+E0000000 80008000
+X-Value
+71C2 if using Wiimote+, press 1 to turn on&off.
+7222 if using Classic Controller, press R to turn on&off.
+This code will give you a clean menu look. The large "Goldeneye" logo at the start is not visible. Some maps may become very dark. Also, radar will not work with this.
+
+Remove HUD/Radar+ [Anarion]
+042A0D20 3863CD80
+Also removes certain weather elements.
+
+No Mine & Grenade Icons [Anarion]
+0414C624 3863F3C0
+
+Smoke-&gt;Light [Anarion]
+04346704 60000000
+
+Smoke-&gt;Compressed Air Grenades [Anarion]
+285F71C2 0000XXXX
+043466F0 60000000
+E0000000 80008000
+285F71C2 00008000
+043466F0 E0F50008
+E0000000 80008000
+
+Light Blue Smoke Grenades [Anarion]
+285F71C2 0000XXXX
+0434676C 60000000
+E0000000 80008000
+285F71C2 00008000
+0434676C E0530094
+E0000000 80008000
+
+Color Modified Smoke Grenades [Anarion]
+285F71C2 0000XXXX
+04346768 ZZZZZZZZ
+E0000000 80008000
+285F71C2 00008000
+04346768 E033008C
+E0000000 80008000
+Z Values:
+E0330000 - Red
+60000000 - Pink
+E0330028 - Green
+E033000C - Yellow
+
+Dark Blue Smoke Grenades [Anarion]
+285F71C2 0000XXXX
+04346774 60000000
+E0000000 80008000
+285F71C2 00008000
+04346774 E033005C
+E0000000 80008000
+For codes above, for X value, go here:http://geckocodes.org/index.php?arsenal=2
+Codes are for Wii Remote. Select the button you want to use to activate code and use that value in place of XXXX. Look at Result. ALL codes will have HOME as deactivator for ease.
+
+Yellow Radar Dots [Anarion]
+042A0CC8 2C070000
+
+White Radar Dots [Anarion]
+042A0D68 3863CD80
+
+Dark Red Radar Dots [Anarion]
+042A0CD4 2C0700FF
+
+Purple Radar+ [Anarion]
+042A0CB0 3863CD80
+
+Yellow Radar+ [Anarion]
+042A0CE8 3863CD80
+
+Bold White Radar+ [Anarion]
+042A0D90 3863CD80
+
+All White Radar [Anarion]
+042A0C5C 3863CD80
+Bold white, white dots.
+
+RBG-Radar Color Modifier [Anarion]
+C22A0D70 00000002
+3C00XXXX 6000XXZZ
+901D003C 00000000
+For Color Modifiers Above:
+RED
+X: FF00 00 || Z: FF -all bold red
+X: CC00 00 || Z: CC -red, normal transparency
+X: FFCC CC || Z: FF -light red, normal transparency, white dots
+BLUE
+X: 0000 FF || Z: FF -all bold blue
+X: 0000 CC || Z: CC -blue, normal transparency
+X: CCCC FF || Z: FF -light blue, normal transparency, white dots
+GREEN
+X: 00FF 00 || Z: FF -all bold green
+X: 00CC 00 || Z: CC -green, normal transparency
+X: CCFF CC || Z: FF -light green, normal transparency, white dots
+Z= Color Transparency. Use FF if you don't want a transparent color.
+Other X Color Values @ www.2createawebsite.com/images/hex-co1.gif
+or generate your color of choice @ www.2createawebsite.com/build/hex-colors.html#colorgenerator
+
+Offline Only
+
+Black Box Mode Offline |fusionraptor & [Macopride64]
+285E3228 00000101
+205C95F4 01080004
+205DE6A8 00000000
+045C95B4 01A00039
+E2100000 00000000
+205DE6A8 00000001
+045C95B4 01A0003A
+E2100000 00000000
+205DE6A8 00000002
+045C95B4 01A00043
+E2100000 00000000
+205DE6A8 00000003
+045C95B4 01A00040
+E2100000 00000000
+205DE6A8 00000004
+045C95B4 01A0003B
+E2100000 00000000
+205DE6A8 00000005
+045C95B4 01A00088
+E2100000 00000000
+205DE6A8 00000006
+045C95B4 01A0006D
+E2100000 00000000
+205DE6A8 00000007
+045C95B4 01A00081
+E2100000 00000000
+205DE6A8 00000008
+045C95B4 01A00042
+E2100000 00000000
+205DE6A8 00000009
+045C95B4 01A00074
+E0000000 80008000
+225C95F4 01080004
+045C95B4 01080004
+E0000000 80008000
+005DE6A7 00000004
+Code by fusionraptor & Macopride64
+Credits to Bully@Wiiplaza as his "game mode modifier" address is used in this.
+
+GoldenEye Mode Offline |fusionraptor & [Macopride64]
+285E3228 00000101
+205C95F4 01080004
+205DE6A8 00000000
+045C95B4 01A0001D
+E2100000 00000000
+205DE6A8 00000001
+045C95B4 01A0001E
+E2100000 00000000
+205DE6A8 00000002
+045C95B4 01A0002D
+E2100000 00000000
+205DE6A8 00000003
+045C95B4 01A0002E
+E2100000 00000000
+205DE6A8 00000004
+045C95B4 01A0001F
+E2100000 00000000
+205DE6A8 00000005
+045C95B4 01A00086
+E2100000 00000000
+205DE6A8 00000006
+045C95B4 01A0006F
+E2100000 00000000
+205DE6A8 00000007
+045C95B4 01A0007B
+E2100000 00000000
+205DE6A8 00000008
+045C95B4 01A00031
+E2100000 00000000
+205DE6A8 00000009
+045C95B4 01A00076
+E0000000 80008000
+225C95F4 01080004
+045C95B4 01080004
+E0000000 80008000
+005DE6A7 00000005
+Code by fusionraptor & Macopride64
+Credits to Bully@Wiiplaza as his "game mode modifier" address is used in this.
+
+Heroes Mode Offline |fusionraptor & [Macopride64]
+285E3228 00000101
+205C95F4 01080004
+205DE6A8 00000000
+045C95B4 01A00044
+E2100000 00000000
+205DE6A8 00000001
+045C95B4 01A00045
+E2100000 00000000
+205DE6A8 00000002
+045C95B4 01A00048
+E2100000 00000000
+205DE6A8 00000003
+045C95B4 01A00047
+E2100000 00000000
+205DE6A8 00000004
+045C95B4 01A00046
+E2100000 00000000
+205DE6A8 00000005
+045C95B4 01A00085
+E2100000 00000000
+205DE6A8 00000006
+045C95B4 01A00070
+E2100000 00000000
+205DE6A8 00000007
+045C95B4 01A0007F
+E2100000 00000000
+205DE6A8 00000008
+045C95B4 01A00049
+E2100000 00000000
+205DE6A8 00000009
+045C95B4 01A00077
+E0000000 80008000
+225C95F4 01080004
+045C95B4 01080004
+E0000000 80008000
+005DE6A7 0000006
+Code by fusionraptor & Macopride64
+Credits to Bully@Wiiplaza as his "game mode modifier" address is used in this.
+
+Start With X Gun in Single Player [Macopride64]
+C20C0050 00000003
+3D804540 618C00XX
+91850080 80C50080
+60000000 00000000
+X Values:
+15 -None (Practice Map)
+13 -None (Nightclub & Carrier)
+14 -P99
+07 -Silenced P99
+Doesn't work for all maps.
+Credit to Anarion for converting the code from F6 to ASM.
+
+Single Player Character Modifier [Macopride64]
+C200FA80 00000003
+3D804D00 618C0XXX
+91830078 80A30078
+60000000 00000000
+X Values:
+1A6 -Oddjob
+1A7 -Jaws
+1AA -Biofeld
+1AB -Scaramanga
+20C -Dr.No
+20D -Baron Samedi
+20E -Rosa Klebb
+260 -Red Grant
+1CC -Bond (Dinner Jacket)
+1CB -Bond (Special MI6 OPS Agent)
+1C5 -Bond (Business suit)
+1B9 -Bond (Stealth attire)
+213 -Bond (Cold weather casual attire)
+1EA -Bond (Casual attire)
+1EC -Bond (Snow camo attire)
+1ED -Bond (Snow camo attire+beanie)
+2EB -Natalya
+1BA -Trevelyan
+2E6 -Xenia
+2E7 -Ourumov
+2E8 -Zukovsky
+2EA -Mishkin
+1D0 -HazMat
+1D3 -Soldier
+216 -Pilot
+2E9 -Security
+2ED -Sky Briggs
+1F9 -Red-1
+1FA -Red-4
+1FB -Red-5
+1FC -Red-9
+2AA -Pvt.Gurov
+2AB -Pvt.Harkov
+2AC -Pvt.Kozmin
+2AD -Pvt.Shkadov
+1FD -Jones
+1FE -Davis
+1FF -Smith
+200 -Adams
+1E0 -Two-2
+280 -Two-4
+281 -Two-6
+282 -Two-7
+2A6 -Sgt.Glebov
+2A7 -Sgt.Baikov
+2A8 -Sgt.Chzov
+2A9 -Sgt.Drashev
+2B2 -Five-1
+2B3 -Five-2
+2B4 -Five-3
+2B5 -Five-4
+2AE -Vincent
+2AF -Slav
+2B0 -Boris
+2B1 -Alfonso
+2A2 -Sgt.Morozov
+2A3 -Sgt.Zotkin
+2A4 -Sgt.Udalov
+2A5 -Sgt.Shubkin
+279 -MI6 Snow Camo Special Agent
+27A -MI6 Snow Camo Special Agent
+27B -MI6 Snow Camo Special Agent
+27C -MI6 Snow Camo Special Agent
+Value list by Anarion
+Credit to Anarion for converting the code from F6 to ASM.
+
+Edit Custom Loadouts Offline [Macopride64]
+06580ABC 00000008
+4300119A 7D0000D3
+02580B4A 000012A3
+The option to edit your custom loadouts will appear in "Extras".
+*My Unused Extras Menu code is required for this code to work*
+
+Unused Extras Menu [Macopride64]
+04774704 80580990
+0077470B 00000019
+
+Gun Polygon Modifier [Macopride64]
+0061E319 0000000X
+X= 0-7
+0= Invisible Gun
+...(values in between remove certain parts of the gun, greater the value equals more polygons, lesser the value equals less polygons)
+7= Full Gun
+May be single player only.
+
+Disable Level Intros/Outros [Macopride64]
+08573588 806EE7A8
+2007000C 00000000
+
+Game Starts Up Quicker v2 [Macopride64]
+08573504 806EE7A8
+2002000C 00000000
+20776B10 00000007
+046F1D08 3F800000
+CC000000 00000000
+046F1D08 44FA0000
+E0000000 80008000
+Skips the strap screen and Activision, Eurocom, MGM logo videos.
+
+Friendly Fire (split screen) [Macopride64]
+005DE6B9 0000000X
+X Values:
+1 = ON
+0 = OFF
+
+Invisible Grenades [Anarion]
+041581E0 60000000
+Explosions out of nowhere!
+
+No Crouch Slowdown [Anarion]
+0410C2E4 38000000
+Maintain walking speed when crouching!
+
+Yellow Flash [Anarion]
+041A4268 60000000
+white flash from explosions & flash grenades is yellow
+
+Invisibility Mode [Anarion]
+005DE6CB 00000003
+Different from Bully's code, with this, you unlock the Invisibility Modifier and can toggle the option On/Off from the Modifiers menu itself.
+
+Big Head Mode [Anarion]
+005DE6BA 0000000X
+X= 1- ON || 0- OFF
+Offline Multiplayer
+There is no "Big Head" modifier option, even with this code. The only way to play with big heads would be to enter '&lt;477MYFR13NDS4R3SP13S&gt; in the CheatCodes menu of the game every single time you want to play with big heads. This code instantly enters that code and allows you to play with big heads!
+
+Tag Mode [Anarion]
+005DE6C4 0000000X
+X= 1- ON || 0- OFF
+You can only play "Tag" mode with 3-4 players.
+
+ADS-Lock [Anarion]
+040F9838 38000001
+04162E94 60000000
+C2162EC8 00000002
+3B800001 9B9D0D25
+60000000 00000000
+This code will allow your character to maintain the ads lock though obstacles (walls,crates,etc) and can also lock onto players through said obstacles. It is not an aimbot-like lock since players can get out of cursor tracking range and the code will not work past the allowed range. This will ONLY work for Wiimotes.
+
+Bullet Damage Modifier [Anarion]
+C2136574 00000003
+3CA00000 60A5000X
+90BD05FC 80BD05FC
+60000000 00000000
+
+Bullet Damage At Respawn Modifier [Anarion]
+041036B0 3800000X
+X Values for BOTH codes above:
+0 -default
+1 -2x
+2 -3x
+6 -7x - 1 shot kills-highest possible
+Only works offline multi-player with "Revenge" game modifier on.
+
+Can Only Walk [Anarion]
+C21083E4 00000002
+3C000000 60000000
+90030538 00000000
+
+Infinite Armor [Anarion]
+C210354C 00000003
+3D8042C8 618C0000
+919605E8 C3B605E8
+D3B605E8 00000000
+Reactive/Body armor. Will load armor even if it is not equipped.
+
+Sniper Scope Sights [Anarion]
+04131860 3BA00001
+Will load sniper scope sights when aiming down sights. Not compatible with code below.
+
+View Obstructing Scopes [Anarion]
+0413188C 3BA00000
+Removes full scope zoom and uses ads zoom. Not compatible with code above.
+
+Invisible Guns [Anarion]
+04152CE4 EC21102A
+For all players, povs only
+
+Invisible Gun (P1 POV only) [Anarion]
+04152CE8 60000000
+Guns are only invisible from P1 pov.
+
+Invisible Gun [Anarion]
+285F71C2 00006000
+04301A54 60000000
+CC000000 00000000
+04301A54 F0C300C8
+E0000000 80008000
+Attachments/sights not invisible.
+
+Infinite Lives [Anarion]
+04278E54 38050000
+On game mode "You Only Live Twice"
+
+Invisibility At Will [Anarion]
+0413AE7C EC21182A
+
+Permanent Invisibility [Anarion]
+0413AF98 60000000
+Press A. Once invisible, you stay invisible.
+
+No Invisibility [Anarion]
+285F71C2 00006000
+0413B020 38000000
+CC000000 00000000
+0413B020 38000001
+E0000000 80008000
+Press C,Z to turn on/off. Offline multi-player.
+Players can't become invisible with this.
+
+Remove Game Text [Anarion]
+285F71C2 00002000
+042AEB48 EC21102A
+CC000000 00000000
+042AEB48 EC211028
+E0000000 80008000
+Press Z to turn On&Off.
+Similar to "Remove HUD/Radar" but does not disable radar.
+
+Disable Timer [Anarion]
+04195090 389CFFEC
+
+From the Hip+ADS [Anarion]
+C21083DC 00000002
+3C000000 60000010
+90030534 00000000
+You can only aim down sights & hip fire.
+
+Auto Fire [Anarion]
+285F71C2 00000400
+C21D1FB8 00000002
+3C800000 60840010
+909C0038 00000000
+CC000000 00000000
+041D1FB8 909C0038
+E0000000 80008000
+Press B to turn code On&Off. Don't have to hold B to keep gun firing.
+Auto fire will only work on fully automatic guns. You can ONLY hip fire; can't do anything else.
+
+Simulate Freeze [Anarion]
+285F71C2 00006100
+040040F4 3884FFFF
+CC000000 00000000
+040040F4 38840001
+E0000000 80008000
+Wiimote- C,Z,2 to turn On&Off
+
+Hide Shooting Locations (Multiplayer) [Anarion]
+0419E14C 60000000
+Prevents all players shooting locations from being visible on radar.
+
+Show Shooting Locations (Multiplayer) [Anarion]
+0419D9AC EC21102A
+Keeps all players shooting location visible on radar.
+
+Hide Enemy Radar Locations (single player) [Anarion]
+042A0D40 38C00000
+
+Inf. Ammo [Bully@Wiiplaza]
+0414D6C0 38A00000
+
+Inf. Health [Bully@Wiiplaza]
+04103560 EC20F02A
+
+Speed Hack [Bully@Wiiplaza]
+C210C8F4 00000004
+3D60805F A16B71C2
+2C0B0800 4082000C
+3D804080 919F0C74
+C03F0C74 00000000
+*Press A on Wiimote*
+
+Moonjump [Bully@Wiiplaza]
+040EED74 C023015C
+040EF340 C05F015C
+285F71C2 FFF70008
+C20EED74 00000002
+3D8040C0 9183015C
+C023015C 00000000
+C20EF340 00000002
+3D8040C0 919F015C
+C05F015C 00000000
+E0000000 80008000
+*Press D-PAD_UP on Wiimote*
+
+Profile Name Modifier (Active Profile) [Bully@Wiiplaza]
+065DE804 000000YY
+XXXXXXXX XXXXXXXX
+*X = ASCII; YY = Amount of letters to write in HEX*
+*Note that you need to write in unicode (-&gt; 00XX00XX)*
+*It is allowed to use at least 18 letters I think*
+*Name is saved permanently*
+
+Game Mode Modifier [Bully@Wiiplaza]
+045DE6A4 000000XX
+X Values:
+00 = Conflict
+01 = Team Conflict
+02 = Golden Gun
+03 = License to Kill
+04 = Black Box
+05 = GoldenEye
+06 = Heroes
+07 = Team License to Kill
+08 = You Only Live Twice
+
+Map Modifier [Bully@Wiiplaza]
+045DE6A8 000000XX
+X Values:
+00 = Archives
+01 = Memorial
+02 = Nightclub
+03 = Station
+04 = Facility
+05 = Industrial
+06 = Docks
+07 = Outpost
+08 = Sewer
+09 = Jungle
+
+Time Limit Modifier [Bully@Wiiplaza]
+045DE6B4 000000XX
+X Values:
+00 = 5 mins
+01 = 10 mins
+02 = 15 mins
+03 = 20 mins
+04 = 25 mins
+05 = 30 mins
+06 = 45 mins
+07 = 60 mins
+08 = Unlimited
+
+Radar ON/OFF [Bully@Wiiplaza]
+045DE6C4 000000XX
+X Values:
+01 = ON
+00 = OFF
+
+Radar Dots Visibilty ON/OFF [Bully@Wiiplaza]
+005DE6C8 000000XX
+X Values:
+01 = ON
+00 = OFF
+
+Hot Shot ON/OFF [Bully@Wiiplaza]
+005DE6B8 000000XX
+X Values:
+01 = ON
+00 = OFF
+
+Meele Only ON/OFF [Bully@Wiiplaza]
+005DE6BB 000000XX
+X Values:
+01 = ON
+00 = OFF
+
+Paintball Mode ON/OFF [Bully@Wiiplaza]
+005DE6BC 000000XX
+X Values:
+01 = ON
+00 = OFF
+
+Singularity ON/OFF [Bully@Wiiplaza]
+005DE6BD 000000XX
+X Values:
+01 = ON
+00 = OFF
+
+Move Your Feet ON/OFF [Bully@Wiiplaza]
+005DE6BE 000000XX
+X Values:
+01 = ON
+00 = OFF
+
+Revenge ON/OFF [Bully@Wiiplaza]
+005DE6BF 000000XX
+X Values:
+01 = ON
+00 = OFF
+
+Rubber Grenades ON/OFF [Bully@Wiiplaza]
+005DE6C2 000000XX
+X Values:
+01 = ON
+00 = OFF
+
+Sticky Grenades ON/OFF [Bully@Wiiplaza]
+005DE6C3 000000XX
+X Values:
+01 = ON
+00 = OFF
+
+Nick Name Mode ON/OFF [Bully@Wiiplaza]
+005DE6C0 000000XX
+X Values:
+01 = ON
+00 = OFF
+
+Legendary Invisibilty ON/OFF [Bully@Wiiplaza]
+005DE6C5 000000XX
+X Values:
+01 = ON
+00 = OFF
+*works even if you have not unlocked this option, it says "unlocked with code", here it is! xP*
+
+Number Of Players Modifier [Bully@Wiiplaza]
+045DE6A0 000000XX
+X Values:
+00 = 2 Players
+01 = 3 Players
+02 = 4 Players
+
+Score/Kills Modifier (All Players) [Bully@Wiiplaza]
+C2278CEC 00000002
+380000XX 900506E8
+60000000 00000000
+*X = HEX!*
+
+Always Add X Kills/Score (All Players) [Bully@Wiiplaza]
+04278CE8 3803000X
+*X = HEX!*
+
+Deaths Modifier (All Players) [Bully@Wiiplaza]
+C2278E64 00000002
+380000XX 900606F8
+60000000 00000000
+*X = HEX!*
+
+Always Add X Deaths (All Players) [Bully@Wiiplaza]
+04278E60 3803000X
+*X = HEX!*
+
+Remove all gadgets from the screen [Bully@Wiiplaza]
+0459096C XXXXXXXX
+*XX = Float; Default Value: 3F800000*
+*Clean match gameplay, can be compared to Hardcore Team Deathmatch on CoD games, where you do not even see your ammo count*
+
+Levitation Mode [Bully@Wiiplaza]
+045C9758 XXXXXXXX
+*XX = Float; Default Value: 3F800000*
+*Makes players levitate a bit all the time*
+
+Weapon Fatness Modifier [Bully@Wiiplaza]
+045C975C XXXXXXXX
+*XX = Float; Default Value: 3F800000*
+
+Unlock All Mission's [Thomas83Lin]
+0424BB88 480002D4
+*Non Permanent*
+
+Unlock All Difficulties+Time Trials [Thomas83Lin]
+04230158 3860FFFF
+04231834 60000000
+*Non Permanent*
+
+Unlock All Mission's+Times Trials [Thomas83Lin]
+C224BB80 00000003
+39800000 398CFFFF
+91850038 80A50038
+60000000 00000000
+*Permanent if Saved*
+
+Unlock All Difficulties [Thomas83Lin]
+C2230154 00000003
+7C630214 39800000
+398CFFFF 91830040
+60000000 00000000
+*Permanent if Saved*
+
+Time Trial Completed+Low Time [Thomas83Lin]
+C22303FC 00000002
+3D803F80 91830060
+C0230060 00000000
+*Permanent if Saved*
+
+Unlock All Game Modes [Thomas83Lin]
+0423162C 38800023
+
+Stop Timer [Panda]
+040451F0 60000000
+Nigeria:Cradle Mission
+
+Hide Gun [Panda]
+0461E318 00000000
+Makes zoomed aiming hard
+
+Infinite Grenades [hetoan2]
+04157B20 4800000C
+
+Autothrow Grenades [hetoan2]
+0415B0C0 4082001C
+
+Disable Grenades [hetoan2]
+04157AE8 4182000C
+
+Autorun [hetoan2]
+046E95AC 00000000
+
+Screen Width Modifier [hetoan2]
+046E9DF0 XXXXXXXX
+
+Brightness Modifier [hetoan2]
+046EE64C XXXXXXXX
+
+Bullet Loudness Modifier [hetoan2]
+046EEE40 XXXXXXXX
+
+Disable Texture Loading [hetoan2]
+026F18F8 00000000
+
+Unlock 'Tag' Modifier [James0x57]
+042316E0 60000000
+
+Unlock Invisibility Modifier [James0x57]
+04231710 60000000
+
+Infinite Ammo (all players, all guns) [James0x57]
+0410B9AC 80830008
+0410B9B0 7C052050
+Tested on offline multiplayer.
+
+Inf Grenades [James0x57]
+04157B18 38000002
+0414C63C 80030008
+Currently has very little testing!
+
+Unlimited Look Up/Down (loops!) [James0x57]
+046EEEAC 40500000
+046EEEB0 C0500000
+
+Can Look Straight Up/Down [James0x57]
+046EEEAC 3FC00000
+046EEEB0 BFC00000
+
+Inf. Ammo (alternate version) [Sharkbyte]
+0410B994 38E7FFF0
+0410B998 38C6FFFF
+
+Infinite Health [Sharkbyte]
+C21046C0 00000003
+3D8042C8 918303A8
+C02303A8 D02303A8
+60000000 00000000
+
+Run Faster (A button) [Sharkbyte]
+285F71C2 F7FF0800
+48000000 805D43EC
+DE000000 80008180
+14000C74 40800000
+E0000000 80008000
+
+Levitate V1 (press up) [Sharkbyte]
+285F71C2 FFF70008
+C20EED88 00000003
+3D8040C0 9183015C
+C003015C D003015C
+60000000 00000000
+E0000000 80008000
+285F71C2 00000000
+040EED88 D003015C
+E0000000 80008000
+285F71C2 FFF70008
+C20EEDB4 00000003
+3D8040C0 9183015C
+C003015C D003015C
+60000000 00000000
+E0000000 80008000
+285F71C2 00000000
+040EEDB4 D003015C
+E0000000 80008000
+285F71C2 FFF70008
+C20EEDD4 00000003
+3D8040C0 9183015C
+C003015C D003015C
+60000000 00000000
+E0000000 80008000
+285F71C2 00000000
+040EEDD4 D003015C
+E0000000 80008000
+
+Keep from dying from high falls [Sharkbyte]
+C2121984 00000003
+3C800000 909F0E90
+C01F0E90 D01F0E90
+60000000 00000000
+
+Viewpoint switching (+ Button on/off) [ZiT]
+285F71C2 FFEF0010
+C21317A4 00000002
+39800000 999E0C7D
+881E0C7D 00000000
+CC000000 00000000
+C21317A4 00000002
+39800001 999E0C7D
+881E0C7D 00000000
+E0000000 80008000
+
+Walk Through Walls ( Z Button ) [ZiT]
+285F71C2 DFFF2000
+C213CBD4 00000002
+3D804000 919D0F64
+C37D0F64 00000000
+E0000000 80008000
+2A5F71C2 DFFF2000
+0413CBD4 C37D0F64
+044B23F0 88860000
+E0000000 80008000
+Only the front.
+Please change a 3line "4000" when the effect is thin.
+
+Moon Jump ( Down Button ) [ZiT]
+285F71C2 FFFB0004
+C230155C 00000003
+C21D00FC EE10002A
+D21D00FC C01D00F4
+60000000 00000000
+E0000000 80008000
+2A5F71C2 FFFB0004
+0430155C C01D00F4
+044B2400 88060001
+E0000000 80008000
+Please use the following code when it falls on the floor.
+
+Moon Jump 2 ( Right Button ) [ZiT]
+285F71C2 FFFD0002
+C2301558 00000003
+C21D00FC EE100028
+D21D00FC C05D00F0
+60000000 00000000
+E0000000 80008000
+2A5F71C2 FFFD0002
+04301558 C05D00F0
+044B240C 88060002
+E0000000 80008000
+
+Invincible [ZiT]
+C2131CF0 00000002
+3D804200 919E0EA4
+C05E0EA4 00000000
+044B2414 88060003
+Only the bullet is effective.
+
+Universal Codes for Goldeneye 007
+
+No Inactivity Kick [Macopride64]
+F6000001 80608070
+3CCCCCCD 3E666666
+14000134 45610000
+E0000000 80008000
+
+Game Starts Up Quicker [Macopride64]
+F6000001 80508060
+00000000 4210004A
+18000008 806EE7A8
+2002000C 00000000
+E0000000 80008000
+Skips Activision, Eurocom, and MGM logo videos.
+
+~Wiimote~ Button Activator Enabler [Bully@Wiiplaza]
+F6000001 80008100
+80A10008 881D0BC5
+D2000008 00000003
+81650000 3D808000
+916C1500 A0850000
+60000000 00000000
+*Special Thx to Nutmeg!*
+
+~Wiimote~ Button Activator [Bully@Wiiplaza]
+28001500 YYYYZZZZ
+*"~Wiimote~ Button Activator Enabler" must be turned ON!*
+
+WiFi Custom Loadout Name Editing [Bully@Wiiplaza]
+F6000001 80318100
+7CE4EA14 7C84E82E
+D2000394 0000000A
+2C16000Y 40820044
+388000XX B0830000
+388000XX B0830002
+388000XX B0830004
+388000XX B0830006
+388000XX B0830008
+388000XX B083000A
+388000XX B083000C
+38800000 B083000E
+7C641B78 00000000
+E0000000 80008000
+*XX Values = ASCII letters in HEX*
+*Y Value = Loadout Slot*
+0 = 1st Class; 1 = 2nd Class; 2 = 3rd Class; 3 = 4th Class; 4 = 5th Class
+
+Invincible made regionfree by [Bully@Wiiplaza]
+F6000001 80008100
+C03E03A8 C0029DF4
+D2000070 00000002
+3D804200 919E0EA4
+C05E0EA4 00000000
+E0000000 80008000
+*originally by ZiT, for NTSC-U*
+
+Unlock All WiFi Gamemodes [Bully@Wiiplaza]
+F6000001 80008100
+80840434 28040019
+14000008 60000000
+14000018 60000000
+14000028 48000018
+E0000000 80008000
+*License to Kill, Team License to Kill and Classic Conflict are directly unlocked, doesnÂ´t matter which level you are*
+
+Unlock WiFi Weapon Info [Bully@Wiiplaza]
+F6000001 80008100
+38810020 386312D5
+14000010 480000C0
+E0000000 80008000
+*Only useful, if you want to see weapon stats etc. without having them unlocked...*
+
+All WiFi Weapon Skills Completed [Bully@Wiiplaza]
+F6000001 80008100
+7C990214 D381001C
+D2000008 00000005
+9421FFF0 91610008
+3D600000 616B270F
+9164058C 81610008
+38210010 8084058C
+60000000 00000000
+E0000000 80008000
+http://i73.servimg.com/u/f73/13/33/97/73/golden11.png
+*Everything is marked as "done", on all weapon classes*
+
+Ultimate WiFi Accolades Unlocker [Bully@Wiiplaza]
+F6000001 80008100
+389C02AB 80050004
+D2000010 00000005
+9421FFF0 91610008
+3D600000 616B0001
+916503A4 81610008
+38210010 80A503A4
+60000000 00000000
+F6000001 80008100
+80630000 80030004
+D2000010 00000002
+38000001 900303A4
+60000000 00000000
+E0000000 80008000
+*All WiFi Accolades are completed*
+
+All WiFi Combat Abilities Completed [Bully@Wiiplaza]
+F6000001 80008100
+7C840214 91210024
+D2000008 00000005
+9421FFF0 91610008
+3D600000 616B0063
+9164060C 81610008
+38210010 8084060C
+60000000 00000000
+*All combat abilities are marked as "done"*

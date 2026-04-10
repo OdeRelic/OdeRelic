@@ -1,0 +1,61 @@
+JAJE
+Street Fighter II: World Warrior
+
+Miscellaneous Codes
+
+Disable Timer [GMO]
+008B1EAF 00000002
+
+Press Z(Left) for More Time [GMO]
+2818E65A 00000080
+008B1EB0 00000099
+E0000000 80008000
+
+Vital Bonus [GMO]
+028B1542 00000300
+
+Time Bonus [GMO]
+008B1544 00000099
+
+Play As Same Character [GMO]
+008B0FDA 00000020
+Original code by Hacc ported by lee4
+
+P1 Unlimited Health [GMO]
+008B1013 000000B0
+008B101D 000000B0
+
+1-Hit Kill (P2 Life Mod) [GMO]
+288B1212 000000B0
+008B1213 00000001
+E0000000 80008000
+Hacked By Lee4
+
+P1 Character Modifer [GMO]
+008B10B9 000000??
+
+P2 Character Modifier [GMO]
+008B12B9 000000??
+
+P1 Can Do Special Moves In Air [GMO]
+008B109A 00000000
+Original code by Hacc ported by lee4
+
+P2 Can Do Special Moves In Air [GMO]
+008B129A 00000000
+Original code by Hacc ported by lee4
+
+Character Values
+
+00 Ryu
+01 E.Honda
+02 Blanka
+03 Guile
+04 Ken
+05 Chun Li
+06 Zangief
+07 Dhalsim
+08 M.Bison (Freezes)
+09 Sagat (Freezes)
+0A Balrog (Freezes)
+0B Vega (Freezes)

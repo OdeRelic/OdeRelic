@@ -1,0 +1,37 @@
+SBDP08
+Resident Evil The Darkside Chronicles
+
+Infinite Ammo in Mag [Crashzer]
+04733830 0000DEAD
+
+Unrestricted Camera Zoom In Archives [Yamishira]
+04737B64 3F800000
+
+Infinite Ammo [Apache81]
+C20CDDB4 00000002
+2C1F0000 40820008
+7C1E0050 00000000
+
+Infinite Health [Apache81]
+040ACA74 60000000
+
+Infinite Herbs [Apache81]
+04733890 0000270F
+
+Infinite Gold [Apache81]
+04FFA378 0098967F
+
+Infinite Partner Health [Apache81]
+C20FC690 00000001
+D01F00F8 00000000
+
+Have all Weapons [Apache81]
+040CDE34 38002710
+040CDE38 90030120
+Code ported from NTSC version by TNTkryzt
+
+Have Complete Archive [Apache81]
+040CE794 3960FFFF
+040CE798 7D6301AE
+040CE79C 38600001
+Code ported from NTSC version by TNTkryzt

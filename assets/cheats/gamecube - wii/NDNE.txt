@@ -1,0 +1,91 @@
+NDNE
+Duke Nukem 64
+
+Gun Modifier [Seth@WiiPlaza]
+042A5A26 0000XXXX
+*values here http://tinypaste.com/810CC4D6
+
+Infinite Health [Seth@WiiPlaza]
+012AAA68 00000001
+
+Infinite Armor [Seth@WiiPlaza]
+042A5A92 00000064
+
+Infinite Vitamim K [Seth@WiiPlaza]
+042A5A90 00000190
+
+Infinite Jet Pack [Seth@WiiPlaza]
+042A5A8E 00000640
+
+Infinite Scuba Gear [Seth@WiiPlaza]
+042A5A8C 00001900 [Seth@WiiPlaza]
+Infinite Grenades [Seth@WiiPlaza]
+042A5A07 000000FF
+
+Infinite SMG Ammo [Seth@WiiPlaza]
+042A5A05 000000FF
+
+Pistol Infinite Ammo [Seth@WiiPlaza]
+042A5A01 000000FF
+
+Infinite Expander Ammo [Seth@WiiPlaza]
+042A5A0D 000000FF
+
+Infinite Laser Trip Bomb Ammo [Seth@WiiPlaza]
+042A5A13 000000FF [Seth@WiiPlaza]
+Infinite Missiles
+042A5A0F 000000FF
+
+Infinite Pipe Bomb Ammo [Seth@WiiPlaza]
+042A5A09 000000FF
+
+Infinite Plasma Ammo [Seth@WiiPlaza]
+042A5A11 000000FF
+
+Infinite Shrinker Ammo [Seth@WiiPlaza]
+042A5A0B 000000FF
+
+Infinite Pipe Bombs/Shrinker [Seth@WiiPlaza]
+042A5ABE 01010101
+
+Infinite Plasma Cannon/Laser Trip Bombs [Seth@WiiPlaza]
+042A5AC2 01010101
+
+Infinite Grenades In Launcher [Seth@WiiPlaza]
+042A5ABC 01010101
+
+Epic JetPack [Seth@WiiPlaza]
+042A5A00 45614561
+
+Portable Medikit Always 100% [Seth@WiiPlaza]
+042A5A4A 00000064
+
+Protective Boots Always 100% [Seth@WiiPlaza]
+042A5AA2 000000C9
+
+Have All Keys [Seth@WiiPlaza]
+042A5A47 0000000F
+
+Night Vision Always 100% [Seth@WiiPlaza]
+042A5A5C 000004B9
+
+Holoduke Always 100% [Seth@WiiPlaza]
+042A5A2C 0000095A
+
+Give Plasma Cannon w/Infinite Ammo [Seth@WiiPlaza]
+042A5AC2 00000001 [Seth@WiiPlaza]
+042A5A11 000000FA
+
+Ninja Style [Seth@WiiPlaza]
+04247464 00000063
+
+Moon Jump [Seth@WiiPlaza]
+042A5A00 00000000 [Seth@WiiPlaza]
+E0000000 80008000 [Seth@WiiPlaza]
+042A5A00 FFFFFFFF
+E0000000 80008000
+
+*player has black arms/weapon
+
+Infinite Health Level 1 [Seth@WiiPlaza]
+04247463 000000FF

@@ -1,0 +1,24 @@
+RNYEDA
+Naruto Clash Of Ninja Revolution 2
+
+instant kill enimes Zit all credit to zit [12201]
+C207D0E0 00000004
+89FC0003 2C0F000F
+4182000C 907C0028
+48000008 90DC0028
+60000000 00000000
+warning cant be turned off and it may freze ur game i suggest just using the other codes inless ur desperate for mission mode use this
+
+If Skill Increase, MAX Zit all credit to zit [12201]
+C207DC2C 00000004
+8AFE0003 2C17000F
+4182000C 907E0044
+48000008 90DE0044
+60000000 00000000
+
+Infinite Skill Zit all credit to zit [12201]
+C207DE24 00000004
+89FF0003 2C0F000F
+4182000C 907F0044
+48000008 90DF0044
+60000000 00000000

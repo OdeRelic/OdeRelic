@@ -1,0 +1,46 @@
+FBJP
+Mighty Bomb Jack
+
+Invincible [Crapulecorp]
+2C3C0B4E 00000E00
+003C0B4E 0000000F
+E0000000 80008000
+*Code ported from ZiT Ntsc Usa Version*
+
+Infinite Lives [Crapulecorp]
+003C0B64 00000009
+
+Level Time Stop [Crapulecorp]
+003C0825 00000000
+*Code ported from ZiT Ntsc Usa Version*
+
+Infinite M Power [Crapulecorp]
+003C0B62 00000009
+003C0B61 00000028
+*Code ported from ZiT Ntsc Usa Version*
+
+Mighty Level [Crapulecorp]
+003C0B60 00000002
+*Code ported from ZiT Ntsc Usa Version*
+
+MoonJump [Crapulecorp]
+281EB152 FEFF0100
+023C0B66 0000000F
+E0000000 80008000
+*WiiMote*
+*Code ported from ZiT Ntsc Usa Version*
+
+MoonJump (Press X) [Crapulecorp]
+281EB1B2 FFF70008
+023C0B66 0000000F
+E0000000 80008000
+*Classic Controller*
+*Code ported from ZiT Ntsc Usa Version*
+
+Button Activator
+
+WiiMote [Crapulecorp]
+281EB152 YYYYZZZZ
+
+Classic Controller [Crapulecorp]
+281EB1B2 YYYYZZZZ

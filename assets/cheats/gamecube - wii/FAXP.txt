@@ -1,0 +1,10 @@
+FAXP
+Pac Man
+
+Unlimited Lives [Crapulecorp]
+003B56A7 0000000A
+
+Invincible [Crapulecorp]
+003B56C8 0000000F
+003B56C9 00000023
+*Code ported from ZiT Ntsc Jap Version*

@@ -1,0 +1,33 @@
+ROBE7U
+Obscure The Aftermath
+
+Health Regeneration [dcx2]
+040B76DC D0030320
+040B76EC 38600000
+This will automatically give you full health back once you're done stumbling.
+
+Infinite Ammo/No Reload [dcx2]
+041B14CC FC201090
+041C19C4 60000000
+Works for both shotgun and handgun
+
+infinite stun gun [dcx2]
+044B5750 00000000
+
+infinite health kits [dcx2]
+04176C28 60000000
+Note: this may have other unintended side effects. Please post back any that you find.
+
+Infinite Health Kits [farjo08]
+04B6F21E 0000270F
+
+Infinite Energy Drinks [farjo08]
+04B6F35E 0000270F
+
+Inifinite Ammo [farjo08]
+04B6F1FE 0000270F
+
+Infinite Syrum [farjo08]
+04B6F39E 0000270F
+
+The 0000270F can be changed to whatever you like (currently 9999) but whatever you make it will make those items infinite. For the Ammo, this is only for the hand gun and the reserve (not the clip). For some reason I was unable to find the actual ammo in the clip. I might look a bit more into this game, but please no requests. If you have any issues or problems let me know. I need to read up more on how to find floats (I assume this game is using floats for actual health) and how to use WiiRd to find them.

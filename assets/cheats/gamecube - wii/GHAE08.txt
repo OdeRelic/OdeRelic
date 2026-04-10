@@ -1,0 +1,202 @@
+GHAE08
+Resident Evil 2
+
+Infinite Health (CodeJunkies) [Codejunkies]
+00163F7F 000000FF
+
+All Files (CodeJunkies) [Codejunkies]
+04168D98 01020304
+04168D9C 05070809
+04168DA0 0A0B0C0D
+04168DA4 0E0F1011
+04168DA8 12131415
+04168DAC 1617FFFF
+
+Zero Saves (CodeJunkies) [Codejunkies]
+001688F5 00000000
+
+Infinite Items All Slots (CodeJunkies) [Codejunkies]
+00168C71 000000FF
+00168C75 000000FF
+00168C79 000000FF
+00168C7D 000000FF
+00168C81 000000FF
+00168C85 000000FF
+00168C89 000000FF
+00168C8D 000000FF
+
+HAVE ITEMS IN CRATE (CodeJunkies):
+
+Custom Hand Gun [Codejunkies]
+02168CA0 000004FF
+
+Custom Magnum [Codejunkies]
+02168CA4 000006FF
+
+Custom Shotgun [Codejunkies]
+02168CA8 000008FF
+
+Grenade Launcher [Codejunkies]
+02168CAC 000009FF
+
+Grenade Launcher(Flame) [Codejunkies]
+02168CB0 00000AFF
+
+Grenade Launcher(Yellow) [Codejunkies]
+02168CB4 00000BFF
+
+Bow Gun [Codejunkies]
+02168CB8 00000CFF
+
+Colt S.A.A. [Codejunkies]
+02168CBC 00000DFF
+
+Spark Shot [Codejunkies]
+02168CC0 00000EFF
+
+Sub-Machine Gun [Codejunkies]
+02168CC4 00000FFF
+
+Flamethrower [Codejunkies]
+02168CC8 000010FF
+
+Rocket Launcher [Codejunkies]
+02168CCC 000011FF
+
+Gatling Gun [Codejunkies]
+02168CD0 000012FF
+
+Ink Ribbons [Codejunkies]
+02168CD4 00001EFF
+
+Anti-Virus Bomb [Codejunkies]
+02168CDC 000024FF
+
+Full Lighter [Codejunkies]
+02168CE0 00002FFF
+
+Lockpick [Codejunkies]
+02168CE4 000030FF
+
+Valve Handle [Codejunkies]
+02168CE8 000032FF
+
+Red Jewel [Codejunkies]
+02168CEC 000033FF
+
+Red Card Key [Codejunkies]
+02168CF0 000034FF
+
+Blue Card Key [Codejunkies]
+02168CF4 000035FF
+
+Serpent Stone [Codejunkies]
+02168CF8 000036FF
+
+Jaguar Stone [Codejunkies]
+02168CFC 000037FF
+
+Blue Stone(1) [Codejunkies]
+02168D00 000038FF
+
+Blue Stone(2) [Codejunkies]
+02168D04 000039FF
+
+Eagle Stone [Codejunkies]
+02168D08 00003AFF
+
+Bishop Plug [Codejunkies]
+02168D0C 00003BFF
+
+Rook Plug [Codejunkies]
+02168D10 00003CFF
+
+Knight Plug [Codejunkies]
+02168D14 00003DFF
+
+King Plug [Codejunkies]
+02168D18 00003EFF
+
+W. Box Key [Codejunkies]
+02168D1C 00003FFF
+
+Bomb & Detonator [Codejunkies]
+02168D20 000042FF
+
+Crank [Codejunkies]
+02168D24 000043FF
+
+Unicorn Medal [Codejunkies]
+02168D28 000047FF
+
+Eagle Medal [Codejunkies]
+02168D2C 000048FF
+
+Wolf Medal [Codejunkies]
+02168D30 000049FF
+
+G. Cogwheel [Codejunkies]
+02168D34 00004AFF
+
+Manhole Opener [Codejunkies]
+02168D38 00004BFF
+
+Main Fuse [Codejunkies]
+02168D3C 00004CFF
+
+Fuse Case [Codejunkies]
+02168D40 00004DFF
+
+Base Vaccine [Codejunkies]
+02168D44 000051FF
+
+G-Virus [Codejunkies]
+02168D48 000052FF
+
+Special Key [Codejunkies]
+02168D4C 000053FF
+
+Joint S Plug [Codejunkies]
+02168D50 000054FF
+
+Joint N Plug [Codejunkies]
+02168D54 000055FF
+
+Cord [Codejunkies]
+02168D58 000056FF
+
+Cabin Key [Codejunkies]
+02168D5C 000058FF
+
+Precinct Key(Spade) [Codejunkies]
+02168D60 000059FF
+
+Precinct Key(Diamond) [Codejunkies]
+02168D64 00005AFF
+
+Precinct Key(Heart) [Codejunkies]
+02168D68 00005BFF
+
+Precinct Key(Clover) [Codejunkies]
+02168D6C 00005CFF
+
+C. Panel Key(1) [Codejunkies]
+02168D70 00005DFF
+
+C. Panel Key(2) [Codejunkies]
+02168D74 00005EFF
+
+P. Room Key [Codejunkies]
+02168D78 00005FFF
+
+M.O. Disk [Codejunkies]
+02168D7C 000060FF
+
+Leb Card Key [Codejunkies]
+02168D80 000061FF
+
+Master Key [Codejunkies]
+02168D84 000062FF
+
+Platform Key [Codejunkies]
+02168D88 000063FF

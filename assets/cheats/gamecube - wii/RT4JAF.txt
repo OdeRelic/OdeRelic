@@ -1,0 +1,800 @@
+RT4JAF
+Tales of Symphonia Knight of Ratatosk
+
+Gardo MAX [xtatu]
+42000000 80000000
+04444408 3B9AC9FF
+E0000000 80008000
+
+Maximum number of possession of 99 items [xtatu]
+42000000 80000000
+0045515F 00000063
+E0000000 80008000
+Will be reflected in the saved
+
+Save anywhere [xtatu]
+42000000 80000000
+0401D474 4800000C
+E0000000 80008000
+Even if the character is dark save
+Put on your screen save
+
+TP unbated [xtatu]
+42000000 80000000
+041D79F0 60000000
+04057BC4 60000000
+E0000000 80008000
+
+SP lifting restrictions [xtatu]
+42000000 80000000
+04050CD0 380003E7
+04050D80 380003E7
+E0000000 80008000
+SP can be set regardless of the skills
+If you use more than the maximum code SP OFF&#22806;SENAKU skills so that the state
+If the code is ON&#22806;SHITAI please take off in the state saves
+
+X times the value obtained through [xtatu]
+42000000 80000000
+041E335C 4800003C
+041E339C 1C63000A
+E0000000 80008000
+The default is 10 times
+The bottom three lines of data like four-digit decimal number 16, please change the
+2710 (10000) times have been confirmed
+Since the effect of using the experience acquired in the Grade Award
+Not duplicate
+
+GALD MAX [YCAT21]
+04444408 3B9AC9FF
+
+Recipe All [YCAT21]
+0245569E 00007FFF
+
+Monster directory [YCAT21]
+084551B0 00000007
+013B0001 00000000
+
+Items All 5(No Key Items) [YCAT21]
+42000000 80000000
+00455774 00000005
+08455741 00000005
+00090001 00000000
+0845574C 00000005
+00240001 00000000
+08455776 00000005
+00270001 00000000
+084557D6 00000005
+01840001 00000000
+0845595E 00000005
+002F0001 00000000
+08455990 00000005
+00090001 00000000
+E0000000 80008000
+
+Infinite Item [YCAT21]
+0404AE0C 60000000
+
+TPMAX (Battle) [YCAT21]
+021D79F0 0000B3E3
+
+Unison GaugeMAX(変動で) [YCAT21]
+42000000 80000000
+04228014 C022CFA8
+E0000000 80008000
+
+UnknownMode [YCAT21]
+42000000 80000000
+004553C0 00000003
+E0000000 80008000
+
+6StarClear UnknownMode to use [YCAT21]
+42000000 80000000
+0045515D 00000006
+00475D54 00000004
+E0000000 80008000
+
+Acquisition EXP*2 [YCAT21]
+04003250 577B083C
+04003254 7C64DA14
+04003258 4809B960
+0409EBB4 4BF6469C
+
+Acquisition EXP*4 [YCAT21]
+04003250 577B103A
+04003254 7C64DA14
+04003258 4809B960
+0409EBB4 4BF6469C
+
+Acquisition EXP*8 [YCAT21]
+04003250 577B1838
+04003254 7C64DA14
+04003258 4809B960
+0409EBB4 4BF6469C
+
+Acquisition EXP*16 [YCAT21]
+04003250 577B2036
+04003254 7C64DA14
+04003258 4809B960
+0409EBB4 4BF6469C
+
+Acquisition EXP*32 [YCAT21]
+04003250 577B2834
+04003254 7C64DA14
+04003258 4809B960
+0409EBB4 4BF6469C
+
+marta File Swaps
+
+Alice [YCAT21]
+057A012C 0540B22D
+057A0130 001D0900
+057A29A0 089470E4
+057A29A4 000458BF
+057A29AC 08958714
+057A29B0 00000468
+
+collet [YCAT21]
+057A012C 04C398FD
+057A0130 001D1400
+057A29A0 0016180A
+057A29A4 00058F0B
+057A29AC 00177BCD
+057A29B0 000004EC
+
+presea [YCAT21]
+057A012C 04FFA675
+057A0130 00196800
+057A29A0 001AB97A
+057A29A4 0003A419
+057A29AC 001BA281
+057A29B0 000003A0
+
+refill [YCAT21]
+057A012C 05067755
+057A0130 00137600
+057A29A0 0018BADB
+057A29A4 00041B41
+057A29AC 0019C1AC
+057A29B0 000004F8
+
+shiina [YCAT21]
+057A012C 0523B785
+057A0130 0017B500
+057A29A0 001BA369
+057A29A4 00043C6B
+057A29AC 001CB284
+057A29B0 00000150
+
+Character File Swaps
+
+emil(no fights) [YCAT21]
+42000000 80000000
+057A1DAC wwwwwwww
+057A1DB0 xxxxxxxx
+057A1DB8 yyyyyyyy
+057A1DBC zzzzzzzz
+E0000000 80008000
+
+marta [YCAT21]
+42000000 80000000
+057A012C uuuuuuuu
+057A0130 vvvvvvvv
+057A29A0 wwwwwwww
+057A29A4 xxxxxxxx
+057A29AC yyyyyyyy
+057A29B0 zzzzzzzz
+E0000000 80008000
+
+loyd [YCAT21]
+42000000 80000000
+057A00D8 uuuuuuuu
+057A00DC vvvvvvvv
+057A2970 wwwwwwww
+057A2974 xxxxxxxx
+057A297C yyyyyyyy
+057A2980 zzzzzzzz
+E0000000 80008000
+
+collet [YCAT21]
+42000000 80000000
+0579FF1C uuuuuuuu
+0579FF20 vvvvvvvv
+057A1BC0 wwwwwwww
+057A1BC4 xxxxxxxx
+057A1BCC yyyyyyyy
+057A1BD0 zzzzzzzz
+E0000000 80008000
+
+genius [YCAT21]
+42000000 80000000
+057A0084 uuuuuuuu
+057A0088 vvvvvvvv
+057A22E0 wwwwwwww
+057A22E4 xxxxxxxx
+057A22EC yyyyyyyy
+057A22F0 zzzzzzzz
+E0000000 80008000
+
+refill [YCAT21]
+42000000 80000000
+057A0204 uuuuuuuu
+057A0208 vvvvvvvv
+057A3870 wwwwwwww
+057A3874 xxxxxxxx
+057A387C yyyyyyyy
+057A3880 zzzzzzzz
+E0000000 80008000
+
+shiina [YCAT21]
+42000000 80000000
+057A0354 uuuuuuuu
+057A0358 vvvvvvvv
+057A38C4 wwwwwwww
+057A38C8 xxxxxxxx
+057A38D0 yyyyyyyy
+057A38D4 zzzzzzzz
+E0000000 80008000
+
+zelos [YCAT21]
+42000000 80000000
+057A03A8 uuuuuuuu
+057A03AC vvvvvvvv
+057A3954 wwwwwwww
+057A3958 xxxxxxxx
+057A3960 yyyyyyyy
+057A3964 zzzzzzzz
+E0000000 80008000
+
+presea [YCAT21]
+42000000 80000000
+057A01B0 uuuuuuuu
+057A01B4 vvvvvvvv
+057A3858 wwwwwwww
+057A385C xxxxxxxx
+057A3864 yyyyyyyy
+057A3868 zzzzzzzz
+E0000000 80008000
+
+regal [YCAT21]
+42000000 80000000
+057A0258 uuuuuuuu
+057A025C vvvvvvvv
+057A0264 uuuuuuuu
+057A0268 vvvvvvvv
+057A3888 wwwwwwww
+057A388C xxxxxxxx
+057A3894 yyyyyyyy
+057A3898 zzzzzzzz
+E0000000 80008000
+
+data richter [YCAT21]
+uuuuuuuu=051B0DDD
+vvvvvvvv=00205CA0
+wwwwwwww=001ECB6A
+xxxxxxxx=0004EAC2
+yyyyyyyy=001EC9A7
+zzzzzzzz=0000070C
+
+data Alice [YCAT21]
+uuuuuuuu=0540B22D
+vvvvvvvv=001D0900
+wwwwwwww=089470E4
+xxxxxxxx=000458BF
+yyyyyyyy=08958714
+zzzzzzzz=00000468
+
+data dex [YCAT21]
+uuuuuuuu=069596BD
+vvvvvvvv=002356C0
+wwwwwwww=0899C834
+xxxxxxxx=0005BFD7
+yyyyyyyy=089B382A
+zzzzzzzz=00000150
+
+data loyd [YCAT21]
+uuuuuuuu=04F09D7D
+vvvvvvvv=00181A60
+wwwwwwww=001524C4
+xxxxxxxx=0003CCEE
+yyyyyyyy=00161800
+zzzzzzzz=00000028
+
+data aqa [YCAT21]
+wwwwwwww=0895882E
+xxxxxxxx=00043B4D
+yyyyyyyy=08969702
+zzzzzzzz=00000228
+
+data yua [YCAT21]
+wwwwwwww=08D5EFBA
+xxxxxxxx=00018C47
+yyyyyyyy=08D652CC
+zzzzzzzz=0000065C
+
+Party Character Modifier
+
+Party Member1 [YCAT21]
+044550D4 xxxxyyyy
+
+Party Member2 [YCAT21]
+004550DB 0000000y
+044550DC xxxxyyyy
+
+Party Member3 [YCAT21]
+004550E3 0000000y
+044550E4 xxxxyyyy
+
+Party Member4 [YCAT21]
+004550EB 0000000y
+044550EC xxxxyyyy
+
+Party Member5 [YCAT21]
+044550F3 0000000y
+044550F4 xxxxyyyy
+
+Party Member6 [YCAT21]
+044550FB 0000000y
+044550FC xxxxyyyy
+
+Party Member7 [YCAT21]
+04455103 0000000y
+04455104 xxxxyyyy
+
+Party Member8 [YCAT21]
+0445510B 0000000y
+0445510C xxxxyyyy
+
+Party Member9 [YCAT21]
+04455113 0000000y
+04455114 xxxxyyyy
+
+Party Member10 [YCAT21]
+0445511B 0000000y
+0445511C xxxxyyyy
+
+xxxxyyyy
+
+00000001　loyd [YCAT21]
+00010002　collet
+00020003　genius
+00030004　refill
+00040005　shiina
+00050006　zelos [YCAT21]
+00060007　presea
+00070008　regal
+00080009　emil
+0009000A　marta
+000A000B　richter
+Chara y=0
+Monster y=1
+
+Monster Modifier
+
+xxxxyyyy
+xxxx
+ここはモンスターデータの格納場所で
+捕獲順で1体目000Bから始まり以後+1h
+yyyy
+Monster No.
+
+Monster List
+
+0001 プチプリ
+0002 セルレア
+0003 オークロット
+0004 デナイド
+0005 トレント
+0006 マンドセロ
+0007 メイヘム
+0008 ファンガー
+0009 マイコニド
+000A シュリーカー
+000B トードストール
+000C ヴォーデヴィル
+000D ジョンドウ
+000E エセリアナ
+000F グラシリス
+0010 シャロウグレイヴ
+0011 ヒルスタ
+0012 トランカータ
+0013 デリリアス
+0014 マンドラゴラ
+0015 アルラウネ
+0016 コリガン
+0017 ハマドライアド
+0018 パック
+0019 ライラ
+001A ピュアノブシオン
+001B ガメリオン
+001C なし
+001D なし
+001E なし
+001F ウルフ
+0020 ブラックウルフ
+0021 ヘルハウンド
+0022 パッドフット
+0023 レイシー
+0024 フェンリル
+0025 ケルベロス
+0026 オライアン
+0027 ベア
+0028 グリズリー
+0029 ケイプベア
+002A ルクレチア
+002B なし
+002C ウェアベア
+002D ウルフヘジン
+002E ガルフビースト
+002F ワイルドラビット
+0030 コットンテイル
+0031 カーバンクル
+0032 ヴォーパルバニー
+0033 ミカーサ
+0034 エルシー
+0035 ピアレイ
+0036 グーナ
+0037 オーガ
+0038 レッドオーガ
+0039 イエティ
+003A ホーンティング
+003B フィルボルグ
+003C リダンダント
+003D サーペント
+003E なし
+003F ヴァイパー
+0040 コッシュ
+0041 リザード
+0042 なし
+0043 バジリスク
+0044 サラマンダー
+0045 キマイラ
+0046 にんねこ
+0047 マンティコア
+0048 スフィンクス
+0049 グリフォン
+004A ベルウィルリング
+004B テイリー
+004C エラベボリオン
+004D なし
+004E なし
+004F なし
+0050 バンブルビー
+0051 キラービー
+0052 なし
+0053 ホーネット
+0054 なし
+0055 ヴォイシズ
+0056 スコーピオン
+0057 アンタレス
+0058 ギルタプリル
+0059 キラーマンティス
+005A ランバージャック
+005B ポップシクル
+005C クロウラー
+005D キャタピラー
+005E エンブリオ
+005F ハベトロット
+0060 ニューロティカ
+0061 ルーキン
+0062 ストーンイーター
+0063 ロックイーター
+0064 アイランドワーム
+0065 アースイーター
+0066 ミアカルパ
+0067 マニトウ
+0068 スパイダー
+0069 タランチュラ
+006A ピットスパイダー
+006B なし
+006C アラクネ
+006D シモライア
+006E アンテステリオン
+006F なし
+0070 なし
+0071 なし
+0072 なし
+0073 チュンチュン
+0074 ジャブジャブ
+0075 ピヨピヨ
+0076 レイヴン
+0077 フェニックス
+0078 イズィンブラ
+0079 インセイン
+007A シムルグ
+007B アックスビーク
+007C エビオルニス
+007D ドードー
+007E コカトリス
+007F なし
+0080 ムーンロックス
+0081 ロック
+0082 ハーピー
+0083 フリアイ
+0084 セイレーン
+0085 なし
+0086 ネヴァーザレス
+0087 フェニア
+0088 ブラックバット
+0089 スティージ
+008A ウェアバット
+008B なし
+008C ダイアーバット
+008D ドグマ
+008E タルゲリオン
+008F マイマクテリオン
+0090 なし
+0091 なし
+0092 なし
+0093 トータス
+0094 アーケロン
+0095 メガリス
+0096 ダークスティール
+0097 ザラタン
+0098 ソリテアー
+0099 シーモンク
+009A クラーケン
+009B シービショップ
+009C カリュプディス
+009D アロガンス
+009E キラーフィッシュ
+009F レモラ
+00A0 エケネイス
+00A1 ヒプノタイズ
+00A2 シーホッグ
+00A3 オルカ
+00A4 ジャスコニアス
+00A5 メロー
+00A6 ニクシー
+00A7 セルキー
+00A8 ネレイス
+00A9 アスレイ
+00AA レクイエム
+00AB フリーチャー
+00AC オタオタ
+00AD グリンデロー
+00AE ゲコゲコ
+00AF オアンネス
+00B0 バエル
+00B1 デイトリッパー
+00B2 ノストロピア
+00B3 メタゲイトニオン
+00B4 ポシデイオン
+00B5 なし
+00B6 なし
+00B7 スライム
+00B8 ムース
+00B9 ジェリー
+00BA ウーズ
+00BB プリン
+00BC スライムモールド
+00BD ムニュキオン
+00BE なし
+00BF なし
+00CO リジイア
+00C1 リーチ
+00C2 ポイズンリーチ
+00C3 ヘカトンバイオン
+00C4 リーチキング
+00C5 ブラッドサッカー
+00C6 ブラッドバウンド
+00C7 ストローバー
+00C8 アネモネ
+00C9 なし
+00CA ラナンティシー
+00CB ブルーローズ
+00CC インコグニート
+00CD なし
+00CE なし
+00CF なし
+00D0 なし
+00D1 インプ
+00D2 ビットフィーンド
+00D3 カコデーモン
+00D4 バイドパイパー
+00D5 グレムリン
+00D6 デーモン
+00D7 アークデーモン
+00D8 ヴルーム
+00D9 コーデュロイ
+00DA ラミア
+00DB グライアイ
+00DC エリニュス
+00DD ゴルゴン
+00DE エキドナ
+00DF モイライ
+00E0 ルビーディア
+00E1 スキロボリオン
+00E2 なし
+00E3 なし
+00E4 なし
+00E5 ファイアドレイク
+00E6 ワイバーン
+00E7 シーワイバーン
+00E8 ワイバーンロード
+00E9 ヴィーヴル
+00EA イシュラント
+00EB ラグナサンライズ
+00EC ウェアドラゴン
+00ED エルダードラゴン
+00EE ティアマット
+00EF ブレイドレックス
+00F0 スキゾス
+00F1 シャドウドラゴン
+00F2 ウィルム
+00F3 ファフニール
+00F4 ミドガルズオルム
+00F5 ハイドラ
+00F6 ディジーズ
+00F7 なし
+00F8 なし
+00F9 なし
+00FA ゾンビ
+00FB コープス
+00FC グール
+00FD スケルトン
+00FE クロスボーン
+00FF なし
+0100 なし
+0101 パスティアージ
+0102 デュラハン
+0103 ナイトストーカー
+0104 クルセイダー
+0105 ダークライダー
+0106 ペイルライダー
+0107 ソードダンサー
+0108 ゴースト
+0109 ホーント
+010A バンシー
+010B ファントム
+010C レイス
+010D アンダーテイカー
+010E グレイブティガー
+010F レヴォナス
+0110 ボエドロミオン
+0111 なし
+0112 なし
+0113 なし
+0114 クレイゴーレム
+0115 ゴーレム
+0116 ロックゴーレム
+0117 ミスリルゴーレム
+0118 タロス
+0119 アイスタイタン
+011A ヘリオン
+011B ポルターガイスト
+011C リビングソード
+011D なし
+011E マキーナ
+011F モーンブレイド
+0120 メイドインヘブン
+0121 オートマトン
+0122 コロッサス
+0123 ゴリアテ
+0124 ガーゴイル
+0125 なし
+0126 エピタフ
+0127 ミミック
+0128 なし
+0129 なし
+012A パンドラ
+012B シェイプシフター
+012C ジョーブレイカー
+012D イグナイター
+012E なし
+012F マズラー
+0130 なし
+0131 エンフォーサー
+0132 なし
+0133 リパレーター
+0134 なし
+0135 シンカー
+0136 なし
+0137 パニッシャー
+0138 ヴォーテックス
+0139 パーガー
+013A なし
+013B アウェイクナー
+013C ツアトグ・ブライム
+--------------------------------------------------------------------------
+
+GALD MAX [ZiT]
+04444408 05F5E0FF
+
+EMIL
+
+STATUS [ZiT]
+00444C84 000000YY
+YY=00:NORMAL
+
+LEVEL MAX [ZiT]
+00444C88 000000FF
+
+TITLE ALL [ZiT]
+04444C8C 05F5E0FF
+
+HP(NOW) MAX [ZiT]
+02444C90 0000270F
+
+HP(MAX) MAX [ZiT]
+02444C94 0000270F
+
+TP(NOW) MAX [ZiT]
+02444C96 000003E7
+
+TP(MAX) MAX [ZiT]
+02444C9A 000003E7
+
+POWER MAX [ZiT]
+02444C9C 0000270F
+
+DEFENSE MAX [ZiT]
+02444C9E 0000270F
+
+SKILL POWER MAX [ZiT]
+02444CA0 0000270F
+
+SKILL DEFENSE MAX [ZiT]
+02444CA2 0000270F
+
+SKILLFUL MAX [ZiT]
+02444CA4 0000270F
+
+LUCK MAX [ZiT]
+02444CA6 0000270F
+
+*WEPON ITEM [ZiT]
+02444CB4 0000YYYY
+
+*BODY ITEM [ZiT]
+02444CB6 0000YYYY
+
+*HEAD ITEM [ZiT]
+02444CB8 0000YYYY
+
+*ARM ITEM [ZiT]
+02444CBA 0000YYYY
+
+*Others1 ITEM [ZiT]
+02444CBC 0000YYYY
+
+*Others2 ITEM [ZiT]
+02444CBE 0000YYYY
+
+SP MAX [ZiT]
+02444CC0 0000270F
+
+SKILL1 MAX [ZiT]
+04444CC4 010FFFFF
+
+SKILL2 MAX [ZiT]
+04444CE4 0BFFFFFE
+
+EQUIPMENT SCREEN
+
+HP MAX [ZiT]
+02444C92 0000270F
+
+TP MAX [ZiT]
+02444C98 000003E7
+
+POWER MAX [ZiT]
+02444CA8 0000270F
+
+DEFENSE MAX [ZiT]
+02444CAA 0000270F
+
+SKILL POWER MAX [ZiT]
+02444CAC 0000270F
+
+SKILL DEFENSE MAX [ZiT]
+02444CAE 0000270F
+
+SKILLFUL MAX [ZiT]
+02444CB0 0000270F
+
+LUCK MAX [ZiT]
+02444CB2 0000270F
+
+NEXT CHARACTER +DC
+YYYY=ITEM CODE

@@ -1,0 +1,35 @@
+JASW
+Super Mario All Stars Plus Super Mario World (Inject)
+
+Use only 1 Moon Jump at once or the game will glitch! [Mathew_Wi]
+00000000 00000000
+
+Super Mario World
+
+Moon Jump (B) (GC Controller) [Mathew_Wi]
+28197358 FDFF0200
+0449CB24 00D18000
+E0000000 80008000
+
+Super Mario Bros 1 & Lost Levels
+
+Moon Jump (B) (GC Controller) [Mathew_Wi]
+28197358 FDFF0200
+0449CB48 FC000000
+E0000000 80008000
+
+Super Mario Bros 2
+
+Moon Jump (B) (GC Controller) [Mathew_Wi]
+28197358 FDFF0200
+0449CAEC 0000D400
+E0000000 80008000
+
+Super Mario Bros 3
+
+Moon Jump (B) (GC Controller) [Mathew_Wi]
+28197358 FDFF0200
+0449CB44 00D30000
+E0000000 80008000
+
+Only use ONE Moon Jump at a time or the game will glitch!

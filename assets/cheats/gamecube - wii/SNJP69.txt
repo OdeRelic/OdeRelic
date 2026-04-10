@@ -1,0 +1,60 @@
+SNJP69
+NBA Jam
+
+Time Stop (Hold - And Press B ON/OFF) [Crapulecorp]
+281ADCC0 00001400
+04521C84 60000000
+CC000000 00000000
+04521C84 D01D0040
+E0000000 80008000
+*Same Adress From ZiT's Ntsc Usa Version*
+
+Quick Time Over (Hold - And Press B ON/OFF) [Crapulecorp]
+281ADCC0 00001400
+04521C84 D21D0040
+CC000000 00000000
+04521C84 D01D0040
+E0000000 80008000
+*Same Adress From ZiT's Ntsc Usa Version*
+
+5 Mins Per Quarter Instead Of 3 Mins [Crapulecorp]
+42000000 92000000
+2019CC70 40400000
+0419CC70 40A00000
+E0000000 80008000
+*Same Adress From g6flavor's Ntsc Usa Version*
+
+Score 999-000 (Hold 1 And Press B) [Crapulecorp]
+281ADCC0 00000600
+42000000 92000000
+0426BCE4 000003E7
+0426BCE8 00000000
+E0000000 80008000
+*Please Push The Button After Doing The Play Ball*
+*Same Adress From ZiT's Ntsc Usa Version*
+
+Score 000-999 (Hold 2 And Press B) [Crapulecorp]
+281ADCC0 00000500
+42000000 92000000
+0426BCE4 00000000
+0426BCE8 000003E7
+E0000000 80008000
+*Please Push The Button After Doing The Play Ball*
+*Same Adress From ZiT's Ntsc Usa Version*
+
+Unlimited Turbo [Crapulecorp]
+42000000 92000000
+0419CC90 FFFFFFFF
+E0000000 80008000
+*Same Adress From g6flavor's Ntsc Usa Version*
+
+Mini Mode (Hold - And Press A ON/OFF) [Crapulecorp]
+281ADCC0 E7FF1800
+42000000 92000000
+0419CFD0 00000001
+E0000000 80008000
+CC000000 00000000
+42000000 92000000
+0419CFD0 00000000
+E0000000 80008000
+*Same Adress From g6flavor's Ntsc Usa Version*

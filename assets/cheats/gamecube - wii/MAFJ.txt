@@ -1,0 +1,27 @@
+MAFJ
+Gunstar Heroes
+
+Infinite Life [ZiT]
+02E7FB44 000003E7
+
+Invincible [ZiT]
+00E7FB9D 0000000B
+
+Moon Jump [ZiT]
+281DCA9A FEFF0100
+02E7FB3C 0000FFFC
+E0000000 80008000
+
+1st Weapon [ZiT]
+00E7FB8F 000000xx
+
+2nd Weapon [ZiT]
+00E7FB91 000000xx
+
+Weapon Value
+
+xx= Weapon
+04 = Force
+08 = Lightning
+0C = Chaser
+10 = Fire

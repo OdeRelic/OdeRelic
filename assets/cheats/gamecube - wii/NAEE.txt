@@ -1,0 +1,538 @@
+NAEE
+Paper Mario 64
+
+Have all Badges v2 [goemon_guy]
+09325264 000000E0
+10620002 00000001
+Less stable than the other one.
+This gives more glitch badges, but takes less code lines.
+
+Have all Badges [goemon_guy]
+07325264 000000C4
+00E000E1 00E200E3
+00E400E5 00E600E7
+00E800E9 00EB00EC
+00ED00EE 00EF00F1
+00F200F3 00F400F5
+00F700F8 00F900FA
+00FB00FC 00FD00FE
+00FF0100 01020103
+01040105 01060107
+01080109 010A010B
+010C010D 01110112
+01130114 011A011B
+011C011D 011E011F
+01200121 01230124
+01260127 01280129
+012B012E 012F0130
+01320133 01340135
+01360137 01380139
+013A013B 013C013D
+013E013F 01400141
+01420143 01440145
+01460147 01480149
+014A014B 014C014D
+014E014F 01510152
+01530000 00000000
+E0000000 80008000
+Gives SOME glitch badges.
+
+Have Goobario [GMO]
+013251CC 00000001
+
+Have Kooper [GMO]
+013251D4 00000001
+
+Have Bombette [GMO]
+013251DC 00000001
+
+Have Parakarry [GMO]
+013251E4 00000001
+
+Alt Moon Jump (A) (GC Controller) [Mathew_Wi]
+28A9BCE0 00000100
+05324F58 4128F1FE
+05324F5C C02F82D4
+05324F60 BE9B2AB0
+05324FA8 00100000
+E0000000 80008000
+Ported from Japanese version.
+
+Moon Jump (A) (GC Controller) [matt123337]
+28A9BCE0 00000100
+05324F64 3C3CBE62
+E0000000 80008000
+
+Infinite Star Power [matt123337]
+01325440 00000007
+
+Mario is Level 99 [matt123337]
+013251B9 00000063
+
+kill an enemy to level up [matt123337]
+013251C0 00000064
+do not use if you have 50Hp, 50FP and 30BP!!
+
+Infinite FP [matt123337]
+033251B5 00006363
+
+999 coins [matt123337]
+033251BC 000003E7
+
+99 BP [matt123337]
+013251B8 00000063
+
+120 star Pieces [matt123337]
+013251BF 00000078
+
+Infinite HP [matt123337]
+033251B2 00006363
+Fixed so it works correctly
+
+Partner is always XX [matt123337]
+013251C2 000000XX
+XX Values:
+00 - None (Cause crash?)
+01 - Goombario
+02 - Kooper
+03 - Bombette
+04- Parakarry
+05 - Goombario's Grandfather
+06 - Watt
+07 - Sushie
+08 - Lakilester
+09 - Lady Bow
+0A - Goombario's Sister
+0B - Twink
+Walk through a door on save load to take effect
+
+Move Mod (L While selecting attack) [matt123337]
+28A9BCE0 00000040
+032F210C 0000XXXX
+E0000000 80008000
+This code Makes it so whatever move you select, no matter what preforms the move specified (IDs Below!)
+Please Note:If you are doing a hammer attack, select an attack from the hammer menu!
+
+Badge IDs
+
+Credit to GS central for IDs
+000 - Nothing
+001 - Jump
+002 - Spin Jump
+003 - Tornado Jump
+004 - Hammer
+005 - Super Hammer
+006 - Ultra Hammer
+007 - Lucky Star
+008 - ?
+009 - ?
+00A - First Degree Card
+00B - Second Degree Card
+00C - Third Degree Card
+00D - Fourth Degree Card
+00E - Diploma
+00F - Ultra Stone
+010 - Fortress Key
+011 - Ruins Key
+012 - Pulse Stone
+013 - Castle Key
+014 - Palace Key
+015 - Lunar Stone
+016 - Pyramid Stone
+017 - Diamond Stone
+018 - Golden Jar
+019 - Kooper's Shell
+01A - Castle Key
+01B - ?
+01C - Weight
+01D - Boo's Portrait
+01E - Crystal Berry
+01F - Mystical Key
+020 - Storeroom Key
+021 - Toy Train
+022 - Record
+023 - Frying Pan
+024 - Dictonary
+025 - Mystery Note
+026 - ?
+027 - Crystal Ball
+028 - ?
+029 - Cook Book
+02A - Jade Raven
+02B - Magical Seed (Red)
+02C - Magical Seed (Blue)
+02D - Magical Seed (Green)
+02E - Magical Seed (Brown-Orange)
+02F - ?
+030 - Calculator
+031 - Bucket
+032 - Scarf
+033 - Red Key
+034 - Blue Key
+035 - ?
+036 - Letter
+037 - Letter
+038 - Letter
+039 - Letter
+03A - Letter
+03B - Letter
+03C - Letter
+03D - Letter
+03E - Letter
+03F - ?
+040 - Letter
+041 - Letter
+042 - ?
+043 - ?
+044 - ?
+045 - Letter
+046 - Letter
+047 - Letter
+048 - Letter
+049 - Letter
+04A - Letter
+04B - Letter
+04C - Letter
+04D - ?
+04E - Letter
+04F - Letter
+050 - Letter
+051 - Letter
+052 - Letter
+053 - Artifact
+054 - Letter
+055 - ?
+056 - Dolly
+057 - Water Stone
+058 - Magical Bean
+059 - Fertile Soil
+05A - Miracle Water
+05B - Volcano Vase
+05C - Tape
+05D - Sugar
+05E - Salt
+05F - Egg
+060 - Cream
+061 - Strawberry
+062 - Buter
+063 - Cleanser
+064 - Water
+065 - Flour
+066 - Milk
+067 - Lyrics
+068 - Melody
+069 - Mailbag
+06A - Castle Key
+06B - Odd Key
+06C - Star Stone
+06D - Sneak Parasol
+06E - Koopa Legends
+06F - Autograph
+070 - Empty Wallet
+071 - Autograph
+072 - ?
+073 - Old Photo
+074 - Glasses
+075 - ?
+076 - Package
+077 - Red Jar
+078 - Castle Key
+079 - Warehouse Key
+07A - Prison Key
+07B - Silver Credit
+07C - Gold Credit
+07D - Prison Key
+07E - Prison Key
+07F - Prison Key
+080 - Fire Flower
+081 - Snowman Doll
+082 - Thunder Rage
+083 - Shooting Star
+084 - Thunder Bolt
+085 - Pebble
+086 - Dusty Hammer
+087 - ?
+088 - Stone Cap
+089 - Tasty Tonic
+08A - Mushroom
+08B - Volt Shroom
+08C - Super Shroom
+08D - Dried Shroom
+08E - Ultra Shroom
+08F - Sleep Sheep
+090 - POW Block
+091 - ?
+092 - Stop Watch
+093 - Whacka's Bump
+094 - Apple
+095 - Life Shroom
+096 - Mystery?
+097 - Repel Gel
+098 - Fright Jar
+099 - ?
+09A - Dizzy Dial
+09B - Super Soda
+09C - Lemon
+09D - Lime
+09E - Blue Berry
+09F - Red Berry
+0A0 - Yellow Berry
+0A1 - Bubble Berry
+0A2 - Jammin' Jelly
+0A3 - Maple Syrup
+0A4 - Honey Syrup
+0A5 - Goomnut
+0A6 - Koopa Leaf
+0A7 - Dried Pasta
+0A8 - Dried Fruit
+0A9 - Strange Leaf
+0AA - Cake Mix
+0AB - Egg
+0AC - Coconut
+0AD - Melon
+0AE - Stinky Herb
+0AF - Iced Potato
+0B0 - Spicy Soup
+0B1 - Apple Pie
+0B2 - Honey Ultra
+0B3 - Maple Ultra
+0B4 - Jelly Ultra
+0B5 - KooPasta
+0B6 - Fried Shroom
+0B7 - Shroom Cake
+0B8 - Shroom Steak
+0B9 - Hot Shroom
+0BA - Sweet Shroom
+0BB - Yummy Meal
+0BC - Healthy Juice
+0BD - Bland Meal
+0BE - Deluxe Feast
+0BF - Special Shake
+0C0 - Big Cookie
+0C1 - Cake
+0C2 - Mistake
+0C3 - Koopa Tea
+0C4 - Honey Super
+0C5 - Maple Super
+0C6 - Jelly Super
+0C7 - Spaghetti
+0C8 - Egg Missile
+0C9 - Fried Egg
+0CA - Honey Shroom
+0CB - Honey Candy
+0CC - Electro Pop
+0CD - Fire Pop
+0CE - Lime Candy
+0CF - Coco Pop
+0D0 - Lemon Candy
+0D1 - Jelly Pop
+0D2 - Strange Cake
+0D3 - Kooky Cookie
+0D4 - Frozen Fries
+0D5 - Potato Salad
+0D6 - Nutty Cake
+0D7 - Maple Shroom
+0D8 - Boiled Egg
+0D9 - Yoshi Cookie
+0DA - Jelly Shroom
+0DB - Jelly Shroom
+0DC - Jelly Shroom
+0DD - Jelly Shroom
+0DE - Jelly Shroom
+0DF - Jelly Shroom
+0E0 - Spin Smash
+0E1 - Multibounce
+0E2 - Power Plus
+0E3 - Dodge Master
+0E4 - Power Bounce
+0E5 - Spike Shield
+0E6 - First Attack
+0E7 - HP Plus
+0E8 - Quake Hammer
+0E9 - Double Dip
+0EA - ?
+0EB - Sleep Stomp
+0EC - Fire Shield
+0ED - Quick Change
+0EE - D-Down Pound
+0EF - Dizzy Stomp
+0F0 - ?
+0F1 - Pretty Lucky
+0F2 - Feeling Fine
+0F3 - Attack FX A
+0F4 - All Or Nothing
+0F5 - HP Drain
+0F6 - ?
+0F7 - Slow Go
+0F8 - FP Plus
+0F9 - Mega Rush
+0FA - Ice Power
+0FB - Defend Plus
+0FC - Pay-Off
+0FD - Money Money
+0FE - Chill Out
+0FF - Happy Heart
+100 - Zap Tap
+101 - ?
+102 - Right On!
+103 - Runaway Pay
+104 - Refund
+105 - Flower Saver
+106 - Triple Dip
+107 - Hammer Throw
+108 - Mega Quake
+109 - Smash Charge
+10A - Jump Charge
+10B - S. Smash Chg.
+10C - S. Jump Chg.
+10D - Power Rush
+10E - ?
+10F - ?
+110 - ?
+111 - Last Stand
+112 - Close Call
+113 - P-Up, D-Down
+114 - Lucky Day
+115 - ?
+116 - P-Down, D-Up
+117 - Power Quake
+118 - ?
+119 - ?
+11A - Heart Finder
+11B - Flower Finder
+11C - Spin Attack
+11D - Dizzy Attack
+11E - I Spy
+11F - Speedy Spin
+120 - Bump Attack
+121 - Power Jump
+122 - ?
+123 - Mega Jump
+124 - Power Smash
+125 - ?
+126 - Mega Smash
+127 - Power Smash
+128 - Power Smash
+129 - Deep Focus
+12A - ?
+12B - Shrink Smash
+12C - ?
+12D - ?
+12E - D-Down Jump
+12F - Shrink Stomp
+130 - Damage Dodge
+131 - ?
+132 - Deep Focus
+133 - Deep Focus
+134 - HP Plus
+135 - FP Plus
+136 - Happy Heart
+137 - Happy Heart
+138 - Flower Saver
+139 - Flower Saver
+13A - Damage Dodge
+13B - Damage Dodge
+13C - Power Plus
+13D - Power Plus
+13E - Defend Plus
+13F - Defend Plus
+140 - Happy Flower
+141 - Happy Flower
+142 - Happy Flower
+143 - Group Focus
+144 - Peekaboo
+145 - Attack FX D
+146 - Attack FX B
+147 - Attack FX E
+148 - Attack FX C
+149 - Attack FX F
+14A - HP Plus
+14B - HP Plus
+14C - HP Plus
+14D - FP Plus
+14E - FP Plus
+14F - FP Plus
+150 - ?
+151 - Attack FX F
+152 - Attack FX F
+153 - Attack FX F
+154 - ?
+155 - ?
+156 - ?
+157 - ?
+158 - ?
+159 - ?
+15A - ?
+15B - ?
+15C - Star Piece
+
+Move IDs
+
+0000 - Crash when attempted attack
+0001 - ?
+0002 - ?
+0003 - ?
+0004 - Normal hammer
+0005 - ?
+0006 - ?
+0007 - ?
+0008 - ?
+0009 - Quake hammer
+000A - ?
+000B - ?
+000C - ?
+000D - ?
+000E - ?
+000F - Charge (Boost Hammer attack)
+0010 - ?
+0012 - ?
+0013 - ?
+0014 - ?
+0015 - ?
+0016 - ?
+0017 - ?
+0018 - ?
+0019 - ?
+001A - Jump
+001B - ?
+001C - ?
+001D - ?
+001E - ?
+0020 - Power Bounce
+0021 - ?
+0022 - ?
+0023 - ?
+0024 - ?
+0025 - ?
+0026 - ?
+0027 - ?
+0028 - ?
+0029 - ?
+002A - ?
+002B - Power Jump
+002C - ?
+002D - ?
+002E - ?
+002F - Spring Stomp
+0030 - ?
+0031 - ?
+0032 - ?
+0033 - ?
+0034 - Use Item (Causes crash?)
+This list is incomplete... Star sprites moves start in the 0070 area...
+
+Exit Modifier [Full Metal Kirby]
+29289FD0 00000000
+03289FD0 0000xxxx
+E2000000 80008000
+(Credit to the original creator of the N64 version as I used that to port, can't seem to figure out who it was though...)
+To use it properly go to the beginning of the game where you wake up after fighting Bowser. After you wake up, leave the house and head to the exit to the left. Replace xxxx with the following:
+FFE0 = Main Debug Room
+0175 = Debug Room Part 1
+0176 = Debug Room Part 2
+0177 = Debug Room Part 3
+0179 = Forest Debug Room
+017A = Mirror Debug Room
+017C = Misc Debug Room
+017D = Pipe Debug Room
+0183 = Unused Mini-Game Map

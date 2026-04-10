@@ -1,0 +1,27 @@
+RELPA4
+Eledees
+
+TIME STOP [ZiT]
+0407B798 D0630010
+
+Infinite "dB" [ZiT]
+0407C014 60000000
+
+Infinite Destruction [ZiT]
+0407C078 60000000
+
+Infinite GUN [ZiT]
+04148830 60000000
+
+If "w" Increase, Mission clear [ZiT]
+C2148BD8 00000002
+3E80000F 3814423F
+901E0004 00000000
+
+TIME STOP
+0407B780 D0630010memorris
+
+Converted by memorris from Elebits NTSC-JP
+
+All thanks go to ZiT for this grate code.
+Thank you ZiT

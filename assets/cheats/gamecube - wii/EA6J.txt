@@ -1,0 +1,83 @@
+EA6J
+The King of Fighters '96
+
+Enabler Code (Must Be On) [GMO]
+28227FBA 00000304
+02227FBA 00009999
+E0000000 80008000
+28227FBA 00000303
+02227FBA 00009999
+E0000000 80008000
+
+Miscellaneous Codes
+
+P1 Unlimited Health [GMO]
+28227FBA 00009999
+002259E1 00000067
+002259F9 00000067
+E0000000 80008000
+
+P1 Max POW [GMO]
+28227FBA 00009999
+00225990 00000080
+002259F6 00000080
+E0000000 80008000
+
+1-Hit KO (P2 Life Mod) [GMO]
+28227FBA 00009999
+00225BE1 00000001
+00225BF9 00000001
+E0000000 80008000
+
+Boss Character Modifier [GMO]
+2828C780 00001200
+00227FEE 0000001B
+E0000000 80008000
+2828C780 00001100
+00227FEE 0000001C
+E0000000 80008000
+Use Button Activators after you have selected a fighter
+Hold - and Press 1 for Chizuru Kagura
+Hold - and Press 2 for Goenitz
+
+P1 Character Modifier [GMO]
+28227FBA 00009999
+00227FEE 000000??
+E0000000 80008000
+
+P2 Character Modifier [GMO]
+28227FBA 00009999
+00227FFF 000000??
+E0000000 80008000
+
+Character Values
+
+00 Kyo Kusanagi
+01 Benimaru Nikaido
+02 Goro Daimon
+03 Terry Bogard
+04 Andy Bogard
+05 Joe Higashi
+06 Ryo Sakazaki
+07 Robert Garcia
+08 Yuri Sakazaki
+09 Leona
+0A Ralf
+0B Clark
+0C Athena Asamiya
+0D Sie Kensou
+0E Chin Gentsai
+0F Kasumi Todo
+10 Mai Shiranui
+11 King
+12 Kim Kaphwan
+13 Chang Koehan
+14 Choi Bounge
+15 Iori Yagami
+16 Mature
+17 Vice
+18 Geese Howard
+19 Wolfgang Krauser
+1A Mr.Big
+1B Chizuru Kagura
+1C Goenitz

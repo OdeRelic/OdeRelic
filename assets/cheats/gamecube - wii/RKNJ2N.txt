@@ -1,0 +1,16 @@
+RKNJ2N
+Kanken Wii Kanken Wii Kanjiou Ketteisen
+
+POINT MAX [ZiT]
+041AB20C xxxxxxxx
+041AB218 xxxxxxxx
+041AB224 xxxxxxxx
+041AB230 xxxxxxxx
+
+Point=xxxxxxxx
+Max=0001869F
+
+1p=The 1 line
+2p=The 2 line
+3p=The 3 line
+4p=The 4 line

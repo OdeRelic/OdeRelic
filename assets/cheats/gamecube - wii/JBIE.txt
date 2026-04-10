@@ -1,0 +1,49 @@
+JBIE
+Street Fighter II Turbo: Hyper Fighting
+
+WiiMote Pad1 [GMO]
+281B429A YYYYZZZZ
+
+Classic Pad1 [GMO]
+281B42F8 YYYYZZZZ
+
+Miscellaneous Codes
+
+Disable Timer [GMO]
+008BD21A 00000020
+
+Add Time Press Z-Right [GMO]
+281B42F8 FFFB0004
+008BD21B 00000099
+E0000000 80008000
+
+P1 Unlimited Health [GMO]
+008BBE57 000000B0
+008BBE58 000000B0
+
+1-Hit Kill (P2 Life Mod) [GMO]
+288BC058 0000B000
+008BC058 00000001
+E0000000 80008000
+Hacked by lee4
+
+P1 Character Modifier [GMO]
+008BBEF9 000000??
+
+P2 Character Modifier [GMO]
+808BBF02 000000??
+
+Character Values
+
+00 Ryu
+01 E.Honda
+02 Blanka
+03 Guile
+04 Ken
+05 Chun Li
+06 Zangief
+07 Dhalsim
+08 M.Bison
+09 Sagat
+0A Balrog
+0B Vega

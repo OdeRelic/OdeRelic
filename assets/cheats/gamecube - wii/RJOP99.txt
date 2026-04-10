@@ -1,0 +1,24 @@
+RJOP99
+Ju On The Grudge
+
+Unlock All Hidden Items & Levels (Includes Secret Level) [Yamishira]
+048536B8 1FC7FF3C
+04853718 1FC7FF3C
+04853778 1FC7FF3C
+
+Uber Flashlight [Yamishira]
+202D48A0 00000200
+0438B800 3F400000
+E0000000 80008000
+202D48A0 00000100
+0438B800 3F600000
+E0000000 80008000
+202D48A0 00004000
+0438B800 3F800000
+E0000000 80008000
+
+Press Button 1 For Brightness 1
+Press Button 2 For Brightness 2
+Press C Button For Default Brightness
+
+Use Brightness 2 For Level 5

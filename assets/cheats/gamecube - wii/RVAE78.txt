@@ -1,0 +1,31 @@
+RVAE78
+Avatar: The Last Airbender - The Burning Earth
+
+Gecko Hook: AXNextFrame
+
+Unlock all Extras [TNTkryzt]
+0857831C 01010102
+20160004 00000000
+
+Infinite Health [TNTkryzt]
+040F8124 A01C009E
+040F8128 B01C009C
+040F812C 48000020
+
+Infinite Special Attacks [TNTkryzt]
+040F8168 3B200003
+040F816C B33C00A0
+
+Infinite Move Points [TNTkryzt]
+0410F47C 3B600009
+0410F480 9B7F00FE
+
+Quick Health Upgrade Gain [TNTkryzt]
+04251350 38800006
+
+Multi-Jump [TNTkryzt]
+041E8FE0 60000000
+
+Weak Enemies [TNTkryzt]
+0405BC68 38000000
+0405BC6C B016009C

@@ -1,0 +1,415 @@
+FDVP
+Street Gangs
+
+Player 1
+
+Unlimited Alex Health (Player 1) [Crapulecorp]
+003913FF 00000063
+
+Unlimited Money (Player 1) [Crapulecorp]
+00391407 00000099
+00391408 00000099
+00391409 00000099
+*Code ported from hybrid Nes Version*
+
+Free Stuff From Shops (Player 1) [Crapulecorp]
+00391635 00000000
+00391635 00000000
+*Code ported from hybrid Nes Version*
+
+Max Punch [Crapulecorp]
+003913DF 00000063
+
+Max Kick [Crapulecorp]
+003913E3 00000063
+
+Max Weapons [Crapulecorp]
+003913E7 00000063
+
+Max Throwing [Crapulecorp]
+003913EB 00000063
+
+Max Agility [Crapulecorp]
+003913EF 00000063
+
+Max Defense [Crapulecorp]
+003913F3 00000063
+
+Max Strengh [Crapulecorp]
+003913F7 00000063
+
+Max Will Power [Crapulecorp]
+003913FB 00000063
+
+Max Stamina [Crapulecorp]
+003913FF 00000063
+
+Max Power x99 [Crapulecorp]
+00391403 00000063
+
+Item Modifiers
+*Replace XX for :
+01-Donut
+02-Mufin
+03-Bagel
+04-Honey Bun
+05-Croissant
+06-Sugar
+07-Toll House
+08-Maple Pecan
+09-Oatmeal
+0A-Brownie
+0B-Mint Gum
+0C-Lolly Pop
+0D-Jaw Breaker
+0E-Rock Candy
+0F-Fudge Bar
+10-Salad Paris
+11-Onion Soup
+12-Cornish Hen
+13-Veal Walle
+14-Vita-Mints
+15-Digestol
+16-Recharge!
+17-Karma Jolt
+18-Omi Elixer
+19-Date Saver
+1A-Love Potion
+1B-Antidote 12
+1C-R & B
+1D-Rock
+1E-Pop
+1F-Soul
+20-Classical
+21-Sneakers
+22-Boat Shoes
+23-Loafersz
+24-Army Boots
+25-Texas Boots
+26-Slippers
+27-Thongs
+28-Sandals
+29-Mod Boots
+2A-Insoles
+2B-Maze Craze
+2C-Decathlete
+2D-Hyperball
+2E-Technobelt
+2F-Teddy Bear
+30-Stone Hands
+31-Dragon Feet
+32-Grand Slam
+33-Acro Circus
+34-Javilin Man
+35-Fatal Steps
+36-Scandal Rag
+37-Comic Times
+38-Mystic Seer
+39-Nuclear Spy
+3A-Indian Lore
+3B-Excaliber
+3C-Zeus' Wand
+3D-Rodan Wing
+3E-Gold Medal
+3F-Isis Scroll
+40-Sirloin
+41-Rib-eye
+42-T-bone
+43-Lamb Leg
+44-Merv Burger
+45-Cheese Merv
+46-Fish Merv
+47-Mondo Merv
+48-Milk
+49-Iced Tea
+4A-Soda
+4B-Merv Malt
+4C-Merv Fries
+4D-Merv Rings
+4E-Apple Pie
+4F-Spicy Chili
+50-Smile
+51-Chickwich
+52-Dark Meat
+53-Light Meat
+54-Combination
+55-Lemonade
+56-Gravy
+57-Biscuts
+58-Corn Cobber
+59-Cole Slaw
+5A-Coffee
+5B-Tea
+5C-Hot Coca
+5D-Pancakes
+5E-Waffles
+5F-Ice Cream
+60-Roman Shake
+61-Cola Float
+62-Nero Pizza
+63-Lasagna
+64-Fresh Juice
+65-Lemon Tea
+66-Herbal Tea
+67-Carrot Cake
+68-Pound Cake
+69-Egg
+6A-Octopus
+6B-Squid
+6C-Conger Eel
+6D-Prawn
+6E-Salmon
+6F-Ark Shell
+70-Sea Urchin
+71-Halibut
+72-Swordfish
+73-Salad Roll
+74-Tuna Roll
+75-Shrimp Roll
+76-Mixed Roll
+77-Egg Roll
+78-Fried Rice
+79-Garlic Pork
+7A-Pepper Beef
+7B-Chow Mein
+7C-Sauna*
+*Code ported from hybrid Nes Version*
+
+Slot 1 [Crapulecorp]
+0039158D 000000XX
+*Code ported from hybrid Nes Version*
+
+Slot 2 [Crapulecorp]
+0039158E 000000XX
+*Code ported from hybrid Nes Version*
+
+Slot 3 [Crapulecorp]
+0039158F 000000XX
+*Code ported from hybrid Nes Version*
+
+Slot 4 [Crapulecorp]
+00391590 000000XX
+*Code ported from hybrid Nes Version*
+
+Slot 5 [Crapulecorp]
+00391591 000000XX
+*Code ported from hybrid Nes Version*
+
+Slot 6 [Crapulecorp]
+00391592 000000XX
+*Code ported from hybrid Nes Version*
+
+Slot 7 [Crapulecorp]
+00391593 000000XX
+*Code ported from hybrid Nes Version*
+
+Slot 8 [Crapulecorp]
+00391594 000000XX
+*Code ported from hybrid Nes Version*
+
+Player 2
+
+Unlimited Health (Player 2) [Crapulecorp]
+00391400 00000063
+*Code ported from hybrid Nes Version*
+
+Unlimited Money (Player 2) [Crapulecorp]
+0039140A 00000099
+0039140B 00000099
+0039140C 00000099
+*Code ported from hybrid Nes Version*
+
+Free Stuff From Shops (Player 2) [Crapulecorp]
+00391639 00000000
+0039163A 00000000
+*Code ported from hybrid Nes Version*
+
+Max Punch [Crapulecorp]
+003913E0 00000063
+
+Max Kick [Crapulecorp]
+003913E4 00000063
+
+Max Weapons [Crapulecorp]
+003913E8 00000063
+
+Max Throwing [Crapulecorp]
+003913EC 00000063
+
+Max Agility [Crapulecorp]
+003913F0 00000063
+
+Max Defense [Crapulecorp]
+003913F4 00000063
+
+Max Strengh [Crapulecorp]
+003913F8 00000063
+
+Max Will Power [Crapulecorp]
+003913FC 00000063
+
+Max Stamina [Crapulecorp]
+00391400 00000063
+
+Max Power [Crapulecorp]
+00391404 00000063
+
+Item Modifiers
+*Replace XX for :
+01-Donut
+02-Mufin
+03-Bagel
+04-Honey Bun
+05-Croissant
+06-Sugar
+07-Toll House
+08-Maple Pecan
+09-Oatmeal
+0A-Brownie
+0B-Mint Gum
+0C-Lolly Pop
+0D-Jaw Breaker
+0E-Rock Candy
+0F-Fudge Bar
+10-Salad Paris
+11-Onion Soup
+12-Cornish Hen
+13-Veal Walle
+14-Vita-Mints
+15-Digestol
+16-Recharge!
+17-Karma Jolt
+18-Omi Elixer
+19-Date Saver
+1A-Love Potion
+1B-Antidote 12
+1C-R & B
+1D-Rock
+1E-Pop
+1F-Soul
+20-Classical
+21-Sneakers
+22-Boat Shoes
+23-Loafersz
+24-Army Boots
+25-Texas Boots
+26-Slippers
+27-Thongs
+28-Sandals
+29-Mod Boots
+2A-Insoles
+2B-Maze Craze
+2C-Decathlete
+2D-Hyperball
+2E-Technobelt
+2F-Teddy Bear
+30-Stone Hands
+31-Dragon Feet
+32-Grand Slam
+33-Acro Circus
+34-Javilin Man
+35-Fatal Steps
+36-Scandal Rag
+37-Comic Times
+38-Mystic Seer
+39-Nuclear Spy
+3A-Indian Lore
+3B-Excaliber
+3C-Zeus' Wand
+3D-Rodan Wing
+3E-Gold Medal
+3F-Isis Scroll
+40-Sirloin
+41-Rib-eye
+42-T-bone
+43-Lamb Leg
+44-Merv Burger
+45-Cheese Merv
+46-Fish Merv
+47-Mondo Merv
+48-Milk
+49-Iced Tea
+4A-Soda
+4B-Merv Malt
+4C-Merv Fries
+4D-Merv Rings
+4E-Apple Pie
+4F-Spicy Chili
+50-Smile
+51-Chickwich
+52-Dark Meat
+53-Light Meat
+54-Combination
+55-Lemonade
+56-Gravy
+57-Biscuts
+58-Corn Cobber
+59-Cole Slaw
+5A-Coffee
+5B-Tea
+5C-Hot Coca
+5D-Pancakes
+5E-Waffles
+5F-Ice Cream
+60-Roman Shake
+61-Cola Float
+62-Nero Pizza
+63-Lasagna
+64-Fresh Juice
+65-Lemon Tea
+66-Herbal Tea
+67-Carrot Cake
+68-Pound Cake
+69-Egg
+6A-Octopus
+6B-Squid
+6C-Conger Eel
+6D-Prawn
+6E-Salmon
+6F-Ark Shell
+70-Sea Urchin
+71-Halibut
+72-Swordfish
+73-Salad Roll
+74-Tuna Roll
+75-Shrimp Roll
+76-Mixed Roll
+77-Egg Roll
+78-Fried Rice
+79-Garlic Pork
+7A-Pepper Beef
+7B-Chow Mein
+7C-Sauna*
+*Code ported from hybrid Nes Version*
+
+Slot 1 [Crapulecorp]
+00391595 000000XX
+*Code ported from hybrid Nes Version*
+
+Slot 2 [Crapulecorp]
+00391596 000000XX
+*Code ported from hybrid Nes Version*
+
+Slot 3 [Crapulecorp]
+00391597 000000XX
+*Code ported from hybrid Nes Version*
+
+Slot 4 [Crapulecorp]
+00391598 000000XX
+*Code ported from hybrid Nes Version*
+
+Slot 5 [Crapulecorp]
+00391599 000000XX
+*Code ported from hybrid Nes Version*
+
+Slot 6 [Crapulecorp]
+0039159A 000000XX
+*Code ported from hybrid Nes Version*
+
+Slot 7 [Crapulecorp]
+0039159B 000000XX
+*Code ported from hybrid Nes Version*
+
+Slot 8 [Crapulecorp]
+0039159C 000000XX
+*Code ported from hybrid Nes Version*

@@ -1,0 +1,8 @@
+S2RPNK
+Reload
+
+No Reload/Unlimited Ammo [Crapulecorp]
+043AF8B0 38040000
+
+Combo Chain Don't Break [Crapulecorp]
+0400D828 60000000

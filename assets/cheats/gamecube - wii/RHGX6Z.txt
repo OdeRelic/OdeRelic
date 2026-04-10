@@ -1,0 +1,34 @@
+RHGX6Z
+AgentHugo
+
+Set lemoons to 999 [memorris]
+4A000000 81000000
+04AE91D0 000003E7
+E0000000 80008000
+
+Infinite Health [memorris]
+4A000000 81000000
+04AEA0CC 4FFFFFFF
+E0000000 80008000
+
+Freeze Time [memorris]
+4A000000 81000000
+04AE91EO 00000000
+E0000000 80008000
+
+All Missions Open [memorris]
+081ECA50 01000000
+20112FEC 00000000
+
+Top Secret Files
+
+Mission 1 to 6 Movies Unlocked [memorris]
+041E6A5B 01010101
+041E6A5C 01010101
+
+Game Complete Movie Unlocked [memorris]
+041E6A54 05FFFFFF
+
+Secret Suits Unlocked [memorris]
+041E6A60 10101010
+041E6A64 10101010

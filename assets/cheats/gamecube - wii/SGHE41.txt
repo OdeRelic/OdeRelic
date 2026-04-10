@@ -1,0 +1,71 @@
+SGHE41
+Ghost Recon
+
+Slow On/Off (Patedj) [Sgt.Ghost]
+C2109DA0 00000008
+39601000 3D808068
+618C5732 A98C0000
+7C0C5800 41820014
+39605000 7C0C5800
+41820010 48000018
+60000000 48000010
+FC201090 EC23082A
+48000004 00000000
+Press (-) to slow down and (C-)together to untoggle
+(Pals code of this game works on USA)
+
+Zeus no loading time. (Patedj) [Sgt.Ghost]
+C2164244 00000002
+39800000 91850084
+C0050084 00000000
+
+Infinite Ammo (Patedj) [Sgt.Ghost]
+C2166830 00000002
+3C603803 60630001
+907E00C0 00000000
+I reformated it
+(Pals code of this game works on USA)
+Credited to Patedj for oringinal
+
+Machine/Sniper No Loading Time [Sgt.Ghost]
+C21644EC 00000002
+39800000 91850084
+C0050084 00000000
+
+X Multiplier PL 1 [Sgt.Ghost]
+09223E94 007800XX
+20010040 00000000
+X values = Multiplier
+If u go higher it will give you a letter
+
+X Multiplier PL 2 [Sgt.Ghost]
+09223EB4 007800XX
+20010040 00000000
+X values = Multiplier
+If u go higher it will give you a letter
+
+Plus Score [Sgt.Ghost]
+09223D60 002B00XX
+20010058 00000000
+X values = Is when you kill a person
+Like (+) 100 or (+) 1000
+
+Points
+
+Points/High Scores [Sgt.Ghost]
+05226BF8 XXXXXXXX
+E0000000 80008000
+*X values = Whatever Points you want
+
+Health xccopa [xcoopa]
+04674797 00000020
+
+slow motion sight [xcoopa]
+046733FF 00000320
+
+add grenades [xcoopa]
+0416683C 38030001
+
+Campaign Mode
+Helth [xcoopa]
+04674797 00000320

@@ -1,0 +1,17 @@
+GEDE01
+Eternal Darkness
+
+Have All Runes & Circles of Power Unlocked For All Characters [goemon_guy]
+04331748 3FFF3FFF
+0433174C 00070000
+ported from "Jay007's" PAL version
+
+All Spells Unlocked And Maxed Out [goemon_guy]
+06331750 0000002C
+0C070304 0C071041
+0C070442 0C070442
+0C070483 0C010823
+0C071013 0C020823
+0C070503 0C070423
+0C070812 00000000
+ported from "Jay007's" PAL version

@@ -1,0 +1,26 @@
+JDNE
+Ghoul Patrol
+
+P1 Unlimited Health [GMO]
+00448031 0000000A
+0044C8DA 0000000A
+
+P1 Unlimited Ammo [GMO]
+0044804A 00000009
+0044804E 00000009
+00448052 00000009
+
+P1 Unlimited Keys [GMO]
+00448086 00000009
+
+P1 Unlimited Red Potions [GMO]
+0044808A 00000009
+
+P1 Unlimited Green Potions [GMO]
+0044808E 00000009
+
+P1 Unlimited Mystery Potions [GMO]
+00448092 00000009
+
+P1 Unlimited Med Kits [GMO]
+0044809A 00000009

@@ -1,0 +1,128 @@
+FDNP
+Mega Man 2
+
+Infinite Lives [Crapulecorp]
+0046BF88 0000000A
+*Code ported from GMO Ntsc Usa Version*
+
+Invincible [Crapulecorp]
+0046BF2B 00000002
+*Code ported from ZiT Ntsc Jap Version*
+
+Infinite Health [Crapulecorp]
+0046C5A0 0000001C
+*Code ported from ZiT Ntsc Jap Version*
+
+Infinite Energy [Crapulecorp]
+0846BF7C 0000001C
+00064681 00000000
+*Code ported from ZiT Ntsc Jap Version*
+
+Refill Health/Ammo (Press ZL) [Crapulecorp]
+2820D612 FF7F0080
+0046C5A0 0000001C
+0846BF7C 0000001C
+000A0001 00000000
+E0000000 80008000
+*Classic Controller*
+*Code ported from GMO Ntsc Usa Version*
+
+Refill Health/Ammo (Hold B and Press Right) [Crapulecorp]
+282961D2 FBFD0402
+0046C5A0 0000001C
+0846BF7C 0000001C
+000A0001 00000000
+E0000000 80008000
+*WiiMote*
+*Code ported from GMO Ntsc Usa Version*
+
+Have All 4 E Containers [Crapulecorp]
+8046BF87 00000004
+*Code ported from GMO Ntsc Usa Version*
+
+Infinite H Ammo [Crapulecorp]
+0046BF7C 0000001C
+*Code ported from GMO Ntsc Usa Version*
+
+Infinite A Ammo [Crapulecorp]
+0046BF7D 0000001C
+*Code ported from GMO Ntsc Usa Version*
+
+Infinite W Ammo [Crapulecorp]
+0046BF7E 0000001C
+*Code ported from GMO Ntsc Usa Version*
+
+Infinite B Ammo [Crapulecorp]
+0046BF7F 0000001C
+*Code ported from GMO Ntsc Usa Version*
+
+Infinite Q Ammo [Crapulecorp]
+0046BF80 0000001C
+*Code ported from GMO Ntsc Usa Version*
+
+Infinite F Ammo [Crapulecorp]
+0046BF81 0000001C
+F Ammo May Glitch Game since it's a timed ammo
+*Code ported from GMO Ntsc Usa Version*
+
+Infinite M Ammo [Crapulecorp]
+0046BF82 0000001C
+*Code ported from GMO Ntsc Usa Version*
+
+Infinite c Ammo [Crapulecorp]
+0046BF83 0000001C
+*Code ported from GMO Ntsc Usa Version*
+
+Infinite 1 Ammo [Crapulecorp]
+0046BF84 0000001C
+*Code ported from GMO Ntsc Usa Version*
+
+Infinite 2 Ammo [Crapulecorp]
+0046BF85 0000001C
+*Code ported from GMO Ntsc Usa Version*
+
+Infinite 3 Ammo [Crapulecorp]
+0046BF86 0000001C
+*Code ported from GMO Ntsc Usa Version*
+
+Infinite Ammo All Weapons/Items [Crapulecorp]
+0846BF7C 0000001C
+000A2301 00000000
+F Ammo May Glitch Game since it's a timed ammo
+*Code ported from GMO Ntsc Usa Version*
+
+Power Suit Modifer [Crapulecorp]
+0046BF89 0000000X
+*Replace X for :
+0 MegaMan
+1 Heatman
+2 AirMan
+3 WoodMan
+4 BubbleMan
+5 QUickMan
+6 FlashMan
+7 MetalMan
+8 ClashMan*
+*Code ported from GMO Ntsc Usa Version*
+
+1-Hit Kill Bosses (Press ZR) [Crapulecorp]
+2820D612 FFFB0004
+0046C5A1 00000000
+E0000000 80008000
+*Classic Controller*
+*Code ported from GMO Ntsc Usa Version*
+
+1-Hit Kill Bosses (Hold B and Press Left) [Crapulecorp]
+282961D2 FBFE0401
+0046C5A1 00000000
+E0000000 80008000
+*WiiMote*
+*Code ported from GMO Ntsc Usa Version*
+
+Button Activator
+
+Classic Controller [Crapulecorp]
+2820D612 YYYYZZZZ
+
+WiiMote [Crapulecorp]
+282961D2 YYYYZZZZ

@@ -1,0 +1,14 @@
+FBIJ
+Punch Out!!
+
+Infinite Heart [ZiT]
+024F0683 0000090A
+
+Infinite Star [ZiT]
+004F06A2 00000004
+
+Infinite Health [ZiT]
+004F06F1 00000060
+
+Time Stop [ZiT]
+044F0664 00000000

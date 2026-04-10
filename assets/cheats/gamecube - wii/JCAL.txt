@@ -1,0 +1,34 @@
+JCAL
+DoReMi Fantasy Milon's DokiDoki Adventure
+
+Unlimited Lives [Crapulecorp]
+0043B719 00000009
+*Code ported from ZiT Ntsc Jap Version*
+
+Invincible [Crapulecorp]
+0043C48A 00000023
+*Code ported from ZiT Ntsc Jap Version*
+
+Unlimited Notes [Crapulecorp]
+0043B71A 00000063
+*Code ported from GMO Ntsc Usa Version*
+
+Hyper Jump [Crapulecorp]
+2814DFD2 FFBF0040
+0243C498 0000B004
+E0000000 80008000
+*Classic Controller*
+*Code ported from ZiT Ntsc Jap Version*
+
+Suit Power [Crapulecorp]
+0043C483 00000002
+*Code ported from ZiT Ntsc Jap Version*
+
+Have All Items [Crapulecorp]
+0043B71B 000000FF
+*Code ported from ZiT Ntsc Jap Version*
+
+Button Activator
+
+Classic Controller [Crapulecorp]
+2814DFD2 YYYYZZZZ

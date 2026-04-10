@@ -1,0 +1,24 @@
+GP9E7F
+Rogue Ops 
+
+Infinite Health
+041423CC 60000000
+
+Infinite Ammo
+041FC690 60000000
+
+No Reload
+041FC6A0 60000000
+
+Infinite Battery Power
+041F98D0 60000000
+
+Infinite Time
+04213174 60000000
+
+Turrets Never Fire
+041B0764 60000000
+041B081C 60000000
+
+Most Enemies Never Fire
+041DCAB8 4800022C

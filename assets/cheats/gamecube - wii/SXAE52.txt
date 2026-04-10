@@ -1,0 +1,22 @@
+SXAE52
+Guitar Hero World Tour
+
+Single Player Codes
+
+Always Full Multiplier [SMGPlayer]
+42000000 90000000
+04084000 0000001E
+E0000000 80008000
+Works good with all instruments except vocals. Vocals will go to a 4X multiplier if you hit a phrase and the multiplier will go away if you miss a phrase.
+
+Infinite Star Power [SMGPlayer]
+42000000 90000000
+02083FA0 000042C8
+E0000000 80008000
+Works good with all instruments.
+
+Full Rock Meter [SMGPlayer]
+42000000 90000000
+020848D0 00003FFF
+E0000000 80008000
+Works good with all instruments.

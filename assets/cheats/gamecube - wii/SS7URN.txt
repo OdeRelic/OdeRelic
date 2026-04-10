@@ -1,0 +1,45 @@
+SS7URN
+Remington Super Slam Hunting: Africa
+
+Unlimited Health [Crapulecorp]
+C206E770 00000002
+38000005 90030148
+60000000 00000000
+
+No Reload/Unlimited Ammo [Crapulecorp]
+0408BCF4 38040000
+
+Max Score [Crapulecorp]
+C206E67C 00000002
+3C00000F 6000423F
+90030000 00000000
+
+Max Chain [Crapulecorp]
+C206E728 00000002
+388003E7 90830138
+60000000 00000000
+
+Chain Don't Break [Crapulecorp]
+0406E760 60000000
+
+Quick Full Wiley Vision [Crapulecorp]
+C206E6AC 00000002
+38000064 90030140
+60000000 00000000
+
+Refill Wiley Vision (Press 1) [Crapulecorp]
+282EAAE2 FDFF0200
+005DB18B 00000064
+E0000000 80008000
+*WiiMote*
+
+Unlimited Wiley Vision (Press 1 ON/OFF) [Crapulecorp]
+282EAAE2 FDFF0200
+CC000000 00000000
+005DB18B 00000064
+E0000000 80008000
+*WiiMote*
+
+Button Activator [Crapulecorp]
+282EAAE2 YYYYZZZZ
+*WiiMote*

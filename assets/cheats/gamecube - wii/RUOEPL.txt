@@ -1,0 +1,8 @@
+RUOEPL
+Aliens in the Attic
+
+Infinite HP [ZiT]
+040D0DAC D01E0000
+
+Infinite SP [ZiT]
+040D0E54 D0030004

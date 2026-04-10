@@ -1,0 +1,9 @@
+RU8EFS
+Bass Pro Shops The Hunt
+
+Infinite Ammo [ZiT]
+040A4784 60000000
+
+If Reputation Increase, MAX [ZiT]
+040CFE18 3800270F
+040CFE44 60000000

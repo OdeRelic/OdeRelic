@@ -1,0 +1,291 @@
+RBHE08
+Resident Evil Zero
+
+Gecko Hook Type - AXNextFrame
+
+Rebecca Codes
+
+Inventory Item Modifier Slot 1 [GMO]
+00410119 000000??
+
+Inventory Item Value Slot 1 [GMO]
+0041011B 000000??
+
+Inventory Item Modifier Slot 2 [GMO]
+0041011D 000000??
+
+Inventory Item Value Slot 2 [GMO]
+0041011F 000000??
+
+Inventory Item Modifier Slot 3 [GMO]
+00410121 000000??
+
+Inventory Item Value Slot 3 [GMO]
+00410123 000000??
+
+Inventory Item Modifier Slot 4 [GMO]
+00410125 000000??
+
+Inventory Item Value Slot 4 [GMO]
+00410127 000000??
+
+Inventory Item Modifier Slot 5 [GMO]
+00410129 000000??
+
+Inventory Item Value Slot 5 [GMO]
+0041012B 000000??
+
+Inventory Item Modifier Slot 6 [GMO]
+0041012D 000000??
+
+Inventory Item Value Slot 6 [GMO]
+0041012F 000000??
+
+Billy Codes
+
+Inventory Item Modifier Slot 1 [GMO]
+00410139 000000??
+
+Inventory Item Value Slot 1 [GMO]
+0041013B 000000??
+
+Inventory Item Modifier Slot 2 [GMO]
+0041013D 000000??
+
+Inventory Item Value Slot 2 [GMO]
+0041013F 000000??
+
+Inventory Item Modifier Slot 3 [GMO]
+00410141 000000??
+
+Inventory Item Value Slot 3 [GMO]
+00410143 000000??
+
+Inventory Item Modifier Slot 4 [GMO]
+00410145 000000??
+
+Inventory Item Value Slot 4 [GMO]
+00410147 000000??
+
+Inventory Item Modifier Slot 5 [GMO]
+00410149 000000??
+
+Inventory Item Value Slot 5 [GMO]
+0041014B 000000??
+
+Inventory Item Modifier Slot 6 [GMO]
+0041014D 000000??
+
+Inventory Item Value Slot 6 [GMO]
+0041014F 000000??
+
+Item Value Slots
+
+00 Zer0
+01 01
+63 99
+FF 255
+
+Item Modifier Values
+
+00 Nothing
+01 Nothing
+02 Knife
+03 Handgun (Billy)
+04 Handgun (Rebecca)
+05 Hunting Gun
+06 Shotgun
+07 Grenade Launcher
+08 Grenade Launcher (Red)
+09 Grenade Launcher (Napalm)
+0A Magnum
+0B Sub-Machinegun
+0E Molotov Cocktail
+11 Custom Handgun (Billy)
+13 Custom Handgun (Rebecca)
+16 Magnum Revolver
+17 Rocket Launcher
+1A Handgun Parts (Upgrade)
+20 Handgun Ammo
+21 Shotgun Ammo
+22 Magnum Ammo
+23 Grenades (Ammo)
+24 Acid Grenades (Ammo)
+25 Napalm Grenades (Ammo)
+26 Empty Bottle
+27 Gas Tank
+28 Machinegun Ammo
+2B Green Herb
+2C Blue Herb
+2D Red Herb
+2E Mixed Herbs (2 Green)
+2F Mixed Herbs (3 Green)
+30 Mixed Herbs (1 Green 1 Red)
+31 Mixed Herbs (1 Green 1 Blue)
+32 Mixed Herbs (2 Green 1 Blue)
+33 Mixed Herbs (All Herbs)
+35 First-Aid Spray
+37 Ink Ribbon
+39 Gold Ring
+3A Silver Ring
+3B Briefcase
+3C Briefcase
+3D Briefcase
+3E Briefcase
+3F Lighter Fluid
+41 Train Key
+42 Breeding Rm.Key
+43 Elevator Key
+44 Facility Key (Red)
+45 Facility Key (Green)
+46 Facility Key (Blue)
+47 Blue Leech Charm
+48 Green Leech Charm
+49 Factory Key U
+4A Factory Key D
+4B Blue Keycard
+4C Keycard (Incinerator)
+4D Magnetic Card
+4E Locker Key
+4F Unity Tablet
+50 Obedience Tablet
+51 Discipline Tablet
+52 Panel Opener
+53 Vise Handle
+56 Crank Handle
+57 Handle
+58 Book of Good
+59 Book of Evil
+5A Blue Leech Charm
+5B Green Leech Charm
+5C Input Reg.Coil
+5D Output Reg.Coil
+5E Battery
+5F Hi-Power Battery
+60 Sterilizing Agent
+61 Motherboard
+63 Microfilm A
+64 Microfilm B
+66 Shaft Key
+67 Train Key
+68 Hookshot
+69 Lighter (Closed)
+6A Lighter (Open)
+6B Conductor's Key
+6C Fire Key
+6E Water Key
+6F Up Key
+70 Down Key
+71 Dining Car Key
+75 Leech Capsule
+76 Dial
+77 Duralumin Case
+78 Statue of Evil
+79 Statue of Good
+7A Jewelry Box
+7B Mixing Set
+7C MO Disk
+7D Ice Pick
+7E Iron Needle
+7F Shaft Key
+80 Industrial Water
+81 Empty Battery
+82 Angel Wings
+83 Black Wings
+84 White Statue
+85 Black Statue
+86 Red Chemical
+87 Blue Chemical
+88 Green Chemical
+89 Stripping Agent
+8B Sulfuric Acid
+8C Battery Acid
+8D Closet Key
+
+Have all Files & Maps [TNTkryzt]
+0840DFA8 FFFFFFFF
+20050004 00000000
+0440DFC2 FFF8FFFF
+0440DFC4 FFFFFFFF
+
+Infinite Health [TNTkryzt]
+0403F4DC 60000000
+
+Infinite Ammo [TNTkryzt]
+04183D64 60000000
+
+Poison Resistant [TNTkryzt]
+0411C92C 38800000
+
+Survive Poison [TNTkryzt]
+0402A8D0 38040000
+
+Auto-Repel Attacker [TNTkryzt]
+040C5550 38600000
+
+One Hit Kill [TNTkryzt]
+040EFF08 38600000
+0412E3AC 38000000
+
+Rapid Fire [TNTkryzt]
+077E4000 0000001C
+3D608038 A16BBDF6
+2C0B0C00 40820008
+3860FFFF 38030001
+4A84F364 00000000
+04033378 497B0C88
+
+No Ribbon Needed to Save [TNTkryzt]
+04184F1C 7C031840
+04184B7C 60000000
+
+No Save Count [TNTkryzt]
+0418AE58 38600000
+
+Stop Sub-Mission Timer [TNTkryzt]
+04165888 34000000
+0407BCB8 34000000
+
+Reset Play Timer [TNTkryzt]
+0418B7E4 91E50004
+0418B7E8 48000020
+
+Enable Exchange Option [TNTkryzt]
+040773BC 38600000
+
+Skip BS Door Scenes [TNTkryzt]
+040960C4 38000000
+
+Quick Message Speed [TNTkryzt]
+0419554C 38000004
+
+Skip to Final Battle [TNTkryzt]
+077E401C 0000001C
+A061000E 3D608038
+A16BBDF6 2C0B6800
+40820008 386000A4
+4A9853BC 00000000
+041693EC 4967AC30
+(Hold Z+C+A when using Door)
+
+Slot #5 Item Modifier [TNTkryzt]
+077E4038 00000070
+2C000010 40820064
+7D83022E 3D608038
+A16BBDFE 2C0B0002
+41820010 2C0B0001
+41820018 48000044
+398C0001 2C0C0089
+41810020 48000020
+398CFFFF 2C0C0002
+41800008 48000010
+39800089 48000008
+39800002 558B803E
+396B0064 7D63012E
+39600000 91630014
+7C03022E 4A88F4E0
+04073580 49770AB8
+(Press Left/Right on D-Pad to Cycle
+Unequip Slot #5 before cycling.
+Do Not Equip items without Descriptions!
+Slot #6 will be emptied!)

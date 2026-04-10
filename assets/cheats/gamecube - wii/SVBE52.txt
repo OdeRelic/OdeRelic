@@ -1,0 +1,40 @@
+SVBE52
+Battleship
+
+human skill bars [The D3mon]
+0419B114 00036400
+
+inf fuel [The D3mon]
+081A0CDC 05FFFF03
+20190070 00000000
+E0000000 80008000
+
+inf rockets humans [The D3mon]
+0401AC5C 60000000
+
+human ship health [The D3mon]
+081A0CD8 00006464
+20190070 00000000
+E0000000 80008000
+may need to use activator to toggle health up between turns or set value to
+lower value to finish mission to repair ship. Suggest to replace 00006464 with
+this 00006064.
+
+always round one [The D3mon]
+0419B120 01000000
+
+inf moves per ship [The D3mon]
+081A0CD0 00020000
+20190070 00000000
+E0000000 80008000
+
+alien ship health [The D3mon]
+081A1AD8 00000164
+20190070 00000000
+E0000000 80008000
+
+alien skill bars [The D3mon]
+0419B11C 00100408
+
+button activator [The D3mon]
+281ACB48 0000xxxx

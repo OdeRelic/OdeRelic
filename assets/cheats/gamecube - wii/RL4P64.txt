@@ -1,0 +1,137 @@
+RL4P64
+LEGO Indiana Jones 2 The Adventure Continues
+
+All people are Black [Crashzer]
+C2727F94 00000002
+3C001FF0 9003000C
+60000000 00000000
+*Credits to BoxNinja for the original address
+
+Flashing Characters [Crashzer]
+A8000008 0000000A
+80000000 80727F94
+86010000 01000000
+24727F94 010000FF
+04727F94 000000FF
+E2000001 00000000
+*Credits to BoxNinja for the original address
+
+Infinite Health [Crashzer]
+04727071 0000007F
+
+Silhouettes Extra Off [Crashzer]
+04727F94 00FF0000
+
+Invincibility Extra Off [Crashzer]
+04728074 00FF0000
+
+Fast Fix Extra Off [Crashzer]
+04728090 00FF0000
+
+Fast Dig Extra Off [Crashzer]
+047280AC 00FF0000
+
+Button Activator [Crashzer]
+20769900 0000XXXX
+-CODE HERE- [Crashzer]
+E0000000 80008000
+X - Button ID
+
+Your Character is Invisible [Seth@WiiPlaza]
+20769900 7FFF8000
+C0000000 00000004
+3D600000 3D808072
+398C6F0A 616B0000
+916C108A 4E800020
+4E800020 00000000
+E0000000 80008000
+*press home to make invisible
+
+Infinite Health [Seth@WiiPlaza]
+C0000000 00000004
+3D6001FF 3D808072
+398C7071 616B0000
+916C1003 4E800020
+4E800020 00000000
+E0000000 80008000
+
+Player 1 In-Game Score [BoxNinja]
+0487486C XXXXXXXX
+*Change X to score
+
+Player 2 In-Game Score [BoxNinja]
+04874884 XXXXXXXX
+*Change X to score
+
+In-Game Extras Always On No purchase Necessary
+
+Adaptive Difficulty [BoxNinja]
+04727ED0 01FF0000
+
+Score x2 [BoxNinja]
+04727EEC 01FF0000
+
+Score x4 [BoxNinja]
+04727F24 01FF0000
+
+Score x6 [BoxNinja]
+04727F40 01FF0000
+
+Score x10 [BoxNinja]
+04727F78 01FF0000
+
+Silhouettes [BoxNinja]
+04727F94 01FF0000
+
+Beep Beep [BoxNinja]
+04727FB0 01FF0000
+
+Ice Rink [BoxNinja]
+04727FCC 01FF0000
+
+Disguise [BoxNinja]
+04727FE8 01FF0000
+
+Poo Money [BoxNinja]
+04728004 01FF0000
+
+Snake Whip [BoxNinja]
+04728020 01FF0000
+
+Fast Build [BoxNinja]
+0472803C 01FF0000
+
+Stud Magnet [BoxNinja]
+04728058 01FF0000
+
+Invincibility [BoxNinja]
+04728074 01FF0000
+
+Fast Fix [BoxNinja]
+04728090 01FF0000
+
+Fast Dig [BoxNinja]
+047280AC 01FF0000
+
+Fearless [BoxNinja]
+047280C8 01FF0000
+
+Have all Characters and Vehicles [TNTkryzt]
+044FEE34 3800FFFF
+044FEE38 7C04F9AE
+
+Gain 10,000 per Stud [TNTkryzt]
+045DC674 3BC02710
+
+Gain Sale Price [TNTkryzt]
+042819EC 7C051A14
+
+Quick Gain Special Items [TNTkryzt]
+045B91A4 B01D08FE
+045B91A8 48000004
+
+Survive Attacks [TNTkryzt]
+077FF200 00000010
+2C0F0002 41820008
+981E1F79 4AD9AED8
+0459A0E0 49265120

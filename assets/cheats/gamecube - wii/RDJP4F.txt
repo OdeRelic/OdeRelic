@@ -1,0 +1,44 @@
+RDJP4F
+Death Jr.: Root of Evil
+
+Infinite Health [Crapulecorp]
+0404DE0C 60000000
+Code from eric Ntsc Usa Version*
+
+Infinite Ammo [Crapulecorp]
+040135A0 60000000
+Code from eric Ntsc Usa Version*
+
+Have All Weapons [Crapulecorp]
+0428EEF4 17FFFFFF
+0428F0A8 17FFFFFF
+Code from eric Ntsc Usa Version*
+
+Have All Melee Moves [Crapulecorp]
+0228EE7E 0000FFFF
+0228F032 0000FFFF
+Code from eric Ntsc Usa Version*
+
+Unlock All Levels [Crapulecorp]
+022A3E32 0000FFFF
+002A3E34 000000FF
+Code from eric Ntsc Usa Version*
+
+Unlock Movie Select [Crapulecorp]
+002A3EB0 00000001
+Code from eric Ntsc Usa Version*
+
+Walk On Air [Crapulecorp]
+282D1532 00000001
+4A000000 802A5DD4
+48000000 802A5DD4
+80000000 00000000
+94210000 000003D0
+*Hold A when jumping to pause descend*
+*Tap A quickly to sprint*
+Code from eric Ntsc Usa Version*
+
+Button Activator
+
+WiiMote-NunChuck Player 1 [Crapulecorp]
+2837CDD2 YYYYZZZZ

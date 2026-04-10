@@ -1,0 +1,70 @@
+RE4P08
+Resident Evil Archives: Resident Evil
+
+No Poison [C|T]
+4A000000 80000000
+023F6757 00000000
+E0000000 80008000
+*can NOT be poisoned*
+
+MAX/Inf Pistol Ammo [C|T]
+4A000000 80000000
+003F675A 00000063
+E0000000 80008000
+*You have Maximum/Infinite Pistol Ammo on All SLOTs*
+
+MAX/Inf Shotgun Ammo [C|T]
+4A000000 80000000
+003F675C 00000063
+E0000000 80008000
+*You have Maximum Infinite Shotgun Ammo on All SLOTs*
+
+MAX/Inf Battle Shotgun Ammo [C|T]
+4A000000 80000000
+003F6760 00000063
+E0000000 80008000
+*You have Maximum Infinite Battle Shotgun Ammo on All SLOTs*
+
+MAX/Inf Magnum Ammo [C|T]
+4A000000 80000000
+003F675B 00000063
+E0000000 80008000
+*You have Maximum Infinite Magnum Ammo on All SLOTs*
+
+MAX/Inf Self Defense Pistol Ammo [C|T]
+4A000000 80000000
+003F6764 00000063
+E0000000 80008000
+*You have Maximum/Infinite Self Defense Pistol Ammo on All SLOTs*
+
+Complete Game (B+D-Pad Right On Wiimote) [Yamishira]
+28405D00 00000220
+003F900D 00000081
+*Be sure to press the buttons whilst ingame, and not in menus or cutscenes*
+
+1 Hit Kills [Yamishira]
+0410A43C 38600000
+
+Low Finishing Time [Yamishira]
+04401890 00000000
+
+Infinite Ammo [Yamishira]
+040E96C4 38030000
+
+Infinite Defence Weapons [Yamishira]
+003F8F9F 00000063
+003F8FA1 00000063
+04111514 38030000
+
+Infinite Health [Yamishira]
+0410A404 60000000
+
+Unlock Most Doors [Yamishira]
+043F9134 FFFFFFFF
+043F9138 FFFFFFFF
+043F913C FFFFFFFF
+
+Instant Crimson Heads After Zombie Death [Yamishira]
+2A3F90F8 00000001
+0440185C FFFFFFFF
+*Requires you to activate the first Crimson Head to function*

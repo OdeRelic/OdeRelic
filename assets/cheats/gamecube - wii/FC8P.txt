@@ -1,0 +1,38 @@
+FC8P
+Castlevania II: Simon's Quest
+
+Infinite Health [ninjor]
+0044CDE0 00000030
+
+256 Hearts [ninjor]
+0244CDA8 00005602
+
+Unlimited Lives [GMO]
+0044CD91 0000000A
+
+Max Exp [GMO]
+0244CDA6 00009999
+
+Have All Special Weapons [GMO]
+0044CDAA 000000FF
+
+Unlimited Laurels & Garlic (On Pickup) [GMO]
+0244CDAC 00000808
+
+Low Game Time (Always Morning) [GMO]
+0044CDE5 00000000
+0044CDE6 00000000
+
+Crystal Modifier [GMO]
+0044CDF1 000000??
+02 White
+04 Blue
+06 Red
+
+Whip Modifier [GMO]
+0044D194 000000??
+00 L.Whip
+01 T.Whip
+02 C.Whip
+03 M.Star
+04 F.Whip

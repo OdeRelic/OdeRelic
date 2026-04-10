@@ -1,0 +1,13 @@
+GC2E9G
+Conflict Desert Storm II 
+
+Infinite Health
+043E4F00 43160000
+0405EF1C C1A20000
+04063958 D1A30058
+
+Infinite Main Ammo
+040AD7F8 60000000
+
+Infinite Grenades
+040AD2D4 60000000

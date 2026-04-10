@@ -1,0 +1,56 @@
+RKAE6K
+Ultimate Shooting Collection
+
+KAROUS
+
+Infinite LIFE [g6flavor]
+00AB9160 0000003C
+
+Infinite Continue(s) [g6flavor]
+00A9A143 00000009
+
+RADIRGY
+
+Infinite LIFE [g6flavor]
+00AA3A50 00000005
+
+Infinite Continue(s) [g6flavor]
+00A89923 00000005
+
+CHAOS FIELD
+
+Infinite LIFE [g6flavor]
+00B806EB 00000005
+
+Infinite Continue(s) [g6flavor]
+00A831F3 00000009
+
+KAROUS
+
+Infinite LIFE [ZiT]
+04A443DC 60000000
+
+Infinite SP [ZiT]
+04A4783C 60000000
+
+RADIRGY
+
+Infinite LIFE [ZiT]
+04A3B474 60000000
+
+Infinite 網 [ZiT]
+04A3EE90 60000000
+
+Infinite 電 [ZiT]
+04BD7D60 000007D0
+
+CHAOS FIELD
+
+TIME STOP [ZiT]
+04A36344 D0240E3C
+
+Infinite LIFE [ZiT]
+04A43F48 60000000
+
+Infinite SP [ZiT]
+02C814C6 000003E8

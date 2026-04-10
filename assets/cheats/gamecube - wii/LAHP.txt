@@ -1,0 +1,9 @@
+LAHP
+Space Harrier
+
+Unlimited Lives [Crapulecorp]
+00D51C03 00000009
+
+Invincible [Crapulecorp]
+00D51C38 00000003
+*Code ported from ZiT Ntsc Jap Version*

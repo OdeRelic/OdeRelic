@@ -1,0 +1,33 @@
+GPHE52
+Pitfall The Lost Expedition 
+
+Infinite Health
+0407EF34 80030658
+0407EF38 60000000
+
+Unlock Pitfall
+0445D9B0 00000001
+
+Unlock Pitfall 2
+0445D9B4 00000001
+
+No Gravity (Objects Only)
+0445D998 00000001
+
+Low Gravity (Objects Only)
+0445D99C 00000001
+
+Play As Nicole
+0445D990 00000001
+
+Play As A Native
+0445D994 00000001
+
+Play As Pitfall Harry
+0445D9AC 00000001
+
+Slow Motion
+0445D9A0 00000001
+
+Hyper Mode
+0445D9A8 00000001

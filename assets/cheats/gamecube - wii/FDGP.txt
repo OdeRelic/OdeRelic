@@ -1,0 +1,48 @@
+FDGP
+Ghost-n-Goblins
+
+Unlimited Lives [Crapulecorp]
+00376815 00000009
+
+Invincibility [Crapulecorp]
+0039927C 00000000
+*Code ported from Thomas83Lin Ntsc Usa Version*
+
+Unlimited Time [Crapulecorp]
+003767FC 00000009
+*Code ported from Thomas83Lin Ntsc Usa Version*
+
+Weapon Modifer [Crapulecorp]
+0037663A 0000004X
+*Replace X for :
+0 Spear
+2 Knife
+4 fire ball
+F Shield*
+*Code ported from Thomas83Lin Ntsc Usa Version*
+
+MoonJump [Crapulecorp]
+281BCC82 FFEF0010
+00376707 00000004
+E0000000 80008000
+*Classic Controller*
+*Code ported from Thomas83Lin Ntsc Usa Version*
+
+Moon Jump (Press X) [Crapulecorp]
+2829DD70 FBFF0400
+00376707 00000004
+E0000000 80008000
+*GameCube Controller*
+*Code ported from Thomas83Lin Ntsc Usa Version*
+
+Stage Modifier [Crapulecorp]
+003761AC 0000000D
+*Code ported from Thomas83Lin Ntsc Usa Version*
+
+Button Activator
+
+Classic Controller [Crapulecorp]
+281BCC82 YYYYZZZZ
+
+GameCube Controller [Crapulecorp]
+2829DD70 YYYYZZZZ

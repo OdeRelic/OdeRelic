@@ -1,0 +1,52 @@
+FC8E
+Castlevania II: Simon's Quest
+
+Unlimited Lives [GMO]
+0044CA11 0000000A
+
+Max Exp [GMO]
+0244CA26 00009999
+
+Max Hearts [GMO]
+0244CA28 00009999
+
+Have All Special Items [GMO]
+0044CA2A 0000003F
+0044CA72 0000000F
+
+Have All Dracula Parts [GMO]
+0044CA71 0000007F
+
+Unlimited Laurels (Upon Pickup) [GMO]
+0044CA2C 00000008
+
+Unlimited Garlic (Upon Pickup) [GMO]
+0044CA2D 00000008
+Buy From Store
+
+Unlimited Laurel & Garlic (Upon Pickup) [GMO]
+0244CA2C 00000808
+
+Unlimited Health [GMO]
+0044CA60 00000040
+
+Low Game Time (Always Morning) [GMO]
+0044CA65 00000000
+0044CA66 00000000
+
+Crystal Modifier [GMO]
+0044CA71 000000??
+02 White
+04 Blue
+06 Red
+
+Whip Modifier [GMO]
+0044CE14 000000??
+00 L.Whip
+01 T.Whip
+02 C.Whip
+03 M.Star
+04 F.Whip
+
+Infinite Health [farjo08]
+0046D8CF 000000A5

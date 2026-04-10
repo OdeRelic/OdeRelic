@@ -1,0 +1,108 @@
+FCWE
+Super Mario Bros. 3
+
+Invincibility (Toggle with B trigger) [goemon_guy]
+0046DC73 000000FF
+28297A12 FBFF0400
+0046DC73 00000000
+CC000000 00000000
+0046DC73 000000FF
+E0000000 80008000
+
+Moon Jump [goemon_guy]
+28297A12 FEFF0100
+0046D7EF 000000CA
+E0000000 80008000
+
+Lost Level 1 [Sharkbyte]
+0048A6D8 00000028
+0248A72C 000018AF
+
+Lost Level 2 [Sharkbyte]
+0048A6D8 00000023
+0248A72C 000042B4
+
+Lost Level 3 [Sharkbyte]
+0048A6D8 00000024
+0248A72C 0000C4B0
+
+Lost Level 4 [Sharkbyte]
+0048A6D8 0000002D
+0248A72C 0000ABAD
+
+Lost Level 5 [Sharkbyte]
+004AD9E2 00000010
+
+Lost Level 7 [Sharkbyte]
+0048A6D8 00000022
+0248A72C 000054B7
+
+Lost Level 8 [Sharkbyte]
+0048A6D8 00000023
+0248A72C 0000DDB0
+
+Lost Level 9 [Sharkbyte]
+0048A6D8 0000002D
+0248A72C 0000A9AC
+
+Lost Level 13 [Sharkbyte]
+0048A6D8 00000024
+0248A72C 0000CDAD
+
+Lost Level 14 [Sharkbyte]
+0048A6D8 0000002C
+0248A72C 0000BAB7
+
+Lost Level 15 [Sharkbyte]
+0048A6D8 00000021
+0248A72C 00004CA7
+
+Debug Mode [Sharkbyte]
+004A1C75 000000CC
+Lost levels and Debug mode ported from ZiT's codes
+-Have only one level code on at a time
+-The world can be selected on the title screen.(up/down Button)
+-The number of Mario Lives is increased on the title screen.(2 Button)
+-Have all Items
+-Mario status change(- Button)
+
+Invincible [GMO]
+0046DC72 00000071
+
+Mario Suit Modifier [GMO]
+0046D80D 000000??
+00 Small Mario
+01 Big Mario
+02 Fireball Mario
+03 Leaf Mario
+04 Frog Suit
+05 Raccoon Suit
+06 Hammer Bro Suit
+
+Instant P Charge [GMO]
+0046DAFD 0000007F
+
+Hold B and Press Right on D-Pad for More Time [GMO]
+2820EE28 00000402
+0246DD0E 00000909
+E0000000 80008000
+
+Max Lives [GMO]
+0046DE56 00000063
+
+Max Coins/ Instant 1-Up [GMO]
+005B3062 00000063
+
+Have All Items [GMO]
+045B3040 01020304
+045B3044 05060708
+045B3048 090A0B0C
+
+Able to move anywhere on the map [legoagk101]
+00486571 000000A9
+004865F8 00000020
+Ported from the original game genie code,
+this works best with the d-pad,may stop working overtime
+
+Infinite Lives [farjo08]
+004AE3D3 000000BD

@@ -1,0 +1,9 @@
+SXAP52
+Guitar Hero World Tour
+
+Pull the wammybar to get full starpower [Romaap]
+24574A3C F8900000
+42000000 90000000
+04083FA0 42C80000
+E0000000 80008000
+Credits to SMGPlayer for the starpower address

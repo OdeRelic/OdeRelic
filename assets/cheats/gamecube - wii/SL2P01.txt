@@ -1,0 +1,198 @@
+SL2P01
+Project Zero 2
+
+infinite health [wiiztec]
+04123C54 60000000
+
+infinite film [wiiztec]
+040D5880 38600063
+
+invisible players toggle A+right on dpad [wiiztec]
+286CE70A 00000802
+0411BF14 4BF52111
+CC000000 00000001
+0411BF14 60000000
+E0000000 80008000
+off by default
+
+hold A to walk through walls & other obstructions [wiiztec]
+286CE70A F7FF0800
+041275A4 60000000
+286CE70B F7FF0000
+041275A4 4BFB32FD
+E0000000 80008000
+
+no minimap toggle 2 [wiiztec]
+286CE70A FEFF0100
+040D39B8 A89C0000
+CC000000 00000001
+040D39B8 38800000
+E0000000 80008000
+off by default
+
+infinite herbal medicine [wiiztec]
+045E46F4 00000063
+
+3 speed movement modifier [wiiztec]
+286CE70A DFFB2004
+0452BFCC 42610000
+0461F998 40C00000
+286CE70B DFFB2000
+0452BFCC 41E10000
+0461F998 3FA00000
+286CE70B 00000000
+0452BFCC 41C80000
+0461F998 3F800000
+E0000000 80008000
+walking is normal speed
+running is approx 1.5x speed
+running & holding down on the dpad is approx 6x speed
+
+robotic gait toggle A+left on dpad [wiiztec]
+286CE70A 00000801
+0452C074 3F800000
+CC000000 00000001
+0452C074 BF800000
+E0000000 80008000
+
+ghost players toggle Z+left on dpad [wiiztec]
+286CE70A 00002001
+0452C024 3F800000
+CC000000 00000001
+0452C024 3F000000
+E0000000 80008000
+off by default
+
+shadow players toggle Z+right on dpad [wiiztec]
+286CE70A 00002002
+04531FAC 3F800000
+CC000000 00000001
+04531FAC 40400000
+E0000000 80008000
+off by default
+
+no Mayu toggle HOME [wiiztec]
+286CE70A 00008000
+0411D1A8 4BF6A1D5
+CC000000 00000001
+0411D1A8 60000000
+E0000000 80008000
+off by default
+
+game camera zoom adjuster [wiiztec]
+C210FC60 00000002
+3D808000 618C2F50
+C02C0000 00000000
+82200007 80002F50
+286CE70A 00004008
+86900007 BC23D70A
+286CE70B 00004004
+86900007 3C23D70A
+E2000002 00000000
+84200007 80002F50
+286CE70A 00004800
+04002F50 3F800000
+286CE70B 00004001
+04002F50 3FA00000
+E0000000 80008000
+C+up on dpad zooms in
+C+down on dpad zooms out
+C+A resets to default zoom
+C+left on dpad resets to FF4 zoom
+
+camera obscura zoom [wiiztec]
+C2110C20 00000002
+3D808000 618C2F54
+C00C0000 00000000
+82200008 80002F54
+286CE70A 00002008
+86900008 BC75C28F
+286CE70B 00002004
+86900008 3C75C28F
+E2000002 00000000
+84200008 80002F54
+286CE70A 00006000
+04002F54 3F800000
+E0000000 80008000
+Z+up on dpad zooms in
+Z+down on dpad zooms out
+Z+C resets to default zoom
+
+no camera reload time [wiiztec]
+04117640 38000000
+
+always max shot [wiiztec]
+0411B718 60000000
+
+always fatal frame [wiiztec]
+C2128690 00000002
+3D808000 930C2F5C
+801802F4 00000000
+48000000 80002F5C
+DE000000 80008180
+100002F6 00000030
+E0000000 80008000
+
+no grain filter toggle C+right on dpad [wiiztec]
+286CE70A 00004002
+04050BB8 4BFFF6C5
+CC000000 00000001
+04050BB8 60000000
+E0000000 80008000
+off by default
+
+mio costume & accessory change [wiiztec]
+0461FE90 000000XX
+0461FE98 000000YY
+for values see http://wiird.l0nk.org/forum/index.php/topic,9584.msg80902.html#msg80902
+XX is costumes YY is accessories. swimsuits were removed
+
+mayu costume & accessory change [wiiztec]
+0461FE94 000000XX
+0461FE9C 000000YY
+for values see http://wiird.l0nk.org/forum/index.php/topic,9584.msg80902.html#msg80902
+XX is costumes YY is accessories. swimsuits were removed
+
+ghost list 100% completed [wiiztec]
+085E4950 00000002
+00EC0008 00000000
+ported from ukuneko
+
+invincibility toggle C+2 [wiiztec]
+286CE70A 00004100
+0411E9EC 7C001878
+CC000000 00000000
+0411E9EC 38000028
+E0000000 80008000
+on by default
+
+freeze puzzle timers [wiiztec]
+04245690 60000000
+
+disable ghost detector [wiiztec]
+04111B78 60000000
+04111C2C 60000000
+add a dash of stupid hard to your fatal frame
+the first line disables it on the camera screen the second disables it off the camera screen
+
+running is approx 1.5x speed
+
+running & holding down on the dpad is approx 6x speed
+
+running is approx 1.5x speed
+
+running & holding down on the dpad is approx 6x speed
+
+Infinite Upgrade Points [Apache81]
+0461DC3C 000F423F
+
+No Films Decrease [Apache81]
+040D5838 60000000
+
+No Healing Objects Decrease [Apache81]
+040D57B8 60000000
+040D57D4 60000000
+040D57D8 60000000
+
+Infinite Camera Spirit Orbs [Apache81]
+0461DF9B 0000000A

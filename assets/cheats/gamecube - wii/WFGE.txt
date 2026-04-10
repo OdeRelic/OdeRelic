@@ -1,0 +1,13 @@
+WFGE
+Frogger Returns
+
+Wiimote Button Activator [sLoddir]
+28181B92 0000XXXX
+
+Single Player Arcade Mode Score Modifier [sLoddir]
+041847DF XXXXXXXX
+*Replace XXXXXXXX with desired score in hex
+
+Single Player Arcade Mode Infinite Lives [sLoddir]
+041847F3 00000003
+*Locks lives @ 3, whenever a life is lost, value sticks at 3.

@@ -1,0 +1,18 @@
+W8CP
+Bit.Trip Core
+
+If Score Increase, MAX [Crapulecorp]
+C20A1600 00000002
+3D803B9B 380CCA00
+900D90CC 00000000
+*Code ported from ZiT Ntsc Jap Version*
+
+No Damage [Crapulecorp]
+0029827F 00000000
+00298153 00000000
+
+Mega Jauge Max [Crapulecorp]
+00298243 00000040
+
+Super Jauge Max [Crapulecorp]
+00298117 00000040

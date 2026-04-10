@@ -1,0 +1,1230 @@
+NARE
+The Legend of Zelda: Majora's Mask
+
+TLoZ: Link's Mask [Anarion]
+C20498E4 00000007
+9421FFF0 91610008
+A1FC0002 2C0F6BB0
+4082000C 3A0039A0
+B21C0002 2C0F39A0
+41820004 81610008
+38210010 807C0000
+60000000 00000000
+48000000 811164A0
+DE000000 80008180
+30F1D240 3F800000
+10F1D40C 00000001
+E0000000 80008000
+Skullkid wears an unused beta Link mask instead of Majora's Mask.
+
+Song of Time & Soaring Work Everywhere [Anarion]
+0131A8FB 00000000
+0531A8FC 00000000
+
+Soar To Any Location Instantly [Anarion]
+281BCB8A 00001000
+0131C475 00000014
+0331C37A 0000XXXX
+E0000000 80008000
+CCP: Press -
+X= Load point.
+Send me a message to provide you with the full list of load points.
+
+Link- Tunic Color Modifier v2 [Anarion]
+82200009 XXXXXXFF
+48000000 8131D0D4
+DE000000 80008180
+30F0A288 FA0000FF
+92210009 00F0A28C
+92210009 00F0A7B4
+92210009 00F0ACBC
+92210009 00F0AE94
+92210009 00F0AF54
+92210009 00F0B55C
+92210009 00F0B9D4
+92210009 00F0BC0C
+92210009 00F0C0DC
+E0000000 80008000
+This will only modify Link's tunic color. Code below modifies color of water and a few other things. X values below.
+
+Link- Tunic Color Modifier [Anarion]
+C206EB28 00000005
+3E40FA00 625200FF
+7C12F800 40820010
+3FC0XXXX 63DEXXZZ
+93DC0004 83DC0004
+60000000 00000000
+1E691B -Default Green
+FFFFFF -White
+000000 -Black
+X COLOR VALUES FOR CODES ABOVE @ www.2createawebsite.com/images/hex-co1.gif
+or generate your color of choice @ www.2createawebsite.com/build/hex-colors.html#colorgenerator
+Z=Transparency. Use FF for bold, use 00 for transparent.
+
+Load Song with Ocarina [Anarion]
+04A07B98 39E000XX
+When you play any of the ocarina songs, any game song will be played. Send me a message to provide you with the full list of songs.
+
+Remove Main Music Track [Anarion]
+0519B848 00000000
+0519B938 00000000
+
+Mute Link's Footsteps [Anarion]
+0111CCA0 0000000F
+
+Mute Enemies [Anarion]
+0111CCA3 0000000F
+
+Mute Tatl [Anarion]
+0111CCA2 0000000F
+
+Rainbow World [Anarion]
+0531AC2C 00000000
+0131AC3A 00000000
+
+Sky Modifier [Anarion]
+0531AC18 000Z0YXX
+Z: 1=gloomiest sky, 0=normal sky, no gloom
+Y: 1=No visible sun, 0=visible sun
+XX: Sky Status
+Any value from 0 to 1F works
+0F= Clear Blue Sky
+18= Starry night
+If gloom is used, XX effect will not be visible.
+
+Clearest Sky [Anarion]
+0131AC1D 0000000X
+1=Clearest sky
+0=normal sky
+If this code is used, above code will not have a visible effect.
+
+No Water Animation [Anarion]
+0531C440 00000000
+
+Remote Explosives [Anarion]
+48000000 813058D8
+DE000000 80008180
+14F1D228 010100FF
+12F1D2D0 000000FF
+281BCB8A 00000001
+14F1D228 00000000
+12F1D2D0 00000000
+E0000000 80008000
+CCP: Lightly press DPad UP to detonate bombs, bombchus & powder kegs on command!
+Then wait few seconds to hold DPad UP for reset.
+
+Bombchu Speed Modifier [Anarion]
+48000000 813058D8
+DE000000 80008180
+12F1D25C 0000XXXX
+E0000000 80008000
+X=Speed
+4100 -default bombchu speed
+Higher than 4100=faster speed, lower than 4100=slower speed
+
+Open All Doors [Anarion]
+05305A60 FFFFFFFF
+
+Open Certain Paths [Anarion]
+05305A58 FFFFFFFF
+like Milk Road, never blocked by boulder
+
+Mute Link [Anarion]
+0111CCA6 00000001
+No grunts
+
+No Underwater Timer [Anarion]
+04DD520C 60000000
+
+No Camera Letterbox [Anarion]
+051106B4 447A0000
+no letterbox before new day starts
+
+Modify Stone Tower [Anarion]
+01305A59 000000XX
+X: FF- upside down tower || 00- right side up
+
+Link Moveset Modifier [Anarion]
+0131CFDB 0000000X
+X Values
+0- Fierce Deity (caution when using)
+1- Goron
+2- Zora
+3- Deku
+4- Link
+5- Giant
+Caution when using this code! It has a 50% chance of freezing.
+
+Zora Shield [Anarion]
+0131D9F3 000000FF
+Does not use magic. Works on all Links. Remains infinite.
+
+Transition Modifier [Anarion]
+011106A5 000000XX
+X Values
+0- Circle from Center transition
+1- Triforce transition
+3- Fade in from White
+4- Fade in from Black
+6- Slow Fade in from Black
+7- Slow Fade in from White
+F- Haunted Wasteland transition
+
+Infinite Spin Attacks [Anarion]
+281BCB8A 00001080
+04ADCFCC 60000000
+CC000000 00000000
+04ADCFCC 90A70000
+E0000000 80008000
+Spin attack ring remains infinite. Creates a damaging shield around Link.
+CCP: Press Zl & - to turn on/off
+
+Rabid Swordsman [Anarion]
+281BCB8A 00003000
+CC000000 00000000
+0531D0E0 00000000
+E0000000 80008000
+Only useful for spin attacks since normal slashes don't register impact.
+CCP: Press L & - to turn on&off.
+
+Termina Lands Cleansed [Anarion]
+0510D65C FFFFFFFF
+0510D668 FFFFFFFF
+0510D67C FFFFFFFF
+0510D6A0 FFFFFFFF
+0510D680 FFFFFFFF
+0510D654 FFFFFFFF
+Instant boss defeat to clean lands.
+
+Spin Attack Learned [Anarion]
+0110D65F 00000002
+
+Instant Spin Attack Charge [Anarion]
+0531D998 3F800000
+
+Extended Magic Meter [Anarion]
+0110C791 00000001
+
+Doubled Strength [Anarion]
+0110C823 00000014
+Gives the white border around hearts to make enemies do half damage.
+
+Hide HUD [Anarion]
+0931A84C 00000000
+20040004 00000000
+
+No Blocking Guards [Anarion]
+0110D654 000000FF
+will still block deku link
+
+No Goron Blocking Snowhead [Anarion]
+0110D666 000000FF
+
+Link- Voice Modifier [Anarion]
+0331D8FA 0000XXXX
+X Values:
+8EC8 -Adult Link (Fierce Deity)
+9238 -Young Link
+915C -Deku Link
+8FA4 -Goron Link
+9080 -Zora Link
+
+Ocarina Sound Modifier [Anarion]
+010F4098 000000XX
+X Values:
+00 - no sound
+01 - Ocarina
+02 - Malon/Romani's voice
+03 - Impa's Whistle
+04 - Sheik's Harp
+05 - Igos Du Ikana
+06 - Tatl's Chime
+07 - Goron Link Drums
+08 - Zora Link Guitar (clean)
+09 - Deku Link Pipes
+0A - Monkey Voice
+0B - Deku Link Pipes (soft)
+0C - Goron Father's Drum
+0D - Indigo Gos Evan's Piano
+0E - Indigo Gos Japas' Bass
+0F - Baby Goron's Voice
+10 - Zora Link Guitar (distorted)
+
+Play Ocarina Without Taking It Out [Anarion]
+281C7F2A 00000001
+CC000000 00000000
+010F4094 00000001
+010F4098 00000001
+E0000000 80008000
+Classic Controller: D-Pad UP to turn on/off
+
+Instant Shield Modifier [Anarion]
+281BCB8A 00000001
+0131CFD4 00000001
+CC000000 00000000
+0131CFD4 00000002
+E0000000 80008000
+Press UP to change shields.
+
+Flow of Time Modifier [Anarion]
+281BCB8A 00000084
+0329F5E2 0000XXXX
+CC000000 00000000
+0329F5E2 0000XXXX
+E0000000 80008000
+CCP: Press both Z buttons
+Values 0001-7FFF = Forward Time Flow (time flows clockwise)
+Values 8000-FFFF = Reverse Time Flow (time flows counterclockwise)
+X= flow of time
+0000 - stops time countdown+removes timer
+0001 - slowest forward flow
+0002 - 1/2 default flow (Inverted Song of Time flow)
+0003 - default flow of time
+0004 - 2x default flow (Double Time flow)
+FFFF - slowest backward flow
+FFFE - 1/2 default backward flow (Inverted Song of Time flow)
+FFFD - default backward flow of time
+FFFC - 2x default backward flow (Double Time flow)
+
+Teleporter [Anarion]
+281BCB8A 00000082
+92210000 0131CEB4
+92210001 0131CEB8
+92210002 0131CEBC
+E0000000 80008000
+281BCB8A 00008080
+94210000 0131CEB4
+94210001 0131CEB8
+94210002 0131CEBC
+E0000000 80008000
+Classic Controller:
+Press Zleft&D-Pad LEFT to save current position.
+Press Zleft&D-Pad RIGHT to return to saved position.
+
+Epona- Teleporter [Anarion]
+281BCB8A 00004000
+92210003 01336D74
+92210004 01336D78
+92210005 01336D7C
+E0000000 80008000
+281BCB8A 00000001
+94210003 01336D74
+94210004 01336D78
+94210005 01336D7C
+E0000000 80008000
+Classic Controller:
+Press D-Pad DOWN to save current position.
+Press D-Pad UP to return to saved position.
+
+Epona- Moon Jump [Anarion]
+281BCB8A 00000001
+05336DB8 42200000
+E0000000 80008000
+Classic Controller: D-Pad UP
+
+Epona- Speed Modifier [Anarion]
+281BCB8A 00000080
+05336DC0 4YX00000
+E0000000 80008000
+Classic Controller- Hold Zleft
+Y Values : (cannot control horse with values 3-F)
+3-F*
+* These values are all warps where F is the furthest warp that will instantaneously place you facing a wall and 3 is the shortest warp.
+2~ - fastest running speed, cannot turn with this value
+*~ If using values with these symbols, use 0 as your X value!
+1 - value I recommend using to have control of the horse.
+X Values : (I recommend 5-7 since you will be able to turn)
+X can be anything from 0 to F. How to have control:
+The higher the X value goes, the more you will not be able to make smooth turns. Also, if you hold the control stick, the horse will turn left.
+To control properly, do not hold the control stick. Only move it left and right when you want to make a turn.
+
+Epona- Infinite Carrots [Anarion]
+05336F84 06000000
+When a carrot is used, the horse will remain at its increased speed.
+
+Flow of Time Modifier 2 [Anarion]
+281BCB8A 00000084
+0510C764 XXXXXXXX
+CC000000 00000000
+0510C764 XXXXXXXX
+E0000000 80008000
+CCP: Press both Z buttons
+Same thing as code above. Difference being this can't rewind time.
+FFFFFFFE - Inverted Song of Time flow
+00000000 - Normal/Default time flow
+
+All Owl Statues Activated [Anarion]
+0510C794 FFFFFFFF
+
+Full Termina Map [Anarion]
+0310D6B2 0000FFFF
+0310D6AE 0000FFFF
+0910D5F8 FFFFFFFF
+20020004 00000000
+
+Have Magic Meter [Anarion]
+0110C790 00000001
+
+No Magic Usage [Anarion]
+03110678 00000000
+Certain things that use magic will not diminish the meter.
+
+Infinite Blue Magic Meter [Anarion]
+0110D656 000000FF
+~code also activates the Ikana Canyon Music Box house.
+
+Load Lens of Truth Effect [Anarion]
+281BCB8A 00008000
+013058A3 00000001
+CC000000 00000000
+013058A3 00000000
+E0000000 80008000
+Won't need Lens of Truth item with this. Won't use magic power.
+Classic Controller: D-Pad RIGHT to turn on & off.
+
+Never Get Jinxed [Anarion]
+0310D766 00000000
+
+Remove Black Bars When Targeting [Anarion]
+05113C20 00000000
+
+Infinite Health [Anarion]
+0310C786 00000FFF
+
+Heart Meter Modifier [Anarion]
+0310C784 00000XX0
+X= # of hearts in your meter
+14= 20hearts || 28= maximum hearts
+
+Skulltula House Completion- Southern Swamp [Anarion]
+0110D611 00000032
+
+Skulltula House Completion- Great Bay [Anarion]
+0110D613 00000032
+For the two codes above, kill one skulltula and get the token to complete.
+
+Infinite Magic [Anarion]
+0310C788 00000160
+
+Infinite Rupees [Anarion]
+0310C78A 000003E7
+Large wallet not needed with this code. Your rupees will be 999. 999 rupees will show as 99 unless you have an adult/giant wallet.
+
+No Rupee Loss [Anarion]
+04DD3AFC 60000000
+on spending
+
+"Spending" Increases Rupees [Anarion]
+04DD3AEC 3AAE0001
+As long as you have enough rupees to spend, instead of spending you will gain that amount.
+
+Endless Storm [Anarion]
+281BCB8A 00000001
+0531ACF8 0000XX00
+0531ACF4 000000ZZ
+E0000000 80008000
+281BCB8A 00000002
+0531ACF8 00000000
+0531ACF4 00000000
+E0000000 80008000
+Classic Controller: Activate D-Pad UP || Deactivate D-Pad LEFT
+X Values= Storm Effect?: 3C= default value || FF= highest value
+Z Values= Amount of rain: 24= highest game default || FF= highest amount possible
+
+Active File Name Changer [Anarion]
+0510C77C SSTTUUVV
+0510C780 WWXXYYZZ
+
+File1 Name Changer [Anarion]
+05328014 SSTTUUVV
+05328018 WWXXYYZZ
+
+File2 Name Changer [Anarion]
+0532801C SSTTUUVV
+05328020 WWXXYYZZ
+Character Values For Codes Above:
+0A - A
+0B - B
+0C - C
+0D - D
+0E - E
+0F - F
+10 - G
+11 - H
+12 - I
+13 - J
+14 - K
+15 - L
+16 - M
+17 - N
+18 - O
+19 - P
+1A - Q
+1B - R
+1C - S
+1D - T
+1E - U
+1F - V
+20 - W
+
+21 - X
+22 - Y
+23 - Z
+24 - a
+25 - b
+26 - c
+27 - d
+28 - e
+29 - f
+2A - g
+2B - h
+2C - i
+2D - j
+2E - k
+2F - l
+30 - m
+31 - n
+32 - o
+33 - p
+34 - q
+35 - r
+36 - s
+37 - t
+38 - u
+39 - v
+3A - w
+3B - x
+3C - y
+3D - z
+00 - 0
+01 - 1
+02 - 2
+03 - 3
+04 - 4
+05 - 5
+06 - 6
+07 - 7
+08 - 8
+09 - 9
+40 - period
+3F - dash
+3E - space
+
+Viewing Zoom Modifier [Anarion]
+281BCB8A 00000004
+05303F1C XXXXXXXX
+0131D935 00000001
+CC000000 00000000
+05303F1C 42700000
+0131D935 00000000
+E0000000 80008000
+Classic Controller: Press Zright to turn on&off.
+X Values:
+00000000 - maximum zoom
+the smaller the value used, the greater the zoom will be.
+the larger the value used, the smaller the zoom will be.
+
+No Area Name Title [Anarion]
+04DD0260 60000000
+
+1-Handed Fierce Deity Sword [Anarion]
+2131CFD8 50000600
+0131FCDF 00000000
+E0000000 80008000
+2131CFD8 10010604
+0131FCDF 00000000
+E0000000 80008000
+Hold sword with 1 hand. also works on Great Fairy's sword
+
+No Blur [Anarion]
+01113EDD 00000000
+010DDFA5 00000000
+
+Ocarina Songs Load Game Music [Anarion]
+0111D42B 000000XX
+When you play any of the ocarina songs, any game song will be played. Send me a message to provide you with the full list of songs.
+
+Use Items Anywhere [Anarion]
+0131A8F7 00000000
+Additional line to be used with Hetoan2's "Any Item Can Be Used Anywhere"
+
+Music and sfx play backwards [CosmoCortney]
+051205D4 C0100000
+
+No Textures [CosmoCortney]
+041FCBD8 00000000
+
+Link does not do any movement while standing still [CosmoCortney]
+0531D0F8 40204020
+
+Character Codes
+
+No Real Bombchus [Anarion]
+2934365E 00000061
+053436D0 0000FFFF
+053439A0 0000FFFF
+05344A80 0000FFFF
+05343C70 0000FFFF
+053444E0 0000FFFF
+05344210 0000FFFF
+053447B0 0000FFFF
+05343F40 0000FFFF
+05344D50 0000FFFF
+E0000000 80008000
+2935D74E 00000061
+0535D7C0 0000FFFF
+0535DD60 0000FFFF
+0535DA90 0000FFFF
+E0000000 80008000
+
+No Moon [Anarion]
+48000000 8144A98C
+DE000000 80008180
+14F1C334 00000000
+E0000000 80008000
+48000000 810CF040
+DE000000 80008180
+14F20204 00000000
+E0000000 80008000
+2132D290 017C0700
+0532D294 00000000
+E0000000 80008000
+21336EE0 017C0700
+05336EE4 00000000
+E0000000 80008000
+21337140 017C0700
+05337144 00000000
+E0000000 80008000
+2138D9D0 017C0700
+0538D9D4 00000000
+E0000000 80008000
+When using this code, you will not be able to travel to the moon. Instead, when calling the giants, you will spawn outside West Clock Town and when you load a new area, the day will be back at 1.
+
+SkullKid- Size Modifier [Anarion]
+48000000 811164A0
+DE000000 80008180
+30F1D240 3F800000
+18F1D138 XXXXXXXX
+20020004 00000000
+E0000000 80008000
+
+HappyMask Salesman- Size Modifier [Anarion]
+48000000 810CF760
+DE000000 80008180
+18F1F488 XXXXXXXX
+20020004 00000000
+E0000000 80008000
+X-3C23D70A -default size
+
+ClockTown Dog Size Modifier [Anarion]
+21349DC4 8042A5D8
+09349CD8 XXXXXXXX
+20020004 00000000
+E0000000 80008000
+X=Size: Default=3BF5C28F
+
+Tatl- Size Modifier [Anarion]
+48000000 810CC2C0
+DE000000 80008180
+18F21C98 XXXXXXXX
+20020004 00000000
+E0000000 80008000
+X Values:
+00000000 - smallest tatl size
+3C03126F - default tatl size
+3E000000 - largest visible size
+
+No ClockTown Dog [Anarion]
+21349DC4 8042A5D8
+05349CF8 45000000
+E0000000 80008000
+
+Tatl Hides [Anarion]
+48000000 810CC2C0
+DE000000 80008180
+12F21E9C 00000000
+E0000000 80008000
+
+No Tatl [Anarion]
+48000000 810CC2C0
+DE000000 80008180
+14F21CA8 45000000
+E0000000 80008000
+You can still Z/L-target
+
+Tatl Movement Speed [Anarion]
+48000000 810CC2C0
+DE000000 80008180
+12F21E90 0000XXXX
+E0000000 80008000
+Default-40A0
+
+Tatl Color Modifier [Anarion]
+48000000 810CC2C0
+DE000000 80008180
+12F21E1C 0000XXXX
+12F21E20 0000YYYY
+12F21E24 0000ZZZZ
+12F21E28 0000TTTT
+12F21E2C 0000xxxx
+12F21E30 0000yyyy
+12F21E34 0000zzzz
+E0000000 80008000
+XYZ=Color Values for fairy body
+T=Transparency
+xyz=Color values for fairy glow
+WHITE(default): X=437F||Y=437F||Z=4366||T=437F||x=435C||y=4320||z=42A0
+BLUE: X=4316||Y=4316||Z=437F||T=437F||x=4316||y=4316||z=437F
+GREEN: X=0000||Y=437F||Z=0000||T=437F||x=0000||y=437F||z=0000
+YELLOW: X=437F||Y=437F||Z=0000||T=437F||x=4348||y=431B||z=0000
+RED: X=437F||Y=0000||Z=0000||T=437F||x=4348||y=42A0||z=42A0
+BLACK: Use FFFF for XYZ&xyz. Use 437F for T.
+
+Side-Quest Codes
+
+Ocarina Retrieval Quest Completion [Anarion]
+0510D6A4 FFFFFFFF
+The very first quest of the game.
+
+Kafei&Anju Quest Completion [Anarion]
+0510D678 FFFFFFFF
+Since this code sets the completion to 100%, you will ONLY see both of them in Anju's room on the 3rd day, and anyone else involved in this quest where they would be on the 3rd day.
+
+Instant day change [ukuneko]
+C2B2F6A4 00000013
+3F8080F2 A2BCB5B0
+61573FC0 2C150061
+4082000C 3A600000
+4800005C 2C150068
+4082000C 3A600001
+4800004C 2C150062
+4082000C 3A600002
+4800003C 2C150064
+4082000C 3A600004
+4800002C 6157BFC0
+615A4000 2C150102
+40820024 7C19D000
+4180001C 615AC000
+7C19D000 41810010
+48000008 9A67001B
+7EF9BB78 B327000C
+3FC080B2 63DEF6A8
+7FC903A6 4E800420
+60000000 00000000
+***GCN Controller
+Go to 1st AM6 ***Pressing/Holding L&R +(D-pad)Left
+Go to 2nd AM6 ***Pressing/Holding L&R +(D-pad)Up
+Go to Final AM6 ***Pressing/Holding L&R +(D-pad)Right
+Go to New ***Pressing/Holding L&R +(D-pad)Down
+(The taken item doesn't disappear even if the day goes back.)
+Go to PM6 ***Pressing/Holding A +(D-pad)Right
+(This code works between from AM6 to PM6.)
+
+Link Size Modifier [Mathew_Wi]
+28F1B5B0 FFF70008
+0531CEE8 3CF3D70A
+0531CEEC 3CF3D70A
+0531CEF0 3CF3D70A
+E0000000 80008000
+28F1B5B0 FFFE0001
+0531CEE8 3C23D70A
+0531CEEC 3C23D70A
+0531CEF0 3C23D70A
+E0000000 80008000
+28F1B5B0 FFFB0004
+0531CEE8 3B23D70A
+0531CEEC 3B23D70A
+0531CEF0 3B23D70A
+E0000000 80008000
+Gamecube controller:
+Up for large.
+Left for normal.
+Down for small.
+MAY FREEZE IF USING ZORA FINS!
+
+Super Speed [Mathew_Wi]
+22F1B560 00000000
+0531D960 41FF0000
+E0000000 80008000
+
+Max Items [Mathew_Wi]
+0510C7F0 001E0000
+0110C7F9 00000063
+0110C7F8 00000063
+0110C7FA 00000063
+0110C7FC 00000063
+0110C7F7 00000063
+0110C7F6 00000063
+99 of all items but arrows
+
+Moon Jump (DPAD UP) (GC Controller) (hetoan2) [Mathew_Wi]
+28F1B5B0 FFF70008
+0331CEF8 000040CB
+E0000000 80008000
+This is hetoan2's code with a different activator.
+Useful for code downloaders on Wii.
+
+Instant Spike/No Magic Goron Spin [James0x57]
+2731D974 00000034
+0531D974 00000034
+20E3A8DD 8B67F6A9
+04E3A8DC 3B600030
+04E3C554 3A600030
+04B1E2AC 60000000
+04B1DFE0 60000000
+E2000001 80008000
+
+Can throw infinite bombs [James0x57]
+013058D7 00000000
+
+Chaos Control Code [James0x57]
+48000000 80003A00
+DE000000 80008180
+3000000C 7E75A038
+281BCB8A 9FFF4000
+66000001 00000000
+28F1B5B1 FFBB0004
+14000000 3A800080
+140560C8 48000008
+04003A20 04071987
+281BCB8B FFFE0001
+66000001 00000000
+28F1B5B1 FFF70008
+14000000 82870A6C
+140560C8 7C0C5000
+E2000001 00000000
+66000013 00000000
+E0000000 80008000
+C0000000 00000011
+3E008000 3A103A00
+BF300004 3F208090
+3F4080C0 3B60000B
+3F807F66 3B9C43A0
+3FA00000 3FC00000
+7C1DD800 41820018
+83F90000 7FDEFA78
+3B390004 3BBD0001
+4BFFFFE8 1FBBFFFC
+7C1EE000 4182002C
+7C19D000 4080001C
+7FF9E82E 7FDEFA78
+83F90000 7FDEFA78
+3B390004 4BFFFFDC
+7E198378 48000008
+3B39FFFC 93300000
+BB300004 4E800020
+E0000000 80008000
+Press Down on the Dpad (GCN or Classic) to stop everything and walk in frozen time. Press Up to return.
+Almost nothing moves; flames, dogs bombs you throw, it all stops in time.
+It also removes collisions with most objects/enimies. You can walk right through their frozen bodies and take off.
+"Currently" you cannot ride epona (she stops too) and you cannot hit/kill enimies.
+
+Center Camera Hack [James0x57]
+48000000 81700020
+5A010000 FFFFFFDC
+DE000000 80008180
+30000000 7CEF4214
+14000004 60000000
+2131D8FC 00018000
+14000004 81870A6C
+E2000001 00000000
+66000013 00000000
+E0000000 80008000
+C0000000 00000011
+3E008170 3A100020
+BF300004 3F2080B0
+3F4080D8 3B600009
+3F803BE0 3B9C1089
+3FA00000 3FC00000
+7C1DD800 41820018
+83F90000 7FDEFA78
+3B390004 3BBD0001
+4BFFFFE8 1FBBFFFC
+7C1EE000 4182002C
+7C19D000 4080001C
+7FF9E82E 7FDEFA78
+83F90000 7FDEFA78
+3B390004 4BFFFFDC
+7E198378 48000008
+3B39FFFC 93300000
+BB300004 4E800020
+E0000000 80008000
+28F1B5B0 00000040
+66000001 00000000
+281BCB8B 00002000
+C0000000 00000007
+3E008170 BF300004
+3F208130 3B393E64
+3F608132 3B7BD964
+A39B0000 B39B0002
+9399005C 3B9C8000
+B3990002 BB300004
+4E800020 00000000
+E2000001 00000000
+Pressing/Holding L (GCN or Classic) to center the camera doesn't stop your normal movement.
+It, IMO, significantly improves the camera control.
+The code has no effect if you're actually targeting something rather than just trying to center the camera.
+
+Drop through floor [James0x57]
+2931D8FC 00FF8000
+0131D8FC 00000000
+28F1B5E3 00000100
+0131D8FC 00000080
+E0000000 80008000
+Press '2' on the Wii Remote to drop through a floor. If you fall out of bounds you often get placed into the Mayor's House.
+
+Mini Game Timer Pause [James0x57]
+4A000000 81110520
+3C000004 00FF0200
+10000004 00000003
+5A010000 00000020
+6600000A 00000000
+3C000001 FF000002
+10000001 00000003
+5A010000 00000008
+66000006 00000000
+3C000003 FF000002
+10000003 00000003
+5A010000 00000018
+66000002 00000000
+E2000001 00000000
+6600000C 00000000
+92210001 00000014
+20003A20 00000000
+86000001 FFFFFFFB
+E2000001 00000000
+94210001 0000004C
+3400004C 00057E3F
+66000001 00000000
+3600004D 00000001
+14000014 00000000
+1400004C 00000000
+05110520 00000000
+05110524 00000000
+E0000000 80008000
+281BCB8A 9FFF6000
+66000001 00000000
+28F1B5B1 FFBB0044
+04003A20 04071987
+281BCB8B DFFE2001
+66000001 00000000
+28F1B5B1 FFB70048
+04003A20 00000000
+E2000001 00000000
+L+Down to stop timer, L+Up to resume timer. (GCN and clasic)
+Works on Treasure Shop, Honey & Darling Shop, The 5 Min Timer with SkullKid ontop the clocktower, and the Clocktown Shooting Gallery.
+It works on the Swap Shooting Gallery too but the mini game continues even though the timer has stopped.
+I don't know of any other timers. If you find one it doesn't work for, let me know and I'll add it.
+
+Fast Forward and Rewind time [James0x57]
+82110000 0110C75C
+281BCB8A 7FFF8000
+66000001 00000000
+28F1B5B1 FFFD0002
+86000000 0000000F
+281BCB8B FFFD0002
+66000001 00000000
+28F1B5B1 FFFE0001
+86000000 FFFFFFF0
+E2000001 00000000
+84110000 0110C75C
+Left on the dpad to rewind, right to fast forward.
+(GCN and Clasic) Do not rewind to the previous day.
+
+Have all Masks [James0x57]
+0710C7D8 00000018
+3E384745 40323A46
+39424833 3C3D373F
+36344341 3B444935
+Ported + Values from Codejunkies.com
+
+Have 5000 Rupees in the bank [James0x57]
+0510D62C 00001388
+Doesn't allow you to get the heart piece or wallet.
+
+Have Map/Compass/Big Key [James0x57]
+0510C810 07070707
+Original By Codejunkies.com, ported by James0x57
+
+Infinite Small Keys [James0x57]
+0110C81A 00030009
+Original By Codejunkies.com, ported by James0x57
+
+Have All Stray Fairies [James0x57]
+0510C824 0F0F0F0F
+Original By Codejunkies.com, ported by James0x57
+
+Button Activator(Wired + Wavebird Gamecube Controllers) [REDSOXROX]
+28F1B5B0 XXXXXXXX
+Add this in front of a code after adding a button value to make the code activate when you press that/those buttons. Example: Press L to activate following code: 28F1B5B0 00000040/Press only L and no other buttons: 28F1B5B0 FFBF0040 EX.hetoan2's moonjump (Press L) code becomes: 28F1B5B0 00000040 0331CEF8 000040CB E0000000 80008000 for GC. NOTE: Thank you to TwilightErik for telling me this button activator also works with wireless Gamecube controllers!
+
+Have Mirror Shield [hetoan2]
+0110C7BD 00000021
+
+Infinite Bombs and Bombchus [hetoan2]
+0110C7F6 00010028
+
+Infinite Deku Items and Magic Beans [hetoan2]
+0510C7F8 0A146300
+
+Infinite Powder Kegs [hetoan2]
+0110C7FC 00000001
+
+Collect Menu Full [hetoan2]
+0310C80A 0000201B
+0510C80E 000DF7CF
+
+Have Ocarina [hetoan2]
+0110C7C0 00000000
+
+Have Bombs [hetoan2]
+0110C7C6 00000006
+
+Have Bombchus [hetoan2]
+0110C7C7 00000007
+
+Have Deku Sticks [hetoan2]
+0110C7C8 00000008
+
+Have Deku Seeds [hetoan2]
+0110C7C9 00000009
+
+Have Magic Beans [hetoan2]
+0110C7CA 0000000A
+
+Have Powdered Keg [hetoan2]
+0110C7CC 0000000C
+
+Have Pictobox [hetoan2]
+0110C7CD 0000000D
+
+Have Lens of Truth [hetoan2]
+0110C7CE 0000000E
+
+Have Hookshot [hetoan2]
+0110C7CF 0000000F
+
+Have Great Fairy Sword [hetoan2]
+0110C7D0 00000010
+
+Event Item Slot 1 Modifier [hetoan2]
+0110C7C5 000000XX
+
+Event Item Slot 2 Modifier [hetoan2]
+0110C7CB 000000XX
+
+Event Item Slot 3 Modifier [hetoan2]
+0110C7D1 000000XX
+
+Have Arrows [hetoan2]
+0110C7C1 00000001
+
+Have Fire Arrows [hetoan2]
+0110C7C2 00000002
+
+Have Ice Arrows [hetoan2]
+0110C7C3 00000003
+
+Have Light Arrows [hetoan2]
+0110C7C4 00000004
+
+6x Chateau Romani [hetoan2]
+0110C7D2 00050025
+
+Day Modifier [hetoan2]
+0110C76B 0000000X
+X can be 1 - 4, where 4 is a new day (no people in town, used in end of game) and 1 is day 1.
+
+Have Postman's Hat [hetoan2]
+0110C7D8 0000003E
+
+All Night Mask [hetoan2]
+0110C7D9 00000038
+
+Blast Mask [hetoan2]
+0110C7DA 00000047
+
+Stone Mask [hetoan2]
+0110C7DB 00000045
+
+Great Fairy Mask [hetoan2]
+0110C7DC 00000040
+
+Keaton Mask [hetoan2]
+0110C7DE 0000003A
+
+Bremen Mask [hetoan2]
+0110C7DF 00000046
+
+Bunny Hood [hetoan2]
+0110C7E0 00000039
+
+Don Gero's Mask [hetoan2]
+0110C7E1 00000042
+
+Mask of Scents [hetoan2]
+0110C7E2 00000048
+
+Romani's Mask [hetoan2]
+0110C7E4 0000003C
+
+Circus Leader's Mask [hetoan2]
+0110C7E5 0000003D
+
+Kafei's Mask [hetoan2]
+0110C7E6 00000037
+
+Couple's Mask [hetoan2]
+0110C7E7 0000003F
+
+Mask of Truth [hetoan2]
+0110C7E8 00000036
+
+Kamaro's Mask [hetoan2]
+0110C7EA 00000043
+
+Gibdo Mask [hetoan2]
+0110C7EB 00000041
+
+Garo's Mask [hetoan2]
+0110C7EC 0000003B
+
+Captain's Hat [hetoan2]
+0110C7ED 00000044
+
+Giant's Mask [hetoan2]
+0110C7EE 00000049
+
+Have Deku Mask [hetoan2]
+0110C7DD 00000032
+
+Have Goron Mask [hetoan2]
+0110C7E3 00000033
+
+Have Zora Mask [hetoan2]
+0110C7E9 00000034
+
+Have Fierce Diety Mask [hetoan2]
+0110C7EF 00000035
+
+Any Item can be used anywhere [hetoan2]
+05110668 00000000
+
+Have Mirror Shield [hetoan2]
+0110C7BD 00000021
+
+Infinite Bombs and Bombchus [hetoan2]
+0110C7F6 00010028
+
+Infinite Deku Items and Magic Beans [hetoan2]
+0510C7F8 0A146300
+
+Infinite Powder Kegs [hetoan2]
+0110C7FC 00000001
+
+Collect Menu Full [hetoan2]
+0310C80A 0000201B
+0510C80E 000DF7CF
+
+Have Ocarina
+
+Great Fairy Sword on B button [hetoan2]
+0110C79C 00000050
+
+Hour Modifier [hetoan2]
+0310C75C 0000XXXX
+
+Time Freezer (L button classic controller) [hetoan2]
+281BCB8A 00002000
+04B2F6B0 60000000
+281BCB8A 20000000
+04B2F6B0 A3470032
+E0000000 80008000
+
+Link Is... [hetoan2]
+0110C770 0000000X
+X values:
+0 - fierce deity
+1 - deku
+2 - goron
+3 - zora
+
+Moon Jump (press L, classic only) [hetoan2]
+281BCB8A 00002000
+0331CEF8 000040CB
+E0000000 80008000
+
+Level Modifier Beta [hetoan2]
+0110C752 000000XX
+
+Universal Codes for The Legend of Zelda: Majora's Mask
+
+Walk Through Walls [Mathew_Wi]
+48000000 817000A0
+DE000000 80008180
+30000000 B3470090
+D2000000 00000001
+3B4040F0 00000000
+66000013 00000000
+E0000000 80008000
+C0000000 00000012
+3E008170 3A1000A0
+BF300004 3F2080AE
+3F4080AF 3B600005
+3F80509E 639C0A68
+3FA00000 3FC00000
+7C1DD800 41820018
+83F90000 7FDEFA78
+3B390004 3BBD0001
+4BFFFFE8 1FBBFFFC
+7C1EE000 4182002C
+7C19D000 4080001C
+7FF9E82E 7FDEFA78
+83F90000 7FDEFA78
+3B390004 4BFFFFDC
+7E198378 48000008
+3B39FFFC 93300000
+BB300004 4E800020
+4E800020 00000000
+E0000000 80008000
+Allows you to walk through walls/doors/rocks/etc.
+Thanks to James0x57!
+
+Jesus Mode [James0x57]
+48000000 80003A30
+5A010000 FFFFFFDC
+DE000000 80008180
+30000000 7274FF79
+D2000010 00000008
+3F808000 3B9C3A2C
+C167008C C1FC0000
+4E000000 FC0B7840
+C1E3015C 40810010
+C167010C FC0B7840
+40800008 FD607890
+D1670088 4C100000
+60000000 00000000
+66000013 00000000
+E0000000 80008000
+C0000000 00000011
+3E008000 3A103A30
+BF300004 3F208098
+3F4080C0 3B600009
+3F805825 3B9C0BF4
+3FA00000 3FC00000
+7C1DD800 41820018
+83F90000 7FDEFA78
+3B390004 3BBD0001
+4BFFFFE8 1FBBFFFC
+7C1EE000 4182002C
+7C19D000 4080001C
+7FF9E82E 7FDEFA78
+83F90000 7FDEFA78
+3B390004 4BFFFFDC
+7E198378 48000008
+3B39FFFC 93300000
+BB300004 4E800020
+E0000000 80008000
+a.k.a. Walk On Water. Works on any region (and probably injects too).
+Add this line "04003A2C 45027000" under an activator to disable it.
+To re-activate it, use "04003A2C C0F00000" under a different activator.

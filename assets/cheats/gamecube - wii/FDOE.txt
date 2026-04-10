@@ -1,0 +1,11 @@
+FDOE
+Operation Wolf
+
+Always have rapid fire item [Sharkbyte]
+04390874 00011109
+
+Inf Ammo [Thomas83Lin]
+04390870 09090909
+
+Inf health [Thomas83Lin]
+00390851 00000000

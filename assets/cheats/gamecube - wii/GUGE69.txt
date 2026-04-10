@@ -1,0 +1,41 @@
+GUGE69
+Need For Speed Underground 2
+
+Drift 99 Laps [Sgt.Ghost]
+043BC3B0 10D80063
+
+Inf.Nos [Sgt.Ghost]
+C21AAD48 00000002
+3C003800 600003E7
+9003042C 00000000
+
+Unlock Everything Career Only [Sgt.Ghost]
+083C2484 FFFFFFFF
+20DF0004 00000000
+*Except Carbon Fiber Trunk/Custom Body/Lvl 3 Performance/Lvl 2-3 Paint and Cars + others*
+
+Screen Size [Sgt.Ghost]
+043BC250 3F000000
+*Default is 3F570A3D
+*Permanent if Saved*
+
+No Race/Shop on map [Sgt.Ghost]
+083BC000 02020202
+20030004 00000000
+*Default is 01010101
+*Permanent if Saved*
+
+Stage 1 Reputation [Sgt.Ghost]
+043BAC4C XXXXXXXX
+*X values = Hex - Float
+
+Stage 1 Reputation Per Race [Sgt.Ghost]
+0441F308 XXXXXXXX
+*X values = Hex - Float
+*Complete one race to take effect
+
+No Money Spent [Sgt.Ghost]
+043C2808 00000000
+
+Inf. Bank Credits [777eThOd*]
+043BA8C0 2E5BF271

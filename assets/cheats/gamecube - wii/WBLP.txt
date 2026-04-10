@@ -1,0 +1,10 @@
+WBLP
+Bubble Bobble Plus!
+
+Unlimited Lives [Crapulecorp]
+0039E6B0 00000002
+*Code ported from GMO Ntsc Usa Version*
+
+Max Score [Crapulecorp]
+0439E694 0098967F
+*Code ported from GMO Ntsc Usa Version*

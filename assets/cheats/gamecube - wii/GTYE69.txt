@@ -1,0 +1,261 @@
+GTYE69
+TY The Tasmanian Tiger
+
+Max Lives
+006C95DC 00000001
+
+Infinite Health
+0226B2DA 00000004
+
+Infinite Air
+0226B2FE 00000008
+
+Swim Learned
+006C95C0 00000001
+
+Dual Boomerangs
+006C95C2 00000001
+
+Have Flamerang
+006C95C6 00000001
+
+Have Kaboomerang
+006C95C7 00000001
+
+Have Doomerang
+006C95C8 00000001
+
+Have Aquarangs
+006C95CD 00000001
+
+Have Multirangs
+006C95CE 00000001
+
+Have Chronorangs
+006C95CF 00000001
+
+D-Pad Up=300 Opals (In Level)
+2836F720 00000008
+022B1BF2 0000012C
+E2000001 80008000
+
+D-Pad Down=25 Scales (Out Of Level)
+2836F720 00000004
+022B1BF2 00000019
+E2000001 80008000
+
+Have Everything-Two Up
+006C8D04 16000001
+
+Two Up-Task 1 Complete
+006C8D04 00000001
+
+Two Up-Task 2 Complete
+006C8D05 00000001
+
+Two Up-Task 3 Complete
+006C8D06 00000001
+
+Two Up-Task 4 Complete
+006C8D07 00000001
+
+Two Up-Task 5 Complete
+006C8D08 00000001
+
+Two Up-Task 6 Complete
+006C8D09 00000001
+
+Two Up-Task 7 Complete
+006C8D0A 00000001
+
+Two Up-Task 8 Complete
+006C8D0B 00000001
+
+Two Up-Have Gold Cog 1
+006C8D0C 00000001
+
+Two Up-Have Gold Cog 2
+006C8D0D 00000001
+
+Two Up-Have Gold Cog 3
+006C8D0E 00000001
+
+Two Up-Have Gold Cog 4
+006C8D0F 00000001
+
+Two Up-Have Gold Cog 5
+006C8D10 00000001
+
+Two Up-Have Gold Cog 6
+006C8D11 00000001
+
+Two Up-Have Gold Cog 7
+006C8D12 00000001
+
+Two Up-Have Gold Cog 8
+006C8D13 00000001
+
+Two Up-Have Gold Cog 9
+006C8D14 00000001
+
+Two Up-Have Gold Cog 10
+006C8D15 00000001
+
+Two Up-Have Bilbie 1
+006C8D16 00000001
+
+Two Up-Have Bilbie 2
+006C8D17 00000001
+
+Two Up-Have Bilbie 3
+006C8D18 00000001
+
+Two Up-Have Bilbie 4
+006C8D19 00000001
+
+Two Up-Have Bilbie 5
+006C8D1A 00000001
+
+Have Everything-Walk In The Park
+006C8D74 16000001
+
+Walk In The Park-Task 1 Complete
+006C8D74 00000001
+
+Walk In The Park-Task 2 Complete
+006C8D75 00000001
+
+Walk In The Park-Task 3 Complete
+006C8D76 00000001
+
+Walk In The Park-Task 4 Complete
+006C8D77 00000001
+
+Walk In The Park-Task 5 Complete
+006C8D78 00000001
+
+Walk In The Park-Task 6 Complete
+006C8D79 00000001
+
+Walk In The Park-Task 7 Complete
+006C8D7A 00000001
+
+Walk In The Park-Task 8 Complete
+006C8D7B 00000001
+
+Walk In The Park-Have Gold Cog 1
+006C8D7C 00000001
+
+Walk In The Park-Have Gold Cog 2
+006C8D7D 00000001
+
+Walk In The Park-Have Gold Cog 3
+006C8D7E 00000001
+
+Walk In The Park-Have Gold Cog 4
+006C8D7F 00000001
+
+Walk In The Park-Have Gold Cog 5
+006C8D80 00000001
+
+Walk In The Park-Have Gold Cog 6
+006C8D81 00000001
+
+Walk In The Park-Have Gold Cog 7
+006C8D82 00000001
+
+Walk In The Park-Have Gold Cog 8
+006C8D83 00000001
+
+Walk In The Park-Have Gold Cog 9
+006C8D84 00000001
+
+Walk In The Park-Have Gold Cog 10
+006C8D85 00000001
+
+Walk In The Park-Have Bilbie 1
+006C8D86 00000001
+
+Walk In The Park-Have Bilbie 2
+006C8D87 00000001
+
+Walk In The Park-Have Bilbie 3
+006C8D88 00000001
+
+Walk In The Park-Have Bilbie 4
+006C8D89 00000001
+
+Walk In The Park-Have Bilbie 5
+006C8D8A 00000001
+
+Have Everything-Ship Rex
+006C8DE4 16000001
+
+Ship Rex-Task 1 Complete
+006C8DE4 00000001
+
+Ship Rex-Task 2 Complete
+006C8DE5 00000001
+
+Ship Rex-Task 3 Complete
+006C8DE6 00000001
+
+Ship Rex-Task 4 Complete
+006C8DE7 00000001
+
+Ship Rex-Task 5 Complete
+006C8DE8 00000001
+
+Ship Rex-Task 6 Complete
+006C8DE9 00000001
+
+Ship Rex-Task 7 Complete
+006C8DEA 00000001
+
+Ship Rex-Task 8 Complete
+006C8DEB 00000001
+
+Ship Rex-Have Gold Cog 1
+006C8DEC 00000001
+
+Ship Rex-Have Gold Cog 2
+006C8DED 00000001
+
+Ship Rex-Have Gold Cog 3
+006C8DEE 00000001
+
+Ship Rex-Have Gold Cog 4
+006C8DEF 00000001
+
+Ship Rex-Have Gold Cog 5
+006C8DF0 00000001
+
+Ship Rex-Have Gold Cog 6
+006C8DF1 00000001
+
+Ship Rex-Have Gold Cog 7
+006C8DF2 00000001
+
+Ship Rex-Have Gold Cog 8
+006C8DF3 00000001
+
+Ship Rex-Have Gold Cog 9
+006C8DF4 00000001
+
+Ship Rex-Have Gold Cog 10
+006C8DF5 00000001
+
+Ship Rex-Have Bilbie 1
+006C8DF6 00000001
+
+Ship Rex-Have Bilbie 2
+006C8DF7 00000001
+
+Ship Rex-Have Bilbie 3
+006C8DF8 00000001
+
+Ship Rex-Have Bilbie 4
+006C8DF9 00000001
+
+Ship Rex-Have Bilbie 5
+006C8DFA 00000001

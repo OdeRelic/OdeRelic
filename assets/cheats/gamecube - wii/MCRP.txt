@@ -1,0 +1,25 @@
+MCRP
+MERCS
+
+Unlimited Health [Crapulecorp]
+00EDE9C9 00000020
+*Code ported from GMO Ntsc Usa Version*
+
+Invincible [Crapulecorp]
+02EDEC48 000000FF
+*Code ported from ZiT Ntsc Jap Version*
+
+Unlimited M Specials [Crapulecorp]
+00EDE9D1 00000099
+
+Unlimited Mission Time [Crapulecorp]
+02EDEC3C 00000300
+*Code ported from GMO Ntsc Usa Version*
+
+Time Stop ZiT [Crapulecorp]
+00EDEC3F 00000000
+*Code ported from ZiT Ntsc Jap Version*
+
+Shot Power MAX ZiT [Crapulecorp]
+00EDE9C7 00000009
+*Code ported from ZiT Ntsc Jap Version*

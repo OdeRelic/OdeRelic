@@ -1,0 +1,17 @@
+MA6E
+Streets of Rage 2
+
+Unlimited Time [GMO]
+00DC539C 00000099
+
+Player 1 Unlimited Health [GMO]
+00DC46E1 00000068
+
+Player 1 Unlimited Lives [GMO]
+00DC46E3 00000004
+
+P2 Unlimited Health [GMO]
+00DC47E1 00000068
+
+P2 Unlimited Lives [GMO]
+00DC47E3 00000004

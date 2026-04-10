@@ -1,0 +1,42 @@
+QAFP
+The Dynastic Hero
+
+Invincible [Crapulecorp]
+42000000 90000000
+00B7972E 00000019
+E0000000 80008000
+
+Unlimited/Max Gold [Crapulecorp]
+42000000 90000000
+04B79384 000F423F
+E0000000 80008000
+
+Have All Weapons [Crapulecorp]
+42000000 90000000
+00B79390 000000FF
+E0000000 80008000
+*Code ported from GMO Ntsc Usa Version*
+
+Have All Armor [Crapulecorp]
+42000000 90000000
+00B79391 000000FF
+E0000000 80008000
+*Code ported from GMO Ntsc Usa Version*
+
+Have All Shields [Crapulecorp]
+42000000 90000000
+00B79392 000000FF
+E0000000 80008000
+*Code ported from GMO Ntsc Usa Version*
+
+Have All Boots [Crapulecorp]
+42000000 90000000
+00B79393 000000FF
+E0000000 80008000
+*Code ported from GMO Ntsc Usa Version*
+
+Have All Weapons/Armor/Shields/Boots [Crapulecorp]
+42000000 90000000
+04B79390 FFFFFFFF
+E0000000 80008000
+*Code ported from GMO Ntsc Usa Version*

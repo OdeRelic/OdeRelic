@@ -1,0 +1,52 @@
+RENE8P
+Sonic And The Black Knight
+
+TopScore&Max Followers&5Star + Title Knight of the Round Table [Thomas83Lin]
+C20B75BC 00000006
+3DE00305 61EF03E7
+91E305E4 3DE0000F
+61EF423F 91E305E8
+91E305F0 3DE00000
+61EF0000 886305E5
+60000000 00000000
+C222D7E8 00000003
+38000009 901C16BC
+380071A8 901C16B2
+881C16B6 00000000
+*Top Score + 5 Stars After Completing a Level*
+*Receive Max Title\25000 Followers\Proficiency after entering Black Smith and then completing any Level*
+
+Identification Points Don't Decrease [OneUp]
+041608E8 60000000
+
+Max Score (5 stars) [OneUp]
+040A6858 90830003
+There is a small bug here: it changes the voice of your character on the victory screen to Caliburn saying you're frozen.
+
+Moon Jump (A Button) [ZiT]
+28781582 00000800
+C20677C4 00000002
+3E004040 92030004
+3A000000 00000000
+E0000000 80008000
+28781582 00000000
+040677C4 D0030004
+0453C298 88060000
+E0000000 80008000
+Please turn on the code after loading the save data.
+
+If Rings Increase, MAX & Infinite Rings [ZiT]
+C20A729C 00000002
+3BE003E7 93FE0000
+60000000 00000000
+040A72E4 60000000
+0453C2AC 88060001
+
+Time Always At 0 [ZiT]
+040A6B2C 60000000
+0453C2B4 88060002
+
+Infinite Soul Gauge [ZiT]
+040A7204 D0030000
+040A71AC D0030000
+0453C2BC 88060003

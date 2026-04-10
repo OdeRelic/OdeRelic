@@ -1,0 +1,7 @@
+RFTE70
+Backyard Football
+
+Have X Amount Of Stat edit Points [BoxNinja]
+04363D6C 00000XXX
+*WARNING*Make sure not to have too many because it wont
+*let you save if its not at 0 by the end of your editing

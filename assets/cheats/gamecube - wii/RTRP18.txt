@@ -1,0 +1,40 @@
+RTRP18
+Fishing Master
+
+Max\Unlimited Money [Crapulecorp]
+052C0CB4 3B9AC9FF
+
+If Decrease Max\Unlimited Money [Crapulecorp]
+C20EFD08 00000002
+3C0005F5 6000E0FF
+90040054 00000000
+
+Bait Don't Decrease If Fish Is Catch [Crapulecorp]
+04034738 34030001
+*It add 1 before the game take 1 bait when the fish is catch so you don't loose anything*
+
+Bait Don't Decrease If Line Is Broken [Crapulecorp]
+040CCC38 34030000
+
+Time Stop (Press - ON/OFF) [Crapulecorp]
+04032654 60000000
+283D7A42 EFFF1000
+CC000000 00000000
+04032654 D8030018
+E0000000 80008000
+*WiiMote-NunChuck*
+
+Max\Unlimited Money
+052C0CB4 3BAC9FF
+
+Button Activator
+
+WiiMote-NunChuck Player 1 [Crapulecorp]
+283D7A42 YYYYZZZZ
+
+Time Froze [memorris]
+052B78D8 40400000
+
+Points 999999999 [memorris]
+052BB5B4 3B9AC9FF
+052BB5B8 3B9AC9FF

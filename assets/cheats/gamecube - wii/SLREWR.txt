@@ -1,0 +1,28 @@
+SLREWR
+LEGO Lord of the Rings
+
+Infinite Coins [Seth@WiiPlaza]
+0494D514 60000000
+04D5708C 3800222A
+*demo pic - http://goo.gl/kmYOe
+
+No Money Gain/Loss [Seth@WiiPlaza]
+0494D514 60000000
+
+Black Map [Seth@WiiPlaza]
+04519DA0 60000000
+
+Invisible Players/Enemy's [Seth@WiiPlaza]
+04C54058 54200000
+
+All Players/Enemy's Are 2D [Seth@WiiPlaza]
+04C54058 00000000
+
+All Players Are Large [Seth@WiiPlaza]
+04C54058 40400000
+
+Players Are Huge [Seth@WiiPlaza]
+04C54058 40800000
+
+Auto- Activator [Seth@WiiPlaza]
+208C6E84 38000001

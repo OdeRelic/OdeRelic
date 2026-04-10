@@ -1,0 +1,46 @@
+SCRPJH
+Chicken Riot
+
+Minigames
+
+Hits Multiplier [Bully@Wiiplaza]
+040999C8 3803XXXX
+*X = Hex*
+
+Final Hits Modifier [Bully@Wiiplaza]
+C2099DB8 00000002
+3C80XXXX 6084YYYY
+909D007C 00000000
+*XXXXYYYY = Hex*
+*The amount that is being registered after you finish*
+
+Misses / Eggs Multiplier [Bully@Wiiplaza]
+04099968 3803XXXX
+*X = Hex*
+*Don´t make it so that 10 is never reached otherwise you won´t be able to finish*
+
+Story
+
+Score Modifier [Bully@Wiiplaza]
+0405516C 3C80XXXX
+04055170 6084YYYY
+*XXXXYYYY = Hex*
+*Credits to ZiT*
+
+Undead Mode [Bully@Wiiplaza]
+04043138 48000010
+*If your health drops to 0 you won´t lose*
+*Video: http://www.youtube.com/watch?v=KN3IgrYqlh4
+*Credits to ZiT*
+
+If Score Increase, MAX [ZiT]
+04055174 90030070
+
+Infinite Ammo [ZiT]
+040A0E40 60000000
+040A05EC 60000000
+040679BC 60000000
+
+Infinite Life [ZiT]
+04043C20 60000000
+04043C34 60000000

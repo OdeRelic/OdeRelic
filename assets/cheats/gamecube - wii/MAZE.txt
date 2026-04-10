@@ -1,0 +1,14 @@
+MAZE
+Toejam & Earl 2: Panic On Funkotron
+
+P1 Unlimited Specials [GMO]
+00FC0589 00000063
+
+P1 Unlimited Coins [GMO]
+00FC0583 00000063
+
+P1 Unlimited Health [GMO]
+00FC058B 00000010
+
+Stop Timers [GMO]
+00FC058F 00000032

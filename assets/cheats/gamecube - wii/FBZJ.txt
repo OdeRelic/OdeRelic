@@ -1,0 +1,20 @@
+FBZJ
+Metroid
+
+Infinite Energy [ZiT]
+02471EE6 00009009
+
+Infinite Missile [ZiT]
+00471EEE 00000001
+
+Moon Jump [ZiT]
+281B7AE2 FEFF0100
+004720E8 000000F0
+E0000000 80008000
+
+Speed Up [ZiT]
+004720F6 00000048
+-The Speed Improves While Jump.
+
+Invincible [ZiT]
+00471E4A 00000002

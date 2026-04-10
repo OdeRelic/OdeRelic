@@ -1,0 +1,8 @@
+STQJHF
+Inazuma Eleven Strikers
+
+Max Money On Buying Item [Skiller]
+04162E24 90030104
+
+Max/Inf Money [Skiller]
+0447F0D4 05F5E0FF

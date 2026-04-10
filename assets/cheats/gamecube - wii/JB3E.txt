@@ -1,0 +1,64 @@
+JB3E
+Harvest Moon
+
+Miscellaneous Codes
+
+Unlimited Stamina [GMO]
+0049D3C0 00000064
+
+Unlimited Water (Watering Can) [GMO]
+0049D3CE 00000014
+
+1 Hit Wood & Rocks [GMO]
+0049D415 00000005
+
+Unlimited Wood/ Max Logs Collected [GMO]
+024AE9B4 0000E703
+
+Unlimited Grass Seeds [GMO]
+0049D3CF 000000FF
+
+Unlimited Corn Seeds [GMO]
+0049D3D0 000000FF
+
+Unlimited Tomato Seeds [GMO]
+0049D3D1 000000FF
+
+Unlimited Potato Seeds [GMO]
+0049D3D2 000000FF
+
+Unlimited Turnip Seeds [GMO]
+0049D3D3 000000FF
+
+Item 2 Modifier [GMO]
+0049D3CB 000000??
+
+Item Modifier Values
+
+00 Nothing
+01 Sickle
+02 Hoe
+03 Hammer
+04 Axe
+05 Corn Seed Bag
+06 Tomato Seed Bag
+07 Potato Seed Bag
+08 Turnip Seed Bag
+09 Cow Medicine
+0A Cow Icon
+0B Bell
+0C Grass Seeds
+0D Paint
+0E Milker
+0F Brush
+10 Watering Can
+11 Gold Sickle
+12 Gold Hoe
+13 Gold Hammer
+14 Gold Axe
+15 Sprinkler
+16 Bean
+17 Gem
+18 Blue Feather
+19 Chicken Feed
+1A Cow Feed

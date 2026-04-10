@@ -1,0 +1,101 @@
+S59JC8
+Sengoku Musou 3
+
+Moon Jump (C Button) [ZiT]
+285636DA BFFF4000
+48000000 80F68484
+DE000000 90009380
+4A100000 000006E0
+14000000 44200000
+E0000000 80008000
+
+Infinite Effect of item 4 times
+
+ATK [ZiT]
+04F91390 40800000
+
+DEF [ZiT]
+04F91394 40800000
+
+Speed [ZiT]
+04F91398 40800000
+
+??? [ZiT]
+04F9139C 40800000
+
+Character Size [ZiT]
+48000000 80F68484
+DE000000 90009380
+4A100000 00000694
+14000000 40000000
+14000004 40000000
+14000008 40000000
+E0000000 80008000
+
+Maximum Kokudaka [xtatu]
+04571018 05F5E0FF
+
+All material 999 [xtatu]
+0457101C 000003E7
+04571020 000003E7
+04571024 000003E7
+04571028 000003E7
+0457102C 000003E7
+04571030 000003E7
+04571034 000003E7
+04571038 000003E7
+0457103C 000003E7
+
+strengthening equipment does not decrease quantity [xtatu]
+04208890 38030000
+
+Musou gauge up recovery [xtatu]
+040A66F4 C003000C
+
+Up to defeat the enemy and smelting care cage [xtatu]
+040A6964 C0430024
+
+n-fold status
+
+Attack [xtatu]
+04F913B0 xxxxxxxx
+04F913C0 41F00001
+
+Defense ability [xtatu]
+04F913C4 xxxxxxxx
+04F913B4 41F00001
+
+Speed [xtatu]
+04F913B8 xxxxxxxx
+04F913C8 41F00001
+
+xxxxxxxx =
+3F800000 (1 times) / 3FE00000 (2 times) / 40400000 (3 times) / 40A00000 (4 times) ...
+
+uninterrupted combo [xtatu]
+040A2B20 60000000
+
+Number of combo 5 times [xtatu]
+040A5F98 38840005
+
+1P always up to combat strength [xtatu]
+04F9120C 46000000
+04F91210 46000000
+
+increase attack range [xtatu]
+04F912C0 xxxx0000
+xxxx =
+41F0 (double) / 4460 (twice) / 46D0 (twice) ...
+After the freeze and expand.
+
+99999 feat of arms [xtatu]
+04F686C4 0001869F
+
+Change feat of arms acquisition rate [xtatu]
+C20ACDEC 00000004
+39C00000 7C002214
+39CE0001 2C0E00xx
+41820008 4BFFFFF0
+39C00000 60000000
+xx =
+32 (50 times) / 64 (100 times) / FF (255 times)

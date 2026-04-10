@@ -1,0 +1,18 @@
+WNGE
+Bang Attack
+
+Max Score [Mathew_Wi]
+042122B4 05F5E0FF
+
+Infinite Combo Time [Mathew_Wi]
+0420EEF4 3FC00000
+
+99x Combo [Mathew_Wi]
+042122C8 00000063
+
+Combo Modifier [Mathew_Wi]
+042122C8 000000XX
+XX: Value converted to Hex.
+
+Infinite Throws [Mathew_Wi]
+042122C0 00000005

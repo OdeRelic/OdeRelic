@@ -1,0 +1,13 @@
+RGDEA4
+Target Terror
+
+Infinite Health [farjo08]
+0225A550 00000500
+
+Infinite Ammo [farjo08]
+0225A55E 0000000A
+
+Always 99 Credits [farjo08]
+021EC884 00000063
+
+The Infinite Ammo will apply to all weapons and will not require any reloads. Enjoy!

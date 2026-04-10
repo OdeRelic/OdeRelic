@@ -1,0 +1,330 @@
+RLGE64
+Lego Star Wars The Complete Saga
+
+Player 1 Duel Score [BoxNinja]
+04680FC8 0000000X
+
+Player 2 Duel Score [BoxNinja]
+04680FCC 0000000X
+
+Player 1 Duel Wins [BoxNinja]
+04680FC0 XXXXXXXX
+
+Player 2 Duel Wins [BoxNinja]
+04680FC4 XXXXXXXX
+
+Bonus Game Coins [BoxNinja]
+04680438 000F423F
+*Collect 1 Coin to win
+*works in LEGO CITY and NEW TOWN
+
+Player 1 Coin Icon [BoxNinja]
+0467B160 000000XX
+*Example http://prntscr.com/axg65
+*X values: http://pastebin.com/raw.php?i=2ayhhZTg
+
+Player 2 Coin Icon [BoxNinja]
+0467B164 000000XX
+*Example http://prntscr.com/axg65
+*X values: http://pastebin.com/raw.php?i=2ayhhZTg
+
+Player 1 Coin Icon Cycler [BoxNinja]
+A8000008 00000010
+80000000 8067B160
+86010000 00000001
+2467B160 00000296
+0467B160 00000000
+E2000001 00000000
+*Dont use with the Player 2 Coin Cycler
+
+Player 2 Coin Icon Cycler [BoxNinja]
+A8000008 00000010
+80000000 8067B164
+86010000 00000001
+2467B164 00000296
+0467B164 00000000
+E2000001 00000000
+*Dont use with the Player 1 Coin Cycler
+
+Unlock Red Brick In-Game Extras (Available For Purchase)
+
+Unlock Super Gonk [GMO]
+003FF17B 000000FF
+
+Unlock Poo money [GMO]
+003FF19B 000000FF
+
+Unlock Walkie Talkie Disable [GMO]
+003FF1BB 000000FF
+
+Unlock Power Brick Detector [GMO]
+003FF1DB 000000FF
+
+Unlock Super Slap [GMO]
+003FF1FB 000000FF
+
+Unlock Force Grapple Leap [GMO]
+003FF21B 000000FF
+
+Unlock Stud Magnet [GMO]
+003FF23B 000000FF
+
+Unlock Disarm Troopers [GMO]
+003FF25B 000000FF
+
+Unlock Character Studs [GMO]
+003FF27B 000000FF
+
+Unlock Perfect Deflect [GMO]
+003FF29B 000000FF
+
+Unlock Exploding Blaster Bolts [GMO]
+003FF2BB 000000FF
+
+Unlock Force Pull [GMO]
+003FF2DB 000000FF
+
+Unlock Vehicle Smart Bomb [GMO]
+003FF2FB 000000FF
+
+Unlock Super Astromech [GMO]
+003FF31B 000000FF
+
+Unlock Super Jedi Slam [GMO]
+003FF33B 000000FF
+
+Unlock Super Thermal Detonator [GMO]
+003FF35B 000000FF
+
+Unlock Deflect Bolts [GMO]
+003FF37B 000000FF
+
+Unlock Dark Side [GMO]
+003FF39B 000000FF
+
+Unlock Super Blasters [GMO]
+003FF3BB 000000FF
+
+Unlock Fast Force [GMO]
+003FF3DB 000000FF
+
+Unlock Super Lightsabers [GMO]
+003FF3FB 000000FF
+
+Unlock Tractor Beam [GMO]
+003FF41B 000000FF
+
+Unlock Invincibility [GMO]
+003FF43B 000000FF
+
+Unlock Score x2 [GMO]
+003FF45B 000000FF
+
+Unlock Self Destruct [GMO]
+003FF47B 000000FF
+
+Unlock Fast Build [GMO]
+003FF49B 000000FF
+
+Unlock Score x4 [GMO]
+003FF4BB 000000FF
+
+Unlock Regenerate Hearts [GMO]
+003FF4DB 000000FF
+
+Unlock Minikit Detector [GMO]
+003FF4FB 000000FF
+
+Unlock Score x6 [GMO]
+003FF51B 000000FF
+
+Unlock Super Zapper [GMO]
+003FF53B 000000FF
+
+Unlock Bounty Hunter Rockets [GMO]
+003FF55B 000000FF
+
+Unlock Score x8 [GMO]
+003FF57B 000000FF
+
+Unlock Super Ewok Catapult [GMO]
+003FF59B 000000FF
+
+Unlock Infinite Torpedos [GMO]
+003FF5BB 000000FF
+
+Unlock Score x10 [GMO]
+003FF5DB 000000FF
+
+Activate In-Game Extras (No Purchase Required)
+
+Extra Toggle [GMO]
+003FF078 00000001
+
+Fertilizer [GMO]
+003FF098 00000001
+
+Disguise [GMO]
+003FF0B8 00000001
+
+Daisey Chains [GMO]
+003FF0D8 00000001
+
+Chewbacca Carrying C-3PO [GMO]
+003FF0F8 00000001
+
+Tow Death Star [GMO]
+003FF118 00000001
+
+Silhouettes [GMO]
+003FF138 00000001
+
+Beep Beep [GMO]
+003FF158 00000001
+
+Super Gonk [GMO]
+003FF178 00000001
+
+Poo Money [GMO]
+003FF198 00000001
+
+Walkie Talkie Disable [GMO]
+003FF1B8 00000001
+
+Power Brick Detector [GMO]
+003FF1D8 00000001
+
+Super Slap [GMO]
+003FF1F8 00000001
+
+Force Grapple Leap [GMO]
+003FF218 00000001
+
+Stud Magnet [GMO]
+003FF238 00000001
+
+Disarm Troopers [GMO]
+003FF258 00000001
+
+Character Studs [GMO]
+003FF278 00000001
+
+Perfect deflect [GMO]
+003FF298 00000001
+
+Exploding Blaster Bolts [GMO]
+003FF2B8 00000001
+
+Force Pull [GMO]
+003FF2D8 00000001
+
+Vehicle Smart Bomb [GMO]
+003FF2F8 00000001
+
+Super Astromech [GMO]
+003FF318 00000001
+
+Super Jedi Slam [GMO]
+003FF338 00000001
+
+Super Thermal Detonator [GMO]
+003FF358 00000001
+
+Deflect Bolts [GMO]
+003FF378 00000001
+
+Dark Side [GMO]
+003FF398 00000001
+
+Super Blasters [GMO]
+003FF3B8 00000001
+
+Fast Force [GMO]
+003FF3D8 00000001
+
+Super Lightsabers [GMO]
+003FF3F8 00000001
+
+Tractor Beam [GMO]
+003FF418 00000001
+
+Invincibility [GMO]
+003FF438 00000001
+
+Score x2 [GMO]
+003FF458 00000001
+
+Self Destruct [GMO]
+003FF478 00000001
+
+Fast Build [GMO]
+003FF498 00000001
+
+Score x4 [GMO]
+003FF4B8 00000001
+
+Regenerate Hearts [GMO]
+003FF4D8 00000001
+
+Minikit Detector [GMO]
+003FF4F8 00000001
+
+Score x6 [GMO]
+003FF518 00000001
+
+Super Zapper [GMO]
+003FF538 00000001
+
+Bounty Hunter Rockets [GMO]
+003FF558 00000001
+
+Score x8 [GMO]
+003FF578 00000001
+
+Super Ewok Catapult [GMO]
+003FF598 00000001
+
+Inf Torpedoes [GMO]
+003FF5B8 00000001
+
+Score x10 [GMO]
+003FF5D8 00000001
+
+Misc Codes
+
+All Coins [BoxNinja]
+C22BD300 00000002
+38C0FFFF 90DF0000
+60000000 00000000
+*Changes In-Game Coins for both players and total coins
+
+Press (-) to reset studs to 70k and have 9 Mini-Kit Canisters [schooluser]
+284EC892 00001000
+1446FFB8 00011170
+1457468E 00000009
+14574692 00000009
+14574696 00000009
+E0000000 80008000
+*instant true jedi and 9*
+*mini-kit canisters means*
+*you only need to find 1*
+
+Have all minikits after completing any level [funkamatic]
+0454D623 0000000A
+0454D627 0000000A
+
+Player 1 always has 10mil studs (in level) [funkamatic]
+0443D038 00989680
+
+Player 2 always has 10mil studs (in level) [funkamatic]
+0443D048 00989680
+
+Auto-finish challenge mode [funkamatic]
+0454D630 0000000A
+0454D62C 0000000A
+
+Infinite Studs [REDSOXROX]
+14477DE0 FFFFFFFF
+
+Loop Music [REDSOXROX]
+144FB1E8 00000005

@@ -1,0 +1,94 @@
+C93P
+The Last Ninja 2
+
+Unlimited Power
+
+Unlimited Power [Crapulecorp]
+002EFB49 0000002C
+
+Unlimited Power (Press L ON/OFF) [Crapulecorp]
+2811FF42 DFFF2000
+CC000000 00000000
+002EFB49 0000002C
+E0000000 80008000
+*Classic Controller*
+
+Unlimited Power (Hold B And Press Down ON/OFF) [Crapulecorp]
+2819C232 FBFB0404
+CC000000 00000000
+002EFB49 0000002C
+E0000000 80008000
+*WiiMote*
+
+1-Hit Kill
+
+1-Hit Kill (Press ZL) [Crapulecorp]
+2811FF42 FF7F0080
+002EFB4A 00000001
+E0000000 80008000
+*Classic Controller*
+*Code ported from GMO Ntsc Usa Version*
+
+1-Hit Kill (Press -) [Crapulecorp]
+2819C232 EFFF1000
+002EFB4A 00000001
+E0000000 80008000
+*WiiMote*
+*Code ported from GMO Ntsc Usa Version*
+
+1-Hit Kill (Press ZL ON/OFF) [Crapulecorp]
+2811FF42 FF7F0080
+CC000000 00000000
+002EFB4A 00000001
+E0000000 80008000
+*Classic Controller*
+*Code ported from GMO Ntsc Usa Version*
+
+1-Hit Kill (Press - ON/OFF) [Crapulecorp]
+2819C232 EFFF1000
+CC000000 00000000
+002EFB4A 00000001
+E0000000 80008000
+*WiiMote*
+*Code ported from GMO Ntsc Usa Version*
+
+Refill Time
+
+Refill Time (Press ZR) [Crapulecorp]
+2811FF42 FFFB0004
+022F15CE 00001B1B
+E0000000 80008000
+*Classic Controller*
+
+Refill Time (Hold B And Press Right) [Crapulecorp]
+2819C232 FBFD0402
+022F15CE 00001B1B
+E0000000 80008000
+*WiiMote*
+
+Time stop
+
+Time Stop [Crapulecorp]
+022F15CE 00001B1B
+
+Time stop (Press ZR ON/OFF) [Crapulecorp]
+2811FF42 FFFB0004
+CC000000 00000000
+022F15CE 00001B1B
+E0000000 80008000
+*Classic Controller*
+
+Time stop (Hold B And Press Right ON/OFF) [Crapulecorp]
+2819C232 FBFD0402
+CC000000 00000000
+022F15CE 00001B1B
+E0000000 80008000
+*WiiMote*
+
+Button Activator
+
+Classic Controller [Crapulecorp]
+2811FF42 YYYYZZZZ
+
+Wiimote [Crapulecorp]
+2819C232 YYYYZZZZ

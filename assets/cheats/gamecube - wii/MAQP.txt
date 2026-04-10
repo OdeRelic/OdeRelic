@@ -1,0 +1,17 @@
+MAQP
+Streets of Rage
+
+Unlimited Time [GMO]
+00D84021 00000041
+
+P1 Unlimited Lives [GMO]
+00D84440 00000009
+
+P1 Unlimited SOS Call [GMO]
+00D84441 00000001
+
+P2 Unlimited Lives [GMO]
+00D84443 00000009
+
+P2 Unlimited SOS Call [GMO]
+00D84444 00000001

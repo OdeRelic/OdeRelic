@@ -1,0 +1,17 @@
+MBOP
+Golden Axe III
+
+Unlimited Lives [Crapulecorp]
+00EC4BC0 00000009
+*Code ported from GMO Ntsc Usa Version*
+
+Unlimited Health [Crapulecorp]
+00EC4BC6 00000033
+
+Invincible [Crapulecorp]
+00EC4B2C 00000023
+*Code ported from ZiT Ntsc Jap Version*
+
+Unlimited Magic [Crapulecorp]
+00EC4BC4 00000006
+*Code ported from GMO Ntsc Usa Version*

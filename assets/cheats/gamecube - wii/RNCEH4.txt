@@ -1,0 +1,113 @@
+RNCEH4
+SNK Arcade Classics Volume 1
+
+1p cancel move kof94 [xtatu]
+00941136 00000000
+
+1p speed move kof94 [xtatu]
+00941136 00000000
+
+Magician Lord Inf Lives [g6flavor]
+00727CC1 00000009
+
+Magician Lord Max Power [g6flavor]
+00727CC5 00000002
+
+Shock Troopers
+
+Shock Troopers P1 Inf Health [schmake]
+00B4F374 00000080
+
+Shock Troopers P1 Inf Ammo [schmake]
+00B57F7A 000000C8
+
+Shock Troopers P1 Inf Grenades [schmake]
+00B57F82 00000063
+
+Shock Troopers P1 Always Have Gun [schmake]
+00B57F78 000000XX
+
+Shock Troopers P2 Inf Grenades [schmake]
+00B58182 00000063
+
+Shock Troopers P2 Inf Health [schmake]
+00B51374 00000080
+
+Shock Troopers P2 Inf Ammo [schmake]
+00B5817A 000000C8
+
+Shock Troopers P2 Always Have Gun [schmake]
+00B58178 000000XX
+
+Shock Troopers Infinite Time [schmake]
+00B57EC0 00000099
+*Always have gun XX codes:
+20 Hyper
+1C Missile
+18 Rocket
+14 Flame
+10 Buster
+0C 3Way
+08 Vulcan
+04 Heavy
+
+Metal Slug
+
+Metal Slug Infinite Time [schmake]
+0083F052 00000063
+
+Metal Slug P1 Inf Lives [schmake]
+0082638A 00000039
+00838536 00000009
+
+Metal Slug P1 Inf Grenades [schmake]
+00838681 00000063
+
+Metal Slug P1 Inf Ammo [schmake]
+00838682 000000C8
+
+Metal Slug P1 Always Have Gun [schmake]
+00838670 00000004
+
+Metal Slug Inf Health Slug [schmake]
+008387A6 00000030
+
+Metal Slug P2 Inf Lives [schmake]
+00826A8A 00000039
+008385D6 00000009
+
+Metal Slug P2 Inf Ammo [schmake]
+00838722 000000C8
+
+Metal Slug P2 Always Have Gun [schmake]
+00838710 00000003
+
+Metal Slug P2 Inf Grenades [schmake]
+00838721 00000063
+*Always have gun codes:
+1 Shotgun
+2 Flamethrower
+3 Missile
+4 Heavy Machine Gun
+
+Top Hunter
+
+Top Hunter P1 Inf NRG [schmake]
+0082A2C0 00000040
+
+Top Hunter Infinite Time [schmake]
+00832A83 00000099
+
+Top Hunter P1 Inf Lives [schmake]
+00832ADC 00000001
+
+Top Hunter P2 Inf Lives [schmake]
+00832AE0 00000064
+
+Top Hunter P2 Inf NRG [schmake]
+0082AEC0 00000040
+
+Magician Lord
+
+Magician Lord Inf HP [schmake]
+00727CC6 00000005

@@ -1,0 +1,229 @@
+MBYE
+Light Crusader
+
+Max Gold [GMO]
+02FF6B08 0000270F
+
+Max Air Magic [GMO]
+00FF6C10 00000063
+
+Max Fire Magic [GMO]
+00FF6C11 00000063
+
+Max Earth Magic [GMO]
+00FF6C12 00000063
+
+Max Water Magic [GMO]
+00FF6C13 00000063
+
+Max All Element Magic [GMO]
+04FF6C10 63636363
+
+Have All Weapons [GMO]
+00FF6C14 000000FF
+
+Have All Armour [GMO]
+00FF6C15 000000FF
+
+Have All Gloves [GMO]
+00FF6C16 000000FF
+
+Inventory Item Modifier Slots...
+
+Item Modifier Slot 1 [GMO]
+00FF6BE0 000000??
+
+Item Modifier Slot 2 [GMO]
+00FF6BE1 000000??
+
+Item Modifier Slot 3 [GMO]
+00FF6BE2 000000??
+
+Item Modifier Slot 4 [GMO]
+00FF6BE3 000000??
+
+Item Modifier Slot 5 [GMO]
+00FF6BE4 000000??
+
+Item Modifier Slot 6 [GMO]
+00FF6BE5 000000??
+
+Item Modifier Slot 7 [GMO]
+00FF6BE6 000000??
+
+Item Modifier Slot 8 [GMO]
+00FF6BE7 000000??
+
+Item Modifier Slot 9 [GMO]
+00FF6BE8 000000??
+
+Item Modifier Slot 10 [GMO]
+00FF6BE9 000000??
+
+Item Modifier Slot 11 [GMO]
+00FF6BEA 000000??
+
+Item Modifier Slot 12 [GMO]
+00FF6BEB 000000??
+
+Item Modifier Slot 13 [GMO]
+00FF6BEC 000000??
+
+Item Modifier Slot 14 [GMO]
+00FF6BED 000000??
+
+Item Modifier Slot 15 [GMO]
+00FF6BEE 000000??
+
+Item Modifier Slot 16 [GMO]
+00FF6BEF 000000??
+
+Item Modifier Slot 17 [GMO]
+00FF6BF0 000000??
+
+Item Modifier Slot 18 [GMO]
+00FF6BF1 000000??
+
+Item Modifier Slot 19 [GMO]
+00FF6BF2 000000??
+
+Item Modifier Slot 20 [GMO]
+00FF6BF3 000000??
+
+Item Modifier Slot 21 [GMO]
+00FF6BF4 000000??
+
+Item Modifier Slot 22 [GMO]
+00FF6BF5 000000??
+
+Item Modifier Slot 23 [GMO]
+00FF6BF6 000000??
+
+Item Modifier Slot 24 [GMO]
+00FF6BF7 000000??
+
+Item Modifier Slot 25 [GMO]
+00FF6BF8 000000??
+
+Item Modifier Slot 26 [GMO]
+00FF6BF9 000000??
+
+Item Modifier Slot 27 [GMO]
+00FF6BFA 000000??
+
+Item Modifier Slot 28 [GMO]
+00FF6BFB 000000??
+
+Item Modifier Slot 29 [GMO]
+00FF6BFC 000000??
+
+Item Modifier Slot 30 [GMO]
+00FF6BFD 000000??
+
+Item Modifier Slot 31 [GMO]
+00FF6BFE 000000??
+
+Item Modifier Slot 32 [GMO]
+00FF6BFF 000000??
+
+Item Modifier Slot 33 [GMO]
+00FF6C00 000000??
+
+Item Modifier Slot 34 [GMO]
+00FF6C01 000000??
+
+Item Modifier Slot 35 [GMO]
+00FF6C02 000000??
+
+Item Modifier Slot 36 [GMO]
+00FF6C03 000000??
+
+Item Modifier Slot 37 [GMO]
+00FF6C04 000000??
+
+Item Modifier Slot 38 [GMO]
+00FF6C05 000000??
+
+Item Modifier Slot 39 [GMO]
+00FF6C06 000000??
+
+Item Modifier Slot 40 [GMO]
+00FF6C07 000000??
+
+Item Modifier Slot 41 [GMO]
+00FF6C08 000000??
+
+Item Modifier Slot 42 [GMO]
+00FF6C09 000000??
+
+Item Modifier Slot 43 [GMO]
+00FF6C0A 000000??
+
+Item Modifier Slot 44 [GMO]
+00FF6C0B 000000??
+
+Item Modifier Slot 45 [GMO]
+00FF6C0C 000000??
+
+Item Modifier Slot 46 [GMO]
+00FF6C0D 000000??
+
+Item Modifier Slot 47 [GMO]
+00FF6C0E 000000??
+
+Item Modifier Slot 48 [GMO]
+00FF6C0F 000000??
+
+Values for Inventory Item Modifiers...
+
+00 (Empty Slot)
+05 Blue Potion
+06 Red Potion
+07 Green Potion
+08 Odd Potion
+09 Black Potion
+0A Chicken
+0B Steak
+0C Fillet
+0D Egg
+0E Broken egg
+0F Fish
+10 Tomato
+11 Corn
+12 Apple
+13 Orange
+14 Banana
+15 Cherries
+16 Bread
+17 Cheese
+18 Water
+19 Honey
+1A Wine
+1B Gem (Document)
+1C Pendant (Amulet)
+1D Ring 1 (Amulet)
+1E Ring 2 (Amulet)
+1F Bag (Special)
+20 Ladle
+21 Cube
+22 Bottle (Drink)
+23 Sextant (Special)
+27 Boots (Special)
+28 Key 1
+29 Key 2
+2A Gold Key
+2B Silver Key
+2C Key 4
+2D Key 3
+2E Talisman (Special)
+2F Scroll (Document)
+30 Red Orb (Special)
+31 Yellow Orb (Special)
+32 Green Orb (Special)
+33 Blue Orb (Special)
+34 Wooden Box (Special)
+35 Costume (Special)
+36 Stone Tablet (Document)
+37 Crest (Special)
+38 Tap Handle (Special)
+60 Scroll 1 (Document)

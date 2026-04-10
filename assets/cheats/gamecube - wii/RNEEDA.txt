@@ -1,0 +1,804 @@
+RNEEDA
+Naruto Shippuden Clash of Ninja Revolution 3
+
+1st Wiimote-Button Activator [Anarion]
+283BDC62 YYYYZZZZ
+
+2nd Wiimote-Button Activator [Anarion]
+283BDD12 YYYYZZZZ
+
+1st Classic Controller&Pro- Button Activator [Anarion]
+283BDCC2 YYYYZZZZ
+If you don't know the YYYYZZZZ values which are the button values, go to geckocodes.org/index.php?arsenal=2
+
+No Special Move Darkened Background [Anarion]
+42000000 90000000
+0205C1E2 00000000
+E0000000 80008000
+
+Dark Background [Anarion]
+42000000 90000000
+0205C1E2 00000010
+E0000000 80008000
+Two codes above not compatible with each other. Use only 1.
+
+Unlock Everything [Anarion]
+08395BA0 FFFFFFFF
+20040004 00000000
+Characters, stages, options unlocked; everything purchased.
+
+Any Characters "Bando Walk"- All Players [Anarion]
+C2067BF0 00000002
+3C001001 60008001
+901E0054 00000000
+
+Moon Jump- All Players [Anarion]
+283BDC62 00000001
+C2067A80 00000002
+3D803E80 918300F4
+C06300F4 00000000
+E0000000 80008000
+2A3BDC62 00000001
+04067A80 C06300F4
+E0000000 80008000
+Wiimote: Press UP. Controlled by P1.
+
+Infinite Jumps- All Players [Anarion]
+C205F380 00000002
+38A00000 98A3005B
+60000000 00000000
+
+Invisibility- All Players [Anarion]
+C205F380 00000002
+38A0000C 98A3005B
+60000000 00000000
+Two codes above are not compatible with each other. Use only 1.
+
+P1- "Bando Walk" [Anarion]
+42000000 92000000
+04AEB094 10018001
+E0000000 80008000
+
+P2- "Bando Walk" [Anarion]
+42000000 92000000
+04D8B0B4 10018001
+E0000000 80008000
+
+P1- Moon Jump [Anarion]
+283BDC62 00000008
+42000000 92000000
+02AEB134 0000XXXX
+E0000000 80008000
+P1 Wiimote- Activate=UP button
+
+P2- Moon Jump [Anarion]
+283BDD12 00000008
+42000000 92000000
+02D8B154 0000XXXX
+E0000000 80008000
+P2 Wiimote- Activate= UP button
+X VALUES for Moon Jump codes:
+Use anything from 3800 to 4000. I recommend 3E50.
+
+P1- Invisibility [Anarion]
+42000000 92000000
+00AEB09B 0000000C
+E0000000 80008000
+
+P2- Invisibility [Anarion]
+42000000 92000000
+00D8B0BB 0000000C
+E0000000 80008000
+
+P1- Infinite Jumps [Anarion]
+42000000 92000000
+00AEB09B 00000000
+E0000000 80008000
+
+P2- Infinite Jumps [Anarion]
+42000000 92000000
+00D8B0BB 00000000
+E0000000 80008000
+Two codes above are not compatible with each other. Use only 1.
+
+Health Modifier- All Players [Anarion]
+C2069668 00000002
+3C60XXXX 907C0028
+60000000 00000000
+
+Chakra Modifier- All Players [Anarion]
+C206A444 00000002
+3C602710 907E0044
+60000000 00000000
+
+Guard Modifier- All Players [Anarion]
+C206A9F8 00000002
+3C60XXXX 907E004C
+60000000 00000000
+XXXX values for 3 codes above:
+0000 = none || 1388 = half || 2710 = full
+
+Infinite Health- All Players [Anarion]
+04069668 90DC0028
+
+Full Chakra With Every Attack- All Players [Anarion]
+0406A444 90DF0044
+
+Instant Guard Regain- All Players [Anarion]
+0406A9F8 90DE004C
+
+Full Chakra With Special Move- All Players [Anarion]
+0406A630 90DF0044
+
+Black Battlefield- All Players [Anarion]
+0413B36C 80030000
+Initiate a stage transition. Only characters and gauge will be visible.
+
+P1- Guard Modifier [Anarion]
+283BDC62 00000008
+42000000 92000000
+04AEB08E 0000XXXX
+E0000000 80008000
+
+P2- Guard Modifier [Anarion]
+283BDC62 00000008
+42000000 92000000
+04D8B0AE 0000XXXX
+E0000000 80008000
+For codes above: Activate= UP
+
+P1- Combo Hit Modifier [Anarion]
+283BDC62 00000008
+42000000 92000000
+04AEB9EE 000003E7
+E0000000 80008000
+1st Wiimote- Activate= UP
+For instant completion of combo missions.
+
+All Players- Paper Bombs Use No Chakra [Anarion]
+0413B3D4 60000000
+
+All Players- Paper Bombs Increase Chakra [Anarion]
+0413B3CC 7C002214
+
+All Players- Itachi's Clones Cost No Chakra [Anarion]
+0406A61C 60000000
+
+All Players- Itachi's Clones Fill Chakra [Anarion]
+0406A604 90C1001C
+The two codes above may have an effect for other characters who have attacks that use chakra.
+
+All Players- No Latent Ninja Powers [Anarion]
+04176870 60000000
+
+P1- Combo Hit Modifier [Anarion]
+283BDC62 00001000
+42000000 92000000
+04AAB9CE 00000XXX
+E0000000 80008000
+Wiimote- Activate= MINUS
+
+P2- Combo Hit Modifier [Anarion]
+283BDC62 00000010
+42000000 92000000
+04D4B9EE 00000XXX
+E0000000 80008000
+Wiimote- Activate= PLUS
+These codes are kinda useless.
+XXX Values: 2C3= 707 || 065= 101 || 3E7= 999(will be shown as 909)
+
+P1- Guard Modifier [Anarion]
+283BDD12 00000800
+42000000 92000000
+04AAB06E 0000XXXX
+E0000000 80008000
+
+P2- Guard Modifier [Anarion]
+283BDD12 00000800
+42000000 92000000
+04D4B08E 0000XXXX
+E0000000 80008000
+For the two hacks above: Wiimote- Activate= A
+
+*~P1- Health Modifier [Anarion]
+42000000 92000000
+04AAB04A 0000XXXX
+E0000000 80008000
+
+*~P1- Chakra Modifier [Anarion]
+42000000 92000000
+04AAB066 0000XXXX
+E0000000 80008000
+
+*~P2- Health Modifier [Anarion]
+42000000 92000000
+04D4B06A 0000XXXX
+E0000000 80008000
+
+*~P2- Chakra Modifier [Anarion]
+42000000 92000000
+04D4B086 0000XXXX
+E0000000 80008000
+
+*~P1- Squadmate Health Modifier [Anarion]
+42000000 92000000
+04FEB08A 0000XXXX
+E0000000 80008000
+
+*~P1- Squadmate Chakra Modifier [Anarion]
+42000000 92000000
+04FEB0A6 0000XXXX
+E0000000 80008000
+XXXX values for ALL above codes:
+2710= full ||| 1388= half ||| 0000= 0
+0B00- used in Health = health in LNP Mode.
+All values will remain infinite.
+CODES WITH SYMBOLS. Symbol key below.
+
+Rank Board Character [Anarion]
+42000000 90000000
+040314CC 000000XX
+E0000000 80008000
+
+Rank Board Squadmate Character [Anarion]
+42000000 90000000
+040314D0 000000XX
+E0000000 80008000
+XX Values for two codes above:
+31= Anbu Kakashi _||| 11= Hinata ___||| 28= Komachi ____||| 17= Sasuke
+23= Anko ________||| 1B= Hiruko ___||| 24= Kurenai _____||| 13= Shikamaru
+22= Asuma _______||| 18= Itachi ____||| 04= Lee ________||| 0E= Shino
+26= Baki _________||| 1D= Jiraiya ___||| 01= Naruto ______||| 09= Temari
+27= Bando _______||| 21= Kabuto ___||| 05= Neji ________||| 06= Tenten
+2C= Chiyo _______||| 29= Kagura ___||| 10= No Character _||| 2A= Towa
+12= Choji ________||| 03= Kakashi __||| 20= Orochimaru __||| 1F= Tsunade
+1A= Deidara ______||| 30= Kakuzu __||| 2B= Rogue Ninja __||| 16= Yamato
+08= Gaara ________||| 0B= Kankuro _||| 15= Sai _________||| 25= Yugao
+07= Guy _________||| 0F= Kiba _____||| 02= Sakura ______|||
+2F= Hidan ________||| 19= Kisame __||| 1C= Sasori ______|||
+
+~Character Selection Timer Modifier [Anarion]
+283BDC62 00006000
+42000000 90000000
+04051A36 0000XXXX
+E0000000 80008000
+
+~Timer Modifier [Anarion]
+283BDC62 00006000
+42000000 90000000
+0405C21C 000XXXXX
+E0000000 80008000
+For the two timer codes above:
+Wiimote- Activate= C & Z
+60 x seconds you want = decimal ~&gt; hex = X
+Some X values:
+00708= 30 sec ||| 00E10= 60 sec(default) ||| 01734= 99 sec ||| All 0= draw offline/forced DC online ||| 13560= 999 sec ||| 0001E= 1/2 sec ||| 0002D= 3/4 sec
+
+~!Infinite Time [Anarion]
+283BDC62 00002400
+42000000 90000000
+0405C218 FFFFFF88
+E0000000 80008000
+Wiimote- Activate= Z & B
+
+~!Offline Time Increase [Anarion]
+283BDC62 00000200
+040599C4 38830001
+E0000000 80008000
+283BDC62 00000100
+040599C4 3883FFFF
+E0000000 80008000
+Wiimote- Activate= 1 || Deactivate= 2
+
+~!Offline Time Stop [Anarion]
+283BDC62 00000000
+040599C8 60000000
+E0000000 80008000
+283BDC62 00000000
+040599C8 909C003C
+E0000000 80008000
+Wiimote- Activate= 1 || Deactivate= 2
+
+~Offline Instant 0 [Anarion]
+283BDC62 00006200
+040599C4 60000000
+E0000000 80008000
+282BDC62 00006800
+040599C4 3883FFFF
+E0000000 80008000
+Wiimote- Activate= C & Z & 1 || Deactivate= C & Z & A
+Ends match instantly.
+
+P1- Moon Jump [Anarion]
+283BDC62 00008000
+42000000 92000000
+04AAB144 3D0XXXXX
+E0000000 80008000
+Wiimote- Press HOME
+X= floating value you want
+0FFFF= reasonable floating value
+
+~P1- Single-Battle Points Modifier [Anarion]
+283BDC62 0000ZZZZ
+42000000 90000000
+0402ABF8 0000XXXX
+E0000000 80008000
+
+~P2- Single-Battle Points Modifier [Anarion]
+283BDC62 0000ZZZZ
+42000000 90000000
+0402AC28 0000XXXX
+E0000000 80008000
+
+~P1- Single-Win Modifier [Anarion]
+283BDC62 0000ZZZZ
+42000000 90000000
+0402ABE0 0000XXXX
+E0000000 80008000
+
+~P2- Single-Win Modifier [Anarion]
+283BDC62 0000ZZZZ
+42000000 90000000
+0402AC10 0000XXXX
+E0000000 80008000
+
+~P1- Single-Loss Modifier [Anarion]
+283BDC62 0000ZZZZ
+42000000 90000000
+0402ABE8 0000XXXX
+E0000000 80008000
+
+~P2- Single-Loss Modifier [Anarion]
+283BDC62 0000ZZZZ
+42000000 90000000
+0402AC18 0000XXXX
+E0000000 80008000
+ZZZZ= button value.
+XXXX= # of points, wins, losses you want in hex. These codes are currently in a BETA stage. Also, they must be button activated to avoid a freeze and MUST be activated on the score board after a match before the win/loss scores are updated.
+KEY
+* Depending on the time these codes are used, the server MAY disconnect both players. So, try to use with caution.
+~ It is highly recommended that these codes should be used with a button activator to avoid possible server D/C. For the GameCube controller button activator, look at the top line of "wiiztec"s "Final Valley Music" code.
+! Once these codes have been activated, deactivation will start in the next match.
+ALL Time codes must be used as separate codes otherwise they will not work.
+
+BETA Squad Name Changer [Anarion]
+42000000 90000000
+040314D4 XXXXXXXX
+040314D8 XXXXXXXX
+040314DC XXXXXXXX
+040314E0 XXXXXXXX
+E0000000 80008000
+X Values: GO TO- http://www.mikezilla.com/exp0012.html
+Type in ASCII field. Click "encode".
+Each Xs line holds a max of 4 characters. When encoded on the site provided, the values will be in pair. So do four letters/numbers at a time. Do not include the percentage symbol.
+First line will be the first 4 character of the name, second line will be the other 4, etc.
+Do not use characters that are not in the game. ex. %&#*:
+
+1st Angle Fixed Camera [Anarion]
+283BDC62 00000200
+04181E14 60000000
+E0000000 80008000
+283BDC62 00000100
+04181E0C EC01002A
+E0000000 80008000
+
+2nd Angle Fixed Camera [Anarion]
+283BDC62 00000200
+04181E34 60000000
+E0000000 80008000
+283BDC62 00000100
+04181E34 EC01002A
+E0000000 80008000
+
+No Boundaries [Anarion]
+283BDC62 00000200
+04181E30 60000000
+E0000000 80008000
+283BDC62 00000100
+04181E30 C01E0008
+E0000000 80008000
+You'll get out of bounds every time you jump. I recommend to activate, jump, and deactivate.
+
+Fixed Camera Angle+No Boundaries [Anarion]
+283BDC62 00000200
+04181E10 60000000
+E0000000 80008000
+283BDC62 00000100
+04181E10 C01E0000
+E0000000 80008000
+You can only jump directly up with this but this code is the better "no boundary" code of the two. You are back in bounds when it is deactivated.
+For the FOUR CODES ABOVE: Wiimote 1- Activate= 1 || Deactivate= 2
+
+Load Full Chakra Effect [Anarion]
+0406A44C 60000000
+Loads the visual effect that occurs when youland a paper bomb. Effect occurs with every punch. Just eye candy.
+
+All Players- Guard Break Chakra Modifier [Anarion]
+0406A628 38A0XXXX
+XXXX: 2710= full chakra || 1D4C= 75% || 1388= half || 9C4= 25% || 0000= default
+Rather than losing all chakra when guard is broken, this code will allow the user to have any amount of chakra after guard is broken.
+
+Single- Score Attack Battle Modifier [Anarion]
+42000000 80000000
+04395AC0 00000XXX
+E0000000 80008000
+X Values= # of battles won
+3E6= 999 (highest value)
+
+Single- Score Attack Point Modifier [Anarion]
+42000000 80000000
+04395AB8 00XXXXXX
+E0000000 80008000
+X Values= # of points
+98967F= 9999999 (highest value)
+
+Teleporters
+
+P1- Character Teleporter Offline [Anarion]
+283BDC62 00001000
+82200000 92XXXXXX
+82200001 92YYYYYY
+82200002 92ZZZZZZ
+E0000000 80008000
+283BDC62 00000010
+84200000 92XXXXXX
+84200001 92YYYYYY
+84200002 92ZZZZZZ
+E0000000 80008000
+Code will work for whatever character you decide to use it for.
+Wiimote: Press MINUS to save character's current position. Press PLUS to return to saved position.
+P1- XYZ Values: Same value set MUST be used for a specific character!!
+B4954C= Anko X______||| B436CC= Kabuto X_____||| B4A24C= Sai X
+B4955C= Anko Y______||| B436DC= Kabuto Y_____||| B4A25C= Sai Y
+B4956C= Anko Z______||| B436EC= Kabuto Z_____||| B4A26C= Sai Z
+B54DCC= Asuma X____||| B6004C= Kagura X_____||| B49B4C= Sakura X
+B54DDC= Asuma Y____||| B6005C= Kagura Y_____||| B49B5C= Sakura Y
+B54DEC= Asuma Z____||| B6006C= Kagura Z_____||| B49B6C= Sakura Z
+B3A8CC= Baki X______||| B526CC= Kakashi X____||| B5AFCC= Sasori X
+B3A8DC= Baki Y______||| B526DC= Kakashi Y____||| B5AFDC= Sasori Y
+B3A8EC= Baki Z______||| B526EC= Kakashi Z____||| B5AFEC= Sasori Z
+B3F2CC= Chiyo X_____||| B3B3CC= Kakuzu X____||| B3F94C= Sasuke X
+B3F2DC= Chiyo Y_____||| B3B3DC= Kakuzu Y____||| B3F95C= Sasuke Y
+B3F2EC= Chiyo Z_____||| B3B3EC= Kakuzu Z____||| B3F96C= Sasuke Z
+B799CC= Choji X______||| B38D4C= Kankuro X____||| B3684C= Shikamaru X
+B799DC= Choji Y______||| B38D5C= Kankuro Y____||| B3685C= Shikamaru Y
+B799EC= Choji Z______||| B38D6C= Kankuro Z____||| B3686C= Shikamaru Z
+B3CE4C= Deidara X____||| B3A14C= Kiba X______||| B3A34C= Shino X
+B3CE5C= Deidara Y____||| B3A15C= Kiba Y______||| B3A35C= Shino Y
+B3CE6C= Deidara Z____||| B3A16C= Kiba Z______||| B3A36C= Shino Z
+B3CA4C= Gaara X_____||| B382CC= Kisame X____||| B4D44C= Temari X
+B3CA5C= Gaara Y_____||| B382DC= Kisame Y____||| B4D45C= Temari Y
+B3CA6C= Gaara Z_____||| B382EC= Kisame Z____||| B4D46C= Temari Z
+B3604C= Guy X_______||| B4D6CC= Komachi X___||| B34DCC= Tenten X
+B3605C= Guy Y_______||| B4D6DC= Komachi Y___||| B34DDC= Tenten Y
+B3606C= Guy Z_______||| B4D6EC= Komachi Z___||| B34DEC= Tenten Z
+B5B8CC= Hidan X_____||| B50B4C= Kurenai X____||| B550CC= Towa X
+B5B8DC= Hidan Y_____||| B50B5C= Kurenai Y____||| B550DC= Towa Y
+B5B8EC= Hidan Z_____||| B50B6C= Kurenai Z____||| B550EC= Towa Z
+B5354C= Hinata X_____||| B3144C= Lee X________||| B440CC= Tsunade X
+B5355C= Hinata Y_____||| B3145C= Lee Y________||| B440DC= Tsunade Y
+B5356C= Hinata Z_____||| B3146C= Lee Z________||| B440EC= Tsunade
+B3F8CC= Hiruko X_____||| B5DFCC= Naruto X____||| BB5D4CC= Yamato X
+B3F8DC= Hiruko Y_____||| B5DFDC= Naruto Y____||| BB5D4DC= Yamato Y
+B3F8EC= Hiruko Z_____||| B5DFEC= Naruto Z____||| BB5D4EC= Yamato Z
+B3CACC= Itachi X_____||| B3924C= Neji X________||| B5E7CC= Yugao X
+B3CADC= Itachi Y_____||| B3925C= Neji Y________||| B5E7DC= Yugao Y
+B3CAEC= Itachi Z_____||| B3926C= Neji Z________||| B5E7EC= Yugao Z
+B53D4C= Jiraiya X_____||| B3E44C= Orochimaru X_||| B4794C= Bando X
+B53D5C= Jiraiya Y_____||| B3E45C= Orochimaru Y_||| B4795C= Bando Y
+B53D6C= Jiraiya Z_____||| B3E45C= Orochimaru Z_||| B4796C= Bando Z
+B4E3CC= Anbu Kakashi X
+B4E3DC= Anbu Kakashi Y
+B4E3EC= Anbu Kakashi Z
+
+P2- Character Teleporter Offline [Anarion]
+283BDD12 00001000
+82200003 92XXXXXX
+82200004 92YYYYYY
+82200005 92ZZZZZZ
+E0000000 80008000
+283BDD12 00000010
+84200003 92XXXXXX
+84200004 92YYYYYY
+84200005 92ZZZZZZ
+E0000000 80008000
+Code will work for whatever character you decide to use it for.
+Wiimote: Press MINUS to save character's current position. Press PLUS to return to saved position.
+P2- XYZ Values: Same value set MUST be used for a specific character!!
+DE956C= Anko X______||| DE36EC= Kabuto X_____||| DEA26C= Sai X
+DE957C= Anko Y______||| DE36FC= Kabuto Y_____||| DEA27C= Sai Y
+DE958C= Anko Z______||| DE370C= Kabuto Z_____||| DEA28C= Sai Z
+DF4DEC= Asuma X____||| E0006C= Kagura X_____||| DE9B6C= Sakura X
+DF4DFC= Asuma Y____||| E0007C= Kagura Y_____||| DE9B7C= Sakura Y
+DF4E0C= Asuma Z____||| E0008C= Kagura Z_____||| DE9B8C= Sakura Z
+DDA8EC= Baki X______||| DF26EC= Kakashi X____||| DFAFEC= Sasori X
+DDA8FC= Baki Y______||| DF26FC= Kakashi Y____||| DFAFFC= Sasori Y
+DDA90C= Baki Z______||| DF270C= Kakashi Z____||| DFB00C= Sasori Z
+DDF2EC= Chiyo X_____||| DDB3EC= Kakuzu X____||| DDF96C= Sasuke X
+DDF2FC= Chiyo Y_____||| DDB3FC= Kakuzu Y____||| DDF97C= Sasuke Y
+DDF30C= Chiyo Z_____||| DDB40C= Kakuzu Z____||| DDF98C= Sasuke Z
+E199EC= Choji X______||| DD8D6C= Kankuro X____||| DD686C= Shikamaru X
+E199FC= Choji Y______||| DD8D7C= Kankuro Y____||| DD687C= Shikamaru Y
+E19A0C= Choji Z______||| DD8D8C= Kankuro Z____||| DD688C= Shikamaru Z
+DDCE6C= Deidara X____||| DDA16C= Kiba X______||| DDA36C= Shino X
+DDCE7C= Deidara Y____||| DDA17C= Kiba Y______||| DDA37C= Shino Y
+DDCE8C= Deidara Z____||| DDA18C= Kiba Z______||| DDA38C= Shino Z
+DDCA6C= Gaara X_____||| DD82EC= Kisame X____||| DED46C= Temari X
+DDCA7C= Gaara Y_____||| DD82FC= Kisame Y____||| DED47C= Temari Y
+DDCA8C= Gaara Z_____||| DD830C= Kisame Z____||| DED48C= Temari Z
+DD606C= Guy X_______||| DED6EC= Komachi X___||| DD4DEC= Tenten X
+DD607C= Guy Y_______||| DED6FC= Komachi Y___||| DD4DFC= Tenten Y
+DD608C= Guy Z_______||| DED70C= Komachi Z___||| DD4E0C= Tenten Z
+DFB8EC= Hidan X_____||| DF0B6C= Kurenai X____||| DF50EC= Towa X
+DFB8FC= Hidan Y_____||| DF0B7C= Kurenai Y____||| DF50FC= Towa Y
+DFB90C= Hidan Z_____||| DF0B8C= Kurenai Z____||| DF510C= Towa Z
+DF356C= Hinata X_____||| DD146C= Lee X________||| DE40EC= Tsunade X
+DF357C= Hinata Y_____||| DD147C= Lee Y________||| DE40FC= Tsunade Y
+DF358C= Hinata Z_____||| DD148C= Lee Z________||| DE410C= TsunadeZ
+DDF8EC= Hiruko X_____||| DFDFEC= Naruto X____||| DFD4EC= Yamato X
+DDF8FC= Hiruko Y_____||| DFDFFC= Naruto Y____||| DFD4FC= Yamato Y
+DDF90C= Hiruko Z_____||| DFE00C= Naruto Z____||| DFD50C= Yamato Z
+DDCAEC= Itachi X_____||| DD926C= Neji X________||| DFE7EC= Yugao X
+DDCAFC= Itachi Y_____||| DD927C= Neji Y________||| DFE7FC= Yugao Y
+DDCB0C= Itachi Z_____||| DD928C= Neji Z________||| DFE80C= Yugao Z
+DF3D6C= Jiraiya X_____||| DDE46C= Orochimaru X_||| DE796C= Bando X
+DF3D7C= Jiraiya Y_____||| DDE47C= Orochimaru Y_||| DE797C= Bando Y
+DF3D8C= Jiraiya Z_____||| DDE48C= Orochimaru Z_||| DE798C= Bando Z
+DEE3EC= Anbu Kakashi X
+DEE3FC= Anbu Kakashi Y
+DEE40C= Anbu Kakashi Z
+
+Puppet Character Codes
+
+P1- Offline CROW Moon Jump [Anarion]
+283BDC62 00000008
+42000000 92000000
+04C4F75C XXXXXXXX
+E0000000 80008000
+P1 Wiimote- Activate= UP button
+Will only work for Crow when P1 uses Kankuro.
+
+P2- Offline CROW Moon Jump [Anarion]
+283BDD12 00000008
+42000000 92000000
+04EEF77C XXXXXXXX
+E0000000 80008000
+P2 Wiimote- Activate= UP button
+Will only work for Crow when P2 uses Kankuro.
+
+P1- Offline Black ANT Moon Jump [Anarion]
+283BDC62 00000008
+42000000 92000000
+04CCE51C XXXXXXXX
+E0000000 80008000
+P1 Wiimote- Activate= UP button
+Will only work Black Ant when P1 uses Kankuro.
+
+P2- Offline Black ANT Moon Jump [Anarion]
+283BDD12 00000008
+42000000 92000000
+04F6E53C XXXXXXXX
+E0000000 80008000
+P2 Wiimote- Activate= UP button
+Will only work for Black Ant when P2 uses Kankuro.
+
+P1- Offline Mother Puppet Moon Jump [Anarion]
+283BDC62 00000008
+42000000 92000000
+04D06CFC XXXXXXXX
+E0000000 80008000
+P1 Wiimote- Activate= UP button
+Will only work for Mother Puppet when P1 uses Chiyo.
+
+P1- Offline Father Puppet Moon Jump [Anarion]
+283BDC62 00000008
+42000000 92000000
+04C6853C XXXXXXXX
+E0000000 80008000
+P1 Wiimote- Activate= UP button
+Will only work for Father Puppet when P1 uses Chiyo.
+
+P2- Offline Mother Puppet Moon Jump [Anarion]
+283BDD12 00000008
+42000000 92000000
+04FA6D1C XXXXXXXX
+E0000000 80008000
+P2 Wiimote- Activate= UP button
+Will only work for Mother Puppet when P2 uses Chiyo.
+
+P2- Offline Father Puppet Moon Jump [Anarion]
+283BDD12 00000008
+42000000 92000000
+04F0855C XXXXXXXX
+E0000000 80008000
+P2 Wiimote- Activate= UP button
+Will only work for Mother Puppet when P2 uses Chiyo.
+
+P1- Offline CROW Teleporter [Anarion]
+283BDC62 00001000
+82200009 92C4F74C
+8220000A 92C4F75C
+8220000B 92C4F76C
+E0000000 80008000
+283BDC62 00000010
+84200009 92C4F74C
+8420000A 92C4F75C
+8420000B 92C4F76C
+E0000000 80008000
+Code will work for Crow when P1 uses Kankuro
+Wiimote: Press MINUS to save Crow's current position. Press PLUS to return Crow to saved position.
+
+P2-Offline CROW Teleporter [Anarion]
+283BDD12 00001000
+82200006 92EEF76C
+82200007 92EEF77C
+82200008 92EEF78C
+E0000000 80008000
+283BDD12 00000010
+84200006 92EEF76C
+84200007 92EEF77C
+84200008 92EEF78C
+E0000000 80008000
+Code will work for Crow when P2 uses Kankuro
+Wiimote: Press MINUS to save Crow's current position. Press PLUS to return Crow to saved position.
+
+P1- Offline Black ANT Teleporter [Anarion]
+283BDC62 00001000
+8220000C 92CCE50C
+8220000D 92CCE51C
+8220000E 92CCE52C
+E0000000 80008000
+283BDC62 00000010
+8420000C 92CCE50C
+8420000D 92CCE51C
+8420000E 92CCE52C
+E0000000 80008000
+Code will work for Black Ant when P1 uses Kankuro
+Wiimote: Press MINUS to save Black Ant's current position. Press PLUS to return Black Ant to saved position.
+
+P2- Offline Black ANT Teleporter [Anarion]
+283BDD12 00001000
+8220000F 92F6E52C
+82200010 92F6E53C
+82200011 92F6E54C
+E0000000 80008000
+283BDD12 00000010
+8420000F 92F6E52C
+84200010 92F6E53C
+84200011 92F6E54C
+E0000000 80008000
+Code will work for Black Ant when P2 uses Kankuro
+Wiimote: Press MINUS to save Black Ant's current position. Press PLUS to return Black Ant to saved position.
+
+P1- Offline Mother Puppet Teleporter [Anarion]
+283BDC62 00001000
+82200012 92D06CEC
+82200013 92D06CFC
+82200014 92D06D0C
+E0000000 80008000
+283BDC62 00000010
+84200012 92D06CEC
+84200013 92D06CFC
+84200014 92D06D0C
+E0000000 80008000
+Code will work for Mother Puppet when P1 uses Chiyo
+Wiimote: Press MINUS to save Mother Puppet's current position. Press PLUS to return Mother Puppet to saved position.
+
+P1- Offline Father Puppet Teleporter [Anarion]
+283BDC62 00001000
+82200015 92C6852C
+82200016 92C6853C
+82200017 92C6854C
+E0000000 80008000
+283BDC62 00000010
+84200015 92C6852C
+84200016 92C6853C
+84200017 92C6854C
+E0000000 80008000
+Code will work for Father Puppet when P1 uses Chiyo
+Wiimote: Press MINUS to save Father Puppet's current position. Press PLUS to return Father Puppet to saved position.
+
+P2- Offline Mother Puppet Teleporter [Anarion]
+283BDD12 00001000
+8220001B 92FA6D0C
+8220001C 92FA6D1C
+8220001D 92F0852C
+E0000000 80008000
+283BDD12 00000010
+8420001B 92FA6D0C
+8420001C 92FA6D1C
+8420001D 92FA6D2C
+E0000000 80008000
+Code will work for Mother Puppet when P2 uses Chiyo
+Wiimote: Press MINUS to save Mother Puppet's current position. Press PLUS to return Mother Puppet to saved position.
+
+P2- Offline Father Puppet Teleporter [Anarion]
+283BDD12 00001000
+82200018 92F0854C
+82200019 92F0855C
+8220001A 92F0856C
+E0000000 80008000
+283BDD12 00000010
+84200018 92F0854C
+84200019 92F0855C
+8420001A 92F0856C
+E0000000 80008000
+Code will work for Father Puppet when P2 uses Chiyo
+Wiimote: Press MINUS to save Father Puppet's current position. Press PLUS to return Father Puppet to saved position.
+
+Always have 999,999 ryo [wiiztec]
+42000000 90000000
+04027144 000F423F
+E0000000 80008000
+
+Final valley music switcher toggle Z+left(dpad) on GCC [wiiztec]
+283BDC30 00000011
+077E96E0 0000003C
+62676D5F 7374675F
+7368756D 61747375
+5F65785F 6578312E
+62727374 6D006267
+6D5F7374 675F7368
+756D6174 73755F67
+635F6763 342E6272
+73746D00 00000000
+CC000000 00000000
+077E96E0 0000003C
+62676D5F 7374675F
+7368756D 61747375
+5F67635F 6763342E
+62727374 6D006267
+6D5F7374 675F7368
+756D6174 73755F65
+785F6578 312E6272
+73746D00 00000000
+E0000000 80008000
+switches the music that normally plays in the final valley stage for the music that plays when the match is Naruto vs Sasuke (is on by default)
+
+P1 infnite health all offline modes [wiiztec]
+42000000 92000000
+04AEB068 00002710
+E0000000 80008000
+
+P1 infinite chakra all offline modes [wiiztec]
+42000000 92000000
+04AEB084 00002710
+E0000000 80008000
+
+P2 infinite health all offline modes [wiiztec]
+42000000 92000000
+04D8B08A 00002710
+E0000000 80008000
+
+P2 infinite chakra all offline modes [wiiztec]
+42000000 92000000
+04D8B0A4 00002710
+E0000000 80008000
+
+P3/P1's squadmate infinite health all offline modes [wiiztec]
+42000000 92000000
+0502B0A8 00002710
+E0000000 80008000
+
+P3/P1's squadmate infinite chakra all offline modes [wiiztec]
+42000000 92000000
+0502B0C4 00002710
+E0000000 80008000
+
+P4/P2's squadmate infinite health all offline modes [wiiztec]
+42000000 92000000
+052CB0C8 00002710
+E0000000 80008000
+
+P4/P2's squadmate infinite chakra all offline modes [wiiztec]
+42000000 92000000
+052CB0E4 00002710
+E0000000 80008000
+
+Force d/c from WiFi (L+R+Z on GCN) [hetoan2]
+283BDC30 00000070
+42000000 92000000
+04D4B068 00000000
+04D4B070 00002710
+E0000000 80008000
+does not count as a loss or win

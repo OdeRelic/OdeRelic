@@ -1,0 +1,18 @@
+R8XZ52
+Top Shot Dinosaur Hunter
+
+Inf Ammo [Thomas83Lin]
+0427E20C 38040000
+
+Automatic Weapons [Thomas83Lin]
+0427CDD4 60000000
+
+Rapid Fire [Thomas83Lin]
+0427CDD4 60000000
+0427CD9C 60000000
+
+Inf Adrenaline [Thomas83Lin]
+043BE8E8 60000000
+
+Inf Grenades [Thomas83Lin]
+042612A8 60000000

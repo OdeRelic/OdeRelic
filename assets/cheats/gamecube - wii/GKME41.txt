@@ -1,0 +1,14 @@
+GKME41
+Prince of-Persia The Two Thrones 
+
+Infinite Health
+042D31FC 3800007D
+
+Infinite Sand Tanks
+042D3984 60000000
+
+Infinite Alt Weapon Health
+0420B434 60000000
+
+Max Sand Credits
+04684DAC 00002710

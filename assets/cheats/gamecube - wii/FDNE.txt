@@ -1,0 +1,70 @@
+FDNE
+Mega Man 2
+
+Refill Health & Ammo [GMO]
+2817AAA8 00000402
+003B5B20 0000001C
+043B54FC 1C1C1C1C
+043B5500 1C1C1C1C
+023B5504 00001C1C
+003B5506 0000001C
+E0000000 80008000
+Hold B and Press Right on D-Pad
+
+1-Hit Boss Kill [GMO]
+2817AAA8 00000401
+003B5B21 00000001
+E0000000 80008000
+Hold B and Press Left on D-Pad
+
+Unlock All Weapons and Items [GMO]
+023B54FA 0000FFFF
+
+Moon Jump [Thomas83Lin]
+2817AAA8 FEFF0100
+003B5AA0 00000004
+E0000000 80008000
+*Wiimote*
+
+Infinite Lives [whitetigerx8]
+103B5508 00000064
+
+Infinite Health [whitetigerx8]
+103B5B20 0000001C
+
+Have All 4 Energy Tanks [whitetigerx8]
+103B5507 00000004
+
+Infinite Atomic fire [whitetigerx8]
+103B54FC 0000001C
+
+Infinite Air Shooter [whitetigerx8]
+103B54FD 0000001C
+
+Infinite Leaf Shield [whitetigerx8]
+103B54FE 0000001C
+
+Infinite Bubble Lead [whitetigerx8]
+103B54FF 0000001C
+
+Infinite Quick Boomerang [whitetigerx8]
+103B5500 0000001C
+
+Infinite Time Stopper [whitetigerx8]
+103B5501 0000001C
+Warning: You may get stuck in certain parts of the game as everything is frozen (including the pause menu).
+
+Infinite Metal Blade [whitetigerx8]
+103B5502 0000001C
+
+Infinite Crash Bomber [whitetigerx8]
+103B5503 0000001C
+
+Infinite Item-1 [whitetigerx8]
+103B5504 0000001C
+
+Infinite Item-2 [whitetigerx8]
+103B5505 0000001C
+
+Infinite Item-3 [whitetigerx8]
+103B5506 0000001C

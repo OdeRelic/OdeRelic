@@ -1,0 +1,10 @@
+SQFE5G
+Phineas and Ferb: Quest for Cool Stuff
+
+If Increase 9999 Sprockets in Stage [Crapulecorp]
+C2929408 00000002
+3C0003E7 90030004
+60000000 00000000
+
+Unlimited Time [Crapulecorp]
+0491CC94 60000000

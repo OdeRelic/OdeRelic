@@ -1,0 +1,166 @@
+SCJP4Q
+LEGO Pirates of the Caribbean: The Video Game
+
+Coin Multiplier [BoxNinja]
+05095024 FFFFFFFF
+*Coins are worth about 3 Billion
+
+Player 1 In-Level Coins [BoxNinja]
+048894A4 3B9AC9FF
+
+Player 2 In-Level Coins [BoxNinja]
+048894BC 3B9AC9FF
+
+In-Game Extras Always On (No Purchase Necessary)
+
+Disguises Always On [BoxNinja]
+047A9D10 FFFF0101
+
+Fast Dig Always On [BoxNinja]
+047A9D28 FFFF0101
+
+Fast Forge Always On [BoxNinja]
+047A9D40 FFFF0101
+
+Extra Toggle Always On [BoxNinja]
+047A9D58 FFFF0101
+
+Fast Build Always On [BoxNinja]
+047A9D70 FFFF0101
+
+Character Treasure Always On [BoxNinja]
+047A9D88 FFFF0101
+
+Fall Rescue Always On [BoxNinja]
+047A9DA0 FFFF0101
+
+Treasure Magnet Always On [BoxNinja]
+047A9DB8 FFFF0101
+
+Breathe Underwater Always On [BoxNinja]
+047A9DD0 FFFF0101
+
+Regenerate Hearts Always On [BoxNinja]
+047A9DE8 FFFF0101
+
+Red Hat Finder Always On [BoxNinja]
+047A9E00 FFFF0101
+
+Minikit Bottle Finder Always On [BoxNinja]
+047A9E18 FFFF0101
+
+Extra Hearts Always On [BoxNinja]
+047A9E30 FFFF0101
+
+Always Double Treasure Always On [BoxNinja]
+047A9E48 FFFF0101
+
+Invincibility Always On [BoxNinja]
+047A9E60 FFFF0101
+
+Treasure x2 Always On [BoxNinja]
+047A9E78 FFFF0101
+
+Treasure x4 Always On [BoxNinja]
+047A9E90 FFFF0101
+
+Treasure x6 Always On [BoxNinja]
+047A9EA8 FFFF0101
+
+Treasure x8 Always On [BoxNinja]
+047A9EC0 FFFF0101
+
+Treasure x10 Always On [BoxNinja]
+047A9ED8 FFFF0101
+
+Inf Health [Thomas83Lin]
+C252BF24 00000004
+2C050002 4182000C
+2C050008 4082000C
+8B730E75 9B730E76
+8B730E76 00000000
+
+Unlock All Characters [Thomas83Lin]
+044848CC 60000000
+*Temporary*
+
+Unlock All Characters [Thomas83Lin]
+044848C8 38000001
+044848CC 98030058
+*Permanent*
+
+Max Gold Bricks [Thomas83Lin]
+C2428EA4 00000002
+38A000FF 98A30002
+60000000 00000000
+045FAB5C 38A000FF
+*Temporary*
+
+Unlock All Red Hat Extras [Thomas83Lin]
+C247A0A0 00000002
+3980FFFF 7D85012E
+7C05002E 00000000
+
+Unlock All Levels in Port [Thomas83Lin]
+C264C794 00000002
+3800000C 9803000A
+8863000A 00000000
+
+All MiniKit Bottles After Entering Level [Thomas83Lin]
+C25FA06C 00000003
+3880000A 90830014
+90830018 9083001C
+60000000 00000000
+
+Instant All MiniKit+Compass+Top Pirate [Thomas83Lin]
+C2499E50 00000005
+380000FF 9805000E
+3800000A 98050007
+38000001 98050005
+38000082 98050009
+8805000E 00000000
+*Activated when you Pause in the Port*
+*You'll Receive your Gold Bricks for
+Completing these task by Saving and Exiting*
+
+All MiniKit Bottles After Entering Level [Thomas83Lin]
+0488A084 0000000A
+0488A088 0000000A
+0488A08C 0000000A
+*Ram write Version*
+
+Moon Jump 1P [Thomas83Lin]
+C2567CD8 00000003
+800D1530 3E208000
+6231189C 90110000
+60000000 00000000
+2885B5AA F7FF0800
+48000000 8000189C
+DE000000 80008180
+14000FB8 3F800000
+E0000000 80008000
+*Wiimote-NunChuk*
+
+Moon Jump 2P [Thomas83Lin]
+C25A3614 00000003
+806D1534 3C808000
+608418A0 90640000
+60000000 00000000
+2885B69A F7FF0800
+48000000 800018A0
+DE000000 80008180
+14000FB8 3F800000
+E0000000 80008000
+*Wiimote-NunChuk*
+
+Unlock All Cut Scene's at Pub [Thomas83Lin]
+C2378664 00000002
+3980FFFF 7D85012E
+7C05002E 00000000
+*You Need to Completely Scroll through
+All Movies to Completely Unlock Them all*
+
+All Red Hats [Thomas83Lin]
+C247B594 00000002
+38A0FFFF 90BF0004
+90BF0008 00000000

@@ -1,0 +1,1812 @@
+JECJ
+Chrono Trigger
+
+Miscellaneous Codes
+
+Always First Save [GMO]
+00511BD4 00000000
+
+Disable Game Time [GMO]
+0050F639 00000000
+
+99 Silver Points (Millennial Fair) [GMO]
+0051F28A 00000063
+
+Unlimited Gold [GMO]
+00511E8B 000000FF
+02511E8C 0000FFFF
+
+Max Gold [GMO]
+00511E8B 0000007E
+04511E8C 96986169
+
+Unlimited Items Upon Pick Up [GMO]
+08511738 00000062
+00F20001 00000000
+
+Have All Items [GMO]
+08511638 00000001
+00CF0001 00000001
+Use With Unlimited Items Upon Pickup, Save the Game and Start with codes off and sell dummy/blank items
+
+After Battle Codes
+
+Quick EXP Point Gain After Battle [GMO]
+0251A4C4 0000FFFF
+
+Quick TECH Point Gain After Battle [GMO]
+0051A513 000000FF
+0051A514 000000FF
+
+Quick Money Gain After Battle [GMO]
+0051A4DD 000000FF
+0051A4DE 000000FF
+
+Item After Battle Modifier [GMO]
+0051A4DF 000000??
+
+Character Codes
+
+Crono Current HP [GMO]
+0051183B 000000E7
+0051183C 00000003
+
+Crono Max HP [GMO]
+0051183D 000000E7
+0051183E 00000003
+
+Crono Current MP [GMO]
+0051183F 00000063
+
+Crono Max MP [GMO]
+00511841 00000063
+
+Lucca Current HP [GMO]
+005118DB 000000E7
+005118DC 00000003
+
+Lucca Max HP [GMO]
+005118DD 000000E7
+005118DE 00000003
+
+Lucca Current MP [GMO]
+005118DF 00000063
+
+Lucca Max MP [GMO]
+005118E1 00000063
+
+Frog Current HP [GMO]
+0051197B 000000E7
+0051197C 00000003
+
+Frog Max HP [GMO]
+0051197D 000000E7
+0051197E 00000003
+
+Frog Current MP [GMO]
+0051197F 00000063
+
+Frog Max MP [GMO]
+00511981 00000063
+
+Marle Current HP [GMO]
+02515168 0000E703
+
+Marle Max HP [GMO]
+0251516A 0000E703
+
+Marle Current MP [GMO]
+0051516C 00000063
+
+Marle Max MP [GMO]
+0051516E 00000063
+
+Robo Current HP [GMO]
+025150E8 0000E703
+
+Robo Max HP [GMO]
+025150EA 0000E703
+
+Robo Current MP [GMO]
+005150EC 00000063
+
+Robo Max MP [GMO]
+005150EE 00000063
+
+Ayla Current HP [GMO]
+005119CB 000000E7
+005119CC 00000003
+
+Ayla Max HP [GMO]
+005119CD 000000E7
+005119CE 00000003
+
+Ayla Current MP [GMO]
+005119CF 00000063
+
+Ayla Max MP [GMO]
+005119D1 00000063
+
+Magus Current HP [GMO]
+02515068 0000E703
+
+Magus Max HP [GMO]
+0251506A 0000E703
+
+Magus Current MP [GMO]
+0051506C 00000063
+
+Magus Max MP [GMO]
+0051506E 00000063
+
+Item Modifiers
+
+Item Modifier Slot 1 [GMO]
+00511638 000000??
+
+Item Modifier Slot 2 [GMO]
+00511639 000000??
+
+Item Modifier Slot 3 [GMO]
+0051163A 000000??
+
+Item Modifier Slot 4 [GMO]
+0051163B 000000??
+
+Item Modifier Slot 5 [GMO]
+0051163C 000000??
+
+Item Modifier Slot 6 [GMO]
+0051163D 000000??
+
+Item Modifier Slot 7 [GMO]
+0051163E 000000??
+
+Item Modifier Slot 8 [GMO]
+0051163F 000000??
+
+Item Modifier Slot 9 [GMO]
+00511640 000000??
+
+Item Modifier Slot 10 [GMO]
+00511641 000000??
+
+Item Modifier Slot 11 [GMO]
+00511642 000000??
+
+Item Modifier Slot 12 [GMO]
+00511643 000000??
+
+Item Modifier Slot 13 [GMO]
+00511644 000000??
+
+Item Modifier Slot 14 [GMO]
+00511645 000000??
+
+Item Modifier Slot 15 [GMO]
+00511646 000000??
+
+Item Modifier Slot 16 [GMO]
+00511647 000000??
+
+Item Modifier Slot 17 [GMO]
+00511648 000000??
+
+Item Modifier Slot 18 [GMO]
+00511649 000000??
+
+Item Modifier Slot 19 [GMO]
+0051164A 000000??
+
+Item Modifier Slot 20 [GMO]
+0051164B 000000??
+
+Item Modifier Slot 21 [GMO]
+0051164C 000000??
+
+Item Modifier Slot 22 [GMO]
+0051164D 000000??
+
+Item Modifier Slot 23 [GMO]
+0051164E 000000??
+
+Item Modifier Slot 24 [GMO]
+0051164F 000000??
+
+Item Modifier Slot 25 [GMO]
+00511650 000000??
+
+Item Modifier Slot 26 [GMO]
+00511651 000000??
+
+Item Modifier Slot 27 [GMO]
+00511652 000000??
+
+Item Modifier Slot 28 [GMO]
+00511653 000000??
+
+Item Modifier Slot 29 [GMO]
+00511654 000000??
+
+Item Modifier Slot 30 [GMO]
+00511655 000000??
+
+Item Modifier Slot 31 [GMO]
+00511656 000000??
+
+Item Modifier Slot 32 [GMO]
+00511657 000000??
+
+Item Modifier Slot 33 [GMO]
+00511658 000000??
+
+Item Modifier Slot 34 [GMO]
+00511659 000000??
+
+Item Modifier Slot 35 [GMO]
+0051165A 000000??
+
+Item Modifier Slot 36 [GMO]
+0051165B 000000??
+
+Item Modifier Slot 37 [GMO]
+0051165C 000000??
+
+Item Modifier Slot 38 [GMO]
+0051165D 000000??
+
+Item Modifier Slot 39 [GMO]
+0051165E 000000??
+
+Item Modifier Slot 40 [GMO]
+0051165F 000000??
+
+Item Modifier Slot 41 [GMO]
+00511660 000000??
+
+Item Modifier Slot 42 [GMO]
+00511661 000000??
+
+Item Modifier Slot 43 [GMO]
+00511662 000000??
+
+Item Modifier Slot 44 [GMO]
+00511663 000000??
+
+Item Modifier Slot 45 [GMO]
+00511664 000000??
+
+Item Modifier Slot 46 [GMO]
+00511665 000000??
+
+Item Modifier Slot 47 [GMO]
+00511666 000000??
+
+Item Modifier Slot 48 [GMO]
+00511667 000000??
+
+Item Modifier Slot 49 [GMO]
+00511668 000000??
+
+Item Modifier Slot 50 [GMO]
+00511669 000000??
+
+Item Modifier Slot 51 [GMO]
+0051166A 000000??
+
+Item Modifier Slot 52 [GMO]
+0051166B 000000??
+
+Item Modifier Slot 53 [GMO]
+0051166C 000000??
+
+Item Modifier Slot 54 [GMO]
+0051166D 000000??
+
+Item Modifier Slot 55 [GMO]
+0051166E 000000??
+
+Item Modifier Slot 56 [GMO]
+0051166F 000000??
+
+Item Modifier Slot 57 [GMO]
+00511670 000000??
+
+Item Modifier Slot 58 [GMO]
+00511671 000000??
+
+Item Modifier Slot 59 [GMO]
+00511672 000000??
+
+Item Modifier Slot 60 [GMO]
+00511673 000000??
+
+Item Modifier Slot 61 [GMO]
+00511674 000000??
+
+Item Modifier Slot 62 [GMO]
+00511675 000000??
+
+Item Modifier Slot 63 [GMO]
+00511676 000000??
+
+Item Modifier Slot 64 [GMO]
+00511677 000000??
+
+Item Modifier Slot 65 [GMO]
+00511678 000000??
+
+Item Modifier Slot 66 [GMO]
+00511679 000000??
+
+Item Modifier Slot 67 [GMO]
+0051167A 000000??
+
+Item Modifier Slot 68 [GMO]
+0051167B 000000??
+
+Item Modifier Slot 69 [GMO]
+0051167C 000000??
+
+Item Modifier Slot 70 [GMO]
+0051167D 000000??
+
+Item Modifier Slot 71 [GMO]
+0051167E 000000??
+
+Item Modifier Slot 72 [GMO]
+0051167F 000000??
+
+Item Modifier Slot 73 [GMO]
+00511680 000000??
+
+Item Modifier Slot 74 [GMO]
+00511681 000000??
+
+Item Modifier Slot 75 [GMO]
+00511682 000000??
+
+Item Modifier Slot 76 [GMO]
+00511683 000000??
+
+Item Modifier Slot 77 [GMO]
+00511684 000000??
+
+Item Modifier Slot 78 [GMO]
+00511685 000000??
+
+Item Modifier Slot 79 [GMO]
+00511686 000000??
+
+Item Modifier Slot 80 [GMO]
+00511687 000000??
+
+Item Modifier Slot 81 [GMO]
+00511688 000000??
+
+Item Modifier Slot 82 [GMO]
+00511689 000000??
+
+Item Modifier Slot 83 [GMO]
+0051168A 000000??
+
+Item Modifier Slot 84 [GMO]
+0051168B 000000??
+
+Item Modifier Slot 85 [GMO]
+0051168C 000000??
+
+Item Modifier Slot 86 [GMO]
+0051168D 000000??
+
+Item Modifier Slot 87 [GMO]
+0051168E 000000??
+
+Item Modifier Slot 88 [GMO]
+0051168F 000000??
+
+Item Modifier Slot 89 [GMO]
+00511690 000000??
+
+Item Modifier Slot 90 [GMO]
+00511691 000000??
+
+Item Modifier Slot 91 [GMO]
+00511692 000000??
+
+Item Modifier Slot 92 [GMO]
+00511693 000000??
+
+Item Modifier Slot 93 [GMO]
+00511694 000000??
+
+Item Modifier Slot 94 [GMO]
+00511695 000000??
+
+Item Modifier Slot 95 [GMO]
+00511696 000000??
+
+Item Modifier Slot 96 [GMO]
+00511697 000000??
+
+Item Modifier Slot 97 [GMO]
+00511698 000000??
+
+Item Modifier Slot 98 [GMO]
+00511699 000000??
+
+Item Modifier Slot 99 [GMO]
+0051169A 000000??
+
+Item Modifier Slot 100 [GMO]
+0051169B 000000??
+
+Item Modifier Slot 101 [GMO]
+0051169C 000000??
+
+Item Modifier Slot 102 [GMO]
+0051169D 000000??
+
+Item Modifier Slot 103 [GMO]
+0051169E 000000??
+
+Item Modifier Slot 104 [GMO]
+0051169F 000000??
+
+Item Modifier Slot 105 [GMO]
+005116A0 000000??
+
+Item Modifier Slot 106 [GMO]
+005116A1 000000??
+
+Item Modifier Slot 107 [GMO]
+005116A2 000000??
+
+Item Modifier Slot 108 [GMO]
+005116A3 000000??
+
+Item Modifier Slot 109 [GMO]
+005116A4 000000??
+
+Item Modifier Slot 110 [GMO]
+005116A5 000000??
+
+Item Modifier Slot 111 [GMO]
+005116A6 000000??
+
+Item Modifier Slot 112 [GMO]
+005116A7 000000??
+
+Item Modifier Slot 113 [GMO]
+005116A8 000000??
+
+Item Modifier Slot 114 [GMO]
+005116A9 000000??
+
+Item Modifier Slot 115 [GMO]
+005116AA 000000??
+
+Item Modifier Slot 116 [GMO]
+005116AB 000000??
+
+Item Modifier Slot 117 [GMO]
+005116AC 000000??
+
+Item Modifier Slot 118 [GMO]
+005116AD 000000??
+
+Item Modifier Slot 119 [GMO]
+005116AE 000000??
+
+Item Modifier Slot 120 [GMO]
+005116AF 000000??
+
+Item Modifier Slot 121 [GMO]
+005116B0 000000??
+
+Item Modifier Slot 122 [GMO]
+005116B1 000000??
+
+Item Modifier Slot 123 [GMO]
+005116B2 000000??
+
+Item Modifier Slot 124 [GMO]
+005116B3 000000??
+
+Item Modifier Slot 125 [GMO]
+005116B4 000000??
+
+Item Modifier Slot 126 [GMO]
+005116B5 000000??
+
+Item Modifier Slot 127 [GMO]
+005116B6 000000??
+
+Item Modifier Slot 128 [GMO]
+005116B7 000000??
+
+Item Modifier Slot 129 [GMO]
+005116B8 000000??
+
+Item Modifier Slot 130 [GMO]
+005116B9 000000??
+
+Item Modifier Slot 131 [GMO]
+005116BA 000000??
+
+Item Modifier Slot 132 [GMO]
+005116BB 000000??
+
+Item Modifier Slot 133 [GMO]
+005116BC 000000??
+
+Item Modifier Slot 134 [GMO]
+005116BD 000000??
+
+Item Modifier Slot 135 [GMO]
+005116BE 000000??
+
+Item Modifier Slot 136 [GMO]
+005116BF 000000??
+
+Item Modifier Slot 137 [GMO]
+005116C0 000000??
+
+Item Modifier Slot 138 [GMO]
+005116C1 000000??
+
+Item Modifier Slot 139 [GMO]
+005116C2 000000??
+
+Item Modifier Slot 140 [GMO]
+005116C3 000000??
+
+Item Modifier Slot 141 [GMO]
+005116C4 000000??
+
+Item Modifier Slot 142 [GMO]
+005116C5 000000??
+
+Item Modifier Slot 143 [GMO]
+005116C6 000000??
+
+Item Modifier Slot 144 [GMO]
+005116C7 000000??
+
+Item Modifier Slot 145 [GMO]
+005116C8 000000??
+
+Item Modifier Slot 146 [GMO]
+005116C9 000000??
+
+Item Modifier Slot 147 [GMO]
+005116CA 000000??
+
+Item Modifier Slot 148 [GMO]
+005116CB 000000??
+
+Item Modifier Slot 149 [GMO]
+005116CC 000000??
+
+Item Modifier Slot 150 [GMO]
+005116CD 000000??
+
+Item Modifier Slot 151 [GMO]
+005116CE 000000??
+
+Item Modifier Slot 152 [GMO]
+005116CF 000000??
+
+Item Modifier Slot 153 [GMO]
+005116D0 000000??
+
+Item Modifier Slot 154 [GMO]
+005116D1 000000??
+
+Item Modifier Slot 155 [GMO]
+005116D2 000000??
+
+Item Modifier Slot 156 [GMO]
+005116D3 000000??
+
+Item Modifier Slot 157 [GMO]
+005116D4 000000??
+
+Item Modifier Slot 158 [GMO]
+005116D5 000000??
+
+Item Modifier Slot 159 [GMO]
+005116D6 000000??
+
+Item Modifier Slot 160 [GMO]
+005116D7 000000??
+
+Item Modifier Slot 161 [GMO]
+005116D8 000000??
+
+Item Modifier Slot 162 [GMO]
+005116D9 000000??
+
+Item Modifier Slot 163 [GMO]
+005116DA 000000??
+
+Item Modifier Slot 164 [GMO]
+005116DB 000000??
+
+Item Modifier Slot 165 [GMO]
+005116DC 000000??
+
+Item Modifier Slot 166 [GMO]
+005116DD 000000??
+
+Item Modifier Slot 167 [GMO]
+005116DE 000000??
+
+Item Modifier Slot 168 [GMO]
+005116DF 000000??
+
+Item Modifier Slot 169 [GMO]
+005116E0 000000??
+
+Item Modifier Slot 170 [GMO]
+005116E1 000000??
+
+Item Modifier Slot 171 [GMO]
+005116E2 000000??
+
+Item Modifier Slot 172 [GMO]
+005116E3 000000??
+
+Item Modifier Slot 173 [GMO]
+005116E4 000000??
+
+Item Modifier Slot 174 [GMO]
+005116E5 000000??
+
+Item Modifier Slot 175 [GMO]
+005116E6 000000??
+
+Item Modifier Slot 176 [GMO]
+005116E7 000000??
+
+Item Modifier Slot 177 [GMO]
+005116E8 000000??
+
+Item Modifier Slot 178 [GMO]
+005116E9 000000??
+
+Item Modifier Slot 179 [GMO]
+005116EA 000000??
+
+Item Modifier Slot 180 [GMO]
+005116EB 000000??
+
+Item Modifier Slot 181 [GMO]
+005116EC 000000??
+
+Item Modifier Slot 182 [GMO]
+005116ED 000000??
+
+Item Modifier Slot 183 [GMO]
+005116EE 000000??
+
+Item Modifier Slot 184 [GMO]
+005116EF 000000??
+
+Item Modifier Slot 185 [GMO]
+005116F0 000000??
+
+Item Modifier Slot 186 [GMO]
+005116F1 000000??
+
+Item Modifier Slot 187 [GMO]
+005116F2 000000??
+
+Item Modifier Slot 188 [GMO]
+005116F3 000000??
+
+Item Modifier Slot 189 [GMO]
+005116F4 000000??
+
+Item Modifier Slot 190 [GMO]
+005116F5 000000??
+
+Item Modifier Slot 191 [GMO]
+005116F6 000000??
+
+Item Modifier Slot 192 [GMO]
+005116F7 000000??
+
+Item Modifier Slot 193 [GMO]
+005116F8 000000??
+
+Item Modifier Slot 194 [GMO]
+005116F9 000000??
+
+Item Modifier Slot 195 [GMO]
+005116FA 000000??
+
+Item Modifier Slot 196 [GMO]
+005116FB 000000??
+
+Item Modifier Slot 197 [GMO]
+005116FC 000000??
+
+Item Modifier Slot 198 [GMO]
+005116FD 000000??
+
+Item Modifier Slot 199 [GMO]
+005116FE 000000??
+
+Item Modifier Slot 200 [GMO]
+005116FF 000000??
+
+Item Modifier Slot 201 [GMO]
+00511700 000000??
+
+Item Modifier Slot 202 [GMO]
+00511701 000000??
+
+Item Modifier Slot 203 [GMO]
+00511702 000000??
+
+Item Modifier Slot 204 [GMO]
+00511703 000000??
+
+Item Modifier Slot 205 [GMO]
+00511704 000000??
+
+Item Modifier Slot 206 [GMO]
+00511705 000000??
+
+Item Modifier Slot 207 [GMO]
+00511706 000000??
+
+Item Modifier Slot 208 [GMO]
+00511707 000000??
+
+Item Modifier Slot 209 [GMO]
+00511708 000000??
+
+Item Modifier Slot 210 [GMO]
+00511709 000000??
+
+Item Modifier Slot 211 [GMO]
+0051170A 000000??
+
+Item Modifier Slot 212 [GMO]
+0051170B 000000??
+
+Item Modifier Slot 213 [GMO]
+0051170C 000000??
+
+Item Modifier Slot 214 [GMO]
+0051170D 000000??
+
+Item Modifier Slot 215 [GMO]
+0051170E 000000??
+
+Item Modifier Slot 216 [GMO]
+0051170F 000000??
+
+Item Modifier Slot 217 [GMO]
+00511710 000000??
+
+Item Modifier Slot 218 [GMO]
+00511711 000000??
+
+Item Modifier Slot 219 [GMO]
+00511712 000000??
+
+Item Modifier Slot 220 [GMO]
+00511713 000000??
+
+Item Modifier Slot 221 [GMO]
+00511714 000000??
+
+Item Modifier Slot 222 [GMO]
+00511715 000000??
+
+Item Modifier Slot 223 [GMO]
+00511716 000000??
+
+Item Modifier Slot 224 [GMO]
+00511717 000000??
+
+Item Modifier Slot 225 [GMO]
+00511718 000000??
+
+Item Modifier Slot 226 [GMO]
+00511719 000000??
+
+Item Modifier Slot 227 [GMO]
+0051171A 000000??
+
+Item Modifier Slot 228 [GMO]
+0051171B 000000??
+
+Item Modifier Slot 229 [GMO]
+0051171C 000000??
+
+Item Modifier Slot 230 [GMO]
+0051171D 000000??
+
+Item Modifier Slot 231 [GMO]
+0051171E 000000??
+
+Item Modifier Slot 232 [GMO]
+00511720 000000??
+
+Item Modifier Slot 233 [GMO]
+00511721 000000??
+
+Item Modifier Slot 234 [GMO]
+00511722 000000??
+
+Item Modifier Slot 235 [GMO]
+00511723 000000??
+
+Item Modifier Slot 236 [GMO]
+00511724 000000??
+
+Item Modifier Slot 237 [GMO]
+00511725 000000??
+
+Item Modifier Slot 238 [GMO]
+00511726 000000??
+
+Item Modifier Slot 239 [GMO]
+00511727 000000??
+
+Item Modifier Slot 240 [GMO]
+00511728 000000??
+
+Item Modifier Slot 241 [GMO]
+00511729 000000??
+
+Item Modifier Slot 242 [GMO]
+0051172A 000000??
+
+Max Item Amounts...
+
+Max Item Amount Slot 1 [GMO]
+00511738 00000062
+
+Max Item Amount Slot 2 [GMO]
+00511739 00000062
+
+Max Item Amount Slot 3 [GMO]
+0051173A 00000062
+
+Max Item Amount Slot 4 [GMO]
+0051173B 00000062
+
+Max Item Amount Slot 5 [GMO]
+0051173C 00000062
+
+Max Item Amount Slot 6 [GMO]
+0051173D 00000062
+
+Max Item Amount Slot 7 [GMO]
+0051173E 00000062
+
+Max Item Amount Slot 8 [GMO]
+0051173F 00000062
+
+Max Item Amount Slot 9 [GMO]
+00511740 00000062
+
+Max Item Amount Slot 10 [GMO]
+00511741 00000062
+
+Max Item Amount Slot 11 [GMO]
+00511742 00000062
+
+Max Item Amount Slot 12 [GMO]
+00511743 00000062
+
+Max Item Amount Slot 13 [GMO]
+00511744 00000062
+
+Max Item Amount Slot 14 [GMO]
+00511745 00000062
+
+Max Item Amount Slot 15 [GMO]
+00511746 00000062
+
+Max Item Amount Slot 16 [GMO]
+00511747 00000062
+
+Max Item Amount Slot 17 [GMO]
+00511748 00000062
+
+Max Item Amount Slot 18 [GMO]
+00511749 00000062
+
+Max Item Amount Slot 19 [GMO]
+0051174A 00000062
+
+Max Item Amount Slot 20 [GMO]
+0051174B 00000062
+
+Max Item Amount Slot 21 [GMO]
+0051174C 00000062
+
+Max Item Amount Slot 22 [GMO]
+0051174D 00000062
+
+Max Item Amount Slot 23 [GMO]
+0051174E 00000062
+
+Max Item Amount Slot 24 [GMO]
+0051174F 00000062
+
+Max Item Amount Slot 25 [GMO]
+00511750 00000062
+
+Max Item Amount Slot 26 [GMO]
+00511751 00000062
+
+Max Item Amount Slot 27 [GMO]
+00511752 00000062
+
+Max Item Amount Slot 28 [GMO]
+00511753 00000062
+
+Max Item Amount Slot 29 [GMO]
+00511754 00000062
+
+Max Item Amount Slot 30 [GMO]
+00511755 00000062
+
+Max Item Amount Slot 31 [GMO]
+00511756 00000062
+
+Max Item Amount Slot 32 [GMO]
+00511757 00000062
+
+Max Item Amount Slot 33 [GMO]
+00511758 00000062
+
+Max Item Amount Slot 34 [GMO]
+00511759 00000062
+
+Max Item Amount Slot 35 [GMO]
+0051175A 00000062
+
+Max Item Amount Slot 36 [GMO]
+0051175B 00000062
+
+Max Item Amount Slot 37 [GMO]
+0051175C 00000062
+
+Max Item Amount Slot 38 [GMO]
+0051175D 00000062
+
+Max Item Amount Slot 39 [GMO]
+0051175E 00000062
+
+Max Item Amount Slot 40 [GMO]
+0051175F 00000062
+
+Max Item Amount Slot 41 [GMO]
+00511760 00000062
+
+Max Item Amount Slot 42 [GMO]
+00511761 00000062
+
+Max Item Amount Slot 43 [GMO]
+00511762 00000062
+
+Max Item Amount Slot 44 [GMO]
+00511763 00000062
+
+Max Item Amount Slot 45 [GMO]
+00511764 00000062
+
+Max Item Amount Slot 46 [GMO]
+00511765 00000062
+
+Max Item Amount Slot 47 [GMO]
+00511766 00000062
+
+Max Item Amount Slot 48 [GMO]
+00511767 00000062
+
+Max Item Amount Slot 49 [GMO]
+00511768 00000062
+
+Max Item Amount Slot 50 [GMO]
+00511769 00000062
+
+Max Item Amount Slot 51 [GMO]
+0051176A 00000062
+
+Max Item Amount Slot 52 [GMO]
+0051176B 00000062
+
+Max Item Amount Slot 53 [GMO]
+0051176C 00000062
+
+Max Item Amount Slot 54 [GMO]
+0051176D 00000062
+
+Max Item Amount Slot 55 [GMO]
+0051176E 00000062
+
+Max Item Amount Slot 56 [GMO]
+0051176F 00000062
+
+Max Item Amount Slot 57 [GMO]
+00511770 00000062
+
+Max Item Amount Slot 58 [GMO]
+00511771 00000062
+
+Max Item Amount Slot 59 [GMO]
+00511772 00000062
+
+Max Item Amount Slot 60 [GMO]
+00511773 00000062
+
+Max Item Amount Slot 61 [GMO]
+00511774 00000062
+
+Max Item Amount Slot 62 [GMO]
+00511775 00000062
+
+Max Item Amount Slot 63 [GMO]
+00511776 00000062
+
+Max Item Amount Slot 64 [GMO]
+00511777 00000062
+
+Max Item Amount Slot 65 [GMO]
+00511778 00000062
+
+Max Item Amount Slot 66 [GMO]
+00511779 00000062
+
+Max Item Amount Slot 67 [GMO]
+0051177A 00000062
+
+Max Item Amount Slot 68 [GMO]
+0051177B 00000062
+
+Max Item Amount Slot 69 [GMO]
+0051177C 00000062
+
+Max Item Amount Slot 70 [GMO]
+0051177D 00000062
+
+Max Item Amount Slot 71 [GMO]
+0051177E 00000062
+
+Max Item Amount Slot 72 [GMO]
+0051177F 00000062
+
+Max Item Amount Slot 73 [GMO]
+00511780 00000062
+
+Max Item Amount Slot 74 [GMO]
+00511781 00000062
+
+Max Item Amount Slot 75 [GMO]
+00511782 00000062
+
+Max Item Amount Slot 76 [GMO]
+00511783 00000062
+
+Max Item Amount Slot 77 [GMO]
+00511784 00000062
+
+Max Item Amount Slot 78 [GMO]
+00511785 00000062
+
+Max Item Amount Slot 79 [GMO]
+00511786 00000062
+
+Max Item Amount Slot 80 [GMO]
+00511787 00000062
+
+Max Item Amount Slot 81 [GMO]
+00511788 00000062
+
+Max Item Amount Slot 82 [GMO]
+00511789 00000062
+
+Max Item Amount Slot 83 [GMO]
+0051178A 00000062
+
+Max Item Amount Slot 84 [GMO]
+0051178B 00000062
+
+Max Item Amount Slot 85 [GMO]
+0051178C 00000062
+
+Max Item Amount Slot 86 [GMO]
+0051178D 00000062
+
+Max Item Amount Slot 87 [GMO]
+0051178E 00000062
+
+Max Item Amount Slot 88 [GMO]
+0051178F 00000062
+
+Max Item Amount Slot 89 [GMO]
+00511790 00000062
+
+Max Item Amount Slot 90 [GMO]
+00511791 00000062
+
+Max Item Amount Slot 91 [GMO]
+00511792 00000062
+
+Max Item Amount Slot 92 [GMO]
+00511793 00000062
+
+Max Item Amount Slot 93 [GMO]
+00511794 00000062
+
+Max Item Amount Slot 94 [GMO]
+00511795 00000062
+
+Max Item Amount Slot 95 [GMO]
+00511796 00000062
+
+Max Item Amount Slot 96 [GMO]
+00511797 00000062
+
+Max Item Amount Slot 97 [GMO]
+00511798 00000062
+
+Max Item Amount Slot 98 [GMO]
+00511799 00000062
+
+Max Item Amount Slot 99 [GMO]
+0051179A 00000062
+
+Max Item Amount Slot 100 [GMO]
+0051179B 00000062
+
+Max Item Amount Slot 101 [GMO]
+0051179C 00000062
+
+Max Item Amount Slot 102 [GMO]
+0051179D 00000062
+
+Max Item Amount Slot 103 [GMO]
+0051179E 00000062
+
+Max Item Amount Slot 104 [GMO]
+0051179F 00000062
+
+Max Item Amount Slot 105 [GMO]
+005117A0 00000062
+
+Max Item Amount Slot 106 [GMO]
+005117A1 00000062
+
+Max Item Amount Slot 107 [GMO]
+005117A2 00000062
+
+Max Item Amount Slot 108 [GMO]
+005117A3 00000062
+
+Max Item Amount Slot 109 [GMO]
+005117A4 00000062
+
+Max Item Amount Slot 110 [GMO]
+005117A5 00000062
+
+Max Item Amount Slot 111 [GMO]
+005117A6 00000062
+
+Max Item Amount Slot 112 [GMO]
+005117A7 00000062
+
+Max Item Amount Slot 113 [GMO]
+005117A8 00000062
+
+Max Item Amount Slot 114 [GMO]
+005117A9 00000062
+
+Max Item Amount Slot 115 [GMO]
+005117AA 00000062
+
+Max Item Amount Slot 116 [GMO]
+005117AB 00000062
+
+Max Item Amount Slot 117 [GMO]
+005117AC 00000062
+
+Max Item Amount Slot 118 [GMO]
+005117AD 00000062
+
+Max Item Amount Slot 119 [GMO]
+005117AE 00000062
+
+Max Item Amount Slot 120 [GMO]
+005117AF 00000062
+
+Max Item Amount Slot 121 [GMO]
+005117B0 00000062
+
+Max Item Amount Slot 122 [GMO]
+005117B1 00000062
+
+Max Item Amount Slot 123 [GMO]
+005117B2 00000062
+
+Max Item Amount Slot 124 [GMO]
+005117B3 00000062
+
+Max Item Amount Slot 125 [GMO]
+005117B4 00000062
+
+Max Item Amount Slot 126 [GMO]
+005117B5 00000062
+
+Max Item Amount Slot 127 [GMO]
+005117B6 00000062
+
+Max Item Amount Slot 128 [GMO]
+005117B7 00000062
+
+Max Item Amount Slot 129 [GMO]
+005117B8 00000062
+
+Max Item Amount Slot 130 [GMO]
+005117B9 00000062
+
+Max Item Amount Slot 131 [GMO]
+005117BA 00000062
+
+Max Item Amount Slot 132 [GMO]
+005117BB 00000062
+
+Max Item Amount Slot 133 [GMO]
+005117BC 00000062
+
+Max Item Amount Slot 134 [GMO]
+005117BD 00000062
+
+Max Item Amount Slot 135 [GMO]
+005117BE 00000062
+
+Max Item Amount Slot 136 [GMO]
+005117BF 00000062
+
+Max Item Amount Slot 137 [GMO]
+005117C0 00000062
+
+Max Item Amount Slot 138 [GMO]
+005117C1 00000062
+
+Max Item Amount Slot 139 [GMO]
+005117C2 00000062
+
+Max Item Amount Slot 140 [GMO]
+005117C3 00000062
+
+Max Item Amount Slot 141 [GMO]
+005117C4 00000062
+
+Max Item Amount Slot 142 [GMO]
+005117C5 00000062
+
+Max Item Amount Slot 143 [GMO]
+005117C6 00000062
+
+Max Item Amount Slot 144 [GMO]
+005117C7 00000062
+
+Max Item Amount Slot 145 [GMO]
+005117C8 00000062
+
+Max Item Amount Slot 146 [GMO]
+005117C9 00000062
+
+Max Item Amount Slot 147 [GMO]
+005117CA 00000062
+
+Max Item Amount Slot 148 [GMO]
+005117CB 00000062
+
+Max Item Amount Slot 149 [GMO]
+005117CC 00000062
+
+Max Item Amount Slot 150 [GMO]
+005117CD 00000062
+
+Max Item Amount Slot 151 [GMO]
+005117CE 00000062
+
+Max Item Amount Slot 152 [GMO]
+005117CF 00000062
+
+Max Item Amount Slot 153 [GMO]
+005117D0 00000062
+
+Max Item Amount Slot 154 [GMO]
+005117D1 00000062
+
+Max Item Amount Slot 155 [GMO]
+005117D2 00000062
+
+Max Item Amount Slot 156 [GMO]
+005117D3 00000062
+
+Max Item Amount Slot 157 [GMO]
+005117D4 00000062
+
+Max Item Amount Slot 158 [GMO]
+005117D5 00000062
+
+Max Item Amount Slot 159 [GMO]
+005117D6 00000062
+
+Max Item Amount Slot 160 [GMO]
+005117D7 00000062
+
+Max Item Amount Slot 161 [GMO]
+005117D8 00000062
+
+Max Item Amount Slot 162 [GMO]
+005117D9 00000062
+
+Max Item Amount Slot 163 [GMO]
+005117DA 00000062
+
+Max Item Amount Slot 164 [GMO]
+005117DB 00000062
+
+Max Item Amount Slot 165 [GMO]
+005117DC 00000062
+
+Max Item Amount Slot 166 [GMO]
+005117DD 00000062
+
+Max Item Amount Slot 167 [GMO]
+005117DE 00000062
+
+Max Item Amount Slot 168 [GMO]
+005117DF 00000062
+
+Max Item Amount Slot 169 [GMO]
+005117E0 00000062
+
+Max Item Amount Slot 170 [GMO]
+005117E1 00000062
+
+Max Item Amount Slot 171 [GMO]
+005117E2 00000062
+
+Max Item Amount Slot 172 [GMO]
+005117E3 00000062
+
+Max Item Amount Slot 173 [GMO]
+005117E4 00000062
+
+Max Item Amount Slot 174 [GMO]
+005117E5 00000062
+
+Max Item Amount Slot 175 [GMO]
+005117E6 00000062
+
+Max Item Amount Slot 176 [GMO]
+005117E7 00000062
+
+Max Item Amount Slot 177 [GMO]
+005117E8 00000062
+
+Max Item Amount Slot 178 [GMO]
+005117E9 00000062
+
+Max Item Amount Slot 179 [GMO]
+005117EA 00000062
+
+Max Item Amount Slot 180 [GMO]
+005117EB 00000062
+
+Max Item Amount Slot 181 [GMO]
+005117EC 00000062
+
+Max Item Amount Slot 182 [GMO]
+005117ED 00000062
+
+Max Item Amount Slot 183 [GMO]
+005117EE 00000062
+
+Max Item Amount Slot 184 [GMO]
+005117EF 00000062
+
+Max Item Amount Slot 185 [GMO]
+005117F0 00000062
+
+Max Item Amount Slot 186 [GMO]
+005117F1 00000062
+
+Max Item Amount Slot 187 [GMO]
+005117F2 00000062
+
+Max Item Amount Slot 188 [GMO]
+005117F3 00000062
+
+Max Item Amount Slot 189 [GMO]
+005117F4 00000062
+
+Max Item Amount Slot 190 [GMO]
+005117F5 00000062
+
+Max Item Amount Slot 191 [GMO]
+005117F6 00000062
+
+Max Item Amount Slot 192 [GMO]
+005117F7 00000062
+
+Max Item Amount Slot 193 [GMO]
+005117F8 00000062
+
+Max Item Amount Slot 194 [GMO]
+005117F9 00000062
+
+Max Item Amount Slot 195 [GMO]
+005117FA 00000062
+
+Max Item Amount Slot 196 [GMO]
+005117FB 00000062
+
+Max Item Amount Slot 197 [GMO]
+005117FC 00000062
+
+Max Item Amount Slot 198 [GMO]
+005117FD 00000062
+
+Max Item Amount Slot 199 [GMO]
+005117FE 00000062
+
+Max Item Amount Slot 200 [GMO]
+005117FF 00000062
+
+Max Item Amount Slot 201 [GMO]
+00511800 00000062
+
+Max Item Amount Slot 202 [GMO]
+00511801 00000062
+
+Max Item Amount Slot 203 [GMO]
+00511802 00000062
+
+Max Item Amount Slot 204 [GMO]
+00511803 00000062
+
+Max Item Amount Slot 205 [GMO]
+00511804 00000062
+
+Max Item Amount Slot 206 [GMO]
+00511805 00000062
+
+Max Item Amount Slot 207 [GMO]
+00511806 00000062
+
+Max Item Amount Slot 208 [GMO]
+00511807 00000062
+
+Max Item Amount Slot 209 [GMO]
+00511808 00000062
+
+Max Item Amount Slot 210 [GMO]
+00511809 00000062
+
+Max Item Amount Slot 211 [GMO]
+0051180A 00000062
+
+Max Item Amount Slot 212 [GMO]
+0051180B 00000062
+
+Max Item Amount Slot 213 [GMO]
+0051180C 00000062
+
+Max Item Amount Slot 214 [GMO]
+0051180D 00000062
+
+Max Item Amount Slot 215 [GMO]
+0051180E 00000062
+
+Max Item Amount Slot 216 [GMO]
+0051180F 00000062
+
+Max Item Amount Slot 217 [GMO]
+00511810 00000062
+
+Max Item Amount Slot 218 [GMO]
+00511811 00000062
+
+Max Item Amount Slot 219 [GMO]
+00511812 00000062
+
+Max Item Amount Slot 220 [GMO]
+00511813 00000062
+
+Max Item Amount Slot 221 [GMO]
+00511814 00000062
+
+Max Item Amount Slot 222 [GMO]
+00511815 00000062
+
+Max Item Amount Slot 223 [GMO]
+00511816 00000062
+
+Max Item Amount Slot 224 [GMO]
+00511817 00000062
+
+Max Item Amount Slot 225 [GMO]
+00511818 00000062
+
+Max Item Amount Slot 226 [GMO]
+00511819 00000062
+
+Max Item Amount Slot 227 [GMO]
+0051181A 00000062
+
+Max Item Amount Slot 228 [GMO]
+0051181B 00000062
+
+Max Item Amount Slot 229 [GMO]
+0051181C 00000062
+
+Max Item Amount Slot 230 [GMO]
+0051181D 00000062
+
+Max Item Amount Slot 231 [GMO]
+0051181E 00000062
+
+Max Item Amount Slot 232 [GMO]
+0051181F 00000062
+
+Max Item Amount Slot 233 [GMO]
+00511820 00000062
+
+Max Item Amount Slot 234 [GMO]
+00511821 00000062
+
+Max Item Amount Slot 235 [GMO]
+00511822 00000062
+
+Max Item Amount Slot 236 [GMO]
+00511823 00000062
+
+Max Item Amount Slot 237 [GMO]
+00511824 00000062
+
+Max Item Amount Slot 238 [GMO]
+00511825 00000062
+
+Max Item Amount Slot 239 [GMO]
+00511826 00000062
+
+Max Item Amount Slot 240 [GMO]
+00511827 00000062
+
+Max Item Amount Slot 241 [GMO]
+00511828 00000062
+
+Max Item Amount Slot 242 [GMO]
+00511829 00000062
+
+Item Modifier Values...
+
+00 Nothing
+01 Wooden Sword
+02 Iron Blade
+03 Steel Saber
+04 Lode Sword
+05 Red Katana
+06 Flint Edge
+07 Dark Saber
+08 Aeon Blade
+09 Demon Edge
+0A Alloy Blade
+0B Star Sword
+0C Vedic Blade
+0D Kali Blade
+0E Shiva Edge
+0F Bolt Sword
+10 Slasher
+11 Bronze Bow
+12 Iron Bow
+13 Lode Bow
+14 Robin Bow
+15 Sage Bow
+16 Dream Bow
+17 Comet Arrow
+18 Sonic Arrow
+19 Valkerye
+1A Siren
+1F Air Gun
+20 Dart Gun
+21 Auto Gun
+22 Pico Magnum
+23 Plasma Gun
+24 Ruby Gun
+25 Dream Gun
+26 Mega Blast
+27 Shock Wave
+28 Wonder Shot
+29 Graedus
+2E Tin Arm
+2F Hammer Arm
+30 Mirage Hand
+31 Stone Arm
+32 Doom Finger
+33 Magma Hand
+34 Megaton Arm
+35 Big Hand
+36 Kaiser Arm
+37 Giga Arm
+38 Terra Arm
+39 Crisis Arm
+3B Bronze Edge
+3C Iron Sword
+3D Masamune
+3E Flash Blade
+3F Pearl Edge
+40 Rune Blade
+41 Brave Sword
+42 Masamune
+43 Demon Hit
+44 Fist
+45 Fist (Copy)
+46 Fist (Copy)
+47 Iron Fist
+48 Bronze Fist
+4B Dark Scythe
+4C Hurricane
+4D Star Scythe
+4E Doom Sickle
+4F Mop
+50 Bent Sword
+51 Bent Hilt
+52 Masamune
+53 Swallow
+54 Slasher 2
+55 Rainbow
+5B Hide Tunic
+5C Karate Gi
+5D Bronze Mail
+5E Maiden Suit
+5F Iron Suit
+60 Titan Vest
+61 Gold Suit
+62 Ruby Vest
+63 Dark Mail
+64 Mist Robe
+65 Meso Mail
+66 Lumin Robe
+67 Flash Mail
+68 Lode Vest
+69 Aeon Suit
+6A Zodiac Cape
+6B Nova Armor
+6C Prism Dress
+6D Moon Armor
+6E Ruby Armor
+6F Raven Armor
+70 Gloom Cape
+71 White Mail
+72 Black Mail
+73 Blue Mail
+74 Red Mail
+75 White Vest
+76 Black Vest
+77 Blue Vest
+78 Red Vest
+79 Taban Vest
+7A Taban Suit
+7C Hide Cap
+7D Bronze Helm
+7E Iron Helm
+7F Beret
+80 Gold Helm
+81 Rock Helm
+82 Cera Topper
+83 Glow Helm
+84 Lode Helm
+85 Aeon Helm
+86 Prism Helm
+87 Doom Helm
+88 Dark Helm
+89 Gloom Helm
+8A Safe Helm
+8B Taban Helm
+8C Sight Cap
+8D Memory cap
+8E Time Cap
+8F Vigil Hat
+90 Ozzie Pants
+91 Haste helm
+92 Rainbow Helm
+93 Mermaid Cap
+95 Bandana
+96 Ribbon
+97 Power Glove
+98 Defender
+99 Magic Scarf
+9A Amulet
+9B Dash Ring
+9C Hit Ring
+9D Power Ring
+9E Magic Ring
+9F Wall Ring
+A0 Silver Earring
+A1 Gold Earing
+A2 Silver Stud
+A3 Gold Stud
+A4 Sight Scope
+A5 Charm Top
+A6 Rage Band
+A7 Fenzy Band
+A8 Third Eye
+A9 Wallet
+AA Green Dream
+AB Berserker
+AC Power Scarf
+AD Speed Belt
+AE Black Rock
+AF Blue Rock
+B0 Silver Rock
+B1 White Rock
+B2 Gold Rock
+B3 Hero Medal
+B4 Muscle Ring
+B5 Flea Vest
+B6 Magic Seal
+B7 Power Seal
+B8 Relic
+B9 Seraph Song
+BA Sun Shades
+BB Prism Specs
+BD Tonic
+BE Mid Tonic
+BF Full Tonic
+C0 Ether
+C1 Mid Ether
+C2 Full Ether
+C3 Elixer
+C4 Hyper Ether
+C5 Mega Elixer
+C6 Heal
+C7 Revive
+C8 Shelter
+C9 Power Meal
+CA Lapis
+CB Barrier
+CC Shield
+CD Power Tab
+CE Magic Tab
+CF Speed Tab
+D0 Petal
+D1 Fang
+D2 Horn
+D3 Feather
+D4 Seed
+D5 Bike Key
+D6 Pendant
+D7 Gate Key
+D8 Prism Shard
+D9 C. Trigger
+DA Tools
+DB Jerky
+DC Dream Stone
+DD Race Log
+DE Moon Stone
+DF Sun Stone
+E0 Ruby Knife
+E1 Yakra Key
+E2 Clone
+E3 Toma's Pop
+E4 2 Petals
+E5 2 Fangs
+E6 2 Horns
+E7 2 Feathers

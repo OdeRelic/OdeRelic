@@ -1,0 +1,14 @@
+LAOE
+R-TYPE
+
+Infinite Lives [ZiT]
+00C80C41 0000000A
+
+Invincible [ZiT]
+00C80D18 00000026
+
+Infinite Beam [ZiT]
+00C80C49 0000001E
+
+Speed MAX [ZiT]
+00C80C42 0000000A

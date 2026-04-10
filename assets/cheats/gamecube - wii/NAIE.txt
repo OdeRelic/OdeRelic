@@ -1,0 +1,53 @@
+NAIE
+Wave Race 64
+
+Max. Stunt Points [Anarion]
+092E8610 0001869F
+20030004 00000000
+
+No Timeout&Retire [Anarion]
+04C152B0 60000000
+04FEB1E0 60000000
+04BA777C 60000000
+04C15384 60000000
+
+Speed Modifier [Anarion]
+2D2B9126 0000ZZZZ
+052B9168 XXXX0000
+E0000000 80008000
+Z-CCP button
+X-speed. Less than 4000 recommended
+
+P1 Unlimited Misses [Sharkbyte]
+012E89AF 00000000
+
+P1 Maximum Power [Sharkbyte]
+012E89A7 00000005
+
+Always Place 1st [Sharkbyte]
+012E887F 00000000
+
+99 Points [Sharkbyte]
+012F1283 00000063
+
+Press Down to add time in Stunt Mode (Gamecube) [Sharkbyte]
+28A9BD00 FFFB0004
+032E8B3E 00003A98
+E0000000 80008000
+
+P1 Press Down to add time Out of Course (Gamecube) [Sharkbyte]
+28A9BD00 FFFB0004
+012E8B63 00000076
+E0000000 80008000
+
+P2 Maximum Power [Sharkbyte]
+032E8D1E 00000005
+P2 Maximum Power doesn't work with 99 points code on
+
+P2 Unlimited Misses [Sharkbyte]
+032E8D26 00000000
+
+P2 Press Down to add time out of Course (Gamecube) [Sharkbyte]
+28A9BD0C FFFB0004
+012E8EDB 00000076
+E0000000 80008000

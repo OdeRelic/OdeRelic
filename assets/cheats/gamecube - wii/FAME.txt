@@ -1,0 +1,11 @@
+FAME
+Wario's Woods
+
+Button Activator WiiMote Pad1 [GMO]
+281CCF56 XXXXXXXX
+
+99 Gold [GMO]
+0056B1EA 00000063
+
+Unlimited CR [GMO]
+0056B1EB 00000009

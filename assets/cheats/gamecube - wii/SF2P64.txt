@@ -1,0 +1,10 @@
+SF2P64
+Star Wars: The Force Unleashed 2
+
+Energy Residue stays On /Off [Patedj]
+286821CA xxxxxxxx
+0419AF4C 60000000
+CC000000 00000000
+0419AF4C 4180FFD4
+E0000000 80008000
+Replace xxxx with button condition

@@ -1,0 +1,17 @@
+MA6P
+Streets of Rage 2
+
+Unlimited Time [GMO]
+00FC5C7C 00000099
+
+P1 Unlimited Health [GMO]
+00FC4FC1 00000068
+
+P1 Unlimited Lives [GMO]
+00FC4FC3 00000004
+
+P2 Unlimited Health [GMO]
+00FC50C1 00000068
+
+P2 Unlimited Lives [GMO]
+00FC50C3 00000004

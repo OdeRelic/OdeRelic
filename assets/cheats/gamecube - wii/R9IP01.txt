@@ -1,0 +1,16 @@
+R9IP01
+Pikmin
+
+Time Stop (1=on/off) [Blaster99]
+20444180 00000200
+040EC61C 60000000
+CC000000 00000000
+040EC61C D0230014
+E0000000 80008000
+Use hook-method 'Wii Pad' in GeckoOS. Building and destructing bridges/walls will make no progress if enabled.
+
+Always 100 Pikmins in Base [Blaster99]
+C2234078 00000002
+3B400064 935801E4
+60000000 00000000
+E0000000 80008000

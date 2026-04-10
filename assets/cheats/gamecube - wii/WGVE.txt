@@ -1,0 +1,8 @@
+WGVE
+Groovin Blocks
+
+Max Score [GMO]
+044403F0 0FFFFFFF
+
+Max Blue Stars [GMO]
+00436F9F 00000014

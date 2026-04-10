@@ -1,0 +1,21 @@
+STDEFP
+Reload: Target Down
+
+No Reload/Unlimited Ammo [Crapulecorp]
+043AD014 38040000
+
+inf ammo v2 [savage]
+043AD014 60000000
+E0000000 80008000
+codes by: SMASH
+
+Pistol full auto [savage]
+42000000 90000000
+046C9DB0 E8004121
+E0000000 80008000
+codes by: SMASH
+
+Inf Ammo [savage]
+043AD018 60000000
+E0000000 80008000
+codes by: SMASH

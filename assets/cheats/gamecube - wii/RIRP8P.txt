@@ -1,0 +1,20 @@
+RIRP8P
+Iron Man
+
+Unlimited Armor Energy [Crapulecorp]
+0467DE20 60000000
+
+Unlimited Lives [Crapulecorp]
+046355C0 60000000
+
+Unlimited Propulsion Energy [Crapulecorp]
+0467DE78 60000000
+
+Unlimited Weapon Energy [Crapulecorp]
+0467DEC0 60000000
+
+Unlimited Gun Ammo [Crapulecorp]
+046AF3E4 39290000
+
+Unlimited Roquettes [Crapulecorp]
+04663B28 39290000

@@ -1,0 +1,28 @@
+WLDJ
+Boku mo Sekai o Sukuitai
+
+Max Silver [AlexWong]
+04D5ABF8 05F5E0FF
+
+Silver Doesn't Decrease When Shopping [AlexWong]
+0414E514 60000000
+
+Gain Silver Multiplier [AlexWong]
+C20ED41C 00000002
+1FBD00xx 7C00EA14
+60000000 00000000
+xx=
+05 x5
+0A x10
+32 x50
+64 x100
+
+Gain Exp Multiplier [AlexWong]
+C20B299C 00000002
+1C8400xx 7C002214
+60000000 00000000
+xx=
+05 x5
+0A x10
+32 x50
+64 x100

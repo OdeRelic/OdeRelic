@@ -1,0 +1,187 @@
+LADP
+Phantasy Star
+
+Unlimited Mesetas [Crapulecorp]
+02CB5940 0000FFFF
+
+255 MST/EXP After Battle [Crapulecorp]
+00CB5725 000000FF
+00CB573D 000000FF
+*Code ported from GMO Ntsc Usa Version*
+
+Unlimited HP ALIS [Crapulecorp]
+00CB5861 000000FF
+
+Max Stats ALIS [Crapulecorp]
+02CB5868 00006363
+*Code ported from GMO Ntsc Usa Version*
+
+Easy Enemy Kill [Crapulecorp]
+00CB58A1 00000000
+00CB58B1 00000000
+*Code ported from GMO Ntsc Usa Version*
+
+Item Modifier Activator (MUST BE ON) [Crapulecorp]
+00CB5942 00000018
+*Code ported from GMO Ntsc Usa Version*
+
+Item Slot Modifier 1 [Crapulecorp]
+00CB5920 000000XX
+*Code ported from GMO Ntsc Usa Version*
+
+Item Slot Modifier 2 [Crapulecorp]
+00CB5921 000000XX
+*Code ported from GMO Ntsc Usa Version*
+
+Item Slot Modifier 3 [Crapulecorp]
+00CB5922 000000XX
+*Code ported from GMO Ntsc Usa Version*
+
+Item Slot Modifier 4 [Crapulecorp]
+00CB5923 000000XX
+*Code ported from GMO Ntsc Usa Version*
+
+Item Slot Modifier 5 [Crapulecorp]
+00CB5924 000000XX
+*Code ported from GMO Ntsc Usa Version*
+
+Item Slot Modifier 6 [Crapulecorp]
+00CB5925 000000XX
+*Code ported from GMO Ntsc Usa Version*
+
+Item Slot Modifier 7 [Crapulecorp]
+00CB5926 000000XX
+*Code ported from GMO Ntsc Usa Version*
+
+Item Slot Modifier 8 [Crapulecorp]
+00CB5927 000000XX
+*Code ported from GMO Ntsc Usa Version*
+
+Item Slot Modifier 9 [Crapulecorp]
+00CB5928 000000XX
+*Code ported from GMO Ntsc Usa Version*
+
+Item Slot Modifier 10 [Crapulecorp]
+00CB5929 000000XX
+*Code ported from GMO Ntsc Usa Version*
+
+Item Slot Modifier 11 [Crapulecorp]
+00CB592A 000000XX
+*Code ported from GMO Ntsc Usa Version*
+
+Item Slot Modifier 12 [Crapulecorp]
+00CB592B 000000XX
+*Code ported from GMO Ntsc Usa Version*
+
+Item Slot Modifier 13 [Crapulecorp]
+00CB592C 000000XX
+*Code ported from GMO Ntsc Usa Version*
+
+Item Slot Modifier 14 [Crapulecorp]
+00CB592D 000000XX
+*Code ported from GMO Ntsc Usa Version*
+
+Item Slot Modifier 15 [Crapulecorp]
+00CB592E 000000XX
+*Code ported from GMO Ntsc Usa Version*
+
+Item Slot Modifier 16 [Crapulecorp]
+00CB592F 000000XX
+*Code ported from GMO Ntsc Usa Version*
+
+Item Slot Modifier 17 [Crapulecorp]
+00CB5930 000000XX
+*Code ported from GMO Ntsc Usa Version*
+
+Item Slot Modifier 18 [Crapulecorp]
+00CB5931 000000XX
+*Code ported from GMO Ntsc Usa Version*
+
+Item Slot Modifier 19 [Crapulecorp]
+00CB5932 000000XX
+*Code ported from GMO Ntsc Usa Version*
+
+Item Slot Modifier 20 [Crapulecorp]
+00CB5933 000000XX
+*Code ported from GMO Ntsc Usa Version*
+
+Item Slot Modifier 21 [Crapulecorp]
+00CB5934 000000XX
+*Code ported from GMO Ntsc Usa Version*
+
+Item Slot Modifier 22 [Crapulecorp]
+00CB5935 000000XX
+*Code ported from GMO Ntsc Usa Version*
+
+Item Slot Modifier 23 [Crapulecorp]
+00CB5936 000000XX
+*Code ported from GMO Ntsc Usa Version*
+
+Item Slot Modifier 24 [Crapulecorp]
+00CB5937 000000XX
+*Code ported from GMO Ntsc Usa Version*
+
+Item Modifier Values
+
+Replace XX for :
+00 Nothing
+01 WOODCANE
+02 SHT.SWD
+03 IRN.SWD
+04 Wand
+05 IRN.FANG
+06 IRN.AXE
+07 TIT.SWD
+08 CRC.SWD
+09 NEEDLEGUN
+0A SIL.FANG
+0B HEAT.GUN
+0C LGT.SABR
+0D LASR.GUN
+0E LAC.SWD
+0F LAC.AXE
+10 LTH.ARMR
+11 WHT.MANT
+12 LGT.SUIT
+13 IRN.ARMR
+14 THCK.FUR
+15 ZIR.ARMR
+16 DMD.ARMR
+17 LAC.ARMR
+18 FRD.MANT
+19 LTH.SLD
+1A BRNZ.SLD
+1B IRN.SLD
+1C CRC.SLD
+1D GLOVE
+1E LASR.SLD
+1F NIRR.SLD
+20 LAC.SLD
+21 LANDROVR
+22 HOVRCRFT
+23 ICE DIGR
+24 Cola
+25 Burger
+26 Flute
+27 Escaper
+28 Flash
+29 Transfer
+2A MAGC HAT
+2B ALSULIN
+2C POLYMTRL
+2D DUGN KEY
+2E SPHERE
+2F TORCH
+30 PRISM
+31 NUTS
+32 HAPSBY
+33 ROADPASS
+34 PASSPORT
+35 COMPASS
+36 CAKE
+37 LETTER
+38 LAC.POT
+39 MAG.LAMP
+3A AMBR EYE
+3B GAS.SLD
+3C CRYSTAL

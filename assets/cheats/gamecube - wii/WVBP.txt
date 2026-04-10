@@ -1,0 +1,13 @@
+WVBP
+Bit.Trip Core
+
+If Score Increase, MAX [Crapulecorp]
+C209E878 00000002
+3D803B9B 386CCA00
+906D9000 00000000
+*Code ported from ZiT Ntsc Jap Version*
+
+No Damage [Crapulecorp]
+002C2BBF 00000000
+002C2CEB 00000000
+*Code ported from ZiT Ntsc Jap Version*

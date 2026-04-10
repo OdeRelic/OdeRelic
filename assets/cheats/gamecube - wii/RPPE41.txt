@@ -1,0 +1,20 @@
+RPPE41
+Prince of Persia Rival Swords
+
+Inf. Sands of Time [Kyle]
+04D804C8 00000004
+
+Inf. Sand Credits [Kyle]
+046F1BEC 0000XXXX
+
+Inf. Health [Kyle]
+04D7FA70 0000007F
+
+Infinite Sands of Time [shark2003]
+00D804CB 00000003
+
+Infinite Health [shark2003]
+10D7FA72 000000FA
+
+Sand Credits [shark2003]
+06F1BEF 0000XXXX

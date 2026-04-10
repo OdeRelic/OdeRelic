@@ -1,0 +1,558 @@
+DMHE08
+Monster Hunter 3: DEMO
+
+Item Mod/Have 10
+
+Item Slot 1 [Skiller]
+4A000000 90000000
+1229DBBA 0000000A
+1229DBB8 0000????
+E0000000 80008000
+Note: if u just want to Change the Amount just Take out the Line with the ????
+
+Item Slot 2 [Skiller]
+4A000000 90000000
+1229DBBE 0000000A
+1229DBBC 0000????
+E0000000 80008000
+
+Item Slot 3 [Skiller]
+4A000000 90000000
+1229DBC2 0000000A
+1229DBC0 0000????
+E0000000 80008000
+
+Item Slot 4 [Skiller]
+4A000000 90000000
+1229DBC6 0000000A
+1229DBC4 0000????
+E0000000 80008000
+
+Item Slot 5 [Skiller]
+4A000000 90000000
+1229DBCA 0000000A
+1229DBC8 0000????
+E0000000 80008000
+
+Item Slot 6 [Skiller]
+4A000000 90000000
+1229DBCE 0000000A
+1229DBCC 0000????
+E0000000 80008000
+
+Item Slot 7 [Skiller]
+4A000000 90000000
+1229DBD2 0000000A
+1229DBD0 0000????
+E0000000 80008000
+
+Item Slot 8 [Skiller]
+4A000000 90000000
+1229DBD6 0000000A
+1229DBD4 0000????
+E0000000 80008000
+
+Item Slot 9 [Skiller]
+4A000000 90000000
+1229DBDA 0000000A
+1229DBD8 0000????
+E0000000 80008000
+
+Item Slot 10 [Skiller]
+4A000000 90000000
+1229DBDE 0000000A
+1229DBDC 0000????
+E0000000 80008000
+
+Item Slot 11 [Skiller]
+4A000000 90000000
+1229DBE2 0000000A
+1229DBE0 0000????
+E0000000 80008000
+
+Item Slot 12 [Skiller]
+4A000000 90000000
+1229DBE6 0000000A
+1229DBE4 0000????
+E0000000 80008000
+
+Item Slot 13 [Skiller]
+4A000000 90000000
+1229DBEA 0000000A
+1229DBE8 0000????
+E0000000 80008000
+
+Item Slot 14 [Skiller]
+4A000000 90000000
+1229DBEE 0000000A
+1229DBEC 0000????
+E0000000 80008000
+
+Item Slot 15 [Skiller]
+4A000000 90000000
+1229DBF2 0000000A
+1229DBF0 0000????
+E0000000 80008000
+
+Item Slot 16 [Skiller]
+4A000000 90000000
+1229DBF6 0000000A
+1229DBF4 0000????
+E0000000 80008000
+
+Item Slot 17 [Skiller]
+4A000000 90000000
+1229DBFA 0000000A
+1229DBF8 0000????
+E0000000 80008000
+
+Item Slot 18 [Skiller]
+4A000000 90000000
+1229DBFE 0000000A
+1229DBFC 0000????
+E0000000 80008000
+
+Item Slot 19 [Skiller]
+4A000000 90000000
+1229DC02 0000000A
+1229DC00 0000????
+E0000000 80008000
+
+Item Slot 20 [Skiller]
+4A000000 90000000
+1229DC06 0000000A
+1229DC04 0000????
+E0000000 80008000
+
+Item Slot 21 [Skiller]
+4A000000 90000000
+1229DC0A 0000000A
+1229DC08 0000????
+E0000000 80008000
+
+Item Slot 22 [Skiller]
+4A000000 90000000
+1229DC0E 0000000A
+1229DC0C 0000????
+E0000000 80008000
+
+Item Slot 23 [Skiller]
+4A000000 90000000
+1229DC12 0000000A
+1229DC10 0000????
+E0000000 80008000
+
+Item Slot 24 [Skiller]
+4A000000 90000000
+1229DC16 0000000A
+1229DC14 0000????
+E0000000 80008000
+
+Item Digits
+0001 = Barrel Bomb S
+0002 = Barrel Bomb L
+0003 = Pitfull Trap
+0004 = Shock Trap
+0005 = Flash Bomb
+0006 = Oxygen Supply
+0007 = Sonic Bomb
+0008 = Throwing Knife
+0009 = Poison Knife
+000A = Sleep Knife
+000B = Paralysis Knife
+000C = Trange Knife
+000D = Potion
+000E = Mega Potion
+000F = Dash Juice
+0010 = Mega Dash Juice
+0011 = Antidote
+0012 = DemonDrug
+0013 = Mega DemonDrug
+0014 = Might Pill
+0015 = Armorskin
+0016 = Mega Armorskin
+0017 = Adamant Pill
+0018 = Cool Drink
+0019 = Hot Drink
+001A = Well-Done Steak
+001B = Rare Steak
+001C = Burnt Meat
+001D = Raw Meat
+001E = Poisoned Meat
+001F = Tinged Meat
+0020 = Drugged Meat
+0021 = Paintball
+0022 = Old Pickaxe
+0023 = Iron Pickaxe
+0024 = Mega Pickaxe
+0025 = Old Bug Net
+0026 = Bug Net
+0027 = Mega Bug Net
+0028 = BBQ Spit
+002A = Map
+002B = Torch
+002C = First-aid Med
+002D = Tation
+002E = Mini Oxy Supply
+002F = Portable Spit
+0030 = Mini Whetstone
+0031 = Ez Shock Trap
+0032 = Ez Flash Bomb
+0033 = Max Potion
+0034 = Barrel Bomb L+
+0035 = Normal S Lv1
+0036 = Normal S Lv2
+0037 = Normal S Lv3
+0038 = Pierce S Lv1
+0039 = Pierce S Lv2
+003A = Pierce S Lv3
+003B = Pellet S Lv1
+003C = Pellet S Lv2
+003D = Pellet S Lv3
+003E = Crag S Lv1
+003F = Crag S Lv2
+0040 = Crag S Lv3
+0041 = Clust S Lv1
+0042 = Clust S Lv2
+0043 = Clust S Lv3
+0044 = Flaming S
+0045 = Water S
+0046 = Thunder S
+0047 = Freeze S
+0048 = Dragon S
+0049 = Recov S Lv1
+004A = Recov S Lv2
+004B = Poison S Lv1
+004C = Poison S Lv2
+004D = Para S Lv1
+004E = Para S Lv2
+004F = Sleep S Lv1
+0050 = Sleep S Lv2
+0051 = Trang S
+0052 = Paint S
+0053 = Demon S I
+0054 = Demon S II
+0055 = Armor S I
+0056 = Armor S II
+0057 = Sub S Lv1
+0058 = Sub S Lv2
+0059 = Exhaust S
+005B = Slicing S
+005C = WyvernFire Lv1
+005D = WyvernFire Lv
+005E = WyvernFire Lv
+005F = Binoculars
+0060 = Trang Bomb
+0061 = Stone
+0062 = Whetstone
+0063 = Iron Ore
+0064 = Earth Crystal
+0065 = Machalite Ore
+0066 = Dragonite
+0067 = Carbalite
+0068 = Polagicite
+0069 = Bathycite Ore
+006A = FireStone
+006B = Ice Crystal
+006C = LightCrystal
+006E = RustShard
+006F = Ancient Shard
+0070 = Isisium
+0071 = Gracium
+0073 = Godbug
+0074 = Bitterbug
+0075 = Flashbug
+0076 = Thunderbug
+0077 = Gluehopper
+0078 = Killer Beetle
+0079 = Rare Scarab
+007A = Royal Shine
+007B = Herb
+007C = Antidote Herb
+007D = Sleep Herb
+007E = Fire Herb
+007F = Sap Plant
+0080 = Paintberry
+0081 = Needleberry
+0082 = Muskberry
+0083 = Scatternut
+0084 = Bomberry
+0085 = Ivy
+0086 = Might Seed
+0087 = Adamant Seed
+0088 = Hot Pepper
+0089 = Cactus Flower
+008A = Airweed
+008B = Wyvern Egg
+008C = Unknown Skull
+008D = Huney
+008E = Blue Mushroom
+008F = Choice Mushroom
+0090 = Unique Mushroom
+0091 = Exciteshroom
+0092 = Parashroom
+0093 = Nitroshroom
+0095 = Black Pearl
+0096 = Jumbo Pearl
+0097 = Broken Shell
+0098 = Dragonbone Relic
+0099 = Monster Bone S
+009A = Monster bone M
+009B = Monster Bone L
+009D = Eldost Saturnian
+00A4 = HercuDrome
+00A6 = Chilled Meat
+00A7 = Hot Meat
+00A9 = Rathian Scale+
+00AA = Rathian Carapace
+00AB = Rath Modulla
+00AC = Rathian Spike+
+00AD = Rathian RUby
+00AE = Rathalos Ruby
+00AF = Inferno Sae
+00B0 = Rathalos Scale+
+00B1 = RathalosCarapace
+00B2 = Queupece Scale+
+00B4 = Wonderful Beak
+00B5 = Unnerving Talon
+00B6 = Fearsom Maw
+00B7 = Wyvern Stone
+00B8 = Freezer Sac
+00BB = Flabby Hide"
+00BC = Uncanny Hide"
+00BD = Toxin Sac
+00BE = Unerving Talon+
+00BF = Stunning Quill
+00C0 = Pittance Fang
+00C1 = Vermilion Scale
+00C2 = Fishing Harpoon
+00C3 = Insect Husk
+00C4 = Bone
+00C5 = Dung
+00C6 = Spider Web
+00C7 = Bomb Casing
+00C8 = Small Barrel
+00C9 = Large Barrel
+00CA = Cricket
+00CB = Worm
+00CC = Firefly
+00CD = Mega Fishing Fly
+00CE = Frog
+00CF = Whetfish
+00D0 = Sushifish
+00D1 = Pin Tuna
+00D2 = PopFish
+00D3 = SleepyFish
+00D4 = Burst Arowana
+00D5 = Bomb Arowana
+00D6 = Glutton Tuna
+00D7 = Scatterfish
+00D8 = Small Goldenfish
+00D9 = Goldenfish
+00DB = Beautiful Scale
+00DC = Giant Skull
+00DD = Pirate Booty
+00DE = Net
+00DF = No Item
+00E0 = Shroom Gorm
+00E1 = Bugmaker! Pro
+00E2 = Bizzy Bees
+00E3 = Saturnian
+00E4 = Fortune Fang
+00E5 = Shining Starfish
+00E6 = Mystic Narwhal
+00E7 = Atlantis Crab
+00E8 = Gold Needle
+00E9 = Armorfish Morsel
+00EA = Fish finder
+00EB = Treasure Tracker
+00EC = Spare Spear
+00ED = Perfect Paddle
+00EE = Shroom Germ+
+00EF = Pink Liver
+00F0 = Kthnic Wyvrnmeat
+00F1 = Ancient Skin Oil
+00F2 = Queen's Spirit
+00F4 = Funky Phoromonce
+00F5 = Saturnian Trap
+00F7 = Super-sized Dung
+00F8 = Fine Pelt
+00F9 = Moonlight Fang
+00FA = Queen Needle
+00FB = Power Paddle
+00FC = Curver Fang
+00FD = Flameboyant Quill
+00FE = Glittering Scale
+00FF = Sea-king's Scale
+0100 = Wyverngold
+0108 = Folvine Bomb
+0109 = Double BBQ Spit
+010A = Dragonbone Piece
+010B = Abalone Piece
+010C = Fossil Piece
+010D = Old Egg
+010E = Mystery Bone
+0111 = Herbal Medicine
+0112 = Rathian Scale
+0113 = Rathian Shell
+0114 = Rathian Webbing
+0115 = Rathian Spike
+0116 = Rathian Plate
+0117 = Flame Sac
+0118 = Wyvern Tear
+0119 = Rathalos Scale
+011A = Rathalos Shell
+011B = Rathalos Webbing
+011C = Rath Marrow
+011D = Rathalos Plate
+011E = Rathalos Tail
+011F = Qurupeco Scale
+0120 = Qurupeco
+0121 = Vivid Feather
+0122 = Strange Beak
+0123 = Flabby Hide
+0124 = Uncanny Hide
+0125 = Poison Sac
+0126 = Pale Extract
+0127 = Diablos Fang
+0128 = Diablos Shell
+0129 = Diablos Ridge
+012A = Diablos Tailcase
+012B = Barroth Shell
+012C = Barroth Ridge
+012D = Barroth Claw
+012E = Barroth Tail
+012F = Barroth Scalp
+0130 = Birf Wyvern Fang
+0131 = Jaggi Hide
+0132 = Jaggi Scale
+0133 = Great Jaggi Claw
+0134 = Great Jaggi Hide
+0135 = Screamer
+0136 = Lagiacrus Hide
+0137 = Lagiacrus Scale
+0138 = Lagiacrus Claw
+0139 = Shell Shocker+
+013A = Lagiacrus Tail
+013B = Lagiacrus Plate
+013C = Spongy Hide
+013D = R.Ludroth Scale
+013E = R.Ludroth Claw
+013F = R.Ludroth Tail
+0140 = Sprint Extract
+0141 = Ludroth Hide
+0142 = Immature Sponge
+0143 = Gobul Spike
+0144 = Gobul Hide
+0145 = Paralysis Sac
+0146 = Gobul Fin
+0147 = Armor Sphere
+0148 = Armor Spherer+
+0149 = Gobul Lantern
+014A = Warm Pelt
+014B = Nutrients
+014C = Mega Nurients
+014D = Dragon Toadstool
+014E = Immunizer
+014F = catalyst
+0150 = Bomb Sac
+0151 = Kolbi Horn
+0152 = Blue Kolbi Horn
+0153 = Bnahabra Shell
+0154 = Bnahabra Wing
+0155 = Monster Fluid
+0156 = Bone Husk S
+0157 = Bone Husk L
+0158 = ToadStool
+0159 = Smoke Bomb
+015A = Poison Smoke Bmb
+015B = Dung Bomb
+015C = Gunpowder
+015D = Trap Tool
+015E = Yambug
+015F = Tuna Bait
+0160 = Bughopper
+0161 = Arowana Bait
+0162 = Snakebee Larva
+0163 = Goldenfish Bate
+0164 = Antiseptic Stone
+0165 = Wyvern Fang
+0166 = LifeCrystals
+0167 = Wyvern Claw
+0168 = Lifepowder
+0169 = Hunting Horn
+016A = health Horn
+016B = Antidote Horn
+016C = Demon Horn
+016D = Armor Horn
+016E = Farcaster
+016F = Tranquilizer
+0170 = Dragonfell Berry
+0176 = Energy Drink
+0177 = Cleanser
+0178 = Garbage
+0179 = Ancient Potion
+017A = Psychoserum
+017C = Ballista Ammo
+017D = Cannon Ammo
+017E = Powderstone
+017F = Anti-Dragon Bomb
+0180 = Ballista Binder
+0181 = Rath Talon
+0182 = Twisted Horn
+0183 = Majestic Horn
+0184 = Mega Harpoon
+0185 = Whetfish Bait
+0186 = Sushifish Bait
+0187 = Firedouse Berry
+0188 = WaterBlock Seed
+0189 = Icethaw Pellet
+018A = Stormsender Seed
+018B = Horbivere Egg
+018C = Crystal Bone
+018D = Golden Bone
+018E = Air Philter
+018F = Mega Air Philter
+0190 = Altaroth Stomach
+0191 = Altaroth Jaw
+0192 = Ripened Mushroom
+0193 = R.Ludroth Crest
+0194 = Barioth shell
+0195 = Barioth Pelt
+0196 = Amber Tusk
+0197 = Barioth Claw
+0198 = Barioth Spike
+
+Misc Codes
+
+Inf Timer [Skiller]
+045E26C8 00000000
+
+Inf Items [Skiller]
+04182148 B09C0002
+
+Refill Hp When hit [Skiller]
+041FEBE8 A81E0372
+
+Inf HP [Skiller]
+041FED24 A81E0372
+
+Refill Stamina when Used [Skiller]
+041FF440 A81E037A
+
+Inf Stamina [Skiller]
+041FF5D8 A81E037A
+041FF944 A81E037A
+
+Inf Air [Skiller]
+041FF34C B0A3037E
+
+Infinite Health [funkamatic]
+42000000 90000000
+0429DCB0 00640064
+E0000000 80008000
+
+Max/Infinite Stamina [funkamatic]
+42000000 90000000
+0429DCBB 03840384
+E0000000 80008000

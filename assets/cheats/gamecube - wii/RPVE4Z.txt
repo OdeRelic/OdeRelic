@@ -1,0 +1,17 @@
+RPVE4Z
+Purr Pals
+
+RPVE4Z
+Purr Pals
+
+Food Always stays in green [the_dave]
+0422E440 0007B826
+
+Love always stays in green [the_dave]
+0422E478 0007B826
+
+Play Always stays in green [the_dave]
+0422E494 0007B826
+
+Groom Always stays in green [the_dave]
+0422E45C 0007B826

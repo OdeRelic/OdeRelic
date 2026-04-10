@@ -1,0 +1,86 @@
+SIIP8P
+Mario & Sonic at the London 2012 Olympic Games
+
+Speed Hack [CosmoCortney]
+04537A90 XXXXXXXX
+XXXXXXXX = 3F800000 = Normal Speed
+XXXXXXXX &gt; 3F800000 = Speeds Game Up (dont use a greater value than 0x40700000)
+XXXXXXXX &lt; 3F800000 = slows down the game (dont use a value less than 3E000000)
+Only active in Stages
+
+Characters do funny moves while running
+045380C0 4068De234
+
+Black & White Background [CosmoCortney]
+04548900 3F900000
+
+Timer freezed at 0'00'053 [CosmoCortney]
+04732C90 3C800000
+
+Sonic's, Amy's, Shadow's & Silver's Spikes move really fast [CosmoCortney]
+0456A000 3F930200
+
+21:9 Ratio [CosmoCortney]
+04534380 3FB00000
+This code gives you REAL 21:9 ratio on 21:9 screens/TVs
+
+Many objects and Characters have a seizure [CosmoCortney]
+0458D99C 40930000
+
+Flags size modifier [CosmoCortney]
+0458DDD0 XXXXXXXX
+XXXXXXXX = 3F800000 = Normal Size
+XXXXXXXX &gt; 40200000 = Giant flags
+XXXXXXXX &lt; 3F000000 = Small flags
+
+No Music [CosmoCortney]
+057E7988 65650062
+
+no characters' sound [CosmoCortney]
+057E90C8 43484339
+
+dis/enable HUD [CosmoCortney]
+2867F9BA 00000008
+04538AD8 3F800000
+E0000000 80008000
+2867F9BA 00000004
+04538AD8 00000000
+E0000000 80008000
+press dpad up to enable
+dpad down to disable
+
+Button Activator [Bully@Wiiplaza]
+2867F9BA YYYYZZZZ
+
+Can Spend Infinite Blanks [Bully@Wiiplaza]
+F3085310 FE8C4001
+480000B4 00000000
+
+Can Spend Infinite Scratch Cards [Bully@Wiiplaza]
+F3046F8C 02922A01
+3BA30000 60000000
+
+Ping Pong Codes
+
+P1 Score Modifier [Bully@Wiiplaza]
+F3179748 FF000C02
+3880XXXX 909E0018
+60000000 00000000
+*XXXX = HEX*
+
+COM Score Modifier [Bully@Wiiplaza]
+F3179D94 023BA702
+3860XXXX 907E0018
+60000000 00000000
+*XXXX = HEX*
+
+Power Shot Duel [Bully@Wiiplaza]
+F3189600 02D01002
+3D803F80 9183009C
+C023009C 00000000
+*Both players receive power shot abilities at the beginning of a new serve (not infinite)*
+
+Power Shots Last Forever [Bully@Wiiplaza]
+F31BED04 02807901
+60000000 60000000
+*Once received*

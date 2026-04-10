@@ -1,0 +1,24 @@
+RPGE5D
+Rampage: Total Destruction
+
+GxFlush Hook Required
+
+100,000 points left player [savage]
+04334B98 000186A0
+
+Inf.Health left player [savage]
+049431A0 447A0000
+
+Full Rampage left player [savage]
+049431A4 44FA0000
+E0000000 80008000
+
+Inf.Health right player [savage]
+0494FAA0 447A0000
+
+Full Rampage right player [savage]
+0494FAA4 447A0000
+E0000000 80008000
+
+activator (wiimote) [savage]
+28407AFE 0000xxxx

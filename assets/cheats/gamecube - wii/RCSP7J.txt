@@ -1,0 +1,17 @@
+RCSP7J
+Chicken Shoot
+
+Quick Finnish [memorris]
+04178744 00000000
+
+Hits & Accuracy 100% [memorris]
+04180EB8 00000064
+
+Shots Fired 1 [memorris]
+04180EA8 00000001
+
+Arcade & Classic Score 9099 Catch An Egg Score 900 [memorris]
+04178730 00090000
+04178734 63FFFFFF
+
+Arcade & Classic Score 9099

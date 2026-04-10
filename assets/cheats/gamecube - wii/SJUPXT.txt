@@ -1,0 +1,26 @@
+SJUPXT
+Dino Strike
+
+Unlimited Health [Crapulecorp]
+0404B2BC 60000000
+0404B2C8 60000000
+*Code ported from Thomas83Lin Ntsc Usa Version*
+
+Unlimited Continues [Crapulecorp]
+C2060184 00000002
+3C000009 901B04AC
+60000000 00000000
+
+No Reload\Unlimited Ammo (Except For The Last Weapon) [Crapulecorp]
+040421B8 38030000
+04062B3C 38030000
+040416A0 38040000
+
+Max Ammo [Crapulecorp]
+C20096B8 00000002
+3C6003E7 907F0014
+60000000 00000000
+
+No Delay Between Weapons [Crapulecorp]
+040099F0 60000000
+*Code ported from Thomas83Lin Ntsc Usa Version*

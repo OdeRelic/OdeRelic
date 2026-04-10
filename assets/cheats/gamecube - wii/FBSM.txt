@@ -1,0 +1,51 @@
+FBSM
+Milon's Secret Castle
+
+Unlimited Life [Crapulecorp]
+023712F2 00008080
+
+Unlimited Barrier [Crapulecorp]
+003712DC 00000002
+*Code ported Fron ZiT Ntsc Usa Version*
+
+MoonJump
+
+MoonJump (Press X) [Crapulecorp]
+281B5DAA FFF70008
+02371289 00000100
+E0000000 80008000
+*Classic Controller*
+*Code ported Fron ZiT Ntsc Usa Version*
+
+MoonJump [Crapulecorp]
+281EE812 FEFF0100
+02371289 00000100
+E0000000 80008000
+*WiiMote*
+*Code ported Fron ZiT Ntsc Usa Version*
+
+Speed Up
+
+Speed Up (Press ZL) [Crapulecorp]
+281B5DAA FF7F0080
+2C1B5DAA 00000002
+00371287 00000001
+E0000000 80008000
+*Classic Controller*
+*Code ported Fron ZiT Ntsc Usa Version*
+
+Speed Up (Press -) [Crapulecorp]
+281EE812 EFFF1000
+2C1EE812 00000002
+00371287 00000001
+E0000000 80008000
+*WiiMote*
+*Code ported Fron ZiT Ntsc Usa Version*
+
+Button Activator
+
+Classic Controller [Crapulecorp]
+281B5DAA YYYYZZZZ
+
+WiiMote [Crapulecorp]
+281EE812 YYYYZZZZ

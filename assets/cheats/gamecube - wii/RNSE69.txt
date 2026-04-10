@@ -1,0 +1,37 @@
+RNSE69
+Need For Speed: Carbon
+
+Button Activator [Sgt.Ghost]
+28626C62 0000XXXX
+
+Drift [Sgt.Ghost]
+28626C62 0000XXXX
+056C3A60 XXXXXXXX
+E0000000 80008000
+*x = Drift Score*
+
+Infinite NITRO [Sgt.Ghost]
+042FE5CC D3FC00F0
+* Credits to ZiT *
+
+Infinite Nos v2 [BoxNinja]
+04603A7C 00000001
+0456EC84 01010100
+
+Infinite Nos v1 [BoxNinja]
+056E35C0 3F800000
+
+Infinite Speed Breaker [BoxNinja]
+049A75D8 3F800000
+
+Press A to Start Text Mod [BoxNinja]
+0703C48C 00000020
+00XXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXX00
+E0000000 80008000
+*http://prntscr.com/bcdki
+
+Inf.money [777eThOd*]
+04E93F68 2E5BF271

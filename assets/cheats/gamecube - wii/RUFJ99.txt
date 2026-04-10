@@ -1,0 +1,891 @@
+RUFJ99
+Rune Factory Frontier
+
+Infinite Fodder for Monster Barns [Arudo]
+0248BE36 0000270F
+
+Item Digits:
+
+Seeds
+0000 - Turnip Seed
+0001 - Cucumber Seed
+0002 - Cabbage Seed
+0003 - Potato Seed
+0004 - Strawberry Seed
+0005 - Onion Seed
+0006 - Tomato Seed
+0007 - Corn Seed
+0008 - Pumpkin Seed
+0009 - Pineapple Seed
+000a - Bell Pepper Seed
+000b - Spinach Seed
+000c - Egg Plant Seed
+000d - Yam Seed
+000e - Carrot Seed
+000f - Fodder Seed
+0010 - Golden Turnip Seed
+0011 - Golden Pumpkin Seed
+0012 - Moondrop Seed
+0013 - Toy Herb Seed
+0014 - Emery Flower Seed
+0015 - Cherry Grass Seed
+0016 - Lamp Grass Seed
+0017 - Blue Crystal Seed
+0018 - Pink Cat Seed
+0019 - Green Crystal Seed
+001a - Fireflower Seed
+001b - Ironleaf Seed
+001c - Clover Seed
+001d - Charm Blue Seed
+001e - Red Crystal Seed
+001f - Pom-pom Seed
+0020 - Noel Grass Seed
+0021 - Autumn Grass Seed
+0022 - White Rose Seed
+0023 - Blue Rose Seed
+0024 - Unknown Seed
+
+Crops
+0025 - Turnip
+0026 - Cucumber
+0027 - Cabbage
+0028 - Potato
+0029 - Strawberry
+002a - Onion
+002b - Tomato
+002c - Corn
+002d - Pumpkin
+002e - Pineapple
+002f - Bell Pepper
+0030 - Spinach
+0031 - Egg Plant
+0032 - Yam
+0033 - Carrot
+0034 - Fodder
+0035 - Golden Turnip
+0036 - Golden Pumpkin
+
+Flowers
+0037 - Moondrop
+0038 - Toy Herb
+0039 - Emery Flower
+003a - Cherry Grass
+003b - Lamp Grass
+003c - Blue Crystal
+003d - Pink Cat
+003e - Green Crystal
+003f - Fireflower
+0040 - Ironleaf
+0041 - Clover
+0042 - Charm Blue
+0043 - Red Crystal
+0044 - Pom-Pom
+
+Grasses
+0045 - Noel Grass
+0046 - Autumn Grass
+0047 - Leafy Grass
+0048 - Green Grass
+0049 - Purple Grass
+004a - Blue Grass
+004b - White Grass
+004c - Black Grass
+004d - Red Grass
+004e - Yellow Grass
+004f - Orange Grass
+0050 - Weed
+0051 - Withered Grass
+
+Roses
+0052 - White Rose
+0053 - Blue Rose
+0054 - Unknown Flower
+
+Fish
+0055 - Trout
+0056 - Squid
+0057 - Taimon
+0058 - Sardine
+0059 - Char
+005a - Chub
+005b - Shrimp
+005c - Glitter Snapper
+005d - Bonito
+005e - Turbot
+005f - Pale Carp
+0060 - Salmon
+0061 - Mackerel
+0062 - Needlefish (Halfbeak)
+0063 - Pike
+0064 - Sun Squid (Jama Ika)
+0065 - Red Snapper
+0066 - Love (Tokimeki) Snapper
+0067 - Dye Trout
+0068 - Hirame
+0069 - Pufferfish
+006a - Yellowtail
+006b - Carp
+006c - Tuna
+006d - Blackfish
+006e - Fall Fish (Momiji Hirame)
+006f - Red Salmon
+0070 - Lamp Squid
+0071 - Lobster
+0072 - Pond smelt
+
+Cooking Ingredients
+0073 - Cooking Oil
+0074 - Curry Powder
+0075 - Flour
+0076 - Rice
+0077 - Chocolate
+0078 - Garlic
+0079 - Wine
+007a - Milk
+007b - Egg
+007c - Honey
+007d - Cheese
+007e - Yogurt
+
+Wild Ingredients
+007f - Bamboo Shoot
+0080 - Mushroom
+0081 - Cherry
+0082 - Orange
+0083 - Chestnut
+0084 - Apple
+
+Cooking - No Tools
+0085 - Dried fish
+0086 - Trout sashimi
+0087 - Squid sashimi
+0088 - Taimon sashimi
+0089 - Sardine sashimi
+008a - Char sashimi
+008b - Shrimp sashimi
+008c - Glitter sashimi
+008d - Bonito sashimi
+008e - Turbot sashimi
+008f - Salmon sashimi
+0090 - Needle sashimi
+0091 - Pike sashimi
+0092 - Sun sashimi
+0093 - Snap sashimi
+0094 - Lover sashimi
+0095 - Dye sashimi
+0096 - Hirame sashimi
+0097 - Pufferfish sashimi
+0098 - Yellowtail sashimi
+0099 - Tuna sashimi (ootoro)
+009a - Blackfish sashimi
+009b - Momiji Hirame sashimi
+009c - Red Salmon sashimi
+009d - Lamp Squid sashimi
+009e - Lobster sashimi
+009f - Riceball
+00A0 - Salmon Riceball
+00A1 - Bamboo Rice
+00A2 - Chestnut Rice
+00A3 - Salad
+00A4 - Pickled Turnips
+00A5 - Pickled Cucumbers
+00A6 - Sandwich
+00A7 - Fruit Sandwich
+00A8 - Fruit Punch
+00A9 - Fruit Parfait
+00AA - Ice Cream
+00AB - New Mochi
+00AC - Mushroom Rice
+00AD - Sushi
+00AE - Potato Salad
+00AF - Relax Tea Leaves
+00B0 - Pickled Eggplants
+
+Cooking - Frying Pan
+00B1 - Grilled Trout
+00B2 - Grilled Squid
+00B3 - Taimon Roast
+00B4 - Dried Sardine
+00B5 - Grilled Char
+00B6 - Grilled Chub
+00B7 - Grilled Shrimp
+00B8 - Fried Glitter
+00B9 - Fried Bonito
+00BA - Fried Turbot
+00BB - Pale Carp Roast
+00BC - Smoked Salmon
+00BD - Grilled Mackerel
+00BE - Needle Grill
+00BF - Grilled Pike
+00C0 - Sunsquid Fry
+00C1 - Snapper Grill
+00C2 - Love Fry
+00C3 - Dye Grill
+00C4 - Flound Roast
+00C5 - Blowfish Fry
+00C6 - Yellow Teri
+00C7 - Roasted Carp
+00C8 - Tuna Teriyaki
+00C9 - Black Grill
+00CA - Fried Autumn
+00CB - Red Grill
+00CC - Lamp Fry
+
+00CD - Lobster Roast
+00CE - Salted Smelt
+00CF - Fried Rice
+00D0 - Omelet Rice
+00D1 - Dry Curry
+00D2 - Veg. Stir Fry
+00D3 - French Fries
+00D4 - Popcorn
+00D5 - Corn Flakes
+00D6 - Curry Bun
+00D7 - Hotcakes
+00D8 - Donuts
+00D9 - Okonomiyaki
+
+00DA - Croquette
+00DB - Tempura
+00DC - Gyoza
+00DD - Omelet
+00DE - Udon Stirfry
+00DF - Roasted Nuts
+00E0 - Sunny-side Up
+00E1 - Eggplant Grill
+00E2 - French Toast
+00E3 - Spinach Saute
+00E4 - Potato Roast
+
+Cooking - Pot
+00E5 - Porridge
+00E6 - Oatmeal
+00E7 - Tempura Rice
+00E8 - Egg Rice
+00E9 - Risotto
+00EA - Curry Rice
+00EB - Great Curry
+00EC - Royal Curry
+00ED - Stew
+00EE - Steam Pumpkin
+00EF - Steam Veggies
+00F0 - Candied Yam
+00F1 - Udon
+00F2 - Curry Udon
+00F3 - Tempura Udon
+00F4 - Pepperoncino
+00F5 - Carbonara
+00F6 - Boiled Gyoza
+00F7 - Boiled Egg
+00F8 - Strawberry Jam
+00F9 - Apple Jam
+00FA - Orange Jam
+00FB - Cheese Fondue
+00FC - Hot Milk
+00FD - Hot Chocolate
+00FE - Ramen
+00FF - Kurikinton
+0100 - Marron Glace
+0101 - Cherry Jam
+0102 - Ratatouille
+0103 - Spinach Risotto
+0104 - Mushroom Risotto
+0105 - Oden
+0106 - Corn Soup
+0107 - Fish Soup
+0108 - Fried Smelt
+0109 - Fried Pike
+010a - Fried Shrimp
+010b - Calamari
+010c - Relax Tea
+
+Cooking - Oven
+010d - Hot Rice Ball
+010e - Doria
+010f - Seafood Doria
+0110 - Gratin
+0111 - Seafood Gratin
+0112 - Bread
+0113 - Toast
+0114 - Jam Bun
+0115 - Butter Roll
+0116 - Pizza
+0117 - Seafood Pizza
+0118 - Ear of Corn
+0119 - Roasted Yam
+011a - Roasted Apple
+011b - Cookie
+011c - Choco Cookie
+011d - Cake
+011e - Chocolate Cake
+011f - Cheese Cake
+0120 - Montblanc
+0121 - Apple Pie
+0122 - Sugar Yam (Sweet Potato)
+0123 - Baked Mochi
+0124 - Cherry Pie
+0125 - Honey Toast
+0126 - Turnip Roast
+0127 - Potato Gratin
+0128 - Mushroom Gratin
+0129 - Roasted Bamboo Shoot
+012a - Chestnut Pie
+012b - Cherry Tart
+012c - Pumpkin Tart
+012d - Fruit Tart
+
+Cooking - Steamer
+012e - Shuumai
+012f - Steamed Bread
+0130 - Chestnut Bun
+0131 - Chinese Bun
+0132 - Curry Bun
+0133 - Chawanmushi
+0134 - Purin
+0135 - Pumpkin Purin
+0136 - Milk Purin
+0137 - Omochi
+0138 - Steamed Yam
+0139 - Sweet Rice
+013a - Steamed Cheese Bun
+013b - Steamed Gyoza
+013c - Steamed Turnip
+013d - Choco Purin
+
+Cooking - Mixer
+013e - Butter
+013f - Mayonnaise
+
+0140 - Ketchup
+0141 - Pineapple Juice
+0142 - Tomato Juice
+0143 - Orange Juice
+0144 - Apple Juice
+0145 - Strawberry Juice
+0146 - Fruit Juice
+0147 - Fruits au Lait
+0148 - Vegetable Juice
+0149 - Vegetable au Lait
+014a - Mix Juice
+014b - Mix au Lait
+014c - Yogurt Drink
+014d - Cherry Juice
+014e - Cream Soda
+014f - Aojiru
+0150 - Failed Dish
+
+Lab
+0151 - Medical Herb
+0152 - Flare Element
+0153 - Aqua Element
+0154 - Aero Element
+0155 - Earth Element
+0156 - The Protein
+0157 - Intelligence Supplement
+0158 - Vital Gummy
+0159 - Technical Bottle
+015a - Antidote
+015b - Mahiron (Paralyze Gone)
+015c - Cold Medicine
+015d - Energy Drink
+015e - Energy Drink S
+015f - Energy Drink X
+0160 - Elixir
+0161 - Gungun Green (Greenifier)
+0162 - Formula Alpha
+0163 - Formula Beta
+0164 - Formula Gamma
+0165 - Neutralizer
+0166 - Fire Leaf A
+0167 - Fire Leaf B
+0168 - Fire Leaf C
+
+Important Items
+0169 - Grimoire of Time
+016A - Crystal Flower Seed
+016B - Euni's Crystal Goat Capricorn
+016C - Melody's Crystal Water Jug Aquarius
+016D - Uzuki's Crystal Fish Pisces
+016E - Mist's Crystal Sheep Aries
+016F - Tabatha's Crystal Bull Taurus
+0170 - Iris' Crystal Twins Gemini
+0171 - Drop's Crystal Crab Cancer
+0172 - Bianca's Crystal Lion Leo
+0173 - Selphy's Crystal Virgin Virgo
+0174 - Rosetta's Crystal Scales Libra
+0175 - Annette's Crystal Scorpion Scorpio
+0176 - Lapis' Crystal Archer Sagittarius
+0177 - Wedding Bouquet
+0178 - Flow Katamari
+0179 - Kujira no Hige
+017A - Red Jewel
+017B - Blue Jewel
+017C - Purple Jewel
+017D - Green Jewel
+017E - White Jewel
+017F - Starpiece
+0180 - Letter from Mentor
+0181 - Letter from Dog
+0182 - Scriptures
+0183 - Treasure Map
+0184 - Treasure Box
+0185 - Relic
+0186 - Little Doll
+
+Crafts
+0187 - Cute Bathing Suit
+0188 - Amazing Bathing Suit
+
+Ore and Fodder
+0189 - Scrap Iron
+018a - Iron
+018b - Copper
+018c - Silver
+018d - Gold
+018e - Platinum
+018f - Fodder
+
+Item Digits Continued
+
+Material
+0190 - Wool
+0191 - Yarn Ball
+
+Gems
+0192 - Diamond
+0193 - Ruby
+0194 - Emerald
+0195 - Sapphire
+0196 - Amethyst
+0197 - Aquamarine
+
+Monster Materials
+0198 - Cheap Cloth
+0199 - Quality Cloth
+019a - Warrior Medal
+019b - Glue
+019c - Earth Crystal
+019d - Magic Powder
+019e - Magic Crystal
+019f - Insect Hide
+01A0 - Insect Jaw
+01A1 - Pretty Hide
+01A2 - Sturdy Horn
+01A3 - High Quality Fur
+01A4 - Bird Feather
+01A5 - Wind Crystal
+01A6 - Root
+01A7 - Fossilized Fishbone
+01A8 - Water Crystal
+01A9 - Turtle Shell
+01AA - Fire Crystal
+01AB - Fairy Dust
+01AC - Small Crystal
+01AD - Unused Arrowhead
+01AE - Broken Handle
+01AF - Broken Crate
+01B0 - Small Wool
+01B1 - Medium Wool
+01B2 - Large Wool
+01B3 - Sharp Nail
+01B4 - Pointed Fang
+01B5 - Glittering Blade
+01B6 - Poison/Venom
+01B7 - Beast Hide
+01B8 - Demon Nail
+01B9 - Thick Stick
+01BA - Strong Sword Point
+01BB - Demon's Blood
+01BC - Narrow Stick
+01BD - Blade fragment
+01BE - Monster Teardrop
+01BF - Wet Scale
+
+Runey
+01C0 - Grass Runey
+01C1 - Rock Runey
+01C2 - Water Runey
+01C3 - Tree Runey
+
+Rune Stone
+01C4 - Grass Rune Stone
+01C5 - Rock Rune Stone
+01C6 - Water Rune Stone
+01C7 - Tree Rune Stone
+
+Boss Material
+01C8 - Giant Bird's Crest
+01C9 - Red Core
+01CA - Ice Snake's Tongue
+01CB - Shining Tentacle
+
+Accessories
+01CC - Gold Ring
+01CD - Silver Ring
+
+Books
+
+01CE - 武器を作ろう！ Let's Make Weapons
+01CF - 片手剣の鍛え方 One-Handed Sword Forging Methods
+01D0 - 魔剣マゴハンドの秘密 Secret of the Magic Sword: Grandchild's Hand
+01D1 - 両手剣製作ガイド Two-Handed Sword Making Guide
+01D2 - 僕の教えた両手剣 My two-handed sword teaching
+01D3 - 実践！ 槍工房 Practice! Spear Workshop
+01D4 - 七色に光槍？ Seven colored shining spear
+01D5 - ハンマーラボ Hammer Lab
+01D6 - 週間オノファン Weekly Axe Fan
+01D7 - 牧場生活の友 Farm Companion
+01D8 - 牧場生活の師 Farm Master
+01D9 - 魔法の杖製造術 Magical staff manufacturing
+01DA - アクセエ房 Accessory Workshop
+01DB - 頭のコーディネート Headgear Coordination
+01DC - ふわ毛組合会報1 Wool Association Bulletin 1
+01DD - 首元アクセント Neckwear Accent
+01DE - ふわ毛組合会報2 Wool Association Bulletin 2
+01DF - オシャレの着こなし Dressing Fashionably
+01E0 - ふわ毛組合会報3 Wool Association Bulletin 3
+01E1 - 指先ワンポイント Finger One Point
+01E2 - ハッピートイズ Happy Toys
+01E3 - ビーチの主役 Leading Man of the Beach
+01E4 - 調合白書 Mixing White Paper
+01E5 - 調合全書 Mixing Complete Book
+01E6 - 最速！簡単クッキング The Fastest! Simple Cooking
+01E7 - 板前ロード Itamae Road
+01E8 - 挑戦！上級クッキング Challenge! Advanced Cooking
+01E9 - 明日のおかず1巻 Ashita no Okazu Scroll 1
+01EA - 明日のおかず2巻 Ashita no Okazu Scroll 2
+01EB - 明日のおかず最終巻 Ashita no Okazu Final Scroll
+01EC - 今夜は一工夫 Konya wa Hitokufuu
+01ED - 続！今夜は一工夫 Konya wa Hitokufuu Cont'd!
+01EE - さらば！ 今夜は一工夫 Farewell! Konya wa Hitokufuu ?
+01EF - 食卓を変える！ Changing the Dinner Table!
+01F0 - もっと食卓を変える！ More Changing the Dinner Table!
+01F1 - さらに食卓を変える！ Further Changing the Dinner Table!
+01F2 - 上手な蒸し器の使い方 Skillful Steamer Use
+01F3 - 高度蒸し器の使い方 Advanced Steamer Use
+01F4 - ミキサーの活用法 Mixer Practical Use System Blender Master
+01F5 - 真・ミキサーの活用法 True Mixer Practical Use System
+01F6 - 幸せのつくりかた Creating Happiness ?
+01F7 - 快眠のヒケツ Secret to Good Sleep
+
+Weapons and Equipment
+
+Swords
+01F8 - Broad Sword
+01F9 - Wind Sword
+01FA - Aqua Sword
+01FB - Rune Blade
+01FC - Durandal
+01FD - Soul Eater
+01FE - Aerial Blade
+01FF - Defender
+0200 - Gladius
+0201 - Cutlass
+0202 - Drag Slayer
+0203 - Luck Blade
+0204 - Smash Blade
+0205 - Benizakura
+0206 - Dethjuraado
+0207 - Backscratcher
+0208 - Scimitar
+0209 - Sword 17
+020A - Sword 18
+020B - Sword 19
+020C - Sword 20
+020D - Sword 21
+
+Two Handed Swords
+020E - Two Hand Sword
+020F - Claymore
+0210 - Great Sword
+0211 - Ten Sword
+0212 - Force Element
+0213 - Daito
+0214 - Sanzen Mae
+0215 - Eyeblade
+0216 - Lunar Eclipse
+0217 - Steel Sushir
+0218 - Flame Saber
+0219 - Shine Blade
+021A - Earth Shade
+021B - Grand Smasher
+021C - Flamberge
+021D - Heaven Sword
+021E - Balmung
+021F - Two Hand 17
+0220 - Two Hand 18
+0221 - Two Hand 19
+0222 - Two Hand 20
+0223 - Two Hand 21
+
+Polearms
+0224 - Spear
+0225 - Lance
+0226 - Halberd
+0227 - Heavy Lance
+0228 - Pitchfork
+0229 - Drill Lance
+022A - Poison Spear
+022B - Brionac
+022C - Trident
+022D - Corsesca
+022E - Gaebolg
+022F - Belvarose
+0230 - Nyoibo
+0231 - Bjor
+0232 - Feather Lance
+0233 - Gungnir
+0234 - Magical Lance
+0235 - Spear 17
+0236 - Spear 18
+0237 - Spear 19
+0238 - Spear 20
+0239 - Spear 21
+
+Hammers
+023A - Cheap Hammer
+023B - Iron Hammer
+023C - Silver Hammer
+023D - Golden Hammer
+023E - Platinum
+023F - Battle Hammer
+0240 - Sky Hammer
+0241 - War Hammer
+0242 - Spike Hammer
+0243 - Myurnil
+0244 - Great Hammer
+0245 - Schnabel
+0246 - Gigant Hammer
+0247 - Crystal Hammer
+0248 - Graviton Hammer
+0249 - Ice Hammer
+024A - Hammer 16
+024B - Hammer 17
+024C - Hammer 18
+024D - Hammer 19
+024E - Hammer 20
+024F - Hammer 21
+
+Axes
+0250 - Cheap Axe
+0251 - Iron Axe
+0252 - Wood Splitting Axe
+0253 - Mountain Axe
+0254 - Miracle Axe
+0255 - Battle Axe
+0256 - Great Axe
+0257 - Alldale
+0258 - Crescent Axe
+0259 - Double Edge
+025A - Executioner
+025B - Demon's Axe
+025C - Tomahawk
+025D - Heat Axe
+025E - Heat Hawk
+025F - Flame Axe
+0260 - Axe 16
+0261 - Axe 17
+0262 - Axe 18
+0263 - Axe 19
+0264 - Axe 20
+0265 - Axe 21
+
+Rods
+0266 - Fire Rod
+0267 - Hell Branch
+0268 - Crimson Stick
+0269 - Water Rod
+026A - Bubble Staff
+026B - Earth Wand
+026C - Gaia Rod
+026D - Meteor Cane
+026E - Wind Rod
+026F - Cyclone Rod
+0270 - Storm Wand
+
+Sickles
+0271 - Cheap Sickle
+0272 - Iron Sickle
+0273 - Quality Sickle
+0274 - Super Sickle
+0275 - Legend Kamaitachi
+
+Watering Cans
+0276 - Cheap Watering Can
+0277 - Tin Watering Can
+0278 - Lion Can
+0279 - Rainbow Can
+027A - Happiness Can
+
+Hoes
+027B - Cheap Hoe
+027C - Sturdy Hoe
+027D - Seasoned Hoe
+027E - Shiny Hoe
+027F - Blessed Hoe
+
+Fishing Rods
+0280 - Cheap Rod
+0281 - Beginner Rod
+0282 - Intermediate Rod
+0283 - Famous Rod
+0284 - Sacred Rod
+
+Tools
+0285 - Friend Glove
+0286 - Vessel
+
+Headgear
+0287 - Pumpkin Head
+0288 - Turnip Head
+0289 - Straw Hat
+028A - Feather Hat
+028B - Fashionable Hat
+028C - Knit Hat
+028D - Hachimaki
+028E - Silver Hairpin
+028F - Gold Hairpin
+0290 - Uzuki's Hairpin
+0291 - Brand Glassses
+0292 - Mask
+0293 - Magical Earring
+0294 - Katyusha
+0295 - Head Dress
+0296 - Tiara
+0297 - Mokomoko Hat
+0298 - Earring
+0299 - Whale Hat
+029A - Nekomimi
+029B - Usamimi
+029C - Elephant Mask
+029D - Mokomoko Cap
+
+Necklaces
+029E - Knit Muffler
+029F - Mokomoko Muffler
+02A0 - Neck Towel
+02A1 - Heart Pendant
+02A2 - Star Pendant
+02A3 - Sun Pendant
+02A4 - Pendant
+02A5 - Squall Pendant
+02A6 - Drop Pendant
+02A7 - Earth Pendant
+02A8 - Rosario
+02A9 - Criticaseven
+02AA - High Grade Mokomoko Muffler
+02AB - Aquamarine Broach
+02AC - Amethyst Brooch
+02AD - Emerald Brooch
+02AE - Sapphire Brooch
+02AF - Diamond Brooch
+02B0 - Ruby Brooch
+
+Body
+02B1 - Fire Mantle
+02B2 - Aqua Mantle
+02B3 - Earth Mantle
+02B4 - Wind Mantle
+02B5 - Black Robe
+02B6 - Champion Belt
+02B7 - Hero Patch
+02B8 - Cat Tail
+02B9 - Leather Belt
+02BA - Coat of Arms
+02BB - Pin Patch
+02BC - Corsage
+
+Wrist
+02BD - Mokomoko Wristband
+02BE - High Grade Mokomoko Wristband
+02BF - Wristwatch
+02C0 - Steel Armbands
+02C1 - Copper Bands
+02C2 - Silver Bands
+02C3 - Gold Bands
+02C4 - Platinum Bands
+02C5 - Aquamarine Ring
+02C6 - Amethyst Ring
+02C7 - Emerald Ring
+02C8 - Sapphire Ring
+02C9 - Diamond Ring
+02CA - Ruby Ring
+02CB - Fire Ring
+02CC - Water Ring
+02CD - Earth Ring
+02CE - Wind Ring
+02CF - Silver Ring
+02D0 - Gold Ring
+02D1 - Platinum Ring
+02D2 - Happy Ring
+02D3 - Cursed Ring
+02D4 - Ring Shield
+02D5 - Main Point of Sure-Kill
+02D6 - Main Point of Steel
+02D7 - Main Point of Magic
+02D8 - Cheap Bracelet
+02D9 - Silent Ring
+02DA - Paralyze Ring
+02DB - Poison Ring
+02DC - Magic Ring
+02DD - Glitch
+
+Toys
+02DE - Toy Watering Can
+02DF - Toy Sword
+02E0 - Yoyo
+02E1 - Mokomoko Doll
+02E2 - Toy Mower
+02E3 - Pumpkin Lantern
+02E4 - Turnip Lantern
+02E5 - Sensu (Folding Fan)
+02E6 - Ribbon
+02E7 - Wedding Ring (glitch)
+02E8 - Nothing
+02E9 - BAD (Any value past this will freeze the game)
+
+Gold [ZiT]
+04492690 05F5E0FF
+
+Raguna
+
+ATT [ZiT]
+02492682 000003FF
+
+DEF [ZiT]
+02492684 000003FF
+
+MAG [ZiT]
+02492686 000003FF
+
+HP [ZiT]
+04492688 FFFFFFFF
+
+RP [ZiT]
+0249268C 00002710
+
+Total wood [ZiT]
+0249268E 0000270F
+
+Level [ZiT]
+00492698 00000064
+
+Muscular Power [ZiT]
+00492699 000000FF
+
+Quickness [ZiT]
+0049269A 000000FF
+
+Intellect [ZiT]
+0049269B 000000FF
+
+Physical__Strength [ZiT]
+0049269C 000000FF
+
+Ruby MAX [ZiT]
+044926A0 64646464
+
+Each Level MAX [ZiT]
+044926AC 63636363
+044926B0 63636363
+024926B4 00006363

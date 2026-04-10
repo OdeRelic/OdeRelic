@@ -1,0 +1,12 @@
+RQ5E5G
+Mad Dog McCree Gunslinger Pack
+
+Always have full ammo [giantpune]
+043AE898 00060006
+
+Always have 3 lives [giantpune]
+043AE8A0 00030003
+
+high score [giantpune]
+04331F18 0001869F
+04331F1C 0001869F

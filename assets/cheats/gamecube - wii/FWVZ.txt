@@ -1,0 +1,14 @@
+FWVZ
+Dragon Warrior
+
+Infinite Gold [GMO]
+0240751C 000003E7
+
+Infinite Health [GMO]
+00407525 000000FF
+
+Infinite Magic [GMO]
+00407526 000000FF
+
+Quick Experience [GMO]
+0240751C 000003E7

@@ -1,0 +1,76 @@
+SDOPLR
+Doctor Who Return To Earth
+
+Inf Air (Stage 1) [Skiller]
+04010B24 EC00F828
+
+Inf HP [Skiller]
+C200D270 00000002
+3EE042C8 92E3004C
+C023004C 00000000
+
+Use Money Get 999 [Skiller]
+0403D228 388003E7
+0403D41C 388003E7
+Only In Bonus Section will it read 999 when used
+
+Go to Bonus Section get 1000 Money [Skiller]
+C200F5B4 00000002
+3B6003E8 9363061C
+8063061C 00000000
+
+Unlock All Bonus Content (View) [Skiller]
+C203D9AC 00000002
+38000001 901C0020
+801C0020 00000000
+
+Unlimited Ammo [Skiller]
+0401BB2C 38030000
+
+Inf HP (Circuit) [Skiller]
+0402878C EC21F828
+04025640 EC00D828
+
+Unlimited Ammo(Crystals) [Skiller]
+0401BB2C 38030000
+
+Have 3 Crystals First 3 Slots
+
+Blue [Skiller]
+047F004C 00000003
+087F006C 00000001
+20020004 00000000
+Note Might be good to put them on button activation
+
+Red [Skiller]
+047F0050 00000003
+087F006C 00000002
+20020004 00000000
+
+Yellow [Skiller]
+047F0054 00000003
+087F006C 00000003
+20020004 00000000
+Note Might be good to put them on button activation
+
+Purple [Skiller]
+047F0058 00000003
+087F006C 00000004
+20020004 00000000
+Note Might be good to put them on button activation
+
+Green [Skiller]
+047F005C 00000003
+087F006C 00000005
+20020004 00000000
+Note Might be good to put them on button activation
+
+Gold [Skiller]
+047F0060 00000003
+087F006C 00000006
+20020004 00000000
+Note Might be good to put them on button activation
+
+Controller
+8019779A = WiiMote
+Paste the address in the address box on this site (http://geckocodes.org/index.php?arsenal=2 ) then pick your Button activators and put them on top of the codes . Note u need to put E0000000 80008000 on the bottom of the code

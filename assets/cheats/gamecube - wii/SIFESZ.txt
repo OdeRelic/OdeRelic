@@ -1,0 +1,91 @@
+SIFESZ
+The Island of Dr Frankenstein
+
+Unlimited Meteorites [GMO]
+001DE55B 000000FF
+
+Unlimited Gears [GMO]
+001DE55F 000000FF
+
+Have Individual Items (Activate items that you only need)
+
+Have Chicken [GMO]
+001DE563 00000001
+
+Have Fish [GMO]
+001DE567 00000001
+
+Vaporite Engine [GMO]
+001DE56B 00000001
+
+Have Fake Beard [GMO]
+001DE56F 00000001
+
+Have Black Cape [GMO]
+001DE573 00000001
+
+Have License To Use Catapult [GMO]
+001DE577 00000001
+
+Have EarthWorm [GMO]
+001DE57B 00000001
+
+Have Big Stone [GMO]
+001DE57F 00000001
+
+Have Mirror [GMO]
+001DE583 00000001
+
+Have Dr. Frankstein steins [GMO]
+001DE58B 00000001
+
+Have Blue Print for Creature's Leg [GMO]
+001DE58F 00000001
+
+Have Boots [GMO]
+001DE593 00000001
+
+Have Medcine for Stomache [GMO]
+001DE597 00000001
+
+Have Fishing rod [GMO]
+001DE59B 00000001
+
+Have Contract [GMO]
+001DE5A3 00000001
+
+Have A Signed Contract by The Mayor [GMO]
+001DE5A7 00000001
+
+Have Fish without Scales [GMO]
+001DE5AB 00000001
+
+Have Chewing Gum [GMO]
+001DE5AF 00000001
+
+Have Chewing Gun (Spider) [GMO]
+001DE5B3 00000001
+
+Have Cork Screw [GMO]
+001DE5B7 00000001
+
+Have A Scale [GMO]
+001DE5BB 00000001
+
+Have A Piece of Shell [GMO]
+001DE5BF 00000001
+
+Have Gold Coin [GMO]
+001DE5C3 00000001
+
+Have Handful of Alge from Lake [GMO]
+001DE5C7 00000001
+
+Have Quill Pen [GMO]
+001DE5CB 00000001
+
+Have Chocolate Medal [GMO]
+001DE5CF 00000001
+
+Have Relaxation Stone [GMO]
+001DE5D3 00000001

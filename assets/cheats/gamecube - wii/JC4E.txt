@@ -1,0 +1,11 @@
+JC4E
+Indiana Jones Greatest Adventures
+
+Unlimited Health [GMO]
+00446348 00000006
+
+Invincible [GMO]
+0244634A 00003B00
+
+Unlimited Grenades [GMO]
+0044635C 0000000A

@@ -1,0 +1,355 @@
+HACA
+Mii Channel
+
+For Changes to be saved drag (any) Mii into "Edit Mii" & Save&Quit!
+
+Gain Mii Possession Permanently [Bully@Wiiplaza]
+C213F594 00000002
+90BF0000 3D809069
+90AC1A06 00000000
+*Credits to dcx2*
+*Must use Thomas83Lin´s "Temporary Mii Unlock"*
+
+Mii Name Changer (v2 Region Free) [Anarion]
+F6000001 90109100
+XXXXXXXX XXXXXXXX
+16000000 00000014
+ZZZZZZZZ ZZZZZZZZ
+ZZZZZZZZ ZZZZZZZZ
+ZZZZZZZZ 00000000
+E0000000 80008000
+X= Mii Name to replace
+Z= New Name
+To use, you go to mikezilla.com/exp0012.html to convert the first 4 characters of your Mii's name to hex. After you replace X placeholders with hex values, convert the new name to use for Z. If not using all 10 characters, use 0s.
+
+CloneMii v2 [Anarion]
+F6000001 90109100
+XXXXXXXX XXXXXXXX
+90100000 FFFFFFFD
+E0000000 80008000
+F6000001 90109100
+xxxxxxxx xxxxxxxx
+9A00340F FFFFFFFD
+E0000000 80008000
+X- name of Mii to clone
+x- name of Mii to be cloned
+Find X values as explained in code above.
+
+Edit Other Miis [Anarion]
+F6000001 90109100
+XXXXXXXX XXXXXXXX
+9221000F 0000001A
+E0000000 80008000
+F6000001 90109100
+xxxxxxxx xxxxxxxx
+9421000F 0000001A
+E0000000 80008000
+X-name of your Mii
+x-name of other Wii Mii (blue&gold pants)
+Find X values as explained above. This code will essentially turn the other Mii into your own Mii. Select your own Mii into the Edit Screen, save&quit to make the Mii your own.
+
+Mii Creator Name Changer [Anarion]
+42000000 90000000
+0617XXXX 00000014
+ZZZZZZZZ ZZZZZZZZ
+ZZZZZZZZ ZZZZZZZZ
+ZZZZZZZZ 00000000
+E0000000 80008000
+X=Creator Name Slot to modify
+F140 -modify slot 1
+F154 -modify slot 2
+F168 -modify slot 3
+
+CloneMii [Anarion]
+80000000 9018XXXX
+8A00340D 9018xxxx
+X Values:
+X -data of mii slot you want to clone
+x -data of mii slot you want to replace
+This code will make use of the "0 Mii Slot Value" as explained in "Mii Name Changer" below to help you to find what mii X values to use. So, do the equation in the code's description and follow the rest of instructions.
+
+Mii Name Changer (Region Free) [Anarion]
+42000000 90000000
+0618XXXX 00000014
+ZZZZZZZZ ZZZZZZZZ
+ZZZZZZZZ ZZZZZZZZ
+ZZZZZZZZ 00000000
+E0000000 80008000
+X- Mii to modify.
+145C -"0" Mii slot value. DO NOT USE IN THIS CODE.
+14A6 -modify Mii 1 (the very first Mii you created)
+14F0 -modify Mii 2 (second Mii you created)
+153A -modify Mii 3 (etc)
+Finding the X Slot value for other miis.
+Ex. Lets modify your 58th mii. The easiest way to do it is to multiply (in decimal) 74 by 58. 74 x 58 = 4292. Now convert 4292 to hex. Result=10C4. ADD (in hex) this value to the "0" slot value. X value for 58th Mii=2520.
+Z=New Mii Name. Go to http://www.mikezilla.com/exp0012.html to convert ASCII to hex. Don't use the percentage symbol in Z. If you are using a name that doesn't make use of all ten characters, fill the rest of the Zs with 0s.
+To use this code, you need to use a version of Gecko OS that allows you to launch channels. Fill this code in, save as HACA.gct. Launch Mii channel via Gecko OS. Drag the Mii you wanted to modify to Edit Mii icon. SAVE&Quit. Done. You can use hex values for symbols not found in your wii's version of the Mii channel.
+
+Mii Color Changers- Default Values Below. Changes don't save :(
+
+Change Red Body Color [Anarion]
+042158F8 XXXXXXFF
+
+Change Orange Body Color [Anarion]
+042158FC XXXXXXFF
+
+Change Yellow Body Color [Anarion]
+04215900 XXXXXXFF
+
+Change Lime Body Color [Anarion]
+04215904 XXXXXXFF
+
+Change Green Body Color [Anarion]
+04215908 XXXXXXFF
+
+Change Blue Body Color [Anarion]
+0421590C XXXXXXFF
+
+Change Light Blue Body Color [Anarion]
+04215910 XXXXXXFF
+
+Change Pink Body Color [Anarion]
+04215914 XXXXXXFF
+
+Change Purple Body Color [Anarion]
+04215918 XXXXXXFF
+
+Change Brown Body Color [Anarion]
+0421591C XXXXXXFF
+
+Change White Body Color [Anarion]
+04215920 XXXXXXFF
+
+Change Black Body Color [Anarion]
+04215924 XXXXXXFF
+
+Change Pale Skin Color [Anarion]
+04215888 XXXXXXFF
+
+Change Tan Skin Color [Anarion]
+0421588C XXXXXXFF
+
+Change Guido/Brown Skin Color [Anarion]
+04215890 XXXXXXFF
+
+Change Sun Burnt Skin Color [Anarion]
+04215894 XXXXXXFF
+
+Change Dark Skin Color [Anarion]
+04215898 XXXXXXFF
+
+Change Darker Skin Color [Anarion]
+0421589C XXXXXXFF
+
+Change Black Hair Color [Anarion]
+042158A0 XXXXXXFF
+
+Change Dark Brown Hair Color [Anarion]
+042158A4 XXXXXXFF
+
+Change Red Hair Color [Anarion]
+042158A8 XXXXXXFF
+
+Change Ginger Hair Color [Anarion]
+042158AC XXXXXXFF
+
+Change Grey Hair Color [Anarion]
+042158B0 XXXXXXFF
+
+Change Brown Hair Color [Anarion]
+042157B4 XXXXXXFF
+
+Change Light Brown Hair Color [Anarion]
+042158B8 XXXXXXFF
+
+Change Blonde Hair Color [Anarion]
+042158BC XXXXXXFF
+
+Change Black Brow Color [Anarion]
+042157E8 XXXXXXFF
+
+Change Dark Brown Brow Color [Anarion]
+042157EC XXXXXXFF
+
+Change Red Brow Color [Anarion]
+042157F0 XXXXXXFF
+
+Change Ginger Brow Color [Anarion]
+042157F4 XXXXXXFF
+
+Change Grey Brow Color [Anarion]
+042157F8 XXXXXXFF
+
+Change Brown Brow Color [Anarion]
+042157FC XXXXXXFF
+
+Change Light Brown Brow Color [Anarion]
+04215800 XXXXXXFF
+
+Change Blonde Brow Color [Anarion]
+04215804 XXXXXXFF
+
+Change Black Iris Color [Anarion]
+082077E8 XXXXXXFF
+2001DFE8 00000000
+
+Change Grey Iris Color [Anarion]
+082077EC XXXXXXFF
+2001DFE8 00000000
+
+Change Brown Iris Color [Anarion]
+082077F0 XXXXXXFF
+2001DFE8 00000000
+
+Change Hazel Iris Color [Anarion]
+082077F4 XXXXXXFF
+2001DFE8 00000000
+
+Change Blue Iris Color [Anarion]
+082077F8 XXXXXXFF
+2001DFE8 00000000
+
+Change Green Iris Color [Anarion]
+082077FC XXXXXXFF
+2001DFE8 00000000
+
+Change Orange Lip Color [Anarion]
+082077D0 XXXXXXFF
+2001E044 00000000
+082077DC xxxxxxFF
+2001E02C 00000000
+
+Change Red Lip Color [Anarion]
+082077D4 XXXXXXFF
+2001E044 00000000
+082077E0 xxxxxxFF
+2001E02C 00000000
+
+Change Pink Lip Color [Anarion]
+082077D8 XXXXXXFF
+2001E044 00000000
+082077E4 xxxxxxFF
+2001E02C 00000000
+
+Change Black LowerFaceHair Color [Anarion]
+04215820 XXXXXXFF
+
+Change Dark Brown LowerFaceHair Color [Anarion]
+04215824 XXXXXXFF
+
+Change Red LowerFaceHair Color [Anarion]
+04215828 XXXXXXFF
+
+Change Ginger LowerFaceHair Color [Anarion]
+0421582C XXXXXXFF
+
+Change Grey LowerFaceHair Color [Anarion]
+04215830 XXXXXXFF
+
+Change Brown LowerFaceHair Color [Anarion]
+04215834 XXXXXXFF
+
+Change Light Brown LowerFaceHair Color [Anarion]
+04215838 XXXXXXFF
+
+Change Blonde LowerFaceHair Changer [Anarion]
+0421583C XXXXXXFF
+
+Change Black Glasses Color [Anarion]
+042158E0 XXXXXXFF
+
+Change Brown Glasses Color [Anarion]
+042158E4 XXXXXXFF
+
+Change Red Glasses Color [Anarion]
+042158E8 XXXXXXFF
+
+Change Blue Glasses Color [Anarion]
+042158EC XXXXXXFF
+
+Change Orange Glasses Color [Anarion]
+042158F0 XXXXXXFF
+
+Change White Glasses Color [Anarion]
+042158F4 XXXXXXFF
+Replace the color of a specific color slot with another color. Generate your color of choice @http://www.colorpicker.com/
+DEFAULT X VALUES
+BODY
+B84030 -Red
+F07828 -Orange
+F8D820 -Yellow
+80C828 -Lime
+007428 -Green
+204898 -Blue
+40A0D8 -Light Blue
+E86078 -Pink
+702CA8 -Purple
+483818 -Brown
+E0E0E0 -White
+181814 -Black
+SKIN
+F0D8C4 -Pale
+FFBC80 -Tan
+D88850 -Guido
+FFB090 -Sun Burnt
+985030 -Dark
+552E1C -Darker
+ALL HAIR
+1E1A18 -Black
+382015 -Dark Brown
+552617 -Red
+704024 -Ginger
+727278 -Grey
+49361A -Brown
+7A5928 -Light Brown
+C19F64 -Blonde
+EYES
+000000 -Black
+7C8080 -Grey
+705040 -Brown
+706E40 -Hazel
+5868B8 -Blue
+488068 -Green
+LIPS (X:Top lip Color, x:Bottom lip color)
+712A04 , BE4E26 -Orange lips
+781510 , D83028 -Red lips
+7E2528 , CF4447 -Pink lips
+GLASSES
+101010 -Black
+603810 -Brown
+981810 -Red
+203060 -Blue
+905800 -Orange
+605850 -White
+
+END of Mii Color Changers
+
+HeadLess Mii's [Seth@WiiPlaza]
+022848D0 00006770
+*demo pic- http://goo.gl/CdJPM
+
+Mii's Have Broken Necks [Seth@WiiPlaza]
+022848D0 0000AA80
+
+Mii's Are Grey Dots [Seth@WiiPlaza]
+043BCF8C 40000000
+
+Mii Tornado [Seth@WiiPlaza]
+043BF550 42A78A33
+
+Zoom In On Mii's [Seth@WiiPlaza]
+043C0198 40100000
+
+Funny Miis [CosmoCortney]
+04259DDC 3FA00000
+
+Fat Miis [CosmoCortney]
+0425A1D8 40600000
+
+Activator [Sh0tGuN2197]
+283B92A0 0000XXXX
+Change X's to activator of your choice
+
+Temporary Mii Unlock [Thomas83Lin]
+04047440 60000000
+*For Versions 5-6*

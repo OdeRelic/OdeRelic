@@ -1,0 +1,8 @@
+GIHE78
+Scooby Doo: Night Of 100 Frights
+
+Have Tons Of Scooby Snacks [Hells Guardian]
+02235096 0000FFFF
+
+Infinite Hits (Will freeze game if you fall in a pit ect...) [Hells Guardian]
+00234DCB 00000005

@@ -1,0 +1,20 @@
+RPWZ41
+Prince of Persia
+
+Rewards Granted [AlexWong]
+C207744C 00000002
+38000001 90050184
+60000000 00000000
+Mod from sm98's code. Now you can save the effect into save data.
+
+Unlock All Herotic Challenges [AlexWong]
+C207771C 00000002
+38000001 90050278
+60000000 00000000
+
+Inf Health [shark2003]
+04080F24 60000000
+
+keep game from crashing when you hook it [giantpune]
+044CDECC 4800005C
+*created by sm98*

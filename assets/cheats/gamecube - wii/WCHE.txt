@@ -1,0 +1,14 @@
+WCHE
+Chess Challenge
+
+WiiMote Pad1 [GMO]
+282CCB60 YYYYZZZZ
+
+Classic Pad1 [GMO]
+282CCBC2 YYYYZZZZ
+
+WiiMote Pad2 [GMO]
+282CD660 YYYYZZZZ
+
+Classic Pad2 [GMO]
+282CD6C2 YYYYZZZZ

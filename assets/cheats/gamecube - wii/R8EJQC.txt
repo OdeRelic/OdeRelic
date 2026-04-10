@@ -1,0 +1,29 @@
+R8EJQC
+Earth Seeker
+
+Infinite Strength [Glitch]
+C20E75D0 00000003
+2C1A0001 4082000C
+A81F000C 48000008
+7C030050 00000000
+
+Max Points [Glitch]
+04440544 3B9AC9FF
+
+Action Cartridge Recharge [Glitch]
+0409D790 60000000
+
+Infinite Action Cartridge [Glitch]
+0409D664 90A30234
+
+No Virus Counter [Glitch]
+040EE310 60000000
+
+Infinite Items [Glitch]
+041FA8A8 38030000
+04187CA0 B0640050
+Credit to ukuneko
+
+Stop Virus Counter [Glitch]
+044479E8 00000000
+Credit to ukuneko

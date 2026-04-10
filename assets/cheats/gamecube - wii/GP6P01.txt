@@ -1,0 +1,222 @@
+GP6P01
+Mario Party 6
+
+Button Activator
+
+P1 Button Activator [Macopride64]
+282DD8B0 YYYYZZZZ
+
+P2 Button Activator [Macopride64]
+282DD8B2 YYYYZZZZ
+
+P3 Button Activator [Macopride64]
+282DD8B4 YYYYZZZZ
+
+P4 Button Activator [Macopride64]
+282DD8B6 YYYYZZZZ
+
+Misc. Codes
+
+Party Mode Codes
+
+P1 HUD Color Modifier [Macopride64]
+044C72F8 VVVVVVZZ
+044C7374 XXXXXXZZ
+044C78C8 YYYYYYZZ
+V= Color
+X= Outline color
+Y= Outline color of character's icon
+Z= Transparency. Use 00 for bold, use FF for transparent.
+X COLOR VALUES FOR CODES ABOVE @ www.2createawebsite.com/images/hex-co1.gif
+or generate your color of choice @ www.2createawebsite.com/build/hex-colors.html#colorgenerator
+
+Stage Modifier [Macopride64]
+2855CFEE 00000002
+00506399 0000000X
+E0000000 80008000
+X Stage Values
+0 = Towering Treetop
+1 = E.Gadd's Garage
+2 = Faire Square
+3 = Snowflake Lake
+4 = Castaway Bay
+5 = Clockwork Castle
+
+P1 Character Modifier [Macopride64]
+2855CFEE 00000007
+00506365 0000000X
+E0000000 80008000
+
+P2 Character Modifier [Macopride64]
+2855CFEE 00000007
+00506373 0000000X
+E0000000 80008000
+
+P3 Character Modifier [Macopride64]
+2855CFEE 00000007
+00506381 0000000X
+E0000000 80008000
+
+P4 Character Modifier [Macopride64]
+2855CFEE 00000007
+0050638F 0000000X
+E0000000 80008000
+X Character Values
+0 = Mario
+1 = Luigi
+2 = Peach
+3 = Yoshi
+4 = Wario
+5 = Daisy
+6 = Waluigi
+7 = Toad
+8 = Boo
+9 = Mini Bowser
+A = Toadette
+B = Mini Bowser Red
+C = Mini Bowser Green
+D = Mini Bowser Blue
+
+Top Left Player Infinite Coins [Macopride64]
+02282E8C 000003E7
+
+Top Right Player Infinite Coins [Macopride64]
+02282F94 000003E7
+
+Bottom Left Player Infinite Coins [Macopride64]
+0228309C 000003E7
+
+Bottom Right Player Infinite Coins [Macopride64]
+022831A4 000003E7
+
+Top Left Player Infinite Moves [Macopride64]
+00282E7A 00000063
+
+Top Right Player Infinite Moves [Macopride64]
+00282F82 00000063
+
+Bottom Left Player Infinite Moves [Macopride64]
+0028308A 00000063
+
+Bottom Right Player Infinite Moves [Macopride64]
+00283192 00000063
+
+Top Left Player Stars Modifier [Macopride64]
+02282EA0 00000XXX
+
+Top Right Player Stars Modifier [Macopride64]
+02282FA8 00000XXX
+
+Bottom Left Player Stars Modifier [Macopride64]
+022830B0 00000XXX
+
+Bottom Right Player Stars Modifier [Macopride64]
+022831B8 00000XXX
+X = Amount of stars in HEX
+3E7 = 999 (Max star amount)
+
+Top Left Player Character Modifier [Macopride64]
+00282D4B 0000000X
+
+Top Right Player Character Modifier [Macopride64]
+00282E53 0000000X
+
+Bottom Left Player Character Modifier [Macopride64]
+00282F5B 0000000X
+
+Bottom Right Player Character Modifier [Macopride64]
+00283063 0000000X
+**This code causes glitches, use the specific player character modifiers above**
+X Character Values
+0 = Mario
+1 = Luigi
+2 = Peach
+3 = Yoshi
+4 = Wario
+5 = Daisy
+6 = Waluigi
+7 = Toad
+8 = Boo
+9 = Mini Bowser
+A = Toadette
+B = Mini Bowser Red
+C = Mini Bowser Green
+D = Mini Bowser Blue
+
+Top Left Player Orb 1 Modifier [Macopride64]
+00282E75 000000XX
+
+Top Left Player Orb 2 Modifier [Macopride64]
+00282E76 000000XX
+
+Top Left Player Orb 3 Modifier [Macopride64]
+00282E77 000000XX
+
+Top Right Player Orb 1 Modifier [Macopride64]
+00282F7D 000000XX
+
+Top Right Player Orb 2 Modifier [Macopride64]
+00282F7E 000000XX
+
+Top Right Player Orb 3 Modifier [Macopride64]
+00282F7F 000000XX
+
+Bottom Left Player Orb 1 Modifier [Macopride64]
+00283085 000000XX
+
+Bottom Leftt Player Orb 2 Modifier [Macopride64]
+00283086 000000XX
+
+Bottom Left Player Orb 3 Modifier [Macopride64]
+00283087 000000XX
+
+Bottom Right Player Orb 1 Modifier [Macopride64]
+0028318D 000000XX
+
+Bottom Right Player Orb 2 Modifier [Macopride64]
+0028318E 000000XX
+
+Bottom Right Player Orb 3 Modifier [Macopride64]
+0028318F 000000XX
+X Orb Values
+00 = Mushroom Orb
+01 = Super 'Shroom Orb
+02 = Sluggish 'Shroom Orb
+03 = Metal Mushroom Orb
+04 = Bullet Bill Orb
+05 = Warp Pipe Orb
+06 = Flutter Orb
+07 = Cursed Mushroom Orb
+0A = Spiny Orb
+0B = Goomba Orb
+0C = Piranha Plant Orb
+0D = Klepto Orb
+0F = Toady Orb
+10 = Kamek Orb
+11 = Mr. Blizzard Orb
+14 = Podoboo Orb
+15 = Zap Orb
+16 = Tweester Orb
+17 = Thwomp Orb
+18 = Bom-omb Orb
+19 = Paratroopa Orb
+1E = Snack Orb
+1F = Boo-away Orb
+20 = Barrel Orb
+---
+(The following are NOT orbs, they are events. They may not even be able to be used).
+---
+28 = Bullet Bill Move
+29 = Duel
+2A = Miracle
+2B = Bowser
+2C = Donkey Kong
+2D = VS
+2E = Red Boo
+2F = Dice Block
+
+(All CODES HERE REQUIRE A BUTTON ACTIVATOR, AND MUST BE ACTIVATED IN GAME. ONCE ACTIVATED IN GAME SOME WILL TAKE PLACE RIGHT AWAY AND SOME WILL TAKE PLAY AFTER A MINI GAME. IF A BUTTON ACTIVATOR IS NOT USED, CODES WILL CAUSE BUGS).
+
+~~~IGNORE THE ABOVE ABOUT BUTTON ACTIVATORS~~~
+
+Solo Mode Codes

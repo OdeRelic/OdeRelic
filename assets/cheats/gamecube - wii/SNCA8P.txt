@@ -1,0 +1,31 @@
+SNCA8P
+Sonic Colors Universal
+
+No Sound [CosmoCortney]
+047D652C 00000000
+
+No HUD [CosmoCortney]
+04748F3C 42000000
+Removes many things from the screen like the displayed number of rings, lives and so on. In the Game Menu, too. It is a bit difficulty to navigate on the planet selection screen
+
+Insane Fast Jumps [CosmoCortney]
+048F65E4 42500000
+do a double jump (pressing A for 2 times) to get an insane fast boost. It's required to hold the main stick in the direction you want to move to
+
+Giant Red Robot [CosmoCortney]
+048F5EF4 41000000
+
+Small Red Robots [CosmoCortney]
+048F5EF4 3E000000
+
+Confetti Size modifier (Tropical Resort only) [CosmoCortney]
+047473A4 42000000
+0474739C 42000000
+04747398 42000000
+04747390 42000000
+047434C4 42000000
+
+Sonic Size Modifier [CosmoCortney]
+04747C28 40000000
+0474782C 3F900000
+These 2 lines Modifie all 3 axis, but the sizes always change a bit

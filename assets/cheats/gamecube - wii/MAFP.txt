@@ -1,0 +1,44 @@
+MAFP
+Gunstar Heroes
+
+P1 Moon Jump (Hold2) [GMO]
+281DD4DA FEFF0100
+02DA733C 0000FFFC
+E0000000 80008000
+
+P1 Unlimited Vitality [GMO]
+02DA7344 000003E7
+
+P1 Weapon Modifier Slot 1 [GMO]
+00DA738F 000000??
+
+P1 Weapon Modifier Slot 2 [GMO]
+00DA7391 000000??
+
+P1 Invincible [GMO]
+00DA739D 0000002F
+
+P2 Moon Jump (Hold2) [GMO]
+281DD8DA FEFF0100
+02DA753C 0000FFFC
+E0000000 80008000
+
+P2 Unlimited Vitality [GMO]
+02DA7544 000003E7
+
+P2 Weapon Modifier Slot 1 [GMO]
+00DA758F 000000??
+
+P2 Weapon Modifier Slot 2 [GMO]
+00DA7591 000000??
+
+P2 Invincible [GMO]
+00DA759D 0000002F
+
+Weapon Modifier Values
+
+00 Empty
+04 Force
+08 Lightning
+0C Chaser
+10 Fire

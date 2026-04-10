@@ -1,0 +1,9 @@
+FA4P
+Devil World
+
+Unlimited Lives [Crapulecorp]
+00361EF5 0000000A
+
+Invincible [Crapulecorp]
+00361EF7 00000000
+*Code ported from ZiT Ntsc Jap Version*

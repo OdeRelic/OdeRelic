@@ -1,0 +1,10 @@
+MCPE
+Earthworm Jim
+
+Infinite Energy [whitetigerx8]
+4A000000 80000000
+12EE36FE 00003939
+
+Infinite Ammo [whitetigerx8]
+4A000000 80000000
+14EE36F4 39393939

@@ -1,0 +1,91 @@
+RMLEH4
+Metal Slug Anthology
+
+Metal Slug 1
+
+Infinite Ammo [Arudo]
+007FBB82 000000FF
+
+Infinite Grenade [Arudo]
+007FBB81 00000063
+
+Infinite Cannon [Arudo]
+007FBCD1 00000063
+
+Metal Slug 2
+
+Infinite Ammo [Arudo]
+00907A0C 000000FF
+
+Infinite Grenade [Arudo]
+00907A09 00000063
+
+Infinite Cannon [Arudo]
+00909F60 00000063
+
+Metal Slug X
+
+Infinite lives after dying once.
+02AFC948 00000FF
+
+inf Bombs v2. [Patedj]
+02B07DE0 00000063
+
+Infinite Ammo v2 [Patedj]
+04B07DE4 FFFF00FF
+
+Infinite Ammo [Arudo]
+00B07DE4 000000FF
+
+Infinite Grenade [Arudo]
+00B07DE1 00000063
+
+Infinite Cannon [Arudo]
+00B07CE6 00000063
+
+Metal Slug 3
+
+Infinite Ammo [Arudo]
+00D6A1BA 000000FF
+
+Infinite Grenade [Arudo]
+00D6A1B4 00000063
+
+Infinite Cannon [Arudo]
+00D6A2F8 00000063
+
+Metal Slug 4
+
+Infinite Ammo [Arudo]
+00B6A4B2 000000FF
+
+Infinite Grenade [Arudo]
+00B6A4AC 00000063
+
+Infinite Cannon [Arudo]
+00B6A46C 00000063
+
+Metal Slug 5 (ZackaruS found these)
+
+Infinite Ammo [Arudo]
+00008B1C 000000FF
+
+Infinite Grenade [Arudo]
+00B08B16 00000063
+
+Infinite Cannon [Arudo]
+00B08B16 00000063
+
+Metal Slug 6 - Needs Rebooter before use - Care of g6flavor
+
+Infinite Ammo [Arudo]
+005EBF25 000000FF
+
+Infinite Grenade [Arudo]
+005EBF21 00000063
+
+Infinite Cannon [Arudo]
+006035DB 00000063
+
+99 Lives [Arudo]
+005EC2D7 00000063

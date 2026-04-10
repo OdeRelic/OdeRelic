@@ -1,0 +1,41 @@
+GW5D69
+Need For Speed Carbon
+
+Tunnelview Effect [CosmoCortney]
+285D71C8 00000008
+044AF5B0 3F800000
+E0000000 80008000
+285D71C8 00000004
+044AF5B0 40000000
+E0000000 80008000
+Press dPad up/down to de/activate
+(only works when you are not accelerating (holding R) at the same time)
+
+Cam Jitters [CosmoCortney]
+285D71C8 00000001
+044AEC98 40500000
+E0000000 80008000
+285D71C8 00000002
+044AEC98 3F800000
+E0000000 80008000
+dPad left/right to de/activate
+
+Speed Modifier (sort of) [CosmoCortney]
+285D71C8 00000020
+0457C1BC 42400000
+E0000000 80008000
+285D71C8 00000040
+0457C1BC C2400000
+E0000000 80008000
+R = eastern
+L = western
+only recommanded for streets in western or eastern directions
+
+Moonjump [CosmoCortney]
+285D71C8 00000800
+0457C1B8 41000000
+E0000000 80008000
+285D71C8 00000820
+0457C1B8 41000000
+E0000000 80008000
+press Y, or r + Y

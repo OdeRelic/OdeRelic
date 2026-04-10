@@ -1,0 +1,8 @@
+GVKE52
+Cabelas Dangerous Hunts 2 
+
+Infinite Health
+044E5168 3F800000
+
+Infinite Ammo
+0407CF2C 90A3003C

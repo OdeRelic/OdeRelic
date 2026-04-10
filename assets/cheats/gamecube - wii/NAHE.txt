@@ -1,0 +1,45 @@
+NAHE
+Yoshi's Story
+
+Infinite Health - Green Yohsi [farjo08]
+03226616 00000008
+
+Infinite Health - Red Yohsi [farjo08]
+0322661A 00000008
+
+Infinite Health - Yellow Yohsi [farjo08]
+0322661E 00000008
+
+Infinite Health - Dark Blue Yohsi [farjo08]
+03226622 00000008
+
+Infinite Health - Light Blue Yohsi [farjo08]
+03226626 00000008
+
+Infinite Health - Pink Yohsi [farjo08]
+0322662A 00000008
+
+Infinite Health - White Yohsi [farjo08]
+0322662E 00000008
+
+Infinite Health - Black Yohsi [farjo08]
+03226632 00000008
+
+Infinite Lives [farjo08]
+03226656 000000FF
+
+30 Melons [farjo08]
+012261C3 0000001E
+
+3 Hearts [farjo08]
+012261BB 00000003
+
+30 Fruits [farjo08]
+01226233 0000001E
+
+Unlimited Yoshi Eggs [GMO]
+013B3308 00000006
+
+Unlimited Health (All Yoshi's) [GMO]
+28226616 00000008
+00070004 00000000

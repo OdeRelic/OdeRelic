@@ -1,0 +1,124 @@
+RWSP8P
+Mario & Sonic At The Olympic Games
+
+Button Conditions
+
+Button Activator [Bully@Wiiplaza]
+2848E59A YYYYZZZZ
+
+One-Shot Button Activator [Bully@Wiiplaza]
+2848E59E YYYYZZZZ
+
+Skeet Shooting
+
+Inf. Bullets [Bully@Wiiplaza]
+C2299048 00000002
+38000063 901900A0
+60000000 00000000
+
+Always Perfect Score [Bully@Wiiplaza]
+C229D578 00000002
+81840048 91840050
+80040050 00000000
+
+Huge Object Size [Bully@Wiiplaza]
+C22E1A6C 00000003
+3D804000 91830000
+91830004 C0030000
+60000000 00000000
+
+Infinite Time [Bully@Wiiplaza]
+C229FC80 00000002
+3D804120 91850068
+C0250068 00000000
+
+Athletics (Dream)
+
+Inf. Stamina [Bully@Wiiplaza]
+C2185C5C 00000002
+3D803F80 91830074
+60000000 00000000
+
+Platform (Dream)
+
+Score Modifier P1 [Bully@Wiiplaza]
+C236C0BC 00000003
+2C150000 4082000C
+38A0XXXX 90B607C8
+80B607C8 00000000
+*X = HEX*
+
+Everybody´s Score Always 0 [Bully@Wiiplaza]
+C236DD54 00000002
+38000000 900307C8
+60000000 00000000
+*use with score modifier to be unaffected and win*
+
+Item Hack [Bully@Wiiplaza]
+C236A86C 00000002
+3800000X 900386E8
+800386EC 00000000
+*X Values*
+2 = Mushroom
+3 = Red Shell
+4 = Bomb
+5 = Barrier
+
+Fencing (Dream)
+
+Infinite Health P1 [Bully@Wiiplaza]
+C238BA58 00000003
+2C040000 4082000C
+3980004B 7D83012E
+7C63002E 00000000
+
+Time Control [Bully@Wiiplaza]
+2848E59A YYYYZZZZ
+C238BDD8 00000002
+3D800000 91990028
+C0190028 00000000
+E2100000 00000000
+C238BDD8 00000002
+3D804334 91990028
+C0190028 00000000
+E0000000 80008000
+*Press your button activator to end game instantly*
+
+Instant Win P1 [Bully@Wiiplaza]
+C238B80C 00000003
+2C1F0001 40820008
+38000000 901A0000
+60000000 00000000
+
+Infinite Super Stabs P1 [Bully@Wiiplaza]
+48000000 8063905C
+DE000000 90009340
+14001E78 000001E0
+E0000000 80008000
+*there are currently some issues with it, let me know if it works with SD cheats*
+
+Ping Pong (Dream)
+
+Points Modifier P1 [Bully@Wiiplaza]
+C231DD90 00000002
+3800XXXX 9003006C
+60000000 00000000
+*X = HEX*
+
+Enemy Points Always 0 [Bully@Wiiplaza]
+C231DEC0 00000002
+38000000 9003006C
+60000000 00000000
+
+Infinite Super Shots P1 [Bully@Wiiplaza]
+C23155EC 00000002
+38A0012C 90A6010C
+60000000 00000000
+
+Enemy Never Gets Super Shots [Bully@Wiiplaza]
+C232E0B0 00000002
+38000000 900300FC
+60000000 00000000
+
+Infinite Time for Serve [Bully@Wiiplaza]
+042F17C8 60000000

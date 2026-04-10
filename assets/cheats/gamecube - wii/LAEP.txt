@@ -1,0 +1,20 @@
+LAEP
+Alex Kidd in Miracle World
+
+Unlimited Lives [Crapulecorp]
+00D57565 00000099
+
+Invincible [Crapulecorp]
+00D57594 00000002
+00D5759A 00000021
+*Code ported from ZiT Ntsc Jap Version*
+
+Max/Unlimited Money [Crapulecorp]
+08D57570 00000099
+00020001 00000000
+*Code ported from ZiT Ntsc Jap Version*
+
+Have All Items [Crapulecorp]
+08D57586 00000001
+00080001 00000000
+*Code ported from ZiT Ntsc Jap Version*

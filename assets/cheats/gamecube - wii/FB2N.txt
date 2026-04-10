@@ -1,0 +1,64 @@
+FB2N
+Super Mario Bros.2 The Lost Levels
+
+Moon Jump [Sharkbyte]
+281D7568 FEFF0100
+02435EDE 000000FD
+E0000000 80008000
+
+World Selector [Sharkbyte]
+0043659F 0000000X
+
+Sprite level value [Sharkbyte]
+0043659C 0000000X
+
+Level Selector [Sharkbyte]
+004365A0 0000000X
+
+Have 999990 score [giantpune]
+044366A4 09090909
+004366A3 00000009
+
+coins give you lives (too many coins = game over) [giantpune]
+0043659E 00000063
+
+always have firepower. little and big mario are switched [giantpune]
+00436596 00000002
+*you start each area with little mario and firepower.
+*if you get hit, you grow and still have firepower
+*if you get hit again, you die
+
+combine this with the always have firepower code above to not die [giantpune]
+0043622E 00000000
+*these 2 codes together make you revert from small to big to small
+*when you get hit and still retain firepower
+
+Coins give you extra lives [giantpune]
+0043659E 00000063
+
+Invincible [GMO]
+004365DE 00000008
+
+Max Lives [GMO]
+0043659A 00000009
+
+Hold B and Press Right on D-Pad for More Time [GMO]
+281D7568 00000402
+0443662C 03090A00
+E0000000 80008000
+
+Always Start with 90 Coins [GMO]
+00436627 00000090
+
+Max Coins [GMO]
+00436627 00000090
+00436628 00000090
+
+Unlimited Star Power [GMO]
+004365DF 00000020
+
+Infinite Lives [farjo08]
+0043659A 00000008
+
+Infinite Time [farjo08]
+0443662C 04000000

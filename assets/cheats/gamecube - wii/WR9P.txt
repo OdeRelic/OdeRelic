@@ -1,0 +1,43 @@
+WR9P
+MegaMan 9
+
+Moonjump [Romaap]
+28319DEA FEFF0100
+04313F44 FFFFFC60
+28319DEA FEFD0102
+04313F44 FFFFFA00
+E0000000 80008000
+you can moonjump with just 2 and moonjump quicker with UP+2
+
+Texture Cycler [Romaap]
+82000000 80313FD9
+28319DEA 00000800
+A8000000 F0000000
+86000000 00000001
+E0000000 80008000
+28319DEA 00000400
+A8000000 F0000000
+86000000 FFFFFFFF
+E0000000 80008000
+84000000 80313FD9
+E0000000 80008000
+Press A for next texture and B for previous texture
+there are 256 different textures, so there's a couple of really cool textures
+
+Invincible [Romaap]
+04313F80 55000000
+
+unlimited ammo [Romaap]
+02314026 000A1C00
+
+Unlimited bullets on-screen [Romaap]
+023140D0 00000000
+
+Unlimited Screws [Romaap]
+04305230 000003E7
+
+Unlimited items [Romaap]
+00D4101E 00050009
+
+Instant Kill/ Bosses have 0 Health [ssbbdude]
+04311C06 00000000

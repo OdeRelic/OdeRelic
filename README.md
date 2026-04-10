@@ -4,7 +4,7 @@ A cross-platform utility to manage, convert, and organize your library for Optic
 
 ## About
 
-OdeRelic is an open-source C++ and Qt QML desktop application designed to manage ODE structures for PlayStation 1 (PSIO, XStation, POPSTARTER), PlayStation 2 (Open PS2 Loader / OPL), and Dreamcast (GDEMU).
+OdeRelic is an open-source C++ and Qt QML desktop application designed to manage ODE structures for PlayStation 1 (PSIO, XStation, POPSTARTER), PlayStation 2 (Open PS2 Loader / OPL), Nintendo GameCube (Swiss), and Dreamcast (GDEMU).
 
 This software is intended for managing your ODE for Retro Consoles and is not for the distribution of copyrighted content. You must use this software only with games you own.
 
@@ -17,6 +17,7 @@ This software is intended for managing your ODE for Retro Consoles and is not fo
 - **Automated BIN to ISO/VCD**: Fast conversion of BIN/CUE files to ISO (PS2) or VCD (PS1) formats.
 - **PS1 / POPSTARTER Integration**: Automated PS1 Game ID detection, multi-track sizing, prerequisite validation (`POPSTARTER.ELF`, `POPS_IOX.PAK`), and automated `/POPS` structural hierarchy enforcement.
 - **Automated Art Scraper**: Evaluates GameIDs within binary payloads and downloads corresponding UI game art for PlayStation 1 and 2 platforms.
+- **GameCube / Swiss-GC Integration**: Fully automated SD card setup for PicoBoot and GC Loader. Safely imports games without altering your original files, instantly syncs your favorite cheat codes, directly configures your In-Game Reset, and checks for updates to keep your Swiss version running the absolute latest release.
 
 ## Getting Started
 

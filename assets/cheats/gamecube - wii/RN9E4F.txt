@@ -1,0 +1,16 @@
+RN9E4F
+Escape From Bug Island
+
+Have all Equipment & Items [eric]
+42000000 80000000
+08465754 63636363
+20110004 00000000
+
+Infinite Ammo [eric]
+00465764 00000001
+
+Infinite Health [eric]
+02465AD6 0000012C
+
+Maximum Health [eric]
+00465ADF 0000000A

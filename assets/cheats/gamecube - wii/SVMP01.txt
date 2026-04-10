@@ -1,0 +1,289 @@
+SVMP01
+Super Mario All Stars 25th anniversary
+
+Super Mario Bros 1987 & Super Mario Bros The Lost Levels
+
+Infinites Lives [Crapulecorp]
+00462842 00000063
+*Code ported from ZiT (NTSC JAP) Version*
+
+Timer rewind back to 400 (Push B) [Crapulecorp]
+281764AA 00000400
+044628D0 0003090B
+E0000000 80008000
+*WiiMote-NunChuk*
+*Code ported from conanac (NTSC US) Version*
+
+Timer rewind back to 400 (Push R) [Crapulecorp]
+281765FA FDFF0200
+044628D0 0003090B
+E0000000 80008000
+*Classic Controller*
+*Code ported from conanac (NTSC US) Version*
+
+Moonjump [Crapulecorp]
+281764AA FEFF0100
+00462188 000000FC
+E0000000 80008000
+*WiiMote-NunChuk*
+*Code ported from ZiT (NTSC JAP) Version*
+
+Moonjump (Push B) [Crapulecorp]
+281765FA FFBF0040
+00462188 000000FC
+E0000000 80008000
+*Classic Controller*
+*Code ported from conanac (NTSC US) Version*
+
+Moonjump (Push A) [Crapulecorp]
+281765FA FFEF0010
+00462188 000000FC
+E0000000 80008000
+*Classic Controller*
+*Code ported from conanac (NTSC US) Version*
+
+Invincible [Crapulecorp]
+00462896 00000008
+*Code ported from conanac (NTSC US) Version*
+
+Infinite star power [Crapulecorp]
+00462897 00000020
+*Code ported from conanac (NTSC US) Version*
+
+Star power (Push A) [Crapulecorp]
+281764AA F7FF0800
+00462897 00000020
+E0000000 80008000
+*WiiMote-NunChuk*
+
+Star power (Push X) [Crapulecorp]
+281765FA FFF70008
+00462897 00000020
+E0000000 80008000
+*Classic Controller*
+
+Coins x99 (Push B Down) [Crapulecorp]
+281764AA 00000404
+044628C4 00000909
+E0000000 80008000
+*WiiMote-NunChuk*
+
+Coins x99 (Push L) [Crapulecorp]
+281765FA DFFF2000
+044628C4 00000909
+E0000000 80008000
+*Classic Controller*
+
+Transformation Mario (Push -) [Crapulecorp]
+20001500 00000000
+0046283C 00000001
+0046283E 00000000
+20001501 00000010
+0046283C 00000000
+0046283E 00000001
+20001501 00000020
+0046283C 00000000
+0046283E 00000002
+E0000000 80008000
+281764AA 00001000
+82200000 80001500
+86000000 00000001
+84200000 80001500
+20001501 00000030
+04001500 00000000
+E0000000 80008000
+*WiiMote-NunChuk*
+*Code ported from ZiT (NTSC JAP) Version*
+
+Transformation Mario (Push ZL) [Crapulecorp]
+20001500 00000000
+0046283C 00000001
+0046283E 00000000
+20001501 00000010
+0046283C 00000000
+0046283E 00000001
+20001501 00000020
+0046283C 00000000
+0046283E 00000002
+E0000000 80008000
+281765FA 00000080
+82200000 80001500
+86000000 00000001
+84200000 80001500
+20001501 00000030
+04001500 00000000
+E0000000 80008000
+*Classic Controller*
+*Code ported from ZiT (NTSC JAP) Version*
+
+Super Mario Bros 2 1989
+
+Infinite Lives [Crapulecorp]
+004625D6 00000063
+*Code ported from ZiT (NTSC JAP) Version*
+
+Star Mario (Push -) [Crapulecorp]
+281764AA EFFF1000
+004625C9 00000020
+E0000000 80008000
+*WiiMote-NunChuk*
+
+Star Mario (Push X) [Crapulecorp]
+281765FA FFF70008
+004625C9 00000020
+E0000000 80008000
+*Classic Controller*
+
+Infinite Health [Crapulecorp]
+004625AB 0000003F
+*Code ported from ZiT (NTSC JAP) Version*
+
+Invincible [Crapulecorp]
+0046216D 0000002B
+*Code ported from ZiT (NTSC JAP) Version*
+
+Moonjump [Crapulecorp]
+281764AA FEFF0100
+0046212E 000000C4
+E0000000 80008000
+*WiiMote-NunChuk*
+*Code ported from ZiT (NTSC JAP) Version*
+
+Moonjump (Push B) [Crapulecorp]
+281765FA FFBF0040
+0046212E 000000C4
+E0000000 80008000
+*Classic Controller*
+*Code ported from ZiT (NTSC JAP) Version*
+
+Moonjump (Push A) [Crapulecorp]
+281765FA FFEF0010
+0046212E 000000C4
+E0000000 80008000
+*Classic Controller*
+*Code ported from ZiT (NTSC JAP) Version*
+
+Super Mario Bros 3 1991
+
+Infinite Lives [Crapulecorp]
+0046281E 00000062
+*Code ported from ZiT (NTSC JAP) Version*
+
+Invincible (like star power) [Crapulecorp]
+0046263B 000000FF
+*Code ported from ZiT (NTSC JAP) Version*
+
+Time stop [Crapulecorp]
+004626D9 00000001
+*Code ported from ZiT (NTSC JAP) Version*
+
+Time Rewind to 300 (push B button) [Crapulecorp]
+281764AA 00000400
+024626D6 00000300
+024626D8 00000013
+E0000000 80008000
+*WiiMote-NunChuk*
+*Code ported from conanac (NTSC US) Version*
+
+Time Rewind to 300 (Push R) [Crapulecorp]
+281765FA FDFF0200
+024626D6 00000300
+024626D8 00000013
+E0000000 80008000
+*Classic Controller*
+*Code ported from conanac (NTSC US) Version*
+
+Moonjump [Crapulecorp]
+281764AA FEFF0100
+00462185 000000D0
+E0000000 80008000
+*WiiMote-NunChuk*
+*Code ported from ZiT (NTSC JAP) Version*
+
+Moonjump (Push B) [Crapulecorp]
+281765FA FFBF0040
+00462185 000000D0
+E0000000 80008000
+*Classic Controller*
+*Code ported from ZiT (NTSC JAP) Version*
+
+Moonjump (Push A) [Crapulecorp]
+281765FA FFEF0010
+00462185 000000D0
+E0000000 80008000
+*Classic Controller*
+*Code ported from ZiT (NTSC JAP) Version*
+
+Star power (Push A) [Crapulecorp]
+281764AA F7FF0800
+0046263B 000000FF
+E0000000 80008000
+*WiiMote-NunChuk*
+
+Star power (Push X) [Crapulecorp]
+281765FA FFF70008
+0046263B 000000FF
+E0000000 80008000
+*Classic Controller*
+
+Transformation Mario (Push -) [Crapulecorp]
+20001504 00000000
+004621A3 00000000
+20001505 00000010
+004621A3 00000001
+20001505 00000020
+004621A3 00000002
+20001505 00000030
+004621A3 00000003
+20001505 00000040
+004621A3 00000004
+20001505 00000050
+004621A3 00000005
+20001505 00000060
+004621A3 00000006
+E0000000 80008000
+281764AA 00001000
+82200000 80001504
+86000000 00000001
+84200000 80001504
+20001505 00000070
+04001504 00000000
+E0000000 80008000
+*WiiMote-NunChuk*
+*Code ported from ZiT (NTSC JAP) Version*
+
+Transformation Mario (Push ZL) [Crapulecorp]
+20001504 00000000
+004621A3 00000000
+20001505 00000010
+004621A3 00000001
+20001505 00000020
+004621A3 00000002
+20001505 00000030
+004621A3 00000003
+20001505 00000040
+004621A3 00000004
+20001505 00000050
+004621A3 00000005
+20001505 00000060
+004621A3 00000006
+E0000000 80008000
+281765FA 00000080
+82200000 80001504
+86000000 00000001
+84200000 80001504
+20001505 00000070
+04001504 00000000
+E0000000 80008000
+*Classic Controller*
+*Code ported from ZiT (NTSC JAP) Version*
+
+Button Activator
+
+Button Activator [Crapulecorp]
+281764AA XXXXYYYY
+*WiiMote-NunChuk code made by Patedj*
+
+Button Activator [Crapulecorp]
+281765FA XXXXYYYY
+*Classic Controller*

@@ -1,0 +1,53 @@
+RPTE52
+Puppy Luv
+
+Button Activator [PoptartHunter]
+2828BCE0 XXXXYYYY
+
+Money Modifier [PoptartHunter]
+2828BCE0 00000002
+04284598 XXXXXXXX
+E0000000 80008000
+*X's equal decimal to hex value
+*Right on dpad on wiimote activates
+
+Give 999,999,999 Dollars [PoptartHunter]
+2828BCE0 00000002
+04284598 3B9AC9FF
+E0000000 80008000
+*Right on dpad activates.
+
+Breed Name Modifier Profile 2 [PoptartHunter]
+2828BCE0 XXXXYYYY
+0637BEE0 00000016
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+E000000000 80008000
+
+Name Modifier Profile 1 [PoptartHunter]
+2828BCE0 XXXXYYYY
+06285134 00000016
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+E00000000 80008000
+
+Name Modifier Profile 2 [PoptartHunter]
+2828BCE0 XXXXYYYY
+06285478 00000016
+XXXXXXXX XXXXXXXX
+XXXXXXXX XXXXXXXX
+E00000000 80008000
+
+Play Fashion Show Song [PoptartHunter]
+2828BCE0 00000008
+04284A40 01000000
+E0000000 80008000
+*Only works in the bedroom
+*Up on wiimote activates
+
+Force Positive Words [PoptartHunter]
+2828BCE0 00000C00
+042848CC 00000009
+E0000000 80008000
+*Hold B and A on wiimote to activate.
+*Makes the lady in the game give encouragement to the dog LOL

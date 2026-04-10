@@ -1,0 +1,11 @@
+RN3E78
+Nicktoons:Attack of the Toybots
+
+inf health [The D3mon]
+042B9608 60000000
+
+max cubes [The D3mon]
+04CD1DA0 0098967F
+
+inf ammo [The D3mon]
+0431D1D0 60000000

@@ -1,0 +1,17 @@
+GBOE51
+Burnout
+
+All Vehicles/Special Unlocked PL1 [Sgt.Ghost]
+0822F384 00000000
+2016000A 00000000
+
+All Vehicles/Special Unlocked PL2 [Sgt.Ghost]
+08231724 00000000
+2016000A 00000000
+
+Infinite Boost [Sgt.Ghost]
+0425BFDC 42C80000
+
+All Tracks/Special Unlock [Sgt.Ghost]
+0822F3B0 00000000
+20160004 00000000

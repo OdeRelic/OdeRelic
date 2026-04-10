@@ -1,0 +1,22 @@
+NGEE
+James Bond 007: Goldeneye
+
+James Bond is Invisible [Seth@WiiPlaza]
+0106965A 00000001
+
+Infinite Ammo (Everywhere) [Seth@WiiPlaza]
+0106965B 00000001
+
+Infinite Health/God Mode [Seth@WiiPlaza]
+0102CE44 00000030
+01069652 00000001
+
+Super Speed [Seth@WiiPlaza]
+01069668 00000001
+
+Infinite Ammo On Dam [Seth@WiiPlaza]
+010D37FF 00000007
+
+Go to Level X [Seth@WiiPlaza]
+0102A8FB 0000XXXX
+*Vales posted here - http://tinypaste.com/50f9b8ad

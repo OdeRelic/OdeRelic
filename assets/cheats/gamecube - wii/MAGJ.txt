@@ -1,0 +1,14 @@
+MAGJ
+Ristar
+
+Inf Lives [Thomas83Lin]
+00DA6098 00000009
+
+Inf Health [Thomas83Lin]
+00DA3B58 00000004
+
+Moon Jump [Thomas83Lin]
+281DCAFA FFEF0010
+02DA3B3E 0000FCC0
+E0000000 80008000
+*Classic Controller*

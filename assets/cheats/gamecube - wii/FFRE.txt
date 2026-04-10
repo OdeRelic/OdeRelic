@@ -1,0 +1,39 @@
+FFRE
+Faxanadu
+
+Unlimited Power (P) [GMO]
+003B82D1 00000050
+
+Unlimited Magic (M) [GMO]
+003B823A 00000050
+
+Unlimited (G) [GMO]
+023B8232 0000FFFF
+
+Item Modifier Activator (Must Be On) [GMO]
+003B8266 00000008
+Can only carry 8 Items
+
+Item Modifier 1 [GMO]
+003B824D 000000??
+
+Item Modifier 2 [GMO]
+003B824E 000000??
+
+Item Modifier 3 [GMO]
+003B824F 000000??
+
+Item Modifier 4 [GMO]
+003B8250 000000??
+
+Item Modifier 5 [GMO]
+003B8251 000000??
+
+Item Modifier 6 [GMO]
+003B8252 000000??
+
+Item Modifier 7 [GMO]
+003B8253 000000??
+
+Item Modifier 8 [GMO]
+003B8254 000000??

@@ -1,0 +1,11 @@
+JCAN
+DoReMi Fantasy: Milon's DokiDoki Adventure
+
+Unlimited Lives [GMO]
+0043B6F9 00000009
+
+Unlimited Notes [GMO]
+0043B6FA 00000063
+
+Have Unlimited Special Power Ups [GMO]
+0043B6FB 00000007

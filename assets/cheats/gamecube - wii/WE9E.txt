@@ -1,0 +1,8 @@
+WE9E
+Alien Crush Returns
+
+Infinite Balls [GMO]
+0034AB8F 00000003
+
+Max Score [GMO]
+0434AB30 FFFFFFFF

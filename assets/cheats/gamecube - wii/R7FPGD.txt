@@ -1,0 +1,40 @@
+R7FPGD
+Final Fantasy Fables: Chocobo's Dungeon
+
+Maxed Money [Patedj]
+04B472DC xxxxxxxx
+If you max out the code (7FFFFFFF) it won't load the stages that you have to send back the items to the bank. Replace the X with a hex number.
+
+Maxed HP [Patedj]
+08B46C00 0000270F
+20010004 00000000
+
+Maxed SP [Patedj]
+08B46C08 000002BC
+20010004 00000000
+
+Never Hungry [Patedj]
+08B46C10 00000064
+20010004 00000000
+
+Maxed Jobs [Patedj]
+0408CCD4 38007FFF
+maxed with one block
+
+Maxed Experience [Patedj]
+0408CBC0 3CA07FFF
+maxed with one defeat
+
+Stats
+
+Maxed Attack [Patedj]
+04B46C18 7FFFFFFF
+
+Maxed DEF [Patedj]
+04B46C1C 7FFFFFFF
+
+Maxed Magic [Patedj]
+04B46C20 7FFFFFFF
+
+Maxed Psyche [Patedj]
+04B46C24 7FFFFFFF

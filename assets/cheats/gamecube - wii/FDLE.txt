@@ -1,0 +1,29 @@
+FDLE
+Ninja Gaiden III
+
+Disable Timer [GMO]
+00390EEF 00000020
+
+Invincible [GMO]
+00390ECD 00000010
+
+1-Hit Kill (Bosses) [GMO]
+281594A8 00001000
+00390EC8 00000001
+E0000000 80008000
+Press - on Wiimote
+
+Unlimited Specials [GMO]
+281594A8 FDFF0200
+00390EED 00000064
+E0000000 80008000
+Original Code by Arudo
+
+Infinite HP [Arudo]
+00390EC7 00000010
+
+Infinite Ninja Power [Arudo]
+00390EED 00000064
+
+Infinite Lives [Arudo]
+00390EE4 00000009

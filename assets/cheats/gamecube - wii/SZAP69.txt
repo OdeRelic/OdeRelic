@@ -1,0 +1,7 @@
+SZAP69
+Rock Band 2
+
+Hooktype: GxDraw
+
+Rock meter adds [Patedj]
+0403EA88 EC40082A

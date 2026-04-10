@@ -1,0 +1,44 @@
+WF4J
+Final Fantasy IV: The After Years - Tsuki no Kikan
+
+Play Time = 00:00 [Glitch]
+044EECDC 00000000
+
+Max Gil [Glitch]
+04508950 0001869F
+0403A6D8 48000008
+
+Unlock All Items [Glitch]
+08508A54 00000063
+21ED0004 00000000
+08509250 00000001
+21ED0004 00000001
+
+Save Anywhere [Glitch]
+0404C920 60000000
+
+Movement Speed in Dungeon/Town [Glitch]
+0001F1F3 0000000x
+x=2 (x2), 3 (x3), 4 (x4)
+
+Movement Speed on Map [Glitch]
+0006CD0B 0000000x
+x=2 (x2), 3 (x3), 4 (x4)
+
+MP Doesn't Decrease [Glitch]
+0403A784 48000008
+
+HP Max Recover [Glitch]
+0403A734 48000008
+
+No Random Encounters [Glitch]
+0406CF74 380000FF
+
+Random Encounter Switch - Classic [Glitch]
+282118DA 00002040
+0406CF74 380000FF
+E0000000 80008000
+282118DA 00000240
+0406CF74 7C600038
+E0000000 80008000
+L+B = ON / R+B = OFF

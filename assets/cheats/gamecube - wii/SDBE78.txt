@@ -1,0 +1,32 @@
+SDBE78
+de Blob 2
+
+Always %100 Paint [Sgt.Ghost]
+08C67C78 00000064
+20020004 00000000
+*Fixed *BoxNinja*
+
+Infinite Color Wheel [Sgt.Ghost]
+04DC4BF8 0000000C
+
+Infinite Paint Score [Sgt.Ghost]
+C3043B14 00000002
+38A09999 909F7670
+60000000 00000000
+*To take Effect Is To
+*Go into Posion then clear water
+*Go get paint and walk on stone to make it stop
+
+Button Activator [BoxNinja]
+20665918 0000XXXX
+
+Infinite Health v1 [BoxNinja]
+04C67C7C 00000064
+
+Infinite Health v2 [BoxNinja]
+C2235448 00000002
+38A003E7 90B9010C
+60000000 00000000
+
+Don't Loose Health [BoxNinja]
+04235448 60000000

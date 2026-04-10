@@ -1,0 +1,117 @@
+JD4P
+Rival Turf
+
+Unlimited Lives Player 1 [Crapulecorp]
+00464AE7 00000009
+
+Unlimited Lives Player 1 (Press ZL ON/OFF) [Crapulecorp]
+2817A062 FF7F0080
+CC000000 00000000
+00464AE7 00000009
+E0000000 80008000
+*Classic Controller*
+
+Refill 9 Lives Player 1 (Press ZL) [Crapulecorp]
+2817A062 FF7F0080
+00464AE7 00000009
+E0000000 80008000
+*Classic Controller*
+
+Unlimited Health Player 1 [Crapulecorp]
+00464ABF 0000003F
+
+Refill Health Player 1 (Press -) [Crapulecorp]
+2817A062 EFFF1000
+00464ABF 0000003F
+E0000000 80008000
+*Classic Controller*
+
+Unlimited Health Player 1 (Press - ON/OFF) [Crapulecorp]
+2817A062 EFFF1000
+CC000000 00000000
+00464ABF 0000003F
+E0000000 80008000
+*Classic Controller*
+
+Unlimited Lives Player 2 [Crapulecorp]
+00464BB7 00000009
+
+Unlimited Lives Player 2 (Press ZL ON/OFF) [Crapulecorp]
+2817A06A FF7F0080
+CC000000 00000000
+00464BB7 00000009
+E0000000 80008000
+*Classic Controller*
+
+Refill 9 Lives Player 2 (Press ZL) [Crapulecorp]
+2817A06A FF7F0080
+00464BB7 00000009
+E0000000 80008000
+*Classic Controller*
+
+Unlimited Health Player 2 [Crapulecorp]
+00464B8F 0000003F
+
+Refill Health Player 2 (Press -) [Crapulecorp]
+2817A06A EFFF1000
+00464B8F 0000003F
+E0000000 80008000
+*Classic Controller*
+
+Unlimited Health Player 2 (Press - ON/OFF) [Crapulecorp]
+2817A06A EFFF1000
+CC000000 00000000
+00464B8F 0000003F
+E0000000 80008000
+*Classic Controller*
+
+Unlimited Continue [Crapulecorp]
+0046599D 00000009
+
+Invincible Player 1 [Crapulecorp]
+00464AB0 000000FF
+
+Invincible Player 2 [Crapulecorp]
+00464B80 000000FF
+
+One Hit Kill Enemy [Crapulecorp]
+00464D2F 00000000
+00464DFF 00000000
+00464AF7 00000000
+00464C5F 00000000
+
+Always Angry Player 1 [Crapulecorp]
+00464AF7 00000003
+
+Always Angry Player 2 [Crapulecorp]
+00464BC7 00000003
+
+Unlimited/Max Points Player 1 [Crapulecorp]
+00464ACC 00000070
+
+Unlimited/Max Points Player 2 [Crapulecorp]
+00464B9C 00000070
+
+Stage Select [Crapulecorp]
+004649C8 000000XX
+*Replace XX for :
+00 - Stage 1: Streets of L.A.
+01 - Stage 2: L.A. City Stadium
+02 - Stage 3: Things Are Looking Up
+03 - Stage 4: South of the Border
+04 - Stage 5: Dockyard Brawl
+05 - Stage 6: Fight to the Finish*
+
+Button Activator
+
+Player 1 [Crapulecorp]
+2817A062 YYYYZZZZ
+*Classic Controller*
+
+Player 2 [Crapulecorp]
+2817A06A YYYYZZZZ
+*Classic Controller*
+
+1 Player Mode
+
+2 Players Mode

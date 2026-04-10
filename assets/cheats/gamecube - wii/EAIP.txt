@@ -1,0 +1,17 @@
+EAIP
+Top Hunter
+
+Unlimited Time [GMO]
+002589B2 00000099
+
+Disable Timer [GMO]
+002589B3 00000001
+
+P1 Unlimited Credits [GMO]
+0024FD78 00000099
+
+P1 Unlimited Health [GMO]
+002501F1 00000040
+
+P2 Unlimited Credits [GMO]
+0024FD79 00000099

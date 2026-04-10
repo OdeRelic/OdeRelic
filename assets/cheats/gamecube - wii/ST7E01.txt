@@ -1,0 +1,119 @@
+ST7E01
+Fortune Street
+
+Take Control of CPU (Press A On\Off) [Thomas83Lin]
+4E00000C 00000000
+2878C682 F7FF0800
+CC000000 00000001
+14000000 00000003
+040BF0F4 38000000
+CC000000 00000000
+040BF0F4 80030054
+E0000000 80008000
+*Wiimote Horizontal*
+
+Stamps Saved Modifier [Arudo]
+044AC7F0 XXXXXXXX
+Insert Any Value In Hex
+
+Ported from: http://2.pro.tok2.com/~charabox/CoPaDS/wii/ST7JGD.html
+
+Unlock All Characters [Arudo]
+044AC8EC 03FFFFFF
+
+Unlock All Tours [Arudo]
+044AC8E4 0003FFFF
+044AC8E8 0003FFFF
+
+All Tours Completed [Arudo]
+084AC9A0 00000000
+20090004 00000000
+
+All Tours Not Completed [Arudo]
+084AC9A0 03030303
+20090004 00000000
+
+All Trophies (gold) [Arudo]
+044ACA20 FFFFFFFF
+044ACA24 000000FF
+084ACA2C 0000270F
+20130004 00000000
+
+All Venture Cards Unlocked [Arudo]
+084ACA7C FFFFFFFF
+20030004 00000000
+
+Infinite Movement (Hold A) / Stop Movement (Hold B) [Arudo]
+04190F6C 3803FFFF
+2878C682 F7FF0800
+04190F6C 38030000
+E0000000 80008000
+2878C682 FBFF0400
+04190F6C 38000000
+E0000000 80008000
+*DO NOT OVERUSE - Will cause crashes*
+--> This code can be used to STOP the CPU characters from moving, however they're not smart enough to 'continue' moving. Be warned.
+
+--> This code can be used to STOP the CPU characters from moving, however they're not smart enough to 'continue' moving. Be warned.
+
+Universal Codes for Fortune Street
+
+Button Activator Mastercode [Bully@Wiiplaza]
+F6000001 80008100
+90830060 7C050214
+D2000030 00000002
+81230000 3D808000
+912C1500 00000000
+E0000000 80008000
+*Must be on*
+
+Button Activator [Bully@Wiiplaza]
+28001502 YYYYZZZZ
+
+Infinite Stamps [Bully@Wiiplaza]
+F6000001 80008100
+88030140 2C000000
+D2000028 00000002
+3880270F 90830048
+60000000 00000000
+E0000000 80008000
+
+P1 Infinite Net Worth [Bully@Wiiplaza]
+F6000001 80008100
+3C60000F 809F3450
+D20001EC 00000002
+3880270F 909F3450
+60000000 00000000
+E0000000 80008000
+
+P1 Infinite Ready Cash [Bully@Wiiplaza]
+F6000001 80008100
+80033D60 90040008
+D2000008 00000002
+3800270F 9003423C
+60000000 00000000
+E0000000 80008000
+
+Infinite Movement [Bully@Wiiplaza]
+F6000001 80108100
+80630074 8803004D
+28001502 YYYYZZZZ
+14000045 38030000
+140000EC 38030000
+E2100000 00000000
+14000045 3803FFFF
+140000EC 38030001
+E0000000 80008000
+*Credits to Arudo*
+*Hold your button(s) to keep moving*
+
+Control CPUs [Bully@Wiiplaza]
+F6000001 80008100
+807A0028 7FC4F378
+28001502 YYYYZZZZ
+1400000C 38000000
+E2100000 00000000
+1400000C 80030054
+E0000000 80008000
+*Credits to Thomas83lin*
+*Press your button(s) to take control of current CPU*

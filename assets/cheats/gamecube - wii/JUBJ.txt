@@ -1,0 +1,18 @@
+JUBJ
+Killer Instinct
+
+Infinite Health P1 [Glitch]
+048BC20C 78007800
+
+Infinite Health P2/CPU [Glitch]
+048BC210 78007800
+
+1-Hit-KO CPU/P2 [Glitch]
+048BC210 00070000
+Do NOT use in practice mode.
+
+Infinite Character Select Time [Glitch]
+048BCA38 00D920D5
+
+Max P1 Score [Glitch]
+048BC3AC 780F423F

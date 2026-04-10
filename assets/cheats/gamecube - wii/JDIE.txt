@@ -1,0 +1,55 @@
+JDIE
+Super Star Wars
+
+Button Activators
+
+WiiMote Pad1 [GMO]
+281740C2 YYYYZZZZ
+
+Classic Pad1 [GMO]
+28174120 YYYYZZZZ
+
+Miscellaneous Codes
+
+Unlimited Health [GMO]
+004487A1 000000FF
+
+Unlimited Shield [GMO]
+004486AF 000000FF
+
+Unlimited Fuel [GMO]
+0044859A 00000030
+
+Unlimited Thermal Detonators [GMO]
+004486A0 00000001
+
+8x Point Bonus [GMO]
+004486A1 00000003
+
+Need Zer0 Jawas [GMO]
+00448596 00000000
+Tatoonie Levels
+
+99 Lives [GMO]
+00448623 00000063
+
+99 Continues [GMO]
+00447E3C 00000063
+
+Gun Modifier [GMO]
+004486AD 000000??
+00 Blaster
+01 Flame
+02 Seeker
+03 Rapid Ion
+04 Plasma
+
+Press Z(Right) To Add More Time [GMO]
+28174120 00000004
+02448696 00000090
+E0000000 80008000
+
+Press Z(Left) For Easy Boss Kill [GMO]
+28174120 00000080
+024487A2 00000001
+E0000000 80008000

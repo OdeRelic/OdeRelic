@@ -1,0 +1,28 @@
+FDGE
+Ghost-n-Goblins
+
+Inf Lives [Thomas83Lin]
+00446495 00000009
+
+Inf Time [Thomas83Lin]
+0044647C 00000009
+
+Weapon Modifer [Thomas83Lin]
+004462BA 0000004x
+X=
+0=Spear
+2=Knife
+4=fire ball
+F=Shield
+
+Moon Jump [Thomas83Lin]
+281E74D2 FFEF0010
+00446387 00000004
+E0000000 80008000
+*Classic Controller*
+
+Invincibility [Thomas83Lin]
+00468EFC 00000000
+
+Stage Modifier [Thomas83Lin]
+00445E2C 0000000D

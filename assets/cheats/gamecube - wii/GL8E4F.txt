@@ -1,0 +1,38 @@
+GL8E4F
+Lara Croft Tomb Raider: Legend
+
+Infinite Health [Link Master]
+04218750 60000000
+Can still take damage and die from falls.
+
+Infinite Air [Link Master]
+04200928 60000000
+
+Infinite Flashlight Battery [Link Master]
+04199F48 60000000
+
+Infinite Ammo [Link Master]
+041C2764 39290000
+
+Infinite Grenades. [Link Master]
+0419A410 60000000
+
+Infinite Health Packs [Link Master]
+0419B140 38000003
+
+Infinite Time (Time Trial) [Link Master]
+2434FA88 00000000
+0434FA88 44160000
+E2000001 80008000
+
+Moon Jump (Hold A) [Link Master]
+2837C320 00000100
+043DF108 42000000
+E2000001 80008000
+Co-author: Jay007
+
+Super Quick Lara [Link Master]
+04417000 40000000
+
+Matrix Lara [Link Master]
+04417000 3F000000

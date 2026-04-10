@@ -1,0 +1,12 @@
+RXZP52
+Cabela's Dangerous Adventures
+
+Important : Use WiiPad Hook
+
+No Reload/Unlimited Ammo [Crapulecorp]
+040563DC 90640004
+
+Unlimited Upgrade Points [Crapulecorp]
+C21100E0 00000002
+3800270F 90043430
+60000000 00000000

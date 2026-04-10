@@ -1,0 +1,38 @@
+R3LPWR
+Green Lantern: Rise of the Manhunters
+
+Unlimited Health [Crapulecorp]
+C2138894 00000002
+80640028 90640024
+60000000 00000000
+*Not Recommend for the Training Hall*
+*Code ported from Thomas83Lin Ntsc Usa Version*
+
+Unlimited Health During Travel [Crapulecorp]
+C2250474 00000002
+80040028 90040024
+60000000 00000000
+
+Unlimited Magic [Crapulecorp]
+C2138EF0 00000002
+80640038 90640034
+60000000 00000000
+*Code ported from Thomas83Lin Ntsc Usa Version*
+
+Unlimited/Max Experience [Crapulecorp]
+C2273E04 00000002
+3C00000F 6000423F
+90060024 00000000
+*Code ported from Thomas83Lin Ntsc Usa Version*
+
+Shield Does Not Consume Magic [Crapulecorp]
+04138D08 60000000
+*Code ported from Thomas83Lin Ntsc Usa Version*
+
+No Delay For Special Weapons [Crapulecorp]
+0412803C 38000000
+*Code ported from Thomas83Lin Ntsc Usa Version*
+
+No Delay on Allies [Crapulecorp]
+0412801C 38000000
+*Code ported from Thomas83Lin Ntsc Usa Version*

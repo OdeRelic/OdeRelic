@@ -1,0 +1,18 @@
+SRGE69
+Rango
+
+star mod [The D3mon]
+28422002 00000008
+05382C88 xxxxxxxx
+E0000000 80008000
+28422002 00000008
+05382C88 xxxxxxxx
+E0000000 80008000
+fill xxxxxxxx with star value you want converted to hex to start with hit up to add then hit up after activating to continue collecting.Need to activate every start of new level.
+
+inf ammo aka no reload [The D3mon]
+0482721C 60000000
+Works for all power ups you get
+
+button activator [The D3mon]
+28422002 0000xxxx

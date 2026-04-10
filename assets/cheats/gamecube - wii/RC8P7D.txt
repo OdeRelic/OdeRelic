@@ -1,0 +1,17 @@
+RC8P7D
+Crash - Mind Over Mutant
+
+If Mojo Increase, MAX [Blaster99]
+C227BDB4 00000002
+3EA00002 3815869F
+90030020 00000000
+
+Infinite HP chief character [Blaster99]
+48000000 80B26F38
+DE000000 80008180
+4A100000 FFFFF620
+14000000 42B40000
+14000020 3F800000
+E0000000 80008000
+Credits for codes to ZiT, ported from US.
+Important: Use other method than VI-hook else codes will not work.

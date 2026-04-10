@@ -1,0 +1,19 @@
+R9VE52
+Cabela's Outdoor Adventures
+
+The big gun ropers [Ropers]
+2861C680 0000xxxx
+04501A90 3F800000
+E0000000 80008000
+2861C680 0000xxxx
+04501A90 40000000
+E0000000 80008000
+replace x with button value
+
+Button Activator ropers [Ropers]
+2861C680 0000xxxx
+replace x with button value
+
+Inf ammo story mode [savage]
+0407A8F4 60000000
+E0000000 80008000

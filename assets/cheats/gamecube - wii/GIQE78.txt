@@ -1,0 +1,16 @@
+GIQE78
+The Incredibles: Rise of the Underminer
+
+Infinite Super Moves [Codejunkies]
+003BD9DB 00000003
+003BED0B 00000003
+
+Max Experience [Codejunkies]
+023BED02 00006B6C
+023BD9D2 00006B6C
+
+All Upgrades [Codejunkies]
+083BD9BC 00000002
+20050001 00000000
+083BECEC 00000002
+20050001 00000000

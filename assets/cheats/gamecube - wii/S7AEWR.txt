@@ -1,0 +1,117 @@
+S7AEWR
+Lego Batman 2 DC Super Heroes
+
+Total Coins [BoxNinja]
+04F1FFCC EE6B2800
+
+Player 2 In-Game Coins [BoxNinja]
+04CAB984 3B9AC9FF
+
+Friend Grab On [BoxNinja]
+04BCCAE4 00FF01FF
+
+Disguise On [BoxNinja]
+04BCCAFC 00FF01FF
+
+Attract Studs On [BoxNinja]
+04BCCB74 6FDF01FF
+
+Beep Beep On [BoxNinja]
+04BCCB44 00FF01FF
+
+Character Studs On [BoxNinja]
+04BCCB5C 6FDF01FF
+
+Extra Hearts On [BoxNinja]
+04BCCCAC FF0001FF
+
+Minikit Finder On [BoxNinja]
+04BCCC34 FF0001FF
+
+Score x2 On [BoxNinja]
+04BCCB8C 6FDF01FF
+
+Score x4 On [BoxNinja]
+04BCCBA4 6FDF01FF
+
+Score x6 On [BoxNinja]
+04BCCBD4 6FDF01FF
+
+Score x8 On [BoxNinja]
+04BCCBEC 6FDF01FF
+
+player 1max studs [The D3mon]
+04CAB96C FFFFFFFF
+
+button activator [The D3mon]
+201225C0 0000xxxx
+
+Universal Codes for Lego Batman 2 DC Super Heroes
+
+P1 Master Activator [Thomas83Lin]
+F6000001 80008100
+90030000 552A043E
+D2000000 00000004
+2C190000 40820010
+3D408000 614A18A0
+900A0000 90030000
+60000000 00000000
+E0000000 80008000
+*Must be on for my F6 Codes*
+
+Always Able to Change Characters [Thomas83Lin]
+280018A2 7FFF8000
+F6000001 80008100
+418201A4 2C160000
+14000000 60000000
+E0000000 80008000
+*Requires P1 Master Activator to be on*
+*Press Home to Activate*
+*Hold C for Character Selection*
+
+Unlock All Extras [Thomas83Lin]
+280018A2 7FFF8000
+F6000002 80008100
+7C05002E 7C831830
+7C630038 4E800020
+D2000000 00000002
+3980FFFF 7D85012E
+7C05002E 00000000
+E0000000 80008000
+*Requires P1 Master Activator to be on*
+*Press Home to Activate*
+
+Unlock All Characters [Thomas83Lin]
+280018A2 7FFF8000
+F6000001 80008100
+7C64EA14 88030074
+1400000C 60000000
+E0000000 80008000
+*Temp*
+*Requires P1 Master Activator to be on*
+*Press Home to Activate*
+
+Unlock All Characters [Thomas83Lin]
+280018A2 7FFF8000
+F6000001 80008100
+7C64EA14 88030074
+14000008 38000001
+1400000C 98030074
+E0000000 80008000
+*Permanent*
+*Requires P1 Master Activator to be on*
+*Press Home to Activate*
+
+Max Gold Bricks [Thomas83Lin]
+280018A2 7FFF8000
+F6000001 80008100
+88A4A952 C04100A4
+D2000000 00000002
+38A000FA 98A4A952
+60000000 00000000
+E0000000 80008000
+*Pause to Enable*
+*Change FA to increase if needed*
+*Effects are only Temp*
+*Requires P1 Master Activator to be on*
+*Press Home to Activate*

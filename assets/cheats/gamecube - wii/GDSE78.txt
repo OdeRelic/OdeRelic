@@ -1,0 +1,14 @@
+GDSE78
+Dark Summit 
+
+Low Gravity
+042BC1C8 401001CE
+
+Crazy Gravity
+042BC1C8 420001CE
+
+Fast Rotation
+042BC1D0 4F7001CE
+
+Fast Flipping
+042BC1D4 4F0001CE

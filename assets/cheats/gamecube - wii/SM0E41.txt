@@ -1,0 +1,30 @@
+SM0E41
+Michael Jackson the Experience
+
+1,000 Stars / Basic videos unlocked [MasterQ9999]
+048F945C 000003E8
+Note. You have to play 1 game before they unlock
+
+Off the Wall, Dangerous album max points / stars [MasterQ9999]
+088F942C 7FFFFFFF
+20030030 00000000
+E0000000 80008000
+088F9430 00000005
+201A0030 00000000
+You must at a song once for the points to count, otherwise they will remain blank
+
+Thriller, History Album max points / stars [MasterQ9999]
+088F906C 7FFFFFFF
+20050120 00000000
+E0000000 80008000
+088F9070 00000005
+20050120 00000000
+You must at a song once for the points to count, otherwise they will remain blank
+
+Bad, Ultimate Collection Album max points / stars [MasterQ9999]
+088F930C 7FFFFFFF
+20070030 00000000
+E0000000 80008000
+088F9310 00000005
+20070030 00000000
+You must at a song once for the points to count, otherwise they will remain blank

@@ -1,0 +1,64 @@
+FCPP
+Balloon Fight
+
+Unlimited Lives [Crapulecorp]
+003B60C1 00000009
+
+Invincible [Crapulecorp]
+003B6108 00000002
+003B64D1 00000003
+*Code ported from ZiT Ntsc Jap Version*
+
+Speed Up
+
+Speed Up (Press Up/Down) [Crapulecorp]
+82000000 803B6111
+282188D2 BFFF4000
+86000000 00000004
+282188D3 FFFE0001
+86000000 FFFFFFFC
+E0000000 80008000
+84000000 803B6111
+*Classic Controller*
+*Code ported from ZiT Ntsc Jap Version*
+
+Speed Up (Press Up/Down) [Crapulecorp]
+82000000 803B6111
+28159CE6 FFFB0004
+86000000 00000004
+28159CE7 FFF70008
+86000000 FFFFFFFC
+E0000000 80008000
+84000000 803B6111
+*GameCube Controller*
+*Code ported from ZiT Ntsc Jap Version*
+
+Speed Up (Press Right/Left) [Crapulecorp]
+82000000 803B6111
+282188D2 FFFD0002
+86000000 00000004
+282188D3 7FFF8000
+86000000 FFFFFFFC
+E0000000 80008000
+84000000 803B6111
+*Classic Controller*
+*Code ported from ZiT Ntsc Jap Version*
+
+Speed Up (Press Right/Left) [Crapulecorp]
+82000000 803B6111
+28159CE6 FFFE0001
+86000000 00000004
+28159CE7 FFFD0002
+86000000 FFFFFFFC
+E0000000 80008000
+84000000 803B6111
+*GameCube Controller*
+*Code ported from ZiT Ntsc Jap Version*
+
+Button Activator
+
+Classic Controller [Crapulecorp]
+282188D2 YYYYZZZZ
+
+Gamecube Controller [Crapulecorp]
+28159CE6 YYYYZZZZ

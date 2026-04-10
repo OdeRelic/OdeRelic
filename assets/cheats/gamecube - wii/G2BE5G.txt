@@ -1,0 +1,288 @@
+G2BE5G
+Black and Bruised 
+
+Infinite Round Time
+04160CE8 0000026A
+
+Any Knockdown=K.O.
+0043040F 0000000A
+
+No Knockdown Count
+0243041C 00000000
+
+Instant Wake UP
+024304CC 00003F80
+
+No Power-Ups Allowed
+0434A3A4 00000000
+
+PLAYER 1 CODES:Boogie Mode
+04317D00 3F000000
+
+Level 1 Powerup
+0433DFA4 41200000
+
+No Level 1 Powerup
+0433DFA4 00000000
+
+Level 2 Powerup
+0433DFA8 41200000
+
+No Level 2 Powerup
+0433DFA8 00000000
+
+Level 3 Powerup
+0433DFAC 41200000
+
+No Level 3 Powerup
+0433DFAC 00000000
+
+Infinite Health
+04338F48 462BE000
+
+75% Health
+No WiiRD CodeType for GCN AR CodeType- 32bit unsigned greater next line.
+04338F48 45D00000
+
+50% Health
+No WiiRD CodeType for GCN AR CodeType- 32bit unsigned greater next line.
+04338F48 45900000
+
+1-Hit = Knockdown
+No WiiRD CodeType for GCN AR CodeType- 32bit unsigned greater next line.
+04338F48 40000000
+
+Flaming Left Fist
+0434112C 00000000
+
+Flaming Right Fist
+04341130 00000000
+
+
+Auto Slip
+04338C08 00000001
+
+Armor
+04338C08 00000002
+
+Damage Shield
+04338C08 00000003
+
+Heavy Punch
+04338C08 00000004
+
+Bulldozer
+04338C08 00000005
+
+Fire Damage
+04338C08 00000006
+
+Regenerate
+04338C08 00000007
+
+Stun
+04338C08 00000008
+
+Speed
+04338C08 00000009
+
+Vampire
+04338C08 0000000B
+
+Juggernaut
+04338C08 0000000C
+
+Super Punch 1
+04338C08 00000010
+
+Super Punch 2
+04338C08 00000011
+
+Super Punch 3
+04338C08 00000012
+
+Auto Combo 1
+04338C08 0000000D
+
+Auto Combo 2
+04338C08 0000000E
+
+Auto Combo 3
+04338C08 0000000F
+
+RIGHT FIST POWER-UP:Auto Slip
+04338B58 00000001
+
+Armor
+04338B58 00000002
+
+Damage Shield
+04338B58 00000003
+
+Heavy Punch
+04338B58 00000004
+
+Bulldozer
+04338B58 00000005
+
+Fire Damage
+04338B58 00000006
+
+Regenerate
+04338B58 00000007
+
+Stun
+04338B58 00000008
+
+Speed
+04338B58 00000009
+
+Vampire
+04338B58 0000000B
+
+Juggernaut
+04338B58 0000000C
+
+Super Punch 1
+04338B58 00000010
+
+Super Punch 2
+04338B58 00000011
+
+Super Punch 3
+04338B58 00000012
+
+Auto Combo 1
+04338B58 0000000D
+
+Auto Combo 2
+04338B58 0000000E
+
+Auto Combo 3
+04338B58 0000000F
+
+PLAYER 2 CODES:Boogie Mode
+04327980 3F000000
+
+Level 1 Powerup
+04346D24 41200000
+
+No Level 1 Powerup
+04346D24 00000000
+
+Level 2 Powerup
+04346D28 41200000
+
+No Level 2 Powerup
+04346D28 00000000
+
+Level 3 Powerup
+04346D2C 41200000
+
+No Level 3 Powerup
+04346D2C 00000000
+
+Infinite Health
+04341CC8 462BE000
+
+75% Health
+No WiiRD CodeType for GCN AR CodeType- 32bit unsigned greater next line.
+04341CC8 45D00000
+
+50% Health
+No WiiRD CodeType for GCN AR CodeType- 32bit unsigned greater next line.
+04341CC8 45900000
+
+1-Hit = Knockdown
+No WiiRD CodeType for GCN AR CodeType- 32bit unsigned greater next line.
+04341CC8 40000000
+
+Flaming Left Fist
+04349EAC 00000000
+
+Flaming Right Fist
+04349EB0 00000000
+
+LEFT FIST POWER-UP:Auto Slip
+04341988 00000001
+
+Armor
+04341988 00000002
+
+Damage Shield
+04341988 00000003
+
+Heavy Punch
+04341988 00000004
+
+Bulldozer
+04341988 00000005
+
+Fire Damage
+04341988 00000006
+
+Regenerate
+04341988 00000007
+
+Stun
+04341988 00000008
+
+Speed
+04341988 00000009
+
+Vampire
+04341988 0000000B
+
+Juggernaut
+04341988 0000000C
+
+Super Punch 1
+04341988 00000010
+
+Super Punch 2
+04341988 00000011
+
+Super Punch 3
+04341988 00000012
+
+Auto Combo 1
+04341988 0000000D
+
+Auto Combo 2
+04341988 0000000E
+
+Auto Combo 3
+04341988 0000000F
+
+RIGHT FIST POWER-UP:Auto Slip
+043418D8 00000001
+
+Armor
+043418D8 00000002
+
+Damage Shield
+043418D8 00000003
+
+Heavy Punch
+043418D8 00000004
+
+Bulldozer
+043418D8 00000005
+
+Fire Damage
+043418D8 00000006
+
+Regenerate
+043418D8 00000007
+
+Stun
+043418D8 00000008
+
+Speed
+043418D8 00000009
+
+Vampire
+043418D8 0000000B
+
+Juggernaut
+043418D8 0000000C
