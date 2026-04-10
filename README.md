@@ -12,15 +12,53 @@ This software is intended for managing your ODE for Retro Consoles and is not fo
 
 ### Current
 
-- **Core Implementation**: Built natively in C++ targeting cross-platform compilation (Windows, macOS, Linux).
+- **OPL Implementation**: Built natively in C++ targeting cross-platform compilation (Windows, macOS, Linux).
 - **Library Management**: Concurrent file reading of large collections across local and external filesystems.
 - **Automated BIN to ISO/VCD**: Fast conversion of BIN/CUE files to ISO (PS2) or VCD (PS1) formats.
 - **PS1 / POPSTARTER Integration**: Automated PS1 Game ID detection, multi-track sizing, prerequisite validation (`POPSTARTER.ELF`, `POPS_IOX.PAK`), and automated `/POPS` structural hierarchy enforcement.
 - **Automated Art Scraper**: Evaluates GameIDs within binary payloads and downloads corresponding UI game art for PlayStation 1 and 2 platforms.
 
+## Getting Started
+
+1. Launch OdeRelic.
+2. Select the root Storage media that you will use on your console (e.g. USB, SD Card, External HDD).
+3. Open the **Imports** tab and click **Add Games** or **Add Folder** to select raw `.bin`/`.cue`/`.iso` files.
+4. Finalize selection and click **Process** to trigger automated format extraction, Game ID fetching, and directory deployments.
+
+## 💻 Installation
+
+Grab the latest release from the Releases page. [Releases](https://github.com/OdeRelic/OdeRelic/releases) page.
+
+### 🐧 Linux
+
+1. Download the **Linux `.deb`** file .
+2. Extract it.
+3. Run the `OdeRelic` file.
+
+---
+
+### 🍏 macOS
+
+1. Download the `.dmg` file:
+   - **arm64** (Apple Silicon - _only arm macs supported for now_)
+2. Open the `.dmg` file.
+3. Drag **OdeRelic** to your **Applications** folder.
+4. Execute 'xattr -dr com.apple.quarantine ~/Applications/OdeRelic.app' in your **terminal** (App is currently **unsigned** but **100% safe**)
+5. **Run** the **app**.
+
+---
+
+### 🪟 Windows
+
+1. Download the `.exe`.
+2. **Run it**.
+3. If **SmartScreen** appears, click the **"Run anyway"** button (The app is 100% safe)
+
+---
+
 ### Roadmap
 
-- PS1 Game Native support.
+- PS1 Xstation and PSIO support
 - Dreamcast GDEMU support.
 - Saturn SAROO support.
 - Cheats manager.
@@ -51,13 +89,6 @@ make -j$(sysctl -n hw.ncpu) # macOS/Linux
 cmake --build . --config Release # Windows
 ```
 4. Output executes natively within the build directory.
-
-## Getting Started
-
-1. Launch OdeRelic.
-2. Direct the storage overlay toward your targeted ODE root directory (e.g. USB or Internal Disk).
-3. Open the **Imports** tab and click **Add Games** or **Add Folder** to select raw `.bin`/`.cue`/`.iso` files.
-4. Finalize selection and click **Process** to trigger automated format extraction, Game ID fetching, and directory deployments.
 
 ## License
 
