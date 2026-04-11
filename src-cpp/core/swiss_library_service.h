@@ -48,7 +48,7 @@ signals:
     void libraryScanProgress(int current, int total);
     void conversionFinished(QString sourcePath, bool success, QString newPath, QString message);
     void conversionProgress(QString sourcePath, int percent);
-    void importIsoProgress(QString sourcePath, int percent);
+    void importIsoProgress(QString sourcePath, int percent, double mbps);
     void importIsoFinished(QString sourcePath, bool success, QString destIsoPath, QString message);
     void setupSwissProgress(int percent, QString statusText);
     void setupSwissFinished(bool success, QString message);

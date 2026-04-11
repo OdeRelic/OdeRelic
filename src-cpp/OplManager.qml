@@ -107,10 +107,16 @@ Rectangle {
     property bool isScrapingPs1IO: false
     property var popsStatus: ({ hasPopsFolder: false, hasPopstarter: false, hasPopsIox: false, popsPath: "" })
     
+    property int activeTargetPercent: 0
+    property double activeTargetMbps: 0.0
+
     Connections {
         target: oplLibraryService
         function onConversionProgress(sourcePath, percent) {}
-        function onImportIsoProgress(sourcePath, percent) {}
+        function onImportIsoProgress(sourcePath, percent, mbps) {
+            mainWindow.activeTargetPercent = percent
+            mainWindow.activeTargetMbps = mbps
+        }
         function onArtDownloadProgress(sourcePath, percent) {}
         
         function onGamesFilesLoaded(dirPath, data) {
@@ -228,7 +234,10 @@ Rectangle {
     Connections {
         target: oplLibraryService
         function onPs1ConversionProgress(sourcePath, percent) {}
-        function onPs1ImportProgress(sourcePath, percent) {}
+        function onPs1ImportProgress(sourcePath, percent, mbps) {
+            mainWindow.activeTargetPercent = percent
+            mainWindow.activeTargetMbps = mbps
+        }
         function onPs1ArtDownloadProgress(sourcePath, percent) {}
 
         function onPs1GamesLoaded(dirPath, data) {
@@ -408,14 +417,154 @@ Rectangle {
                 color: "white"; font.pixelSize: 10; font.bold: true
                 Layout.alignment: Qt.AlignHCenter
             }
+            
+            // --- Secondary Active Item IO Tracker ---
+            Rectangle {
+                width: 200; height: 4; radius: 2; color: "#222"
+                Layout.alignment: Qt.AlignHCenter
+                Rectangle {
+                    anchors.left: parent.left; anchors.top: parent.top; anchors.bottom: parent.bottom
+                    width: (mainWindow.activeTargetPercent / 100.0) * parent.width
+                    color: "#00E676" // Light green
+                    radius: 2
+                    Behavior on width { NumberAnimation { duration: 150; easing.type: Easing.OutQuad } }
+                }
+            }
+            
+            RowLayout {
+                Layout.alignment: Qt.AlignHCenter
+                spacing: 8
+                Text {
+                    text: "File: " + mainWindow.activeTargetPercent + "%"
+                    color: "#A0A0A0"; font.pixelSize: 10
+                }
+                Text {
+                    text: mainWindow.activeTargetMbps.toFixed(2) + " MB/s"
+                    color: "#00E676"; font.pixelSize: 10; font.bold: true
+                }
+            }
+            
+            Button {
+                Layout.alignment: Qt.AlignHCenter
+                Layout.preferredWidth: 120
+                Layout.topMargin: 10
+                text: qsTr("Cancel Active Import")
+                onClicked: {
+                    oplLibraryService.cancelAllImports()
+                    importProgressOverlay.close()
+                }
+                contentItem: Text {
+                    text: parent.text; color: textSecondary; font.pixelSize: 11; font.bold: true
+                    horizontalAlignment: Text.AlignHCenter; verticalAlignment: Text.AlignVCenter
+                }
+                background: Rectangle {
+                    color: parent.down ? "#111" : (parent.hovered ? borderGlass : "transparent")
+                    radius: 6; implicitHeight: 28; border.color: borderGlass; border.width: 1
+                }
+            }
         }
     }
     
+    Popup {
+        id: formatErrorPopup
+        parent: Overlay.overlay
+        anchors.centerIn: parent
+        width: 380
+        height: 220
+        modal: true
+        closePolicy: Popup.NoAutoClose
+        
+        property string errorDetails: ""
+
+        background: Rectangle {
+            color: "#0F1626"
+            radius: 12
+            border.color: "#FF4D4D"
+            border.width: 1
+        }
+        
+        ColumnLayout {
+            anchors.fill: parent
+            anchors.margins: 24
+            spacing: 16
+            
+            RowLayout {
+                spacing: 12
+                Layout.alignment: Qt.AlignHCenter
+                Text {
+                    text: "⚠️" 
+                    font.pixelSize: 22
+                }
+                Text {
+                    text: qsTr("Unsupported Drive")
+                    color: "#FF4D4D"
+                    font.bold: true
+                    font.pixelSize: 18
+                }
+            }
+            
+            Text {
+                text: qsTr("This drive cannot be used with OPL.")
+                color: textPrimary
+                font.pixelSize: 14
+                font.bold: true
+                horizontalAlignment: Text.AlignHCenter
+                Layout.fillWidth: true
+            }
+
+            Rectangle {
+                color: "#1A2235"
+                radius: 6
+                Layout.fillWidth: true
+                Layout.preferredHeight: 45
+                
+                Text {
+                    anchors.centerIn: parent
+                    text: formatErrorPopup.errorDetails
+                    color: "#FFB3B3"
+                    font.pixelSize: 12
+                    font.bold: true
+                }
+            }
+            
+            Item { Layout.fillHeight: true }
+            
+            Button {
+                Layout.alignment: Qt.AlignHCenter
+                Layout.preferredWidth: 120
+                text: qsTr("Close")
+                background: Rectangle {
+                    color: parent.down ? "#222" : (parent.hovered ? "#333" : "#222")
+                    radius: 6
+                    border.color: borderGlass
+                    border.width: 1
+                }
+                contentItem: Text {
+                    text: parent.text; color: textPrimary; font.bold: true
+                    horizontalAlignment: Text.AlignHCenter
+                    verticalAlignment: Text.AlignVCenter
+                }
+                onClicked: formatErrorPopup.close()
+            }
+        }
+    }
+
     FolderDialog {
         id: folderDialog
         title: qsTr("Select OPL Root Folder")
         onAccepted: {
             let cleanPath = oplLibraryService.urlToLocalFile(selectedFolder.toString())
+            let structureCheck = oplLibraryService.checkOplFolder(cleanPath)
+            
+            if (!structureCheck.isFormatCorrect || !structureCheck.isPartitionCorrect) {
+                let err = []
+                if (!structureCheck.isFormatCorrect) err.push("• FAT32 or exFAT required")
+                if (!structureCheck.isPartitionCorrect) err.push("• MBR partition table required")
+                formatErrorPopup.errorDetails = err.join("\n")
+                formatErrorPopup.open()
+                return
+            }
+
             mainWindow.currentLibraryPath = cleanPath
             mainWindow.isScrapingIO = true
             mainWindow.isScrapingPs1IO = true

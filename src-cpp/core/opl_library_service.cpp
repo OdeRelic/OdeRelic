@@ -11,6 +11,9 @@
 #include <QRegularExpression>
 #include <QString>
 #include <QThread>
+#include <QElapsedTimer>
+#include <QStorageInfo>
+#include <QProcess>
 #include <QUrl>
 #include "filesystem_cache.h"
 #include <fstream>
@@ -592,7 +595,7 @@ void OplLibraryService::startImportIsoAsync(const QString &sourceIsoPath, const 
     // Attempt standard OS level rename index rewrite first for extreme speed
     if (sourceFile.rename(destIsoPath)) {
       QMetaObject::invokeMethod(this, [=]() {
-        emit importIsoProgress(sourceIsoPath, 100);
+        emit importIsoProgress(sourceIsoPath, 100, 0.0);
         emit importIsoFinished(sourceIsoPath, true, destIsoPath, "Native rename successful");
       }, Qt::QueuedConnection);
       return;
@@ -619,6 +622,8 @@ void OplLibraryService::startImportIsoAsync(const QString &sourceIsoPath, const 
     const qint64 READ_CHUNK = 4 * 1024 * 1024; // 4MB buffer chunks
 
     int lastPercent = -1;
+    QElapsedTimer timer;
+    timer.start();
 
     while (!sourceFile.atEnd()) {
       QByteArray chunk = sourceFile.read(READ_CHUNK);
@@ -628,12 +633,14 @@ void OplLibraryService::startImportIsoAsync(const QString &sourceIsoPath, const 
       bytesProcessed += chunk.size();
 
       int currentPercent = (int)((bytesProcessed * 100) / totalBytes);
-      if (currentPercent > lastPercent) {
-        lastPercent = currentPercent;
-        QMetaObject::invokeMethod(this, [=]() {
-          emit importIsoProgress(sourceIsoPath, currentPercent);
-        }, Qt::QueuedConnection);
+      double elapsedSecs = timer.elapsed() / 1000.0;
+      double mbps = 0.0;
+      if (elapsedSecs > 0.0) {
+          mbps = (bytesProcessed / (1024.0 * 1024.0)) / elapsedSecs;
       }
+      QMetaObject::invokeMethod(this, [=]() {
+        emit importIsoProgress(sourceIsoPath, currentPercent, mbps);
+      }, Qt::QueuedConnection);
     }
 
     sourceFile.close();
@@ -652,6 +659,60 @@ void OplLibraryService::startImportIsoAsync(const QString &sourceIsoPath, const 
       }, Qt::QueuedConnection);
     }
   }).detach();
+}
+
+QVariantMap OplLibraryService::checkOplFolder(const QString &rootPath) {
+    QVariantMap result;
+    
+    QStorageInfo storage(rootPath);
+    QString fsType = QString::fromUtf8(storage.fileSystemType()).toLower();
+    
+    // Some OS variations report FAT32 as vfat or msdos natively.
+    bool isFormatCorrect = fsType.contains("fat32") || fsType.contains("exfat") || fsType.contains("vfat") || fsType.contains("msdos") || fsType.contains("fat");
+    bool isPartitionCorrect = true; // Fallback grant if environment doesn't support interrogation
+    
+#ifdef Q_OS_MAC
+    QString deviceNode = QString::fromUtf8(storage.device());
+    QProcess p;
+    p.start("sh", QStringList() << "-c" << QString("diskutil info %1 | awk '/Part of Whole/ {print $4}'").arg(deviceNode));
+    p.waitForFinished(3000);
+    QString wholeDisk = p.readAllStandardOutput().trimmed();
+    if (!wholeDisk.isEmpty()) {
+        QProcess p2;
+        p2.start("sh", QStringList() << "-c" << QString("diskutil info %1 | grep -i 'Content'").arg(wholeDisk));
+        p2.waitForFinished(3000);
+        QString content = p2.readAllStandardOutput().trimmed();
+        if (!content.isEmpty()) {
+            isPartitionCorrect = content.contains("FDisk_partition_scheme", Qt::CaseInsensitive);
+        }
+    }
+#elif defined(Q_OS_LINUX)
+    QString deviceNode = QString::fromUtf8(storage.device());
+    QProcess p;
+    p.start("sh", QStringList() << "-c" << QString("lsblk -o PTTYPE -n -d $(lsblk -no pkname %1) | head -n 1").arg(deviceNode));
+    p.waitForFinished(3000);
+    QString pttype = p.readAllStandardOutput().trimmed().toLower();
+    if (!pttype.isEmpty()) {
+        isPartitionCorrect = (pttype == "dos");
+    }
+#elif defined(Q_OS_WIN)
+    QString driveLetter = rootPath.left(1);
+    if (!driveLetter.isEmpty() && driveLetter.at(0).isLetter()) {
+        QString cmd = QString("powershell -NoProfile -Command \"Get-Partition -DriveLetter %1 | Get-Disk | Select-Object -ExpandProperty PartitionStyle\"").arg(driveLetter);
+        QProcess p;
+        p.start(cmd);
+        p.waitForFinished(3000);
+        QString style = p.readAllStandardOutput().trimmed().toLower();
+        if (!style.isEmpty()) {
+            isPartitionCorrect = (style == "mbr");
+        }
+    }
+#endif
+
+    result["isFormatCorrect"] = isFormatCorrect;
+    result["isPartitionCorrect"] = isPartitionCorrect;
+
+    return result;
 }
 
 namespace {
@@ -1186,7 +1247,7 @@ void OplLibraryService::startImportVcdAsync(const QString &sourceVcdPath,
     // Fast path: same-device rename
     if (sourceFile.rename(destPath)) {
       QMetaObject::invokeMethod(this, [=]() {
-        emit ps1ImportProgress(sourceVcdPath, 100);
+        emit ps1ImportProgress(sourceVcdPath, 100, 0.0);
         emit ps1ImportFinished(sourceVcdPath, true, destPath, resolvedId, "Native rename successful");
       }, Qt::QueuedConnection);
       return;
@@ -1212,6 +1273,8 @@ void OplLibraryService::startImportVcdAsync(const QString &sourceVcdPath,
     qint64 bytesProcessed = 0;
     const qint64 READ_CHUNK = 4 * 1024 * 1024;
     int lastPercent = -1;
+    QElapsedTimer timer;
+    timer.start();
 
     while (!sourceFile.atEnd()) {
       QByteArray chunk = sourceFile.read(READ_CHUNK);
@@ -1219,12 +1282,14 @@ void OplLibraryService::startImportVcdAsync(const QString &sourceVcdPath,
       destFile.write(chunk);
       bytesProcessed += chunk.size();
       int pct = (int)((bytesProcessed * 100) / totalBytes);
-      if (pct > lastPercent) {
-        lastPercent = pct;
-        QMetaObject::invokeMethod(this, [=]() {
-          emit ps1ImportProgress(sourceVcdPath, pct);
-        }, Qt::QueuedConnection);
+      double elapsedSecs = timer.elapsed() / 1000.0;
+      double mbps = 0.0;
+      if (elapsedSecs > 0.0) {
+          mbps = (bytesProcessed / (1024.0 * 1024.0)) / elapsedSecs;
       }
+      QMetaObject::invokeMethod(this, [=]() {
+        emit ps1ImportProgress(sourceVcdPath, pct, mbps);
+      }, Qt::QueuedConnection);
     }
 
     sourceFile.close();

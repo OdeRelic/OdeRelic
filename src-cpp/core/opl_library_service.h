@@ -17,6 +17,8 @@ public:
     Q_INVOKABLE QVariantMap tryDetermineGameIdFromHex(const QString &filepath);
     Q_INVOKABLE QString urlToLocalFile(const QString &urlStr);
     
+    Q_INVOKABLE QVariantMap checkOplFolder(const QString &rootPath);
+    
     Q_INVOKABLE QVariantMap renameGamefile(const QString &dirpath, const QString &targetLibraryRoot, const QString &gameId, const QString &gameName, bool forceCD = false);
 
     Q_INVOKABLE QVariantMap moveFile(const QString &sourcePath, const QString &destPath);
@@ -45,7 +47,7 @@ signals:
     void conversionFinished(QString sourcePath, bool success, QString newPath, QString message);
     void conversionProgress(QString sourcePath, int percent);
     void importIsoFinished(QString sourcePath, bool success, QString destIsoPath, QString message);
-    void importIsoProgress(QString sourcePath, int percent);
+    void importIsoProgress(QString sourcePath, int percent, double mbps);
     void artDownloadFinished(QString sourcePath, bool success, QString message);
     void artDownloadProgress(QString sourcePath, int percent);
     void gamesFilesLoaded(QString dirPath, QVariantMap data);
@@ -54,7 +56,7 @@ signals:
     void ps1ConversionFinished(QString sourcePath, bool success, QString destVcdPath, QString gameId, QString message);
     void ps1ConversionProgress(QString sourcePath, int percent);
     void ps1ImportFinished(QString sourcePath, bool success, QString destVcdPath, QString gameId, QString message);
-    void ps1ImportProgress(QString sourcePath, int percent);
+    void ps1ImportProgress(QString sourcePath, int percent, double mbps);
     void ps1ArtDownloadFinished(QString sourcePath, bool success, QString message);
     void ps1ArtDownloadProgress(QString sourcePath, int percent);
     void ps1GamesLoaded(QString dirPath, QVariantMap data);
