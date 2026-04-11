@@ -34,13 +34,7 @@ target_link_libraries(SwissLibraryServiceTests PRIVATE
     Qt6::Test
     Qt6::Network
 )
-if(ZSTD_FOUND)
-    target_link_directories(SwissLibraryServiceTests PRIVATE ${ZSTD_LIBRARY_DIRS})
-    target_link_libraries(SwissLibraryServiceTests PRIVATE ${ZSTD_LIBRARIES})
-    target_include_directories(SwissLibraryServiceTests PRIVATE ${ZSTD_INCLUDE_DIRS})
-else()
-    target_link_libraries(SwissLibraryServiceTests PRIVATE ${ZSTD_LIBRARY})
-endif()
+target_link_libraries(SwissLibraryServiceTests PRIVATE libzstd_static)
 
 target_include_directories(SwissLibraryServiceTests PRIVATE ../src-cpp/core)
 
