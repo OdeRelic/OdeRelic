@@ -110,6 +110,13 @@ Rectangle {
     property int activeTargetPercent: 0
     property double activeTargetMbps: 0.0
 
+    Component.onCompleted: {
+        if (mainWindow.currentLibraryPath === "") {
+            targetSetupDialog.open()
+        }
+    }
+
+
     Connections {
         target: oplLibraryService
         function onConversionProgress(sourcePath, percent) {}
@@ -310,6 +317,80 @@ Rectangle {
         }
     }
     
+    Popup {
+        id: targetSetupDialog
+        parent: Overlay.overlay
+        anchors.centerIn: parent
+        width: 380
+        height: 220
+        modal: true
+        closePolicy: Popup.NoAutoClose
+        
+        background: Rectangle {
+            color: "#EA0A1929"
+            radius: 12
+            border.color: borderGlass
+            border.width: 1
+        }
+        ColumnLayout {
+            anchors.fill: parent
+            anchors.margins: 20
+            spacing: 15
+            Text {
+                text: qsTr("Setup OPL Target")
+                color: accentPrimary
+                font.bold: true
+                font.pixelSize: 18
+                Layout.alignment: Qt.AlignHCenter
+            }
+            Text {
+                text: qsTr("Please select the root directory of your SD Card or USB drive to mount the PS2 ecosystem natively.")
+                color: textSecondary
+                font.pixelSize: 14
+                wrapMode: Text.Wrap
+                Layout.fillWidth: true
+                horizontalAlignment: Text.AlignHCenter
+            }
+            Item { Layout.fillHeight: true }
+            RowLayout {
+                Layout.fillWidth: true
+                spacing: 10
+                Button {
+                    text: qsTr("Cancel")
+                    Layout.fillWidth: true
+                    onClicked: {
+                        targetSetupDialog.close()
+                        requestBack()
+                    }
+                    contentItem: Text {
+                        text: parent.text; color: textPrimary; font.bold: true; font.pixelSize: 14
+                        horizontalAlignment: Text.AlignHCenter; verticalAlignment: Text.AlignVCenter
+                    }
+                    background: Rectangle {
+                        color: parent.down ? "#111" : (parent.hovered ? borderGlass : "transparent")
+                        radius: 6; implicitHeight: 36; border.color: borderGlass; border.width: 1
+                    }
+                }
+                Button {
+                    text: qsTr("Select Root Media")
+                    Layout.fillWidth: true
+                    onClicked: {
+                        targetSetupDialog.close()
+                        folderDialog.open()
+                    }
+                    contentItem: Text {
+                        text: parent.text; color: "#090A0F"; font.bold: true; font.pixelSize: 14
+                        horizontalAlignment: Text.AlignHCenter; verticalAlignment: Text.AlignVCenter
+                    }
+                    background: Rectangle {
+                        color: parent.down ? accentHover : accentPrimary
+                        radius: 6; implicitHeight: 36
+                    }
+                }
+            }
+        }
+    }
+
     Popup {
         id: folderScanOverlay
         parent: Overlay.overlay
@@ -566,8 +647,6 @@ Rectangle {
             }
 
             mainWindow.currentLibraryPath = cleanPath
-            mainWindow.isScrapingIO = true
-            mainWindow.isScrapingPs1IO = true
             refreshGames()
             refreshPs1Games()
             mainWindow.popsStatus = oplLibraryService.checkPopsFolder(cleanPath)
@@ -872,57 +951,21 @@ Rectangle {
                     Layout.bottomMargin: 10
                 }
                 
-                // Active Disk Router
-                Rectangle {
+                // Change Disk Re-router
+                Button {
                     Layout.fillWidth: true
-                    implicitHeight: diskColumn.implicitHeight + 30
-                    radius: 12
-                    color: bgCard
-                    border.color: borderGlass
-                    
-                    ColumnLayout {
-                        id: diskColumn
-                        anchors.fill: parent
-                        anchors.margins: 15
-                        spacing: 8
-                        
-                        Text {
-                            text: currentLibraryPath !== "" ? qsTr("Connected Target:") : qsTr("No Disk Selected")
-                            color: textSecondary; font.pixelSize: 12; font.bold: true
-                        }
-                        
-                        Text {
-                            text: {
-                                if (currentLibraryPath === "") return qsTr("Mount ODE Root");
-                                let cleanPath = currentLibraryPath;
-                                if (cleanPath.endsWith('/')) cleanPath = cleanPath.substring(0, cleanPath.length - 1);
-                                if (cleanPath.endsWith('\\')) cleanPath = cleanPath.substring(0, cleanPath.length - 1);
-                                return cleanPath.split('/').pop().split('\\').pop() || currentLibraryPath;
-                            }
-                            color: textPrimary; font.pixelSize: 14; font.bold: true
-                            elide: Text.ElideRight; Layout.fillWidth: true
-                        }
-                        
-                        Text {
-                            text: currentLibraryPath
-                            visible: currentLibraryPath !== ""
-                            color: textSecondary; font.pixelSize: 11; font.family: "monospace"
-                            elide: Text.ElideMiddle; Layout.fillWidth: true
-                        }
-                        
-                        Button {
-                            Layout.fillWidth: true
-                            text: currentLibraryPath !== "" ? qsTr("Change Target Disk") : qsTr("Connect Media Layer")
-                            onClicked: folderDialog.open()
-                            contentItem: Text {
-                                text: parent.text; color: accentPrimary; font.bold: true; font.pixelSize: 12
-                                horizontalAlignment: Text.AlignHCenter; verticalAlignment: Text.AlignVCenter
-                            }
-                            background: Rectangle {
-                                color: parent.down ? "#111" : (parent.hovered ? borderGlass : "transparent")
-                                radius: 6; implicitHeight: 32; border.color: accentPrimary; border.width: 1
-                            }
-                        }
+                    text: qsTr("Disconnect & Change Target")
+                    onClicked: {
+                        mainWindow.currentLibraryPath = ""
+                        targetSetupDialog.open()
+                    }
+                    contentItem: Text {
+                        text: parent.text; color: textSecondary; font.pixelSize: 12; font.bold: true
+                        horizontalAlignment: Text.AlignHCenter; verticalAlignment: Text.AlignVCenter
+                    }
+                    background: Rectangle {
+                        color: parent.down ? "#111" : (parent.hovered ? borderGlass : "transparent")
+                        radius: 6; implicitHeight: 32; border.color: borderGlass; border.width: 1
                     }
                 }
                 
