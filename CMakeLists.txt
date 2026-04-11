@@ -1,3 +1,4 @@
+set(CMAKE_POLICY_VERSION_MINIMUM 3.0 CACHE STRING "Suppress obsolete Zstandard policies implicitly")
 cmake_minimum_required(VERSION 3.16)
 project(OdeRelic VERSION 0.3.3 LANGUAGES CXX)
 
@@ -14,7 +15,7 @@ include(FetchContent)
 FetchContent_Declare(
   zstd
   GIT_REPOSITORY https://github.com/facebook/zstd.git
-  GIT_TAG        v1.5.5
+  GIT_TAG        v1.5.6
   SOURCE_SUBDIR  build/cmake
 )
 # Force static build configuration securely
@@ -22,6 +23,7 @@ set(ZSTD_BUILD_SHARED OFF CACHE BOOL "Disable shared zstd" FORCE)
 set(ZSTD_BUILD_STATIC ON CACHE BOOL "Enable static zstd" FORCE)
 set(ZSTD_BUILD_PROGRAMS OFF CACHE BOOL "Disable zstd CLI tools" FORCE)
 set(ZSTD_BUILD_TESTS OFF CACHE BOOL "Disable zstd tests" FORCE)
+
 
 FetchContent_MakeAvailable(zstd)
 
