@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.16)
-project(OdeRelic VERSION 0.3.2 LANGUAGES CXX)
+project(OdeRelic VERSION 0.3.3 LANGUAGES CXX)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
@@ -10,22 +10,31 @@ set(CMAKE_AUTOUIC ON)
 
 find_package(Qt6 COMPONENTS Core Gui Qml Quick Network Test LinguistTools REQUIRED)
 
-# Natively link Zstandard for fast decryption of RVZ emulator formats
-# Fallback logic to support both pkg-config (Linux/Mac) and native CMake configs (Windows vcpkg)
-find_package(PkgConfig QUIET)
-if(PkgConfig_FOUND)
-    pkg_check_modules(ZSTD libzstd)
-endif()
+include(FetchContent)
+FetchContent_Declare(
+  zstd
+  GIT_REPOSITORY https://github.com/facebook/zstd.git
+  GIT_TAG        v1.5.5
+  SOURCE_SUBDIR  build/cmake
+)
+# Force static build configuration securely
+set(ZSTD_BUILD_SHARED OFF CACHE BOOL "Disable shared zstd" FORCE)
+set(ZSTD_BUILD_STATIC ON CACHE BOOL "Enable static zstd" FORCE)
+set(ZSTD_BUILD_PROGRAMS OFF CACHE BOOL "Disable zstd CLI tools" FORCE)
+set(ZSTD_BUILD_TESTS OFF CACHE BOOL "Disable zstd tests" FORCE)
 
-if(NOT ZSTD_FOUND)
-    find_library(ZSTD_LIBRARY NAMES zstd zstd_static)
-    if(NOT ZSTD_LIBRARY)
-        message(FATAL_ERROR "Zstandard library not found! Please install libzstd-dev (Linux), zstd via vcpkg (Windows), or brew install zstd (Mac)")
-    endif()
-endif()
+FetchContent_MakeAvailable(zstd)
 
 enable_testing()
 
+option(ENABLE_COVERAGE "Enable C++ GCC/Clang code coverage analysis profiles" OFF)
+
+if(ENABLE_COVERAGE)
+    set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} --coverage -O0 -g")
+    set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} --coverage")
+    set(CMAKE_SHARED_LINKER_FLAGS "${CMAKE_SHARED_LINKER_FLAGS} --coverage")
+    message(STATUS "Code coverage instrumentation dynamically enabled.")
+endif()
 qt_add_executable(OdeRelic WIN32
     src-cpp/main.cpp
     src-cpp/core/filesystem_cache.cpp
@@ -61,13 +70,7 @@ target_link_libraries(OdeRelic PRIVATE
     Qt6::Network
 )
 
-if(ZSTD_FOUND)
-    target_link_directories(OdeRelic PRIVATE ${ZSTD_LIBRARY_DIRS})
-    target_link_libraries(OdeRelic PRIVATE ${ZSTD_LIBRARIES})
-    target_include_directories(OdeRelic PRIVATE ${ZSTD_INCLUDE_DIRS})
-else()
-    target_link_libraries(OdeRelic PRIVATE ${ZSTD_LIBRARY})
-endif()
+target_link_libraries(OdeRelic PRIVATE libzstd_static)
 
 # Application metadata
 if(APPLE)
@@ -114,7 +117,7 @@ elseif(APPLE)
     set(CPACK_GENERATOR "DragNDrop")
 else()
     set(CPACK_GENERATOR "DEB")
-    set(CPACK_DEBIAN_PACKAGE_DEPENDS "libqt6core6, libqt6gui6, libqt6qml6, libqt6quick6, libqt6network6, qml6-module-qtquick, qml6-module-qtquick-controls, qml6-module-qtquick-layouts, qml6-module-qtquick-window")
+    set(CPACK_DEBIAN_PACKAGE_DEPENDS "libqt6core6, libqt6gui6, libqt6qml6, libqt6quick6, libqt6network6, libzstd1, qml6-module-qtquick, qml6-module-qtquick-controls, qml6-module-qtquick-layouts, qml6-module-qtquick-window")
     set(CPACK_DEBIAN_PACKAGE_MAINTAINER "OdeRelic")
 endif()
 
