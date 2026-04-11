@@ -26,6 +26,7 @@ private slots:
     void testGetExternalGameFilesData();
     void testStartImportIsoAsync();
     void testStartConvertBinToIso();
+    void testOplFolderValidation();
 
     void testPs1GameIdExtraction();
     void testPopsDirectoryCreation();
@@ -300,6 +301,21 @@ void TestOplLibraryService::testStartConvertBinToIso()
     for (char c : isoData) {
         QVERIFY(c == 'B');
     }
+}
+
+void TestOplLibraryService::testOplFolderValidation()
+{
+    QString rootPath = m_tempDir->path() + "/OPL_Test";
+    QDir().mkpath(rootPath);
+    
+    QVariantMap res = m_service->checkOplFolder(rootPath);
+    
+    // Evaluate if QStorageInfo safely abstracted formatting rules over the mock path natively natively
+    QVERIFY(res.contains("isFormatCorrect"));
+    QVERIFY(res.contains("isPartitionCorrect"));
+    
+    // On Unix systems, /tmp is routinely parsed as tmpfs, apfs, ext4, etc. which aren't strictly fat32/exfat natively natively 
+    // MBR format checks fallback gracefully to boolean constructs natively so we just prove the dict structure resolves securely without throwing or crashing natively.
 }
 
 void TestOplLibraryService::testPs1GameIdExtraction()

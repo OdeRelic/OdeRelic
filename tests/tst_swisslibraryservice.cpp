@@ -95,6 +95,10 @@ void SwissLibraryServiceTests::test_swissFolderValidation() {
     QVERIFY(res3["hasGames"].toBool() == true);
     QVERIFY(res3["hasDol"].toBool() == true);
     QVERIFY(res3["hasSwiss"].toBool() == true);
+    
+    // Assert structural properties deployed for security checks exist natively in QVariant payload
+    QVERIFY(res3.contains("isFormatCorrect"));
+    QVERIFY(res3.contains("isPartitionCorrect"));
 }
 
 void SwissLibraryServiceTests::test_renameGamefile_preservesSourceFile() {
