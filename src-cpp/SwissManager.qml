@@ -117,9 +117,13 @@ Rectangle {
                         let artFolder = mainWindow.currentLibraryPath + "/ART"
                         swissLibraryService.startDownloadArtAsync(artFolder, res.gameId, sourcePath)
                         return; // Await async net dispatch
+                    } else {
+                        console.error("Batch ISO Import Failed: Decrypted ISO lacks valid GameCube GameID Header.")
+                        mainWindow.showToast("Import failed: " + sourcePath + " -> Bad decrypted ISO header", true)
                     }
                 } else {
                     console.error("Batch ISO Import Failed: " + message)
+                    mainWindow.showToast("Import error: " + message, true)
                 }
                 
                 // Fallback completion if network fails to dispatch
@@ -525,7 +529,7 @@ Rectangle {
         id: addGamesDialog
         title: qsTr("Select Games to Import")
         fileMode: FileDialog.OpenFiles
-        nameFilters: ["GC Images (*.iso *.gcm)", "All files (*)"]
+        nameFilters: ["GC Images (*.iso *.gcm *.rvz *.gcz)", "All files (*)"]
         onAccepted: {
             let urls = []
             for (let i = 0; i < selectedFiles.length; i++) urls.push(selectedFiles[i].toString())

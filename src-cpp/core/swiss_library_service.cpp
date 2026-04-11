@@ -1,4 +1,5 @@
 #include "swiss_library_service.h"
+#include "rvz_native_converter.h"
 #include <QDebug>
 #include <QDir>
 #include <QCoreApplication>
@@ -168,8 +169,18 @@ QVariantMap SwissLibraryService::tryDetermineGameIdFromHex(const QString &filepa
     return result;
   }
 
-  // Gamecube game id is 6 bytes at offset 0
-  QByteArray header = file.read(6);
+  // Check if it's an RVZ file by reading first 4 bytes
+  QByteArray magic = file.read(4);
+  QByteArray header;
+  
+  if (magic == "RVZ\x01") {
+      file.seek(0x58);
+      header = file.read(6);
+  } else {
+      file.seek(0);
+      header = file.read(6);
+  }
+  
   file.close();
 
   if (header.size() == 6) {
@@ -350,6 +361,35 @@ void SwissLibraryService::startImportIsoAsync(const QString &sourceIsoPath, cons
     
     QString isoName = isMultiDisc ? QString("disc %1").arg(discNum) : "game";
     QString destIsoPath = finalDir + "/" + isoName + "." + ext;
+
+    QString subName = fileInfo.fileName().toLower();
+    bool isRvz = ext == "rvz" || ext == "gcz";
+
+    if (isRvz) {
+        destIsoPath = finalDir + "/" + isoName + ".iso"; 
+        if (sourceIsoPath == destIsoPath) {
+            QMetaObject::invokeMethod(this, [=]() { emit importIsoFinished(sourceIsoPath, true, destIsoPath, "Already in target"); }, Qt::QueuedConnection);
+            return;
+        }
+        
+        QMetaObject::invokeMethod(this, [=]() { emit importIsoProgress(sourceIsoPath, 5); }, Qt::QueuedConnection);
+        
+        RvzNativeConverter converter;
+        QString errMsgs;
+        
+        QObject::connect(&converter, &RvzNativeConverter::progressUpdated, this, [=](int percent) {
+            QMetaObject::invokeMethod(this, [=]() { emit importIsoProgress(sourceIsoPath, percent); }, Qt::QueuedConnection);
+        });
+
+        bool success = converter.convertRvzToIso(sourceIsoPath, destIsoPath, errMsgs);
+        if (success) {
+            provisionCheat(gameId, targetLibraryRoot);
+            QMetaObject::invokeMethod(this, [=]() { emit importIsoFinished(sourceIsoPath, true, destIsoPath, errMsgs); }, Qt::QueuedConnection);
+        } else {
+            QMetaObject::invokeMethod(this, [=]() { emit importIsoFinished(sourceIsoPath, false, "", errMsgs); }, Qt::QueuedConnection);
+        }
+        return;
+    }
 
     if (sourceIsoPath == destIsoPath) {
       QMetaObject::invokeMethod(this, [=]() {
@@ -534,7 +574,7 @@ namespace {
               }
               
               QString ext = fi.suffix().toLower();
-              if (ext == "iso" || ext == "gcm") {
+              if (ext == "rvz" || ext == "gcz" || ext == "iso" || ext == "gcm") {
                  outFiles.append(fi);
               }
           }
@@ -555,7 +595,7 @@ QVariantList SwissLibraryService::getExternalGameFilesData(const QStringList &fi
           scanDirectoryRecursivelyGc(this, filePath, toProcess);
       } else {
           QString ext = baseInfo.suffix().toLower();
-          if (ext == "iso" || ext == "gcm") {
+          if (ext == "rvz" || ext == "gcz" || ext == "iso" || ext == "gcm") {
               toProcess.append(baseInfo);
           }
       }
@@ -564,6 +604,7 @@ QVariantList SwissLibraryService::getExternalGameFilesData(const QStringList &fi
           if (fileInfo.exists() && fileInfo.isFile()) {
               QVariantMap itemInfo;
               itemInfo["extension"] = "." + fileInfo.suffix().toLower();
+              
               QString baseName = fileInfo.completeBaseName();
               QString parentName = fileInfo.dir().dirName();
               

@@ -16,6 +16,8 @@ add_executable(SwissLibraryServiceTests
     ../src-cpp/core/swiss_library_service.h
     ../src-cpp/core/filesystem_cache.cpp
     ../src-cpp/core/filesystem_cache.h
+    ../src-cpp/core/rvz_native_converter.cpp
+    ../src-cpp/core/rvz_native_converter.h
 )
 
 # Test dependencies
@@ -32,6 +34,13 @@ target_link_libraries(SwissLibraryServiceTests PRIVATE
     Qt6::Test
     Qt6::Network
 )
+if(ZSTD_FOUND)
+    target_link_libraries(SwissLibraryServiceTests PRIVATE ${ZSTD_LIBRARIES})
+    target_include_directories(SwissLibraryServiceTests PRIVATE ${ZSTD_INCLUDE_DIRS})
+else()
+    target_link_libraries(SwissLibraryServiceTests PRIVATE ${ZSTD_LIBRARY})
+endif()
+
 target_include_directories(SwissLibraryServiceTests PRIVATE ../src-cpp/core)
 
 # FileSystemCache Component Testing Let
