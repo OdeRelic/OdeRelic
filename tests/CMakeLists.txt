@@ -35,6 +35,7 @@ target_link_libraries(SwissLibraryServiceTests PRIVATE
     Qt6::Network
 )
 if(ZSTD_FOUND)
+    target_link_directories(SwissLibraryServiceTests PRIVATE ${ZSTD_LIBRARY_DIRS})
     target_link_libraries(SwissLibraryServiceTests PRIVATE ${ZSTD_LIBRARIES})
     target_include_directories(SwissLibraryServiceTests PRIVATE ${ZSTD_INCLUDE_DIRS})
 else()

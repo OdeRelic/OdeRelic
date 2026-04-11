@@ -835,7 +835,7 @@ Rectangle {
                     spacing: 8
                     Rectangle { height: 1; Layout.fillWidth: true; color: accentPrimary; opacity: 0.3 }
                     Text {
-                        text: "PS2"
+                        text: "Gamecube"
                         color: accentPrimary; font.pixelSize: 10; font.bold: true; font.letterSpacing: 2
                         opacity: 0.7
                     }
@@ -1428,7 +1428,7 @@ Rectangle {
                                                 }
                                                 color: textPrimary
                                                 font.bold: true; font.pixelSize: 17; font.family: "Inter"
-                                                elide: Text.ElideRight; Layout.maximumWidth: parent.width - 20
+                                                elide: Text.ElideRight; Layout.fillWidth: true; Layout.rightMargin: 20
                                             }
                                             
                                             Text {

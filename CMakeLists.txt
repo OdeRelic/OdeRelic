@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.16)
-project(OdeRelic VERSION 0.3.0 LANGUAGES CXX)
+project(OdeRelic VERSION 0.3.1 LANGUAGES CXX)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
@@ -62,6 +62,7 @@ target_link_libraries(OdeRelic PRIVATE
 )
 
 if(ZSTD_FOUND)
+    target_link_directories(OdeRelic PRIVATE ${ZSTD_LIBRARY_DIRS})
     target_link_libraries(OdeRelic PRIVATE ${ZSTD_LIBRARIES})
     target_include_directories(OdeRelic PRIVATE ${ZSTD_INCLUDE_DIRS})
 else()

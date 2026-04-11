@@ -73,6 +73,7 @@ OdeRelic uses CMake as its primary build system.
 ### Dependencies
 - **CMake** (3.16+)
 - **Qt 6.5+ Framework** (`QtQuick`, `QtNetwork`, `QtCore`)
+- **Zstandard** (`libzstd-dev` / `zstd`) for native emulator format (RVZ/GCZ) decompression.
 - C++17 compatible compiler (`g++`, `clang`, or `MSVC`)
 
 ### Build Steps
