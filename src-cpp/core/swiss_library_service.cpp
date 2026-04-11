@@ -416,6 +416,12 @@ void SwissLibraryService::startImportIsoAsync(const QString &sourceIsoPath, cons
     }
 
     qint64 totalBytes = sourceFile.size();
+    
+    // FAT32 Defragmentation Guarantee: Pre-allocate the entire block size before chunk streaming
+    // This forcibly provisions contiguous physical sectors from the OS whenever possible.
+    destFile.resize(totalBytes);
+    destFile.seek(0);
+
     qint64 bytesProcessed = 0;
     const qint64 READ_CHUNK = 4 * 1024 * 1024;
 
