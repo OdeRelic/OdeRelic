@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.16)
-project(OdeRelic VERSION 0.3.0 LANGUAGES CXX)
+project(OdeRelic VERSION 0.3.1 LANGUAGES CXX)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
@@ -9,6 +9,20 @@ set(CMAKE_AUTORCC ON)
 set(CMAKE_AUTOUIC ON)
 
 find_package(Qt6 COMPONENTS Core Gui Qml Quick Network Test LinguistTools REQUIRED)
+
+# Natively link Zstandard for fast decryption of RVZ emulator formats
+# Fallback logic to support both pkg-config (Linux/Mac) and native CMake configs (Windows vcpkg)
+find_package(PkgConfig QUIET)
+if(PkgConfig_FOUND)
+    pkg_check_modules(ZSTD libzstd)
+endif()
+
+if(NOT ZSTD_FOUND)
+    find_library(ZSTD_LIBRARY NAMES zstd zstd_static)
+    if(NOT ZSTD_LIBRARY)
+        message(FATAL_ERROR "Zstandard library not found! Please install libzstd-dev (Linux), zstd via vcpkg (Windows), or brew install zstd (Mac)")
+    endif()
+endif()
 
 enable_testing()
 
@@ -20,6 +34,8 @@ qt_add_executable(OdeRelic WIN32
     src-cpp/core/opl_library_service.h
     src-cpp/core/swiss_library_service.cpp
     src-cpp/core/swiss_library_service.h
+    src-cpp/core/rvz_native_converter.cpp
+    src-cpp/core/rvz_native_converter.h
     src-cpp/core/translation_manager.cpp
     src-cpp/core/translation_manager.h
     src-cpp/qml.qrc
@@ -44,6 +60,14 @@ target_link_libraries(OdeRelic PRIVATE
     Qt6::Quick
     Qt6::Network
 )
+
+if(ZSTD_FOUND)
+    target_link_directories(OdeRelic PRIVATE ${ZSTD_LIBRARY_DIRS})
+    target_link_libraries(OdeRelic PRIVATE ${ZSTD_LIBRARIES})
+    target_include_directories(OdeRelic PRIVATE ${ZSTD_INCLUDE_DIRS})
+else()
+    target_link_libraries(OdeRelic PRIVATE ${ZSTD_LIBRARY})
+endif()
 
 # Application metadata
 if(APPLE)

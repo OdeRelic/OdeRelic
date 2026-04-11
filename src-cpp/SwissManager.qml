@@ -76,7 +76,7 @@ Rectangle {
     property var batchConvertingMap: ({})
     property var batchConvertingNames: ({})
     property int batchActiveJobs: 0
-    property int batchMaxJobs: 3
+    property int batchMaxJobs: 1
     property bool isBatchExtracting: false
     property var extractQueue: []
     property int extractIndex: 0
@@ -117,9 +117,13 @@ Rectangle {
                         let artFolder = mainWindow.currentLibraryPath + "/ART"
                         swissLibraryService.startDownloadArtAsync(artFolder, res.gameId, sourcePath)
                         return; // Await async net dispatch
+                    } else {
+                        console.error("Batch ISO Import Failed: Decrypted ISO lacks valid GameCube GameID Header.")
+                        mainWindow.showToast("Import failed: " + sourcePath + " -> Bad decrypted ISO header", true)
                     }
                 } else {
                     console.error("Batch ISO Import Failed: " + message)
+                    mainWindow.showToast("Import error: " + message, true)
                 }
                 
                 // Fallback completion if network fails to dispatch
@@ -525,7 +529,7 @@ Rectangle {
         id: addGamesDialog
         title: qsTr("Select Games to Import")
         fileMode: FileDialog.OpenFiles
-        nameFilters: ["GC Images (*.iso *.gcm)", "All files (*)"]
+        nameFilters: ["GC Images (*.iso *.gcm *.rvz *.gcz)", "All files (*)"]
         onAccepted: {
             let urls = []
             for (let i = 0; i < selectedFiles.length; i++) urls.push(selectedFiles[i].toString())
@@ -831,7 +835,7 @@ Rectangle {
                     spacing: 8
                     Rectangle { height: 1; Layout.fillWidth: true; color: accentPrimary; opacity: 0.3 }
                     Text {
-                        text: "PS2"
+                        text: "Gamecube"
                         color: accentPrimary; font.pixelSize: 10; font.bold: true; font.letterSpacing: 2
                         opacity: 0.7
                     }
@@ -1424,7 +1428,7 @@ Rectangle {
                                                 }
                                                 color: textPrimary
                                                 font.bold: true; font.pixelSize: 17; font.family: "Inter"
-                                                elide: Text.ElideRight; Layout.maximumWidth: parent.width - 20
+                                                elide: Text.ElideRight; Layout.fillWidth: true; Layout.rightMargin: 20
                                             }
                                             
                                             Text {

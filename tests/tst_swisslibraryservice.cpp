@@ -86,7 +86,7 @@ void SwissLibraryServiceTests::test_swissFolderValidation() {
     
     // Inject a Swiss runtime binary mask
     QFile file(root + "/ipl.dol");
-    file.open(QIODevice::WriteOnly);
+    QVERIFY(file.open(QIODevice::WriteOnly));
     file.write("dummy");
     file.close();
     

@@ -33,6 +33,18 @@ jobs:
     - name: Prepare build environment
       run: mkdir build
 
+    - name: Install Zstandard (Linux)
+      if: runner.os == 'Linux'
+      run: sudo apt-get update && sudo apt-get install -y libzstd-dev pkg-config
+
+    - name: Install Zstandard (macOS)
+      if: runner.os == 'macOS'
+      run: brew install zstd pkgconfig
+
+    - name: Install Zstandard (Windows)
+      if: runner.os == 'Windows'
+      run: vcpkg install zstd:x64-windows
+
     - name: Extract short Git SHA safely across OSes
       shell: bash
       run: |
@@ -40,7 +52,13 @@ jobs:
         echo "SHORT_SHA=$calculatedSha" >> "$GITHUB_ENV"
 
     - name: Configure CMake
-      run: cmake -B build -S . -DCMAKE_BUILD_TYPE=Release -DGIT_COMMIT_HASH=${{ env.SHORT_SHA }}
+      shell: bash
+      run: |
+        if [ "$RUNNER_OS" == "Windows" ]; then
+          cmake -B build -S . -DCMAKE_BUILD_TYPE=Release -DGIT_COMMIT_HASH=${{ env.SHORT_SHA }} -DCMAKE_TOOLCHAIN_FILE="$VCPKG_INSTALLATION_ROOT/scripts/buildsystems/vcpkg.cmake"
+        else
+          cmake -B build -S . -DCMAKE_BUILD_TYPE=Release -DGIT_COMMIT_HASH=${{ env.SHORT_SHA }}
+        fi
 
     - name: Build
       run: cmake --build build --config Release
