@@ -76,7 +76,7 @@ Rectangle {
     property var batchConvertingMap: ({})
     property var batchConvertingNames: ({})
     property int batchActiveJobs: 0
-    property int batchMaxJobs: 3
+    property int batchMaxJobs: 1
     property bool isBatchExtracting: false
     property var extractQueue: []
     property int extractIndex: 0
