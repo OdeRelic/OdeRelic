@@ -1,6 +1,7 @@
 #include "core/opl_library_service.h"
 #include "core/swiss_library_service.h"
 #include "core/translation_manager.h"
+#include "core/logger.h"
 #include <QFileInfo>
 #include <QGuiApplication>
 #include <QIcon>
@@ -10,6 +11,8 @@
 #include <QDebug>
 
 int main(int argc, char *argv[]) {
+  Logger::init();
+
 #if QT_VERSION < QT_VERSION_CHECK(6, 0, 0)
   QCoreApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
 #endif
