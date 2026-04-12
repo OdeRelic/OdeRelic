@@ -49,6 +49,7 @@ qt_add_executable(OdeRelic WIN32
     src-cpp/core/rvz_native_converter.h
     src-cpp/core/translation_manager.cpp
     src-cpp/core/translation_manager.h
+    src-cpp/core/system_utils.cpp
     src-cpp/core/logger.cpp
     src-cpp/qml.qrc
     src-cpp/HomeScreen.qml

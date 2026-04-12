@@ -702,35 +702,33 @@ SwissLibraryService::getExternalGameFilesData(const QStringList &fileUrls) {
     } else {
       QString ext = baseInfo.suffix().toLower();
       if (ext == "rvz" || ext == "gcz" || ext == "iso" || ext == "gcm") {
-        if (ext == "rvz" || ext == "gcz" || ext == "iso" || ext == "gcm") {
-          toProcess.append(baseInfo);
-        }
+        toProcess.append(baseInfo);
       }
+    }
 
-      for (const QFileInfo &fileInfo : toProcess) {
-        if (fileInfo.exists() && fileInfo.isFile()) {
-          QVariantMap itemInfo;
-          itemInfo["extension"] = "." + fileInfo.suffix().toLower();
+    for (const QFileInfo &fileInfo : toProcess) {
+      if (fileInfo.exists() && fileInfo.isFile()) {
+        QVariantMap itemInfo;
+        itemInfo["extension"] = "." + fileInfo.suffix().toLower();
 
-          QString baseName = fileInfo.completeBaseName();
-          QString parentName = fileInfo.dir().dirName();
+        QString baseName = fileInfo.completeBaseName();
+        QString parentName = fileInfo.dir().dirName();
 
-          if (baseName.toLower() == "game" ||
-              baseName.toLower().startsWith("disc")) {
-            itemInfo["name"] = parentName;
-          } else {
-            itemInfo["name"] = baseName;
-          }
-          QRegularExpression idRegex("\\[([A-Z0-9]{6})\\]");
-          itemInfo["isRenamed"] =
-              idRegex.match(fileInfo.absoluteFilePath()).hasMatch();
-
-          itemInfo["parentPath"] = fileInfo.absolutePath();
-          itemInfo["path"] = fileInfo.absoluteFilePath();
-          itemInfo["size"] = fileInfo.size();
-          itemInfo["stats"] = QVariantMap{{"size", fileInfo.size()}};
-          files.append(itemInfo);
+        if (baseName.toLower() == "game" ||
+            baseName.toLower().startsWith("disc")) {
+          itemInfo["name"] = parentName;
+        } else {
+          itemInfo["name"] = baseName;
         }
+        QRegularExpression idRegex("\\[([A-Z0-9]{6})\\]");
+        itemInfo["isRenamed"] =
+            idRegex.match(fileInfo.absoluteFilePath()).hasMatch();
+
+        itemInfo["parentPath"] = fileInfo.absolutePath();
+        itemInfo["path"] = fileInfo.absoluteFilePath();
+        itemInfo["size"] = fileInfo.size();
+        itemInfo["stats"] = QVariantMap{{"size", fileInfo.size()}};
+        files.append(itemInfo);
       }
     }
   } // end.for
