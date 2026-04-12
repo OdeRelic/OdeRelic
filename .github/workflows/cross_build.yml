@@ -104,6 +104,7 @@ jobs:
         export PATH="${{ env.Qt6_DIR }}/bin:$PATH"
         export QMAKE="${{ env.Qt6_DIR }}/bin/qmake"
         export EXTRA_QT_PLUGINS="qml"
+        export QML_SOURCES_PATHS="../src-cpp"
         
         # Trigger native AppImage encapsulation utilizing modern modular linuxdeploy engine securely
         wget -c -nv "https://github.com/linuxdeploy/linuxdeploy/releases/download/continuous/linuxdeploy-x86_64.AppImage"
