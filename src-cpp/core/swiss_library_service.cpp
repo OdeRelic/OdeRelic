@@ -1042,19 +1042,27 @@ void SwissLibraryService::scanExternalFilesAsync(const QStringList &fileUrls,
         QFile::remove(targetRoot + "/igr.dol");
         QFile::copy(dolPath, targetRoot + "/igr.dol");
       } else if (odeType == "GC Loader") {
-        if (isoPath.isEmpty()) {
+        if (dolPath.isEmpty()) {
           QMetaObject::invokeMethod(
               this,
               [=]() {
                 emit setupSwissFinished(false,
-                                        "Could not find a valid ISO file in "
+                                        "Could not find a valid DOL file in "
                                         "the Github release bundle.");
               },
               Qt::QueuedConnection);
           return;
         }
-        QFile::remove(targetRoot + "/boot.iso");
-        QFile::copy(isoPath, targetRoot + "/boot.iso");
+        
+        // Firmware 2.0.0+ strictly utilizes boot.dol native bootstrapping
+        QFile::remove(targetRoot + "/boot.dol");
+        QFile::copy(dolPath, targetRoot + "/boot.dol");
+
+        // Retain boot.iso deployment natively bridging backwards compatibility on firmware 1.1.2-
+        if (!isoPath.isEmpty()) {
+          QFile::remove(targetRoot + "/boot.iso");
+          QFile::copy(isoPath, targetRoot + "/boot.iso");
+        }
       }
 
       // Deploy safe foundational hierarchy
