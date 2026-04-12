@@ -116,23 +116,29 @@ jobs:
           --icon-file AppDir/usr/share/icons/hicolor/512x512/apps/OdeRelic.png \
           --plugin qt --output appimage
 
-        # Rename binary natively to export dynamically cleanly
-        mv OdeRelic-*.AppImage OdeRelic-Linux.AppImage
+        # Extract version metadata parsing directly against CMake bounds organically 
+        PROJECT_VERSION=$(grep 'project(OdeRelic VERSION' ../CMakeLists.txt | grep -oE '[0-9]+\.[0-9]+\.[0-9]+')
+        
+        # Rename binary natively utilizing exact version matches dynamically organically identical to CPack outputs natively
+        mv OdeRelic-*.AppImage "OdeRelic-v${PROJECT_VERSION}-b${{ github.run_number }}-Linux.AppImage"
 
     - name: Package Windows ZIP payload natively
       if: runner.os == 'Windows'
       shell: pwsh
       run: |
-        Compress-Archive -Path build\Release\* -DestinationPath build\OdeRelic-Windows.zip
+        $versionLine = Select-String -Path CMakeLists.txt -Pattern 'project\([^V]+VERSION ([0-9]+\.[0-9]+\.[0-9]+)'
+        $version = $versionLine.Matches.Groups[1].Value
+        $runNumber = "${{ github.run_number }}"
+        Compress-Archive -Path build\Release\* -DestinationPath "build\OdeRelic-v$version-b$runNumber-Windows.zip"
 
     - name: Upload artifact payloads
       uses: actions/upload-artifact@v4
       with:
         name: ${{ matrix.artifact_name }}
         path: |
-          build/*.AppImage
+          build/OdeRelic-*.AppImage
           build/*.dmg
-          build/*.zip
+          build/OdeRelic-*.zip
 
   release:
     name: Generate Pre-Release
