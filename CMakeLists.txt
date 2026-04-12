@@ -49,6 +49,7 @@ qt_add_executable(OdeRelic WIN32
     src-cpp/core/rvz_native_converter.h
     src-cpp/core/translation_manager.cpp
     src-cpp/core/translation_manager.h
+    src-cpp/core/logger.cpp
     src-cpp/qml.qrc
     src-cpp/HomeScreen.qml
     src-cpp/OplManager.qml
@@ -117,10 +118,6 @@ if(WIN32)
     set(CPACK_GENERATOR "ZIP") # Safe, frictionless fallback generating native zip on Windows without needing NSIS natively installed on base github actions runners
 elseif(APPLE)
     set(CPACK_GENERATOR "DragNDrop")
-else()
-    set(CPACK_GENERATOR "DEB")
-    set(CPACK_DEBIAN_PACKAGE_SHLIBDEPS ON)
-    set(CPACK_DEBIAN_PACKAGE_MAINTAINER "OdeRelic")
 endif()
 
 include(CPack)
