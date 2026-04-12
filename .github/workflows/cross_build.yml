@@ -33,18 +33,6 @@ jobs:
     - name: Prepare build environment
       run: mkdir build
 
-    - name: Install Zstandard (Linux)
-      if: runner.os == 'Linux'
-      run: sudo apt-get update && sudo apt-get install -y libzstd-dev pkg-config
-
-    - name: Install Zstandard (macOS)
-      if: runner.os == 'macOS'
-      run: brew install zstd pkgconfig
-
-    - name: Install Zstandard (Windows)
-      if: runner.os == 'Windows'
-      run: vcpkg install zstd:x64-windows
-
     - name: Extract short Git SHA safely across OSes
       shell: bash
       run: |
@@ -84,9 +72,16 @@ jobs:
           --release `
           --no-translations
 
-    - name: Generate installers native payload via CPack
+    - name: Generate installers native payload (macOS/Linux)
+      if: runner.os != 'Windows'
       working-directory: ./build
       run: cpack -C Release
+
+    - name: Package Windows ZIP payload natively
+      if: runner.os == 'Windows'
+      shell: pwsh
+      run: |
+        Compress-Archive -Path build\Release\* -DestinationPath build\OdeRelic-Windows.zip
 
     - name: Upload artifact payloads
       uses: actions/upload-artifact@v4
