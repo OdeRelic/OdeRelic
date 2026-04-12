@@ -1000,6 +1000,8 @@ void SwissLibraryService::scanExternalFilesAsync(const QStringList &fileUrls,
       QDirIterator it(tempDir, QDir::Files, QDirIterator::Subdirectories);
       QString dolPath = "";
       QString isoPath = "";
+      QString gcLoaderIsoPath = "";
+      QString gcLoaderZipPath = "";
 
       while (it.hasNext()) {
         it.next();
@@ -1016,6 +1018,13 @@ void SwissLibraryService::scanExternalFilesAsync(const QStringList &fileUrls,
         if (isoPath.isEmpty() && fi.absolutePath().endsWith("/ISO") &&
             fi.suffix() == "iso" && fi.fileName().startsWith("swiss_r")) {
           isoPath = fi.absoluteFilePath();
+        }
+        if (fi.absolutePath().endsWith("/GCLoader")) {
+          if (fi.fileName() == "boot.iso" || fi.fileName() == "boot.dol") {
+            gcLoaderIsoPath = fi.absoluteFilePath(); // Maps both iso or dol fallback natively
+          } else if (fi.suffix() == "zip") {
+            gcLoaderZipPath = fi.absoluteFilePath();
+          }
         }
       }
 
@@ -1042,26 +1051,30 @@ void SwissLibraryService::scanExternalFilesAsync(const QStringList &fileUrls,
         QFile::remove(targetRoot + "/igr.dol");
         QFile::copy(dolPath, targetRoot + "/igr.dol");
       } else if (odeType == "GC Loader") {
-        if (dolPath.isEmpty()) {
-          QMetaObject::invokeMethod(
-              this,
-              [=]() {
-                emit setupSwissFinished(false,
-                                        "Could not find a valid DOL file in "
-                                        "the Github release bundle.");
-              },
-              Qt::QueuedConnection);
-          return;
-        }
-        
-        // Firmware 2.0.0+ strictly utilizes boot.dol native bootstrapping
-        QFile::remove(targetRoot + "/boot.dol");
-        QFile::copy(dolPath, targetRoot + "/boot.dol");
-
-        // Retain boot.iso deployment natively bridging backwards compatibility on firmware 1.1.2-
-        if (!isoPath.isEmpty()) {
-          QFile::remove(targetRoot + "/boot.iso");
-          QFile::copy(isoPath, targetRoot + "/boot.iso");
+        if (!gcLoaderZipPath.isEmpty()) {
+          // Native deployment through officially sanctioned root wrapper zip
+          QProcess unzipProcess;
+          unzipProcess.setProgram("unzip");
+          unzipProcess.setArguments({"-o", gcLoaderZipPath, "-d", targetRoot});
+          unzipProcess.start();
+          unzipProcess.waitForFinished(-1);
+        } else if (!gcLoaderIsoPath.isEmpty()) {
+          // Legacy officially sanctioned payload native mapping
+          QFileInfo gcFi(gcLoaderIsoPath);
+          QFile::remove(targetRoot + "/" + gcFi.fileName());
+          QFile::copy(gcLoaderIsoPath, targetRoot + "/" + gcFi.fileName());
+        } else {
+          // Fallback organically to manually extracting generic payload DOL boundaries
+          if (dolPath.isEmpty()) {
+            QMetaObject::invokeMethod(this, [=]() { emit setupSwissFinished(false, "Could not find a valid DOL payload for GC Loader deployment."); }, Qt::QueuedConnection);
+            return;
+          }
+          QFile::remove(targetRoot + "/boot.dol");
+          QFile::copy(dolPath, targetRoot + "/boot.dol");
+          if (!isoPath.isEmpty()) {
+            QFile::remove(targetRoot + "/boot.iso");
+            QFile::copy(isoPath, targetRoot + "/boot.iso");
+          }
         }
       }
 
