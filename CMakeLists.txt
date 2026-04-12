@@ -1,6 +1,6 @@
 set(CMAKE_POLICY_VERSION_MINIMUM 3.0 CACHE STRING "Suppress obsolete Zstandard policies implicitly")
 cmake_minimum_required(VERSION 3.16)
-project(OdeRelic VERSION 0.3.3 LANGUAGES CXX)
+project(OdeRelic VERSION 0.3.4 LANGUAGES CXX)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
@@ -119,7 +119,7 @@ elseif(APPLE)
     set(CPACK_GENERATOR "DragNDrop")
 else()
     set(CPACK_GENERATOR "DEB")
-    set(CPACK_DEBIAN_PACKAGE_DEPENDS "libqt6core6, libqt6gui6, libqt6qml6, libqt6quick6, libqt6network6, libzstd1, qml6-module-qtquick, qml6-module-qtquick-controls, qml6-module-qtquick-layouts, qml6-module-qtquick-window")
+    set(CPACK_DEBIAN_PACKAGE_SHLIBDEPS ON)
     set(CPACK_DEBIAN_PACKAGE_MAINTAINER "OdeRelic")
 endif()
 
