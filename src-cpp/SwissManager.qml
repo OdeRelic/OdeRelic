@@ -1625,7 +1625,7 @@ Rectangle {
                                                         color: textSecondary; font.pixelSize: 11; font.family: "Inter"
                                                     }
                                                     Text {
-                                                        text: "Format: " + (modelData.path.includes("/CD/") ? "CD" : "DVD")
+                                                        text: "Format: miniDVD"
                                                         color: textSecondary; font.pixelSize: 11; font.family: "Inter"
                                                     }
                                                     Text {
@@ -1765,7 +1765,7 @@ Rectangle {
                                                 }
                                                 
                                                 Text {
-                                                    text: "• " + (modelData.path.includes("/CD/") ? "CD" : "DVD")
+                                                    text: "• miniDVD"
                                                     color: textSecondary; font.pixelSize: 11; font.bold: true
                                                 }
                                                 
@@ -1956,7 +1956,7 @@ Rectangle {
                                                         color: textSecondary; font.pixelSize: 11; font.bold: true
                                                     }
                                                     Text {
-                                                        text: "• " + ((modelData.extension.toLowerCase() === ".bin" || modelData.extension.toLowerCase() === ".cue") ? "CD" : "DVD")
+                                                        text: "• miniDVD"
                                                         color: accentPrimary; font.pixelSize: 11; font.bold: true
                                                     }
                                                     Item { Layout.fillWidth: true }
@@ -2076,7 +2076,7 @@ Rectangle {
                                                         color: textSecondary; font.pixelSize: 12; font.bold: true
                                                     }
                                                     Text {
-                                                        text: "• " + ((modelData.extension.toLowerCase() === ".bin" || modelData.extension.toLowerCase() === ".cue") ? "CD" : "DVD")
+                                                        text: "• miniDVD"
                                                         color: accentPrimary; font.pixelSize: 12; font.bold: true
                                                     }
                                                     Item { Layout.fillWidth: true }
