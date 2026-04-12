@@ -33,19 +33,13 @@ jobs:
     - name: Prepare build environment
       run: mkdir build
 
-    - name: Extract short Git SHA safely across OSes
-      shell: bash
-      run: |
-        calculatedSha=$(git rev-parse --short ${{ github.sha }})
-        echo "SHORT_SHA=$calculatedSha" >> "$GITHUB_ENV"
-
     - name: Configure CMake
       shell: bash
       run: |
         if [ "$RUNNER_OS" == "Windows" ]; then
-          cmake -B build -S . -DCMAKE_BUILD_TYPE=Release -DGIT_COMMIT_HASH=${{ env.SHORT_SHA }} -DCMAKE_TOOLCHAIN_FILE="$VCPKG_INSTALLATION_ROOT/scripts/buildsystems/vcpkg.cmake"
+          cmake -B build -S . -DCMAKE_BUILD_TYPE=Release -DBUILD_NUMBER=${{ github.run_number }} -DCMAKE_TOOLCHAIN_FILE="$VCPKG_INSTALLATION_ROOT/scripts/buildsystems/vcpkg.cmake"
         else
-          cmake -B build -S . -DCMAKE_BUILD_TYPE=Release -DGIT_COMMIT_HASH=${{ env.SHORT_SHA }}
+          cmake -B build -S . -DCMAKE_BUILD_TYPE=Release -DBUILD_NUMBER=${{ github.run_number }}
         fi
 
     - name: Build
@@ -147,10 +141,6 @@ jobs:
     runs-on: ubuntu-latest
     if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master'
     steps:
-      - name: Extract short Git SHA safely
-        shell: bash
-        run: echo "SHORT_SHA=$(echo ${{ github.sha }} | cut -c1-7)" >> "$GITHUB_ENV"
-        
       - name: Download all compiled artifacts
         uses: actions/download-artifact@v4
         with:
@@ -160,8 +150,8 @@ jobs:
       - name: Create Beta Release
         uses: softprops/action-gh-release@v2
         with:
-          name: "Beta Build: ${{ env.SHORT_SHA }}"
-          tag_name: "beta-${{ env.SHORT_SHA }}"
+          name: "Beta Build: ${{ github.run_number }}"
+          tag_name: "beta-${{ github.run_number }}"
           draft: true
           prerelease: true
           generate_release_notes: true
