@@ -4,6 +4,7 @@ import QtQuick.Window
 import QtQuick.Dialogs
 import QtQuick.Layouts
 import QtQuick.Effects
+import Qt.labs.folderlistmodel
 
 Rectangle {
     id: mainWindow
