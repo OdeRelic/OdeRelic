@@ -15,7 +15,7 @@ jobs:
       matrix:
         include:
           - os: ubuntu-latest
-            artifact_name: OdeRelic-Linux.deb
+            artifact_name: OdeRelic-Linux.AppImage
           - os: macos-latest
             artifact_name: OdeRelic-MacOS.dmg
           - os: windows-latest
@@ -24,18 +24,11 @@ jobs:
     steps:
     - uses: actions/checkout@v4
 
-    - name: Install Qt (macOS & Windows)
-      if: runner.os != 'Linux'
+    - name: Install Qt
       uses: jurplel/install-qt-action@v3
       with:
         version: '6.5.0'
         target: 'desktop'
-
-    - name: Install Qt (Linux Native)
-      if: runner.os == 'Linux'
-      run: |
-        sudo apt-get update
-        sudo apt-get install -y qt6-base-dev qt6-declarative-dev qt6-tools-dev qt6-tools-dev-tools qt6-l10n-tools qml6-module-qtquick-controls qml6-module-qtquick-layouts qml6-module-qtquick-window
 
     - name: Prepare build environment
       run: mkdir build
@@ -79,10 +72,52 @@ jobs:
           --release `
           --no-translations
 
-    - name: Generate installers native payload (macOS/Linux)
-      if: runner.os != 'Windows'
+    - name: Generate installers native payload (macOS)
+      if: runner.os == 'macOS'
       working-directory: ./build
       run: cpack -C Release
+
+    - name: Package AppImage native payload (Linux)
+      if: runner.os == 'Linux'
+      working-directory: ./build
+      run: |
+        # Ubuntu 22.04+ permanently stripped FUSE2 securely breaking appimagetool generation dependencies automatically!
+        # Additionally, the headless runner lacks the raw libxcb-cursor.so.0 graphic libraries required by QXcb rendering!
+        sudo apt-get update && sudo apt-get install -y libfuse2 file libxcb-cursor0
+        
+        # Scaffold raw AppDir structure
+        mkdir -p AppDir/usr/bin AppDir/usr/share/applications AppDir/usr/share/icons/hicolor/512x512/apps
+        cp OdeRelic AppDir/usr/bin/
+        cp ../assets/applogo/icon_512x512.png AppDir/usr/share/icons/hicolor/512x512/apps/OdeRelic.png
+        
+        # Generate inline metadata desktop structural wrapper
+        cat <<EOF > AppDir/usr/share/applications/OdeRelic.desktop
+        [Desktop Entry]
+        Name=OdeRelic
+        Exec=OdeRelic
+        Icon=OdeRelic
+        Type=Application
+        Categories=Utility;
+        EOF
+        
+        # Wire QMake physically towards installed Github runner path bindings cleanly!
+        export PATH="${{ env.Qt6_DIR }}/bin:$PATH"
+        export QMAKE="${{ env.Qt6_DIR }}/bin/qmake"
+        export EXTRA_QT_PLUGINS="qml"
+        
+        # Trigger native AppImage encapsulation utilizing modern modular linuxdeploy engine securely
+        wget -c -nv "https://github.com/linuxdeploy/linuxdeploy/releases/download/continuous/linuxdeploy-x86_64.AppImage"
+        wget -c -nv "https://github.com/linuxdeploy/linuxdeploy-plugin-qt/releases/download/continuous/linuxdeploy-plugin-qt-x86_64.AppImage"
+        chmod +x linuxdeploy*.AppImage
+
+        ./linuxdeploy-x86_64.AppImage --appdir AppDir \
+          --executable AppDir/usr/bin/OdeRelic \
+          --desktop-file AppDir/usr/share/applications/OdeRelic.desktop \
+          --icon-file AppDir/usr/share/icons/hicolor/512x512/apps/OdeRelic.png \
+          --plugin qt --output appimage
+
+        # Rename binary natively to export dynamically cleanly
+        mv OdeRelic-*.AppImage OdeRelic-Linux.AppImage
 
     - name: Package Windows ZIP payload natively
       if: runner.os == 'Windows'
@@ -95,7 +130,7 @@ jobs:
       with:
         name: ${{ matrix.artifact_name }}
         path: |
-          build/*.deb
+          build/*.AppImage
           build/*.dmg
           build/*.zip
 

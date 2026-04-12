@@ -118,10 +118,6 @@ if(WIN32)
     set(CPACK_GENERATOR "ZIP") # Safe, frictionless fallback generating native zip on Windows without needing NSIS natively installed on base github actions runners
 elseif(APPLE)
     set(CPACK_GENERATOR "DragNDrop")
-else()
-    set(CPACK_GENERATOR "DEB")
-    set(CPACK_DEBIAN_PACKAGE_SHLIBDEPS ON)
-    set(CPACK_DEBIAN_PACKAGE_MAINTAINER "OdeRelic")
 endif()
 
 include(CPack)
