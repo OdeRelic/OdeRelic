@@ -82,6 +82,20 @@ Rectangle {
     property var extractQueue: []
     property int extractIndex: 0
 
+    property double targetDriveFreeSpace: 0
+    property double targetDriveTotalSpace: 0
+
+    function updateStorageBars() {
+        if (mainWindow.currentLibraryPath !== "") {
+            let spaceObj = systemUtils.getStorageSpace(mainWindow.currentLibraryPath)
+            targetDriveFreeSpace = spaceObj.free
+            targetDriveTotalSpace = spaceObj.total
+        }
+    }
+    
+    onCurrentLibraryPathChanged: updateStorageBars()
+    onBatchActiveJobsChanged: { if (batchActiveJobs === 0) updateStorageBars() }
+
     property int activeTargetPercent: 0
     property double activeTargetMbps: 0.0
     Component.onCompleted: {
@@ -167,6 +181,7 @@ Rectangle {
             }
             mainWindow.gameFiles = arr
             updateSort()
+            mainWindow.updateStorageBars()
         }
         
         function onSetupSwissProgress(percent, statusText) {
@@ -705,6 +720,83 @@ Rectangle {
         }
     }
 
+    Popup {
+        id: insufficientSpacePopup
+        parent: Overlay.overlay
+        anchors.centerIn: parent
+        width: 380
+        height: 220
+        modal: true
+        closePolicy: Popup.NoAutoClose
+        
+        property string requiredSpaceStr: ""
+        property string availableSpaceStr: ""
+
+        background: Rectangle {
+            color: "#0F1626"
+            radius: 12
+            border.color: "#FF4D4D"
+            border.width: 1
+        }
+        
+        ColumnLayout {
+            anchors.fill: parent
+            anchors.margins: 24
+            spacing: 16
+            
+            RowLayout {
+                spacing: 12
+                Layout.alignment: Qt.AlignHCenter
+                Text { text: "⚠️"; font.pixelSize: 22 }
+                Text {
+                    text: qsTr("Insufficient Space")
+                    color: "#FF4D4D"
+                    font.bold: true; font.pixelSize: 18
+                }
+            }
+            
+            Text {
+                text: qsTr("There is not enough free space on the destination drive to safely complete this import batch.")
+                color: textPrimary
+                font.pixelSize: 13
+                wrapMode: Text.WordWrap
+                horizontalAlignment: Text.AlignHCenter
+                Layout.fillWidth: true
+            }
+
+            Rectangle {
+                color: "#1A2235"
+                radius: 6
+                Layout.fillWidth: true
+                Layout.preferredHeight: 50
+                
+                ColumnLayout {
+                    anchors.centerIn: parent
+                    spacing: 4
+                    Text { text: "Required: " + insufficientSpacePopup.requiredSpaceStr; color: "#FFB3B3"; font.pixelSize: 12; font.bold: true; Layout.alignment: Qt.AlignHCenter }
+                    Text { text: "Available: " + insufficientSpacePopup.availableSpaceStr; color: "#FF4D4D"; font.pixelSize: 12; font.bold: true; Layout.alignment: Qt.AlignHCenter }
+                }
+            }
+            
+            Item { Layout.fillHeight: true }
+            
+            Button {
+                Layout.alignment: Qt.AlignHCenter
+                Layout.preferredWidth: 120
+                text: qsTr("Close")
+                background: Rectangle {
+                    color: parent.down ? "#222" : (parent.hovered ? "#333" : "#222")
+                    radius: 6; border.color: borderGlass; border.width: 1
+                }
+                contentItem: Text {
+                    text: parent.text; color: textPrimary; font.bold: true
+                    horizontalAlignment: Text.AlignHCenter; verticalAlignment: Text.AlignVCenter
+                }
+                onClicked: insufficientSpacePopup.close()
+            }
+        }
+    }
+
     FolderDialog {
         id: folderDialog
         title: qsTr("Select SWISS Root Folder")
@@ -1057,10 +1149,51 @@ Rectangle {
                     }
                 }
 
-                
                 Item { Layout.fillHeight: true }
 
-            }
+                // --- Storage Visualization ---
+                ColumnLayout {
+                    Layout.fillWidth: true
+                    spacing: 8
+                    visible: mainWindow.targetDriveTotalSpace > 0
+
+                    RowLayout {
+                        Layout.fillWidth: true
+                        Text {
+                            text: qsTr("Storage Media")
+                            color: textSecondary; font.pixelSize: 12; font.bold: true
+                            Layout.alignment: Qt.AlignLeft
+                        }
+                        Item { Layout.fillWidth: true }
+                        Text {
+                            // Compute GB values dynamically
+                            property double freeGb: mainWindow.targetDriveFreeSpace / (1024 * 1024 * 1024)
+                            property double totalGb: mainWindow.targetDriveTotalSpace / (1024 * 1024 * 1024)
+                            property double usedGb: totalGb - freeGb
+                            text: usedGb.toFixed(1) + " GB / " + totalGb.toFixed(1) + " GB"
+                            color: textPrimary; font.pixelSize: 11; font.bold: true
+                            Layout.alignment: Qt.AlignRight
+                        }
+                    }
+
+                    Rectangle {
+                        Layout.fillWidth: true
+                        height: 8
+                        radius: 4
+                        color: borderGlass
+
+                        Rectangle {
+                            anchors.left: parent.left
+                            anchors.top: parent.top
+                            anchors.bottom: parent.bottom
+                            width: mainWindow.targetDriveTotalSpace > 0 ? ((mainWindow.targetDriveTotalSpace - mainWindow.targetDriveFreeSpace) / mainWindow.targetDriveTotalSpace) * parent.width : 0
+                            radius: 4
+                            color: (mainWindow.targetDriveFreeSpace / mainWindow.targetDriveTotalSpace) < 0.05 ? "#FF4D4D" : accentPrimary
+                            Behavior on width { NumberAnimation { duration: 350; easing.type: Easing.OutQuad } }
+                            Behavior on color { ColorAnimation { duration: 350 } }
+                        }
+                    }
+                }            }
         }
         
         // --- Loading Library Scan Overlay Modal ---
@@ -1492,7 +1625,7 @@ Rectangle {
                                                         color: textSecondary; font.pixelSize: 11; font.family: "Inter"
                                                     }
                                                     Text {
-                                                        text: "Format: " + (modelData.path.includes("/CD/") ? "CD" : "DVD")
+                                                        text: "Format: miniDVD"
                                                         color: textSecondary; font.pixelSize: 11; font.family: "Inter"
                                                     }
                                                     Text {
@@ -1632,7 +1765,7 @@ Rectangle {
                                                 }
                                                 
                                                 Text {
-                                                    text: "• " + (modelData.path.includes("/CD/") ? "CD" : "DVD")
+                                                    text: "• miniDVD"
                                                     color: textSecondary; font.pixelSize: 11; font.bold: true
                                                 }
                                                 
@@ -1675,10 +1808,23 @@ Rectangle {
                                         onClicked: {
                                             if (mainWindow.isBatchExtracting) return;
                                             let queue = []
+                                            let totalRequiredBytes = 0
                                             for (let i = 0; i < importGames.length; i++) {
-                                                if (mainWindow.selectionMap[importGames[i].path] === true) queue.push(importGames[i])
+                                                if (mainWindow.selectionMap[importGames[i].path] === true) {
+                                                    queue.push(importGames[i])
+                                                    totalRequiredBytes += importGames[i].stats.size
+                                                }
                                             }
                                             if (queue.length === 0) return;
+                                            
+                                            // Defensive execution against storage limits
+                                            if (totalRequiredBytes > mainWindow.targetDriveFreeSpace) {
+                                                insufficientSpacePopup.requiredSpaceStr = (totalRequiredBytes / (1024*1024*1024)).toFixed(2) + " GB"
+                                                insufficientSpacePopup.availableSpaceStr = (mainWindow.targetDriveFreeSpace / (1024*1024*1024)).toFixed(2) + " GB"
+                                                insufficientSpacePopup.open()
+                                                return;
+                                            }
+
                                             swissLibraryService.resetCancelFlag()
                                             mainWindow.extractQueue = queue
                                             mainWindow.extractIndex = 0
@@ -1810,7 +1956,7 @@ Rectangle {
                                                         color: textSecondary; font.pixelSize: 11; font.bold: true
                                                     }
                                                     Text {
-                                                        text: "• " + ((modelData.extension.toLowerCase() === ".bin" || modelData.extension.toLowerCase() === ".cue") ? "CD" : "DVD")
+                                                        text: "• miniDVD"
                                                         color: accentPrimary; font.pixelSize: 11; font.bold: true
                                                     }
                                                     Item { Layout.fillWidth: true }
@@ -1930,7 +2076,7 @@ Rectangle {
                                                         color: textSecondary; font.pixelSize: 12; font.bold: true
                                                     }
                                                     Text {
-                                                        text: "• " + ((modelData.extension.toLowerCase() === ".bin" || modelData.extension.toLowerCase() === ".cue") ? "CD" : "DVD")
+                                                        text: "• miniDVD"
                                                         color: accentPrimary; font.pixelSize: 12; font.bold: true
                                                     }
                                                     Item { Layout.fillWidth: true }
