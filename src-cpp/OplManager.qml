@@ -3,6 +3,7 @@ import QtQuick.Controls
 import QtQuick.Window
 import QtQuick.Dialogs
 import QtQuick.Layouts
+import Qt.labs.folderlistmodel
 import QtQuick.Effects
 
 Rectangle {
