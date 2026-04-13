@@ -45,6 +45,8 @@ qt_add_executable(OdeRelic WIN32
     src-cpp/core/opl_library_service.h
     src-cpp/core/swiss_library_service.cpp
     src-cpp/core/swiss_library_service.h
+    src-cpp/core/ps1_xstation_library_service.cpp
+    src-cpp/core/ps1_xstation_library_service.h
     src-cpp/core/rvz_native_converter.cpp
     src-cpp/core/rvz_native_converter.h
     src-cpp/core/translation_manager.cpp
@@ -55,6 +57,7 @@ qt_add_executable(OdeRelic WIN32
     src-cpp/HomeScreen.qml
     src-cpp/OplManager.qml
     src-cpp/SwissManager.qml
+    src-cpp/PS1Manager.qml
 )
 
 qt_add_translations(OdeRelic
@@ -122,3 +125,8 @@ elseif(APPLE)
 endif()
 
 include(CPack)
+
+qt_add_executable(TestXStation tests/test_xstation.cpp src-cpp/core/ps1_xstation_library_service.cpp src-cpp/core/system_utils.cpp src-cpp/core/logger.cpp)
+target_link_libraries(TestXStation PRIVATE Qt6::Core Qt6::Gui Qt6::Test Qt6::Network)
+target_include_directories(TestXStation PRIVATE src-cpp/core)
+add_test(NAME test_xstation COMMAND TestXStation)

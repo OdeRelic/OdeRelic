@@ -1268,8 +1268,9 @@ Rectangle {
                         Item { Layout.fillWidth: true }
                         Text {
                             // Compute GB values dynamically
-                            property double freeGb: mainWindow.targetDriveFreeSpace / (1024 * 1024 * 1024)
-                            property double totalGb: mainWindow.targetDriveTotalSpace / (1024 * 1024 * 1024)
+                            property double mBase: systemUtils.getStorageMultiplier()
+                            property double freeGb: mainWindow.targetDriveFreeSpace / (mBase * mBase * mBase)
+                            property double totalGb: mainWindow.targetDriveTotalSpace / (mBase * mBase * mBase)
                             property double usedGb: totalGb - freeGb
                             text: usedGb.toFixed(1) + " GB / " + totalGb.toFixed(1) + " GB"
                             color: textPrimary; font.pixelSize: 11; font.bold: true
@@ -1695,7 +1696,7 @@ Rectangle {
                                                         color: textSecondary; font.pixelSize: 11; font.family: "Inter"
                                                     }
                                                     Text {
-                                                        text: "Size: " + ((modelData.stats.size / (1024 * 1024 * 1024)).toFixed(2) > 0.99 ? (modelData.stats.size / (1024 * 1024 * 1024)).toFixed(2) + " GB" : (modelData.stats.size / (1024 * 1024)).toFixed(0) + " MB")
+                                                        text: "Size: " + systemUtils.formatSize(modelData.stats.size)
                                                         color: textSecondary; font.pixelSize: 11; font.family: "Inter"
                                                     }
                                                 }
@@ -1815,7 +1816,7 @@ Rectangle {
                                                 }
                                                 
                                                 Text {
-                                                    text: "• " + ((modelData.stats.size / (1024 * 1024 * 1024)).toFixed(2) > 0.99 ? (modelData.stats.size / (1024 * 1024 * 1024)).toFixed(2) + " GB" : (modelData.stats.size / (1024 * 1024)).toFixed(0) + " MB")
+                                                    text: "• " + systemUtils.formatSize(modelData.stats.size)
                                                     color: textSecondary; font.pixelSize: 11; font.bold: true; font.family: "Inter"
                                                 }
                                                 
@@ -1895,7 +1896,19 @@ Rectangle {
                                         }
                                     }
                                     
-                                    Item { Layout.fillWidth: true }
+                                    Button {
+                                        text: "Add Games"
+                                        onClicked: addGamesDialog.open()
+                                        contentItem: Text { text: parent.text; color: textPrimary; font.bold: true; font.pixelSize: 13; verticalAlignment: Text.AlignVCenter; horizontalAlignment: Text.AlignHCenter }
+                                        background: Rectangle { color: parent.hovered ? borderGlass : "transparent"; radius: 6; border.color: borderGlass; implicitWidth: 100; implicitHeight: 36 }
+                                    }
+
+                                    Button {
+                                        text: "Add Folder"
+                                        onClicked: addGamesFolderDialog.open()
+                                        contentItem: Text { text: parent.text; color: textPrimary; font.bold: true; font.pixelSize: 13; verticalAlignment: Text.AlignVCenter; horizontalAlignment: Text.AlignHCenter }
+                                        background: Rectangle { color: parent.hovered ? borderGlass : "transparent"; radius: 6; border.color: borderGlass; implicitWidth: 100; implicitHeight: 36 }
+                                    }
                                     
                                     Button {
                                         id: massSelectBtn
@@ -1912,20 +1925,8 @@ Rectangle {
                                         contentItem: Text { text: parent.text; color: textPrimary; font.bold: true; font.pixelSize: 13; verticalAlignment: Text.AlignVCenter; horizontalAlignment: Text.AlignHCenter }
                                         background: Rectangle { color: parent.hovered ? borderGlass : "transparent"; radius: 6; border.color: borderGlass; implicitWidth: 150; implicitHeight: 36 }
                                     }
-                                    
-                                    Button {
-                                        text: "Add Games"
-                                        onClicked: addGamesDialog.open()
-                                        contentItem: Text { text: parent.text; color: textPrimary; font.bold: true; font.pixelSize: 13; verticalAlignment: Text.AlignVCenter; horizontalAlignment: Text.AlignHCenter }
-                                        background: Rectangle { color: parent.hovered ? borderGlass : "transparent"; radius: 6; border.color: borderGlass; implicitWidth: 100; implicitHeight: 36 }
-                                    }
 
-                                    Button {
-                                        text: "Add Folder"
-                                        onClicked: addGamesFolderDialog.open()
-                                        contentItem: Text { text: parent.text; color: textPrimary; font.bold: true; font.pixelSize: 13; verticalAlignment: Text.AlignVCenter; horizontalAlignment: Text.AlignHCenter }
-                                        background: Rectangle { color: parent.hovered ? borderGlass : "transparent"; radius: 6; border.color: borderGlass; implicitWidth: 100; implicitHeight: 36 }
-                                    }
+                                    Item { Layout.fillWidth: true }
                                 }
                             }
                             
@@ -2014,7 +2015,7 @@ Rectangle {
                                                     }
                                                     Item { Layout.fillWidth: true }
                                                     Text {
-                                                        text: ((modelData.stats.size / (1024 * 1024 * 1024)).toFixed(2) > 0.99 ? (modelData.stats.size / (1024 * 1024 * 1024)).toFixed(2) + " GB" : (modelData.stats.size / (1024 * 1024)).toFixed(0) + " MB")
+                                                        text: systemUtils.formatSize(modelData.stats.size)
                                                         color: textSecondary; font.pixelSize: 11; font.family: "Inter"
                                                     }
                                                 }
@@ -2134,7 +2135,7 @@ Rectangle {
                                                     }
                                                     Item { Layout.fillWidth: true }
                                                     Text {
-                                                        text: ((modelData.stats.size / (1024 * 1024 * 1024)).toFixed(2) > 0.99 ? (modelData.stats.size / (1024 * 1024 * 1024)).toFixed(2) + " GB" : (modelData.stats.size / (1024 * 1024)).toFixed(0) + " MB")
+                                                        text: systemUtils.formatSize(modelData.stats.size)
                                                         color: textSecondary; font.pixelSize: 12; font.family: "Inter"
                                                     }
                                                 }
@@ -2340,7 +2341,7 @@ Rectangle {
                                                         color: textSecondary; font.pixelSize: 11; font.family: "Inter"
                                                     }
                                                     Text {
-                                                        text: "Size: " + ((modelData.stats.size / (1024 * 1024 * 1024)).toFixed(2) > 0.99 ? (modelData.stats.size / (1024 * 1024 * 1024)).toFixed(2) + " GB" : (modelData.stats.size / (1024 * 1024)).toFixed(0) + " MB")
+                                                        text: "Size: " + systemUtils.formatSize(modelData.stats.size)
                                                         color: textSecondary; font.pixelSize: 11; font.family: "Inter"
                                                     }
                                                 }
@@ -2396,7 +2397,7 @@ Rectangle {
                                             RowLayout {
                                                 spacing: 12
                                                 Text { text: extractGameId(modelData.name) || "UNKNOWN ID"; color: accentPs1; font.bold: true; font.pixelSize: 11; font.family: "monospace" }
-                                                Text { text: "• " + ((modelData.stats.size / (1024 * 1024 * 1024)).toFixed(2) > 0.99 ? (modelData.stats.size / (1024 * 1024 * 1024)).toFixed(2) + " GB" : (modelData.stats.size / (1024 * 1024)).toFixed(0) + " MB"); color: textSecondary; font.pixelSize: 11; font.bold: true; font.family: "Inter" }
+                                                Text { text: "• " + systemUtils.formatSize(modelData.stats.size); color: textSecondary; font.pixelSize: 11; font.bold: true; font.family: "Inter" }
                                                 Text { text: "• VCD"; color: textSecondary; font.pixelSize: 11; font.bold: true }
                                                 Text { text: "• " + (modelData.version ? "v" + modelData.version : "v1.00"); color: textSecondary; font.pixelSize: 11; font.bold: true }
                                             }
@@ -2561,7 +2562,7 @@ Rectangle {
                                                     Text { text: modelData.extension.toUpperCase().replace(".", ""); color: textSecondary; font.pixelSize: 11; font.bold: true }
                                                     Text { text: "• PS1"; color: accentPs1; font.pixelSize: 11; font.bold: true }
                                                     Item { Layout.fillWidth: true }
-                                                    Text { text: ((modelData.stats.size / (1024 * 1024 * 1024)).toFixed(2) > 0.99 ? (modelData.stats.size / (1024 * 1024 * 1024)).toFixed(2) + " GB" : (modelData.stats.size / (1024 * 1024)).toFixed(0) + " MB"); color: textSecondary; font.pixelSize: 11; font.family: "Inter" }
+                                                    Text { text: systemUtils.formatSize(modelData.stats.size); color: textSecondary; font.pixelSize: 11; font.family: "Inter" }
                                                 }
                                             }
                                         }
@@ -2637,7 +2638,7 @@ Rectangle {
                                                     Text { text: modelData.extension.toUpperCase().replace(".", ""); color: textSecondary; font.pixelSize: 12; font.bold: true }
                                                     Text { text: "• PS1"; color: accentPs1; font.pixelSize: 12; font.bold: true }
                                                     Item { Layout.fillWidth: true }
-                                                    Text { text: ((modelData.stats.size / (1024 * 1024 * 1024)).toFixed(2) > 0.99 ? (modelData.stats.size / (1024 * 1024 * 1024)).toFixed(2) + " GB" : (modelData.stats.size / (1024 * 1024)).toFixed(0) + " MB"); color: textSecondary; font.pixelSize: 12; font.family: "Inter" }
+                                                    Text { text: systemUtils.formatSize(modelData.stats.size); color: textSecondary; font.pixelSize: 12; font.family: "Inter" }
                                                 }
                                             }
                                         }

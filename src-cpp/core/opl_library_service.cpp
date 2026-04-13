@@ -16,6 +16,7 @@
 #include <QProcess>
 #include <QUrl>
 #include "filesystem_cache.h"
+#include "system_utils.h"
 #include <fstream>
 #include <thread>
 #include <vector>
@@ -716,27 +717,6 @@ QVariantMap OplLibraryService::checkOplFolder(const QString &rootPath) {
 }
 
 namespace {
-  qint64 getCueRealSize(const QFileInfo &fileInfo) {
-      qint64 totalSize = 0;
-      QFile cueFile(fileInfo.absoluteFilePath());
-      if (cueFile.open(QIODevice::ReadOnly | QIODevice::Text)) {
-          while (!cueFile.atEnd()) {
-              QString line = cueFile.readLine().trimmed();
-              if (line.startsWith("FILE", Qt::CaseInsensitive)) {
-                  int fq = line.indexOf('"');
-                  int lq = line.lastIndexOf('"');
-                  if (fq != -1 && lq > fq) {
-                      QString binName = line.mid(fq + 1, lq - fq - 1);
-                      QFileInfo binInfo(fileInfo.absoluteDir().absoluteFilePath(binName));
-                      if (binInfo.exists()) totalSize += binInfo.size();
-                  }
-              }
-          }
-          cueFile.close();
-      }
-      return totalSize > 0 ? totalSize : fileInfo.size();
-  }
-
   void scanDirectoryRecursively(OplLibraryService* self, const QString &dirPath, QFileInfoList &outFiles) {
       // Pass 1: Rapidly count total directories
       int totalFolders = 0;
@@ -809,7 +789,7 @@ QVariantList OplLibraryService::getExternalGameFilesData(const QStringList &file
           if (fileInfo.exists() && fileInfo.isFile()) {
               QString ext = fileInfo.suffix().toLower();
               if (ext == "iso" || ext == "zso" || ext == "bin" || ext == "cue") {
-                  qint64 reportedSize = (ext == "cue") ? getCueRealSize(fileInfo) : fileInfo.size();
+                  qint64 reportedSize = (ext == "cue") ? SystemUtils::calculateCueRealSize(fileInfo) : fileInfo.size();
                   
                   QVariantMap itemInfo;
                   itemInfo["extension"] = "." + ext;
@@ -1392,7 +1372,7 @@ QVariantList OplLibraryService::getExternalPs1FilesData(const QStringList &fileU
       if (fileInfo.exists() && fileInfo.isFile()) {
         QString ext = fileInfo.suffix().toLower();
         if (ext == "bin" || ext == "cue" || ext == "img" || ext == "vcd") {
-          qint64 reportedSize = (ext == "cue") ? getCueRealSize(fileInfo) : fileInfo.size();
+          qint64 reportedSize = (ext == "cue") ? SystemUtils::calculateCueRealSize(fileInfo) : fileInfo.size();
 
           QVariantMap itemInfo;
           itemInfo["extension"] = "." + ext;

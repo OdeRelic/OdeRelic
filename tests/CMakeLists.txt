@@ -7,6 +7,8 @@ add_executable(OplLibraryServiceTests
     ../src-cpp/core/filesystem_cache.h
     ../src-cpp/core/opl_library_service.cpp
     ../src-cpp/core/opl_library_service.h
+    ../src-cpp/core/system_utils.cpp
+    ../src-cpp/core/system_utils.h
 )
 
 # Swiss Test executable
@@ -18,6 +20,8 @@ add_executable(SwissLibraryServiceTests
     ../src-cpp/core/filesystem_cache.h
     ../src-cpp/core/rvz_native_converter.cpp
     ../src-cpp/core/rvz_native_converter.h
+    ../src-cpp/core/system_utils.cpp
+    ../src-cpp/core/system_utils.h
 )
 
 # Test dependencies
@@ -56,3 +60,18 @@ target_include_directories(FileSystemCacheTests PRIVATE ../src-cpp/core)
 add_test(NAME OplLibraryServiceTests COMMAND OplLibraryServiceTests)
 add_test(NAME FileSystemCacheTests COMMAND FileSystemCacheTests)
 add_test(NAME SwissLibraryServiceTests COMMAND SwissLibraryServiceTests)
+
+# SystemUtils Component Testing
+add_executable(SystemUtilsTests
+    tst_systemutils.cpp
+    ../src-cpp/core/system_utils.cpp
+    ../src-cpp/core/system_utils.h
+)
+
+target_link_libraries(SystemUtilsTests PRIVATE
+    Qt6::Core
+    Qt6::Test
+)
+
+target_include_directories(SystemUtilsTests PRIVATE ../src-cpp/core)
+add_test(NAME SystemUtilsTests COMMAND SystemUtilsTests)
