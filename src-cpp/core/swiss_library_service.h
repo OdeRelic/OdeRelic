@@ -47,8 +47,8 @@ public:
 signals:
     void libraryScanProgress(int current, int total);
     void conversionFinished(QString sourcePath, bool success, QString newPath, QString message);
-    void conversionProgress(QString sourcePath, int percent);
-    void importIsoProgress(QString sourcePath, int percent, double mbps);
+    void conversionProgress(QString sourcePath, int percent, double MBps);
+    void importIsoProgress(QString sourcePath, int percent, double MBps);
     void importIsoFinished(QString sourcePath, bool success, QString destIsoPath, QString message);
     void setupSwissProgress(int percent, QString statusText);
     void setupSwissFinished(bool success, QString message);
@@ -61,7 +61,7 @@ signals:
     void artDownloadFinished(QString sourcePath, bool success, QString message);
 
     // Dummy signals for multi-purpose parent QML compatibility
-    void ps1ConversionProgress(QString sourcePath, int percent);
+    void ps1ConversionProgress(QString sourcePath, int percent, double MBps);
     void ps1ImportProgress(QString sourcePath, int percent);
     void ps1ArtDownloadProgress(QString sourcePath, int percent);
     void ps1GamesLoaded(QString dirPath, QVariantMap data);

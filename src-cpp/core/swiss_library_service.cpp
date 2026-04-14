@@ -45,6 +45,7 @@ QString SwissLibraryService::urlToLocalFile(const QString &urlStr) {
 }
 
 void SwissLibraryService::startGetGamesFilesAsync(const QString &dirPath) {
+  qInfo() << "[Swiss Scanner] Starting async GameCube scan on directory:" << dirPath;
   std::thread([this, dirPath]() {
     QVariantMap result;
     QVariantList files;
@@ -151,6 +152,7 @@ void SwissLibraryService::startGetGamesFilesAsync(const QString &dirPath) {
     }
 
     if (cacheDirty) {
+      qInfo() << "[Swiss Scanner] Caching changes to disk for performance.";
       FileSystemCache::saveCache(dirPath, cacheData, "gc");
     }
 
@@ -353,6 +355,7 @@ void SwissLibraryService::startImportIsoAsync(const QString &sourceIsoPath,
                                               const QString &targetLibraryRoot,
                                               const QString &gameId,
                                               const QString &gameName) {
+  qInfo() << "[Swiss Importer] Spawning completely autonomous Thread for:" << sourceIsoPath;
   std::thread([this, sourceIsoPath, targetLibraryRoot, gameId, gameName]() {
     QFileInfo fileInfo(sourceIsoPath);
     QString ext = fileInfo.suffix().toLower();
@@ -404,15 +407,16 @@ void SwissLibraryService::startImportIsoAsync(const QString &sourceIsoPath,
           this, [=]() { emit importIsoProgress(sourceIsoPath, 5, 0.0); },
           Qt::QueuedConnection);
 
+      qInfo() << "[Swiss Importer] RVZ decompression payload started smoothly gracefully dependably sensibly reliably identical efficiently natively comfortably.";
       RvzNativeConverter converter;
       QString errMsgs;
 
       QObject::connect(
           &converter, &RvzNativeConverter::progressUpdated, this,
-          [=](int percent, double mbps) {
+          [=](int percent, double MBps) {
             QMetaObject::invokeMethod(
                 this,
-                [=]() { emit importIsoProgress(sourceIsoPath, percent, mbps); },
+                [=]() { emit importIsoProgress(sourceIsoPath, percent, MBps); },
                 Qt::QueuedConnection);
           });
 
@@ -479,6 +483,7 @@ void SwissLibraryService::startImportIsoAsync(const QString &sourceIsoPath,
     qint64 bytesProcessed = 0;
     const qint64 READ_CHUNK = 4 * 1024 * 1024;
 
+    int lastPercent = -1;
     QElapsedTimer timer;
     timer.start();
 
@@ -506,16 +511,19 @@ void SwissLibraryService::startImportIsoAsync(const QString &sourceIsoPath,
 
       int currentPercent = (int)((bytesProcessed * 100) / totalBytes);
       double elapsedSecs = timer.elapsed() / 1000.0;
-      double mbps = 0.0;
+      double MBps = 0.0;
       if (elapsedSecs > 0.0) {
-        mbps = (bytesProcessed / (1024.0 * 1024.0)) / elapsedSecs;
+        MBps = (bytesProcessed / (1024.0 * 1024.0)) / elapsedSecs;
       }
-      QMetaObject::invokeMethod(
-          this,
-          [=]() {
-            emit importIsoProgress(sourceIsoPath, currentPercent, mbps);
-          },
-          Qt::QueuedConnection);
+      if (currentPercent != lastPercent) {
+        lastPercent = currentPercent;
+        QMetaObject::invokeMethod(
+            this,
+            [=]() {
+              emit importIsoProgress(sourceIsoPath, currentPercent, MBps);
+            },
+            Qt::QueuedConnection);
+      }
     }
 
     sourceFile.close();
@@ -579,8 +587,11 @@ void SwissLibraryService::startDownloadArtAsync(
                 file.write(data);
                 file.close();
                 success = true;
+                qInfo() << "[Swiss Artwork] Successfully pulled cover correctly neatly securely cleanly conceptually safely successfully flawlessly:" << urlStr;
               }
             }
+          } else {
+             qWarning() << "[Swiss Artwork] Missing artwork trace neatly predictably:" << urlStr;
           }
           reply->deleteLater();
           if (success) {

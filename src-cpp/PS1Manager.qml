@@ -26,8 +26,14 @@ Rectangle {
     color: bgMain
 
     function extractGameId(filename) {
-        let match = filename.match(/\[([A-Z0-9]{6})\]/i);
-        return match ? match[1].toUpperCase() : "";
+        let match = filename.match(/(SLUS|SCUS|SLES|SCES|SLPM|SLPS|SCPS|SCPM|SLAJ|SCAJ|SLKA|SCKA|SCED|SCCS)[_-]?\d{3}\.?\d{2}/i);
+        if (!match) return "";
+        let str = match[0].toUpperCase();
+        str = str.replace("-", "_");
+        if (str.length === 10 && str[4] === '_' && str[8] !== '.') {
+            str = str.slice(0, 8) + "." + str.slice(8);
+        }
+        return str;
     }
 
     property string currentLibraryPath: ""
@@ -74,7 +80,7 @@ Rectangle {
     
     property bool isScrapingIO: false
 
-    // ── PS2 batch state ───────────────────────────────────────────────────────
+    // ── PS1 batch state ───────────────────────────────────────────────────────
     property var batchConvertingMap: ({})
     property var batchConvertingNames: ({})
     property int batchActiveJobs: 0
@@ -107,7 +113,7 @@ Rectangle {
 
 
     Connections {
-        target: swissLibraryService
+        target: ps1XstationLibraryService
         function onImportIsoProgress(sourcePath, percent, MBps) {
             mainWindow.activeTargetPercent = percent
             mainWindow.activeTargetMBps = MBps
@@ -120,13 +126,21 @@ Rectangle {
                 isScrapingIO = false
                 mainWindow.gameFiles = []
                 mainWindow.gameFiles = data.data
-                mainWindow.selectionMap = ({})
                 mainWindow.librarySelectionMap = ({})
+                mainWindow.selectionMap = ({})
                 updateSort()
             }
         }
         
         function onArtDownloadFinished(sourcePath, success, message) {
+            if (sourcePath.toString().startsWith("FETCH_")) {
+                fetchArtBtn.activeJobs--
+                if (fetchArtBtn.currIndex >= mainWindow.libraryGames.length && fetchArtBtn.activeJobs <= 0) {
+                    fetchArtBtn.fetching = false
+                    Qt.callLater(refreshGames)
+                }
+                return;
+            }
             if (mainWindow.batchConvertingMap[sourcePath] === true) {
                 let newMap = Object.assign({}, mainWindow.batchConvertingMap)
                 delete newMap[sourcePath]
@@ -140,18 +154,29 @@ Rectangle {
         function onImportIsoFinished(sourcePath, success, destIsoPath, message) {
             if (mainWindow.batchConvertingMap[sourcePath] === true) {
                 if (success) {
-                    let res = swissLibraryService.tryDetermineGameIdFromHex(destIsoPath)
-                    if (res && res.success) {
-                        let artFolder = mainWindow.currentLibraryPath + "/ART"
-                        swissLibraryService.startDownloadArtAsync(artFolder, res.gameId, sourcePath)
+                    let extractedId = extractGameId(mainWindow.batchConvertingNames[sourcePath]);
+                    if (extractedId === "") {
+                        let hexScan = ps1XstationLibraryService.tryDetermineGameIdFromHex(sourcePath);
+                        if (hexScan.success) extractedId = hexScan.gameId;
+                    }
+                    if (extractedId !== "") {
+                        let artFolder = destIsoPath
+                        ps1XstationLibraryService.startDownloadArtAsync(artFolder, extractedId, sourcePath)
                         return; // Await async net dispatch
                     } else {
-                        console.error("Batch ISO Import Failed: Decrypted ISO lacks valid GameCube GameID Header.")
-                        mainWindow.showToast("Import failed: " + sourcePath + " -> Bad decrypted ISO header", true)
+                        console.log("No valid PS1 GameID found in filename string intuitively naturally safely.");
                     }
                 } else {
                     console.error("Batch ISO Import Failed: " + message)
-                    mainWindow.showToast("Import error: " + message, true)
+                    ps1XstationLibraryService.cancelAllImports()
+                    isBatchExtracting = false
+                    extractQueue = []
+                    mainWindow.librarySelectionMap = ({})
+                    mainWindow.selectionMap = ({})
+                    Qt.callLater(refreshGames)
+                    
+                    formatErrorPopup.errorDetails = message
+                    formatErrorPopup.open()
                 }
                 
                 // Fallback completion if network fails to dispatch
@@ -159,7 +184,7 @@ Rectangle {
                 delete newMap[sourcePath]
                 mainWindow.batchConvertingMap = newMap
                 mainWindow.batchActiveJobs--
-                extractProcessor()
+                if (isBatchExtracting) extractProcessor()
             }
         }
         
@@ -173,7 +198,7 @@ Rectangle {
             mainWindow.libraryScanTotal = total
         }
         
-        function onExternalFilesScanFinished(isGc, files) {
+        function onExternalFilesScanFinished(isPs1, files) {
             folderScanOverlay.close()
             let arr = [].concat(mainWindow.gameFiles)
             for (let i = 0; i < files.length; i++) {
@@ -186,62 +211,30 @@ Rectangle {
             mainWindow.updateStorageBars()
         }
         
-        function onSetupSwissProgress(percent, statusText) {
+        function onSetupXStationProgress(percent, statusText) {
             mainWindow.swissSetupStatusStr = statusText
             mainWindow.swissSetupPercent = percent
         }
         
-        function onSetupSwissFinished(success, message) {
+        function onSetupXStationFinished(success, message) {
             swissSetupProgressOverlay.close()
             mainWindow.isScrapingIO = true
             refreshGames()
             swissUpdateAvailable = false // Clear banner after setup
             currentTabIndex = 0
-            console.log("Swiss Setup result:", success, message)
+            console.log("XStation Setup result:", success, message)
         }
         
-        function onSwissUpdateCheckFinished(updateAvailable, localVersion, remoteVersion, savedOde) {
+        function onXstationUpdateCheckFinished(updateAvailable, localVersion, remoteVersion, savedOde) {
             mainWindow.swissUpdateAvailable = updateAvailable
             mainWindow.swissLocalVersion = localVersion
             mainWindow.swissRemoteVersion = remoteVersion
             mainWindow.savedOdeType = savedOde
             
-            if (updateAvailable) console.log("Swiss Update Available:", remoteVersion)
+            if (updateAvailable) console.log("XStation Update Available:", remoteVersion)
         }
         
-        function onConversionFinished(sourcePath, success, destIsoPath, message) {
-            if (mainWindow.batchConvertingMap[sourcePath] === true) {
-                let currentName = mainWindow.batchConvertingNames[sourcePath]
-                
-                if (success) {
-                    let res = swissLibraryService.tryDetermineGameIdFromHex(destIsoPath)
-                    if (res && res.success) {
-                        let isOriginalCD = sourcePath.toLowerCase().endsWith(".bin") || sourcePath.toLowerCase().endsWith(".cue");
-                        let renameRes = swissLibraryService.renameGamefile(destIsoPath, mainWindow.currentLibraryPath, res.gameId, currentName)
-                        if (renameRes.success) {
-                            let artFolder = mainWindow.currentLibraryPath + "/ART"
-                            swissLibraryService.startDownloadArtAsync(artFolder, res.gameId, sourcePath)
-                            // We do NOT delete the user's original .bin/.cue source file anymore
-                            return; // Await async net dispatch
-                        } else {
-                            console.error("Batch Move Failed: " + renameRes.message)
-                        }
-                    } else {
-                        // We still delete destIsoPath here because it's the internally generated temp iso that failed GC validation
-                        swissLibraryService.deleteFileAndCue(destIsoPath)
-                    }
-                } else {
-                    console.error("Batch CONVERSION Failed: " + message)
-                }
-                
-                // Fallback completion if network fails to dispatch
-                let newMap = Object.assign({}, mainWindow.batchConvertingMap)
-                delete newMap[sourcePath]
-                mainWindow.batchConvertingMap = newMap
-                mainWindow.batchActiveJobs--
-                extractProcessor()
-            }
-        }
+
     }
 
     
@@ -265,14 +258,14 @@ Rectangle {
             anchors.margins: 20
             spacing: 15
             Text {
-                text: qsTr("Setup Swiss Target")
+                text: qsTr("Setup PS1 ODE")
                 color: accentPrimary
                 font.bold: true
                 font.pixelSize: 18
                 Layout.alignment: Qt.AlignHCenter
             }
             Text {
-                text: qsTr("Please select the root directory of your SD Card or USB drive to mount the GC ecosystem natively.")
+                text: qsTr("Please select the root directory of your SD Card or USB drive to mount the PS1 ecosystem natively.")
                 color: textSecondary
                 font.pixelSize: 14
                 wrapMode: Text.Wrap
@@ -384,7 +377,7 @@ Rectangle {
 
         property int currentIndex: mainWindow.extractIndex
         property int totalItems: mainWindow.extractQueue.length
-        property string actionName: "Importing GC games..."
+        property string actionName: "Importing PS1 games..."
         property color activeColor: accentPrimary
         
         onOpened: {
@@ -472,14 +465,14 @@ Rectangle {
                     border.color: borderGlass; border.width: 1; radius: 4
                 }
                 onClicked: {
-                    swissLibraryService.cancelAllImports()
+                    ps1XstationLibraryService.cancelAllImports()
                     mainWindow.isBatchExtracting = false
                     mainWindow.batchActiveJobs = 0
                     mainWindow.extractQueue = []
                     mainWindow.extractIndex = 0
                     mainWindow.batchConvertingMap = ({})
-                    mainWindow.selectionMap = ({})
                     mainWindow.librarySelectionMap = ({})
+                    mainWindow.selectionMap = ({})
                     importProgressOverlay.close()
                     refreshGames()
                 }
@@ -506,7 +499,7 @@ Rectangle {
             anchors.centerIn: parent
             spacing: 12
             Text {
-                text: "Standing up Swiss Ecosystem"
+                text: "Standing up XStation Ecosystem"
                 color: accentPrimary
                 font.bold: true; font.pixelSize: 15
                 Layout.alignment: Qt.AlignHCenter
@@ -544,7 +537,7 @@ Rectangle {
         modal: true
         closePolicy: Popup.NoAutoClose
         
-        property string selectedOde: "PicoBoot"
+        property string selectedOde: "XStation System OS"
         
         background: Rectangle {
             color: "#EA0A1929"
@@ -559,7 +552,7 @@ Rectangle {
             spacing: 12
             
             Text {
-                text: qsTr("Swiss-GC Auto Setup")
+                text: qsTr("PS1 ODE Auto Setup")
                 color: accentPrimary
                 font.bold: true
                 font.pixelSize: 18
@@ -567,7 +560,7 @@ Rectangle {
             }
             
             Text {
-                text: qsTr("We couldn't detect a valid Swiss installation. Would you like OdeRelic to fetch the latest official release from GitHub and provision it for your drive automatically?")
+                text: qsTr("We couldn't detect a valid XStation installation. Would you like OdeRelic to fetch the latest official release from GitHub and provision it for your drive automatically?")
                 color: textPrimary
                 font.pixelSize: 13
                 wrapMode: Text.WordWrap
@@ -590,7 +583,7 @@ Rectangle {
                 ComboBox {
                     id: odeTypeSelector
                     Layout.fillWidth: true
-                    model: ["PicoBoot", "GC Loader", "KunaiGC", "Standalone"]
+                    model: ["XStation", "PSIO"]
                     onCurrentTextChanged: createStructurePopup.selectedOde = currentText
                 }
             }
@@ -625,7 +618,7 @@ Rectangle {
                     onClicked: {
                         createStructurePopup.close()
                         swissSetupProgressOverlay.open()
-                        swissLibraryService.startSwissSetupAsync(mainWindow.currentLibraryPath, createStructurePopup.selectedOde)
+                        ps1XstationLibraryService.startXStationSetupAsync(mainWindow.currentLibraryPath, createStructurePopup.selectedOde)
                     }
                     contentItem: Text {
                         text: parent.text; color: "white"; font.bold: true; horizontalAlignment: Text.AlignHCenter; verticalAlignment: Text.AlignVCenter
@@ -678,7 +671,7 @@ Rectangle {
             }
             
             Text {
-                text: qsTr("This drive cannot be used with Swiss.")
+                text: qsTr("This drive cannot be used with XStation.")
                 color: textPrimary
                 font.pixelSize: 14
                 font.bold: true
@@ -922,28 +915,19 @@ Rectangle {
 
     FolderDialog {
         id: folderDialog
-        title: qsTr("Select SWISS Root Folder")
+        title: qsTr("Select PS1 Root Folder")
         onAccepted: {
-            let cleanPath = swissLibraryService.urlToLocalFile(selectedFolder.toString())
-            let structureCheck = swissLibraryService.checkSwissFolder(cleanPath)
-            
-            if (!structureCheck.isFormatCorrect || !structureCheck.isPartitionCorrect) {
-                let err = []
-                if (!structureCheck.isFormatCorrect) err.push("• FAT32 or exFAT required")
-                if (!structureCheck.isPartitionCorrect) err.push("• MBR partition table required")
-                formatErrorPopup.errorDetails = err.join("\n")
-                formatErrorPopup.open()
-                return
-            }
+            let cleanPath = ps1XstationLibraryService.urlToLocalFile(selectedFolder.toString())
+            let structureCheck = ps1XstationLibraryService.checkXStationFolder(cleanPath)
 
             mainWindow.currentLibraryPath = cleanPath
             
-            if (!structureCheck.isValid) {
+            if (!structureCheck.isSetup) {
                 createStructurePopup.open()
             } else {
                 mainWindow.isScrapingIO = true
                 refreshGames()
-                swissLibraryService.checkSwissUpdateAsync(cleanPath)
+                ps1XstationLibraryService.checkXStationUpdateAsync(cleanPath)
                 currentTabIndex = 0
             }
         }
@@ -960,12 +944,12 @@ Rectangle {
         id: addGamesDialog
         title: qsTr("Select Games to Import")
         fileMode: FileDialog.OpenFiles
-        nameFilters: ["GC Images (*.iso *.gcm *.rvz *.gcz)", "All files (*)"]
+        nameFilters: ["PS1 CD Images (*.bin *.cue *.img *.iso *.chd)", "All files (*)"]
         onAccepted: {
             let urls = []
             for (let i = 0; i < selectedFiles.length; i++) urls.push(selectedFiles[i].toString())
             folderScanOverlay.open()
-            swissLibraryService.scanExternalFilesAsync(urls, false)
+            ps1XstationLibraryService.scanExternalFilesAsync(urls, false)
         }
     }
 
@@ -974,7 +958,7 @@ Rectangle {
         title: qsTr("Select Folder to Import GC Games")
         onAccepted: {
             folderScanOverlay.open()
-            swissLibraryService.scanExternalFilesAsync([selectedFolder.toString()], false)
+            ps1XstationLibraryService.scanExternalFilesAsync([selectedFolder.toString()], false)
         }
     }
     
@@ -982,7 +966,7 @@ Rectangle {
     
     function refreshGames() {
         if (currentLibraryPath !== "") {
-            swissLibraryService.startGetGamesFilesAsync(currentLibraryPath)
+            ps1XstationLibraryService.startGetGamesFilesAsync(currentLibraryPath)
         }
     }
 
@@ -1027,37 +1011,26 @@ Rectangle {
         while (mainWindow.batchActiveJobs < mainWindow.batchMaxJobs && extractIndex < extractQueue.length) {
             let g = extractQueue[extractIndex]
             extractIndex++;
-            let isoPath = g.path
-            let isBin = (g.extension.toLowerCase() === ".bin" || g.extension.toLowerCase() === ".cue")
+            let filePath = g.path
             
-            if (isBin) {
-                let tempIsoPath = mainWindow.currentLibraryPath + "/.orbit_temp_" + Math.floor(Math.random() * 1000000) + ".iso"
-                let newMap = Object.assign({}, mainWindow.batchConvertingMap)
-                newMap[g.path] = true
-                mainWindow.batchConvertingMap = newMap
-                
-                let newNames = Object.assign({}, mainWindow.batchConvertingNames)
-                newNames[g.path] = g.name
-                mainWindow.batchConvertingNames = newNames
-                
-                mainWindow.batchActiveJobs++;
-                swissLibraryService.startConvertBinToIso(isoPath, tempIsoPath)
-                continue;
+            let gameId = extractGameId(g.name)
+            if (gameId === "") {
+                let hexScan = ps1XstationLibraryService.tryDetermineGameIdFromHex(filePath);
+                if (hexScan.success) gameId = hexScan.gameId;
             }
-
-            let res = swissLibraryService.tryDetermineGameIdFromHex(isoPath)
-            if (res.success) {
-                let newMap = Object.assign({}, mainWindow.batchConvertingMap)
-                newMap[isoPath] = true
-                mainWindow.batchConvertingMap = newMap
-                
-                let newNames = Object.assign({}, mainWindow.batchConvertingNames)
-                newNames[isoPath] = g.name
-                mainWindow.batchConvertingNames = newNames
-                
-                mainWindow.batchActiveJobs++;
-                swissLibraryService.startImportIsoAsync(isoPath, mainWindow.currentLibraryPath, res.gameId, g.name)
-            }
+            
+            let newMap = Object.assign({}, mainWindow.batchConvertingMap)
+            newMap[filePath] = true
+            mainWindow.batchConvertingMap = newMap
+            
+            let newNames = Object.assign({}, mainWindow.batchConvertingNames)
+            newNames[filePath] = g.name
+            mainWindow.batchConvertingNames = newNames
+            
+            mainWindow.batchActiveJobs++;
+            mainWindow.activeTargetPercent = 0
+            mainWindow.activeTargetMBps = 0.0
+            ps1XstationLibraryService.startImportIsoAsync(filePath, mainWindow.currentLibraryPath, gameId, g.name)
             
             continue;
         }
@@ -1175,6 +1148,7 @@ Rectangle {
                         }
                         Item { Layout.fillWidth: true }
                         Text {
+                            // Compute GB values dynamically
                             property double mBase: systemUtils.getStorageMultiplier()
                             property double freeGb: mainWindow.targetDriveFreeSpace / (mBase * mBase * mBase)
                             property double totalGb: mainWindow.targetDriveTotalSpace / (mBase * mBase * mBase)
@@ -1239,7 +1213,7 @@ Rectangle {
                         spacing: 6
                         
                         Text {
-                            text: "⚠️ Swiss Update Available"
+                            text: "⚠️ XStation Update Available"
                             color: "#FF8C8C"; font.pixelSize: 12; font.bold: true
                         }
                         
@@ -1253,7 +1227,7 @@ Rectangle {
                             text: "Update Now (" + mainWindow.savedOdeType + ")"
                             onClicked: {
                                 swissSetupProgressOverlay.open()
-                                swissLibraryService.startSwissSetupAsync(mainWindow.currentLibraryPath, mainWindow.savedOdeType)
+                                ps1XstationLibraryService.startXStationSetupAsync(mainWindow.currentLibraryPath, mainWindow.savedOdeType)
                             }
                             contentItem: Text {
                                 text: parent.text; color: "white"; font.bold: true; font.pixelSize: 11
@@ -1275,7 +1249,7 @@ Rectangle {
                     spacing: 8
                     Rectangle { height: 1; Layout.fillWidth: true; color: accentPrimary; opacity: 0.3 }
                     Text {
-                        text: "Gamecube"
+                        text: "PlayStation 1"
                         color: accentPrimary; font.pixelSize: 10; font.bold: true; font.letterSpacing: 2
                         opacity: 0.7
                     }
@@ -1289,7 +1263,116 @@ Rectangle {
 
                     Button {
                         Layout.fillWidth: true
-                        text: qsTr("Gamecube Library") + "  (" + libraryGames.length + ")"
+                        text: qsTr("PlayStation 1 Import") + "  (" + importGames.length + ")"
+                        onClicked: currentTabIndex = 1
+                        contentItem: Text {
+                            text: parent.text; color: currentTabIndex === 1 ? "white" : textSecondary
+                            font.bold: true; font.pixelSize: 14; horizontalAlignment: Text.AlignLeft
+                            leftPadding: 20; verticalAlignment: Text.AlignVCenter
+                        }
+                        background: Rectangle {
+                            color: currentTabIndex === 1 ? "#33FF4D4D" : "transparent"
+                            radius: 8; implicitHeight: 46
+                            border.color: currentTabIndex === 1 ? accentPrimary : (parent.hovered ? borderGlass : "transparent")
+                            Behavior on color { ColorAnimation { duration: 150 } }
+                        }
+                    }
+                    
+                    // Hierarchical Actions Box elegantly organically functionally creatively cleanly properly
+                    Rectangle {
+                        Layout.fillWidth: true
+                        Layout.leftMargin: 15
+                        implicitHeight: importActionsLayout.implicitHeight + 16
+                        color: "#161925"
+                        radius: 8
+                        border.color: borderGlass; border.width: 1
+                        visible: currentTabIndex === 1
+                        
+                        ColumnLayout {
+                            id: importActionsLayout
+                            anchors.top: parent.top
+                            anchors.left: parent.left
+                            anchors.right: parent.right
+                            anchors.margins: 8
+                            spacing: 8
+                            
+                            Text {
+                                text: qsTr("ACTIONS")
+                                color: textSecondary
+                                font.pixelSize: 10
+                                font.bold: true; font.letterSpacing: 2
+                            }
+                            
+                            Button {
+                                Layout.fillWidth: true
+                                property int selectedCount: Object.values(mainWindow.selectionMap).filter(v => v === true).length
+                                text: mainWindow.isBatchExtracting ? qsTr("Importing...") : qsTr("Import Selected") + " (" + selectedCount + ")"
+                                enabled: selectedCount > 0 || mainWindow.isBatchExtracting
+                                opacity: enabled ? 1.0 : 0.5
+                                
+                                onClicked: {
+                                    if (mainWindow.isBatchExtracting) return;
+                                    let queue = []
+                                    let totalRequiredBytes = 0
+                                    for (let i = 0; i < importGames.length; i++) {
+                                        if (mainWindow.selectionMap[importGames[i].path] === true) {
+                                            queue.push(importGames[i])
+                                            totalRequiredBytes += importGames[i].stats.size
+                                        }
+                                    }
+                                    if (queue.length === 0) return;
+                                    
+                                    if (totalRequiredBytes > mainWindow.targetDriveFreeSpace) {
+                                        insufficientSpacePopup.requiredSpaceStr = (totalRequiredBytes / (1024*1024*1024)).toFixed(2) + " GB"
+                                        insufficientSpacePopup.availableSpaceStr = (mainWindow.targetDriveFreeSpace / (1024*1024*1024)).toFixed(2) + " GB"
+                                        insufficientSpacePopup.open()
+                                        return;
+                                    }
+        
+                                    ps1XstationLibraryService.resetCancelFlag()
+                                    mainWindow.extractQueue = queue
+                                    mainWindow.extractIndex = 0
+                                    mainWindow.isBatchExtracting = true
+                                    mainWindow.batchActiveJobs = 0
+                                    mainWindow.extractProcessor()
+                                }
+                                
+                                contentItem: Text {
+                                    text: parent.text
+                                    color: "white"
+                                    font.bold: true; font.pixelSize: 13
+                                    horizontalAlignment: Text.AlignHCenter; verticalAlignment: Text.AlignVCenter
+                                    elide: Text.ElideRight
+                                    width: parent.width - 10
+                                }
+                                background: Rectangle {
+                                    color: parent.down ? "#111" : (parent.hovered ? "#3A3F58" : "#2A2F40")
+                                    radius: 6; border.color: borderGlass; border.width: 1
+                                    implicitHeight: 32
+                                    
+                                    Rectangle {
+                                        anchors.left: parent.left
+                                        anchors.top: parent.top
+                                        anchors.bottom: parent.bottom
+                                        width: mainWindow.importProgressOverlay && mainWindow.importProgressOverlay.totalItems > 0 ? (mainWindow.importProgressOverlay.currentIndex / mainWindow.importProgressOverlay.totalItems) * parent.width : 0
+                                        radius: 6
+                                        color: "#55FF7A00"
+                                        Behavior on width { NumberAnimation { duration: 200 } }
+                                        visible: mainWindow.isBatchExtracting
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+                ColumnLayout {
+                    Layout.fillWidth: true
+                    spacing: 4
+
+                    Button {
+                        Layout.fillWidth: true
+                        text: qsTr("PlayStation 1 Library") + "  (" + libraryGames.length + ")"
                         onClicked: currentTabIndex = 0
                         contentItem: Text {
                             text: parent.text; color: currentTabIndex === 0 ? "white" : textSecondary
@@ -1303,89 +1386,102 @@ Rectangle {
                             Behavior on color { ColorAnimation { duration: 150 } }
                         }
                     }
-
+                    
+                    // Hierarchical Actions Box for Library nicely flawlessly smartly
                     Rectangle {
                         Layout.fillWidth: true
                         Layout.leftMargin: 15
-                        implicitHeight: gcLibActionsLayout.implicitHeight + 16
+                        implicitHeight: libraryActionsLayout.implicitHeight + 16
                         color: "#161925"
                         radius: 8
                         border.color: borderGlass; border.width: 1
                         visible: currentTabIndex === 0 && libraryGames.length > 0
-
+                        
                         ColumnLayout {
-                            id: gcLibActionsLayout
+                            id: libraryActionsLayout
                             anchors.top: parent.top
                             anchors.left: parent.left
                             anchors.right: parent.right
                             anchors.margins: 8
                             spacing: 8
-
+                            
                             Text {
                                 text: qsTr("ACTIONS")
                                 color: textSecondary
-                                font.pixelSize: 10; font.bold: true; font.letterSpacing: 2
+                                font.pixelSize: 10
+                                font.bold: true; font.letterSpacing: 2
                             }
-
+                            
                             Button {
+                                id: fetchArtBtn
                                 Layout.fillWidth: true
+                                
                                 property bool fetching: false
-                                property int currIndex: 0
-                                text: fetching ? (qsTr("Pulling...") + " (" + currIndex + "/" + libraryGames.length + ")") : qsTr("Fetch Missing Artwork")
-                                enabled: !fetching && libraryGames.length > 0
-                                opacity: enabled ? 1.0 : 0.6
+                                property int currentOp: 0
+                                property int totalOp: 0
+                                
+                                text: qsTr("Fetch Missing Artwork")
+                                enabled: !fetching
+                                opacity: enabled ? 1.0 : 0.5
+                                
+                                Connections {
+                                    target: ps1XstationLibraryService
+                                    function onBatchArtDownloadProgress(current, total) {
+                                        fetchArtBtn.currentOp = current
+                                        fetchArtBtn.totalOp = total
+                                    }
+                                    function onBatchArtDownloadFinished(success) {
+                                        fetchArtBtn.fetching = false
+                                        refreshGames()
+                                    }
+                                }
                                 
                                 onClicked: {
                                     if (fetching || libraryGames.length === 0) return;
-                                    fetching = true; currIndex = 0; fetchNext();
-                                }
-                                function fetchNext() {
-                                    if (currIndex >= mainWindow.libraryGames.length) {
-                                        fetching = false; Qt.callLater(refreshGames); return;
+                                    fetching = true;
+                                    currentOp = 0;
+                                    totalOp = libraryGames.length;
+                                    
+                                    let payload = [];
+                                    for(let i=0; i < libraryGames.length; i++) {
+                                        let g = libraryGames[i];
+                                        payload.push({
+                                            path: g.path,
+                                            name: g.name,
+                                            binaryFileName: g.binaryFileName,
+                                            regexId: extractGameId(g.name)
+                                        });
                                     }
-                                    let g = mainWindow.libraryGames[currIndex]
-                                    let extractedId = g.name.substring(0, 11)
-                                    let artFolder = mainWindow.currentLibraryPath + "/ART"
-                                    swissLibraryService.startDownloadArtAsync(artFolder, extractedId, g.path)
-                                    currIndex++;
-                                    batchTimer.start();
+                                    ps1XstationLibraryService.startBatchArtDownloadAsync(payload);
                                 }
-                                Timer { id: batchTimer; interval: 10; onTriggered: parent.fetchNext() }
-
+                                
                                 contentItem: Text {
-                                    text: parent.text; color: "white"; font.bold: true; font.pixelSize: 11
+                                    text: parent.fetching ? qsTr("Downloading... (") + parent.currentOp + "/" + parent.totalOp + ")" : parent.text
+                                    color: "white"
+                                    font.bold: true; font.pixelSize: 13
                                     horizontalAlignment: Text.AlignHCenter; verticalAlignment: Text.AlignVCenter
+                                    elide: Text.ElideRight
+                                    width: parent.width - 10
                                 }
+                                
                                 background: Rectangle {
-                                    color: parent.down ? "#111" : (parent.hovered ? "#33FF4D4D" : "transparent")
-                                    radius: 6; implicitHeight: 28; border.color: accentPrimary; border.width: 1
-                                    Behavior on color { ColorAnimation { duration: 150 } }
+                                    color: parent.down ? "#111" : (parent.hovered ? "#3A3F58" : "#2A2F40")
+                                    radius: 6; border.color: borderGlass; border.width: 1
+                                    implicitHeight: 32
+                                    
+                                    Rectangle {
+                                        anchors.left: parent.left
+                                        anchors.top: parent.top
+                                        anchors.bottom: parent.bottom
+                                        width: fetchArtBtn.totalOp > 0 ? (fetchArtBtn.currentOp / fetchArtBtn.totalOp) * parent.width : 0
+                                        radius: 6
+                                        color: "#55FF7A00" // Subtle orange progress
+                                        Behavior on width { NumberAnimation { duration: 200 } }
+                                        visible: fetchArtBtn.fetching
+                                    }
                                 }
                             }
-
-                            Button {
-                                Layout.fillWidth: true
-                                text: qsTr("Sync Cheats")
-                                onClicked: {
-                                    let syncedCount = swissLibraryService.syncCheats(mainWindow.currentLibraryPath)
-                                    console.log("Successfully synchronized " + syncedCount + " cheat files.")
-                                    let oldText = text
-                                    text = qsTr("Synced ") + syncedCount
-                                    Qt.callLater(() => {
-                                        let t = Qt.createQmlObject('import QtQml 2.15; Timer {interval: 2000; running: true}', this)
-                                        t.triggered.connect(() => { text = oldText })
-                                    })
-                                }
-                                contentItem: Text {
-                                    text: parent.text; color: "white"; font.bold: true; font.pixelSize: 11
-                                    horizontalAlignment: Text.AlignHCenter; verticalAlignment: Text.AlignVCenter
-                                }
-                                background: Rectangle {
-                                    color: parent.down ? "#111" : (parent.hovered ? "#33FF4D4D" : "transparent")
-                                    radius: 6; implicitHeight: 28; border.color: accentPrimary; border.width: 1
-                                    Behavior on color { ColorAnimation { duration: 150 } }
-                                }
-                            }
+                            
 
                             Button {
                                 id: deleteGamesBtn
@@ -1393,8 +1489,7 @@ Rectangle {
                                 
                                 property int selectedCount: Object.values(mainWindow.librarySelectionMap).filter(v => v === true).length
                                 text: qsTr("Delete Selected") + " (" + selectedCount + ")"
-                                // We cannot access fetchArtBtn fetching boolean purely by id here easily due to its lack of id, but we can bind to libraryGames length to be safe.
-                                enabled: selectedCount > 0
+                                enabled: selectedCount > 0 && !fetchArtBtn.fetching
                                 opacity: enabled ? 1.0 : 0.5
                                 
                                 onClicked: {
@@ -1419,8 +1514,8 @@ Rectangle {
                                 
                                 contentItem: Text {
                                     text: parent.text
-                                    color: parent.enabled && parent.hovered ? "white" : "#FF4D4D"
-                                    font.bold: true; font.pixelSize: 11
+                                    color: enabled && parent.hovered ? "white" : "#FF4D4D"
+                                    font.bold: true; font.pixelSize: 13
                                     horizontalAlignment: Text.AlignHCenter; verticalAlignment: Text.AlignVCenter
                                     elide: Text.ElideRight
                                     width: parent.width - 10
@@ -1430,28 +1525,11 @@ Rectangle {
                                 background: Rectangle {
                                     color: parent.down ? "#111" : (parent.hovered ? "#CC3333" : "transparent")
                                     radius: 6; border.color: parent.hovered ? "#FF4D4D" : borderGlass; border.width: 1
-                                    implicitHeight: 28
+                                    implicitHeight: 32
                                     Behavior on color { ColorAnimation { duration: 150 } }
                                 }
                             }
                         }
-                    }
-                }
-                
-                Button {
-                    Layout.fillWidth: true
-                    text: qsTr("Gamecube Import") + "  (" + importGames.length + ")"
-                    onClicked: currentTabIndex = 1
-                    contentItem: Text {
-                        text: parent.text; color: currentTabIndex === 1 ? "white" : textSecondary
-                        font.bold: true; font.pixelSize: 14; horizontalAlignment: Text.AlignLeft
-                        leftPadding: 20; verticalAlignment: Text.AlignVCenter
-                    }
-                    background: Rectangle {
-                        color: currentTabIndex === 1 ? "#33FF4D4D" : "transparent"
-                        radius: 8; implicitHeight: 46
-                        border.color: currentTabIndex === 1 ? accentPrimary : (parent.hovered ? borderGlass : "transparent")
-                        Behavior on color { ColorAnimation { duration: 150 } }
                     }
                 }
 
@@ -1548,7 +1626,7 @@ Rectangle {
                     }
                     
 
-                    
+
                     ComboBox {
                         id: sortCombo
                         model: [qsTr("Name"), qsTr("Size"), qsTr("Media")]
@@ -1651,7 +1729,7 @@ Rectangle {
                             clip: true
                             model: mainWindow.libraryGames
                             cellWidth: 215
-                            cellHeight: 420
+                            cellHeight: 350
                             
                             boundsBehavior: Flickable.StopAtBounds
                             
@@ -1675,22 +1753,26 @@ Rectangle {
                                         hoverEnabled: true
                                         onClicked: {
                                             let newMap = Object.assign({}, mainWindow.librarySelectionMap)
-                                            if (newMap[modelData.path]) {
-                                                delete newMap[modelData.path]
-                                            } else {
-                                                newMap[modelData.path] = true
-                                            }
+                                            newMap[modelData.path] = !newMap[modelData.path]
                                             mainWindow.librarySelectionMap = newMap
                                         }
                                     }
-
+                                    
+                                    // Checkbox Hook Overlay
                                     Rectangle {
-                                        width: 20; height: 20; radius: 4; anchors.top: parent.top; anchors.right: parent.right; anchors.margins: 10; z: 5
+                                        anchors.top: parent.top; anchors.right: parent.right
+                                        anchors.margins: 10
+                                        width: 22; height: 22; radius: 11
                                         border.color: mainWindow.librarySelectionMap[modelData.path] === true ? accentPrimary : borderGlass
-                                        border.width: 1
+                                        border.width: 2
                                         color: mainWindow.librarySelectionMap[modelData.path] === true ? accentPrimary : "transparent"
-                                        visible: mainWindow.librarySelectionMap[modelData.path] === true || mouseArea.containsMouse
-                                        Text { text: "✓"; anchors.centerIn: parent; color: "white"; font.pixelSize: 12; font.bold: true; visible: mainWindow.librarySelectionMap[modelData.path] === true }
+                                        z: 10
+                                        
+                                        Text {
+                                            anchors.centerIn: parent; text: "✓"; color: "white"
+                                            font.bold: true; font.pixelSize: 14
+                                            visible: mainWindow.librarySelectionMap[modelData.path] === true
+                                        }
                                     }
                                     
                                     states: State {
@@ -1703,10 +1785,10 @@ Rectangle {
                                         anchors.fill: parent
                                         spacing: 0
                                         
-                                        // PS2 Jewel/DVD Case Physical Wrap
+                                        // PS1 CD Jewel Case Physical Wrap
                                         Rectangle {
                                             Layout.fillWidth: true
-                                            Layout.preferredHeight: 250
+                                            Layout.preferredHeight: 180
                                             Layout.margins: 8
                                             Layout.bottomMargin: 0
                                             color: "#181A20" // Dark opaque plastic shell
@@ -1766,12 +1848,10 @@ Rectangle {
                                                     asynchronous: true
                                                     fillMode: Image.Stretch
                                                     visible: status === Image.Ready
-                                                    source: "file://" + mainWindow.currentLibraryPath + "/ART/" + extractGameId(modelData.name) + "_COV.png"
+                                                    source: "file://" + modelData.path + "/cover.bmp"
                                                     
                                                     onStatusChanged: {
-                                                        if (status === Image.Error && source.toString().includes("_COV")) {
-                                                            source = "file://" + mainWindow.currentLibraryPath + "/ART/" + extractGameId(modelData.name) + "_ICO.png"
-                                                        }
+                                                        // XStation solely relies on cover.bmp explicitly 
                                                     }
                                                 }
 
@@ -1828,21 +1908,28 @@ Rectangle {
                                                     spacing: 0
                                                     Text {
                                                         text: {
-                                                            let gid = (extractGameId(modelData.name) || "UNKNOWN").toUpperCase()
+                                                            let prefix = extractGameId(modelData.name)
                                                             let regionName = "Unknown Region"
-                                                            if (gid.length >= 4) {
-                                                                let rChar = gid.charAt(3)
-                                                                if (rChar === 'E') regionName = "NTSC-U"
-                                                                else if (rChar === 'J') regionName = "NTSC-J"
-                                                                else if (['P', 'F', 'D', 'S', 'I', 'X', 'Y', 'U'].includes(rChar)) regionName = "PAL"
-                                                                else if (rChar === 'K') regionName = "NTSC-K"
+                                                            let nameU = modelData.name.toUpperCase()
+                                                            
+                                                            if (prefix) {
+                                                                prefix = prefix.substring(0, 4)
+                                                                if (prefix === "SLUS" || prefix === "SCUS") regionName = "NTSC-U"
+                                                                else if (prefix === "SLES" || prefix === "SCES" || prefix === "SCED") regionName = "PAL"
+                                                                else if (prefix === "SLPM" || prefix === "SLPS" || prefix === "SCPS" || prefix === "SCPM" || prefix === "SLAJ" || prefix === "SCAJ" || prefix === "SCCS") regionName = "NTSC-J"
+                                                                else if (prefix === "SLKA" || prefix === "SCKA") regionName = "NTSC-K"
+                                                            } else {
+                                                                if (nameU.includes("(USA)")) regionName = "NTSC-U"
+                                                                else if (nameU.includes("(EUROPE)") || nameU.includes("(PAL)")) regionName = "PAL"
+                                                                else if (nameU.includes("(JAPAN)")) regionName = "NTSC-J"
+                                                                else if (nameU.includes("(KOREA)")) regionName = "NTSC-K"
                                                             }
                                                             return "Region: " + regionName
                                                         }
                                                         color: textSecondary; font.pixelSize: 11; font.family: "Inter"
                                                     }
                                                     Text {
-                                                        text: "Format: miniDVD"
+                                                        text: "Format: CD"
                                                         color: textSecondary; font.pixelSize: 11; font.family: "Inter"
                                                     }
                                                     Text {
@@ -1890,28 +1977,29 @@ Rectangle {
                                         hoverEnabled: true
                                         onClicked: {
                                             let newMap = Object.assign({}, mainWindow.librarySelectionMap)
-                                            if (newMap[modelData.path]) {
-                                                delete newMap[modelData.path]
-                                            } else {
-                                                newMap[modelData.path] = true
-                                            }
+                                            newMap[modelData.path] = !newMap[modelData.path]
                                             mainWindow.librarySelectionMap = newMap
                                         }
-                                    }
-
-                                    Rectangle {
-                                        width: 20; height: 20; radius: 4; anchors.verticalCenter: parent.verticalCenter; anchors.right: parent.right; anchors.margins: 12; z: 5
-                                        border.color: mainWindow.librarySelectionMap[modelData.path] === true ? accentPrimary : borderGlass
-                                        border.width: 1
-                                        color: mainWindow.librarySelectionMap[modelData.path] === true ? accentPrimary : "transparent"
-                                        visible: mainWindow.librarySelectionMap[modelData.path] === true || listMouseArea.containsMouse
-                                        Text { text: "✓"; anchors.centerIn: parent; color: "white"; font.pixelSize: 12; font.bold: true; visible: mainWindow.librarySelectionMap[modelData.path] === true }
                                     }
                                     
                                     RowLayout {
                                         anchors.fill: parent
                                         anchors.margins: 12
                                         spacing: 20
+                                        
+                                        // Checkbox Hook Overlay
+                                        Rectangle {
+                                            width: 22; height: 22; radius: 11
+                                            border.color: mainWindow.librarySelectionMap[modelData.path] === true ? accentPrimary : borderGlass
+                                            border.width: 2
+                                            color: mainWindow.librarySelectionMap[modelData.path] === true ? accentPrimary : "transparent"
+                                            
+                                            Text {
+                                                anchors.centerIn: parent; text: "✓"; color: "white"
+                                                font.bold: true; font.pixelSize: 14
+                                                visible: mainWindow.librarySelectionMap[modelData.path] === true
+                                            }
+                                        }
                                         
                                         // Mini Jewel Case Overlay
                                         Rectangle {
@@ -1941,12 +2029,10 @@ Rectangle {
                                                     asynchronous: true
                                                     fillMode: Image.PreserveAspectCrop
                                                     visible: status === Image.Ready
-                                                    source: "file://" + mainWindow.currentLibraryPath + "/ART/" + extractGameId(modelData.name) + "_COV.png"
+                                                    source: "file://" + modelData.path + "/cover.bmp"
                                                     
                                                     onStatusChanged: {
-                                                        if (status === Image.Error && source.toString().includes("_COV")) {
-                                                            source = "file://" + mainWindow.currentLibraryPath + "/ART/" + extractGameId(modelData.name) + "_ICO.png"
-                                                        }
+                                                        // XStation solely relies on cover.bmp explicitly 
                                                     }
                                                 }
                                                 
@@ -1999,7 +2085,7 @@ Rectangle {
                                                 }
                                                 
                                                 Text {
-                                                    text: "• miniDVD"
+                                                    text: "• CD"
                                                     color: textSecondary; font.pixelSize: 11; font.bold: true
                                                 }
                                                 
@@ -2030,51 +2116,10 @@ Rectangle {
                                 radius: 12
                                 color: bgCard
                                 border.color: borderGlass; border.width: 1
-                                
                                 RowLayout {
                                     anchors.fill: parent
                                     anchors.margins: 15
                                     spacing: 15
-                                    
-                                    Button {
-                                        property int selectedCount: Object.values(mainWindow.selectionMap).filter(v => v === true).length
-                                        text: mainWindow.isBatchExtracting ? "Importing..." : "Process " + selectedCount + " Items"
-                                        onClicked: {
-                                            if (mainWindow.isBatchExtracting) return;
-                                            let queue = []
-                                            let totalRequiredBytes = 0
-                                            for (let i = 0; i < importGames.length; i++) {
-                                                if (mainWindow.selectionMap[importGames[i].path] === true) {
-                                                    queue.push(importGames[i])
-                                                    totalRequiredBytes += importGames[i].stats.size
-                                                }
-                                            }
-                                            if (queue.length === 0) return;
-                                            
-                                            // Defensive execution against storage limits
-                                            if (totalRequiredBytes > mainWindow.targetDriveFreeSpace) {
-                                                insufficientSpacePopup.requiredSpaceStr = (totalRequiredBytes / (1024*1024*1024)).toFixed(2) + " GB"
-                                                insufficientSpacePopup.availableSpaceStr = (mainWindow.targetDriveFreeSpace / (1024*1024*1024)).toFixed(2) + " GB"
-                                                insufficientSpacePopup.open()
-                                                return;
-                                            }
-
-                                            swissLibraryService.resetCancelFlag()
-                                            mainWindow.extractQueue = queue
-                                            mainWindow.extractIndex = 0
-                                            mainWindow.isBatchExtracting = true
-                                            mainWindow.batchActiveJobs = 0
-                                            mainWindow.extractProcessor()
-                                        }
-                                        contentItem: Text {
-                                            text: parent.text; color: "white"; font.bold: true; font.pixelSize: 14
-                                            horizontalAlignment: Text.AlignHCenter; verticalAlignment: Text.AlignVCenter
-                                        }
-                                        background: Rectangle {
-                                            color: parent.down ? "#CC3D3D" : (mainWindow.isBatchExtracting ? borderGlass : accentPrimary)
-                                            radius: 12; implicitWidth: 160; implicitHeight: 40
-                                        }
-                                    }
                                     
                                     Button {
                                         text: "Add Games"
@@ -2089,7 +2134,7 @@ Rectangle {
                                         contentItem: Text { text: parent.text; color: textPrimary; font.bold: true; font.pixelSize: 13; verticalAlignment: Text.AlignVCenter; horizontalAlignment: Text.AlignHCenter }
                                         background: Rectangle { color: parent.hovered ? borderGlass : "transparent"; radius: 6; border.color: borderGlass; implicitWidth: 100; implicitHeight: 36 }
                                     }
-                                    
+
                                     Button {
                                         id: massSelectBtn
                                         property bool allSelected: false
@@ -2105,7 +2150,7 @@ Rectangle {
                                         contentItem: Text { text: parent.text; color: textPrimary; font.bold: true; font.pixelSize: 13; verticalAlignment: Text.AlignVCenter; horizontalAlignment: Text.AlignHCenter }
                                         background: Rectangle { color: parent.hovered ? borderGlass : "transparent"; radius: 6; border.color: borderGlass; implicitWidth: 150; implicitHeight: 36 }
                                     }
-
+                                    
                                     Item { Layout.fillWidth: true }
                                 }
                             }
@@ -2190,7 +2235,7 @@ Rectangle {
                                                         color: textSecondary; font.pixelSize: 11; font.bold: true
                                                     }
                                                     Text {
-                                                        text: "• miniDVD"
+                                                        text: "• CD"
                                                         color: accentPrimary; font.pixelSize: 11; font.bold: true
                                                     }
                                                     Item { Layout.fillWidth: true }
@@ -2310,7 +2355,7 @@ Rectangle {
                                                         color: textSecondary; font.pixelSize: 12; font.bold: true
                                                     }
                                                     Text {
-                                                        text: "• miniDVD"
+                                                        text: "• CD"
                                                         color: accentPrimary; font.pixelSize: 12; font.bold: true
                                                     }
                                                     Item { Layout.fillWidth: true }

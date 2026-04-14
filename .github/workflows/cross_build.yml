@@ -47,6 +47,8 @@ jobs:
 
     - name: Run automated native tests
       working-directory: ./build
+      env:
+        QT_QPA_PLATFORM: offscreen
       run: ctest --output-on-failure -C Release
 
     - name: Deploy Qt frameworks (macOS)

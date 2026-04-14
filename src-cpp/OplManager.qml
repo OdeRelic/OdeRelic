@@ -28,10 +28,6 @@ Rectangle {
     
     color: bgMain
 
-    function extractGameId(filename) {
-        let match = filename.match(/(SLUS|SCUS|SLES|SCES|SLPM|SLPS|SCPS|SCPM|SLAJ|SCAJ|SLKA|SCKA|SCED|SCCS)[_.-]?\d{3}\.?\d{2}/i);
-        return match ? match[0].toUpperCase() : "";
-    }
 
     property string currentLibraryPath: ""
     property var gameFiles: []
@@ -74,7 +70,7 @@ Rectangle {
     property var batchConvertingMap: ({})
     property var batchConvertingNames: ({})
     property int batchActiveJobs: 0
-    property int batchMaxJobs: 3
+    property int batchMaxJobs: 1
     property bool isBatchExtracting: false
     property var extractQueue: []
     property int extractIndex: 0
@@ -116,7 +112,7 @@ Rectangle {
     property var ps1BatchConvertingMap: ({})
     property var ps1BatchConvertingNames: ({})
     property int ps1BatchActiveJobs: 0
-    property int ps1BatchMaxJobs: 3
+    property int ps1BatchMaxJobs: 1
     property bool ps1IsBatchExtracting: false
     property var ps1ExtractQueue: []
     property int ps1ExtractIndex: 0
@@ -124,7 +120,7 @@ Rectangle {
     property var popsStatus: ({ hasPopsFolder: false, hasPopstarter: false, hasPopsIox: false, popsPath: "" })
     
     property int activeTargetPercent: 0
-    property double activeTargetMbps: 0.0
+    property double activeTargetMBps: 0.0
 
     Component.onCompleted: {
         if (mainWindow.currentLibraryPath === "") {
@@ -135,10 +131,13 @@ Rectangle {
 
     Connections {
         target: oplLibraryService
-        function onConversionProgress(sourcePath, percent) {}
-        function onImportIsoProgress(sourcePath, percent, mbps) {
+        function onConversionProgress(sourcePath, percent, MBps) {
             mainWindow.activeTargetPercent = percent
-            mainWindow.activeTargetMbps = mbps
+            mainWindow.activeTargetMBps = MBps
+        }
+        function onImportIsoProgress(sourcePath, percent, MBps) {
+            mainWindow.activeTargetPercent = percent
+            mainWindow.activeTargetMBps = MBps
         }
         function onArtDownloadProgress(sourcePath, percent) {}
         
@@ -232,13 +231,13 @@ Rectangle {
                         if (renameRes.success) {
                             let artFolder = mainWindow.currentLibraryPath + "/ART"
                             oplLibraryService.startDownloadArtAsync(artFolder, res.gameId, sourcePath)
-                            oplLibraryService.deleteFileAndCue(sourcePath)
+                            systemUtils.deleteGame(sourcePath, false)
                             return; // Await async net dispatch
                         } else {
                             console.error("Batch Move Failed: " + renameRes.message)
                         }
                     } else {
-                        oplLibraryService.deleteFileAndCue(destIsoPath)
+                        systemUtils.deleteGame(destIsoPath, false)
                     }
                 } else {
                     console.error("Batch CONVERSION Failed: " + message)
@@ -257,10 +256,13 @@ Rectangle {
     // ── PS1 Signal Connections ─────────────────────────────────────────────────
     Connections {
         target: oplLibraryService
-        function onPs1ConversionProgress(sourcePath, percent) {}
-        function onPs1ImportProgress(sourcePath, percent, mbps) {
+        function onPs1ConversionProgress(sourcePath, percent, MBps) {
             mainWindow.activeTargetPercent = percent
-            mainWindow.activeTargetMbps = mbps
+            mainWindow.activeTargetMBps = MBps
+        }
+        function onPs1ImportProgress(sourcePath, percent, MBps) {
+            mainWindow.activeTargetPercent = percent
+            mainWindow.activeTargetMBps = MBps
         }
         function onPs1ArtDownloadProgress(sourcePath, percent) {}
 
@@ -321,7 +323,7 @@ Rectangle {
                     return;  // Do NOT decrement — the slot is now used by the import
                 } else if (success && gameId === "") {
                     console.error("PS1 Conversion succeeded but Game ID not detected: " + destVcdPath)
-                    oplLibraryService.deleteFileAndCue(destVcdPath)
+                    systemUtils.deleteGame(destVcdPath, false)
                 } else {
                     console.error("PS1 Conversion Failed: " + message)
                 }
@@ -430,7 +432,7 @@ Rectangle {
             anchors.centerIn: parent
             spacing: 12
             Text {
-                text: qsTr("Scanning Storage...")
+                text: qsTr("Loading Game Library...")
                 color: "#18A0FB"
                 font.bold: true
                 font.pixelSize: 15
@@ -462,7 +464,7 @@ Rectangle {
         parent: Overlay.overlay
         anchors.centerIn: parent
         width: 320
-        height: 140
+        height: 180
         modal: true
         closePolicy: Popup.NoAutoClose
         
@@ -537,7 +539,7 @@ Rectangle {
                     color: "#A0A0A0"; font.pixelSize: 10
                 }
                 Text {
-                    text: mainWindow.activeTargetMbps.toFixed(2) + " MB/s"
+                    text: mainWindow.activeTargetMBps.toFixed(2) + " MB/s"
                     color: "#00E676"; font.pixelSize: 10; font.bold: true
                 }
             }
@@ -647,6 +649,127 @@ Rectangle {
         }
     }
 
+    // --- OPL 1.2.0+ Compatibility Warning Popup ---
+    Popup {
+        id: oplCompatWarningPopup
+        parent: Overlay.overlay
+        anchors.centerIn: parent
+        width: 420
+        height: 290
+        modal: true
+        closePolicy: Popup.NoAutoClose
+
+        property string warningDetails: ""
+        property string pendingPath: ""
+
+        background: Rectangle {
+            color: "#0F1626"
+            radius: 12
+            border.color: "#F5A623"
+            border.width: 1
+        }
+
+        ColumnLayout {
+            anchors.fill: parent
+            anchors.margins: 24
+            spacing: 14
+
+            RowLayout {
+                spacing: 12
+                Layout.alignment: Qt.AlignHCenter
+                Text { text: "⚠️"; font.pixelSize: 22 }
+                Text {
+                    text: qsTr("OPL Version Required")
+                    color: "#F5A623"
+                    font.bold: true
+                    font.pixelSize: 18
+                }
+            }
+
+            Text {
+                text: qsTr("This drive configuration requires OPL 1.2.0 or greater.")
+                color: textPrimary
+                font.pixelSize: 13
+                font.bold: true
+                wrapMode: Text.WordWrap
+                horizontalAlignment: Text.AlignHCenter
+                Layout.fillWidth: true
+            }
+
+            Rectangle {
+                color: "#1A1E35"
+                radius: 6
+                Layout.fillWidth: true
+                Layout.preferredHeight: 60
+
+                ColumnLayout {
+                    anchors.centerIn: parent
+                    spacing: 4
+
+                    Text {
+                        text: oplCompatWarningPopup.warningDetails
+                        color: "#F5C842"
+                        font.pixelSize: 12
+                        font.bold: true
+                        Layout.alignment: Qt.AlignHCenter
+                    }
+
+                    Text {
+                        text: qsTr("Older OPL versions may not recognize this drive.")
+                        color: textSecondary
+                        font.pixelSize: 11
+                        Layout.alignment: Qt.AlignHCenter
+                    }
+                }
+            }
+
+            Item { Layout.fillHeight: true }
+
+            RowLayout {
+                Layout.fillWidth: true
+                spacing: 12
+
+                Button {
+                    Layout.fillWidth: true
+                    text: qsTr("Cancel")
+                    background: Rectangle {
+                        color: parent.down ? "#222" : (parent.hovered ? "#333" : "#222")
+                        radius: 6; border.color: borderGlass; border.width: 1
+                    }
+                    contentItem: Text {
+                        text: parent.text; color: textSecondary; font.bold: true
+                        horizontalAlignment: Text.AlignHCenter; verticalAlignment: Text.AlignVCenter
+                    }
+                    onClicked: oplCompatWarningPopup.close()
+                }
+
+                Button {
+                    Layout.fillWidth: true
+                    text: qsTr("Continue Anyway")
+                    background: Rectangle {
+                        color: parent.down ? "#B37A00" : (parent.hovered ? "#C98A00" : "#1A1E35")
+                        radius: 6; border.color: "#F5A623"; border.width: 1
+                    }
+                    contentItem: Text {
+                        text: parent.text; color: "#F5A623"; font.bold: true
+                        horizontalAlignment: Text.AlignHCenter; verticalAlignment: Text.AlignVCenter
+                    }
+                    onClicked: {
+                        oplCompatWarningPopup.close()
+                        // Synchronously destroy delegates before pointer swap to prevent massive regex binding error avalanches over dead paths
+                        mainWindow.gameFiles = []
+                        mainWindow.ps1GameFiles = []
+                        mainWindow.currentLibraryPath = oplCompatWarningPopup.pendingPath
+                        refreshGames()
+                        refreshPs1Games()
+                        mainWindow.popsStatus = oplLibraryService.checkPopsFolder(oplCompatWarningPopup.pendingPath)
+                        currentTabIndex = 0
+                    }
+                }
+            }
+        }
+    }
+
     Popup {
         id: insufficientSpacePopup
         parent: Overlay.overlay
@@ -724,22 +847,147 @@ Rectangle {
         }
     }
 
+    // --- PS2 Library Delete Confirmation Popup ---
+    Popup {
+        id: deleteConfirmPopup
+        property var selectedPaths: []
+        property var selectedNames: []
+
+        parent: Overlay.overlay
+        anchors.centerIn: parent
+        width: 440; height: 350
+        modal: true; closePolicy: Popup.NoAutoClose
+        background: Rectangle { color: "#0F1626"; radius: 12; border.color: "#FF4D4D"; border.width: 1 }
+        ColumnLayout {
+            anchors.fill: parent; anchors.margins: 20; spacing: 14
+            Text { text: "🗑  " + qsTr("Delete Selected PS2 Games?"); color: "#FF6B6B"; font.bold: true; font.pixelSize: 16; Layout.alignment: Qt.AlignHCenter }
+            
+            Rectangle {
+                color: "#1A2235"; radius: 6; Layout.fillWidth: true; Layout.fillHeight: true
+                ScrollView {
+                    anchors.fill: parent; anchors.margins: 12; clip: true
+                    ColumnLayout {
+                        width: parent.width; spacing: 6
+                        Repeater {
+                            model: deleteConfirmPopup.selectedNames
+                            Text { text: "• " + modelData; color: "#FFB3B3"; font.pixelSize: 12; Layout.fillWidth: true; elide: Text.ElideRight }
+                        }
+                    }
+                }
+            }
+
+            Item { Layout.fillHeight: true }
+            RowLayout {
+                Layout.fillWidth: true; spacing: 12
+                Button {
+                    Layout.fillWidth: true; text: qsTr("Cancel")
+                    background: Rectangle { color: parent.down ? "#222" : (parent.hovered ? "#333" : "#222"); radius: 6; border.color: borderGlass; border.width: 1 }
+                    contentItem: Text { text: parent.text; color: textSecondary; font.bold: true; horizontalAlignment: Text.AlignHCenter; verticalAlignment: Text.AlignVCenter }
+                    onClicked: deleteConfirmPopup.close()
+                }
+                Button {
+                    Layout.fillWidth: true; text: qsTr("Delete")
+                    background: Rectangle { color: parent.down ? "#8B0000" : (parent.hovered ? "#CC2222" : "#AA1111"); radius: 6 }
+                    contentItem: Text { text: parent.text; color: "white"; font.bold: true; horizontalAlignment: Text.AlignHCenter; verticalAlignment: Text.AlignVCenter }
+                    onClicked: {
+                        for(let i = 0; i < deleteConfirmPopup.selectedPaths.length; i++) {
+                            systemUtils.deleteGame(deleteConfirmPopup.selectedPaths[i], false);
+                        }
+                        mainWindow.selectionMap = ({})
+                        deleteConfirmPopup.close()
+                        Qt.callLater(refreshGames)
+                    }
+                }
+            }
+        }
+    }
+
+    // --- PS1 Library Delete Confirmation Popup ---
+    Popup {
+        id: ps1DeleteConfirmPopup
+        property var selectedPaths: []
+        property var selectedNames: []
+
+        parent: Overlay.overlay
+        anchors.centerIn: parent
+        width: 440; height: 350
+        modal: true; closePolicy: Popup.NoAutoClose
+        background: Rectangle { color: "#0F1626"; radius: 12; border.color: accentPs1; border.width: 1 }
+        ColumnLayout {
+            anchors.fill: parent; anchors.margins: 20; spacing: 14
+            Text { text: "🗑  " + qsTr("Delete Selected PS1 Games?"); color: accentPs1; font.bold: true; font.pixelSize: 16; Layout.alignment: Qt.AlignHCenter }
+            
+            Rectangle {
+                color: "#1A2235"; radius: 6; Layout.fillWidth: true; Layout.fillHeight: true
+                ScrollView {
+                    anchors.fill: parent; anchors.margins: 12; clip: true
+                    ColumnLayout {
+                        width: parent.width; spacing: 6
+                        Repeater {
+                            model: ps1DeleteConfirmPopup.selectedNames
+                            Text { text: "• " + modelData; color: "#B3D4FF"; font.pixelSize: 12; Layout.fillWidth: true; elide: Text.ElideRight }
+                        }
+                    }
+                }
+            }
+
+            Item { Layout.fillHeight: true }
+            RowLayout {
+                Layout.fillWidth: true; spacing: 12
+                Button {
+                    Layout.fillWidth: true; text: qsTr("Cancel")
+                    background: Rectangle { color: parent.down ? "#222" : (parent.hovered ? "#333" : "#222"); radius: 6; border.color: borderGlass; border.width: 1 }
+                    contentItem: Text { text: parent.text; color: textSecondary; font.bold: true; horizontalAlignment: Text.AlignHCenter; verticalAlignment: Text.AlignVCenter }
+                    onClicked: ps1DeleteConfirmPopup.close()
+                }
+                Button {
+                    Layout.fillWidth: true; text: qsTr("Delete")
+                    background: Rectangle { color: parent.down ? "#000B2B" : (parent.hovered ? "#112244" : "#0A1633"); radius: 6 }
+                    contentItem: Text { text: parent.text; color: "white"; font.bold: true; horizontalAlignment: Text.AlignHCenter; verticalAlignment: Text.AlignVCenter }
+                    onClicked: {
+                        for(let i = 0; i < ps1DeleteConfirmPopup.selectedPaths.length; i++) {
+                            systemUtils.deleteGame(ps1DeleteConfirmPopup.selectedPaths[i], false); // Keep false for OPL PS1 (VCD flat struct)
+                        }
+                        mainWindow.ps1SelectionMap = ({})
+                        ps1DeleteConfirmPopup.close()
+                        Qt.callLater(refreshPs1Games)
+                    }
+                }
+            }
+        }
+    }
+
     FolderDialog {
         id: folderDialog
         title: qsTr("Select OPL Root Folder")
         onAccepted: {
             let cleanPath = oplLibraryService.urlToLocalFile(selectedFolder.toString())
             let structureCheck = oplLibraryService.checkOplFolder(cleanPath)
-            
+
+            // Hard block: format is not any FAT variant at all
             if (!structureCheck.isFormatCorrect || !structureCheck.isPartitionCorrect) {
                 let err = []
                 if (!structureCheck.isFormatCorrect) err.push("• FAT32 or exFAT required")
-                if (!structureCheck.isPartitionCorrect) err.push("• MBR partition table required")
+                if (!structureCheck.isPartitionCorrect) err.push("• Unsupported partition table")
                 formatErrorPopup.errorDetails = err.join("\n")
                 formatErrorPopup.open()
                 return
             }
 
+            // Soft warning: GPT and/or exFAT requires OPL 1.2.0+
+            let needsNewOpl = structureCheck.isGpt || structureCheck.isExFat
+            if (needsNewOpl) {
+                let warns = []
+                if (structureCheck.isExFat) warns.push("• exFAT filesystem detected")
+                if (structureCheck.isGpt)   warns.push("• GPT partition table detected")
+                oplCompatWarningPopup.warningDetails = warns.join("  ")
+                oplCompatWarningPopup.pendingPath = cleanPath
+                oplCompatWarningPopup.open()
+                return
+            }
+
+            mainWindow.gameFiles = []
+            mainWindow.ps1GameFiles = []
             mainWindow.currentLibraryPath = cleanPath
             refreshGames()
             refreshPs1Games()
@@ -794,12 +1042,15 @@ Rectangle {
     
     function refreshGames() {
         if (currentLibraryPath !== "") {
+            mainWindow.isScrapingIO = true
+            libraryScanOverlay.open()
             oplLibraryService.startGetGamesFilesAsync(currentLibraryPath)
         }
     }
 
     function refreshPs1Games() {
         if (currentLibraryPath !== "") {
+            mainWindow.isScrapingPs1IO = true
             oplLibraryService.startGetPs1GamesAsync(currentLibraryPath)
         }
     }
@@ -854,17 +1105,17 @@ Rectangle {
         sorted.sort(function(a, b) {
             let valA, valB;
             if (sortCriteria === "name") {
-                let nameA = a.name; let gidA = extractGameId(a.name);
+                let nameA = a.name; let gidA = a.gameId;
                 if (gidA && nameA.startsWith(gidA)) nameA = nameA.substring(gidA.length + 1);
                 
-                let nameB = b.name; let gidB = extractGameId(b.name);
+                let nameB = b.name; let gidB = b.gameId;
                 if (gidB && nameB.startsWith(gidB)) nameB = nameB.substring(gidB.length + 1);
 
                 valA = nameA.toLowerCase(); valB = nameB.toLowerCase();
             } else if (sortCriteria === "size") {
                 valA = a.stats.size; valB = b.stats.size;
             } else if (sortCriteria === "slu") {
-                valA = extractGameId(a.name); valB = extractGameId(b.name);
+                valA = a.gameId; valB = b.gameId;
             } else if (sortCriteria === "media") {
                 valA = a.path.includes("/CD/") ? 0 : 1; valB = b.path.includes("/CD/") ? 0 : 1;
             }
@@ -885,17 +1136,17 @@ Rectangle {
         sorted.sort(function(a, b) {
             let valA, valB;
             if (sortCriteria === "name") {
-                let nameA = a.name; let gidA = extractGameId(a.name);
+                let nameA = a.name; let gidA = a.gameId;
                 if (gidA && nameA.startsWith(gidA)) nameA = nameA.substring(gidA.length + 1);
                 
-                let nameB = b.name; let gidB = extractGameId(b.name);
+                let nameB = b.name; let gidB = b.gameId;
                 if (gidB && nameB.startsWith(gidB)) nameB = nameB.substring(gidB.length + 1);
 
                 valA = nameA.toLowerCase(); valB = nameB.toLowerCase();
             } else if (sortCriteria === "size") {
                 valA = a.stats.size; valB = b.stats.size;
             } else if (sortCriteria === "slu") {
-                valA = extractGameId(a.name); valB = extractGameId(b.name);
+                valA = a.gameId; valB = b.gameId;
             } else if (sortCriteria === "media") {
                 valA = a.path.includes("/CD/") ? 0 : 1; valB = b.path.includes("/CD/") ? 0 : 1;
             }
@@ -964,12 +1215,26 @@ Rectangle {
             Layout.fillHeight: true
             Layout.preferredWidth: 260
             color: bgSidebar
-            
-            ColumnLayout {
+            clip: true
+
+            Flickable {
                 anchors.fill: parent
-                anchors.margins: 25
-                spacing: 20
-                
+                contentHeight: sidebarContent.implicitHeight
+                clip: true
+                boundsBehavior: Flickable.StopAtBounds
+                ScrollBar.vertical: ScrollBar { policy: ScrollBar.AsNeeded }
+
+            ColumnLayout {
+                id: sidebarContent
+                width: parent.width
+                anchors.left: parent.left
+                anchors.right: parent.right
+                anchors.leftMargin: 25
+                anchors.rightMargin: 25
+                anchors.topMargin: 25
+                spacing: 10
+                anchors.top: parent.top
+
                 // Brand Header
                 MouseArea {
                     Layout.fillWidth: true
@@ -1045,6 +1310,50 @@ Rectangle {
                     Layout.bottomMargin: 10
                 }
                 
+                // --- Storage Visualization ---
+                ColumnLayout {
+                    Layout.fillWidth: true
+                    spacing: 8
+                    visible: mainWindow.targetDriveTotalSpace > 0
+
+                    RowLayout {
+                        Layout.fillWidth: true
+                        Text {
+                            text: qsTr("Storage Media")
+                            color: textSecondary; font.pixelSize: 12; font.bold: true
+                            Layout.alignment: Qt.AlignLeft
+                        }
+                        Item { Layout.fillWidth: true }
+                        Text {
+                            property double mBase: systemUtils.getStorageMultiplier()
+                            property double freeGb: mainWindow.targetDriveFreeSpace / (mBase * mBase * mBase)
+                            property double totalGb: mainWindow.targetDriveTotalSpace / (mBase * mBase * mBase)
+                            property double usedGb: totalGb - freeGb
+                            text: usedGb.toFixed(1) + " GB / " + totalGb.toFixed(1) + " GB"
+                            color: textPrimary; font.pixelSize: 11; font.bold: true
+                            Layout.alignment: Qt.AlignRight
+                        }
+                    }
+
+                    Rectangle {
+                        Layout.fillWidth: true
+                        height: 8
+                        radius: 4
+                        color: borderGlass
+
+                        Rectangle {
+                            anchors.left: parent.left
+                            anchors.top: parent.top
+                            anchors.bottom: parent.bottom
+                            width: mainWindow.targetDriveTotalSpace > 0 ? ((mainWindow.targetDriveTotalSpace - mainWindow.targetDriveFreeSpace) / mainWindow.targetDriveTotalSpace) * parent.width : 0
+                            radius: 4
+                            color: (mainWindow.targetDriveFreeSpace / mainWindow.targetDriveTotalSpace) < 0.05 ? "#FF4D4D" : accentPrimary
+                            Behavior on width { NumberAnimation { duration: 350; easing.type: Easing.OutQuad } }
+                            Behavior on color { ColorAnimation { duration: 350 } }
+                        }
+                    }
+                }
+
                 // Change Disk Re-router
                 Button {
                     Layout.fillWidth: true
@@ -1079,37 +1388,199 @@ Rectangle {
                 }
 
                 // Navigation Buttons Array
-                Button {
+                // ── PS2 Library ───────────────────────────────────────────────
+                ColumnLayout {
                     Layout.fillWidth: true
-                    text: qsTr("PS2 Library") + "  (" + libraryGames.length + ")"
-                    onClicked: currentTabIndex = 0
-                    contentItem: Text {
-                        text: parent.text; color: currentTabIndex === 0 ? "white" : textSecondary
-                        font.bold: true; font.pixelSize: 14; horizontalAlignment: Text.AlignLeft
-                        leftPadding: 20; verticalAlignment: Text.AlignVCenter
+                    spacing: 4
+
+                    Button {
+                        Layout.fillWidth: true
+                        text: qsTr("PS2 Library") + "  (" + libraryGames.length + ")"
+                        onClicked: currentTabIndex = 0
+                        contentItem: Text {
+                            text: parent.text; color: currentTabIndex === 0 ? "white" : textSecondary
+                            font.bold: true; font.pixelSize: 14; horizontalAlignment: Text.AlignLeft
+                            leftPadding: 20; verticalAlignment: Text.AlignVCenter
+                        }
+                        background: Rectangle {
+                            color: currentTabIndex === 0 ? "#33FF4D4D" : "transparent"
+                            radius: 8; implicitHeight: 46
+                            border.color: currentTabIndex === 0 ? accentPrimary : (parent.hovered ? borderGlass : "transparent")
+                            Behavior on color { ColorAnimation { duration: 150 } }
+                        }
                     }
-                    background: Rectangle {
-                        color: currentTabIndex === 0 ? "#33FF4D4D" : "transparent"
-                        radius: 8; implicitHeight: 46
-                        border.color: currentTabIndex === 0 ? accentPrimary : (parent.hovered ? borderGlass : "transparent")
-                        Behavior on color { ColorAnimation { duration: 150 } }
+
+                    Rectangle {
+                        Layout.fillWidth: true
+                        Layout.leftMargin: 15
+                        implicitHeight: ps2LibActionsLayout.implicitHeight + 16
+                        color: "#161925"
+                        radius: 8
+                        border.color: borderGlass; border.width: 1
+                        visible: currentTabIndex === 0 && libraryGames.length > 0
+
+                        ColumnLayout {
+                            id: ps2LibActionsLayout
+                            anchors.top: parent.top
+                            anchors.left: parent.left
+                            anchors.right: parent.right
+                            anchors.margins: 8
+                            spacing: 8
+
+                            Text {
+                                text: qsTr("ACTIONS")
+                                color: textSecondary
+                                font.pixelSize: 10; font.bold: true; font.letterSpacing: 2
+                            }
+
+                            Button {
+                                id: ps2FetchArtBtn
+                                Layout.fillWidth: true
+                                property bool fetching: false
+                                property int currentOp: 0
+                                property int totalOp: 0
+                                text: fetching ? (qsTr("Fetching...") + " (" + currentOp + "/" + totalOp + ")") : qsTr("Fetch Missing Artwork")
+                                enabled: !fetching && libraryGames.length > 0
+                                opacity: enabled ? 1.0 : 0.6
+
+                                Connections {
+                                    target: oplLibraryService
+                                    function onBatchArtDownloadProgress(current, total) {
+                                        ps2FetchArtBtn.currentOp = current
+                                        ps2FetchArtBtn.totalOp = total
+                                    }
+                                    function onBatchArtDownloadFinished(success) {
+                                        ps2FetchArtBtn.fetching = false
+                                        refreshGames()
+                                    }
+                                }
+
+                                onClicked: {
+                                    if (fetching || libraryGames.length === 0) return
+                                    fetching = true
+                                    oplLibraryService.startBatchArtDownloadAsync(mainWindow.libraryGames, mainWindow.currentLibraryPath + "/ART")
+                                }
+                                contentItem: Text {
+                                    text: parent.text; color: textPrimary; font.bold: true; font.pixelSize: 13
+                                    horizontalAlignment: Text.AlignHCenter; verticalAlignment: Text.AlignVCenter
+                                }
+                                background: Rectangle {
+                                    color: parent.down ? "#111" : (parent.hovered ? "#3A3F58" : "#2A2F40")
+                                    radius: 6; border.color: borderGlass; border.width: 1; implicitHeight: 32
+                                }
+                            }
+
+                            Button {
+                                Layout.fillWidth: true
+                                property int selectedCount: Object.values(mainWindow.selectionMap || {}).filter(v => v === true).length
+                                text: qsTr("Delete Selected") + " (" + selectedCount + ")"
+                                enabled: selectedCount > 0
+                                opacity: enabled ? 1.0 : 0.5
+                                onClicked: {
+                                    if (selectedCount === 0) return
+                                    let toDelete = mainWindow.libraryGames.filter(g => mainWindow.selectionMap[g.path] === true)
+                                    deleteConfirmPopup.selectedPaths = toDelete.map(g => g.path)
+                                    deleteConfirmPopup.selectedNames = toDelete.map(g => g.name)
+                                    deleteConfirmPopup.open()
+                                }
+                                contentItem: Text {
+                                    text: parent.text; color: "#FF6B6B"; font.bold: true; font.pixelSize: 13
+                                    horizontalAlignment: Text.AlignHCenter; verticalAlignment: Text.AlignVCenter
+                                }
+                                background: Rectangle {
+                                    color: parent.down ? "#2A0A0A" : (parent.hovered ? "#1A0808" : "transparent")
+                                    radius: 6; border.color: "#FF6B6B"; border.width: 1; implicitHeight: 32
+                                }
+                            }
+                        }
                     }
                 }
-                
-                Button {
+
+                // ── PS2 Import ─────────────────────────────────────────────────
+                ColumnLayout {
                     Layout.fillWidth: true
-                    text: qsTr("PS2 Import") + "  (" + importGames.length + ")"
-                    onClicked: currentTabIndex = 1
-                    contentItem: Text {
-                        text: parent.text; color: currentTabIndex === 1 ? "white" : textSecondary
-                        font.bold: true; font.pixelSize: 14; horizontalAlignment: Text.AlignLeft
-                        leftPadding: 20; verticalAlignment: Text.AlignVCenter
+                    spacing: 4
+
+                    Button {
+                        Layout.fillWidth: true
+                        text: qsTr("PS2 Import") + "  (" + importGames.length + ")"
+                        onClicked: currentTabIndex = 1
+                        contentItem: Text {
+                            text: parent.text; color: currentTabIndex === 1 ? "white" : textSecondary
+                            font.bold: true; font.pixelSize: 14; horizontalAlignment: Text.AlignLeft
+                            leftPadding: 20; verticalAlignment: Text.AlignVCenter
+                        }
+                        background: Rectangle {
+                            color: currentTabIndex === 1 ? "#33FF4D4D" : "transparent"
+                            radius: 8; implicitHeight: 46
+                            border.color: currentTabIndex === 1 ? accentPrimary : (parent.hovered ? borderGlass : "transparent")
+                            Behavior on color { ColorAnimation { duration: 150 } }
+                        }
                     }
-                    background: Rectangle {
-                        color: currentTabIndex === 1 ? "#33FF4D4D" : "transparent"
-                        radius: 8; implicitHeight: 46
-                        border.color: currentTabIndex === 1 ? accentPrimary : (parent.hovered ? borderGlass : "transparent")
-                        Behavior on color { ColorAnimation { duration: 150 } }
+
+                    Rectangle {
+                        Layout.fillWidth: true
+                        Layout.leftMargin: 15
+                        implicitHeight: ps2ImpActionsLayout.implicitHeight + 16
+                        color: "#161925"
+                        radius: 8
+                        border.color: borderGlass; border.width: 1
+                        visible: currentTabIndex === 1
+
+                        ColumnLayout {
+                            id: ps2ImpActionsLayout
+                            anchors.top: parent.top
+                            anchors.left: parent.left
+                            anchors.right: parent.right
+                            anchors.margins: 8
+                            spacing: 8
+
+                            Text {
+                                text: qsTr("ACTIONS")
+                                color: textSecondary
+                                font.pixelSize: 10; font.bold: true; font.letterSpacing: 2
+                            }
+
+                            Button {
+                                Layout.fillWidth: true
+                                property int selectedCount: Object.values(mainWindow.selectionMap).filter(v => v === true).length
+                                text: mainWindow.isBatchExtracting ? qsTr("Importing...") : qsTr("Import Selected") + " (" + selectedCount + ")"
+                                enabled: selectedCount > 0 || mainWindow.isBatchExtracting
+                                opacity: enabled ? 1.0 : 0.5
+                                onClicked: {
+                                    if (mainWindow.isBatchExtracting) return;
+                                    let queue = []
+                                    let totalRequiredBytes = 0
+                                    for (let i = 0; i < importGames.length; i++) {
+                                        if (mainWindow.selectionMap[importGames[i].path] === true) {
+                                            queue.push(importGames[i])
+                                            totalRequiredBytes += importGames[i].stats.size
+                                        }
+                                    }
+                                    if (queue.length === 0) return;
+                                    let mult = systemUtils.getStorageMultiplier()
+                                    if (totalRequiredBytes > mainWindow.targetDriveFreeSpace) {
+                                        insufficientSpacePopup.requiredSpaceStr = (totalRequiredBytes / (mult*mult*mult)).toFixed(2) + " GB"
+                                        insufficientSpacePopup.availableSpaceStr = (mainWindow.targetDriveFreeSpace / (mult*mult*mult)).toFixed(2) + " GB"
+                                        insufficientSpacePopup.open()
+                                        return;
+                                    }
+                                    mainWindow.extractQueue = queue
+                                    mainWindow.extractIndex = 0
+                                    mainWindow.isBatchExtracting = true
+                                    mainWindow.batchActiveJobs = 0
+                                    mainWindow.extractProcessor()
+                                }
+                                contentItem: Text {
+                                    text: parent.text; color: "white"; font.bold: true; font.pixelSize: 13
+                                    horizontalAlignment: Text.AlignHCenter; verticalAlignment: Text.AlignVCenter
+                                }
+                                background: Rectangle {
+                                    color: parent.down ? "#111" : (parent.hovered ? "#3A3F58" : "#2A2F40")
+                                    radius: 6; border.color: borderGlass; border.width: 1; implicitHeight: 32
+                                }
+                            }
+                        }
                     }
                 }
 
@@ -1128,37 +1599,182 @@ Rectangle {
                     Rectangle { height: 1; Layout.fillWidth: true; color: accentPs1; opacity: 0.3 }
                 }
 
-                Button {
+                // ── PS1 Library ────────────────────────────────────────────────
+                ColumnLayout {
                     Layout.fillWidth: true
-                    text: qsTr("PS1 Library") + "  (" + ps1LibraryGames.length + ")"
-                    onClicked: { currentTabIndex = 2; Qt.callLater(refreshPs1Games) }
-                    contentItem: Text {
-                        text: parent.text; color: currentTabIndex === 2 ? "white" : textSecondary
-                        font.bold: true; font.pixelSize: 14; horizontalAlignment: Text.AlignLeft
-                        leftPadding: 20; verticalAlignment: Text.AlignVCenter
+                    spacing: 4
+
+                    Button {
+                        Layout.fillWidth: true
+                        text: qsTr("PS1 Library") + "  (" + ps1LibraryGames.length + ")"
+                        onClicked: { currentTabIndex = 2; Qt.callLater(refreshPs1Games) }
+                        contentItem: Text {
+                            text: parent.text; color: currentTabIndex === 2 ? "white" : textSecondary
+                            font.bold: true; font.pixelSize: 14; horizontalAlignment: Text.AlignLeft
+                            leftPadding: 20; verticalAlignment: Text.AlignVCenter
+                        }
+                        background: Rectangle {
+                            color: currentTabIndex === 2 ? "#334D9FFF" : "transparent"
+                            radius: 8; implicitHeight: 46
+                            border.color: currentTabIndex === 2 ? accentPs1 : (parent.hovered ? borderGlass : "transparent")
+                            Behavior on color { ColorAnimation { duration: 150 } }
+                        }
                     }
-                    background: Rectangle {
-                        color: currentTabIndex === 2 ? "#334D9FFF" : "transparent"
-                        radius: 8; implicitHeight: 46
-                        border.color: currentTabIndex === 2 ? accentPs1 : (parent.hovered ? borderGlass : "transparent")
-                        Behavior on color { ColorAnimation { duration: 150 } }
+
+                    Rectangle {
+                        Layout.fillWidth: true
+                        Layout.leftMargin: 15
+                        implicitHeight: ps1LibActionsLayout.implicitHeight + 16
+                        color: "#161925"
+                        radius: 8
+                        border.color: borderGlass; border.width: 1
+                        visible: currentTabIndex === 2 && ps1LibraryGames.length > 0
+
+                        ColumnLayout {
+                            id: ps1LibActionsLayout
+                            anchors.top: parent.top
+                            anchors.left: parent.left
+                            anchors.right: parent.right
+                            anchors.margins: 8
+                            spacing: 8
+
+                            Text {
+                                text: qsTr("ACTIONS")
+                                color: textSecondary
+                                font.pixelSize: 10; font.bold: true; font.letterSpacing: 2
+                            }
+
+                            Button {
+                                Layout.fillWidth: true
+                                text: qsTr("Fetch Missing Artwork")
+                                contentItem: Text {
+                                    text: parent.text; color: textPrimary; font.bold: true; font.pixelSize: 13
+                                    horizontalAlignment: Text.AlignHCenter; verticalAlignment: Text.AlignVCenter
+                                }
+                                background: Rectangle {
+                                    color: parent.down ? "#111" : (parent.hovered ? "#3A3F58" : "#2A2F40")
+                                    radius: 6; border.color: borderGlass; border.width: 1; implicitHeight: 32
+                                }
+                                onClicked: {
+                                    for (let i = 0; i < ps1LibraryGames.length; i++) {
+                                        let id = ps1LibraryGames[i].gameId
+                                        if (id) oplLibraryService.startArtDownloadAsync(ps1LibraryGames[i].path, id, mainWindow.currentLibraryPath)
+                                    }
+                                }
+                            }
+
+                            Button {
+                                Layout.fillWidth: true
+                                property int selectedCount: Object.values(mainWindow.ps1SelectionMap || {}).filter(v => v === true).length
+                                text: qsTr("Delete Selected") + " (" + selectedCount + ")"
+                                enabled: selectedCount > 0
+                                opacity: enabled ? 1.0 : 0.5
+                                onClicked: { 
+                                    if (selectedCount > 0) {
+                                        let toDelete = mainWindow.ps1LibraryGames.filter(g => mainWindow.ps1SelectionMap[g.path] === true)
+                                        ps1DeleteConfirmPopup.selectedPaths = toDelete.map(g => g.path)
+                                        ps1DeleteConfirmPopup.selectedNames = toDelete.map(g => g.name)
+                                        ps1DeleteConfirmPopup.open()
+                                    } 
+                                }
+                                contentItem: Text {
+                                    text: parent.text; color: "#FF6B6B"; font.bold: true; font.pixelSize: 13
+                                    horizontalAlignment: Text.AlignHCenter; verticalAlignment: Text.AlignVCenter
+                                }
+                                background: Rectangle {
+                                    color: parent.down ? "#2A0A0A" : (parent.hovered ? "#1A0808" : "transparent")
+                                    radius: 6; border.color: "#FF6B6B"; border.width: 1; implicitHeight: 32
+                                }
+                            }
+                        }
                     }
                 }
 
-                Button {
+                // ── PS1 Import ─────────────────────────────────────────────────
+                ColumnLayout {
                     Layout.fillWidth: true
-                    text: qsTr("PS1 Import") + "  (" + ps1ImportGames.length + ")"
-                    onClicked: currentTabIndex = 3
-                    contentItem: Text {
-                        text: parent.text; color: currentTabIndex === 3 ? "white" : textSecondary
-                        font.bold: true; font.pixelSize: 14; horizontalAlignment: Text.AlignLeft
-                        leftPadding: 20; verticalAlignment: Text.AlignVCenter
+                    spacing: 4
+
+                    Button {
+                        Layout.fillWidth: true
+                        text: qsTr("PS1 Import") + "  (" + ps1ImportGames.length + ")"
+                        onClicked: currentTabIndex = 3
+                        contentItem: Text {
+                            text: parent.text; color: currentTabIndex === 3 ? "white" : textSecondary
+                            font.bold: true; font.pixelSize: 14; horizontalAlignment: Text.AlignLeft
+                            leftPadding: 20; verticalAlignment: Text.AlignVCenter
+                        }
+                        background: Rectangle {
+                            color: currentTabIndex === 3 ? "#334D9FFF" : "transparent"
+                            radius: 8; implicitHeight: 46
+                            border.color: currentTabIndex === 3 ? accentPs1 : (parent.hovered ? borderGlass : "transparent")
+                            Behavior on color { ColorAnimation { duration: 150 } }
+                        }
                     }
-                    background: Rectangle {
-                        color: currentTabIndex === 3 ? "#334D9FFF" : "transparent"
-                        radius: 8; implicitHeight: 46
-                        border.color: currentTabIndex === 3 ? accentPs1 : (parent.hovered ? borderGlass : "transparent")
-                        Behavior on color { ColorAnimation { duration: 150 } }
+
+                    Rectangle {
+                        Layout.fillWidth: true
+                        Layout.leftMargin: 15
+                        implicitHeight: ps1ImpActionsLayout.implicitHeight + 16
+                        color: "#161925"
+                        radius: 8
+                        border.color: borderGlass; border.width: 1
+                        visible: currentTabIndex === 3
+
+                        ColumnLayout {
+                            id: ps1ImpActionsLayout
+                            anchors.top: parent.top
+                            anchors.left: parent.left
+                            anchors.right: parent.right
+                            anchors.margins: 8
+                            spacing: 8
+
+                            Text {
+                                text: qsTr("ACTIONS")
+                                color: textSecondary
+                                font.pixelSize: 10; font.bold: true; font.letterSpacing: 2
+                            }
+
+                            Button {
+                                Layout.fillWidth: true
+                                property int selectedCount: Object.values(mainWindow.ps1SelectionMap).filter(v => v === true).length
+                                text: mainWindow.ps1IsBatchExtracting ? qsTr("Importing...") : qsTr("Import Selected") + " (" + selectedCount + ")"
+                                enabled: selectedCount > 0 || mainWindow.ps1IsBatchExtracting
+                                opacity: enabled ? 1.0 : 0.5
+                                onClicked: {
+                                    if (mainWindow.ps1IsBatchExtracting) return;
+                                    let queue = []
+                                    let totalRequiredBytes = 0
+                                    for (let i = 0; i < ps1ImportGames.length; i++) {
+                                        if (mainWindow.ps1SelectionMap[ps1ImportGames[i].path] === true) {
+                                            queue.push(ps1ImportGames[i])
+                                            totalRequiredBytes += ps1ImportGames[i].stats.size
+                                        }
+                                    }
+                                    if (queue.length === 0) return;
+                                    let ps1Mult = systemUtils.getStorageMultiplier()
+                                    if (totalRequiredBytes > mainWindow.targetDriveFreeSpace) {
+                                        insufficientSpacePopup.requiredSpaceStr = (totalRequiredBytes / (ps1Mult*ps1Mult*ps1Mult)).toFixed(2) + " GB"
+                                        insufficientSpacePopup.availableSpaceStr = (mainWindow.targetDriveFreeSpace / (ps1Mult*ps1Mult*ps1Mult)).toFixed(2) + " GB"
+                                        insufficientSpacePopup.open()
+                                        return;
+                                    }
+                                    mainWindow.ps1ExtractQueue = queue
+                                    mainWindow.ps1ExtractIndex = 0
+                                    mainWindow.ps1IsBatchExtracting = true
+                                    mainWindow.ps1BatchActiveJobs = 0
+                                    mainWindow.ps1ExtractProcessor()
+                                }
+                                contentItem: Text {
+                                    text: parent.text; color: "white"; font.bold: true; font.pixelSize: 13
+                                    horizontalAlignment: Text.AlignHCenter; verticalAlignment: Text.AlignVCenter
+                                }
+                                background: Rectangle {
+                                    color: parent.down ? "#1A4080" : (mainWindow.ps1IsBatchExtracting ? borderGlass : accentPs1)
+                                    radius: 6; implicitHeight: 32
+                                }
+                            }
+                        }
                     }
                 }
 
@@ -1250,51 +1866,8 @@ Rectangle {
                         }
                     }
                 }
-                Item { Layout.fillHeight: true }
-
-                // --- Storage Visualization ---
-                ColumnLayout {
-                    Layout.fillWidth: true
-                    spacing: 8
-                    visible: mainWindow.targetDriveTotalSpace > 0
-
-                    RowLayout {
-                        Layout.fillWidth: true
-                        Text {
-                            text: qsTr("Storage Media")
-                            color: textSecondary; font.pixelSize: 12; font.bold: true
-                            Layout.alignment: Qt.AlignLeft
-                        }
-                        Item { Layout.fillWidth: true }
-                        Text {
-                            // Compute GB values dynamically
-                            property double freeGb: mainWindow.targetDriveFreeSpace / (1024 * 1024 * 1024)
-                            property double totalGb: mainWindow.targetDriveTotalSpace / (1024 * 1024 * 1024)
-                            property double usedGb: totalGb - freeGb
-                            text: usedGb.toFixed(1) + " GB / " + totalGb.toFixed(1) + " GB"
-                            color: textPrimary; font.pixelSize: 11; font.bold: true
-                            Layout.alignment: Qt.AlignRight
-                        }
-                    }
-
-                    Rectangle {
-                        Layout.fillWidth: true
-                        height: 8
-                        radius: 4
-                        color: borderGlass
-
-                        Rectangle {
-                            anchors.left: parent.left
-                            anchors.top: parent.top
-                            anchors.bottom: parent.bottom
-                            width: mainWindow.targetDriveTotalSpace > 0 ? ((mainWindow.targetDriveTotalSpace - mainWindow.targetDriveFreeSpace) / mainWindow.targetDriveTotalSpace) * parent.width : 0
-                            radius: 4
-                            color: (mainWindow.targetDriveFreeSpace / mainWindow.targetDriveTotalSpace) < 0.05 ? "#FF4D4D" : accentPrimary
-                            Behavior on width { NumberAnimation { duration: 350; easing.type: Easing.OutQuad } }
-                            Behavior on color { ColorAnimation { duration: 350 } }
-                        }
-                    }
-                }            }
+            } // end ColumnLayout sidebarContent
+            } // end Flickable
         }
         
         // --- Loading Library Scan Overlay Modal ---
@@ -1323,7 +1896,7 @@ Rectangle {
                 anchors.centerIn: parent
                 spacing: 12
                 Text {
-                    text: qsTr("Scanning Storage Arrays...")
+                    text: qsTr("Loading Game Library...")
                     color: "#18A0FB"
                     font.bold: true
                     font.pixelSize: 15
@@ -1385,44 +1958,7 @@ Rectangle {
                         onTextChanged: mainWindow.searchQuery = text
                     }
                     
-                    // Action Fetch Routine Binding integrated near Search
-                    Button {
-                        text: qsTr("Fetch Missing Artwork")
-                        visible: libraryGames.length > 0
-                        
-                        property bool fetching: false
-                        property int currIndex: 0
-                        
-                        onClicked: {
-                            if (fetching || libraryGames.length === 0) return;
-                            fetching = true; currIndex = 0; fetchNext();
-                        }
-                        function fetchNext() {
-                            if (currIndex >= mainWindow.libraryGames.length) {
-                                fetching = false; Qt.callLater(refreshGames); return;
-                            }
-                            let g = mainWindow.libraryGames[currIndex]
-                            let extractedId = g.name.substring(0, 11)
-                            let artFolder = mainWindow.currentLibraryPath + "/ART"
-                            oplLibraryService.startDownloadArtAsync(artFolder, extractedId, g.path)
-                            currIndex++;
-                            batchTimer.start();
-                        }
-                        Timer { id: batchTimer; interval: 10; onTriggered: parent.fetchNext() }
-                        
-                        contentItem: Text {
-                            text: parent.fetching ? (qsTr("Network Pulling") + " (" + parent.currIndex + "/" + libraryGames.length + ")") : parent.text
-                            color: "white"; font.bold: true; font.pixelSize: 13
-                            horizontalAlignment: Text.AlignHCenter; verticalAlignment: Text.AlignVCenter
-                        }
-                        background: Rectangle {
-                            color: parent.down ? "#111" : (parent.hovered ? borderGlass : "transparent")
-                            radius: 8; border.color: accentPrimary; border.width: 1
-                            implicitWidth: 180; implicitHeight: 40
-                            Behavior on color { ColorAnimation { duration: 150 } }
-                        }
-                    }
-                    
+
                     ComboBox {
                         id: sortCombo
                         model: [qsTr("Name"), qsTr("Size"), qsTr("Media")]
@@ -1538,8 +2074,8 @@ Rectangle {
                                     anchors.fill: parent
                                     color: bgCard
                                     radius: 12
-                                    border.color: mouseArea.containsMouse ? cardBorderHover : cardBorderNormal
-                                    border.width: 1
+                                    border.color: mainWindow.selectionMap[modelData.path] === true ? accentPrimary : (mouseArea.containsMouse ? cardBorderHover : cardBorderNormal)
+                                    border.width: mainWindow.selectionMap[modelData.path] === true ? 2 : 1
                                     
                                     Behavior on border.color { ColorAnimation { duration: 250 } }
                                     
@@ -1547,7 +2083,28 @@ Rectangle {
                                         id: mouseArea
                                         anchors.fill: parent
                                         hoverEnabled: true
-                                        onClicked: {}
+                                        onClicked: {
+                                            let newMap = Object.assign({}, mainWindow.selectionMap)
+                                            newMap[modelData.path] = !newMap[modelData.path]
+                                            mainWindow.selectionMap = newMap
+                                        }
+                                    }
+
+                                    // Checkbox Hook Overlay
+                                    Rectangle {
+                                        anchors.top: parent.top; anchors.right: parent.right
+                                        anchors.margins: 10
+                                        width: 22; height: 22; radius: 11
+                                        border.color: mainWindow.selectionMap[modelData.path] === true ? accentPrimary : borderGlass
+                                        border.width: 2
+                                        color: mainWindow.selectionMap[modelData.path] === true ? accentPrimary : "transparent"
+                                        z: 10
+                                        
+                                        Text {
+                                            anchors.centerIn: parent; text: "✓"; color: "white"
+                                            font.bold: true; font.pixelSize: 14
+                                            visible: mainWindow.selectionMap[modelData.path] === true
+                                        }
                                     }
                                     
                                     states: State {
@@ -1623,11 +2180,11 @@ Rectangle {
                                                     asynchronous: true
                                                     fillMode: Image.Stretch
                                                     visible: status === Image.Ready
-                                                    source: "file://" + mainWindow.currentLibraryPath + "/ART/" + extractGameId(modelData.name) + "_COV.png"
+                                                    source: "file://" + mainWindow.currentLibraryPath + "/ART/" + modelData.gameId + "_COV.png"
                                                     
                                                     onStatusChanged: {
                                                         if (status === Image.Error && source.toString().includes("_COV")) {
-                                                            source = "file://" + mainWindow.currentLibraryPath + "/ART/" + extractGameId(modelData.name) + "_ICO.png"
+                                                            source = "file://" + mainWindow.currentLibraryPath + "/ART/" + modelData.gameId + "_ICO.png"
                                                         }
                                                     }
                                                 }
@@ -1657,7 +2214,7 @@ Rectangle {
                                                 
                                                 Text {
                                                     text: {
-                                                        let gid = extractGameId(modelData.name)
+                                                        let gid = modelData.gameId
                                                         if (gid && modelData.name.startsWith(gid)) {
                                                             return modelData.name.substring(gid.length + 1)
                                                         }
@@ -1677,7 +2234,7 @@ Rectangle {
                                                     spacing: 0
                                                     Text {
                                                         text: {
-                                                            let prefix = (extractGameId(modelData.name) || "UNKNOWN").substring(0, 4)
+                                                            let prefix = (modelData.gameId || "UNKNOWN").substring(0, 4)
                                                             let regionName = "Unknown Region"
                                                             if (prefix === "SLUS" || prefix === "SCUS") regionName = "NTSC-U"
                                                             else if (prefix === "SLES" || prefix === "SCES") regionName = "PAL"
@@ -1695,7 +2252,7 @@ Rectangle {
                                                         color: textSecondary; font.pixelSize: 11; font.family: "Inter"
                                                     }
                                                     Text {
-                                                        text: "Size: " + ((modelData.stats.size / (1024 * 1024 * 1024)).toFixed(2) > 0.99 ? (modelData.stats.size / (1024 * 1024 * 1024)).toFixed(2) + " GB" : (modelData.stats.size / (1024 * 1024)).toFixed(0) + " MB")
+                                                        text: "Size: " + (systemUtils ? systemUtils.formatSize(modelData.stats.size) : "")
                                                         color: textSecondary; font.pixelSize: 11; font.family: "Inter"
                                                     }
                                                 }
@@ -1724,8 +2281,8 @@ Rectangle {
                                     anchors.fill: parent
                                     color: bgCard
                                     radius: 12
-                                    border.color: listMouseArea.containsMouse ? cardBorderHover : cardBorderNormal
-                                    border.width: 1
+                                    border.color: mainWindow.selectionMap[modelData.path] === true ? accentPrimary : (listMouseArea.containsMouse ? cardBorderHover : cardBorderNormal)
+                                    border.width: mainWindow.selectionMap[modelData.path] === true ? 2 : 1
                                     
                                     Behavior on border.color { ColorAnimation { duration: 250 } }
                                     
@@ -1733,7 +2290,11 @@ Rectangle {
                                         id: listMouseArea
                                         anchors.fill: parent
                                         hoverEnabled: true
-                                        onClicked: {}
+                                        onClicked: {
+                                            let newMap = Object.assign({}, mainWindow.selectionMap)
+                                            newMap[modelData.path] = !newMap[modelData.path]
+                                            mainWindow.selectionMap = newMap
+                                        }
                                     }
                                     
                                     RowLayout {
@@ -1741,6 +2302,20 @@ Rectangle {
                                         anchors.margins: 12
                                         spacing: 20
                                         
+                                        // Checkbox Hook Overlay
+                                        Rectangle {
+                                            width: 22; height: 22; radius: 11
+                                            border.color: mainWindow.selectionMap[modelData.path] === true ? accentPrimary : borderGlass
+                                            border.width: 2
+                                            color: mainWindow.selectionMap[modelData.path] === true ? accentPrimary : "transparent"
+                                            
+                                            Text {
+                                                anchors.centerIn: parent; text: "✓"; color: "white"
+                                                font.bold: true; font.pixelSize: 14
+                                                visible: mainWindow.selectionMap[modelData.path] === true
+                                            }
+                                        }
+
                                         // Mini Jewel Case Overlay
                                         Rectangle {
                                             width: 48; height: 48; radius: 3
@@ -1769,11 +2344,11 @@ Rectangle {
                                                     asynchronous: true
                                                     fillMode: Image.PreserveAspectCrop
                                                     visible: status === Image.Ready
-                                                    source: "file://" + mainWindow.currentLibraryPath + "/ART/" + extractGameId(modelData.name) + "_COV.png"
+                                                    source: "file://" + mainWindow.currentLibraryPath + "/ART/" + modelData.gameId + "_COV.png"
                                                     
                                                     onStatusChanged: {
                                                         if (status === Image.Error && source.toString().includes("_COV")) {
-                                                            source = "file://" + mainWindow.currentLibraryPath + "/ART/" + extractGameId(modelData.name) + "_ICO.png"
+                                                            source = "file://" + mainWindow.currentLibraryPath + "/ART/" + modelData.gameId + "_ICO.png"
                                                         }
                                                     }
                                                 }
@@ -1795,7 +2370,7 @@ Rectangle {
                                             spacing: 6
                                             Text {
                                                 text: {
-                                                    let gid = extractGameId(modelData.name)
+                                                    let gid = modelData.gameId
                                                     if (gid && modelData.name.startsWith(gid)) {
                                                         return modelData.name.substring(gid.length + 1)
                                                     }
@@ -1803,19 +2378,20 @@ Rectangle {
                                                 }
                                                 color: textPrimary
                                                 font.bold: true; font.pixelSize: 17; font.family: "Inter"
-                                                elide: Text.ElideRight; Layout.maximumWidth: parent.width - 20
+                                                elide: Text.ElideRight
+                                                Layout.fillWidth: true
                                             }
                                             RowLayout {
                                                 spacing: 12
                                                 
                                                 Text {
-                                                    text: extractGameId(modelData.name) || "UNKNOWN ID"
+                                                    text: modelData.gameId || "UNKNOWN ID"
                                                     color: accentPrimary
                                                     font.bold: true; font.pixelSize: 11; font.family: "monospace"
                                                 }
                                                 
                                                 Text {
-                                                    text: "• " + ((modelData.stats.size / (1024 * 1024 * 1024)).toFixed(2) > 0.99 ? (modelData.stats.size / (1024 * 1024 * 1024)).toFixed(2) + " GB" : (modelData.stats.size / (1024 * 1024)).toFixed(0) + " MB")
+                                                    text: "• " + (systemUtils ? systemUtils.formatSize(modelData.stats.size) : "")
                                                     color: textSecondary; font.pixelSize: 11; font.bold: true; font.family: "Inter"
                                                 }
                                                 
@@ -1856,63 +2432,7 @@ Rectangle {
                                     anchors.fill: parent
                                     anchors.margins: 15
                                     spacing: 15
-                                    
-                                    Button {
-                                        property int selectedCount: Object.values(mainWindow.selectionMap).filter(v => v === true).length
-                                        text: mainWindow.isBatchExtracting ? "Importing..." : "Process " + selectedCount + " Items"
-                                        onClicked: {
-                                            if (mainWindow.isBatchExtracting) return;
-                                            let queue = []
-                                            let totalRequiredBytes = 0
-                                            for (let i = 0; i < importGames.length; i++) {
-                                                if (mainWindow.selectionMap[importGames[i].path] === true) {
-                                                    queue.push(importGames[i])
-                                                    totalRequiredBytes += importGames[i].stats.size
-                                                }
-                                            }
-                                            if (queue.length === 0) return;
-                                            
-                                            if (totalRequiredBytes > mainWindow.targetDriveFreeSpace) {
-                                                insufficientSpacePopup.requiredSpaceStr = (totalRequiredBytes / (1024*1024*1024)).toFixed(2) + " GB"
-                                                insufficientSpacePopup.availableSpaceStr = (mainWindow.targetDriveFreeSpace / (1024*1024*1024)).toFixed(2) + " GB"
-                                                insufficientSpacePopup.open()
-                                                return;
-                                            }
-                                            
-                                            mainWindow.extractQueue = queue
-                                            mainWindow.extractIndex = 0
-                                            mainWindow.isBatchExtracting = true
-                                            mainWindow.batchActiveJobs = 0
-                                            mainWindow.extractProcessor()
-                                        }
-                                        contentItem: Text {
-                                            text: parent.text; color: "white"; font.bold: true; font.pixelSize: 14
-                                            horizontalAlignment: Text.AlignHCenter; verticalAlignment: Text.AlignVCenter
-                                        }
-                                        background: Rectangle {
-                                            color: parent.down ? "#CC3D3D" : (mainWindow.isBatchExtracting ? borderGlass : accentPrimary)
-                                            radius: 12; implicitWidth: 160; implicitHeight: 40
-                                        }
-                                    }
-                                    
-                                    Item { Layout.fillWidth: true }
-                                    
-                                    Button {
-                                        id: massSelectBtn
-                                        property bool allSelected: false
-                                        text: allSelected ? "Deselect All" : "Select All Available"
-                                        onClicked: {
-                                            allSelected = !allSelected
-                                            let newMap = {}
-                                            if (allSelected) {
-                                                for (let i = 0; i < importGames.length; i++) newMap[importGames[i].path] = true
-                                            }
-                                            mainWindow.selectionMap = newMap
-                                        }
-                                        contentItem: Text { text: parent.text; color: textPrimary; font.bold: true; font.pixelSize: 13; verticalAlignment: Text.AlignVCenter; horizontalAlignment: Text.AlignHCenter }
-                                        background: Rectangle { color: parent.hovered ? borderGlass : "transparent"; radius: 6; border.color: borderGlass; implicitWidth: 150; implicitHeight: 36 }
-                                    }
-                                    
+
                                     Button {
                                         text: "Add Games"
                                         onClicked: addGamesDialog.open()
@@ -1926,6 +2446,26 @@ Rectangle {
                                         contentItem: Text { text: parent.text; color: textPrimary; font.bold: true; font.pixelSize: 13; verticalAlignment: Text.AlignVCenter; horizontalAlignment: Text.AlignHCenter }
                                         background: Rectangle { color: parent.hovered ? borderGlass : "transparent"; radius: 6; border.color: borderGlass; implicitWidth: 100; implicitHeight: 36 }
                                     }
+
+                                    Button {
+                                        id: massSelectBtn
+                                        property bool allSelected: false
+                                        text: allSelected ? "Deselect All" : "Select All"
+                                        onClicked: {
+                                            allSelected = !allSelected
+                                            let newMap = {}
+                                            if (allSelected) {
+                                                for (let i = 0; i < importGames.length; i++) newMap[importGames[i].path] = true
+                                            }
+                                            mainWindow.selectionMap = newMap
+                                        }
+                                        contentItem: Text { text: parent.text; color: textPrimary; font.bold: true; font.pixelSize: 13; verticalAlignment: Text.AlignVCenter; horizontalAlignment: Text.AlignHCenter }
+                                        background: Rectangle { color: parent.hovered ? borderGlass : "transparent"; radius: 6; border.color: borderGlass; implicitWidth: 120; implicitHeight: 36 }
+                                    }
+
+                                    Item { Layout.fillWidth: true }
+
+
                                 }
                             }
                             
@@ -2014,7 +2554,7 @@ Rectangle {
                                                     }
                                                     Item { Layout.fillWidth: true }
                                                     Text {
-                                                        text: ((modelData.stats.size / (1024 * 1024 * 1024)).toFixed(2) > 0.99 ? (modelData.stats.size / (1024 * 1024 * 1024)).toFixed(2) + " GB" : (modelData.stats.size / (1024 * 1024)).toFixed(0) + " MB")
+                                                        text: systemUtils ? systemUtils.formatSize(modelData.stats.size) : ""
                                                         color: textSecondary; font.pixelSize: 11; font.family: "Inter"
                                                     }
                                                 }
@@ -2134,7 +2674,7 @@ Rectangle {
                                                     }
                                                     Item { Layout.fillWidth: true }
                                                     Text {
-                                                        text: ((modelData.stats.size / (1024 * 1024 * 1024)).toFixed(2) > 0.99 ? (modelData.stats.size / (1024 * 1024 * 1024)).toFixed(2) + " GB" : (modelData.stats.size / (1024 * 1024)).toFixed(0) + " MB")
+                                                        text: systemUtils ? systemUtils.formatSize(modelData.stats.size) : ""
                                                         color: textSecondary; font.pixelSize: 12; font.family: "Inter"
                                                     }
                                                 }
@@ -2198,15 +2738,36 @@ Rectangle {
                                     anchors.fill: parent
                                     color: bgCard
                                     radius: 12
-                                    border.color: ps1CardMouse.containsMouse ? cardBorderHoverPs1 : cardBorderNormalPs1
-                                    border.width: 1
+                                    border.color: mainWindow.ps1SelectionMap[modelData.path] === true ? accentPs1 : (ps1CardMouse.containsMouse ? cardBorderHoverPs1 : cardBorderNormalPs1)
+                                    border.width: mainWindow.ps1SelectionMap[modelData.path] === true ? 2 : 1
                                     Behavior on border.color { ColorAnimation { duration: 250 } }
 
                                     MouseArea {
                                         id: ps1CardMouse
                                         anchors.fill: parent
                                         hoverEnabled: true
-                                        onClicked: {}
+                                        onClicked: {
+                                            let newMap = Object.assign({}, mainWindow.ps1SelectionMap)
+                                            newMap[modelData.path] = !newMap[modelData.path]
+                                            mainWindow.ps1SelectionMap = newMap
+                                        }
+                                    }
+
+                                    // Checkbox Hook Overlay
+                                    Rectangle {
+                                        anchors.top: parent.top; anchors.right: parent.right
+                                        anchors.margins: 10
+                                        width: 22; height: 22; radius: 11
+                                        border.color: mainWindow.ps1SelectionMap[modelData.path] === true ? accentPs1 : borderGlass
+                                        border.width: 2
+                                        color: mainWindow.ps1SelectionMap[modelData.path] === true ? accentPs1 : "transparent"
+                                        z: 10
+                                        
+                                        Text {
+                                            anchors.centerIn: parent; text: "✓"; color: "white"
+                                            font.bold: true; font.pixelSize: 14
+                                            visible: mainWindow.ps1SelectionMap[modelData.path] === true
+                                        }
                                     }
 
                                     states: State {
@@ -2278,10 +2839,10 @@ Rectangle {
                                                     asynchronous: true
                                                     fillMode: Image.Stretch
                                                     visible: status === Image.Ready
-                                                    source: "file://" + mainWindow.currentLibraryPath + "/ART/" + extractGameId(modelData.name) + "_COV.png"
+                                                    source: "file://" + mainWindow.currentLibraryPath + "/ART/" + modelData.gameId + "_COV.png"
                                                     onStatusChanged: {
                                                         if (status === Image.Error && source.toString().includes("_COV")) {
-                                                            source = "file://" + mainWindow.currentLibraryPath + "/ART/" + extractGameId(modelData.name) + "_ICO.png"
+                                                            source = "file://" + mainWindow.currentLibraryPath + "/ART/" + modelData.gameId + "_ICO.png"
                                                         }
                                                     }
                                                 }
@@ -2304,7 +2865,7 @@ Rectangle {
                                                 anchors.fill: parent; anchors.margins: 12; spacing: 4
                                                 Text {
                                                     text: {
-                                                        let gid = extractGameId(modelData.name)
+                                                        let gid = modelData.gameId
                                                         if (gid && modelData.name.startsWith(gid)) return modelData.name.substring(gid.length + 1)
                                                         return modelData.name
                                                     }
@@ -2317,12 +2878,12 @@ Rectangle {
                                                 ColumnLayout {
                                                     Layout.fillWidth: true; spacing: 0
                                                     Text {
-                                                        text: extractGameId(modelData.name) || "UNKNOWN ID"
+                                                        text: modelData.gameId || "UNKNOWN ID"
                                                         color: accentPs1; font.bold: true; font.pixelSize: 11; font.family: "monospace"
                                                     }
                                                     Text {
                                                         text: {
-                                                            let prefix = (extractGameId(modelData.name) || "UNKNOWN").substring(0, 4)
+                                                            let prefix = (modelData.gameId || "UNKNOWN").substring(0, 4)
                                                             let regionName = "Unknown Region"
                                                             if (prefix === "SLUS" || prefix === "SCUS") regionName = "NTSC-U"
                                                             else if (prefix === "SLES" || prefix === "SCES") regionName = "PAL"
@@ -2340,7 +2901,7 @@ Rectangle {
                                                         color: textSecondary; font.pixelSize: 11; font.family: "Inter"
                                                     }
                                                     Text {
-                                                        text: "Size: " + ((modelData.stats.size / (1024 * 1024 * 1024)).toFixed(2) > 0.99 ? (modelData.stats.size / (1024 * 1024 * 1024)).toFixed(2) + " GB" : (modelData.stats.size / (1024 * 1024)).toFixed(0) + " MB")
+                                                        text: "Size: " + (systemUtils ? systemUtils.formatSize(modelData.stats.size) : "")
                                                         color: textSecondary; font.pixelSize: 11; font.family: "Inter"
                                                     }
                                                 }
@@ -2365,12 +2926,36 @@ Rectangle {
                                 Rectangle {
                                     anchors.fill: parent
                                     color: bgCard; radius: 12
-                                    border.color: ps1LstMouse.containsMouse ? cardBorderHoverPs1 : cardBorderNormalPs1
-                                    border.width: 1
+                                    border.color: mainWindow.ps1SelectionMap[modelData.path] === true ? accentPs1 : (ps1LstMouse.containsMouse ? cardBorderHoverPs1 : cardBorderNormalPs1)
+                                    border.width: mainWindow.ps1SelectionMap[modelData.path] === true ? 2 : 1
                                     Behavior on border.color { ColorAnimation { duration: 250 } }
-                                    MouseArea { id: ps1LstMouse; anchors.fill: parent; hoverEnabled: true }
+                                    MouseArea {
+                                        id: ps1LstMouse
+                                        anchors.fill: parent
+                                        hoverEnabled: true
+                                        onClicked: {
+                                            let newMap = Object.assign({}, mainWindow.ps1SelectionMap)
+                                            newMap[modelData.path] = !newMap[modelData.path]
+                                            mainWindow.ps1SelectionMap = newMap
+                                        }
+                                    }
                                     RowLayout {
                                         anchors.fill: parent; anchors.margins: 12; spacing: 20
+                                        
+                                        // Checkbox Hook Overlay
+                                        Rectangle {
+                                            width: 22; height: 22; radius: 11
+                                            border.color: mainWindow.ps1SelectionMap[modelData.path] === true ? accentPs1 : borderGlass
+                                            border.width: 2
+                                            color: mainWindow.ps1SelectionMap[modelData.path] === true ? accentPs1 : "transparent"
+                                            
+                                            Text {
+                                                anchors.centerIn: parent; text: "✓"; color: "white"
+                                                font.bold: true; font.pixelSize: 14
+                                                visible: mainWindow.ps1SelectionMap[modelData.path] === true
+                                            }
+                                        }
+
                                         Rectangle {
                                             width: 48; height: 48; radius: 3
                                             color: "#181A20"; border.color: accentPs1; border.width: 1
@@ -2380,8 +2965,8 @@ Rectangle {
                                                 Text { anchors.centerIn: parent; text: "VCD"; color: accentPs1; font.bold: true; font.pixelSize: 11; visible: ps1LstArt.status !== Image.Ready }
                                                 Image {
                                                     id: ps1LstArt; anchors.fill: parent; asynchronous: true; fillMode: Image.PreserveAspectCrop; visible: status === Image.Ready
-                                                    source: "file://" + mainWindow.currentLibraryPath + "/ART/" + extractGameId(modelData.name) + "_COV.png"
-                                                    onStatusChanged: { if (status === Image.Error && source.toString().includes("_COV")) source = "file://" + mainWindow.currentLibraryPath + "/ART/" + extractGameId(modelData.name) + "_ICO.png" }
+                                                    source: "file://" + mainWindow.currentLibraryPath + "/ART/" + modelData.gameId + "_COV.png"
+                                                    onStatusChanged: { if (status === Image.Error && source.toString().includes("_COV")) source = "file://" + mainWindow.currentLibraryPath + "/ART/" + modelData.gameId + "_ICO.png" }
                                                 }
                                                 Rectangle { anchors.fill: parent; gradient: Gradient { GradientStop { position: 0.0; color: "#33FFFFFF" } GradientStop { position: 0.2; color: "transparent" } GradientStop { position: 1.0; color: "#55000000" } } }
                                             }
@@ -2389,14 +2974,14 @@ Rectangle {
                                         ColumnLayout {
                                             Layout.fillWidth: true; spacing: 6
                                             Text {
-                                                text: { let gid = extractGameId(modelData.name); if (gid && modelData.name.startsWith(gid)) return modelData.name.substring(gid.length + 1); return modelData.name }
+                                                text: { let gid = modelData.gameId; if (gid && modelData.name.startsWith(gid)) return modelData.name.substring(gid.length + 1); return modelData.name }
                                                 color: textPrimary; font.bold: true; font.pixelSize: 17; font.family: "Inter"
-                                                elide: Text.ElideRight; Layout.maximumWidth: parent.width - 20
+                                                elide: Text.ElideRight; Layout.fillWidth: true
                                             }
                                             RowLayout {
                                                 spacing: 12
-                                                Text { text: extractGameId(modelData.name) || "UNKNOWN ID"; color: accentPs1; font.bold: true; font.pixelSize: 11; font.family: "monospace" }
-                                                Text { text: "• " + ((modelData.stats.size / (1024 * 1024 * 1024)).toFixed(2) > 0.99 ? (modelData.stats.size / (1024 * 1024 * 1024)).toFixed(2) + " GB" : (modelData.stats.size / (1024 * 1024)).toFixed(0) + " MB"); color: textSecondary; font.pixelSize: 11; font.bold: true; font.family: "Inter" }
+                                                Text { text: modelData.gameId || "UNKNOWN ID"; color: accentPs1; font.bold: true; font.pixelSize: 11; font.family: "monospace" }
+                                                Text { text: "• " + (systemUtils ? systemUtils.formatSize(modelData.stats.size) : ""); color: textSecondary; font.pixelSize: 11; font.bold: true; font.family: "Inter" }
                                                 Text { text: "• VCD"; color: textSecondary; font.pixelSize: 11; font.bold: true }
                                                 Text { text: "• " + (modelData.version ? "v" + modelData.version : "v1.00"); color: textSecondary; font.pixelSize: 11; font.bold: true }
                                             }
@@ -2416,7 +3001,7 @@ Rectangle {
                                 anchors.centerIn: parent
                                 spacing: 15
                                 BusyIndicator { running: true; implicitWidth: 26; implicitHeight: 26 }
-                                Text { text: qsTr("Scanning POPS folder..."); color: "white"; font.bold: true; font.pixelSize: 14 }
+                                Text { text: qsTr("Loading Game Library..."); color: "white"; font.bold: true; font.pixelSize: 14 }
                             }
                         }
                     } // End TAB 2
@@ -2436,60 +3021,8 @@ Rectangle {
                                 RowLayout {
                                     anchors.fill: parent; anchors.margins: 15; spacing: 15
 
-                                    Button {
-                                        property int selectedCount: Object.values(mainWindow.ps1SelectionMap).filter(v => v === true).length
-                                        text: mainWindow.ps1IsBatchExtracting ? qsTr("Converting...") : qsTr("Process ") + selectedCount + qsTr(" Items")
-                                        onClicked: {
-                                            if (mainWindow.ps1IsBatchExtracting) return;
-                                            let queue = []
-                                            let totalRequiredBytes = 0
-                                            for (let i = 0; i < ps1ImportGames.length; i++) {
-                                                if (mainWindow.ps1SelectionMap[ps1ImportGames[i].path] === true) {
-                                                    queue.push(ps1ImportGames[i])
-                                                    totalRequiredBytes += ps1ImportGames[i].stats.size
-                                                }
-                                            }
-                                            if (queue.length === 0) return;
-                                            
-                                            if (totalRequiredBytes > mainWindow.targetDriveFreeSpace) {
-                                                insufficientSpacePopup.requiredSpaceStr = (totalRequiredBytes / (1024*1024*1024)).toFixed(2) + " GB"
-                                                insufficientSpacePopup.availableSpaceStr = (mainWindow.targetDriveFreeSpace / (1024*1024*1024)).toFixed(2) + " GB"
-                                                insufficientSpacePopup.open()
-                                                return;
-                                            }
-                                            
-                                            mainWindow.ps1ExtractQueue = queue
-                                            mainWindow.ps1ExtractIndex = 0
-                                            mainWindow.ps1IsBatchExtracting = true
-                                            mainWindow.ps1BatchActiveJobs = 0
-                                            mainWindow.ps1ExtractProcessor()
-                                        }
-                                        contentItem: Text {
-                                            text: parent.text; color: "white"; font.bold: true; font.pixelSize: 14
-                                            horizontalAlignment: Text.AlignHCenter; verticalAlignment: Text.AlignVCenter
-                                        }
-                                        background: Rectangle {
-                                            color: parent.down ? "#1A4080" : (mainWindow.ps1IsBatchExtracting ? borderGlass : accentPs1)
-                                            radius: 12; implicitWidth: 160; implicitHeight: 40
-                                        }
-                                    }
-                                    
-                                    Item { Layout.fillWidth: true }
-                                    
-                                    Button {
-                                        id: ps1MassSelectBtn
-                                        property bool allSelected: false
-                                        text: allSelected ? qsTr("Deselect All") : qsTr("Select All Available")
-                                        onClicked: {
-                                            allSelected = !allSelected
-                                            let newMap = {}
-                                            if (allSelected) { for (let i = 0; i < ps1ImportGames.length; i++) newMap[ps1ImportGames[i].path] = true }
-                                            mainWindow.ps1SelectionMap = newMap
-                                        }
-                                        contentItem: Text { text: parent.text; color: textPrimary; font.bold: true; font.pixelSize: 13; verticalAlignment: Text.AlignVCenter; horizontalAlignment: Text.AlignHCenter }
-                                        background: Rectangle { color: parent.hovered ? borderGlass : "transparent"; radius: 6; border.color: borderGlass; implicitWidth: 150; implicitHeight: 36 }
-                                    }
 
+                                    
                                     Button {
                                         text: qsTr("Add PS1 Games")
                                         onClicked: addPs1GamesDialog.open()
@@ -2503,6 +3036,22 @@ Rectangle {
                                         contentItem: Text { text: parent.text; color: accentPs1; font.bold: true; font.pixelSize: 13; verticalAlignment: Text.AlignVCenter; horizontalAlignment: Text.AlignHCenter }
                                         background: Rectangle { color: parent.hovered ? "#112040" : "transparent"; radius: 6; border.color: accentPs1; border.width: 1; implicitWidth: 100; implicitHeight: 36 }
                                     }
+
+                                    Button {
+                                        id: ps1MassSelectBtn
+                                        property bool allSelected: false
+                                        text: allSelected ? qsTr("Deselect All") : qsTr("Select All")
+                                        onClicked: {
+                                            allSelected = !allSelected
+                                            let newMap = {}
+                                            if (allSelected) { for (let i = 0; i < ps1ImportGames.length; i++) newMap[ps1ImportGames[i].path] = true }
+                                            mainWindow.ps1SelectionMap = newMap
+                                        }
+                                        contentItem: Text { text: parent.text; color: textPrimary; font.bold: true; font.pixelSize: 13; verticalAlignment: Text.AlignVCenter; horizontalAlignment: Text.AlignHCenter }
+                                        background: Rectangle { color: parent.hovered ? borderGlass : "transparent"; radius: 6; border.color: borderGlass; implicitWidth: 120; implicitHeight: 36 }
+                                    }
+
+                                    Item { Layout.fillWidth: true }
                                 }
                             }
 
@@ -2561,7 +3110,7 @@ Rectangle {
                                                     Text { text: modelData.extension.toUpperCase().replace(".", ""); color: textSecondary; font.pixelSize: 11; font.bold: true }
                                                     Text { text: "• PS1"; color: accentPs1; font.pixelSize: 11; font.bold: true }
                                                     Item { Layout.fillWidth: true }
-                                                    Text { text: ((modelData.stats.size / (1024 * 1024 * 1024)).toFixed(2) > 0.99 ? (modelData.stats.size / (1024 * 1024 * 1024)).toFixed(2) + " GB" : (modelData.stats.size / (1024 * 1024)).toFixed(0) + " MB"); color: textSecondary; font.pixelSize: 11; font.family: "Inter" }
+                                                    Text { text: systemUtils ? systemUtils.formatSize(modelData.stats.size) : ""; color: textSecondary; font.pixelSize: 11; font.family: "Inter" }
                                                 }
                                             }
                                         }
@@ -2637,7 +3186,7 @@ Rectangle {
                                                     Text { text: modelData.extension.toUpperCase().replace(".", ""); color: textSecondary; font.pixelSize: 12; font.bold: true }
                                                     Text { text: "• PS1"; color: accentPs1; font.pixelSize: 12; font.bold: true }
                                                     Item { Layout.fillWidth: true }
-                                                    Text { text: ((modelData.stats.size / (1024 * 1024 * 1024)).toFixed(2) > 0.99 ? (modelData.stats.size / (1024 * 1024 * 1024)).toFixed(2) + " GB" : (modelData.stats.size / (1024 * 1024)).toFixed(0) + " MB"); color: textSecondary; font.pixelSize: 12; font.family: "Inter" }
+                                                    Text { text: systemUtils ? systemUtils.formatSize(modelData.stats.size) : ""; color: textSecondary; font.pixelSize: 12; font.family: "Inter" }
                                                 }
                                             }
                                         }

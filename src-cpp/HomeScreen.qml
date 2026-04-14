@@ -9,6 +9,8 @@ Rectangle {
     
     signal openManager(string consoleType)
     
+    property string searchQuery: ""
+
     // Aesthetic properties
     property color cardBorderNormal: "#2A2F40"
     property color cardBorderHover: "#FF4D4D"
@@ -63,6 +65,24 @@ Rectangle {
             }
             
             Item { Layout.fillWidth: true } // Spatial wedge
+            
+            TextField {
+                id: searchInput
+                placeholderText: qsTr("Search consoles...")
+                implicitWidth: 200
+                implicitHeight: 40
+                color: "white"
+                font.pixelSize: 14
+                
+                background: Rectangle {
+                    color: "#1E2230"
+                    radius: 8
+                    border.color: parent.activeFocus ? "#FF4D4D" : "transparent"
+                    Behavior on border.color { ColorAnimation { duration: 150 } }
+                }
+                
+                onTextChanged: homeScreen.searchQuery = text.toLowerCase().trim()
+            }
             
             ComboBox {
                 id: langCombo
@@ -124,24 +144,19 @@ Rectangle {
         
         Item { height: 10 }
         
-        GridView {
-            Layout.fillWidth: true
-            Layout.fillHeight: true
-            cellWidth: 350
-            cellHeight: 250
-            clip: true
-            
-            model: ListModel {
-                ListElement { name: "PlayStation 2"; ode: "OPL"; image: "qrc:/assets/consoles/ps2.png"; active: true; key: "ps2" }
-                ListElement { name: "Gamecube"; ode: "Swiss"; image: "qrc:/assets/consoles/gamecube.png"; active: true; key: "gc" }
-                ListElement { name: "Dreamcast"; ode: "GDEMU"; image: "qrc:/assets/consoles/dreamcast.png"; active: false; key: "dc" }
-                ListElement { name: "Sega Saturn"; ode: "Saroo"; image: "qrc:/assets/consoles/saturn.png"; active: false; key: "saturn" }
-                ListElement { name: "PlayStation 1"; ode: "PSIO"; image: "qrc:/assets/consoles/ps1.png"; active: false; key: "ps1" }
-            }
-            
-            delegate: Item {
-                width: 320
-                height: 220
+        Component {
+            id: reusableConsoleCard
+            Item {
+                property bool isMatch: {
+                    if (homeScreen.searchQuery === "") return true;
+                    return model.name.toLowerCase().includes(homeScreen.searchQuery) ||
+                           model.ode.toLowerCase().includes(homeScreen.searchQuery) ||
+                           model.key.toLowerCase().includes(homeScreen.searchQuery);
+                }
+                width: isMatch ? 320 : 0
+                height: isMatch ? 220 : 0
+                visible: isMatch
+                clip: true
                 
                 Rectangle {
                     id: cardRect
@@ -162,7 +177,6 @@ Rectangle {
                         Behavior on opacity { NumberAnimation { duration: 200 } }
                     }
                     
-                    // Gradient overlay to make text readable
                     Rectangle {
                         anchors.fill: parent
                         gradient: Gradient {
@@ -215,6 +229,73 @@ Rectangle {
                         }
                     }
                 }
+            }
+        }
+        
+        ScrollView {
+            Layout.fillWidth: true
+            Layout.fillHeight: true
+            clip: true
+            contentWidth: availableWidth
+            ScrollBar.horizontal.policy: ScrollBar.AlwaysOff
+            
+            ColumnLayout {
+                width: parent.width
+                spacing: 20
+                
+                property bool showSony: homeScreen.searchQuery === "" || "sony playstation 1 ps1 playstation 2 ps2 xstation opl".toLowerCase().includes(homeScreen.searchQuery)
+                property bool showNintendo: homeScreen.searchQuery === "" || "nintendo gamecube gc swiss".toLowerCase().includes(homeScreen.searchQuery)
+                property bool showSega: homeScreen.searchQuery === "" || "sega dreamcast dc gdemu saturn saroo".toLowerCase().includes(homeScreen.searchQuery)
+                
+                // --------- Sony ---------
+                Text { visible: parent.showSony; text: "Sony"; color: "white"; font.pixelSize: 20; font.bold: true; font.family: "Inter"; font.letterSpacing: 2; Layout.topMargin: 10 }
+                Flow {
+                    visible: parent.showSony
+                    Layout.fillWidth: true
+                    spacing: 30
+                    Repeater {
+                        model: ListModel {
+                            ListElement { name: "PlayStation 1"; ode: "XStation"; image: "qrc:/assets/consoles/ps1.png"; active: true; key: "ps1" }
+                            ListElement { name: "PlayStation 2"; ode: "OPL"; image: "qrc:/assets/consoles/ps2.png"; active: true; key: "ps2" }
+                        }
+                        delegate: reusableConsoleCard
+                    }
+                }
+                
+                Rectangle { visible: parent.showSony && (parent.showNintendo || parent.showSega); height: 1; Layout.fillWidth: true; color: "#1E2230"; Layout.topMargin: 15; Layout.bottomMargin: 15; opacity: 0.5 }
+                
+                // --------- Nintendo ---------
+                Text { visible: parent.showNintendo; text: "Nintendo"; color: "white"; font.pixelSize: 20; font.bold: true; font.family: "Inter"; font.letterSpacing: 2 }
+                Flow {
+                    visible: parent.showNintendo
+                    Layout.fillWidth: true
+                    spacing: 30
+                    Repeater {
+                        model: ListModel {
+                            ListElement { name: "Gamecube"; ode: "Swiss"; image: "qrc:/assets/consoles/gamecube.png"; active: true; key: "gc" }
+                        }
+                        delegate: reusableConsoleCard
+                    }
+                }
+                
+                Rectangle { visible: parent.showNintendo && parent.showSega; height: 1; Layout.fillWidth: true; color: "#1E2230"; Layout.topMargin: 15; Layout.bottomMargin: 15; opacity: 0.5 }
+                
+                // --------- Sega ---------
+                Text { visible: parent.showSega; text: "Sega"; color: "white"; font.pixelSize: 20; font.bold: true; font.family: "Inter"; font.letterSpacing: 2 }
+                Flow {
+                    visible: parent.showSega
+                    Layout.fillWidth: true
+                    spacing: 30
+                    Repeater {
+                        model: ListModel {
+                            ListElement { name: "Dreamcast"; ode: "GDEMU"; image: "qrc:/assets/consoles/dreamcast.png"; active: false; key: "dc" }
+                            ListElement { name: "Sega Saturn"; ode: "Saroo"; image: "qrc:/assets/consoles/saturn.png"; active: false; key: "saturn" }
+                        }
+                        delegate: reusableConsoleCard
+                    }
+                }
+                
+                Item { height: 40 } // Bottom spacer
             }
         }
     }

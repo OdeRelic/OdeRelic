@@ -16,6 +16,7 @@
 #include <QProcess>
 #include <QUrl>
 #include "filesystem_cache.h"
+#include "system_utils.h"
 #include <fstream>
 #include <thread>
 #include <vector>
@@ -25,6 +26,7 @@ OplLibraryService::OplLibraryService(QObject *parent) : QObject(parent) {
 }
 
 void OplLibraryService::startGetGamesFilesAsync(const QString &dirPath) {
+  qInfo() << "[OPL Scanner] Starting async PS2 scan on directory:" << dirPath;
   std::thread([this, dirPath]() {
     QVariantMap result;
     QVariantList files;
@@ -95,45 +97,54 @@ void OplLibraryService::startGetGamesFilesAsync(const QString &dirPath) {
             QVariantMap itemInfo;
             itemInfo["extension"] = "." + ext;
             itemInfo["name"] = fileInfo.completeBaseName();
-            itemInfo["isRenamed"] = fileInfo.completeBaseName().contains(idRegex);
+            QRegularExpressionMatch idMatch = idRegex.match(fileInfo.completeBaseName());
+            itemInfo["isRenamed"] = idMatch.hasMatch();
+            itemInfo["gameId"] = idMatch.hasMatch() ? idMatch.captured(0) : "";
 
             qint64 actualSize = fileInfo.size();
             if (ext == "cue" && cueSizes.contains(fileInfo.fileName())) {
               actualSize = cueSizes.value(fileInfo.fileName());
             }
-            
-            // Extract disk version gracefully interacting with persistent root JSON caches
-            QString version = "1.00"; // default fallback
-            QString pathKey = fileInfo.fileName();
-            
+
+            // Use subdir-prefixed key to avoid CD/ vs DVD/ filename collisions
+            QString version = "1.00";
+            QString pathKey = subDir + "/" + fileInfo.fileName();
+
             if (cacheData.contains(pathKey)) {
                 QVariantMap cacheItem = cacheData[pathKey].toMap();
-                // FAT32 arrays shift `mtime` dynamically via OS daylight saving rules. Relying on file size safely bypasses cache wiping.
-                if (cacheItem["size"].toLongLong() == fileInfo.size() || cacheItem["mtime"].toLongLong() == fileInfo.lastModified().toSecsSinceEpoch()) {
+                // Validate against actualSize (full cue+bin sum) to correctly
+                // detect changes in multi-track games, not just the tiny .cue file.
+                if (cacheItem["size"].toLongLong() == actualSize || cacheItem["mtime"].toLongLong() == fileInfo.lastModified().toSecsSinceEpoch()) {
                     version = cacheItem["version"].toString();
+                    if (itemInfo["gameId"].toString().isEmpty() && cacheItem.contains("gameId")) itemInfo["gameId"] = cacheItem["gameId"];
                 } else {
                     QVariantMap idRes = tryDetermineGameIdFromHex(fileInfo.absoluteFilePath());
-                    if (idRes["success"].toBool() && idRes.contains("version") && idRes["version"].toString() != "") {
-                        version = idRes["version"].toString();
+                    if (idRes["success"].toBool()) {
+                        if (idRes.contains("version") && idRes["version"].toString() != "") version = idRes["version"].toString();
+                        if (itemInfo["gameId"].toString().isEmpty() && idRes.contains("gameId")) itemInfo["gameId"] = idRes["gameId"];
                     }
                     QVariantMap newCacheItem;
                     newCacheItem["mtime"] = fileInfo.lastModified().toSecsSinceEpoch();
-                    newCacheItem["size"] = fileInfo.size();
+                    newCacheItem["size"] = actualSize;
                     newCacheItem["version"] = version;
+                    newCacheItem["gameId"] = itemInfo["gameId"];
                     cacheData[pathKey] = newCacheItem;
                     cacheDirty = true;
                 }
             } else {
                 QVariantMap idRes = tryDetermineGameIdFromHex(fileInfo.absoluteFilePath());
-                if (idRes["success"].toBool() && idRes.contains("version") && idRes["version"].toString() != "") {
-                  version = idRes["version"].toString();
+                if (idRes["success"].toBool()) {
+                    if (idRes.contains("version") && idRes["version"].toString() != "") version = idRes["version"].toString();
+                    if (itemInfo["gameId"].toString().isEmpty() && idRes.contains("gameId")) itemInfo["gameId"] = idRes["gameId"];
                 }
                 QVariantMap newCacheItem;
                 newCacheItem["mtime"] = fileInfo.lastModified().toSecsSinceEpoch();
-                newCacheItem["size"] = fileInfo.size();
+                newCacheItem["size"] = actualSize;
                 newCacheItem["version"] = version;
+                newCacheItem["gameId"] = itemInfo["gameId"];
                 cacheData[pathKey] = newCacheItem;
                 cacheDirty = true;
+                qInfo() << "[OPL Scanner] Cached new game properties for:" << pathKey;
             }
 
             itemInfo["parentPath"] = dir.absolutePath();
@@ -141,7 +152,7 @@ void OplLibraryService::startGetGamesFilesAsync(const QString &dirPath) {
             itemInfo["size"] = actualSize;
             itemInfo["version"] = version;
             itemInfo["stats"] =
-                QVariantMap{{"size", actualSize}}; // Mimic simple stats
+                QVariantMap{{"size", actualSize}};
             files.append(itemInfo);
           }
         }
@@ -149,6 +160,7 @@ void OplLibraryService::startGetGamesFilesAsync(const QString &dirPath) {
     }
     
     if (cacheDirty) {
+        qInfo() << "[OPL Scanner] Caching changes to disk for performance.";
         FileSystemCache::saveCache(dirPath, cacheData, "ps2");
     }
 
@@ -200,6 +212,64 @@ QVariantMap OplLibraryService::getArtFolder(const QString &dirPath) {
   result["success"] = true;
   result["data"] = artFiles;
   return result;
+}
+
+void OplLibraryService::startBatchArtDownloadAsync(const QVariantList &gamesList, const QString &artFolder) {
+  qInfo() << "[OPL Artwork] Batch download started for" << gamesList.size() << "items into:" << artFolder;
+  std::thread([this, gamesList, artFolder]() {
+    int total = gamesList.size();
+    int current = 0;
+    
+    QNetworkAccessManager manager;
+    QString baseUrl = "https://raw.githubusercontent.com/Luden02/psx-ps2-opl-art-database/refs/heads/main/PS2";
+    QStringList types = {"COV", "ICO", "SCR", "COV2", "SCR2", "BG", "LAB", "LGO"};
+
+    QDir().mkpath(artFolder);
+
+    for (const QVariant &item : gamesList) {
+      QVariantMap g = item.toMap();
+      QString path = g.value("path").toString();
+      QString gameName = g.value("name").toString();
+      
+      QString extractedId = gameName.left(11);
+      
+      if (!extractedId.isEmpty()) {
+        for (const QString &type : types) {
+          QString fileName = extractedId + "_" + type + ".png";
+          QString urlStr = baseUrl + "/" + extractedId + "/" + fileName;
+          QString savePath = artFolder + "/" + fileName;
+
+          // Optional: Skip if already exists
+          if (QFile::exists(savePath)) continue;
+
+          QNetworkRequest request((QUrl(urlStr)));
+          QNetworkReply *reply = manager.get(request);
+
+          QEventLoop loop;
+          QObject::connect(reply, &QNetworkReply::finished, &loop, &QEventLoop::quit);
+          loop.exec();
+
+          if (reply->error() == QNetworkReply::NoError) {
+            QFile file(savePath);
+            if (file.open(QIODevice::WriteOnly)) {
+              file.write(reply->readAll());
+              file.close();
+            }
+          }
+          reply->deleteLater();
+        }
+      }
+      
+      current++;
+      QMetaObject::invokeMethod(this, [=]() {
+        emit batchArtDownloadProgress(current, total);
+      }, Qt::QueuedConnection);
+    }
+
+    QMetaObject::invokeMethod(this, [=]() {
+      emit batchArtDownloadFinished(true);
+    }, Qt::QueuedConnection);
+  }).detach();
 }
 
 void OplLibraryService::startDownloadArtAsync(const QString &dirPath,
@@ -489,6 +559,9 @@ void OplLibraryService::startConvertBinToIso(const QString &sourceBinPath,
     const int SECTORS_PER_CHUNK = 1024;
     const qint64 READ_CHUNK = RAW_SECTOR_SIZE * SECTORS_PER_CHUNK;
 
+    int lastPercent = -1;
+    QElapsedTimer timer;
+    timer.start();
     while (!bin.atEnd()) {
       QByteArray chunk = bin.read(READ_CHUNK);
       if (chunk.isEmpty())
@@ -512,9 +585,18 @@ void OplLibraryService::startConvertBinToIso(const QString &sourceBinPath,
       int percent = 0;
       if (totalSectors > 0)
         percent = (int)((totalProcessed * 100) / totalSectors);
-      QMetaObject::invokeMethod(
-          this, [=]() { emit conversionProgress(sourceBinPath, percent); },
-          Qt::QueuedConnection);
+      
+      if (percent != lastPercent) {
+        lastPercent = percent;
+        double elapsedSecs = timer.elapsed() / 1000.0;
+        double MBps = 0.0;
+        if (elapsedSecs > 0.0) {
+            MBps = ((double)totalProcessed * RAW_SECTOR_SIZE / (1024.0 * 1024.0)) / elapsedSecs;
+        }
+        QMetaObject::invokeMethod(
+            this, [=]() { emit conversionProgress(sourceBinPath, percent, MBps); },
+            Qt::QueuedConnection);
+      }
     }
 
     bin.close();
@@ -531,45 +613,9 @@ void OplLibraryService::startConvertBinToIso(const QString &sourceBinPath,
   }).detach();
 }
 
-QVariantMap OplLibraryService::deleteFileAndCue(const QString &sourceRawPath) {
-  QVariantMap result;
-
-  if (sourceRawPath.endsWith(".cue", Qt::CaseInsensitive)) {
-    // Find all tracks and delete them, then delete the CUE.
-    QFile cueFile(sourceRawPath);
-    QFileInfo cueInfo(sourceRawPath);
-    if (cueFile.open(QIODevice::ReadOnly | QIODevice::Text)) {
-      while (!cueFile.atEnd()) {
-        QString line = cueFile.readLine().trimmed();
-        if (line.startsWith("FILE")) {
-          int firstQuote = line.indexOf('"');
-          int lastQuote = line.lastIndexOf('"');
-          if (firstQuote != -1 && lastQuote > firstQuote) {
-            QString binName =
-                line.mid(firstQuote + 1, lastQuote - firstQuote - 1);
-            QFile::remove(cueInfo.absolutePath() + "/" + binName);
-          }
-        }
-      }
-      cueFile.close();
-    }
-    QFile::remove(sourceRawPath);
-  } else {
-    // Standard legacy .BIN logic
-    QFileInfo binInfo(sourceRawPath);
-    QString basePath =
-        binInfo.absolutePath() + "/" + binInfo.completeBaseName();
-    QFile::remove(sourceRawPath);
-    QFile::remove(basePath + ".cue");
-    QFile::remove(basePath + ".CUE");
-  }
-
-  result["success"] = true;
-  return result;
-}
 
 void OplLibraryService::startImportIsoAsync(const QString &sourceIsoPath, const QString &targetLibraryRoot, const QString &gameId, const QString &gameName, bool forceCD) {
-  qDebug() << "[ISO_ASYNC] Spawning autonomous thread for: " << sourceIsoPath;
+  qInfo() << "[OPL Importer] Spawning completely autonomous ISO thread for:" << sourceIsoPath;
 
   std::thread([this, sourceIsoPath, targetLibraryRoot, gameId, gameName, forceCD]() {
     QFileInfo fileInfo(sourceIsoPath);
@@ -634,13 +680,16 @@ void OplLibraryService::startImportIsoAsync(const QString &sourceIsoPath, const 
 
       int currentPercent = (int)((bytesProcessed * 100) / totalBytes);
       double elapsedSecs = timer.elapsed() / 1000.0;
-      double mbps = 0.0;
+      double MBps = 0.0;
       if (elapsedSecs > 0.0) {
-          mbps = (bytesProcessed / (1024.0 * 1024.0)) / elapsedSecs;
+          MBps = (bytesProcessed / (1024.0 * 1024.0)) / elapsedSecs;
       }
-      QMetaObject::invokeMethod(this, [=]() {
-        emit importIsoProgress(sourceIsoPath, currentPercent, mbps);
-      }, Qt::QueuedConnection);
+      if (currentPercent != lastPercent) {
+          lastPercent = currentPercent;
+          QMetaObject::invokeMethod(this, [=]() {
+            emit importIsoProgress(sourceIsoPath, currentPercent, MBps);
+          }, Qt::QueuedConnection);
+      }
     }
 
     sourceFile.close();
@@ -663,14 +712,18 @@ void OplLibraryService::startImportIsoAsync(const QString &sourceIsoPath, const 
 
 QVariantMap OplLibraryService::checkOplFolder(const QString &rootPath) {
     QVariantMap result;
-    
+
     QStorageInfo storage(rootPath);
     QString fsType = QString::fromUtf8(storage.fileSystemType()).toLower();
-    
-    // Some OS variations report FAT32 as vfat or msdos natively.
-    bool isFormatCorrect = fsType.contains("fat32") || fsType.contains("exfat") || fsType.contains("vfat") || fsType.contains("msdos") || fsType.contains("fat");
+
+    // Detect specific filesystem variant
+    bool isExFat = fsType.contains("exfat");
+    bool isFat32 = fsType.contains("fat32") || fsType.contains("vfat") || fsType.contains("msdos") || fsType.contains("fat");
+    bool isFormatCorrect = isExFat || isFat32; // Both are valid; exFAT needs OPL 1.2.0+
+
+    bool isGpt = false;
     bool isPartitionCorrect = true; // Fallback grant if environment doesn't support interrogation
-    
+
 #ifdef Q_OS_MAC
     QString deviceNode = QString::fromUtf8(storage.device());
     QProcess p;
@@ -683,7 +736,8 @@ QVariantMap OplLibraryService::checkOplFolder(const QString &rootPath) {
         p2.waitForFinished(3000);
         QString content = p2.readAllStandardOutput().trimmed();
         if (!content.isEmpty()) {
-            isPartitionCorrect = content.contains("FDisk_partition_scheme", Qt::CaseInsensitive);
+            isGpt = content.contains("GUID_partition_scheme", Qt::CaseInsensitive);
+            isPartitionCorrect = content.contains("FDisk_partition_scheme", Qt::CaseInsensitive) || isGpt;
         }
     }
 #elif defined(Q_OS_LINUX)
@@ -693,7 +747,8 @@ QVariantMap OplLibraryService::checkOplFolder(const QString &rootPath) {
     p.waitForFinished(3000);
     QString pttype = p.readAllStandardOutput().trimmed().toLower();
     if (!pttype.isEmpty()) {
-        isPartitionCorrect = (pttype == "dos");
+        isGpt = (pttype == "gpt");
+        isPartitionCorrect = (pttype == "dos") || isGpt;
     }
 #elif defined(Q_OS_WIN)
     QString driveLetter = rootPath.left(1);
@@ -704,39 +759,22 @@ QVariantMap OplLibraryService::checkOplFolder(const QString &rootPath) {
         p.waitForFinished(3000);
         QString style = p.readAllStandardOutput().trimmed().toLower();
         if (!style.isEmpty()) {
-            isPartitionCorrect = (style == "mbr");
+            isGpt = (style == "gpt");
+            isPartitionCorrect = (style == "mbr") || isGpt;
         }
     }
 #endif
 
     result["isFormatCorrect"] = isFormatCorrect;
     result["isPartitionCorrect"] = isPartitionCorrect;
+    result["isExFat"] = isExFat;
+    result["isGpt"] = isGpt;
 
     return result;
 }
 
-namespace {
-  qint64 getCueRealSize(const QFileInfo &fileInfo) {
-      qint64 totalSize = 0;
-      QFile cueFile(fileInfo.absoluteFilePath());
-      if (cueFile.open(QIODevice::ReadOnly | QIODevice::Text)) {
-          while (!cueFile.atEnd()) {
-              QString line = cueFile.readLine().trimmed();
-              if (line.startsWith("FILE", Qt::CaseInsensitive)) {
-                  int fq = line.indexOf('"');
-                  int lq = line.lastIndexOf('"');
-                  if (fq != -1 && lq > fq) {
-                      QString binName = line.mid(fq + 1, lq - fq - 1);
-                      QFileInfo binInfo(fileInfo.absoluteDir().absoluteFilePath(binName));
-                      if (binInfo.exists()) totalSize += binInfo.size();
-                  }
-              }
-          }
-          cueFile.close();
-      }
-      return totalSize > 0 ? totalSize : fileInfo.size();
-  }
 
+namespace {
   void scanDirectoryRecursively(OplLibraryService* self, const QString &dirPath, QFileInfoList &outFiles) {
       // Pass 1: Rapidly count total directories
       int totalFolders = 0;
@@ -809,7 +847,7 @@ QVariantList OplLibraryService::getExternalGameFilesData(const QStringList &file
           if (fileInfo.exists() && fileInfo.isFile()) {
               QString ext = fileInfo.suffix().toLower();
               if (ext == "iso" || ext == "zso" || ext == "bin" || ext == "cue") {
-                  qint64 reportedSize = (ext == "cue") ? getCueRealSize(fileInfo) : fileInfo.size();
+                  qint64 reportedSize = (ext == "cue") ? SystemUtils::calculateCueRealSize(fileInfo) : fileInfo.size();
                   
                   QVariantMap itemInfo;
                   itemInfo["extension"] = "." + ext;
@@ -842,6 +880,7 @@ void OplLibraryService::scanExternalFilesAsync(const QStringList &fileUrls, bool
 // ═══════════════════════════════════════════════════════════════════════════
 
 void OplLibraryService::startGetPs1GamesAsync(const QString &dirPath) {
+  qInfo() << "[OPL POPStarter] Starting async PS1 scan on directory:" << dirPath;
   std::thread([this, dirPath]() {
     QVariantMap result;
     QVariantList files;
@@ -864,7 +903,9 @@ void OplLibraryService::startGetPs1GamesAsync(const QString &dirPath) {
           QVariantMap itemInfo;
           itemInfo["extension"] = ".vcd";
           itemInfo["name"]      = fileInfo.completeBaseName();
-          itemInfo["isRenamed"] = fileInfo.completeBaseName().contains(idRegex);
+          QRegularExpressionMatch idMatch = idRegex.match(fileInfo.completeBaseName());
+          itemInfo["isRenamed"] = idMatch.hasMatch();
+          itemInfo["gameId"] = idMatch.hasMatch() ? idMatch.captured(0) : "";
           itemInfo["size"]      = fileInfo.size();
           
           QString version = "1.00";
@@ -875,27 +916,32 @@ void OplLibraryService::startGetPs1GamesAsync(const QString &dirPath) {
               // Prevent FAT32 UTC drift wipes by integrating file size parity natively for VCDs
               if (cacheItem["size"].toLongLong() == fileInfo.size() || cacheItem["mtime"].toLongLong() == fileInfo.lastModified().toSecsSinceEpoch()) {
                   version = cacheItem["version"].toString();
+                  if (itemInfo["gameId"].toString().isEmpty() && cacheItem.contains("gameId")) itemInfo["gameId"] = cacheItem["gameId"];
               } else {
                   QVariantMap idRes = tryDeterminePs1GameIdFromHex(fileInfo.absoluteFilePath());
-                  if (idRes["success"].toBool() && idRes.contains("version") && idRes["version"].toString() != "") {
-                      version = idRes["version"].toString();
+                  if (idRes["success"].toBool()) {
+                      if (idRes.contains("version") && idRes["version"].toString() != "") version = idRes["version"].toString();
+                      if (itemInfo["gameId"].toString().isEmpty() && idRes.contains("gameId")) itemInfo["gameId"] = idRes["gameId"];
                   }
                   QVariantMap newCacheItem;
                   newCacheItem["mtime"] = fileInfo.lastModified().toSecsSinceEpoch();
                   newCacheItem["size"] = fileInfo.size();
                   newCacheItem["version"] = version;
+                  newCacheItem["gameId"] = itemInfo["gameId"];
                   cacheData[pathKey] = newCacheItem;
                   cacheDirty = true;
               }
           } else {
               QVariantMap idRes = tryDeterminePs1GameIdFromHex(fileInfo.absoluteFilePath());
-              if (idRes["success"].toBool() && idRes.contains("version") && idRes["version"].toString() != "") {
-                  version = idRes["version"].toString();
+              if (idRes["success"].toBool()) {
+                  if (idRes.contains("version") && idRes["version"].toString() != "") version = idRes["version"].toString();
+                  if (itemInfo["gameId"].toString().isEmpty() && idRes.contains("gameId")) itemInfo["gameId"] = idRes["gameId"];
               }
               QVariantMap newCacheItem;
               newCacheItem["mtime"] = fileInfo.lastModified().toSecsSinceEpoch();
               newCacheItem["size"] = fileInfo.size();
               newCacheItem["version"] = version;
+              newCacheItem["gameId"] = itemInfo["gameId"];
               cacheData[pathKey] = newCacheItem;
               cacheDirty = true;
           }
@@ -910,6 +956,7 @@ void OplLibraryService::startGetPs1GamesAsync(const QString &dirPath) {
     }
     
     if (cacheDirty) {
+        qInfo() << "[OPL POPStarter] Caching PS1 changes to disk for performance.";
         FileSystemCache::saveCache(dirPath, cacheData, "ps1");
     }
 
@@ -1125,6 +1172,10 @@ void OplLibraryService::startConvertBinToVcd(const QString &sourcePath,
     const qint64 READ_CHUNK        = RAW_SECTOR_SIZE * SECTORS_PER_CHUNK;
     int    audioTracksSkipped      = 0; // Keeping variable for compatibility, but count is 0
 
+    int lastPercent = -1;
+    QElapsedTimer timer;
+    timer.start();
+
     for (const TrackEntry &track : tracks) {
 
       QFile bin(track.path);
@@ -1145,9 +1196,17 @@ void OplLibraryService::startConvertBinToVcd(const QString &sourcePath,
         int percent = totalSectors > 0
                       ? (int)((totalProcessed * 100) / totalSectors)
                       : 0;
-        QMetaObject::invokeMethod(this, [=]() {
-          emit ps1ConversionProgress(sourcePath, percent);
-        }, Qt::QueuedConnection);
+        if (percent != lastPercent) {
+          lastPercent = percent;
+          double elapsedSecs = timer.elapsed() / 1000.0;
+          double MBps = 0.0;
+          if (elapsedSecs > 0.0) {
+              MBps = ((double)totalProcessed * RAW_SECTOR_SIZE / (1024.0 * 1024.0)) / elapsedSecs;
+          }
+          QMetaObject::invokeMethod(this, [=]() {
+            emit ps1ConversionProgress(sourcePath, percent, MBps);
+          }, Qt::QueuedConnection);
+        }
       }
       bin.close();
     }
@@ -1283,13 +1342,16 @@ void OplLibraryService::startImportVcdAsync(const QString &sourceVcdPath,
       bytesProcessed += chunk.size();
       int pct = (int)((bytesProcessed * 100) / totalBytes);
       double elapsedSecs = timer.elapsed() / 1000.0;
-      double mbps = 0.0;
+      double MBps = 0.0;
       if (elapsedSecs > 0.0) {
-          mbps = (bytesProcessed / (1024.0 * 1024.0)) / elapsedSecs;
+          MBps = (bytesProcessed / (1024.0 * 1024.0)) / elapsedSecs;
       }
-      QMetaObject::invokeMethod(this, [=]() {
-        emit ps1ImportProgress(sourceVcdPath, pct, mbps);
-      }, Qt::QueuedConnection);
+      if (pct != lastPercent) {
+          lastPercent = pct;
+          QMetaObject::invokeMethod(this, [=]() {
+            emit ps1ImportProgress(sourceVcdPath, pct, MBps);
+          }, Qt::QueuedConnection);
+      }
     }
 
     sourceFile.close();
@@ -1392,7 +1454,7 @@ QVariantList OplLibraryService::getExternalPs1FilesData(const QStringList &fileU
       if (fileInfo.exists() && fileInfo.isFile()) {
         QString ext = fileInfo.suffix().toLower();
         if (ext == "bin" || ext == "cue" || ext == "img" || ext == "vcd") {
-          qint64 reportedSize = (ext == "cue") ? getCueRealSize(fileInfo) : fileInfo.size();
+          qint64 reportedSize = (ext == "cue") ? SystemUtils::calculateCueRealSize(fileInfo) : fileInfo.size();
 
           QVariantMap itemInfo;
           itemInfo["extension"] = "." + ext;
