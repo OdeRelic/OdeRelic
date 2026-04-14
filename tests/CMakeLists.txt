@@ -75,3 +75,22 @@ target_link_libraries(SystemUtilsTests PRIVATE
 
 target_include_directories(SystemUtilsTests PRIVATE ../src-cpp/core)
 add_test(NAME SystemUtilsTests COMMAND SystemUtilsTests)
+
+# XStation Test executable
+add_executable(XStationLibraryServiceTests
+    test_xstation.cpp
+    ../src-cpp/core/ps1_xstation_library_service.cpp
+    ../src-cpp/core/ps1_xstation_library_service.h
+    ../src-cpp/core/system_utils.cpp
+    ../src-cpp/core/system_utils.h
+)
+
+target_link_libraries(XStationLibraryServiceTests PRIVATE
+    Qt6::Core
+    Qt6::Gui
+    Qt6::Test
+    Qt6::Network
+)
+
+target_include_directories(XStationLibraryServiceTests PRIVATE ../src-cpp/core)
+add_test(NAME XStationLibraryServiceTests COMMAND XStationLibraryServiceTests)

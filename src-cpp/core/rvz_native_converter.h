@@ -17,7 +17,7 @@ public:
                        QString &outError);
 
 signals:
-  void progressUpdated(int percentage, double mbps);
+  void progressUpdated(int percentage, double MBps);
 };
 
 #endif // RVZ_NATIVE_CONVERTER_H

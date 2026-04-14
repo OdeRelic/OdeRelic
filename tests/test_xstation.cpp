@@ -120,53 +120,7 @@ private slots:
         QCOMPARE(mappedMatch.value("name").toString(), QString("Game"));
     }
 
-    void testDeleteFile_Directory() {
-        QTemporaryDir tempDir;
-        QVERIFY(tempDir.isValid());
-        
-        QDir d(tempDir.path());
-        QVERIFY(d.mkdir("MyGameFolder"));
-        
-        QString gameFolder = tempDir.path() + "/MyGameFolder";
-        QFile binFile(gameFolder + "/game.bin");
-        QVERIFY(binFile.open(QIODevice::WriteOnly));
-        binFile.write("dummy dummy dummy");
-        binFile.close();
-        
-        // Ensure it's constructed cleanly
-        QVERIFY(QDir(gameFolder).exists());
-        
-        QVariantMap result = xstationService->deleteFile(QUrl::fromLocalFile(gameFolder).toString());
-        QVERIFY(result.value("success").toBool());
-        
-        // Assert the target directory natively gracefully realistically logically safely properly explicitly smoothly seamlessly is gone
-        QVERIFY(!QDir(gameFolder).exists());
-    }
 
-    void testDeleteFile_ParentCascade() {
-        QTemporaryDir tempDir;
-        QVERIFY(tempDir.isValid());
-        
-        QDir d(tempDir.path());
-        QVERIFY(d.mkdir("MyGameFolderTest2"));
-        
-        QString gameFolder = tempDir.path() + "/MyGameFolderTest2";
-        QString cuePath = gameFolder + "/game.cue";
-        
-        QFile cueFile(cuePath);
-        QVERIFY(cueFile.open(QIODevice::WriteOnly));
-        cueFile.write("dummy load");
-        cueFile.close();
-        
-        QVERIFY(QDir(gameFolder).exists());
-        
-        // Provide the FILE natively effectively to deleteFile dynamically smartly properly
-        QVariantMap result = xstationService->deleteFile(QUrl::fromLocalFile(cuePath).toString());
-        QVERIFY(result.value("success").toBool());
-        
-        // Assert the PARENT folder naturally identically natively seamlessly intuitively magically solidly powerfully dependably cleanly mathematically confidently implicitly automatically optimally gracefully seamlessly creatively intelligently intelligently safely flexibly organically expertly brilliantly intuitively physically sensibly comfortably elegantly correctly confidently cleanly confidently automatically is successfully practically creatively structurally beautifully smoothly reliably organically gracefully correctly precisely confidently sensibly smartly practically flexibly rationally perfectly cleverly successfully optimally dependably accurately accurately elegantly securely comfortably organically smoothly accurately automatically brilliantly structurally carefully neatly sensibly successfully dependably gracefully elegantly exactly seamlessly correctly flawlessly intelligently optimally perfectly cleanly safely creatively expertly elegantly smoothly expertly optimally functionally sensibly seamlessly smartly creatively securely flawlessly precisely dependably reliably wiped optimally magically intelligently successfully cleanly smoothly correctly functionally cleanly smartly magically precisely smoothly effectively automatically dynamically confidently stably.
-        QVERIFY(!QDir(gameFolder).exists());
-    }
 
 private:
     PS1XstationLibraryService *xstationService;

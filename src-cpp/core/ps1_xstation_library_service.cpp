@@ -85,8 +85,9 @@ QVariantMap PS1XstationLibraryService::tryDetermineGameIdFromHex(const QString &
   QString targetPath = filepath;
   QFileInfo fi(filepath);
 
+  qInfo() << "[XStation Scraper] Executing ID Extraction on ->" << targetPath;
   if (fi.suffix().toLower() == "cue") {
-    qDebug() << "PS1 ID Scraper: CUE string detected, tracking mapped binary internally.";
+    qInfo() << "[XStation Scraper] CUE string detected, tracking mapped binary internally.";
     QFile cueFile(filepath);
     if (cueFile.open(QIODevice::ReadOnly | QIODevice::Text)) {
       QTextStream in(&cueFile);
@@ -100,7 +101,7 @@ QVariantMap PS1XstationLibraryService::tryDetermineGameIdFromHex(const QString &
             QFileInfo binInfo(fi.absolutePath() + "/" + binFileName);
             if (binInfo.exists()) {
               targetPath = binInfo.absoluteFilePath();
-              qDebug() << "PS1 ID Scraper: Located natively resolved payload ->" << binFileName;
+              qInfo() << "[XStation Scraper] Located natively resolved payload ->" << binFileName;
               break;
             }
           }
@@ -111,7 +112,7 @@ QVariantMap PS1XstationLibraryService::tryDetermineGameIdFromHex(const QString &
   }
 
   QFile file(targetPath);
-  qDebug() << "PS1 ID Scraper: Executing hex chunk mapping on ->" << targetPath;
+  qInfo() << "[XStation Scraper] Executing hex chunk mapping on ->" << targetPath;
   if (!file.open(QIODevice::ReadOnly)) {
     result["success"] = false;
     result["message"] = "Unable to open file.";
@@ -148,7 +149,7 @@ QVariantMap PS1XstationLibraryService::tryDetermineGameIdFromHex(const QString &
       file.close();
       result["success"]         = true;
       result["gameId"]          = formatted;
-      qDebug() << "PS1 ID Scraper: Natively matched internal `BOOT=` descriptor ->" << formatted;
+      qInfo() << "[XStation Scraper] Natively matched internal `BOOT=` descriptor ->" << formatted;
       return result;
     }
 
@@ -161,7 +162,7 @@ QVariantMap PS1XstationLibraryService::tryDetermineGameIdFromHex(const QString &
       file.close();
       result["success"]         = true;
       result["gameId"]          = formatted;
-      qDebug() << "PS1 ID Scraper: Natively matched bare sector serial ->" << formatted;
+      qInfo() << "[XStation Scraper] Natively matched bare sector serial ->" << formatted;
       return result;
     }
 
@@ -382,12 +383,21 @@ QVariantList PS1XstationLibraryService::getExternalGameFilesData(const QStringLi
   return files;
 }
 
-void PS1XstationLibraryService::startImportIsoAsync(const QString &sourceIsoPath, const QString &targetLibraryRoot, const QString &gameId, const QString &gameName) {
-  std::thread([this, sourceIsoPath, targetLibraryRoot, gameName]() {
+void PS1XstationLibraryService::startImportIsoAsync(
+    const QString &sourceIsoPath, const QString &targetLibraryRoot,
+    const QString &gameId, const QString &gameName) {
+  
+  qInfo() << "[XStation Importer] Spawning import thread for:" << sourceIsoPath;
+  std::thread([this, sourceIsoPath, targetLibraryRoot, gameId, gameName]() {
     QFileInfo srcInfo(sourceIsoPath);
     QString ext = srcInfo.suffix().toLower();
     QString safeDirName = gameName;
     safeDirName.replace(QRegularExpression("[\\\\/:*?\"<>|]"), "_");
+    
+    // Group identical multi-disc instances into a single parent entity accurately
+    safeDirName.remove(QRegularExpression("\\s*\\(Disc\\s*[0-9A-Za-z]+\\)", QRegularExpression::CaseInsensitiveOption));
+    safeDirName.remove(QRegularExpression("\\s*-\\s*Disc\\s*[0-9A-Za-z]+", QRegularExpression::CaseInsensitiveOption));
+    safeDirName = safeDirName.trimmed();
 
     QString cleanTarget = urlToLocalFile(targetLibraryRoot);
     QDir targetDir(cleanTarget);
@@ -463,9 +473,9 @@ void PS1XstationLibraryService::startImportIsoAsync(const QString &sourceIsoPath
         if (currentTime - lastReportTime > 500) {
           int percent = totalBytes > 0 ? static_cast<int>((copiedBytes * 100) / totalBytes) : 100;
           double elapsedTimeS = (currentTime - startTimeMs) / 1000.0;
-          double mbps = (elapsedTimeS > 0) ? (static_cast<double>(copiedBytes) / 1024.0 / 1024.0) / elapsedTimeS : 0.0;
+          double MBps = (elapsedTimeS > 0) ? (static_cast<double>(copiedBytes) / 1024.0 / 1024.0) / elapsedTimeS : 0.0;
           
-          QMetaObject::invokeMethod(this, [=]() { emit importIsoProgress(sourceIsoPath, percent, mbps); }, Qt::QueuedConnection);
+          QMetaObject::invokeMethod(this, [=]() { emit importIsoProgress(sourceIsoPath, percent, MBps); }, Qt::QueuedConnection);
           lastReportTime = currentTime;
         }
       }
@@ -541,6 +551,7 @@ void PS1XstationLibraryService::startDownloadArtAsync(const QString &dirPath, co
 }
 
 void PS1XstationLibraryService::startBatchArtDownloadAsync(const QVariantList &gamesList) {
+  qInfo() << "[XStation Artwork] Batch download started for" << gamesList.size() << "items";
   std::thread([this, gamesList]() {
     int total = gamesList.size();
     int current = 0;
@@ -608,6 +619,7 @@ void PS1XstationLibraryService::startBatchArtDownloadAsync(const QVariantList &g
 
 // Stubs for compiling basic UI functions perfectly mirroring others sequentially
 void PS1XstationLibraryService::startGetGamesFilesAsync(const QString &dirPath) {
+  qInfo() << "[XStation Scanner] Starting async PS1 scan on directory:" << dirPath;
   std::thread([this, dirPath]() {
     QString cleanT = urlToLocalFile(dirPath);
     QVariantMap result;
@@ -671,25 +683,3 @@ void PS1XstationLibraryService::startGetGamesFilesAsync(const QString &dirPath) 
 
 QVariantMap PS1XstationLibraryService::renameGamefile(const QString &dirpath, const QString &targetLibraryRoot, const QString &gameId, const QString &gameName) { return QVariantMap(); }
 QVariantMap PS1XstationLibraryService::moveFile(const QString &sourcePath, const QString &destPath) { return QVariantMap(); }
-QVariantMap PS1XstationLibraryService::deleteFile(const QString &sourceRawPath) {
-  QVariantMap result;
-  result["success"] = false;
-  
-  QString cleanPath = urlToLocalFile(sourceRawPath);
-  QFileInfo fi(cleanPath);
-  
-  if (fi.exists()) {
-    std::error_code ec;
-    if (fi.isDir()) {
-      std::filesystem::remove_all(cleanPath.toStdString(), ec);
-      result["success"] = !ec;
-    } else {
-      QDir parentDir = fi.dir();
-      std::filesystem::remove_all(parentDir.absolutePath().toStdString(), ec);
-      result["success"] = !ec;
-    }
-  }
-  
-  return result;
-}
-QVariantMap PS1XstationLibraryService::deleteFileAndCue(const QString &sourceRawPath) { return deleteFile(sourceRawPath); }

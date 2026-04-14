@@ -17,8 +17,6 @@ public:
     Q_INVOKABLE void startGetGamesFilesAsync(const QString &dirPath);
     Q_INVOKABLE QVariantMap renameGamefile(const QString &dirpath, const QString &targetLibraryRoot, const QString &gameId, const QString &gameName);
     Q_INVOKABLE QVariantMap moveFile(const QString &sourcePath, const QString &destPath);
-    Q_INVOKABLE QVariantMap deleteFile(const QString &sourceRawPath);
-    Q_INVOKABLE QVariantMap deleteFileAndCue(const QString &sourceRawPath);
     
     Q_INVOKABLE void startImportIsoAsync(const QString &sourceIsoPath, const QString &targetLibraryRoot, const QString &gameId, const QString &gameName);
     Q_INVOKABLE void startDownloadArtAsync(const QString &dirPath, const QString &gameId, const QString &callbackSourceKey);
@@ -37,7 +35,7 @@ public:
 
 signals:
     void libraryScanProgress(int current, int total);
-    void importIsoProgress(QString sourcePath, int percent, double mbps);
+    void importIsoProgress(QString sourcePath, int percent, double MBps);
     void importIsoFinished(QString sourcePath, bool success, QString destIsoPath, QString message);
     void setupXStationProgress(int percent, QString statusText);
     void setupXStationFinished(bool success, QString message);

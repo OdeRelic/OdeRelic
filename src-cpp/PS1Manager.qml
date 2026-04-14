@@ -104,7 +104,7 @@ Rectangle {
     onBatchActiveJobsChanged: { if (batchActiveJobs === 0) updateStorageBars() }
 
     property int activeTargetPercent: 0
-    property double activeTargetMbps: 0.0
+    property double activeTargetMBps: 0.0
     Component.onCompleted: {
         if (mainWindow.currentLibraryPath === "") {
             targetSetupDialog.open()
@@ -114,9 +114,9 @@ Rectangle {
 
     Connections {
         target: ps1XstationLibraryService
-        function onImportIsoProgress(sourcePath, percent, mbps) {
+        function onImportIsoProgress(sourcePath, percent, MBps) {
             mainWindow.activeTargetPercent = percent
-            mainWindow.activeTargetMbps = mbps
+            mainWindow.activeTargetMBps = MBps
         }
         function onArtDownloadProgress(sourcePath, percent) {}
         
@@ -334,7 +334,7 @@ Rectangle {
             anchors.centerIn: parent
             spacing: 12
             Text {
-                text: qsTr("Scanning Storage...")
+                text: qsTr("Loading Game Library...")
                 color: "#18A0FB"
                 font.bold: true
                 font.pixelSize: 15
@@ -382,7 +382,7 @@ Rectangle {
         
         onOpened: {
             mainWindow.activeTargetPercent = 0
-            mainWindow.activeTargetMbps = 0.0
+            mainWindow.activeTargetMBps = 0.0
         }
 
         background: Rectangle {
@@ -445,7 +445,7 @@ Rectangle {
                     color: "#A0A0A0"; font.pixelSize: 10
                 }
                 Text {
-                    text: mainWindow.activeTargetMbps.toFixed(2) + " MB/s"
+                    text: mainWindow.activeTargetMBps.toFixed(2) + " MB/s"
                     color: "#00E676"; font.pixelSize: 10; font.bold: true
                 }
             }
@@ -898,7 +898,7 @@ Rectangle {
                     }
                     onClicked: {
                         for(let i = 0; i < deleteConfirmationPopup.selectedPaths.length; i++) {
-                            ps1XstationLibraryService.deleteFile(deleteConfirmationPopup.selectedPaths[i]);
+                            systemUtils.deleteGame(deleteConfirmationPopup.selectedPaths[i], true);
                         }
                         mainWindow.librarySelectionMap = ({});
                         refreshGames();
@@ -1029,7 +1029,7 @@ Rectangle {
             
             mainWindow.batchActiveJobs++;
             mainWindow.activeTargetPercent = 0
-            mainWindow.activeTargetMbps = 0.0
+            mainWindow.activeTargetMBps = 0.0
             ps1XstationLibraryService.startImportIsoAsync(filePath, mainWindow.currentLibraryPath, gameId, g.name)
             
             continue;
@@ -1563,7 +1563,7 @@ Rectangle {
                 anchors.centerIn: parent
                 spacing: 12
                 Text {
-                    text: qsTr("Scanning Storage Arrays...")
+                    text: qsTr("Loading Game Library...")
                     color: "#18A0FB"
                     font.bold: true
                     font.pixelSize: 15

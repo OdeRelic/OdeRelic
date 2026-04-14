@@ -53,6 +53,7 @@ bool RvzNativeConverter::convertRvzToIso(const QString &sourcePath,
   qint64 processed = 0;
   const qint64 CHUNK = 1024 * 1024;
 
+  int lastPercent = -1;
   QElapsedTimer timer;
   timer.start();
 
@@ -67,12 +68,15 @@ bool RvzNativeConverter::convertRvzToIso(const QString &sourcePath,
     int pct = 30 + (int)((processed * 70) / total);
 
     double elapsedSecs = timer.elapsed() / 1000.0;
-    double mbps = 0.0;
+    double MBps = 0.0;
     if (elapsedSecs > 0) {
-      mbps = (processed / (1024.0 * 1024.0)) / elapsedSecs;
+      MBps = (processed / (1024.0 * 1024.0)) / elapsedSecs;
     }
 
-    emit progressUpdated(pct, mbps);
+    if (pct != lastPercent) {
+      lastPercent = pct;
+      emit progressUpdated(pct, MBps);
+    }
   }
 
   emit progressUpdated(100, 0.0);

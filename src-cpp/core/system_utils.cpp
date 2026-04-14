@@ -5,10 +5,13 @@
 #include <QFile>
 #include <QTextStream>
 #include <QSet>
+#include <QUrl>
+#include <filesystem>
 
 SystemUtils::SystemUtils(QObject* parent) : QObject(parent) {}
 
 QVariantMap SystemUtils::getStorageSpace(const QString& targetPath) {
+    qInfo() << "[SystemUtils] Fetching storage space for:" << targetPath;
     if (targetPath.isEmpty()) {
         return {{"total", 0}, {"free", 0}};
     }
@@ -36,7 +39,10 @@ double SystemUtils::getStorageMultiplier() {
 }
 
 QString SystemUtils::formatSize(double bytes) {
-    if (bytes < 0) bytes = 0;
+    if (bytes <= 0) {
+        qWarning() << "[SystemUtils] formatSize called with zero or negative bytes:" << bytes;
+        return "0 B";
+    }
     double mult = getStorageMultiplier();
     double sizeInGB = bytes / (mult * mult * mult);
     
@@ -48,6 +54,7 @@ QString SystemUtils::formatSize(double bytes) {
 }
 
 qint64 SystemUtils::calculateCueRealSize(const QFileInfo &cueInfo) {
+  qInfo() << "[SystemUtils] Calculating pure native CUE aggregated size for:" << cueInfo.absoluteFilePath();
   qint64 totalSize = 0;
   QSet<QString> processedFiles;
   QFile cueFile(cueInfo.absoluteFilePath());
@@ -84,4 +91,55 @@ qint64 SystemUtils::calculateCueRealSize(const QFileInfo &cueInfo) {
   }
   
   return totalSize > 0 ? (totalSize + cueInfo.size()) : cueInfo.size();
+}
+
+QVariantMap SystemUtils::deleteGame(const QString& sourceRawPath, bool deleteParentFolder) {
+    qInfo() << "[SystemUtils] Orchestrating destructive block wipe on:" << sourceRawPath << "Targeting parent directory deletion:" << deleteParentFolder;
+    QVariantMap result;
+    result["success"] = false;
+
+    QString cleanPath = sourceRawPath;
+    if (cleanPath.startsWith("file://")) {
+        cleanPath = QUrl(cleanPath).toLocalFile();
+    }
+
+    QFileInfo fi(cleanPath);
+    if (!fi.exists()) return result;
+
+    std::error_code ec;
+
+    if (cleanPath.endsWith(".cue", Qt::CaseInsensitive)) {
+        QFile cueFile(cleanPath);
+        if (cueFile.open(QIODevice::ReadOnly | QIODevice::Text)) {
+            while (!cueFile.atEnd()) {
+                QString line = cueFile.readLine().trimmed();
+                if (line.startsWith("FILE", Qt::CaseInsensitive)) {
+                    int firstQuote = line.indexOf('"');
+                    int lastQuote = line.lastIndexOf('"');
+                    if (firstQuote != -1 && lastQuote > firstQuote) {
+                        QString binName = line.mid(firstQuote + 1, lastQuote - firstQuote - 1);
+                        QFile::remove(fi.absolutePath() + "/" + binName);
+                    }
+                }
+            }
+            cueFile.close();
+        }
+        QFile::remove(cleanPath);
+    } else {
+        if (!fi.isDir()) {
+            QFile::remove(cleanPath);
+        }
+    }
+
+    if (deleteParentFolder) {
+        if (fi.isDir()) {
+            std::filesystem::remove_all(cleanPath.toStdString(), ec);
+        } else {
+            QDir parentDir = fi.dir();
+            std::filesystem::remove_all(parentDir.absolutePath().toStdString(), ec);
+        }
+    }
+
+    result["success"] = true;
+    return result;
 }

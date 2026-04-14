@@ -52,6 +52,7 @@ Rectangle {
     
     property int currentTabIndex: 0
     property var selectionMap: ({})
+    property var librarySelectionMap: ({})
     property string searchQuery: ""
     
     property bool isGridView: true
@@ -97,7 +98,7 @@ Rectangle {
     onBatchActiveJobsChanged: { if (batchActiveJobs === 0) updateStorageBars() }
 
     property int activeTargetPercent: 0
-    property double activeTargetMbps: 0.0
+    property double activeTargetMBps: 0.0
     Component.onCompleted: {
         if (mainWindow.currentLibraryPath === "") {
             targetSetupDialog.open()
@@ -107,9 +108,9 @@ Rectangle {
 
     Connections {
         target: swissLibraryService
-        function onImportIsoProgress(sourcePath, percent, mbps) {
+        function onImportIsoProgress(sourcePath, percent, MBps) {
             mainWindow.activeTargetPercent = percent
-            mainWindow.activeTargetMbps = mbps
+            mainWindow.activeTargetMBps = MBps
         }
         function onArtDownloadProgress(sourcePath, percent) {}
         
@@ -120,6 +121,7 @@ Rectangle {
                 mainWindow.gameFiles = []
                 mainWindow.gameFiles = data.data
                 mainWindow.selectionMap = ({})
+                mainWindow.librarySelectionMap = ({})
                 updateSort()
             }
         }
@@ -339,7 +341,7 @@ Rectangle {
             anchors.centerIn: parent
             spacing: 12
             Text {
-                text: qsTr("Scanning Storage...")
+                text: qsTr("Loading Game Library...")
                 color: "#18A0FB"
                 font.bold: true
                 font.pixelSize: 15
@@ -387,7 +389,7 @@ Rectangle {
         
         onOpened: {
             mainWindow.activeTargetPercent = 0
-            mainWindow.activeTargetMbps = 0.0
+            mainWindow.activeTargetMBps = 0.0
         }
 
         background: Rectangle {
@@ -450,7 +452,7 @@ Rectangle {
                     color: "#A0A0A0"; font.pixelSize: 10
                 }
                 Text {
-                    text: mainWindow.activeTargetMbps.toFixed(2) + " MB/s"
+                    text: mainWindow.activeTargetMBps.toFixed(2) + " MB/s"
                     color: "#00E676"; font.pixelSize: 10; font.bold: true
                 }
             }
@@ -477,6 +479,7 @@ Rectangle {
                     mainWindow.extractIndex = 0
                     mainWindow.batchConvertingMap = ({})
                     mainWindow.selectionMap = ({})
+                    mainWindow.librarySelectionMap = ({})
                     importProgressOverlay.close()
                     refreshGames()
                 }
@@ -797,6 +800,126 @@ Rectangle {
         }
     }
 
+    Popup {
+        id: deleteConfirmationPopup
+        parent: Overlay.overlay
+        anchors.centerIn: parent
+        width: 420
+        height: 380
+        modal: true
+        closePolicy: Popup.NoAutoClose
+        
+        property var selectedPaths: []
+        property var selectedNames: []
+        
+        background: Rectangle {
+            color: "#0F1626"
+            radius: 12
+            border.color: "#FF4D4D"
+            border.width: 1
+        }
+        
+        ColumnLayout {
+            anchors.fill: parent
+            anchors.margins: 24
+            spacing: 16
+            
+            RowLayout {
+                spacing: 12
+                Layout.alignment: Qt.AlignHCenter
+                Text { text: "⚠️"; font.pixelSize: 22 }
+                Text {
+                    text: qsTr("Confirm Deletion")
+                    color: "#FF4D4D"
+                    font.bold: true; font.pixelSize: 18
+                }
+            }
+            
+            Text {
+                text: qsTr("Are you sure you want to permanently remove the following games from your library?\nThis action cannot be undone.")
+                color: textPrimary
+                font.pixelSize: 13
+                wrapMode: Text.WordWrap
+                horizontalAlignment: Text.AlignHCenter
+                Layout.fillWidth: true
+            }
+
+            Rectangle {
+                color: "#1A2235"
+                radius: 6
+                Layout.fillWidth: true
+                Layout.fillHeight: true
+                
+                ScrollView {
+                    anchors.fill: parent
+                    anchors.margins: 12
+                    clip: true
+                    
+                    ColumnLayout {
+                        width: parent.width
+                        spacing: 6
+                        Repeater {
+                            model: deleteConfirmationPopup.selectedNames
+                            Text {
+                                text: "• " + modelData
+                                color: "#FFB3B3"
+                                font.pixelSize: 12
+                                Layout.fillWidth: true
+                                elide: Text.ElideRight
+                            }
+                        }
+                    }
+                }
+            }
+            
+            RowLayout {
+                Layout.alignment: Qt.AlignHCenter
+                spacing: 20
+                
+                Button {
+                    text: qsTr("Cancel")
+                    Layout.preferredWidth: 120
+                    background: Rectangle {
+                        color: parent.down ? "#222" : (parent.hovered ? "#333" : "#222")
+                        radius: 6; border.color: borderGlass; border.width: 1
+                    }
+                    contentItem: Text {
+                        text: parent.text; color: textPrimary; font.bold: true
+                        horizontalAlignment: Text.AlignHCenter; verticalAlignment: Text.AlignVCenter
+                    }
+                    onClicked: deleteConfirmationPopup.close()
+                }
+                
+                Button {
+                    text: qsTr("Delete (" + deleteConfirmationPopup.selectedPaths.length + ")")
+                    Layout.preferredWidth: 120
+                    background: Rectangle {
+                        color: parent.down ? "#111" : (parent.hovered ? "#CC3333" : "transparent")
+                        radius: 6; border.color: "#FF4D4D"; border.width: 1
+                        Behavior on color { ColorAnimation { duration: 150 } }
+                    }
+                    contentItem: Text {
+                        text: parent.text; color: parent.hovered ? "white" : "#FF4D4D"; font.bold: true
+                        horizontalAlignment: Text.AlignHCenter; verticalAlignment: Text.AlignVCenter
+                        Behavior on color { ColorAnimation { duration: 150 } }
+                    }
+                    onClicked: {
+                        for(let i = 0; i < deleteConfirmationPopup.selectedPaths.length; i++) {
+                            systemUtils.deleteGame(deleteConfirmationPopup.selectedPaths[i], true);
+                        }
+                        mainWindow.librarySelectionMap = ({});
+                        refreshGames();
+                        
+                        let spaceObj = systemUtils.getStorageSpace(mainWindow.currentLibraryPath);
+                        mainWindow.targetDriveTotalSpace = spaceObj.total;
+                        mainWindow.targetDriveFreeSpace = spaceObj.free;
+                        deleteConfirmationPopup.close();
+                    }
+                }
+            }
+        }
+    }
+
     FolderDialog {
         id: folderDialog
         title: qsTr("Select SWISS Root Folder")
@@ -942,6 +1065,7 @@ Rectangle {
         if (mainWindow.batchActiveJobs === 0 && extractIndex >= extractQueue.length) {
             isBatchExtracting = false
             mainWindow.selectionMap = ({})
+            mainWindow.librarySelectionMap = ({})
             Qt.callLater(refreshGames)
         }
     }
@@ -1036,6 +1160,50 @@ Rectangle {
                     Layout.bottomMargin: 10
                 }
                 
+                // --- Storage Visualization ---
+                ColumnLayout {
+                    Layout.fillWidth: true
+                    spacing: 8
+                    visible: mainWindow.targetDriveTotalSpace > 0
+
+                    RowLayout {
+                        Layout.fillWidth: true
+                        Text {
+                            text: qsTr("Storage Media")
+                            color: textSecondary; font.pixelSize: 12; font.bold: true
+                            Layout.alignment: Qt.AlignLeft
+                        }
+                        Item { Layout.fillWidth: true }
+                        Text {
+                            property double mBase: systemUtils.getStorageMultiplier()
+                            property double freeGb: mainWindow.targetDriveFreeSpace / (mBase * mBase * mBase)
+                            property double totalGb: mainWindow.targetDriveTotalSpace / (mBase * mBase * mBase)
+                            property double usedGb: totalGb - freeGb
+                            text: usedGb.toFixed(1) + " GB / " + totalGb.toFixed(1) + " GB"
+                            color: textPrimary; font.pixelSize: 11; font.bold: true
+                            Layout.alignment: Qt.AlignRight
+                        }
+                    }
+
+                    Rectangle {
+                        Layout.fillWidth: true
+                        height: 8
+                        radius: 4
+                        color: borderGlass
+
+                        Rectangle {
+                            anchors.left: parent.left
+                            anchors.top: parent.top
+                            anchors.bottom: parent.bottom
+                            width: mainWindow.targetDriveTotalSpace > 0 ? ((mainWindow.targetDriveTotalSpace - mainWindow.targetDriveFreeSpace) / mainWindow.targetDriveTotalSpace) * parent.width : 0
+                            radius: 4
+                            color: (mainWindow.targetDriveFreeSpace / mainWindow.targetDriveTotalSpace) < 0.05 ? "#FF4D4D" : accentPrimary
+                            Behavior on width { NumberAnimation { duration: 350; easing.type: Easing.OutQuad } }
+                            Behavior on color { ColorAnimation { duration: 350 } }
+                        }
+                    }
+                }
+
                 // Change Disk Re-router
                 Button {
                     Layout.fillWidth: true
@@ -1115,20 +1283,158 @@ Rectangle {
                 }
 
                 // Navigation Buttons Array
-                Button {
+                ColumnLayout {
                     Layout.fillWidth: true
-                    text: qsTr("Gamecube Library") + "  (" + libraryGames.length + ")"
-                    onClicked: currentTabIndex = 0
-                    contentItem: Text {
-                        text: parent.text; color: currentTabIndex === 0 ? "white" : textSecondary
-                        font.bold: true; font.pixelSize: 14; horizontalAlignment: Text.AlignLeft
-                        leftPadding: 20; verticalAlignment: Text.AlignVCenter
+                    spacing: 4
+
+                    Button {
+                        Layout.fillWidth: true
+                        text: qsTr("Gamecube Library") + "  (" + libraryGames.length + ")"
+                        onClicked: currentTabIndex = 0
+                        contentItem: Text {
+                            text: parent.text; color: currentTabIndex === 0 ? "white" : textSecondary
+                            font.bold: true; font.pixelSize: 14; horizontalAlignment: Text.AlignLeft
+                            leftPadding: 20; verticalAlignment: Text.AlignVCenter
+                        }
+                        background: Rectangle {
+                            color: currentTabIndex === 0 ? "#33FF4D4D" : "transparent"
+                            radius: 8; implicitHeight: 46
+                            border.color: currentTabIndex === 0 ? accentPrimary : (parent.hovered ? borderGlass : "transparent")
+                            Behavior on color { ColorAnimation { duration: 150 } }
+                        }
                     }
-                    background: Rectangle {
-                        color: currentTabIndex === 0 ? "#33FF4D4D" : "transparent"
-                        radius: 8; implicitHeight: 46
-                        border.color: currentTabIndex === 0 ? accentPrimary : (parent.hovered ? borderGlass : "transparent")
-                        Behavior on color { ColorAnimation { duration: 150 } }
+
+                    Rectangle {
+                        Layout.fillWidth: true
+                        Layout.leftMargin: 15
+                        implicitHeight: gcLibActionsLayout.implicitHeight + 16
+                        color: "#161925"
+                        radius: 8
+                        border.color: borderGlass; border.width: 1
+                        visible: currentTabIndex === 0 && libraryGames.length > 0
+
+                        ColumnLayout {
+                            id: gcLibActionsLayout
+                            anchors.top: parent.top
+                            anchors.left: parent.left
+                            anchors.right: parent.right
+                            anchors.margins: 8
+                            spacing: 8
+
+                            Text {
+                                text: qsTr("ACTIONS")
+                                color: textSecondary
+                                font.pixelSize: 10; font.bold: true; font.letterSpacing: 2
+                            }
+
+                            Button {
+                                Layout.fillWidth: true
+                                property bool fetching: false
+                                property int currIndex: 0
+                                text: fetching ? (qsTr("Pulling...") + " (" + currIndex + "/" + libraryGames.length + ")") : qsTr("Fetch Missing Artwork")
+                                enabled: !fetching && libraryGames.length > 0
+                                opacity: enabled ? 1.0 : 0.6
+                                
+                                onClicked: {
+                                    if (fetching || libraryGames.length === 0) return;
+                                    fetching = true; currIndex = 0; fetchNext();
+                                }
+                                function fetchNext() {
+                                    if (currIndex >= mainWindow.libraryGames.length) {
+                                        fetching = false; Qt.callLater(refreshGames); return;
+                                    }
+                                    let g = mainWindow.libraryGames[currIndex]
+                                    let extractedId = g.name.substring(0, 11)
+                                    let artFolder = mainWindow.currentLibraryPath + "/ART"
+                                    swissLibraryService.startDownloadArtAsync(artFolder, extractedId, g.path)
+                                    currIndex++;
+                                    batchTimer.start();
+                                }
+                                Timer { id: batchTimer; interval: 10; onTriggered: parent.fetchNext() }
+
+                                contentItem: Text {
+                                    text: parent.text; color: "white"; font.bold: true; font.pixelSize: 11
+                                    horizontalAlignment: Text.AlignHCenter; verticalAlignment: Text.AlignVCenter
+                                }
+                                background: Rectangle {
+                                    color: parent.down ? "#111" : (parent.hovered ? "#33FF4D4D" : "transparent")
+                                    radius: 6; implicitHeight: 28; border.color: accentPrimary; border.width: 1
+                                    Behavior on color { ColorAnimation { duration: 150 } }
+                                }
+                            }
+
+                            Button {
+                                Layout.fillWidth: true
+                                text: qsTr("Sync Cheats")
+                                onClicked: {
+                                    let syncedCount = swissLibraryService.syncCheats(mainWindow.currentLibraryPath)
+                                    console.log("Successfully synchronized " + syncedCount + " cheat files.")
+                                    let oldText = text
+                                    text = qsTr("Synced ") + syncedCount
+                                    Qt.callLater(() => {
+                                        let t = Qt.createQmlObject('import QtQml 2.15; Timer {interval: 2000; running: true}', this)
+                                        t.triggered.connect(() => { text = oldText })
+                                    })
+                                }
+                                contentItem: Text {
+                                    text: parent.text; color: "white"; font.bold: true; font.pixelSize: 11
+                                    horizontalAlignment: Text.AlignHCenter; verticalAlignment: Text.AlignVCenter
+                                }
+                                background: Rectangle {
+                                    color: parent.down ? "#111" : (parent.hovered ? "#33FF4D4D" : "transparent")
+                                    radius: 6; implicitHeight: 28; border.color: accentPrimary; border.width: 1
+                                    Behavior on color { ColorAnimation { duration: 150 } }
+                                }
+                            }
+
+                            Button {
+                                id: deleteGamesBtn
+                                Layout.fillWidth: true
+                                
+                                property int selectedCount: Object.values(mainWindow.librarySelectionMap).filter(v => v === true).length
+                                text: qsTr("Delete Selected") + " (" + selectedCount + ")"
+                                // We cannot access fetchArtBtn fetching boolean purely by id here easily due to its lack of id, but we can bind to libraryGames length to be safe.
+                                enabled: selectedCount > 0
+                                opacity: enabled ? 1.0 : 0.5
+                                
+                                onClicked: {
+                                    let paths = Object.keys(mainWindow.librarySelectionMap);
+                                    let selectedPaths = [];
+                                    let selectedNames = [];
+                                    for(let i = 0; i < paths.length; i++) {
+                                        if (mainWindow.librarySelectionMap[paths[i]] === true) {
+                                            selectedPaths.push(paths[i]);
+                                            for(let j = 0; j < mainWindow.libraryGames.length; j++) {
+                                                if(mainWindow.libraryGames[j].path === paths[i]) {
+                                                    selectedNames.push(mainWindow.libraryGames[j].name);
+                                                    break;
+                                                }
+                                            }
+                                        }
+                                    }
+                                    deleteConfirmationPopup.selectedPaths = selectedPaths;
+                                    deleteConfirmationPopup.selectedNames = selectedNames;
+                                    deleteConfirmationPopup.open();
+                                }
+                                
+                                contentItem: Text {
+                                    text: parent.text
+                                    color: parent.enabled && parent.hovered ? "white" : "#FF4D4D"
+                                    font.bold: true; font.pixelSize: 11
+                                    horizontalAlignment: Text.AlignHCenter; verticalAlignment: Text.AlignVCenter
+                                    elide: Text.ElideRight
+                                    width: parent.width - 10
+                                    Behavior on color { ColorAnimation { duration: 150 } }
+                                }
+                                
+                                background: Rectangle {
+                                    color: parent.down ? "#111" : (parent.hovered ? "#CC3333" : "transparent")
+                                    radius: 6; border.color: parent.hovered ? "#FF4D4D" : borderGlass; border.width: 1
+                                    implicitHeight: 28
+                                    Behavior on color { ColorAnimation { duration: 150 } }
+                                }
+                            }
+                        }
                     }
                 }
                 
@@ -1150,51 +1456,7 @@ Rectangle {
                 }
 
                 Item { Layout.fillHeight: true }
-
-                // --- Storage Visualization ---
-                ColumnLayout {
-                    Layout.fillWidth: true
-                    spacing: 8
-                    visible: mainWindow.targetDriveTotalSpace > 0
-
-                    RowLayout {
-                        Layout.fillWidth: true
-                        Text {
-                            text: qsTr("Storage Media")
-                            color: textSecondary; font.pixelSize: 12; font.bold: true
-                            Layout.alignment: Qt.AlignLeft
-                        }
-                        Item { Layout.fillWidth: true }
-                        Text {
-                            // Compute GB values dynamically
-                            property double mBase: systemUtils.getStorageMultiplier()
-                            property double freeGb: mainWindow.targetDriveFreeSpace / (mBase * mBase * mBase)
-                            property double totalGb: mainWindow.targetDriveTotalSpace / (mBase * mBase * mBase)
-                            property double usedGb: totalGb - freeGb
-                            text: usedGb.toFixed(1) + " GB / " + totalGb.toFixed(1) + " GB"
-                            color: textPrimary; font.pixelSize: 11; font.bold: true
-                            Layout.alignment: Qt.AlignRight
-                        }
-                    }
-
-                    Rectangle {
-                        Layout.fillWidth: true
-                        height: 8
-                        radius: 4
-                        color: borderGlass
-
-                        Rectangle {
-                            anchors.left: parent.left
-                            anchors.top: parent.top
-                            anchors.bottom: parent.bottom
-                            width: mainWindow.targetDriveTotalSpace > 0 ? ((mainWindow.targetDriveTotalSpace - mainWindow.targetDriveFreeSpace) / mainWindow.targetDriveTotalSpace) * parent.width : 0
-                            radius: 4
-                            color: (mainWindow.targetDriveFreeSpace / mainWindow.targetDriveTotalSpace) < 0.05 ? "#FF4D4D" : accentPrimary
-                            Behavior on width { NumberAnimation { duration: 350; easing.type: Easing.OutQuad } }
-                            Behavior on color { ColorAnimation { duration: 350 } }
-                        }
-                    }
-                }            }
+            }
         }
         
         // --- Loading Library Scan Overlay Modal ---
@@ -1223,7 +1485,7 @@ Rectangle {
                 anchors.centerIn: parent
                 spacing: 12
                 Text {
-                    text: qsTr("Scanning Storage Arrays...")
+                    text: qsTr("Loading Game Library...")
                     color: "#18A0FB"
                     font.bold: true
                     font.pixelSize: 15
@@ -1285,70 +1547,7 @@ Rectangle {
                         onTextChanged: mainWindow.searchQuery = text
                     }
                     
-                    // Action Fetch Routine Binding integrated near Search
-                    Button {
-                        text: qsTr("Fetch Missing Artwork")
-                        visible: libraryGames.length > 0
-                        
-                        property bool fetching: false
-                        property int currIndex: 0
-                        
-                        onClicked: {
-                            if (fetching || libraryGames.length === 0) return;
-                            fetching = true; currIndex = 0; fetchNext();
-                        }
-                        function fetchNext() {
-                            if (currIndex >= mainWindow.libraryGames.length) {
-                                fetching = false; Qt.callLater(refreshGames); return;
-                            }
-                            let g = mainWindow.libraryGames[currIndex]
-                            let extractedId = g.name.substring(0, 11)
-                            let artFolder = mainWindow.currentLibraryPath + "/ART"
-                            swissLibraryService.startDownloadArtAsync(artFolder, extractedId, g.path)
-                            currIndex++;
-                            batchTimer.start();
-                        }
-                        Timer { id: batchTimer; interval: 10; onTriggered: parent.fetchNext() }
-                        
-                        contentItem: Text {
-                            text: parent.fetching ? (qsTr("Network Pulling") + " (" + parent.currIndex + "/" + libraryGames.length + ")") : parent.text
-                            color: "white"; font.bold: true; font.pixelSize: 13
-                            horizontalAlignment: Text.AlignHCenter; verticalAlignment: Text.AlignVCenter
-                        }
-                        background: Rectangle {
-                            color: parent.down ? "#111" : (parent.hovered ? borderGlass : "transparent")
-                            radius: 8; border.color: accentPrimary; border.width: 1
-                            implicitWidth: 180; implicitHeight: 40
-                            Behavior on color { ColorAnimation { duration: 150 } }
-                        }
-                    }
-                    
-                    // Cheats Synchronization Support Feature
-                    Button {
-                        text: qsTr("Sync Cheats")
-                        visible: libraryGames.length > 0
-                        onClicked: {
-                            let syncedCount = swissLibraryService.syncCheats(mainWindow.currentLibraryPath)
-                            console.log("Successfully synchronized " + syncedCount + " cheat files.")
-                            // Simple visual feedback cycle
-                            let oldText = text
-                            text = qsTr("Synced ") + syncedCount
-                            Qt.callLater(() => {
-                                let t = Qt.createQmlObject('import QtQml 2.15; Timer {interval: 2000; running: true}', this)
-                                t.triggered.connect(() => { text = oldText })
-                            })
-                        }
-                        contentItem: Text {
-                            text: parent.text; color: "white"; font.bold: true; font.pixelSize: 13
-                            horizontalAlignment: Text.AlignHCenter; verticalAlignment: Text.AlignVCenter
-                        }
-                        background: Rectangle {
-                            color: parent.down ? "#111" : (parent.hovered ? borderGlass : "transparent")
-                            radius: 8; border.color: accentPrimary; border.width: 1
-                            implicitWidth: 140; implicitHeight: 40
-                            Behavior on color { ColorAnimation { duration: 150 } }
-                        }
-                    }
+
                     
                     ComboBox {
                         id: sortCombo
@@ -1465,8 +1664,8 @@ Rectangle {
                                     anchors.fill: parent
                                     color: bgCard
                                     radius: 12
-                                    border.color: mouseArea.containsMouse ? cardBorderHover : cardBorderNormal
-                                    border.width: 1
+                                    border.color: mainWindow.librarySelectionMap[modelData.path] === true ? cardBorderHover : (mouseArea.containsMouse ? cardBorderHover : cardBorderNormal)
+                                    border.width: mainWindow.librarySelectionMap[modelData.path] === true ? 2 : 1
                                     
                                     Behavior on border.color { ColorAnimation { duration: 250 } }
                                     
@@ -1474,7 +1673,24 @@ Rectangle {
                                         id: mouseArea
                                         anchors.fill: parent
                                         hoverEnabled: true
-                                        onClicked: {}
+                                        onClicked: {
+                                            let newMap = Object.assign({}, mainWindow.librarySelectionMap)
+                                            if (newMap[modelData.path]) {
+                                                delete newMap[modelData.path]
+                                            } else {
+                                                newMap[modelData.path] = true
+                                            }
+                                            mainWindow.librarySelectionMap = newMap
+                                        }
+                                    }
+
+                                    Rectangle {
+                                        width: 20; height: 20; radius: 4; anchors.top: parent.top; anchors.right: parent.right; anchors.margins: 10; z: 5
+                                        border.color: mainWindow.librarySelectionMap[modelData.path] === true ? accentPrimary : borderGlass
+                                        border.width: 1
+                                        color: mainWindow.librarySelectionMap[modelData.path] === true ? accentPrimary : "transparent"
+                                        visible: mainWindow.librarySelectionMap[modelData.path] === true || mouseArea.containsMouse
+                                        Text { text: "✓"; anchors.centerIn: parent; color: "white"; font.pixelSize: 12; font.bold: true; visible: mainWindow.librarySelectionMap[modelData.path] === true }
                                     }
                                     
                                     states: State {
@@ -1663,8 +1879,8 @@ Rectangle {
                                     anchors.fill: parent
                                     color: bgCard
                                     radius: 12
-                                    border.color: listMouseArea.containsMouse ? cardBorderHover : cardBorderNormal
-                                    border.width: 1
+                                    border.color: mainWindow.librarySelectionMap[modelData.path] === true ? cardBorderHover : (listMouseArea.containsMouse ? cardBorderHover : cardBorderNormal)
+                                    border.width: mainWindow.librarySelectionMap[modelData.path] === true ? 2 : 1
                                     
                                     Behavior on border.color { ColorAnimation { duration: 250 } }
                                     
@@ -1672,7 +1888,24 @@ Rectangle {
                                         id: listMouseArea
                                         anchors.fill: parent
                                         hoverEnabled: true
-                                        onClicked: {}
+                                        onClicked: {
+                                            let newMap = Object.assign({}, mainWindow.librarySelectionMap)
+                                            if (newMap[modelData.path]) {
+                                                delete newMap[modelData.path]
+                                            } else {
+                                                newMap[modelData.path] = true
+                                            }
+                                            mainWindow.librarySelectionMap = newMap
+                                        }
+                                    }
+
+                                    Rectangle {
+                                        width: 20; height: 20; radius: 4; anchors.verticalCenter: parent.verticalCenter; anchors.right: parent.right; anchors.margins: 12; z: 5
+                                        border.color: mainWindow.librarySelectionMap[modelData.path] === true ? accentPrimary : borderGlass
+                                        border.width: 1
+                                        color: mainWindow.librarySelectionMap[modelData.path] === true ? accentPrimary : "transparent"
+                                        visible: mainWindow.librarySelectionMap[modelData.path] === true || listMouseArea.containsMouse
+                                        Text { text: "✓"; anchors.centerIn: parent; color: "white"; font.pixelSize: 12; font.bold: true; visible: mainWindow.librarySelectionMap[modelData.path] === true }
                                     }
                                     
                                     RowLayout {
