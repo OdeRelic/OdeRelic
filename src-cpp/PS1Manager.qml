@@ -1306,7 +1306,7 @@ Rectangle {
                             Button {
                                 Layout.fillWidth: true
                                 property int selectedCount: Object.values(mainWindow.selectionMap).filter(v => v === true).length
-                                text: mainWindow.isBatchExtracting ? qsTr("Importing...") : qsTr("Import Selected") + " (" + selectedCount + ")"
+                                text: mainWindow.isBatchExtracting ? qsTr("Importing...") : qsTr("Import ") + selectedCount + qsTr(" Games")
                                 enabled: selectedCount > 0 || mainWindow.isBatchExtracting
                                 opacity: enabled ? 1.0 : 0.5
                                 
@@ -1338,17 +1338,16 @@ Rectangle {
                                 }
                                 
                                 contentItem: Text {
-                                    text: parent.text
-                                    color: "white"
-                                    font.bold: true; font.pixelSize: 13
+                                    text: parent.text; color: "white"; font.bold: true; font.pixelSize: 11
                                     horizontalAlignment: Text.AlignHCenter; verticalAlignment: Text.AlignVCenter
                                     elide: Text.ElideRight
                                     width: parent.width - 10
                                 }
                                 background: Rectangle {
-                                    color: parent.down ? "#111" : (parent.hovered ? "#3A3F58" : "#2A2F40")
-                                    radius: 6; border.color: borderGlass; border.width: 1
-                                    implicitHeight: 32
+                                    color: parent.down ? "#111" : (parent.hovered ? "#3A3F58" : "transparent")
+                                    radius: 6; border.color: accentPrimary; border.width: 1
+                                    implicitHeight: 28
+                                    Behavior on color { ColorAnimation { duration: 150 } }
                                     
                                     Rectangle {
                                         anchors.left: parent.left
@@ -1361,6 +1360,39 @@ Rectangle {
                                         visible: mainWindow.isBatchExtracting
                                     }
                                 }
+                            }
+
+                            Button {
+                                Layout.fillWidth: true
+                                text: "Add Games"
+                                onClicked: addGamesDialog.open()
+                                contentItem: Text { text: parent.text; color: "white"; font.bold: true; font.pixelSize: 11; verticalAlignment: Text.AlignVCenter; horizontalAlignment: Text.AlignHCenter }
+                                background: Rectangle { color: parent.down ? "#111" : (parent.hovered ? "#3A3F58" : "transparent"); radius: 6; border.color: accentPrimary; border.width: 1; implicitHeight: 28; Behavior on color { ColorAnimation { duration: 150 } } }
+                            }
+
+                            Button {
+                                Layout.fillWidth: true
+                                text: "Add Folder"
+                                onClicked: addGamesFolderDialog.open()
+                                contentItem: Text { text: parent.text; color: "white"; font.bold: true; font.pixelSize: 11; verticalAlignment: Text.AlignVCenter; horizontalAlignment: Text.AlignHCenter }
+                                background: Rectangle { color: parent.down ? "#111" : (parent.hovered ? "#3A3F58" : "transparent"); radius: 6; border.color: accentPrimary; border.width: 1; implicitHeight: 28; Behavior on color { ColorAnimation { duration: 150 } } }
+                            }
+
+                            Button {
+                                id: massSelectBtn
+                                Layout.fillWidth: true
+                                property bool allSelected: false
+                                text: allSelected ? "Deselect All" : "Select All"
+                                onClicked: {
+                                    allSelected = !allSelected
+                                    let newMap = {}
+                                    if (allSelected) {
+                                        for (let i = 0; i < importGames.length; i++) newMap[importGames[i].path] = true
+                                    }
+                                    mainWindow.selectionMap = newMap
+                                }
+                                contentItem: Text { text: parent.text; color: "white"; font.bold: true; font.pixelSize: 11; verticalAlignment: Text.AlignVCenter; horizontalAlignment: Text.AlignHCenter }
+                                background: Rectangle { color: parent.down ? "#111" : (parent.hovered ? "#3A3F58" : "transparent"); radius: 6; border.color: accentPrimary; border.width: 1; implicitHeight: 28; Behavior on color { ColorAnimation { duration: 150 } } }
                             }
                         }
                     }
@@ -2108,52 +2140,6 @@ Rectangle {
                         ColumnLayout {
                             anchors.fill: parent
                             spacing: 15
-                            
-                            // Extractor Top Native Control Overlay
-                            Rectangle {
-                                Layout.fillWidth: true
-                                height: 60
-                                radius: 12
-                                color: bgCard
-                                border.color: borderGlass; border.width: 1
-                                RowLayout {
-                                    anchors.fill: parent
-                                    anchors.margins: 15
-                                    spacing: 15
-                                    
-                                    Button {
-                                        text: "Add Games"
-                                        onClicked: addGamesDialog.open()
-                                        contentItem: Text { text: parent.text; color: textPrimary; font.bold: true; font.pixelSize: 13; verticalAlignment: Text.AlignVCenter; horizontalAlignment: Text.AlignHCenter }
-                                        background: Rectangle { color: parent.hovered ? borderGlass : "transparent"; radius: 6; border.color: borderGlass; implicitWidth: 100; implicitHeight: 36 }
-                                    }
-
-                                    Button {
-                                        text: "Add Folder"
-                                        onClicked: addGamesFolderDialog.open()
-                                        contentItem: Text { text: parent.text; color: textPrimary; font.bold: true; font.pixelSize: 13; verticalAlignment: Text.AlignVCenter; horizontalAlignment: Text.AlignHCenter }
-                                        background: Rectangle { color: parent.hovered ? borderGlass : "transparent"; radius: 6; border.color: borderGlass; implicitWidth: 100; implicitHeight: 36 }
-                                    }
-
-                                    Button {
-                                        id: massSelectBtn
-                                        property bool allSelected: false
-                                        text: allSelected ? "Deselect All" : "Select All Available"
-                                        onClicked: {
-                                            allSelected = !allSelected
-                                            let newMap = {}
-                                            if (allSelected) {
-                                                for (let i = 0; i < importGames.length; i++) newMap[importGames[i].path] = true
-                                            }
-                                            mainWindow.selectionMap = newMap
-                                        }
-                                        contentItem: Text { text: parent.text; color: textPrimary; font.bold: true; font.pixelSize: 13; verticalAlignment: Text.AlignVCenter; horizontalAlignment: Text.AlignHCenter }
-                                        background: Rectangle { color: parent.hovered ? borderGlass : "transparent"; radius: 6; border.color: borderGlass; implicitWidth: 150; implicitHeight: 36 }
-                                    }
-                                    
-                                    Item { Layout.fillWidth: true }
-                                }
-                            }
                             
                             // Import File Matrix
                             GridView {
