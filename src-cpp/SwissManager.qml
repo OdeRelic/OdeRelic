@@ -1455,6 +1455,107 @@ Rectangle {
                     }
                 }
 
+                Rectangle {
+                    Layout.fillWidth: true
+                    Layout.leftMargin: 15
+                    implicitHeight: gcImportActionsLayout.implicitHeight + 16
+                    color: "#161925"
+                    radius: 8
+                    border.color: borderGlass; border.width: 1
+                    visible: currentTabIndex === 1
+
+                    ColumnLayout {
+                        id: gcImportActionsLayout
+                        anchors.top: parent.top
+                        anchors.left: parent.left
+                        anchors.right: parent.right
+                        anchors.margins: 8
+                        spacing: 8
+
+                        Text {
+                            text: qsTr("ACTIONS")
+                            color: textSecondary
+                            font.pixelSize: 10; font.bold: true; font.letterSpacing: 2
+                        }
+
+                        Button {
+                            Layout.fillWidth: true
+                            property int selectedCount: Object.values(mainWindow.selectionMap).filter(v => v === true).length
+                            text: mainWindow.isBatchExtracting ? "Importing..." : "Import " + selectedCount + " Games"
+                            enabled: selectedCount > 0 || mainWindow.isBatchExtracting
+                            opacity: enabled ? 1.0 : 0.6
+                            onClicked: {
+                                if (mainWindow.isBatchExtracting) return;
+                                let queue = []
+                                let totalRequiredBytes = 0
+                                for (let i = 0; i < importGames.length; i++) {
+                                    if (mainWindow.selectionMap[importGames[i].path] === true) {
+                                        queue.push(importGames[i])
+                                        totalRequiredBytes += importGames[i].stats.size
+                                    }
+                                }
+                                if (queue.length === 0) return;
+                                
+                                if (totalRequiredBytes > mainWindow.targetDriveFreeSpace) {
+                                    insufficientSpacePopup.requiredSpaceStr = (totalRequiredBytes / (1024*1024*1024)).toFixed(2) + " GB"
+                                    insufficientSpacePopup.availableSpaceStr = (mainWindow.targetDriveFreeSpace / (1024*1024*1024)).toFixed(2) + " GB"
+                                    insufficientSpacePopup.open()
+                                    return;
+                                }
+
+                                swissLibraryService.resetCancelFlag()
+                                mainWindow.extractQueue = queue
+                                mainWindow.extractIndex = 0
+                                mainWindow.isBatchExtracting = true
+                                mainWindow.batchActiveJobs = 0
+                                mainWindow.extractProcessor()
+                            }
+                            contentItem: Text {
+                                text: parent.text; color: "white"; font.bold: true; font.pixelSize: 11
+                                horizontalAlignment: Text.AlignHCenter; verticalAlignment: Text.AlignVCenter
+                            }
+                            background: Rectangle {
+                                color: parent.down ? "#111" : (parent.hovered ? "#33FF4D4D" : "transparent")
+                                radius: 6; implicitHeight: 28; border.color: accentPrimary; border.width: 1
+                                Behavior on color { ColorAnimation { duration: 150 } }
+                            }
+                        }
+
+                        Button {
+                            Layout.fillWidth: true
+                            text: "Add Games"
+                            onClicked: addGamesDialog.open()
+                            contentItem: Text { text: parent.text; color: "white"; font.bold: true; font.pixelSize: 11; verticalAlignment: Text.AlignVCenter; horizontalAlignment: Text.AlignHCenter }
+                            background: Rectangle { color: parent.down ? "#111" : (parent.hovered ? "#33FF4D4D" : "transparent"); radius: 6; border.color: accentPrimary; border.width: 1; implicitHeight: 28; Behavior on color { ColorAnimation { duration: 150 } } }
+                        }
+
+                        Button {
+                            Layout.fillWidth: true
+                            text: "Add Folder"
+                            onClicked: addGamesFolderDialog.open()
+                            contentItem: Text { text: parent.text; color: "white"; font.bold: true; font.pixelSize: 11; verticalAlignment: Text.AlignVCenter; horizontalAlignment: Text.AlignHCenter }
+                            background: Rectangle { color: parent.down ? "#111" : (parent.hovered ? "#33FF4D4D" : "transparent"); radius: 6; border.color: accentPrimary; border.width: 1; implicitHeight: 28; Behavior on color { ColorAnimation { duration: 150 } } }
+                        }
+
+                        Button {
+                            id: massSelectBtn
+                            Layout.fillWidth: true
+                            property bool allSelected: false
+                            text: allSelected ? "Deselect All" : "Select All Available"
+                            onClicked: {
+                                allSelected = !allSelected
+                                let newMap = {}
+                                if (allSelected) {
+                                    for (let i = 0; i < importGames.length; i++) newMap[importGames[i].path] = true
+                                }
+                                mainWindow.selectionMap = newMap
+                            }
+                            contentItem: Text { text: parent.text; color: "white"; font.bold: true; font.pixelSize: 11; verticalAlignment: Text.AlignVCenter; horizontalAlignment: Text.AlignHCenter }
+                            background: Rectangle { color: parent.down ? "#111" : (parent.hovered ? "#33FF4D4D" : "transparent"); radius: 6; border.color: accentPrimary; border.width: 1; implicitHeight: 28; Behavior on color { ColorAnimation { duration: 150 } } }
+                        }
+                    }
+                }
+
                 Item { Layout.fillHeight: true }
             }
         }
@@ -2022,93 +2123,6 @@ Rectangle {
                         ColumnLayout {
                             anchors.fill: parent
                             spacing: 15
-                            
-                            // Extractor Top Native Control Overlay
-                            Rectangle {
-                                Layout.fillWidth: true
-                                height: 60
-                                radius: 12
-                                color: bgCard
-                                border.color: borderGlass; border.width: 1
-                                
-                                RowLayout {
-                                    anchors.fill: parent
-                                    anchors.margins: 15
-                                    spacing: 15
-                                    
-                                    Button {
-                                        property int selectedCount: Object.values(mainWindow.selectionMap).filter(v => v === true).length
-                                        text: mainWindow.isBatchExtracting ? "Importing..." : "Process " + selectedCount + " Items"
-                                        onClicked: {
-                                            if (mainWindow.isBatchExtracting) return;
-                                            let queue = []
-                                            let totalRequiredBytes = 0
-                                            for (let i = 0; i < importGames.length; i++) {
-                                                if (mainWindow.selectionMap[importGames[i].path] === true) {
-                                                    queue.push(importGames[i])
-                                                    totalRequiredBytes += importGames[i].stats.size
-                                                }
-                                            }
-                                            if (queue.length === 0) return;
-                                            
-                                            // Defensive execution against storage limits
-                                            if (totalRequiredBytes > mainWindow.targetDriveFreeSpace) {
-                                                insufficientSpacePopup.requiredSpaceStr = (totalRequiredBytes / (1024*1024*1024)).toFixed(2) + " GB"
-                                                insufficientSpacePopup.availableSpaceStr = (mainWindow.targetDriveFreeSpace / (1024*1024*1024)).toFixed(2) + " GB"
-                                                insufficientSpacePopup.open()
-                                                return;
-                                            }
-
-                                            swissLibraryService.resetCancelFlag()
-                                            mainWindow.extractQueue = queue
-                                            mainWindow.extractIndex = 0
-                                            mainWindow.isBatchExtracting = true
-                                            mainWindow.batchActiveJobs = 0
-                                            mainWindow.extractProcessor()
-                                        }
-                                        contentItem: Text {
-                                            text: parent.text; color: "white"; font.bold: true; font.pixelSize: 14
-                                            horizontalAlignment: Text.AlignHCenter; verticalAlignment: Text.AlignVCenter
-                                        }
-                                        background: Rectangle {
-                                            color: parent.down ? "#CC3D3D" : (mainWindow.isBatchExtracting ? borderGlass : accentPrimary)
-                                            radius: 12; implicitWidth: 160; implicitHeight: 40
-                                        }
-                                    }
-                                    
-                                    Button {
-                                        text: "Add Games"
-                                        onClicked: addGamesDialog.open()
-                                        contentItem: Text { text: parent.text; color: textPrimary; font.bold: true; font.pixelSize: 13; verticalAlignment: Text.AlignVCenter; horizontalAlignment: Text.AlignHCenter }
-                                        background: Rectangle { color: parent.hovered ? borderGlass : "transparent"; radius: 6; border.color: borderGlass; implicitWidth: 100; implicitHeight: 36 }
-                                    }
-
-                                    Button {
-                                        text: "Add Folder"
-                                        onClicked: addGamesFolderDialog.open()
-                                        contentItem: Text { text: parent.text; color: textPrimary; font.bold: true; font.pixelSize: 13; verticalAlignment: Text.AlignVCenter; horizontalAlignment: Text.AlignHCenter }
-                                        background: Rectangle { color: parent.hovered ? borderGlass : "transparent"; radius: 6; border.color: borderGlass; implicitWidth: 100; implicitHeight: 36 }
-                                    }
-                                    
-                                    Button {
-                                        id: massSelectBtn
-                                        property bool allSelected: false
-                                        text: allSelected ? "Deselect All" : "Select All Available"
-                                        onClicked: {
-                                            allSelected = !allSelected
-                                            let newMap = {}
-                                            if (allSelected) {
-                                                for (let i = 0; i < importGames.length; i++) newMap[importGames[i].path] = true
-                                            }
-                                            mainWindow.selectionMap = newMap
-                                        }
-                                        contentItem: Text { text: parent.text; color: textPrimary; font.bold: true; font.pixelSize: 13; verticalAlignment: Text.AlignVCenter; horizontalAlignment: Text.AlignHCenter }
-                                        background: Rectangle { color: parent.hovered ? borderGlass : "transparent"; radius: 6; border.color: borderGlass; implicitWidth: 150; implicitHeight: 36 }
-                                    }
-
-                                    Item { Layout.fillWidth: true }
-                                }
-                            }
                             
                             // Import File Matrix
                             GridView {
