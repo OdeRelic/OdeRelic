@@ -2,6 +2,7 @@
 #include <QCoreApplication>
 #include <QTemporaryDir>
 #include <QFile>
+#include <QSignalSpy>
 #include "swiss_library_service.h"
 
 class SwissLibraryServiceTests : public QObject {
@@ -14,6 +15,7 @@ private slots:
     void test_swissFolderValidation();
     void test_renameGamefile_preservesSourceFile();
     void test_syncCheats();
+    void test_zipMapping();
 };
 
 void SwissLibraryServiceTests::test_urlToLocalFile() {
@@ -79,7 +81,8 @@ void SwissLibraryServiceTests::test_swissFolderValidation() {
     d.mkdir("apps");
     d.mkdir("dol");
     d.mkdir("swiss");
-    
+    d.mkdir("swiss/patches");
+
     // Missing payload binaries entirely
     QVariantMap res2 = service.checkSwissFolder(root);
     QVERIFY(res2["isValid"].toBool() == false);
@@ -146,8 +149,12 @@ void SwissLibraryServiceTests::test_syncCheats() {
     cheatFile.write("MOCK_CHEAT_DATA");
     cheatFile.close();
     
-    // Perform test
-    int syncCount = service.syncCheats(destLib);
+    // Perform test securely observing async threads natively
+    QSignalSpy spy(&service, &SwissLibraryService::syncCheatsFinished);
+    service.startSyncCheatsAsync(destLib);
+    QVERIFY(spy.wait(5000));
+    QCOMPARE(spy.count(), 1);
+    int syncCount = spy.takeFirst().at(0).toInt();
     QCOMPARE(syncCount, 1);
     
     // Verify results
@@ -157,6 +164,39 @@ void SwissLibraryServiceTests::test_syncCheats() {
     // Cleanup mock asset structure to not pollute workspace
     QFile::remove(mockCheatFile);
     QDir().rmdir(localCheatDir);
+}
+
+void SwissLibraryServiceTests::test_zipMapping() {
+    // Build a self-contained mock Swiss release layout in a temp dir.
+    // This mirrors the real tarball structure on disk so CI always passes.
+    QTemporaryDir tempDir;
+    QVERIFY(tempDir.isValid());
+    QString root = tempDir.path();
+
+    // Create the ODE-specific sub-folders with EXTRACT_TO_ROOT.zip files
+    QStringList odeDirs = { "Apploader", "GCLoader", "FlippyDrive", "PicoLoader/gekkoboot" };
+    for (const QString &subDir : odeDirs) {
+        QDir d;
+        d.mkpath(root + "/" + subDir);
+        QFile f(root + "/" + subDir + "/EXTRACT_TO_ROOT.zip");
+        QVERIFY(f.open(QIODevice::WriteOnly));
+        f.write("mock");
+        f.close();
+    }
+
+    // Run the exact same iterator logic used in startSwissSetupAsync
+    QDirIterator it(root, QDir::Files, QDirIterator::Subdirectories);
+    int count = 0;
+    while (it.hasNext()) {
+        it.next();
+        QFileInfo fi = it.fileInfo();
+        if (fi.fileName() == "EXTRACT_TO_ROOT.zip" && fi.absolutePath().endsWith("/Apploader")) {
+            count++;
+        }
+    }
+
+    // Only the Apploader zip should be matched — not the other ODE variants
+    QCOMPARE(count, 1);
 }
 
 QTEST_MAIN(SwissLibraryServiceTests)

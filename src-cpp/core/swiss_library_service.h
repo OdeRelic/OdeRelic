@@ -33,8 +33,7 @@ public:
     Q_INVOKABLE void cancelAllImports();
     Q_INVOKABLE void resetCancelFlag();
 
-    Q_INVOKABLE int syncCheats(const QString &libraryRoot);
-
+    Q_INVOKABLE void startSyncCheatsAsync(const QString &libraryRoot);
     // Dummies to satisfy OplManager-based UI signals
     Q_INVOKABLE void startConvertBinToIso(const QString &, const QString &) {}
     Q_INVOKABLE QVariantMap checkDummyFolder(const QString &) { return QVariantMap{{"hasPopsFolder", false}, {"hasPopstarter", false}, {"hasPopsIox", false}, {"popsPath", ""}}; }
@@ -59,6 +58,9 @@ signals:
     
     void artDownloadProgress(QString sourcePath, int percent);
     void artDownloadFinished(QString sourcePath, bool success, QString message);
+
+    void syncCheatsProgress(int current, int total);
+    void syncCheatsFinished(int syncedCount);
 
     // Dummy signals for multi-purpose parent QML compatibility
     void ps1ConversionProgress(QString sourcePath, int percent, double MBps);

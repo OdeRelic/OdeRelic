@@ -1,6 +1,7 @@
 #include "swiss_library_service.h"
 #include "filesystem_cache.h"
 #include "rvz_native_converter.h"
+#include "system_utils.h"
 #include <QCoreApplication>
 #include <QDebug>
 #include <QDir>
@@ -250,28 +251,50 @@ bool SwissLibraryService::provisionCheat(const QString &gameId,
   return QFile::copy(sourceCheatPath, destCheatPath);
 }
 
-int SwissLibraryService::syncCheats(const QString &libraryRoot) {
-  if (libraryRoot.isEmpty())
-    return 0;
-  QString cleanRoot = QUrl::fromPercentEncoding(libraryRoot.toUtf8());
-  QDir gamesDir(cleanRoot + "/games");
-  if (!gamesDir.exists())
-    return 0;
-
-  int syncCount = 0;
-  QStringList folders = gamesDir.entryList(QDir::Dirs | QDir::NoDotAndDotDot);
-  for (const QString &folderName : folders) {
-    // Extract Game ID from folder name e.g. "Game Name [GM8E01]"
-    QRegularExpression regex("\\[([A-Za-z0-9]{6})\\]");
-    QRegularExpressionMatch match = regex.match(folderName);
-    if (match.hasMatch()) {
-      QString gameId = match.captured(1);
-      if (provisionCheat(gameId, libraryRoot)) {
-        syncCount++;
-      }
-    }
+void SwissLibraryService::startSyncCheatsAsync(const QString &libraryRoot) {
+  if (libraryRoot.isEmpty()) {
+    emit syncCheatsFinished(0);
+    return;
   }
-  return syncCount;
+  
+  std::thread([this, libraryRoot]() {
+    QString cleanRoot = QUrl::fromPercentEncoding(libraryRoot.toUtf8());
+    QDir gamesDir(cleanRoot + "/games");
+    if (!gamesDir.exists()) {
+      QMetaObject::invokeMethod(this, [this]() { emit syncCheatsFinished(0); }, Qt::QueuedConnection);
+      return;
+    }
+
+    int syncCount = 0;
+    QStringList folders = gamesDir.entryList(QDir::Dirs | QDir::NoDotAndDotDot);
+    int totalFolders = folders.size();
+    
+    for (int i = 0; i < totalFolders; ++i) {
+      if (m_cancelRequested.load()) {
+        break; // graceful cancel
+      }
+      
+      const QString &folderName = folders[i];
+      // Extract Game ID from folder name e.g. "Game Name [GM8E01]"
+      QRegularExpression regex("\\[([A-Za-z0-9]{6})\\]");
+      QRegularExpressionMatch match = regex.match(folderName);
+      if (match.hasMatch()) {
+        QString gameId = match.captured(1);
+        if (provisionCheat(gameId, libraryRoot)) {
+          syncCount++;
+        }
+      }
+      
+      int currentProgress = i + 1;
+      QMetaObject::invokeMethod(this, [this, currentProgress, totalFolders]() { 
+          emit syncCheatsProgress(currentProgress, totalFolders); 
+      }, Qt::QueuedConnection);
+    }
+    
+    QMetaObject::invokeMethod(this, [this, syncCount]() { 
+        emit syncCheatsFinished(syncCount); 
+    }, Qt::QueuedConnection);
+  }).detach();
 }
 
 QVariantMap SwissLibraryService::renameGamefile(
@@ -450,6 +473,20 @@ void SwissLibraryService::startImportIsoAsync(const QString &sourceIsoPath,
           },
           Qt::QueuedConnection);
       return;
+    }
+
+    SystemUtils sysUtils;
+    if (sysUtils.isOnSameDrive(sourceIsoPath, targetLibraryRoot)) {
+        if (QFile::rename(sourceIsoPath, destIsoPath)) {
+            provisionCheat(gameId, targetLibraryRoot);
+            QMetaObject::invokeMethod(
+                this,
+                [=]() {
+                    emit importIsoFinished(sourceIsoPath, true, destIsoPath, "Moved on same storage media.");
+                },
+                Qt::QueuedConnection);
+            return;
+        }
     }
 
     // PRESERVE: We do not invoke sourceFile.rename() anymore so we don't
@@ -765,7 +802,7 @@ void SwissLibraryService::scanExternalFilesAsync(const QStringList &fileUrls,
     bool hasGames = dir.exists("games");
     bool hasApps = dir.exists("apps");
     bool hasDol = dir.exists("dol");
-    bool hasSwiss = dir.exists("swiss");
+    bool hasSwiss = dir.exists("swiss") && (dir.exists("swiss/patches") || dir.exists("swiss/settings") || dir.exists("swiss/cheats"));
     bool hasSwissFile = dir.exists("boot.iso") || dir.exists("ipl.dol") ||
                         dir.exists("autoexec.dol") ||
                         dir.exists("swiss_version.json");
@@ -846,6 +883,18 @@ void SwissLibraryService::scanExternalFilesAsync(const QStringList &fileUrls,
     result["hasApps"] = hasApps;
     result["hasDol"] = hasDol;
     result["hasSwiss"] = hasSwiss;
+    result["hasSwissFile"] = hasSwissFile;
+    
+    QString savedOde = "PicoBoot"; // Safe fallback
+    QFile idFile(rootPath + "/swiss_version.json");
+    if (idFile.open(QIODevice::ReadOnly)) {
+      QJsonDocument doc = QJsonDocument::fromJson(idFile.readAll());
+      if (doc.object().contains("ode")) {
+        savedOde = doc.object()["ode"].toString();
+      }
+      idFile.close();
+    }
+    result["savedOde"] = savedOde;
     result["hasSwissFile"] = hasSwissFile;
 
     return result;
@@ -1013,6 +1062,7 @@ void SwissLibraryService::scanExternalFilesAsync(const QStringList &fileUrls,
       QString isoPath = "";
       QString gcLoaderIsoPath = "";
       QString gcLoaderZipPath = "";
+      QString extractToRootZipPath = "";
 
       while (it.hasNext()) {
         it.next();
@@ -1036,6 +1086,9 @@ void SwissLibraryService::scanExternalFilesAsync(const QStringList &fileUrls,
           } else if (fi.suffix() == "zip") {
             gcLoaderZipPath = fi.absoluteFilePath();
           }
+        }
+        if (fi.fileName() == "EXTRACT_TO_ROOT.zip" && fi.absolutePath().endsWith("/Apploader")) {
+          extractToRootZipPath = fi.absoluteFilePath();
         }
       }
 
@@ -1091,6 +1144,14 @@ void SwissLibraryService::scanExternalFilesAsync(const QStringList &fileUrls,
 
       // Deploy safe foundational hierarchy
       createSwissFolder(targetRoot);
+
+      if (!extractToRootZipPath.isEmpty()) {
+        QProcess unzipProcess;
+        unzipProcess.setProgram("unzip");
+        unzipProcess.setArguments({"-o", extractToRootZipPath, "-d", targetRoot});
+        unzipProcess.start();
+        unzipProcess.waitForFinished(-1);
+      }
 
       if (!dolPath.isEmpty()) {
         QFile::remove(targetRoot + "/dol/" + QFileInfo(dolPath).fileName());

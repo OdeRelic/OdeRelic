@@ -94,9 +94,19 @@ Rectangle {
         }
     }
     
-    onCurrentLibraryPathChanged: updateStorageBars()
-    onBatchActiveJobsChanged: { if (batchActiveJobs === 0) updateStorageBars() }
-
+    onCurrentLibraryPathChanged: {
+        updateStorageBars()
+        if (mainWindow.currentLibraryPath !== "") {
+            let structureCheck = swissLibraryService.checkSwissFolder(mainWindow.currentLibraryPath)
+            if (!structureCheck.isValid && structureCheck.hasSwissFile && !structureCheck.hasSwiss) {
+                console.log("Library path assigned. Auto-repairing missing swiss patches/cheats hierarchy...");
+                if (!swissSetupProgressOverlay.opened) {
+                    swissSetupProgressOverlay.open()
+                }
+                swissLibraryService.startSwissSetupAsync(mainWindow.currentLibraryPath, structureCheck.savedOde)
+            }
+        }
+    }
     property int activeTargetPercent: 0
     property double activeTargetMBps: 0.0
     Component.onCompleted: {
@@ -186,6 +196,17 @@ Rectangle {
             mainWindow.updateStorageBars()
         }
         
+        function onSyncCheatsProgress(current, total) {
+            if (!syncCheatsProgressOverlay.opened) syncCheatsProgressOverlay.open()
+            syncCheatsProgressOverlay.syncCurrent = current
+            syncCheatsProgressOverlay.syncTotal = total
+        }
+
+        function onSyncCheatsFinished(syncedCount) {
+            syncCheatsProgressOverlay.close()
+            mainWindow.showToast(qsTr("Successfully synchronized ") + syncedCount + qsTr(" cheat files."), false)
+        }
+        
         function onSetupSwissProgress(percent, statusText) {
             mainWindow.swissSetupStatusStr = statusText
             mainWindow.swissSetupPercent = percent
@@ -206,7 +227,10 @@ Rectangle {
             mainWindow.swissRemoteVersion = remoteVersion
             mainWindow.savedOdeType = savedOde
             
-            if (updateAvailable) console.log("Swiss Update Available:", remoteVersion)
+            if (updateAvailable) {
+                console.log("Swiss Update Available:", remoteVersion)
+                swissUpdateModal.open()
+            }
         }
         
         function onConversionFinished(sourcePath, success, destIsoPath, message) {
@@ -640,6 +664,164 @@ Rectangle {
     }
 
     Popup {
+        id: swissUpdateModal
+        parent: Overlay.overlay
+        anchors.centerIn: parent
+        width: 320
+        height: 220
+        modal: true
+        closePolicy: Popup.NoAutoClose
+        
+        background: Rectangle {
+            color: "#CC111111"
+            radius: 12
+            border.color: borderGlass
+            border.width: 1
+        }
+        
+        contentItem: ColumnLayout {
+            anchors.fill: parent
+            anchors.margins: 20
+            spacing: 15
+            
+            Text {
+                text: qsTr("Swiss Update Available")
+                color: "white"
+                font.bold: true
+                font.pixelSize: 16
+                Layout.alignment: Qt.AlignHCenter
+            }
+            
+            Text {
+                text: qsTr("Current Version: ") + mainWindow.swissLocalVersion + "\n" +
+                      qsTr("Latest Version: ") + mainWindow.swissRemoteVersion
+                color: textSecondary
+                font.pixelSize: 13
+                Layout.alignment: Qt.AlignHCenter
+                wrapMode: Text.WordWrap
+                horizontalAlignment: Text.AlignHCenter
+                Layout.fillWidth: true
+            }
+            
+            Text {
+                text: qsTr("Would you like to install the update now?")
+                color: "white"
+                font.pixelSize: 13
+                Layout.alignment: Qt.AlignHCenter
+                wrapMode: Text.WordWrap
+                horizontalAlignment: Text.AlignHCenter
+                Layout.fillWidth: true
+            }
+            
+            RowLayout {
+                Layout.fillWidth: true
+                spacing: 15
+                
+                Button {
+                    text: qsTr("No")
+                    Layout.fillWidth: true
+                    onClicked: swissUpdateModal.close()
+                    contentItem: Text {
+                        text: parent.text; color: textSecondary; font.bold: true; horizontalAlignment: Text.AlignHCenter; verticalAlignment: Text.AlignVCenter
+                    }
+                    background: Rectangle {
+                        color: parent.hovered ? "#33FFFFFF" : "transparent"
+                        radius: 6; border.color: borderGlass; border.width: 1; implicitHeight: 36
+                    }
+                }
+                
+                Button {
+                    text: qsTr("Yes")
+                    Layout.fillWidth: true
+                    onClicked: {
+                        swissUpdateModal.close()
+                        swissSetupProgressOverlay.open()
+                        swissLibraryService.startSwissSetupAsync(mainWindow.currentLibraryPath, mainWindow.savedOdeType)
+                    }
+                    contentItem: Text {
+                        text: parent.text; color: "white"; font.bold: true; horizontalAlignment: Text.AlignHCenter; verticalAlignment: Text.AlignVCenter
+                    }
+                    background: Rectangle {
+                        color: parent.hovered ? accentHover : accentPrimary
+                        radius: 6; implicitHeight: 36
+                    }
+                }
+            }
+        }
+    }
+
+    Popup {
+        id: syncCheatsProgressOverlay
+        parent: Overlay.overlay
+        anchors.centerIn: parent
+        width: 320
+        height: 180
+        modal: true
+        closePolicy: Popup.NoAutoClose
+        
+        property int syncCurrent: 0
+        property int syncTotal: 0
+        
+        background: Rectangle {
+            color: "#CC111111"
+            radius: 12
+            border.color: borderGlass
+            border.width: 1
+        }
+        
+        contentItem: ColumnLayout {
+            anchors.fill: parent
+            anchors.margins: 20
+            spacing: 15
+            
+            Text {
+                text: qsTr("Syncing Cheats")
+                color: "white"
+                font.bold: true
+                font.pixelSize: 16
+                Layout.alignment: Qt.AlignHCenter
+            }
+            
+            Text {
+                text: qsTr("Scanning games and provisioning cheat files...")
+                color: textSecondary
+                font.pixelSize: 12
+                Layout.alignment: Qt.AlignHCenter
+                wrapMode: Text.WordWrap
+                horizontalAlignment: Text.AlignHCenter
+                Layout.fillWidth: true
+            }
+            
+            ProgressBar {
+                Layout.fillWidth: true
+                from: 0
+                to: syncCheatsProgressOverlay.syncTotal > 0 ? syncCheatsProgressOverlay.syncTotal : 1
+                value: syncCheatsProgressOverlay.syncCurrent
+                padding: 2
+                background: Rectangle {
+                    implicitWidth: 200; implicitHeight: 14
+                    color: "#222"; radius: 7
+                }
+                contentItem: Item {
+                    implicitWidth: 200; implicitHeight: 10
+                    Rectangle {
+                        width: parent.parent.position * parent.width
+                        height: parent.height
+                        radius: 5; color: accentPrimary
+                    }
+                }
+            }
+            
+            Text {
+                text: syncCheatsProgressOverlay.syncCurrent + " / " + syncCheatsProgressOverlay.syncTotal
+                color: "white"
+                font.pixelSize: 12
+                Layout.alignment: Qt.AlignHCenter
+            }
+        }
+    }
+
+    Popup {
         id: formatErrorPopup
         parent: Overlay.overlay
         anchors.centerIn: parent
@@ -939,7 +1121,13 @@ Rectangle {
             mainWindow.currentLibraryPath = cleanPath
             
             if (!structureCheck.isValid) {
-                createStructurePopup.open()
+                if (structureCheck.hasSwissFile && !structureCheck.hasSwiss) {
+                    console.log("Auto-repairing missing swiss structure...");
+                    swissSetupProgressOverlay.open()
+                    swissLibraryService.startSwissSetupAsync(cleanPath, structureCheck.savedOde)
+                } else {
+                    createStructurePopup.open()
+                }
             } else {
                 mainWindow.isScrapingIO = true
                 refreshGames()
@@ -1067,6 +1255,7 @@ Rectangle {
             mainWindow.selectionMap = ({})
             mainWindow.librarySelectionMap = ({})
             Qt.callLater(refreshGames)
+            updateStorageBars()
         }
     }
 
@@ -1367,14 +1556,7 @@ Rectangle {
                                 Layout.fillWidth: true
                                 text: qsTr("Sync Cheats")
                                 onClicked: {
-                                    let syncedCount = swissLibraryService.syncCheats(mainWindow.currentLibraryPath)
-                                    console.log("Successfully synchronized " + syncedCount + " cheat files.")
-                                    let oldText = text
-                                    text = qsTr("Synced ") + syncedCount
-                                    Qt.callLater(() => {
-                                        let t = Qt.createQmlObject('import QtQml 2.15; Timer {interval: 2000; running: true}', this)
-                                        t.triggered.connect(() => { text = oldText })
-                                    })
+                                    swissLibraryService.startSyncCheatsAsync(mainWindow.currentLibraryPath)
                                 }
                                 contentItem: Text {
                                     text: parent.text; color: "white"; font.bold: true; font.pixelSize: 11
@@ -1490,8 +1672,16 @@ Rectangle {
                                 let totalRequiredBytes = 0
                                 for (let i = 0; i < importGames.length; i++) {
                                     if (mainWindow.selectionMap[importGames[i].path] === true) {
-                                        queue.push(importGames[i])
-                                        totalRequiredBytes += importGames[i].stats.size
+                                        let item = importGames[i];
+                                        queue.push(item)
+                                        let isOnSame = systemUtils.isOnSameDrive(item.path, mainWindow.currentLibraryPath);
+                                        let ext = item.extension ? item.extension.toLowerCase() : "";
+                                        let isArchive = (ext === ".rvz" || ext === ".gcz");
+                                        if (!isArchive && isOnSame) {
+                                            // Fast physical move will be used
+                                        } else {
+                                            totalRequiredBytes += item.stats.size;
+                                        }
                                     }
                                 }
                                 if (queue.length === 0) return;
@@ -1951,7 +2141,7 @@ Rectangle {
                                                         color: textSecondary; font.pixelSize: 11; font.family: "Inter"
                                                     }
                                                     Text {
-                                                        text: "Size: " + systemUtils.formatSize(modelData.stats.size)
+                                                        text: "Size: " + (systemUtils ? systemUtils.formatSize(modelData.stats.size) : "")
                                                         color: textSecondary; font.pixelSize: 11; font.family: "Inter"
                                                     }
                                                 }
@@ -2095,7 +2285,7 @@ Rectangle {
                                                 }
                                                 
                                                 Text {
-                                                    text: "• " + systemUtils.formatSize(modelData.stats.size)
+                                                    text: "• " + (systemUtils ? systemUtils.formatSize(modelData.stats.size) : "")
                                                     color: textSecondary; font.pixelSize: 11; font.bold: true; font.family: "Inter"
                                                 }
                                                 
@@ -2209,7 +2399,7 @@ Rectangle {
                                                     }
                                                     Item { Layout.fillWidth: true }
                                                     Text {
-                                                        text: systemUtils.formatSize(modelData.stats.size)
+                                                        text: systemUtils ? systemUtils.formatSize(modelData.stats.size) : ""
                                                         color: textSecondary; font.pixelSize: 11; font.family: "Inter"
                                                     }
                                                 }
@@ -2329,7 +2519,7 @@ Rectangle {
                                                     }
                                                     Item { Layout.fillWidth: true }
                                                     Text {
-                                                        text: systemUtils.formatSize(modelData.stats.size)
+                                                        text: systemUtils ? systemUtils.formatSize(modelData.stats.size) : ""
                                                         color: textSecondary; font.pixelSize: 12; font.family: "Inter"
                                                     }
                                                 }

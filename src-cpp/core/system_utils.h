@@ -13,6 +13,8 @@ public:
     Q_INVOKABLE QString formatSize(double bytes);
     Q_INVOKABLE double getStorageMultiplier();
     
+    Q_INVOKABLE bool isOnSameDrive(const QString& path1, const QString& path2);
+    
     Q_INVOKABLE QVariantMap deleteGame(const QString& sourceRawPath, bool deleteParentFolder = false);
     
     static qint64 calculateCueRealSize(const class QFileInfo &cueInfo);
