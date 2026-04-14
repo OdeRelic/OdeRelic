@@ -38,6 +38,24 @@ double SystemUtils::getStorageMultiplier() {
 #endif
 }
 
+bool SystemUtils::isOnSameDrive(const QString& path1, const QString& path2) {
+    if (path1.isEmpty() || path2.isEmpty()) return false;
+    
+    QStorageInfo storage1(path1);
+    QStorageInfo storage2(path2);
+    
+    if (storage1.isValid() && storage2.isValid()) {
+        QString root1 = storage1.rootPath();
+        QString root2 = storage2.rootPath();
+        
+        if (!root1.isEmpty() && root1 == root2) {
+            return true;
+        }
+    }
+    return false;
+}
+
+
 QString SystemUtils::formatSize(double bytes) {
     if (bytes <= 0) {
         qWarning() << "[SystemUtils] formatSize called with zero or negative bytes:" << bytes;

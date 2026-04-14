@@ -94,3 +94,44 @@ target_link_libraries(XStationLibraryServiceTests PRIVATE
 
 target_include_directories(XStationLibraryServiceTests PRIVATE ../src-cpp/core)
 add_test(NAME XStationLibraryServiceTests COMMAND XStationLibraryServiceTests)
+
+# RVZ Native Converter Tests
+add_executable(RvzNativeConverterTests
+    tst_rvznativeconverter.cpp
+    ../src-cpp/core/rvz_native_converter.cpp
+    ../src-cpp/core/rvz_native_converter.h
+)
+target_link_libraries(RvzNativeConverterTests PRIVATE
+    Qt6::Core
+    Qt6::Test
+)
+target_include_directories(RvzNativeConverterTests PRIVATE ../src-cpp/core)
+add_test(NAME RvzNativeConverterTests COMMAND RvzNativeConverterTests)
+
+# Translation Manager Tests
+add_executable(TranslationManagerTests
+    tst_translationmanager.cpp
+    ../src-cpp/core/translation_manager.cpp
+    ../src-cpp/core/translation_manager.h
+)
+target_link_libraries(TranslationManagerTests PRIVATE
+    Qt6::Core
+    Qt6::Gui
+    Qt6::Qml
+    Qt6::Test
+)
+target_include_directories(TranslationManagerTests PRIVATE ../src-cpp/core)
+add_test(NAME TranslationManagerTests COMMAND TranslationManagerTests)
+
+# Logger Tests
+add_executable(LoggerTests
+    tst_logger.cpp
+    ../src-cpp/core/logger.cpp
+    ../src-cpp/core/logger.h
+)
+target_link_libraries(LoggerTests PRIVATE
+    Qt6::Core
+    Qt6::Test
+)
+target_include_directories(LoggerTests PRIVATE ../src-cpp/core)
+add_test(NAME LoggerTests COMMAND LoggerTests)

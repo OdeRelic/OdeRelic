@@ -87,8 +87,6 @@ Rectangle {
     }
     
     onCurrentLibraryPathChanged: updateStorageBars()
-    onBatchActiveJobsChanged: { if (batchActiveJobs === 0) updateStorageBars() }
-    onPs1BatchActiveJobsChanged: { if (ps1BatchActiveJobs === 0) updateStorageBars() }
 
     // ── PS1 / POPS state ──────────────────────────────────────────────────────
     property var ps1GameFiles: []
@@ -1093,6 +1091,7 @@ Rectangle {
             ps1IsBatchExtracting = false
             mainWindow.ps1SelectionMap = ({})
             Qt.callLater(refreshPs1Games)
+            updateStorageBars()
         }
     }
     
@@ -1203,6 +1202,7 @@ Rectangle {
             isBatchExtracting = false
             mainWindow.selectionMap = ({})
             Qt.callLater(refreshGames)
+            updateStorageBars()
         }
     }
 

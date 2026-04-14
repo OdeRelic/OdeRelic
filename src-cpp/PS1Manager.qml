@@ -101,7 +101,6 @@ Rectangle {
     }
     
     onCurrentLibraryPathChanged: updateStorageBars()
-    onBatchActiveJobsChanged: { if (batchActiveJobs === 0) updateStorageBars() }
 
     property int activeTargetPercent: 0
     property double activeTargetMBps: 0.0
@@ -1040,6 +1039,7 @@ Rectangle {
             mainWindow.selectionMap = ({})
             mainWindow.librarySelectionMap = ({})
             Qt.callLater(refreshGames)
+            updateStorageBars()
         }
     }
 
