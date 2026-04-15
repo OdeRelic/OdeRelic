@@ -9,7 +9,7 @@ set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTORCC ON)
 set(CMAKE_AUTOUIC ON)
 
-find_package(Qt6 COMPONENTS Core Gui Qml Quick Network Test LinguistTools REQUIRED)
+find_package(Qt6 COMPONENTS Core Gui Qml Quick QuickTest Network Test LinguistTools REQUIRED)
 
 include(FetchContent)
 FetchContent_Declare(
@@ -39,25 +39,25 @@ if(ENABLE_COVERAGE)
 endif()
 qt_add_executable(OdeRelic WIN32
     src-cpp/main.cpp
-    src-cpp/core/filesystem_cache.cpp
-    src-cpp/core/filesystem_cache.h
-    src-cpp/core/opl_library_service.cpp
-    src-cpp/core/opl_library_service.h
-    src-cpp/core/swiss_library_service.cpp
-    src-cpp/core/swiss_library_service.h
-    src-cpp/core/ps1_xstation_library_service.cpp
-    src-cpp/core/ps1_xstation_library_service.h
-    src-cpp/core/rvz_native_converter.cpp
-    src-cpp/core/rvz_native_converter.h
-    src-cpp/core/translation_manager.cpp
-    src-cpp/core/translation_manager.h
-    src-cpp/core/system_utils.cpp
-    src-cpp/core/logger.cpp
+    src-cpp/core/filesystem/filesystem_cache.cpp
+    src-cpp/core/filesystem/filesystem_cache.h
+    src-cpp/ps2/opl_library_service.cpp
+    src-cpp/ps2/opl_library_service.h
+    src-cpp/ngc/swiss_library_service.cpp
+    src-cpp/ngc/swiss_library_service.h
+    src-cpp/psx/ps1_xstation_library_service.cpp
+    src-cpp/psx/ps1_xstation_library_service.h
+    src-cpp/ngc/rvz_native_converter.cpp
+    src-cpp/ngc/rvz_native_converter.h
+    src-cpp/core/i18m/translation_manager.cpp
+    src-cpp/core/i18m/translation_manager.h
+    src-cpp/core/common/system_utils.cpp
+    src-cpp/core/logging/logger.cpp
     src-cpp/qml.qrc
     src-cpp/HomeScreen.qml
-    src-cpp/OplManager.qml
-    src-cpp/SwissManager.qml
-    src-cpp/PS1Manager.qml
+    src-cpp/ps2/OplManager.qml
+    src-cpp/ngc/SwissManager.qml
+    src-cpp/psx/PS1Manager.qml
 )
 
 qt_add_translations(OdeRelic
@@ -126,7 +126,3 @@ endif()
 
 include(CPack)
 
-qt_add_executable(TestXStation tests/test_xstation.cpp src-cpp/core/ps1_xstation_library_service.cpp src-cpp/core/system_utils.cpp src-cpp/core/logger.cpp)
-target_link_libraries(TestXStation PRIVATE Qt6::Core Qt6::Gui Qt6::Test Qt6::Network)
-target_include_directories(TestXStation PRIVATE src-cpp/core)
-add_test(NAME test_xstation COMMAND TestXStation)

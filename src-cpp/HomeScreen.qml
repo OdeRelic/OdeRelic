@@ -68,6 +68,7 @@ Rectangle {
             
             TextField {
                 id: searchInput
+                objectName: "searchInput"
                 placeholderText: qsTr("Search consoles...")
                 implicitWidth: 200
                 implicitHeight: 40
@@ -86,6 +87,7 @@ Rectangle {
             
             ComboBox {
                 id: langCombo
+                objectName: "langCombo"
                 implicitWidth: 140
                 implicitHeight: 40
                 
@@ -160,6 +162,7 @@ Rectangle {
                 
                 Rectangle {
                     id: cardRect
+                    objectName: "card_" + model.key
                     anchors.fill: parent
                     color: "#181A20"
                     radius: 16

@@ -115,6 +115,62 @@ Rectangle {
         }
     }
 
+    // ── Toast Notification System ──────────────────────────────────────────────
+    function showToast(message, isError) {
+        if (message === undefined) return;
+        toastPopup.messageText = message;
+        toastPopup.isError = isError !== undefined ? isError : false;
+        toastPopup.open();
+        toastPopup.toastTimer.restart();
+    }
+
+    Popup {
+        id: toastPopup
+        objectName: "toastPopup"
+        parent: Overlay.overlay
+        x: parent ? Math.round((parent.width - width) / 2) : 0
+        y: parent ? parent.height - height - 30 : 0
+        width: toastText.implicitWidth + 40
+        height: toastText.implicitHeight + 20
+        closePolicy: Popup.NoAutoClose
+        
+        property string messageText: ""
+        property bool isError: false
+        property alias toastTimer: timerId
+        property int targetY: parent ? parent.height - height - 30 : 0
+        
+        enter: Transition {
+            NumberAnimation { property: "opacity"; from: 0.0; to: 1.0; duration: 250 }
+            NumberAnimation { property: "y"; from: toastPopup.parent ? toastPopup.parent.height : 0; to: toastPopup.targetY; duration: 250; easing.type: Easing.OutQuad }
+        }
+        exit: Transition {
+            NumberAnimation { property: "opacity"; from: 1.0; to: 0.0; duration: 250 }
+            NumberAnimation { property: "y"; from: toastPopup.targetY; to: toastPopup.parent ? toastPopup.parent.height : 0; duration: 250; easing.type: Easing.InQuad }
+        }
+
+        background: Rectangle {
+            color: "#CC111111"
+            radius: 8
+            border.color: toastPopup.isError ? "#FF4D4D" : "#00E676"
+            border.width: 1
+        }
+        
+        Text {
+            id: toastText
+            anchors.centerIn: parent
+            text: toastPopup.messageText
+            color: "white"
+            font.pixelSize: 14
+            font.bold: true
+        }
+
+        Timer {
+            id: timerId
+            interval: 3000
+            repeat: false
+            onTriggered: toastPopup.close()
+        }
+    }
 
     Connections {
         target: swissLibraryService
@@ -1395,6 +1451,7 @@ Rectangle {
 
                 // Change Disk Re-router
                 Button {
+                    objectName: "btnChangeTarget"
                     Layout.fillWidth: true
                     text: qsTr("Disconnect & Change Target")
                     onClicked: {
@@ -1438,6 +1495,7 @@ Rectangle {
                         }
                         
                         Button {
+                            objectName: "btnUpdateNow"
                             Layout.fillWidth: true
                             text: "Update Now (" + mainWindow.savedOdeType + ")"
                             onClicked: {
@@ -1517,6 +1575,7 @@ Rectangle {
                             }
 
                             Button {
+                                objectName: "btnFetchMissingArtwork"
                                 Layout.fillWidth: true
                                 property bool fetching: false
                                 property int currIndex: 0
@@ -1553,6 +1612,7 @@ Rectangle {
                             }
 
                             Button {
+                                objectName: "btnSyncCheats"
                                 Layout.fillWidth: true
                                 text: qsTr("Sync Cheats")
                                 onClicked: {
@@ -1571,6 +1631,7 @@ Rectangle {
 
                             Button {
                                 id: deleteGamesBtn
+                                objectName: "btnDeleteSelected"
                                 Layout.fillWidth: true
                                 
                                 property int selectedCount: Object.values(mainWindow.librarySelectionMap).filter(v => v === true).length
@@ -1661,6 +1722,7 @@ Rectangle {
                         }
 
                         Button {
+                            objectName: "btnImportActionsSelected"
                             Layout.fillWidth: true
                             property int selectedCount: Object.values(mainWindow.selectionMap).filter(v => v === true).length
                             text: mainWindow.isBatchExtracting ? "Importing..." : "Import " + selectedCount + " Games"
@@ -1712,6 +1774,7 @@ Rectangle {
                         }
 
                         Button {
+                            objectName: "btnAddGames"
                             Layout.fillWidth: true
                             text: "Add Games"
                             onClicked: addGamesDialog.open()
@@ -1720,6 +1783,7 @@ Rectangle {
                         }
 
                         Button {
+                            objectName: "btnAddFolder"
                             Layout.fillWidth: true
                             text: "Add Folder"
                             onClicked: addGamesFolderDialog.open()
@@ -1729,6 +1793,7 @@ Rectangle {
 
                         Button {
                             id: massSelectBtn
+                            objectName: "btnSelectAllAvailable"
                             Layout.fillWidth: true
                             property bool allSelected: false
                             text: allSelected ? "Deselect All" : "Select All Available"

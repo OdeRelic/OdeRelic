@@ -1,9 +1,9 @@
-#include "core/opl_library_service.h"
-#include "core/swiss_library_service.h"
-#include "core/ps1_xstation_library_service.h"
-#include "core/system_utils.h"
-#include "core/translation_manager.h"
-#include "core/logger.h"
+#include "ps2/opl_library_service.h"
+#include "ngc/swiss_library_service.h"
+#include "psx/ps1_xstation_library_service.h"
+#include "core/common/system_utils.h"
+#include "core/i18m/translation_manager.h"
+#include "core/logging/logger.h"
 #include <QFileInfo>
 #include <QGuiApplication>
 #include <QIcon>

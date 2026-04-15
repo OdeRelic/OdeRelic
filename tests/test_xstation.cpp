@@ -1,7 +1,7 @@
 #include <QtTest>
 #include <QTemporaryDir>
 #include <QDir>
-#include "../src-cpp/core/ps1_xstation_library_service.h"
+#include "../src-cpp/psx/ps1_xstation_library_service.h"
 
 class TestXStation : public QObject
 {

@@ -1356,6 +1356,7 @@ Rectangle {
 
                 // Change Disk Re-router
                 Button {
+                    objectName: "btnChangeTarget"
                     Layout.fillWidth: true
                     text: qsTr("Disconnect & Change Target")
                     onClicked: {
@@ -1435,6 +1436,7 @@ Rectangle {
 
                             Button {
                                 id: ps2FetchArtBtn
+                                objectName: "btnPs2FetchArt"
                                 Layout.fillWidth: true
                                 property bool fetching: false
                                 property int currentOp: 0
@@ -1471,6 +1473,7 @@ Rectangle {
                             }
 
                             Button {
+                                objectName: "btnPs2DeleteSelected"
                                 Layout.fillWidth: true
                                 property int selectedCount: Object.values(mainWindow.selectionMap || {}).filter(v => v === true).length
                                 text: qsTr("Delete Selected") + " (" + selectedCount + ")"
@@ -1542,6 +1545,7 @@ Rectangle {
                             }
 
                             Button {
+                                objectName: "btnPs2ImportSelected"
                                 Layout.fillWidth: true
                                 property int selectedCount: Object.values(mainWindow.selectionMap).filter(v => v === true).length
                                 text: mainWindow.isBatchExtracting ? qsTr("Importing...") : qsTr("Import ") + selectedCount + qsTr(" Games")
@@ -1583,6 +1587,7 @@ Rectangle {
                             }
 
                             Button {
+                                objectName: "btnPs2AddGames"
                                 Layout.fillWidth: true
                                 text: "Add Games"
                                 onClicked: addGamesDialog.open()
@@ -1591,6 +1596,7 @@ Rectangle {
                             }
 
                             Button {
+                                objectName: "btnPs2AddFolder"
                                 Layout.fillWidth: true
                                 text: "Add Folder"
                                 onClicked: addGamesFolderDialog.open()
@@ -1600,6 +1606,7 @@ Rectangle {
 
                             Button {
                                 id: massSelectBtn
+                                objectName: "btnPs2SelectAll"
                                 Layout.fillWidth: true
                                 property bool allSelected: false
                                 text: allSelected ? "Deselect All" : "Select All"
@@ -1679,6 +1686,7 @@ Rectangle {
                             }
 
                             Button {
+                                objectName: "btnPs1FetchArt"
                                 Layout.fillWidth: true
                                 text: qsTr("Fetch Missing Artwork")
                                 contentItem: Text {
@@ -1698,6 +1706,7 @@ Rectangle {
                             }
 
                             Button {
+                                objectName: "btnPs1DeleteSelected"
                                 Layout.fillWidth: true
                                 property int selectedCount: Object.values(mainWindow.ps1SelectionMap || {}).filter(v => v === true).length
                                 text: qsTr("Delete Selected") + " (" + selectedCount + ")"
@@ -1770,6 +1779,7 @@ Rectangle {
                             }
 
                             Button {
+                                objectName: "btnPs1ImportSelected"
                                 Layout.fillWidth: true
                                 property int selectedCount: Object.values(mainWindow.ps1SelectionMap).filter(v => v === true).length
                                 text: mainWindow.ps1IsBatchExtracting ? qsTr("Importing...") : qsTr("Import ") + selectedCount + qsTr(" Games")
@@ -1811,6 +1821,7 @@ Rectangle {
                             }
 
                             Button {
+                                objectName: "btnPs1AddGames"
                                 Layout.fillWidth: true
                                 text: qsTr("Add PS1 Games")
                                 onClicked: addPs1GamesDialog.open()
@@ -1819,6 +1830,7 @@ Rectangle {
                             }
 
                             Button {
+                                objectName: "btnPs1AddFolder"
                                 Layout.fillWidth: true
                                 text: qsTr("Add Folder")
                                 onClicked: addPs1GamesFolderDialog.open()
@@ -1828,6 +1840,7 @@ Rectangle {
 
                             Button {
                                 id: ps1MassSelectBtn
+                                objectName: "btnPs1SelectAll"
                                 Layout.fillWidth: true
                                 property bool allSelected: false
                                 text: allSelected ? qsTr("Deselect All") : qsTr("Select All")
