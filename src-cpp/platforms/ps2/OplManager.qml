@@ -49,7 +49,7 @@ Rectangle {
         })
     }
     
-    property int currentTabIndex: 0
+    property int currentTabIndex: 1
     property var selectionMap: ({})
     property string searchQuery: ""
     
@@ -167,7 +167,7 @@ Rectangle {
                     let res = oplLibraryService.tryDetermineGameIdFromHex(destIsoPath)
                     if (res && res.success) {
                         let artFolder = mainWindow.currentLibraryPath + "/ART"
-                        oplLibraryService.startDownloadArtAsync(artFolder, res.gameId, sourcePath)
+                        oplLibraryService.startDownloadArtAsync("PS2", artFolder, res.gameId, sourcePath)
                         return; // Await async net dispatch
                     }
                 } else {
@@ -228,7 +228,7 @@ Rectangle {
                         let renameRes = oplLibraryService.renameGamefile(destIsoPath, mainWindow.currentLibraryPath, res.gameId, currentName, isOriginalCD)
                         if (renameRes.success) {
                             let artFolder = mainWindow.currentLibraryPath + "/ART"
-                            oplLibraryService.startDownloadArtAsync(artFolder, res.gameId, sourcePath)
+                            oplLibraryService.startDownloadArtAsync("PS2", artFolder, res.gameId, sourcePath)
                             systemUtils.deleteGame(sourcePath, false)
                             return; // Await async net dispatch
                         } else {
@@ -289,7 +289,7 @@ Rectangle {
             if (mainWindow.ps1BatchConvertingMap[sourcePath] === true) {
                 if (success && gameId !== "") {
                     let artFolder = mainWindow.currentLibraryPath + "/ART"
-                    oplLibraryService.startDownloadPs1ArtAsync(artFolder, gameId, sourcePath)
+                    oplLibraryService.startDownloadArtAsync("PS1", artFolder, gameId, sourcePath)
                     return;
                 } else if (!success) {
                     console.error("PS1 Import Failed: " + message)
@@ -1389,116 +1389,6 @@ Rectangle {
                 }
 
                 // Navigation Buttons Array
-                // ── PS2 Library ───────────────────────────────────────────────
-                ColumnLayout {
-                    Layout.fillWidth: true
-                    spacing: 4
-
-                    Button {
-                        Layout.fillWidth: true
-                        text: qsTr("PS2 Library") + "  (" + libraryGames.length + ")"
-                        onClicked: currentTabIndex = 0
-                        contentItem: Text {
-                            text: parent.text; color: currentTabIndex === 0 ? "white" : textSecondary
-                            font.bold: true; font.pixelSize: 14; horizontalAlignment: Text.AlignLeft
-                            leftPadding: 20; verticalAlignment: Text.AlignVCenter
-                        }
-                        background: Rectangle {
-                            color: currentTabIndex === 0 ? "#33FF4D4D" : "transparent"
-                            radius: 8; implicitHeight: 46
-                            border.color: currentTabIndex === 0 ? accentPrimary : (parent.hovered ? borderGlass : "transparent")
-                            Behavior on color { ColorAnimation { duration: 150 } }
-                        }
-                    }
-
-                    Rectangle {
-                        Layout.fillWidth: true
-                        Layout.leftMargin: 15
-                        implicitHeight: ps2LibActionsLayout.implicitHeight + 16
-                        color: "#161925"
-                        radius: 8
-                        border.color: borderGlass; border.width: 1
-                        visible: currentTabIndex === 0 && libraryGames.length > 0
-
-                        ColumnLayout {
-                            id: ps2LibActionsLayout
-                            anchors.top: parent.top
-                            anchors.left: parent.left
-                            anchors.right: parent.right
-                            anchors.margins: 8
-                            spacing: 8
-
-                            Text {
-                                text: qsTr("ACTIONS")
-                                color: textSecondary
-                                font.pixelSize: 10; font.bold: true; font.letterSpacing: 2
-                            }
-
-                            Button {
-                                id: ps2FetchArtBtn
-                                objectName: "btnPs2FetchArt"
-                                Layout.fillWidth: true
-                                property bool fetching: false
-                                property int currentOp: 0
-                                property int totalOp: 0
-                                text: fetching ? (qsTr("Fetching...") + " (" + currentOp + "/" + totalOp + ")") : qsTr("Fetch Missing Artwork")
-                                enabled: !fetching && libraryGames.length > 0
-                                opacity: enabled ? 1.0 : 0.6
-
-                                Connections {
-                                    target: oplLibraryService
-                                    function onBatchArtDownloadProgress(current, total) {
-                                        ps2FetchArtBtn.currentOp = current
-                                        ps2FetchArtBtn.totalOp = total
-                                    }
-                                    function onBatchArtDownloadFinished(success) {
-                                        ps2FetchArtBtn.fetching = false
-                                        refreshGames()
-                                    }
-                                }
-
-                                onClicked: {
-                                    if (fetching || libraryGames.length === 0) return
-                                    fetching = true
-                                    oplLibraryService.startBatchArtDownloadAsync(mainWindow.libraryGames, mainWindow.currentLibraryPath + "/ART")
-                                }
-                                contentItem: Text {
-                                    text: parent.text; color: textPrimary; font.bold: true; font.pixelSize: 13
-                                    horizontalAlignment: Text.AlignHCenter; verticalAlignment: Text.AlignVCenter
-                                }
-                                background: Rectangle {
-                                    color: parent.down ? "#111" : (parent.hovered ? "#3A3F58" : "#2A2F40")
-                                    radius: 6; border.color: borderGlass; border.width: 1; implicitHeight: 32
-                                }
-                            }
-
-                            Button {
-                                objectName: "btnPs2DeleteSelected"
-                                Layout.fillWidth: true
-                                property int selectedCount: Object.values(mainWindow.selectionMap || {}).filter(v => v === true).length
-                                text: qsTr("Delete Selected") + " (" + selectedCount + ")"
-                                enabled: selectedCount > 0
-                                opacity: enabled ? 1.0 : 0.5
-                                onClicked: {
-                                    if (selectedCount === 0) return
-                                    let toDelete = mainWindow.libraryGames.filter(g => mainWindow.selectionMap[g.path] === true)
-                                    deleteConfirmPopup.selectedPaths = toDelete.map(g => g.path)
-                                    deleteConfirmPopup.selectedNames = toDelete.map(g => g.name)
-                                    deleteConfirmPopup.open()
-                                }
-                                contentItem: Text {
-                                    text: parent.text; color: "#FF6B6B"; font.bold: true; font.pixelSize: 13
-                                    horizontalAlignment: Text.AlignHCenter; verticalAlignment: Text.AlignVCenter
-                                }
-                                background: Rectangle {
-                                    color: parent.down ? "#2A0A0A" : (parent.hovered ? "#1A0808" : "transparent")
-                                    radius: 6; border.color: "#FF6B6B"; border.width: 1; implicitHeight: 32
-                                }
-                            }
-                        }
-                    }
-                }
-
                 // ── PS2 Import ─────────────────────────────────────────────────
                 ColumnLayout {
                     Layout.fillWidth: true
@@ -1625,6 +1515,117 @@ Rectangle {
                     }
                 }
 
+                // ── PS2 Library ───────────────────────────────────────────────
+                ColumnLayout {
+                    Layout.fillWidth: true
+                    spacing: 4
+
+                    Button {
+                        Layout.fillWidth: true
+                        text: qsTr("PS2 Library") + "  (" + libraryGames.length + ")"
+                        onClicked: currentTabIndex = 0
+                        contentItem: Text {
+                            text: parent.text; color: currentTabIndex === 0 ? "white" : textSecondary
+                            font.bold: true; font.pixelSize: 14; horizontalAlignment: Text.AlignLeft
+                            leftPadding: 20; verticalAlignment: Text.AlignVCenter
+                        }
+                        background: Rectangle {
+                            color: currentTabIndex === 0 ? "#33FF4D4D" : "transparent"
+                            radius: 8; implicitHeight: 46
+                            border.color: currentTabIndex === 0 ? accentPrimary : (parent.hovered ? borderGlass : "transparent")
+                            Behavior on color { ColorAnimation { duration: 150 } }
+                        }
+                    }
+
+                    Rectangle {
+                        Layout.fillWidth: true
+                        Layout.leftMargin: 15
+                        implicitHeight: ps2LibActionsLayout.implicitHeight + 16
+                        color: "#161925"
+                        radius: 8
+                        border.color: borderGlass; border.width: 1
+                        visible: currentTabIndex === 0 && libraryGames.length > 0
+
+                        ColumnLayout {
+                            id: ps2LibActionsLayout
+                            anchors.top: parent.top
+                            anchors.left: parent.left
+                            anchors.right: parent.right
+                            anchors.margins: 8
+                            spacing: 8
+
+                            Text {
+                                text: qsTr("ACTIONS")
+                                color: textSecondary
+                                font.pixelSize: 10; font.bold: true; font.letterSpacing: 2
+                            }
+
+                            Button {
+                                id: ps2FetchArtBtn
+                                objectName: "btnPs2FetchArt"
+                                Layout.fillWidth: true
+                                property bool fetching: false
+                                property int currentOp: 0
+                                property int totalOp: 0
+                                text: fetching ? (qsTr("Fetching...") + " (" + currentOp + "/" + totalOp + ")") : qsTr("Fetch Missing Artwork")
+                                enabled: !fetching && libraryGames.length > 0
+                                opacity: enabled ? 1.0 : 0.6
+
+                                Connections {
+                                    target: oplLibraryService
+                                    function onBatchArtDownloadProgress(current, total) {
+                                        ps2FetchArtBtn.currentOp = current
+                                        ps2FetchArtBtn.totalOp = total
+                                    }
+                                    function onBatchArtDownloadFinished(success) {
+                                        ps2FetchArtBtn.fetching = false
+                                        refreshGames()
+                                    }
+                                }
+
+                                onClicked: {
+                                    if (fetching || libraryGames.length === 0) return
+                                    fetching = true
+                                    oplLibraryService.startBatchArtDownloadAsync("PS2", mainWindow.libraryGames, mainWindow.currentLibraryPath + "/ART")
+                                }
+                                contentItem: Text {
+                                    text: parent.text; color: textPrimary; font.bold: true; font.pixelSize: 13
+                                    horizontalAlignment: Text.AlignHCenter; verticalAlignment: Text.AlignVCenter
+                                }
+                                background: Rectangle {
+                                    color: parent.down ? "#111" : (parent.hovered ? "#3A3F58" : "#2A2F40")
+                                    radius: 6; border.color: borderGlass; border.width: 1; implicitHeight: 32
+                                }
+                            }
+
+                            Button {
+                                objectName: "btnPs2DeleteSelected"
+                                Layout.fillWidth: true
+                                property int selectedCount: Object.values(mainWindow.selectionMap || {}).filter(v => v === true).length
+                                text: qsTr("Delete Selected") + " (" + selectedCount + ")"
+                                enabled: selectedCount > 0
+                                opacity: enabled ? 1.0 : 0.5
+                                onClicked: {
+                                    if (selectedCount === 0) return
+                                    let toDelete = mainWindow.libraryGames.filter(g => mainWindow.selectionMap[g.path] === true)
+                                    deleteConfirmPopup.selectedPaths = toDelete.map(g => g.path)
+                                    deleteConfirmPopup.selectedNames = toDelete.map(g => g.name)
+                                    deleteConfirmPopup.open()
+                                }
+                                contentItem: Text {
+                                    text: parent.text; color: "#FF6B6B"; font.bold: true; font.pixelSize: 13
+                                    horizontalAlignment: Text.AlignHCenter; verticalAlignment: Text.AlignVCenter
+                                }
+                                background: Rectangle {
+                                    color: parent.down ? "#2A0A0A" : (parent.hovered ? "#1A0808" : "transparent")
+                                    radius: 6; border.color: "#FF6B6B"; border.width: 1; implicitHeight: 32
+                                }
+                            }
+                        }
+                    }
+                }
+
+
                 // ── PS1 Section Divider ───────────────────────────────────────
                 RowLayout {
                     Layout.fillWidth: true
@@ -1640,98 +1641,6 @@ Rectangle {
                     Rectangle { height: 1; Layout.fillWidth: true; color: accentPs1; opacity: 0.3 }
                 }
 
-                // ── PS1 Library ────────────────────────────────────────────────
-                ColumnLayout {
-                    Layout.fillWidth: true
-                    spacing: 4
-
-                    Button {
-                        Layout.fillWidth: true
-                        text: qsTr("PS1 Library") + "  (" + ps1LibraryGames.length + ")"
-                        onClicked: { currentTabIndex = 2; Qt.callLater(refreshPs1Games) }
-                        contentItem: Text {
-                            text: parent.text; color: currentTabIndex === 2 ? "white" : textSecondary
-                            font.bold: true; font.pixelSize: 14; horizontalAlignment: Text.AlignLeft
-                            leftPadding: 20; verticalAlignment: Text.AlignVCenter
-                        }
-                        background: Rectangle {
-                            color: currentTabIndex === 2 ? "#334D9FFF" : "transparent"
-                            radius: 8; implicitHeight: 46
-                            border.color: currentTabIndex === 2 ? accentPs1 : (parent.hovered ? borderGlass : "transparent")
-                            Behavior on color { ColorAnimation { duration: 150 } }
-                        }
-                    }
-
-                    Rectangle {
-                        Layout.fillWidth: true
-                        Layout.leftMargin: 15
-                        implicitHeight: ps1LibActionsLayout.implicitHeight + 16
-                        color: "#161925"
-                        radius: 8
-                        border.color: borderGlass; border.width: 1
-                        visible: currentTabIndex === 2 && ps1LibraryGames.length > 0
-
-                        ColumnLayout {
-                            id: ps1LibActionsLayout
-                            anchors.top: parent.top
-                            anchors.left: parent.left
-                            anchors.right: parent.right
-                            anchors.margins: 8
-                            spacing: 8
-
-                            Text {
-                                text: qsTr("ACTIONS")
-                                color: textSecondary
-                                font.pixelSize: 10; font.bold: true; font.letterSpacing: 2
-                            }
-
-                            Button {
-                                objectName: "btnPs1FetchArt"
-                                Layout.fillWidth: true
-                                text: qsTr("Fetch Missing Artwork")
-                                contentItem: Text {
-                                    text: parent.text; color: textPrimary; font.bold: true; font.pixelSize: 13
-                                    horizontalAlignment: Text.AlignHCenter; verticalAlignment: Text.AlignVCenter
-                                }
-                                background: Rectangle {
-                                    color: parent.down ? "#111" : (parent.hovered ? "#3A3F58" : "#2A2F40")
-                                    radius: 6; border.color: borderGlass; border.width: 1; implicitHeight: 32
-                                }
-                                onClicked: {
-                                    for (let i = 0; i < ps1LibraryGames.length; i++) {
-                                        let id = ps1LibraryGames[i].gameId
-                                        if (id) oplLibraryService.startArtDownloadAsync(ps1LibraryGames[i].path, id, mainWindow.currentLibraryPath)
-                                    }
-                                }
-                            }
-
-                            Button {
-                                objectName: "btnPs1DeleteSelected"
-                                Layout.fillWidth: true
-                                property int selectedCount: Object.values(mainWindow.ps1SelectionMap || {}).filter(v => v === true).length
-                                text: qsTr("Delete Selected") + " (" + selectedCount + ")"
-                                enabled: selectedCount > 0
-                                opacity: enabled ? 1.0 : 0.5
-                                onClicked: { 
-                                    if (selectedCount > 0) {
-                                        let toDelete = mainWindow.ps1LibraryGames.filter(g => mainWindow.ps1SelectionMap[g.path] === true)
-                                        ps1DeleteConfirmPopup.selectedPaths = toDelete.map(g => g.path)
-                                        ps1DeleteConfirmPopup.selectedNames = toDelete.map(g => g.name)
-                                        ps1DeleteConfirmPopup.open()
-                                    } 
-                                }
-                                contentItem: Text {
-                                    text: parent.text; color: "#FF6B6B"; font.bold: true; font.pixelSize: 13
-                                    horizontalAlignment: Text.AlignHCenter; verticalAlignment: Text.AlignVCenter
-                                }
-                                background: Rectangle {
-                                    color: parent.down ? "#2A0A0A" : (parent.hovered ? "#1A0808" : "transparent")
-                                    radius: 6; border.color: "#FF6B6B"; border.width: 1; implicitHeight: 32
-                                }
-                            }
-                        }
-                    }
-                }
 
                 // ── PS1 Import ─────────────────────────────────────────────────
                 ColumnLayout {
@@ -1852,6 +1761,117 @@ Rectangle {
                                 }
                                 contentItem: Text { text: parent.text; color: "white"; font.bold: true; font.pixelSize: 11; verticalAlignment: Text.AlignVCenter; horizontalAlignment: Text.AlignHCenter }
                                 background: Rectangle { color: parent.down ? "#1A4080" : (parent.hovered ? "#334D9FFF" : "transparent"); radius: 6; border.color: accentPs1; border.width: 1; implicitHeight: 28; Behavior on color { ColorAnimation { duration: 150 } } }
+                            }
+                        }
+                    }
+                }
+
+                // ── PS1 Library ────────────────────────────────────────────────
+                ColumnLayout {
+                    Layout.fillWidth: true
+                    spacing: 4
+
+                    Button {
+                        Layout.fillWidth: true
+                        text: qsTr("PS1 Library") + "  (" + ps1LibraryGames.length + ")"
+                        onClicked: { currentTabIndex = 2; Qt.callLater(refreshPs1Games) }
+                        contentItem: Text {
+                            text: parent.text; color: currentTabIndex === 2 ? "white" : textSecondary
+                            font.bold: true; font.pixelSize: 14; horizontalAlignment: Text.AlignLeft
+                            leftPadding: 20; verticalAlignment: Text.AlignVCenter
+                        }
+                        background: Rectangle {
+                            color: currentTabIndex === 2 ? "#334D9FFF" : "transparent"
+                            radius: 8; implicitHeight: 46
+                            border.color: currentTabIndex === 2 ? accentPs1 : (parent.hovered ? borderGlass : "transparent")
+                            Behavior on color { ColorAnimation { duration: 150 } }
+                        }
+                    }
+
+                    Rectangle {
+                        Layout.fillWidth: true
+                        Layout.leftMargin: 15
+                        implicitHeight: ps1LibActionsLayout.implicitHeight + 16
+                        color: "#161925"
+                        radius: 8
+                        border.color: borderGlass; border.width: 1
+                        visible: currentTabIndex === 2 && ps1LibraryGames.length > 0
+
+                        ColumnLayout {
+                            id: ps1LibActionsLayout
+                            anchors.top: parent.top
+                            anchors.left: parent.left
+                            anchors.right: parent.right
+                            anchors.margins: 8
+                            spacing: 8
+
+                            Text {
+                                text: qsTr("ACTIONS")
+                                color: textSecondary
+                                font.pixelSize: 10; font.bold: true; font.letterSpacing: 2
+                            }
+
+                            Button {
+                                id: ps1FetchArtBtn
+                                objectName: "btnPs1FetchArt"
+                                Layout.fillWidth: true
+                                property bool fetching: false
+                                property int currentOp: 0
+                                property int totalOp: 0
+                                text: fetching ? (qsTr("Fetching...") + " (" + currentOp + "/" + totalOp + ")") : qsTr("Fetch Missing Artwork")
+                                enabled: !fetching && ps1LibraryGames.length > 0
+                                opacity: enabled ? 1.0 : 0.6
+
+                                Connections {
+                                    target: oplLibraryService
+                                    function onBatchArtDownloadProgress(current, total) {
+                                        ps1FetchArtBtn.currentOp = current
+                                        ps1FetchArtBtn.totalOp = total
+                                    }
+                                    function onBatchArtDownloadFinished(success) {
+                                        ps1FetchArtBtn.fetching = false
+                                        refreshPs1Games()
+                                    }
+                                }
+
+                                onClicked: {
+                                    if (fetching || ps1LibraryGames.length === 0) return
+                                    fetching = true
+                                    oplLibraryService.startBatchArtDownloadAsync("PS1", mainWindow.ps1LibraryGames, mainWindow.currentLibraryPath + "/ART")
+                                }
+                                contentItem: Text {
+                                    text: parent.text; color: textPrimary; font.bold: true; font.pixelSize: 13
+                                    horizontalAlignment: Text.AlignHCenter; verticalAlignment: Text.AlignVCenter
+                                }
+                                background: Rectangle {
+                                    color: parent.down ? "#111" : (parent.hovered ? "#3A3F58" : "#2A2F40")
+                                    radius: 6; border.color: borderGlass; border.width: 1; implicitHeight: 32
+                                }
+                            }
+
+                            Button {
+                                objectName: "btnPs1DeleteSelected"
+                                Layout.fillWidth: true
+                                property int selectedCount: Object.values(mainWindow.ps1SelectionMap || {}).filter(v => v === true).length
+                                text: qsTr("Delete Selected") + " (" + selectedCount + ")"
+                                enabled: selectedCount > 0
+                                opacity: enabled ? 1.0 : 0.5
+                                onClicked: { 
+                                    if (selectedCount > 0) {
+                                        let toDelete = mainWindow.ps1LibraryGames.filter(g => mainWindow.ps1SelectionMap[g.path] === true)
+                                        ps1DeleteConfirmPopup.selectedPaths = toDelete.map(g => g.path)
+                                        ps1DeleteConfirmPopup.selectedNames = toDelete.map(g => g.name)
+                                        ps1DeleteConfirmPopup.open()
+                                    } 
+                                }
+                                contentItem: Text {
+                                    text: parent.text; color: "#FF6B6B"; font.bold: true; font.pixelSize: 13
+                                    horizontalAlignment: Text.AlignHCenter; verticalAlignment: Text.AlignVCenter
+                                }
+                                background: Rectangle {
+                                    color: parent.down ? "#2A0A0A" : (parent.hovered ? "#1A0808" : "transparent")
+                                    radius: 6; border.color: "#FF6B6B"; border.width: 1; implicitHeight: 32
+                                }
                             }
                         }
                     }

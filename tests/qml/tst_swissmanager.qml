@@ -1,7 +1,7 @@
 import QtQuick
 import QtQuick.Controls
 import QtTest
-import "../../src-cpp/ngc" as Src
+import "../../src-cpp/platforms/ngc" as Src
 
 Item {
     id: container

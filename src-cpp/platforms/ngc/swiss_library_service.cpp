@@ -1,7 +1,11 @@
 #include "swiss_library_service.h"
-#include "../core/filesystem/filesystem_cache.h"
+
 #include "rvz_native_converter.h"
-#include "../core/common/system_utils.h"
+
+#include "../../core/common/system_utils.h"
+#include "../../core/filesystem/filesystem_cache.h"
+#include "rvz_native_converter.h"
+
 #include <QCoreApplication>
 #include <QDebug>
 #include <QDir>
@@ -22,6 +26,7 @@
 #include <QString>
 #include <QThread>
 #include <QUrl>
+#include <QtConcurrent>
 #include <thread>
 
 SwissLibraryService::SwissLibraryService(QObject *parent) : QObject(parent) {
@@ -46,8 +51,9 @@ QString SwissLibraryService::urlToLocalFile(const QString &urlStr) {
 }
 
 void SwissLibraryService::startGetGamesFilesAsync(const QString &dirPath) {
-  qInfo() << "[Swiss Scanner] Starting async GameCube scan on directory:" << dirPath;
-  std::thread([this, dirPath]() {
+  qInfo() << "[Swiss Scanner] Starting async GameCube scan on directory:"
+          << dirPath;
+  QtConcurrent::run([this, dirPath]() {
     QVariantMap result;
     QVariantList files;
     QHash<QString, QVariantMap> groupedFiles;
@@ -164,7 +170,7 @@ void SwissLibraryService::startGetGamesFilesAsync(const QString &dirPath) {
         this,
         [this, dirPath, result]() { emit gamesFilesLoaded(dirPath, result); },
         Qt::QueuedConnection);
-  }).detach();
+  });
 }
 
 QVariantMap
@@ -219,12 +225,12 @@ bool SwissLibraryService::provisionCheat(const QString &gameId,
   QString cleanId = gameId.toUpper();
 
   QStringList searchPaths = {
-      QCoreApplication::applicationDirPath() + "/assets/cheats/gamecube - wii",
+      QCoreApplication::applicationDirPath() + "/resources/cheats/gamecube-wii",
       QCoreApplication::applicationDirPath() +
-          "/../../../assets/cheats/gamecube - wii",
+          "/../../../resources/cheats/gamecube-wii",
       QCoreApplication::applicationDirPath() +
-          "/../Resources/assets/cheats/gamecube - wii",
-      QDir::currentPath() + "/assets/cheats/gamecube - wii"};
+          "/../Resources/resources/cheats/gamecube-wii",
+      QDir::currentPath() + "/resources/cheats/gamecube-wii"};
 
   QString sourceCheatPath = "";
   for (const QString &path : searchPaths) {
@@ -256,24 +262,25 @@ void SwissLibraryService::startSyncCheatsAsync(const QString &libraryRoot) {
     emit syncCheatsFinished(0);
     return;
   }
-  
-  std::thread([this, libraryRoot]() {
+
+  QtConcurrent::run([this, libraryRoot]() {
     QString cleanRoot = QUrl::fromPercentEncoding(libraryRoot.toUtf8());
     QDir gamesDir(cleanRoot + "/games");
     if (!gamesDir.exists()) {
-      QMetaObject::invokeMethod(this, [this]() { emit syncCheatsFinished(0); }, Qt::QueuedConnection);
+      QMetaObject::invokeMethod(
+          this, [this]() { emit syncCheatsFinished(0); }, Qt::QueuedConnection);
       return;
     }
 
     int syncCount = 0;
     QStringList folders = gamesDir.entryList(QDir::Dirs | QDir::NoDotAndDotDot);
     int totalFolders = folders.size();
-    
+
     for (int i = 0; i < totalFolders; ++i) {
       if (m_cancelRequested.load()) {
         break; // graceful cancel
       }
-      
+
       const QString &folderName = folders[i];
       // Extract Game ID from folder name e.g. "Game Name [GM8E01]"
       QRegularExpression regex("\\[([A-Za-z0-9]{6})\\]");
@@ -284,17 +291,20 @@ void SwissLibraryService::startSyncCheatsAsync(const QString &libraryRoot) {
           syncCount++;
         }
       }
-      
+
       int currentProgress = i + 1;
-      QMetaObject::invokeMethod(this, [this, currentProgress, totalFolders]() { 
-          emit syncCheatsProgress(currentProgress, totalFolders); 
-      }, Qt::QueuedConnection);
+      QMetaObject::invokeMethod(
+          this,
+          [this, currentProgress, totalFolders]() {
+            emit syncCheatsProgress(currentProgress, totalFolders);
+          },
+          Qt::QueuedConnection);
     }
-    
-    QMetaObject::invokeMethod(this, [this, syncCount]() { 
-        emit syncCheatsFinished(syncCount); 
-    }, Qt::QueuedConnection);
-  }).detach();
+
+    QMetaObject::invokeMethod(
+        this, [this, syncCount]() { emit syncCheatsFinished(syncCount); },
+        Qt::QueuedConnection);
+  });
 }
 
 QVariantMap SwissLibraryService::renameGamefile(
@@ -378,8 +388,10 @@ void SwissLibraryService::startImportIsoAsync(const QString &sourceIsoPath,
                                               const QString &targetLibraryRoot,
                                               const QString &gameId,
                                               const QString &gameName) {
-  qInfo() << "[Swiss Importer] Spawning completely autonomous Thread for:" << sourceIsoPath;
-  std::thread([this, sourceIsoPath, targetLibraryRoot, gameId, gameName]() {
+  qInfo() << "[Swiss Importer] Spawning completely autonomous Thread for:"
+          << sourceIsoPath;
+  QtConcurrent::run([this, sourceIsoPath, targetLibraryRoot, gameId,
+                     gameName]() {
     QFileInfo fileInfo(sourceIsoPath);
     QString ext = fileInfo.suffix().toLower();
 
@@ -430,7 +442,9 @@ void SwissLibraryService::startImportIsoAsync(const QString &sourceIsoPath,
           this, [=]() { emit importIsoProgress(sourceIsoPath, 5, 0.0); },
           Qt::QueuedConnection);
 
-      qInfo() << "[Swiss Importer] RVZ decompression payload started smoothly gracefully dependably sensibly reliably identical efficiently natively comfortably.";
+      qInfo() << "[Swiss Importer] RVZ decompression payload started smoothly "
+                 "gracefully dependably sensibly reliably identical "
+                 "efficiently natively comfortably.";
       RvzNativeConverter converter;
       QString errMsgs;
 
@@ -477,16 +491,17 @@ void SwissLibraryService::startImportIsoAsync(const QString &sourceIsoPath,
 
     SystemUtils sysUtils;
     if (sysUtils.isOnSameDrive(sourceIsoPath, targetLibraryRoot)) {
-        if (QFile::rename(sourceIsoPath, destIsoPath)) {
-            provisionCheat(gameId, targetLibraryRoot);
-            QMetaObject::invokeMethod(
-                this,
-                [=]() {
-                    emit importIsoFinished(sourceIsoPath, true, destIsoPath, "Moved on same storage media.");
-                },
-                Qt::QueuedConnection);
-            return;
-        }
+      if (QFile::rename(sourceIsoPath, destIsoPath)) {
+        provisionCheat(gameId, targetLibraryRoot);
+        QMetaObject::invokeMethod(
+            this,
+            [=]() {
+              emit importIsoFinished(sourceIsoPath, true, destIsoPath,
+                                     "Moved on same storage media.");
+            },
+            Qt::QueuedConnection);
+        return;
+      }
     }
 
     // PRESERVE: We do not invoke sourceFile.rename() anymore so we don't
@@ -586,7 +601,7 @@ void SwissLibraryService::startImportIsoAsync(const QString &sourceIsoPath,
           },
           Qt::QueuedConnection);
     }
-  }).detach();
+  });
 }
 
 void SwissLibraryService::startDownloadArtAsync(
@@ -624,11 +639,16 @@ void SwissLibraryService::startDownloadArtAsync(
                 file.write(data);
                 file.close();
                 success = true;
-                qInfo() << "[Swiss Artwork] Successfully pulled cover correctly neatly securely cleanly conceptually safely successfully flawlessly:" << urlStr;
+                qInfo() << "[Swiss Artwork] Successfully pulled cover "
+                           "correctly neatly securely cleanly conceptually "
+                           "safely successfully flawlessly:"
+                        << urlStr;
               }
             }
           } else {
-             qWarning() << "[Swiss Artwork] Missing artwork trace neatly predictably:" << urlStr;
+            qWarning()
+                << "[Swiss Artwork] Missing artwork trace neatly predictably:"
+                << urlStr;
           }
           reply->deleteLater();
           if (success) {
@@ -784,472 +804,473 @@ SwissLibraryService::getExternalGameFilesData(const QStringList &fileUrls) {
 }
 
 void SwissLibraryService::scanExternalFilesAsync(const QStringList &fileUrls,
-                                                   bool dummy) {
-    (void)dummy;
-    std::thread([this, fileUrls]() {
-      QVariantList files = getExternalGameFilesData(fileUrls);
+                                                 bool dummy) {
+  (void)dummy;
+  QtConcurrent::run([this, fileUrls]() {
+    QVariantList files = getExternalGameFilesData(fileUrls);
 
-      QMetaObject::invokeMethod(
-          this,
-          [this, files]() { emit externalFilesScanFinished(false, files); },
-          Qt::QueuedConnection);
-    }).detach();
-  }
+    QMetaObject::invokeMethod(
+        this, [this, files]() { emit externalFilesScanFinished(false, files); },
+        Qt::QueuedConnection);
+  });
+}
 
-  QVariantMap SwissLibraryService::checkSwissFolder(const QString &rootPath) {
-    QVariantMap result;
-    QDir dir(rootPath);
-    bool hasGames = dir.exists("games");
-    bool hasApps = dir.exists("apps");
-    bool hasDol = dir.exists("dol");
-    bool hasSwiss = dir.exists("swiss") && (dir.exists("swiss/patches") || dir.exists("swiss/settings") || dir.exists("swiss/cheats"));
-    bool hasSwissFile = dir.exists("boot.iso") || dir.exists("ipl.dol") ||
-                        dir.exists("autoexec.dol") ||
-                        dir.exists("swiss_version.json");
+QVariantMap SwissLibraryService::checkSwissFolder(const QString &rootPath) {
+  QVariantMap result;
+  QDir dir(rootPath);
+  bool hasGames = dir.exists("games");
+  bool hasApps = dir.exists("apps");
+  bool hasDol = dir.exists("dol");
+  bool hasSwiss = dir.exists("swiss") &&
+                  (dir.exists("swiss/patches") ||
+                   dir.exists("swiss/settings") || dir.exists("swiss/cheats"));
+  bool hasSwissFile = dir.exists("boot.iso") || dir.exists("ipl.dol") ||
+                      dir.exists("autoexec.dol") ||
+                      dir.exists("swiss_version.json");
 
-    QStorageInfo storage(rootPath);
-    QString fsType = QString::fromUtf8(storage.fileSystemType()).toLower();
+  QStorageInfo storage(rootPath);
+  QString fsType = QString::fromUtf8(storage.fileSystemType()).toLower();
 
-    // Some OS variations report FAT32 as vfat or msdos natively.
-    bool isFormatCorrect = fsType.contains("fat32") ||
-                           fsType.contains("exfat") ||
-                           fsType.contains("vfat") ||
-                           fsType.contains("msdos") || fsType.contains("fat");
-    bool isPartitionCorrect =
-        true; // Fallback grant if environment doesn't support interrogation
+  // Some OS variations report FAT32 as vfat or msdos natively.
+  bool isFormatCorrect = fsType.contains("fat32") || fsType.contains("exfat") ||
+                         fsType.contains("vfat") || fsType.contains("msdos") ||
+                         fsType.contains("fat");
+  bool isPartitionCorrect =
+      true; // Fallback grant if environment doesn't support interrogation
 
 #ifdef Q_OS_MAC
-    QString deviceNode = QString::fromUtf8(storage.device());
-    QProcess p;
-    p.start(
-        "sh", QStringList()
-                  << "-c"
-                  << QString(
-                         "diskutil info %1 | awk '/Part of Whole/ {print $4}'")
-                         .arg(deviceNode));
-    p.waitForFinished(3000);
-    QString wholeDisk = p.readAllStandardOutput().trimmed();
-    if (!wholeDisk.isEmpty()) {
-      QProcess p2;
-      p2.start("sh", QStringList()
-                         << "-c"
-                         << QString("diskutil info %1 | grep -i 'Content'")
-                                .arg(wholeDisk));
-      p2.waitForFinished(3000);
-      QString content = p2.readAllStandardOutput().trimmed();
-      if (!content.isEmpty()) {
-        isPartitionCorrect =
-            content.contains("FDisk_partition_scheme", Qt::CaseInsensitive);
-      }
+  QString deviceNode = QString::fromUtf8(storage.device());
+  QProcess p;
+  p.start("sh",
+          QStringList()
+              << "-c"
+              << QString("diskutil info %1 | awk '/Part of Whole/ {print $4}'")
+                     .arg(deviceNode));
+  p.waitForFinished(3000);
+  QString wholeDisk = p.readAllStandardOutput().trimmed();
+  if (!wholeDisk.isEmpty()) {
+    QProcess p2;
+    p2.start("sh", QStringList()
+                       << "-c"
+                       << QString("diskutil info %1 | grep -i 'Content'")
+                              .arg(wholeDisk));
+    p2.waitForFinished(3000);
+    QString content = p2.readAllStandardOutput().trimmed();
+    if (!content.isEmpty()) {
+      isPartitionCorrect =
+          content.contains("FDisk_partition_scheme", Qt::CaseInsensitive);
     }
+  }
 #elif defined(Q_OS_LINUX)
-    QString deviceNode = QString::fromUtf8(storage.device());
-    QProcess p;
-    p.start(
-        "sh",
-        QStringList()
-            << "-c"
-            << QString(
-                   "lsblk -o PTTYPE -n -d $(lsblk -no pkname %1) | head -n 1")
-                   .arg(deviceNode));
-    p.waitForFinished(3000);
-    QString pttype = p.readAllStandardOutput().trimmed().toLower();
-    if (!pttype.isEmpty()) {
-      isPartitionCorrect = (pttype == "dos");
-    }
+  QString deviceNode = QString::fromUtf8(storage.device());
+  QProcess p;
+  p.start(
+      "sh",
+      QStringList()
+          << "-c"
+          << QString("lsblk -o PTTYPE -n -d $(lsblk -no pkname %1) | head -n 1")
+                 .arg(deviceNode));
+  p.waitForFinished(3000);
+  QString pttype = p.readAllStandardOutput().trimmed().toLower();
+  if (!pttype.isEmpty()) {
+    isPartitionCorrect = (pttype == "dos");
+  }
 #elif defined(Q_OS_WIN)
-    QString driveLetter = rootPath.left(1);
-    if (!driveLetter.isEmpty() && driveLetter.at(0).isLetter()) {
-      QString cmd =
-          QString(
-              "powershell -NoProfile -Command \"Get-Partition -DriveLetter %1 "
-              "| Get-Disk | Select-Object -ExpandProperty PartitionStyle\"")
-              .arg(driveLetter);
-      QProcess p;
-      p.start(cmd);
-      p.waitForFinished(3000);
-      QString style = p.readAllStandardOutput().trimmed().toLower();
-      if (!style.isEmpty()) {
-        isPartitionCorrect = (style == "mbr");
-      }
+  QString driveLetter = rootPath.left(1);
+  if (!driveLetter.isEmpty() && driveLetter.at(0).isLetter()) {
+    QString cmd =
+        QString(
+            "powershell -NoProfile -Command \"Get-Partition -DriveLetter %1 "
+            "| Get-Disk | Select-Object -ExpandProperty PartitionStyle\"")
+            .arg(driveLetter);
+    QProcess p;
+    p.start(cmd);
+    p.waitForFinished(3000);
+    QString style = p.readAllStandardOutput().trimmed().toLower();
+    if (!style.isEmpty()) {
+      isPartitionCorrect = (style == "mbr");
     }
+  }
 #endif
 
-    result["isValid"] =
-        hasGames && hasApps && hasDol && hasSwiss && hasSwissFile;
-    result["isFormatCorrect"] = isFormatCorrect;
-    result["isPartitionCorrect"] = isPartitionCorrect;
-    result["hasGames"] = hasGames;
-    result["hasApps"] = hasApps;
-    result["hasDol"] = hasDol;
-    result["hasSwiss"] = hasSwiss;
-    result["hasSwissFile"] = hasSwissFile;
-    
-    QString savedOde = "PicoBoot"; // Safe fallback
-    QFile idFile(rootPath + "/swiss_version.json");
-    if (idFile.open(QIODevice::ReadOnly)) {
-      QJsonDocument doc = QJsonDocument::fromJson(idFile.readAll());
-      if (doc.object().contains("ode")) {
-        savedOde = doc.object()["ode"].toString();
-      }
-      idFile.close();
+  result["isValid"] = hasGames && hasApps && hasDol && hasSwiss && hasSwissFile;
+  result["isFormatCorrect"] = isFormatCorrect;
+  result["isPartitionCorrect"] = isPartitionCorrect;
+  result["hasGames"] = hasGames;
+  result["hasApps"] = hasApps;
+  result["hasDol"] = hasDol;
+  result["hasSwiss"] = hasSwiss;
+  result["hasSwissFile"] = hasSwissFile;
+
+  QString savedOde = "PicoBoot"; // Safe fallback
+  QFile idFile(rootPath + "/swiss_version.json");
+  if (idFile.open(QIODevice::ReadOnly)) {
+    QJsonDocument doc = QJsonDocument::fromJson(idFile.readAll());
+    if (doc.object().contains("ode")) {
+      savedOde = doc.object()["ode"].toString();
     }
-    result["savedOde"] = savedOde;
-    result["hasSwissFile"] = hasSwissFile;
-
-    return result;
+    idFile.close();
   }
+  result["savedOde"] = savedOde;
+  result["hasSwissFile"] = hasSwissFile;
 
-  QVariantMap SwissLibraryService::createSwissFolder(const QString &rootPath) {
-    QVariantMap result;
-    QDir dir(rootPath);
+  return result;
+}
 
-    bool createdGames = dir.mkpath("games");
-    bool createdApps = dir.mkpath("apps");
-    bool createdDol = dir.mkpath("dol");
+QVariantMap SwissLibraryService::createSwissFolder(const QString &rootPath) {
+  QVariantMap result;
+  QDir dir(rootPath);
 
-    bool createdSwiss = dir.mkpath("swiss");
-    dir.mkpath("swiss/patches");
-    dir.mkpath("swiss/settings");
+  bool createdGames = dir.mkpath("games");
+  bool createdApps = dir.mkpath("apps");
+  bool createdDol = dir.mkpath("dol");
 
-    result["success"] =
-        createdGames && createdApps && createdDol && createdSwiss;
-    return result;
-  }
+  bool createdSwiss = dir.mkpath("swiss");
+  dir.mkpath("swiss/patches");
+  dir.mkpath("swiss/settings");
 
-  void SwissLibraryService::startSwissSetupAsync(const QString &rootPath,
-                                                 const QString &odeType) {
-    std::thread([this, rootPath, odeType]() {
-      QMetaObject::invokeMethod(
-          this,
-          [=]() { emit setupSwissProgress(5, "Contacting GitHub API..."); },
-          Qt::QueuedConnection);
+  result["success"] = createdGames && createdApps && createdDol && createdSwiss;
+  return result;
+}
 
-      QNetworkAccessManager manager;
-      QNetworkRequest request(QUrl(
-          "https://api.github.com/repos/emukidid/swiss-gc/releases/latest"));
-      request.setHeader(QNetworkRequest::UserAgentHeader,
-                        "OdeRelic-Swiss-Installer");
+void SwissLibraryService::startSwissSetupAsync(const QString &rootPath,
+                                               const QString &odeType) {
+  QtConcurrent::run([this, rootPath, odeType]() {
+    QMetaObject::invokeMethod(
+        this, [=]() { emit setupSwissProgress(5, "Contacting GitHub API..."); },
+        Qt::QueuedConnection);
 
-      QNetworkReply *reply = manager.get(request);
-      QEventLoop loop;
-      QObject::connect(reply, &QNetworkReply::finished, &loop,
-                       &QEventLoop::quit);
-      loop.exec();
+    QNetworkAccessManager manager;
+    QNetworkRequest request(
+        QUrl("https://api.github.com/repos/emukidid/swiss-gc/releases/latest"));
+    request.setHeader(QNetworkRequest::UserAgentHeader,
+                      "OdeRelic-Swiss-Installer");
 
-      if (reply->error() != QNetworkReply::NoError) {
-        QMetaObject::invokeMethod(
-            this,
-            [=]() {
-              emit setupSwissFinished(false, "Failed to reach GitHub API: " +
-                                                 reply->errorString());
-            },
-            Qt::QueuedConnection);
-        reply->deleteLater();
-        return;
-      }
+    QNetworkReply *reply = manager.get(request);
+    QEventLoop loop;
+    QObject::connect(reply, &QNetworkReply::finished, &loop, &QEventLoop::quit);
+    loop.exec();
 
-      QByteArray responseData = reply->readAll();
-      reply->deleteLater();
-
-      QJsonDocument doc = QJsonDocument::fromJson(responseData);
-      QJsonObject rootObj = doc.object();
-      QString fetchedVersion = rootObj["tag_name"].toString("unknown");
-      QJsonArray assets = rootObj["assets"].toArray();
-      QString targetDownloadUrl = "";
-
-      for (int i = 0; i < assets.size(); ++i) {
-        QJsonObject asset = assets[i].toObject();
-        QString name = asset["name"].toString();
-        if (name.endsWith(".tar.xz")) {
-          targetDownloadUrl = asset["browser_download_url"].toString();
-          break;
-        }
-      }
-
-      if (targetDownloadUrl.isEmpty()) {
-        QMetaObject::invokeMethod(
-            this,
-            [=]() {
-              emit setupSwissFinished(false, "Could not find valid .tar.xz "
-                                             "archive in the latest release.");
-            },
-            Qt::QueuedConnection);
-        return;
-      }
-
+    if (reply->error() != QNetworkReply::NoError) {
       QMetaObject::invokeMethod(
           this,
           [=]() {
-            emit setupSwissProgress(20, "Downloading Swiss release...");
+            emit setupSwissFinished(false, "Failed to reach GitHub API: " +
+                                               reply->errorString());
           },
           Qt::QueuedConnection);
+      reply->deleteLater();
+      return;
+    }
 
-      QString tempDir =
-          QStandardPaths::writableLocation(QStandardPaths::TempLocation) +
-          "/oderelic_swiss";
-      QDir().mkpath(tempDir);
-      QString archivePath = tempDir + "/swiss_release.tar.xz";
+    QByteArray responseData = reply->readAll();
+    reply->deleteLater();
 
-      QNetworkRequest dlRequest((QUrl(targetDownloadUrl)));
-      dlRequest.setHeader(QNetworkRequest::UserAgentHeader,
-                          "OdeRelic-Swiss-Installer");
-      dlRequest.setAttribute(QNetworkRequest::RedirectPolicyAttribute,
-                             QNetworkRequest::NoLessSafeRedirectPolicy);
+    QJsonDocument doc = QJsonDocument::fromJson(responseData);
+    QJsonObject rootObj = doc.object();
+    QString fetchedVersion = rootObj["tag_name"].toString("unknown");
+    QJsonArray assets = rootObj["assets"].toArray();
+    QString targetDownloadUrl = "";
 
-      QNetworkReply *dlReply = manager.get(dlRequest);
-      QEventLoop dlLoop;
-      QObject::connect(dlReply, &QNetworkReply::finished, &dlLoop,
-                       &QEventLoop::quit);
-      dlLoop.exec();
+    for (int i = 0; i < assets.size(); ++i) {
+      QJsonObject asset = assets[i].toObject();
+      QString name = asset["name"].toString();
+      if (name.endsWith(".tar.xz")) {
+        targetDownloadUrl = asset["browser_download_url"].toString();
+        break;
+      }
+    }
 
-      if (dlReply->error() != QNetworkReply::NoError) {
+    if (targetDownloadUrl.isEmpty()) {
+      QMetaObject::invokeMethod(
+          this,
+          [=]() {
+            emit setupSwissFinished(false, "Could not find valid .tar.xz "
+                                           "archive in the latest release.");
+          },
+          Qt::QueuedConnection);
+      return;
+    }
+
+    QMetaObject::invokeMethod(
+        this,
+        [=]() { emit setupSwissProgress(20, "Downloading Swiss release..."); },
+        Qt::QueuedConnection);
+
+    QString tempDir =
+        QStandardPaths::writableLocation(QStandardPaths::TempLocation) +
+        "/oderelic_swiss";
+    QDir().mkpath(tempDir);
+    QString archivePath = tempDir + "/swiss_release.tar.xz";
+
+    QNetworkRequest dlRequest((QUrl(targetDownloadUrl)));
+    dlRequest.setHeader(QNetworkRequest::UserAgentHeader,
+                        "OdeRelic-Swiss-Installer");
+    dlRequest.setAttribute(QNetworkRequest::RedirectPolicyAttribute,
+                           QNetworkRequest::NoLessSafeRedirectPolicy);
+
+    QNetworkReply *dlReply = manager.get(dlRequest);
+    QEventLoop dlLoop;
+    QObject::connect(dlReply, &QNetworkReply::finished, &dlLoop,
+                     &QEventLoop::quit);
+    dlLoop.exec();
+
+    if (dlReply->error() != QNetworkReply::NoError) {
+      QMetaObject::invokeMethod(
+          this,
+          [=]() {
+            emit setupSwissFinished(false,
+                                    "Failed to download Swiss archive: " +
+                                        dlReply->errorString());
+          },
+          Qt::QueuedConnection);
+      dlReply->deleteLater();
+      return;
+    }
+
+    QFile dlFile(archivePath);
+    if (dlFile.open(QIODevice::WriteOnly)) {
+      dlFile.write(dlReply->readAll());
+      dlFile.close();
+    }
+    dlReply->deleteLater();
+
+    QMetaObject::invokeMethod(
+        this,
+        [=]() {
+          emit setupSwissProgress(
+              60, "Extracting payload via OS native bindings...");
+        },
+        Qt::QueuedConnection);
+
+    QProcess tarProcess;
+    tarProcess.setProgram("tar");
+    tarProcess.setArguments({"-xf", archivePath, "-C", tempDir});
+    tarProcess.start();
+    tarProcess.waitForFinished(-1);
+
+    if (tarProcess.exitCode() != 0) {
+      QMetaObject::invokeMethod(
+          this,
+          [=]() {
+            emit setupSwissFinished(
+                false,
+                "Failed to extract tar archive using OS native bindings.");
+          },
+          Qt::QueuedConnection);
+      return;
+    }
+
+    QMetaObject::invokeMethod(
+        this,
+        [=]() {
+          emit setupSwissProgress(85, "Configuring ODE Boot payload...");
+        },
+        Qt::QueuedConnection);
+
+    QDir extractDir(tempDir);
+    QDirIterator it(tempDir, QDir::Files, QDirIterator::Subdirectories);
+    QString dolPath = "";
+    QString isoPath = "";
+    QString gcLoaderIsoPath = "";
+    QString gcLoaderZipPath = "";
+    QString extractToRootZipPath = "";
+
+    while (it.hasNext()) {
+      it.next();
+      QFileInfo fi = it.fileInfo();
+      if (fi.absolutePath().endsWith("/DOL") && fi.suffix() == "dol" &&
+          fi.fileName().startsWith("swiss_r")) {
+        dolPath = fi.absoluteFilePath();
+      }
+      if (fi.absolutePath().endsWith("/ISO") && fi.suffix() == "iso" &&
+          fi.fileName().startsWith("swiss_r") &&
+          fi.fileName().contains("ntsc-u", Qt::CaseInsensitive)) {
+        isoPath = fi.absoluteFilePath();
+      }
+      if (isoPath.isEmpty() && fi.absolutePath().endsWith("/ISO") &&
+          fi.suffix() == "iso" && fi.fileName().startsWith("swiss_r")) {
+        isoPath = fi.absoluteFilePath();
+      }
+      if (fi.absolutePath().endsWith("/GCLoader")) {
+        if (fi.fileName() == "boot.iso" || fi.fileName() == "boot.dol") {
+          gcLoaderIsoPath =
+              fi.absoluteFilePath(); // Maps both iso or dol fallback natively
+        } else if (fi.suffix() == "zip") {
+          gcLoaderZipPath = fi.absoluteFilePath();
+        }
+      }
+      if (fi.fileName() == "EXTRACT_TO_ROOT.zip" &&
+          fi.absolutePath().endsWith("/Apploader")) {
+        extractToRootZipPath = fi.absoluteFilePath();
+      }
+    }
+
+    QString targetRoot = QUrl::fromPercentEncoding(rootPath.toUtf8());
+
+    if (odeType == "PicoBoot" || odeType == "Standalone") {
+      if (dolPath.isEmpty()) {
         QMetaObject::invokeMethod(
             this,
             [=]() {
               emit setupSwissFinished(false,
-                                      "Failed to download Swiss archive: " +
-                                          dlReply->errorString());
-            },
-            Qt::QueuedConnection);
-        dlReply->deleteLater();
-        return;
-      }
-
-      QFile dlFile(archivePath);
-      if (dlFile.open(QIODevice::WriteOnly)) {
-        dlFile.write(dlReply->readAll());
-        dlFile.close();
-      }
-      dlReply->deleteLater();
-
-      QMetaObject::invokeMethod(
-          this,
-          [=]() {
-            emit setupSwissProgress(
-                60, "Extracting payload via OS native bindings...");
-          },
-          Qt::QueuedConnection);
-
-      QProcess tarProcess;
-      tarProcess.setProgram("tar");
-      tarProcess.setArguments({"-xf", archivePath, "-C", tempDir});
-      tarProcess.start();
-      tarProcess.waitForFinished(-1);
-
-      if (tarProcess.exitCode() != 0) {
-        QMetaObject::invokeMethod(
-            this,
-            [=]() {
-              emit setupSwissFinished(
-                  false,
-                  "Failed to extract tar archive using OS native bindings.");
+                                      "Could not find a valid DOL file in "
+                                      "the Github release bundle.");
             },
             Qt::QueuedConnection);
         return;
       }
+      QString finalDolName =
+          (odeType == "PicoBoot") ? "ipl.dol" : "autoexec.dol";
+      QFile::remove(targetRoot + "/" + finalDolName);
+      QFile::copy(dolPath, targetRoot + "/" + finalDolName);
 
-      QMetaObject::invokeMethod(
-          this,
-          [=]() {
-            emit setupSwissProgress(85, "Configuring ODE Boot payload...");
-          },
-          Qt::QueuedConnection);
-
-      QDir extractDir(tempDir);
-      QDirIterator it(tempDir, QDir::Files, QDirIterator::Subdirectories);
-      QString dolPath = "";
-      QString isoPath = "";
-      QString gcLoaderIsoPath = "";
-      QString gcLoaderZipPath = "";
-      QString extractToRootZipPath = "";
-
-      while (it.hasNext()) {
-        it.next();
-        QFileInfo fi = it.fileInfo();
-        if (fi.absolutePath().endsWith("/DOL") && fi.suffix() == "dol" &&
-            fi.fileName().startsWith("swiss_r")) {
-          dolPath = fi.absoluteFilePath();
-        }
-        if (fi.absolutePath().endsWith("/ISO") && fi.suffix() == "iso" &&
-            fi.fileName().startsWith("swiss_r") &&
-            fi.fileName().contains("ntsc-u", Qt::CaseInsensitive)) {
-          isoPath = fi.absoluteFilePath();
-        }
-        if (isoPath.isEmpty() && fi.absolutePath().endsWith("/ISO") &&
-            fi.suffix() == "iso" && fi.fileName().startsWith("swiss_r")) {
-          isoPath = fi.absoluteFilePath();
-        }
-        if (fi.absolutePath().endsWith("/GCLoader")) {
-          if (fi.fileName() == "boot.iso" || fi.fileName() == "boot.dol") {
-            gcLoaderIsoPath = fi.absoluteFilePath(); // Maps both iso or dol fallback natively
-          } else if (fi.suffix() == "zip") {
-            gcLoaderZipPath = fi.absoluteFilePath();
-          }
-        }
-        if (fi.fileName() == "EXTRACT_TO_ROOT.zip" && fi.absolutePath().endsWith("/Apploader")) {
-          extractToRootZipPath = fi.absoluteFilePath();
-        }
-      }
-
-      QString targetRoot = QUrl::fromPercentEncoding(rootPath.toUtf8());
-
-      if (odeType == "PicoBoot" || odeType == "Standalone") {
+      // IGR (In-Game Reset) backwards compatibility integration
+      QFile::remove(targetRoot + "/igr.dol");
+      QFile::copy(dolPath, targetRoot + "/igr.dol");
+    } else if (odeType == "GC Loader") {
+      if (!gcLoaderZipPath.isEmpty()) {
+        // Native deployment through officially sanctioned root wrapper zip
+        QProcess unzipProcess;
+        unzipProcess.setProgram("unzip");
+        unzipProcess.setArguments({"-o", gcLoaderZipPath, "-d", targetRoot});
+        unzipProcess.start();
+        unzipProcess.waitForFinished(-1);
+      } else if (!gcLoaderIsoPath.isEmpty()) {
+        // Legacy officially sanctioned payload native mapping
+        QFileInfo gcFi(gcLoaderIsoPath);
+        QFile::remove(targetRoot + "/" + gcFi.fileName());
+        QFile::copy(gcLoaderIsoPath, targetRoot + "/" + gcFi.fileName());
+      } else {
+        // Fallback organically to manually extracting generic payload DOL
+        // boundaries
         if (dolPath.isEmpty()) {
           QMetaObject::invokeMethod(
               this,
               [=]() {
                 emit setupSwissFinished(false,
-                                        "Could not find a valid DOL file in "
-                                        "the Github release bundle.");
+                                        "Could not find a valid DOL payload "
+                                        "for GC Loader deployment.");
               },
               Qt::QueuedConnection);
           return;
         }
-        QString finalDolName =
-            (odeType == "PicoBoot") ? "ipl.dol" : "autoexec.dol";
-        QFile::remove(targetRoot + "/" + finalDolName);
-        QFile::copy(dolPath, targetRoot + "/" + finalDolName);
-
-        // IGR (In-Game Reset) backwards compatibility integration
-        QFile::remove(targetRoot + "/igr.dol");
-        QFile::copy(dolPath, targetRoot + "/igr.dol");
-      } else if (odeType == "GC Loader") {
-        if (!gcLoaderZipPath.isEmpty()) {
-          // Native deployment through officially sanctioned root wrapper zip
-          QProcess unzipProcess;
-          unzipProcess.setProgram("unzip");
-          unzipProcess.setArguments({"-o", gcLoaderZipPath, "-d", targetRoot});
-          unzipProcess.start();
-          unzipProcess.waitForFinished(-1);
-        } else if (!gcLoaderIsoPath.isEmpty()) {
-          // Legacy officially sanctioned payload native mapping
-          QFileInfo gcFi(gcLoaderIsoPath);
-          QFile::remove(targetRoot + "/" + gcFi.fileName());
-          QFile::copy(gcLoaderIsoPath, targetRoot + "/" + gcFi.fileName());
-        } else {
-          // Fallback organically to manually extracting generic payload DOL boundaries
-          if (dolPath.isEmpty()) {
-            QMetaObject::invokeMethod(this, [=]() { emit setupSwissFinished(false, "Could not find a valid DOL payload for GC Loader deployment."); }, Qt::QueuedConnection);
-            return;
-          }
-          QFile::remove(targetRoot + "/boot.dol");
-          QFile::copy(dolPath, targetRoot + "/boot.dol");
-          if (!isoPath.isEmpty()) {
-            QFile::remove(targetRoot + "/boot.iso");
-            QFile::copy(isoPath, targetRoot + "/boot.iso");
-          }
+        QFile::remove(targetRoot + "/boot.dol");
+        QFile::copy(dolPath, targetRoot + "/boot.dol");
+        if (!isoPath.isEmpty()) {
+          QFile::remove(targetRoot + "/boot.iso");
+          QFile::copy(isoPath, targetRoot + "/boot.iso");
         }
       }
+    }
 
-      // Deploy safe foundational hierarchy
-      createSwissFolder(targetRoot);
+    // Deploy safe foundational hierarchy
+    createSwissFolder(targetRoot);
 
-      if (!extractToRootZipPath.isEmpty()) {
-        QProcess unzipProcess;
-        unzipProcess.setProgram("unzip");
-        unzipProcess.setArguments({"-o", extractToRootZipPath, "-d", targetRoot});
-        unzipProcess.start();
-        unzipProcess.waitForFinished(-1);
-      }
+    if (!extractToRootZipPath.isEmpty()) {
+      QProcess unzipProcess;
+      unzipProcess.setProgram("unzip");
+      unzipProcess.setArguments({"-o", extractToRootZipPath, "-d", targetRoot});
+      unzipProcess.start();
+      unzipProcess.waitForFinished(-1);
+    }
 
-      if (!dolPath.isEmpty()) {
-        QFile::remove(targetRoot + "/dol/" + QFileInfo(dolPath).fileName());
-        QFile::copy(dolPath,
-                    targetRoot + "/dol/" + QFileInfo(dolPath).fileName());
-      }
+    if (!dolPath.isEmpty()) {
+      QFile::remove(targetRoot + "/dol/" + QFileInfo(dolPath).fileName());
+      QFile::copy(dolPath,
+                  targetRoot + "/dol/" + QFileInfo(dolPath).fileName());
+    }
 
-      extractDir.removeRecursively(); // Cleanup temp safely
+    extractDir.removeRecursively(); // Cleanup temp safely
 
-      // Save native Swiss deployment identity
-      QJsonObject identity;
-      identity["version"] = fetchedVersion;
-      identity["ode"] = odeType;
-      QJsonDocument idDoc(identity);
-      QFile idFile(targetRoot + "/swiss_version.json");
-      if (idFile.open(QIODevice::WriteOnly)) {
-        idFile.write(idDoc.toJson());
-        idFile.close();
-      }
+    // Save native Swiss deployment identity
+    QJsonObject identity;
+    identity["version"] = fetchedVersion;
+    identity["ode"] = odeType;
+    QJsonDocument idDoc(identity);
+    QFile idFile(targetRoot + "/swiss_version.json");
+    if (idFile.open(QIODevice::WriteOnly)) {
+      idFile.write(idDoc.toJson());
+      idFile.close();
+    }
 
+    QMetaObject::invokeMethod(
+        this, [=]() { emit setupSwissProgress(100, "Setup complete!"); },
+        Qt::QueuedConnection);
+    QMetaObject::invokeMethod(
+        this,
+        [=]() {
+          emit setupSwissFinished(
+              true, "Swiss ecosystem has been installed correctly.");
+        },
+        Qt::QueuedConnection);
+  });
+}
+
+void SwissLibraryService::checkSwissUpdateAsync(const QString &rootPath) {
+  QtConcurrent::run([this, rootPath]() {
+    QString identityPath =
+        QUrl::fromPercentEncoding(rootPath.toUtf8()) + "/swiss_version.json";
+    QFile f(identityPath);
+    if (!f.open(QIODevice::ReadOnly)) {
       QMetaObject::invokeMethod(
-          this, [=]() { emit setupSwissProgress(100, "Setup complete!"); },
+          this, [=]() { emit swissUpdateCheckFinished(false, "", "", ""); },
           Qt::QueuedConnection);
+      return;
+    }
+    QByteArray data = f.readAll();
+    f.close();
+
+    QJsonDocument doc = QJsonDocument::fromJson(data);
+    QJsonObject obj = doc.object();
+    QString localVersion = obj["version"].toString();
+    QString savedOde = obj["ode"].toString();
+
+    if (localVersion.isEmpty() || savedOde.isEmpty()) {
+      QMetaObject::invokeMethod(
+          this, [=]() { emit swissUpdateCheckFinished(false, "", "", ""); },
+          Qt::QueuedConnection);
+      return;
+    }
+
+    QNetworkAccessManager manager;
+    QNetworkRequest request(
+        QUrl("https://api.github.com/repos/emukidid/swiss-gc/releases/latest"));
+    request.setHeader(QNetworkRequest::UserAgentHeader,
+                      "OdeRelic-Swiss-Installer");
+
+    QNetworkReply *reply = manager.get(request);
+    QEventLoop loop;
+    QObject::connect(reply, &QNetworkReply::finished, &loop, &QEventLoop::quit);
+    loop.exec();
+
+    if (reply->error() != QNetworkReply::NoError) {
       QMetaObject::invokeMethod(
           this,
           [=]() {
-            emit setupSwissFinished(
-                true, "Swiss ecosystem has been installed correctly.");
+            emit swissUpdateCheckFinished(false, localVersion, "", savedOde);
           },
           Qt::QueuedConnection);
-    }).detach();
-  }
-
-  void SwissLibraryService::checkSwissUpdateAsync(const QString &rootPath) {
-    std::thread([this, rootPath]() {
-      QString identityPath =
-          QUrl::fromPercentEncoding(rootPath.toUtf8()) + "/swiss_version.json";
-      QFile f(identityPath);
-      if (!f.open(QIODevice::ReadOnly)) {
-        QMetaObject::invokeMethod(
-            this, [=]() { emit swissUpdateCheckFinished(false, "", "", ""); },
-            Qt::QueuedConnection);
-        return;
-      }
-      QByteArray data = f.readAll();
-      f.close();
-
-      QJsonDocument doc = QJsonDocument::fromJson(data);
-      QJsonObject obj = doc.object();
-      QString localVersion = obj["version"].toString();
-      QString savedOde = obj["ode"].toString();
-
-      if (localVersion.isEmpty() || savedOde.isEmpty()) {
-        QMetaObject::invokeMethod(
-            this, [=]() { emit swissUpdateCheckFinished(false, "", "", ""); },
-            Qt::QueuedConnection);
-        return;
-      }
-
-      QNetworkAccessManager manager;
-      QNetworkRequest request(QUrl(
-          "https://api.github.com/repos/emukidid/swiss-gc/releases/latest"));
-      request.setHeader(QNetworkRequest::UserAgentHeader,
-                        "OdeRelic-Swiss-Installer");
-
-      QNetworkReply *reply = manager.get(request);
-      QEventLoop loop;
-      QObject::connect(reply, &QNetworkReply::finished, &loop,
-                       &QEventLoop::quit);
-      loop.exec();
-
-      if (reply->error() != QNetworkReply::NoError) {
-        QMetaObject::invokeMethod(
-            this,
-            [=]() {
-              emit swissUpdateCheckFinished(false, localVersion, "", savedOde);
-            },
-            Qt::QueuedConnection);
-        reply->deleteLater();
-        return;
-      }
-
-      QByteArray responseData = reply->readAll();
       reply->deleteLater();
+      return;
+    }
 
-      QJsonDocument rDoc = QJsonDocument::fromJson(responseData);
-      QJsonObject rObj = rDoc.object();
-      QString remoteVersion = rObj["tag_name"].toString();
+    QByteArray responseData = reply->readAll();
+    reply->deleteLater();
 
-      bool updateAvailable =
-          (!remoteVersion.isEmpty() && remoteVersion != localVersion);
+    QJsonDocument rDoc = QJsonDocument::fromJson(responseData);
+    QJsonObject rObj = rDoc.object();
+    QString remoteVersion = rObj["tag_name"].toString();
 
-      QMetaObject::invokeMethod(
-          this,
-          [=]() {
-            emit swissUpdateCheckFinished(updateAvailable, localVersion,
-                                          remoteVersion, savedOde);
-          },
-          Qt::QueuedConnection);
-    }).detach();
-  }
+    bool updateAvailable =
+        (!remoteVersion.isEmpty() && remoteVersion != localVersion);
+
+    QMetaObject::invokeMethod(
+        this,
+        [=]() {
+          emit swissUpdateCheckFinished(updateAvailable, localVersion,
+                                        remoteVersion, savedOde);
+        },
+        Qt::QueuedConnection);
+  });
+}

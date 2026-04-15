@@ -140,7 +140,7 @@ void SwissLibraryServiceTests::test_syncCheats() {
     QDir().mkpath(destLib + "/games/Mock Game [XYZE01]");
     
     // Scaffold Mock Cheat Database in application executable fallback path
-    QString localCheatDir = QDir::currentPath() + "/assets/cheats/gamecube - wii";
+    QString localCheatDir = QDir::currentPath() + "/resources/cheats/gamecube-wii";
     QDir().mkpath(localCheatDir);
     
     QString mockCheatFile = localCheatDir + "/XYZE01.txt";

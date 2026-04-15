@@ -1,6 +1,6 @@
 set(CMAKE_POLICY_VERSION_MINIMUM 3.0 CACHE STRING "Suppress obsolete Zstandard policies implicitly")
 cmake_minimum_required(VERSION 3.16)
-project(OdeRelic VERSION 0.5.1 LANGUAGES CXX)
+project(OdeRelic VERSION 0.5.2 LANGUAGES CXX)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
@@ -9,7 +9,7 @@ set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTORCC ON)
 set(CMAKE_AUTOUIC ON)
 
-find_package(Qt6 COMPONENTS Core Gui Qml Quick QuickTest Network Test LinguistTools REQUIRED)
+find_package(Qt6 COMPONENTS Core Gui Qml Quick QuickTest Network Test LinguistTools Concurrent REQUIRED)
 
 include(FetchContent)
 FetchContent_Declare(
@@ -41,23 +41,32 @@ qt_add_executable(OdeRelic WIN32
     src-cpp/main.cpp
     src-cpp/core/filesystem/filesystem_cache.cpp
     src-cpp/core/filesystem/filesystem_cache.h
-    src-cpp/ps2/opl_library_service.cpp
-    src-cpp/ps2/opl_library_service.h
-    src-cpp/ngc/swiss_library_service.cpp
-    src-cpp/ngc/swiss_library_service.h
-    src-cpp/psx/ps1_xstation_library_service.cpp
-    src-cpp/psx/ps1_xstation_library_service.h
-    src-cpp/ngc/rvz_native_converter.cpp
-    src-cpp/ngc/rvz_native_converter.h
-    src-cpp/core/i18m/translation_manager.cpp
-    src-cpp/core/i18m/translation_manager.h
+    src-cpp/platforms/ps2/opl_library_service.cpp
+    src-cpp/platforms/ps2/opl_library_service.h
+    src-cpp/platforms/ngc/swiss_library_service.cpp
+    src-cpp/platforms/ngc/swiss_library_service.h
+    src-cpp/platforms/psx/ps1_xstation_library_service.cpp
+    src-cpp/platforms/psx/ps1_xstation_library_service.h
+    src-cpp/platforms/dreamcast/dreamcast_library_service.cpp
+    src-cpp/platforms/dreamcast/dreamcast_library_service.h
+    src-cpp/platforms/dreamcast/openmenu_dat_manager.cpp
+    src-cpp/platforms/dreamcast/openmenu_dat_manager.h
+    src-cpp/platforms/dreamcast/openmenu_image_provider.cpp
+    src-cpp/platforms/dreamcast/openmenu_image_provider.h
+    src-cpp/platforms/dreamcast/pvr_texture_coder.cpp
+    src-cpp/platforms/dreamcast/pvr_texture_coder.h
+    src-cpp/platforms/ngc/rvz_native_converter.cpp
+    src-cpp/platforms/ngc/rvz_native_converter.h
+    src-cpp/core/i18n/translation_manager.cpp
+    src-cpp/core/i18n/translation_manager.h
     src-cpp/core/common/system_utils.cpp
     src-cpp/core/logging/logger.cpp
     src-cpp/qml.qrc
     src-cpp/HomeScreen.qml
-    src-cpp/ps2/OplManager.qml
-    src-cpp/ngc/SwissManager.qml
-    src-cpp/psx/PS1Manager.qml
+    src-cpp/platforms/ps2/OplManager.qml
+    src-cpp/platforms/ngc/SwissManager.qml
+    src-cpp/platforms/psx/PS1Manager.qml
+    src-cpp/platforms/dreamcast/DreamcastManager.qml
 )
 
 qt_add_translations(OdeRelic
@@ -75,6 +84,7 @@ target_link_libraries(OdeRelic PRIVATE
     Qt6::Qml
     Qt6::Quick
     Qt6::Network
+    Qt6::Concurrent
 )
 
 target_link_libraries(OdeRelic PRIVATE libzstd_static)
@@ -112,10 +122,32 @@ set(CPACK_PACKAGE_VERSION_MAJOR ${PROJECT_VERSION_MAJOR})
 set(CPACK_PACKAGE_VERSION_MINOR ${PROJECT_VERSION_MINOR})
 set(CPACK_PACKAGE_VERSION_PATCH ${PROJECT_VERSION_PATCH})
 
-if(BUILD_NUMBER)
-    set(CPACK_PACKAGE_FILE_NAME "${CPACK_PACKAGE_NAME}-v${PROJECT_VERSION}-b${BUILD_NUMBER}-${CMAKE_SYSTEM_NAME}")
+if(APPLE)
+    if(CMAKE_OSX_ARCHITECTURES STREQUAL "arm64")
+        set(MAC_ARCH "arm64")
+    elseif(CMAKE_OSX_ARCHITECTURES STREQUAL "x86_64")
+        set(MAC_ARCH "intel")
+    else()
+        if(CMAKE_SYSTEM_PROCESSOR STREQUAL "arm64")
+            set(MAC_ARCH "arm64")
+        elseif(CMAKE_SYSTEM_PROCESSOR STREQUAL "x86_64")
+            set(MAC_ARCH "intel")
+        else()
+            set(MAC_ARCH "${CMAKE_SYSTEM_PROCESSOR}")
+        endif()
+    endif()
+
+    if(BUILD_NUMBER)
+        set(CPACK_PACKAGE_FILE_NAME "${CPACK_PACKAGE_NAME}-v${PROJECT_VERSION}-b${BUILD_NUMBER}-${CMAKE_SYSTEM_NAME}-${MAC_ARCH}")
+    else()
+        set(CPACK_PACKAGE_FILE_NAME "${CPACK_PACKAGE_NAME}-v${PROJECT_VERSION}-${CMAKE_SYSTEM_NAME}-${MAC_ARCH}")
+    endif()
 else()
-    set(CPACK_PACKAGE_FILE_NAME "${CPACK_PACKAGE_NAME}-v${PROJECT_VERSION}-${CMAKE_SYSTEM_NAME}")
+    if(BUILD_NUMBER)
+        set(CPACK_PACKAGE_FILE_NAME "${CPACK_PACKAGE_NAME}-v${PROJECT_VERSION}-b${BUILD_NUMBER}-${CMAKE_SYSTEM_NAME}")
+    else()
+        set(CPACK_PACKAGE_FILE_NAME "${CPACK_PACKAGE_NAME}-v${PROJECT_VERSION}-${CMAKE_SYSTEM_NAME}")
+    endif()
 endif()
 
 if(WIN32)

@@ -21,6 +21,8 @@ Window {
                     stackView.push(swissManagerComponent)
                 } else if (consoleType === "ps1") {
                     stackView.push(ps1ManagerComponent)
+                } else if (consoleType === "dc") {
+                    stackView.push(dreamcastManagerComponent)
                 }
             }
         }
@@ -43,6 +45,13 @@ Window {
     Component {
         id: ps1ManagerComponent
         PS1Manager {
+            onRequestBack: stackView.pop()
+        }
+    }
+    
+    Component {
+        id: dreamcastManagerComponent
+        DreamcastManager {
             onRequestBack: stackView.pop()
         }
     }

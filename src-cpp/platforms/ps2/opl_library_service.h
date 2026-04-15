@@ -26,18 +26,17 @@ public:
     // Concurrency Conversion API (PS2)
     Q_INVOKABLE void startConvertBinToIso(const QString &sourceBinPath, const QString &destIsoPath);
     Q_INVOKABLE void startImportIsoAsync(const QString &sourceIsoPath, const QString &targetLibraryRoot, const QString &gameId, const QString &gameName, bool forceCD = false);
-    Q_INVOKABLE void startDownloadArtAsync(const QString &dirPath, const QString &gameId, const QString &callbackSourceKey);
+    Q_INVOKABLE void startDownloadArtAsync(const QString &system, const QString &dirPath, const QString &gameId, const QString &callbackSourceKey);
     Q_INVOKABLE QVariantList getExternalGameFilesData(const QStringList &fileUrls);
     Q_INVOKABLE void scanExternalFilesAsync(const QStringList &fileUrls, bool isPs1);
     
-    Q_INVOKABLE void startBatchArtDownloadAsync(const QVariantList &gamesList, const QString &artFolder);
+    Q_INVOKABLE void startBatchArtDownloadAsync(const QString &system, const QVariantList &gamesList, const QString &artFolder);
 
     // ── PS1 / POPStarter API ──────────────────────────────────────────────────
     Q_INVOKABLE void startGetPs1GamesAsync(const QString &dirPath);
     Q_INVOKABLE QVariantMap tryDeterminePs1GameIdFromHex(const QString &filepath);
     Q_INVOKABLE void startConvertBinToVcd(const QString &sourcePath, const QString &destVcdPath);
     Q_INVOKABLE void startImportVcdAsync(const QString &sourceVcdPath, const QString &targetLibraryRoot, const QString &gameId, const QString &gameName);
-    Q_INVOKABLE void startDownloadPs1ArtAsync(const QString &dirPath, const QString &gameId, const QString &callbackSourceKey);
     Q_INVOKABLE QVariantList getExternalPs1FilesData(const QStringList &fileUrls);
     Q_INVOKABLE QVariantMap checkPopsFolder(const QString &libraryRoot);
     Q_INVOKABLE QVariantMap copyFileToPopsFolder(const QString &sourcePath, const QString &libraryRoot);

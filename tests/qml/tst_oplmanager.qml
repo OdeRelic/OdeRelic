@@ -1,7 +1,7 @@
 import QtQuick
 import QtQuick.Controls
 import QtTest
-import "../../src-cpp/ps2" as Src
+import "../../src-cpp/platforms/ps2" as Src
 
 Item {
     id: container
@@ -74,11 +74,31 @@ Item {
             btnImport.clicked();
         }
 
+        function test_ps1_library_actions() {
+            var btnFetch = findChild(oplManagerBlock, "btnPs1FetchArt");
+            verify(btnFetch !== null, "btnPs1FetchArt button is missing");
+            
+            oplManagerBlock.ps1GameFiles = [ { "path": "/media/drive/POPS/fake_ps1.VCD", "gameId": "SLES_123.45", "isRenamed": true, "name": "Fake PS1" } ];
+            oplManagerBlock.currentLibraryPath = "/media/drive";
+            
+            // Invoke the artwork fetch for PS1, mimicking user flow
+            btnFetch.clicked();
+            
+            // Optional: Also test Delete mechanics while we are at it.
+            var btnDelete = findChild(oplManagerBlock, "btnPs1DeleteSelected");
+            verify(btnDelete !== null, "btnPs1DeleteSelected button is missing");
+            
+            oplManagerBlock.ps1SelectionMap = {};
+            verify(btnDelete.enabled === false, "PS1 delete should disable when empty");
+            oplManagerBlock.ps1SelectionMap = { "/media/drive/POPS/fake_ps1.VCD": true };
+            verify(btnDelete.enabled === true, "PS1 delete should enable with mappings");
+        }
+
         function test_ps1_import_flow() {
             var btnSelectAll = findChild(oplManagerBlock, "btnPs1SelectAll");
             verify(btnSelectAll !== null, "btnPs1SelectAll button is missing");
             
-            oplManagerBlock.ps1ImportGames = [ { "path": "/media/drive/fake_ps1.bin", "isRenamed": false, "name": "Fake PS1", "extension": ".bin", "stats": {"size": 650000000} } ];
+            oplManagerBlock.ps1GameFiles = [ { "path": "/media/drive/fake_ps1.bin", "isRenamed": false, "name": "Fake PS1", "extension": ".bin", "stats": {"size": 650000000} } ];
             wait(50);
             
             btnSelectAll.clicked();
