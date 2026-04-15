@@ -15,8 +15,8 @@
 #include <QStorageInfo>
 #include <QProcess>
 #include <QUrl>
-#include "filesystem_cache.h"
-#include "system_utils.h"
+#include "../core/filesystem/filesystem_cache.h"
+#include "../core/common/system_utils.h"
 #include <fstream>
 #include <thread>
 #include <vector>

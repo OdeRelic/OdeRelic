@@ -1,7 +1,7 @@
 #include "swiss_library_service.h"
-#include "filesystem_cache.h"
+#include "../core/filesystem/filesystem_cache.h"
 #include "rvz_native_converter.h"
-#include "system_utils.h"
+#include "../core/common/system_utils.h"
 #include <QCoreApplication>
 #include <QDebug>
 #include <QDir>

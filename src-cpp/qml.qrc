@@ -2,9 +2,9 @@
 <qresource>
     <file>main.qml</file>
     <file>HomeScreen.qml</file>
-    <file>OplManager.qml</file>
-    <file>SwissManager.qml</file>
-    <file>PS1Manager.qml</file>
+    <file alias="OplManager.qml">ps2/OplManager.qml</file>
+    <file alias="SwissManager.qml">ngc/SwissManager.qml</file>
+    <file alias="PS1Manager.qml">psx/PS1Manager.qml</file>
     <file alias="app_icon.png">../assets/applogo/icon_512x512.png</file>
     <file alias="assets/consoles/ps2.png">../assets/consoles/ps2.png</file>
     <file alias="assets/consoles/gamecube.png">../assets/consoles/gamecube.png</file>

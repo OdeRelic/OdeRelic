@@ -19,7 +19,7 @@
 #include <QDebug>
 #include <filesystem>
 #include <thread>
-#include "system_utils.h"
+#include "../core/common/system_utils.h"
 
 #ifdef Q_OS_WIN
 #include <windows.h>
@@ -28,7 +28,7 @@
 #include <utime.h>
 #endif
 
-#include "logger.h"
+#include "../core/logging/logger.h"
 
 PS1XstationLibraryService::PS1XstationLibraryService(QObject *parent)
     : QObject(parent) {}

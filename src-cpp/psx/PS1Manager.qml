@@ -1180,6 +1180,7 @@ Rectangle {
 
                 // Change Disk Re-router
                 Button {
+                    objectName: "btnChangeTarget"
                     Layout.fillWidth: true
                     text: qsTr("Disconnect & Change Target")
                     onClicked: {
@@ -1223,6 +1224,7 @@ Rectangle {
                         }
                         
                         Button {
+                            objectName: "btnUpdateNow"
                             Layout.fillWidth: true
                             text: "Update Now (" + mainWindow.savedOdeType + ")"
                             onClicked: {
@@ -1304,6 +1306,7 @@ Rectangle {
                             }
                             
                             Button {
+                                objectName: "btnImportSelected"
                                 Layout.fillWidth: true
                                 property int selectedCount: Object.values(mainWindow.selectionMap).filter(v => v === true).length
                                 text: mainWindow.isBatchExtracting ? qsTr("Importing...") : qsTr("Import ") + selectedCount + qsTr(" Games")
@@ -1363,6 +1366,7 @@ Rectangle {
                             }
 
                             Button {
+                                objectName: "btnAddGames"
                                 Layout.fillWidth: true
                                 text: "Add Games"
                                 onClicked: addGamesDialog.open()
@@ -1371,6 +1375,7 @@ Rectangle {
                             }
 
                             Button {
+                                objectName: "btnAddFolder"
                                 Layout.fillWidth: true
                                 text: "Add Folder"
                                 onClicked: addGamesFolderDialog.open()
@@ -1380,6 +1385,7 @@ Rectangle {
 
                             Button {
                                 id: massSelectBtn
+                                objectName: "btnSelectAll"
                                 Layout.fillWidth: true
                                 property bool allSelected: false
                                 text: allSelected ? "Deselect All" : "Select All"
@@ -1446,6 +1452,7 @@ Rectangle {
                             
                             Button {
                                 id: fetchArtBtn
+                                objectName: "btnFetchArt"
                                 Layout.fillWidth: true
                                 
                                 property bool fetching: false
@@ -1517,6 +1524,7 @@ Rectangle {
 
                             Button {
                                 id: deleteGamesBtn
+                                objectName: "btnDeleteSelected"
                                 Layout.fillWidth: true
                                 
                                 property int selectedCount: Object.values(mainWindow.librarySelectionMap).filter(v => v === true).length

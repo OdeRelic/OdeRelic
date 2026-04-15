@@ -3,25 +3,25 @@ cmake_minimum_required(VERSION 3.16)
 # Test executable
 add_executable(OplLibraryServiceTests
     tst_opllibraryservice.cpp
-    ../src-cpp/core/filesystem_cache.cpp
-    ../src-cpp/core/filesystem_cache.h
-    ../src-cpp/core/opl_library_service.cpp
-    ../src-cpp/core/opl_library_service.h
-    ../src-cpp/core/system_utils.cpp
-    ../src-cpp/core/system_utils.h
+    ../src-cpp/core/filesystem/filesystem_cache.cpp
+    ../src-cpp/core/filesystem/filesystem_cache.h
+    ../src-cpp/ps2/opl_library_service.cpp
+    ../src-cpp/ps2/opl_library_service.h
+    ../src-cpp/core/common/system_utils.cpp
+    ../src-cpp/core/common/system_utils.h
 )
 
 # Swiss Test executable
 add_executable(SwissLibraryServiceTests
     tst_swisslibraryservice.cpp
-    ../src-cpp/core/swiss_library_service.cpp
-    ../src-cpp/core/swiss_library_service.h
-    ../src-cpp/core/filesystem_cache.cpp
-    ../src-cpp/core/filesystem_cache.h
-    ../src-cpp/core/rvz_native_converter.cpp
-    ../src-cpp/core/rvz_native_converter.h
-    ../src-cpp/core/system_utils.cpp
-    ../src-cpp/core/system_utils.h
+    ../src-cpp/ngc/swiss_library_service.cpp
+    ../src-cpp/ngc/swiss_library_service.h
+    ../src-cpp/core/filesystem/filesystem_cache.cpp
+    ../src-cpp/core/filesystem/filesystem_cache.h
+    ../src-cpp/ngc/rvz_native_converter.cpp
+    ../src-cpp/ngc/rvz_native_converter.h
+    ../src-cpp/core/common/system_utils.cpp
+    ../src-cpp/core/common/system_utils.h
 )
 
 # Test dependencies
@@ -31,7 +31,7 @@ target_link_libraries(OplLibraryServiceTests PRIVATE
     Qt6::Network
 )
 
-target_include_directories(OplLibraryServiceTests PRIVATE ../src-cpp/core)
+target_include_directories(OplLibraryServiceTests PRIVATE ../src-cpp/core ../src-cpp/core/filesystem ../src-cpp/core/common ../src-cpp/core/i18m ../src-cpp/core/logging ../src-cpp/ps2 ../src-cpp/ngc ../src-cpp/psx)
 
 target_link_libraries(SwissLibraryServiceTests PRIVATE
     Qt6::Core
@@ -40,13 +40,13 @@ target_link_libraries(SwissLibraryServiceTests PRIVATE
 )
 target_link_libraries(SwissLibraryServiceTests PRIVATE libzstd_static)
 
-target_include_directories(SwissLibraryServiceTests PRIVATE ../src-cpp/core)
+target_include_directories(SwissLibraryServiceTests PRIVATE ../src-cpp/core ../src-cpp/core/filesystem ../src-cpp/core/common ../src-cpp/core/i18m ../src-cpp/core/logging ../src-cpp/ps2 ../src-cpp/ngc ../src-cpp/psx)
 
 # FileSystemCache Component Testing Let
 add_executable(FileSystemCacheTests
     tst_filesystemcache.cpp
-    ../src-cpp/core/filesystem_cache.cpp
-    ../src-cpp/core/filesystem_cache.h
+    ../src-cpp/core/filesystem/filesystem_cache.cpp
+    ../src-cpp/core/filesystem/filesystem_cache.h
 )
 
 target_link_libraries(FileSystemCacheTests PRIVATE
@@ -54,7 +54,7 @@ target_link_libraries(FileSystemCacheTests PRIVATE
     Qt6::Test
 )
 
-target_include_directories(FileSystemCacheTests PRIVATE ../src-cpp/core)
+target_include_directories(FileSystemCacheTests PRIVATE ../src-cpp/core ../src-cpp/core/filesystem ../src-cpp/core/common ../src-cpp/core/i18m ../src-cpp/core/logging ../src-cpp/ps2 ../src-cpp/ngc ../src-cpp/psx)
 
 # Register with CTest
 add_test(NAME OplLibraryServiceTests COMMAND OplLibraryServiceTests)
@@ -64,8 +64,8 @@ add_test(NAME SwissLibraryServiceTests COMMAND SwissLibraryServiceTests)
 # SystemUtils Component Testing
 add_executable(SystemUtilsTests
     tst_systemutils.cpp
-    ../src-cpp/core/system_utils.cpp
-    ../src-cpp/core/system_utils.h
+    ../src-cpp/core/common/system_utils.cpp
+    ../src-cpp/core/common/system_utils.h
 )
 
 target_link_libraries(SystemUtilsTests PRIVATE
@@ -73,16 +73,16 @@ target_link_libraries(SystemUtilsTests PRIVATE
     Qt6::Test
 )
 
-target_include_directories(SystemUtilsTests PRIVATE ../src-cpp/core)
+target_include_directories(SystemUtilsTests PRIVATE ../src-cpp/core ../src-cpp/core/filesystem ../src-cpp/core/common ../src-cpp/core/i18m ../src-cpp/core/logging ../src-cpp/ps2 ../src-cpp/ngc ../src-cpp/psx)
 add_test(NAME SystemUtilsTests COMMAND SystemUtilsTests)
 
 # XStation Test executable
 add_executable(XStationLibraryServiceTests
     test_xstation.cpp
-    ../src-cpp/core/ps1_xstation_library_service.cpp
-    ../src-cpp/core/ps1_xstation_library_service.h
-    ../src-cpp/core/system_utils.cpp
-    ../src-cpp/core/system_utils.h
+    ../src-cpp/psx/ps1_xstation_library_service.cpp
+    ../src-cpp/psx/ps1_xstation_library_service.h
+    ../src-cpp/core/common/system_utils.cpp
+    ../src-cpp/core/common/system_utils.h
 )
 
 target_link_libraries(XStationLibraryServiceTests PRIVATE
@@ -92,27 +92,27 @@ target_link_libraries(XStationLibraryServiceTests PRIVATE
     Qt6::Network
 )
 
-target_include_directories(XStationLibraryServiceTests PRIVATE ../src-cpp/core)
+target_include_directories(XStationLibraryServiceTests PRIVATE ../src-cpp/core ../src-cpp/core/filesystem ../src-cpp/core/common ../src-cpp/core/i18m ../src-cpp/core/logging ../src-cpp/ps2 ../src-cpp/ngc ../src-cpp/psx)
 add_test(NAME XStationLibraryServiceTests COMMAND XStationLibraryServiceTests)
 
 # RVZ Native Converter Tests
 add_executable(RvzNativeConverterTests
     tst_rvznativeconverter.cpp
-    ../src-cpp/core/rvz_native_converter.cpp
-    ../src-cpp/core/rvz_native_converter.h
+    ../src-cpp/ngc/rvz_native_converter.cpp
+    ../src-cpp/ngc/rvz_native_converter.h
 )
 target_link_libraries(RvzNativeConverterTests PRIVATE
     Qt6::Core
     Qt6::Test
 )
-target_include_directories(RvzNativeConverterTests PRIVATE ../src-cpp/core)
+target_include_directories(RvzNativeConverterTests PRIVATE ../src-cpp/core ../src-cpp/core/filesystem ../src-cpp/core/common ../src-cpp/core/i18m ../src-cpp/core/logging ../src-cpp/ps2 ../src-cpp/ngc ../src-cpp/psx)
 add_test(NAME RvzNativeConverterTests COMMAND RvzNativeConverterTests)
 
 # Translation Manager Tests
 add_executable(TranslationManagerTests
     tst_translationmanager.cpp
-    ../src-cpp/core/translation_manager.cpp
-    ../src-cpp/core/translation_manager.h
+    ../src-cpp/core/i18m/translation_manager.cpp
+    ../src-cpp/core/i18m/translation_manager.h
 )
 target_link_libraries(TranslationManagerTests PRIVATE
     Qt6::Core
@@ -120,18 +120,34 @@ target_link_libraries(TranslationManagerTests PRIVATE
     Qt6::Qml
     Qt6::Test
 )
-target_include_directories(TranslationManagerTests PRIVATE ../src-cpp/core)
+target_include_directories(TranslationManagerTests PRIVATE ../src-cpp/core ../src-cpp/core/filesystem ../src-cpp/core/common ../src-cpp/core/i18m ../src-cpp/core/logging ../src-cpp/ps2 ../src-cpp/ngc ../src-cpp/psx)
 add_test(NAME TranslationManagerTests COMMAND TranslationManagerTests)
 
 # Logger Tests
 add_executable(LoggerTests
     tst_logger.cpp
-    ../src-cpp/core/logger.cpp
-    ../src-cpp/core/logger.h
+    ../src-cpp/core/logging/logger.cpp
+    ../src-cpp/core/logging/logger.h
 )
 target_link_libraries(LoggerTests PRIVATE
     Qt6::Core
     Qt6::Test
 )
-target_include_directories(LoggerTests PRIVATE ../src-cpp/core)
+target_include_directories(LoggerTests PRIVATE ../src-cpp/core ../src-cpp/core/filesystem ../src-cpp/core/common ../src-cpp/core/i18m ../src-cpp/core/logging ../src-cpp/ps2 ../src-cpp/ngc ../src-cpp/psx)
 add_test(NAME LoggerTests COMMAND LoggerTests)
+
+# QML UI Tests
+add_executable(OdeRelicUITests
+    tst_qmlui.cpp
+)
+target_link_libraries(OdeRelicUITests PRIVATE
+    Qt6::Core
+    Qt6::Gui
+    Qt6::Qml
+    Qt6::Quick
+    Qt6::QuickTest
+)
+target_compile_definitions(OdeRelicUITests PRIVATE
+    QUICK_TEST_SOURCE_DIR="${CMAKE_CURRENT_SOURCE_DIR}/qml"
+)
+add_test(NAME OdeRelicUITests COMMAND OdeRelicUITests)
