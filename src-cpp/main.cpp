@@ -2,7 +2,7 @@
 #include "core/i18n/translation_manager.h"
 #include "core/logging/logger.h"
 #include "platforms/dreamcast/dreamcast_library_service.h"
-#include "platforms/dreamcast/openmenu_image_provider.h"
+#include "platforms/dreamcast/ArtNDataUtils/openmenu_image_provider.h"
 #include "platforms/ngc/swiss_library_service.h"
 #include "platforms/ps2/opl_library_service.h"
 #include "platforms/psx/ps1_xstation_library_service.h"

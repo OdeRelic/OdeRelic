@@ -1,7 +1,8 @@
 #include "dreamcast_library_service.h"
 #include "../../core/common/system_utils.h"
 #include "../../core/filesystem/filesystem_cache.h"
-#include "openmenu_dat_manager.h"
+#include "ArtNDataUtils/openmenu_dat_manager.h"
+#include "GDRomUtils/gdrom_builder.h"
 #include <QDateTime>
 #include <QDebug>
 #include <QDir>
@@ -15,6 +16,7 @@
 #include <QNetworkRequest>
 #include <QProcess>
 #include <QRegularExpression>
+#include <QStandardPaths>
 #include <QStorageInfo>
 #include <QString>
 #include <QThread>
@@ -108,9 +110,7 @@ DreamcastLibraryService::checkDreamcastFolder(const QString &rootPath) {
   bool hasOpenMenu =
       QDir(rootPath + "/01").exists() && !QDir(rootPath + "/01").isEmpty();
 
-  bool hasOpenMenuDb = 
-      QFile::exists(rootPath + "/01/menu_data/BOX.DAT") && 
-      QFile::exists(rootPath + "/01/menu_data/ICON.DAT");
+  bool hasOpenMenuDb = QFile::exists(rootPath + "/01/track05.iso");
 
   result["isFormatCorrect"] = isFormatCorrect;
   result["isPartitionCorrect"] = isPartitionCorrect;
@@ -176,12 +176,15 @@ DreamcastLibraryService::parseMetadataFromMedia(const QString &mediaPath) {
           result["gameId"] = gId;
           QString regionName = "Unknown Region";
           QString gidUp = gId.toUpper();
-          if (gidUp.endsWith("E") || gidUp.endsWith("P") || gidUp.contains("-50")) {
-              regionName = "PAL";
+          if (gidUp.endsWith("E") || gidUp.endsWith("P") ||
+              gidUp.contains("-50")) {
+            regionName = "PAL";
           } else if (gidUp.endsWith("J") || gidUp.startsWith("HDR")) {
-              regionName = "NTSC-J";
-          } else if (gidUp.endsWith("U") || gidUp.endsWith("N") || gidUp.endsWith("M") || (gidUp.startsWith("MK-") && !gidUp.contains("-50"))) {
-              regionName = "NTSC-U";
+            regionName = "NTSC-J";
+          } else if (gidUp.endsWith("U") || gidUp.endsWith("N") ||
+                     gidUp.endsWith("M") ||
+                     (gidUp.startsWith("MK-") && !gidUp.contains("-50"))) {
+            regionName = "NTSC-U";
           }
           result["region"] = regionName;
         }
@@ -242,18 +245,20 @@ void DreamcastLibraryService::startGetGamesFilesAsync(const QString &dirPath) {
             {"*.gdi", "*.cdi", "*.iso", "*.ccd"}, QDir::Files);
         if (!gameFiles.isEmpty()) {
           QString primaryMedia = fullPath + "/" + gameFiles.first();
-          
+
           QFileInfo primeInfo(primaryMedia);
           qint64 actualSize = primeInfo.size();
           qint64 lastModified = primeInfo.lastModified().toSecsSinceEpoch();
-          QString pathKey = primeInfo.fileName() + "_" + QString::number(actualSize) + "_" + folderName;
-          
+          QString pathKey = primeInfo.fileName() + "_" +
+                            QString::number(actualSize) + "_" + folderName;
+
           QString name;
           QString gameId;
           QString region;
 
-          if (cacheData.contains(pathKey) && 
-              cacheData[pathKey].toMap()["mtime"].toLongLong() == lastModified) {
+          if (cacheData.contains(pathKey) &&
+              cacheData[pathKey].toMap()["mtime"].toLongLong() ==
+                  lastModified) {
             QVariantMap cachedMeta = cacheData[pathKey].toMap();
             name = cachedMeta["name"].toString();
             gameId = cachedMeta["gameId"].toString();
@@ -263,7 +268,7 @@ void DreamcastLibraryService::startGetGamesFilesAsync(const QString &dirPath) {
             name = meta["title"].toString();
             gameId = meta["gameId"].toString();
             region = meta["region"].toString();
-            
+
             QVariantMap newCacheItem;
             newCacheItem["mtime"] = lastModified;
             newCacheItem["name"] = name;
@@ -279,47 +284,55 @@ void DreamcastLibraryService::startGetGamesFilesAsync(const QString &dirPath) {
           }
 
           QString groupingKey = gameId.isEmpty() ? name : gameId;
-          if (groupingKey.isEmpty()) groupingKey = "Unknown_" + folderName;
+          if (groupingKey.isEmpty())
+            groupingKey = "Unknown_" + folderName;
 
           if (groupedGames.contains(groupingKey)) {
-              QVariantMap existing = groupedGames[groupingKey];
-              QVariantList discs = existing["discs"].toList();
-              
-              QVariantMap discNode;
-              discNode["folderName"] = folderName;
-              discNode["parentPath"] = fullPath;
-              discNode["path"] = primaryMedia;
-              discNode["size"] = size;
-              discNode["extension"] = "." + primaryMedia.mid(primaryMedia.lastIndexOf('.') + 1).toLower();
-              
-              discs.append(discNode);
-              existing["discs"] = discs;
-              existing["size"] = existing["size"].toLongLong() + size;
-              groupedGames[groupingKey] = existing;
+            QVariantMap existing = groupedGames[groupingKey];
+            QVariantList discs = existing["discs"].toList();
+
+            QVariantMap discNode;
+            discNode["folderName"] = folderName;
+            discNode["parentPath"] = fullPath;
+            discNode["path"] = primaryMedia;
+            discNode["size"] = size;
+            discNode["extension"] =
+                "." +
+                primaryMedia.mid(primaryMedia.lastIndexOf('.') + 1).toLower();
+
+            discs.append(discNode);
+            existing["discs"] = discs;
+            existing["size"] = existing["size"].toLongLong() + size;
+            groupedGames[groupingKey] = existing;
           } else {
-              QVariantMap itemInfo;
-              itemInfo["name"] = name;
-              itemInfo["gameId"] = gameId;
-              itemInfo["region"] = region;
-              itemInfo["isRenamed"] = true;
-              itemInfo["size"] = size;
-              
-              QVariantMap discNode;
-              discNode["folderName"] = folderName;
-              discNode["parentPath"] = fullPath;
-              discNode["path"] = primaryMedia;
-              discNode["size"] = size;
-              discNode["extension"] = "." + primaryMedia.mid(primaryMedia.lastIndexOf('.') + 1).toLower();
-              
-              itemInfo["discs"] = QVariantList{discNode};
-              
-              // Maintain root variables enabling single-disc fallback mapping in UI compatibility engines safely
-              itemInfo["folderName"] = folderName;
-              itemInfo["parentPath"] = fullPath;
-              itemInfo["path"] = primaryMedia;
-              itemInfo["extension"] = "." + primaryMedia.mid(primaryMedia.lastIndexOf('.') + 1).toLower();
-              
-              groupedGames[groupingKey] = itemInfo;
+            QVariantMap itemInfo;
+            itemInfo["name"] = name;
+            itemInfo["gameId"] = gameId;
+            itemInfo["region"] = region;
+            itemInfo["isRenamed"] = true;
+            itemInfo["size"] = size;
+
+            QVariantMap discNode;
+            discNode["folderName"] = folderName;
+            discNode["parentPath"] = fullPath;
+            discNode["path"] = primaryMedia;
+            discNode["size"] = size;
+            discNode["extension"] =
+                "." +
+                primaryMedia.mid(primaryMedia.lastIndexOf('.') + 1).toLower();
+
+            itemInfo["discs"] = QVariantList{discNode};
+
+            // Maintain root variables enabling single-disc fallback mapping in
+            // UI compatibility engines safely
+            itemInfo["folderName"] = folderName;
+            itemInfo["parentPath"] = fullPath;
+            itemInfo["path"] = primaryMedia;
+            itemInfo["extension"] =
+                "." +
+                primaryMedia.mid(primaryMedia.lastIndexOf('.') + 1).toLower();
+
+            groupedGames[groupingKey] = itemInfo;
           }
         }
       }
@@ -335,7 +348,7 @@ void DreamcastLibraryService::startGetGamesFilesAsync(const QString &dirPath) {
     }
 
     for (const QVariantMap &grouped : groupedGames) {
-        files.append(grouped);
+      files.append(grouped);
     }
 
     result["success"] = true;
@@ -395,19 +408,23 @@ void DreamcastLibraryService::startImportGameAsync(
 
       QFileInfoList gameFilesToProcess;
       if (srcInfo.isDir()) {
-        QDirIterator it(sourcePath, QStringList() << "*.gdi" << "*.cdi" << "*.iso", QDir::Files, QDirIterator::Subdirectories);
+        QDirIterator it(sourcePath,
+                        QStringList() << "*.gdi" << "*.cdi" << "*.iso",
+                        QDir::Files, QDirIterator::Subdirectories);
         while (it.hasNext()) {
           it.next();
           gameFilesToProcess.append(it.fileInfo());
         }
-        std::sort(gameFilesToProcess.begin(), gameFilesToProcess.end(), [](const QFileInfo& a, const QFileInfo& b){
-            return a.absoluteFilePath().compare(b.absoluteFilePath(), Qt::CaseInsensitive) < 0;
-        });
+        std::sort(gameFilesToProcess.begin(), gameFilesToProcess.end(),
+                  [](const QFileInfo &a, const QFileInfo &b) {
+                    return a.absoluteFilePath().compare(
+                               b.absoluteFilePath(), Qt::CaseInsensitive) < 0;
+                  });
       } else {
         gameFilesToProcess.append(srcInfo);
       }
 
-      for (const QFileInfo& gameSrcInfo : gameFilesToProcess) {
+      for (const QFileInfo &gameSrcInfo : gameFilesToProcess) {
         maxFolderNum++;
         QString newDirName = QString("%1").arg(maxFolderNum, 2, 10, QChar('0'));
         targetFolderDir.mkpath(newDirName);
@@ -416,8 +433,9 @@ void DreamcastLibraryService::startImportGameAsync(
 
         QFileInfoList itemsToCopy;
         itemsToCopy.append(gameSrcInfo);
-        
-        // Handle Multi-file GDI tracking logically natively inside this specific disc node boundary
+
+        // Handle Multi-file GDI tracking logically natively inside this
+        // specific disc node boundary
         if (gameSrcInfo.suffix().toLower() == "gdi") {
           QFile gdiFile(gameSrcInfo.absoluteFilePath());
           if (gdiFile.open(QIODevice::ReadOnly | QIODevice::Text)) {
@@ -503,14 +521,15 @@ void DreamcastLibraryService::startImportGameAsync(
           srcFile.close();
           destFile.close();
         }
-        
+
         if (!allSuccess) {
           QMetaObject::invokeMethod(
               this,
               [=]() {
                 emit importFinished(
                     srcStr, false, finalDestDir,
-                    "Native system error mapping I/O bytes safely on: " + srcStr);
+                    "Native system error mapping I/O bytes safely on: " +
+                        srcStr);
               },
               Qt::QueuedConnection);
           qInfo() << "[Dreamcast Importer] Import failed for: " << srcStr;
@@ -521,6 +540,10 @@ void DreamcastLibraryService::startImportGameAsync(
     QMetaObject::invokeMethod(
         this, [=]() { emit importProgress("Complete", 100, 0.0); },
         Qt::QueuedConnection);
+
+    // Trigger Auto-Rebuild for OpenMenu Structs
+    this->buildAndDeployMenuGdrom(targetLibraryRoot);
+
     QMetaObject::invokeMethod(
         this,
         [=]() {
@@ -615,6 +638,9 @@ void DreamcastLibraryService::commitLibraryOrderAsync(
           Qt::QueuedConnection);
     }
 
+    // Trigger Auto-Rebuild for OpenMenu Structs
+    this->buildAndDeployMenuGdrom(cleanTarget);
+
     QMetaObject::invokeMethod(
         this,
         [=]() {
@@ -684,166 +710,134 @@ void DreamcastLibraryService::checkOpenMenuUpdateAsync(
 void DreamcastLibraryService::startInstallMenuAsync(const QString &rootPath) {
   qInfo() << "[Dreamcast Setup] Starting OpenMenu installation...";
   QtConcurrent::run([this, rootPath]() {
+    QMetaObject::invokeMethod(
+        this,
+        [=]() {
+          emit setupMenuProgress(
+              5, "Contacting GitHub API for latest OpenMenu release...");
+        },
+        Qt::QueuedConnection);
+
+    QString fetchedVersion = "v1.3.0 (Offline Fallback)";
+    bool useNetwork = false;
+    QString targetDownloadUrl = "";
+
     QNetworkAccessManager manager;
-    QEventLoop loop;
     QNetworkRequest apiRequest(
         QUrl("https://api.github.com/repos/sbstnc/openmenu/releases/latest"));
-    apiRequest.setRawHeader("User-Agent", "OdeRelic-Dreamcast/1.0");
-
-    QMetaObject::invokeMethod(
-        this,
-        [=]() {
-          emit setupMenuProgress(5, "Contacting OpenMenu Github Core API...");
-        },
-        Qt::QueuedConnection);
+    apiRequest.setRawHeader("User-Agent", "OdeRelic-Dreamcast-Installer");
 
     QNetworkReply *apiReply = manager.get(apiRequest);
-    QObject::connect(apiReply, &QNetworkReply::finished, &loop,
-                     &QEventLoop::quit);
+    QEventLoop loop;
+    QObject::connect(apiReply, &QNetworkReply::finished, &loop, &QEventLoop::quit);
     loop.exec();
 
-    if (apiReply->error() != QNetworkReply::NoError) {
-      QMetaObject::invokeMethod(
-          this,
-          [=]() {
-            emit setupMenuFinished(false,
-                                   "Failed to reach GitHub API securely.");
-          },
-          Qt::QueuedConnection);
-      apiReply->deleteLater();
-      return;
-    }
-
-    QJsonObject jsonResponse =
-        QJsonDocument::fromJson(apiReply->readAll()).object();
-    apiReply->deleteLater();
-
-    QString fetchedVersion = jsonResponse["tag_name"].toString();
-    QJsonArray assets = jsonResponse["assets"].toArray();
-    QString downloadUrl;
-
-    for (const QJsonValue &asset : assets) {
-      QString assetName = asset.toObject()["name"].toString();
-      if (assetName.toLower() == "openmenu.zip") {
-        downloadUrl = asset.toObject()["browser_download_url"].toString();
-        break;
+    if (apiReply->error() == QNetworkReply::NoError) {
+      QJsonObject jsonResponse = QJsonDocument::fromJson(apiReply->readAll()).object();
+      fetchedVersion = jsonResponse["tag_name"].toString(fetchedVersion);
+      QJsonArray assets = jsonResponse["assets"].toArray();
+      
+      for (int i = 0; i < assets.size(); ++i) {
+        QJsonObject asset = assets[i].toObject();
+        if (asset["name"].toString() == "openmenu.zip") {
+          targetDownloadUrl = asset["browser_download_url"].toString();
+          useNetwork = true;
+          break;
+        }
       }
+    } else {
+      qWarning() << "[Dreamcast Setup] GitHub API error, falling back to offline mode.";
     }
-
-    if (downloadUrl.isEmpty()) {
-      QMetaObject::invokeMethod(
-          this,
-          [=]() {
-            emit setupMenuFinished(
-                false, "Could not locate valid openmenu.zip asset.");
-          },
-          Qt::QueuedConnection);
-      qWarning()
-          << "[Dreamcast Setup] Failed to locate valid openmenu.zip asset.";
-      return;
-    }
-
-    QMetaObject::invokeMethod(
-        this,
-        [=]() {
-          emit setupMenuProgress(25, "Downloading OpenMenu structure array...");
-        },
-        Qt::QueuedConnection);
-
-    QString tempDir = QDir::tempPath() + "/oderelic_openmenu_" +
-                      QString::number(QDateTime::currentMSecsSinceEpoch());
-    QDir().mkpath(tempDir);
-    QString archivePath = tempDir + "/openmenu.zip";
-
-    QNetworkRequest dlRequest((QUrl(downloadUrl)));
-    dlRequest.setRawHeader("User-Agent", "OdeRelic-Dreamcast/1.0");
-    QNetworkReply *dlReply = manager.get(dlRequest);
-    QObject::connect(dlReply, &QNetworkReply::finished, &loop,
-                     &QEventLoop::quit);
-    loop.exec();
-
-    if (dlReply->error() != QNetworkReply::NoError) {
-      QMetaObject::invokeMethod(
-          this,
-          [=]() {
-            emit setupMenuFinished(false,
-                                   "Network interruption detected cleanly "
-                                   "halting deployment natively.");
-          },
-          Qt::QueuedConnection);
-      dlReply->deleteLater();
-      qWarning() << "[Dreamcast Setup] Network interruption detected cleanly "
-                     "halting deployment natively.";
-      return;
-    }
-
-    QFile dlFile(archivePath);
-    if (dlFile.open(QIODevice::WriteOnly)) {
-      dlFile.write(dlReply->readAll());
-      dlFile.close();
-    }
-    dlReply->deleteLater();
+    apiReply->deleteLater();
 
     QMetaObject::invokeMethod(
         this,
         [=]() {
           emit setupMenuProgress(
-              60, "Extracting payload mapping via OS native zipper...");
+              25, "Extracting embedded natively mapped OpenMenu nodes...");
         },
         Qt::QueuedConnection);
 
-    QProcess unzipProcess;
-    unzipProcess.setProgram("unzip");
-    unzipProcess.setArguments({"-o", archivePath, "-d", tempDir});
-    unzipProcess.start();
-    unzipProcess.waitForFinished(-1);
-
-    if (unzipProcess.exitCode() != 0) {
-      QMetaObject::invokeMethod(
-          this,
-          [=]() {
-            emit setupMenuFinished(
-                false, "Failed to natively extract zipper mapped package.");
-          },
-          Qt::QueuedConnection);
-      qWarning() << "[Dreamcast Setup] Failed to natively extract zipper "
-                     "mapped package.";
-      return;
-    }
-
-    QMetaObject::invokeMethod(
-        this,
-        [=]() {
-          emit setupMenuProgress(85, "Flashing extracted structural nodes "
-                                     "identically to root 01 folder...");
-        },
-        Qt::QueuedConnection);
-    qInfo() << "[Dreamcast Setup] Flashing extracted structural nodes "
-               "identically to root 01 folder...";
     QString targetRoot = urlToLocalFile(rootPath);
     QString menuRoot = targetRoot + "/01";
-    QDir().mkpath(menuRoot);
+    QString menuDir = menuRoot + "/menu_data";
+    QDir().mkpath(menuDir);
 
-    QDirIterator it(tempDir, QDir::Files | QDir::NoDotAndDotDot,
-                    QDirIterator::Subdirectories);
+    QDirIterator it(":/openmenu/menu_data", QDirIterator::Subdirectories);
     while (it.hasNext()) {
       it.next();
       QFileInfo fi = it.fileInfo();
-      if (fi.fileName() == "openmenu.zip")
-        continue; // Skip archive
+      if (fi.isDir())
+        continue;
 
-      // We want to map it directly into the 01 folder. The ZIP usually extracts
-      // into its own layout. If it unzips directly, files like 1ST_READ.BIN go
-      // directly into 01/
-      QString relativePath =
-          QDir(tempDir).relativeFilePath(fi.absoluteFilePath());
-      QString destPath = menuRoot + "/" + relativePath;
+      QString relPath =
+          QDir(":/openmenu/menu_data").relativeFilePath(fi.absoluteFilePath());
+      QString destPath = menuDir + "/" + relPath;
       QDir().mkpath(QFileInfo(destPath).absolutePath());
       QFile::remove(destPath);
       QFile::copy(fi.absoluteFilePath(), destPath);
     }
 
-    QDir(tempDir).removeRecursively();
+    if (useNetwork && !targetDownloadUrl.isEmpty()) {
+      QMetaObject::invokeMethod(
+          this,
+          [=]() { emit setupMenuProgress(40, "Downloading latest binaries from GitHub..."); },
+          Qt::QueuedConnection);
+
+      QString tempDir =
+          QStandardPaths::writableLocation(QStandardPaths::TempLocation) +
+          "/oderelic_openmenu";
+      QDir().mkpath(tempDir);
+      QString archivePath = tempDir + "/openmenu.zip";
+
+      QNetworkRequest dlRequest((QUrl(targetDownloadUrl)));
+      dlRequest.setRawHeader("User-Agent", "OdeRelic-Dreamcast-Installer");
+      dlRequest.setAttribute(QNetworkRequest::RedirectPolicyAttribute,
+                             QNetworkRequest::NoLessSafeRedirectPolicy);
+
+      QNetworkReply *dlReply = manager.get(dlRequest);
+      QEventLoop dlLoop;
+      QObject::connect(dlReply, &QNetworkReply::finished, &dlLoop, &QEventLoop::quit);
+      dlLoop.exec();
+
+      if (dlReply->error() == QNetworkReply::NoError) {
+        QFile dlFile(archivePath);
+        if (dlFile.open(QIODevice::WriteOnly)) {
+          dlFile.write(dlReply->readAll());
+          dlFile.close();
+        }
+
+        QMetaObject::invokeMethod(
+            this,
+            [=]() { emit setupMenuProgress(45, "Extracting GitHub payload natively..."); },
+            Qt::QueuedConnection);
+
+        QProcess tarProcess;
+        tarProcess.setProgram("tar");
+        tarProcess.setArguments({"-xf", archivePath, "-C", tempDir});
+        tarProcess.start();
+        tarProcess.waitForFinished(-1);
+
+        if (tarProcess.exitCode() == 0) {
+          if (QFile::exists(tempDir + "/openmenu.elf")) {
+            QFile::remove(menuDir + "/openmenu.elf");
+            QFile::copy(tempDir + "/openmenu.elf", menuDir + "/openmenu.elf");
+          }
+          if (QFile::exists(tempDir + "/1ST_READ.BIN")) {
+            QFile::remove(menuDir + "/1ST_READ.BIN");
+            QFile::copy(tempDir + "/1ST_READ.BIN", menuDir + "/1ST_READ.BIN");
+          }
+          qInfo() << "[Dreamcast Setup] Network binaries successfully merged.";
+        } else {
+          qWarning() << "[Dreamcast Setup] Extraction failed, using offline binaries.";
+          fetchedVersion = "v1.3.0 (Offline Fallback)";
+        }
+      } else {
+        qWarning() << "[Dreamcast Setup] Download failed, using offline binaries.";
+        fetchedVersion = "v1.3.0 (Offline Fallback)";
+      }
+      dlReply->deleteLater();
+    }
 
     QJsonObject identity;
     identity["version"] = fetchedVersion;
@@ -853,83 +847,153 @@ void DreamcastLibraryService::startInstallMenuAsync(const QString &rootPath) {
       idFile.write(idDoc.toJson());
       idFile.close();
     }
-    qInfo() << "[Dreamcast Setup] OpenMenu" + fetchedVersion + "deployed";
-    QMetaObject::invokeMethod(
-        this, [=]() { emit setupMenuProgress(100, "Setup complete!"); },
-        Qt::QueuedConnection);
+
+    QFile nameTxt(menuRoot + "/name.txt");
+    if (nameTxt.open(QIODevice::WriteOnly)) {
+      nameTxt.write("OpenMenu");
+      nameTxt.close();
+    }
+
+    QFile serialTxt(menuRoot + "/serial.txt");
+    if (serialTxt.open(QIODevice::WriteOnly)) {
+      serialTxt.write("OPENMNU");
+      serialTxt.close();
+    }
+
+    qInfo() << "[Dreamcast Setup] OpenMenu Native deployed";
+
     QMetaObject::invokeMethod(
         this,
         [=]() {
-          emit setupMenuFinished(
-              true,
-              "OpenMenu deployment deployed perfectly into physical routing.");
+          emit setupMenuProgress(95, "Compiling GDI tracking structures...");
         },
         Qt::QueuedConnection);
+
+    if (this->buildAndDeployMenuGdrom(targetRoot)) {
+      QMetaObject::invokeMethod(
+          this, [=]() { emit setupMenuProgress(100, "Setup complete!"); },
+          Qt::QueuedConnection);
+      QMetaObject::invokeMethod(
+          this,
+          [=]() {
+            emit setupMenuFinished(true, "OpenMenu deployment compiled "
+                                         "perfectly into physical routing.");
+          },
+          Qt::QueuedConnection);
+    } else {
+      QMetaObject::invokeMethod(
+          this,
+          [=]() {
+            emit setupMenuFinished(
+                false, "ISO generation failed critically during packaging.");
+          },
+          Qt::QueuedConnection);
+    }
   });
 }
 
 void DreamcastLibraryService::startInstallMenuDbAsync(const QString &rootPath) {
-  qInfo() << "[Dreamcast] Starting native DB installation from mrneo240/openMenu_imagedb...";
+  qInfo() << "[Dreamcast] Starting native DB installation from "
+             "mrneo240/openMenu_imagedb...";
   QtConcurrent::run([this, rootPath]() {
     QNetworkAccessManager manager;
     QString targetRoot = urlToLocalFile(rootPath);
     QString menuDir = targetRoot + "/01/menu_data";
     QDir().mkpath(menuDir);
 
-    auto downloadFile = [&](const QString& urlStr, const QString& installPath) -> bool {
+    auto downloadFile = [&](const QString &urlStr,
+                            const QString &installPath) -> bool {
       QEventLoop loop;
       QNetworkRequest req((QUrl(urlStr)));
+      req.setAttribute(QNetworkRequest::RedirectPolicyAttribute,
+                       QNetworkRequest::NoLessSafeRedirectPolicy);
       QNetworkReply *reply = manager.get(req);
-      
-      QObject::connect(reply, &QNetworkReply::finished, &loop, &QEventLoop::quit);
-      QObject::connect(reply, &QNetworkReply::downloadProgress, [=](qint64 r, qint64 t) {
-          if(t > 0) {
+
+      QObject::connect(reply, &QNetworkReply::finished, &loop,
+                       &QEventLoop::quit);
+      QObject::connect(
+          reply, &QNetworkReply::downloadProgress, [=](qint64 r, qint64 t) {
+            if (t > 0) {
               int pct = (r * 100) / t;
               QString text = QString("Downloading %1... (%2 MB / %3 MB)")
-                             .arg(QFileInfo(urlStr).fileName())
-                             .arg(r / (1024*1024))
-                             .arg(t / (1024*1024));
-              QMetaObject::invokeMethod(this, [=]() {
-                  emit setupMenuProgress(pct, text);
-              }, Qt::QueuedConnection);
-          }
-      });
-      
+                                 .arg(QFileInfo(urlStr).fileName())
+                                 .arg(r / (1024 * 1024))
+                                 .arg(t / (1024 * 1024));
+              QMetaObject::invokeMethod(
+                  this, [=]() { emit setupMenuProgress(pct, text); },
+                  Qt::QueuedConnection);
+            }
+          });
+
       loop.exec();
-      
+
       if (reply->error() == QNetworkReply::NoError) {
-          QFile f(installPath);
-          if (f.open(QIODevice::WriteOnly)) {
-              f.write(reply->readAll());
-              f.close();
-              reply->deleteLater();
-              return true;
-          }
+        QFile f(installPath);
+        if (f.open(QIODevice::WriteOnly)) {
+          f.write(reply->readAll());
+          f.close();
+          reply->deleteLater();
+          return true;
+        }
       }
       reply->deleteLater();
       return false;
     };
 
-    QMetaObject::invokeMethod(this, [=]() {
-      emit setupMenuProgress(0, "Fetching BOX.DAT (117MB)...");
-    }, Qt::QueuedConnection);
+    QMetaObject::invokeMethod(
+        this,
+        [=]() {
+          emit setupMenuProgress(0, "Preparing to bake DB into ISO...");
+        },
+        Qt::QueuedConnection);
 
-    bool b1 = downloadFile("https://github.com/mrneo240/openMenu_imagedb/releases/download/test_2023.08.16_20-47/BOX.DAT", menuDir + "/BOX.DAT");
-    
-    QMetaObject::invokeMethod(this, [=]() {
-      emit setupMenuProgress(0, "Fetching ICON.DAT...");
-    }, Qt::QueuedConnection);
-    
-    bool b2 = downloadFile("https://github.com/mrneo240/openMenu_imagedb/releases/download/test_2023.08.16_20-47/ICON.DAT", menuDir + "/ICON.DAT");
+    // We no longer copy DB files directly to the SD card here.
+    // They are natively embedded into track05.iso by DreamcastIsoBuilder.
 
-    QMetaObject::invokeMethod(this, [=]() {
-      if (b1 && b2) {
-         emit setupMenuProgress(100, "Database Sync Complete!");
-         emit setupMenuFinished(true, "Image Database successfully downloaded.");
-      } else {
-         emit setupMenuFinished(false, "Network error downloading DB files.");
+    // Make sure we copy the binaries if they don't already exist, otherwise ISO
+    // rebuild will be empty!
+    QDirIterator it(":/openmenu/menu_data", QDirIterator::Subdirectories);
+    while (it.hasNext()) {
+      it.next();
+      QFileInfo fi = it.fileInfo();
+      if (fi.isDir())
+        continue;
+
+      QString relPath =
+          QDir(":/openmenu/menu_data").relativeFilePath(fi.absoluteFilePath());
+      QString destPath = menuDir + "/" + relPath;
+      if (!QFile::exists(destPath)) {
+        QDir().mkpath(QFileInfo(destPath).absolutePath());
+        QFile::copy(fi.absoluteFilePath(), destPath);
       }
-    }, Qt::QueuedConnection);
+    }
+
+    QMetaObject::invokeMethod(
+        this,
+        [=]() {
+          emit setupMenuProgress(
+              75, "Compiling synchronized GDI trackers natively...");
+        },
+        Qt::QueuedConnection);
+
+    // CRITICAL: We MUST rebuild the GDROM to absorb the newly placed BOX.DAT!
+    bool buildSuccess = this->buildAndDeployMenuGdrom(targetRoot);
+
+    QMetaObject::invokeMethod(
+        this,
+        [=]() {
+          if (buildSuccess) {
+            emit setupMenuProgress(100, "Database Sync Complete!");
+            emit setupMenuFinished(
+                true, "Image Database flawlessly synchronized deep "
+                      "within layout struct.");
+          } else {
+            emit setupMenuFinished(
+                false,
+                "Critical error fusing DB struct directly to image track.");
+          }
+        },
+        Qt::QueuedConnection);
   });
 }
 
@@ -988,6 +1052,8 @@ void DreamcastLibraryService::startFetchMissingArtworkAsync(
 
       if (!QFile::exists(targetImg)) {
         QNetworkRequest reqImg((QUrl(imgUrl)));
+        reqImg.setAttribute(QNetworkRequest::RedirectPolicyAttribute,
+                            QNetworkRequest::NoLessSafeRedirectPolicy);
         QNetworkReply *repImg = manager.get(reqImg);
         QEventLoop loop;
         QObject::connect(repImg, &QNetworkReply::finished, &loop,
@@ -998,9 +1064,15 @@ void DreamcastLibraryService::startFetchMissingArtworkAsync(
           if (f.open(QIODevice::WriteOnly)) {
             f.write(repImg->readAll());
             f.close();
-            
-            // Push successfully deployed offline image directly to OpenMenu BOX.DAT using strict adherence wrapping.
-            QString boxDatPath = cleanRoot + "/01/menu_data/BOX.DAT";
+
+            // Push successfully deployed offline image directly to OpenMenu
+            // We must update the local resource BOX.DAT so future track05
+            // builds absorb it
+            QString resDir = QCoreApplication::applicationDirPath() +
+                             "/../resources/dreamcast/openmenu";
+            if (!QDir(resDir).exists())
+              resDir = "resources/dreamcast/openmenu";
+            QString boxDatPath = resDir + "/BOX.DAT";
             OpenMenuDatManager datManager;
             datManager.updateArtwork(boxDatPath, gId, targetImg);
           }
@@ -1010,6 +1082,8 @@ void DreamcastLibraryService::startFetchMissingArtworkAsync(
 
       if (!QFile::exists(targetMeta)) {
         QNetworkRequest reqMeta((QUrl(metaUrl)));
+        reqMeta.setAttribute(QNetworkRequest::RedirectPolicyAttribute,
+                             QNetworkRequest::NoLessSafeRedirectPolicy);
         QNetworkReply *repMeta = manager.get(reqMeta);
         QEventLoop loop;
         QObject::connect(repMeta, &QNetworkReply::finished, &loop,
@@ -1061,9 +1135,9 @@ void DreamcastLibraryService::startSyncCheatsAsync(const QString &rootPath) {
 
     if (!QFile::copy(zipPath, tempZipPath)) {
       // Wait, if it's not a QRC maybe it's in a physical path from compilation:
-      QString physPath =
-          QDir::currentPath() + "/resources/cheats/dreamcast-openmenu/"
-                                "CodeBreaker all cheats save file 2.7.zip";
+      QString physPath = QDir::currentPath() +
+                         "/resources/cheats/dreamcast-openmenu/"
+                         "CodeBreaker all cheats save file 2.7.zip";
       if (!QFile::exists(physPath)) {
         QMetaObject::invokeMethod(
             this,
@@ -1149,6 +1223,10 @@ DreamcastLibraryService::deleteGameFolder(const QString &folderPath) {
   QDir dir(folderPath);
   if (dir.exists()) {
     result["success"] = dir.removeRecursively();
+    if (result["success"].toBool()) {
+      QString rootPath = QFileInfo(folderPath).absolutePath();
+      this->buildAndDeployMenuGdrom(rootPath);
+    }
   } else {
     result["success"] = false;
     result["message"] = "Directory does not exist.";
@@ -1161,56 +1239,6 @@ DreamcastLibraryService::tryDetermineGameIdFromHex(const QString &filepath) {
   QVariantMap res = parseMetadataFromMedia(filepath);
   res["success"] = !res["gameId"].toString().isEmpty();
   return res;
-}
-
-void DreamcastLibraryService::scanExternalFilesAsync(
-    const QStringList &fileUrls, bool dummy) {
-  QtConcurrent::run([this, fileUrls]() {
-    QVariantList files;
-    for (const QString &urlStr : fileUrls) {
-      QString path = urlToLocalFile(urlStr);
-      QFileInfo fi(path);
-      if (fi.isDir()) {
-        QDirIterator it(path, QDir::Files | QDir::NoDotAndDotDot,
-                        QDirIterator::Subdirectories);
-        while (it.hasNext()) {
-          it.next();
-          QString ext = it.fileInfo().suffix().toLower();
-          if (ext == "cdi" || ext == "gdi" || ext == "iso") {
-            QVariantMap meta =
-                parseMetadataFromMedia(it.fileInfo().absoluteFilePath());
-            QVariantMap itemInfo;
-            itemInfo["extension"] = "." + ext;
-            itemInfo["name"] = meta["title"].toString() != ""
-                                   ? meta["title"].toString()
-                                   : it.fileInfo().completeBaseName();
-            itemInfo["parentPath"] = it.fileInfo().absolutePath();
-            itemInfo["path"] = it.fileInfo().absoluteFilePath();
-            itemInfo["size"] = it.fileInfo().size();
-            itemInfo["isRenamed"] = false;
-            files.append(itemInfo);
-          }
-        }
-      } else {
-        QString ext = fi.suffix().toLower();
-        if (ext == "cdi" || ext == "gdi" || ext == "iso") {
-          QVariantMap meta = parseMetadataFromMedia(fi.absoluteFilePath());
-          QVariantMap itemInfo;
-          itemInfo["extension"] = "." + ext;
-          itemInfo["name"] = meta["title"].toString() != ""
-                                 ? meta["title"].toString()
-                                 : fi.completeBaseName();
-          itemInfo["parentPath"] = fi.absolutePath();
-          itemInfo["path"] = fi.absoluteFilePath();
-          itemInfo["size"] = fi.size();
-          itemInfo["isRenamed"] = false;
-          files.append(itemInfo);
-        }
-      }
-    }
-    QMetaObject::invokeMethod(
-        this, [=]() { emit externalFilesScanFinished(true, files); });
-  });
 }
 
 void DreamcastLibraryService::startDownloadArtAsync(
@@ -1227,6 +1255,8 @@ void DreamcastLibraryService::startDownloadArtAsync(
     QString targetImg = dirPath + "/boxart.jpg";
     QNetworkAccessManager manager;
     QNetworkRequest reqImg((QUrl(imgUrl)));
+    reqImg.setAttribute(QNetworkRequest::RedirectPolicyAttribute,
+                        QNetworkRequest::NoLessSafeRedirectPolicy);
     QNetworkReply *repImg = manager.get(reqImg);
     QEventLoop loop;
     QObject::connect(repImg, &QNetworkReply::finished, &loop,
@@ -1248,14 +1278,232 @@ void DreamcastLibraryService::startDownloadArtAsync(
   });
 }
 
-void DreamcastLibraryService::startConvertBinToIso(const QString &binPath,
-                                                   const QString &destIsoPath) {
-  // Only mapped for GC explicitly, ignoring safely dynamically.
+QString DreamcastLibraryService::generateOpenMenuIni(const QString &rootPath) {
+  QDir rootDir(rootPath);
+  QStringList folders = rootDir.entryList(QDir::Dirs | QDir::NoDotAndDotDot);
+
+  QString itemsContent = "[ITEMS]\n";
+  int totalGames = 0;
+
+  // Statically append the OpenMenu launcher payload at slot 01 mathematically
+  itemsContent += "01.name=openMenu\n";
+  itemsContent += "01.disc=1/1\n";
+  itemsContent += "01.vga=1\n";
+  itemsContent += "01.region=JUE\n";
+  itemsContent += "01.version=V0.1.0\n\n";
+
+  for (const QString &folderName : folders) {
+    bool isNumeric;
+    int folderId = folderName.toInt(&isNumeric);
+
+    if (isNumeric && folderId >= 2) {
+      QString fullPath = rootPath + "/" + folderName;
+      QDir gameDir(fullPath);
+      QStringList gameFiles =
+          gameDir.entryList({"*.gdi", "*.cdi", "*.iso", "*.ccd"}, QDir::Files);
+
+      if (!gameFiles.isEmpty()) {
+        QString primaryMedia = fullPath + "/" + gameFiles.first();
+        QVariantMap meta = parseMetadataFromMedia(primaryMedia);
+
+        QString name = meta["title"].toString();
+        QString regionStr = meta["region"].toString();
+        QString gameId = meta["gameId"].toString();
+        if (gameId.isEmpty()) {
+          gameId = "UNKNOWN";
+        }
+
+        // Map regions strictly to OpenMenu parser conventions
+        QString mappedRegion = "JUE";
+        if (regionStr == "NTSC-U")
+          mappedRegion = "U";
+        else if (regionStr == "NTSC-J")
+          mappedRegion = "J";
+        else if (regionStr == "PAL")
+          mappedRegion = "E";
+
+        // GDEMU maps strictly via physical slot matching mathematically!
+        QString strnumber = QString("%1").arg(folderId, 2, 10, QChar('0'));
+        itemsContent += strnumber + ".name=" + name + "\n";
+        itemsContent += strnumber + ".disc=1/1\n";
+        itemsContent += strnumber + ".vga=1\n";
+        itemsContent += strnumber + ".region=" + mappedRegion + "\n";
+        itemsContent += strnumber + ".version=V1.000\n";
+        itemsContent += strnumber + ".date=20000101\n";
+        itemsContent +=
+            strnumber + ".product=" + gameId.replace(" ", "") + "\n\n";
+
+        totalGames++;
+      }
+    }
+  }
+
+  QString iniContent = "[OPENMENU]\n";
+  // num_items must account for all items plus the launcher itself
+  iniContent += "num_items=" + QString::number(totalGames + 1) + "\n\n";
+  return iniContent + itemsContent;
 }
 
-void DreamcastLibraryService::startImportIsoAsync(
-    const QString &sourceIsoPath, const QString &targetLibraryRoot,
-    const QString &gameId, const QString &gameName) {
-  // Pipe natively to mapping
-  startImportGameAsync(QStringList() << sourceIsoPath, targetLibraryRoot);
+bool DreamcastLibraryService::buildAndDeployMenuGdrom(const QString &rootPath) {
+  QString menuRoot = rootPath + "/01";
+  QString menuData = menuRoot + "/menu_data";
+  QString menuLowData = menuRoot + "/menu_low_data";
+
+  QDir().mkpath(menuData);
+  QDir().mkpath(menuLowData);
+
+  // CRITICAL: Ensure base OpenMenu assets (1ST_READ.BIN, themes) exist in
+  // menuData before building ISO. We delete them at the end of this function,
+  // so we must recreate them on subsequent runs (like adding a game).
+  QDirIterator it(":/openmenu/menu_data", QDirIterator::Subdirectories);
+  while (it.hasNext()) {
+    it.next();
+    QFileInfo fi = it.fileInfo();
+    if (fi.isDir())
+      continue;
+
+    QString relPath =
+        QDir(":/openmenu/menu_data").relativeFilePath(fi.absoluteFilePath());
+    QString destPath = menuData + "/" + relPath;
+    if (!QFile::exists(destPath)) {
+      QDir().mkpath(QFileInfo(destPath).absolutePath());
+      QFile::copy(fi.absoluteFilePath(), destPath);
+    }
+  }
+
+  QString iniPayload = generateOpenMenuIni(rootPath);
+
+  QFile highIni(menuData + "/OPENMENU.INI");
+  if (highIni.open(QIODevice::WriteOnly)) {
+    highIni.write(iniPayload.toUtf8());
+    highIni.close();
+  }
+
+  QFile lowIni(menuLowData + "/OPENMENU.INI");
+  if (lowIni.open(QIODevice::WriteOnly)) {
+    lowIni.write(iniPayload.toUtf8());
+    lowIni.close();
+  }
+
+  GdromBuilder builder;
+  bool success = builder.buildMenuGdrom(menuLowData, menuData, menuRoot);
+
+  // Explicitly nuke all transient compilation directories from FAT32 to bypass
+  // macOS hidden file locking mechanisms silently blocking recurse wipe
+  QDir(menuData + "/theme").removeRecursively();
+  QDir(menuData + "/font").removeRecursively();
+  QFile::remove(menuData + "/OPENMENU.INI");
+  QFile::remove(menuData + "/1ST_READ.BIN");
+  QFile::remove(menuData + "/openmenu.elf");
+  QFile::remove(menuData + "/EMPTY.PVR");
+
+  QDir(menuLowData).removeRecursively();
+
+  // The OpenMenu databases (BOX.DAT, etc) are now natively baked into
+  // track05.iso using DreamcastIsoBuilder, so we do not copy them to the SD
+  // card FAT32 directly.
+
+  return success;
+}
+
+namespace {
+void scanDirectoryRecursivelyDc(DreamcastLibraryService *self, const QString &dirPath,
+                                QFileInfoList &outFiles) {
+  int totalFolders = 0;
+  QDirIterator dirIt(dirPath, QDir::Dirs | QDir::NoDotAndDotDot,
+                     QDirIterator::Subdirectories);
+  while (dirIt.hasNext()) {
+    dirIt.next();
+    totalFolders++;
+  }
+
+  QDirIterator it(dirPath, QDir::Files | QDir::NoDotAndDotDot,
+                  QDirIterator::Subdirectories);
+
+  int processedFolders = 0;
+  QString lastDir = "";
+
+  while (it.hasNext()) {
+    it.next();
+    QFileInfo fi = it.fileInfo();
+    if (fi.isFile() && !fi.fileName().startsWith("._")) {
+      QString currentDir = fi.absolutePath();
+
+      if (currentDir != lastDir) {
+        lastDir = currentDir;
+        processedFolders++;
+        if (self && totalFolders > 0) {
+          QMetaObject::invokeMethod(
+              self,
+              [self, processedFolders, totalFolders]() {
+                emit self->externalFilesScanProgress(processedFolders,
+                                                     totalFolders);
+              },
+              Qt::QueuedConnection);
+        }
+      }
+
+      QString ext = fi.suffix().toLower();
+      if (ext == "gdi" || ext == "cdi" || ext == "iso" || ext == "ccd") {
+        outFiles.append(fi);
+      }
+    }
+  }
+}
+} // namespace
+
+QVariantList DreamcastLibraryService::getExternalGameFilesData(const QStringList &fileUrls) {
+  QVariantList files;
+
+  for (const QString &urlStr : fileUrls) {
+    QUrl url(urlStr);
+    QString filePath = url.isLocalFile() ? url.toLocalFile() : urlStr;
+    QFileInfo baseInfo(filePath);
+
+    QFileInfoList toProcess;
+    if (baseInfo.isDir()) {
+      scanDirectoryRecursivelyDc(this, filePath, toProcess);
+    } else {
+      QString ext = baseInfo.suffix().toLower();
+      if (ext == "gdi" || ext == "cdi" || ext == "iso" || ext == "ccd") {
+        toProcess.append(baseInfo);
+      }
+    }
+
+    for (const QFileInfo &fileInfo : toProcess) {
+      if (fileInfo.exists() && fileInfo.isFile()) {
+        QVariantMap itemInfo;
+        itemInfo["extension"] = "." + fileInfo.suffix().toLower();
+
+        QString baseName = fileInfo.completeBaseName();
+        QString parentName = fileInfo.dir().dirName();
+
+        if (baseName.toLower() == "disc" || baseName.toLower() == "game" || baseName.toLower() == "track01" || baseName.toLower() == "track03") {
+            itemInfo["name"] = parentName;
+        } else {
+            itemInfo["name"] = baseName;
+        }
+
+        itemInfo["isRenamed"] = false;
+        itemInfo["parentPath"] = fileInfo.absolutePath();
+        itemInfo["path"] = fileInfo.absoluteFilePath();
+        itemInfo["size"] = fileInfo.size();
+        itemInfo["stats"] = QVariantMap{{"size", fileInfo.size()}};
+        files.append(itemInfo);
+      }
+    }
+  }
+  return files;
+}
+
+void DreamcastLibraryService::scanExternalFilesAsync(const QStringList &fileUrls,
+                                                 bool dummy) {
+  (void)dummy;
+  QtConcurrent::run([this, fileUrls]() {
+    QVariantList files = getExternalGameFilesData(fileUrls);
+
+    QMetaObject::invokeMethod(
+        this, [this, files]() { emit externalFilesScanFinished(true, files); },
+        Qt::QueuedConnection);
+  });
 }

@@ -66,6 +66,9 @@ Item {
             var btn = findChild(dreamcastManagerBlock, "btnImportActionsSelected");
             verify(btn !== null, "btnImportActionsSelected button is missing");
             
+            dreamcastManagerBlock.gameFiles = [ { "path": "/media/drive/fake_import_file.iso", "isRenamed": false, "name": "Fake Game", "extension": ".iso", "stats": {"size": 1350000000} } ];
+            wait(50);
+
             dreamcastManagerBlock.selectionMap = {};
             verify(btn.enabled === false, "Import button should disable when nothing is selected");
             
@@ -73,6 +76,9 @@ Item {
             verify(btn.enabled === true, "Import button should explicitly enable when item is mapped");
             
             btn.clicked();
+            wait(50); // allow async QML signals and C++ dispatches to process queue
+
+            verify(dreamcastLibraryService.wasImportGameCalled() === true, "DreamcastLibraryService::startImportGameAsync was NOT called. QML binding regression.");
             verify(true, "Import processing button passed logic execution");
         }
         
@@ -82,6 +88,7 @@ Item {
             
             btn.clicked();
             wait(50); // Allow C++ signal bindings to resolve and trigger visual state
+            verify(dreamcastLibraryService.wasSyncCheatsCalled() === true, "DreamcastLibraryService::startSyncCheatsAsync was NOT called.");
             verify(true, "Sync Cheats button passed logic execution");
         }
         
@@ -96,7 +103,27 @@ Item {
             verify(btn.enabled === true, "Delete button should explicitly enable when item is mapped");
             
             btn.clicked();
+            wait(50);
+            
+            var confirmBtn = findChild(dreamcastManagerBlock, "btnConfirmDelete");
+            verify(confirmBtn !== null, "btnConfirmDelete button is missing in popup");
+            confirmBtn.clicked();
+            wait(50);
+            
+            verify(systemUtils.wasDeleteGameCalled() === true, "SystemUtils::deleteGame was NOT called.");
             verify(true, "Delete execution successfully processed trigger logic in proxy");
+        }
+        
+        function test_setup_automatically_button() {
+            var btn = findChild(dreamcastManagerBlock, "btnSetupAutomatically");
+            if (btn !== null) {
+                btn.clicked();
+                wait(50);
+                verify(dreamcastLibraryService.wasInstallMenuCalled() === true, "DreamcastLibraryService::startInstallMenuAsync was NOT called.");
+                verify(true, "Setup automatically button passed execution");
+            } else {
+                verify(true, "btnSetupAutomatically absent, functionally passed");
+            }
         }
         
         function test_update_now_button() {
@@ -104,6 +131,8 @@ Item {
             // Dreamcast might use different properties, but since we mapped identically earlier...
             if (btn !== null) {
                 btn.clicked();
+                wait(50);
+                verify(dreamcastLibraryService.wasInstallMenuCalled() === true, "DreamcastLibraryService::startInstallMenuAsync was NOT called.");
                 verify(true, "Update button executed successfully against backend mocking");
             } else {
                 verify(true, "btnUpdateNow absent, functionally passed");

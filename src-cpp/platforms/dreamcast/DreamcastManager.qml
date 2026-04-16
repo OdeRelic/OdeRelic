@@ -74,13 +74,13 @@ Rectangle {
     property bool isScrapingIO: false
 
     // ── PS2 batch state ───────────────────────────────────────────────────────
-    property var batchConvertingMap: ({})
-    property var batchConvertingNames: ({})
+    property var activeImportMap: ({})
+    property var activeImportNames: ({})
     property int batchActiveJobs: 0
     property int batchMaxJobs: 1
-    property bool isBatchExtracting: false
-    property var extractQueue: []
-    property int extractIndex: 0
+    property bool isBatchImporting: false
+    property var importQueue: []
+    property int importIndex: 0
 
     property double targetDriveFreeSpace: 0
     property double targetDriveTotalSpace: 0
@@ -187,7 +187,7 @@ Rectangle {
         
         function onGamesFilesLoaded(dirPath, data) {
             if (dirPath === mainWindow.currentLibraryPath) {
-                isBatchExtracting = false
+                isBatchImporting = false
                 isScrapingIO = false
                 mainWindow.gameFiles = []
                 mainWindow.gameFiles = data.data
@@ -198,18 +198,18 @@ Rectangle {
         }
         
         function onArtDownloadFinished(sourcePath, success, message) {
-            if (mainWindow.batchConvertingMap[sourcePath] === true) {
-                let newMap = Object.assign({}, mainWindow.batchConvertingMap)
+            if (mainWindow.activeImportMap[sourcePath] === true) {
+                let newMap = Object.assign({}, mainWindow.activeImportMap)
                 delete newMap[sourcePath]
-                mainWindow.batchConvertingMap = newMap
+                mainWindow.activeImportMap = newMap
                 
                 mainWindow.batchActiveJobs--
-                extractProcessor()
+                importProcessor()
             }
         }
         
         function onImportFinished(sourcePath, success, destIsoPath, message) {
-            if (mainWindow.batchConvertingMap[sourcePath] === true) {
+            if (mainWindow.activeImportMap[sourcePath] === true) {
                 if (success) {
                     let res = dreamcastLibraryService.tryDetermineGameIdFromHex(sourcePath)
                     let gameIdTarget = (res && res.success) ? res.gameId : ""
@@ -226,11 +226,11 @@ Rectangle {
                 }
                 
                 // Fallback completion if network fails to dispatch
-                let newMap = Object.assign({}, mainWindow.batchConvertingMap)
+                let newMap = Object.assign({}, mainWindow.activeImportMap)
                 delete newMap[sourcePath]
-                mainWindow.batchConvertingMap = newMap
+                mainWindow.activeImportMap = newMap
                 mainWindow.batchActiveJobs--
-                extractProcessor()
+                importProcessor()
             }
         }
         
@@ -428,13 +428,13 @@ Rectangle {
         modal: true
         closePolicy: Popup.NoAutoClose
         
-        property bool isExtracting: mainWindow.isBatchExtracting
+        property bool isExtracting: mainWindow.isBatchImporting
         onIsExtractingChanged: {
             if (isExtracting) open(); else close();
         }
 
-        property int currentIndex: mainWindow.extractIndex
-        property int totalItems: mainWindow.extractQueue.length
+        property int currentIndex: mainWindow.importIndex
+        property int totalItems: mainWindow.importQueue.length
         property string actionName: "Importing DC games..."
         property color activeColor: accentPrimary
         
@@ -524,11 +524,11 @@ Rectangle {
                 }
                 onClicked: {
                     dreamcastLibraryService.cancelAllImports()
-                    mainWindow.isBatchExtracting = false
+                    mainWindow.isBatchImporting = false
                     mainWindow.batchActiveJobs = 0
-                    mainWindow.extractQueue = []
-                    mainWindow.extractIndex = 0
-                    mainWindow.batchConvertingMap = ({})
+                    mainWindow.importQueue = []
+                    mainWindow.importIndex = 0
+                    mainWindow.activeImportMap = ({})
                     mainWindow.selectionMap = ({})
                     mainWindow.librarySelectionMap = ({})
                     importProgressOverlay.close()
@@ -672,6 +672,7 @@ Rectangle {
                 
                 Button {
                     text: qsTr("Setup Automatically")
+                    objectName: "btnSetupAutomatically"
                     Layout.fillWidth: true
                     onClicked: {
                         createStructurePopup.close()
@@ -930,6 +931,11 @@ Rectangle {
                 onClicked: formatErrorPopup.close()
             }
         }
+        onClosed: {
+            if (mainWindow.currentLibraryPath === "") {
+                requestBack()
+            }
+        }
     }
 
     Popup {
@@ -1100,6 +1106,7 @@ Rectangle {
                 }
                 
                 Button {
+                    objectName: "btnConfirmDelete"
                     text: qsTr("Delete (" + deleteConfirmationPopup.selectedPaths.length + ")")
                     Layout.preferredWidth: 120
                     background: Rectangle {
@@ -1138,8 +1145,8 @@ Rectangle {
             
             if (!structureCheck.isFormatCorrect || !structureCheck.isPartitionCorrect) {
                 let err = []
-                if (!structureCheck.isFormatCorrect) err.push("• FAT32 or exFAT required")
-                if (!structureCheck.isPartitionCorrect) err.push("• MBR partition table required")
+                if (!structureCheck.isFormatCorrect) err.push("• FAT32 required (exFAT is unsupported)")
+                if (!structureCheck.isPartitionCorrect) err.push("• MBR partition table required (GPT is unsupported)")
                 formatErrorPopup.errorDetails = err.join("\n")
                 formatErrorPopup.open()
                 return
@@ -1238,49 +1245,30 @@ Rectangle {
     
 
     
-    function extractProcessor() {
-        if (!isBatchExtracting) return;
+    function importProcessor() {
+        if (!isBatchImporting) return;
         
-        while (mainWindow.batchActiveJobs < mainWindow.batchMaxJobs && extractIndex < extractQueue.length) {
-            let g = extractQueue[extractIndex]
-            extractIndex++;
+        while (mainWindow.batchActiveJobs < mainWindow.batchMaxJobs && importIndex < importQueue.length) {
+            let g = importQueue[importIndex]
+            importIndex++;
             let isoPath = g.path
-            let rawExt = g.extension || (g.path ? g.path.substring(g.path.lastIndexOf('.')) : "")
-            let isBin = (rawExt.toLowerCase() === ".bin" || rawExt.toLowerCase() === ".cue")
             
-            if (isBin) {
-                let tempIsoPath = mainWindow.currentLibraryPath + "/.orbit_temp_" + Math.floor(Math.random() * 1000000) + ".iso"
-                let newMap = Object.assign({}, mainWindow.batchConvertingMap)
-                newMap[g.path] = true
-                mainWindow.batchConvertingMap = newMap
-                
-                let newNames = Object.assign({}, mainWindow.batchConvertingNames)
-                newNames[g.path] = g.name
-                mainWindow.batchConvertingNames = newNames
-                
-                mainWindow.batchActiveJobs++;
-                dreamcastLibraryService.startConvertBinToIso(isoPath, tempIsoPath)
-                continue;
-            }
-
-            let res = dreamcastLibraryService.tryDetermineGameIdFromHex(isoPath)
-            
-            let newMap = Object.assign({}, mainWindow.batchConvertingMap)
+            let newMap = Object.assign({}, mainWindow.activeImportMap)
             newMap[isoPath] = true
-            mainWindow.batchConvertingMap = newMap
+            mainWindow.activeImportMap = newMap
             
-            let newNames = Object.assign({}, mainWindow.batchConvertingNames)
+            let newNames = Object.assign({}, mainWindow.activeImportNames)
             newNames[isoPath] = g.name
-            mainWindow.batchConvertingNames = newNames
+            mainWindow.activeImportNames = newNames
             
             mainWindow.batchActiveJobs++;
-            dreamcastLibraryService.startImportIsoAsync(isoPath, mainWindow.currentLibraryPath, res.gameId || "", g.name)
+            dreamcastLibraryService.startImportGameAsync([isoPath], mainWindow.currentLibraryPath)
             
             continue;
         }
         
-        if (mainWindow.batchActiveJobs === 0 && extractIndex >= extractQueue.length) {
-            isBatchExtracting = false
+        if (mainWindow.batchActiveJobs === 0 && importIndex >= importQueue.length) {
+            isBatchImporting = false
             mainWindow.selectionMap = ({})
             mainWindow.librarySelectionMap = ({})
             Qt.callLater(refreshGames)
@@ -1551,11 +1539,11 @@ Rectangle {
                             objectName: "btnImportActionsSelected"
                             Layout.fillWidth: true
                             property int selectedCount: Object.values(mainWindow.selectionMap).filter(v => v === true).length
-                            text: mainWindow.isBatchExtracting ? "Importing..." : "Import " + selectedCount + " Games"
-                            enabled: selectedCount > 0 || mainWindow.isBatchExtracting
+                            text: mainWindow.isBatchImporting ? "Importing..." : "Import " + selectedCount + " Games"
+                            enabled: selectedCount > 0 || mainWindow.isBatchImporting
                             opacity: enabled ? 1.0 : 0.6
                             onClicked: {
-                                if (mainWindow.isBatchExtracting) return;
+                                if (mainWindow.isBatchImporting) return;
                                 let queue = []
                                 let totalRequiredBytes = 0
                                 for (let i = 0; i < importGames.length; i++) {
@@ -1589,11 +1577,11 @@ Rectangle {
                                 }
 
                                 dreamcastLibraryService.resetCancelFlag()
-                                mainWindow.extractQueue = queue
-                                mainWindow.extractIndex = 0
-                                mainWindow.isBatchExtracting = true
+                                mainWindow.importQueue = queue
+                                mainWindow.importIndex = 0
+                                mainWindow.isBatchImporting = true
                                 mainWindow.batchActiveJobs = 0
-                                mainWindow.extractProcessor()
+                                mainWindow.importProcessor()
                             }
                             contentItem: Text {
                                 text: parent.text; color: "white"; font.bold: true; font.pixelSize: 11
@@ -2416,7 +2404,7 @@ Rectangle {
                                             anchors.fill: parent
                                             color: "#EA131620"
                                             radius: 12
-                                            visible: mainWindow.batchConvertingMap[modelData.path] === true
+                                            visible: mainWindow.activeImportMap[modelData.path] === true
                                             z: 50
                                             
                                             ColumnLayout {
@@ -2536,7 +2524,7 @@ Rectangle {
                                             anchors.fill: parent
                                             color: "#EA131620"
                                             radius: 12
-                                            visible: mainWindow.batchConvertingMap[modelData.path] === true
+                                            visible: mainWindow.activeImportMap[modelData.path] === true
                                             z: 50
                                             
                                             RowLayout {

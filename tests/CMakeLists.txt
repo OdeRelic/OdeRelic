@@ -146,12 +146,15 @@ add_executable(DreamcastLibraryServiceTests
     ../src-cpp/platforms/dreamcast/dreamcast_library_service.h
     ../src-cpp/core/filesystem/filesystem_cache.cpp
     ../src-cpp/core/filesystem/filesystem_cache.h
-    ../src-cpp/platforms/dreamcast/openmenu_dat_manager.cpp
-    ../src-cpp/platforms/dreamcast/openmenu_dat_manager.h
-    ../src-cpp/platforms/dreamcast/pvr_texture_coder.cpp
-    ../src-cpp/platforms/dreamcast/pvr_texture_coder.h
+    ../src-cpp/platforms/dreamcast/ArtNDataUtils/openmenu_dat_manager.cpp
+    ../src-cpp/platforms/dreamcast/ArtNDataUtils/openmenu_dat_manager.h
+    ../src-cpp/platforms/dreamcast/ArtNDataUtils/pvr_texture_coder.cpp
+    ../src-cpp/platforms/dreamcast/ArtNDataUtils/pvr_texture_coder.h
     ../src-cpp/core/common/system_utils.cpp
     ../src-cpp/core/common/system_utils.h
+    ../src-cpp/platforms/dreamcast/GDRomUtils/gdrom_builder.cpp
+    ../src-cpp/platforms/dreamcast/GDRomUtils/dreamcast_iso_builder.cpp
+    ../src-cpp/platforms/dreamcast/GDRomUtils/gdrom_builder.h
 )
 target_link_libraries(DreamcastLibraryServiceTests PRIVATE
     Qt6::Core
@@ -159,9 +162,68 @@ target_link_libraries(DreamcastLibraryServiceTests PRIVATE
     Qt6::Test
     Qt6::Network
     Qt6::Concurrent
+    archive_static
 )
-target_include_directories(DreamcastLibraryServiceTests PRIVATE ../src-cpp/core ../src-cpp/core/filesystem ../src-cpp/core/common ../src-cpp/core/i18n ../src-cpp/core/logging ../src-cpp/platforms/ps2 ../src-cpp/platforms/ngc ../src-cpp/platforms/psx ../src-cpp/platforms/dreamcast)
+target_include_directories(DreamcastLibraryServiceTests PRIVATE ../src-cpp/core ../src-cpp/core/filesystem ../src-cpp/core/common ../src-cpp/core/i18n ../src-cpp/core/logging ../src-cpp/platforms/ps2 ../src-cpp/platforms/ngc ../src-cpp/platforms/psx ../src-cpp/platforms/dreamcast ${libarchive_SOURCE_DIR}/libarchive)
 add_test(NAME DreamcastLibraryServiceTests COMMAND DreamcastLibraryServiceTests)
+
+# Gdrom Builder Tests
+add_executable(GdromBuilderTests
+    cpp/test_gdrom_builder.cpp
+    ../src-cpp/platforms/dreamcast/GDRomUtils/gdrom_builder.cpp
+    ../src-cpp/platforms/dreamcast/GDRomUtils/gdrom_builder.h
+    ../src-cpp/platforms/dreamcast/GDRomUtils/dreamcast_iso_builder.cpp
+    ../src-cpp/platforms/dreamcast/GDRomUtils/dreamcast_iso_builder.h
+)
+target_link_libraries(GdromBuilderTests PRIVATE Qt6::Core Qt6::Test archive_static)
+target_include_directories(GdromBuilderTests PRIVATE ../src-cpp/core ../src-cpp/platforms/dreamcast ../src-cpp/platforms/dreamcast/GDRomUtils ${libarchive_SOURCE_DIR}/libarchive)
+add_test(NAME GdromBuilderTests COMMAND GdromBuilderTests)
+
+# Dreamcast Iso Builder Tests
+add_executable(DreamcastIsoBuilderTests
+    cpp/test_dreamcast_iso_builder.cpp
+    ../src-cpp/platforms/dreamcast/GDRomUtils/dreamcast_iso_builder.cpp
+    ../src-cpp/platforms/dreamcast/GDRomUtils/dreamcast_iso_builder.h
+)
+target_link_libraries(DreamcastIsoBuilderTests PRIVATE Qt6::Core Qt6::Test)
+target_include_directories(DreamcastIsoBuilderTests PRIVATE ../src-cpp/core ../src-cpp/platforms/dreamcast ../src-cpp/platforms/dreamcast/GDRomUtils)
+add_test(NAME DreamcastIsoBuilderTests COMMAND DreamcastIsoBuilderTests)
+
+# OpenMenu DAT Manager Tests
+add_executable(OpenMenuDatManagerTests
+    cpp/test_openmenu_dat_manager.cpp
+    ../src-cpp/platforms/dreamcast/ArtNDataUtils/openmenu_dat_manager.cpp
+    ../src-cpp/platforms/dreamcast/ArtNDataUtils/openmenu_dat_manager.h
+    ../src-cpp/platforms/dreamcast/ArtNDataUtils/pvr_texture_coder.cpp
+    ../src-cpp/platforms/dreamcast/ArtNDataUtils/pvr_texture_coder.h
+)
+target_link_libraries(OpenMenuDatManagerTests PRIVATE Qt6::Core Qt6::Gui Qt6::Test)
+target_include_directories(OpenMenuDatManagerTests PRIVATE ../src-cpp/core ../src-cpp/platforms/dreamcast ../src-cpp/platforms/dreamcast/ArtNDataUtils)
+add_test(NAME OpenMenuDatManagerTests COMMAND OpenMenuDatManagerTests)
+
+# OpenMenu Image Provider Tests
+add_executable(OpenMenuImageProviderTests
+    cpp/test_openmenu_image_provider.cpp
+    ../src-cpp/platforms/dreamcast/ArtNDataUtils/openmenu_image_provider.cpp
+    ../src-cpp/platforms/dreamcast/ArtNDataUtils/openmenu_image_provider.h
+    ../src-cpp/platforms/dreamcast/ArtNDataUtils/openmenu_dat_manager.cpp
+    ../src-cpp/platforms/dreamcast/ArtNDataUtils/openmenu_dat_manager.h
+    ../src-cpp/platforms/dreamcast/ArtNDataUtils/pvr_texture_coder.cpp
+    ../src-cpp/platforms/dreamcast/ArtNDataUtils/pvr_texture_coder.h
+)
+target_link_libraries(OpenMenuImageProviderTests PRIVATE Qt6::Core Qt6::Gui Qt6::Qml Qt6::Quick Qt6::Test)
+target_include_directories(OpenMenuImageProviderTests PRIVATE ../src-cpp/core ../src-cpp/platforms/dreamcast ../src-cpp/platforms/dreamcast/ArtNDataUtils)
+add_test(NAME OpenMenuImageProviderTests COMMAND OpenMenuImageProviderTests)
+
+# PVR Texture Coder Tests
+add_executable(PvrTextureCoderTests
+    cpp/test_pvr_texture_coder.cpp
+    ../src-cpp/platforms/dreamcast/ArtNDataUtils/pvr_texture_coder.cpp
+    ../src-cpp/platforms/dreamcast/ArtNDataUtils/pvr_texture_coder.h
+)
+target_link_libraries(PvrTextureCoderTests PRIVATE Qt6::Core Qt6::Gui Qt6::Test)
+target_include_directories(PvrTextureCoderTests PRIVATE ../src-cpp/core ../src-cpp/platforms/dreamcast ../src-cpp/platforms/dreamcast/ArtNDataUtils)
+add_test(NAME PvrTextureCoderTests COMMAND PvrTextureCoderTests)
 
 # QML UI Tests
 add_executable(OdeRelicUITests

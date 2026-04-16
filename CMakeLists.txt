@@ -1,6 +1,6 @@
-set(CMAKE_POLICY_VERSION_MINIMUM 3.0 CACHE STRING "Suppress obsolete Zstandard policies implicitly")
+set(CMAKE_POLICY_VERSION_MINIMUM 3.5 CACHE STRING "Suppress obsolete Zstandard policies implicitly")
 cmake_minimum_required(VERSION 3.16)
-project(OdeRelic VERSION 0.5.2 LANGUAGES CXX)
+project(OdeRelic VERSION 0.5.3 LANGUAGES CXX)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
@@ -27,6 +27,33 @@ set(ZSTD_BUILD_TESTS OFF CACHE BOOL "Disable zstd tests" FORCE)
 
 FetchContent_MakeAvailable(zstd)
 
+FetchContent_Declare(
+  libarchive
+  GIT_REPOSITORY https://github.com/libarchive/libarchive.git
+  GIT_TAG        v3.7.2
+)
+set(ENABLE_TEST OFF CACHE BOOL "" FORCE)
+set(ENABLE_TAR OFF CACHE BOOL "" FORCE)
+set(ENABLE_CPIO OFF CACHE BOOL "" FORCE)
+set(ENABLE_CAT OFF CACHE BOOL "" FORCE)
+set(ENABLE_UNZIP OFF CACHE BOOL "" FORCE)
+set(ENABLE_BZip2 OFF CACHE BOOL "" FORCE)
+set(ENABLE_LZMA OFF CACHE BOOL "" FORCE)
+set(ENABLE_LZO OFF CACHE BOOL "" FORCE)
+set(ENABLE_LZ4 OFF CACHE BOOL "" FORCE)
+set(ENABLE_ZSTD OFF CACHE BOOL "" FORCE)
+set(ENABLE_ZLIB OFF CACHE BOOL "" FORCE)
+set(ENABLE_CRYPTO OFF CACHE BOOL "" FORCE)
+set(ENABLE_EXPAT OFF CACHE BOOL "" FORCE)
+set(ENABLE_PCREPOSIX OFF CACHE BOOL "" FORCE)
+set(ENABLE_LIBB2 OFF CACHE BOOL "" FORCE)
+set(ENABLE_CACA OFF CACHE BOOL "" FORCE)
+set(ENABLE_ICONV OFF CACHE BOOL "" FORCE)
+set(ENABLE_ACL OFF CACHE BOOL "" FORCE)
+set(ENABLE_XATTR OFF CACHE BOOL "" FORCE)
+
+FetchContent_MakeAvailable(libarchive)
+
 enable_testing()
 
 option(ENABLE_COVERAGE "Enable C++ GCC/Clang code coverage analysis profiles" OFF)
@@ -49,12 +76,15 @@ qt_add_executable(OdeRelic WIN32
     src-cpp/platforms/psx/ps1_xstation_library_service.h
     src-cpp/platforms/dreamcast/dreamcast_library_service.cpp
     src-cpp/platforms/dreamcast/dreamcast_library_service.h
-    src-cpp/platforms/dreamcast/openmenu_dat_manager.cpp
-    src-cpp/platforms/dreamcast/openmenu_dat_manager.h
-    src-cpp/platforms/dreamcast/openmenu_image_provider.cpp
-    src-cpp/platforms/dreamcast/openmenu_image_provider.h
-    src-cpp/platforms/dreamcast/pvr_texture_coder.cpp
-    src-cpp/platforms/dreamcast/pvr_texture_coder.h
+    src-cpp/platforms/dreamcast/ArtNDataUtils/openmenu_dat_manager.cpp
+    src-cpp/platforms/dreamcast/ArtNDataUtils/openmenu_dat_manager.h
+    src-cpp/platforms/dreamcast/ArtNDataUtils/openmenu_image_provider.cpp
+    src-cpp/platforms/dreamcast/ArtNDataUtils/openmenu_image_provider.h
+    src-cpp/platforms/dreamcast/GDRomUtils/gdrom_builder.cpp
+    src-cpp/platforms/dreamcast/GDRomUtils/dreamcast_iso_builder.cpp
+    src-cpp/platforms/dreamcast/GDRomUtils/gdrom_builder.h
+    src-cpp/platforms/dreamcast/ArtNDataUtils/pvr_texture_coder.cpp
+    src-cpp/platforms/dreamcast/ArtNDataUtils/pvr_texture_coder.h
     src-cpp/platforms/ngc/rvz_native_converter.cpp
     src-cpp/platforms/ngc/rvz_native_converter.h
     src-cpp/core/i18n/translation_manager.cpp
@@ -87,7 +117,8 @@ target_link_libraries(OdeRelic PRIVATE
     Qt6::Concurrent
 )
 
-target_link_libraries(OdeRelic PRIVATE libzstd_static)
+target_link_libraries(OdeRelic PRIVATE libzstd_static archive_static)
+target_include_directories(OdeRelic PRIVATE ${libarchive_SOURCE_DIR}/libarchive)
 
 # Application metadata
 if(APPLE)

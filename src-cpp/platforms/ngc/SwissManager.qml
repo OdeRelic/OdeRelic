@@ -959,6 +959,11 @@ Rectangle {
                 onClicked: formatErrorPopup.close()
             }
         }
+        onClosed: {
+            if (mainWindow.currentLibraryPath === "") {
+                requestBack()
+            }
+        }
     }
 
     Popup {
