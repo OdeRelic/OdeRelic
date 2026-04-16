@@ -1,7 +1,7 @@
 import QtQuick
 import QtQuick.Controls
 import QtTest
-import "../../src-cpp/psx" as Src
+import "../../src-cpp/platforms/psx" as Src
 
 Item {
     id: container

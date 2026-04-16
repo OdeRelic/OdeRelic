@@ -16,7 +16,7 @@ Rectangle {
     property color bgCard: "transparent" // Fully transparent cards matching mock
     property color cardBorderNormal: "#88FF4D4D" // Soft red border
     property color cardBorderHover: "#FFFF4D4D" // Hard glowing red border
-    property color accentPrimary: "#FF7A00" // Classic Gamecube Spice Orange
+    property color accentPrimary: "#FF7A00" // Classic Dreamcast Swirl Orange
     property color accentHover: "#FF9233"
 
     property color textPrimary: "#FFFFFF"
@@ -50,7 +50,7 @@ Rectangle {
         })
     }
     
-    property int currentTabIndex: 0
+    property int currentTabIndex: 1
     property var selectionMap: ({})
     property var librarySelectionMap: ({})
     property string searchQuery: ""
@@ -62,12 +62,11 @@ Rectangle {
     
     property int libraryScanCurrent: 0
     property int libraryScanTotal: 0
-    property string swissSetupStatusStr: "Initializing..."
-    property int swissSetupPercent: 0
-    property bool swissUpdateAvailable: false
-    property string swissLocalVersion: ""
-    property string swissRemoteVersion: ""
-    property string savedOdeType: "Standalone"
+    property string openMenuSetupStatusStr: "Initializing..."
+    property int openMenuSetupPercent: 0
+    property bool openMenuUpdateAvailable: false
+    property string openMenuVersion: ""
+    property string openMenuRemoteVersion: ""
     
     property string sortCriteria: "name"
     property bool sortAscending: true
@@ -97,13 +96,19 @@ Rectangle {
     onCurrentLibraryPathChanged: {
         updateStorageBars()
         if (mainWindow.currentLibraryPath !== "") {
-            let structureCheck = swissLibraryService.checkSwissFolder(mainWindow.currentLibraryPath)
-            if (!structureCheck.isValid && structureCheck.hasSwissFile && !structureCheck.hasSwiss) {
-                console.log("Library path assigned. Auto-repairing missing swiss patches/cheats hierarchy...");
-                if (!swissSetupProgressOverlay.opened) {
-                    swissSetupProgressOverlay.open()
+            let structureCheck = dreamcastLibraryService.checkDreamcastFolder(mainWindow.currentLibraryPath)
+            if (!structureCheck.isValid && structureCheck.isFormatCorrect && !structureCheck.isPartitionCorrect) {
+                console.log("Library path assigned. Auto-repairing missing openMenu patches/cheats hierarchy...");
+                if (!openMenuSetupProgressOverlay.opened) {
+                    openMenuSetupProgressOverlay.open()
                 }
-                swissLibraryService.startSwissSetupAsync(mainWindow.currentLibraryPath, structureCheck.savedOde)
+                dreamcastLibraryService.startInstallMenuAsync(mainWindow.currentLibraryPath)
+            } else if (structureCheck.isValid && structureCheck.hasOpenMenuDb !== undefined && !structureCheck.hasOpenMenuDb) {
+                console.log("OpenMenu is valid but missing DAT ImageDBs. Auto-downloading...");
+                if (!openMenuSetupProgressOverlay.opened) {
+                    openMenuSetupProgressOverlay.open()
+                }
+                dreamcastLibraryService.startInstallMenuDbAsync(mainWindow.currentLibraryPath)
             }
         }
     }
@@ -173,8 +178,8 @@ Rectangle {
     }
 
     Connections {
-        target: swissLibraryService
-        function onImportIsoProgress(sourcePath, percent, MBps) {
+        target: dreamcastLibraryService
+        function onImportProgress(sourcePath, percent, MBps) {
             mainWindow.activeTargetPercent = percent
             mainWindow.activeTargetMBps = MBps
         }
@@ -203,17 +208,17 @@ Rectangle {
             }
         }
         
-        function onImportIsoFinished(sourcePath, success, destIsoPath, message) {
+        function onImportFinished(sourcePath, success, destIsoPath, message) {
             if (mainWindow.batchConvertingMap[sourcePath] === true) {
                 if (success) {
-                    let res = swissLibraryService.tryDetermineGameIdFromHex(destIsoPath)
-                    if (res && res.success) {
-                        let artFolder = mainWindow.currentLibraryPath + "/ART"
-                        swissLibraryService.startDownloadArtAsync(artFolder, res.gameId, sourcePath)
+                    let res = dreamcastLibraryService.tryDetermineGameIdFromHex(sourcePath)
+                    let gameIdTarget = (res && res.success) ? res.gameId : ""
+                    let artFolder = destIsoPath
+                    if (gameIdTarget !== "") {
+                        dreamcastLibraryService.startDownloadArtAsync(artFolder, gameIdTarget, sourcePath)
                         return; // Await async net dispatch
                     } else {
-                        console.error("Batch ISO Import Failed: Decrypted ISO lacks valid GameCube GameID Header.")
-                        mainWindow.showToast("Import failed: " + sourcePath + " -> Bad decrypted ISO header", true)
+                        console.log("Batch ISO Import Success: No GameID natively extracted, skipping artwork fetching.")
                     }
                 } else {
                     console.error("Batch ISO Import Failed: " + message)
@@ -239,7 +244,7 @@ Rectangle {
             mainWindow.libraryScanTotal = total
         }
         
-        function onExternalFilesScanFinished(isGc, files) {
+        function onExternalFilesScanFinished(isDc, files) {
             folderScanOverlay.close()
             let arr = [].concat(mainWindow.gameFiles)
             for (let i = 0; i < files.length; i++) {
@@ -263,65 +268,31 @@ Rectangle {
             mainWindow.showToast(qsTr("Successfully synchronized ") + syncedCount + qsTr(" cheat files."), false)
         }
         
-        function onSetupSwissProgress(percent, statusText) {
-            mainWindow.swissSetupStatusStr = statusText
-            mainWindow.swissSetupPercent = percent
+        function onSetupMenuProgress(percent, statusText) {
+            mainWindow.openMenuSetupStatusStr = statusText
+            mainWindow.openMenuSetupPercent = percent
         }
         
-        function onSetupSwissFinished(success, message) {
-            swissSetupProgressOverlay.close()
+        function onSetupMenuFinished(success, message) {
+            openMenuSetupProgressOverlay.close()
             mainWindow.isScrapingIO = true
             refreshGames()
-            swissUpdateAvailable = false // Clear banner after setup
+            openMenuUpdateAvailable = false // Clear banner after setup
             currentTabIndex = 0
-            console.log("Swiss Setup result:", success, message)
+            console.log("OpenMenu Setup result:", success, message)
         }
         
-        function onSwissUpdateCheckFinished(updateAvailable, localVersion, remoteVersion, savedOde) {
-            mainWindow.swissUpdateAvailable = updateAvailable
-            mainWindow.swissLocalVersion = localVersion
-            mainWindow.swissRemoteVersion = remoteVersion
-            mainWindow.savedOdeType = savedOde
+        function onMenuUpdateCheckFinished(updateAvailable, localVersion, remoteVersion) {
+            mainWindow.openMenuUpdateAvailable = updateAvailable
+            mainWindow.openMenuVersion = localVersion
+            mainWindow.openMenuRemoteVersion = remoteVersion
             
             if (updateAvailable) {
-                console.log("Swiss Update Available:", remoteVersion)
-                swissUpdateModal.open()
+                console.log("OpenMenu Update Available:", remoteVersion)
+                openMenuUpdateModal.open()
             }
         }
         
-        function onConversionFinished(sourcePath, success, destIsoPath, message) {
-            if (mainWindow.batchConvertingMap[sourcePath] === true) {
-                let currentName = mainWindow.batchConvertingNames[sourcePath]
-                
-                if (success) {
-                    let res = swissLibraryService.tryDetermineGameIdFromHex(destIsoPath)
-                    if (res && res.success) {
-                        let isOriginalCD = sourcePath.toLowerCase().endsWith(".bin") || sourcePath.toLowerCase().endsWith(".cue");
-                        let renameRes = swissLibraryService.renameGamefile(destIsoPath, mainWindow.currentLibraryPath, res.gameId, currentName)
-                        if (renameRes.success) {
-                            let artFolder = mainWindow.currentLibraryPath + "/ART"
-                            swissLibraryService.startDownloadArtAsync(artFolder, res.gameId, sourcePath)
-                            // We do NOT delete the user's original .bin/.cue source file anymore
-                            return; // Await async net dispatch
-                        } else {
-                            console.error("Batch Move Failed: " + renameRes.message)
-                        }
-                    } else {
-                        // We still delete destIsoPath here because it's the internally generated temp iso that failed GC validation
-                        swissLibraryService.deleteFileAndCue(destIsoPath)
-                    }
-                } else {
-                    console.error("Batch CONVERSION Failed: " + message)
-                }
-                
-                // Fallback completion if network fails to dispatch
-                let newMap = Object.assign({}, mainWindow.batchConvertingMap)
-                delete newMap[sourcePath]
-                mainWindow.batchConvertingMap = newMap
-                mainWindow.batchActiveJobs--
-                extractProcessor()
-            }
-        }
     }
 
     
@@ -345,14 +316,14 @@ Rectangle {
             anchors.margins: 20
             spacing: 15
             Text {
-                text: qsTr("Setup Swiss Target")
+                text: qsTr("Setup OpenMenu Target")
                 color: accentPrimary
                 font.bold: true
                 font.pixelSize: 18
                 Layout.alignment: Qt.AlignHCenter
             }
             Text {
-                text: qsTr("Please select the root directory of your SD Card or USB drive to mount the GC ecosystem natively.")
+                text: qsTr("Please select the root directory of your SD Card or USB drive to mount the DC ecosystem natively.")
                 color: textSecondary
                 font.pixelSize: 14
                 wrapMode: Text.Wrap
@@ -464,7 +435,7 @@ Rectangle {
 
         property int currentIndex: mainWindow.extractIndex
         property int totalItems: mainWindow.extractQueue.length
-        property string actionName: "Importing GC games..."
+        property string actionName: "Importing DC games..."
         property color activeColor: accentPrimary
         
         onOpened: {
@@ -552,7 +523,7 @@ Rectangle {
                     border.color: borderGlass; border.width: 1; radius: 4
                 }
                 onClicked: {
-                    swissLibraryService.cancelAllImports()
+                    dreamcastLibraryService.cancelAllImports()
                     mainWindow.isBatchExtracting = false
                     mainWindow.batchActiveJobs = 0
                     mainWindow.extractQueue = []
@@ -568,7 +539,7 @@ Rectangle {
     }
     
     Popup {
-        id: swissSetupProgressOverlay
+        id: openMenuSetupProgressOverlay
         parent: Overlay.overlay
         anchors.centerIn: parent
         width: 320
@@ -586,13 +557,13 @@ Rectangle {
             anchors.centerIn: parent
             spacing: 12
             Text {
-                text: "Standing up Swiss Ecosystem"
+                text: "Standing up OpenMenu Ecosystem"
                 color: accentPrimary
                 font.bold: true; font.pixelSize: 15
                 Layout.alignment: Qt.AlignHCenter
             }
             Text {
-                text: mainWindow.swissSetupStatusStr
+                text: mainWindow.openMenuSetupStatusStr
                 color: textSecondary; font.pixelSize: 12
                 Layout.alignment: Qt.AlignHCenter
             }
@@ -601,14 +572,14 @@ Rectangle {
                 Layout.alignment: Qt.AlignHCenter
                 Rectangle {
                     anchors.left: parent.left; anchors.top: parent.top; anchors.bottom: parent.bottom
-                    width: (mainWindow.swissSetupPercent / 100.0) * parent.width
+                    width: (mainWindow.openMenuSetupPercent / 100.0) * parent.width
                     color: accentPrimary
                     radius: 4
                     Behavior on width { NumberAnimation { duration: 250; easing.type: Easing.InOutQuad } }
                 }
             }
             Text {
-                text: mainWindow.swissSetupPercent + "%"
+                text: mainWindow.openMenuSetupPercent + "%"
                 color: "white"; font.pixelSize: 10; font.bold: true
                 Layout.alignment: Qt.AlignHCenter
             }
@@ -624,7 +595,7 @@ Rectangle {
         modal: true
         closePolicy: Popup.NoAutoClose
         
-        property string selectedOde: "PicoBoot"
+        property string selectedOde: "OpenMenu"
         
         background: Rectangle {
             color: "#EA0A1929"
@@ -639,7 +610,7 @@ Rectangle {
             spacing: 12
             
             Text {
-                text: qsTr("Swiss-GC Auto Setup")
+                text: qsTr("Dreamcast Auto Setup")
                 color: accentPrimary
                 font.bold: true
                 font.pixelSize: 18
@@ -647,7 +618,7 @@ Rectangle {
             }
             
             Text {
-                text: qsTr("We couldn't detect a valid Swiss installation. Would you like OdeRelic to fetch the latest official release from GitHub and provision it for your drive automatically?")
+                text: qsTr("We couldn't detect a valid OpenMenu installation. Would you like OdeRelic to fetch the latest official release from GitHub and provision it for your drive automatically?")
                 color: textPrimary
                 font.pixelSize: 13
                 wrapMode: Text.WordWrap
@@ -670,7 +641,7 @@ Rectangle {
                 ComboBox {
                     id: odeTypeSelector
                     Layout.fillWidth: true
-                    model: ["PicoBoot", "GC Loader", "KunaiGC", "Standalone"]
+                    model: ["OpenMenu", "GDEMU", "MODE", "USB-GDROM", "Standalone"]
                     onCurrentTextChanged: createStructurePopup.selectedOde = currentText
                 }
             }
@@ -704,8 +675,8 @@ Rectangle {
                     Layout.fillWidth: true
                     onClicked: {
                         createStructurePopup.close()
-                        swissSetupProgressOverlay.open()
-                        swissLibraryService.startSwissSetupAsync(mainWindow.currentLibraryPath, createStructurePopup.selectedOde)
+                        openMenuSetupProgressOverlay.open()
+                        dreamcastLibraryService.startInstallMenuAsync(mainWindow.currentLibraryPath)
                     }
                     contentItem: Text {
                         text: parent.text; color: "white"; font.bold: true; horizontalAlignment: Text.AlignHCenter; verticalAlignment: Text.AlignVCenter
@@ -720,7 +691,7 @@ Rectangle {
     }
 
     Popup {
-        id: swissUpdateModal
+        id: openMenuUpdateModal
         parent: Overlay.overlay
         anchors.centerIn: parent
         width: 320
@@ -741,7 +712,7 @@ Rectangle {
             spacing: 15
             
             Text {
-                text: qsTr("Swiss Update Available")
+                text: qsTr("OpenMenu Update Available")
                 color: "white"
                 font.bold: true
                 font.pixelSize: 16
@@ -749,8 +720,8 @@ Rectangle {
             }
             
             Text {
-                text: qsTr("Current Version: ") + mainWindow.swissLocalVersion + "\n" +
-                      qsTr("Latest Version: ") + mainWindow.swissRemoteVersion
+                text: qsTr("Current Version: ") + mainWindow.openMenuVersion + "\n" +
+                      qsTr("Latest Version: ") + mainWindow.openMenuRemoteVersion
                 color: textSecondary
                 font.pixelSize: 13
                 Layout.alignment: Qt.AlignHCenter
@@ -776,7 +747,7 @@ Rectangle {
                 Button {
                     text: qsTr("No")
                     Layout.fillWidth: true
-                    onClicked: swissUpdateModal.close()
+                    onClicked: openMenuUpdateModal.close()
                     contentItem: Text {
                         text: parent.text; color: textSecondary; font.bold: true; horizontalAlignment: Text.AlignHCenter; verticalAlignment: Text.AlignVCenter
                     }
@@ -790,9 +761,9 @@ Rectangle {
                     text: qsTr("Yes")
                     Layout.fillWidth: true
                     onClicked: {
-                        swissUpdateModal.close()
-                        swissSetupProgressOverlay.open()
-                        swissLibraryService.startSwissSetupAsync(mainWindow.currentLibraryPath, mainWindow.savedOdeType)
+                        openMenuUpdateModal.close()
+                        openMenuSetupProgressOverlay.open()
+                        dreamcastLibraryService.startInstallMenuAsync(mainWindow.currentLibraryPath)
                     }
                     contentItem: Text {
                         text: parent.text; color: "white"; font.bold: true; horizontalAlignment: Text.AlignHCenter; verticalAlignment: Text.AlignVCenter
@@ -916,7 +887,7 @@ Rectangle {
             }
             
             Text {
-                text: qsTr("This drive cannot be used with Swiss.")
+                text: qsTr("This drive cannot be used with OpenMenu.")
                 color: textPrimary
                 font.pixelSize: 14
                 font.bold: true
@@ -1160,10 +1131,10 @@ Rectangle {
 
     FolderDialog {
         id: folderDialog
-        title: qsTr("Select SWISS Root Folder")
+        title: qsTr("Select OPENMENU Root Folder")
         onAccepted: {
-            let cleanPath = swissLibraryService.urlToLocalFile(selectedFolder.toString())
-            let structureCheck = swissLibraryService.checkSwissFolder(cleanPath)
+            let cleanPath = dreamcastLibraryService.urlToLocalFile(selectedFolder.toString())
+            let structureCheck = dreamcastLibraryService.checkDreamcastFolder(cleanPath)
             
             if (!structureCheck.isFormatCorrect || !structureCheck.isPartitionCorrect) {
                 let err = []
@@ -1177,17 +1148,17 @@ Rectangle {
             mainWindow.currentLibraryPath = cleanPath
             
             if (!structureCheck.isValid) {
-                if (structureCheck.hasSwissFile && !structureCheck.hasSwiss) {
-                    console.log("Auto-repairing missing swiss structure...");
-                    swissSetupProgressOverlay.open()
-                    swissLibraryService.startSwissSetupAsync(cleanPath, structureCheck.savedOde)
+                if (structureCheck.isFormatCorrect && !structureCheck.isPartitionCorrect) {
+                    console.log("Auto-repairing missing openMenu structure...");
+                    openMenuSetupProgressOverlay.open()
+                    dreamcastLibraryService.startInstallMenuAsync(cleanPath)
                 } else {
                     createStructurePopup.open()
                 }
             } else {
                 mainWindow.isScrapingIO = true
                 refreshGames()
-                swissLibraryService.checkSwissUpdateAsync(cleanPath)
+                dreamcastLibraryService.checkOpenMenuUpdateAsync(cleanPath)
                 currentTabIndex = 0
             }
         }
@@ -1204,21 +1175,21 @@ Rectangle {
         id: addGamesDialog
         title: qsTr("Select Games to Import")
         fileMode: FileDialog.OpenFiles
-        nameFilters: ["GC Images (*.iso *.gcm *.rvz *.gcz)", "All files (*)"]
+        nameFilters: ["DC Images (*.gdi *.cdi *.iso *.ccd)", "All files (*)"]
         onAccepted: {
             let urls = []
             for (let i = 0; i < selectedFiles.length; i++) urls.push(selectedFiles[i].toString())
             folderScanOverlay.open()
-            swissLibraryService.scanExternalFilesAsync(urls, false)
+            dreamcastLibraryService.scanExternalFilesAsync(urls, false)
         }
     }
 
     FolderDialog {
         id: addGamesFolderDialog
-        title: qsTr("Select Folder to Import GC Games")
+        title: qsTr("Select Folder to Import DC Games")
         onAccepted: {
             folderScanOverlay.open()
-            swissLibraryService.scanExternalFilesAsync([selectedFolder.toString()], false)
+            dreamcastLibraryService.scanExternalFilesAsync([selectedFolder.toString()], false)
         }
     }
     
@@ -1226,7 +1197,7 @@ Rectangle {
     
     function refreshGames() {
         if (currentLibraryPath !== "") {
-            swissLibraryService.startGetGamesFilesAsync(currentLibraryPath)
+            dreamcastLibraryService.startGetGamesFilesAsync(currentLibraryPath)
         }
     }
 
@@ -1241,19 +1212,21 @@ Rectangle {
         sorted.sort(function(a, b) {
             let valA, valB;
             if (sortCriteria === "name") {
-                let nameA = a.name; let gidA = extractGameId(a.name);
+                let nameA = a.name ? a.name : (a.folderName || "");
+                let gidA = extractGameId(nameA);
                 if (gidA && nameA.startsWith(gidA)) nameA = nameA.substring(gidA.length + 1);
                 
-                let nameB = b.name; let gidB = extractGameId(b.name);
+                let nameB = b.name ? b.name : (b.folderName || "");
+                let gidB = extractGameId(nameB);
                 if (gidB && nameB.startsWith(gidB)) nameB = nameB.substring(gidB.length + 1);
 
                 valA = nameA.toLowerCase(); valB = nameB.toLowerCase();
             } else if (sortCriteria === "size") {
-                valA = a.stats.size; valB = b.stats.size;
+                valA = a.size || 0; valB = b.size || 0;
             } else if (sortCriteria === "slu") {
-                valA = extractGameId(a.name); valB = extractGameId(b.name);
+                valA = extractGameId(a.name || ""); valB = extractGameId(b.name || "");
             } else if (sortCriteria === "media") {
-                valA = a.path.includes("/CD/") ? 0 : 1; valB = b.path.includes("/CD/") ? 0 : 1;
+                valA = (a.path || "").includes("/CD/") ? 0 : 1; valB = (b.path || "").includes("/CD/") ? 0 : 1;
             }
             if (valA < valB) return sortAscending ? -1 : 1;
             if (valA > valB) return sortAscending ? 1 : -1;
@@ -1272,7 +1245,8 @@ Rectangle {
             let g = extractQueue[extractIndex]
             extractIndex++;
             let isoPath = g.path
-            let isBin = (g.extension.toLowerCase() === ".bin" || g.extension.toLowerCase() === ".cue")
+            let rawExt = g.extension || (g.path ? g.path.substring(g.path.lastIndexOf('.')) : "")
+            let isBin = (rawExt.toLowerCase() === ".bin" || rawExt.toLowerCase() === ".cue")
             
             if (isBin) {
                 let tempIsoPath = mainWindow.currentLibraryPath + "/.orbit_temp_" + Math.floor(Math.random() * 1000000) + ".iso"
@@ -1285,23 +1259,22 @@ Rectangle {
                 mainWindow.batchConvertingNames = newNames
                 
                 mainWindow.batchActiveJobs++;
-                swissLibraryService.startConvertBinToIso(isoPath, tempIsoPath)
+                dreamcastLibraryService.startConvertBinToIso(isoPath, tempIsoPath)
                 continue;
             }
 
-            let res = swissLibraryService.tryDetermineGameIdFromHex(isoPath)
-            if (res.success) {
-                let newMap = Object.assign({}, mainWindow.batchConvertingMap)
-                newMap[isoPath] = true
-                mainWindow.batchConvertingMap = newMap
-                
-                let newNames = Object.assign({}, mainWindow.batchConvertingNames)
-                newNames[isoPath] = g.name
-                mainWindow.batchConvertingNames = newNames
-                
-                mainWindow.batchActiveJobs++;
-                swissLibraryService.startImportIsoAsync(isoPath, mainWindow.currentLibraryPath, res.gameId, g.name)
-            }
+            let res = dreamcastLibraryService.tryDetermineGameIdFromHex(isoPath)
+            
+            let newMap = Object.assign({}, mainWindow.batchConvertingMap)
+            newMap[isoPath] = true
+            mainWindow.batchConvertingMap = newMap
+            
+            let newNames = Object.assign({}, mainWindow.batchConvertingNames)
+            newNames[isoPath] = g.name
+            mainWindow.batchConvertingNames = newNames
+            
+            mainWindow.batchActiveJobs++;
+            dreamcastLibraryService.startImportIsoAsync(isoPath, mainWindow.currentLibraryPath, res.gameId || "", g.name)
             
             continue;
         }
@@ -1420,7 +1393,7 @@ Rectangle {
                         }
                         Item { Layout.fillWidth: true }
                         Text {
-                            property double mBase: systemUtils.getStorageMultiplier()
+                            property double mBase: systemUtils ? systemUtils.getStorageMultiplier() : 1000.0
                             property double freeGb: mainWindow.targetDriveFreeSpace / (mBase * mBase * mBase)
                             property double totalGb: mainWindow.targetDriveTotalSpace / (mBase * mBase * mBase)
                             property double usedGb: totalGb - freeGb
@@ -1476,7 +1449,7 @@ Rectangle {
                     color: "#2C1A1A"
                     border.color: "#8B3A3A"
                     border.width: 1
-                    visible: mainWindow.swissUpdateAvailable
+                    visible: mainWindow.openMenuUpdateAvailable
                     
                     ColumnLayout {
                         id: updateColumn
@@ -1485,22 +1458,22 @@ Rectangle {
                         spacing: 6
                         
                         Text {
-                            text: "⚠️ Swiss Update Available"
+                            text: "⚠️ OpenMenu Update Available"
                             color: "#FF8C8C"; font.pixelSize: 12; font.bold: true
                         }
                         
                         Text {
-                            text: "Latest: " + mainWindow.swissRemoteVersion
+                            text: "Latest: " + mainWindow.openMenuRemoteVersion
                             color: "white"; font.pixelSize: 11
                         }
                         
                         Button {
                             objectName: "btnUpdateNow"
                             Layout.fillWidth: true
-                            text: "Update Now (" + mainWindow.savedOdeType + ")"
+                            text: "Update Now (OpenMenu)"
                             onClicked: {
-                                swissSetupProgressOverlay.open()
-                                swissLibraryService.startSwissSetupAsync(mainWindow.currentLibraryPath, mainWindow.savedOdeType)
+                                openMenuSetupProgressOverlay.open()
+                                dreamcastLibraryService.startInstallMenuAsync(mainWindow.currentLibraryPath)
                             }
                             contentItem: Text {
                                 text: parent.text; color: "white"; font.bold: true; font.pixelSize: 11
@@ -1522,7 +1495,7 @@ Rectangle {
                     spacing: 8
                     Rectangle { height: 1; Layout.fillWidth: true; color: accentPrimary; opacity: 0.3 }
                     Text {
-                        text: "Gamecube"
+                        text: "Dreamcast"
                         color: accentPrimary; font.pixelSize: 10; font.bold: true; font.letterSpacing: 2
                         opacity: 0.7
                     }
@@ -1534,9 +1507,146 @@ Rectangle {
                     Layout.fillWidth: true
                     spacing: 4
 
+                Button {
+                    Layout.fillWidth: true
+                    text: qsTr("Dreamcast Import") + "  (" + importGames.length + ")"
+                    onClicked: currentTabIndex = 1
+                    contentItem: Text {
+                        text: parent.text; color: currentTabIndex === 1 ? "white" : textSecondary
+                        font.bold: true; font.pixelSize: 14; horizontalAlignment: Text.AlignLeft
+                        leftPadding: 20; verticalAlignment: Text.AlignVCenter
+                    }
+                    background: Rectangle {
+                        color: currentTabIndex === 1 ? "#33FF4D4D" : "transparent"
+                        radius: 8; implicitHeight: 46
+                        border.color: currentTabIndex === 1 ? accentPrimary : (parent.hovered ? borderGlass : "transparent")
+                        Behavior on color { ColorAnimation { duration: 150 } }
+                    }
+                }
+
+                Rectangle {
+                    Layout.fillWidth: true
+                    Layout.leftMargin: 15
+                    implicitHeight: dcImportActionsLayout.implicitHeight + 16
+                    color: "#161925"
+                    radius: 8
+                    border.color: borderGlass; border.width: 1
+                    visible: currentTabIndex === 1
+
+                    ColumnLayout {
+                        id: dcImportActionsLayout
+                        anchors.top: parent.top
+                        anchors.left: parent.left
+                        anchors.right: parent.right
+                        anchors.margins: 8
+                        spacing: 8
+
+                        Text {
+                            text: qsTr("ACTIONS")
+                            color: textSecondary
+                            font.pixelSize: 10; font.bold: true; font.letterSpacing: 2
+                        }
+
+                        Button {
+                            objectName: "btnImportActionsSelected"
+                            Layout.fillWidth: true
+                            property int selectedCount: Object.values(mainWindow.selectionMap).filter(v => v === true).length
+                            text: mainWindow.isBatchExtracting ? "Importing..." : "Import " + selectedCount + " Games"
+                            enabled: selectedCount > 0 || mainWindow.isBatchExtracting
+                            opacity: enabled ? 1.0 : 0.6
+                            onClicked: {
+                                if (mainWindow.isBatchExtracting) return;
+                                let queue = []
+                                let totalRequiredBytes = 0
+                                for (let i = 0; i < importGames.length; i++) {
+                                    if (mainWindow.selectionMap[importGames[i].path] === true) {
+                                        let item = importGames[i];
+                                        queue.push(item)
+                                        let isOnSame = systemUtils.isOnSameDrive(item.path, mainWindow.currentLibraryPath);
+                                        let ext = item.extension ? item.extension.toLowerCase() : "";
+                                        let isArchive = (false);
+                                        if (!isArchive && isOnSame) {
+                                            // Fast physical move will be used
+                                        } else {
+                                            totalRequiredBytes += item.size;
+                                        }
+                                    }
+                                }
+                                
+                                queue.sort(function(a, b) {
+                                    let pathA = (a.path || "").toLowerCase();
+                                    let pathB = (b.path || "").toLowerCase();
+                                    return pathA.localeCompare(pathB, undefined, {numeric: true, sensitivity: 'base'});
+                                });
+
+                                if (queue.length === 0) return;
+                                
+                                if (totalRequiredBytes > mainWindow.targetDriveFreeSpace) {
+                                    insufficientSpacePopup.requiredSpaceStr = (totalRequiredBytes / (1024*1024*1024)).toFixed(2) + " GB"
+                                    insufficientSpacePopup.availableSpaceStr = (mainWindow.targetDriveFreeSpace / (1024*1024*1024)).toFixed(2) + " GB"
+                                    insufficientSpacePopup.open()
+                                    return;
+                                }
+
+                                dreamcastLibraryService.resetCancelFlag()
+                                mainWindow.extractQueue = queue
+                                mainWindow.extractIndex = 0
+                                mainWindow.isBatchExtracting = true
+                                mainWindow.batchActiveJobs = 0
+                                mainWindow.extractProcessor()
+                            }
+                            contentItem: Text {
+                                text: parent.text; color: "white"; font.bold: true; font.pixelSize: 11
+                                horizontalAlignment: Text.AlignHCenter; verticalAlignment: Text.AlignVCenter
+                            }
+                            background: Rectangle {
+                                color: parent.down ? "#111" : (parent.hovered ? "#33FF4D4D" : "transparent")
+                                radius: 6; implicitHeight: 28; border.color: accentPrimary; border.width: 1
+                                Behavior on color { ColorAnimation { duration: 150 } }
+                            }
+                        }
+
+                        Button {
+                            objectName: "btnAddGames"
+                            Layout.fillWidth: true
+                            text: "Add Games"
+                            onClicked: addGamesDialog.open()
+                            contentItem: Text { text: parent.text; color: "white"; font.bold: true; font.pixelSize: 11; verticalAlignment: Text.AlignVCenter; horizontalAlignment: Text.AlignHCenter }
+                            background: Rectangle { color: parent.down ? "#111" : (parent.hovered ? "#33FF4D4D" : "transparent"); radius: 6; border.color: accentPrimary; border.width: 1; implicitHeight: 28; Behavior on color { ColorAnimation { duration: 150 } } }
+                        }
+
+                        Button {
+                            objectName: "btnAddFolder"
+                            Layout.fillWidth: true
+                            text: "Add Folder"
+                            onClicked: addGamesFolderDialog.open()
+                            contentItem: Text { text: parent.text; color: "white"; font.bold: true; font.pixelSize: 11; verticalAlignment: Text.AlignVCenter; horizontalAlignment: Text.AlignHCenter }
+                            background: Rectangle { color: parent.down ? "#111" : (parent.hovered ? "#33FF4D4D" : "transparent"); radius: 6; border.color: accentPrimary; border.width: 1; implicitHeight: 28; Behavior on color { ColorAnimation { duration: 150 } } }
+                        }
+
+                        Button {
+                            id: massSelectBtn
+                            objectName: "btnSelectAllAvailable"
+                            Layout.fillWidth: true
+                            property bool allSelected: false
+                            text: allSelected ? "Deselect All" : "Select All Available"
+                            onClicked: {
+                                allSelected = !allSelected
+                                let newMap = {}
+                                if (allSelected) {
+                                    for (let i = 0; i < importGames.length; i++) newMap[importGames[i].path] = true
+                                }
+                                mainWindow.selectionMap = newMap
+                            }
+                            contentItem: Text { text: parent.text; color: "white"; font.bold: true; font.pixelSize: 11; verticalAlignment: Text.AlignVCenter; horizontalAlignment: Text.AlignHCenter }
+                            background: Rectangle { color: parent.down ? "#111" : (parent.hovered ? "#33FF4D4D" : "transparent"); radius: 6; border.color: accentPrimary; border.width: 1; implicitHeight: 28; Behavior on color { ColorAnimation { duration: 150 } } }
+                        }
+                    }
+                }
+
                     Button {
                         Layout.fillWidth: true
-                        text: qsTr("Gamecube Library") + "  (" + libraryGames.length + ")"
+                        text: qsTr("Dreamcast Library") + "  (" + libraryGames.length + ")"
                         onClicked: currentTabIndex = 0
                         contentItem: Text {
                             text: parent.text; color: currentTabIndex === 0 ? "white" : textSecondary
@@ -1554,14 +1664,14 @@ Rectangle {
                     Rectangle {
                         Layout.fillWidth: true
                         Layout.leftMargin: 15
-                        implicitHeight: gcLibActionsLayout.implicitHeight + 16
+                        implicitHeight: dcLibActionsLayout.implicitHeight + 16
                         color: "#161925"
                         radius: 8
                         border.color: borderGlass; border.width: 1
                         visible: currentTabIndex === 0 && libraryGames.length > 0
 
                         ColumnLayout {
-                            id: gcLibActionsLayout
+                            id: dcLibActionsLayout
                             anchors.top: parent.top
                             anchors.left: parent.left
                             anchors.right: parent.right
@@ -1574,49 +1684,13 @@ Rectangle {
                                 font.pixelSize: 10; font.bold: true; font.letterSpacing: 2
                             }
 
-                            Button {
-                                objectName: "btnFetchMissingArtwork"
-                                Layout.fillWidth: true
-                                property bool fetching: false
-                                property int currIndex: 0
-                                text: fetching ? (qsTr("Pulling...") + " (" + currIndex + "/" + libraryGames.length + ")") : qsTr("Fetch Missing Artwork")
-                                enabled: !fetching && libraryGames.length > 0
-                                opacity: enabled ? 1.0 : 0.6
-                                
-                                onClicked: {
-                                    if (fetching || libraryGames.length === 0) return;
-                                    fetching = true; currIndex = 0; fetchNext();
-                                }
-                                function fetchNext() {
-                                    if (currIndex >= mainWindow.libraryGames.length) {
-                                        fetching = false; Qt.callLater(refreshGames); return;
-                                    }
-                                    let g = mainWindow.libraryGames[currIndex]
-                                    let extractedId = g.name.substring(0, 11)
-                                    let artFolder = mainWindow.currentLibraryPath + "/ART"
-                                    swissLibraryService.startDownloadArtAsync(artFolder, extractedId, g.path)
-                                    currIndex++;
-                                    batchTimer.start();
-                                }
-                                Timer { id: batchTimer; interval: 10; onTriggered: parent.fetchNext() }
-
-                                contentItem: Text {
-                                    text: parent.text; color: "white"; font.bold: true; font.pixelSize: 11
-                                    horizontalAlignment: Text.AlignHCenter; verticalAlignment: Text.AlignVCenter
-                                }
-                                background: Rectangle {
-                                    color: parent.down ? "#111" : (parent.hovered ? "#33FF4D4D" : "transparent")
-                                    radius: 6; implicitHeight: 28; border.color: accentPrimary; border.width: 1
-                                    Behavior on color { ColorAnimation { duration: 150 } }
-                                }
-                            }
 
                             Button {
                                 objectName: "btnSyncCheats"
                                 Layout.fillWidth: true
                                 text: qsTr("Sync Cheats")
                                 onClicked: {
-                                    swissLibraryService.startSyncCheatsAsync(mainWindow.currentLibraryPath)
+                                    dreamcastLibraryService.startSyncCheatsAsync(mainWindow.currentLibraryPath)
                                 }
                                 contentItem: Text {
                                     text: parent.text; color: "white"; font.bold: true; font.pixelSize: 11
@@ -1681,136 +1755,6 @@ Rectangle {
                     }
                 }
                 
-                Button {
-                    Layout.fillWidth: true
-                    text: qsTr("Gamecube Import") + "  (" + importGames.length + ")"
-                    onClicked: currentTabIndex = 1
-                    contentItem: Text {
-                        text: parent.text; color: currentTabIndex === 1 ? "white" : textSecondary
-                        font.bold: true; font.pixelSize: 14; horizontalAlignment: Text.AlignLeft
-                        leftPadding: 20; verticalAlignment: Text.AlignVCenter
-                    }
-                    background: Rectangle {
-                        color: currentTabIndex === 1 ? "#33FF4D4D" : "transparent"
-                        radius: 8; implicitHeight: 46
-                        border.color: currentTabIndex === 1 ? accentPrimary : (parent.hovered ? borderGlass : "transparent")
-                        Behavior on color { ColorAnimation { duration: 150 } }
-                    }
-                }
-
-                Rectangle {
-                    Layout.fillWidth: true
-                    Layout.leftMargin: 15
-                    implicitHeight: gcImportActionsLayout.implicitHeight + 16
-                    color: "#161925"
-                    radius: 8
-                    border.color: borderGlass; border.width: 1
-                    visible: currentTabIndex === 1
-
-                    ColumnLayout {
-                        id: gcImportActionsLayout
-                        anchors.top: parent.top
-                        anchors.left: parent.left
-                        anchors.right: parent.right
-                        anchors.margins: 8
-                        spacing: 8
-
-                        Text {
-                            text: qsTr("ACTIONS")
-                            color: textSecondary
-                            font.pixelSize: 10; font.bold: true; font.letterSpacing: 2
-                        }
-
-                        Button {
-                            objectName: "btnImportActionsSelected"
-                            Layout.fillWidth: true
-                            property int selectedCount: Object.values(mainWindow.selectionMap).filter(v => v === true).length
-                            text: mainWindow.isBatchExtracting ? "Importing..." : "Import " + selectedCount + " Games"
-                            enabled: selectedCount > 0 || mainWindow.isBatchExtracting
-                            opacity: enabled ? 1.0 : 0.6
-                            onClicked: {
-                                if (mainWindow.isBatchExtracting) return;
-                                let queue = []
-                                let totalRequiredBytes = 0
-                                for (let i = 0; i < importGames.length; i++) {
-                                    if (mainWindow.selectionMap[importGames[i].path] === true) {
-                                        let item = importGames[i];
-                                        queue.push(item)
-                                        let isOnSame = systemUtils.isOnSameDrive(item.path, mainWindow.currentLibraryPath);
-                                        let ext = item.extension ? item.extension.toLowerCase() : "";
-                                        let isArchive = (ext === ".rvz" || ext === ".gcz");
-                                        if (!isArchive && isOnSame) {
-                                            // Fast physical move will be used
-                                        } else {
-                                            totalRequiredBytes += item.stats.size;
-                                        }
-                                    }
-                                }
-                                if (queue.length === 0) return;
-                                
-                                if (totalRequiredBytes > mainWindow.targetDriveFreeSpace) {
-                                    insufficientSpacePopup.requiredSpaceStr = (totalRequiredBytes / (1024*1024*1024)).toFixed(2) + " GB"
-                                    insufficientSpacePopup.availableSpaceStr = (mainWindow.targetDriveFreeSpace / (1024*1024*1024)).toFixed(2) + " GB"
-                                    insufficientSpacePopup.open()
-                                    return;
-                                }
-
-                                swissLibraryService.resetCancelFlag()
-                                mainWindow.extractQueue = queue
-                                mainWindow.extractIndex = 0
-                                mainWindow.isBatchExtracting = true
-                                mainWindow.batchActiveJobs = 0
-                                mainWindow.extractProcessor()
-                            }
-                            contentItem: Text {
-                                text: parent.text; color: "white"; font.bold: true; font.pixelSize: 11
-                                horizontalAlignment: Text.AlignHCenter; verticalAlignment: Text.AlignVCenter
-                            }
-                            background: Rectangle {
-                                color: parent.down ? "#111" : (parent.hovered ? "#33FF4D4D" : "transparent")
-                                radius: 6; implicitHeight: 28; border.color: accentPrimary; border.width: 1
-                                Behavior on color { ColorAnimation { duration: 150 } }
-                            }
-                        }
-
-                        Button {
-                            objectName: "btnAddGames"
-                            Layout.fillWidth: true
-                            text: "Add Games"
-                            onClicked: addGamesDialog.open()
-                            contentItem: Text { text: parent.text; color: "white"; font.bold: true; font.pixelSize: 11; verticalAlignment: Text.AlignVCenter; horizontalAlignment: Text.AlignHCenter }
-                            background: Rectangle { color: parent.down ? "#111" : (parent.hovered ? "#33FF4D4D" : "transparent"); radius: 6; border.color: accentPrimary; border.width: 1; implicitHeight: 28; Behavior on color { ColorAnimation { duration: 150 } } }
-                        }
-
-                        Button {
-                            objectName: "btnAddFolder"
-                            Layout.fillWidth: true
-                            text: "Add Folder"
-                            onClicked: addGamesFolderDialog.open()
-                            contentItem: Text { text: parent.text; color: "white"; font.bold: true; font.pixelSize: 11; verticalAlignment: Text.AlignVCenter; horizontalAlignment: Text.AlignHCenter }
-                            background: Rectangle { color: parent.down ? "#111" : (parent.hovered ? "#33FF4D4D" : "transparent"); radius: 6; border.color: accentPrimary; border.width: 1; implicitHeight: 28; Behavior on color { ColorAnimation { duration: 150 } } }
-                        }
-
-                        Button {
-                            id: massSelectBtn
-                            objectName: "btnSelectAllAvailable"
-                            Layout.fillWidth: true
-                            property bool allSelected: false
-                            text: allSelected ? "Deselect All" : "Select All Available"
-                            onClicked: {
-                                allSelected = !allSelected
-                                let newMap = {}
-                                if (allSelected) {
-                                    for (let i = 0; i < importGames.length; i++) newMap[importGames[i].path] = true
-                                }
-                                mainWindow.selectionMap = newMap
-                            }
-                            contentItem: Text { text: parent.text; color: "white"; font.bold: true; font.pixelSize: 11; verticalAlignment: Text.AlignVCenter; horizontalAlignment: Text.AlignHCenter }
-                            background: Rectangle { color: parent.down ? "#111" : (parent.hovered ? "#33FF4D4D" : "transparent"); radius: 6; border.color: accentPrimary; border.width: 1; implicitHeight: 28; Behavior on color { ColorAnimation { duration: 150 } } }
-                        }
-                    }
-                }
-
                 Item { Layout.fillHeight: true }
             }
         }
@@ -2007,7 +1951,7 @@ Rectangle {
                             clip: true
                             model: mainWindow.libraryGames
                             cellWidth: 215
-                            cellHeight: 420
+                            cellHeight: 365
                             
                             boundsBehavior: Flickable.StopAtBounds
                             
@@ -2059,10 +2003,10 @@ Rectangle {
                                         anchors.fill: parent
                                         spacing: 0
                                         
-                                        // PS2 Jewel/DVD Case Physical Wrap
+                                        // PS2 Jewel/DVD Case Physical Wrap -> Shifted natively to Sega CD/Dreamcast 1:1 Aspect Frame
                                         Rectangle {
                                             Layout.fillWidth: true
-                                            Layout.preferredHeight: 250
+                                            Layout.preferredHeight: 195
                                             Layout.margins: 8
                                             Layout.bottomMargin: 0
                                             color: "#181A20" // Dark opaque plastic shell
@@ -2110,7 +2054,7 @@ Rectangle {
 
                                                 Text {
                                                     anchors.centerIn: parent
-                                                    text: modelData.extension.toUpperCase().replace(".", "")
+                                                    text: (modelData.extension || (modelData.path ? modelData.path.substring(modelData.path.lastIndexOf('.')) : "")).toUpperCase().replace(".", "")
                                                     color: accentPrimary
                                                     font.bold: true; font.pixelSize: 24; opacity: 0.5
                                                     visible: artImage.status !== Image.Ready
@@ -2122,12 +2066,10 @@ Rectangle {
                                                     asynchronous: true
                                                     fillMode: Image.Stretch
                                                     visible: status === Image.Ready
-                                                    source: "file://" + mainWindow.currentLibraryPath + "/ART/" + extractGameId(modelData.name) + "_COV.png"
-                                                    
-                                                    onStatusChanged: {
-                                                        if (status === Image.Error && source.toString().includes("_COV")) {
-                                                            source = "file://" + mainWindow.currentLibraryPath + "/ART/" + extractGameId(modelData.name) + "_ICO.png"
-                                                        }
+                                                    source: {
+                                                        let gid = modelData.gameId || extractGameId(modelData.name) || ""
+                                                        if (gid === "") return ""
+                                                        return "image://openmenu/BOX/" + gid + "?rootPath=" + mainWindow.currentLibraryPath
                                                     }
                                                 }
 
@@ -2170,8 +2112,8 @@ Rectangle {
                                                 }
                                                 
                                                 Text {
-                                                    text: modelData.discCount !== undefined && modelData.discCount > 1 ? "(" + modelData.discCount + " Discs)" : ""
-                                                    visible: modelData.discCount !== undefined && modelData.discCount > 1
+                                                    text: modelData.discs !== undefined ? "(" + modelData.discs.length + (modelData.discs.length === 1 ? " Disc)" : " Discs)") : ""
+                                                    visible: modelData.discs !== undefined
                                                     color: accentPrimary
                                                     font.bold: true; font.pixelSize: 11; font.family: "Inter"
                                                     Layout.fillWidth: true
@@ -2184,21 +2126,21 @@ Rectangle {
                                                     spacing: 0
                                                     Text {
                                                         text: {
-                                                            let gid = (extractGameId(modelData.name) || "UNKNOWN").toUpperCase()
-                                                            let regionName = "Unknown Region"
-                                                            if (gid.length >= 4) {
-                                                                let rChar = gid.charAt(3)
-                                                                if (rChar === 'E') regionName = "NTSC-U"
-                                                                else if (rChar === 'J') regionName = "NTSC-J"
-                                                                else if (['P', 'F', 'D', 'S', 'I', 'X', 'Y', 'U'].includes(rChar)) regionName = "PAL"
-                                                                else if (rChar === 'K') regionName = "NTSC-K"
+                                                            let regionName = modelData.region || "Unknown Region"
+                                                            
+                                                            if (regionName === "Unknown Region") {
+                                                                let n = (modelData.path || modelData.name).toUpperCase()
+                                                                if (n.includes("(USA)") || n.includes("(US)") || n.includes("NTSC-U") || n.includes("(U)")) regionName = "NTSC-U"
+                                                                else if (n.includes("(JAPAN)") || n.includes("(JP)") || n.includes("NTSC-J") || n.includes("(J)")) regionName = "NTSC-J"
+                                                                else if (n.includes("(EUROPE)") || n.includes("(EU)") || n.includes("PAL") || n.includes("(E)")) regionName = "PAL"
                                                             }
+                                                            
                                                             return "Region: " + regionName
                                                         }
                                                         color: textSecondary; font.pixelSize: 11; font.family: "Inter"
                                                     }
                                                     Text {
-                                                        text: "Format: miniDVD"
+                                                        text: "Format: " + (modelData.extension ? modelData.extension.toUpperCase().replace(".", "") : "GDI")
                                                         color: textSecondary; font.pixelSize: 11; font.family: "Inter"
                                                     }
                                                     Text {
@@ -2206,7 +2148,7 @@ Rectangle {
                                                         color: textSecondary; font.pixelSize: 11; font.family: "Inter"
                                                     }
                                                     Text {
-                                                        text: "Size: " + (systemUtils ? systemUtils.formatSize(modelData.stats.size) : "")
+                                                        text: "Size: " + (systemUtils ? systemUtils.formatSize(modelData.size || 0) : "")
                                                         color: textSecondary; font.pixelSize: 11; font.family: "Inter"
                                                     }
                                                 }
@@ -2285,7 +2227,7 @@ Rectangle {
                                                 
                                                 Text {
                                                     anchors.centerIn: parent
-                                                    text: modelData.extension.toUpperCase().replace(".", "")
+                                                    text: (modelData.extension || (modelData.path ? modelData.path.substring(modelData.path.lastIndexOf('.')) : "")).toUpperCase().replace(".", "")
                                                     color: accentPrimary
                                                     font.bold: true; font.pixelSize: 13
                                                     visible: listArtImage.status !== Image.Ready
@@ -2297,12 +2239,10 @@ Rectangle {
                                                     asynchronous: true
                                                     fillMode: Image.PreserveAspectCrop
                                                     visible: status === Image.Ready
-                                                    source: "file://" + mainWindow.currentLibraryPath + "/ART/" + extractGameId(modelData.name) + "_COV.png"
-                                                    
-                                                    onStatusChanged: {
-                                                        if (status === Image.Error && source.toString().includes("_COV")) {
-                                                            source = "file://" + mainWindow.currentLibraryPath + "/ART/" + extractGameId(modelData.name) + "_ICO.png"
-                                                        }
+                                                    source: {
+                                                        let gid = modelData.gameId || extractGameId(modelData.name) || ""
+                                                        if (gid === "") return ""
+                                                        return "image://openmenu/BOX/" + gid + "?rootPath=" + mainWindow.currentLibraryPath
                                                     }
                                                 }
                                                 
@@ -2335,8 +2275,8 @@ Rectangle {
                                             }
                                             
                                             Text {
-                                                text: modelData.discCount !== undefined && modelData.discCount > 1 ? "(" + modelData.discCount + " Discs)" : ""
-                                                visible: modelData.discCount !== undefined && modelData.discCount > 1
+                                                text: modelData.discs !== undefined ? "(" + modelData.discs.length + (modelData.discs.length === 1 ? " Disc)" : " Discs)") : ""
+                                                visible: modelData.discs !== undefined
                                                 color: accentPrimary
                                                 font.bold: true; font.pixelSize: 13; font.family: "Inter"
                                             }
@@ -2350,12 +2290,12 @@ Rectangle {
                                                 }
                                                 
                                                 Text {
-                                                    text: "• " + (systemUtils ? systemUtils.formatSize(modelData.stats.size) : "")
+                                                    text: "• " + (systemUtils ? systemUtils.formatSize(modelData.size || 0) : "")
                                                     color: textSecondary; font.pixelSize: 11; font.bold: true; font.family: "Inter"
                                                 }
                                                 
                                                 Text {
-                                                    text: "• miniDVD"
+                                                    text: "• " + (modelData.extension ? modelData.extension.toUpperCase().replace(".", "") : "GDI")
                                                     color: textSecondary; font.pixelSize: 11; font.bold: true
                                                 }
                                                 
@@ -2455,16 +2395,16 @@ Rectangle {
                                                     Layout.fillWidth: true
                                                     
                                                     Text {
-                                                        text: modelData.extension.toUpperCase().replace(".", "")
+                                                        text: (modelData.extension || (modelData.path ? modelData.path.substring(modelData.path.lastIndexOf('.')) : "")).toUpperCase().replace(".", "")
                                                         color: textSecondary; font.pixelSize: 11; font.bold: true
                                                     }
                                                     Text {
-                                                        text: "• miniDVD"
+                                                        text: "• GD-ROM"
                                                         color: accentPrimary; font.pixelSize: 11; font.bold: true
                                                     }
                                                     Item { Layout.fillWidth: true }
                                                     Text {
-                                                        text: systemUtils ? systemUtils.formatSize(modelData.stats.size) : ""
+                                                        text: systemUtils ? systemUtils.formatSize(modelData.size) : ""
                                                         color: textSecondary; font.pixelSize: 11; font.family: "Inter"
                                                     }
                                                 }
@@ -2575,16 +2515,16 @@ Rectangle {
                                                     Layout.fillWidth: true
                                                     
                                                     Text {
-                                                        text: modelData.extension.toUpperCase().replace(".", "")
+                                                        text: (modelData.extension || (modelData.path ? modelData.path.substring(modelData.path.lastIndexOf('.')) : "")).toUpperCase().replace(".", "")
                                                         color: textSecondary; font.pixelSize: 12; font.bold: true
                                                     }
                                                     Text {
-                                                        text: "• miniDVD"
+                                                        text: "• GD-ROM"
                                                         color: accentPrimary; font.pixelSize: 12; font.bold: true
                                                     }
                                                     Item { Layout.fillWidth: true }
                                                     Text {
-                                                        text: systemUtils ? systemUtils.formatSize(modelData.stats.size) : ""
+                                                        text: systemUtils ? systemUtils.formatSize(modelData.size) : ""
                                                         color: textSecondary; font.pixelSize: 12; font.family: "Inter"
                                                     }
                                                 }

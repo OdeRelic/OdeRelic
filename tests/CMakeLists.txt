@@ -2,24 +2,24 @@ cmake_minimum_required(VERSION 3.16)
 
 # Test executable
 add_executable(OplLibraryServiceTests
-    tst_opllibraryservice.cpp
+    cpp/tst_opllibraryservice.cpp
     ../src-cpp/core/filesystem/filesystem_cache.cpp
     ../src-cpp/core/filesystem/filesystem_cache.h
-    ../src-cpp/ps2/opl_library_service.cpp
-    ../src-cpp/ps2/opl_library_service.h
+    ../src-cpp/platforms/ps2/opl_library_service.cpp
+    ../src-cpp/platforms/ps2/opl_library_service.h
     ../src-cpp/core/common/system_utils.cpp
     ../src-cpp/core/common/system_utils.h
 )
 
 # Swiss Test executable
 add_executable(SwissLibraryServiceTests
-    tst_swisslibraryservice.cpp
-    ../src-cpp/ngc/swiss_library_service.cpp
-    ../src-cpp/ngc/swiss_library_service.h
+    cpp/tst_swisslibraryservice.cpp
+    ../src-cpp/platforms/ngc/swiss_library_service.cpp
+    ../src-cpp/platforms/ngc/swiss_library_service.h
     ../src-cpp/core/filesystem/filesystem_cache.cpp
     ../src-cpp/core/filesystem/filesystem_cache.h
-    ../src-cpp/ngc/rvz_native_converter.cpp
-    ../src-cpp/ngc/rvz_native_converter.h
+    ../src-cpp/platforms/ngc/rvz_native_converter.cpp
+    ../src-cpp/platforms/ngc/rvz_native_converter.h
     ../src-cpp/core/common/system_utils.cpp
     ../src-cpp/core/common/system_utils.h
 )
@@ -29,22 +29,24 @@ target_link_libraries(OplLibraryServiceTests PRIVATE
     Qt6::Core
     Qt6::Test
     Qt6::Network
+    Qt6::Concurrent
 )
 
-target_include_directories(OplLibraryServiceTests PRIVATE ../src-cpp/core ../src-cpp/core/filesystem ../src-cpp/core/common ../src-cpp/core/i18m ../src-cpp/core/logging ../src-cpp/ps2 ../src-cpp/ngc ../src-cpp/psx)
+target_include_directories(OplLibraryServiceTests PRIVATE ../src-cpp/core ../src-cpp/core/filesystem ../src-cpp/core/common ../src-cpp/core/i18n ../src-cpp/core/logging ../src-cpp/platforms/ps2 ../src-cpp/platforms/ngc ../src-cpp/platforms/psx)
 
 target_link_libraries(SwissLibraryServiceTests PRIVATE
     Qt6::Core
     Qt6::Test
     Qt6::Network
+    Qt6::Concurrent
 )
 target_link_libraries(SwissLibraryServiceTests PRIVATE libzstd_static)
 
-target_include_directories(SwissLibraryServiceTests PRIVATE ../src-cpp/core ../src-cpp/core/filesystem ../src-cpp/core/common ../src-cpp/core/i18m ../src-cpp/core/logging ../src-cpp/ps2 ../src-cpp/ngc ../src-cpp/psx)
+target_include_directories(SwissLibraryServiceTests PRIVATE ../src-cpp/core ../src-cpp/core/filesystem ../src-cpp/core/common ../src-cpp/core/i18n ../src-cpp/core/logging ../src-cpp/platforms/ps2 ../src-cpp/platforms/ngc ../src-cpp/platforms/psx)
 
 # FileSystemCache Component Testing Let
 add_executable(FileSystemCacheTests
-    tst_filesystemcache.cpp
+    cpp/tst_filesystemcache.cpp
     ../src-cpp/core/filesystem/filesystem_cache.cpp
     ../src-cpp/core/filesystem/filesystem_cache.h
 )
@@ -54,7 +56,7 @@ target_link_libraries(FileSystemCacheTests PRIVATE
     Qt6::Test
 )
 
-target_include_directories(FileSystemCacheTests PRIVATE ../src-cpp/core ../src-cpp/core/filesystem ../src-cpp/core/common ../src-cpp/core/i18m ../src-cpp/core/logging ../src-cpp/ps2 ../src-cpp/ngc ../src-cpp/psx)
+target_include_directories(FileSystemCacheTests PRIVATE ../src-cpp/core ../src-cpp/core/filesystem ../src-cpp/core/common ../src-cpp/core/i18n ../src-cpp/core/logging ../src-cpp/platforms/ps2 ../src-cpp/platforms/ngc ../src-cpp/platforms/psx)
 
 # Register with CTest
 add_test(NAME OplLibraryServiceTests COMMAND OplLibraryServiceTests)
@@ -63,7 +65,7 @@ add_test(NAME SwissLibraryServiceTests COMMAND SwissLibraryServiceTests)
 
 # SystemUtils Component Testing
 add_executable(SystemUtilsTests
-    tst_systemutils.cpp
+    cpp/tst_systemutils.cpp
     ../src-cpp/core/common/system_utils.cpp
     ../src-cpp/core/common/system_utils.h
 )
@@ -73,14 +75,14 @@ target_link_libraries(SystemUtilsTests PRIVATE
     Qt6::Test
 )
 
-target_include_directories(SystemUtilsTests PRIVATE ../src-cpp/core ../src-cpp/core/filesystem ../src-cpp/core/common ../src-cpp/core/i18m ../src-cpp/core/logging ../src-cpp/ps2 ../src-cpp/ngc ../src-cpp/psx)
+target_include_directories(SystemUtilsTests PRIVATE ../src-cpp/core ../src-cpp/core/filesystem ../src-cpp/core/common ../src-cpp/core/i18n ../src-cpp/core/logging ../src-cpp/platforms/ps2 ../src-cpp/platforms/ngc ../src-cpp/platforms/psx)
 add_test(NAME SystemUtilsTests COMMAND SystemUtilsTests)
 
 # XStation Test executable
 add_executable(XStationLibraryServiceTests
-    test_xstation.cpp
-    ../src-cpp/psx/ps1_xstation_library_service.cpp
-    ../src-cpp/psx/ps1_xstation_library_service.h
+    cpp/test_xstation.cpp
+    ../src-cpp/platforms/psx/ps1_xstation_library_service.cpp
+    ../src-cpp/platforms/psx/ps1_xstation_library_service.h
     ../src-cpp/core/common/system_utils.cpp
     ../src-cpp/core/common/system_utils.h
 )
@@ -90,29 +92,30 @@ target_link_libraries(XStationLibraryServiceTests PRIVATE
     Qt6::Gui
     Qt6::Test
     Qt6::Network
+    Qt6::Concurrent
 )
 
-target_include_directories(XStationLibraryServiceTests PRIVATE ../src-cpp/core ../src-cpp/core/filesystem ../src-cpp/core/common ../src-cpp/core/i18m ../src-cpp/core/logging ../src-cpp/ps2 ../src-cpp/ngc ../src-cpp/psx)
+target_include_directories(XStationLibraryServiceTests PRIVATE ../src-cpp/core ../src-cpp/core/filesystem ../src-cpp/core/common ../src-cpp/core/i18n ../src-cpp/core/logging ../src-cpp/platforms/ps2 ../src-cpp/platforms/ngc ../src-cpp/platforms/psx)
 add_test(NAME XStationLibraryServiceTests COMMAND XStationLibraryServiceTests)
 
 # RVZ Native Converter Tests
 add_executable(RvzNativeConverterTests
-    tst_rvznativeconverter.cpp
-    ../src-cpp/ngc/rvz_native_converter.cpp
-    ../src-cpp/ngc/rvz_native_converter.h
+    cpp/tst_rvznativeconverter.cpp
+    ../src-cpp/platforms/ngc/rvz_native_converter.cpp
+    ../src-cpp/platforms/ngc/rvz_native_converter.h
 )
 target_link_libraries(RvzNativeConverterTests PRIVATE
     Qt6::Core
     Qt6::Test
 )
-target_include_directories(RvzNativeConverterTests PRIVATE ../src-cpp/core ../src-cpp/core/filesystem ../src-cpp/core/common ../src-cpp/core/i18m ../src-cpp/core/logging ../src-cpp/ps2 ../src-cpp/ngc ../src-cpp/psx)
+target_include_directories(RvzNativeConverterTests PRIVATE ../src-cpp/core ../src-cpp/core/filesystem ../src-cpp/core/common ../src-cpp/core/i18n ../src-cpp/core/logging ../src-cpp/platforms/ps2 ../src-cpp/platforms/ngc ../src-cpp/platforms/psx)
 add_test(NAME RvzNativeConverterTests COMMAND RvzNativeConverterTests)
 
 # Translation Manager Tests
 add_executable(TranslationManagerTests
-    tst_translationmanager.cpp
-    ../src-cpp/core/i18m/translation_manager.cpp
-    ../src-cpp/core/i18m/translation_manager.h
+    cpp/tst_translationmanager.cpp
+    ../src-cpp/core/i18n/translation_manager.cpp
+    ../src-cpp/core/i18n/translation_manager.h
 )
 target_link_libraries(TranslationManagerTests PRIVATE
     Qt6::Core
@@ -120,12 +123,12 @@ target_link_libraries(TranslationManagerTests PRIVATE
     Qt6::Qml
     Qt6::Test
 )
-target_include_directories(TranslationManagerTests PRIVATE ../src-cpp/core ../src-cpp/core/filesystem ../src-cpp/core/common ../src-cpp/core/i18m ../src-cpp/core/logging ../src-cpp/ps2 ../src-cpp/ngc ../src-cpp/psx)
+target_include_directories(TranslationManagerTests PRIVATE ../src-cpp/core ../src-cpp/core/filesystem ../src-cpp/core/common ../src-cpp/core/i18n ../src-cpp/core/logging ../src-cpp/platforms/ps2 ../src-cpp/platforms/ngc ../src-cpp/platforms/psx)
 add_test(NAME TranslationManagerTests COMMAND TranslationManagerTests)
 
 # Logger Tests
 add_executable(LoggerTests
-    tst_logger.cpp
+    cpp/tst_logger.cpp
     ../src-cpp/core/logging/logger.cpp
     ../src-cpp/core/logging/logger.h
 )
@@ -133,12 +136,36 @@ target_link_libraries(LoggerTests PRIVATE
     Qt6::Core
     Qt6::Test
 )
-target_include_directories(LoggerTests PRIVATE ../src-cpp/core ../src-cpp/core/filesystem ../src-cpp/core/common ../src-cpp/core/i18m ../src-cpp/core/logging ../src-cpp/ps2 ../src-cpp/ngc ../src-cpp/psx)
+target_include_directories(LoggerTests PRIVATE ../src-cpp/core ../src-cpp/core/filesystem ../src-cpp/core/common ../src-cpp/core/i18n ../src-cpp/core/logging ../src-cpp/platforms/ps2 ../src-cpp/platforms/ngc ../src-cpp/platforms/psx ../src-cpp/platforms/dreamcast)
 add_test(NAME LoggerTests COMMAND LoggerTests)
+
+# Dreamcast Library Service Tests
+add_executable(DreamcastLibraryServiceTests
+    cpp/test_dreamcast_library_service.cpp
+    ../src-cpp/platforms/dreamcast/dreamcast_library_service.cpp
+    ../src-cpp/platforms/dreamcast/dreamcast_library_service.h
+    ../src-cpp/core/filesystem/filesystem_cache.cpp
+    ../src-cpp/core/filesystem/filesystem_cache.h
+    ../src-cpp/platforms/dreamcast/openmenu_dat_manager.cpp
+    ../src-cpp/platforms/dreamcast/openmenu_dat_manager.h
+    ../src-cpp/platforms/dreamcast/pvr_texture_coder.cpp
+    ../src-cpp/platforms/dreamcast/pvr_texture_coder.h
+    ../src-cpp/core/common/system_utils.cpp
+    ../src-cpp/core/common/system_utils.h
+)
+target_link_libraries(DreamcastLibraryServiceTests PRIVATE
+    Qt6::Core
+    Qt6::Gui
+    Qt6::Test
+    Qt6::Network
+    Qt6::Concurrent
+)
+target_include_directories(DreamcastLibraryServiceTests PRIVATE ../src-cpp/core ../src-cpp/core/filesystem ../src-cpp/core/common ../src-cpp/core/i18n ../src-cpp/core/logging ../src-cpp/platforms/ps2 ../src-cpp/platforms/ngc ../src-cpp/platforms/psx ../src-cpp/platforms/dreamcast)
+add_test(NAME DreamcastLibraryServiceTests COMMAND DreamcastLibraryServiceTests)
 
 # QML UI Tests
 add_executable(OdeRelicUITests
-    tst_qmlui.cpp
+    cpp/tst_qmlui.cpp
 )
 target_link_libraries(OdeRelicUITests PRIVATE
     Qt6::Core

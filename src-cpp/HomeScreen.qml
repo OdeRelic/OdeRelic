@@ -291,7 +291,7 @@ Rectangle {
                     spacing: 30
                     Repeater {
                         model: ListModel {
-                            ListElement { name: "Dreamcast"; ode: "GDEMU"; image: "qrc:/assets/consoles/dreamcast.png"; active: false; key: "dc" }
+                            ListElement { name: "Dreamcast"; ode: "OpenMenu"; image: "qrc:/assets/consoles/dreamcast.png"; active: true; key: "dc" }
                             ListElement { name: "Sega Saturn"; ode: "Saroo"; image: "qrc:/assets/consoles/saturn.png"; active: false; key: "saturn" }
                         }
                         delegate: reusableConsoleCard

@@ -1,16 +1,18 @@
-#include "ps2/opl_library_service.h"
-#include "ngc/swiss_library_service.h"
-#include "psx/ps1_xstation_library_service.h"
 #include "core/common/system_utils.h"
-#include "core/i18m/translation_manager.h"
+#include "core/i18n/translation_manager.h"
 #include "core/logging/logger.h"
+#include "platforms/dreamcast/dreamcast_library_service.h"
+#include "platforms/dreamcast/openmenu_image_provider.h"
+#include "platforms/ngc/swiss_library_service.h"
+#include "platforms/ps2/opl_library_service.h"
+#include "platforms/psx/ps1_xstation_library_service.h"
+#include <QDebug>
+#include <QDir>
 #include <QFileInfo>
 #include <QGuiApplication>
 #include <QIcon>
 #include <QQmlApplicationEngine>
 #include <QQmlContext>
-#include <QDir>
-#include <QDebug>
 
 int main(int argc, char *argv[]) {
   Logger::init();
@@ -30,7 +32,8 @@ int main(int argc, char *argv[]) {
 
   // Set up dynamic multi-language architecture
   TranslationManager translationManager(&engine);
-  engine.rootContext()->setContextProperty("translationManager", &translationManager);
+  engine.rootContext()->setContextProperty("translationManager",
+                                           &translationManager);
 
   // Expose our C++ backend to QML
   OplLibraryService oplLibraryService;
@@ -45,8 +48,15 @@ int main(int argc, char *argv[]) {
   engine.rootContext()->setContextProperty("ps1XstationLibraryService",
                                            &ps1XstationLibraryService);
 
+  DreamcastLibraryService dreamcastLibraryService;
+  engine.rootContext()->setContextProperty("dreamcastLibraryService",
+                                           &dreamcastLibraryService);
+
   SystemUtils systemUtils;
   engine.rootContext()->setContextProperty("systemUtils", &systemUtils);
+
+  // Hook dynamic DB extraction Image Provider
+  engine.addImageProvider("openmenu", new OpenMenuImageProvider);
 
   const QUrl url(QStringLiteral("qrc:/main.qml"));
   QObject::connect(
