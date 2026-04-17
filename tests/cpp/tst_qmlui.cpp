@@ -8,9 +8,11 @@
 class MockSystemUtils : public QObject {
     Q_OBJECT
 public:
-    explicit MockSystemUtils(QObject *parent = nullptr) : QObject(parent) {
+    explicit MockSystemUtils(QObject *parent = nullptr) : QObject(parent), m_deleteGameCalled(false) {
         setProperty("mock", true);
     }
+    
+    Q_INVOKABLE bool wasDeleteGameCalled() const { return m_deleteGameCalled; }
 
     Q_INVOKABLE QVariantMap getStorageSpace(const QString &path) {
         Q_UNUSED(path)
@@ -29,7 +31,11 @@ public:
     Q_INVOKABLE void deleteGame(const QString &path, bool isSource) {
         Q_UNUSED(path)
         Q_UNUSED(isSource)
+        m_deleteGameCalled = true;
     }
+
+private:
+    bool m_deleteGameCalled;
 };
 
 class MockSwissLibraryService : public QObject {
@@ -233,6 +239,65 @@ signals:
     void batchArtDownloadProgress(int current, int total);
 };
 
+class MockDreamcastLibraryService : public QObject {
+    Q_OBJECT
+    Q_PROPERTY(bool importGameCalled READ importGameCalled NOTIFY importGameCalledChanged)
+public:
+    explicit MockDreamcastLibraryService(QObject *parent = nullptr) : QObject(parent), m_importGameCalled(false), m_installMenuCalled(false), m_syncCheatsCalled(false) {}
+
+    bool importGameCalled() const { return m_importGameCalled; }
+    Q_INVOKABLE bool wasInstallMenuCalled() const { return m_installMenuCalled; }
+    Q_INVOKABLE bool wasSyncCheatsCalled() const { return m_syncCheatsCalled; }
+
+    Q_INVOKABLE QVariantMap checkDreamcastFolder(const QString &cleanPath) {
+        Q_UNUSED(cleanPath)
+        QVariantMap map;
+        map["isValid"] = true;
+        map["isFormatCorrect"] = true;
+        map["isPartitionCorrect"] = true;
+        map["hasOpenMenuDb"] = true;
+        return map;
+    }
+    Q_INVOKABLE void startInstallMenuAsync(const QString &cleanPath) { Q_UNUSED(cleanPath) m_installMenuCalled = true; }
+    Q_INVOKABLE void startInstallMenuDbAsync(const QString &cleanPath) { Q_UNUSED(cleanPath) }
+    Q_INVOKABLE void checkOpenMenuUpdateAsync(const QString &cleanPath) { Q_UNUSED(cleanPath) }
+    Q_INVOKABLE void scanExternalFilesAsync(const QStringList &urls, bool flag) { Q_UNUSED(urls) Q_UNUSED(flag) }
+    Q_INVOKABLE void startGetGamesFilesAsync(const QString &path) { Q_UNUSED(path) }
+    Q_INVOKABLE QVariantMap tryDetermineGameIdFromHex(const QString &path) { 
+        Q_UNUSED(path) 
+        QVariantMap map; map["success"] = true; map["gameId"] = "T-12345"; return map; 
+    }
+    Q_INVOKABLE void startDownloadArtAsync(const QString &artFolder, const QString &id, const QString &path) {
+        Q_UNUSED(artFolder) Q_UNUSED(id) Q_UNUSED(path)
+    }
+    Q_INVOKABLE void startImportGameAsync(const QStringList &sourcePaths, const QString &targetLibraryRoot) {
+        Q_UNUSED(sourcePaths)
+        Q_UNUSED(targetLibraryRoot)
+        m_importGameCalled = true;
+        emit importGameCalledChanged();
+    }
+    Q_INVOKABLE void cancelAllImports() {}
+    Q_INVOKABLE void resetCancelFlag() {}
+    Q_INVOKABLE QString urlToLocalFile(const QString &url) { return url; }
+    
+    Q_INVOKABLE void startSyncCheatsAsync(const QString &path) { 
+        Q_UNUSED(path) 
+        m_syncCheatsCalled = true;
+    }
+
+    Q_INVOKABLE bool wasImportGameCalled() const {
+        return m_importGameCalled;
+    }
+
+signals:
+    void importGameCalledChanged();
+
+private:
+    bool m_importGameCalled;
+    bool m_installMenuCalled;
+    bool m_syncCheatsCalled;
+};
+
 class TestSetup : public QObject {
     Q_OBJECT
 public:
@@ -254,6 +319,9 @@ public slots:
         
         QObject* translationMock = new MockTranslationManager(engine);
         engine->rootContext()->setContextProperty("translationManager", translationMock);
+        
+        QObject* dreamcastMock = new MockDreamcastLibraryService(engine);
+        engine->rootContext()->setContextProperty("dreamcastLibraryService", dreamcastMock);
     }
 };
 

@@ -645,6 +645,11 @@ Rectangle {
                 onClicked: formatErrorPopup.close()
             }
         }
+        onClosed: {
+            if (mainWindow.currentLibraryPath === "") {
+                requestBack()
+            }
+        }
     }
 
     // --- OPL 1.2.0+ Compatibility Warning Popup ---

@@ -4,7 +4,7 @@
 #include <QFile>
 #include <QProcess>
 #include "../../src-cpp/platforms/dreamcast/dreamcast_library_service.h"
-#include "../../src-cpp/platforms/dreamcast/openmenu_dat_manager.h"
+#include "../../src-cpp/platforms/dreamcast/ArtNDataUtils/openmenu_dat_manager.h"
 
 class TestDreamcastLibraryService : public QObject {
     Q_OBJECT
@@ -19,6 +19,7 @@ private slots:
     void testOpenMenuParser();
     void testMultiDiscImportSorting();
     void testMultiDiscLibraryAggregation();
+    void testBuildAndDeployMenuGdromTransientAssets();
 };
 
 void TestDreamcastLibraryService::testCheckDreamcastFolder() {
@@ -239,6 +240,39 @@ void TestDreamcastLibraryService::testMultiDiscLibraryAggregation() {
     QVERIFY(group.contains("discs"));
     QVariantList discs = group["discs"].toList();
     QCOMPARE(discs.size(), 2);
+}
+
+void TestDreamcastLibraryService::testBuildAndDeployMenuGdromTransientAssets() {
+    DreamcastLibraryService service;
+    QTemporaryDir dir;
+    QVERIFY(dir.isValid());
+
+    QString rootPath = dir.path();
+    
+    // First run (e.g. menu generation)
+    bool result = service.buildAndDeployMenuGdrom(rootPath);
+    QVERIFY(result);
+    
+    // Ensure track01, track03, track05 were created
+    QVERIFY(QFile::exists(rootPath + "/01/track01.iso"));
+    QVERIFY(QFile::exists(rootPath + "/01/track03.iso"));
+    QVERIFY(QFile::exists(rootPath + "/01/track05.iso"));
+    
+    // Ensure transient files were nuked from menu_data on FAT32
+    QVERIFY(!QFile::exists(rootPath + "/01/menu_data/1ST_READ.BIN"));
+    QVERIFY(!QDir(rootPath + "/01/menu_data/theme").exists());
+    QVERIFY(!QFile::exists(rootPath + "/01/menu_data/OPENMENU.INI"));
+    
+    // Second run (simulate adding a game)
+    // The ISO builder should re-copy the base assets from QRC and successfully rebuild
+    bool result2 = service.buildAndDeployMenuGdrom(rootPath);
+    QVERIFY(result2);
+    
+    // If the QRC assets were present, track03.iso would be > 60KB. 
+    // In the test runner environment without QRC compiled, it will only contain OPENMENU.INI (~43KB).
+    // We check that track03 is successfully generated and holds the bare minimum valid ISO geometry.
+    QFileInfo t03Info(rootPath + "/01/track03.iso");
+    QVERIFY(t03Info.size() > 30000); 
 }
 
 QTEST_MAIN(TestDreamcastLibraryService)
