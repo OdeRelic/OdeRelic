@@ -8,6 +8,7 @@
 #include <QtEndian>
 #include <QQueue>
 #include <QSet>
+#define LIBARCHIVE_STATIC
 #include <archive.h>
 #include <archive_entry.h>
 
