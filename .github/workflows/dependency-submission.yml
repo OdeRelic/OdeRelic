@@ -1,0 +1,33 @@
+name: Advanced Security Dependency Submission
+
+on:
+  push:
+    branches: [ "main", "master" ]
+  pull_request:
+    branches: [ "main", "master" ]
+
+# Explicitly grant the write token required for GitHub's native Dependency Graph API
+permissions:
+  contents: write
+
+jobs:
+  submit-dependencies:
+    name: Submit CMake Layout
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Qt Toolkit
+        uses: jurplel/install-qt-action@v3
+        with:
+          version: '6.5.0'
+          target: 'desktop'
+
+      - name: Formulate CMake Topology
+        run: cmake -B build -S . -DCMAKE_BUILD_TYPE=Release
+
+      - name: Submit to GitHub Native Dependency API
+        uses: philips-forks/cmake-dependency-submission@v1
+        with:
+          # Targets the generated topology directly bypassing basic glob matching natively
+          cmake-build-dir: build
