@@ -240,3 +240,11 @@ target_compile_definitions(OdeRelicUITests PRIVATE
     QUICK_TEST_SOURCE_DIR="${CMAKE_CURRENT_SOURCE_DIR}/qml"
 )
 add_test(NAME OdeRelicUITests COMMAND OdeRelicUITests)
+
+# Packaging/Installation Verification Test
+add_test(NAME ValidateResourcesInstallation
+    COMMAND ${CMAKE_COMMAND}
+        -DSOURCE_DIR=${CMAKE_SOURCE_DIR}
+        -DBINARY_DIR=${CMAKE_BINARY_DIR}
+        -P ${CMAKE_CURRENT_SOURCE_DIR}/verify_resources.cmake
+)

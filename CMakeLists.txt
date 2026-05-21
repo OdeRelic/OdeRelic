@@ -146,6 +146,12 @@ install(TARGETS OdeRelic
     RUNTIME DESTINATION bin
 )
 
+if(APPLE)
+    install(DIRECTORY resources DESTINATION OdeRelic.app/Contents)
+else()
+    install(DIRECTORY resources DESTINATION .)
+endif()
+
 set(CPACK_PACKAGE_NAME "OdeRelic")
 set(CPACK_PACKAGE_VENDOR "OdeRelic")
 set(CPACK_PACKAGE_DESCRIPTION_SUMMARY "OdeRelic native runtime")
