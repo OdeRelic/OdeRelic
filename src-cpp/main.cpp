@@ -9,7 +9,7 @@
 #include <QDebug>
 #include <QDir>
 #include <QFileInfo>
-#include <QGuiApplication>
+#include <QApplication>
 #include <QIcon>
 #include <QQmlApplicationEngine>
 #include <QQmlContext>
@@ -22,7 +22,7 @@ int main(int argc, char *argv[]) {
 #endif
 
   qputenv("QT_QUICK_CONTROLS_STYLE", "Basic");
-  QGuiApplication app(argc, argv);
+  QApplication app(argc, argv);
   app.setWindowIcon(QIcon(":/app_icon.png"));
   app.setApplicationName("OdeRelic");
   app.setOrganizationName("OdeRelic");
