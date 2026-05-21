@@ -9,7 +9,7 @@ set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTORCC ON)
 set(CMAKE_AUTOUIC ON)
 
-find_package(Qt6 COMPONENTS Core Gui Qml Quick QuickTest Network Test LinguistTools Concurrent REQUIRED)
+find_package(Qt6 COMPONENTS Core Gui Qml Quick QuickTest Network Test LinguistTools Concurrent Widgets REQUIRED)
 
 include(FetchContent)
 FetchContent_Declare(
@@ -115,6 +115,7 @@ target_link_libraries(OdeRelic PRIVATE
     Qt6::Quick
     Qt6::Network
     Qt6::Concurrent
+    Qt6::Widgets
 )
 
 target_link_libraries(OdeRelic PRIVATE libzstd_static archive_static)
